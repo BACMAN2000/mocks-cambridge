@@ -1,0 +1,1870 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>MOCKS CAMBRIDGE — Listening (A2 · B1 · B2 · C1)</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" defer></script>
+<!-- Auto-version: always load the latest deployed version without clearing cache. -->
+<script>
+(function(){
+  try{
+    var params = new URLSearchParams(location.search);
+    var loadedV = params.get('v');
+    fetch('version.json?t=' + Date.now(), {cache:'no-store'})
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(data){
+        if(!data || !data.version) return;
+        if(loadedV !== data.version){
+          params.set('v', data.version);
+          location.replace(location.pathname + '?' + params.toString() + location.hash);
+        }
+      })
+      .catch(function(){});
+  }catch(e){}
+})();
+</script>
+<style>
+  :root{
+    --bg:#0f172a; --card:#fff; --ink:#0f172a; --muted:#475569;
+    --brand:#0ea5e9; --ok:#16a34a; --bad:#dc2626; --warn:#f59e0b;
+    --line:#e2e8f0; --soft:#f1f5f9;
+    --shadow:0 8px 24px rgba(15,23,42,.08), 0 2px 6px rgba(15,23,42,.06);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    font:15px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink); background:linear-gradient(180deg,#eef2ff 0%,#f8fafc 60%,#fff 100%);
+    min-height:100vh;
+  }
+  header{
+    background:#0b1220; color:#fff; padding:14px 18px; display:flex; align-items:center; gap:12px;
+    box-shadow:var(--shadow); position:sticky; top:0; z-index:10;
+  }
+  header .logo{font-weight:800; letter-spacing:.3px}
+  header .sub{color:#9ca3af; font-size:13px}
+  main{max-width:880px; margin:0 auto; padding:18px}
+  .card{
+    background:var(--card); border:1px solid var(--line); border-radius:14px;
+    padding:18px; box-shadow:var(--shadow); margin-bottom:16px;
+  }
+  h1{font-size:22px; margin:0 0 6px}
+  h2{font-size:17px; margin:0 0 10px}
+  h3{font-size:15px; margin:0 0 8px; color:var(--muted)}
+  label{display:block; font-size:13px; color:var(--muted); margin-bottom:4px}
+  input[type=text]{
+    width:100%; padding:10px 12px; border:1px solid var(--line); border-radius:10px;
+    font:inherit; background:#fff;
+  }
+  .row{display:flex; gap:10px; flex-wrap:wrap}
+  .row > *{flex:1 1 220px}
+  .levels{display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:10px; margin-top:10px}
+  .level{
+    border:2px solid var(--line); border-radius:14px; padding:14px; cursor:pointer; background:#fff;
+    transition:all .15s ease; text-align:center;
+  }
+  .level:hover{border-color:var(--brand); transform:translateY(-1px)}
+  .level .tag{font-weight:800; font-size:22px}
+  .level .name{color:var(--muted); margin-top:4px; font-size:13px}
+  .level .cef{font-size:11px; color:#64748b; margin-top:2px}
+  .btn{
+    appearance:none; border:0; border-radius:10px; padding:11px 16px; font:inherit; font-weight:700;
+    background:var(--brand); color:#fff; cursor:pointer; box-shadow:var(--shadow);
+  }
+  .btn.secondary{background:#fff; color:var(--brand); border:2px solid var(--brand)}
+  .btn.ghost{background:transparent; color:var(--muted); box-shadow:none}
+  .btn.small{padding:6px 10px; font-size:13px}
+  .btn:disabled{opacity:.6; cursor:not-allowed}
+  .audioblock{background:var(--soft); border-radius:12px; padding:12px; margin:10px 0}
+  audio{width:100%; margin-top:6px}
+  .tts-controls{display:flex; gap:8px; align-items:center; flex-wrap:wrap}
+  .tts-status{font-size:13px; color:var(--muted); margin-top:6px}
+  .speed{display:flex; align-items:center; gap:8px; font-size:12px; color:var(--muted)}
+  .speed input{width:120px}
+  .q{padding:14px 0; border-top:1px solid var(--line)}
+  .q:first-child{border-top:0}
+  /* ===== Inspera-style shell (matches Reading/Writing) ===== */
+  body.exam-mode > header{display:none}
+  .ins-shell{position:fixed; inset:0; display:flex; flex-direction:column; background:#fff; z-index:50}
+  .ins-hdr{display:flex; align-items:center; gap:16px; padding:10px 20px; border-bottom:1px solid #cbd5e1; background:#fff; flex-shrink:0}
+  .ins-hdr .ins-brand img{height:32px; width:auto; display:block}
+  .ins-hdr .ins-cand{font-size:.9rem; color:#64748b}
+  .ins-hdr .ins-right{margin-left:auto; display:flex; align-items:center; gap:10px}
+  .ins-audio{font-size:.85rem; color:#0f766e; font-weight:700}
+  .ins-hdr button{background:#fff; color:#475569; border:1px solid #cbd5e1; padding:7px 14px; border-radius:8px; font-weight:600; cursor:pointer; font-size:.85rem}
+  .ins-hdr button.ins-fin{background:#4987c6; color:#fff; border-color:#4987c6}
+  .ins-main{flex:1; overflow-y:auto; padding:18px 22px 28px}
+  .ins-inner{max-width:1000px; margin:0 auto}
+  .ins-title h1{font-size:1.3rem; margin:0 0 10px; color:#0f172a}
+  .ins-pane{display:none}
+  .ins-pane.active{display:block}
+  .ins-instr{background:#fff; border:1px solid #cbd5e1; border-radius:10px; padding:14px 18px; margin:8px 0 14px}
+  .ins-instr strong{display:block; color:#0f172a; font-size:1rem; margin-bottom:4px}
+  .ins-instr p{margin:0; color:#475569; font-size:.92rem}
+  .ins-player{background:#f1f5f9; border:1px solid #e2e8f0; border-radius:10px; padding:12px 14px; margin-bottom:14px}
+  .ins-ftr{display:flex; align-items:stretch; gap:8px; border-top:1px solid #cbd5e1; padding:8px 14px; background:#fff; overflow-x:auto; flex-shrink:0}
+  .ins-tabs{display:flex; gap:6px; flex:1}
+  .ins-tab{padding:8px 14px; border:1px solid #e2e8f0; border-radius:8px; background:#f1f5f9; cursor:pointer; min-width:92px; text-align:center; flex-shrink:0; display:flex; flex-direction:column; gap:3px}
+  .ins-tab .tn{font-weight:700; font-size:.82rem; color:#0f172a}
+  .ins-tab .tp{font-size:.76rem; color:#64748b}
+  .ins-tab.active{background:#fff; border-color:#4987c6; box-shadow:0 0 0 2px #d1d2ea}
+  .ins-tab.active .tn{color:#4987c6}
+  .ins-tab .tq{display:none; gap:4px; justify-content:center; flex-wrap:wrap; margin-top:2px}
+  .ins-tab.active .tq{display:flex}
+  .ins-tab.active .tp{display:none}
+  .lqn{width:26px; height:26px; display:inline-flex; align-items:center; justify-content:center; border:1px solid #cbd5e1; border-radius:5px; background:#fff; color:#475569; font-size:.78rem; font-weight:700; cursor:pointer; padding:0}
+  .lqn:hover{border-color:#4987c6; color:#4987c6}
+  .lqn.done{background:#4987c6; border-color:#4987c6; color:#fff}
+  .lqn.cur{box-shadow:0 0 0 2px #d1d2ea; border-color:#4987c6}
+  .ins-arrows{display:flex; gap:6px; align-items:center; padding-left:8px; border-left:1px solid #e2e8f0}
+  .ins-arrows button{background:#4987c6; color:#fff; border:none; padding:9px 16px; border-radius:8px; font-weight:700; cursor:pointer; min-width:46px}
+  .ins-arrows button:disabled{background:#cbd5e1; cursor:not-allowed}
+  .ins-content .q{background:#fafafa; border:1px solid #e2e8f0; border-radius:10px; padding:14px 18px; margin:12px 0; border-top:1px solid #e2e8f0}
+  .ins-content .paged-q{display:none}
+  .ins-content .paged-q.show{display:block}
+  .q-audio{margin:0 0 12px}
+  .q-audio audio{width:100%}
+  .q-flash{animation:lqflash 1.2s ease}
+  @keyframes lqflash{0%{box-shadow:0 0 0 3px #fcd34d}100%{box-shadow:0 0 0 3px transparent}}
+  /* ===== Sign-in / level screens (match Reading/Writing) ===== */
+  body.signin-mode > header{display:none}
+  body.signin-mode{background:linear-gradient(180deg,#dfe3f7 0%,#eef1fb 35%,#f4f6fb 100%)}
+  .signin-wrap{max-width:780px; margin:0 auto; padding:48px 22px}
+  .signin-wrap .crumb{color:#64748b; font-size:14px; margin-bottom:10px}
+  .signin-wrap h1{font-size:2rem; margin:0 0 6px; color:#0f172a}
+  .signin-wrap .sub{color:#475569; margin:0 0 22px; font-size:1.05rem; line-height:1.5}
+  .signin-card{background:#fff; border-radius:16px; box-shadow:0 24px 60px rgba(15,23,42,.12); padding:28px 30px}
+  .signin-card label{display:block; font-weight:700; color:#0f172a; font-size:.95rem; margin:16px 0 6px}
+  .signin-card label:first-child{margin-top:0}
+  .signin-card input{width:100%; padding:13px 14px; border:1px solid #e2e8f0; border-radius:10px; font:inherit; font-size:1rem; background:#fff}
+  .signin-card input:focus{outline:none; border-color:#4987c6; box-shadow:0 0 0 3px #d1d2ea}
+  .signin-actions{display:flex; gap:12px; margin-top:22px; flex-wrap:wrap}
+  .signin-actions button, .signin-actions a{font:inherit; font-weight:700; padding:13px 22px; border-radius:10px; cursor:pointer; text-decoration:none; display:inline-flex; align-items:center; justify-content:center; border:1px solid transparent}
+  .signin-actions .primary{background:#4987c6; color:#fff}
+  .signin-actions .secondary2{background:#fff; color:#0f172a; border-color:#cbd5e1}
+  .level-pick{max-width:780px; margin:0 auto; padding:34px 22px}
+  .level-pick h1{font-size:1.7rem; margin:0 0 4px; color:#0f172a}
+  .level-pick .sub{color:#475569; margin:0 0 18px}
+  /* ===== Results screen (match Reading/Writing report) ===== */
+  body.result-mode > header{display:none}
+  body.result-mode{background:linear-gradient(180deg,#dfe3f7 0%,#eef1fb 35%,#f4f6fb 100%)}
+  .res-wrap{max-width:900px; margin:0 auto; padding:34px 22px}
+  .res-wrap .crumb{color:#64748b; font-size:14px; margin-bottom:8px}
+  .res-wrap h1{font-size:2rem; margin:0 0 4px; color:#0f172a}
+  .res-wrap .res-sub{color:#475569; margin:0 0 18px}
+  .motivation-card{background:linear-gradient(135deg,#4987c6 0%,#0ea5e9 100%); color:#fff; border-radius:18px; padding:24px; margin-bottom:18px; text-align:center; box-shadow:0 12px 30px rgba(15,23,42,.18)}
+  .motivation-card h2{color:#fff; font-size:1.4rem; margin:0 0 6px}
+  .motivation-card p{margin:6px 0; font-size:1rem; line-height:1.5; opacity:.95}
+  .pdf-actions{display:flex; gap:10px; justify-content:center; margin:8px 0 12px; flex-wrap:wrap}
+  .pdf-actions button{background:#4987c6; color:#fff; border:none; padding:12px 22px; border-radius:10px; font-weight:700; cursor:pointer; font-size:.95rem; font:inherit; font-weight:700}
+  .pdf-actions button.email{background:#0ea5e9}
+  .pdf-actions button:disabled{background:#cbd5e1; cursor:not-allowed}
+  .send-status{text-align:center; margin:6px 0 14px; color:#16a34a; font-weight:700}
+  .send-status.err{color:#dc2626}
+  #pdfTarget{background:#fff; border-radius:16px; padding:22px; box-shadow:0 12px 40px rgba(15,23,42,.10)}
+  .pdf-brand{text-align:center; padding:6px 0 12px; border-bottom:2px solid #4987c6; margin-bottom:14px}
+  .pdf-brand img{height:46px; width:auto}
+  .pdf-brand .rep{color:#64748b; font-size:.78rem; letter-spacing:1px; margin-top:4px; font-weight:700}
+  .res-grid{display:grid; grid-template-columns:1fr 1fr; gap:12px; font-size:.92rem; margin-bottom:16px}
+  @media(max-width:520px){.res-grid{grid-template-columns:1fr}}
+  .res-grid > div{padding:10px 12px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px}
+  .res-grid label{display:block; color:#64748b; font-size:.7rem; letter-spacing:.6px; text-transform:uppercase; margin-bottom:4px; font-weight:700}
+  .score-card{background:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:26px; text-align:center; margin-bottom:16px}
+  .score-card .big{font-size:3rem; font-weight:800; line-height:1}
+  .score-card .big.pass{color:#16a34a}
+  .score-card .big.fail{color:#dc2626}
+  .score-card .pct{font-size:1.2rem; color:#4987c6; font-weight:700; margin-top:2px}
+  .score-card .verdict{margin-top:8px; color:#475569}
+  .part-bar{background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:12px 16px; margin:8px 0; display:grid; grid-template-columns:1fr auto; gap:6px 14px; align-items:center}
+  .part-bar .pname{font-weight:700; color:#0f172a}
+  .part-bar .meta{font-size:.82rem; color:#64748b}
+  .part-bar .pctn{font-weight:800; font-family:Consolas,monospace}
+  .part-bar .barw{grid-column:1/-1; background:#e2e8f0; border-radius:6px; height:8px; overflow:hidden}
+  .part-bar .barf{height:100%; background:#4987c6}
+  .res-card{background:#fff; border:1px solid #e2e8f0; border-radius:14px; padding:18px; margin:14px 0}
+  .res-card h2{margin:0 0 8px; font-size:1.1rem}
+  .res-line{display:flex; justify-content:space-between; gap:10px; padding:8px 0; border-top:1px solid #f1f5f9}
+  .res-ans{font-size:.85rem; color:#64748b; padding:0 0 8px}
+  .res-ok{color:#16a34a; font-weight:700}
+  .res-bad{color:#dc2626; font-weight:700}
+  .q .stem{font-weight:600; margin-bottom:6px}
+  .q .meta{font-size:12px; color:var(--muted); margin-bottom:8px; display:flex; gap:8px; align-items:center}
+  .pill{display:inline-block; padding:2px 8px; background:#eef2ff; color:#3730a3; border-radius:999px; font-size:11px; font-weight:700}
+  .pill.tf{background:#fef3c7; color:#92400e}
+  .pill.inf{background:#dcfce7; color:#166534}
+  .pill.seq{background:#fce7f3; color:#9d174d}
+  .opts{display:grid; gap:6px}
+  .opt{
+    display:flex; gap:10px; align-items:flex-start; padding:9px 12px; border:1px solid var(--line);
+    border-radius:10px; cursor:pointer; background:#fff;
+  }
+  .opt:hover{background:var(--soft)}
+  .opt input{margin-top:3px}
+  /* Part 1 picture options (choose the correct image) */
+  .pic-opts{display:grid; grid-template-columns:repeat(3,1fr); gap:10px}
+  .pic-opt{flex-direction:column; align-items:center; gap:8px; text-align:center}
+  .pic-opt .pic{display:block; width:100%}
+  .pic-opt .pic svg{width:100%; height:auto; background:#fff; border-radius:8px}
+  @media(max-width:560px){.pic-opts{grid-template-columns:1fr}}
+  /* Gap-fill input + matching select */
+  .gapinput{width:100%; max-width:340px; padding:9px 12px; border:1px solid var(--line); border-radius:10px; font-size:1rem}
+  .matchsel{padding:9px 12px; border:1px solid var(--line); border-radius:10px; font-size:1rem; min-width:200px}
+  .seqlist{display:grid; gap:6px}
+  .seqitem{display:flex; gap:10px; align-items:center; padding:8px 10px; border:1px solid var(--line); border-radius:10px; background:#fff}
+  .seqitem select{padding:6px 10px; border:1px solid var(--line); border-radius:8px; font:inherit}
+  .progress{height:8px; background:var(--soft); border-radius:999px; overflow:hidden; margin:6px 0}
+  .progress > div{height:100%; background:linear-gradient(90deg,var(--brand),#22d3ee); width:0%}
+  .toolbar{display:flex; gap:8px; flex-wrap:wrap; margin-top:10px}
+  .score{font-size:32px; font-weight:800}
+  .score .ok{color:var(--ok)}
+  .score .bad{color:var(--bad)}
+  .footer{color:var(--muted); font-size:12px; text-align:center; padding:12px 0 32px}
+  .right{text-align:right}
+  details summary{cursor:pointer; font-weight:700; padding:6px 0}
+  .reveal{background:#f8fafc; padding:10px; border-radius:8px; margin-top:6px; font-size:13px}
+  .reveal.correct{background:#dcfce7; color:#166534}
+  .reveal.wrong{background:#fee2e2; color:#991b1b}
+  .badge-level{padding:4px 10px; background:#0ea5e9; color:#fff; border-radius:999px; font-size:12px; font-weight:700}
+  .warn{background:#fef9c3; border:1px solid #fde68a; padding:10px; border-radius:10px; color:#92400e; font-size:13px}
+  .hint{font-size:12px; color:var(--muted); margin-top:4px}
+  .seg-list{display:flex; gap:6px; flex-wrap:wrap; margin-top:8px}
+  .seg{padding:4px 10px; border-radius:999px; background:#fff; border:1px solid var(--line); font-size:12px; color:var(--muted)}
+  .seg.playing{background:#0ea5e9; color:#fff; border-color:#0ea5e9}
+  .seg.done{background:#dcfce7; color:#166534; border-color:#86efac}
+  @media (max-width:520px){
+    main{padding:12px}
+    .card{padding:14px}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">🎧 MOCKS CAMBRIDGE · Listening</div>
+  <div class="sub">NIS English · A2 / B1 / B2 / C1</div>
+  <div style="margin-left:auto" id="hdrRight"></div>
+</header>
+<main id="app"></main>
+
+<script>
+/* ========================================================================
+   CONFIG
+   ======================================================================== */
+const CONFIG = {
+  AUDIO_BASE: "./mp3/",                // for B2 / C1 mp3 files
+  APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbyuPQ2jpb7OxrPgtb5JWUs8bnea3XdnNkKBd9nEV7grSCuvlE8X7JTTnW6RUFLU64iSTg/exec",
+  TEACHER_EMAIL: "paolobaca2000@gmail.com",
+  CLASS_LABEL: "NIS English 2026"
+};
+
+/* ========================================================================
+   QUIZ DATA — 4 levels × 40 questions (=160 total)
+
+   A2 & B1: TTS playback (browser voice) of Cambridge-calibrated scripts.
+            KET = A2 official, PET = B1 official. No mp3 file needed.
+   B2 & C1: real TOEFL mp3 audio files in ./mp3/
+   ======================================================================== */
+
+/* Simple original SVG icons for A2/B1 Part 1 "choose the picture" questions.
+   Self-contained (no external/licensed images). Swap for nicer art anytime. */
+const LPIC_WRAP = (inner) => `<svg viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg" stroke="#1f2937" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">${inner}</svg>`;
+function clockFace_(hx, hy, mx, my){ return LPIC_WRAP(`<circle cx="60" cy="50" r="34"/><circle cx="60" cy="50" r="2.5" fill="#1f2937"/><line x1="60" y1="50" x2="${hx}" y2="${hy}"/><line x1="60" y1="50" x2="${mx}" y2="${my}"/>`); }
+const LPICS = {
+  book:    LPIC_WRAP(`<path d="M30 28 q30 -8 60 0 v44 q-30 -8 -60 0 z"/><line x1="60" y1="24" x2="60" y2="72"/>`),
+  ball:    LPIC_WRAP(`<circle cx="60" cy="52" r="26"/><path d="M40 44 q20 12 40 0"/><path d="M44 66 q16 -10 32 0"/>`),
+  cake:    LPIC_WRAP(`<rect x="36" y="46" width="48" height="28" rx="3"/><path d="M36 56 q12 8 24 0 q12 8 24 0"/><line x1="60" y1="30" x2="60" y2="46"/><circle cx="60" cy="28" r="3" fill="#f59e0b" stroke="none"/>`),
+  park:    LPIC_WRAP(`<line x1="20" y1="78" x2="100" y2="78"/><polygon points="42,40 30,66 54,66" fill="#dcfce7"/><line x1="42" y1="66" x2="42" y2="78"/><circle cx="78" cy="44" r="12" fill="#dcfce7"/><line x1="78" y1="56" x2="78" y2="78"/>`),
+  cafe:    LPIC_WRAP(`<path d="M38 46 h34 v14 a17 17 0 0 1 -34 0 z"/><path d="M72 50 h8 a6 6 0 0 1 0 12 h-8"/><line x1="44" y1="34" x2="44" y2="42"/><line x1="56" y1="34" x2="56" y2="42"/>`),
+  library: LPIC_WRAP(`<rect x="34" y="34" width="9" height="40"/><rect x="45" y="34" width="9" height="40"/><rect x="58" y="38" width="9" height="36"/><rect x="70" y="34" width="14" height="40"/><line x1="72" y1="34" x2="78" y2="40"/>`),
+  sunny:   LPIC_WRAP(`<circle cx="60" cy="50" r="16" fill="#fde68a"/><g><line x1="60" y1="20" x2="60" y2="28"/><line x1="60" y1="72" x2="60" y2="80"/><line x1="30" y1="50" x2="38" y2="50"/><line x1="82" y1="50" x2="90" y2="50"/><line x1="39" y1="29" x2="44" y2="34"/><line x1="76" y1="66" x2="81" y2="71"/><line x1="81" y1="29" x2="76" y2="34"/><line x1="44" y1="66" x2="39" y2="71"/></g>`),
+  rainy:   LPIC_WRAP(`<path d="M40 50 a14 14 0 0 1 28 -4 a11 11 0 0 1 4 21 h-30 a11 11 0 0 1 -2 -17" fill="#e0f2fe"/><line x1="44" y1="74" x2="40" y2="84"/><line x1="58" y1="74" x2="54" y2="84"/><line x1="72" y1="74" x2="68" y2="84"/>`),
+  snowy:   LPIC_WRAP(`<path d="M40 50 a14 14 0 0 1 28 -4 a11 11 0 0 1 4 21 h-30 a11 11 0 0 1 -2 -17" fill="#eef6ff"/><circle cx="44" cy="80" r="2" fill="#1f2937" stroke="none"/><circle cx="58" cy="80" r="2" fill="#1f2937" stroke="none"/><circle cx="72" cy="80" r="2" fill="#1f2937" stroke="none"/>`),
+  keys:    LPIC_WRAP(`<circle cx="46" cy="44" r="12"/><line x1="54" y1="52" x2="80" y2="78"/><line x1="70" y1="68" x2="78" y2="60"/><line x1="76" y1="74" x2="84" y2="66"/>`),
+  phone:   LPIC_WRAP(`<rect x="46" y="26" width="28" height="48" rx="5"/><line x1="46" y1="36" x2="74" y2="36"/><line x1="46" y1="64" x2="74" y2="64"/><circle cx="60" cy="69" r="1.6" fill="#1f2937" stroke="none"/>`),
+  umbrella:LPIC_WRAP(`<path d="M34 52 a26 26 0 0 1 52 0 z" fill="#e0f2fe"/><line x1="60" y1="52" x2="60" y2="80"/><path d="M60 80 q0 8 8 8"/>`),
+  clock8:   clockFace_(60, 32, 42, 60),   // ~8:00
+  clock830: clockFace_(48, 50, 60, 72),   // ~8:30
+  clock9:   clockFace_(60, 32, 78, 50),   // ~9:00
+  sandwich: LPIC_WRAP(`<polygon points="34,64 60,40 86,64" fill="#fde68a"/><rect x="34" y="64" width="52" height="8" fill="#fcd34d"/><path d="M42 60 q18 -8 36 0" stroke="#16a34a"/>`),
+  pizza:    LPIC_WRAP(`<path d="M60 26 L86 74 H34 Z" fill="#fde68a"/><circle cx="55" cy="58" r="3" fill="#dc2626" stroke="none"/><circle cx="66" cy="60" r="3" fill="#dc2626" stroke="none"/><circle cx="60" cy="48" r="3" fill="#dc2626" stroke="none"/>`),
+  bus:      LPIC_WRAP(`<rect x="26" y="36" width="68" height="34" rx="6" fill="#e0f2fe"/><line x1="26" y1="50" x2="94" y2="50"/><rect x="32" y="40" width="14" height="8"/><rect x="52" y="40" width="14" height="8"/><rect x="72" y="40" width="14" height="8"/><circle cx="40" cy="74" r="5"/><circle cx="80" cy="74" r="5"/>`),
+  bike:     LPIC_WRAP(`<circle cx="40" cy="62" r="14"/><circle cx="82" cy="62" r="14"/><path d="M40 62 L58 42 H72 M58 42 L70 62 M58 42 L40 62"/><line x1="50" y1="42" x2="66" y2="42"/>`),
+  car:      LPIC_WRAP(`<path d="M28 64 L34 48 H86 L92 64 Z" fill="#e0f2fe"/><rect x="40" y="50" width="16" height="12"/><rect x="62" y="50" width="16" height="12"/><circle cx="42" cy="68" r="6"/><circle cx="80" cy="68" r="6"/>`),
+  camera:   LPIC_WRAP(`<rect x="30" y="40" width="60" height="38" rx="5"/><rect x="46" y="34" width="20" height="8"/><circle cx="60" cy="59" r="13"/><circle cx="60" cy="59" r="6"/>`),
+  guitar:   LPIC_WRAP(`<circle cx="50" cy="64" r="18"/><circle cx="50" cy="64" r="6"/><line x1="62" y1="52" x2="88" y2="26"/><line x1="66" y1="56" x2="92" y2="30"/><rect x="84" y="22" width="10" height="10" transform="rotate(45 89 27)"/>`),
+  bag:      LPIC_WRAP(`<rect x="36" y="44" width="48" height="40" rx="5" fill="#e0f2fe"/><path d="M48 44 v-6 a12 12 0 0 1 24 0 v6"/><line x1="36" y1="58" x2="84" y2="58"/>`),
+  hat:      LPIC_WRAP(`<path d="M30 66 q30 -10 60 0" /><path d="M44 64 q16 -34 32 0" fill="#e0f2fe"/><path d="M44 56 q16 -10 32 0"/>`)
+};
+// Normalize a free-text gap answer for comparison
+function gapNorm_(s){ return String(s == null ? '' : s).toLowerCase().trim().replace(/[.,;:!?'"]/g, '').replace(/\s+/g, ' '); }
+
+const QUIZ = {
+
+  /* ---------------- A2 — Cambridge KET (A2-calibrated) ---------------- */
+  A2: {
+    label: "A2 — Elementary",
+    cefr: "Cambridge KET · A2 official format",
+    blurb: "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+    audios: [
+      {
+        id: "A2-P1", title: "Part 1 · Questions 1–5", kind: "file", paged: true,
+        intro: "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+        segments: ["A birthday present","Meeting on Saturday","The weather","A lost thing","The film time"],
+        scripts: [
+          "Question one. Girl: What did you get Mum for her birthday? Boy: I wanted to buy her a book, but in the end I made her a chocolate cake. She loved it.",
+          "Question two. Boy: Shall we meet at the café on Saturday? Girl: It's a lovely day — let's meet in the park instead. Boy: OK, the park it is.",
+          "Question three. Woman: Do you want to walk to the shops? Man: Have you looked outside? It's raining really hard. Woman: Oh, then let's wait.",
+          "Question four. Mum: What's the matter? Girl: I can't find my phone anywhere. I think I left it on the bus. Mum: Don't worry, we'll call it.",
+          "Question five. Boy: What time does the film start? Girl: At half past eight, not eight o'clock. Boy: Good, then we have time for dinner first."
+        ],
+        questions: [
+          {type:"pic", q:"What did the boy give his mum?", imgs:["book","ball","cake"], c:2, audio:"A2/A2-P1-q1.mp3"},
+          {type:"pic", q:"Where will they meet on Saturday?", imgs:["park","cafe","library"], c:0, audio:"A2/A2-P1-q2.mp3"},
+          {type:"pic", q:"What's the weather like now?", imgs:["sunny","rainy","snowy"], c:1, audio:"A2/A2-P1-q3.mp3"},
+          {type:"pic", q:"What did the girl lose?", imgs:["keys","phone","umbrella"], c:1, audio:"A2/A2-P1-q4.mp3"},
+          {type:"pic", q:"What time does the film start?", imgs:["clock8","clock830","clock9"], c:1, audio:"A2/A2-P1-q5.mp3"}
+        ]
+      },
+      {
+        id: "A2-P2", title: "Part 2 · Questions 6–10", kind: "file", file: "A2/A2-P2.mp3",
+        intro: "You will hear a teacher telling students about a class trip. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+        scripts: [
+          "Listen to your teacher talking about the class trip. Teacher: Here are the details for our class trip to the city farm. The trip costs eight pounds. Please give your money to Mr Davies before Wednesday. We will leave school at nine o'clock in the morning, so don't be late. We are going to travel by train. Everyone must bring a packed lunch, and please wear warm clothes."
+        ],
+        gapTitle: "Class Trip to the City Farm",
+        questions: [
+          {type:"gap", label:"Cost of trip: £ ____", accept:["8","eight"]},
+          {type:"gap", label:"Give money to: Mr ____", accept:["davies"]},
+          {type:"gap", label:"Leave school at: ____ a.m.", accept:["9","nine","9:00","9.00","9 o'clock","nine o'clock"]},
+          {type:"gap", label:"Travel by: ____", accept:["train","the train"]},
+          {type:"gap", label:"Bring: a packed ____", accept:["lunch"]}
+        ]
+      },
+      {
+        id: "A2-P3", title: "Part 3 · Questions 11–15", kind: "file", file: "A2/A2-P3.mp3",
+        intro: "You will hear Sara talking to her friend Leo about a trip to the beach. For each question, choose the correct answer (A, B or C).",
+        scripts: [
+          "Sara: Hi Leo, are you coming to the beach on Saturday? Leo: I'd love to, but I have a guitar lesson at ten o'clock. Maybe in the afternoon? Sara: Great, we'll go after lunch. How will you get there? Leo: My dad said he'll drive us. Sara: Perfect. Don't forget to bring sun cream — it's going to be really hot. Leo: I will. Should I bring some food too? Sara: No, my mum is making sandwiches for everyone."
+        ],
+        questions: [
+          {type:"mc", q:"When will Leo go to the beach?", o:["In the morning","In the afternoon","On Sunday"], c:1},
+          {type:"mc", q:"Why can't Leo go earlier?", o:["He has a guitar lesson","He has to work","He feels ill"], c:0},
+          {type:"mc", q:"How will they travel to the beach?", o:["By bus","By car","By bike"], c:1},
+          {type:"mc", q:"What does Sara tell Leo to bring?", o:["Some food","Sun cream","A towel"], c:1},
+          {type:"mc", q:"Who is making the food?", o:["Sara's mum","Leo's dad","Nobody"], c:0}
+        ]
+      },
+      {
+        id: "A2-P4", title: "Part 4 · Questions 16–20", kind: "file", file: "A2/A2-P4.mp3",
+        intro: "You will hear a boy called Tom talking about his swimming club. For each question, choose the correct answer (A, B or C).",
+        scripts: [
+          "Tom: I joined the swimming club three months ago. At first it was difficult because I couldn't swim very well, but my coach is really patient, and now I love it. We train on Tuesdays and Thursdays after school. The best part is meeting new friends. My parents were worried it would take too much time, but my school marks are still good. Next month there's a competition, and I'm a bit nervous, but my coach says I'm ready."
+        ],
+        questions: [
+          {type:"mc", q:"How long ago did Tom join the club?", o:["One month","Three months","One year"], c:1},
+          {type:"mc", q:"What does Tom say about the beginning?", o:["It was easy","It was difficult","It was boring"], c:1},
+          {type:"mc", q:"When does the club train?", o:["Mondays and Fridays","Tuesdays and Thursdays","Every day"], c:1},
+          {type:"mc", q:"What does Tom like best?", o:["Winning races","Meeting new friends","The warm pool"], c:1},
+          {type:"mc", q:"How does Tom feel about the competition?", o:["Very confident","A bit nervous","Not interested"], c:1}
+        ]
+      },
+      {
+        id: "A2-P5", title: "Part 5 · Questions 21–25", kind: "file", file: "A2/A2-P5.mp3",
+        intro: "You will hear Mia talking to a friend about a class party. What will each person bring? For each question, choose the correct answer.",
+        bank: ["cake","drinks","music","decorations","plates","games","balloons"],
+        scripts: [
+          "Mia: Everyone is helping with our class party. Anna is bringing the music, because she has really good speakers. Ben said he'll make a big cake. Carla is going to bring the drinks. David is great at art, so he's making the decorations. And Emma will bring some games, so nobody gets bored."
+        ],
+        questions: [
+          {type:"match", person:"Anna", c:"music"},
+          {type:"match", person:"Ben", c:"cake"},
+          {type:"match", person:"Carla", c:"drinks"},
+          {type:"match", person:"David", c:"decorations"},
+          {type:"match", person:"Emma", c:"games"}
+        ]
+      }
+    ]
+  },
+
+  /* ---------------- B1 — Cambridge PET (B1-calibrated) ---------------- */
+  B1: {
+    label: "B1 — Intermediate",
+    cefr: "Cambridge PET · B1 official format",
+    blurb: "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+    audios: [
+      {
+        id: "B1-P1", title: "Part 1 · Questions 1–7", kind: "file", paged: true,
+        intro: "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+        segments: ["Picnic food","Travel to school","The weather","A birthday wish","At the shop","Train time","A lost thing"],
+        scripts: [
+          "Question one. Boy: Are we taking pizza to the picnic on Sunday? Mum: No, I've already made sandwiches for everyone. Boy: Great, I love your sandwiches.",
+          "Question two. Girl: Are you cycling to school tomorrow, Sam? Boy: My bike has a flat tyre, so my dad's going to drive me. Girl: OK, see you there.",
+          "Question three. Woman: Shall we go for a walk this afternoon? Man: The radio says it's going to rain heavily later. Woman: Then let's just stay in.",
+          "Question four. Boy: What would you like for your birthday, Mia? Girl: I'd really love a camera. I want to take photos of the birds in our garden. Boy: Good idea.",
+          "Question five. Girl: Did you buy that book you wanted, Tom? Boy: They'd sold out, so I bought a new school bag instead. Girl: Oh well, that's useful too.",
+          "Question six. Man: What time does our train leave? Woman: At nine o'clock, not half past eight like yesterday. Man: Good, then we've got time for a coffee.",
+          "Question seven. Mum: What's the matter, Anna? Girl: I've lost my keys somewhere here in the park. Mum: Don't worry, let's go back and look for them."
+        ],
+        questions: [
+          {type:"pic", q:"What will the family take to the picnic?", imgs:["sandwich","pizza","cake"], c:0, audio:"B1/B1-P1-q1.mp3"},
+          {type:"pic", q:"How will Sam get to school tomorrow?", imgs:["bus","bike","car"], c:2, audio:"B1/B1-P1-q2.mp3"},
+          {type:"pic", q:"What will the weather be like this afternoon?", imgs:["sunny","rainy","snowy"], c:1, audio:"B1/B1-P1-q3.mp3"},
+          {type:"pic", q:"What does Mia want for her birthday?", imgs:["phone","camera","guitar"], c:1, audio:"B1/B1-P1-q4.mp3"},
+          {type:"pic", q:"What did Tom buy at the shop?", imgs:["book","bag","hat"], c:1, audio:"B1/B1-P1-q5.mp3"},
+          {type:"pic", q:"What time does the train leave?", imgs:["clock8","clock830","clock9"], c:2, audio:"B1/B1-P1-q6.mp3"},
+          {type:"pic", q:"What did Anna lose?", imgs:["keys","umbrella","phone"], c:0, audio:"B1/B1-P1-q7.mp3"}
+        ]
+      },
+      {
+        id: "B1-P2", title: "Part 2 · Questions 8–13", kind: "file", paged: true,
+        intro: "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+        segments: ["School trip","The weekend","A new café","Teacher's advice","A book","Why he's late"],
+        scripts: [
+          "You will hear a girl talking about a school trip. Girl: The museum was interesting, and lunch by the river was nice, but the best part was definitely the boat ride. I'd never been on a boat before, and the views were amazing.",
+          "You will hear a boy talking about his weekend. Boy: On Saturday I really wanted to play football, but I had a maths test on Monday, so I stayed home and studied all afternoon. I visited my grandparents on Sunday instead.",
+          "You will hear a woman talking about a new café. Woman: It's not the cheapest place in town, and it can get a bit noisy, but honestly the cakes are absolutely delicious. That's why I keep going back.",
+          "You will hear a teacher talking to a student. Teacher: Your essay is well written and you handed it in on time, well done. But your ideas need support, so I'd like you to add a few more examples before I mark it.",
+          "You will hear a girl talking about a book. Girl: I expected a happy ending, so I was completely surprised when the main character moved away. I didn't see it coming at all, but I still enjoyed it.",
+          "You will hear a man explaining why he is late. Man: I'm so sorry. I actually woke up on time, but there was a terrible accident on the main road, so the traffic was awful and I couldn't get here any faster."
+        ],
+        questions: [
+          {type:"mc", q:"What did the girl enjoy most on the school trip?", o:["The museum","The boat ride","The lunch"], c:1, audio:"B1/B1-P2-q1.mp3"},
+          {type:"mc", q:"What did the boy do on Saturday?", o:["Played football","Studied for a test","Visited his grandparents"], c:1, audio:"B1/B1-P2-q2.mp3"},
+          {type:"mc", q:"Why does the woman recommend the café?", o:["It is cheap","The cakes are delicious","It is very quiet"], c:1, audio:"B1/B1-P2-q3.mp3"},
+          {type:"mc", q:"What does the teacher want the student to do?", o:["Rewrite the essay","Hand it in earlier","Add more examples"], c:2, audio:"B1/B1-P2-q4.mp3"},
+          {type:"mc", q:"How did the girl feel about the ending?", o:["Surprised","Disappointed","Bored"], c:0, audio:"B1/B1-P2-q5.mp3"},
+          {type:"mc", q:"Why is the man late?", o:["He overslept","The traffic was bad","He missed the bus"], c:1, audio:"B1/B1-P2-q6.mp3"}
+        ]
+      },
+      {
+        id: "B1-P3", title: "Part 3 · Questions 14–19", kind: "file", file: "B1/B1-P3.mp3",
+        intro: "You will hear a student telling other students about an after-school club. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+        scripts: [
+          "Hello everyone. I'd like to tell you about our after-school Drama Club. The club meets every Thursday in the school hall — that's the big room next to the library. We start at four o'clock and finish at half past five. The cost is twenty pounds for the whole term, and that covers all of the costumes. This term, our first play is going to be a comedy, so it should be really good fun. One last thing: please remember to bring a bottle of water, because the practices can be quite tiring. We hope to see you there!"
+        ],
+        gapTitle: "After-School Drama Club",
+        questions: [
+          {type:"gap", label:"The club meets every: ____", accept:["thursday","thursdays"]},
+          {type:"gap", label:"Where: the school ____", accept:["hall"]},
+          {type:"gap", label:"Starts at: ____ o'clock", accept:["4","four"]},
+          {type:"gap", label:"Cost for the term: £ ____", accept:["20","twenty"]},
+          {type:"gap", label:"The first play is a: ____", accept:["comedy"]},
+          {type:"gap", label:"Remember to bring: a bottle of ____", accept:["water"]}
+        ]
+      },
+      {
+        id: "B1-P4", title: "Part 4 · Questions 20–25", kind: "file", file: "B1/B1-P4.mp3",
+        intro: "You will hear an interview with a young photographer called Leo. For each question, choose the correct answer (A, B or C).",
+        scripts: [
+          "Interviewer: Today I'm talking to Leo, a young photographer. Leo, how did you start? Leo: My grandfather gave me his old camera when I was eleven. At first I just took photos of my dog, but I quickly fell in love with it. Interviewer: What do you like photographing most? Leo: People often expect me to say landscapes, but actually I prefer photographing animals, especially birds — they're a real challenge. Interviewer: Is it difficult? Leo: The hardest part isn't the camera, it's the waiting. You sometimes wait hours for the perfect moment, so you need a lot of patience. Interviewer: Have you won any prizes? Leo: I won a small local competition last year, which was a surprise. It gave me the confidence to keep going. Interviewer: What advice would you give beginners? Leo: Don't buy an expensive camera at first. Just practise with what you have and learn to look carefully. Interviewer: And the future? Leo: I'd love to travel and photograph wildlife all over the world one day."
+        ],
+        questions: [
+          {type:"mc", q:"How did Leo get his first camera?", o:["He bought it himself","His grandfather gave it to him","He won it"], c:1, audio:""},
+          {type:"mc", q:"What does Leo most like to photograph?", o:["Landscapes","Animals","People"], c:1},
+          {type:"mc", q:"What does Leo say is the hardest part?", o:["Using the camera","Waiting for the right moment","Choosing a place"], c:1},
+          {type:"mc", q:"How did Leo feel about winning the competition?", o:["Surprised","Disappointed","Worried"], c:0},
+          {type:"mc", q:"What advice does Leo give beginners?", o:["Buy an expensive camera","Practise with what you have","Take a class"], c:1},
+          {type:"mc", q:"What does Leo want to do in the future?", o:["Open a shop","Photograph wildlife around the world","Teach photography"], c:1}
+        ]
+      }
+    ]
+  },
+
+  /* ---------------- B2 — TOEFL real audio (upper-intermediate) ---------------- */
+  B2: {
+    label: "B2 — Upper-Intermediate",
+    cefr: "Cambridge First (FCE) · B2 official format",
+    blurb: "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+    audios: [
+      {
+        id: "B2-P1", title: "Part 1 · Questions 1–8", kind: "file", paged: true,
+        intro: "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+        segments: ["A film","A delivery","Exam advice","A new job","A trip","A concert","A match","At a shop"],
+        scripts: [
+          "Question one. Woman: So, what did you think of the film? Man: Honestly, the actors were brilliant and it looked beautiful, but it went on far too long. By the end I just wanted it to finish.",
+          "Question two. Man: Hello, I'm calling about the table I ordered. Woman: Has it not arrived? Man: Oh, it arrived this morning, on time, but one of the legs is badly scratched. I'd like it replaced.",
+          "Question three. Teacher: Right, the exam is on Friday. I'm not going to tell you to study all night, that never helps. The most important thing is to get a good night's sleep, so you can think clearly.",
+          "Question four. Woman: How's the new job going? Girl: Everyone keeps asking if I'm nervous, but I'm not at all. I genuinely can't wait to get started. It's exactly what I've always wanted to do.",
+          "Question five. Man: Shall we go to the mountains this summer? Woman: We did that last year. I'd love to be by the sea this time. Man: You're right, let's book somewhere on the coast.",
+          "Question six. Woman: This is a reminder that Saturday's concert will now take place at the Riverside Hall, not the Town Theatre as printed on your tickets. The date and time are unchanged.",
+          "Question seven. Boy: We lost three nil. Girl: Was it the rain? Boy: No, the pitch was fine. The problem was that our best striker twisted his ankle in the first ten minutes, and after that we couldn't score.",
+          "Question eight. Woman: I bought this jacket last week, but it's too small. Assistant: Would you like a larger size? Woman: Actually, I've changed my mind about it completely, so I'd just like my money back."
+        ],
+        questions: [
+          {type:"mc", q:"What did the woman dislike about the film?", o:["The acting","The length","The way it looked"], c:1, audio:"B2/B2-P1-q1.mp3"},
+          {type:"mc", q:"What is the problem with the delivery?", o:["It arrived late","It is damaged","It is the wrong item"], c:1, audio:"B2/B2-P1-q2.mp3"},
+          {type:"mc", q:"What does the teacher advise students to do?", o:["Study all night","Sleep well","Arrive early"], c:1, audio:"B2/B2-P1-q3.mp3"},
+          {type:"mc", q:"How does the girl feel about her new job?", o:["Nervous","Excited","Disappointed"], c:1, audio:"B2/B2-P1-q4.mp3"},
+          {type:"mc", q:"Where do they decide to go on holiday?", o:["The mountains","The coast","A city"], c:1, audio:"B2/B2-P1-q5.mp3"},
+          {type:"mc", q:"What has changed about the concert?", o:["The date","The place","The price"], c:1, audio:"B2/B2-P1-q6.mp3"},
+          {type:"mc", q:"Why did the boy's team lose?", o:["Bad weather","A player was injured","Poor refereeing"], c:1, audio:"B2/B2-P1-q7.mp3"},
+          {type:"mc", q:"What does the woman want at the shop?", o:["A refund","A larger size","A repair"], c:0, audio:"B2/B2-P1-q8.mp3"}
+        ]
+      },
+      {
+        id: "B2-P2", title: "Part 2 · Questions 9–18", kind: "file", file: "B2/B2-P2.mp3",
+        intro: "You will hear a young volunteer called Daniel talking about a city wildlife park. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+        scripts: [
+          "Hi everyone, I'm Daniel and I volunteer at the city wildlife park. The park first opened in nineteen ninety-eight, and today it relies on around fifty volunteers like me. Most of us help mainly with feeding the animals, which is my favourite job. Before you start, the training takes three weeks, so you really learn what you're doing. Without doubt, the most popular animals with visitors are the otters, and we're all very excited because a brand-new reptile section is opening in March. There are a few rules: volunteers must be over sixteen, and because it gets muddy, you have to wear waterproof boots. We don't provide food, so please bring your own lunch. If you'd like to join us, the only thing you need to do is fill in a form on our website. We'd love to have you!"
+        ],
+        gapTitle: "City Wildlife Park — Volunteering",
+        questions: [
+          {type:"gap", label:"The park opened in: ____", accept:["1998","nineteen ninety-eight","nineteen ninety eight"]},
+          {type:"gap", label:"Number of volunteers: about ____", accept:["50","fifty"]},
+          {type:"gap", label:"Volunteers mainly help with: ____", accept:["feeding","feeding the animals"]},
+          {type:"gap", label:"Training takes: ____ weeks", accept:["3","three"]},
+          {type:"gap", label:"Most popular animals: the ____", accept:["otters","otter"]},
+          {type:"gap", label:"New section opens in: ____", accept:["march"]},
+          {type:"gap", label:"Volunteers must be over: ____", accept:["16","sixteen"]},
+          {type:"gap", label:"You must wear: ____ boots", accept:["waterproof"]},
+          {type:"gap", label:"Bring your own: ____", accept:["lunch"]},
+          {type:"gap", label:"To join, fill in a: ____", accept:["form"]}
+        ]
+      },
+      {
+        id: "B2-P3", title: "Part 3 · Questions 19–23", kind: "file", file: "B2/B2-P3.mp3",
+        intro: "You will hear five people talking about why they started running. For each speaker, choose from the list (A–H) the reason they give. Use each letter once. There are three extra letters you will not need.",
+        bank: ["to lose weight","to make new friends","to reduce stress","on a doctor's advice","to raise money for charity","to compete in races","to spend time outdoors","to copy a friend"],
+        scripts: [
+          "Speaker one. Woman: I'd been feeling really tense at work for months. A colleague said running might help, and honestly, after a long run my mind feels completely clear. It's the only thing that calms me down. Speaker two. Man: My sister signed up for a marathon to support a hospital, and I didn't want her doing it alone, so I joined her. We collected quite a lot of money in the end. Speaker three. Woman: I spend all day inside, staring at a screen. For me, running isn't really about fitness, it's just the chance to be outside in the fresh air and see the sky. Speaker four. Man: My check-up wasn't great, and the doctor told me very clearly that I needed to start exercising. So really, I had no choice, I started the very next morning. Speaker five. Woman: I was new in town and didn't know anyone. I joined a local running club, and now most of my closest friends are people I met there."
+        ],
+        questions: [
+          {type:"match", person:"Speaker 1", c:"to reduce stress"},
+          {type:"match", person:"Speaker 2", c:"to raise money for charity"},
+          {type:"match", person:"Speaker 3", c:"to spend time outdoors"},
+          {type:"match", person:"Speaker 4", c:"on a doctor's advice"},
+          {type:"match", person:"Speaker 5", c:"to make new friends"}
+        ]
+      },
+      {
+        id: "B2-P4", title: "Part 4 · Questions 24–30", kind: "file", file: "B2/B2-P4.mp3",
+        intro: "You will hear an interview with a young woman called Sofia, who runs a popular food blog. For each question, choose the best answer (A, B or C).",
+        scripts: [
+          "Interviewer: Sofia, welcome. How did your food blog begin? Sofia: It was a complete accident, really. I posted a photo of a cake I'd made for friends, and so many people asked for the recipe that I decided to start writing them down. Interviewer: Did you study cooking? Sofia: No, that surprises people. I actually studied business at university, and I think that's helped me more than any cooking course would have. Interviewer: What's the hardest part of running the blog? Sofia: People assume it's the cooking, but the truth is, photographing the food takes the most time. A single photo can take an hour. Interviewer: Where do your ideas come from? Sofia: Mostly from travelling. I get far more inspiration from markets abroad than from cookbooks. Interviewer: What mistake do beginners make? Sofia: They try to make everything look perfect. My advice is to keep it simple, because readers trust honest, simple recipes. Interviewer: And what's next? Sofia: I've been offered the chance to write a book, but for now I want to focus on filming short videos instead. Interviewer: Sofia, thank you."
+        ],
+        questions: [
+          {type:"mc", q:"How did Sofia's blog start?", o:["She planned it carefully","By accident, after a photo","To make money"], c:1},
+          {type:"mc", q:"What did Sofia study at university?", o:["Cooking","Business","Photography"], c:1},
+          {type:"mc", q:"What does Sofia find hardest?", o:["The cooking","Photographing the food","Writing recipes"], c:1},
+          {type:"mc", q:"Where do most of her ideas come from?", o:["Cookbooks","Travelling","Television"], c:1},
+          {type:"mc", q:"What mistake do beginners make?", o:["They give up too soon","They try to make everything look perfect","They copy others"], c:1},
+          {type:"mc", q:"What advice does Sofia give?", o:["Keep recipes simple","Use expensive equipment","Post every day"], c:0},
+          {type:"mc", q:"What does Sofia want to do next?", o:["Write a book","Make short videos","Open a restaurant"], c:1}
+        ]
+      }
+    ]
+  },
+
+  /* ---------------- C1 — TOEFL real audio (advanced) ---------------- */
+  C1: {
+    label: "C1 — Advanced",
+    cefr: "Cambridge Advanced (CAE) · C1 official format",
+    blurb: "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+    audios: [
+      {
+        id: "C1-P1", title: "Part 1 · Questions 1–6", kind: "file", paged: true,
+        intro: "You will hear people talking in three different situations. For each question, choose the best answer (A, B or C).",
+        segments: ["A presentation","A novel","A restaurant","A project","Research findings","A decision"],
+        scripts: [
+          "Question one. Woman: I've finished the slides for Monday. Man: They look great, very thorough. If anything, I'd cut about half of them. People stop listening when there's too much detail, and your strongest points get lost.",
+          "Question two. Man: Did you enjoy the novel? Woman: The plot was a bit predictable, to be honest, and some characters felt flat. But the way the author describes the city, almost like a living thing, that's what stayed with me.",
+          "Woman: So we'd booked the restaurant for the view, which everyone had praised. The food, surprisingly, was excellent. What let it down was the service: we waited nearly an hour between courses, and nobody apologised.",
+          "Question four. Man: I've read your report. The research itself is solid and the data's convincing. My only real concern is the conclusion, it overstates what the figures actually show. I'd be more cautious there.",
+          "Question five. Woman: When we ran the experiment, we expected the warmer samples to react faster. In fact, they barely changed at all. It was the cold samples that transformed completely, which nobody had predicted.",
+          "Question six. Man: Have you decided about the job offer? Woman: I have, actually. The salary's tempting and it's a real step up, but it would mean relocating, and right now keeping my family settled matters more to me than any promotion."
+        ],
+        questions: [
+          {type:"mc", q:"What does the man suggest about the presentation?", o:["Add more detail","Reduce the number of slides","Change the order"], c:1, audio:"C1/C1-P1-q1.mp3"},
+          {type:"mc", q:"What impressed the woman about the novel?", o:["The plot","The characters","The description of the city"], c:2, audio:"C1/C1-P1-q2.mp3"},
+          {type:"mc", q:"Why was the woman disappointed with the restaurant?", o:["The view","The food","The service"], c:2, audio:"C1/C1-P1-q3.mp3"},
+          {type:"mc", q:"What does the man criticise in the report?", o:["The data","The conclusion","The research method"], c:1, audio:"C1/C1-P1-q4.mp3"},
+          {type:"mc", q:"What surprised the researchers?", o:["The warm samples reacted fastest","The cold samples changed most","Nothing changed"], c:1, audio:"C1/C1-P1-q5.mp3"},
+          {type:"mc", q:"Why has the woman decided against the job?", o:["The salary is too low","It is not a promotion","She doesn't want to relocate"], c:2, audio:"C1/C1-P1-q6.mp3"}
+        ]
+      },
+      {
+        id: "C1-P2", title: "Part 2 · Questions 7–14", kind: "file", file: "C1/C1-P2.mp3",
+        intro: "You will hear a woman called Helena giving a talk about urban beekeeping. For each question, complete the sentences with a word or short phrase.",
+        scripts: [
+          "Hello, I'm Helena, and I keep bees on rooftops here in the city. People are often surprised to learn that city honey is frequently purer than honey from the countryside, mainly because there are fewer pesticides. I started keeping bees five years ago, after I inherited a single hive from my uncle. Today I look after twelve hives across the city. A common myth is that bees are dangerous, but in fact they only sting when they feel threatened. The biggest challenge for a beekeeper isn't the bees, it's actually the weather, especially long periods of rain. Each hive can produce up to twenty kilograms of honey a year. If you want to start, the most important piece of equipment is a good smoker, which keeps the bees calm. And my final tip: never open a hive in the afternoon, always do it in the morning."
+        ],
+        gapTitle: "Urban Beekeeping",
+        questions: [
+          {type:"gap", label:"City honey is often purer because there are fewer ____", accept:["pesticides"]},
+          {type:"gap", label:"Helena started after inheriting a hive from her ____", accept:["uncle"]},
+          {type:"gap", label:"She now looks after ____ hives", accept:["12","twelve"]},
+          {type:"gap", label:"Bees only sting when they feel ____", accept:["threatened"]},
+          {type:"gap", label:"The biggest challenge is the ____", accept:["weather"]},
+          {type:"gap", label:"Each hive produces up to ____ kilograms a year", accept:["20","twenty"]},
+          {type:"gap", label:"The most important equipment is a good ____", accept:["smoker"]},
+          {type:"gap", label:"Never open a hive in the ____", accept:["afternoon"]}
+        ]
+      },
+      {
+        id: "C1-P3", title: "Part 3 · Questions 15–20", kind: "file", file: "C1/C1-P3.mp3",
+        intro: "You will hear an interview with a marine biologist called Marcus. For each question, choose the best answer (A, B, C or D).",
+        scripts: [
+          "Interviewer: Marcus, what first drew you to marine biology? Marcus: Everyone assumes it was childhood holidays by the sea, but actually I grew up far inland. It was a single documentary I watched at fifteen that changed everything. Interviewer: Your research focuses on coral. Why coral specifically? Marcus: Because coral reefs are like the rainforests of the ocean. They cover a tiny fraction of the sea floor, yet they support a quarter of all marine species. If they go, the consequences are unimaginable. Interviewer: Is your work mostly underwater? Marcus: People picture me diving all day, but honestly I spend far more time analysing data in the lab than in the water. The diving is the small, glamorous part. Interviewer: What's the biggest misconception about coral? Marcus: That it's a plant. It's actually an animal, and that distinction matters enormously for how we protect it. Interviewer: Are you optimistic about the future? Marcus: I'm cautiously hopeful. The science is alarming, but I've seen damaged reefs recover surprisingly quickly when given the chance. Interviewer: What advice would you give a young scientist? Marcus: Don't specialise too early. The most interesting discoveries happen at the borders between subjects. Interviewer: Marcus, thank you."
+        ],
+        questions: [
+          {type:"mc", q:"What first inspired Marcus's career?", o:["Seaside holidays","A documentary","His family","A school trip"], c:1},
+          {type:"mc", q:"Why does Marcus study coral?", o:["It is easy to find","It supports a quarter of marine species","It is colourful","It grows quickly"], c:1},
+          {type:"mc", q:"How does Marcus spend most of his time?", o:["Diving","Teaching","Analysing data in the lab","Travelling"], c:2},
+          {type:"mc", q:"What misconception does Marcus correct?", o:["Coral is a plant","Coral is dead","Coral is a rock","Coral is harmful"], c:0},
+          {type:"mc", q:"How does Marcus feel about the future?", o:["Very pessimistic","Cautiously hopeful","Completely confident","Indifferent"], c:1},
+          {type:"mc", q:"What advice does he give young scientists?", o:["Specialise early","Work alone","Don't specialise too early","Avoid data"], c:2}
+        ]
+      },
+      {
+        id: "C1-P4", title: "Part 4 · Questions 21–30", kind: "file", file: "C1/C1-P4.mp3",
+        intro: "You will hear five people talking about changing careers. TASK ONE (21–25): choose each speaker's main reason for the change. TASK TWO (26–30): choose what each speaker now finds most difficult.",
+        scripts: [
+          "Speaker one. Woman: I'd been a lawyer for fifteen years and I was simply bored, the same cases over and over. So I retrained as a teacher. The hardest thing now? Honestly, it's the drop in income, I earn about half what I used to. Speaker two. Man: I loved my office job, but a serious illness made me rethink everything. I now run a small bakery. The baking I adore, but I never expected how lonely it would feel working on my own all day. Speaker three. Woman: I was made redundant when the factory closed, so the change wasn't really my choice. I became a nurse. The most difficult part is learning so many new skills at my age, it's exhausting but rewarding. Speaker four. Man: I'd always dreamed of being a photographer, so I finally followed my passion and quit accounting. The work is wonderful, but the uncertainty is hard, never knowing if there'll be money coming in next month. Speaker five. Woman: A friend offered me a job in her travel company completely out of the blue, and I took the chance. I love it, but the hours are brutal, far longer than I ever worked before."
+        ],
+        questions: [
+          {type:"match", taskLabel:"Task 1 — main reason for changing career", person:"Speaker 1", bank:["wanted a higher salary","felt bored at work","health made them rethink","followed a passion","was made redundant","a chance opportunity","wanted to help others","wanted more free time"], c:"felt bored at work"},
+          {type:"match", taskLabel:"Task 1 — main reason for changing career", person:"Speaker 2", bank:["wanted a higher salary","felt bored at work","health made them rethink","followed a passion","was made redundant","a chance opportunity","wanted to help others","wanted more free time"], c:"health made them rethink"},
+          {type:"match", taskLabel:"Task 1 — main reason for changing career", person:"Speaker 3", bank:["wanted a higher salary","felt bored at work","health made them rethink","followed a passion","was made redundant","a chance opportunity","wanted to help others","wanted more free time"], c:"was made redundant"},
+          {type:"match", taskLabel:"Task 1 — main reason for changing career", person:"Speaker 4", bank:["wanted a higher salary","felt bored at work","health made them rethink","followed a passion","was made redundant","a chance opportunity","wanted to help others","wanted more free time"], c:"followed a passion"},
+          {type:"match", taskLabel:"Task 1 — main reason for changing career", person:"Speaker 5", bank:["wanted a higher salary","felt bored at work","health made them rethink","followed a passion","was made redundant","a chance opportunity","wanted to help others","wanted more free time"], c:"a chance opportunity"},
+          {type:"match", taskLabel:"Task 2 — what they now find most difficult", person:"Speaker 1", bank:["the lower income","working alone","learning new skills","the uncertainty","the longer hours","less status","the travel","explaining it to family"], c:"the lower income"},
+          {type:"match", taskLabel:"Task 2 — what they now find most difficult", person:"Speaker 2", bank:["the lower income","working alone","learning new skills","the uncertainty","the longer hours","less status","the travel","explaining it to family"], c:"working alone"},
+          {type:"match", taskLabel:"Task 2 — what they now find most difficult", person:"Speaker 3", bank:["the lower income","working alone","learning new skills","the uncertainty","the longer hours","less status","the travel","explaining it to family"], c:"learning new skills"},
+          {type:"match", taskLabel:"Task 2 — what they now find most difficult", person:"Speaker 4", bank:["the lower income","working alone","learning new skills","the uncertainty","the longer hours","less status","the travel","explaining it to family"], c:"the uncertainty"},
+          {type:"match", taskLabel:"Task 2 — what they now find most difficult", person:"Speaker 5", bank:["the lower income","working alone","learning new skills","the uncertainty","the longer hours","less status","the travel","explaining it to family"], c:"the longer hours"}
+        ]
+      }
+    ]
+  }
+};
+
+/* ============================================================
+   MOCK 2 — second full listening exam per level. Same Cambridge
+   structure as MOCK 1 (QUIZ), fresh scripts/questions, pitched
+   at the harder end of each level. Audio lives under mp3/M2/.
+============================================================ */
+const QUIZ2 = {
+
+  /* ---------------- A2 — Cambridge KET (MOCK 2) ---------------- */
+  A2: {
+    label: "A2 — Elementary",
+    cefr: "Cambridge KET · A2 official format",
+    blurb: "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+    audios: [
+      {
+        id: "A2-P1", title: "Part 1 · Questions 1–5", kind: "file", paged: true,
+        intro: "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+        segments: ["A pet","Getting to the park","Breakfast","The weather tomorrow","The bus time"],
+        scripts: [
+          "Question one. Girl: Did you get a new pet? Boy: Yes! I really wanted a dog, but our flat is too small, so we got a cat instead. She's lovely.",
+          "Question two. Boy: How are we getting to the park? Girl: We could take the bus, but it's such a nice day. Let's walk. Boy: OK, walking sounds good.",
+          "Question three. Mum: What would you like for breakfast? Boy: Could I have toast, please? Mum: We've run out of bread. How about some fruit? Boy: OK, a banana then.",
+          "Question four. Girl: Shall we have the picnic tomorrow? Boy: The forecast says it'll be windy all day. Girl: Then let's wait until Sunday, it'll be sunny.",
+          "Question five. Man: When's the next bus? Woman: There was one at four, but we missed it. The next is at half past four. Man: OK, twenty minutes to wait."
+        ],
+        questions: [
+          {type:"pic", q:"What pet did the boy get?", imgs:["book","ball","cake"], c:1, audio:"M2/A2/A2-P1-q1.mp3"},
+          {type:"pic", q:"How will they get to the park?", imgs:["bus","bike","car"], c:0, audio:"M2/A2/A2-P1-q2.mp3"},
+          {type:"pic", q:"What will the boy have for breakfast?", imgs:["sandwich","pizza","cake"], c:0, audio:"M2/A2/A2-P1-q3.mp3"},
+          {type:"pic", q:"What will the weather be like tomorrow?", imgs:["sunny","rainy","snowy"], c:1, audio:"M2/A2/A2-P1-q4.mp3"},
+          {type:"pic", q:"What time is the next bus?", imgs:["clock8","clock830","clock9"], c:1, audio:"M2/A2/A2-P1-q5.mp3"}
+        ]
+      },
+      {
+        id: "A2-P2", title: "Part 2 · Questions 6–10", kind: "file", file: "M2/A2/A2-P2.mp3",
+        intro: "You will hear a teacher telling students about a book fair. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+        scripts: [
+          "Listen to your teacher talking about the book fair. Teacher: Here are the details for our school book fair. It takes place on Friday in the school library. It opens at one o'clock in the afternoon. Most books cost about three pounds. If you want to help on the day, please speak to Mrs Carter. And remember, you can bring your old books to give away too."
+        ],
+        gapTitle: "School Book Fair",
+        questions: [
+          {type:"gap", label:"Day of the fair: ____", accept:["friday"]},
+          {type:"gap", label:"Place: the school ____", accept:["library"]},
+          {type:"gap", label:"Opens at: ____ o'clock", accept:["1","one"]},
+          {type:"gap", label:"Most books cost: £ ____", accept:["3","three"]},
+          {type:"gap", label:"To help, speak to: Mrs ____", accept:["carter"]}
+        ]
+      },
+      {
+        id: "A2-P3", title: "Part 3 · Questions 11–15", kind: "file", file: "M2/A2/A2-P3.mp3",
+        intro: "You will hear a girl called Emma talking to her friend Jack about a music club. For each question, choose the correct answer (A, B or C).",
+        scripts: [
+          "Emma: Hi Jack, are you going to join the music club? Jack: Maybe. When does it meet? Emma: On Wednesdays after school, at four o'clock. Jack: What instrument do you play? Emma: I play the guitar, but you can learn the piano there too. Jack: How much is it? Emma: It's free this term, which is great. Jack: And where is it? Emma: In the music room, next to the gym. You should come, it's really fun."
+        ],
+        questions: [
+          {type:"mc", q:"When does the music club meet?", o:["On Mondays","On Wednesdays","On Fridays"], c:1},
+          {type:"mc", q:"What instrument does Emma play?", o:["The piano","The guitar","The drums"], c:1},
+          {type:"mc", q:"How much does the club cost this term?", o:["It is free","Three pounds","Ten pounds"], c:0},
+          {type:"mc", q:"Where is the club?", o:["In the gym","In the music room","In the library"], c:1},
+          {type:"mc", q:"How does Emma feel about the club?", o:["It is boring","It is fun","It is difficult"], c:1}
+        ]
+      },
+      {
+        id: "A2-P4", title: "Part 4 · Questions 16–20", kind: "file", file: "M2/A2/A2-P4.mp3",
+        intro: "You will hear a girl called Lucy talking about her art class. For each question, choose the correct answer (A, B or C).",
+        scripts: [
+          "Lucy: I started my art class last September. I wasn't sure about it at first, because I thought I couldn't draw, but the teacher is so kind and now it's my favourite class. We meet on Monday afternoons. My favourite thing is painting, although we also do drawing and clay. Last week I made a small bowl out of clay for my mum, and she loved it. In December there's going to be an exhibition where we show our work to our families. I feel a little shy about it, but excited too."
+        ],
+        questions: [
+          {type:"mc", q:"When did Lucy start the art class?", o:["In September","In December","Last week"], c:0},
+          {type:"mc", q:"How did Lucy feel at first?", o:["Excited","Unsure","Bored"], c:1},
+          {type:"mc", q:"What does Lucy like best?", o:["Drawing","Painting","Working with clay"], c:1},
+          {type:"mc", q:"What did Lucy make for her mum?", o:["A painting","A clay bowl","A drawing"], c:1},
+          {type:"mc", q:"How does Lucy feel about the exhibition?", o:["Shy but excited","Very confident","Not interested"], c:0}
+        ]
+      },
+      {
+        id: "A2-P5", title: "Part 5 · Questions 21–25", kind: "file", file: "M2/A2/A2-P5.mp3",
+        intro: "You will hear Sam talking about what his friends are doing on Saturday. What is each person doing? For each question, choose the correct answer.",
+        bank: ["playing tennis","visiting family","going swimming","watching a film","reading at home","shopping","cooking"],
+        scripts: [
+          "Sam: All my friends are busy on Saturday. Tom is playing tennis with his brother in the morning. Nina is going swimming at the new pool. Leo is visiting his grandparents in the countryside. Mia is going shopping for new shoes with her mum. And Ben is staying at home to read his new book, because he loves reading."
+        ],
+        questions: [
+          {type:"match", person:"Tom", c:"playing tennis"},
+          {type:"match", person:"Nina", c:"going swimming"},
+          {type:"match", person:"Leo", c:"visiting family"},
+          {type:"match", person:"Mia", c:"shopping"},
+          {type:"match", person:"Ben", c:"reading at home"}
+        ]
+      }
+    ]
+  },
+
+  /* ---------------- B1 — Cambridge PET (MOCK 2) ---------------- */
+  B1: {
+    label: "B1 — Intermediate",
+    cefr: "Cambridge PET · B1 official format",
+    blurb: "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+    audios: [
+      {
+        id: "B1-P1", title: "Part 1 · Questions 1–7", kind: "file", paged: true,
+        intro: "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+        segments: ["Weekend plan","A gift","Getting home","The weather","At the café","Film time","A lost item"],
+        scripts: [
+          "Question one. Girl: Shall we go cycling on Saturday? Boy: I'd love to, but my bike's broken. Could we go for a swim instead? Girl: Good idea, the pool it is.",
+          "Question two. Boy: What did you buy your dad? Girl: I was going to get him a book, but he reads everything online now, so I got him a nice mug. Boy: He'll like that.",
+          "Question three. Woman: How are you getting home tonight? Man: I usually take the train, but it's not running, so my sister's picking me up by car. Woman: Lucky you.",
+          "Question four. Girl: Should I take my umbrella? Boy: It's sunny now, but they say it'll snow later. Girl: Snow? In October? Then I'll wear my big coat.",
+          "Question five. Man: Are you having a coffee? Woman: I'd love one, but I had three already today. I'll just have some water, thanks.",
+          "Question six. Boy: What time's the film? Girl: I thought it was at seven, but actually it starts at half past seven. Boy: Great, more time to eat first.",
+          "Question seven. Mum: You look worried. Boy: I can't find my keys. Mum: Did you check your jacket? Boy: Oh — here they are, in my bag. Phew."
+        ],
+        questions: [
+          {type:"pic", q:"What will they do on Saturday?", imgs:["bike","ball","umbrella"], c:1, audio:"M2/B1/B1-P1-q1.mp3"},
+          {type:"pic", q:"What did the girl buy her dad?", imgs:["book","bag","cake"], c:1, audio:"M2/B1/B1-P1-q2.mp3"},
+          {type:"pic", q:"How will the man get home?", imgs:["bus","car","bike"], c:1, audio:"M2/B1/B1-P1-q3.mp3"},
+          {type:"pic", q:"What will the weather be like later?", imgs:["sunny","rainy","snowy"], c:2, audio:"M2/B1/B1-P1-q4.mp3"},
+          {type:"pic", q:"What will the woman have?", imgs:["sandwich","umbrella","ball"], c:1, audio:"M2/B1/B1-P1-q5.mp3"},
+          {type:"pic", q:"What time does the film start?", imgs:["clock8","clock830","clock9"], c:1, audio:"M2/B1/B1-P1-q6.mp3"},
+          {type:"pic", q:"Where were the boy's keys?", imgs:["bag","phone","keys"], c:0, audio:"M2/B1/B1-P1-q7.mp3"}
+        ]
+      },
+      {
+        id: "B1-P2", title: "Part 2 · Questions 8–13", kind: "file", paged: true,
+        intro: "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+        segments: ["A holiday","A new phone","A restaurant","A coach's advice","A concert","Why she's tired"],
+        scripts: [
+          "You will hear a boy talking about a holiday. Boy: The hotel was comfortable and the beach was close, but what made the holiday for me was the people we met. We made friends from three different countries, and we still message each other now.",
+          "You will hear a girl talking about her new phone. Girl: It takes amazing photos and the screen is lovely, but honestly the battery is the best thing. It lasts two whole days, so I never worry about charging it.",
+          "You will hear a woman talking about a restaurant. Woman: The food was fine and the prices were reasonable, but we waited forty minutes just to order. I won't go back, mainly because of how slow the service was.",
+          "You will hear a coach talking to a young athlete. Coach: Your speed has really improved, well done. But before the race on Sunday, I don't want you training hard. Rest is what matters now, so take it easy this week.",
+          "You will hear a boy talking about a concert. Boy: I'd been looking forward to it for months. The band was brilliant, of course, but what surprised me was how friendly everyone in the crowd was. Nobody pushed.",
+          "You will hear a girl explaining why she's tired. Girl: It's not that I went to bed late, actually I was asleep by ten. But my neighbour's dog barked half the night, so I kept waking up. I feel exhausted."
+        ],
+        questions: [
+          {type:"mc", q:"What did the boy enjoy most about the holiday?", o:["The hotel","The beach","The people he met"], c:2, audio:"M2/B1/B1-P2-q1.mp3"},
+          {type:"mc", q:"What does the girl like best about her phone?", o:["The camera","The battery life","The screen"], c:1, audio:"M2/B1/B1-P2-q2.mp3"},
+          {type:"mc", q:"Why won't the woman return to the restaurant?", o:["It was expensive","The food was bad","The service was slow"], c:2, audio:"M2/B1/B1-P2-q3.mp3"},
+          {type:"mc", q:"What does the coach tell the athlete to do?", o:["Train harder","Rest this week","Change technique"], c:1, audio:"M2/B1/B1-P2-q4.mp3"},
+          {type:"mc", q:"What surprised the boy at the concert?", o:["The band","The friendly crowd","The tickets"], c:1, audio:"M2/B1/B1-P2-q5.mp3"},
+          {type:"mc", q:"Why is the girl tired?", o:["She went to bed late","A dog kept her awake","She was working"], c:1, audio:"M2/B1/B1-P2-q6.mp3"}
+        ]
+      },
+      {
+        id: "B1-P3", title: "Part 3 · Questions 14–19", kind: "file", file: "M2/B1/B1-P3.mp3",
+        intro: "You will hear a teacher telling students about a weekend cycling trip. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+        scripts: [
+          "Hi everyone. Let me tell you about our weekend cycling trip. We'll leave from the school gate on Saturday at eight o'clock in the morning, so please don't be late. The ride is about thirty kilometres in total, but don't worry, we'll stop often. We're cycling to Greenwood Lake, where we'll have lunch. The trip costs fifteen pounds, which includes lunch and a guide. You must bring a helmet — that's the most important rule. And please remember to bring a waterproof jacket in case it rains. See you on Saturday!"
+        ],
+        gapTitle: "Weekend Cycling Trip",
+        questions: [
+          {type:"gap", label:"We leave on Saturday at: ____ o'clock", accept:["8","eight"]},
+          {type:"gap", label:"Total distance: ____ kilometres", accept:["30","thirty"]},
+          {type:"gap", label:"We are cycling to: Greenwood ____", accept:["lake"]},
+          {type:"gap", label:"The trip costs: £ ____", accept:["15","fifteen"]},
+          {type:"gap", label:"You must bring a: ____", accept:["helmet"]},
+          {type:"gap", label:"Also bring a waterproof: ____", accept:["jacket"]}
+        ]
+      },
+      {
+        id: "B1-P4", title: "Part 4 · Questions 20–25", kind: "file", file: "M2/B1/B1-P4.mp3",
+        intro: "You will hear an interview with a young chef called Maya. For each question, choose the correct answer (A, B or C).",
+        scripts: [
+          "Interviewer: Today I'm talking to Maya, a young chef. Maya, how did you learn to cook? Maya: People assume my parents taught me, but actually they're terrible cooks! I learned from my grandmother during the summer holidays. Interviewer: What kind of food do you cook? Maya: I trained in French cooking, but the food I love most is the simple home cooking from my own country. Interviewer: What's the hardest part of your job? Maya: It's not the cooking itself, it's the long hours standing up. You're on your feet for ten hours sometimes. Interviewer: What was your biggest challenge? Maya: Opening my own restaurant at twenty-three. Everyone said I was too young, and that made me work even harder to prove them wrong. Interviewer: What advice would you give? Maya: Don't try to cook complicated dishes at first. Master a few simple things really well. Interviewer: And the future? Maya: I'd like to write a cookbook one day, to share my grandmother's recipes."
+        ],
+        questions: [
+          {type:"mc", q:"Who taught Maya to cook?", o:["Her parents","Her grandmother","A cooking school"], c:1, audio:""},
+          {type:"mc", q:"What food does Maya love most?", o:["French cooking","Simple home cooking","Desserts"], c:1},
+          {type:"mc", q:"What does Maya find hardest?", o:["The cooking","The long hours standing","The customers"], c:1},
+          {type:"mc", q:"What was Maya's biggest challenge?", o:["Learning French food","Opening her own restaurant young","Winning a prize"], c:1},
+          {type:"mc", q:"What advice does Maya give?", o:["Start with simple dishes","Buy the best equipment","Cook every day"], c:0},
+          {type:"mc", q:"What does Maya want to do in the future?", o:["Open more restaurants","Write a cookbook","Teach cooking"], c:1}
+        ]
+      }
+    ]
+  },
+
+  /* ---------------- B2 — Cambridge First / FCE (MOCK 2) ---------------- */
+  B2: {
+    label: "B2 — Upper-Intermediate",
+    cefr: "Cambridge First (FCE) · B2 official format",
+    blurb: "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+    audios: [
+      {
+        id: "B2-P1", title: "Part 1 · Questions 1–8", kind: "file", paged: true,
+        intro: "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+        segments: ["A book","A complaint","Study advice","A course","A holiday choice","An announcement","A performance","A return"],
+        scripts: [
+          "Question one. Woman: Have you finished that novel? Man: I have. The writing was beautiful, I'll admit, but the ending annoyed me — it just stopped, with nothing resolved. I felt cheated, frankly.",
+          "Question two. Man: I'm phoning about the headphones I bought online. Woman: Is there a fault? Man: Not exactly. They work perfectly, but they're far bigger than they looked in the photo. They're uncomfortable, so I'd like to send them back.",
+          "Question three. Teacher: Before the test, a word of advice. Cramming the night before rarely works. What really helps is going over a little each day. And please, don't compare yourself to others — focus on your own progress.",
+          "Question four. Woman: How's the photography course going? Man: Everyone expected me to find the technical side hard, but honestly that came easily. What I struggle with is being patient enough to wait for the right light.",
+          "Question five. Man: Shall we book the city break or the beach? Woman: We've done plenty of cities lately. But this time I'd rather somewhere we can actually relax — so let's find a quiet place in the mountains.",
+          "Question six. Woman: Attention, please. Due to the building work, Thursday's lecture has been moved to the main library, not Room 12. The time stays the same, and recordings will be available afterwards as usual.",
+          "Question seven. Boy: How was your piano exam? Girl: My playing went fine, technically. But I was so nervous my hands were shaking, and I think the examiner could tell. I just couldn't relax.",
+          "Question eight. Woman: I'd like to return this coat. Assistant: Is something wrong with it? Woman: No, it's lovely, but I've found exactly the same one cheaper elsewhere, so I'd rather have my money back."
+        ],
+        questions: [
+          {type:"mc", q:"What annoyed the man about the novel?", o:["The writing style","The unresolved ending","The length"], c:1, audio:"M2/B2/B2-P1-q1.mp3"},
+          {type:"mc", q:"Why does the man want to return the headphones?", o:["They are faulty","They are too big and uncomfortable","They are the wrong colour"], c:1, audio:"M2/B2/B2-P1-q2.mp3"},
+          {type:"mc", q:"What does the teacher mainly advise?", o:["Study a little each day","Study all night before","Work with friends"], c:0, audio:"M2/B2/B2-P1-q3.mp3"},
+          {type:"mc", q:"What does the man find difficult on the course?", o:["The technical side","Being patient","Meeting people"], c:1, audio:"M2/B2/B2-P1-q4.mp3"},
+          {type:"mc", q:"Where do they decide to go?", o:["A city","A beach","The mountains"], c:2, audio:"M2/B2/B2-P1-q5.mp3"},
+          {type:"mc", q:"What has changed about the lecture?", o:["The time","The place","The topic"], c:1, audio:"M2/B2/B2-P1-q6.mp3"},
+          {type:"mc", q:"What was the problem in the girl's exam?", o:["Poor technique","Her nerves","The wrong piece"], c:1, audio:"M2/B2/B2-P1-q7.mp3"},
+          {type:"mc", q:"Why does the woman want to return the coat?", o:["It is faulty","She found it cheaper elsewhere","It doesn't fit"], c:1, audio:"M2/B2/B2-P1-q8.mp3"}
+        ]
+      },
+      {
+        id: "B2-P2", title: "Part 2 · Questions 9–18", kind: "file", file: "M2/B2/B2-P2.mp3",
+        intro: "You will hear a student called Olivia talking about a community garden project. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+        scripts: [
+          "Hi, I'm Olivia, and I want to tell you about our community garden project. The project began in two thousand and fifteen, on a piece of land that used to be a car park. These days, the garden is run entirely by volunteers — there are about forty of us. What surprises most people is that our best-selling product isn't vegetables at all, it's honey, from our own beehives. We meet every Saturday morning, all year round. If you join, you don't need any experience, but you do need to bring a pair of gloves. The one thing we ask is that you commit to at least two hours a week. The money we raise goes towards a new greenhouse, which we hope to build next spring. To sign up, just send us an email — there's no form to fill in."
+        ],
+        gapTitle: "Community Garden Project",
+        questions: [
+          {type:"gap", label:"The project began in: ____", accept:["2015","two thousand and fifteen","two thousand fifteen"]},
+          {type:"gap", label:"The land used to be a: ____", accept:["car park","carpark"]},
+          {type:"gap", label:"Number of volunteers: about ____", accept:["40","forty"]},
+          {type:"gap", label:"Best-selling product: ____", accept:["honey"]},
+          {type:"gap", label:"They meet every: ____ morning", accept:["saturday"]},
+          {type:"gap", label:"You need to bring: a pair of ____", accept:["gloves"]},
+          {type:"gap", label:"Commit at least: ____ hours a week", accept:["2","two"]},
+          {type:"gap", label:"Money raised goes towards a new: ____", accept:["greenhouse"]},
+          {type:"gap", label:"They hope to build it next: ____", accept:["spring"]},
+          {type:"gap", label:"To sign up, send an: ____", accept:["email"]}
+        ]
+      },
+      {
+        id: "B2-P3", title: "Part 3 · Questions 19–23", kind: "file", file: "M2/B2/B2-P3.mp3",
+        intro: "You will hear five people talking about why they took up a musical instrument. For each speaker, choose from the list (A–H) the reason they give. Use each letter once. There are three extra letters you will not need.",
+        bank: ["to deal with stress","to follow a family tradition","to make new friends","because of a teacher's encouragement","to perform on stage","to challenge themselves","because of a film or song","to keep a promise"],
+        scripts: [
+          "Speaker one. Woman: My whole family plays something — my grandfather, my mother, my brothers. It honestly never occurred to me not to. I picked up the violin almost as soon as I could hold one. Speaker two. Man: I'd been under enormous pressure at work, and a friend suggested the piano. Now, after a difficult day, an hour of playing just melts the tension away. Speaker three. Woman: There was this teacher at school who believed I had a good ear. She kept telling me to try, and in the end I couldn't say no. I'm so glad she pushed me. Speaker four. Man: I heard a guitar solo in a film when I was twelve and I was absolutely mesmerised. I thought, I have to learn to do that. So I saved up and bought a cheap guitar. Speaker five. Woman: For me it was about proving something to myself. Everyone says you can't learn an instrument as an adult. I wanted to show that they were wrong, and now I play in a small band."
+        ],
+        questions: [
+          {type:"match", person:"Speaker 1", c:"to follow a family tradition"},
+          {type:"match", person:"Speaker 2", c:"to deal with stress"},
+          {type:"match", person:"Speaker 3", c:"because of a teacher's encouragement"},
+          {type:"match", person:"Speaker 4", c:"because of a film or song"},
+          {type:"match", person:"Speaker 5", c:"to challenge themselves"}
+        ]
+      },
+      {
+        id: "B2-P4", title: "Part 4 · Questions 24–30", kind: "file", file: "M2/B2/B2-P4.mp3",
+        intro: "You will hear an interview with a young man called Tom, who started a successful podcast. For each question, choose the best answer (A, B or C).",
+        scripts: [
+          "Interviewer: Tom, your history podcast has thousands of listeners. How did it start? Tom: Almost by accident. I was recording stories for my younger brother, who hated reading, and a friend said other people might enjoy them too. Interviewer: Did you have any training in broadcasting? Tom: None at all. I studied engineering, actually. But I think that taught me to explain complicated things in simple steps, which is exactly what the podcast needs. Interviewer: What's the most difficult part? Tom: People imagine it's the recording, but that's the fun bit. The research is what eats up my time — I can spend a week checking a single date. Interviewer: How do you choose your topics? Tom: I used to pick famous events, but I've learned that listeners prefer the small, strange stories that no one's heard. Interviewer: What mistake do new podcasters make? Tom: They worry too much about expensive equipment. Honestly, good content recorded on a cheap microphone beats dull content recorded perfectly. Interviewer: What's next for you? Tom: I've had offers to turn it into a television series, but for now I'd rather keep it independent and do live shows instead. Interviewer: Tom, thank you."
+        ],
+        questions: [
+          {type:"mc", q:"How did Tom's podcast begin?", o:["He planned it as a business","By recording stories for his brother","After broadcasting training"], c:1},
+          {type:"mc", q:"How does Tom think his engineering background helps?", o:["It taught him to explain things simply","It helped him fix equipment","It gave him contacts"], c:0},
+          {type:"mc", q:"What does Tom find most difficult?", o:["The recording","The research","Choosing music"], c:1},
+          {type:"mc", q:"What has Tom learned about topics?", o:["Listeners prefer famous events","Listeners prefer little-known stories","Topics don't matter"], c:1},
+          {type:"mc", q:"What mistake do new podcasters make?", o:["They worry too much about equipment","They record too often","They copy others"], c:0},
+          {type:"mc", q:"What does Tom believe matters most?", o:["Perfect recording quality","Good content","Famous guests"], c:1},
+          {type:"mc", q:"What does Tom want to do next?", o:["Make a TV series","Keep it independent and do live shows","Stop the podcast"], c:1}
+        ]
+      }
+    ]
+  },
+
+  /* ---------------- C1 — Cambridge Advanced / CAE (MOCK 2) ---------------- */
+  C1: {
+    label: "C1 — Advanced",
+    cefr: "Cambridge Advanced (CAE) · C1 official format",
+    blurb: "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+    audios: [
+      {
+        id: "C1-P1", title: "Part 1 · Questions 1–6", kind: "file", paged: true,
+        intro: "You will hear people talking in three different situations. For each question, choose the best answer (A, B or C).",
+        segments: ["A proposal","An exhibition","A job interview","A lecture","A renovation","A manuscript"],
+        scripts: [
+          "Question one. Woman: I've drafted the funding proposal. Man: It's persuasive, genuinely. My only reservation is the budget section — it's so optimistic that a careful reader might lose faith in the rest. I'd build in some caution.",
+          "Question two. Man: What did you make of the exhibition? Woman: The individual pieces were stunning, no question. But the way they were arranged made no sense to me — there was no thread, no story. I left feeling oddly unmoved.",
+          "Question three. Woman: How did the interview go? Man: Hard to say. I answered everything competently enough, but I never managed to show them why I actually wanted the role. I came across as capable rather than committed, I think.",
+          "Question four. Man: I attended that lecture on memory you recommended. Woman: And? Man: The content was first-rate, but he read it word for word from his notes. Brilliant ideas delivered in a monotone — half the room was asleep.",
+          "Question five. Woman: We finally finished renovating the cottage. Man: Was it worth it? Woman: The result is beautiful, I won't deny it. But it took twice as long and cost three times what we'd planned. I'm not sure I'd do it again.",
+          "Question six. Man: Have you read the manuscript I sent? Woman: I have. The argument is original and the research impeccable. If I'm honest, though, the language is so dense that only specialists will ever get through it. It needs simplifying."
+        ],
+        questions: [
+          {type:"mc", q:"What is the man's concern about the proposal?", o:["It is not persuasive","The budget seems too optimistic","It is too cautious"], c:1, audio:"M2/C1/C1-P1-q1.mp3"},
+          {type:"mc", q:"What disappointed the woman about the exhibition?", o:["The individual works","The way it was arranged","The location"], c:1, audio:"M2/C1/C1-P1-q2.mp3"},
+          {type:"mc", q:"What does the man feel he failed to show in the interview?", o:["His competence","His genuine motivation","His experience"], c:1, audio:"M2/C1/C1-P1-q3.mp3"},
+          {type:"mc", q:"What was wrong with the lecture?", o:["The content was weak","The delivery was monotonous","It was too short"], c:1, audio:"M2/C1/C1-P1-q4.mp3"},
+          {type:"mc", q:"How does the woman feel about the renovation?", o:["It was clearly worth it","The result is good but it cost too much","She regrets the design"], c:1, audio:"M2/C1/C1-P1-q5.mp3"},
+          {type:"mc", q:"What does the woman say the manuscript needs?", o:["More research","Simpler language","A new argument"], c:1, audio:"M2/C1/C1-P1-q6.mp3"}
+        ]
+      },
+      {
+        id: "C1-P2", title: "Part 2 · Questions 7–14", kind: "file", file: "M2/C1/C1-P2.mp3",
+        intro: "You will hear a man called Daniel giving a talk about his work as a lighthouse keeper. For each question, complete the sentences with a word or short phrase.",
+        scripts: [
+          "Hello, I'm Daniel, and for nine years I worked as one of the last lighthouse keepers on this coast. People romanticise the job, but the reality is that the hardest thing to cope with is not the storms — it's the isolation. I'd often go three weeks without seeing another person. My main daily duty was maintaining the light itself, of course, but I also kept detailed weather records for the national service. The biggest danger, surprisingly, wasn't the sea; it was fire, because everything in the tower was made of wood. To stay sane, I taught myself to paint, and I produced over two hundred canvases. Visitors always ask about the food — the supply boat came just once a month, so I learned to bake my own bread. The thing I miss most now is the silence. And the one piece of advice I'd give anyone considering such a life is simple: learn to enjoy your own company."
+        ],
+        gapTitle: "Life as a Lighthouse Keeper",
+        questions: [
+          {type:"gap", label:"The hardest thing to cope with was the ____", accept:["isolation","loneliness"]},
+          {type:"gap", label:"His main daily duty was maintaining the ____", accept:["light"]},
+          {type:"gap", label:"He also kept detailed ____ records", accept:["weather"]},
+          {type:"gap", label:"The biggest danger was ____", accept:["fire"]},
+          {type:"gap", label:"To stay sane, he taught himself to ____", accept:["paint"]},
+          {type:"gap", label:"The supply boat came once a ____", accept:["month"]},
+          {type:"gap", label:"He learned to bake his own ____", accept:["bread"]},
+          {type:"gap", label:"The thing he misses most is the ____", accept:["silence"]}
+        ]
+      },
+      {
+        id: "C1-P3", title: "Part 3 · Questions 15–20", kind: "file", file: "M2/C1/C1-P3.mp3",
+        intro: "You will hear an interview with a documentary film-maker called Elena. For each question, choose the best answer (A, B, C or D).",
+        scripts: [
+          "Interviewer: Elena, your documentaries have won major awards. What drew you to the form? Elena: Many people assume it was a love of cinema. Actually, it was the opposite — I trained as a journalist and grew frustrated that print couldn't capture people's faces, their hesitations. Film could. Interviewer: You're known for spending years on a single project. Why so long? Elena: Because trust can't be rushed. The moments that matter only happen once people forget the camera is there, and that takes months, sometimes years. Interviewer: Is funding your greatest challenge? Elena: People expect me to say money, but no. The hardest part is the editing — deciding what to leave out. I once cut my favourite scene because it served my ego, not the story. Interviewer: How do you choose subjects? Elena: I look for ordinary people in extraordinary circumstances, never celebrities. The unknown taxi driver tells us more about a society than any famous politician. Interviewer: Are you optimistic about documentary's future? Elena: Cautiously. Streaming has brought huge audiences, but it also pressures film-makers to sensationalise. I worry we're trading depth for drama. Interviewer: Finally, advice for newcomers? Elena: Listen far more than you speak. Your best material comes from silence, not from your clever questions. Interviewer: Elena, thank you."
+        ],
+        questions: [
+          {type:"mc", q:"What first drew Elena to documentary making?", o:["A love of cinema","Frustration with print journalism","A film course","A famous director"], c:1},
+          {type:"mc", q:"Why does Elena spend years on a project?", o:["To save money","Because building trust takes time","To win awards","To travel widely"], c:1},
+          {type:"mc", q:"What does Elena find the hardest part?", o:["Funding","The editing and what to cut","Filming","Interviewing"], c:1},
+          {type:"mc", q:"What kind of subjects does Elena choose?", o:["Celebrities","Politicians","Ordinary people in unusual situations","Other film-makers"], c:2},
+          {type:"mc", q:"What worries Elena about documentary's future?", o:["Smaller audiences","Pressure to sensationalise","Lack of funding","Old technology"], c:1},
+          {type:"mc", q:"What advice does Elena give newcomers?", o:["Ask clever questions","Speak confidently","Listen more than you speak","Use the best cameras"], c:2}
+        ]
+      },
+      {
+        id: "C1-P4", title: "Part 4 · Questions 21–30", kind: "file", file: "M2/C1/C1-P4.mp3",
+        intro: "You will hear five people talking about moving to live in a different country. TASK ONE (21–25): choose each speaker's main reason for moving. TASK TWO (26–30): choose what each speaker found most challenging.",
+        scripts: [
+          "Speaker one. Woman: I'd visited the country once on holiday and simply fell in love with the pace of life. So I sold everything and moved. The hardest part? The bureaucracy — the endless paperwork nearly defeated me before I'd even unpacked. Speaker two. Man: My company offered me a transfer with a much better salary, and I'd have been foolish to refuse. Professionally it's been great. Personally, though, I underestimated how much I'd miss my old friends. Speaker three. Woman: I moved entirely for love — my partner is from there. We're very happy, but I'll be honest, learning the language as an adult has been humbling. I still feel like a child when I speak. Speaker four. Man: I was simply curious. I'd always wondered what it would be like to start again somewhere completely unfamiliar. The biggest struggle has been the climate, oddly — I never adjusted to the long, dark winters. Speaker five. Woman: I came to study for a master's degree and just never left. The academic side was fine; what threw me was the cost of living. I had no idea how expensive everyday things would be."
+        ],
+        questions: [
+          {type:"match", taskLabel:"Task 1 — main reason for moving abroad", person:"Speaker 1", bank:["loved the lifestyle","a better job","to be with a partner","pure curiosity","to study","family roots","a fresh start after loss","cheaper living"], c:"loved the lifestyle"},
+          {type:"match", taskLabel:"Task 1 — main reason for moving abroad", person:"Speaker 2", bank:["loved the lifestyle","a better job","to be with a partner","pure curiosity","to study","family roots","a fresh start after loss","cheaper living"], c:"a better job"},
+          {type:"match", taskLabel:"Task 1 — main reason for moving abroad", person:"Speaker 3", bank:["loved the lifestyle","a better job","to be with a partner","pure curiosity","to study","family roots","a fresh start after loss","cheaper living"], c:"to be with a partner"},
+          {type:"match", taskLabel:"Task 1 — main reason for moving abroad", person:"Speaker 4", bank:["loved the lifestyle","a better job","to be with a partner","pure curiosity","to study","family roots","a fresh start after loss","cheaper living"], c:"pure curiosity"},
+          {type:"match", taskLabel:"Task 1 — main reason for moving abroad", person:"Speaker 5", bank:["loved the lifestyle","a better job","to be with a partner","pure curiosity","to study","family roots","a fresh start after loss","cheaper living"], c:"to study"},
+          {type:"match", taskLabel:"Task 2 — what they found most challenging", person:"Speaker 1", bank:["the paperwork","missing old friends","learning the language","the climate","the cost of living","the food","finding work","making friends"], c:"the paperwork"},
+          {type:"match", taskLabel:"Task 2 — what they found most challenging", person:"Speaker 2", bank:["the paperwork","missing old friends","learning the language","the climate","the cost of living","the food","finding work","making friends"], c:"missing old friends"},
+          {type:"match", taskLabel:"Task 2 — what they found most challenging", person:"Speaker 3", bank:["the paperwork","missing old friends","learning the language","the climate","the cost of living","the food","finding work","making friends"], c:"learning the language"},
+          {type:"match", taskLabel:"Task 2 — what they found most challenging", person:"Speaker 4", bank:["the paperwork","missing old friends","learning the language","the climate","the cost of living","the food","finding work","making friends"], c:"the climate"},
+          {type:"match", taskLabel:"Task 2 — what they found most challenging", person:"Speaker 5", bank:["the paperwork","missing old friends","learning the language","the climate","the cost of living","the food","finding work","making friends"], c:"the cost of living"}
+        ]
+      }
+    ]
+  }
+};
+
+/* ========================================================================
+   TTS engine — Web Speech API
+   Prefers Microsoft Edge Neural voices ("Online (Natural)") when available.
+   Parses dialog scripts and uses different voices per speaker (Woman/Man,
+   Lisa/Interviewer, etc.) for natural two-voice playback.
+   ======================================================================== */
+const TTS = {
+  synth: window.speechSynthesis,
+  voices: [],
+  femaleVoice: null,
+  maleVoice: null,
+  rate: 0.95,
+  cancelled: false,
+  isReady: false,
+  _readyCallbacks: [],
+
+  init(){
+    if(!('speechSynthesis' in window)) return false;
+    const load = ()=>{
+      this.voices = this.synth.getVoices();
+      if(this.voices.length > 0){
+        this.selectBestVoices();
+        if(!this.isReady){
+          this.isReady = true;
+          this._readyCallbacks.splice(0).forEach(cb=>cb());
+        }
+      }
+    };
+    load();
+    this.synth.onvoiceschanged = load;
+    return true;
+  },
+
+  onReady(cb){
+    if(this.isReady) cb();
+    else this._readyCallbacks.push(cb);
+  },
+
+  selectBestVoices(){
+    const v = this.voices;
+    const isNeural = name => /Online \(Natural\)/i.test(name);
+    // Edge Neural female names (en-US first preference)
+    const femName = /\b(Aria|Jenny|Michelle|Ana|Emma|Sonia|Libby|Olivia|Maisie)\b/i;
+    const maleName = /\b(Guy|Christopher|Eric|Roger|Steffan|Ryan|Tony|Brian|Andrew|Jacob|William)\b/i;
+
+    // FEMALE priority chain: Neural en-US → Neural en-GB → Neural any en → standard Zira → any en-US → any en
+    this.femaleVoice =
+         v.find(x => isNeural(x.name) && x.lang.startsWith('en-US') && femName.test(x.name))
+      || v.find(x => isNeural(x.name) && x.lang.startsWith('en-GB') && femName.test(x.name))
+      || v.find(x => isNeural(x.name) && x.lang.startsWith('en') && femName.test(x.name))
+      || v.find(x => isNeural(x.name) && x.lang.startsWith('en'))
+      || v.find(x => /Zira/i.test(x.name) && x.lang.startsWith('en'))
+      || v.find(x => /Hazel|Susan|Catherine/i.test(x.name) && x.lang.startsWith('en'))
+      || v.find(x => x.lang.startsWith('en-US'))
+      || v.find(x => x.lang.startsWith('en'))
+      || v[0] || null;
+
+    // MALE priority chain
+    this.maleVoice =
+         v.find(x => isNeural(x.name) && x.lang.startsWith('en-US') && maleName.test(x.name))
+      || v.find(x => isNeural(x.name) && x.lang.startsWith('en-GB') && maleName.test(x.name))
+      || v.find(x => isNeural(x.name) && x.lang.startsWith('en') && maleName.test(x.name))
+      || v.find(x => /David|Mark/i.test(x.name) && x.lang.startsWith('en'))
+      || v.find(x => /George|Daniel|James/i.test(x.name) && x.lang.startsWith('en'))
+      || v.find(x => x.lang.startsWith('en-US') && x !== this.femaleVoice)
+      || v.find(x => x.lang.startsWith('en') && x !== this.femaleVoice)
+      || this.femaleVoice;
+  },
+
+  voiceLabel(voice){
+    if(!voice) return 'default';
+    const m = voice.name.match(/Microsoft\s+(\w+)/);
+    const base = m ? m[1] : voice.name.split(' ')[0];
+    const neural = /Online \(Natural\)/i.test(voice.name) ? ' Neural' : '';
+    const lang = voice.lang ? ` ${voice.lang}` : '';
+    return base + neural + lang;
+  },
+
+  status(){
+    return {
+      ready: this.isReady,
+      female: this.voiceLabel(this.femaleVoice),
+      male: this.voiceLabel(this.maleVoice),
+      distinct: !!(this.femaleVoice && this.maleVoice && this.femaleVoice !== this.maleVoice),
+      neural: /Online \(Natural\)/i.test((this.femaleVoice && this.femaleVoice.name)||'')
+           && /Online \(Natural\)/i.test((this.maleVoice && this.maleVoice.name)||'')
+    };
+  },
+
+  // Parse script into segments by speaker label
+  parseDialog(text){
+    const re = /\b([A-Z][a-zA-Z.]+(?:\s[A-Z][a-zA-Z.]+){0,2}?):\s+/g;
+    const matches = [];
+    let m;
+    while((m = re.exec(text)) !== null){
+      matches.push({ idx: m.index, label: m[1].trim(), endIdx: m.index + m[0].length });
+    }
+    if(matches.length === 0) return [{ speaker: null, text }];
+    const segments = [];
+    if(matches[0].idx > 0){
+      const prefix = text.slice(0, matches[0].idx).trim();
+      if(prefix) segments.push({ speaker: null, text: prefix });
+    }
+    for(let i=0; i<matches.length; i++){
+      const cur = matches[i];
+      const next = matches[i+1];
+      const end = next ? next.idx : text.length;
+      const segText = text.slice(cur.endIdx, end).trim();
+      if(segText) segments.push({ speaker: cur.label, text: segText });
+    }
+    return segments;
+  },
+
+  // Build a speaker -> voice profile map for ONE script.
+  // Guarantees the two main speakers always sound different:
+  // distinct voices when available, or pitch-shifted fallback when the
+  // system only has one English voice installed.
+  assignVoices(speakers){
+    const twoVoices = !!(this.femaleVoice && this.maleVoice && this.femaleVoice !== this.maleVoice);
+    const profA = twoVoices ? {voice:this.femaleVoice, pitch:1.0, rateMul:1.0}
+                            : {voice:this.femaleVoice, pitch:1.22, rateMul:1.0};
+    const profB = twoVoices ? {voice:this.maleVoice,   pitch:1.0, rateMul:1.0}
+                            : {voice:this.femaleVoice, pitch:0.74, rateMul:0.97};
+    const femRe = /(^|\b)(woman|girl|female|she|her|lisa|emma|kate|sarah|sandy|maria|sonia|jenny|mia|amy|chloe|olivia|yuki|hannah|mum|mother|female student|female narrator)(\b|$)/i;
+    const malRe = /(^|\b)(man|boy|male|he|his|jake|marco|tom|sam|david|mark|alex|daniel|nico|jim|brian|jacob|professor|father|dad|male student|male narrator)(\b|$)/i;
+    const map = {};
+
+    // Interview pattern: Interviewer + one guest -> always opposite voices
+    const interviewer = speakers.find(s=>/interviewer|host|presenter|reporter/i.test(s));
+    if(interviewer && speakers.length === 2){
+      const guest = speakers.find(s=>s!==interviewer);
+      const guestFemale = femRe.test(guest) && !malRe.test(guest);
+      map[guest] = guestFemale ? profA : profB;
+      map[interviewer] = guestFemale ? profB : profA;
+    } else {
+      speakers.forEach((sp,idx)=>{
+        if(femRe.test(sp) && !malRe.test(sp)) map[sp] = profA;
+        else if(malRe.test(sp)) map[sp] = profB;
+        else map[sp] = (idx % 2 === 0) ? profA : profB;
+      });
+      // Safety net: exactly 2 speakers must never share a voice
+      if(speakers.length === 2 && map[speakers[0]] === map[speakers[1]]){
+        map[speakers[1]] = (map[speakers[0]] === profA) ? profB : profA;
+      }
+    }
+    map._narrator = profA;
+    return map;
+  },
+
+  speak(text, profile, onEnd){
+    const u = new SpeechSynthesisUtterance(text);
+    const voice = profile && profile.voice;
+    u.lang = (voice && voice.lang) || 'en-US';
+    u.rate = Math.max(0.5, Math.min(1.5, this.rate * ((profile && profile.rateMul) || 1)));
+    u.pitch = (profile && profile.pitch) || 1;
+    u.volume = 1;
+    if(voice) u.voice = voice;
+    u.onend = ()=>{ if(onEnd) onEnd(); };
+    u.onerror = ()=>{ if(onEnd) onEnd(); };
+    this.synth.speak(u);
+  },
+
+  playScript(script, onDone){
+    const segments = this.parseDialog(script);
+    const speakers = [...new Set(segments.map(s=>s.speaker).filter(Boolean))];
+    const vmap = this.assignVoices(speakers);
+    let i = 0;
+    const next = ()=>{
+      if(this.cancelled || i >= segments.length){ if(onDone) onDone(); return; }
+      const seg = segments[i++];
+      const profile = seg.speaker ? (vmap[seg.speaker] || vmap._narrator) : vmap._narrator;
+      this.speak(seg.text, profile, next);
+    };
+    next();
+  },
+
+  speakSequence(scripts, {onSegment, onDone, gap=1800}={}){
+    this.cancelled = false;
+    let i = 0;
+    const next = ()=>{
+      if(this.cancelled || i >= scripts.length){ if(onDone) onDone(); return; }
+      const idx = i++;
+      if(onSegment) onSegment(idx);
+      this.playScript(scripts[idx], ()=>setTimeout(next, gap));
+    };
+    next();
+  },
+
+  pause(){ if(this.synth.speaking && !this.synth.paused) this.synth.pause(); },
+  resume(){ if(this.synth.paused) this.synth.resume(); },
+  stop(){ this.cancelled = true; this.synth.cancel(); }
+};
+TTS.init();
+
+/* ========================================================================
+   APP STATE
+   ======================================================================== */
+const state = {
+  name: "",
+  klass: "",
+  email: "",
+  level: null,
+  examType: "mock01",
+  startTime: null,
+  answers: {},
+  seqOrder: {}
+};
+
+/* Active exam set: MOCK 1 = QUIZ, MOCK 2 = QUIZ2 */
+function currentQuiz(){ return state.examType === 'mock02' ? QUIZ2 : QUIZ; }
+
+const $ = s => document.querySelector(s);
+const app = $("#app");
+const hdrRight = $("#hdrRight");
+
+function shuffle(a){
+  const b = a.slice();
+  for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]];}
+  return b;
+}
+
+/* ---------- VIEW: Welcome ---------- */
+function viewWelcome(){
+  TTS.stop();
+  document.body.classList.remove('exam-mode','result-mode');
+  document.body.classList.add('signin-mode');
+  hdrRight.innerHTML = "";
+  app.innerHTML = `
+    <div class="signin-wrap">
+      <div class="crumb">Welcome &rsaquo; Sign in</div>
+      <h1>Sign in to start</h1>
+      <p class="sub">Enter your details to begin. You will receive a PDF report of your result by email when you finish.</p>
+      <div class="signin-card">
+        <label for="iName">Your full name</label>
+        <input id="iName" placeholder="e.g. Maria Garcia" value="${state.name||''}" autocomplete="name">
+        <label for="iClass">Your grade / class</label>
+        <input id="iClass" placeholder="e.g. Grade 9 / 3rd ESO" value="${state.klass||''}">
+        <label for="iEmail">Your school email</label>
+        <input id="iEmail" type="email" placeholder="e.g. maria.garcia@nordic-school.edu.pe" value="${state.email||''}">
+        <div class="signin-actions">
+          <button class="primary" id="iContinue">Continue &rarr;</button>
+          <a class="secondary2" href="quizzes.html">&larr; Back</a>
+        </div>
+      </div>
+    </div>`;
+  $("#iContinue").onclick = ()=>{
+    const nm=$("#iName").value.trim(), kl=$("#iClass").value.trim(), em=$("#iEmail").value.trim();
+    if(!nm || !kl){ alert("Please enter your full name and grade / class."); return; }
+    if(em && !/^\S+@\S+\.\S+$/.test(em)){ alert("Please enter a valid email address."); return; }
+    state.name=nm; state.klass=kl; state.email=em;
+    viewLevelSelect();
+  };
+}
+
+function viewLevelSelect(){
+  TTS.stop();
+  document.body.classList.remove('exam-mode','result-mode');
+  document.body.classList.add('signin-mode');
+  app.innerHTML = `
+    <div class="level-pick">
+      <h1>Hello, ${state.name}! 🎧</h1>
+      <p class="sub">Choose your level to begin the Listening test.</p>
+      <div class="levels" id="levels"></div>
+      <div class="signin-actions" style="margin-top:22px"><a class="secondary2" id="lvlBack">&larr; Back</a></div>
+    </div>`;
+  const levels = $("#levels");
+  Object.keys(QUIZ).forEach(k=>{
+    const el = document.createElement("div");
+    el.className = "level";
+    el.innerHTML = `
+      <div class="tag">${k}</div>
+      <div class="name">${QUIZ[k].label.replace(/^[A-C]\d ?[—-] ?/,'')}</div>
+      <div class="cef">${QUIZ[k].cefr||''}</div>
+    `;
+    el.onclick = ()=>{
+      state.level = k;
+      viewExamPick();
+    };
+    levels.appendChild(el);
+  });
+  $("#lvlBack").onclick = ()=> viewWelcome();
+}
+
+/* ---------- VIEW: choose MOCK 1 / MOCK 2 ---------- */
+function viewExamPick(){
+  TTS.stop();
+  document.body.classList.remove('exam-mode','result-mode');
+  document.body.classList.add('signin-mode');
+  const lev = currentQuiz()[state.level];
+  app.innerHTML = `
+    <div class="level-pick">
+      <h1>${state.level} Listening — choose your mock 🎧</h1>
+      <p class="sub">${lev.cefr}. Two full listening mocks, harder than standard practice, with real audio.</p>
+      <div class="signin-card" style="display:flex;flex-direction:column;gap:12px">
+        <button class="primary" id="m1">📝 MOCK 1 →</button>
+        <button class="primary" id="m2">📝 MOCK 2 →</button>
+      </div>
+      <div class="signin-actions" style="margin-top:22px"><a class="secondary2" id="epBack">&larr; Back to levels</a></div>
+    </div>`;
+  const start = (t)=>{ state.examType=t; state.startTime=Date.now(); state.answers={}; state.seqOrder={}; viewQuiz(); };
+  $("#m1").onclick = ()=> start('mock01');
+  $("#m2").onclick = ()=> start('mock02');
+  $("#epBack").onclick = ()=> viewLevelSelect();
+}
+
+/* ---------- VIEW: Quiz ---------- */
+function viewQuiz(){
+  const lev = currentQuiz()[state.level];
+  document.body.classList.remove('signin-mode','result-mode');
+  document.body.classList.add('exam-mode');
+  // per-part starting question number
+  let counter = 1;
+  const pInfo = lev.audios.map(a=>{ const o={start:counter, count:a.questions.length}; counter += a.questions.length; return o; });
+  state.curPart = 0;
+
+  const paneHTML = lev.audios.map((a,i)=>{
+    const info = pInfo[i];
+    const range = info.count>1 ? `${info.start}–${info.start+info.count-1}` : `${info.start}`;
+    const playerBlock = a.paged ? ''
+      : `<div class="ins-player">${(a.kind==='tts') ? renderTTSPlayer(a) : `<audio controls preload="none" src="${CONFIG.AUDIO_BASE}${a.file}"></audio>`}</div>`;
+    return `<section class="ins-pane${i===0?' active':''}" data-part="${i}">
+      <div class="ins-instr"><strong>Questions ${range}</strong><p>${a.intro||''}</p></div>
+      ${playerBlock}
+      <div class="ins-content" id="qs-${a.id}"></div>
+    </section>`;
+  }).join('');
+
+  const tabsHTML = lev.audios.map((a,i)=>{
+    const info = pInfo[i];
+    let qn='';
+    for(let j=0;j<info.count;j++){ qn += `<button class="lqn" id="lqn-${i}-${j}" onclick="event.stopPropagation();window._lGoQ(${i},${j})">${info.start+j}</button>`; }
+    return `<div class="ins-tab${i===0?' active':''}" data-part="${i}" onclick="window._lGoPart(${i})">
+      <div class="tn">Part ${i+1}</div><div class="tp" id="lprog-${i}">0 of ${info.count}</div><div class="tq">${qn}</div>
+    </div>`;
+  }).join('');
+
+  app.innerHTML = `
+    <div class="ins-shell">
+      <header class="ins-hdr">
+        <div class="ins-brand"><img src="nordic-logo-h.svg" alt="Nordic"></div>
+        <div class="ins-cand">Candidate: <strong>${state.name}</strong> · ${state.klass}</div>
+        <div class="ins-right">
+          <span class="ins-audio">🔊 Listening</span>
+          <button id="insExit">Exit</button>
+          <button class="ins-fin" id="insSubmit">Submit ✓</button>
+        </div>
+      </header>
+      <main class="ins-main"><div class="ins-inner">
+        <div class="ins-title"><h1>${lev.label} — Listening</h1></div>
+        ${paneHTML}
+      </div></main>
+      <footer class="ins-ftr">
+        <div class="ins-tabs">${tabsHTML}</div>
+        <div class="ins-arrows"><button id="lprev">◀</button><button id="lnext">▶</button></div>
+      </footer>
+    </div>`;
+
+  lev.audios.forEach(a=>{ if(a.kind==='tts') bindTTSPlayer(a); renderQuestions(a, $(`#qs-${a.id}`)); });
+
+  // Views: paged parts expose one view per question; other parts one view each.
+  const views = [];
+  lev.audios.forEach((a,pi)=>{ if(a.paged){ a.questions.forEach((q,qi)=>views.push({part:pi,q:qi})); } else views.push({part:pi,q:null}); });
+  state.curView = 0;
+  function pauseAllAudio(){ document.querySelectorAll('.ins-shell audio').forEach(a=>{ try{a.pause();}catch(e){} }); try{ TTS.stop(); }catch(e){} }
+
+  window._lGoView = function(vi, autoplay){
+    const n = views.length; vi = Math.max(0, Math.min(n-1, vi)); state.curView = vi;
+    const v = views[vi], part = v.part;
+    document.querySelectorAll('.ins-pane').forEach((p,k)=>p.classList.toggle('active', k===part));
+    document.querySelectorAll('.ins-tab').forEach((t,k)=>t.classList.toggle('active', k===part));
+    pauseAllAudio();
+    document.querySelectorAll('.lqn.cur').forEach(b=>b.classList.remove('cur'));
+    const pane = document.querySelector('.ins-pane[data-part="'+part+'"]');
+    if(lev.audios[part].paged){
+      const qs = pane.querySelectorAll('.paged-q');
+      qs.forEach((el,qi)=>el.classList.toggle('show', qi===v.q));
+      const btn = document.getElementById('lqn-'+part+'-'+v.q); if(btn) btn.classList.add('cur');
+      if(autoplay){ const cur = qs[v.q]; const au = cur && cur.querySelector('audio'); if(au){ try{ au.currentTime=0; const p=au.play(); if(p&&p.catch) p.catch(()=>{}); }catch(e){} } }
+    }
+    const pv=$('#lprev'), nx=$('#lnext'); if(pv) pv.disabled=(vi===0); if(nx) nx.disabled=(vi===n-1);
+    const m=document.querySelector('.ins-main'); if(m) m.scrollTo({top:0});
+  };
+  window._lGoPart = function(i){ window._lGoView(views.findIndex(v=>v.part===i), false); };
+  window._lGoQ = function(part, local){
+    if(lev.audios[part].paged){ window._lGoView(views.findIndex(v=>v.part===part && v.q===local), true); return; }
+    window._lGoView(views.findIndex(v=>v.part===part), false);
+    document.querySelectorAll('.lqn.cur').forEach(b=>b.classList.remove('cur'));
+    const btn=document.getElementById('lqn-'+part+'-'+local); if(btn) btn.classList.add('cur');
+    const a=lev.audios[part]; const el=document.getElementById('lq_'+a.id+'__'+local);
+    if(el){ el.scrollIntoView({behavior:'smooth',block:'center'}); el.classList.remove('q-flash'); void el.offsetWidth; el.classList.add('q-flash'); setTimeout(()=>el.classList.remove('q-flash'),1200); }
+  };
+  window._lNav = function(d){ window._lGoView(state.curView + d, true); };
+  $('#lprev').onclick=()=>window._lNav(-1);
+  $('#lnext').onclick=()=>window._lNav(1);
+  window._lGoView(0, false);
+
+  $('#insExit').onclick=()=>{ if(confirm('¿Salir? Perderás tus respuestas actuales.')){ try{TTS.stop();}catch(e){} document.body.classList.remove('exam-mode'); viewWelcome(); } };
+  $('#insSubmit').onclick=onSubmit;
+
+  updateProgress();
+}
+
+function renderTTSPlayer(audio){
+  const isMulti = audio.scripts.length > 1;
+  return `
+    <div class="audioblock" data-audio="${audio.id}">
+      <div class="tts-controls">
+        <button class="btn small" data-act="play">▶ Play</button>
+        <button class="btn small secondary" data-act="pause">⏸ Pause</button>
+        <button class="btn small secondary" data-act="resume">▶ Resume</button>
+        <button class="btn small ghost" data-act="stop">⏹ Stop</button>
+        <div class="speed">
+          <span>Speed</span>
+          <input type="range" data-act="speed" min="0.7" max="1.1" step="0.05" value="0.95">
+          <span data-out="speed">0.95×</span>
+        </div>
+      </div>
+      <div class="seg-list" data-segs>
+        ${(audio.segments||[]).map((s,i)=>`<span class="seg" data-seg="${i}">${i+1}. ${s}</span>`).join("")}
+      </div>
+      <div class="tts-status" data-status>Listo. Click <b>Play</b> para empezar.</div>
+      <div class="hint" data-voiceinfo style="display:none">🔊 Cargando voces…</div>
+      <div class="hint">${isMulti ? "Vas a oír "+audio.scripts.length+" conversaciones cortas con una pausa entre cada una." : "Audio de unos 90 segundos. Puedes pausar y continuar."}</div>
+    </div>`;
+}
+
+function bindTTSPlayer(audio){
+  const root = document.querySelector(`[data-audio="${audio.id}"]`);
+  if(!root) return;
+  const status = root.querySelector('[data-status]');
+  const segs = root.querySelectorAll('[data-seg]');
+  const voiceInfo = root.querySelector('[data-voiceinfo]');
+  TTS.onReady(()=>{
+    if(!voiceInfo) return;
+    // Teacher-only debug indicator. Hidden from students.
+    // Reveal by adding ?debug to the URL (e.g. ...listening-quiz.html?debug)
+    const teacherMode = /[?&](debug|teacher|voz)\b/i.test(location.search);
+    if(!teacherMode){ voiceInfo.style.display = 'none'; return; }
+    voiceInfo.style.display = '';
+    const s = TTS.status();
+    const badge = s.neural
+      ? '<span style="background:#dcfce7;color:#166534;padding:1px 8px;border-radius:999px;font-weight:700">🌟 Edge Neural</span>'
+      : '<span style="background:#fef3c7;color:#92400e;padding:1px 8px;border-radius:999px;font-weight:700">Standard voice</span>';
+    const mode = s.distinct
+      ? `🗣️ Diálogo a 2 personas: ♀ <b>${s.female}</b> · ♂ <b>${s.male}</b>`
+      : `🗣️ Diálogo a 2 personas (1 voz, tono diferenciado: ♀ agudo / ♂ grave) — <b>${s.female}</b>`;
+    voiceInfo.innerHTML = `${mode} &nbsp; ${badge}`;
+    if(!s.neural){
+      voiceInfo.innerHTML += `<br><span style="color:#92400e">💡 Para 2 voces reales y mejor calidad, abre en <b>Microsoft Edge</b> con internet (Aria + Guy Neural).</span>`;
+    }
+  });
+  const setSeg = (i, cls)=>{
+    segs.forEach(s=>s.classList.remove('playing'));
+    if(cls === 'playing'){
+      const s = root.querySelector(`[data-seg="${i}"]`);
+      if(s){ s.classList.add('playing'); }
+    }
+  };
+  const markDone = (i)=>{
+    const s = root.querySelector(`[data-seg="${i}"]`);
+    if(s){ s.classList.remove('playing'); s.classList.add('done'); }
+  };
+  root.querySelector('[data-act="play"]').onclick = ()=>{
+    TTS.stop();
+    segs.forEach(s=>{s.classList.remove('playing'); s.classList.remove('done');});
+    status.textContent = "Reproduciendo…";
+    TTS.speakSequence(audio.scripts, {
+      onSegment:(i)=>{
+        setSeg(i,'playing');
+        if(audio.scripts.length>1) status.textContent = `Conversación ${i+1} de ${audio.scripts.length}: ${audio.segments[i]||''}`;
+      },
+      onDone:()=>{ status.textContent = "✅ Reproducción terminada."; segs.forEach(s=>{s.classList.remove('playing'); s.classList.add('done');}); }
+    });
+  };
+  root.querySelector('[data-act="pause"]').onclick = ()=>{ TTS.pause(); status.textContent = "⏸ Pausado."; };
+  root.querySelector('[data-act="resume"]').onclick = ()=>{ TTS.resume(); status.textContent = "▶ Reproduciendo…"; };
+  root.querySelector('[data-act="stop"]').onclick = ()=>{ TTS.stop(); status.textContent = "⏹ Detenido."; segs.forEach(s=>s.classList.remove('playing')); };
+  const speed = root.querySelector('[data-act="speed"]');
+  const speedOut = root.querySelector('[data-out="speed"]');
+  speed.oninput = ()=>{ TTS.rate = parseFloat(speed.value); speedOut.textContent = TTS.rate.toFixed(2)+"×"; };
+}
+
+function renderQuestions(audio, container){
+  audio.questions.forEach((q, qi)=>{
+    const key = `${audio.id}__${qi}`;
+    const el = document.createElement("div");
+    el.className = audio.paged ? "q paged-q" : "q";
+    el.id = "lq_" + key;
+    let typePill = `<span class="pill">Comprensión</span>`;
+    if(q.type==="tf") typePill = `<span class="pill tf">Verdadero / Falso</span>`;
+    if(q.type==="inf") typePill = `<span class="pill inf">Inferencia</span>`;
+    if(q.type==="seq") typePill = `<span class="pill seq">Secuencia</span>`;
+
+    if(q.type==="mc" || q.type==="inf"){
+      el.innerHTML = `
+        <div class="meta">${typePill} <span>Pregunta ${qi+1}</span></div>
+        <div class="stem">${q.q}</div>
+        <div class="opts" data-key="${key}">
+          ${q.o.map((opt,oi)=>`
+            <label class="opt"><input type="radio" name="${key}" value="${oi}"> <span>${opt}</span></label>
+          `).join("")}
+        </div>`;
+    }
+    else if(q.type==="tf"){
+      el.innerHTML = `
+        <div class="meta">${typePill} <span>Pregunta ${qi+1}</span></div>
+        <div class="stem">${q.q}</div>
+        <div class="opts" data-key="${key}">
+          <label class="opt"><input type="radio" name="${key}" value="true"> <span>True (Verdadero)</span></label>
+          <label class="opt"><input type="radio" name="${key}" value="false"> <span>False (Falso)</span></label>
+        </div>`;
+    }
+    else if(q.type==="seq"){
+      const shuffled = shuffle(q.items.map((it,idx)=>({it,idx})));
+      state.seqOrder[key] = shuffled.map(s=>s.idx);
+      el.innerHTML = `
+        <div class="meta">${typePill} <span>Pregunta ${qi+1}</span></div>
+        <div class="stem">${q.q}</div>
+        <div class="seqlist" data-key="${key}">
+          ${shuffled.map((s,si)=>`
+            <div class="seqitem">
+              <select data-pos="${si}">
+                <option value="">—</option>
+                ${q.items.map((_,oi)=>`<option value="${oi+1}">${oi+1}</option>`).join("")}
+              </select>
+              <span>${s.it}</span>
+            </div>
+          `).join("")}
+        </div>
+        <div class="hint">Asigna 1, 2, 3, 4 según el orden en que ocurrieron.</div>`;
+    }
+    else if(q.type==="pic"){
+      el.innerHTML = `
+        <div class="meta"><span class="pill">Imagen</span> <span>Pregunta ${qi+1}</span></div>
+        <div class="stem">${q.q}</div>
+        <div class="opts pic-opts" data-key="${key}">
+          ${q.imgs.map((k,oi)=>`<label class="opt pic-opt"><input type="radio" name="${key}" value="${oi}"><span class="pic">${LPICS[k]||''}</span></label>`).join("")}
+        </div>`;
+    }
+    else if(q.type==="gap"){
+      el.innerHTML = `
+        <div class="meta"><span class="pill">Completar</span> <span>Pregunta ${qi+1}</span></div>
+        <div class="stem">${q.label||q.q||""}</div>
+        <div class="gapwrap" data-key="${key}"><input type="text" class="gapinput" autocomplete="off" placeholder="una palabra, número, fecha u hora"></div>`;
+    }
+    else if(q.type==="match"){
+      const bank = q.bank || audio.bank || [];
+      el.innerHTML = `
+        <div class="meta"><span class="pill">Emparejar</span> <span>Pregunta ${qi+1}</span></div>
+        ${q.taskLabel?`<div class="stem" style="color:#4987c6">${q.taskLabel}</div>`:''}
+        <div class="stem">${q.person}</div>
+        <select class="matchsel" data-key="${key}"><option value="">— elige —</option>${bank.map(b=>`<option value="${b}">${b}</option>`).join("")}</select>`;
+    }
+    if(audio.paged && q.audio){
+      el.innerHTML = `<div class="q-audio"><audio controls preload="none" src="${CONFIG.AUDIO_BASE}${q.audio}"></audio></div>` + el.innerHTML;
+    }
+    container.appendChild(el);
+  });
+
+  container.querySelectorAll('.opts').forEach(o=>{
+    const key = o.dataset.key;
+    o.addEventListener("change", e=>{
+      if(e.target.type === "radio"){
+        const v = e.target.value;
+        if(v==="true") state.answers[key]=true;
+        else if(v==="false") state.answers[key]=false;
+        else state.answers[key] = parseInt(v,10);
+        updateProgress();
+      }
+    });
+  });
+  container.querySelectorAll('.seqlist').forEach(o=>{
+    const key = o.dataset.key;
+    o.addEventListener("change", ()=>{
+      const ans = {};
+      o.querySelectorAll('select').forEach(sel=>{
+        const pos = parseInt(sel.dataset.pos, 10);
+        const v = sel.value ? parseInt(sel.value, 10) : null;
+        ans[pos] = v;
+      });
+      state.answers[key] = ans;
+      updateProgress();
+    });
+  });
+  container.querySelectorAll('.gapwrap input').forEach(inp=>{
+    const key = inp.closest('.gapwrap').dataset.key;
+    inp.addEventListener("input", ()=>{ state.answers[key] = inp.value; updateProgress(); });
+  });
+  container.querySelectorAll('.matchsel').forEach(sel=>{
+    const key = sel.dataset.key;
+    sel.addEventListener("change", ()=>{ state.answers[key] = sel.value; updateProgress(); });
+  });
+}
+
+function updateProgress(){
+  const lev = currentQuiz()[state.level];
+  let pointsAnswered = 0;
+  let pointsTotal = 0;
+  lev.audios.forEach(a=>{
+    a.questions.forEach((q,qi)=>{
+      const key = `${a.id}__${qi}`;
+      if(q.type==="seq"){
+        pointsTotal += q.items.length;
+        const ans = state.answers[key];
+        if(ans){
+          Object.values(ans).forEach(v=>{ if(v!=null) pointsAnswered++; });
+        }
+      } else {
+        pointsTotal++;
+        var _av = state.answers[key];
+        if(_av!==undefined && _av!=="") pointsAnswered++;
+      }
+    });
+  });
+  const _pi_done = {};
+  lev.audios.forEach((a,pi)=>{
+    let done=0;
+    a.questions.forEach((q,qi)=>{
+      const key=`${a.id}__${qi}`; const v=state.answers[key];
+      const ans = (q.type==="seq") ? !!(v && Object.values(v).some(x=>x!=null)) : (v!==undefined && v!=="");
+      if(ans) done++;
+      const b=document.getElementById('lqn-'+pi+'-'+qi); if(b) b.classList.toggle('done', !!ans);
+    });
+    const p=document.getElementById('lprog-'+pi); if(p) p.textContent = done+' of '+a.questions.length;
+  });
+}
+
+/* ---------- SCORING ---------- */
+function computeScore(){
+  const lev = currentQuiz()[state.level];
+  let total = 0, correct = 0;
+  const breakdown = [];
+  lev.audios.forEach(a=>{
+    a.questions.forEach((q, qi)=>{
+      const key = `${a.id}__${qi}`;
+      if(q.type==="mc" || q.type==="inf"){
+        total++;
+        const given = state.answers[key];
+        const ok = given === q.c;
+        if(ok) correct++;
+        breakdown.push({audio:a.title, type:q.type, q:q.q, given:given==null?"(sin responder)":q.o[given], correct:q.o[q.c], ok});
+      }
+      else if(q.type==="tf"){
+        total++;
+        const given = state.answers[key];
+        const ok = given === q.c;
+        if(ok) correct++;
+        breakdown.push({audio:a.title, type:q.type, q:q.q, given:given==null?"(sin responder)":(given?"True":"False"), correct:q.c?"True":"False", ok});
+      }
+      else if(q.type==="seq"){
+        const shown = state.seqOrder[key] || [];
+        const ans = state.answers[key] || {};
+        shown.forEach((origIdx, pos)=>{
+          total++;
+          const correctNumber = origIdx + 1;
+          const givenNumber = ans[pos];
+          const ok = givenNumber === correctNumber;
+          if(ok) correct++;
+          breakdown.push({audio:a.title, type:"seq", q:`${q.q} → "${q.items[origIdx]}"`, given:givenNumber==null?"(sin responder)":String(givenNumber), correct:String(correctNumber), ok});
+        });
+      }
+      else if(q.type==="pic"){
+        total++;
+        const given = state.answers[key];
+        const ok = given === q.c;
+        if(ok) correct++;
+        breakdown.push({audio:a.title, type:"pic", q:q.q, given:given==null?"(sin responder)":("Imagen "+(given+1)), correct:"Imagen "+(q.c+1), ok});
+      }
+      else if(q.type==="gap"){
+        total++;
+        const given = state.answers[key];
+        const ok = (q.accept||[]).some(x=>gapNorm_(x)===gapNorm_(given));
+        if(ok) correct++;
+        breakdown.push({audio:a.title, type:"gap", q:q.label||q.q||"", given:(given==null||given==="")?"(sin responder)":given, correct:(q.accept||[]).join(" / "), ok});
+      }
+      else if(q.type==="match"){
+        total++;
+        const given = state.answers[key];
+        const ok = given === q.c;
+        if(ok) correct++;
+        breakdown.push({audio:a.title, type:"match", q:q.person, given:(given==null||given==="")?"(sin responder)":given, correct:q.c, ok});
+      }
+    });
+  });
+  return {total, correct, breakdown};
+}
+
+/* ---------- SUBMIT ---------- */
+function onSubmit(){
+  const lev = currentQuiz()[state.level];
+  let unanswered = 0;
+  lev.audios.forEach(a=>a.questions.forEach((q,qi)=>{
+    const key = `${a.id}__${qi}`;
+    if(q.type==="seq"){
+      const ans = state.answers[key] || {};
+      const shown = state.seqOrder[key] || [];
+      shown.forEach((_,pos)=>{ if(ans[pos]==null) unanswered++; });
+    } else { var _v = state.answers[key]; if(_v===undefined || _v==="") unanswered++; }
+  }));
+  if(unanswered>0){
+    if(!confirm(`Tienes ${unanswered} ítems sin responder. ¿Enviar de todas formas?`)) return;
+  }
+  TTS.stop();
+  const score = computeScore();
+  const elapsedMin = Math.round((Date.now()-state.startTime)/60000);
+  const payload = {
+    name: state.name,
+    klass: state.klass,
+    email: state.email,
+    skill: "Listening",
+    level: state.level,
+    examType: state.examType,
+    mock: state.examType === 'mock02' ? 'MOCK 2' : 'MOCK 1',
+    score: score.correct,
+    total: score.total,
+    elapsed_min: elapsedMin,
+    when: new Date().toISOString(),
+    answers: state.answers,
+    breakdown: score.breakdown
+  };
+
+  state.lastPayload = payload;
+  viewResult(payload);
+}
+
+/* POST result to the Apps Script (no-cors). The script saves it to the Sheet and
+   emails the teacher AND the student. Returns a promise (resolves even on no-cors). */
+function sendResultToWebhook(payload){
+  if(!CONFIG.APPS_SCRIPT_URL || CONFIG.APPS_SCRIPT_URL.startsWith("PEGA_AQUI")) return Promise.resolve({skipped:true});
+  return fetch(CONFIG.APPS_SCRIPT_URL, {
+    method:"POST", mode:"no-cors", headers:{"Content-Type":"text/plain;charset=utf-8"},
+    body: JSON.stringify(payload)
+  }).then(()=>({ok:true})).catch(()=>({ok:false}));
+}
+
+function downloadResultPDF(filename){
+  const el = document.getElementById('pdfTarget');
+  if(!window.html2pdf || !el){ alert('PDF library still loading — try again in a moment.'); return; }
+  html2pdf().set({margin:8, filename:filename, image:{type:'jpeg',quality:0.95},
+    html2canvas:{scale:2, useCORS:true}, jsPDF:{unit:'mm', format:'a4', orientation:'portrait'},
+    pagebreak:{mode:['css','legacy']}}).from(el).save();
+}
+
+function saveLocal(prefilled){
+  const score = prefilled || (function(){
+    const s = computeScore();
+    return {
+      name: state.name, klass: state.klass, level: state.level,
+      score: s.correct, total: s.total,
+      when: new Date().toISOString(), answers: state.answers, breakdown: s.breakdown
+    };
+  })();
+  const blob = new Blob([JSON.stringify(score,null,2)], {type:"application/json"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  const safeName = (state.name||"alumno").replace(/[^a-z0-9]+/gi,"_");
+  a.href = url; a.download = `listening_${state.level}_${safeName}.json`;
+  document.body.appendChild(a); a.click();
+  setTimeout(()=>{ URL.revokeObjectURL(url); a.remove(); }, 200);
+}
+
+/* ---------- VIEW: Result ---------- */
+function viewResult(payload){
+  document.body.classList.remove('exam-mode'); document.body.classList.remove('signin-mode');
+  document.body.classList.add('result-mode');
+  hdrRight.innerHTML = "";
+  const pct = payload.total ? Math.round(100 * payload.score / payload.total) : 0;
+  const pass = pct >= 60;
+  const first = (payload.name||'Student').split(' ')[0];
+  const verdict = pct>=80 ? `Outstanding work, ${first}! A very strong performance.`
+                : pct>=60 ? `Well done, ${first}! That's a pass (Cambridge standard ≈ 60%).`
+                : pct>=40 ? `Good effort, ${first}. Review the parts you found hardest and try again.`
+                : `Don't be discouraged, ${first}. Every attempt sharpens your skills — review and try again soon.`;
+  // per-part breakdown (grouped by audio/part title)
+  const pm = {}, parts = [];
+  payload.breakdown.forEach(b=>{ if(!pm[b.audio]){ pm[b.audio]={name:b.audio, ok:0, tot:0}; parts.push(pm[b.audio]); } pm[b.audio].tot++; if(b.ok) pm[b.audio].ok++; });
+  parts.forEach(p=>p.pct = p.tot ? Math.round(100*p.ok/p.tot) : 0);
+  const partsHTML = parts.map(p=>`<div class="part-bar">
+      <div><div class="pname">${p.name}</div><div class="meta">${p.ok} of ${p.tot} correct</div></div>
+      <div class="pctn" style="color:${p.pct>=75?'#16a34a':p.pct>=50?'#f59e0b':'#dc2626'}">${p.pct}%</div>
+      <div class="barw"><div class="barf" style="width:${p.pct}%;background:${p.pct>=75?'#16a34a':p.pct>=50?'#f59e0b':'#dc2626'}"></div></div>
+    </div>`).join('');
+  const detailHTML = payload.breakdown.map(b=>`
+      <div class="res-line"><span>${(b.q||'').replace(/<[^>]+>/g,'')}</span><span class="${b.ok?'res-ok':'res-bad'}">${b.ok?'✓':'✗'}</span></div>
+      <div class="res-ans">Your answer: <b>${b.given}</b> &nbsp;|&nbsp; Correct: <b style="color:#16a34a">${b.correct}</b></div>`).join('');
+
+  app.innerHTML = `
+    <div class="res-wrap">
+      <div class="crumb">Results</div>
+      <h1>Exam results</h1>
+      <p class="res-sub">${QUIZ[payload.level] ? QUIZ[payload.level].label : payload.level} — Listening · ${payload.mock||'MOCK 1'}</p>
+      <div class="motivation-card">
+        <h2>${pass?'🎉 Congratulations':'Keep going'}, ${first}!</h2>
+        <p>${verdict}</p>
+      </div>
+      <div class="pdf-actions">
+        <button onclick="downloadResultPDF('NIS-Listening-${payload.level}-${(payload.name||'').replace(/\\s+/g,'_')}.pdf')">⬇ Download PDF</button>
+        <button class="email" id="lSendEmail">📧 Send to my email</button>
+      </div>
+      <div class="send-status" id="lSendStatus" style="display:none"></div>
+      <div id="pdfTarget">
+        <div class="pdf-brand"><img src="nordic-logo-h.svg" alt="Nordic"><div class="rep">CAMBRIDGE-FORMAT LISTENING REPORT</div></div>
+        <div class="res-grid">
+          <div><label>Student</label>${payload.name||''}</div>
+          <div><label>Email</label>${payload.email||'—'}</div>
+          <div><label>Grade / Class</label>${payload.klass||''}</div>
+          <div><label>Level</label>${payload.level||''}</div>
+          <div><label>Skill</label>Listening</div>
+          <div><label>Time spent</label>${payload.elapsed_min||0} min</div>
+        </div>
+        <div class="score-card">
+          <div class="big ${pass?'pass':'fail'}">${payload.score} / ${payload.total}</div>
+          <div class="pct">${pct}%</div>
+          <div class="verdict">${pass?'Pass':'Below the Cambridge passing standard (≈ 60%)'}</div>
+        </div>
+        <div class="res-card"><h2>Score by part</h2>${partsHTML}</div>
+        <div class="res-card"><h2>Detailed question review</h2>${detailHTML}</div>
+      </div>
+      <div class="row" style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap">
+        <button class="btn" id="lAgain">Try another level</button>
+        <a class="btn secondary" style="text-decoration:none" href="quizzes.html">All quizzes ↗</a>
+      </div>
+    </div>`;
+  $("#lAgain").onclick = viewWelcome;
+
+  // Auto-send to the webhook (saves to Sheet + emails teacher AND student)
+  const st = document.getElementById('lSendStatus');
+  st.style.display='block'; st.textContent='Sending your result…';
+  sendResultToWebhook(payload).then(res=>{
+    if(res.skipped){ st.classList.add('err'); st.textContent='⚠ No webhook configured — use ⬇ Download PDF.'; }
+    else { st.classList.remove('err'); st.textContent='✓ Result sent. Check your email shortly for your report.'; }
+  });
+  document.getElementById('lSendEmail').onclick = async ()=>{
+    const b=document.getElementById('lSendEmail'); b.disabled=true; b.textContent='Sending…';
+    const res=await sendResultToWebhook(payload); b.disabled=false; b.textContent='📧 Send to my email';
+    if(res.skipped){ st.classList.add('err'); st.textContent='⚠ No webhook configured.'; }
+    else { st.classList.remove('err'); st.textContent='✓ Sent. Check your email shortly.'; }
+  };
+}
+
+function sendByEmail(payload){
+  const pct = Math.round(100*payload.score/payload.total);
+  const byType = {mc:[0,0], tf:[0,0], inf:[0,0], seq:[0,0]};
+  payload.breakdown.forEach(b=>{
+    if(byType[b.type]){
+      byType[b.type][1]++;
+      if(b.ok) byType[b.type][0]++;
+    }
+  });
+  const summary = [
+    `=== LISTENING QUIZ — RESULTADOS ===`,
+    ``,
+    `Alumno: ${payload.name}`,
+    `Grado: ${payload.klass}`,
+    `Nivel: ${payload.level}`,
+    `Score: ${payload.score} / ${payload.total} (${pct}%)`,
+    `Tiempo: ${payload.elapsed_min} min`,
+    `Fecha: ${new Date(payload.when).toLocaleString()}`,
+    ``,
+    `--- Por tipo de pregunta ---`,
+    `Comprensión MC: ${byType.mc[0]}/${byType.mc[1]}`,
+    `Verdadero/Falso: ${byType.tf[0]}/${byType.tf[1]}`,
+    `Inferencia: ${byType.inf[0]}/${byType.inf[1]}`,
+    `Secuencia: ${byType.seq[0]}/${byType.seq[1]}`,
+    ``,
+    `--- Detalle pregunta por pregunta ---`,
+    ...payload.breakdown.map((b,i)=>`${i+1}. [${b.type.toUpperCase()}] ${b.q.replace(/<[^>]+>/g,'')}\n   Mi respuesta: ${b.given}\n   Correcta: ${b.correct}\n   Resultado: ${b.ok?'✓ correcto':'✗ incorrecto'}`)
+  ];
+  const body = summary.join('\n');
+  const subject = `Listening Quiz · ${payload.name} · ${payload.level} · ${payload.score}/${payload.total} (${pct}%)`;
+  const mailto = `mailto:${CONFIG.TEACHER_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  // Some mailto bodies are too long; trim if needed
+  if(mailto.length > 7800){
+    const shortBody = summary.slice(0,16).join('\n') + '\n\n(Detalle completo en el archivo JSON descargado.)';
+    window.location.href = `mailto:${CONFIG.TEACHER_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(shortBody)}`;
+  } else {
+    window.location.href = mailto;
+  }
+}
+
+/* ---------- START ---------- */
+viewWelcome();
+</script>
+</body>
+</html>

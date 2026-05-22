@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+*.tmp
+.vscode/
+.claude/
+node_modules/
+_*.js
+
+# Secrets — never commit
+A2 Level.txt
+*.key
+.env
+.env.*
+elevenlabs*.txt
+*secret*
