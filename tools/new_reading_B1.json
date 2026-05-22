@@ -1,0 +1,364 @@
+{
+  "mock1": {
+    "title": "B1 Preliminary — Reading (MOCK 1)",
+    "note": "All six parts are auto-scored.",
+    "parts": [
+      {
+        "type": "mc",
+        "part": "Part 1",
+        "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+        "questions": [
+          {
+            "kind": "notice",
+            "header": "City Art Museum",
+            "text": "PHOTOGRAPHY IS PERMITTED IN ALL ROOMS EXCEPT THE TEMPORARY EXHIBITION ON FLOOR 3.\nPLEASE DO NOT USE FLASH ANYWHERE IN THE BUILDING.",
+            "stem": "What does the notice tell visitors?",
+            "options": ["They may take photos everywhere if they avoid using flash.", "They can photograph the floor 3 exhibition without flash.", "Flash photos are allowed except on floor 3."],
+            "answer": 0
+          },
+          {
+            "kind": "message",
+            "header": "Text from Lucas to Priya",
+            "text": "Priya — the trainer said the pool is being cleaned this morning, so the lesson is now at 2pm instead of 10. I've already told the others, but could you let Sam know? He's not in our group chat. Thanks!",
+            "stem": "Why is Lucas writing to Priya?",
+            "options": ["To ask her to cancel the swimming lesson.", "To ask her to pass a message on to Sam.", "To tell her the pool is closed all day."],
+            "answer": 1
+          },
+          {
+            "kind": "email",
+            "from": "Hillcrest Recycling Centre",
+            "to": "Local residents",
+            "subject": "New collection rules",
+            "body": "From next month, glass bottles must be separated from other recycling and placed in the green box. Items left in the wrong container will not be collected. Cardboard should be flattened before collection day. Thank you for your cooperation.",
+            "stem": "What will happen if glass is put in the wrong container?",
+            "options": ["Residents will receive a fine in the post.", "The recycling team will not take it away.", "Collection day will be moved to the following week."],
+            "answer": 1
+          },
+          {
+            "kind": "notice",
+            "header": "Greenfield Library",
+            "text": "STUDY ROOMS CAN BE BOOKED ONLINE UP TO TWO WEEKS AHEAD.\nROOMS HELD FOR MORE THAN 15 MINUTES AFTER THE START TIME WILL BE GIVEN TO OTHER READERS.",
+            "stem": "What does the notice say about booked study rooms?",
+            "options": ["A room must be paid for two weeks in advance.", "A reader who is more than 15 minutes late may lose the room.", "Rooms cannot be booked online, only at the desk."],
+            "answer": 1
+          },
+          {
+            "kind": "note",
+            "header": "From Grandma",
+            "text": "Theo — I've left your dinner in the fridge; just heat it for two minutes. I've gone to your aunt's and won't be back until late. Walk the dog before it gets dark, and please don't forget to lock the back door this time!",
+            "stem": "What does Grandma want Theo to remember?",
+            "options": ["To cook a meal for himself.", "To meet her at his aunt's house.", "To secure the back door."],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "part": "Part 2",
+        "instructions": "The five people below are looking for a weekend short course. Read the descriptions of eight courses (A–H) and decide which course would be most suitable for each person. There are three courses you do not need to use.",
+        "sources": [
+          {
+            "label": "6",
+            "name": "Renata",
+            "avatar": "<img src=\"https://randomuser.me/api/portraits/women/65.jpg\" alt=\"Renata\" loading=\"lazy\">",
+            "text": "Renata has just started growing vegetables on her balcony but keeps making mistakes. She wants a practical outdoor session where an expert can show her what she is doing wrong. She can only attend on a Sunday and would rather be in a small group."
+          },
+          {
+            "label": "7",
+            "name": "Omar",
+            "avatar": "<img src=\"https://randomuser.me/api/portraits/men/41.jpg\" alt=\"Omar\" loading=\"lazy\">",
+            "text": "Omar is nervous about speaking in public for his new job. He wants to build confidence quickly over a single intensive day, and he doesn't mind which day of the weekend it is. He would prefer plenty of chances to practise in front of others."
+          },
+          {
+            "label": "8",
+            "name": "Beatrix",
+            "avatar": "<img src=\"https://randomuser.me/api/portraits/women/39.jpg\" alt=\"Beatrix\" loading=\"lazy\">",
+            "text": "Beatrix loves old furniture and wants to learn how to repair and repaint a wooden chair she found. She has no experience with tools at all and needs a course designed for complete beginners. She is free on Saturday mornings only."
+          },
+          {
+            "label": "9",
+            "name": "Théo",
+            "avatar": "<img src=\"https://randomuser.me/api/portraits/men/23.jpg\" alt=\"Théo\" loading=\"lazy\">",
+            "text": "Théo writes songs but cannot read music and feels held back by it. He wants a course that teaches the basics of reading and writing notes. He works shifts and is only reliably free on Sunday afternoons."
+          },
+          {
+            "label": "10",
+            "name": "Aisha",
+            "avatar": "<img src=\"https://randomuser.me/api/portraits/women/12.jpg\" alt=\"Aisha\" loading=\"lazy\">",
+            "text": "Aisha wants to take better photographs of birds and other wildlife. She already owns a good camera and understands the settings, so she wants something beyond beginner level. She is happy with either weekend day, ideally outdoors."
+          }
+        ],
+        "bank": {
+          "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+          "texts": [
+            "Confident Speaking in a Day: A single Saturday or Sunday workshop that takes you from anxious to assured. The morning covers theory; the whole afternoon is spent giving short talks to the group and receiving friendly feedback.",
+            "Sunday Balcony Gardening Clinic: Bring your real problems to this hands-on outdoor session. Groups are kept to six people so the tutor, a working market gardener, can give each plot individual attention. Sundays, 10am–1pm.",
+            "Furniture Rescue for Beginners: Saturday mornings. Absolutely no experience needed — you will be taught to sand, fill and repaint a small wooden item safely. All tools provided. Bring one piece of furniture to work on.",
+            "Reading Music from Scratch: Sunday afternoons. Designed for musicians who play or sing by ear but have never learned notation. By the end you will read and write simple melodies. No instrument required.",
+            "Wildlife Photography — Next Steps: Weekend field trips for photographers who already know their camera. We focus on patience, light and capturing birds in flight. Strictly not for beginners.",
+            "Indoor Watercolour Basics: A relaxed Saturday-afternoon class for those who have never painted. Materials supplied. Suitable for any age; no drawing experience expected.",
+            "Allotment Planning Talk: A Saturday lecture on designing a large vegetable garden over the year. Classroom-based, with slides; no practical gardening on the day.",
+            "Advanced Public Relations: A four-week evening course for marketing professionals. Covers media strategy and crisis communication. Weekday evenings only."
+          ]
+        },
+        "questions": [
+          {"stem": "Renata", "answer": "B"},
+          {"stem": "Omar", "answer": "A"},
+          {"stem": "Beatrix", "answer": "C"},
+          {"stem": "Théo", "answer": "D"},
+          {"stem": "Aisha", "answer": "E"}
+        ]
+      },
+      {
+        "type": "mc",
+        "part": "Part 3",
+        "instructions": "Read the text and choose the best answer A, B, C or D.",
+        "passage": "The keeper of the last light\n\nFor most of the twentieth century, the rocky island of Carrick Skerry was home to a lighthouse and, more unusually, to the family that ran it. Morag Sinclair was born there in 1951, the youngest of three children, and she did not set foot on the mainland until she was almost six. \"People imagine it must have been lonely,\" she says now, \"but to me it was simply home. The loneliness came later, when I understood there was anywhere else to be.\"\n\nLife on the island followed the rhythm of the light. Morag's father climbed the tower every evening to start the lamp, and the children were taught never to disturb him during the half-hour it took to get it burning steadily. Supplies arrived by boat once a fortnight, weather permitting, and when storms cut the island off, the family lived on whatever was in the store cupboard. Morag remembers a winter when they ate nothing but potatoes and tinned fish for nineteen days, and insists, with a laugh, that she enjoyed it.\n\nWhat she did not enjoy was leaving. When she was eleven, the family moved ashore so that she and her brothers could attend secondary school. The lighthouse was not abandoned — another keeper took over — but for Morag the move was a kind of exile. She struggled at school, found other children baffling, and spent every holiday begging to be taken back to the island. It was years before she felt at ease in an ordinary town.\n\nThe lighthouse was finally automated in 1987, and the last keeper left. Today the lamp still turns, controlled by a computer hundreds of miles away, but no one lives on Carrick Skerry. Morag, now retired, visits once a year by hired boat. \"I don't feel sad that the keepers have gone,\" she says. \"The light is what mattered, and the light is still there. What I miss is not the job. It's the silence — a particular kind of silence you only get when the nearest stranger is twelve miles away across the water.\"",
+        "questions": [
+          {"stem": "What does Morag say about her early childhood on the island?", "options": ["She felt lonely from the very beginning.", "She did not realise there was anywhere else to live.", "She often visited the mainland with her father.", "She disliked being the youngest of three children."], "answer": 1},
+          {"stem": "Why were the children told not to disturb their father in the evening?", "options": ["He needed time alone to rest after work.", "He was carrying out the careful task of lighting the lamp.", "The tower was dangerous after dark.", "He was counting the supplies that had arrived."], "answer": 1},
+          {"stem": "What does the writer suggest about the winter of potatoes and tinned fish?", "options": ["The family nearly ran out of food completely.", "Morag looks back on the hardship fondly.", "It was the reason the family left the island.", "The supply boat had stopped coming for good."], "answer": 1},
+          {"stem": "How did Morag feel after the family moved to the mainland?", "options": ["Relieved to be near a school at last.", "Excited to make new friends quickly.", "Out of place and eager to return to the island.", "Worried about the keeper who replaced her father."], "answer": 2},
+          {"stem": "What does Morag miss most about Carrick Skerry today?", "options": ["The responsibility of keeping the light burning.", "Living closely together as a family.", "A deep silence found only in such an isolated place.", "The regular arrival of the supply boat."], "answer": 2}
+        ]
+      },
+      {
+        "type": "match",
+        "part": "Part 4",
+        "instructions": "Read the article about a repair café. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+        "passage": "The shop that mends instead of selling\n\nOn the first Saturday of every month, the community hall in the town of Aldermere fills with the smell of solder and the sound of sewing machines. This is the Aldermere Repair Café, where local people bring broken objects to be fixed for free by a team of volunteers. (16)____ A broken toaster, a torn coat, a wobbly chair: almost nothing is turned away.\n\nThe idea is simple but powerful. Instead of throwing away an item the moment it stops working, owners sit down beside a volunteer and watch — and often help — as it is repaired. (17)____ By the time they leave, many people understand a little more about how their possessions actually work.\n\nThe café was started three years ago by a retired electrician named Walter Brun. He had grown frustrated by how readily his neighbours replaced things that needed only a small repair. (18)____ Within a year, he had recruited a tailor, a carpenter and two engineering students, and the queue at each session now stretches out of the door.\n\nNot everything can be saved, of course. (19)____ When that happens, the volunteers explain why, so that the owner at least learns something useful. The café keeps a record of every item brought in, and the figures are striking: in three years, more than two thousand objects have been kept out of the rubbish.\n\nWalter is careful to say that the café is about more than waste. (20)____ Strangers who arrive clutching a broken lamp often stay for an hour after it is fixed, drinking tea and chatting to people they would never otherwise have met.",
+        "bank": {
+          "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+          "texts": [
+            "Some objects are simply beyond repair, or would cost more to mend than to replace.",
+            "He decided that the best way to change this habit was to make repair social and enjoyable.",
+            "The volunteers charge a small fee for parts but never for their time.",
+            "This sharing of knowledge is, for the organisers, the whole point.",
+            "It has also become an unexpected meeting place for the community.",
+            "The hall is closed for the rest of the month while repairs are carried out.",
+            "Visitors are welcome to bring almost any household object, large or small.",
+            "Most of the volunteers had never met before joining the project."
+          ]
+        },
+        "questions": [
+          {"stem": "Gap 16", "answer": "G"},
+          {"stem": "Gap 17", "answer": "D"},
+          {"stem": "Gap 18", "answer": "B"},
+          {"stem": "Gap 19", "answer": "A"},
+          {"stem": "Gap 20", "answer": "E"}
+        ]
+      },
+      {
+        "type": "clozeMC",
+        "part": "Part 5",
+        "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+        "title": "The story of tea",
+        "body": "Tea is the most widely consumed drink in the world after water, yet its origins are surprisingly difficult to (21)____. According to one popular legend, a Chinese emperor discovered it by accident when leaves blew into a pot of boiling water. Whatever the truth, tea had become an important part of daily life across much of Asia long (22)____ it reached Europe. When it finally (23)____ in England in the seventeenth century, it was so expensive that only the wealthy could afford it, and it was often kept locked away. Over the following two centuries, prices fell (24)____, and tea gradually became the everyday drink of ordinary households. Today the way tea is prepared varies enormously from one country to (25)____, but the basic pleasure of a warm cup remains (26)____ the same everywhere.",
+        "questions": [
+          {"options": ["trace", "follow", "search", "discover"], "answer": 0},
+          {"options": ["after", "until", "before", "since"], "answer": 2},
+          {"options": ["happened", "arrived", "reached", "came"], "answer": 1},
+          {"options": ["sharply", "hardly", "lately", "rarely"], "answer": 0},
+          {"options": ["other", "another", "others", "each"], "answer": 1},
+          {"options": ["mostly", "nearly", "fairly", "quite"], "answer": 1}
+        ]
+      },
+      {
+        "type": "clozeOpen",
+        "part": "Part 6",
+        "instructions": "For each gap (27–32), write ONE word.",
+        "title": "Email about a music festival",
+        "body": "Hi Dana,\n\nI'm so glad you've decided to come to the festival (27)____ me this summer! I've finally bought the tickets, (28)____ arrived in the post yesterday. They were cheaper (29)____ I expected because we booked early.\n\nThe campsite is only a short walk (30)____ the main stage, so we won't (31)____ to carry our bags far. Don't forget to bring a raincoat — the weather here can change very quickly, and last year it rained (32)____ the whole weekend!\n\nCan't wait to see you,\nMaya",
+        "questions": [
+          {"accept": ["with"]},
+          {"accept": ["which", "they"]},
+          {"accept": ["than"]},
+          {"accept": ["from", "to"]},
+          {"accept": ["have", "need"]},
+          {"accept": ["for", "throughout", "during", "almost", "nearly"]}
+        ]
+      }
+    ]
+  },
+  "mock2": {
+    "title": "B1 Preliminary — Reading (MOCK 2)",
+    "note": "All six parts are auto-scored.",
+    "parts": [
+      {
+        "type": "mc",
+        "part": "Part 1",
+        "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+        "questions": [
+          {
+            "kind": "notice",
+            "header": "Regent Theatre",
+            "text": "LATECOMERS WILL NOT BE ADMITTED UNTIL A SUITABLE BREAK IN THE PERFORMANCE.\nPLEASE COLLECT PRE-BOOKED TICKETS FROM THE BOX OFFICE AT LEAST 20 MINUTES BEFORE THE START.",
+            "stem": "What does the notice tell people who arrive late?",
+            "options": ["They must wait for a break before they can take their seats.", "They will not be allowed in at all that evening.", "They can collect their tickets during the performance."],
+            "answer": 0
+          },
+          {
+            "kind": "email",
+            "from": "Northgate Station",
+            "to": "Season ticket holders",
+            "subject": "Weekend engineering work",
+            "body": "Please note that no trains will run between Northgate and Eastbury this Sunday while the track is repaired. A replacement bus service will operate from outside the main entrance. Journeys will take around 30 minutes longer than usual, so please plan ahead.",
+            "stem": "What does the email advise season ticket holders to do?",
+            "options": ["Avoid travelling on Sunday completely.", "Allow extra time for their journey on Sunday.", "Buy a separate ticket for the replacement bus."],
+            "answer": 1
+          },
+          {
+            "kind": "sign",
+            "header": "Summit Climbing Gym",
+            "text": "BEGINNERS MUST COMPLETE A SAFETY SESSION BEFORE USING THE TALL WALLS.\nTHE LOW BOULDERING AREA IS OPEN TO EVERYONE WITHOUT TRAINING.",
+            "stem": "What does the sign say about new visitors?",
+            "options": ["They cannot use any part of the gym without training.", "They may use the low area but not the tall walls until trained.", "They must be trained before entering the building."],
+            "answer": 1
+          },
+          {
+            "kind": "message",
+            "header": "Text from Dad to Ravi",
+            "text": "Ravi — I'm stuck in traffic and won't reach the station before your train leaves. Don't wait for me on the platform; just get on and I'll meet you at Grandma's instead. Text me your seat number so I can find you tomorrow morning.",
+            "stem": "What does Dad want Ravi to do?",
+            "options": ["Wait at the station until he arrives.", "Travel on alone and meet him later.", "Catch a later train so they can travel together."],
+            "answer": 1
+          },
+          {
+            "kind": "notice",
+            "header": "Maple Court car park",
+            "text": "PARKING IS FREE FOR THE FIRST HOUR. AFTER THAT, A TICKET MUST BE PURCHASED FROM THE MACHINE AND DISPLAYED ON THE DASHBOARD. CARS WITHOUT A VISIBLE TICKET MAY BE CHARGED A PENALTY.",
+            "stem": "What must drivers who stay more than an hour do?",
+            "options": ["Move their car to a different space.", "Buy a ticket and show it inside the car.", "Pay a penalty at the exit barrier."],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "part": "Part 2",
+        "instructions": "The five people below want to choose a day trip from their city. Read the descriptions of eight trips (A–H) and decide which trip would be most suitable for each person. There are three trips you do not need to use.",
+        "sources": [
+          {
+            "label": "6",
+            "name": "Gustavo",
+            "avatar": "<img src=\"https://randomuser.me/api/portraits/men/15.jpg\" alt=\"Gustavo\" loading=\"lazy\">",
+            "text": "Gustavo finds ordinary sightseeing boring and wants a day with some genuine physical challenge. He is very fit and would love something involving heights or water. He is travelling alone and doesn't mind joining a group of strangers."
+          },
+          {
+            "label": "7",
+            "name": "Priscila",
+            "avatar": "<img src=\"https://randomuser.me/api/portraits/women/26.jpg\" alt=\"Priscila\" loading=\"lazy\">",
+            "text": "Priscila is travelling with her elderly mother, who tires easily and cannot walk far. They both love history and want to learn a lot, but they need a relaxed pace and plenty of places to sit down along the way."
+          },
+          {
+            "label": "8",
+            "name": "Hendrik",
+            "avatar": "<img src=\"https://randomuser.me/api/portraits/men/62.jpg\" alt=\"Hendrik\" loading=\"lazy\">",
+            "text": "Hendrik is a keen amateur cook who wants to bring home new skills, not just memories. He would like a hands-on day where he actually prepares food himself, ideally using local ingredients. Cost is not a concern."
+          },
+          {
+            "label": "9",
+            "name": "Liang",
+            "avatar": "<img src=\"https://randomuser.me/api/portraits/women/19.jpg\" alt=\"Liang\" loading=\"lazy\">",
+            "text": "Liang has two young children who quickly get bored. She wants a trip where the kids can run around safely and touch and feed animals. She would prefer to be outdoors and somewhere that doesn't require long periods of quiet."
+          },
+          {
+            "label": "10",
+            "name": "Tobias",
+            "avatar": "<img src=\"https://randomuser.me/api/portraits/men/48.jpg\" alt=\"Tobias\" loading=\"lazy\">",
+            "text": "Tobias is a photographer looking for dramatic natural scenery rather than towns or buildings. He doesn't want a guided commentary; he just needs to be taken to a beautiful place and left to wander quietly with his camera."
+          }
+        ],
+        "bank": {
+          "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+          "texts": [
+            "Old Town Heritage Walk: A gentle, slow-paced guided tour of the medieval quarter, with frequent stops at cafés and benches. Expert guide shares centuries of local history. Designed for visitors who prefer comfort to distance.",
+            "Coastal Gorge Adventure: A full day of cliff climbing and swimming through a river gorge, for fit and confident participants only. Wetsuits and helmets supplied. Small groups, led by qualified instructors.",
+            "Farm Visit for Families: Spend the day at a working farm where children can feed lambs, collect eggs and play in the outdoor barn. Plenty of open space to run. No strict timetable.",
+            "Mountain Viewpoint Drop-off: A minibus takes you to a remote highland lookout famous for its scenery, then collects you four hours later. No guide, no commentary — just you and the landscape.",
+            "Regional Cooking Day: Visit a country kitchen and prepare a three-course meal from scratch using ingredients from the local market. Hands-on tuition from a professional chef. Eat what you make.",
+            "City Museum Tour: An indoor day exploring the art and science galleries, with a knowledgeable guide. Quiet, calm and entirely under cover. Lots of reading and observation.",
+            "River Wildlife Cruise: A relaxed boat trip with commentary about the birds and fish of the estuary. Comfortable seating throughout; suitable for all ages and fitness levels.",
+            "Vineyard Bus Tour: A guided coach tour stopping at three vineyards for tastings. Mostly seated, with short walks. Adults only."
+          ]
+        },
+        "questions": [
+          {"stem": "Gustavo", "answer": "B"},
+          {"stem": "Priscila", "answer": "A"},
+          {"stem": "Hendrik", "answer": "E"},
+          {"stem": "Liang", "answer": "C"},
+          {"stem": "Tobias", "answer": "D"}
+        ]
+      },
+      {
+        "type": "mc",
+        "part": "Part 3",
+        "instructions": "Read the article about a young chef and choose the best answer A, B, C or D.",
+        "passage": "When Daniel Okafor opened his restaurant, The Long Table, in a former bakery on the edge of town, almost everyone he knew advised him against it. The location was poor, with little passing traffic, and the building needed expensive work. \"My old boss told me I'd be closed within six months,\" Daniel recalls. \"He wasn't being cruel — he genuinely believed it. And for a while it looked as if he might be right.\"\n\nThe early months were brutal. Some evenings only two or three tables were filled, and Daniel often cooked, served and washed up almost single-handed. What saved the restaurant was a decision that, at the time, looked like a mistake. Rather than offering a long menu, Daniel cut it down to a single set meal that changed every day according to what local farmers had available. \"People thought I was mad to give customers no choice,\" he says. \"But it meant nothing was wasted, the food was always fresh, and slowly word got around.\"\n\nThe turning point came not from a famous critic but from his own customers. Regulars began bringing friends, and those friends posted photographs online. Within a year, people were travelling from the city — over an hour away — to eat at a place with no menu and only twenty seats. Daniel still refused to expand. \"Everyone kept telling me to open a second restaurant, or at least add more tables. I said no. The whole point is that it's small. If I doubled the size, I'd lose the very thing that makes it special.\"\n\nThese days The Long Table is booked weeks in advance, and Daniel has finally hired a small team. He admits he sometimes misses the early chaos. \"It was terrifying, but it was mine, every part of it. Now I have to trust other people, which is harder than cooking ever was. But I'd rather have this problem than the one I started with.\"",
+        "questions": [
+          {"stem": "What did people think when Daniel opened the restaurant?", "options": ["That the location was excellent for business.", "That it was unlikely to succeed.", "That the building was already perfect.", "That he should have charged higher prices."], "answer": 1},
+          {"stem": "How did Daniel manage during the difficult early months?", "options": ["He borrowed money from his old boss.", "He did most of the work himself.", "He closed for several evenings each week.", "He hired a large team straight away."], "answer": 1},
+          {"stem": "Why did Daniel decide to offer only one set meal each day?", "options": ["It was cheaper to advertise.", "Customers had asked him to simplify the menu.", "It reduced waste and kept the food fresh.", "He could not cook many different dishes."], "answer": 2},
+          {"stem": "What does Daniel say about not making the restaurant bigger?", "options": ["He could not afford to expand.", "Growing larger would destroy what makes it special.", "The town would not allow a bigger building.", "He plans to expand once he has more staff."], "answer": 1},
+          {"stem": "How does Daniel feel about the restaurant now?", "options": ["He wishes he had never opened it.", "He finds trusting his team easier than cooking.", "He prefers his current difficulties to the early ones.", "He regrets hiring other people."], "answer": 2}
+        ]
+      },
+      {
+        "type": "match",
+        "part": "Part 4",
+        "instructions": "Read the article about the return of vinyl records. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+        "passage": "Why vinyl refuses to disappear\n\nA few decades ago, the vinyl record seemed finished. As compact discs and then digital downloads took over, the large black disc looked like a relic of the past, kept only by a handful of collectors. (16)____ Yet today, sales of vinyl are higher than they have been in thirty years, and new pressing plants are struggling to keep up with demand.\n\nThe revival is, at first glance, hard to explain. Streaming offers millions of songs instantly and almost free, while a single vinyl record is expensive, fragile and easily scratched. (17)____ So why are so many people, including teenagers who grew up entirely online, choosing to buy them?\n\nPart of the answer lies in the experience. Playing a record demands attention: you must choose it, handle it carefully and turn it over halfway through. (18)____ For listeners tired of skipping endlessly between tracks, this slower ritual feels almost like a luxury.\n\nThere is also the object itself. A record comes with large artwork, printed lyrics and a physical presence that a digital file cannot match. (19)____ Many buyers admit that they value owning something they can hold, display and even pass on to others.\n\nNone of this means that streaming is in danger. Most vinyl owners still listen to music digitally most of the time. (20)____ Instead, the record has found a new role — not as the main way people hear music, but as a deliberate, treasured alternative to it.",
+        "bank": {
+          "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+          "texts": [
+            "It is, in other words, far less convenient in almost every practical way.",
+            "Most experts confidently predicted that it would vanish within a generation.",
+            "This forces the listener to engage with a whole album rather than a single song.",
+            "Collectors say that some rare pressings now sell for thousands.",
+            "For these fans, music has become something to be seen as well as heard.",
+            "The two formats appear to coexist quite happily.",
+            "Sales of cassette tapes have also begun to climb again recently.",
+            "Record shops were closing at a rate of several each week."
+          ]
+        },
+        "questions": [
+          {"stem": "Gap 16", "answer": "B"},
+          {"stem": "Gap 17", "answer": "A"},
+          {"stem": "Gap 18", "answer": "C"},
+          {"stem": "Gap 19", "answer": "E"},
+          {"stem": "Gap 20", "answer": "F"}
+        ]
+      },
+      {
+        "type": "clozeMC",
+        "part": "Part 5",
+        "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+        "title": "Bringing bicycles back to cities",
+        "body": "Over the past twenty years, many of the world's largest cities have made a determined (21)____ to encourage cycling. Faced with traffic jams and dirty air, councils have built protected lanes and introduced bike-sharing schemes that (22)____ thousands of cycles available to rent. The results have, in some places, been remarkable. In several northern European cities, more journeys are now (23)____ out by bicycle than by car. Persuading people to switch is not always easy, however. Many would-be cyclists say they feel unsafe (24)____ busy roads, and councils have learned that simply painting a line on the tarmac is not (25)____. Where cities have invested in proper barriers between cars and bikes, cycling has increased (26)____; where they have not, it has barely changed at all.",
+        "questions": [
+          {"options": ["effort", "attempt", "trial", "force"], "answer": 0},
+          {"options": ["take", "make", "give", "put"], "answer": 1},
+          {"options": ["taken", "made", "carried", "done"], "answer": 2},
+          {"options": ["between", "among", "alongside", "during"], "answer": 2},
+          {"options": ["plenty", "enough", "complete", "whole"], "answer": 1},
+          {"options": ["hardly", "rarely", "sharply", "barely"], "answer": 2}
+        ]
+      },
+      {
+        "type": "clozeOpen",
+        "part": "Part 6",
+        "instructions": "For each gap (27–32), write ONE word.",
+        "title": "Letter about a new job",
+        "body": "Dear Aunt Carmen,\n\nI hope you are well. I'm writing to tell you my big news: I've finally (27)____ offered the job at the design studio! I start next Monday, (28)____ I'm both excited and a little nervous.\n\nThe office is in the city centre, which means I'll (29)____ to leave home much earlier than before. Still, the work sounds far more interesting (30)____ my old job, and the people I met at the interview were really friendly.\n\nThank you so much (31)____ all your advice while I was preparing. I honestly don't think I (32)____ have done it without you.\n\nWith love,\nDiego",
+        "questions": [
+          {"accept": ["been"]},
+          {"accept": ["so", "and"]},
+          {"accept": ["have", "need"]},
+          {"accept": ["than"]},
+          {"accept": ["for"]},
+          {"accept": ["could", "would"]}
+        ]
+      }
+    ]
+  }
+}

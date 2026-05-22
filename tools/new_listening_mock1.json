@@ -1,0 +1,382 @@
+{
+  "A2": {
+    "label": "A2 — Elementary",
+    "cefr": "Cambridge KET · A2 official format",
+    "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+    "audios": [
+      {
+        "id": "A2-P1",
+        "title": "Part 1 · Questions 1–5",
+        "kind": "file",
+        "paged": true,
+        "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+        "segments": ["A new hobby", "Going downtown", "The weather report", "A missing object", "Leaving for school"],
+        "scripts": [
+          "Question one. Girl: What are you doing this term, Sam? Boy: I wanted to join the football team, but in the end I chose photography, so my parents bought me a camera. Girl: That sounds fun.",
+          "Question two. Boy: How shall we get into town later? Girl: We could cycle, but the road is busy. Let's just take the bus. Boy: Fine, the bus stops right outside.",
+          "Question three. Woman: Shall I hang the washing outside? Man: I wouldn't. They said on the radio it's going to snow this afternoon. Woman: Snow already? Then I'll dry it inside.",
+          "Question four. Man: You look upset, what's wrong? Girl: I can't find my umbrella. I think I left it at the library. Man: Never mind, we can go back for it later.",
+          "Question five. Woman: Hurry up, the bus leaves at nine o'clock. Boy: I thought it was half past eight. Woman: It was, but the timetable changed. Boy: Oh good, I've got more time then."
+        ],
+        "questions": [
+          {"type": "pic", "q": "What did Sam choose to do this term?", "imgs": ["ball", "camera", "guitar"], "c": 1, "audio": "A2/A2-P1-q1.mp3"},
+          {"type": "pic", "q": "How will they get into town?", "imgs": ["bike", "bus", "car"], "c": 1, "audio": "A2/A2-P1-q2.mp3"},
+          {"type": "pic", "q": "What will the weather be like this afternoon?", "imgs": ["sunny", "rainy", "snowy"], "c": 2, "audio": "A2/A2-P1-q3.mp3"},
+          {"type": "pic", "q": "What did the girl leave at the library?", "imgs": ["keys", "umbrella", "phone"], "c": 1, "audio": "A2/A2-P1-q4.mp3"},
+          {"type": "pic", "q": "What time does the bus leave now?", "imgs": ["clock830", "clock9", "clock8"], "c": 1, "audio": "A2/A2-P1-q5.mp3"}
+        ]
+      },
+      {
+        "id": "A2-P2",
+        "title": "Part 2 · Questions 6–10",
+        "kind": "file",
+        "file": "A2/A2-P2.mp3",
+        "intro": "You will hear a teacher telling students about a school sports day. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+        "scripts": [
+          "Listen to your teacher talking about sports day. Woman: Here are the details for our school sports day. It will take place on Tuesday this year, not on the usual Friday. We start at ten o'clock, so arrive in good time. Everybody must wear a white T-shirt. Please don't bring your own food, because the school will give every student a free lunch. And the most important thing: families are very welcome, so do invite your parents to come and watch."
+        ],
+        "gapTitle": "School Sports Day",
+        "questions": [
+          {"type": "gap", "label": "Day of sports day: ____", "accept": ["tuesday"]},
+          {"type": "gap", "label": "Starts at: ____ o'clock", "accept": ["10", "ten"]},
+          {"type": "gap", "label": "Everyone must wear a white: ____", "accept": ["t-shirt", "tshirt", "t shirt"]},
+          {"type": "gap", "label": "The school will give a free: ____", "accept": ["lunch"]},
+          {"type": "gap", "label": "Students should invite their: ____", "accept": ["parents"]}
+        ]
+      },
+      {
+        "id": "A2-P3",
+        "title": "Part 3 · Questions 11–15",
+        "kind": "file",
+        "file": "A2/A2-P3.mp3",
+        "intro": "You will hear a girl called Nina talking to her friend Oscar about a visit to the science museum. For each question, choose the correct answer (A, B or C).",
+        "scripts": [
+          "Girl: Hi Oscar, are you coming to the science museum on Sunday? Boy: I'd like to, but I promised to help my brother in the morning. Could we go after lunch? Girl: Sure, the afternoon is fine. How are we getting there? Boy: My mum offered to drive us. Girl: Great. Oh, bring some money, because the space film costs extra. Boy: How much? Girl: Five pounds, I think. Boy: That's fine. What do you most want to see? Girl: The robots, definitely. Everyone says they're amazing."
+        ],
+        "questions": [
+          {"type": "mc", "q": "When will they go to the museum?", "o": ["In the morning", "In the afternoon", "In the evening"], "c": 1},
+          {"type": "mc", "q": "Why can't Oscar go earlier?", "o": ["He has to help his brother", "He has a lesson", "He feels tired"], "c": 0},
+          {"type": "mc", "q": "How will they travel to the museum?", "o": ["By bus", "By bike", "By car"], "c": 2},
+          {"type": "mc", "q": "Why does Nina say to bring money?", "o": ["For lunch", "For a film", "For the bus"], "c": 1},
+          {"type": "mc", "q": "What does Nina most want to see?", "o": ["The robots", "The space film", "The shop"], "c": 0}
+        ]
+      },
+      {
+        "id": "A2-P4",
+        "title": "Part 4 · Questions 16–20",
+        "kind": "file",
+        "file": "A2/A2-P4.mp3",
+        "intro": "You will hear a girl called Ruby talking about her chess club. For each question, choose the correct answer (A, B or C).",
+        "scripts": [
+          "Girl: I started going to the chess club last year. To be honest, I only went because my best friend asked me to, but now I really enjoy it. We meet every Friday in the school library. At the start I lost almost every game, which was hard, but our teacher said that's normal and I shouldn't give up. The best part for me isn't winning, it's thinking carefully and being patient. Next term the club is going to play against another school, and I can't wait, even though I feel a bit nervous."
+        ],
+        "questions": [
+          {"type": "mc", "q": "Why did Ruby first go to the chess club?", "o": ["She loved chess", "Her friend asked her", "Her teacher made her"], "c": 1},
+          {"type": "mc", "q": "Where does the club meet?", "o": ["In the library", "In the hall", "In a classroom"], "c": 0},
+          {"type": "mc", "q": "What happened when Ruby started?", "o": ["She won many games", "She lost most games", "She stopped going"], "c": 1},
+          {"type": "mc", "q": "What does Ruby like best about chess?", "o": ["Winning games", "Thinking and being patient", "Meeting friends"], "c": 1},
+          {"type": "mc", "q": "How does Ruby feel about playing another school?", "o": ["Bored", "Excited but a bit nervous", "Very calm"], "c": 1}
+        ]
+      },
+      {
+        "id": "A2-P5",
+        "title": "Part 5 · Questions 21–25",
+        "kind": "file",
+        "file": "A2/A2-P5.mp3",
+        "intro": "You will hear a boy called Theo talking about jobs his family does at home on Saturdays. What job does each person do? For each question, choose the correct answer.",
+        "bank": ["washing the car", "cooking lunch", "feeding the cat", "watering plants", "cleaning windows", "doing laundry", "tidying the garage"],
+        "scripts": [
+          "Boy: On Saturdays everyone in my family has a job. My sister Holly feeds the cat first thing in the morning, because she loves animals. My dad spends ages washing the car, he's very proud of it. My brother Max is good at cooking, so he makes lunch for all of us. My grandma waters all the plants in the garden, even when it's cold. And I have to do the laundry, which I really don't enjoy."
+        ],
+        "questions": [
+          {"type": "match", "person": "Holly", "c": "feeding the cat"},
+          {"type": "match", "person": "Dad", "c": "washing the car"},
+          {"type": "match", "person": "Max", "c": "cooking lunch"},
+          {"type": "match", "person": "Grandma", "c": "watering plants"},
+          {"type": "match", "person": "Theo", "c": "doing laundry"}
+        ]
+      }
+    ]
+  },
+  "B1": {
+    "label": "B1 — Intermediate",
+    "cefr": "Cambridge PET · B1 official format",
+    "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+    "audios": [
+      {
+        "id": "B1-P1",
+        "title": "Part 1 · Questions 1–7",
+        "kind": "file",
+        "paged": true,
+        "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+        "segments": ["A school lunch", "Getting to the match", "The forecast", "A present idea", "At the bookshop", "The meeting time", "Something missing"],
+        "scripts": [
+          "Question one. Girl: Are you having the pizza at the canteen today? Boy: I was going to, but they've run out, so I'm just having a sandwich. Girl: That's a shame, the pizza's usually good.",
+          "Question two. Boy: How are you getting to the match on Saturday? Girl: My brother was going to drive me, but his car's at the garage, so I'll cycle instead. Boy: I'll cycle with you then.",
+          "Question three. Woman: Do you think I'll need my coat? Man: It's sunny now, but the forecast warns of heavy rain by the evening. Woman: Then I'll definitely take an umbrella.",
+          "Question four. Girl: I've no idea what to give Grandad. Boy: He's always saying he wants to read more. Why not a book? Girl: Perfect, he'll love that.",
+          "Question five. Boy: Did you find the camera you wanted? Girl: No, the shop only sells books. But I did buy a lovely new bag while I was there. Boy: Well, at least the trip wasn't wasted.",
+          "Question six. Man: Remind me, what time are we meeting the others? Woman: I said eight, but they can't make it that early, so we changed it to nine. Man: Nine works better for me anyway.",
+          "Question seven. Woman: What are you looking for? Boy: My phone. I had it on the bus, but now I can't find it anywhere. Woman: Check your jacket pockets before we panic."
+        ],
+        "questions": [
+          {"type": "pic", "q": "What will the boy have for lunch?", "imgs": ["pizza", "sandwich", "cake"], "c": 1, "audio": "B1/B1-P1-q1.mp3"},
+          {"type": "pic", "q": "How will the girl get to the match?", "imgs": ["car", "bus", "bike"], "c": 2, "audio": "B1/B1-P1-q2.mp3"},
+          {"type": "pic", "q": "What will the weather be like by evening?", "imgs": ["sunny", "rainy", "snowy"], "c": 1, "audio": "B1/B1-P1-q3.mp3"},
+          {"type": "pic", "q": "What will the girl give her grandad?", "imgs": ["book", "guitar", "camera"], "c": 0, "audio": "B1/B1-P1-q4.mp3"},
+          {"type": "pic", "q": "What did the girl buy at the shop?", "imgs": ["bag", "hat", "camera"], "c": 0, "audio": "B1/B1-P1-q5.mp3"},
+          {"type": "pic", "q": "What time will they now meet the others?", "imgs": ["clock8", "clock830", "clock9"], "c": 2, "audio": "B1/B1-P1-q6.mp3"},
+          {"type": "pic", "q": "What can't the boy find?", "imgs": ["keys", "phone", "umbrella"], "c": 1, "audio": "B1/B1-P1-q7.mp3"}
+        ]
+      },
+      {
+        "id": "B1-P2",
+        "title": "Part 2 · Questions 8–13",
+        "kind": "file",
+        "paged": true,
+        "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+        "segments": ["A weekend course", "A swimming lesson", "A new restaurant", "Some feedback", "A surprise", "Why he's late"],
+        "scripts": [
+          "You will hear a girl talking about a weekend course. Girl: I signed up for the cooking course expecting to learn fancy meals, but actually we spent the whole time on bread. I was a little disappointed at first, yet by the end I could bake better than my mum.",
+          "You will hear a boy talking about a swimming lesson. Boy: I'd been dreading my first lesson because I'm scared of deep water. In the end, though, we stayed in the shallow end the whole time, so it wasn't frightening at all. I'm actually looking forward to next week.",
+          "You will hear a woman talking about a restaurant. Woman: The portions were a bit small, I'll admit, and parking was a nightmare. But the staff were so friendly and welcoming that I'd happily go back just for that. It really made the evening.",
+          "You will hear a teacher giving a student feedback. Teacher: Your project is genuinely creative and clearly your own work. The only thing letting it down is the spelling, which is quite careless. Read it through once more and you'll catch most of the mistakes.",
+          "You will hear a boy talking about his weekend. Boy: My parents told me we were just visiting my aunt, which sounded dull. But when we arrived, all my cousins were there with a cake. It turned out they'd planned a surprise party for me. I had no idea.",
+          "You will hear a man explaining why he's late. Man: I do apologise. I left in plenty of time, honestly, but a bus had broken down and blocked the whole street, so nothing could move. There was simply no way around it."
+        ],
+        "questions": [
+          {"type": "mc", "q": "What did the girl learn to make on the course?", "o": ["Fancy meals", "Bread", "Cakes"], "c": 1, "audio": "B1/B1-P2-q1.mp3"},
+          {"type": "mc", "q": "Why wasn't the swimming lesson frightening?", "o": ["They stayed in shallow water", "The teacher was kind", "It was very short"], "c": 0, "audio": "B1/B1-P2-q2.mp3"},
+          {"type": "mc", "q": "What did the woman like most about the restaurant?", "o": ["The portions", "The friendly staff", "The parking"], "c": 1, "audio": "B1/B1-P2-q3.mp3"},
+          {"type": "mc", "q": "What does the teacher want the student to fix?", "o": ["The ideas", "The spelling", "The length"], "c": 1, "audio": "B1/B1-P2-q4.mp3"},
+          {"type": "mc", "q": "What was the surprise for the boy?", "o": ["A party", "A new pet", "A holiday"], "c": 0, "audio": "B1/B1-P2-q5.mp3"},
+          {"type": "mc", "q": "Why is the man late?", "o": ["He left too late", "A bus blocked the road", "He lost his keys"], "c": 1, "audio": "B1/B1-P2-q6.mp3"}
+        ]
+      },
+      {
+        "id": "B1-P3",
+        "title": "Part 3 · Questions 14–19",
+        "kind": "file",
+        "file": "B1/B1-P3.mp3",
+        "intro": "You will hear a student telling other students about a weekend photography workshop. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+        "scripts": [
+          "Woman: Hi everyone, let me tell you about the weekend photography workshop. It takes place on Saturday in the art room, which is on the second floor. We begin at ten o'clock and finish around three. The workshop costs twelve pounds, and that includes all the paper for printing your pictures. This time we're focusing on taking photos of nature, so we'll spend part of the day in the park. One thing you must bring is a camera, of course, although a phone is fine too. And don't forget to wear comfortable shoes, because there's quite a lot of walking. I hope to see lots of you there!"
+        ],
+        "gapTitle": "Weekend Photography Workshop",
+        "questions": [
+          {"type": "gap", "label": "The workshop is on: ____", "accept": ["saturday"]},
+          {"type": "gap", "label": "Where: the ____ room", "accept": ["art"]},
+          {"type": "gap", "label": "Starts at: ____ o'clock", "accept": ["10", "ten"]},
+          {"type": "gap", "label": "Cost: £ ____", "accept": ["12", "twelve"]},
+          {"type": "gap", "label": "This time the focus is photos of: ____", "accept": ["nature"]},
+          {"type": "gap", "label": "Remember to wear comfortable: ____", "accept": ["shoes"]}
+        ]
+      },
+      {
+        "id": "B1-P4",
+        "title": "Part 4 · Questions 20–25",
+        "kind": "file",
+        "file": "B1/B1-P4.mp3",
+        "intro": "You will hear an interview with a young baker called Hannah. For each question, choose the correct answer (A, B or C).",
+        "scripts": [
+          "Interviewer: Today I'm speaking to Hannah, a young baker. Hannah, how did you get started? Woman: Well, everyone assumes I learned at college, but actually I taught myself at home from videos online. I just kept practising until things stopped burning. Interviewer: What do you most enjoy baking? Woman: People expect me to say cakes, but honestly it's bread I love most. There's something magical about watching it rise. Interviewer: What's the hardest part of the job? Woman: It isn't the baking itself, it's the early mornings. I start at four o'clock, so I have to go to bed very early. Interviewer: Have you had any successes? Woman: Last month I won a prize at a local food festival, which I really wasn't expecting. It gave me a lot of confidence. Interviewer: What advice would you give beginners? Woman: Don't rush out and buy expensive equipment. Start simple and learn the basics properly first. Interviewer: And the future? Woman: One day I'd love to open a small bakery of my own, with a little café attached."
+        ],
+        "questions": [
+          {"type": "mc", "q": "How did Hannah learn to bake?", "o": ["At college", "By teaching herself online", "From her family"], "c": 1, "audio": ""},
+          {"type": "mc", "q": "What does Hannah most enjoy baking?", "o": ["Cakes", "Bread", "Biscuits"], "c": 1},
+          {"type": "mc", "q": "What does Hannah find hardest?", "o": ["The baking", "The early mornings", "The customers"], "c": 1},
+          {"type": "mc", "q": "How did Hannah feel about winning the prize?", "o": ["She expected it", "She wasn't expecting it", "She was disappointed"], "c": 1},
+          {"type": "mc", "q": "What advice does Hannah give beginners?", "o": ["Buy expensive equipment", "Start simple", "Take a class"], "c": 1},
+          {"type": "mc", "q": "What does Hannah want to do in the future?", "o": ["Open her own bakery", "Work in a hotel", "Teach baking"], "c": 0}
+        ]
+      }
+    ]
+  },
+  "B2": {
+    "label": "B2 — Upper-Intermediate",
+    "cefr": "Cambridge First (FCE) · B2 official format",
+    "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+    "audios": [
+      {
+        "id": "B2-P1",
+        "title": "Part 1 · Questions 1–8",
+        "kind": "file",
+        "paged": true,
+        "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+        "segments": ["A play", "A repair", "Revision advice", "A move", "A weekend plan", "An announcement", "A game", "At a shop"],
+        "scripts": [
+          "Question one. Woman: So, what did you think of the play? Man: The set design was extraordinary, and the music suited it perfectly. The trouble was the lead actor — you could barely hear a word he said from where we were sitting.",
+          "Question two. Man: Hello, it's about the laptop I brought in last week. Woman: The screen repair? Man: Yes. The screen's perfect now, thank you, but ever since I collected it the keyboard's been sticking. I'm afraid I'll have to bring it back.",
+          "Question three. Teacher: Right, the exam's next week. I won't tell you to revise everything in one go — that just overwhelms people. Far better to test yourself on small sections, because explaining something out loud is how you really learn it.",
+          "Question four. Woman: I hear you're moving house. Excited? Girl: Everyone keeps saying I must be sad to leave my old street, but honestly I can't wait. The new place is closer to everything, and I'll finally have my own room.",
+          "Question five. Man: Shall we hike up the valley on Sunday, like last time? Woman: We've done that twice now. I'd rather try the coastal path for a change — apparently the cliff views are spectacular. Man: Go on then, the coast it is.",
+          "Question six. Woman: A quick notice for everyone attending tomorrow's workshop. It will now run from two until four, an hour later than originally advertised. The room, the speaker and the topic all remain exactly the same.",
+          "Question seven. Boy: We lost again, four one. Girl: Was the other team just better? Boy: Not really — we played well in the first half. But our goalkeeper got sent off, and after that we couldn't hold them back.",
+          "Question eight. Woman: I bought these boots online but they pinch terribly. Assistant: Would you like to exchange them for a half size up? Woman: I did consider that, but the style isn't really me after all, so I'd prefer a refund please."
+        ],
+        "questions": [
+          {"type": "mc", "q": "What did the man dislike about the play?", "o": ["The set", "The lead actor was hard to hear", "The music"], "c": 1, "audio": "B2/B2-P1-q1.mp3"},
+          {"type": "mc", "q": "What is the new problem with the laptop?", "o": ["The screen", "The keyboard", "The battery"], "c": 1, "audio": "B2/B2-P1-q2.mp3"},
+          {"type": "mc", "q": "What does the teacher recommend?", "o": ["Revising everything at once", "Testing yourself in small sections", "Working in silence"], "c": 1, "audio": "B2/B2-P1-q3.mp3"},
+          {"type": "mc", "q": "How does the girl feel about moving house?", "o": ["Sad", "Pleased", "Worried"], "c": 1, "audio": "B2/B2-P1-q4.mp3"},
+          {"type": "mc", "q": "Where do they decide to go on Sunday?", "o": ["Up the valley", "Along the coast", "To a city"], "c": 1, "audio": "B2/B2-P1-q5.mp3"},
+          {"type": "mc", "q": "What has changed about the workshop?", "o": ["The room", "The time", "The topic"], "c": 1, "audio": "B2/B2-P1-q6.mp3"},
+          {"type": "mc", "q": "Why did the boy's team lose?", "o": ["The other team was better", "Their goalkeeper was sent off", "The weather"], "c": 1, "audio": "B2/B2-P1-q7.mp3"},
+          {"type": "mc", "q": "What does the woman want at the shop?", "o": ["A larger size", "A refund", "A repair"], "c": 1, "audio": "B2/B2-P1-q8.mp3"}
+        ]
+      },
+      {
+        "id": "B2-P2",
+        "title": "Part 2 · Questions 9–18",
+        "kind": "file",
+        "file": "B2/B2-P2.mp3",
+        "intro": "You will hear a young volunteer called Priya talking about a community theatre. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+        "scripts": [
+          "Man: Hi everyone, I'm here to tell you about our community theatre, and how you can get involved. The theatre was founded back in nineteen eighty-six, and remarkably it's still run almost entirely by volunteers — we have around seventy of us at the moment. People imagine that volunteering here means acting, but in fact most of us work behind the scenes, and my own job is looking after the costumes. New volunteers do a short induction, which lasts just two days, before they begin. The role that's hardest to fill, surprisingly, is lighting, so anyone with that skill is very welcome. Our biggest event of the year is the summer musical, which always sells out. There are a couple of rules: you have to be at least fifteen to join, and on performance nights everyone must wear black. We can't pay you, of course, but we do provide a free meal during rehearsals. If you'd like to take part, the next thing to do is simply come along to a Monday rehearsal and introduce yourself."
+        ],
+        "gapTitle": "Community Theatre — Volunteering",
+        "questions": [
+          {"type": "gap", "label": "The theatre was founded in: ____", "accept": ["1986", "nineteen eighty-six", "nineteen eighty six"]},
+          {"type": "gap", "label": "Number of volunteers: about ____", "accept": ["70", "seventy"]},
+          {"type": "gap", "label": "The speaker's own job is looking after the: ____", "accept": ["costumes", "costume"]},
+          {"type": "gap", "label": "The induction lasts: ____ days", "accept": ["2", "two"]},
+          {"type": "gap", "label": "The hardest role to fill is: ____", "accept": ["lighting"]},
+          {"type": "gap", "label": "The biggest event is the summer: ____", "accept": ["musical"]},
+          {"type": "gap", "label": "You must be at least: ____", "accept": ["15", "fifteen"]},
+          {"type": "gap", "label": "On performance nights everyone wears: ____", "accept": ["black"]},
+          {"type": "gap", "label": "During rehearsals they provide a free: ____", "accept": ["meal"]},
+          {"type": "gap", "label": "To take part, come to a Monday: ____", "accept": ["rehearsal"]}
+        ]
+      },
+      {
+        "id": "B2-P3",
+        "title": "Part 3 · Questions 19–23",
+        "kind": "file",
+        "file": "B2/B2-P3.mp3",
+        "intro": "You will hear five people talking about why they learned to cook. For each speaker, choose from the list (A–H) the reason they give. Use each letter once. There are three extra letters you will not need.",
+        "bank": ["to save money", "to eat more healthily", "to impress someone", "because no one else would", "to keep a family recipe alive", "as a way to relax", "to find a new career", "because of a television show"],
+        "scripts": [
+          "Speaker one. Woman: My grandmother made the most wonderful dishes, and when she passed away I realised nobody had written any of it down. So I sat with her old notebook and taught myself, dish by dish, just so it wouldn't be lost. Speaker two. Man: I shared a flat with three friends who genuinely couldn't boil an egg. Someone had to feed us, and it certainly wasn't going to be them, so I picked up the pans by default. Speaker three. Woman: I'd been eating ready meals for years and my doctor was, let's say, not impressed with my last check-up. Cooking from scratch was the simplest way to take control of what I was putting in my body. Speaker four. Man: I used to find evenings stressful, my mind racing about work. Now I chop vegetables, follow a recipe slowly, and somehow all that tension just disappears. It's better than any meditation app. Speaker five. Woman: I'll be honest, it began because I'd started seeing someone who was a fantastic cook, and I didn't want to be the one who could only order takeaway. I wanted to surprise them with a proper dinner."
+        ],
+        "questions": [
+          {"type": "match", "person": "Speaker 1", "c": "to keep a family recipe alive"},
+          {"type": "match", "person": "Speaker 2", "c": "because no one else would"},
+          {"type": "match", "person": "Speaker 3", "c": "to eat more healthily"},
+          {"type": "match", "person": "Speaker 4", "c": "as a way to relax"},
+          {"type": "match", "person": "Speaker 5", "c": "to impress someone"}
+        ]
+      },
+      {
+        "id": "B2-P4",
+        "title": "Part 4 · Questions 24–30",
+        "kind": "file",
+        "file": "B2/B2-P4.mp3",
+        "intro": "You will hear an interview with a young woman called Bianca, who designs mobile apps. For each question, choose the best answer (A, B or C).",
+        "scripts": [
+          "Interviewer: Bianca, welcome. How did you get into designing apps? Woman: It started out of pure frustration, really. I couldn't find an app that did what I needed to organise my studies, so I decided to build one myself. I never imagined other people would want it. Interviewer: Did you study computing? Woman: No, and that surprises everyone. I studied music, of all things. But I think composing taught me about structure and patterns, which turns out to be exactly what coding is. Interviewer: What's the most difficult part of the work? Woman: People assume it's writing the code, but for me that's the enjoyable bit. The real challenge is saying no — deciding which features to leave out so the app stays simple. Interviewer: Where do your best ideas come from? Woman: Almost always from watching ordinary people struggle with everyday tasks, far more than from looking at what other designers are doing. Interviewer: What mistake do new designers make? Woman: They cram in too many features to look impressive. My advice is the opposite: do one thing brilliantly and your users will trust you. Interviewer: And what's next for you? Woman: I've been offered a job at a big company, but for now I'd rather stay independent and teach a coding class for teenagers. Interviewer: Bianca, thank you."
+        ],
+        "questions": [
+          {"type": "mc", "q": "How did Bianca start designing apps?", "o": ["She always planned to", "Out of frustration, to solve her own problem", "To make money"], "c": 1},
+          {"type": "mc", "q": "What did Bianca study at university?", "o": ["Computing", "Music", "Design"], "c": 1},
+          {"type": "mc", "q": "What does Bianca find most difficult?", "o": ["Writing the code", "Deciding what to leave out", "Testing the app"], "c": 1},
+          {"type": "mc", "q": "Where do most of her ideas come from?", "o": ["Other designers", "Watching ordinary people", "Books"], "c": 1},
+          {"type": "mc", "q": "What mistake do new designers make?", "o": ["They give up too soon", "They add too many features", "They copy others"], "c": 1},
+          {"type": "mc", "q": "What advice does Bianca give?", "o": ["Do one thing brilliantly", "Use the latest tools", "Release updates often"], "c": 0},
+          {"type": "mc", "q": "What does Bianca want to do next?", "o": ["Join a big company", "Stay independent and teach teenagers", "Sell her app"], "c": 1}
+        ]
+      }
+    ]
+  },
+  "C1": {
+    "label": "C1 — Advanced",
+    "cefr": "Cambridge Advanced (CAE) · C1 official format",
+    "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+    "audios": [
+      {
+        "id": "C1-P1",
+        "title": "Part 1 · Questions 1–6",
+        "kind": "file",
+        "paged": true,
+        "intro": "You will hear people talking in three different situations. For each question, choose the best answer (A, B or C).",
+        "segments": ["A conference talk", "A biography", "A hotel stay", "A funding bid", "An experiment", "A career choice"],
+        "scripts": [
+          "Question one. Woman: How was your talk at the conference? Man: The audience seemed engaged, which was a relief. If I'm honest, though, I rushed the ending badly — I had so much material that I ran out of time and skipped my main recommendation entirely.",
+          "Question two. Man: Did the biography live up to the hype? Woman: The research behind it is clearly meticulous, you can tell. But it's written so coldly, so distantly, that I never once felt I understood the man himself. All facts, no warmth.",
+          "Woman: We chose that hotel purely for its spa, which had glowing reviews. Ironically, the spa was closed for refurbishment the entire week. What saved the trip, oddly enough, was the staff — nothing was too much trouble for them.",
+          "Question four. Man: I've gone through your funding bid. The aims are ambitious and the team is strong, no doubt about that. My one hesitation is the timeline — promising all this in twelve months strikes me as unrealistic, and reviewers will notice.",
+          "Question five. Woman: When we repeated the trial, we'd assumed the results would simply confirm the first round. Instead, the effect vanished completely. That null result was far more revealing than any success would have been.",
+          "Question six. Man: So, have you accepted the overseas posting? Woman: I've turned it down, actually. The role itself is everything I've worked towards. But uprooting the children mid-school-year felt like too high a price, however good it looks on paper."
+        ],
+        "questions": [
+          {"type": "mc", "q": "What does the man regret about his conference talk?", "o": ["The audience was bored", "He rushed the ending and skipped a point", "His material was weak"], "c": 1, "audio": "C1/C1-P1-q1.mp3"},
+          {"type": "mc", "q": "What is the woman's main criticism of the biography?", "o": ["The research is poor", "It feels emotionally distant", "It is too short"], "c": 1, "audio": "C1/C1-P1-q2.mp3"},
+          {"type": "mc", "q": "What saved the woman's hotel stay?", "o": ["The spa", "The location", "The staff"], "c": 2, "audio": "C1/C1-P1-q3.mp3"},
+          {"type": "mc", "q": "What concerns the man about the funding bid?", "o": ["The aims", "The team", "The timeline"], "c": 2, "audio": "C1/C1-P1-q4.mp3"},
+          {"type": "mc", "q": "What did the researchers find on repeating the trial?", "o": ["The effect was confirmed", "The effect disappeared", "The effect grew stronger"], "c": 1, "audio": "C1/C1-P1-q5.mp3"},
+          {"type": "mc", "q": "Why has the woman declined the posting?", "o": ["The role is wrong for her", "The salary is too low", "It would disrupt her children"], "c": 2, "audio": "C1/C1-P1-q6.mp3"}
+        ]
+      },
+      {
+        "id": "C1-P2",
+        "title": "Part 2 · Questions 7–14",
+        "kind": "file",
+        "file": "C1/C1-P2.mp3",
+        "intro": "You will hear a man called Theo giving a talk about amateur astronomy. For each question, complete the sentences with a word or short phrase.",
+        "scripts": [
+          "Man: Hello, I'm Theo, and I've been an amateur astronomer for most of my life. People are often astonished to hear that the single biggest obstacle for stargazers in cities isn't cloud at all — it's light pollution from streetlamps washing out the sky. I got hooked at the age of eight, when my aunt gave me a small telescope for my birthday. These days I own four telescopes, though I'll confess I use the smallest one most. A common misconception is that you need expensive equipment to begin; in truth, the most useful tool for a beginner is simply a good pair of binoculars. The object everyone wants to see first is, without fail, the planet Saturn, because of its rings. The best time of year for clear viewing here is winter, when the air is at its driest. One safety rule I cannot stress enough: never point any instrument at the sun. And if you're just starting out, my advice is to keep an observation diary, because your memory will let you down."
+        ],
+        "gapTitle": "Amateur Astronomy",
+        "questions": [
+          {"type": "gap", "label": "The biggest obstacle in cities is light ____", "accept": ["pollution"]},
+          {"type": "gap", "label": "Theo got hooked when his aunt gave him a ____", "accept": ["telescope"]},
+          {"type": "gap", "label": "He now owns ____ telescopes", "accept": ["4", "four"]},
+          {"type": "gap", "label": "The most useful tool for a beginner is a pair of ____", "accept": ["binoculars"]},
+          {"type": "gap", "label": "The object everyone wants to see first is the planet ____", "accept": ["saturn"]},
+          {"type": "gap", "label": "The best season for clear viewing is ____", "accept": ["winter"]},
+          {"type": "gap", "label": "Never point an instrument at the ____", "accept": ["sun"]},
+          {"type": "gap", "label": "Beginners should keep an observation ____", "accept": ["diary"]}
+        ]
+      },
+      {
+        "id": "C1-P3",
+        "title": "Part 3 · Questions 15–20",
+        "kind": "file",
+        "file": "C1/C1-P3.mp3",
+        "intro": "You will hear an interview with an archaeologist called Iris. For each question, choose the best answer (A, B, C or D).",
+        "scripts": [
+          "Interviewer: Iris, what first drew you to archaeology? Woman: Everyone expects me to say I was the child forever digging in the garden. The truth is far less romantic — I fell into it almost by chance, after a single inspiring lecture I wandered into at university by mistake. Interviewer: Your fieldwork is in remote deserts. Why there? Woman: Because dry conditions are extraordinary preservers. Materials that would have rotted away in a wetter climate within decades survive there for thousands of years, almost untouched. That's a gift no archaeologist can ignore. Interviewer: Is the digging itself the thrilling part? Woman: People always picture the dramatic moment of discovery. Honestly, that's perhaps one percent of the work. The vast majority is painstaking recording and cataloguing — and frankly, that's where the real understanding happens. Interviewer: What's the most persistent myth about your field? Woman: That we're hunting for treasure. We're not. A broken cooking pot can tell us infinitely more about how people actually lived than any gold ornament ever could. Interviewer: Are you hopeful about the discipline's future? Woman: Guardedly so. New scanning technology lets us see beneath the ground without disturbing a thing, which is wonderful. My worry is that it might tempt a generation to stop digging altogether, and you simply can't replace holding the object in your hand. Interviewer: Any advice for aspiring archaeologists? Woman: Cultivate patience above all else. The ground keeps its secrets for millennia; it won't surrender them to anyone in a hurry. Interviewer: Iris, thank you."
+        ],
+        "questions": [
+          {"type": "mc", "q": "How did Iris come to archaeology?", "o": ["She loved digging as a child", "Almost by chance, after a lecture", "Through her family", "From watching documentaries"], "c": 1},
+          {"type": "mc", "q": "Why does Iris work in deserts?", "o": ["They are easy to reach", "Dry conditions preserve materials", "There are fewer rules", "The scenery is beautiful"], "c": 1},
+          {"type": "mc", "q": "What does Iris say about the work?", "o": ["Discovery is most of it", "Recording is the bulk of it", "It is mostly travel", "It is mostly teaching"], "c": 1},
+          {"type": "mc", "q": "What myth does Iris correct?", "o": ["Archaeology is dangerous", "Archaeologists hunt for treasure", "It is a dead field", "It needs no science"], "c": 1},
+          {"type": "mc", "q": "What worries Iris about new technology?", "o": ["It is too expensive", "It may stop people digging", "It is inaccurate", "It is hard to learn"], "c": 1},
+          {"type": "mc", "q": "What advice does Iris give?", "o": ["Specialise early", "Travel constantly", "Cultivate patience", "Avoid technology"], "c": 2}
+        ]
+      },
+      {
+        "id": "C1-P4",
+        "title": "Part 4 · Questions 21–30",
+        "kind": "file",
+        "file": "C1/C1-P4.mp3",
+        "intro": "You will hear five people talking about starting their own small business. TASK ONE (21–25): choose each speaker's main reason for starting out. TASK TWO (26–30): choose what each speaker found most unexpected.",
+        "scripts": [
+          "Speaker one. Woman: I'd spent fifteen years in a large bank, and I simply could no longer bear answering to other people. I wanted to make every decision myself, for better or worse. What genuinely caught me off guard, though, was how much I'd come to miss having colleagues to talk to. The silence of working alone was deafening. Speaker two. Man: For me it was never about money — I inherited a little capital and could have invested it safely. I started the business because I'd spotted a gap in the market that nobody else seemed to see. The shock was the paperwork; I had no idea regulations would swallow so many of my hours. Speaker three. Woman: I'd been quietly making jewellery as a hobby for years, and friends kept insisting I should sell it. Eventually I gave in and turned my passion into a livelihood. The biggest surprise was discovering that I actually enjoyed the selling and the marketing far more than the making itself. Speaker four. Man: Honestly, redundancy made the choice for me. The factory closed, jobs were scarce, and self-employment was the only realistic path left. What I never anticipated was the loyalty of my customers — complete strangers went out of their way to support a local newcomer. Speaker five. Woman: I wanted, more than anything, the freedom to fit work around my young family, to be there at the school gates. The flexibility has been everything I hoped. The thing that astonished me was how disciplined I had to become; without a boss, the temptation to procrastinate is enormous."
+        ],
+        "questions": [
+          {"type": "match", "taskLabel": "Task 1 — main reason for starting a business", "person": "Speaker 1", "bank": ["wanted to be their own boss", "spotted a gap in the market", "turned a hobby into work", "had no other choice", "wanted flexible hours", "to earn far more money", "to continue a family business", "encouraged by a mentor"], "c": "wanted to be their own boss"},
+          {"type": "match", "taskLabel": "Task 1 — main reason for starting a business", "person": "Speaker 2", "bank": ["wanted to be their own boss", "spotted a gap in the market", "turned a hobby into work", "had no other choice", "wanted flexible hours", "to earn far more money", "to continue a family business", "encouraged by a mentor"], "c": "spotted a gap in the market"},
+          {"type": "match", "taskLabel": "Task 1 — main reason for starting a business", "person": "Speaker 3", "bank": ["wanted to be their own boss", "spotted a gap in the market", "turned a hobby into work", "had no other choice", "wanted flexible hours", "to earn far more money", "to continue a family business", "encouraged by a mentor"], "c": "turned a hobby into work"},
+          {"type": "match", "taskLabel": "Task 1 — main reason for starting a business", "person": "Speaker 4", "bank": ["wanted to be their own boss", "spotted a gap in the market", "turned a hobby into work", "had no other choice", "wanted flexible hours", "to earn far more money", "to continue a family business", "encouraged by a mentor"], "c": "had no other choice"},
+          {"type": "match", "taskLabel": "Task 1 — main reason for starting a business", "person": "Speaker 5", "bank": ["wanted to be their own boss", "spotted a gap in the market", "turned a hobby into work", "had no other choice", "wanted flexible hours", "to earn far more money", "to continue a family business", "encouraged by a mentor"], "c": "wanted flexible hours"},
+          {"type": "match", "taskLabel": "Task 2 — what they found most unexpected", "person": "Speaker 1", "bank": ["the loneliness", "the amount of paperwork", "enjoying the marketing", "customer loyalty", "needing self-discipline", "the slow first year", "how tiring it was", "the cost of equipment"], "c": "the loneliness"},
+          {"type": "match", "taskLabel": "Task 2 — what they found most unexpected", "person": "Speaker 2", "bank": ["the loneliness", "the amount of paperwork", "enjoying the marketing", "customer loyalty", "needing self-discipline", "the slow first year", "how tiring it was", "the cost of equipment"], "c": "the amount of paperwork"},
+          {"type": "match", "taskLabel": "Task 2 — what they found most unexpected", "person": "Speaker 3", "bank": ["the loneliness", "the amount of paperwork", "enjoying the marketing", "customer loyalty", "needing self-discipline", "the slow first year", "how tiring it was", "the cost of equipment"], "c": "enjoying the marketing"},
+          {"type": "match", "taskLabel": "Task 2 — what they found most unexpected", "person": "Speaker 4", "bank": ["the loneliness", "the amount of paperwork", "enjoying the marketing", "customer loyalty", "needing self-discipline", "the slow first year", "how tiring it was", "the cost of equipment"], "c": "customer loyalty"},
+          {"type": "match", "taskLabel": "Task 2 — what they found most unexpected", "person": "Speaker 5", "bank": ["the loneliness", "the amount of paperwork", "enjoying the marketing", "customer loyalty", "needing self-discipline", "the slow first year", "how tiring it was", "the cost of equipment"], "c": "needing self-discipline"}
+        ]
+      }
+    ]
+  }
+}

@@ -141,19 +141,19 @@ const WRITING = {
       { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in about 100 words.',
         tasks:[{
           type:'email', minWords:100,
-          lead:'Read this email from your English teacher, Mrs Lake, and the notes you have made.',
-          stimulus:{head:'EMAIL', title:'', body:'From: Mrs Lake\nSubject: End of year party\n\nDear Class,\n\nI’d like our class to have a party to celebrate the end of the school year.\n\nWe could either have a party in the classroom or we could go to the park. Which would you prefer to do?\n\nWhat food should we bring? Could you help me organise it?\n\nMrs Lake'},
-          bullets:['say which place you prefer (classroom or park) and why','suggest what food to bring','offer to help Mrs Lake organise it','ask one question about the party'],
-          write:'Write your email to Mrs Lake.'
+          lead:'Read this email from your English teacher, Mr Reed, and the notes you have made.',
+          stimulus:{head:'EMAIL', title:'', body:'From: Mr Reed\nSubject: Class visit to the Science Museum\n\nDear Class,\n\nOur class is going to visit the new Science Museum next month. There are two special activities: a space show or a robotics workshop. Which would you prefer, and why?\n\nWe also need a few students to help organise the trip. Could you help?\n\nMr Reed'},
+          bullets:['say which activity you prefer (space show or robotics) and why','offer to help Mr Reed organise the trip','suggest what the class should bring','ask one question about the visit'],
+          write:'Write your email to Mr Reed.'
         }]
       },
       { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in about 100 words.',
         tasks:[
           { type:'article', q:2, minWords:100, lead:'You see this announcement in your school English-language magazine.',
-            stimulus:{title:'WHAT MAKES YOU LAUGH?', body:'Write an article telling us what you find funny and who you enjoy laughing with.\n\nDo you think it’s good to laugh a lot? Why?\n\nThe best articles will be published next month.'},
-            bullets:['what you find funny','who you enjoy laughing with','whether it is good to laugh a lot and why'], write:'Write your article.' },
-          { type:'story', q:3, minWords:100, lead:'Your English teacher has asked you to write a story.', startSentence:'Jo looked at the map and decided to go left.',
-            stimulus:{title:'', body:'Your story must begin with this sentence:\n\nJo looked at the map and decided to go left.'},
+            stimulus:{title:'A PLACE EVERY VISITOR SHOULD SEE', body:'If a visitor came to your town for just one day, where would you take them? Write an article describing the place and explaining why it is special. The best articles will be published next month.'},
+            bullets:['the place you would take a visitor','why it is special','what the visitor could do there'], write:'Write your article.' },
+          { type:'story', q:3, minWords:100, lead:'Your English teacher has asked you to write a story.', startSentence:'When the lights suddenly went out, Sara knew exactly what to do.',
+            stimulus:{title:'', body:'Your story must begin with this sentence:\n\nWhen the lights suddenly went out, Sara knew exactly what to do.'},
             bullets:[], write:'Write your story.' }
         ]
       }
@@ -162,25 +162,25 @@ const WRITING = {
   B2:{
     title:'B2 First — Writing (MOCK 1)', durationMin:80,
     parts:[
-      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write 140–190 words in an appropriate style.',
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write 140-190 words in an appropriate style.',
         tasks:[{
           type:'essay', minWords:140, maxWords:190,
-          lead:'In your English class you have been talking about the environment. Now, your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.',
-          stimulus:{body:'“Every country in the world has problems with pollution and damage to the environment. Do you think these problems can be solved?”\n\nNotes\n\nWrite about:\n1. transport\n2. rivers and seas\n3. ............... (your own idea)'},
-          bullets:['transport','rivers and seas','your own idea','give reasons for your point of view'], write:'Write your essay.'
+          lead:'In your English class you have been talking about education. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.',
+          stimulus:{body:'"Schools should teach practical life skills as well as academic subjects. Do you agree?"\n\nNotes\n\nWrite about:\n1. managing money\n2. cooking and health\n3. ............... (your own idea)'},
+          bullets:['managing money','cooking and health','your own idea','give reasons for your point of view'], write:'Write your essay.'
         }]
       },
-      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write 140–190 words in an appropriate style.',
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write 140-190 words in an appropriate style.',
         tasks:[
-          { type:'review', q:2, minWords:140, maxWords:190, lead:'You see this announcement in your college English-language magazine.',
-            stimulus:{title:'Book reviews wanted', body:'Have you read a book in which the main character behaved in a surprising way?\n\nWrite us a review of the book, explaining what the main character did and why it was surprising. Tell us whether or not you would recommend this book to other people.\n\nThe best reviews will be published in the magazine.'},
-            bullets:['what the main character did','why it was surprising','whether you recommend the book'], write:'Write your review.' },
-          { type:'article', q:3, minWords:140, maxWords:190, lead:'You see this announcement on an English-language website.',
-            stimulus:{title:'The most useful thing I have ever learned', body:'What is the most useful thing you have learned? Who did you learn it from? Why is it useful?\n\nWrite us an article answering these questions. We will publish the best articles on our website.'},
-            bullets:['the most useful thing you learned','who you learned it from','why it is useful'], write:'Write your article.' },
-          { type:'email', q:4, minWords:140, maxWords:190, lead:'You have received this email from your English-speaking friend David.',
-            stimulus:{body:'From: David\nSubject: touring holiday\n\nSome college friends of mine are visiting your area soon for a week’s touring holiday. They would like to travel around and learn about your local area and its history.\nCan you tell me about some of the places they could visit? What’s the best way to travel around – car, bike or coach?\nThanks,\nDavid'},
-            bullets:['places they could visit','the best way to travel around','reasons for your suggestions'], write:'Write your email.' }
+          { type:'review', q:2, minWords:140, maxWords:190, lead:'You see this announcement on an English-language website about apps.',
+            stimulus:{title:'App reviews wanted', body:'Have you used an app that genuinely changed a daily habit of yours? Write a review describing the app, explaining how it changed your habit, and saying whether you would recommend it to other students. The best reviews will be published.'},
+            bullets:['describe the app','how it changed a habit of yours','whether you recommend it'], write:'Write your review.' },
+          { type:'report', q:3, minWords:140, maxWords:190, lead:'Your school director has asked you to write a report about the school library.',
+            stimulus:{title:'Report: improving the school library', body:'Describe how students currently use the library, suggest two improvements that would make it more useful, and explain which improvement should come first.'},
+            bullets:['how students use the library now','two improvements','which should come first, and why'], write:'Write your report.' },
+          { type:'email', q:4, minWords:140, maxWords:190, lead:'You have received this email from your English-speaking friend Robin.',
+            stimulus:{body:'From: Robin\nSubject: Learning your language\n\nI have decided to learn your language before I visit you next year! The problem is I do not know how to start. Could you tell me the best way to begin, and which mistakes I should try to avoid? And how long do you think it will take me to manage a simple conversation?\nThanks,\nRobin'},
+            bullets:['the best way to begin','mistakes to avoid','how long it might take'], write:'Write your email.' }
         ]
       }
     ]
@@ -188,25 +188,25 @@ const WRITING = {
   C1:{
     title:'C1 Advanced — Writing (MOCK 1)', durationMin:90,
     parts:[
-      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in 220–260 words in an appropriate style.',
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in 220-260 words in an appropriate style.',
         tasks:[{
           type:'essay', minWords:220, maxWords:260,
-          lead:'Your class has listened to a radio discussion programme about which local facilities should receive money from the local council. You have made the notes below. Write an essay discussing two of the facilities in your notes. You should explain which facility it is more important to give money to, giving reasons to support your opinion.',
-          stimulus:{title:'Which facilities should receive money from the local council?', body:'• museums\n• sports centres\n• public gardens\n\nSome opinions expressed in the discussion:\n“Museums aren’t popular with everybody.”\n“Sports centres lead to healthier people.”\n“A town needs green spaces — parks are great for everyone.”'},
-          bullets:['discuss two of the facilities','explain which is more important','give reasons to support your opinion'], write:'Write your essay.'
+          lead:'Your class has taken part in a seminar about how a school could reduce its impact on the environment. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would have the greatest impact, giving reasons to support your opinion.',
+          stimulus:{title:'How could a school reduce its impact on the environment?', body:'• cutting energy use in buildings\n• reducing food waste in the canteen\n• encouraging students to travel sustainably\n\nSome opinions expressed in the seminar:\n"Heating an old building wastes a fortune."\n"So much canteen food simply goes in the bin."\n"If it is not easy and cheap, students will still come by car."'},
+          bullets:['discuss two of the ideas','explain which would have the greatest impact','give reasons to support your opinion'], write:'Write your essay.'
         }]
       },
-      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in 220–260 words in an appropriate style.',
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in 220-260 words in an appropriate style.',
         tasks:[
-          { type:'report', q:2, minWords:220, maxWords:260, lead:'You have just completed six months in a new job. To prepare for a progress meeting, your manager has asked you to write a report.',
-            stimulus:{title:'Report: your first six months', body:'In your report, explain what you feel you have achieved in the job so far, describe any problems you have had, and suggest any future training that would be suitable for you.'},
-            bullets:['what you have achieved so far','any problems you have had','future training that would be suitable'], write:'Write your report.' },
-          { type:'review', q:3, minWords:220, maxWords:260, lead:'You see the following announcement on a website called Great Lives.',
-            stimulus:{title:'Reviews wanted', body:'Send us a review of a book or film that focuses on someone who has made an important contribution to society. Did you learn anything new about the person’s life from the book or film? Did it help you understand why this person made their important contribution?'},
-            bullets:['describe the book or film and the person','what you learned about their life','whether it helped you understand their contribution'], write:'Write your review.' },
-          { type:'letter', q:4, minWords:220, maxWords:260, lead:'You have received this letter from your English-speaking friend, Chris.',
-            stimulus:{body:'My new job is great, and next month I get to travel on business. Guess what — I’m actually coming to your town for a week!\n\nI’ll be free some evenings and one weekend, and I want to make the most of this opportunity. So I’d like your advice please: where to go, what to do, and why?\n\nCheers,\nChris'},
-            bullets:['where to go','what to do','reasons for your suggestions'], write:'Write your letter in reply.' }
+          { type:'proposal', q:2, minWords:220, maxWords:260, lead:'The committee of your local sports centre has invited proposals from members.',
+            stimulus:{title:'Proposal: making the sports centre more welcoming', body:'Write a proposal suggesting how the sports centre could attract more teenagers. Describe the current situation, recommend two specific changes, and explain how these changes would benefit both the teenagers and the centre.'},
+            bullets:['the current situation','two specific changes','the benefits for teenagers and the centre'], write:'Write your proposal.' },
+          { type:'review', q:3, minWords:220, maxWords:260, lead:'An online magazine has invited reviews of documentaries.',
+            stimulus:{title:'Documentary reviews wanted', body:'Send us a review of a documentary that taught you something you did not expect. Describe the documentary, explain what surprised you, and assess how successfully it presented its subject to a general audience.'},
+            bullets:['describe the documentary','what surprised you','how well it presented its subject'], write:'Write your review.' },
+          { type:'letter', q:4, minWords:220, maxWords:260, lead:'You have received this letter from an English-speaking friend, Sam.',
+            stimulus:{body:'I have been offered the chance to spend a year studying in your country, but I cannot decide whether to take it. Part of me is excited, but part of me is worried about being so far from home.\n\nYou know me well, so I would really value your honest advice: should I go? And what should I do to prepare?\n\nBest wishes,\nSam'},
+            bullets:['your honest advice on whether to go','reasons for your advice','how Sam could prepare'], write:'Write your letter in reply.' }
         ]
       }
     ]

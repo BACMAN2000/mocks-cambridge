@@ -1,0 +1,380 @@
+{
+  "mock1": {
+    "title": "B2 First — Reading and Use of English (MOCK 1)",
+    "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+    "parts": [
+      {
+        "type": "clozeMC",
+        "part": "Part 1",
+        "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+        "title": "The return of the night train",
+        "body": "Across Europe, a form of travel that many had written off as hopelessly old-fashioned is quietly making a (1)____. Sleeper trains, which once seemed (2)____ to vanish under pressure from cheap flights, are being revived on routes that link distant cities overnight. Part of the appeal is environmental: a single long-haul flight can (3)____ as much carbon as months of ordinary commuting. But the deeper reason, operators (4)____, is that travellers are tired of arriving exhausted. Boarding in one capital after dinner and (5)____ in another in time for breakfast feels less like a journey and more like a gift of time. Critics point out that the new services remain expensive and that delays can (6)____ the romance rather quickly. Even so, advance tickets on the most popular routes now (7)____ out within hours of going on sale, a clear (8)____ that the night train has found a new generation of admirers.",
+        "questions": [
+          { "options": ["comeback", "recovery", "rebound", "renewal"], "answer": 0 },
+          { "options": ["bound", "certain", "destined", "fated"], "answer": 2 },
+          { "options": ["release", "emit", "let", "give"], "answer": 1 },
+          { "options": ["insist", "claim", "demand", "tell"], "answer": 0 },
+          { "options": ["waking", "arriving", "landing", "reaching"], "answer": 1 },
+          { "options": ["spoil", "damage", "harm", "ruin"], "answer": 0 },
+          { "options": ["sell", "run", "go", "give"], "answer": 0 },
+          { "options": ["proof", "sign", "mark", "hint"], "answer": 1 }
+        ]
+      },
+      {
+        "type": "clozeOpen",
+        "part": "Part 2",
+        "instructions": "Read the text and think of ONE word which best fits each gap.",
+        "title": "Learning to read the weather",
+        "body": "Long before satellites and computer models, sailors and farmers depended (9)____ their own observations to predict the weather. A sudden drop in pressure, the behaviour of birds, the colour of the evening sky — (10)____ of these were treated as reliable signs. Much of this folk knowledge has turned (11)____ to contain a genuine kernel of truth. The old rhyme about a red sky at night, (12)____ instance, reflects the way light scatters through dry air moving in from the west.\n\nWhat such traditions could not do, of course, (13)____ predict more than a few hours ahead. It was only (14)____ the invention of the telegraph that warnings could travel faster (15)____ the storms themselves. Today, despite all our technology, a surprising number of people still glance at the sky each morning, trusting their eyes as (16)____ as the forecast on their phones.",
+        "questions": [
+          { "accept": ["on", "upon"] },
+          { "accept": ["all", "many", "most", "each"] },
+          { "accept": ["out"] },
+          { "accept": ["for"] },
+          { "accept": ["was"] },
+          { "accept": ["with", "after"] },
+          { "accept": ["than"] },
+          { "accept": ["much", "well"] }
+        ]
+      },
+      {
+        "type": "wordform",
+        "part": "Part 3",
+        "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+        "title": "The science of first impressions",
+        "rows": [
+          { "text": "Psychologists have long been fascinated by the" },
+          { "text": "(17)____ speed at which we judge strangers.", "root": "REMARK" },
+          { "text": "" },
+          { "text": "Within a fraction of a second, the brain makes a", "root": "" },
+          { "text": "(18)____ about whether a face seems trustworthy.", "root": "DECIDE" },
+          { "text": "" },
+          { "text": "Such snap judgements are often surprisingly", "root": "" },
+          { "text": "(19)____, leading us to misread people badly.", "root": "RELY" },
+          { "text": "" },
+          { "text": "An interviewer's (20)____ reaction to a candidate", "root": "INITIAL" },
+          { "text": "can colour the entire conversation that follows." },
+          { "text": "" },
+          { "text": "Researchers warn that this tendency may produce", "root": "" },
+          { "text": "real (21)____ in hiring and the courtroom alike.", "root": "JUST" },
+          { "text": "" },
+          { "text": "The good news is that becoming (22)____ of the", "root": "AWARE" },
+          { "text": "effect can reduce its grip on our decisions." },
+          { "text": "" },
+          { "text": "Training people to delay their (23)____ judgement", "root": "INSTINCT" },
+          { "text": "improves the accuracy of what they conclude." },
+          { "text": "" },
+          { "text": "In short, a little (24)____ doubt about our first", "root": "HEALTH" },
+          { "text": "impressions tends to serve us rather well." }
+        ],
+        "questions": [
+          { "root": "REMARK", "accept": ["remarkable"] },
+          { "root": "DECIDE", "accept": ["decision"] },
+          { "root": "RELY", "accept": ["unreliable"] },
+          { "root": "INITIAL", "accept": ["initial"] },
+          { "root": "JUST", "accept": ["injustice", "injustices"] },
+          { "root": "AWARE", "accept": ["aware"] },
+          { "root": "INSTINCT", "accept": ["instinctive"] },
+          { "root": "HEALTH", "accept": ["healthy"] }
+        ]
+      },
+      {
+        "type": "transform",
+        "part": "Part 4",
+        "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+        "questions": [
+          {
+            "before": "\"I will definitely finish the report by Friday,\" said Mark.",
+            "keyword": "WOULD",
+            "after": "Mark promised that he ___ the report by Friday.",
+            "accept": ["would finish", "would definitely finish"]
+          },
+          {
+            "before": "Someone is repairing our roof at the moment.",
+            "keyword": "HAVING",
+            "after": "We ___ at the moment.",
+            "accept": ["are having our roof repaired"]
+          },
+          {
+            "before": "I'm sorry now that I didn't accept the job offer.",
+            "keyword": "WISH",
+            "after": "I ___ the job offer.",
+            "accept": ["wish i had accepted", "wish i'd accepted"]
+          },
+          {
+            "before": "They cancelled the concert because of the storm.",
+            "keyword": "CALLED",
+            "after": "The concert ___ because of the storm.",
+            "accept": ["was called off"]
+          },
+          {
+            "before": "The film was so frightening that several people left.",
+            "keyword": "SUCH",
+            "after": "It ___ that several people left.",
+            "accept": ["was such a frightening film", "was such a scary film"]
+          },
+          {
+            "before": "It's possible that she missed the train.",
+            "keyword": "HAVE",
+            "after": "She ___ the train.",
+            "accept": ["may have missed", "might have missed", "could have missed"]
+          }
+        ]
+      },
+      {
+        "type": "mc",
+        "part": "Part 5",
+        "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+        "passage": "Why boredom might be good for us\n\nFor most of human history, boredom was simply part of the texture of ordinary life. There were long stretches — waiting for a coach, queuing at a shop, sitting through a slow evening — that nobody particularly enjoyed but everybody endured. What is striking about the present moment is not that we dislike boredom, which is hardly new, but that we have, for the first time, the technical means to abolish it almost entirely. A phone in the pocket guarantees that no queue, no waiting room, no quiet half-hour need ever be empty again. The interesting question is whether this is the unqualified blessing it first appears.\n\nA growing number of psychologists suspect that it is not. Boredom, they argue, is not merely an absence of stimulation; it is a signal, a faint pressure that pushes the restless mind to do something with itself. Deprived of external input, the brain has a tendency to wander, and this wandering — once dismissed as idleness — turns out to be where a good deal of useful thinking quietly happens. The solution to a stubborn problem often arrives not at the desk but in the shower, on the walk, in precisely those moments when the conscious mind has, apparently, given up.\n\nThe implication is uncomfortable. If we fill every empty moment with a screen, we may be starving ourselves of the very conditions in which our best ideas form. One researcher describes the modern habit as \"snacking on stimulation\": each individual bite is harmless, even pleasant, but the cumulative effect is to leave no appetite for the slower, more nourishing work of sustained reflection. The mind, never allowed to be hungry, never learns what it might have produced.\n\nThis is not an argument for deliberately making life dull. Few people would volunteer for genuine tedium, and there is nothing romantic about a wasted afternoon. The argument is subtler: that a certain amount of unstructured, unstimulated time is not a problem to be solved but a resource to be protected. Some schools have begun, cautiously, to experiment with this idea, building short periods of deliberate inactivity into the day — no lesson, no screen, no instruction, simply time. The early reports are mixed, as one would expect, but a recurring observation is that the children grow noticeably more inventive in their play once the initial restlessness wears off.\n\nWhether adults can recover the same capacity is harder to say. The habit of reaching for a device is, by now, almost involuntary, and willpower alone is a weak instrument against it. What seems to help, those who have tried it report, is not heroic abstinence but small, designed gaps — a walk without headphones, a meal without a screen, a commute spent simply looking out of the window. The aim is not to suffer, but to leave a little room for the mind to do what, given the chance, it has always done.",
+        "questions": [
+          { "stem": "What does the writer say is genuinely new about boredom today?", "options": ["That people now enjoy being bored.", "That we have the technical means to remove it almost entirely.", "That boredom has become more common than before.", "That waiting rooms and queues no longer exist."], "answer": 1 },
+          { "stem": "According to psychologists, boredom is best understood as", "options": ["a harmful state that should be avoided.", "a signal that pushes the mind to do something.", "the same thing as laziness.", "a sign of an unhealthy brain."], "answer": 1 },
+          { "stem": "What does the writer suggest about where good ideas form?", "options": ["Only at one's desk during focused work.", "Mainly while using a phone.", "Often during moments when the conscious mind seems to give up.", "Never during physical activity such as walking."], "answer": 2 },
+          { "stem": "The phrase \"snacking on stimulation\" is used to suggest that", "options": ["small doses of stimulation are deeply harmful in themselves.", "constant minor stimulation leaves no appetite for sustained reflection.", "people should eat less while using screens.", "screens are nutritious for the brain."], "answer": 1 },
+          { "stem": "What does the writer say about the school experiments?", "options": ["They have clearly failed.", "Children became less able to play.", "Children grew more inventive once the initial restlessness passed.", "Teachers refused to take part."], "answer": 2 },
+          { "stem": "What does the writer recommend for adults?", "options": ["Heroic abstinence from all devices.", "Deliberately making life as dull as possible.", "Small, designed gaps rather than dramatic self-denial.", "Giving up walking and commuting."], "answer": 2 }
+        ]
+      },
+      {
+        "type": "match",
+        "part": "Part 6",
+        "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+        "passage": "The comeback of the repair café\n\nA decade ago, the idea of taking a broken toaster to a community hall to be mended by a stranger would have struck most people as eccentric. (37)____ Today there are thousands of so-called repair cafés operating in dozens of countries, and the waiting lists at some of them are surprisingly long.\n\nThe concept is simple. On a fixed afternoon, volunteers with practical skills set up tables in a public space and fix whatever people bring them, free of charge. (38)____ The unspoken rule is that the owner stays and watches, and where possible lends a hand, so that the repair becomes a small lesson rather than a transaction.\n\nThe environmental case is the one most often quoted. A single repaired kettle keeps a kilogram of metal and plastic out of landfill, and discourages the purchase of a replacement. (39)____ Organisers, however, are quick to insist that the deeper appeal lies elsewhere.\n\nWhat keeps people coming back, they say, is the social experience. (40)____ A retired engineer who once felt invisible discovers that his decades of knowledge are suddenly in demand; a lonely newcomer to a town finds an easy reason to talk to her neighbours. The broken object turns out to be an excuse for something else entirely.\n\nManufacturers have not always welcomed the movement. (41)____ Some have responded by making their products even harder to open, while a few, sensing the public mood, have begun to advertise how easy their devices are to mend.\n\nWhether the repair café remains a niche enthusiasm or grows into something larger is still unclear. (42)____ For the moment, though, the queue of people clutching broken lamps and silent radios suggests that the idea has touched a nerve.",
+        "bank": {
+          "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+          "texts": [
+            "A successful afternoon can mend forty objects and several quiet afternoons of loneliness at the same time.",
+            "Multiplied across a town, the savings are far from trivial.",
+            "After all, a customer who repairs is a customer who does not buy.",
+            "It would have seemed, in short, a hobby for the hopelessly impractical.",
+            "Nothing is sold, and nobody is paid.",
+            "Much depends on whether the law begins to require that products be designed for repair.",
+            "The volunteers are paid a generous hourly wage by the local council.",
+            "The cafés have therefore decided to ban all electrical items."
+          ]
+        },
+        "questions": [
+          { "stem": "Choose the missing sentence:", "answer": "D" },
+          { "stem": "Choose the missing sentence:", "answer": "E" },
+          { "stem": "Choose the missing sentence:", "answer": "B" },
+          { "stem": "Choose the missing sentence:", "answer": "A" },
+          { "stem": "Choose the missing sentence:", "answer": "C" },
+          { "stem": "Choose the missing sentence:", "answer": "F" }
+        ]
+      },
+      {
+        "type": "match",
+        "part": "Part 7",
+        "instructions": "Read about four people who changed the way they use technology. Then answer the questions. The same person may be chosen more than once.",
+        "sources": [
+          { "label": "A", "name": "Priya", "text": "I deleted every social media app from my phone on a sort of dare from a friend, expecting to last a weekend and crawl back by Monday. What actually happened surprised me. The first three days were genuinely awful — I kept reaching for a phone that no longer had anything to reach for, like a smoker patting an empty pocket. By the second week, though, the constant low hum of comparison had simply gone quiet, and I noticed I was sleeping better and, oddly, remembering more of my own days. The thing I had feared most, falling out of touch with friends, turned out to be the opposite: the friendships that mattered survived perfectly well over messages and calls, and the ones that vanished, I realised, had only ever been a kind of background noise. I have not gone back, and I no longer think of it as a sacrifice." },
+          { "label": "B", "name": "Daniel", "text": "For me it was never about quitting, which always struck me as a slightly dramatic gesture. It was about timing. I worked out, fairly unscientifically, that almost all of my own worst online habits happened in two narrow windows — first thing in the morning and last thing at night — and that the middle of the day was largely fine. So I made a single rule: no screen for the first hour after waking and the last hour before sleep, and otherwise no restrictions at all. The effect was far larger than the modesty of the rule would suggest. My mornings, in particular, became unrecognisable; I started reading again, properly, for the first time in years. I am wary of preaching, because what worked for me was tailored entirely to my own pattern, and I suspect everyone's two bad windows are different." },
+          { "label": "C", "name": "Sofia", "text": "I run a small business, so disappearing offline was never an option for me; my customers find me online and that is simply how it works. What I changed instead was the device. I moved everything work-related onto an old laptop that lives on a desk in a spare room, and I keep my phone deliberately useless — no email, no work apps, nothing but calls and a camera. The result is that work now has a place, a literal room, that I can walk into and, more importantly, walk out of. I had not appreciated, until I tried this, how much of my exhaustion came not from the quantity of work but from its refusal to stay in any one location. The business has not suffered at all. If anything, the clearer boundary has made me better at the parts of the job that actually require thought." },
+          { "label": "D", "name": "Theo", "text": "Honestly, I tried most of the popular advice and almost none of it stuck. App timers, greyscale screens, phone-free dinners — I lasted a few days on each and then quietly abandoned them, feeling like a failure. What finally worked was embarrassingly low-tech: I bought an alarm clock and a paper diary, and I started leaving my phone to charge in the kitchen overnight instead of beside the bed. That was the whole intervention. No willpower, no apps to police me, just the simple fact that the phone was now twenty steps away at the moments I was weakest. I am suspicious, now, of any solution to this problem that depends on me being disciplined, because in my experience I am not, and the trick is to arrange things so that discipline isn't required." }
+        ],
+        "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Priya", "Daniel", "Sofia", "Theo"] },
+        "questions": [
+          { "stem": "Which person solved the problem by changing the physical location of a device rather than relying on self-control?", "answer": "D" },
+          { "stem": "Which person separated work from the rest of life by dedicating a particular device and room to it?", "answer": "C" },
+          { "stem": "Which person restricted technology only at specific times of day rather than giving it up?", "answer": "B" },
+          { "stem": "Which person feared losing contact with friends but found that the important friendships survived?", "answer": "A" },
+          { "stem": "Which person is reluctant to recommend their method because it was suited to their own particular habits?", "answer": "B" },
+          { "stem": "Which person found the first few days genuinely difficult before the benefits appeared?", "answer": "A" },
+          { "stem": "Which person says their tiredness came from work having no fixed place rather than from its amount?", "answer": "C" },
+          { "stem": "Which person distrusts any solution that depends on personal discipline?", "answer": "D" },
+          { "stem": "Which person noticed they slept better and remembered their days more clearly after the change?", "answer": "A" },
+          { "stem": "Which person found that a small, narrowly defined rule produced a much bigger effect than expected?", "answer": "B" }
+        ]
+      }
+    ]
+  },
+  "mock2": {
+    "title": "B2 First — Reading and Use of English (MOCK 2)",
+    "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+    "parts": [
+      {
+        "type": "clozeMC",
+        "part": "Part 1",
+        "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+        "title": "The unexpected value of getting lost",
+        "body": "Most of us now navigate unfamiliar cities by following a blue dot across a glowing screen, and we rarely (1)____ a second thought to the skill our grandparents took for granted. Yet a number of neuroscientists have begun to (2)____ concern about what this convenience may be costing us. The part of the brain responsible for spatial memory, they argue, behaves rather like a muscle: it (3)____ stronger with use and weaker with neglect. People who routinely build their own mental maps of a place tend to (4)____ a richer sense of where things are in relation to one another. By contrast, those who depend entirely on turn-by-turn directions often arrive at their destination with almost no (5)____ of the route they actually took. None of this means we should throw our phones away. But the researchers (6)____ that occasionally switching the device off and allowing yourself to get mildly lost is a small (7)____ worth paying. Wandering without a map, it (8)____, is one of the easiest ways to keep a vital part of the brain in good condition.",
+        "questions": [
+          { "options": ["give", "make", "put", "take"], "answer": 0 },
+          { "options": ["raise", "rise", "lift", "grow"], "answer": 0 },
+          { "options": ["grows", "turns", "comes", "makes"], "answer": 0 },
+          { "options": ["develop", "increase", "grow", "build"], "answer": 0 },
+          { "options": ["memory", "thought", "idea", "vision"], "answer": 0 },
+          { "options": ["suggest", "offer", "propose", "advise"], "answer": 0 },
+          { "options": ["price", "cost", "fee", "charge"], "answer": 0 },
+          { "options": ["seems", "appears", "looks", "feels"], "answer": 1 }
+        ]
+      },
+      {
+        "type": "clozeOpen",
+        "part": "Part 2",
+        "instructions": "Read the text and think of ONE word which best fits each gap.",
+        "title": "The disappearing dark sky",
+        "body": "For almost all of human history, anyone who looked (9)____ on a clear night could see thousands of stars and the pale band of the Milky Way stretching overhead. Today, more than a third of the world's population can no (10)____ see it at all. The cause is light pollution — the glow of artificial lighting that spills upwards from our cities and (11)____ the faint light of distant stars.\n\nThe problem has grown so quickly (12)____ many children now grow up without ever having seen a truly dark sky. Astronomers are not the (13)____ ones concerned. Nocturnal animals, (14)____ navigation depends on natural darkness, are badly affected, and some studies link excessive night-time light (15)____ poor sleep in humans. The good news is that, (16)____ many forms of pollution, this one disappears the instant the lights are switched off.",
+        "questions": [
+          { "accept": ["up"] },
+          { "accept": ["longer"] },
+          { "accept": ["hides", "blocks", "drowns", "masks", "outshines"] },
+          { "accept": ["that"] },
+          { "accept": ["only"] },
+          { "accept": ["whose"] },
+          { "accept": ["to", "with"] },
+          { "accept": ["unlike"] }
+        ]
+      },
+      {
+        "type": "wordform",
+        "part": "Part 3",
+        "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+        "title": "Rethinking the office",
+        "rows": [
+          { "text": "The sudden shift to working from home forced many" },
+          { "text": "companies into a major (17)____ of office life.", "root": "EXAMINE" },
+          { "text": "" },
+          { "text": "For some employees the freedom was a source of genuine", "root": "" },
+          { "text": "(18)____, allowing a better work-life balance.", "root": "SATISFY" },
+          { "text": "" },
+          { "text": "Others, however, found the (19)____ of working alone", "root": "ISOLATE" },
+          { "text": "surprisingly hard to cope with." },
+          { "text": "" },
+          { "text": "Managers worried that the (20)____ of teams might", "root": "PRODUCE" },
+          { "text": "fall once people were no longer in the same room." },
+          { "text": "" },
+          { "text": "In practice, the (21)____ effect proved far smaller", "root": "OVERALL" },
+          { "text": "than the gloomier forecasts had suggested." },
+          { "text": "" },
+          { "text": "Many firms have since adopted a more (22)____ model,", "root": "FLEXIBLE" },
+          { "text": "mixing days at home with days in the office." },
+          { "text": "" },
+          { "text": "Designers now treat the office less as a place of", "root": "" },
+          { "text": "routine work and more as a hub for (23)____.", "root": "COLLABORATE" },
+          { "text": "" },
+          { "text": "Whether this arrangement proves (24)____ in the long", "root": "SUSTAIN" },
+          { "text": "term is a question nobody can yet answer." }
+        ],
+        "questions": [
+          { "root": "EXAMINE", "accept": ["reexamination", "re-examination", "examination"] },
+          { "root": "SATISFY", "accept": ["satisfaction"] },
+          { "root": "ISOLATE", "accept": ["isolation"] },
+          { "root": "PRODUCE", "accept": ["productivity"] },
+          { "root": "OVERALL", "accept": ["overall"] },
+          { "root": "FLEXIBLE", "accept": ["flexible"] },
+          { "root": "COLLABORATE", "accept": ["collaboration"] },
+          { "root": "SUSTAIN", "accept": ["sustainable"] }
+        ]
+      },
+      {
+        "type": "transform",
+        "part": "Part 4",
+        "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+        "questions": [
+          {
+            "before": "I last spoke to Helen three months ago.",
+            "keyword": "SPOKEN",
+            "after": "I ___ for three months.",
+            "accept": ["have not spoken to helen", "haven't spoken to helen", "have not spoken to her", "haven't spoken to her"]
+          },
+          {
+            "before": "Nobody has cleaned this office for weeks.",
+            "keyword": "BEEN",
+            "after": "This office ___ for weeks.",
+            "accept": ["has not been cleaned", "hasn't been cleaned"]
+          },
+          {
+            "before": "When I was young, I played the violin every day.",
+            "keyword": "USED",
+            "after": "When I was young, I ___ the violin every day.",
+            "accept": ["used to play"]
+          },
+          {
+            "before": "This restaurant is more expensive than the one near my house.",
+            "keyword": "AS",
+            "after": "The one near my house ___ this restaurant.",
+            "accept": ["is not as expensive as", "isn't as expensive as"]
+          },
+          {
+            "before": "If you had warned me earlier, I would have come.",
+            "keyword": "HAD",
+            "after": "I would have come ___ me earlier.",
+            "accept": ["if you had warned"]
+          },
+          {
+            "before": "I think you should see a doctor about that cough.",
+            "keyword": "RECOMMEND",
+            "after": "I ___ a doctor about that cough.",
+            "accept": ["recommend that you see", "recommend you see"]
+          }
+        ]
+      },
+      {
+        "type": "mc",
+        "part": "Part 5",
+        "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+        "passage": "The myth of the lone genius\n\nWe like our stories of discovery to have a single hero. The popular image of scientific progress is a gallery of solitary figures — an apple falling beside one of them, a bath overflowing around another — each struck, in a private moment, by an idea that changes the world. It is a satisfying picture, and almost entirely misleading. The closer historians look at how important ideas actually arrive, the more the lone genius dissolves into something far more crowded and far less romantic.\n\nConsider the curious phenomenon of simultaneous invention. Again and again, the same breakthrough has been made independently, within months, by people who had never met. The telephone, the theory of evolution by natural selection, the calculus: each was arrived at by at least two separate minds at almost the same moment. This is hard to explain if discovery is a matter of individual brilliance descending like lightning. It is much easier to explain if ideas are, in a sense, ripe — if a particular discovery becomes not merely possible but almost inevitable once the surrounding knowledge has reached a certain point. The genius, on this view, is less a lightning rod than a person who happened to be standing in the right field during a storm that was going to strike someone.\n\nNone of this is meant to diminish the individuals involved, who were often extraordinarily gifted. The point is rather about where their gifts came from and how they were used. No scientist works from nothing. Each inherits a vast accumulation of questions, methods and half-answers from those who came before, and each depends, usually, on a web of collaborators, rivals and correspondents whose contributions rarely make it into the legend. The myth flatters us because it is simpler to remember one name than fifty, and because we enjoy the idea that genius is a fixed quality some lucky few are born with.\n\nThis matters beyond the history books. If we believe that great ideas spring fully formed from rare individuals, we will look for those individuals, fund them, and wait. If, instead, we believe that ideas emerge from rich, well-connected communities, we will invest in the connections — the conferences, the shared laboratories, the unglamorous infrastructure that lets one person's half-formed thought reach another who can complete it. The evidence increasingly favours the second picture. The most productive research environments are not those that hoard a single star, but those that move ideas around quickly and let many ordinary minds collide.\n\nThere is a final irony. The myth of the lone genius may itself discourage the very behaviour that produces discovery. A young researcher who believes that real insight arrives in solitary flashes may undervalue the slow, social, faintly tedious work of comparing notes and arguing in corridors — the work, in other words, where most discovery actually happens.",
+        "questions": [
+          { "stem": "What does the writer say about the popular image of scientific discovery?", "options": ["It is accurate but incomplete.", "It is satisfying but almost entirely misleading.", "It applies only to modern science.", "It has never been seriously questioned."], "answer": 1 },
+          { "stem": "Why does the writer mention simultaneous invention?", "options": ["To prove that some scientists copied one another.", "To show that discovery is purely a matter of luck.", "To suggest that ideas become almost inevitable once knowledge reaches a certain point.", "To argue that the telephone was invented first."], "answer": 2 },
+          { "stem": "The image of \"standing in the right field during a storm\" suggests that the genius", "options": ["was uniquely capable of producing the idea.", "happened to be well placed when a discovery was due to occur.", "deliberately searched for danger.", "worked entirely alone."], "answer": 1 },
+          { "stem": "According to the writer, why is the lone-genius myth appealing?", "options": ["Because it is supported by strong evidence.", "Because it is simpler to remember one name and we like the idea of inborn genius.", "Because scientists prefer to work alone.", "Because it encourages collaboration."], "answer": 1 },
+          { "stem": "What practical conclusion does the writer draw for funding research?", "options": ["We should concentrate resources on a few star individuals.", "We should invest in the connections between many ordinary minds.", "We should stop funding conferences and shared laboratories.", "We should wait for great individuals to emerge."], "answer": 1 },
+          { "stem": "What is the \"final irony\" the writer describes?", "options": ["That genius is, in fact, inborn after all.", "That the myth may discourage the very social work that produces discovery.", "That young researchers work too hard in groups.", "That solitary flashes of insight are the main source of progress."], "answer": 1 }
+        ]
+      },
+      {
+        "type": "match",
+        "part": "Part 6",
+        "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+        "passage": "Bringing back the corner shop\n\nFor a generation, the small independent grocer seemed destined to vanish, squeezed out by vast supermarkets on the edge of town and, later, by groceries delivered to the door. (37)____ Yet in a number of neighbourhoods the corner shop is quietly returning, and not always in the form anyone expected.\n\nThe newcomers are rarely simple imitations of the shops that closed. (38)____ Many double as a café, a parcel collection point, or a place to swap second-hand books. The goods on the shelves matter, but they are no longer the whole point of the visit.\n\nWhat has driven the change is partly a shift in what customers say they want. (39)____ After years of frictionless online ordering, a surprising number of people report missing the small daily encounters that a physical shop provides. The two-minute conversation with someone who knows your name turns out to be worth paying a little extra for.\n\nThe economics remain difficult, and nobody pretends otherwise. (40)____ A corner shop can rarely match the prices of a giant competitor, and its margins are thin. The successful ones survive by selling something the supermarket cannot: convenience, yes, but also a sense of belonging.\n\nLocal councils have started to take notice. (41)____ Some now offer reduced rents or small grants to keep a single shop trading in an area that would otherwise have none, having calculated that the social value of such a shop exceeds its modest tax contribution.\n\nWhether the revival lasts is anyone's guess. (42)____ But for now, the lights are back on in shops that everyone had written off, and the queue at the till, however short, is a hopeful sign.",
+        "bank": {
+          "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+          "texts": [
+            "Instead, they tend to be hybrids.",
+            "Its decline was treated, for years, as an inevitable feature of modern life.",
+            "They have realised that the last shop in a village is rarely just a shop.",
+            "Convenience, it turns out, was never the only thing people valued.",
+            "Much depends on whether rents stay within reach and customers stay loyal.",
+            "The supermarkets have therefore decided to close all of their branches.",
+            "All of the new shops sell exactly the same range of goods as before.",
+            "This is the part that no amount of community goodwill can fully solve."
+          ]
+        },
+        "questions": [
+          { "stem": "Choose the missing sentence:", "answer": "B" },
+          { "stem": "Choose the missing sentence:", "answer": "A" },
+          { "stem": "Choose the missing sentence:", "answer": "D" },
+          { "stem": "Choose the missing sentence:", "answer": "H" },
+          { "stem": "Choose the missing sentence:", "answer": "C" },
+          { "stem": "Choose the missing sentence:", "answer": "E" }
+        ]
+      },
+      {
+        "type": "match",
+        "part": "Part 7",
+        "instructions": "Read about four people who took up a new physical activity in adulthood. Then answer the questions. The same person may be chosen more than once.",
+        "sources": [
+          { "label": "A", "name": "Rosa", "text": "I took up open-water swimming at forty-three, mostly because a doctor had frightened me about my blood pressure and a friend happened to swim in the local lake. I will be honest: the first few weeks were misery. The cold was a kind of pain I had no language for, and I genuinely could not see how anyone did this for pleasure. The change, when it came, was not gradual but sudden — one grey morning in the fourth week, the cold stopped feeling like an enemy and started feeling like a wake-up call, and from that day I was, frankly, addicted. What surprised me most was not the effect on my body, real though that was, but the effect on my mood. The lake became the one place where the endless commentary in my head simply switched off, and I have come to value that silence more than the fitness." },
+          { "label": "B", "name": "Greg", "text": "Cycling was never going to be a dramatic transformation for me, and I am suspicious of people who describe their hobbies in those terms. I started commuting by bike for a thoroughly boring reason: the train fares had risen again and I was tired of paying them. The health benefits, which everyone warns you about as though they were a side-effect, crept up on me unnoticed; I only realised I was fitter when I carried the shopping upstairs one day without stopping. What I would say to anyone considering it is to ignore the gear, the clothing, the apps that measure everything. None of that mattered. A cheap second-hand bike and a route that avoided the worst of the traffic were the entire secret, and I resent slightly how complicated the cycling world tries to make it." },
+          { "label": "C", "name": "Mariam", "text": "I came to rock climbing late and through the back door, as it were — my teenage daughter was obsessed with it and I started going to the indoor wall mainly to spend time with her. I assumed I would watch from a bench. Instead, almost against my will, I got hooked, and within a year I was climbing routes she could not yet manage, which she found both annoying and, I think, secretly pleasing. The thing nobody tells you about climbing is that it is far more mental than physical. The hardest moves are the ones where you have to trust your feet on a hold that looks impossible, and learning to override that fear has changed how I deal with things far away from the wall. I am calmer, somehow, in a crisis." },
+          { "label": "D", "name": "Owen", "text": "Running came to me at the worst possible time, just after I lost my job, when a friend more or less ordered me out of the house each morning because he could see I was sinking. I hated him for it briefly. But the routine of it — the same loop, the same hill, the same bench at the halfway point — gave a shape to days that had suddenly lost all structure, and that shape mattered more than the exercise. I am not faster than I was; I will never run a marathon, and I have no desire to. What running gave me was not a body or a personal best but a reason to get up, and a quiet hour each morning in which my problems, while not solved, at least stopped shouting. I would recommend it to anyone going through a hard patch, for that reason alone." }
+        ],
+        "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Rosa", "Greg", "Mariam", "Owen"] },
+        "questions": [
+          { "stem": "Which person started the activity for a practical financial reason rather than for health?", "answer": "B" },
+          { "stem": "Which person took up the activity in order to spend time with a family member?", "answer": "C" },
+          { "stem": "Which person values the activity mainly for the mental quiet it brings rather than the physical results?", "answer": "A" },
+          { "stem": "Which person began the activity reluctantly at a difficult moment in their life?", "answer": "D" },
+          { "stem": "Which person describes a sudden rather than gradual moment when the activity became enjoyable?", "answer": "A" },
+          { "stem": "Which person says the activity gave structure to days that had lost it?", "answer": "D" },
+          { "stem": "Which person warns others not to be put off by expensive equipment?", "answer": "B" },
+          { "stem": "Which person found that overcoming fear in the activity changed how they cope elsewhere?", "answer": "C" },
+          { "stem": "Which person only noticed the health benefits by accident, well after starting?", "answer": "B" },
+          { "stem": "Which person initially expected to be a spectator rather than a participant?", "answer": "C" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "mock1": {
+    "title": "C1 Advanced — Reading and Use of English (MOCK 1)",
+    "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+    "parts": [
+      {
+        "type": "clozeMC",
+        "part": "Part 1",
+        "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+        "title": "The slow death of the map",
+        "body": "Until quite recently, finding one's way through an unfamiliar city demanded a particular kind of mental (1)____ : a folded paper map, a sense of the cardinal directions, and a willingness to be wrong. Satellite navigation has rendered most of that effort (2)____ , and few of us would willingly return to the old methods. Yet geographers have begun to (3)____ a curious cost. When a device dictates every turn, the brain no longer builds the rich internal model of space that once formed almost (4)____ as we travelled. The hippocampus, the region most closely (5)____ with spatial memory, appears to be measurably less active in habitual users of turn-by-turn guidance. The convenience, in other words, is not without (6)____ consequences. None of this amounts to an argument for abandoning the technology, which has (7)____ saved countless travellers from genuine danger. It is, rather, a quiet reminder that every tool we (8)____ to also reshapes the faculty it replaces.",
+        "questions": [
+          { "options": ["discipline", "principle", "routine", "regime"], "answer": 0 },
+          { "options": ["obsolete", "redundant", "expired", "void"], "answer": 1 },
+          { "options": ["denote", "designate", "document", "dictate"], "answer": 2 },
+          { "options": ["automatically", "instinctively", "spontaneously", "voluntarily"], "answer": 2 },
+          { "options": ["connected", "associated", "attached", "involved"], "answer": 1 },
+          { "options": ["unforeseen", "unattended", "unguarded", "unresolved"], "answer": 0 },
+          { "options": ["undoubtedly", "arguably", "presumably", "supposedly"], "answer": 0 },
+          { "options": ["resort", "submit", "defer", "yield"], "answer": 2 }
+        ]
+      },
+      {
+        "type": "clozeOpen",
+        "part": "Part 2",
+        "instructions": "Read the text and think of ONE word which best fits each gap.",
+        "title": "The vanishing dark",
+        "body": "For almost the whole of human history, the night sky was a shared inheritance, available to (9)____ who cared to look up. That inheritance is now disappearing at a remarkable pace. So much artificial light spills upward into the atmosphere that the majority of people alive today have (10)____ seen a truly dark sky, much (11)____ the faint band of the Milky Way that earlier generations took for granted.\n\nThe phenomenon, known as light pollution, is unusual (12)____ that it is among the easiest forms of pollution to reverse: a single switch can restore the dark in (13)____ way that no switch can clean a river. (14)____ this, the glow over our cities has continued to brighten, year (15)____ year, largely because the cheapness of modern lighting has removed any incentive to use it sparingly. It would be wrong to suggest that the loss is purely aesthetic. Recent research has linked excessive nocturnal light to disrupted sleep in humans and to catastrophic declines among the insects (16)____ migrations depend on the stars.",
+        "questions": [
+          { "accept": ["anyone", "all", "whoever"] },
+          { "accept": ["never", "rarely", "seldom", "barely"] },
+          { "accept": ["less"] },
+          { "accept": ["in"] },
+          { "accept": ["a"] },
+          { "accept": ["despite"] },
+          { "accept": ["on", "by", "after", "upon"] },
+          { "accept": ["whose"] }
+        ]
+      },
+      {
+        "type": "wordform",
+        "part": "Part 3",
+        "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+        "title": "The economics of repair",
+        "rows": [
+          { "text": "For much of the last century, manufacturers had little (17)____ to", "root": "INCLINE" },
+          { "text": "build products that could be easily repaired." },
+          { "text": "" },
+          { "text": "A device that broke down quickly was, from a purely commercial", "root": "" },
+          { "text": "viewpoint, almost (18)____ profitable than one that lasted.", "root": "ARGUE" },
+          { "text": "" },
+          { "text": "Consumers, however, have grown increasingly (19)____ of an", "root": "TRUST" },
+          { "text": "industry that seems designed to fail them." },
+          { "text": "" },
+          { "text": "Campaigners now argue, almost (20)____ , that buyers have a", "root": "DENY" },
+          { "text": "right to mend the things they own." },
+          { "text": "" },
+          { "text": "The (21)____ of cheap electronics has made the problem of", "root": "DISPOSE" },
+          { "text": "electronic waste genuinely alarming." },
+          { "text": "" },
+          { "text": "Several governments have responded with legislation, though its", "root": "" },
+          { "text": "(22)____ remains very much in doubt.", "root": "EFFECT" },
+          { "text": "" },
+          { "text": "Repair, once dismissed as quaint, is enjoying an (23)____", "root": "EXPECT" },
+          { "text": "revival among younger consumers." },
+          { "text": "" },
+          { "text": "Their (24)____ to throwaway culture may yet reshape how", "root": "RESIST" },
+          { "text": "products are designed in the first place." }
+        ],
+        "questions": [
+          { "root": "INCLINE", "accept": ["inclination"] },
+          { "root": "ARGUE", "accept": ["arguably"] },
+          { "root": "TRUST", "accept": ["distrustful", "mistrustful"] },
+          { "root": "DENY", "accept": ["undeniably"] },
+          { "root": "DISPOSE", "accept": ["disposability"] },
+          { "root": "EFFECT", "accept": ["effectiveness"] },
+          { "root": "EXPECT", "accept": ["unexpected"] },
+          { "root": "RESIST", "accept": ["resistance"] }
+        ]
+      },
+      {
+        "type": "transform",
+        "part": "Part 4",
+        "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+        "questions": [
+          {
+            "before": "The new evidence made the jury see the case completely differently.",
+            "keyword": "LIGHT",
+            "after": "The new evidence made the jury see the case ___ .",
+            "accept": ["in a different light", "in a completely different light", "in a new light"]
+          },
+          {
+            "before": "She only realised her mistake after she had sent the email.",
+            "keyword": "SOONER",
+            "after": "No ___ the email than she realised her mistake.",
+            "accept": ["sooner had she sent"]
+          },
+          {
+            "before": "Everyone simply assumed that the funding would continue.",
+            "keyword": "GRANTED",
+            "after": "The continuation of the funding ___ by everyone.",
+            "accept": ["was taken for granted", "was simply taken for granted"]
+          },
+          {
+            "before": "I think the manager should apologise for what he said.",
+            "keyword": "TIME",
+            "after": "It ___ the manager apologised for what he said.",
+            "accept": ["is high time", "is about time"]
+          },
+          {
+            "before": "We managed to finish the project only because the team worked overtime.",
+            "keyword": "ONLY",
+            "after": "It was ___ overtime that we managed to finish the project.",
+            "accept": ["only by working", "only because of working"]
+          },
+          {
+            "before": "The witness clearly resembles the man in the photograph.",
+            "keyword": "RESEMBLANCE",
+            "after": "The witness clearly ___ the man in the photograph.",
+            "accept": ["bears a resemblance to", "bears a strong resemblance to"]
+          }
+        ]
+      },
+      {
+        "type": "mc",
+        "part": "Part 5",
+        "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+        "passage": "The myth of the lone genius\n\nWe are uncommonly fond of the story in which a single brilliant mind, working in defiant isolation, transforms a discipline overnight. The narrative is satisfying precisely because it is simple: a hero, a flash of insight, a grateful world. It is also, on almost every occasion it is told, substantially false. The historians of science who have looked most closely at the supposedly solitary breakthroughs of the past tend to come away with the same impression — that the lone genius is largely a retrospective invention, a tidy label pasted over a far messier collective process.\n\nConsider the most celebrated examples. The discoveries we attribute to one famous name almost invariably turn out to have been arrived at, more or less simultaneously, by two or three others working independently. The phenomenon is so common that scholars have given it a name: multiple discovery. Far from being the exception, the simultaneous arrival of several minds at the same conclusion appears to be the ordinary condition of intellectual progress. What this suggests is uncomfortable for our preferred story. It implies that the crucial ingredient is not the rare individual but the ripeness of the moment — the accumulation of tools, questions and half-answers that makes a particular insight, in retrospect, almost inevitable.\n\nNone of this is to say that individuals do not matter. Clearly some minds are quicker, bolder or more persistent than others, and the difference is real. The point is subtler. The individual who gets the credit is usually the one who happened to articulate, slightly before the others, something that the whole field was already converging upon. They are, in a sense, the first to cross a line that many were approaching together. To celebrate that person as a solitary creator is to mistake the runner who breasts the tape for the only one in the race.\n\nWhy, then, does the myth persist so stubbornly? Part of the answer is institutional. Prizes, professorships and patents are awarded to named individuals, not to diffuse collectives, and these incentives quietly encourage everyone — including the recipients — to tell the story in the heroic key. There is also a deeper psychological pull. A world in which great advances emerge from networks, accidents and the slow ripening of ideas is harder to admire, and far harder to imitate, than one in which they spring fully formed from a single remarkable head.\n\nThe cost of the myth is not merely that it is inaccurate. It actively distorts how we organise research and education. If genius is essentially individual and innate, then the sensible policy is to identify the gifted early and lavish resources upon them, while the rest of us watch admiringly from the stands. If, on the other hand, discovery is fundamentally collective, then the wiser investment is in the conditions — the open exchange of ideas, the funding of unfashionable questions, the tolerance of failure — that allow many minds to approach the same line at once. The two models point in opposite directions, and we have, for the most part, been backing the wrong one.\n\nThere is one final irony worth noting. The very historians who have dismantled the lone-genius myth are themselves a collective, building patiently on one another's work across decades and continents. No single scholar overturned the legend; it eroded gradually, under the cumulative weight of many quiet corrections. The truth about discovery, it turns out, was itself discovered in exactly the manner the truth describes.",
+        "questions": [
+          { "stem": "What does the writer suggest about the story of the lone genius?", "options": ["It is appealing largely because of its simplicity.", "It is supported by most historians of science.", "It applies only to discoveries made long ago.", "It is becoming more accurate over time."], "answer": 0 },
+          { "stem": "What does the term \"multiple discovery\" indicate, according to the writer?", "options": ["That most discoveries are eventually proved wrong.", "That simultaneous independent discovery is the normal pattern.", "That collaboration is now required by law.", "That famous discoveries were usually faked."], "answer": 1 },
+          { "stem": "The runner imagery in the third paragraph is used to suggest that the celebrated individual", "options": ["was always far ahead of everyone else.", "did not deserve any recognition at all.", "merely crossed a line many were approaching together.", "competed unfairly against rivals."], "answer": 2 },
+          { "stem": "What does the writer give as one reason the myth persists?", "options": ["Discoveries genuinely do come from single minds.", "Prizes and patents are awarded to named individuals.", "Historians prefer dramatic narratives.", "The public has lost interest in science."], "answer": 1 },
+          { "stem": "According to the fifth paragraph, why does the myth matter in practical terms?", "options": ["It makes scientists work harder.", "It shapes how research and education are organised.", "It increases the cost of prizes.", "It discourages people from reading history."], "answer": 1 },
+          { "stem": "What is the \"final irony\" the writer identifies?", "options": ["The historians were themselves lone geniuses.", "The myth has now been completely forgotten.", "The truth about discovery was itself discovered collectively.", "The historians refused to publish their findings."], "answer": 2 }
+        ]
+      },
+      {
+        "type": "match",
+        "part": "Part 6",
+        "instructions": "Read four short opinion pieces (A–D) on the same topic: whether universities should drop traditional written exams. Then answer the questions.",
+        "sources": [
+          { "label": "A", "text": "The case against the traditional timed exam has, frankly, been made so many times that it scarcely needs repeating. We test memory under artificial stress, in conditions that resemble no workplace any graduate will ever enter, and then we are surprised that the results predict so little. The honest response is to replace the lot with sustained, supported projects that mirror genuine professional work. I am aware of the objection that such projects are easier to outsource or fabricate; my answer is that good assessment design — oral defence, staged drafts, individualised tasks — handles that risk far better than a sealed exam hall ever did. The defenders of the old system are protecting a ritual, not a measurement."},
+          { "label": "B", "text": "I find the current enthusiasm for abolishing exams curiously one-sided. Yes, the timed exam is artificial; so is every form of assessment ever devised, because assessment is by definition not the thing itself. The relevant question is not whether exams are perfect but whether the proposed alternatives are better, and on that point the evidence is thin. Continuous coursework, for all its virtues, advantages the confident and the well-resourced, who can draw on parental help, paid tutors and quiet rooms. The sealed exam, for all its faults, is at least the same for everyone on the day. Before we dismantle it, I would like to see far more proof that what replaces it is genuinely fairer."},
+          { "label": "C", "text": "Much of this debate proceeds as though we faced a single, binary choice — exams or no exams — when the obvious answer is that different subjects need different things. It would be absurd to assess a surgeon's competence with a multiple-choice paper, and equally absurd to assess a historian's grasp of an argument through a practical demonstration. The error common to both camps is the assumption that one method should dominate. The mature position is to match the form of assessment to the nature of the knowledge being tested, and to stop pretending that any single instrument can do everything. Most of the heat in this argument comes from people defending a method rather than serving a purpose."},
+          { "label": "D", "text": "Whatever we decide, we should be honest that the loudest voices in this debate are rarely the students. Reformers speak warmly of authentic, project-based assessment, yet the surveys I have seen suggest many students actually prefer the closed exam, precisely because it ends on a fixed date and cannot be eroded by the boundless expectations of continuous work. There is a real cruelty in assessment that never switches off, that follows the learner home and colonises every evening. Before we celebrate the death of the exam, we might ask whether we are liberating students or simply handing them a longer, quieter sentence. Their preferences, on this point, deserve more weight than they usually receive."}
+        ],
+        "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+        "questions": [
+          { "stem": "Which writer most directly challenges Writer A's confidence that projects should replace exams entirely?", "answer": "B" },
+          { "stem": "Which writer argues that the whole debate is wrongly framed as a single choice between two options?", "answer": "C" },
+          { "stem": "Which writer, unlike the others, emphasises that students' own preferences are being overlooked?", "answer": "D" },
+          { "stem": "Which writer is most confident that traditional exams should simply be abolished and replaced?", "answer": "A" }
+        ]
+      },
+      {
+        "type": "match",
+        "part": "Part 7",
+        "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+        "passage": "The return of the night train\n\nFor a brief, optimistic decade around the turn of the millennium, the sleeper train looked like a relic. Budget airlines had made it absurdly cheap to cross a continent before lunch, and the slow, expensive overnight service seemed destined for the museum. (41)____\n\nThe reversal, when it came, was driven less by nostalgia than by arithmetic. As the climate cost of short-haul flights became impossible to ignore, a journey that could be made overnight by rail began to look not quaint but quietly sensible. (42)____\n\nThe practical obstacles, however, turned out to be formidable. Decades of neglect had left much of the rolling stock decrepit, and the carriages capable of safely crossing several national networks at speed simply no longer existed in sufficient numbers. (43)____\n\nThere was also the awkward matter of economics. A sleeper carriage carries far fewer paying passengers than a daytime train of the same length, and it ties up expensive equipment for a single overnight run. (44)____\n\nYet the revival has persisted, and even accelerated, in the face of these difficulties. New routes now link cities that had not been connected by direct overnight service in a generation, and several have sold out months in advance. (45)____\n\nWhat the night train ultimately offers is something the aeroplane, for all its speed, cannot. (46)____ For a growing number of travellers, that exchange — a few hours of speed surrendered for a night of rest and a gentler arrival — has come to seem like rather a good bargain.",
+        "bank": {
+          "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+          "texts": [
+            "It is the rare experience of arriving rested, at the centre of a city, having slept through the very distance one has crossed.",
+            "Several operators quietly retired their entire fleets, convinced that the format had no commercial future whatsoever.",
+            "Manufacturers, having shut down those production lines years earlier, were reluctant to restart them without firm long-term orders.",
+            "The fares charged on these new services were, by contrast, lower than ever before recorded.",
+            "Solving that puzzle has required generous public subsidy, justified increasingly on environmental rather than purely commercial grounds.",
+            "A traveller could board after dinner, sleep through the miles, and step onto a distant platform in time for a morning meeting.",
+            "Demand, it became clear, had not vanished after all; it had merely been waiting for the supply to return.",
+            "The aircraft involved were, in any case, far older than the railway equipment they had replaced."
+          ]
+        },
+        "questions": [
+          { "stem": "Choose the missing paragraph:", "answer": "B" },
+          { "stem": "Choose the missing paragraph:", "answer": "F" },
+          { "stem": "Choose the missing paragraph:", "answer": "C" },
+          { "stem": "Choose the missing paragraph:", "answer": "E" },
+          { "stem": "Choose the missing paragraph:", "answer": "G" },
+          { "stem": "Choose the missing paragraph:", "answer": "A" }
+        ]
+      },
+      {
+        "type": "match",
+        "part": "Part 8",
+        "instructions": "You are going to read four short pieces (A–D) by people who have changed careers in mid-life. Answer the questions by choosing the appropriate person.",
+        "sources": [
+          { "label": "A", "text": "Ravi — left corporate law to become a secondary-school teacher. The pay cut was, of course, severe, and I will not pretend it did not sting. What surprised me was how little I missed the money once the first few months had passed. The harder adjustment was status. As a lawyer I had been treated, almost automatically, as someone whose time mattered; as a trainee teacher I was, briefly, the least important adult in the building. That recalibration was bruising in a way I had not anticipated. And yet the work itself has a directness that law never offered me — I can see, on a Friday afternoon, whether a child has understood something they did not understand on Monday. Nothing in my old career produced a satisfaction quite that immediate, or quite that hard to fake."},
+          { "label": "B", "text": "Greta — left academic research to start a bakery. People assume I must have been disillusioned with science, but the truth is gentler and stranger. I loved the research; I simply could not love the conditions, the endless chasing of short contracts that meant I never knew where I would be living in two years' time. The bakery, by contrast, is rooted in one street, and I have come to value that fixedness more than I ever expected to. What I did not foresee was how much of the old discipline transferred. A sourdough culture is, after all, a slow experiment with strict variables, and I keep my baking notes with exactly the rigour I once kept my lab notebooks. The skills did not vanish; they merely changed costume."},
+          { "label": "C", "text": "Yusuf — left a successful music career to retrain as a nurse. The decision baffled almost everyone I knew, and I understand why. I was, by any reasonable measure, doing well: the touring, the recordings, the small but genuine fame. But it had begun to feel weightless, as though I were producing pleasure for strangers without ever quite touching their lives. Nursing is the opposite. It is unglamorous, exhausting and frequently grim, and I have never for one moment regretted it. The reaction I least expected came from my former colleagues, several of whom confided, quietly, that they envied a clarity of purpose they felt their own work increasingly lacked. I had assumed they would pity me; instead, a surprising number seemed almost wistful."},
+          { "label": "D", "text": "Mara — left a marketing role to become a carpenter. The thing nobody warns you about is the body. I had spent twenty years at a desk, and the first weeks of physical work left me genuinely incapable of climbing my own stairs. That eased, eventually, but it taught me how thoroughly I had neglected the simple fact of having a body at all. The deeper reward was unexpected. In marketing, the product of my labour was always abstract — a campaign, a metric, a slide. Now, at the end of a difficult day, there is a table, or a door, or a shelf, that did not exist that morning and will outlast me. I had not realised how badly I needed to make something I could put my hand on. The tiredness, it turns out, is the good kind."}
+        ],
+        "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Ravi", "Greta", "Yusuf", "Mara"] },
+        "questions": [
+          { "stem": "Which person was surprised to discover how readily their old professional skills carried over?", "answer": "B" },
+          { "stem": "Which person found the loss of professional status harder to bear than the loss of income?", "answer": "A" },
+          { "stem": "Which person was struck by the physical demands of their new work?", "answer": "D" },
+          { "stem": "Which person reports that former colleagues reacted with envy rather than the pity expected?", "answer": "C" },
+          { "stem": "Which person values the immediate, visible results their new work produces?", "answer": "A" },
+          { "stem": "Which person changed career chiefly because of the instability of their previous field rather than dislike of it?", "answer": "B" },
+          { "stem": "Which person appreciates producing something tangible after years of abstract output?", "answer": "D" },
+          { "stem": "Which person felt their successful former career had come to seem strangely insubstantial?", "answer": "C" },
+          { "stem": "Which person mentions that the rootedness of their new work matters more than they had expected?", "answer": "B" },
+          { "stem": "Which person describes a satisfaction in the new work that is difficult to counterfeit?", "answer": "A" }
+        ]
+      }
+    ]
+  },
+  "mock2": {
+    "title": "C1 Advanced — Reading and Use of English (MOCK 2)",
+    "note": "Parts 1–8 are auto-scored. Counts are slightly trimmed; task types are authentic.",
+    "parts": [
+      {
+        "type": "clozeMC",
+        "part": "Part 1",
+        "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+        "title": "The seduction of the round number",
+        "body": "There is something about a round number that the human mind finds almost impossible to (1)____ . A target of a thousand feels meaningfully different from one of nine hundred and ninety-seven, even though the gap between them is (2)____ trivial. Marketers have long exploited this quirk, pricing goods at amounts that fall just (3)____ of a round figure in the knowledge that the difference of a single penny exerts a wholly (4)____ pull on our judgement. The tendency is not confined to shopping. Athletes have been shown to push hardest when a personal best lies within (5)____ reach of a round milestone, and charitable donations cluster, almost (6)____ , at neat sums. Economists once assumed that such behaviour would (7)____ disappear as people grew more sophisticated; in practice it has proved remarkably (8)____ to education, persisting even among those who can explain precisely why it makes no sense.",
+        "questions": [
+          { "options": ["overlook", "resist", "ignore", "neglect"], "answer": 1 },
+          { "options": ["accordingly", "essentially", "thoroughly", "outright"], "answer": 1 },
+          { "options": ["short", "shy", "below", "low"], "answer": 0 },
+          { "options": ["disproportionate", "uneven", "imbalanced", "excessive"], "answer": 0 },
+          { "options": ["touching", "striking", "reaching", "grasping"], "answer": 0 },
+          { "options": ["unfailingly", "relentlessly", "tirelessly", "endlessly"], "answer": 0 },
+          { "options": ["gradually", "eventually", "ultimately", "lately"], "answer": 1 },
+          { "options": ["immune", "resistant", "indifferent", "opposed"], "answer": 1 }
+        ]
+      },
+      {
+        "type": "clozeOpen",
+        "part": "Part 2",
+        "instructions": "Read the text and think of ONE word which best fits each gap.",
+        "title": "The forgotten art of the index",
+        "body": "Few readers ever spare a thought (9)____ the index at the back of a serious book, yet its construction is a craft of considerable subtlety. A good index is far (10)____ a mechanical list of words; it is, in effect, a second reading of the text, one that anticipates the questions a future reader has (11)____ yet thought to ask. The best indexers, of (12)____ there are surprisingly few, describe the work as a kind of intellectual cartography, mapping the hidden connections that the author may not have (13)____ noticed.\n\nThe rise of full-text search was widely expected to render the human-made index obsolete. (14)____ it has not, and the reason is instructive. A search engine retrieves every occurrence of a word, however irrelevant, (15)____ a skilled index distinguishes the passages that genuinely matter from those in (16)____ a term merely happens to appear. Discrimination, in other words, is precisely the quality that automation has so far failed to supply.",
+        "questions": [
+          { "accept": ["for", "about"] },
+          { "accept": ["more", "from"] },
+          { "accept": ["not"] },
+          { "accept": ["whom"] },
+          { "accept": ["even", "consciously"] },
+          { "accept": ["yet", "but"] },
+          { "accept": ["whereas", "while", "whilst"] },
+          { "accept": ["which"] }
+        ]
+      },
+      {
+        "type": "wordform",
+        "part": "Part 3",
+        "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+        "title": "The trouble with measuring happiness",
+        "rows": [
+          { "text": "Governments have grown increasingly interested in measuring the (17)____ of their citizens, not merely their wealth.", "root": "WELL" },
+          { "text": "The appeal is understandable, yet the project is fraught with (18)____ difficulties that are easy to underestimate.", "root": "CONCEIVE" },
+          { "text": "Happiness is notoriously (19)____ , slipping through the fingers of anyone who tries to define it precisely.", "root": "MEASURE" },
+          { "text": "Surveys that ask people to rate their lives are, almost (20)____ , shaped by mood, weather and the wording of the question.", "root": "AVOID" },
+          { "text": "Critics regard the whole enterprise as faintly (21)____ , a category error dressed up as social science.", "root": "LOGIC" },
+          { "text": "Its defenders reply that even an (22)____ measure is better than ignoring wellbeing altogether.", "root": "PERFECT" },
+          { "text": "There is, they insist, an (23)____ case for tracking how citizens actually feel about their lives.", "root": "DENY" },
+          { "text": "The (24)____ between the two camps shows little sign of being resolved any time soon.", "root": "AGREE" }
+        ],
+        "questions": [
+          { "root": "WELL", "accept": ["wellbeing", "well-being"] },
+          { "root": "CONCEIVE", "accept": ["inconceivable"] },
+          { "root": "MEASURE", "accept": ["immeasurable"] },
+          { "root": "AVOID", "accept": ["unavoidably"] },
+          { "root": "LOGIC", "accept": ["illogical"] },
+          { "root": "PERFECT", "accept": ["imperfect"] },
+          { "root": "DENY", "accept": ["undeniable"] },
+          { "root": "AGREE", "accept": ["disagreement"] }
+        ]
+      },
+      {
+        "type": "transform",
+        "part": "Part 4",
+        "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+        "questions": [
+          {
+            "before": "She is sure she will pass the interview.",
+            "keyword": "CONFIDENT",
+            "after": "She is ___ the interview.",
+            "accept": ["confident about passing", "confident of passing", "confident she will pass"]
+          },
+          {
+            "before": "The director insisted that the report be rewritten immediately.",
+            "keyword": "SHOULD",
+            "after": "The director insisted ___ rewritten immediately.",
+            "accept": ["that the report should be", "the report should be"]
+          },
+          {
+            "before": "They went to enormous trouble to keep the project secret.",
+            "keyword": "LENGTHS",
+            "after": "They ___ keep the project secret.",
+            "accept": ["went to great lengths to", "went to enormous lengths to"]
+          },
+          {
+            "before": "The application was rejected because the form had been filled in incorrectly.",
+            "keyword": "GROUNDS",
+            "after": "The application was rejected ___ the form had been filled in incorrectly.",
+            "accept": ["on the grounds that"]
+          },
+          {
+            "before": "It seems that the painting has been damaged in transit.",
+            "keyword": "APPEARS",
+            "after": "The painting ___ damaged in transit.",
+            "accept": ["appears to have been"]
+          },
+          {
+            "before": "I had the mechanic check the brakes before the long drive.",
+            "keyword": "CHECKED",
+            "after": "I ___ before the long drive.",
+            "accept": ["had the brakes checked", "got the brakes checked"]
+          }
+        ]
+      },
+      {
+        "type": "mc",
+        "part": "Part 5",
+        "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+        "passage": "Against the tyranny of feedback\n\nIt has become an article of faith in modern organisations that more feedback is always better. We are urged to seek it constantly, to offer it generously, to treat every interaction as an opportunity for improvement. The underlying assumption is rarely examined: that performance, like a thermostat, simply requires a steady stream of corrective information to converge on excellence. The reality, as a growing body of research suggests, is considerably more awkward, and in some respects exactly the reverse.\n\nThe first difficulty is that a great deal of feedback is simply wrong. The person delivering it is, in most cases, not a neutral instrument but a fallible observer, prone to the same biases and blind spots as everyone else. When a manager tells an employee that a presentation lacked authority, what they are often reporting is not an objective fact about the presentation but a fact about their own preferences, smuggled out under the guise of expertise. The employee, anxious to improve, duly absorbs the correction and adjusts — sometimes away from genuine strength and towards a bland conformity with the assessor's taste.\n\nA second, subtler problem concerns the effect of feedback on the very faculty it claims to sharpen. Skilled performance, in most demanding fields, depends on a kind of fluent, unselfconscious absorption. The pianist who, mid-performance, begins to monitor each finger consciously will almost certainly play worse, not better. Excessive feedback can induce precisely this fatal self-consciousness, dragging into deliberate awareness processes that function best when left alone. The result is the curious phenomenon, familiar to coaches, of performers who improve markedly the moment they stop receiving comment.\n\nNone of this means that feedback is worthless; that would be an absurd overcorrection. There are clearly domains — surgery, aviation, anything with a clear and verifiable standard — where accurate, timely correction is indispensable, and where its absence would be reckless. The argument is narrower. It is that we have allowed a tool suited to certain conditions to expand, unchallenged, into a universal doctrine, applied indiscriminately to activities for which it is poorly designed. The trouble is not feedback itself but its promotion to the status of an unquestioned good.\n\nWhat, then, might a more sensible approach look like? It would begin by distinguishing between the kinds of activity in which an external standard genuinely exists and those in which the supposed standard is merely the evaluator's preference in disguise. It would treat the timing of feedback as carefully as its content, recognising that a comment offered mid-flow is rarely as useful as one offered in a reflective pause afterwards. Above all, it would restore to the performer a measure of trust — the recognition that the person doing the work often possesses a tacit understanding of it that no observer, however well intentioned, can fully share.",
+        "questions": [
+          { "stem": "What assumption about feedback does the writer say is rarely examined?", "options": ["That feedback should always be positive.", "That a constant stream of correction leads to excellence.", "That feedback should be delivered in writing.", "That only managers are qualified to give it."], "answer": 1 },
+          { "stem": "What is the first difficulty the writer identifies with feedback?", "options": ["It is often delivered too late.", "It is frequently simply wrong.", "It is usually ignored by recipients.", "It tends to be too vague to act on."], "answer": 1 },
+          { "stem": "The example of the pianist is used to illustrate that", "options": ["practice is more important than talent.", "feedback can induce harmful self-consciousness.", "musicians dislike being corrected.", "performance cannot be measured objectively."], "answer": 1 },
+          { "stem": "What does the writer concede about feedback in the fourth paragraph?", "options": ["It is worthless in every field.", "It is indispensable in domains with a clear, verifiable standard.", "It should be abolished in surgery and aviation.", "It only works when delivered anonymously."], "answer": 1 },
+          { "stem": "According to the writer, what is the real problem with feedback?", "options": ["That it is too expensive to provide.", "That it has been promoted into a universal doctrine.", "That too few people are trained to give it.", "That recipients resent receiving it."], "answer": 1 },
+          { "stem": "What does the writer recommend in the final paragraph?", "options": ["Abandoning all forms of assessment.", "Distinguishing genuine external standards from disguised preferences.", "Giving feedback only in writing.", "Replacing managers with automated systems."], "answer": 1 }
+        ]
+      },
+      {
+        "type": "match",
+        "part": "Part 6",
+        "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the list to fill each gap. There are two extra sentences you do not need to use.",
+        "passage": "We tend to assume that boredom is a problem to be solved, an empty interval to be filled as quickly as a screen can be reached. Psychologists studying the experience have begun to suspect that this assumption is mistaken. (37)____ Far from being a void, boredom may be a signal, and an unexpectedly useful one.\n\nThe signal, on this account, is roughly the following: the activity you are currently engaged in is failing to satisfy you, and your attention is seeking something more meaningful. (38)____ Understood this way, boredom is not the enemy of purpose but one of its quiet servants, nudging us away from the unfulfilling and towards the worthwhile.\n\nThere is, however, a complication, and it is a modern one. The discomfort of boredom has always been with us, but never before has relief been so instantly available. (39)____ The result is that we now extinguish the signal the moment it appears, long before it has had the chance to do its work.\n\nResearchers have found that this matters for creativity in particular. (40)____ Several studies suggest that people allowed to be bored before tackling a creative task subsequently generate more original ideas than those kept busy. The fallow interval, it seems, is not wasted; it is where the mind quietly reshuffles its materials.\n\nNone of this amounts to a romantic plea for suffering. (41)____ The point is rather that boredom, in moderate doses, performs a function we have grown too impatient to allow it to perform.\n\nThe practical implication is modest but real. (42)____ The next time the familiar restlessness arrives, the wiser response may not be to reach immediately for distraction, but to wait, briefly, and notice where the mind wants to go.",
+        "bank": {
+          "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+          "texts": [
+            "A phone offers an escape from any dull moment within seconds, and most of us take it without a second thought.",
+            "Chronic, inescapable boredom of the kind found in tedious jobs is genuinely corrosive, and no one is recommending it.",
+            "It appears to play a part in precisely the kind of loose, wandering thought from which fresh connections emerge.",
+            "Their findings suggest that boredom serves a purpose we have been too quick to dismiss.",
+            "The very restlessness we rush to suppress may be an invitation to redirect our energies.",
+            "Most workplaces have, in fact, abolished such pauses entirely in the name of efficiency.",
+            "Learning to tolerate a little of it may be one of the more useful skills of the distracted age.",
+            "Boredom was first studied scientifically only in the latter half of the twentieth century."
+          ]
+        },
+        "questions": [
+          { "stem": "Gap 37", "answer": "D" },
+          { "stem": "Gap 38", "answer": "E" },
+          { "stem": "Gap 39", "answer": "A" },
+          { "stem": "Gap 40", "answer": "C" },
+          { "stem": "Gap 41", "answer": "B" },
+          { "stem": "Gap 42", "answer": "G" }
+        ]
+      },
+      {
+        "type": "match",
+        "part": "Part 7",
+        "instructions": "Read the article about the science of taste. The article has SIX sections (41–46). Choose the best heading (A–H) from the list for each section. There are two headings you do not need to use.",
+        "passage": "(41)____\n\nWe speak casually of the five tastes, as though the tongue were a simple instrument with a fixed set of switches. The truth is that taste, as scientists now understand it, is one of the most thoroughly collaborative of all the senses. What we experience as flavour is assembled, in the brain, from a remarkable range of inputs, only a fraction of which arrive from the taste buds themselves.\n\n(42)____\n\nConsider smell, which contributes far more to flavour than most people suspect. Hold your nose while eating, and a strawberry becomes little more than a vague sweetness; release it, and the full character floods back. The aromas released as we chew travel upward through the back of the throat to the nose, in a process so seamless that we routinely mistake its results for taste. Strip it away, as a heavy cold does, and food turns abruptly to cardboard.\n\n(43)____\n\nLess obvious still is the role of the eyes. In one well-known experiment, wine experts were given white wine that had been dyed red, and described it, confidently and at length, using the vocabulary reserved for reds. Their palates had not changed; their expectations, primed by colour, had simply overruled the evidence of the tongue. Sound, too, plays its part: the crunch of a crisp measurably affects how fresh we judge it to be, quite independently of its actual texture.\n\n(44)____\n\nIf flavour is so easily manipulated, the food industry was never going to leave it alone. Vast resources are now devoted to engineering products that hit what specialists call the bliss point — the precise combination of salt, sugar and fat that the brain finds hardest to resist. The same science that illuminates the wonder of taste has, inevitably, been turned to the business of overriding our better judgement.\n\n(45)____\n\nThere is, encouragingly, another side to this. The malleability that makes us vulnerable to manipulation also makes taste trainable. Palates that find a bitter vegetable repellent in childhood can, with repeated gentle exposure, come to find it delicious; the disgust is not fixed but learned, and can therefore be unlearned. What looks like an immovable preference is often merely a habit awaiting revision.\n\n(46)____\n\nTo understand taste, then, is to abandon the idea of a passive tongue reporting objective facts about the world. It is to recognise instead an active, predictive brain, constantly weaving expectation, memory and sensation into the seamless experience we call flavour. The strawberry on the plate is real; but the strawberry we taste is, in large part, something we ourselves help to make.",
+        "bank": {
+          "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+          "texts": [
+            "How commercial interests exploit the flexibility of flavour",
+            "Why taste is far more collaborative than it appears",
+            "The surprising influence of sight and sound on what we taste",
+            "The decisive but unnoticed contribution of smell",
+            "Taste as an active construction rather than a passive report",
+            "The reassuring fact that preferences can be retrained",
+            "How climate change is altering the flavour of crops",
+            "The historical origins of the five basic tastes"
+          ]
+        },
+        "questions": [
+          { "stem": "Section 41", "answer": "B" },
+          { "stem": "Section 42", "answer": "D" },
+          { "stem": "Section 43", "answer": "C" },
+          { "stem": "Section 44", "answer": "A" },
+          { "stem": "Section 45", "answer": "F" },
+          { "stem": "Section 46", "answer": "E" }
+        ]
+      },
+      {
+        "type": "match",
+        "part": "Part 8",
+        "instructions": "Read about four people describing their experience of living in a very small home. Answer the questions by choosing the correct person (A, B, C or D). Some answers may be used more than once.",
+        "sources": [
+          { "label": "A", "text": "When I first moved into the studio I assumed the smallness would be a temporary sacrifice, something to be endured until I could afford better. What I did not expect was to stop wanting better. The constraint forced a clarity on me that I had never managed to impose on myself: every object now has to justify its presence, and the result is a calm I had spent years failing to buy with larger and larger flats. I will not pretend it suits everyone. Friends with children look at the space with frank horror, and they are not wrong to. But for a single person with my temperament, the limit turned out to be a liberation rather than a hardship. I have, in a sense, been cured of an appetite I did not know was making me miserable."},
+          { "label": "B", "text": "People romanticise tiny living, and I want to be honest about the cost. The first winter was genuinely difficult; with no separate room to retreat to, there is nowhere to be alone with a bad mood, and a small disagreement can fill the entire space within seconds. I have learned to manage this, but it required real effort and a degree of negotiation that a larger home would simply have absorbed. The financial saving, which was the whole point, has been substantial and is not to be sniffed at. Yet I would caution anyone tempted by the lifestyle magazines that the discipline involved is constant. The space does not forgive carelessness, and what looks effortless in a photograph is, in daily life, the product of relentless tidiness."},
+          { "label": "C", "text": "I came to the small flat from a position of necessity rather than choice — the city had simply priced me out of anything larger — and I expected to resent it. The surprise was how quickly resentment gave way to something close to gratitude. With so little to maintain, I found whole evenings returned to me that had previously vanished into cleaning and organising. That recovered time, more than the money, has been the real dividend. I notice, too, that I now spend far more of my life outside the flat, in parks and cafés and libraries, because the home no longer holds me the way a comfortable larger one might. Whether that is the city compensating me for the cramped rooms, or simply a healthier way to live, I genuinely cannot say."},
+          { "label": "D", "text": "My partner and I downsized deliberately, against the advice of almost everyone we knew, and we have never regretted it for a moment. The conventional wisdom is that a couple needs space to avoid friction, but our experience has been precisely the opposite. Sharing a small home has made us better at the small daily negotiations that larger couples can postpone indefinitely by retreating to separate rooms. We have had to become genuinely good at compromise, simply because the alternative was unbearable. I would add that the money we no longer spend on rent has bought us something far more valuable than square footage: the freedom to work less and travel more, which was the whole reason we did it."}
+        ],
+        "bank": { "labels": ["A", "B", "C", "D"], "texts": ["A", "B", "C", "D"] },
+        "questions": [
+          { "stem": "Which person says small living forced them to become better at resolving disagreements?", "answer": "D" },
+          { "stem": "Which person was surprised to lose the desire for a larger home altogether?", "answer": "A" },
+          { "stem": "Which person values the time freed up more than the money saved?", "answer": "C" },
+          { "stem": "Which person warns that the apparent ease of small living conceals constant effort?", "answer": "B" },
+          { "stem": "Which person moved to a small home out of financial necessity rather than choice?", "answer": "C" },
+          { "stem": "Which person says the limited space taught them to value only objects that earn their place?", "answer": "A" },
+          { "stem": "Which person mentions difficulty finding privacy when in a bad mood?", "answer": "B" },
+          { "stem": "Which person reports that small living led them to spend more time away from home?", "answer": "C" },
+          { "stem": "Which person made the change in order to be able to work less and travel more?", "answer": "D" },
+          { "stem": "Which person acknowledges that small living would not suit families with children?", "answer": "A" }
+        ]
+      }
+    ]
+  }
+}
