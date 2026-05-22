@@ -2333,15 +2333,28 @@ function viewExamPick(){
   document.body.classList.remove('exam-mode','result-mode');
   document.body.classList.add('signin-mode');
   const lev = currentQuiz()[state.level];
+  const examName = {A2:'A2 Key',B1:'B1 Preliminary',B2:'B2 First',C1:'C1 Advanced'}[state.level] || state.level;
+  const cardBtn = "background:#4987c6;color:#fff;border:none;padding:13px 24px;border-radius:10px;font-weight:700;cursor:pointer;font-size:1rem;margin-top:6px";
+  const cardCss = "background:#fff;border-radius:16px;box-shadow:0 10px 30px rgba(15,23,42,.10);padding:28px 30px;margin-bottom:18px";
   app.innerHTML = `
-    <div class="level-pick">
-      <h1>${state.level} Listening — choose your mock 🎧</h1>
-      <p class="sub">${lev.cefr}. Two full listening mocks, harder than standard practice, with real audio.</p>
-      <div class="signin-card" style="display:flex;flex-direction:column;gap:12px">
-        <button class="primary" id="m1">📝 MOCK 1 →</button>
-        <button class="primary" id="m2">📝 MOCK 2 →</button>
+    <div class="signin-wrap">
+      <div class="crumb">MOCKS CAMBRIDGE &rsaquo; Listening &rsaquo; ${state.level} &rsaquo; Choose a mock</div>
+      <h1>${state.level} Listening — choose your mock</h1>
+      <p class="sub">${examName}. Two full listening mocks, harder than standard practice, in authentic Cambridge format with real audio. Auto-scored with timer and CEFR analysis.</p>
+
+      <div style="${cardCss}">
+        <h2 style="margin:0 0 8px;font-size:1.4rem;color:#2d5a8d">📝 MOCK 1</h2>
+        <p style="color:#475569;margin:0 0 4px;line-height:1.55">A complete ${examName}-format listening mock, written to mirror the official paper and pitched at the harder end of the level. Real audio, authentic Cambridge parts and task types.</p>
+        <button id="m1" style="${cardBtn}">Start MOCK 1 &rarr;</button>
       </div>
-      <div class="signin-actions" style="margin-top:22px"><a class="secondary2" id="epBack">&larr; Back to levels</a></div>
+
+      <div style="${cardCss}">
+        <h2 style="margin:0 0 8px;font-size:1.4rem;color:#2d5a8d">📝 MOCK 2</h2>
+        <p style="color:#475569;margin:0 0 4px;line-height:1.55">A second complete ${examName}-format listening mock — fresh recordings and tasks, same authentic Cambridge structure and difficulty.</p>
+        <button id="m2" style="${cardBtn}">Start MOCK 2 &rarr;</button>
+      </div>
+
+      <div class="signin-actions" style="margin-top:8px"><a class="secondary2" id="epBack">&larr; Back to levels</a></div>
     </div>`;
   const start = (t)=>{ state.examType=t; state.startTime=Date.now(); state.answers={}; state.seqOrder={}; viewQuiz(); };
   $("#m1").onclick = ()=> start('mock01');
