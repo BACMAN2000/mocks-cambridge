@@ -5600,8 +5600,12 @@ function renderPart(p, idx, startNum, twoCol, paged){
     // (the value stays the letter, so scoring is unchanged), and the redundant
     // "Options" box at the top is omitted — the names already label each source.
     const hasSources = p.sources && p.sources.length;
+    // "People are options" (A2 style): the sources ARE the answer choices, so the
+    // dropdown shows their names. Otherwise (B1 people→A–H options, or gapped text)
+    // the dropdown shows the LETTER and the option texts are listed in a box.
+    const peopleAreOptions = hasSources && p.bank && p.bank.labels && p.bank.labels.length === p.sources.length;
     const opts = (p.bank ? p.bank.labels : []).map((l,i)=>{
-      const display = hasSources ? (p.bank.texts[i] || l) : l;
+      const display = peopleAreOptions ? (p.bank.texts[i] || l) : l;
       return `<option value="${l}">${display}</option>`;
     }).join('');
 
@@ -5637,9 +5641,10 @@ function renderPart(p, idx, startNum, twoCol, paged){
       }
     }
 
-    // Show the "Options" bank box only when there are no named sources
-    // (e.g. the gapped-text sentence bank). For people-matching it is redundant.
-    if(p.bank && !hasSources){
+    // Show the "Options" bank box for gapped text AND for B1-style people→A–H
+    // tasks (distinct option bank). Hidden only when the sources themselves are
+    // the options (A2 style), where it would be redundant.
+    if(p.bank && p.bank.labels && (!hasSources || !peopleAreOptions)){
       right += `<div class="bank"><strong>Options:</strong><ul>`;
       p.bank.labels.forEach((l,i)=>{
         right += `<li><strong>${l}</strong> — ${p.bank.texts[i]}</li>`;
