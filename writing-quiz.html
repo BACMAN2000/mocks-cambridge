@@ -483,16 +483,26 @@ const render={
   examPick(){
     stopTimer();
     app.className='app';
-    app.innerHTML=`<div class="hero">
-      <img src="nordic-logo-h.svg" alt="Nordic">
-      <h1>${state.level} Writing — choose your mock</h1>
-      <p class="sub">${LEVEL_NAMES[state.level]} · two full writing mocks. Part 1 is compulsory; choose one task in Part 2.</p>
-      <div style="display:flex;flex-direction:column;gap:12px;margin-top:8px">
-        <button class="btn" onclick="window._pickExam('mock01')">📝 MOCK 1 →</button>
-        <button class="btn" onclick="window._pickExam('mock02')">📝 MOCK 2 →</button>
+    const examName={B1:'B1 Preliminary',B2:'B2 First',C1:'C1 Advanced'}[state.level]||state.level;
+    const cardBtn="margin-top:8px";
+    app.innerHTML=`
+      <div style="color:var(--muted);font-size:.9rem;margin-bottom:6px">MOCKS CAMBRIDGE &rsaquo; Writing &rsaquo; ${state.level} &rsaquo; Choose a mock</div>
+      <h1 style="margin:0 0 6px;font-size:1.7rem">${state.level} Writing — choose your mock</h1>
+      <p style="color:var(--muted);max-width:760px;margin:0 0 16px">${examName}. Two full writing mocks, harder than standard practice, in authentic Cambridge format. Part 1 is compulsory; choose one task in Part 2. Your writing is sent to your teacher to mark.</p>
+
+      <div class="card">
+        <h2>📝 MOCK 1</h2>
+        <p style="color:var(--muted);margin:0 0 4px">A complete ${examName}-format writing mock, written to mirror the official paper and pitched at the harder end of the level. Part 1 (compulsory) + Part 2 (choose one of three).</p>
+        <button class="btn" style="${cardBtn}" onclick="window._pickExam('mock01')">Start MOCK 1 &rarr;</button>
       </div>
-      <p style="margin-top:16px"><a class="link" onclick="go('level')" style="cursor:pointer">← Back to levels</a></p>
-    </div>`;
+
+      <div class="card">
+        <h2>📝 MOCK 2</h2>
+        <p style="color:var(--muted);margin:0 0 4px">A second complete ${examName}-format writing mock — fresh prompts and tasks, same authentic Cambridge structure and difficulty.</p>
+        <button class="btn" style="${cardBtn}" onclick="window._pickExam('mock02')">Start MOCK 2 &rarr;</button>
+      </div>
+
+      <p style="margin-top:8px"><a class="link" onclick="go('level')" style="cursor:pointer">&larr; Back to levels</a></p>`;
   },
   exam(){
     const ex=exam();
