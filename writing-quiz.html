@@ -122,6 +122,8 @@
   .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
   a.link{color:var(--accent);text-decoration:none;font-weight:600}
 </style>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="nis-bridge.js"></script>
 </head>
 <body>
 <div id="app" class="app"></div>
@@ -607,6 +609,7 @@ function capit(s){return s?s.charAt(0).toUpperCase()+s.slice(1):s;}
 function postResult(r,pct,totalBand,maxBand,verdict,silent){
   const st=document.getElementById('sendStatus');
   if(!silent&&st){st.style.display='block';st.textContent='Sending…';}
+  try{ if(window.NIS) window.NIS.save({skill:'Writing', level:state.level, examType:state.examType, score:null, total:null, percent:null, answers:(r&&r.tasks)||null}); }catch(e){}
   if(!CONFIG.webhookUrl){ if(st&&!silent){st.textContent='⚠ No webhook configured — use Download PDF.';} return; }
   const payload={timestamp:new Date().toISOString(),name:state.name,firstName:(state.name||'').split(' ')[0],email:state.email,grade:state.grade,
     skill:'Writing',level:state.level,levelName:LEVEL_NAMES[state.level]||'',examTitle:exam().title,

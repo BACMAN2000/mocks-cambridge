@@ -362,6 +362,8 @@
   /* z-index 99999 ensures it sits above the fixed inspera-shell (z-index:1000) */
   #acOverlay{position:fixed!important;inset:0!important;z-index:99999!important}
 </style>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="nis-bridge.js"></script>
 </head>
 <body>
 <div class="wrap" id="app"></div>
@@ -6499,6 +6501,7 @@ const render = {
       teacherEmail: CONFIG.teacherEmail,
       schoolName: CONFIG.schoolName
     };
+    try{ if(window.NIS) window.NIS.save({skill:payload.skill, level:payload.level, examType:payload.examType, score:payload.score, total:payload.total, percent:payload.percent, duration_min:payload.durationMinutes, breakdown:{parts:payload.parts, detail:payload.detail}, answers:payload.writingAnswers||null}); }catch(e){}
     sendResultToWebhook(payload).then(res=>{
       const st = document.getElementById('sendStatus');
       if(!st) return;

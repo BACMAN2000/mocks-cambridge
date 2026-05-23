@@ -239,6 +239,8 @@
     .card{padding:14px}
   }
 </style>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="nis-bridge.js"></script>
 </head>
 <body>
 <header>
@@ -2805,6 +2807,7 @@ function onSubmit(){
   };
 
   state.lastPayload = payload;
+  try{ if(window.NIS) window.NIS.save({skill:payload.skill, level:payload.level, examType:payload.examType, score:payload.score, total:payload.total, duration_min:payload.elapsed_min, answers:payload.answers, breakdown:payload.breakdown}); }catch(e){}
   viewResult(payload);
 }
 
