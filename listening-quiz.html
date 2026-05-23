@@ -295,6 +295,11 @@ const LPICS = {
   clock8:   digitalClock_("8:00"),
   clock830: digitalClock_("8:30"),
   clock9:   digitalClock_("9:00"),
+  clock400: digitalClock_("4:00"),
+  clock420: digitalClock_("4:20"),
+  clock430: digitalClock_("4:30"),
+  clock700: digitalClock_("7:00"),
+  clock730: digitalClock_("7:30"),
   sandwich: LPIC_WRAP(`<polygon points="34,64 60,40 86,64" fill="#fde68a"/><rect x="34" y="64" width="52" height="8" fill="#fcd34d"/><path d="M42 60 q18 -8 36 0" stroke="#16a34a"/>`),
   pizza:    LPIC_WRAP(`<path d="M60 26 L86 74 H34 Z" fill="#fde68a"/><circle cx="55" cy="58" r="3" fill="#dc2626" stroke="none"/><circle cx="66" cy="60" r="3" fill="#dc2626" stroke="none"/><circle cx="60" cy="48" r="3" fill="#dc2626" stroke="none"/>`),
   bus:      LPIC_WRAP(`<rect x="26" y="36" width="68" height="34" rx="6" fill="#e0f2fe"/><line x1="26" y1="50" x2="94" y2="50"/><rect x="32" y="40" width="14" height="8"/><rect x="52" y="40" width="14" height="8"/><rect x="72" y="40" width="14" height="8"/><circle cx="40" cy="74" r="5"/><circle cx="80" cy="74" r="5"/>`),
@@ -1738,7 +1743,7 @@ const QUIZ2 = {
           {type:"pic", q:"How will they get to the park?", imgs:["bus","bike","car"], c:0, audio:"M2/A2/A2-P1-q2.mp3"},
           {type:"pic", q:"What will the boy have for breakfast?", imgs:["sandwich","pizza","cake"], c:0, audio:"M2/A2/A2-P1-q3.mp3"},
           {type:"pic", q:"What will the weather be like tomorrow?", imgs:["sunny","rainy","snowy"], c:1, audio:"M2/A2/A2-P1-q4.mp3"},
-          {type:"pic", q:"What time is the next bus?", imgs:["clock8","clock830","clock9"], c:1, audio:"M2/A2/A2-P1-q5.mp3"}
+          {type:"pic", q:"What time is the next bus?", imgs:["clock400","clock420","clock430"], c:2, audio:"M2/A2/A2-P1-q5.mp3"}
         ]
       },
       {
@@ -1827,7 +1832,7 @@ const QUIZ2 = {
           {type:"pic", q:"How will the man get home?", imgs:["bus","car","bike"], c:1, audio:"M2/B1/B1-P1-q3.mp3"},
           {type:"pic", q:"What will the weather be like later?", imgs:["sunny","rainy","snowy"], c:2, audio:"M2/B1/B1-P1-q4.mp3"},
           {type:"pic", q:"What will the woman have?", imgs:["sandwich","umbrella","ball"], c:1, audio:"M2/B1/B1-P1-q5.mp3"},
-          {type:"pic", q:"What time does the film start?", imgs:["clock8","clock830","clock9"], c:1, audio:"M2/B1/B1-P1-q6.mp3"},
+          {type:"pic", q:"What time does the film start?", imgs:["clock700","clock730","clock8"], c:1, audio:"M2/B1/B1-P1-q6.mp3"},
           {type:"pic", q:"Where were the boy's keys?", imgs:["bag","phone","keys"], c:0, audio:"M2/B1/B1-P1-q7.mp3"}
         ]
       },
