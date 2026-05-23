@@ -271,6 +271,14 @@ const CONFIG = {
    Self-contained (no external/licensed images). Swap for nicer art anytime. */
 const LPIC_WRAP = (inner) => `<svg viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg" stroke="#1f2937" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">${inner}</svg>`;
 function clockFace_(hx, hy, mx, my){ return LPIC_WRAP(`<circle cx="60" cy="50" r="34"/><circle cx="60" cy="50" r="2.5" fill="#1f2937"/><line x1="60" y1="50" x2="${hx}" y2="${hy}"/><line x1="60" y1="50" x2="${mx}" y2="${my}"/>`); }
+/* Digital clock icon: rectangular display with large digits (e.g. 8:00). */
+function digitalClock_(t){
+  return `<svg viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg">
+    <rect x="8" y="24" width="104" height="52" rx="9" fill="#0f172a" stroke="#1f2937" stroke-width="2.4"/>
+    <rect x="14" y="30" width="92" height="40" rx="5" fill="#0b1220"/>
+    <text x="60" y="61" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-weight="800" font-size="32" fill="#34d399" letter-spacing="2">${t}</text>
+  </svg>`;
+}
 const LPICS = {
   book:    LPIC_WRAP(`<path d="M30 28 q30 -8 60 0 v44 q-30 -8 -60 0 z"/><line x1="60" y1="24" x2="60" y2="72"/>`),
   ball:    LPIC_WRAP(`<circle cx="60" cy="52" r="26"/><path d="M40 44 q20 12 40 0"/><path d="M44 66 q16 -10 32 0"/>`),
@@ -284,9 +292,9 @@ const LPICS = {
   keys:    LPIC_WRAP(`<circle cx="46" cy="44" r="12"/><line x1="54" y1="52" x2="80" y2="78"/><line x1="70" y1="68" x2="78" y2="60"/><line x1="76" y1="74" x2="84" y2="66"/>`),
   phone:   LPIC_WRAP(`<rect x="46" y="26" width="28" height="48" rx="5"/><line x1="46" y1="36" x2="74" y2="36"/><line x1="46" y1="64" x2="74" y2="64"/><circle cx="60" cy="69" r="1.6" fill="#1f2937" stroke="none"/>`),
   umbrella:LPIC_WRAP(`<path d="M34 52 a26 26 0 0 1 52 0 z" fill="#e0f2fe"/><line x1="60" y1="52" x2="60" y2="80"/><path d="M60 80 q0 8 8 8"/>`),
-  clock8:   clockFace_(60, 32, 42, 60),   // ~8:00
-  clock830: clockFace_(48, 50, 60, 72),   // ~8:30
-  clock9:   clockFace_(60, 32, 78, 50),   // ~9:00
+  clock8:   digitalClock_("8:00"),
+  clock830: digitalClock_("8:30"),
+  clock9:   digitalClock_("9:00"),
   sandwich: LPIC_WRAP(`<polygon points="34,64 60,40 86,64" fill="#fde68a"/><rect x="34" y="64" width="52" height="8" fill="#fcd34d"/><path d="M42 60 q18 -8 36 0" stroke="#16a34a"/>`),
   pizza:    LPIC_WRAP(`<path d="M60 26 L86 74 H34 Z" fill="#fde68a"/><circle cx="55" cy="58" r="3" fill="#dc2626" stroke="none"/><circle cx="66" cy="60" r="3" fill="#dc2626" stroke="none"/><circle cx="60" cy="48" r="3" fill="#dc2626" stroke="none"/>`),
   bus:      LPIC_WRAP(`<rect x="26" y="36" width="68" height="34" rx="6" fill="#e0f2fe"/><line x1="26" y1="50" x2="94" y2="50"/><rect x="32" y="40" width="14" height="8"/><rect x="52" y="40" width="14" height="8"/><rect x="72" y="40" width="14" height="8"/><circle cx="40" cy="74" r="5"/><circle cx="80" cy="74" r="5"/>`),
