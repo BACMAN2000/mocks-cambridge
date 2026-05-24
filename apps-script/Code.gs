@@ -47,6 +47,7 @@ function doPost(e) {
       writeWritingRows_(data, 'Writing Quiz');
     } else {
       writeScoreRow_(skill === 'Listening' ? LISTENING_TAB : READING_TAB, data);
+      try { writeAnswersDetail_(data, skill); } catch (_) {}
       var w = data.writingEvaluation || data.writingAnswers || [];
       if (w.length) writeWritingRows_(data, skill + ' (Parts 6–7)');  // A2 reading has writing
     }
@@ -160,6 +161,34 @@ function sendEmails(d, skill) {
   }
 }
 
+/* ---------- normalise per-question detail (Reading uses 'detail', Listening uses 'breakdown') ---------- */
+function getDetail_(d) {
+  if (d.detail && d.detail.length) return d.detail.map(function (x) { return { q: x.q, ans: x.user, correct: x.correctAns, ok: !!x.ok }; });
+  if (d.breakdown && d.breakdown.length && d.breakdown[0] && ('ok' in d.breakdown[0]) && ('given' in d.breakdown[0]))
+    return d.breakdown.map(function (x) { return { q: x.q, ans: x.given, correct: x.correct, ok: !!x.ok }; });
+  return [];
+}
+
+/* ---------- per-question answers, one row each, colour-coded in the Sheet ---------- */
+function writeAnswersDetail_(d, skill) {
+  var det = getDetail_(d);
+  if (!det.length) return;
+  var headers = ['Timestamp', 'Student', 'Grade', 'Level', 'Exam', 'N°', 'Student answer', 'Correct answer', 'Result'];
+  var sh = getSheet_('Answers Detail', headers);
+  var grade = d.grade || d.klass || '';
+  var exam = d.examTitle || d.examType || skill;
+  var ts = new Date();
+  var rows = det.map(function (x, i) {
+    var num = (typeof x.q === 'number' || /^\d+$/.test(String(x.q))) ? x.q : (i + 1);
+    return [ts, d.name || '', grade, d.level || '', exam, num, stripHtml_(x.ans), stripHtml_(x.correct), x.ok ? '✔ Correct' : '✘ Wrong'];
+  });
+  var start = sh.getLastRow() + 1;
+  sh.getRange(start, 1, rows.length, headers.length).setValues(rows);
+  for (var i = 0; i < det.length; i++) {
+    sh.getRange(start + i, 6, 1, 4).setBackground(det[i].ok ? '#dcfce7' : '#fee2e2');
+  }
+}
+
 /* ---------- PDF report (HTML -> PDF, attached to the teacher email) ---------- */
 function buildReportPdf_(d, skill, pct, grade, tasks) {
   var esc = function (s) { return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); };
@@ -180,6 +209,29 @@ function buildReportPdf_(d, skill, pct, grade, tasks) {
   var scoreLine = (skill !== 'Writing' && d.score != null)
     ? ('<div style="font-size:26px;font-weight:800;color:#2d5a8d">' + d.score + ' / ' + d.total + (pct !== '' ? '  (' + pct + '%)' : '') + '</div>')
     : '<div style="color:#64748b">Writing — graded by the teacher</div>';
+
+  // Per-question answers table, colour-coded (green = correct, red = wrong)
+  var det = getDetail_(d);
+  var answersTable = '';
+  if (det.length) {
+    var rows = det.map(function (x, i) {
+      var bg = x.ok ? '#dcfce7' : '#fee2e2';   // green / red
+      var mark = x.ok ? '✔' : '✘';
+      var num = (typeof x.q === 'number' || /^\d+$/.test(String(x.q))) ? x.q : (i + 1);
+      return '<tr style="background:' + bg + '">' +
+               '<td style="padding:4px 8px;text-align:center;font-weight:700">' + esc(num) + '</td>' +
+               '<td style="padding:4px 8px">' + esc(stripHtml_(x.ans)) + '</td>' +
+               '<td style="padding:4px 8px">' + esc(stripHtml_(x.correct)) + '</td>' +
+               '<td style="padding:4px 8px;text-align:center;font-weight:700">' + mark + '</td>' +
+             '</tr>';
+    }).join('');
+    answersTable = '<h3 style="margin-top:16px">Answers</h3>' +
+      '<table style="width:100%;font-size:13px;border-collapse:collapse">' +
+      '<tr style="background:#4987c6;color:#fff"><th style="padding:5px 8px;text-align:center">N°</th>' +
+      '<th style="padding:5px 8px;text-align:left">Student answer</th>' +
+      '<th style="padding:5px 8px;text-align:left">Correct answer</th>' +
+      '<th style="padding:5px 8px;text-align:center">✓/✗</th></tr>' + rows + '</table>';
+  }
   var html =
     '<div style="font-family:Arial,Helvetica,sans-serif;color:#0f172a;max-width:700px">' +
       '<div style="border-bottom:3px solid #4987c6;padding-bottom:8px;margin-bottom:14px">' +
@@ -194,6 +246,7 @@ function buildReportPdf_(d, skill, pct, grade, tasks) {
       (partsRows ? ('<h3 style="margin-top:16px">Score by part</h3><table style="width:60%;font-size:14px;border-collapse:collapse">' +
         '<tr style="background:#f2f3ff"><th style="text-align:left;padding:4px 8px">Part</th><th style="text-align:right;padding:4px 8px">%</th></tr>' + partsRows + '</table>') : '') +
       (verdict ? ('<p style="margin-top:14px;padding:10px 12px;background:#f2f3ff;border-left:4px solid #4987c6;border-radius:6px">' + esc(verdict) + '</p>') : '') +
+      answersTable +
       writingHtml +
     '</div>';
   var safe = (skill + '-' + (d.level || '') + '-' + (d.name || 'student')).replace(/[^A-Za-z0-9_\-]+/g, '_');
