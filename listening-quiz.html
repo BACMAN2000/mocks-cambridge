@@ -2967,7 +2967,17 @@ function sendByEmail(payload){
 }
 
 /* ---------- START ---------- */
-viewWelcome();
+/* If the student is already logged into Portal NIS (same origin → shared
+   session), skip the sign-in card and go straight to choosing the level. */
+(async function(){
+  try{
+    if(window.NIS){
+      const s = await window.NIS.currentStudent();
+      if(s){ state.name = s.full_name || s.first_name || ''; state.klass = s.grade || ''; state.email = s.email || ''; viewLevelSelect(); return; }
+    }
+  }catch(e){}
+  viewWelcome();
+})();
 </script>
 </body>
 </html>

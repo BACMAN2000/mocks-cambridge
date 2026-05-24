@@ -633,7 +633,16 @@ function stopTimer(){ if(timerId){clearInterval(timerId);timerId=null;} }
 window._pickLevel=(l)=>{ state.level=l; go('examPick'); };
 window._pickExam=(t)=>{ state.examType=t; go('exam'); };
 
-go('welcome');
+/* Auto-skip sign-in when logged into Portal NIS (shared session) → go to level. */
+(async function(){
+  try{
+    if(window.NIS){
+      const s = await window.NIS.currentStudent();
+      if(s){ state.name = s.full_name || ''; state.grade = s.grade || ''; state.email = s.email || ''; go('level'); return; }
+    }
+  }catch(e){}
+  go('welcome');
+})();
 </script>
 </body>
 </html>

@@ -6564,7 +6564,16 @@ const render = {
   }
 };
 
-go('welcome');
+/* Auto-skip sign-in when logged into Portal NIS (shared session) → go to level. */
+(async function(){
+  try{
+    if(window.NIS){
+      const s = await window.NIS.currentStudent();
+      if(s){ state.name = s.full_name || ''; state.grade = s.grade || ''; state.email = s.email || ''; state.skill = 'Reading'; go('level'); return; }
+    }
+  }catch(e){}
+  go('welcome');
+})();
 </script>
 </body>
 </html>
