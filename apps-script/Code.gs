@@ -126,7 +126,7 @@ function sendEmails(d, skill) {
   var pct = (d.percent != null) ? d.percent : (d.total ? Math.round(d.score / d.total * 100) : '');
   var tasks = d.writingEvaluation || d.writingAnswers || [];
 
-  // --- Teacher email (full) ---
+  // --- Teacher email (full) + PDF report attached ---
   var subject = '[' + SCHOOL_NAME + ' · ' + skill + '] ' + (d.name || 'Student') + ' — ' + (d.level || '');
   var lines = ['Student: ' + (d.name || ''), 'Grade: ' + grade, 'Email: ' + (d.email || ''),
                'Level: ' + (d.level || ''), 'Exam: ' + (d.examTitle || d.examType || skill)];
@@ -135,7 +135,12 @@ function sendEmails(d, skill) {
     lines.push('', '--- Writing (mark by hand) ---');
     tasks.forEach(function (t) { lines.push('', (t.part || t.label || '') + ' [' + (t.wordCount || 0) + ' words]:', (t.text || '(blank)')); });
   }
-  MailApp.sendEmail(TEACHER_EMAIL, subject, lines.join('\n'));
+  var opts = { name: SCHOOL_NAME + ' — Quiz Reports' };
+  try {
+    var pdf = buildReportPdf_(d, skill, pct, grade, tasks);
+    if (pdf) opts.attachments = [pdf];
+  } catch (_) {}
+  MailApp.sendEmail(TEACHER_EMAIL, subject, lines.join('\n'), opts);
 
   // --- Student email (their own result) ---
   var sEmail = d.email || '';
@@ -153,6 +158,46 @@ function sendEmails(d, skill) {
     }
     MailApp.sendEmail(sEmail, 'Your ' + skill + ' result — ' + SCHOOL_NAME, body);
   }
+}
+
+/* ---------- PDF report (HTML -> PDF, attached to the teacher email) ---------- */
+function buildReportPdf_(d, skill, pct, grade, tasks) {
+  var esc = function (s) { return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); };
+  var parts = d.parts || (d.breakdown && d.breakdown.parts) || (Array.isArray(d.breakdown) ? d.breakdown : []);
+  var partsRows = (parts && parts.length) ? parts.map(function (p) {
+    var ppct = (p.pct != null) ? p.pct : (p.percent != null ? p.percent : (p.total ? Math.round(p.correct / p.total * 100) : ''));
+    return '<tr><td>' + esc(p.name || p.part || 'Part') + '</td><td style="text-align:right">' + (ppct !== '' ? ppct + '%' : '—') + '</td></tr>';
+  }).join('') : '';
+  var verdict = d.verdict || '';
+  var writingHtml = '';
+  if (tasks && tasks.length) {
+    writingHtml = '<h3>Writing</h3>' + tasks.map(function (t) {
+      return '<div style="margin:8px 0;padding:8px 10px;border:1px solid #e2e8f0;border-radius:8px"><b>' +
+             esc(t.part || t.label || '') + '</b> <span style="color:#64748b">(' + (t.wordCount || 0) + ' words)</span><br>' +
+             '<div style="white-space:pre-wrap;margin-top:4px">' + esc(t.text || '(blank)') + '</div></div>';
+    }).join('');
+  }
+  var scoreLine = (skill !== 'Writing' && d.score != null)
+    ? ('<div style="font-size:26px;font-weight:800;color:#2d5a8d">' + d.score + ' / ' + d.total + (pct !== '' ? '  (' + pct + '%)' : '') + '</div>')
+    : '<div style="color:#64748b">Writing — graded by the teacher</div>';
+  var html =
+    '<div style="font-family:Arial,Helvetica,sans-serif;color:#0f172a;max-width:700px">' +
+      '<div style="border-bottom:3px solid #4987c6;padding-bottom:8px;margin-bottom:14px">' +
+        '<div style="font-size:13px;letter-spacing:1px;color:#636465">' + esc(SCHOOL_NAME) + ' — RESULTS REPORT</div>' +
+        '<div style="font-size:20px;font-weight:800">' + esc(skill) + ' · ' + esc(d.level || '') + ' · ' + esc(d.examTitle || d.examType || '') + '</div>' +
+      '</div>' +
+      '<table style="font-size:14px;margin-bottom:10px"><tr><td style="padding:2px 14px 2px 0;color:#636465">Student</td><td><b>' + esc(d.name || '') + '</b></td></tr>' +
+        '<tr><td style="color:#636465">Grade</td><td>' + esc(grade) + '</td></tr>' +
+        '<tr><td style="color:#636465">Email</td><td>' + esc(d.email || '') + '</td></tr>' +
+        '<tr><td style="color:#636465">Date</td><td>' + new Date().toLocaleString() + '</td></tr></table>' +
+      scoreLine +
+      (partsRows ? ('<h3 style="margin-top:16px">Score by part</h3><table style="width:60%;font-size:14px;border-collapse:collapse">' +
+        '<tr style="background:#f2f3ff"><th style="text-align:left;padding:4px 8px">Part</th><th style="text-align:right;padding:4px 8px">%</th></tr>' + partsRows + '</table>') : '') +
+      (verdict ? ('<p style="margin-top:14px;padding:10px 12px;background:#f2f3ff;border-left:4px solid #4987c6;border-radius:6px">' + esc(verdict) + '</p>') : '') +
+      writingHtml +
+    '</div>';
+  var safe = (skill + '-' + (d.level || '') + '-' + (d.name || 'student')).replace(/[^A-Za-z0-9_\-]+/g, '_');
+  return Utilities.newBlob(html, 'text/html', safe + '.html').getAs('application/pdf').setName('NIS-' + safe + '.pdf');
 }
 
 /* ---------- helpers ---------- */
