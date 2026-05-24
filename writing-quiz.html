@@ -295,6 +295,86 @@ const WRITING2 = {
   }
 };
 
+/* ================= WRITING — PRACTICE (warm-up, same format) ================= */
+const WRITING3 = {
+  B1:{
+    title:'B1 Preliminary — Writing (Practice)', durationMin:45,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in about 100 words.',
+        tasks:[{
+          type:'email', minWords:100,
+          lead:'Read this email from your English teacher, Ms Allen, and the notes you have made.',
+          stimulus:{head:'EMAIL', title:'', body:'From: Ms Allen\nSubject: Class trip to the zoo\n\nHi everyone,\n\nWe are planning a class trip to the city zoo next Friday. Would you prefer to go in the morning or the afternoon?\n\nWhat should everyone bring with them? And could you help me check the tickets?\n\nMs Allen'},
+          bullets:['say whether you prefer morning or afternoon and why','suggest what everyone should bring','offer to help with the tickets','ask one question about the trip'],
+          write:'Write your email to Ms Allen.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in about 100 words.',
+        tasks:[
+          { type:'article', q:2, minWords:100, lead:'You see this announcement in your school English-language magazine.',
+            stimulus:{title:'MY FAVOURITE HOBBY', body:'Tell us about a hobby you really enjoy: what it is, how you started it, and why you like it. The best articles will be published.'},
+            bullets:['what your hobby is','how you started it','why you enjoy it'], write:'Write your article.' },
+          { type:'story', q:3, minWords:100, lead:'Your English teacher has asked you to write a story.', startSentence:'It was the best day of the whole holiday.',
+            stimulus:{title:'', body:'Your story must begin with this sentence:\n\nIt was the best day of the whole holiday.'},
+            bullets:[], write:'Write your story.' }
+        ]
+      }
+    ]
+  },
+  B2:{
+    title:'B2 First — Writing (Practice)', durationMin:80,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write 140-190 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:140, maxWords:190,
+          lead:'In your English class you have been talking about where people live. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.',
+          stimulus:{body:'"Is it better to live in a city or in the countryside?"\n\nNotes\n\nWrite about:\n1. jobs and study\n2. free time\n3. ............... (your own idea)'},
+          bullets:['jobs and study','free time','your own idea','give reasons for your point of view'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write 140-190 words in an appropriate style.',
+        tasks:[
+          { type:'review', q:2, minWords:140, maxWords:190, lead:'You see this announcement in a food magazine.',
+            stimulus:{title:'Restaurant reviews wanted', body:'Write a review of a restaurant or café you have visited recently. Describe the food and the atmosphere, and say whether you would recommend it.'},
+            bullets:['describe the food','describe the atmosphere','whether you recommend it'], write:'Write your review.' },
+          { type:'article', q:3, minWords:140, maxWords:190, lead:'You see this announcement on an English-language website.',
+            stimulus:{title:'A person I admire', body:'Tell us about a person you admire. Who are they, what have they done, and why do you admire them? We will publish the best articles.'},
+            bullets:['who the person is','what they have done','why you admire them'], write:'Write your article.' },
+          { type:'email', q:4, minWords:140, maxWords:190, lead:'You have received this email from your English-speaking friend Alex.',
+            stimulus:{body:'From: Alex\nSubject: Your school\n\nI am writing a project about schools in different countries. Could you tell me what a normal school day is like for you, what subjects you enjoy, and what you would change about your school?\nThanks!\nAlex'},
+            bullets:['a normal school day','subjects you enjoy','what you would change'], write:'Write your email.' }
+        ]
+      }
+    ]
+  },
+  C1:{
+    title:'C1 Advanced — Writing (Practice)', durationMin:90,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in 220-260 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:220, maxWords:260,
+          lead:'Your class has discussed how a school could spend a one-off budget to improve student life. You have made the notes below. Write an essay discussing two of the options in your notes. You should explain which would benefit students most, giving reasons to support your opinion.',
+          stimulus:{title:'How should the school spend a one-off budget?', body:'• a better library\n• new sports facilities\n• modern technology in classrooms\n\nSome opinions expressed in the discussion:\n"Students need a calm place to read and study."\n"Sport keeps everyone healthy and motivated."\n"Technology prepares students for the real world."'},
+          bullets:['discuss two of the options','explain which benefits students most','give reasons to support your opinion'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in 220-260 words in an appropriate style.',
+        tasks:[
+          { type:'proposal', q:2, minWords:220, maxWords:260, lead:'Your school is asking students for proposals to improve the cafeteria.',
+            stimulus:{title:'Proposal: improving the cafeteria', body:'Write a proposal suggesting how the school cafeteria could be improved. Describe the current problems, recommend two changes, and explain how they would benefit students.'},
+            bullets:['current problems','two recommended changes','the benefits for students'], write:'Write your proposal.' },
+          { type:'report', q:3, minWords:220, maxWords:260, lead:'The head of school has asked for a report on a club or activity you belong to.',
+            stimulus:{title:'Report: a school club', body:'Write a report describing a club or activity you take part in. Explain what the club does, evaluate how well it is working, and recommend one improvement.'},
+            bullets:['what the club does','how well it is working','one recommended improvement'], write:'Write your report.' },
+          { type:'letter', q:4, minWords:220, maxWords:260, lead:'You have received this letter from an English-speaking friend, Robin.',
+            stimulus:{body:'My family is moving to a new city next month and I am quite nervous about starting at a new school. You have changed schools before, so I would really value your advice: how can I make friends quickly, and how should I prepare?\n\nBest wishes,\nRobin'},
+            bullets:['advice on making friends quickly','how to prepare for a new school','reasons for your advice'], write:'Write your letter in reply.' }
+        ]
+      }
+    ]
+  }
+};
+
 /* ================= Writing rubric (offline auto-assessment) ================= */
 function scoreWriting(opts){
   const text=(opts.text||'').trim();
@@ -369,7 +449,7 @@ function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replac
 function go(screen){render[screen]();}
 
 /* views: flat list — index 0 = Part 1; 1..N = Part 2 option 0..N-1 */
-function exam(){return (state.examType==='mock02'?WRITING2:WRITING)[state.level];}
+function exam(){return (state.examType==='mock02'?WRITING2:state.examType==='practice'?WRITING3:WRITING)[state.level];}
 function viewCount(){const ex=exam();return 1+ex.parts[1].tasks.length;}
 function viewToTask(v){const ex=exam(); if(v===0) return {part:0,opt:0,task:ex.parts[0].tasks[0]}; return {part:1,opt:v-1,task:ex.parts[1].tasks[v-1]};}
 
@@ -488,9 +568,15 @@ const render={
     const examName={B1:'B1 Preliminary',B2:'B2 First',C1:'C1 Advanced'}[state.level]||state.level;
     const cardBtn="margin-top:8px";
     app.innerHTML=`
-      <div style="color:var(--muted);font-size:.9rem;margin-bottom:6px">MOCKS CAMBRIDGE &rsaquo; Writing &rsaquo; ${state.level} &rsaquo; Choose a mock</div>
-      <h1 style="margin:0 0 6px;font-size:1.7rem">${state.level} Writing — choose your mock</h1>
-      <p style="color:var(--muted);max-width:760px;margin:0 0 16px">${examName}. Two full writing mocks, harder than standard practice, in authentic Cambridge format. Part 1 is compulsory; choose one task in Part 2. Your writing is sent to your teacher to mark.</p>
+      <div style="color:var(--muted);font-size:.9rem;margin-bottom:6px">MOCKS CAMBRIDGE &rsaquo; Writing &rsaquo; ${state.level} &rsaquo; Choose an exam</div>
+      <h1 style="margin:0 0 6px;font-size:1.7rem">${state.level} Writing — choose your exam</h1>
+      <p style="color:var(--muted);max-width:760px;margin:0 0 16px">${examName}. A practice test plus two full writing mocks — same authentic Cambridge format. Part 1 is compulsory; choose one task in Part 2. Your writing is sent to your teacher to mark.</p>
+
+      <div class="card">
+        <h2>📘 Practice test</h2>
+        <p style="color:var(--muted);margin:0 0 4px">A practice ${examName}-format writing test — same structure as the mocks, ideal as a warm-up.</p>
+        <button class="btn" style="${cardBtn}" onclick="window._pickExam('practice')">Start Practice &rarr;</button>
+      </div>
 
       <div class="card">
         <h2>📝 MOCK 1</h2>
