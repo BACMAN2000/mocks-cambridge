@@ -35,7 +35,7 @@
         student_id: u.data.user.id,
         skill: att.skill,
         level: att.level,
-        mock: (att.examType==='mock02' ? 'mock2' : 'mock1'),
+        mock: (att.examType==='mock02' ? 'mock2' : att.examType==='practice' ? 'practice' : 'mock1'),
         score: (att.score!=null?att.score:null),
         total: (att.total!=null?att.total:null),
         percent: (pct!=null?pct:null),

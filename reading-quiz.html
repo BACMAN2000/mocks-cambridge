@@ -6041,9 +6041,17 @@ const render = {
   examPick(){
     const off=OFFICIAL[state.level];
     app.innerHTML = `
-      ${topbar('MOCKS CAMBRIDGE &rsaquo; '+state.skill+' &rsaquo; '+state.level+' &rsaquo; Choose a mock')}
-      <h1>${state.level} ${state.skill} — choose your mock</h1>
-      <p class="sub">${off.name}. Two full mock exams, harder than standard practice, in authentic Cambridge format. Auto-scored with timer and CEFR analysis.</p>
+      ${topbar('MOCKS CAMBRIDGE &rsaquo; '+state.skill+' &rsaquo; '+state.level+' &rsaquo; Choose an exam')}
+      <h1>${state.level} ${state.skill} — choose your exam</h1>
+      <p class="sub">${off.name}. A practice test plus two full mock exams — all in the same authentic Cambridge (Inspera-style) format. Auto-scored with timer and CEFR analysis.</p>
+
+      ${(EXAMS[state.level] && EXAMS[state.level][state.skill]) ? `
+      <div class="card">
+        <h2>📘 Practice test</h2>
+        <p>A practice ${off.name}-format ${state.skill.toLowerCase()} test — same parts and structure as the mocks, ideal as a warm-up before the full mocks.</p>
+        <div class="row" style="margin-top:14px"><button id="practiceBtn">Start Practice &rarr;</button></div>
+      </div>
+      ` : ''}
 
       ${(MOCK01[state.level]) ? `
       <div class="card">
@@ -6067,6 +6075,8 @@ const render = {
       </div>
 
       <div class="row" style="margin-top:18px"><button class="ghost" onclick="go('level')">&larr; Back to levels</button></div>`;
+    const practiceBtn = document.getElementById('practiceBtn');
+    if(practiceBtn) practiceBtn.onclick=()=>{ state.examType='practice'; state.answers={}; state._tabSwitches=0; go('exam'); };
     const mock01Btn = document.getElementById('mock01Btn');
     if(mock01Btn) mock01Btn.onclick=()=>{ state.examType='mock01'; state.answers={}; state._tabSwitches=0; go('exam'); };
     const mock02Btn = document.getElementById('mock02Btn');
