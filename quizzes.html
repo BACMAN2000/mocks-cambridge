@@ -108,8 +108,17 @@
 <script src="nis-bridge.js"></script>
 <script>
   window._signout = async function(){
+    // Try a clean Supabase sign-out if the bridge is loaded…
     try{ if(window.NIS && window.NIS.signOut) await window.NIS.signOut(); }catch(e){}
-    window.location.href = '../nis-portal/';
+    // …but ALWAYS clear the Supabase session from storage directly, so this
+    // works even if a cached/old nis-bridge.js lacks signOut. Without this the
+    // student session survives and the portal bounces straight back here.
+    try{
+      Object.keys(localStorage).forEach(function(k){ if(k.indexOf('sb-')===0 || k.toLowerCase().indexOf('supabase')>=0) localStorage.removeItem(k); });
+      Object.keys(sessionStorage).forEach(function(k){ if(k.indexOf('sb-')===0 || k.toLowerCase().indexOf('supabase')>=0) sessionStorage.removeItem(k); });
+    }catch(e){}
+    // Land on the portal; ?logout=1 makes it force a sign-out and show login.
+    window.location.href = '../nis-portal/?logout=1';
   };
 </script>
 </body>
