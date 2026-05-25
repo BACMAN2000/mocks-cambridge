@@ -3683,7 +3683,7 @@ function currentQuiz(){ return state.examType==='mock02'?QUIZ2:state.examType===
 /* Picture options: use real photos (images/<concept>.jpg) where available,
    falling back to the built-in SVG icon if the photo fails to load.
    Clocks (clock8/clock830/clock9) stay as SVG — they show exact times. */
-const LPHOTO = new Set(["bag","ball","bike","book","bus","cake","camera","car","guitar","hat","keys","phone","pizza","rainy","sandwich","snowy","sunny","umbrella"]);
+const LPHOTO = new Set(["bag","ball","bike","book","bus","cafe","cake","camera","car","guitar","hat","keys","library","park","phone","pizza","rainy","sandwich","snowy","sunny","umbrella"]);
 function picMarkup(k){
   if(LPHOTO.has(k)){
     return `<img class="pic-img" src="images/${k}.jpg" alt="" loading="lazy" onerror="this.style.display='none';var s=this.nextElementSibling;if(s)s.style.display='block'"><span class="pic-fallback" style="display:none">${LPICS[k]||''}</span>`;
