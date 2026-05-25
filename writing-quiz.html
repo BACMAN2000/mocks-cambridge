@@ -375,6 +375,166 @@ const WRITING3 = {
   }
 };
 
+/* ================= WRITING — PRACTICE 2 (warm-up, same format) ================= */
+const WRITING4 = {
+  B1:{
+    title:'B1 Preliminary — Writing (Practice 2)', durationMin:45,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in about 100 words.',
+        tasks:[{
+          type:'email', minWords:100,
+          lead:'Read this email from your English teacher, Mr Davis, and the notes you have made.',
+          stimulus:{head:'EMAIL', title:'', body:'From: Mr Davis\nSubject: Charity book sale\n\nHi everyone,\n\nOur class is going to run a book sale to raise money for charity. Should we hold it during break time or after school?\n\nCould you bring in some books from home? And would you like to help on the day?\n\nMr Davis'},
+          bullets:['say whether you prefer break time or after school and why','tell Mr Davis what books you can bring','offer to help on the day of the sale','ask one question about the book sale'],
+          write:'Write your email to Mr Davis.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in about 100 words.',
+        tasks:[
+          { type:'article', q:2, minWords:100, lead:'You see this announcement in your school English-language magazine.',
+            stimulus:{title:'A MEAL I LOVE', body:'Tell us about a meal you really enjoy eating: what it is, who you usually eat it with, and why it is special to you. The best articles will be published.'},
+            bullets:['what the meal is','who you usually eat it with','why it is special to you'], write:'Write your article.' },
+          { type:'story', q:3, minWords:100, lead:'Your English teacher has asked you to write a story.', startSentence:'Tom looked at the strange box on the doorstep and wondered who had left it.',
+            stimulus:{title:'', body:'Your story must begin with this sentence:\n\nTom looked at the strange box on the doorstep and wondered who had left it.'},
+            bullets:[], write:'Write your story.' }
+        ]
+      }
+    ]
+  },
+  B2:{
+    title:'B2 First — Writing (Practice 2)', durationMin:80,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write 140-190 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:140, maxWords:190,
+          lead:'In your English class you have been talking about travel. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.',
+          stimulus:{body:'"Is it better to travel abroad or to explore your own country?"\n\nNotes\n\nWrite about:\n1. cost\n2. learning about other cultures\n3. ............... (your own idea)'},
+          bullets:['cost','learning about other cultures','your own idea','give reasons for your point of view'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write 140-190 words in an appropriate style.',
+        tasks:[
+          { type:'review', q:2, minWords:140, maxWords:190, lead:'You see this announcement on an English-language website about books.',
+            stimulus:{title:'Book reviews wanted', body:'Write a review of a book you have read recently. Describe what the book is about, explain what you liked and disliked about it, and say what kind of reader would enjoy it.'},
+            bullets:['what the book is about','what you liked and disliked','what kind of reader would enjoy it'], write:'Write your review.' },
+          { type:'article', q:3, minWords:140, maxWords:190, lead:'You see this announcement in a magazine for young people.',
+            stimulus:{title:'A skill worth learning', body:'What is one skill you think every young person should learn? Write an article describing the skill, explaining why it is useful, and suggesting how someone could start learning it. We will publish the best articles.'},
+            bullets:['the skill and what it involves','why it is useful','how someone could start learning it'], write:'Write your article.' },
+          { type:'email', q:4, minWords:140, maxWords:190, lead:'You have received this email from your English-speaking friend Jordan.',
+            stimulus:{body:'From: Jordan\nSubject: Part-time job\n\nI am thinking about getting my first part-time job at the weekends, but I am not sure it is a good idea while I am still studying. What do you think? What kind of job would suit me, and how could I balance it with my schoolwork?\nThanks!\nJordan'},
+            bullets:['whether getting a job is a good idea','what kind of job would suit Jordan','how to balance work and study'], write:'Write your email.' }
+        ]
+      }
+    ]
+  },
+  C1:{
+    title:'C1 Advanced — Writing (Practice 2)', durationMin:90,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in 220-260 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:220, maxWords:260,
+          lead:'Your class has discussed how a city could make daily life healthier for its residents. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would have the greatest effect, giving reasons to support your opinion.',
+          stimulus:{title:'How could a city make daily life healthier?', body:'• creating more parks and green spaces\n• building safe cycle lanes\n• offering free sports classes\n\nSome opinions expressed in the discussion:\n"People relax more when they can see trees and grass."\n"Nobody cycles if they fear the traffic."\n"Free classes only help those who already want to exercise."'},
+          bullets:['discuss two of the ideas','explain which would have the greatest effect','give reasons to support your opinion'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in 220-260 words in an appropriate style.',
+        tasks:[
+          { type:'proposal', q:2, minWords:220, maxWords:260, lead:'Your college principal has invited proposals from students about study spaces.',
+            stimulus:{title:'Proposal: better study spaces', body:'Write a proposal suggesting how the college could provide better places for students to study. Describe the current situation, recommend two specific improvements, and explain how these would help students succeed.'},
+            bullets:['the current situation','two specific improvements','how these would help students succeed'], write:'Write your proposal.' },
+          { type:'review', q:3, minWords:220, maxWords:260, lead:'An online culture magazine has invited reviews of live events.',
+            stimulus:{title:'Live event reviews wanted', body:'Send us a review of a live event you attended — a concert, a play or a sports match. Describe the event, explain what made it memorable, and assess whether it was worth the time and money.'},
+            bullets:['describe the event','what made it memorable','whether it was worth the time and money'], write:'Write your review.' },
+          { type:'letter', q:4, minWords:220, maxWords:260, lead:'You have received this letter from an English-speaking friend, Charlie.',
+            stimulus:{body:'I have been thinking about taking a year off after school before I start university, but my parents are not sure it is a good idea. You always give sensible advice, so I would really like to know what you think: should I take a gap year, and what should I do with the time?\n\nBest wishes,\nCharlie'},
+            bullets:['your honest advice on whether to take a gap year','reasons for your advice','suggestions for how to spend the time'], write:'Write your letter in reply.' }
+        ]
+      }
+    ]
+  }
+};
+
+/* ================= WRITING — PRACTICE 3 (warm-up, same format) ================= */
+const WRITING5 = {
+  B1:{
+    title:'B1 Preliminary — Writing (Practice 3)', durationMin:45,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in about 100 words.',
+        tasks:[{
+          type:'email', minWords:100,
+          lead:'Read this email from your English-speaking friend Robin, and the notes you have made.',
+          stimulus:{head:'EMAIL', title:'', body:'From: Robin\nSubject: My birthday party\n\nHi!\n\nI am having a birthday party next Saturday and I would love you to come! Should I have it at home or in the park, do you think?\n\nWhat sort of food should I get? And could you help me plan some games?\n\nRobin'},
+          bullets:['say whether the party should be at home or in the park and why','suggest what food Robin should get','offer to help plan some games','ask one question about the party'],
+          write:'Write your email to Robin.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in about 100 words.',
+        tasks:[
+          { type:'article', q:2, minWords:100, lead:'You see this announcement in your school English-language magazine.',
+            stimulus:{title:'A PLACE I LOVE TO RELAX', body:'Where do you go when you want to relax? Write an article describing the place, explaining what you do there, and saying why it makes you feel calm. The best articles will be published.'},
+            bullets:['where the place is','what you do there','why it makes you feel calm'], write:'Write your article.' },
+          { type:'story', q:3, minWords:100, lead:'Your English teacher has asked you to write a story.', startSentence:'Maria had been waiting all week for this moment.',
+            stimulus:{title:'', body:'Your story must begin with this sentence:\n\nMaria had been waiting all week for this moment.'},
+            bullets:[], write:'Write your story.' }
+        ]
+      }
+    ]
+  },
+  B2:{
+    title:'B2 First — Writing (Practice 3)', durationMin:80,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write 140-190 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:140, maxWords:190,
+          lead:'In your English class you have been talking about sport. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.',
+          stimulus:{body:'"Should sport be a compulsory subject at school?"\n\nNotes\n\nWrite about:\n1. health\n2. teamwork\n3. ............... (your own idea)'},
+          bullets:['health','teamwork','your own idea','give reasons for your point of view'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write 140-190 words in an appropriate style.',
+        tasks:[
+          { type:'review', q:2, minWords:140, maxWords:190, lead:'You see this announcement on an English-language entertainment website.',
+            stimulus:{title:'Film reviews wanted', body:'Write a review of a film you have seen recently. Describe what the film is about, explain what you thought of the acting and the story, and say whether you would recommend it.'},
+            bullets:['what the film is about','your opinion of the acting and story','whether you recommend it'], write:'Write your review.' },
+          { type:'report', q:3, minWords:140, maxWords:190, lead:'Your school director has asked you to write a report about after-school clubs.',
+            stimulus:{title:'Report: after-school clubs', body:'Describe which after-school clubs students currently enjoy, suggest one new club that students would like, and explain why it would be popular.'},
+            bullets:['which clubs students currently enjoy','one new club students would like','why it would be popular'], write:'Write your report.' },
+          { type:'article', q:4, minWords:140, maxWords:190, lead:'You see this announcement in a magazine for teenagers.',
+            stimulus:{title:'The best advice I ever received', body:'What is the best piece of advice anyone has ever given you? Write an article describing the advice, explaining who gave it to you, and saying how it has helped you. We will publish the best articles.'},
+            bullets:['the advice and who gave it to you','why it was good advice','how it has helped you'], write:'Write your article.' }
+        ]
+      }
+    ]
+  },
+  C1:{
+    title:'C1 Advanced — Writing (Practice 3)', durationMin:90,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in 220-260 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:220, maxWords:260,
+          lead:'Your class has discussed how a school could better prepare students for life after they leave. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would be most valuable, giving reasons to support your opinion.',
+          stimulus:{title:'How could a school better prepare students for life after school?', body:'• teaching financial skills\n• offering work experience\n• developing communication skills\n\nSome opinions expressed in the discussion:\n"Too many young people leave school not knowing how to budget."\n"A few weeks in a real workplace teaches more than a textbook."\n"You cannot get far in any career if you cannot express yourself."'},
+          bullets:['discuss two of the ideas','explain which would be most valuable','give reasons to support your opinion'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in 220-260 words in an appropriate style.',
+        tasks:[
+          { type:'proposal', q:2, minWords:220, maxWords:260, lead:'Your town council has invited proposals from residents about public transport.',
+            stimulus:{title:'Proposal: improving public transport', body:'Write a proposal suggesting how public transport in your town could be improved. Describe the current problems, recommend two specific changes, and explain how these would benefit residents.'},
+            bullets:['the current problems','two specific changes','how these would benefit residents'], write:'Write your proposal.' },
+          { type:'review', q:3, minWords:220, maxWords:260, lead:'An English-language technology magazine has invited reviews of useful websites.',
+            stimulus:{title:'Website reviews wanted', body:'Send us a review of a website or online service you find genuinely useful. Describe what it offers, explain how it has helped you, and assess whether it would be worthwhile for other users.'},
+            bullets:['what the website offers','how it has helped you','whether it would be worthwhile for others'], write:'Write your review.' },
+          { type:'letter', q:4, minWords:220, maxWords:260, lead:'You have received this letter from an English-speaking friend, Alex.',
+            stimulus:{body:'I have been asked to give a short speech at my older brother’s wedding, and honestly I am terrified of speaking in public! You seem so confident in front of people, so I would really value your advice: how can I calm my nerves, and how should I prepare so that it goes well?\n\nBest wishes,\nAlex'},
+            bullets:['advice on calming nerves','how to prepare the speech','reasons for your advice'], write:'Write your letter in reply.' }
+        ]
+      }
+    ]
+  }
+};
+
 /* ================= Writing rubric (offline auto-assessment) ================= */
 function scoreWriting(opts){
   const text=(opts.text||'').trim();
@@ -449,7 +609,7 @@ function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replac
 function go(screen){render[screen]();}
 
 /* views: flat list — index 0 = Part 1; 1..N = Part 2 option 0..N-1 */
-function exam(){return (state.examType==='mock02'?WRITING2:state.examType==='practice'?WRITING3:WRITING)[state.level];}
+function exam(){const t=state.examType; const set=(t==='mock02'?WRITING2:t==='practice'?WRITING3:t==='practice2'?WRITING4:t==='practice3'?WRITING5:WRITING); return (set&&set[state.level])?set[state.level]:WRITING[state.level];}
 function viewCount(){const ex=exam();return 1+ex.parts[1].tasks.length;}
 function viewToTask(v){const ex=exam(); if(v===0) return {part:0,opt:0,task:ex.parts[0].tasks[0]}; return {part:1,opt:v-1,task:ex.parts[1].tasks[v-1]};}
 
@@ -573,7 +733,7 @@ const render={
       <h1 style="margin:0 0 6px;font-size:1.7rem">${state.level} Writing</h1>
       <p style="color:var(--muted);max-width:760px;margin:0 0 16px">${examName}. Choose what you want to take today.</p>
 
-      <div class="card" style="cursor:pointer" onclick="window._pickExam('practice')">
+      <div class="card" style="cursor:pointer" onclick="go('practicePick')">
         <h2>📘 PRACTICE TESTS</h2>
         <p style="color:var(--muted);margin:0">A warm-up writing test in the authentic Cambridge format. Part 1 compulsory + Part 2 (choose one). Sent to your teacher to mark.</p>
       </div>
@@ -584,6 +744,26 @@ const render={
       </div>
 
       <p style="margin-top:8px"><a class="link" onclick="go('level')" style="cursor:pointer">&larr; Back to levels</a></p>`;
+  },
+  practicePick(){
+    stopTimer();
+    app.className='app';
+    const examName={B1:'B1 Preliminary',B2:'B2 First',C1:'C1 Advanced'}[state.level]||state.level;
+    const cardBtn="margin-top:8px";
+    const card=(emoji,n,desc,type)=>`
+      <div class="card">
+        <h2>${emoji} Práctica ${n}</h2>
+        <p style="color:var(--muted);margin:0 0 4px">${desc}</p>
+        <button class="btn" style="${cardBtn}" onclick="window._pickExam('${type}')">Empezar Práctica ${n} &rarr;</button>
+      </div>`;
+    app.innerHTML=`
+      <div style="color:var(--muted);font-size:.9rem;margin-bottom:6px">MOCKS CAMBRIDGE &rsaquo; Writing &rsaquo; ${state.level} &rsaquo; Practice</div>
+      <h1 style="margin:0 0 6px;font-size:1.7rem">${state.level} Writing — choose a practice</h1>
+      <p style="color:var(--muted);max-width:760px;margin:0 0 16px">${examName}. Three warm-up writing tests — same authentic Cambridge format. Part 1 is compulsory; choose one task in Part 2. Your writing is sent to your teacher to mark.</p>
+      ${card('📘',1,'Warm-up writing test in the authentic Cambridge format.','practice')}
+      ${WRITING4[state.level]?card('📘',2,'A second warm-up writing test — fresh prompts, same format and difficulty.','practice2'):''}
+      ${WRITING5[state.level]?card('📘',3,'A third warm-up writing test — fresh prompts, same format and difficulty.','practice3'):''}
+      <p style="margin-top:8px"><a class="link" onclick="go('category')" style="cursor:pointer">&larr; Back</a></p>`;
   },
   examPick(){
     stopTimer();

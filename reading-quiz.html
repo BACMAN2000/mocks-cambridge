@@ -1511,6 +1511,1382 @@ In well-lit cities, some birds begin the dawn chorus roughly (12)____ minutes ea
 };
 
 /* ============================================================
+   PRACTICE 2 — Reading only, one practice per level.
+   Same part structure / task types as EXAMS[level].Reading
+   (A2 includes Writing Parts 6–7). All content is original,
+   pitched at the same difficulty as the EXAMS practice.
+============================================================ */
+const PRACTICE2 = {
+
+/* ============================ A2 KEY ============================ */
+A2:{
+  Reading:{
+    title:"A2 Key — Reading and Writing (Practice 2)",
+    note:"Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+    parts:[
+      { type:"mc", part:"Part 1", instructions:"For each question, look at the text and choose the correct answer A, B or C.",
+        questions:[
+          {kind:"sign", header:"In the park", text:"DOGS MUST BE KEPT ON A LEAD\nNEAR THE CHILDREN'S PLAYGROUND",
+           stem:"What does this sign tell dog owners?",
+           options:["Dogs are not allowed in the park.","Dogs must be held on a lead close to the playground.","Dogs can run freely everywhere in the park."], answer:1},
+          {kind:"message", header:"Ben", text:"Hi! Football is cancelled today because the field is too wet. Coach says we'll train tomorrow at the same time instead. Don't come this afternoon!",
+           stem:"Why has Ben sent this message?",
+           options:["To say today's training will not happen.","To ask his friend to bring football boots.","To say the time of training has changed."], answer:0},
+          {kind:"notice", header:"At the swimming pool", text:"THE SMALL POOL IS CLOSED FOR CLEANING\nPLEASE USE THE BIG POOL TODAY",
+           stem:"What can people do today?",
+           options:["Swim only in the small pool.","Swim in the big pool.","Not swim at all."], answer:1},
+          {kind:"email", from:"City Library", to:"Mr Diaz", subject:"Your book",
+           body:"The book you ordered has arrived. Please collect it from the front desk within seven days, or we will send it back.",
+           stem:"What should Mr Diaz do?",
+           options:["Order the book again.","Pick up the book within a week.","Pay for a new book."], answer:1},
+          {kind:"note", header:"On the kitchen table", text:"I've gone to the shops. Your lunch is in the fridge — just heat it for two minutes. Back at one.\n— Mum",
+           stem:"What does Mum want her child to do?",
+           options:["Cook a new lunch.","Warm up the lunch in the fridge.","Wait until one o'clock to eat."], answer:1},
+          {kind:"notice", header:"School noticeboard", text:"ART CLUB\nBRING YOUR OWN PENCILS\nPAPER AND PAINT ARE FREE",
+           stem:"What must students bring to Art Club?",
+           options:["Their own pencils.","Their own paper.","Their own paint."], answer:0}
+        ]
+      },
+      { type:"match", part:"Part 2",
+        instructions:"Read about three young people and their weekend jobs. For each question, choose the correct person.",
+        sources:[
+          {label:"A", name:"Nadia",
+           avatar:`<img src="https://randomuser.me/api/portraits/women/52.jpg" alt="Nadia" loading="lazy">`,
+           text:"On Saturdays I help in my neighbour's flower shop. I water the plants and tidy the shelves. I don't get much money, but the owner lets me take home flowers that are too old to sell. I started in spring, so I am quite new. One day I would like to have my own little shop."},
+          {label:"B", name:"Theo",
+           avatar:`<img src="https://randomuser.me/api/portraits/men/24.jpg" alt="Theo" loading="lazy">`,
+           text:"I walk dogs for two families near my house every weekend. I have done this for three years now, so I know all the dogs very well. My older brother used to do the same job before me, and he taught me everything. I save all my money to buy a new bike."},
+          {label:"C", name:"Priya",
+           avatar:`<img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Priya" loading="lazy">`,
+           text:"Every Sunday I help my aunt sell cakes at the market. We get up very early, before the sun comes up. It is hard work, but I love talking to the customers. My aunt pays me well, and I am saving for a school trip to France next year."}
+        ],
+        bank:{labels:["A","B","C"], texts:["Nadia","Theo","Priya"]},
+        questions:[
+          {stem:"Who has the newest job?", answer:"A"},
+          {stem:"Who learned the job from a family member?", answer:"B"},
+          {stem:"Who has to get up very early?", answer:"C"},
+          {stem:"Who is saving money for a trip?", answer:"C"},
+          {stem:"Who takes home something instead of much money?", answer:"A"},
+          {stem:"Who has done the same job for several years?", answer:"B"},
+          {stem:"Who enjoys speaking with customers?", answer:"C"}
+        ]
+      },
+      { type:"mc", part:"Part 3",
+        instructions:"Read the text and choose the correct answer for each question.",
+        passage:
+`Mia's new school
+
+Mia is twelve. Last month, her family moved to a new town, and she had to start at a new school. On her first day she was worried, because she did not know anybody. She was sure she would have lunch alone.
+
+When she arrived, a girl called Sofia showed her around. Sofia was in the same class and lived in the next street. By lunchtime, Mia had already made two friends. The lessons were harder than at her old school, especially maths, but the teachers were kind and helped her a lot.
+
+The thing Mia likes best about her new school is the garden. Students grow vegetables there during science lessons. At her old school there was no garden, only a small yard. Mia has even joined the gardening club, which meets every Thursday after class.
+
+Now, after one month, Mia says she is much happier than she expected. She still writes to her old friends online, but she no longer feels like the new girl. "Changing schools was scary," she says, "but it was the best thing that happened to me this year."`,
+        questions:[
+          {stem:"How did Mia feel on her first day?", options:["Excited","Worried","Angry"], answer:1},
+          {stem:"Who helped Mia on her first day?", options:["A teacher","A girl called Sofia","Her sister"], answer:1},
+          {stem:"What was harder at the new school?", options:["The lessons, especially maths","The lunch","The journey"], answer:0},
+          {stem:"What does Mia like best about the new school?", options:["The yard","The garden","The library"], answer:1},
+          {stem:"How does Mia feel now?", options:["She wants to go back to her old school.","She is happier than she expected.","She still feels like the new girl."], answer:1}
+        ]
+      },
+      { type:"clozeMC", part:"Part 4",
+        instructions:"For each gap (19–24), choose the best word A, B or C.",
+        title:"My first plane trip",
+        body:
+`Last year I went on a plane for the (19)____ time. I was a bit afraid, because the airport was very big and I (20)____ get lost. My father held my hand and we found the right gate together. When the plane (21)____ off, my stomach felt strange, but after a few minutes I (22)____ to enjoy it.
+
+From my window I could see tiny houses and rivers far (23)____. The flight was only two hours, and we landed safely. I will never (24)____ how exciting it was to see the world from the sky.`,
+        questions:[
+          {options:["first","one","early"], answer:0},
+          {options:["should","might","must"], answer:1},
+          {options:["took","put","got"], answer:0},
+          {options:["wanted","started","stopped"], answer:1},
+          {options:["below","under","down"], answer:0},
+          {options:["remember","forget","keep"], answer:1}
+        ]
+      },
+      { type:"clozeOpen", part:"Part 5",
+        instructions:"Read the email and write ONE word for each gap (25–30).",
+        title:"Email from Daniel",
+        body:
+`Hi Omar,
+
+Thank you (25)____ your message! I'm sorry I didn't reply sooner. Last week I was very busy (26)____ my exams.
+
+Now the holidays have started, so I (27)____ lots of free time. Next Saturday my family is going (28)____ the beach, and you can come with us if you want. We will leave (29)____ eight in the morning. Please tell me (30)____ you can come, so I can ask my parents.
+
+See you soon,
+Daniel`,
+        questions:[
+          {accept:["for"]},
+          {accept:["with"]},
+          {accept:["have"]},
+          {accept:["to"]},
+          {accept:["at"]},
+          {accept:["if","whether"]}
+        ]
+      },
+      { type:"writing", part:"Part 6 (Writing — not auto-scored)",
+        instructions:"You borrowed a book from your English friend, Robin, but you have lost it. Write an email to Robin (25 words or more). Say: that you have lost the book, how you feel, what you will do.",
+        prompts:["Your email to Robin (write 25 words or more):"]
+      },
+      { type:"writing", part:"Part 7 (Writing)",
+        instructions:"Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+        pictures:"picnic",
+        prompts:["Your story (write 35 words or more):"]
+      }
+    ]
+  }
+},
+
+/* ============================ B1 PRELIMINARY ============================ */
+B1:{
+  Reading:{
+    title:"B1 Preliminary — Reading (Practice 2)",
+    note:"All six parts are auto-scored.",
+    parts:[
+      { type:"mc", part:"Part 1", instructions:"For each question, look at the text and choose the correct answer A, B or C.",
+        questions:[
+          {kind:"notice", header:"At the train station", text:"LIFT OUT OF ORDER\nPLEASE USE THE STAIRS\nOR ASK STAFF FOR HELP WITH HEAVY BAGS",
+           stem:"What does the notice tell passengers?",
+           options:["The stairs are closed today.","Staff can help passengers who have heavy bags.","All passengers must use the lift."], answer:1},
+          {kind:"message", header:"From Carla", text:"I left my jacket at your house yesterday. Don't worry about bringing it — I'll pick it up when I come round on Sunday. Thanks!",
+           stem:"What does Carla want her friend to do about the jacket?",
+           options:["Bring it to her tomorrow.","Nothing — she will collect it herself.","Post it to her house."], answer:1},
+          {kind:"email", from:"Greenfield Gym", to:"Members", subject:"Pool closure",
+           body:"Our swimming pool will be closed next week for repairs. All other parts of the gym will stay open as usual. We are sorry for any trouble.",
+           stem:"What does the email tell members?",
+           options:["The whole gym is closing next week.","Only the pool will be closed next week.","The gym is opening a new pool."], answer:1},
+          {kind:"notice", header:"In the shop window", text:"SALE ENDS SATURDAY\nALL WINTER COATS HALF PRICE\nNO REFUNDS ON SALE ITEMS",
+           stem:"What does the notice tell customers?",
+           options:["Sale coats cannot be returned for money.","The sale starts on Saturday.","Only some coats are half price."], answer:0},
+          {kind:"note", header:"From Dad", text:"Gone to pick up your sister from her music lesson. If the delivery comes, ask them to leave the box by the back door. Back by six.",
+           stem:"What should the reader do if the delivery arrives?",
+           options:["Pay the delivery driver.","Ask for the box to be left by the back door.","Bring the box to the music lesson."], answer:1}
+        ]
+      },
+      { type:"match", part:"Part 2",
+        instructions:"The five people below are looking for a weekend day out. Read the descriptions of eight places on the next list, and decide which place (A–H) is most suitable for each person.",
+        sources:[
+          {label:"6", name:"Greta",
+           avatar:`<img src="https://randomuser.me/api/portraits/women/14.jpg" alt="Greta" loading="lazy">`,
+           text:"Greta loves history and old buildings. She has a small child in a pushchair, so she needs a place that is easy to walk around. She would prefer somewhere with a café for lunch."},
+          {label:"7", name:"Sam",
+           avatar:`<img src="https://randomuser.me/api/portraits/men/41.jpg" alt="Sam" loading="lazy">`,
+           text:"Sam is seventeen and wants an exciting day with his friends. He enjoys speed and is not afraid of heights. He doesn't want to spend the whole day sitting down or looking at things quietly."},
+          {label:"8", name:"Lena",
+           avatar:`<img src="https://randomuser.me/api/portraits/women/36.jpg" alt="Lena" loading="lazy">`,
+           text:"Lena loves animals and wants to learn about them. She would like somewhere she can stay all day and where there are talks or shows. Price is not important to her."},
+          {label:"9", name:"Hassan",
+           avatar:`<img src="https://randomuser.me/api/portraits/men/55.jpg" alt="Hassan" loading="lazy">`,
+           text:"Hassan wants a quiet day outdoors in nature. He enjoys long walks and taking photographs of plants. He prefers a place that is free and not crowded with people."},
+          {label:"10", name:"Ruby",
+           avatar:`<img src="https://randomuser.me/api/portraits/women/19.jpg" alt="Ruby" loading="lazy">`,
+           text:"Ruby is ten and loves science. She wants a fun day where she can touch and try things, not just look at them. She would like to do experiments and play games."}
+        ],
+        bank:{
+          labels:["A","B","C","D","E","F","G","H"],
+          texts:[
+            "Hilltop Castle: a thousand-year-old castle with flat paths, easy access for pushchairs and wheelchairs, and a popular tearoom serving hot lunches.",
+            "Thunder Valley Theme Park: fast roller coasters and high rides for thrill-seekers aged 14 and over. Not for those who prefer a quiet day.",
+            "City Science Centre: hands-on rooms where children can do their own experiments, plus games and puzzles. Perfect for curious young scientists.",
+            "Riverside Nature Walk: a free, quiet trail through woods and meadows, ideal for walkers and photographers. Rarely busy, even at weekends.",
+            "Safari Wildlife Park: see lions, elephants and rare birds, with daily keeper talks and feeding shows. A full day out; tickets are not cheap.",
+            "Old Town Museum: small rooms of local history up several flights of narrow stairs. No café and limited space for pushchairs.",
+            "Sunny Beach: a long sandy beach with ice-cream vans and sun beds. Good for relaxing but little to do when it rains.",
+            "Adventure Climbing Centre: indoor walls for beginners only, with soft floors. Calm and safe, aimed mainly at younger children."
+          ]
+        },
+        questions:[
+          {stem:"Greta", answer:"A"},
+          {stem:"Sam", answer:"B"},
+          {stem:"Lena", answer:"E"},
+          {stem:"Hassan", answer:"D"},
+          {stem:"Ruby", answer:"C"}
+        ]
+      },
+      { type:"mc", part:"Part 3",
+        instructions:"Read the text and choose the best answer A, B, C or D.",
+        passage:
+`The woman who paints with light
+
+For fifteen years, Carmen Ortiz worked as a maths teacher in a large secondary school. She enjoyed her students, but the long hours of marking left her with no time for the hobby she had loved since childhood: photography. Every summer she promised herself she would take it more seriously, and every September the school year swallowed her plans again.
+
+Everything changed when her camera, an old one given to her by her grandfather, finally broke. Rather than buy a cheap replacement, Carmen decided to spend her savings on a proper course in night photography — taking pictures of cities and stars after dark. She had always been fascinated by how a single street lamp could change the mood of a whole street.
+
+The course was not what she expected. She had imagined learning clever tricks with the camera, but most of the lessons were about patience. Her teacher repeated, again and again, that the best night photographs come to those who are willing to stand in the cold and wait. Carmen, who was used to a busy classroom, found this surprisingly difficult at first.
+
+After a year, Carmen began posting her photographs online. To her astonishment, a small magazine asked to use one of her pictures of an empty railway station at midnight. Soon other requests followed. She still teaches three days a week, because she loves it and because photography alone does not pay the bills, but the other days are now entirely her own.
+
+"People think you have to choose one life," she says. "But I have two, and each one makes the other better. My students keep me young, and my camera keeps me calm."`,
+        questions:[
+          {stem:"Why did Carmen have little time for photography while teaching full-time?", options:["She had lost interest in it.","Marking and long hours filled her time.","Her camera was broken for years.","She lived too far from the city."], answer:1},
+          {stem:"What made Carmen take photography more seriously?", options:["Her grandfather encouraged her.","Her old camera broke.","She lost her teaching job.","A magazine contacted her."], answer:1},
+          {stem:"What surprised Carmen about the course?", options:["It was mostly about being patient.","It taught only camera tricks.","It was too easy for her.","It was held during the day."], answer:0},
+          {stem:"What happened after she posted her photos online?", options:["She stopped teaching completely.","A magazine asked to use one of her pictures.","She won a national prize.","She opened her own shop."], answer:1},
+          {stem:"What does Carmen say about having two lives?", options:["One is clearly better than the other.","Each one improves the other.","She wishes she could choose only one.","Teaching takes all her energy."], answer:1}
+        ]
+      },
+      { type:"match", part:"Part 4",
+        instructions:"In the text below there are FIVE numbered gaps (16–20). Choose the best sentence (A–H) from the bank to fill each gap. There are three extra sentences.",
+        passage:
+`The library that never closes
+
+When the town council announced it could no longer afford to keep the local library open, most people assumed that was the end of the story. (16)____ Within a week, a small group of neighbours had met in someone's kitchen to discuss what could be done.
+
+Their first idea was simple but bold: if the council would not run the library, perhaps the community could. (17)____ Nobody in the group had ever managed a library, and at first the plan seemed impossible.
+
+The breakthrough came from an unexpected place. A retired librarian named Mr Owusu, who lived two streets away, offered to train any volunteer who was willing to learn. (18)____ Soon there were enough trained helpers to keep the doors open six days a week.
+
+Money, of course, was still a problem. The group held cake sales, sponsored walks and a book fair in the church hall. (19)____ A local business even offered to pay the heating bills for a whole year.
+
+Today the library is busier than it ever was under the council. (20)____ For many people in the town, it has become far more than a place to borrow books.`,
+        bank:{
+          labels:["A","B","C","D","E","F","G","H"],
+          texts:[
+            "But the people of the town had other ideas.",
+            "His patient lessons turned nervous beginners into confident helpers.",
+            "Slowly, the money needed to reopen began to come in.",
+            "It now hosts reading groups, language classes and a weekly children's story hour.",
+            "Most of the books were sold to a shop in the city.",
+            "This, however, raised an obvious and difficult question.",
+            "They decided instead to close it for good.",
+            "The council quickly changed its mind and kept it open."
+          ]
+        },
+        questions:[
+          {stem:"Choose the missing sentence:", answer:"A"},
+          {stem:"Choose the missing sentence:", answer:"F"},
+          {stem:"Choose the missing sentence:", answer:"B"},
+          {stem:"Choose the missing sentence:", answer:"C"},
+          {stem:"Choose the missing sentence:", answer:"D"}
+        ]
+      },
+      { type:"clozeMC", part:"Part 5",
+        instructions:"For each gap (21–26), choose the best word A, B, C or D.",
+        title:"Why we like music",
+        body:
+`Almost every human culture in history has made music, yet scientists are still not (21)____ certain why we enjoy it so much. Music does not feed us or keep us warm, so it is not (22)____ for staying alive. One popular (23)____ is that music helped early humans work together and feel part of a group. When people sing or dance together, their bodies (24)____ chemicals that make them feel happy and close to one another. Babies, interestingly, seem to (25)____ to music even before they can speak, moving in time to a simple beat. Whatever the true reason, music remains one of the few things that almost every person on the planet (26)____ in some form.`,
+        questions:[
+          {options:["completely","mostly","hardly","barely"], answer:0},
+          {options:["needed","helpful","useful","necessary"], answer:3},
+          {options:["theory","fact","story","rule"], answer:0},
+          {options:["lose","release","spend","drop"], answer:1},
+          {options:["respond","answer","reply","return"], answer:0},
+          {options:["enjoys","wins","keeps","makes"], answer:0}
+        ]
+      },
+      { type:"clozeOpen", part:"Part 6",
+        instructions:"For each gap (27–32), write ONE word.",
+        title:"A surprise at the market",
+        body:
+`Last Saturday my mother and I went to the old market in the centre of town. We had not been there (27)____ a long time, because it is usually very crowded. That morning, however, it was quiet, and we could walk around easily.
+
+We were looking (28)____ a present for my grandfather, who loves old clocks. After about an hour, we found a small wooden clock (29)____ looked perfect. The man who sold it told us it (30)____ more than a hundred years old.
+
+(31)____ the way home, we stopped for a hot drink. My grandfather was so happy with the clock (32)____ he put it on his desk straight away.`,
+        questions:[
+          {accept:["for"]},
+          {accept:["for"]},
+          {accept:["that","which"]},
+          {accept:["was"]},
+          {accept:["on"]},
+          {accept:["that"]}
+        ]
+      }
+    ]
+  }
+},
+
+/* ============================ B2 FIRST ============================ */
+B2:{
+  Reading:{
+    title:"B2 First — Reading and Use of English (Practice 2)",
+    note:"Parts 1–7 are auto-scored. Counts are slightly trimmed from the real paper for length; task types are authentic.",
+    parts:[
+      { type:"clozeMC", part:"Part 1", instructions:"Read the text and decide which answer (A, B, C or D) best fits each gap.",
+        title:"The comeback of the night train",
+        body:
+`For years, the night train seemed (1)____ to disappear, pushed aside by cheap flights and faster motorways. Recently, however, a growing number of travellers have begun to (2)____ the slower journey, partly out of concern for the environment and partly for the simple (3)____ of falling asleep in one city and waking in another. Several rail companies have (4)____ responded by reopening routes that had been closed for decades. Critics point out that night trains remain more expensive to (5)____ than ordinary services, and that the carriages need costly beds and staff. Supporters reply that the (6)____ benefits — fewer flights, less stress and a genuine sense of adventure — easily (7)____ the higher price. Whatever happens next, the night train has clearly not yet reached the (8)____ of its long history.`,
+        questions:[
+          {options:["likely","certain","sure","bound"], answer:3},
+          {options:["rediscover","relive","recall","recover"], answer:0},
+          {options:["delight","pleasure","fun","joy"], answer:1},
+          {options:["happily","gladly","willingly","duly"], answer:3},
+          {options:["run","drive","carry","hold"], answer:0},
+          {options:["wider","broader","fuller","larger"], answer:1},
+          {options:["outweigh","overcome","overtake","outdo"], answer:0},
+          {options:["finish","ending","end","close"], answer:2}
+        ]
+      },
+      { type:"clozeOpen", part:"Part 2", instructions:"Read the text and think of ONE word which best fits each gap.",
+        title:"The slow return of the high street",
+        body:
+`For much of the last decade, town-centre shops were thought to be in (9)____ decline, unable to compete (10)____ online stores that never close. Yet something unexpected has been happening. A new generation of small businesses, many of (11)____ are run by young people, has begun to open in spaces that had stood empty (12)____ years. What these shops sell is often less important (13)____ the experience they offer: a place to meet, to talk, and to be recommended something by a real person. Customers, it (14)____, are willing to pay a little more for that human contact. Several streets that were almost dead five years ago are now busier (15)____ they have been in a generation, proving that reports of the high street's death (16)____ been greatly exaggerated.`,
+        questions:[
+          {accept:["steep","serious","sharp","terminal"]},
+          {accept:["with"]},
+          {accept:["which","whom"]},
+          {accept:["for"]},
+          {accept:["than"]},
+          {accept:["seems","appears"]},
+          {accept:["than"]},
+          {accept:["have"]}
+        ]
+      },
+      { type:"wordform", part:"Part 3", instructions:"For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+        title:"Why we remember music so well",
+        rows:[
+          {text:"Most people can recall the words of a song they"},
+          {text:"have not heard for years, which is (17)____ to", root:"SURPRISE"},
+          {text:"many researchers."},
+          {text:""},
+          {text:"The (18)____ between music and memory appears to", root:"CONNECT"},
+          {text:"be unusually strong."},
+          {text:""},
+          {text:"One (19)____ is that melody and rhythm give the", root:"EXPLAIN"},
+          {text:"brain extra clues to hold on to."},
+          {text:""},
+          {text:"This may be (20)____ useful for people who are", root:"PARTICULAR"},
+          {text:"losing other kinds of memory."},
+          {text:""},
+          {text:"Therapists report (21)____ results when familiar", root:"REMARK"},
+          {text:"songs are played to such patients."},
+          {text:""},
+          {text:"The effect seems to be almost (22)____, appearing", root:"UNIVERSE"},
+          {text:"in every culture so far studied."},
+          {text:""},
+          {text:"Scientists stress that the research is still"},
+          {text:"(23)____ and that firm conclusions would be", root:"COMPLETE"},
+          {text:"premature."},
+          {text:""},
+          {text:"Even so, the early findings are genuinely"},
+          {text:"(24)____ for families and doctors alike.", root:"HOPE"}
+        ],
+        questions:[
+          {root:"SURPRISE",   accept:["surprising"]},
+          {root:"CONNECT",    accept:["connection"]},
+          {root:"EXPLAIN",    accept:["explanation"]},
+          {root:"PARTICULAR", accept:["particularly"]},
+          {root:"REMARK",     accept:["remarkable"]},
+          {root:"UNIVERSE",   accept:["universal"]},
+          {root:"COMPLETE",   accept:["incomplete"]},
+          {root:"HOPE",       accept:["hopeful"]}
+        ]
+      },
+      { type:"transform", part:"Part 4",
+        instructions:"For each question, complete the second sentence so that it has a similar meaning to the first, using the word given (do not change the word). Write between TWO and FIVE words, including the word given.",
+        questions:[
+          {before:"I last saw Daniel three months ago.",
+           keyword:"SINCE",
+           after:"I ___ three months.",
+           accept:["have not seen daniel for","haven't seen daniel for","have not seen daniel in","haven't seen daniel in"]},
+          {before:"\"You should book the tickets early,\" she told us.",
+           keyword:"ADVISED",
+           after:"She ___ the tickets early.",
+           accept:["advised us to book","advised booking"]},
+          {before:"Someone is painting our house this week.",
+           keyword:"HAVING",
+           after:"We ___ this week.",
+           accept:["are having our house painted"]},
+          {before:"It isn't necessary for you to wait for me.",
+           keyword:"HAVE",
+           after:"You ___ for me.",
+           accept:["do not have to wait","don't have to wait"]},
+          {before:"The film was so boring that we left early.",
+           keyword:"SUCH",
+           after:"It ___ that we left early.",
+           accept:["was such a boring film","was such a boring movie"]},
+          {before:"People believe the old bridge is unsafe.",
+           keyword:"BELIEVED",
+           after:"The old bridge ___ unsafe.",
+           accept:["is believed to be"]}
+        ]
+      },
+      { type:"mc", part:"Part 5", instructions:"Read the text and choose the best answer (A, B, C or D) for each question.",
+        passage:
+`The map in our heads
+
+I have always been bad at directions, a weakness I used to blame on a poor memory. Recently, however, I have come to suspect that the fault lies not with my memory but with the way I have allowed a small glowing rectangle to do my remembering for me. For the last ten years, like most people I know, I have outsourced the entire business of finding my way to a phone.
+
+The change crept up on me. At first I used the map only in unfamiliar cities, the way one might ask a local for help. Then I began using it in my own town, then on streets I had walked a hundred times. The voice in my ear was so calm, so certain, that resisting it felt almost rude. Why strain to remember a route when a machine would remember it for me, flawlessly, every single time?
+
+The trouble is that a route remembered by a machine is not a route remembered at all. Scientists who study navigation have a useful distinction between two ways of finding our way. The first, which they call "route knowledge", is a simple list of instructions: turn left at the bakery, right at the church. The second, "survey knowledge", is something richer — a kind of mental map, in which we understand how all the parts of a place fit together. Only the second kind allows us to improvise when a road is closed, or to take a shortcut we have never been shown. And only the second kind, it turns out, is built by the effort of getting a little lost.
+
+What worries the researchers is not that we are lazy, but that the two systems may be connected to deeper abilities. The same brain regions that build these mental maps are heavily involved in memory more generally. There is no firm proof yet that a lifetime of following blue arrows weakens the memory as a whole, but the possibility is taken seriously enough that several studies are now under way.
+
+I am not about to throw my phone into the river. On unfamiliar motorways, at night, in the rain, I am profoundly grateful for it. But I have started, as a small experiment, to put it away on short, familiar journeys, and to let myself feel the mild discomfort of not being quite sure. The first few times, I made mistakes and arrived late. Lately, though, I have begun to notice the bakery and the church again — and, more surprisingly, to feel that the town is mine in a way it had quietly stopped being.`,
+        questions:[
+          {stem:"What does the writer now think is the real reason for his bad sense of direction?", options:["He was born with a poor memory.","He has let his phone do his remembering.","He never learned to read maps.","He moves house too often."], answer:1},
+          {stem:"How did the writer's use of map apps change over time?", options:["He used them less and less.","He began using them even on very familiar streets.","He only ever used them abroad.","He stopped using them in his own town."], answer:1},
+          {stem:"What is the difference between \"route knowledge\" and \"survey knowledge\"?", options:["Route knowledge is a mental map; survey knowledge is a list.","Survey knowledge lets us improvise and take new shortcuts.","They are two names for the same thing.","Route knowledge is only used by experts."], answer:1},
+          {stem:"What worries the researchers most?", options:["That people have become lazy.","That the abilities involved may be linked to memory in general.","That phones will soon stop working.","That maps are becoming inaccurate."], answer:1},
+          {stem:"What does the writer decide to do?", options:["Throw his phone away completely.","Stop using maps even on motorways.","Put the phone away on short, familiar journeys.","Buy a paper map instead."], answer:2},
+          {stem:"What is the writer's tone in the final paragraph?", options:["Angry and bitter.","Reflective and quietly pleased.","Completely indifferent.","Frightened about the future."], answer:1}
+        ]
+      },
+      { type:"match", part:"Part 6",
+        instructions:"In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+        passage:
+`Learning to fail well
+
+When I signed up for an evening pottery class, I did not expect it to change the way I thought about my whole life. I expected, at most, to come home with a slightly wonky bowl. (37)____ What I came home with instead was a quiet lesson in how to fail.
+
+On the very first evening, the teacher said something that stayed with me. She told us that almost everything we made in the first month would be thrown away, and that this was not a problem but the entire point. (38)____ Most of us, raised to fear mistakes, found this idea strangely difficult to accept.
+
+For the first few weeks, I fought against it. Whenever a pot collapsed on the wheel, I felt a flash of the old, familiar shame. (39)____ Slowly, however, watching the others laugh cheerfully at their own ruined attempts, I began to relax.
+
+The turning point came one evening when my best pot so far cracked in the kiln overnight. (40)____ I was surprised to find that I felt curious rather than upset. Why had it cracked? What would I do differently?
+
+Looking back, the clay taught me something no book ever had. (41)____ A failed pot costs nothing but a little clay and an evening; the lesson it teaches can last for years. I have since noticed that I take more risks at work, too, and mind much less when they do not come off.
+
+I still make wonky bowls. (42)____ But now I keep them on a shelf, not as failures, but as a record of everything I was once too afraid to attempt.`,
+        bank:{
+          labels:["A","B","C","D","E","F","G","H"],
+          texts:[
+            "It is far cheaper to fail at something small than to avoid trying anything difficult at all.",
+            "I had, after all, paid for the course in order to make things, not destroy them.",
+            "Instead, the class quietly rearranged something inside me.",
+            "Some of them are, frankly, worse than the ones I made at the start.",
+            "Beginners, she explained, learn most from work they are not yet attached to.",
+            "She refused to let anyone keep their early pieces at all.",
+            "It felt, absurdly, like proof that I was simply no good at this.",
+            "By then, I had been coming to the class for almost three months."
+          ]
+        },
+        questions:[
+          {stem:"Choose the missing sentence:", answer:"C"},
+          {stem:"Choose the missing sentence:", answer:"E"},
+          {stem:"Choose the missing sentence:", answer:"G"},
+          {stem:"Choose the missing sentence:", answer:"H"},
+          {stem:"Choose the missing sentence:", answer:"A"},
+          {stem:"Choose the missing sentence:", answer:"D"}
+        ]
+      },
+      { type:"match", part:"Part 7",
+        instructions:"Read about four people who moved to live in a foreign country, then answer the questions. The same person may be chosen more than once.",
+        sources:[
+          {label:"A", name:"Sofia", text:"I moved abroad for a job I thought I wanted, and within a month I knew I had made a mistake about the work. The strange thing is that I stayed for six years anyway, because while the job was wrong, almost everything else was right. I learned the language faster than anyone expected, mostly because I had no choice — my colleagues spoke nothing else. What surprised me most was discovering that I was funnier in my second language than in my first; freed from the worry of sounding clever, I simply said what I meant, and people laughed. I eventually left, but not because I was unhappy. I left because I realised I was becoming a slightly different, simpler person there, and I missed the complicated one I had been at home."},
+          {label:"B", name:"Mateus", text:"I had always imagined that moving country would be the great adventure of my life, the thing I would tell stories about for years. In fact, the day-to-day reality was far less dramatic than I had pictured: I shopped, I worked, I queued at offices for documents I did not understand. The real change was so slow that I only noticed it on visits home, when friends remarked that I had become quieter and more patient. I had not set out to change my character, and for a long time I denied that I had. But the evidence, in the end, was on their faces rather than in my own sense of myself."},
+          {label:"C", name:"Aiko", text:"The hardest part, for me, was not the language or the food but the loneliness of the first winter, which I had completely failed to prepare for. I had read every guidebook and learned the grammar, but no book tells you how it feels to have no one who remembers you as a child. What saved me was, of all things, joining a choir. I cannot sing well, but it did not matter; standing in a row of strangers, all making the same sound, I felt part of something for the first time in months. I have lived here eleven years now and still go every week, long after I stopped needing it to survive."},
+          {label:"D", name:"Bruno", text:"People assume I moved for romance, and it is true that I followed someone here. What they do not realise is that the relationship ended within a year, and that I chose to stay anyway, which everyone back home found baffling. The truth is that by then the country, not the person, had become the reason. I had built a life — friends, a flat, a favourite café where the owner knew my order — and to leave would have been to abandon something far harder to replace than a relationship. I sometimes think I stayed for the café as much as anything, which sounds ridiculous until you have had to start again from nothing in a place where no one knows your name."}
+        ],
+        bank:{labels:["A","B","C","D"], texts:["Sofia","Mateus","Aiko","Bruno"]},
+        questions:[
+          {stem:"Which person found that other people noticed a change in them before they noticed it themselves?", answer:"B"},
+          {stem:"Which person stayed in the country even though the original reason for moving had gone?", answer:"D"},
+          {stem:"Which person was surprised by a positive change in their own personality in the new language?", answer:"A"},
+          {stem:"Which person felt the everyday reality was less dramatic than they had imagined?", answer:"B"},
+          {stem:"Which person was rescued from loneliness by an unexpected activity?", answer:"C"},
+          {stem:"Which person left the country despite not being unhappy there?", answer:"A"},
+          {stem:"Which person valued a small, ordinary part of their new life surprisingly highly?", answer:"D"},
+          {stem:"Which person had prepared practically but not emotionally for the move?", answer:"C"},
+          {stem:"Which person learned the new language quickly out of necessity?", answer:"A"},
+          {stem:"Which person continues an activity long after they stopped strictly needing it?", answer:"C"}
+        ]
+      }
+    ]
+  }
+},
+
+/* ============================ C1 ADVANCED ============================ */
+C1:{
+  Reading:{
+    title:"C1 Advanced — Reading and Use of English (Practice 2)",
+    note:"Parts 1–8 are auto-scored. Counts are slightly trimmed from the real paper for length; task types are authentic.",
+    parts:[
+      { type:"clozeMC", part:"Part 1", instructions:"Read the text and decide which answer (A, B, C or D) best fits each gap.",
+        title:"The architecture of silence",
+        body:
+`We tend to think of silence as a simple absence, the mere (1)____ of sound, but anyone who has stepped inside a great cathedral knows that silence can be carefully (2)____. Architects have understood for centuries that thick stone, high ceilings and long, empty distances do not merely keep noise out; they actively (3)____ a particular quality of stillness that seems to settle on the visitor. The effect is so reliable that it cannot be (4)____ to chance. Modern designers of libraries and hospitals now study these old buildings closely, hoping to (5)____ the same calm in spaces where it is badly needed. What they are discovering is that true quiet is less about (6)____ sound altogether than about shaping it — softening echoes, removing harsh edges, and leaving room for the small, human noises that, far from breaking the silence, somehow (7)____ it. The most peaceful rooms, it (8)____, are never completely silent at all.`,
+        questions:[
+          {options:["lack","want","loss","miss"], answer:0},
+          {options:["constructed","assembled","manufactured","fabricated"], answer:0},
+          {options:["produce","compose","generate","breed"], answer:2},
+          {options:["put","set","laid","attributed"], answer:3},
+          {options:["recreate","recover","remake","restore"], answer:0},
+          {options:["abolishing","removing","banning","clearing"], answer:1},
+          {options:["deepen","lower","sink","drop"], answer:0},
+          {options:["seems","appears","turns","proves"], answer:3}
+        ]
+      },
+      { type:"clozeOpen", part:"Part 2", instructions:"Read the text and think of ONE word which best fits each gap.",
+        title:"The strange persistence of letters",
+        body:
+`It would be easy to assume that the handwritten letter, having lost its practical purpose, would by now have vanished (9)____ together. The opposite, oddly, appears to be the case. Precisely (10)____ it is no longer necessary, the letter has acquired a new and unexpected value. To receive one today is to know that someone chose to spend time they did (11)____ have to spend. This, more (12)____ anything the words contain, is the real message. A text can be written (13)____ a few seconds and read in fewer; a letter demands an effort on (14)____ sides, and that effort is the point. There is, too, a quality of permanence that no screen can match: a letter can be kept, reread, and found again years later in a drawer, (15)____ which time it carries the additional weight of everything that has happened (16)____. Far from disappearing, then, the letter has quietly changed its job.`,
+        questions:[
+          {accept:["all"]},
+          {accept:["because"]},
+          {accept:["not"]},
+          {accept:["than"]},
+          {accept:["in"]},
+          {accept:["both"]},
+          {accept:["by","during"]},
+          {accept:["since"]}
+        ]
+      },
+      { type:"wordform", part:"Part 3", instructions:"For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+        title:"The surprising science of doodling",
+        rows:[
+          {text:"For a long time, doodling was dismissed as a"},
+          {text:"sign of (17)____ rather than thought.", root:"ATTEND"},
+          {text:""},
+          {text:"Recent studies, however, suggest the (18)____", root:"OPPOSE"},
+          {text:"may be true."},
+          {text:""},
+          {text:"People who doodle during a dull talk often show"},
+          {text:"better (19)____ of the details afterwards.", root:"RETAIN"},
+          {text:""},
+          {text:"The simple, (20)____ movement of the hand seems", root:"REPEAT"},
+          {text:"to keep the mind from wandering completely."},
+          {text:""},
+          {text:"This makes doodling a (21)____ unexpected ally of", root:"REMARK"},
+          {text:"concentration."},
+          {text:""},
+          {text:"Some teachers now treat it with far greater"},
+          {text:"(22)____ than their predecessors did.", root:"TOLERATE"},
+          {text:""},
+          {text:"The findings have been described as genuinely"},
+          {text:"(23)____ for anyone who struggles to sit still.", root:"LIBERATE"},
+          {text:""},
+          {text:"Even so, researchers warn against (24)____ the", root:"STATE"},
+          {text:"benefits, which remain modest and context-dependent."}
+        ],
+        questions:[
+          {root:"ATTEND",    accept:["inattention"]},
+          {root:"OPPOSE",    accept:["opposite"]},
+          {root:"RETAIN",    accept:["retention"]},
+          {root:"REPEAT",    accept:["repetitive"]},
+          {root:"REMARK",    accept:["remarkably"]},
+          {root:"TOLERATE",  accept:["tolerance"]},
+          {root:"LIBERATE",  accept:["liberating"]},
+          {root:"STATE",     accept:["overstating"]}
+        ]
+      },
+      { type:"transform", part:"Part 4",
+        instructions:"Complete the second sentence so that it has a similar meaning to the first, using the word given (do not change the word). Write between THREE and SIX words, including the word given.",
+        questions:[
+          {before:"I didn't realise how late it was until I looked at my watch.",
+           keyword:"ONLY",
+           after:"It ___ at my watch that I realised how late it was.",
+           accept:["was only when i looked","was only after i looked"]},
+          {before:"People say that he was once a famous singer.",
+           keyword:"SAID",
+           after:"He ___ a famous singer.",
+           accept:["is said to have been"]},
+          {before:"She managed to finish the project despite all the problems.",
+           keyword:"SUCCEEDED",
+           after:"She ___ the project despite all the problems.",
+           accept:["succeeded in finishing"]},
+          {before:"I'm sure that Tom didn't take your keys.",
+           keyword:"HAVE",
+           after:"Tom ___ your keys.",
+           accept:["cannot have taken","can't have taken","could not have taken","couldn't have taken"]},
+          {before:"They had to cancel the match because of the storm.",
+           keyword:"RESULT",
+           after:"The match ___ the storm.",
+           accept:["was cancelled as a result of"]},
+          {before:"It would be a good idea for you to apologise.",
+           keyword:"BETTER",
+           after:"You ___ an apology.",
+           accept:["had better make","would be better making"]}
+        ]
+      },
+      { type:"mc", part:"Part 5",
+        instructions:"Read the text and choose the best answer (A, B, C or D) for each question.",
+        passage:
+`The honest dishonesty of maps
+
+Every map is a lie, and the best maps are the most honest about it. This is not the paradox it first appears. A map that tried to tell the whole truth — every kerbstone, every parked car, every change in the colour of the grass — would be exactly as large and as useless as the territory it described. Usefulness, in cartography, begins with the courage to leave almost everything out.
+
+What a map chooses to remove is therefore far more revealing than what it keeps. The famous diagram of the London Underground, for instance, is geographically wrong in nearly every detail. Distances are distorted, the river is straightened into a tidy zigzag, and stations that sit miles apart on the surface appear as comfortable neighbours. Yet it is precisely these deliberate falsehoods that make the map work. A passenger underground does not care how far apart two stations are in metres; she cares only about the order of the stops and where to change trains. The map tells her exactly that, and refuses to tell her anything else.
+
+The danger, of course, is that we forget the map is a map. The clean lines acquire an authority the messy world never had, and we begin to trust the diagram more than the ground beneath our feet. Tourists have been known to walk for an hour between two Underground stations that the map shows as adjacent, never suspecting that the surface route is a five-minute stroll. The map did not lie to them about this; it simply never claimed to be telling that particular truth. The error was in the reading, not the drawing.
+
+This points to a deeper principle that extends well beyond cartography. Every model of the world — a scientific theory, a financial forecast, a medical diagnosis — is a kind of map, useful precisely because it ignores most of reality. The competent practitioner knows which details her model leaves out, and remains alert to the moments when those discarded details suddenly matter. The incompetent one mistakes the model for the world, and is genuinely astonished when reality, full of everything the map omitted, declines to behave as the diagram promised.
+
+If there is a lesson here, it is a modest and slightly uncomfortable one. We cannot think without simplifying, and to simplify is to distort. The goal is not the impossible one of a perfect, complete picture, but the achievable one of knowing, at every moment, the particular shape of our own ignorance. The best thinkers, like the best maps, are not those that claim to show everything, but those that are clearest about precisely what they have chosen not to show.`,
+        questions:[
+          {stem:"What does the writer mean by saying \"every map is a lie\"?", options:["Maps are deliberately designed to deceive.","Maps are useful only because they leave most things out.","Mapmakers are usually dishonest people.","Maps should include far more detail than they do."], answer:1},
+          {stem:"Why does the writer praise the London Underground map?", options:["Because it is geographically accurate.","Because its deliberate distortions make it genuinely useful.","Because it shows the real distances between stations.","Because it includes every street on the surface."], answer:1},
+          {stem:"What point does the writer make about the tourists who walk for an hour?", options:["The map lied to them.","They misread what the map was claiming to show.","The map was badly drawn.","They should never trust maps at all."], answer:1},
+          {stem:"How does the writer extend the idea of maps to other fields?", options:["He argues that only geography uses models.","He says scientific and financial models are also useful simplifications.","He claims all models are equally accurate.","He suggests models should never leave anything out."], answer:1},
+          {stem:"According to the writer, what distinguishes the competent practitioner?", options:["She believes her model is complete.","She knows which details her model ignores and watches for when they matter.","She avoids using models altogether.","She is astonished when reality misbehaves."], answer:1},
+          {stem:"What is the \"modest and slightly uncomfortable\" lesson of the final paragraph?", options:["We should aim for a perfect, complete picture of the world.","We must accept that thinking always distorts, and stay aware of our own ignorance.","We should stop using maps and models entirely.","Simplification is always a mistake."], answer:1}
+        ]
+      },
+      { type:"match", part:"Part 6",
+        instructions:"Read four short opinion pieces (A–D) on the same topic: whether children should be taught to memorise facts in the age of the internet. Then answer the questions.",
+        sources:[
+          {label:"A", text:"Opinion A. The argument that memorisation is obsolete because facts can be looked up rests on a basic misunderstanding of how thinking works. We do not reason with the facts on the screen; we reason with the facts in our heads. A mind stocked with information makes connections that a mind dependent on constant searching simply cannot, because the relevant pieces are never held in working memory at the same time. To rely on the internet for everything is to outsource not merely storage but the very raw material of original thought. The school that abandons memorisation in the name of modernity is, in truth, abandoning the conditions under which genuine creativity becomes possible at all."},
+          {label:"B", text:"Opinion B. There is a real cost to the hours spent drilling facts into young heads, and that cost is rarely counted honestly. Every hour spent memorising dates and capital cities is an hour not spent learning how to evaluate sources, frame questions, or judge whether a claim is plausible — skills that matter far more in a world where information is infinite and unreliable. I do not say facts are worthless; a mind with nothing in it cannot think. But the balance has tipped too far towards storage and too far away from judgement, and our schools have been slow, embarrassingly slow, to notice that the world they are preparing children for no longer exists."},
+          {label:"C", text:"Opinion C. Much of this debate proceeds as if memorisation and understanding were opposites, when in fact they are deeply intertwined. You cannot understand a poem you have not, in some sense, taken into yourself, and you cannot follow a complex argument if you must pause every few seconds to look up a term. The genuine question is not whether children should memorise, but what. Memorising disconnected trivia is indeed a waste; memorising the structures, vocabularies and key examples of a discipline is the foundation on which all later understanding is built. We have, regrettably, allowed a sensible objection to bad memorisation to harden into a foolish objection to memorisation as such."},
+          {label:"D", text:"Opinion D. The romantic picture of the well-stocked mind belongs to a vanished age and should be allowed to rest. Our grandparents memorised because they had to; the alternative was ignorance. We have a genuine alternative now, and pretending otherwise is mere nostalgia dressed as principle. The fear that constant searching erodes the capacity for thought is, as far as I can tell, supported by very little evidence and a great deal of anxious anecdote. Children who grow up navigating vast information landscapes are developing exactly the skills their world demands. We should be teaching them to search brilliantly, not punishing them for failing to become walking encyclopaedias."}
+        ],
+        bank:{labels:["A","B","C","D"], texts:["Writer A","Writer B","Writer C","Writer D"]},
+        questions:[
+          {stem:"Which writer takes a view most similar to Writer A's on the value of memorisation for original thought?", answer:"C"},
+          {stem:"Which writer, unlike the others, argues that the internet has genuinely made memorisation unnecessary?", answer:"D"},
+          {stem:"Which writer focuses primarily on the skills that are neglected when too much time is spent memorising?", answer:"B"},
+          {stem:"Which writer agrees with Writer D that fears about the internet harming thought are exaggerated?", answer:"B"}
+        ]
+      },
+      { type:"match", part:"Part 7",
+        instructions:"In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+        passage:
+`The clockmaker's apprentice
+
+When Yusuf Demir accepted a place as an apprentice to the last working clockmaker in his city, his university friends assumed he had lost his mind. He had a perfectly good degree in software engineering and three job offers in the same week. (41)____
+
+The clockmaker, a man named Ferrand who was well into his eighties, did not make the decision easy. For the first three months, Yusuf was permitted to do nothing but sweep the floor and watch. (42)____ Only when he stopped asking was he handed his first tool.
+
+What surprised Yusuf most was how much the work resembled the programming he had left behind. A mechanical clock, he came to see, was simply a physical algorithm, a sequence of perfectly logical steps rendered in brass instead of code. (43)____ The difference was that a bug in Ferrand's work might wait fifty years before revealing itself.
+
+His friends, when they visited, expected to find him bored or regretful. (44)____ They found instead a man who spoke about escapements and mainsprings with the quiet intensity others reserve for things they love. Several of them, he noticed, went home unusually thoughtful.
+
+Ferrand died in the spring of Yusuf's fourth year, leaving him the workshop, the tools, and a waiting list of repairs stretching eighteen months into the future. (45)____ He has since taken on an apprentice of his own, a young woman who, he says, asks far too many questions.
+
+Asked whether he ever regrets the path not taken, Yusuf gives an answer his old professors would find baffling. (46)____ He is, he insists, doing precisely the work he was trained for; only the material has changed.`,
+        bank:{
+          labels:["A","B","C","D","E","F","G","H"],
+          texts:[
+            "He says he is still, in every way that matters, an engineer.",
+            "He had, after all, given up a great deal to learn it.",
+            "Every time he asked when he might begin, the old man pretended not to hear.",
+            "Both demanded total precision and punished the smallest carelessness without mercy.",
+            "He sold the workshop within a month and returned to software.",
+            "But the visits never quite went as the visitors expected.",
+            "He accepted the apprenticeship anyway, to the bewilderment of everyone who knew him.",
+            "The list, he realised, was now entirely his responsibility."
+          ]
+        },
+        questions:[
+          {stem:"Choose the missing paragraph:", answer:"G"},
+          {stem:"Choose the missing paragraph:", answer:"C"},
+          {stem:"Choose the missing paragraph:", answer:"D"},
+          {stem:"Choose the missing paragraph:", answer:"F"},
+          {stem:"Choose the missing paragraph:", answer:"H"},
+          {stem:"Choose the missing paragraph:", answer:"A"}
+        ]
+      },
+      { type:"match", part:"Part 8",
+        instructions:"You are going to read four reviews (A–D) of the same restaurant. Answer the questions by choosing the appropriate reviewer.",
+        sources:[
+          {label:"A", text:"Reviewer A. The new place on Mill Street is, without question, technically brilliant. Every plate that arrived was a small feat of engineering, balanced and precise, and the kitchen clearly contains real talent. And yet I left curiously unmoved. There is a coldness to food that has been this thoroughly perfected; one admires it rather than enjoys it, the way one admires a watch one would never wear. The service, by contrast, was the warmest I have encountered in years — attentive without hovering, knowledgeable without lecturing. I would return for the welcome long before I returned for the cooking, which is perhaps not the compliment the chef would most like to hear."},
+          {label:"B", text:"Reviewer B. I had read the breathless early reviews and arrived prepared to be disappointed, as one usually is. Instead I had one of the finest meals of my life. The cooking is, yes, extremely precise, but precision here is in the service of pleasure rather than display — every dish tasted of exactly what it was, only more so. My single reservation concerns the staff, who were perfectly competent but oddly distant, as though they had been trained to perform warmth they did not feel. In a room this expensive, that small chill matters more than it should. Still, I would go back tomorrow, and twice next week if I could afford it."},
+          {label:"C", text:"Reviewer C. Let me be the dissenting voice. The food at Mill Street is accomplished, I will grant that, but accomplishment is not the same as enjoyment, and I found the whole experience faintly exhausting. Each dish demanded to be admired before it could be eaten; the menu read like an essay. Worse, the prices are frankly absurd for the quantities involved, and I left both impressed and hungry, a combination I do not intend to pay for again. The staff did their best with an impossible brief, and I bear them no ill will, but the kitchen has confused difficulty with quality, as ambitious young kitchens so often do."},
+          {label:"D", text:"Reviewer D. There has been a great deal of noise about this restaurant, and for once the noise is mostly justified. The cooking is genuinely exciting, full of small surprises that made the table laugh out loud, and the portions, contrary to what one nervous friend had warned me, were entirely generous. If I have a complaint, it is the same one I always have about places this fashionable: the bill arrives like a second, less pleasant surprise, and one does rather wonder what one is paying for beyond the privilege of being there. But the food itself I cannot fault, and I have already booked to return for a birthday next month."}
+        ],
+        bank:{labels:["A","B","C","D"], texts:["Reviewer A","Reviewer B","Reviewer C","Reviewer D"]},
+        questions:[
+          {stem:"Which reviewer shares Reviewer A's view that the cooking, though skilful, fails to move the diner?", answer:"C"},
+          {stem:"Which reviewer disagrees with Reviewer A about the warmth of the service?", answer:"B"},
+          {stem:"Which reviewer, unlike the others, found the portions generous rather than mean?", answer:"D"},
+          {stem:"Which reviewer most enjoyed the food while having reservations about the staff?", answer:"B"},
+          {stem:"Which reviewer specifically complains that the prices are too high for the amount of food?", answer:"C"},
+          {stem:"Which reviewer felt the food was admirable but exhausting to eat?", answer:"C"},
+          {stem:"Which reviewer would return mainly for the service rather than the cooking?", answer:"A"},
+          {stem:"Which two reviewers both intend to return despite their criticisms?", answer:"B"},
+          {stem:"Which reviewer found the meal genuinely fun and surprising?", answer:"D"},
+          {stem:"Which reviewer was pleasantly surprised after expecting to be disappointed?", answer:"B"}
+        ]
+      }
+    ]
+  }
+}
+};
+
+/* ============================================================
+   PRACTICE 3 — Reading only, one practice per level.
+   Same part structure / task types as EXAMS[level].Reading
+   (A2 includes Writing Parts 6–7). All content is original,
+   pitched at the same difficulty as the EXAMS practice.
+============================================================ */
+const PRACTICE3 = {
+
+/* ============================ A2 KEY ============================ */
+A2:{
+  Reading:{
+    title:"A2 Key — Reading and Writing (Practice 3)",
+    note:"Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+    parts:[
+      { type:"mc", part:"Part 1", instructions:"For each question, look at the text and choose the correct answer A, B or C.",
+        questions:[
+          {kind:"notice", header:"At the museum entrance", text:"NO PHOTOS WITH FLASH\nNORMAL PHOTOS ARE ALLOWED",
+           stem:"What does this notice tell visitors?",
+           options:["They cannot take any photos.","They can take photos but not with a flash.","They must pay to take photos."], answer:1},
+          {kind:"message", header:"Eva", text:"Are you still coming to my house to study tonight? Bring your science book — I lost mine. We can share if you bring it!",
+           stem:"Why has Eva sent this message?",
+           options:["To ask her friend to bring a book.","To cancel their study evening.","To borrow some money."], answer:0},
+          {kind:"sign", header:"In the café", text:"FREE WATER FOR ALL CUSTOMERS\nPLEASE ASK AT THE COUNTER",
+           stem:"What does the sign mean?",
+           options:["Water costs extra in the café.","Customers can get water for free if they ask.","Only children can have free water."], answer:1},
+          {kind:"email", from:"Sports Centre", to:"Mr Khan", subject:"Your tennis lesson",
+           body:"Your tennis lesson on Monday has been moved to Wednesday at the same time. Please bring your own racket. Sorry for the change.",
+           stem:"What has changed about the lesson?",
+           options:["The time of the lesson.","The day of the lesson.","The teacher of the lesson."], answer:1},
+          {kind:"note", header:"On the door", text:"Cleaning the floor now — it is wet!\nPlease use the side door for ten minutes.\nThank you.",
+           stem:"What should people do?",
+           options:["Wait outside for ten minutes.","Use the side door for a short time.","Clean the floor themselves."], answer:1},
+          {kind:"notice", header:"School trip", text:"COACH LEAVES AT 8 A.M. SHARP\nLATE STUDENTS WILL BE LEFT BEHIND",
+           stem:"What does the notice warn students?",
+           options:["The coach may arrive late.","Students who are late will miss the coach.","The trip has been cancelled."], answer:1}
+        ]
+      },
+      { type:"match", part:"Part 2",
+        instructions:"Read about three young people and their favourite places. For each question, choose the correct person.",
+        sources:[
+          {label:"A", name:"Leo",
+           avatar:`<img src="https://randomuser.me/api/portraits/men/15.jpg" alt="Leo" loading="lazy">`,
+           text:"My favourite place is the beach near my grandmother's house. We go there every summer. I love swimming and looking for shells. The water is warm and there are never too many people. My little brother prefers the mountains, but I always choose the sea."},
+          {label:"B", name:"Amara",
+           avatar:`<img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Amara" loading="lazy">`,
+           text:"I love the city library best. It is big and very quiet, and I can read for hours. In winter it is warm inside, which I like a lot. My best friend works there on Saturdays, so I see her too. I go almost every weekend."},
+          {label:"C", name:"Diego",
+           avatar:`<img src="https://randomuser.me/api/portraits/men/63.jpg" alt="Diego" loading="lazy">`,
+           text:"My favourite place is the old park in the middle of town. I go there to ride my skateboard with my friends after school. There is a new area just for skateboards. We sometimes stay until it gets dark. I have been going there for two years."},
+        ],
+        bank:{labels:["A","B","C"], texts:["Leo","Amara","Diego"]},
+        questions:[
+          {stem:"Who likes their favourite place because it is quiet?", answer:"B"},
+          {stem:"Who goes to their favourite place to do a sport with friends?", answer:"C"},
+          {stem:"Who visits a place that belongs to a family member's area?", answer:"A"},
+          {stem:"Who sees a friend at their favourite place?", answer:"B"},
+          {stem:"Who has a brother who prefers somewhere different?", answer:"A"},
+          {stem:"Who sometimes stays at their place until it is dark?", answer:"C"},
+          {stem:"Who only visits their favourite place in summer?", answer:"A"}
+        ]
+      },
+      { type:"mc", part:"Part 3",
+        instructions:"Read the text and choose the correct answer for each question.",
+        passage:
+`Tom learns to cook
+
+Tom is fourteen and lives with his father. For a long time, his father did all the cooking, but last year he started a new job and came home late. So Tom decided to learn to cook simple meals for them both.
+
+At first, things went wrong. He burnt the rice on the very first evening, and the soup he made was too salty. His father never complained, though, and ate everything with a smile. Tom watched videos online and slowly got better. His favourite thing to make now is pasta with vegetables.
+
+The biggest surprise for Tom was how much he enjoyed it. He had always thought cooking was boring, but now he finds it relaxing after school. He even cooks for his grandmother on Sundays, and she says his food is better than the food in many restaurants.
+
+Next month, Tom is going to take a short cooking course at the community centre. He wants to learn to make bread. "I never planned to become a cook," he says, "but now I think I might want to work in a kitchen one day."`,
+        questions:[
+          {stem:"Why did Tom start cooking?", options:["His father came home late from a new job.","He wanted to win a competition.","His grandmother asked him to."], answer:0},
+          {stem:"What happened on the first evening?", options:["The food was perfect.","He burnt the rice.","His father complained."], answer:1},
+          {stem:"How did Tom get better at cooking?", options:["He took a class at school.","He watched videos online.","His father taught him."], answer:1},
+          {stem:"What surprised Tom most?", options:["How much he enjoyed cooking.","How expensive food was.","How easy bread was to make."], answer:0},
+          {stem:"What does Tom want to learn on the new course?", options:["To make pasta.","To make soup.","To make bread."], answer:2}
+        ]
+      },
+      { type:"clozeMC", part:"Part 4",
+        instructions:"For each gap (19–24), choose the best word A, B or C.",
+        title:"A lost dog",
+        body:
+`One rainy afternoon, my sister and I found a small dog (19)____ alone in our street. It had no collar and looked very (20)____, so we gave it some water and a little food. We did not know (21)____ it belonged to.
+
+We made some signs and put them (22)____ the neighbourhood. Two days (23)____, a woman called us. She was so happy, because the dog was hers and she had been looking everywhere. She gave us a box of chocolates to say thank you. I will always (24)____ that little dog's happy face when it saw her again.`,
+        questions:[
+          {options:["sitting","sit","sat"], answer:0},
+          {options:["hungry","funny","angry"], answer:0},
+          {options:["who","what","where"], answer:0},
+          {options:["around","between","under"], answer:0},
+          {options:["before","later","ago"], answer:1},
+          {options:["forget","remember","leave"], answer:1}
+        ]
+      },
+      { type:"clozeOpen", part:"Part 5",
+        instructions:"Read the email and write ONE word for each gap (25–30).",
+        title:"Email from Lucy",
+        body:
+`Hi Maya,
+
+How are (25)____? I'm writing to tell you about my new school. It is much bigger (26)____ my old one, and at first I felt a little lost!
+
+The teachers are really nice, and I have already (27)____ some new friends. My favourite subject is art, because we (28)____ allowed to paint every week. After school, I usually go (29)____ home with a girl called Nora who lives near me.
+
+Please write back soon and tell me (30)____ your holidays. I miss you!
+
+Love,
+Lucy`,
+        questions:[
+          {accept:["you"]},
+          {accept:["than"]},
+          {accept:["made"]},
+          {accept:["are"]},
+          {accept:["back"]},
+          {accept:["about"]}
+        ]
+      },
+      { type:"writing", part:"Part 6 (Writing — not auto-scored)",
+        instructions:"Your English friend, Alex, is coming to visit your town next week. Write an email to Alex (25 words or more). Say: what the weather is like, what clothes to bring, what you will do together.",
+        prompts:["Your email to Alex (write 25 words or more):"]
+      },
+      { type:"writing", part:"Part 7 (Writing)",
+        instructions:"Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+        pictures:"picnic",
+        prompts:["Your story (write 35 words or more):"]
+      }
+    ]
+  }
+},
+
+/* ============================ B1 PRELIMINARY ============================ */
+B1:{
+  Reading:{
+    title:"B1 Preliminary — Reading (Practice 3)",
+    note:"All six parts are auto-scored.",
+    parts:[
+      { type:"mc", part:"Part 1", instructions:"For each question, look at the text and choose the correct answer A, B or C.",
+        questions:[
+          {kind:"notice", header:"At the museum café", text:"HOT DRINKS MUST NOT BE TAKEN\nINTO THE EXHIBITION ROOMS\nPLEASE FINISH THEM HERE",
+           stem:"What does the notice tell visitors?",
+           options:["The café is closed today.","Hot drinks are not allowed in the exhibition rooms.","Visitors cannot buy hot drinks."], answer:1},
+          {kind:"message", header:"From Owen", text:"Running ten minutes late for the cinema — traffic is terrible. Don't wait outside in the cold, go in and I'll find you. Save me a seat!",
+           stem:"What does Owen want his friend to do?",
+           options:["Wait for him outside the cinema.","Go inside and keep a seat for him.","Buy his ticket for him."], answer:1},
+          {kind:"email", from:"Book Club", to:"Members", subject:"This month's meeting",
+           body:"A reminder that this month we are meeting at the new café on Bridge Street, not at the library. Same day and time as usual.",
+           stem:"What is different about this month's meeting?",
+           options:["The day has changed.","The place has changed.","The time has changed."], answer:1},
+          {kind:"notice", header:"In the car park", text:"FIRST HOUR FREE\nAFTER THAT, £2 PER HOUR\nPAY BEFORE RETURNING TO YOUR CAR",
+           stem:"What does the notice tell drivers?",
+           options:["Parking is free all day.","The first hour costs nothing, then you pay.","You must pay when you arrive."], answer:1},
+          {kind:"note", header:"From Mum", text:"There's a parcel coming today. If I'm not back, please sign for it and put it in my room. Don't open it — it's a surprise for Grandpa!",
+           stem:"What does Mum ask her child to do with the parcel?",
+           options:["Open it to check what is inside.","Sign for it and leave it in her room.","Give it to Grandpa straight away."], answer:1}
+        ]
+      },
+      { type:"match", part:"Part 2",
+        instructions:"The five people below want to choose a book to read on holiday. Read the descriptions of eight books on the next list, and decide which book (A–H) is most suitable for each person.",
+        sources:[
+          {label:"6", name:"Felix",
+           avatar:`<img src="https://randomuser.me/api/portraits/men/12.jpg" alt="Felix" loading="lazy">`,
+           text:"Felix loves real-life adventure stories about people who travel to dangerous places. He gets bored by made-up stories and prefers true events. He has only a week, so he wants something he can finish quickly."},
+          {label:"7", name:"Dana",
+           avatar:`<img src="https://randomuser.me/api/portraits/women/29.jpg" alt="Dana" loading="lazy">`,
+           text:"Dana enjoys funny novels that make her laugh. She doesn't like sad endings or anything frightening. She likes long books, because she reads very fast and hates running out of pages on holiday."},
+          {label:"8", name:"Omar",
+           avatar:`<img src="https://randomuser.me/api/portraits/men/48.jpg" alt="Omar" loading="lazy">`,
+           text:"Omar is interested in science and wants to learn something new. He would like a book written in simple language that explains modern discoveries to ordinary readers."},
+          {label:"9", name:"Pia",
+           avatar:`<img src="https://randomuser.me/api/portraits/women/57.jpg" alt="Pia" loading="lazy">`,
+           text:"Pia loves mysteries where you have to guess who the criminal is. She likes to be surprised at the end. She would prefer a story set in the past rather than the present day."},
+          {label:"10", name:"Jonah",
+           avatar:`<img src="https://randomuser.me/api/portraits/men/35.jpg" alt="Jonah" loading="lazy">`,
+           text:"Jonah is twelve and is just starting to enjoy reading. He needs a short book with lots of pictures and an exciting story, but not too many difficult words."}
+        ],
+        bank:{
+          labels:["A","B","C","D","E","F","G","H"],
+          texts:[
+            "The Ice Crossing: the true, fast-paced story of a team who walked across Antarctica. Short chapters; easily read in a few days.",
+            "Laughing All the Way: a long, light-hearted comic novel about a chaotic family holiday. Warm and gentle, with a happy ending.",
+            "How the World Works: a clear, friendly guide to recent scientific discoveries, written for readers with no science background.",
+            "The Midnight House: a clever murder mystery set in a grand house in the 1920s, full of twists and a surprising ending.",
+            "Deep Space Facts: a heavy textbook on astrophysics, full of equations and aimed at university students.",
+            "Pirates of the Bay: a short illustrated adventure for younger readers, with simple language and plenty of action.",
+            "A Year of Sadness: a long, serious novel about loss and grief, beautifully written but very moving.",
+            "City Detective: a modern crime thriller set in a busy present-day city, fast and violent."
+          ]
+        },
+        questions:[
+          {stem:"Felix", answer:"A"},
+          {stem:"Dana", answer:"B"},
+          {stem:"Omar", answer:"C"},
+          {stem:"Pia", answer:"D"},
+          {stem:"Jonah", answer:"F"}
+        ]
+      },
+      { type:"mc", part:"Part 3",
+        instructions:"Read the text and choose the best answer A, B, C or D.",
+        passage:
+`The man who saved the old cinema
+
+For nearly thirty years, the Royal Cinema stood empty on the corner of Park Road. Once, it had been the busiest place in town, but after a large modern cinema opened nearby, the old building slowly closed down. By the time Daniel Roberts walked past it one cold morning, its windows were broken and the roof leaked.
+
+Daniel had no experience of running a cinema. He worked as an electrician and had never even thought about owning a business. But he had visited the Royal as a child with his grandfather, and the sight of the building falling apart upset him more than he expected. That evening, he could not stop thinking about it.
+
+Over the next two years, Daniel spent almost all his free time and savings repairing the building. He did much of the electrical work himself, but he had to ask for help with the roof and the seats. Many people in the town thought he was wasting his money. A few, however, began to volunteer their weekends, and slowly a small team formed around him.
+
+The Royal reopened last spring. Instead of trying to compete with the big modern cinema, Daniel chose to show old films and to hold special events, like silent-film nights with live music. To everyone's surprise, these evenings sell out almost every week. Families come for the atmosphere, something the larger cinema cannot offer.
+
+Daniel still works as an electrician three days a week, because the cinema does not yet make enough money. But he says he has never been happier. "I didn't save the cinema for the money," he explains. "I saved it because some places are worth keeping, even when they don't make sense on paper."`,
+        questions:[
+          {stem:"Why did the Royal Cinema close down originally?", options:["The roof had fallen in.","A large modern cinema opened nearby.","The owner had died.","There were too few films to show."], answer:1},
+          {stem:"What was Daniel's job before he took on the cinema?", options:["He ran another cinema.","He was an electrician.","He worked for the council.","He was a builder."], answer:1},
+          {stem:"How did the town react at first?", options:["Everyone helped immediately.","Many thought he was wasting his money.","The council gave him a large grant.","Nobody noticed what he was doing."], answer:1},
+          {stem:"How did Daniel make the cinema successful?", options:["By showing the same films as the big cinema.","By showing old films and holding special events.","By making the tickets very cheap.","By opening only at weekends."], answer:1},
+          {stem:"Why does Daniel say he saved the cinema?", options:["To make a lot of money.","Because some places are worth keeping.","Because his grandfather told him to.","Because he wanted to stop being an electrician."], answer:1}
+        ]
+      },
+      { type:"match", part:"Part 4",
+        instructions:"In the text below there are FIVE numbered gaps (16–20). Choose the best sentence (A–H) from the bank to fill each gap. There are three extra sentences.",
+        passage:
+`The garden on the roof
+
+When Nadia moved into a small flat in the city centre, the thing she missed most was the garden she had grown up with. Her new home had no outdoor space at all, only a flat, grey roof that nobody ever used. (16)____ One spring morning, however, she looked at that empty roof and had an idea.
+
+She started small, with a few pots of herbs and tomatoes. Carrying bags of soil up four flights of stairs was exhausting, and several of her first plants died in the strong wind. (17)____ But she did not give up, and slowly she learned which plants could survive up there.
+
+Her neighbours were curious. At first they only watched from their windows. (18)____ Within a year, three of them were helping her, and the bare roof had become a green, shared space full of vegetables and flowers.
+
+The building's owner was not pleased at first, worried about damage and safety. (19)____ After she invited him up to see it for himself, however, he changed his mind completely. He even paid for proper safety rails.
+
+Today the roof garden produces more vegetables than the neighbours can eat. (20)____ For Nadia, though, the best thing is not the food but the fact that people who once never spoke now meet every weekend among the plants.`,
+        bank:{
+          labels:["A","B","C","D","E","F","G","H"],
+          texts:[
+            "For a long time, she simply accepted that city life meant living without one.",
+            "The wind, she discovered, was her biggest enemy of all.",
+            "Then, one by one, they began to come up and ask questions.",
+            "He threatened to remove the whole garden at once.",
+            "The extra produce is given away to an old people's home nearby.",
+            "She had never grown anything before in her life.",
+            "Most of the plants, in fact, grew far too quickly.",
+            "The owner had grown up on a farm himself."
+          ]
+        },
+        questions:[
+          {stem:"Choose the missing sentence:", answer:"A"},
+          {stem:"Choose the missing sentence:", answer:"B"},
+          {stem:"Choose the missing sentence:", answer:"C"},
+          {stem:"Choose the missing sentence:", answer:"D"},
+          {stem:"Choose the missing sentence:", answer:"E"}
+        ]
+      },
+      { type:"clozeMC", part:"Part 5",
+        instructions:"For each gap (21–26), choose the best word A, B, C or D.",
+        title:"Why we dream",
+        body:
+`Everyone dreams every night, even people who are (21)____ that they never do. Scientists have studied dreams for many years, but they still cannot fully (22)____ why we have them. One old idea was that dreams have no purpose at all, but most researchers no longer (23)____ this. A newer theory is that dreaming helps the brain to (24)____ the events of the day and to store important memories. Some scientists also believe that dreams allow us to practise dealing with difficult situations in a safe way. Interestingly, animals appear to dream (25)____, which suggests that dreaming is very old and important. Whatever the truth, sleep and dreams remain one of the great (26)____ of science.`,
+        questions:[
+          {options:["certain","clear","obvious","plain"], answer:0},
+          {options:["tell","explain","describe","say"], answer:1},
+          {options:["accept","take","agree","admit"], answer:0},
+          {options:["join","sort","build","mix"], answer:1},
+          {options:["too","also","either","as well"], answer:0},
+          {options:["mysteries","secrets","problems","questions"], answer:0}
+        ]
+      },
+      { type:"clozeOpen", part:"Part 6",
+        instructions:"For each gap (27–32), write ONE word.",
+        title:"My grandmother's recipe",
+        body:
+`My grandmother is famous in our family (27)____ her apple cake. For years she refused to share the recipe with anyone. She always said she (28)____ teach us one day, but that day never seemed to come.
+
+Last winter, while I (29)____ staying at her house, she finally decided it was time. We spent a whole afternoon (30)____ the kitchen together, and she showed me every step. The secret, it turned out, was a tiny bit of honey, (31)____ I would never have guessed.
+
+Now I can make the cake myself, although it never tastes (32)____ good as hers. I think the real secret is something you cannot write down.`,
+        questions:[
+          {accept:["for"]},
+          {accept:["would","might","could"]},
+          {accept:["was"]},
+          {accept:["in"]},
+          {accept:["which"]},
+          {accept:["as","so"]}
+        ]
+      }
+    ]
+  }
+},
+
+/* ============================ B2 FIRST ============================ */
+B2:{
+  Reading:{
+    title:"B2 First — Reading and Use of English (Practice 3)",
+    note:"Parts 1–7 are auto-scored. Counts are slightly trimmed from the real paper for length; task types are authentic.",
+    parts:[
+      { type:"clozeMC", part:"Part 1", instructions:"Read the text and decide which answer (A, B, C or D) best fits each gap.",
+        title:"The rise of the repair shop",
+        body:
+`For decades, the standard response to a broken appliance was to (1)____ it away and buy a new one. Repairing things came to seem old-fashioned, even slightly eccentric. Recently, however, a quiet change has been taking (2)____. Small repair shops, many run by enthusiasts rather than large companies, are opening once again, and they are (3)____ surprisingly busy. Part of the reason is financial: as prices rise, mending a kettle or a phone makes more (4)____ than it used to. But there is also a deeper shift in (5)____. A growing number of people feel uncomfortable about the mountains of waste that throwaway culture (6)____, and repairing an object has become a small but (7)____ way of pushing back. Whether this movement will (8)____ in the long term remains to be seen, but for now the repair shop is quietly fashionable again.`,
+        questions:[
+          {options:["throw","put","give","send"], answer:0},
+          {options:["place","part","hold","over"], answer:0},
+          {options:["proving","showing","turning","making"], answer:0},
+          {options:["sense","reason","point","value"], answer:0},
+          {options:["attitudes","feelings","opinions","beliefs"], answer:0},
+          {options:["produces","makes","builds","grows"], answer:0},
+          {options:["meaningful","important","valuable","serious"], answer:0},
+          {options:["last","stay","keep","hold"], answer:0}
+        ]
+      },
+      { type:"clozeOpen", part:"Part 2", instructions:"Read the text and think of ONE word which best fits each gap.",
+        title:"The unexpected value of getting lost",
+        body:
+`These days, thanks (9)____ the phones in our pockets, it is almost impossible to get lost. Yet some travellers are beginning to argue that we have lost something valuable along (10)____ the way. Getting lost, they say, is one of the few experiences (11)____ forces us to pay full attention to our surroundings. (12)____ you know exactly where you are going, you notice almost nothing; the journey becomes a blank space between two points. (13)____ contrast, the traveller who has taken a wrong turning suddenly sees everything — the shape of the streets, the faces of strangers, the small details (14)____ would otherwise pass unnoticed. There is, of course, no need to throw away the map (15)____ together. But perhaps, now and then, we should be willing to put it away and allow (16)____ to be a little uncertain about where the next corner will lead.`,
+        questions:[
+          {accept:["to"]},
+          {accept:["the"]},
+          {accept:["that","which"]},
+          {accept:["if","when","once"]},
+          {accept:["by","in"]},
+          {accept:["that","which"]},
+          {accept:["all"]},
+          {accept:["ourselves"]}
+        ]
+      },
+      { type:"wordform", part:"Part 3", instructions:"For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+        title:"The science of first impressions",
+        rows:[
+          {text:"We form an opinion of a stranger with remarkable"},
+          {text:"(17)____, often within a fraction of a second.", root:"SPEED"},
+          {text:""},
+          {text:"This (18)____ judgement is based mostly on the", root:"INSTANT"},
+          {text:"face, before a single word is spoken."},
+          {text:""},
+          {text:"Such snap judgements are, unsurprisingly,"},
+          {text:"frequently (19)____ and easily mistaken.", root:"RELY"},
+          {text:""},
+          {text:"Yet they are remarkably (20)____ to change once", root:"RESIST"},
+          {text:"they have formed."},
+          {text:""},
+          {text:"Researchers find this (21)____ both fascinating", root:"COMBINE"},
+          {text:"of speed and stubbornness."},
+          {text:""},
+          {text:"The (22)____ news is that we can learn to", root:"ENCOURAGE"},
+          {text:"question our own first impressions."},
+          {text:""},
+          {text:"Doing so requires a (23)____ effort to look for", root:"CONSCIOUS"},
+          {text:"evidence that contradicts them."},
+          {text:""},
+          {text:"With practice, this becomes a genuinely"},
+          {text:"(24)____ habit in both work and friendship.", root:"VALUE"}
+        ],
+        questions:[
+          {root:"SPEED",      accept:["speed"]},
+          {root:"INSTANT",    accept:["instant","instantaneous"]},
+          {root:"RELY",       accept:["unreliable"]},
+          {root:"RESIST",     accept:["resistant"]},
+          {root:"COMBINE",    accept:["combination"]},
+          {root:"ENCOURAGE",  accept:["encouraging"]},
+          {root:"CONSCIOUS",  accept:["conscious"]},
+          {root:"VALUE",      accept:["valuable"]}
+        ]
+      },
+      { type:"transform", part:"Part 4",
+        instructions:"For each question, complete the second sentence so that it has a similar meaning to the first, using the word given (do not change the word). Write between TWO and FIVE words, including the word given.",
+        questions:[
+          {before:"It was a mistake to leave so early.",
+           keyword:"SHOULD",
+           after:"We ___ so early.",
+           accept:["should not have left","shouldn't have left"]},
+          {before:"\"I'll help you tomorrow,\" he promised.",
+           keyword:"PROMISED",
+           after:"He ___ the next day.",
+           accept:["promised to help me","promised that he would help me"]},
+          {before:"My brother is taller than me.",
+           keyword:"AS",
+           after:"I ___ my brother.",
+           accept:["am not as tall as","'m not as tall as"]},
+          {before:"They couldn't go out because it was raining.",
+           keyword:"PREVENTED",
+           after:"The rain ___ out.",
+           accept:["prevented them from going"]},
+          {before:"Perhaps she forgot about the meeting.",
+           keyword:"MIGHT",
+           after:"She ___ about the meeting.",
+           accept:["might have forgotten"]},
+          {before:"I didn't bring an umbrella, and now I regret it.",
+           keyword:"WISH",
+           after:"I ___ an umbrella.",
+           accept:["wish i had brought","wish i'd brought"]}
+        ]
+      },
+      { type:"mc", part:"Part 5", instructions:"Read the text and choose the best answer (A, B, C or D) for each question.",
+        passage:
+`The last bookshop on the street
+
+When the big chain bookshop two doors down finally closed, everyone assumed that Margaret's tiny second-hand shop would be the next to go. The opposite happened. Six months later, hers was the only bookshop left on the street, and busier than it had been in years. The explanation, which she gives reluctantly and only when pressed, says a great deal about why some small businesses survive while larger ones fail.
+
+Margaret has never tried to compete on price, range or speed, the three battlegrounds on which the chains fought and, in the end, lost. She cannot stock the latest titles as cheaply, nor can she offer them by tomorrow morning. What she offers instead is something the algorithms have never quite worked out how to sell: the experience of being known. She remembers what her customers have bought, what they enjoyed and, more importantly, what they regretted. She is unafraid to tell a regular that a much-praised new novel is, in her honest opinion, not worth his money.
+
+This last quality — a willingness to lose a sale in the interest of a relationship — is precisely what the larger shops, with their targets and their incentives, could never permit their staff to show. A bookseller paid by commission cannot afford to be honest about a bad book; Margaret, who pays only herself, can afford nothing else. Her customers, sensing this, trust her recommendations in a way they would never trust a screen, and that trust, slowly accumulated over decades, turns out to be the most valuable thing in the shop.
+
+There is a deeper lesson here that extends well beyond bookselling. We are repeatedly told that the future belongs to scale, to the businesses large enough to drive their costs down and their convenience up. And for many products this is plainly true; nobody wants a hand-crafted, locally sourced phone charger. But for a whole class of goods and services — those bound up with taste, judgement and trust — scale is not an advantage but a quiet handicap. The bigger an organisation grows, the harder it becomes for it to behave like a person, and it is precisely person-like behaviour that these customers are paying for.
+
+Margaret, who is now in her seventies, says she will keep the shop open as long as her legs allow. She has no website, no app and no plans for either. When I asked whether she worried about what would happen to her customers when she eventually retired, she gave a small smile and said that this, more than the rent or the competition, was the only thing that genuinely kept her awake at night.`,
+        questions:[
+          {stem:"What surprised people about Margaret's shop?", options:["It closed before the big chain did.","It survived and grew busier after the chain closed.","It started selling new books cheaply.","It moved to a larger building."], answer:1},
+          {stem:"Why does Margaret not compete on price and speed?", options:["She is not interested in books.","She knows she cannot win on those terms and offers something else.","Her shop is too large.","Her customers do not care about books."], answer:1},
+          {stem:"What does the writer mean by \"the experience of being known\"?", options:["Margaret advertises widely.","Margaret remembers and understands her individual customers.","Margaret is famous in the town.","Margaret sells the most popular titles."], answer:1},
+          {stem:"Why can Margaret afford to be honest about a bad book?", options:["She earns commission on every sale.","She works only for herself, so honesty costs her nothing.","Her customers never buy bad books.","The publishers pay her to be honest."], answer:1},
+          {stem:"According to the writer, when is large scale a disadvantage?", options:["For all products without exception.","For goods bound up with taste, judgement and trust.","Only for phone chargers.","Never, in the modern economy."], answer:1},
+          {stem:"What does Margaret say worries her most?", options:["The rent on the shop.","Competition from the chains.","What will happen to her customers when she retires.","Building a website."], answer:2}
+        ]
+      },
+      { type:"match", part:"Part 6",
+        instructions:"In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+        passage:
+`The year I stopped buying clothes
+
+It began, as these things often do, with a small moment of embarrassment. Opening my wardrobe one morning, I realised I owned four almost identical blue shirts, two of which still had their labels attached. (37)____ I decided, more or less on the spot, that I would buy no new clothes at all for an entire year.
+
+The first few weeks were surprisingly easy. I had, after all, more than enough to wear. (38)____ Without the option of buying something new, I learned to repair a button, take in a seam, and treat a small stain as a problem to be solved rather than an excuse to shop.
+
+The harder challenge was social. I had not realised how much of my shopping was driven not by need but by mood — a bad day at work, a free hour in town. (39)____ Finding other ways to handle those feelings turned out to be the real experiment, and a far more interesting one than the clothes themselves.
+
+By the summer, something unexpected had happened. (40)____ I began to receive compliments on outfits I had owned for years but had somehow never properly seen. The constant arrival of new things, I realised, had been quietly preventing me from appreciating what I already had.
+
+When the year finally ended, I did not celebrate by going on a shopping spree, as I had half expected to. (41)____ I bought one good jacket, carefully chosen, to replace one that had genuinely worn out. The hunger for newness, it seemed, had simply faded away.
+
+I am not about to pretend the experiment changed my life. (42)____ But it did change my wardrobe, my bank balance and, in a small way, the way I think about everything I own.`,
+        bank:{
+          labels:["A","B","C","D","E","F","G","H"],
+          texts:[
+            "I had been using shopping, without ever admitting it, as a kind of medicine.",
+            "Something had to change, and a vague resolution would clearly not be enough.",
+            "The trouble, it turned out, started a little later.",
+            "Instead, I found I had almost entirely lost the urge.",
+            "I started, oddly, to enjoy the clothes I already owned.",
+            "I gave most of them away to a charity shop the following week.",
+            "It did not make me a better person or solve my deeper problems.",
+            "My friends, meanwhile, continued to shop exactly as before."
+          ]
+        },
+        questions:[
+          {stem:"Choose the missing sentence:", answer:"B"},
+          {stem:"Choose the missing sentence:", answer:"C"},
+          {stem:"Choose the missing sentence:", answer:"A"},
+          {stem:"Choose the missing sentence:", answer:"E"},
+          {stem:"Choose the missing sentence:", answer:"D"},
+          {stem:"Choose the missing sentence:", answer:"G"}
+        ]
+      },
+      { type:"match", part:"Part 7",
+        instructions:"Read about four people who changed career in their forties, then answer the questions. The same person may be chosen more than once.",
+        sources:[
+          {label:"A", name:"Helena", text:"I left a senior position in finance to retrain as a primary-school teacher, and almost everyone I knew told me I was throwing away twenty years of work. The first year was brutal: I was the oldest person on the training course by a wide margin, and skills I had taken for granted in the office turned out to be useless in a classroom of seven-year-olds. What nobody warned me about was how physically tiring it would be. But the moment I knew I had made the right choice came unexpectedly early, in my second week, when a child who had refused to read all term suddenly read a whole page aloud. I went home and cried, and I have never once regretted the change, even on the hardest days."},
+          {label:"B", name:"Ravi", text:"After eighteen years as a lawyer, I opened a small bakery, which sounds romantic until you discover that it means getting up at four every morning. The money is a fraction of what I used to earn, and I have had to learn to live far more simply than before. People expect me to say I am happier, and in a way I am, but the honest truth is more complicated: I miss the intellectual challenge of the law more than I admit in public. What I do not miss is the feeling, which had grown unbearable, of doing work that helped no one but already wealthy clients. The bread, at least, makes people glad."},
+          {label:"C", name:"Marta", text:"I had been a successful graphic designer for over twenty years when I decided to train as a nurse. My colleagues assumed I was having some kind of crisis, but the decision had been forming quietly for a long time. The retraining was harder than I had imagined, mostly because I had forgotten how it feels to be a complete beginner, to be bad at something in front of younger, faster people. That humbling experience, oddly, was the most valuable part. I came out of it not only with a new profession but with far more patience for anyone learning anything, which has improved every relationship in my life, not just my work."},
+          {label:"D", name:"Tomasz", text:"I gave up a comfortable career in engineering to become a full-time musician, which I know sounds like the classic mid-life folly. The difference, I tell people, is that I had been playing seriously for thirty years; this was not a sudden whim but the cashing-in of a lifetime of evenings and weekends. The financial reality has been every bit as frightening as my family predicted, and there are months when I genuinely do not know how the bills will be paid. And yet I would not go back. The engineering was good work, but I was always, in some part of myself, waiting for the day to end so the real life could begin. Now there is no division; the work and the life are the same thing."}
+        ],
+        bank:{labels:["A","B","C","D"], texts:["Helena","Ravi","Marta","Tomasz"]},
+        questions:[
+          {stem:"Which person admits they still miss something about their old career?", answer:"B"},
+          {stem:"Which person values the experience of being a beginner again?", answer:"C"},
+          {stem:"Which person knew very early that they had made the right decision?", answer:"A"},
+          {stem:"Which person says their new work has improved their relationships generally?", answer:"C"},
+          {stem:"Which person had been preparing for the new career, in effect, for decades?", answer:"D"},
+          {stem:"Which person was surprised by how physically demanding the new work was?", answer:"A"},
+          {stem:"Which person no longer feels a division between work and the rest of life?", answer:"D"},
+          {stem:"Which person changed career partly because the old work felt meaningless to them?", answer:"B"},
+          {stem:"Which person faced strong discouragement from people around them?", answer:"A"},
+          {stem:"Which person regularly worries about money in the new career?", answer:"D"}
+        ]
+      }
+    ]
+  }
+},
+
+/* ============================ C1 ADVANCED ============================ */
+C1:{
+  Reading:{
+    title:"C1 Advanced — Reading and Use of English (Practice 3)",
+    note:"Parts 1–8 are auto-scored. Counts are slightly trimmed from the real paper for length; task types are authentic.",
+    parts:[
+      { type:"clozeMC", part:"Part 1", instructions:"Read the text and decide which answer (A, B, C or D) best fits each gap.",
+        title:"The vanishing of the lunch break",
+        body:
+`Not so long ago, the midday meal was treated as a fixed and (1)____ pause in the working day, a moment when the office emptied and the streets briefly filled. That ritual has now largely (2)____ away. In many workplaces, the lunch hour has shrunk to a sandwich eaten at the desk, the keyboard still within (3)____. Defenders of this change argue that it allows people to finish earlier, but the evidence increasingly (4)____ in the opposite direction. Workers who take no real break, studies suggest, are not more productive but less; their afternoon performance (5)____ steadily as concentration fades. There is, moreover, a hidden social (6)____. The shared lunch was once where colleagues exchanged ideas and built the trust that no meeting can (7)____. By eating alone at our screens, we may be quietly (8)____ away at the very thing that made the workplace work.`,
+        questions:[
+          {options:["sacred","holy","blessed","divine"], answer:0},
+          {options:["faded","passed","worn","died"], answer:0},
+          {options:["reach","grasp","range","touch"], answer:0},
+          {options:["points","shows","leads","aims"], answer:0},
+          {options:["declines","reduces","lowers","sinks"], answer:0},
+          {options:["cost","price","charge","fee"], answer:0},
+          {options:["manufacture","construct","produce","engineer"], answer:0},
+          {options:["chipping","cutting","breaking","tearing"], answer:0}
+        ]
+      },
+      { type:"clozeOpen", part:"Part 2", instructions:"Read the text and think of ONE word which best fits each gap.",
+        title:"The forgotten skill of doing nothing",
+        body:
+`There was a time, not (9)____ long ago, when a person waiting for a train simply stood and waited. Now, the moment a queue forms or a lift doors close, hands reach (10)____ pockets and eyes drop to screens. We have, (11)____ effect, abolished the empty moment. What is curious is that these small pauses, far (12)____ being wasted, may once have done important work. It is (13)____ precisely such unstructured intervals that the mind, left to itself, quietly sorts through problems and produces the half-formed ideas (14)____ later feel like inspiration. By filling every gap with information, we may be starving ourselves of the very emptiness (15)____ which good thinking depends. Some researchers now argue that we should deliberately reintroduce moments of boredom into the day, (16)____ strange that advice may sound to a generation raised on constant stimulation.`,
+        questions:[
+          {accept:["so","that","too"]},
+          {accept:["into"]},
+          {accept:["in"]},
+          {accept:["from"]},
+          {accept:["in"]},
+          {accept:["that","which"]},
+          {accept:["on"]},
+          {accept:["however"]}
+        ]
+      },
+      { type:"wordform", part:"Part 3", instructions:"For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+        title:"The quiet power of handwriting",
+        rows:[
+          {text:"In a world of keyboards, the (17)____ of", root:"PERSIST"},
+          {text:"handwriting can seem puzzling."},
+          {text:""},
+          {text:"Yet psychologists have gathered (18)____", root:"CONVINCE"},
+          {text:"evidence that writing by hand aids memory."},
+          {text:""},
+          {text:"The slower, more (19)____ movement of the pen", root:"DELIBERATE"},
+          {text:"forces the brain to process information more deeply."},
+          {text:""},
+          {text:"This may explain the apparent (20)____ of", root:"SUPERIOR"},
+          {text:"handwritten notes over typed ones in many studies."},
+          {text:""},
+          {text:"The effect is especially (21)____ when students", root:"NOTICE"},
+          {text:"are later tested on understanding rather than recall."},
+          {text:""},
+          {text:"Some educators find these results so (22)____", root:"COMPEL"},
+          {text:"that they have reintroduced handwriting lessons."},
+          {text:""},
+          {text:"Critics, however, regard such a return as"},
+          {text:"(23)____ and impractical in modern classrooms.", root:"NOSTALGIA"},
+          {text:""},
+          {text:"The debate, predictably, remains far from"},
+          {text:"(24)____, with strong feelings on both sides.", root:"RESOLVE"}
+        ],
+        questions:[
+          {root:"PERSIST",   accept:["persistence"]},
+          {root:"CONVINCE",  accept:["convincing"]},
+          {root:"DELIBERATE",accept:["deliberate"]},
+          {root:"SUPERIOR",  accept:["superiority"]},
+          {root:"NOTICE",    accept:["noticeable"]},
+          {root:"COMPEL",    accept:["compelling"]},
+          {root:"NOSTALGIA", accept:["nostalgic"]},
+          {root:"RESOLVE",   accept:["resolved"]}
+        ]
+      },
+      { type:"transform", part:"Part 4",
+        instructions:"Complete the second sentence so that it has a similar meaning to the first, using the word given (do not change the word). Write between THREE and SIX words, including the word given.",
+        questions:[
+          {before:"Nobody expected the meeting to last so long.",
+           keyword:"EXPECTATIONS",
+           after:"The meeting lasted longer ___.",
+           accept:["than anyone's expectations","than all expectations","than everyone's expectations"]},
+          {before:"I only understood the joke after everyone else had laughed.",
+           keyword:"BEFORE",
+           after:"Everyone else had laughed ___ the joke.",
+           accept:["before i understood","before i got"]},
+          {before:"You should not have told her my secret.",
+           keyword:"KEPT",
+           after:"You ___ to yourself.",
+           accept:["should have kept my secret","should have kept it"]},
+          {before:"It's possible that they missed the train.",
+           keyword:"MAY",
+           after:"They ___ the train.",
+           accept:["may have missed"]},
+          {before:"The company is likely to announce job cuts soon.",
+           keyword:"EXPECTED",
+           after:"The company ___ job cuts soon.",
+           accept:["is expected to announce"]},
+          {before:"He only passed the exam because his sister helped him.",
+           keyword:"NOT",
+           after:"If his sister ___ him, he would have failed the exam.",
+           accept:["had not helped","hadn't helped"]}
+        ]
+      },
+      { type:"mc", part:"Part 5",
+        instructions:"Read the text and choose the best answer (A, B, C or D) for each question.",
+        passage:
+`The tyranny of the comfortable chair
+
+There is a particular kind of meeting that never seems to end, and I have come to suspect that the furniture is largely to blame. The modern conference room, with its deep, padded, gently reclining chairs, was designed, no doubt, with the comfort of its occupants in mind. What its designers failed to anticipate is that a comfortable body has no urgent reason to reach a decision. We sink into those chairs as into a warm bath, and, like a warm bath, they encourage us to linger far longer than is good for us.
+
+The historical evidence, such as it is, points the same way. The most famously efficient decision-making bodies have often been those that conducted their business standing up, or perched on hard benches that grew steadily more uncomfortable as the hours passed. Discomfort, it turns out, is a powerful editor. A person whose back has begun to ache develops a sudden and admirable talent for distinguishing the essential from the merely interesting. The aching back is, in its way, a guardian of everyone's time.
+
+This is not an argument for cruelty, and I am aware of how it might sound. I am not proposing that we conduct our affairs in physical agony, nor that comfort is somehow morally suspect. The point is narrower and, I think, more interesting. It is that comfort and urgency are, in this specific setting, quietly at war with one another, and that we have, without quite noticing, allowed comfort to win every battle. The result is not greater happiness but longer meetings, which is surely the worst of both worlds.
+
+What makes the situation faintly comic is that everyone involved would, if asked, claim to want shorter meetings. The desire is universal and sincere. And yet we continue to furnish our meeting rooms as though the goal were to keep people in them for as long as possible. We have, in effect, designed our environment to defeat our own stated intentions, and then we express surprise, week after week, when our intentions duly lose.
+
+The solution, if there is one, is unlikely to be popular. It would involve, at a minimum, removing the most comfortable chairs from the rooms where decisions are supposed to be made, and reserving them strictly for the rooms where we go to relax. A meeting, on this view, is not a place to be comfortable; it is a place to be finished with as efficiently as possible, so that one can go and be comfortable somewhere else. Until we are willing to act on that simple distinction, I suspect our meetings will continue, gently and expensively, to expand to fill the generous space our furniture so kindly provides.`,
+        questions:[
+          {stem:"What does the writer suggest about the modern conference room's chairs?", options:["They were badly made.","Their comfort removes the urgency to reach decisions.","They are too hard for long meetings.","They were designed to shorten meetings."], answer:1},
+          {stem:"What does the historical evidence suggest, according to the writer?", options:["Efficient bodies often met standing up or on uncomfortable seats.","Comfortable chairs lead to better decisions.","Meetings have always been long.","Standing meetings are a recent invention."], answer:0},
+          {stem:"What does the writer mean by calling discomfort \"a powerful editor\"?", options:["It makes people angry.","It helps people focus on what is essential.","It causes serious health problems.","It ends meetings by force."], answer:1},
+          {stem:"What does the writer clarify in the third paragraph?", options:["That he wants meetings to be painful.","That he is not arguing comfort is morally wrong, only that it conflicts with urgency here.","That comfort is always a bad thing.","That meetings should be abolished."], answer:1},
+          {stem:"What does the writer find \"faintly comic\" about the situation?", options:["People claim to want shorter meetings yet furnish rooms to keep them long.","Nobody attends meetings any more.","Comfortable chairs are very expensive.","People enjoy long meetings."], answer:0},
+          {stem:"What is the writer's proposed solution?", options:["Abolish all meetings.","Move the most comfortable chairs out of decision-making rooms.","Make all chairs more comfortable.","Hold meetings only in relaxation rooms."], answer:1}
+        ]
+      },
+      { type:"match", part:"Part 6",
+        instructions:"Read four short opinion pieces (A–D) on the same topic: whether young people should be encouraged to travel widely before settling into a career. Then answer the questions.",
+        sources:[
+          {label:"A", text:"Opinion A. The fashion for the extended gap year rests on a comfortable illusion: that wandering the world somehow constitutes an education in itself. In practice, the young people who benefit most from travel are precisely those who least need it — the confident, the curious, the already well-read. For the rest, a year of casual movement too often produces nothing but a thinner bank account and a richer collection of photographs. Genuine growth comes from sustained difficulty, from staying somewhere long enough for the novelty to wear off and the real work to begin. The traveller who never stays anywhere never reaches that point, and returns home essentially unchanged, however many borders he has crossed."},
+          {label:"B", text:"Opinion B. Those who dismiss youthful travel as mere tourism have, I suspect, forgotten what it is to be eighteen and to discover that the assumptions of one's childhood are not, after all, the only way to live. That single realisation is worth more than a year of formal study. It cannot be taught in a classroom; it must be felt, ideally somewhere far enough from home that retreat is difficult. I would go further: the discomfort that critics warn against is not a flaw in the experience but its entire point. The young person who is never lost, never out of their depth, never forced to depend on the kindness of strangers, has not really travelled at all."},
+          {label:"C", text:"Opinion C. The debate is too often framed as though travel were either transformative or worthless, when the truth depends almost entirely on how it is done. A year spent drifting between identical hostels, surrounded by other travellers from one's own country, teaches little. A year spent working in an unfamiliar place, learning a language out of necessity and forming real obligations to real people, can be genuinely formative. The word 'travel' conceals these enormous differences. We should stop asking whether young people benefit from travel and start asking what kind of travel, undertaken in what spirit, actually does the work its enthusiasts claim for it."},
+          {label:"D", text:"Opinion D. I have grown weary of the assumption that a young person's time is best spent moving as fast as possible towards a career. The years between school and full adult responsibility are, biologically and psychologically, the years in which we are most open to being changed, and to spend them entirely in preparation for a job is a peculiar kind of waste. Travel is one good way to use that openness, though not the only one. What matters is that the time is used for something other than the relentless accumulation of qualifications. A young person who has done nothing but study has, in a real sense, not yet begun to live."}
+        ],
+        bank:{labels:["A","B","C","D"], texts:["Writer A","Writer B","Writer C","Writer D"]},
+        questions:[
+          {stem:"Which writer takes a view most similar to Writer A's about the limited value of casual, unrooted travel?", answer:"C"},
+          {stem:"Which writer, unlike the others, argues that discomfort is the essential point of youthful travel?", answer:"B"},
+          {stem:"Which writer focuses primarily on how travel is done rather than on whether it is worthwhile in general?", answer:"C"},
+          {stem:"Which writer agrees with Writer B that an early shift in one's assumptions is more valuable than formal study?", answer:"D"}
+        ]
+      },
+      { type:"match", part:"Part 7",
+        instructions:"In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+        passage:
+`The lighthouse keeper who would not leave
+
+When the last of the country's lighthouses was finally automated, the authorities assumed that its keeper, a quiet man named Aldous Finch, would retire gratefully to the mainland like all the others before him. (41)____
+
+Finch had kept the light for thirty-one years, and the prospect of a small flat in a coastal town filled him with a dread he found difficult to put into words. He made the authorities an unusual offer. (42)____ They refused, of course; there was no legal mechanism for what he proposed, and besides, the cottage was scheduled for sale.
+
+For a year, the matter seemed settled. Finch took the flat, the cottage was sold, and the light blinked on automatically, watched by no one. (43)____ Neighbours reported that he spent his days staring out to sea, as though waiting for a signal that never came.
+
+Then something curious happened. The family who had bought the lighthouse cottage, charmed by Finch's story, wrote to him with an invitation. (44)____ He could come and stay whenever he wished, they said, for as long as he wished, asking nothing in return but his company and his stories.
+
+To everyone's surprise, the arrangement worked. Finch now spends most of each summer at the cottage, not as a keeper but as a kind of living memory of the place. (45)____ Children who visit are told that the strange old man on the rocks once kept the light burning by hand, through storms that would frighten them to hear described.
+
+Asked recently whether he was happy, Finch gave the question his usual long consideration. (46)____ It was, he added, a better answer than he had expected to be able to give.`,
+        bank:{
+          labels:["A","B","C","D","E","F","G","H"],
+          texts:[
+            "He eventually said that he was, on the whole, more at peace than he had been at any time since the light went out.",
+            "He proposed to stay on, unpaid, in the keeper's cottage, maintaining the building that the machine had made unnecessary.",
+            "He sold the cottage to a developer within the month.",
+            "The town, however, soon noticed that Finch was not adjusting well.",
+            "Finch had never married, and had no family of his own to return to.",
+            "It was an invitation he could hardly have imagined receiving.",
+            "He tells them, too, about the nights when nothing happened at all, which he insists were the ones he loved best.",
+            "He had, in fact, no intention of leaving at all."
+          ]
+        },
+        questions:[
+          {stem:"Choose the missing paragraph:", answer:"H"},
+          {stem:"Choose the missing paragraph:", answer:"B"},
+          {stem:"Choose the missing paragraph:", answer:"D"},
+          {stem:"Choose the missing paragraph:", answer:"F"},
+          {stem:"Choose the missing paragraph:", answer:"G"},
+          {stem:"Choose the missing paragraph:", answer:"A"}
+        ]
+      },
+      { type:"match", part:"Part 8",
+        instructions:"You are going to read four reviews (A–D) of the same film. Answer the questions by choosing the appropriate reviewer.",
+        sources:[
+          {label:"A", text:"Reviewer A. Director Vance's new film is a strange and beautiful thing, and I suspect it will divide audiences sharply. For long stretches almost nothing happens: a woman walks along a beach, a kettle boils, light moves across a wall. To the impatient viewer this will seem like self-indulgence of the worst kind. To those willing to slow down, however, the film offers a rare and almost hypnotic attentiveness to ordinary life. The performances are excellent, particularly the lead, who conveys a lifetime of disappointment with barely a word of dialogue. My one reservation is the ending, which abandons this patient mood for a sudden, noisy drama that belongs to a different and far inferior film."},
+          {label:"B", text:"Reviewer B. There is no denying the technical craft on display here; every frame could be hung on a gallery wall. But a film is not a series of paintings, and somewhere in its love of its own beauty, this one forgets to tell a story. I sat for two hours admiring the photography and feeling absolutely nothing. The lead performance, much praised elsewhere, struck me as merely blank rather than deep; the absence of dialogue is taken by some critics for profundity, but silence is only meaningful when it conceals something, and here I suspect it conceals very little. The ending, at least, finally provided some energy, though by then I had long stopped caring."},
+          {label:"C", text:"Reviewer C. Vance has made the film of her career, a work of extraordinary patience and control. Those complaining that 'nothing happens' have, I think, misunderstood what they were watching: the entire point is to retrain the eye to find drama in the smallest things, and on that ambitious aim the film succeeds completely. The lead gives a performance of remarkable restraint, saying more with a glance than most actors manage with a monologue. I will confess to one disappointment, shared apparently by other reviewers: the final ten minutes betray everything that came before, as if the director suddenly lost her nerve and reached for a conventional climax she did not need."},
+          {label:"D", text:"Reviewer D. I went expecting to be bored, having read that the film was 'slow', and I emerged converted. Yes, it is unhurried, but it is never empty; every quiet scene is doing careful work, and the patience is richly rewarded. Unlike several other reviewers, I thought the much-criticised ending was exactly right — after two hours of stillness, the sudden burst of drama landed with a force it could never have had in a more conventional film. The lead performance is the finest I have seen this year. This is not a film for everyone, but those it is for will treasure it, and I count myself firmly among them."}
+        ],
+        bank:{labels:["A","B","C","D"], texts:["Reviewer A","Reviewer B","Reviewer C","Reviewer D"]},
+        questions:[
+          {stem:"Which reviewer, unlike the others, found the film emotionally empty?", answer:"B"},
+          {stem:"Which reviewer shares Reviewer A's admiration for the lead performance?", answer:"C"},
+          {stem:"Which reviewer disagrees with the others by praising the ending?", answer:"D"},
+          {stem:"Which reviewer was won over after expecting to dislike the film?", answer:"D"},
+          {stem:"Which reviewer felt the silence of the lead role hid very little?", answer:"B"},
+          {stem:"Which reviewer agrees with Reviewer A that the ending spoils the mood of the rest?", answer:"C"},
+          {stem:"Which reviewer thinks viewers who complain that 'nothing happens' have misunderstood the film?", answer:"C"},
+          {stem:"Which reviewer admires the technical craft but feels the film fails as a story?", answer:"B"},
+          {stem:"Which reviewer describes the film as the best of the director's career?", answer:"C"},
+          {stem:"Which reviewer concedes the film is not for everyone while strongly recommending it?", answer:"D"}
+        ]
+      }
+    ]
+  }
+}
+};
+
+/* ============================================================
    CAMBRIDGE MOCK 01 — Reading only, one full exam per level.
    Identical part structure to EXAMS[level].Reading. All content
    is original, written for this mock; only the Cambridge format
@@ -5172,6 +6548,8 @@ const state = { name:"", grade:"", email:"", skill:"", level:"", examType:"pract
 function currentExam(){
   if(state.examType === 'mock01' && MOCK01[state.level]) return MOCK01[state.level];
   if(state.examType === 'mock02' && MOCK02[state.level]) return MOCK02[state.level];
+  if(state.examType === 'practice2' && PRACTICE2[state.level] && PRACTICE2[state.level][state.skill]) return PRACTICE2[state.level][state.skill];
+  if(state.examType === 'practice3' && PRACTICE3[state.level] && PRACTICE3[state.level][state.skill]) return PRACTICE3[state.level][state.skill];
   return EXAMS[state.level][state.skill];
 }
 const app = document.getElementById('app');
@@ -6073,12 +7451,55 @@ const render = {
       </div>
       <div class="row" style="margin-top:18px"><button class="ghost" onclick="go('level')">&larr; Back to levels</button></div>`;
     const pBtn=document.getElementById('catPractice');
-    if(pBtn && hasPractice) pBtn.onclick=()=>{ state.examType='practice'; state.answers={}; state._tabSwitches=0; go('exam'); };
+    if(pBtn && hasPractice) pBtn.onclick=()=>go('practicePick');
     const mBtn=document.getElementById('catMocks');
     if(mBtn){
       if(unlocked) mBtn.onclick=()=>go('examPick');
       else mBtn.onclick=()=>{ alert('🔒 Los MOCKS están bloqueados.\n\nTu profesor los habilitará desde el Portal NIS cuando estés listo para rendirlos.'); };
     }
+  },
+
+  practicePick(){
+    const off=OFFICIAL[state.level];
+    const has1 = !!(EXAMS[state.level] && EXAMS[state.level][state.skill]);
+    const has2 = !!(typeof PRACTICE2 !== 'undefined' && PRACTICE2[state.level] && PRACTICE2[state.level][state.skill]);
+    const has3 = !!(typeof PRACTICE3 !== 'undefined' && PRACTICE3[state.level] && PRACTICE3[state.level][state.skill]);
+    app.innerHTML = `
+      ${topbar('MOCKS CAMBRIDGE &rsaquo; '+state.skill+' &rsaquo; '+state.level+' &rsaquo; Practice')}
+      <h1>${state.level} ${state.skill} — choose a practice</h1>
+      <p class="sub">${off.name}. Warm-up tests in the authentic Cambridge format — auto-scored with timer and CEFR feedback.</p>
+
+      ${has1 ? `
+      <div class="card">
+        <h2>📘 Práctica 1</h2>
+        <p>A ${off.name}-format ${state.skill.toLowerCase()} practice in the authentic Cambridge structure and task types.</p>
+        <div class="row" style="margin-top:14px"><button id="prac1Btn">Start Práctica 1 &rarr;</button></div>
+      </div>
+      ` : ''}
+
+      ${has2 ? `
+      <div class="card">
+        <h2>📘 Práctica 2</h2>
+        <p>A second ${off.name}-format ${state.skill.toLowerCase()} practice — fresh texts and tasks, same structure and difficulty.</p>
+        <div class="row" style="margin-top:14px"><button id="prac2Btn">Start Práctica 2 &rarr;</button></div>
+      </div>
+      ` : ''}
+
+      ${has3 ? `
+      <div class="card">
+        <h2>📘 Práctica 3</h2>
+        <p>A third ${off.name}-format ${state.skill.toLowerCase()} practice — more original texts and tasks at the same level.</p>
+        <div class="row" style="margin-top:14px"><button id="prac3Btn">Start Práctica 3 &rarr;</button></div>
+      </div>
+      ` : ''}
+
+      <div class="row" style="margin-top:18px"><button class="ghost" onclick="go('category')">&larr; Back</button></div>`;
+    const prac1Btn = document.getElementById('prac1Btn');
+    if(prac1Btn) prac1Btn.onclick=()=>{ state.examType='practice'; state.answers={}; state._tabSwitches=0; go('exam'); };
+    const prac2Btn = document.getElementById('prac2Btn');
+    if(prac2Btn) prac2Btn.onclick=()=>{ state.examType='practice2'; state.answers={}; state._tabSwitches=0; go('exam'); };
+    const prac3Btn = document.getElementById('prac3Btn');
+    if(prac3Btn) prac3Btn.onclick=()=>{ state.examType='practice3'; state.answers={}; state._tabSwitches=0; go('exam'); };
   },
 
   examPick(){
@@ -6119,7 +7540,7 @@ const render = {
   exam(){
     const ex = currentExam();
     const dur = (DURATIONS[state.level] && DURATIONS[state.level][state.skill]) || 45;
-    const label = state.examType === 'mock01' ? 'MOCK 1' : state.examType === 'mock02' ? 'MOCK 2' : 'Practice';
+    const label = state.examType === 'mock01' ? 'MOCK 1' : state.examType === 'mock02' ? 'MOCK 2' : state.examType === 'practice2' ? 'Practice 2' : state.examType === 'practice3' ? 'Practice 3' : 'Practice';
     state.currentPart = 0;
 
     // Precompute per-part starting question number and length

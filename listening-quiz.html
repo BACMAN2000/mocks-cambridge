@@ -3666,6 +3666,772 @@ const QUIZ3 = {
  }
 }; /* Practice = original recordings */
 
+const QUIZ4 = {
+ "A2": {
+  "label": "A2 — Elementary",
+  "cefr": "Cambridge KET · A2 official format",
+  "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+  "audios": [
+   {
+    "id": "A2-P1",
+    "title": "Part 1 · Questions 1–5",
+    "kind": "file",
+    "paged": true,
+    "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+    "segments": ["A snack","Going to town","The weather","A gift","Wake-up time"],
+    "scripts": [
+     "Question one. Boy: I'm hungry. Shall we buy a pizza? Girl: We had pizza yesterday. Let's get a sandwich instead. Boy: OK, good idea.",
+     "Question two. Woman: How shall we get to town? Man: The bus takes ages. Let's go by bike, it's a sunny day. Woman: Perfect.",
+     "Question three. Girl: Can we play outside? Mum: Look, it's snowing now. Put on your warm coat first. Girl: It's so cold!",
+     "Question four. Boy: What did you give Grandma? Girl: I bought her a book, but then I picked some flowers too. The book was her favourite.",
+     "Question five. Mum: What time did you wake up? Boy: At seven, not half past seven. I wanted to finish my homework early."
+    ],
+    "questions": [
+     { "type": "pic", "q": "What will they buy?", "imgs": ["pizza","sandwich","cake"], "c": 1, "audio": "P2/A2/A2-P1-q1.mp3" },
+     { "type": "pic", "q": "How will they get to town?", "imgs": ["bus","bike","car"], "c": 1, "audio": "P2/A2/A2-P1-q2.mp3" },
+     { "type": "pic", "q": "What's the weather like now?", "imgs": ["sunny","rainy","snowy"], "c": 2, "audio": "P2/A2/A2-P1-q3.mp3" },
+     { "type": "pic", "q": "What did the girl give Grandma?", "imgs": ["book","cake","ball"], "c": 0, "audio": "P2/A2/A2-P1-q4.mp3" },
+     { "type": "pic", "q": "What time did the boy wake up?", "imgs": ["clock700","clock730","clock8"], "c": 0, "audio": "P2/A2/A2-P1-q5.mp3" }
+    ]
+   },
+   {
+    "id": "A2-P2",
+    "title": "Part 2 · Questions 6–10",
+    "kind": "file",
+    "file": "P2/A2/A2-P2.mp3",
+    "intro": "You will hear a coach telling students about a sports day. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+    "scripts": [
+     "Listen to your coach talking about sports day. Coach: Here are the details for our school sports day. It will take place on Friday this week. We start at ten o'clock, so please arrive early. Bring a hat, because it will be very sunny. Lunch costs five pounds. After the races, there will be a prize for the best team."
+    ],
+    "gapTitle": "School Sports Day",
+    "questions": [
+     { "type": "gap", "label": "Day: ____", "accept": ["friday"] },
+     { "type": "gap", "label": "Start time: ____ o'clock", "accept": ["10","ten"] },
+     { "type": "gap", "label": "Bring a: ____", "accept": ["hat"] },
+     { "type": "gap", "label": "Lunch costs: £ ____", "accept": ["5","five"] },
+     { "type": "gap", "label": "Prize for the best: ____", "accept": ["team"] }
+    ]
+   },
+   {
+    "id": "A2-P3",
+    "title": "Part 3 · Questions 11–15",
+    "kind": "file",
+    "file": "P2/A2/A2-P3.mp3",
+    "intro": "You will hear Emma talking to her friend Jack about a music lesson. For each question, choose the correct answer (A, B or C).",
+    "scripts": [
+     "Emma: Hi Jack, are you coming to the music lesson today? Jack: Yes, but it starts at four, not three. Emma: Good. What are you learning? Jack: I'm learning the guitar. My sister plays the piano. Emma: How do you get there? Jack: My mum drives me. Emma: Do you have a concert soon? Jack: Yes, next Saturday. I'm a bit nervous."
+    ],
+    "questions": [
+     { "type": "mc", "q": "What time does the lesson start?", "o": ["At three","At four","At five"], "c": 1 },
+     { "type": "mc", "q": "What does Jack learn?", "o": ["The piano","The guitar","Singing"], "c": 1 },
+     { "type": "mc", "q": "How does Jack get to the lesson?", "o": ["By bus","By bike","By car"], "c": 2 },
+     { "type": "mc", "q": "When is the concert?", "o": ["Today","Next Saturday","Next month"], "c": 1 },
+     { "type": "mc", "q": "How does Jack feel about it?", "o": ["Excited","A bit nervous","Bored"], "c": 1 }
+    ]
+   },
+   {
+    "id": "A2-P4",
+    "title": "Part 4 · Questions 16–20",
+    "kind": "file",
+    "file": "P2/A2/A2-P4.mp3",
+    "intro": "You will hear a girl called Lucy talking about her new pet. For each question, choose the correct answer (A, B or C).",
+    "scripts": [
+     "Lucy: I got my dog two weeks ago. His name is Rocky. At first he was very shy, but now he's friendly. I walk him every morning before school. He loves running in the park. The hardest part is teaching him to sit, but he's learning. My favourite thing is that he sleeps next to my bed. I'm very happy."
+    ],
+    "questions": [
+     { "type": "mc", "q": "How long has Lucy had the dog?", "o": ["Two days","Two weeks","Two months"], "c": 1 },
+     { "type": "mc", "q": "What was Rocky like at first?", "o": ["Shy","Loud","Angry"], "c": 0 },
+     { "type": "mc", "q": "When does Lucy walk him?", "o": ["In the morning","At lunchtime","At night"], "c": 0 },
+     { "type": "mc", "q": "What is the hardest part?", "o": ["Feeding him","Teaching him to sit","Washing him"], "c": 1 },
+     { "type": "mc", "q": "What does Lucy like best?", "o": ["He sleeps near her bed","He is big","He is fast"], "c": 0 }
+    ]
+   },
+   {
+    "id": "A2-P5",
+    "title": "Part 5 · Questions 21–25",
+    "kind": "file",
+    "file": "P2/A2/A2-P5.mp3",
+    "intro": "You will hear Tom talking to a friend about a picnic. What will each person bring? For each question, choose the correct answer.",
+    "bank": ["fruit","sandwiches","juice","cake","plates","blanket","games"],
+    "scripts": [
+     "Tom: Everyone is helping with the picnic. Sofia is bringing the fruit, because her garden has apples. Max said he'll make the sandwiches. Lily is going to bring the juice. Noah is good at baking, so he's making a cake. And Grace will bring some games for after lunch."
+    ],
+    "questions": [
+     { "type": "match", "person": "Sofia", "c": "fruit" },
+     { "type": "match", "person": "Max", "c": "sandwiches" },
+     { "type": "match", "person": "Lily", "c": "juice" },
+     { "type": "match", "person": "Noah", "c": "cake" },
+     { "type": "match", "person": "Grace", "c": "games" }
+    ]
+   }
+  ]
+ },
+ "B1": {
+  "label": "B1 — Intermediate",
+  "cefr": "Cambridge PET · B1 official format",
+  "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+  "audios": [
+   {
+    "id": "B1-P1",
+    "title": "Part 1 · Questions 1–7",
+    "kind": "file",
+    "paged": true,
+    "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+    "segments": ["Lunch plan","Getting home","The weather","A present","At the shop","Bus time","A lost thing"],
+    "scripts": [
+     "Question one. Girl: Shall we make a cake for the party? Boy: There isn't time. Let's just buy some sandwiches. Girl: OK, that's easier.",
+     "Question two. Man: How are you getting home tonight? Woman: My car is at the garage, so I'll take the bus. Man: Right, see you tomorrow.",
+     "Question three. Boy: Can we go to the beach today? Mum: It's snowing outside, look. Maybe next week. Boy: Oh, that's a shame.",
+     "Question four. Girl: What shall we get Dad? Boy: He loves photos, so let's buy him a camera. Girl: Great, better than a book.",
+     "Question five. Woman: Did you find a hat? Man: They had no hats left, so I bought a bag instead. Woman: Well, you needed one anyway.",
+     "Question six. Boy: When's the bus? Girl: At four, not half past four. Boy: Then we should run.",
+     "Question seven. Mum: You look worried. Girl: I've lost my keys in the park. Mum: Let's go and look together."
+    ],
+    "questions": [
+     { "type": "pic", "q": "What will they bring to the party?", "imgs": ["cake","sandwich","pizza"], "c": 1, "audio": "P2/B1/B1-P1-q1.mp3" },
+     { "type": "pic", "q": "How will the woman get home?", "imgs": ["car","bus","bike"], "c": 1, "audio": "P2/B1/B1-P1-q2.mp3" },
+     { "type": "pic", "q": "What's the weather like?", "imgs": ["sunny","rainy","snowy"], "c": 2, "audio": "P2/B1/B1-P1-q3.mp3" },
+     { "type": "pic", "q": "What will they buy for Dad?", "imgs": ["book","camera","guitar"], "c": 1, "audio": "P2/B1/B1-P1-q4.mp3" },
+     { "type": "pic", "q": "What did the man buy?", "imgs": ["hat","bag","book"], "c": 1, "audio": "P2/B1/B1-P1-q5.mp3" },
+     { "type": "pic", "q": "What time is the bus?", "imgs": ["clock400","clock420","clock430"], "c": 0, "audio": "P2/B1/B1-P1-q6.mp3" },
+     { "type": "pic", "q": "What did the girl lose?", "imgs": ["keys","phone","umbrella"], "c": 0, "audio": "P2/B1/B1-P1-q7.mp3" }
+    ]
+   },
+   {
+    "id": "B1-P2",
+    "title": "Part 2 · Questions 8–13",
+    "kind": "file",
+    "paged": true,
+    "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+    "segments": ["A holiday","Last weekend","A restaurant","Coach's advice","A film","Why she's late"],
+    "scripts": [
+     "You will hear a boy talking about a holiday. Boy: The hotel was nice and the food was great, but what I'll remember most is the day we went diving. I'd never done it before, and it was incredible.",
+     "You will hear a girl talking about last weekend. Girl: I'd planned to go shopping, but my best friend called and asked me to help her move house, so I spent all Saturday carrying boxes.",
+     "You will hear a man talking about a restaurant. Man: The prices were fair and the staff were friendly, but honestly the food arrived cold, so I don't think I'll go back.",
+     "You will hear a coach talking to a player. Coach: Your fitness has improved a lot, well done. But you need to pass the ball more. Try to think about your teammates in the next match.",
+     "You will hear a woman talking about a film. Woman: I thought it would be scary, but actually it made me laugh the whole way through. I was pleasantly surprised.",
+     "You will hear a girl explaining why she's late. Girl: I'm really sorry. My alarm went off on time, but the train was cancelled, so I had to wait for the next one."
+    ],
+    "questions": [
+     { "type": "mc", "q": "What will the boy remember most?", "o": ["The hotel","The diving","The food"], "c": 1, "audio": "P2/B1/B1-P2-q1.mp3" },
+     { "type": "mc", "q": "What did the girl do on Saturday?", "o": ["Went shopping","Helped a friend move","Stayed home"], "c": 1, "audio": "P2/B1/B1-P2-q2.mp3" },
+     { "type": "mc", "q": "Why won't the man return to the restaurant?", "o": ["It was expensive","The food was cold","The staff were rude"], "c": 1, "audio": "P2/B1/B1-P2-q3.mp3" },
+     { "type": "mc", "q": "What does the coach want the player to do?", "o": ["Run faster","Pass the ball more","Train harder"], "c": 1, "audio": "P2/B1/B1-P2-q4.mp3" },
+     { "type": "mc", "q": "How did the woman feel about the film?", "o": ["Scared","Pleasantly surprised","Bored"], "c": 1, "audio": "P2/B1/B1-P2-q5.mp3" },
+     { "type": "mc", "q": "Why is the girl late?", "o": ["She overslept","The train was cancelled","She missed the bus"], "c": 1, "audio": "P2/B1/B1-P2-q6.mp3" }
+    ]
+   },
+   {
+    "id": "B1-P3",
+    "title": "Part 3 · Questions 14–19",
+    "kind": "file",
+    "file": "P2/B1/B1-P3.mp3",
+    "intro": "You will hear a student telling other students about a cooking club. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+    "scripts": [
+     "Hi everyone. Let me tell you about our Cooking Club. We meet every Monday in the school kitchen. We start at half past three and finish at five. The cost is fifteen pounds for the term, and that includes all the ingredients. This term we're learning to make Italian food, which is delicious. Please remember to bring an apron, because it can get messy. We'd love to see you there!"
+    ],
+    "gapTitle": "School Cooking Club",
+    "questions": [
+     { "type": "gap", "label": "The club meets every: ____", "accept": ["monday","mondays"] },
+     { "type": "gap", "label": "Where: the school ____", "accept": ["kitchen"] },
+     { "type": "gap", "label": "Finishes at: ____ o'clock", "accept": ["5","five"] },
+     { "type": "gap", "label": "Cost for the term: £ ____", "accept": ["15","fifteen"] },
+     { "type": "gap", "label": "This term they make: ____ food", "accept": ["italian"] },
+     { "type": "gap", "label": "Remember to bring: an ____", "accept": ["apron"] }
+    ]
+   },
+   {
+    "id": "B1-P4",
+    "title": "Part 4 · Questions 20–25",
+    "kind": "file",
+    "file": "P2/B1/B1-P4.mp3",
+    "intro": "You will hear an interview with a young chef called Mia. For each question, choose the correct answer (A, B or C).",
+    "scripts": [
+     "Interviewer: Mia, how did you start cooking? Mia: My grandmother taught me when I was nine. We baked bread together every weekend. Interviewer: What do you most enjoy cooking? Mia: People expect me to say desserts, but actually I love making soups. They're warm and simple. Interviewer: What's the hardest part of your job? Mia: It isn't the cooking. It's staying calm when the kitchen is very busy. Interviewer: Have you won anything? Mia: I won a young cooks' prize last year, which gave me confidence. Interviewer: What advice would you give beginners? Mia: Start with simple recipes and don't give up. Interviewer: And your dream? Mia: One day I'd love to open my own small restaurant."
+    ],
+    "questions": [
+     { "type": "mc", "q": "Who taught Mia to cook?", "o": ["A teacher","Her grandmother","A friend"], "c": 1 },
+     { "type": "mc", "q": "What does Mia most enjoy cooking?", "o": ["Desserts","Soups","Bread"], "c": 1 },
+     { "type": "mc", "q": "What does Mia find hardest?", "o": ["The cooking","Staying calm when busy","Cleaning up"], "c": 1 },
+     { "type": "mc", "q": "How did winning the prize make her feel?", "o": ["Confident","Worried","Tired"], "c": 0 },
+     { "type": "mc", "q": "What advice does Mia give beginners?", "o": ["Buy good knives","Start with simple recipes","Watch videos"], "c": 1 },
+     { "type": "mc", "q": "What is Mia's dream?", "o": ["To write a book","To open a restaurant","To teach"], "c": 1 }
+    ]
+   }
+  ]
+ },
+ "B2": {
+  "label": "B2 — Upper-Intermediate",
+  "cefr": "Cambridge First (FCE) · B2 official format",
+  "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+  "audios": [
+   {
+    "id": "B2-P1",
+    "title": "Part 1 · Questions 1–8",
+    "kind": "file",
+    "paged": true,
+    "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+    "segments": ["A book","A complaint","Study advice","A move","A holiday","An event change","A game","At a shop"],
+    "scripts": [
+     "Question one. Man: What did you think of the book? Woman: The story was clever and the ending was strong, but the middle dragged. I almost stopped reading.",
+     "Question two. Woman: I'm calling about the phone I ordered. Man: Is there a problem? Woman: It came quickly, yes, but the screen has a crack. I'd like a replacement.",
+     "Question three. Teacher: Before the test on Monday, don't try to learn everything at once. The smartest thing is to review a little each day. That's what really works.",
+     "Question four. Man: How do you feel about moving city? Woman: People assume I'm sad to leave, but honestly I'm thrilled. It's a fresh start and I can't wait.",
+     "Question five. Woman: Where shall we go in summer? Man: We always go camping. This year I'd rather relax in a hotel by the lake. Woman: Agreed, let's do that.",
+     "Question six. Man: Please note that tonight's talk has moved from Room A to the main library. The speaker and the time stay the same.",
+     "Question seven. Girl: We lost the match. Boy: Was the team tired? Girl: No, we played well. The referee made some terrible decisions, and that cost us.",
+     "Question eight. Woman: I bought these shoes last week, but they hurt my feet. Man: A different size, perhaps? Woman: No, I'd simply like to return them and get my money back."
+    ],
+    "questions": [
+     { "type": "mc", "q": "What was the problem with the book?", "o": ["The ending","The middle part","The characters"], "c": 1, "audio": "P2/B2/B2-P1-q1.mp3" },
+     { "type": "mc", "q": "What is wrong with the phone?", "o": ["It arrived late","The screen is cracked","It's the wrong model"], "c": 1, "audio": "P2/B2/B2-P1-q2.mp3" },
+     { "type": "mc", "q": "What does the teacher advise?", "o": ["Study everything at once","Review a little each day","Sleep a lot"], "c": 1, "audio": "P2/B2/B2-P1-q3.mp3" },
+     { "type": "mc", "q": "How does the woman feel about moving?", "o": ["Sad","Excited","Worried"], "c": 1, "audio": "P2/B2/B2-P1-q4.mp3" },
+     { "type": "mc", "q": "Where will they go this summer?", "o": ["Camping","A hotel by the lake","The mountains"], "c": 1, "audio": "P2/B2/B2-P1-q5.mp3" },
+     { "type": "mc", "q": "What has changed about the talk?", "o": ["The time","The room","The speaker"], "c": 1, "audio": "P2/B2/B2-P1-q6.mp3" },
+     { "type": "mc", "q": "Why did the team lose?", "o": ["They were tired","The referee's decisions","The weather"], "c": 1, "audio": "P2/B2/B2-P1-q7.mp3" },
+     { "type": "mc", "q": "What does the woman want?", "o": ["A refund","A different size","A repair"], "c": 0, "audio": "P2/B2/B2-P1-q8.mp3" }
+    ]
+   },
+   {
+    "id": "B2-P2",
+    "title": "Part 2 · Questions 9–18",
+    "kind": "file",
+    "file": "P2/B2/B2-P2.mp3",
+    "intro": "You will hear a young volunteer called Hannah talking about a community garden. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+    "scripts": [
+     "Hi, I'm Hannah and I volunteer at our community garden. The garden was created in two thousand and five on a piece of waste land. Today around forty families grow vegetables here. My main job is watering the plants, which I really enjoy. New volunteers do two days of training before they start. The most popular crop with everyone is tomatoes. We're thrilled that a new greenhouse opens in April. A few rules: you must be over eighteen, and you should wear gloves to protect your hands. We don't sell tools, so please bring your own. To join, just send an email to the manager. We hope to see you soon!"
+    ],
+    "gapTitle": "Community Garden — Volunteering",
+    "questions": [
+     { "type": "gap", "label": "The garden was created in: ____", "accept": ["2005","two thousand and five","two thousand five"] },
+     { "type": "gap", "label": "Number of families: about ____", "accept": ["40","forty"] },
+     { "type": "gap", "label": "Hannah's main job is: ____", "accept": ["watering","watering the plants"] },
+     { "type": "gap", "label": "Training lasts: ____ days", "accept": ["2","two"] },
+     { "type": "gap", "label": "Most popular crop: ____", "accept": ["tomatoes","tomato"] },
+     { "type": "gap", "label": "New greenhouse opens in: ____", "accept": ["april"] },
+     { "type": "gap", "label": "Volunteers must be over: ____", "accept": ["18","eighteen"] },
+     { "type": "gap", "label": "You should wear: ____", "accept": ["gloves"] },
+     { "type": "gap", "label": "Bring your own: ____", "accept": ["tools","tool"] },
+     { "type": "gap", "label": "To join, send an: ____", "accept": ["email"] }
+    ]
+   },
+   {
+    "id": "B2-P3",
+    "title": "Part 3 · Questions 19–23",
+    "kind": "file",
+    "file": "P2/B2/B2-P3.mp3",
+    "intro": "You will hear five people talking about why they started painting. For each speaker, choose from the list (A–H) the reason they give. Use each letter once. There are three extra letters you will not need.",
+    "bank": ["to relax after work","to follow a family tradition","after seeing an exhibition","because of an injury","to earn extra money","to meet other artists","to decorate their home","encouraged by a teacher"],
+    "scripts": [
+     "Speaker one. Woman: My job is so stressful that by the evening I'm exhausted. I found that sitting down with a brush and some paint switches my mind off completely. Speaker two. Man: I broke my leg and was stuck at home for months, unable to do sport. To pass the time, I picked up a paintbrush, and I never stopped. Speaker three. Woman: My art teacher at school kept telling me I had real talent. I didn't believe her at first, but her encouragement is the only reason I started. Speaker four. Man: I visited a gallery while on holiday and saw the most amazing modern paintings. I came home determined to try it myself. Speaker five. Woman: My empty walls looked so dull. I couldn't afford to buy art, so I decided to make my own pictures to brighten up the rooms."
+    ],
+    "questions": [
+     { "type": "match", "person": "Speaker 1", "c": "to relax after work" },
+     { "type": "match", "person": "Speaker 2", "c": "because of an injury" },
+     { "type": "match", "person": "Speaker 3", "c": "encouraged by a teacher" },
+     { "type": "match", "person": "Speaker 4", "c": "after seeing an exhibition" },
+     { "type": "match", "person": "Speaker 5", "c": "to decorate their home" }
+    ]
+   },
+   {
+    "id": "B2-P4",
+    "title": "Part 4 · Questions 24–30",
+    "kind": "file",
+    "file": "P2/B2/B2-P4.mp3",
+    "intro": "You will hear an interview with a young man called Daniel, who runs a popular travel channel. For each question, choose the best answer (A, B or C).",
+    "scripts": [
+     "Interviewer: Daniel, how did your travel channel begin? Daniel: Honestly by chance. I filmed a short clip of a market for my family, posted it, and thousands of strangers watched it. Interviewer: Did you study film? Daniel: No, people are surprised, but I studied geography. It turned out to be far more useful than any film course. Interviewer: What's the hardest part? Daniel: Everyone thinks it's the travelling, but really it's the editing. One short video can take days. Interviewer: Where do your ideas come from? Daniel: Mostly from talking to local people, never from guidebooks. Interviewer: What mistake do beginners make? Daniel: They try to show too much. My advice is to focus on one story per place. Interviewer: And the future? Daniel: I've been asked to present a TV series, but for now I'd rather keep my independence online. Interviewer: Thank you, Daniel."
+    ],
+    "questions": [
+     { "type": "mc", "q": "How did Daniel's channel start?", "o": ["He planned it","By chance","To make money"], "c": 1 },
+     { "type": "mc", "q": "What did Daniel study?", "o": ["Film","Geography","Business"], "c": 1 },
+     { "type": "mc", "q": "What does Daniel find hardest?", "o": ["Travelling","Editing","Speaking"], "c": 1 },
+     { "type": "mc", "q": "Where do his ideas come from?", "o": ["Guidebooks","Local people","Other channels"], "c": 1 },
+     { "type": "mc", "q": "What mistake do beginners make?", "o": ["They give up","They show too much","They copy others"], "c": 1 },
+     { "type": "mc", "q": "What advice does Daniel give?", "o": ["Focus on one story","Buy good cameras","Post daily"], "c": 0 },
+     { "type": "mc", "q": "What does Daniel want next?", "o": ["A TV series","To stay independent online","To stop travelling"], "c": 1 }
+    ]
+   }
+  ]
+ },
+ "C1": {
+  "label": "C1 — Advanced",
+  "cefr": "Cambridge Advanced (CAE) · C1 official format",
+  "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+  "audios": [
+   {
+    "id": "C1-P1",
+    "title": "Part 1 · Questions 1–6",
+    "kind": "file",
+    "paged": true,
+    "intro": "You will hear people talking in three different situations. For each question, choose the best answer (A, B or C).",
+    "segments": ["A report","A play","A holiday","A design","An experiment","A choice"],
+    "scripts": [
+     "Question one. Woman: I've read your report. Man: Too long? Woman: No, the length is fine. It's the structure that troubles me. Your best argument is buried on page nine. Move it to the front.",
+     "Question two. Man: How was the play? Woman: The acting was uneven and the set was plain, but the script itself was extraordinary. Every line felt sharp and true.",
+     "Woman: We chose the resort for its quiet beaches. The rooms were lovely, the staff charming. What ruined it was the constant building work next door, drilling from dawn.",
+     "Question four. Man: I've reviewed your design. The colours work beautifully and the layout is clean. My one reservation is the typeface, it's hard to read at small sizes. Rethink that.",
+     "Question five. Woman: When we repeated the trial, we assumed the older device would fail first. In fact it ran perfectly. It was the newest model that broke down, which baffled us all.",
+     "Question six. Man: Have you decided about the course abroad? Woman: I have. It's a wonderful opportunity and the funding is generous, but leaving my elderly father alone for a year is something I simply can't justify."
+    ],
+    "questions": [
+     { "type": "mc", "q": "What does the woman suggest about the report?", "o": ["Make it shorter","Restructure it","Add more data"], "c": 1, "audio": "P2/C1/C1-P1-q1.mp3" },
+     { "type": "mc", "q": "What impressed the woman about the play?", "o": ["The acting","The set","The script"], "c": 2, "audio": "P2/C1/C1-P1-q2.mp3" },
+     { "type": "mc", "q": "Why was the holiday spoiled?", "o": ["The rooms","The staff","The building work"], "c": 2, "audio": "P2/C1/C1-P1-q3.mp3" },
+     { "type": "mc", "q": "What does the man criticise in the design?", "o": ["The colours","The layout","The typeface"], "c": 2, "audio": "P2/C1/C1-P1-q4.mp3" },
+     { "type": "mc", "q": "What surprised the researchers?", "o": ["The old device failed","The new model broke down","Nothing changed"], "c": 1, "audio": "P2/C1/C1-P1-q5.mp3" },
+     { "type": "mc", "q": "Why has the woman decided against the course?", "o": ["The funding is poor","It's not an opportunity","She can't leave her father"], "c": 2, "audio": "P2/C1/C1-P1-q6.mp3" }
+    ]
+   },
+   {
+    "id": "C1-P2",
+    "title": "Part 2 · Questions 7–14",
+    "kind": "file",
+    "file": "P2/C1/C1-P2.mp3",
+    "intro": "You will hear a man called Oliver giving a talk about urban foraging. For each question, complete the sentences with a word or short phrase.",
+    "scripts": [
+     "Hello, I'm Oliver, and I forage for wild food in the city. People are often amazed that cities can be richer in edible plants than the countryside, largely because of the variety of trees planted in parks. I began foraging eight years ago, after reading a single book that changed my view of the streets. Today I lead walks for groups across the city. A common myth is that all berries are poisonous, but in truth only a small number are. The greatest danger for a forager isn't the plants, it's actually pollution near busy roads. A good walk can yield up to three kilograms of food. If you want to start, the most essential tool is a clear identification guide. And my final tip: never eat anything unless you are completely certain what it is."
+    ],
+    "gapTitle": "Urban Foraging",
+    "questions": [
+     { "type": "gap", "label": "Cities can be richer in plants because of the variety of ____", "accept": ["trees"] },
+     { "type": "gap", "label": "Oliver started after reading a ____", "accept": ["book"] },
+     { "type": "gap", "label": "He now leads ____ for groups", "accept": ["walks","walk"] },
+     { "type": "gap", "label": "A myth is that all ____ are poisonous", "accept": ["berries","berry"] },
+     { "type": "gap", "label": "The greatest danger is ____", "accept": ["pollution"] },
+     { "type": "gap", "label": "A walk can yield up to ____ kilograms", "accept": ["3","three"] },
+     { "type": "gap", "label": "The most essential tool is an identification ____", "accept": ["guide"] },
+     { "type": "gap", "label": "Never eat anything unless you are completely ____", "accept": ["certain","sure"] }
+    ]
+   },
+   {
+    "id": "C1-P3",
+    "title": "Part 3 · Questions 15–20",
+    "kind": "file",
+    "file": "P2/C1/C1-P3.mp3",
+    "intro": "You will hear an interview with an astronomer called Elena. For each question, choose the best answer (A, B, C or D).",
+    "scripts": [
+     "Interviewer: Elena, what drew you to astronomy? Elena: Everyone assumes it was stargazing as a child, but in fact I grew up in a bright city where you can barely see a star. It was a physics teacher's passion that lit the spark. Interviewer: Your work focuses on distant galaxies. Why? Elena: Because looking at far galaxies is like looking back in time. Their light left them billions of years ago, so we're seeing the early universe. Interviewer: Is your work mostly at telescopes? Elena: People imagine me at a giant telescope every night, but the reality is I spend most of my time writing code to process data. Interviewer: What's the biggest misconception? Elena: That astronomers predict the future, like horoscopes. We study the past and present, not anyone's fate. Interviewer: Are you optimistic about new discoveries? Elena: Tremendously. New telescopes are revealing things we never imagined possible. Interviewer: Advice for young scientists? Elena: Stay curious, and don't fear questions that seem too big. Interviewer: Thank you, Elena."
+    ],
+    "questions": [
+     { "type": "mc", "q": "What inspired Elena's career?", "o": ["Childhood stargazing","A physics teacher","Her family","A film"], "c": 1 },
+     { "type": "mc", "q": "Why does Elena study distant galaxies?", "o": ["They are bright","It is like looking back in time","They are close","They are colourful"], "c": 1 },
+     { "type": "mc", "q": "How does Elena spend most of her time?", "o": ["At telescopes","Writing code to process data","Teaching","Travelling"], "c": 1 },
+     { "type": "mc", "q": "What misconception does Elena correct?", "o": ["Astronomers predict the future","Stars are close","Space is empty","Galaxies are new"], "c": 0 },
+     { "type": "mc", "q": "How does Elena feel about new discoveries?", "o": ["Doubtful","Tremendously optimistic","Indifferent","Worried"], "c": 1 },
+     { "type": "mc", "q": "What advice does she give?", "o": ["Specialise early","Stay curious","Avoid big questions","Work alone"], "c": 1 }
+    ]
+   },
+   {
+    "id": "C1-P4",
+    "title": "Part 4 · Questions 21–30",
+    "kind": "file",
+    "file": "P2/C1/C1-P4.mp3",
+    "intro": "You will hear five people talking about moving to a new country. TASK ONE (21–25): choose each speaker's main reason for moving. TASK TWO (26–30): choose what each speaker now finds most difficult.",
+    "scripts": [
+     "Speaker one. Woman: I moved abroad purely for the job. A company offered me a role I couldn't get at home. The hardest thing now is the language, I struggle in every meeting. Speaker two. Man: My partner is from there, so when we married I moved to be with the family. What I find toughest is the weather, the endless grey winters depress me. Speaker three. Woman: I'd always been fascinated by the culture and history, so I moved to study it properly. The real challenge is the cost of living, everything is far more expensive than I expected. Speaker four. Man: After my divorce I needed a complete fresh start, somewhere nobody knew me. The difficult part is making friends, people my age already have their circles. Speaker five. Woman: I retired and wanted somewhere warm and peaceful by the sea. I love it, but the paperwork and bureaucracy are a nightmare, far worse than I ever imagined."
+    ],
+    "questions": [
+     { "type": "match", "taskLabel": "Task 1 — main reason for moving", "person": "Speaker 1", "bank": ["for a job","to join family","interest in the culture","a fresh start","a warmer climate","cheaper living","better education","an adventure"], "c": "for a job" },
+     { "type": "match", "taskLabel": "Task 1 — main reason for moving", "person": "Speaker 2", "bank": ["for a job","to join family","interest in the culture","a fresh start","a warmer climate","cheaper living","better education","an adventure"], "c": "to join family" },
+     { "type": "match", "taskLabel": "Task 1 — main reason for moving", "person": "Speaker 3", "bank": ["for a job","to join family","interest in the culture","a fresh start","a warmer climate","cheaper living","better education","an adventure"], "c": "interest in the culture" },
+     { "type": "match", "taskLabel": "Task 1 — main reason for moving", "person": "Speaker 4", "bank": ["for a job","to join family","interest in the culture","a fresh start","a warmer climate","cheaper living","better education","an adventure"], "c": "a fresh start" },
+     { "type": "match", "taskLabel": "Task 1 — main reason for moving", "person": "Speaker 5", "bank": ["for a job","to join family","interest in the culture","a fresh start","a warmer climate","cheaper living","better education","an adventure"], "c": "a warmer climate" },
+     { "type": "match", "taskLabel": "Task 2 — what they now find most difficult", "person": "Speaker 1", "bank": ["the language","the weather","the cost of living","making friends","the bureaucracy","the food","the distance from home","the working hours"], "c": "the language" },
+     { "type": "match", "taskLabel": "Task 2 — what they now find most difficult", "person": "Speaker 2", "bank": ["the language","the weather","the cost of living","making friends","the bureaucracy","the food","the distance from home","the working hours"], "c": "the weather" },
+     { "type": "match", "taskLabel": "Task 2 — what they now find most difficult", "person": "Speaker 3", "bank": ["the language","the weather","the cost of living","making friends","the bureaucracy","the food","the distance from home","the working hours"], "c": "the cost of living" },
+     { "type": "match", "taskLabel": "Task 2 — what they now find most difficult", "person": "Speaker 4", "bank": ["the language","the weather","the cost of living","making friends","the bureaucracy","the food","the distance from home","the working hours"], "c": "making friends" },
+     { "type": "match", "taskLabel": "Task 2 — what they now find most difficult", "person": "Speaker 5", "bank": ["the language","the weather","the cost of living","making friends","the bureaucracy","the food","the distance from home","the working hours"], "c": "the bureaucracy" }
+    ]
+   }
+  ]
+ }
+}; /* Práctica 2 = original recordings */
+
+const QUIZ5 = {
+ "A2": {
+  "label": "A2 — Elementary",
+  "cefr": "Cambridge KET · A2 official format",
+  "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+  "audios": [
+   {
+    "id": "A2-P1",
+    "title": "Part 1 · Questions 1–5",
+    "kind": "file",
+    "paged": true,
+    "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+    "segments": ["A sport","Going home","The weather","A present","Dinner time"],
+    "scripts": [
+     "Question one. Boy: Do you want to play football after school? Girl: I'd rather ride my bike in the park. Boy: OK, the park then.",
+     "Question two. Woman: How are you getting home? Man: My car broke down, so I'll take the bus. Woman: See you tomorrow.",
+     "Question three. Girl: Shall we have a picnic? Mum: It's raining now, look out the window. Maybe tomorrow. Girl: Oh no.",
+     "Question four. Boy: What did you buy Mum? Girl: I got her a hat, not a bag. She loves hats. Boy: Good choice.",
+     "Question five. Mum: What time is dinner? Boy: At seven o'clock, not half past seven. I'm really hungry tonight."
+    ],
+    "questions": [
+     { "type": "pic", "q": "What will they do?", "imgs": ["ball","bike","guitar"], "c": 1, "audio": "P3/A2/A2-P1-q1.mp3" },
+     { "type": "pic", "q": "How will the man get home?", "imgs": ["car","bus","bike"], "c": 1, "audio": "P3/A2/A2-P1-q2.mp3" },
+     { "type": "pic", "q": "What's the weather like now?", "imgs": ["sunny","rainy","snowy"], "c": 1, "audio": "P3/A2/A2-P1-q3.mp3" },
+     { "type": "pic", "q": "What did the girl buy for Mum?", "imgs": ["bag","hat","book"], "c": 1, "audio": "P3/A2/A2-P1-q4.mp3" },
+     { "type": "pic", "q": "What time is dinner?", "imgs": ["clock700","clock730","clock8"], "c": 0, "audio": "P3/A2/A2-P1-q5.mp3" }
+    ]
+   },
+   {
+    "id": "A2-P2",
+    "title": "Part 2 · Questions 6–10",
+    "kind": "file",
+    "file": "P3/A2/A2-P2.mp3",
+    "intro": "You will hear a librarian telling students about the school library. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+    "scripts": [
+     "Listen to the librarian. Librarian: Welcome to the school library. It opens at eight o'clock every morning. You can borrow four books at a time. Please return them after two weeks. If a book is late, you pay one pound. Remember, you must be quiet inside the library."
+    ],
+    "gapTitle": "School Library",
+    "questions": [
+     { "type": "gap", "label": "Opens at: ____ o'clock", "accept": ["8","eight"] },
+     { "type": "gap", "label": "You can borrow: ____ books", "accept": ["4","four"] },
+     { "type": "gap", "label": "Return after: ____ weeks", "accept": ["2","two"] },
+     { "type": "gap", "label": "Late fee: £ ____", "accept": ["1","one"] },
+     { "type": "gap", "label": "Inside, you must be: ____", "accept": ["quiet"] }
+    ]
+   },
+   {
+    "id": "A2-P3",
+    "title": "Part 3 · Questions 11–15",
+    "kind": "file",
+    "file": "P3/A2/A2-P3.mp3",
+    "intro": "You will hear Anna talking to her friend Ben about a school trip. For each question, choose the correct answer (A, B or C).",
+    "scripts": [
+     "Anna: Hi Ben, are you ready for the trip tomorrow? Ben: Yes! Where are we going? Anna: To the zoo, not the museum. Ben: Great. What time do we leave? Anna: At nine o'clock. Ben: How do we travel? Anna: By coach. Ben: Should I bring lunch? Anna: Yes, and bring a camera too. Ben: Perfect, I love taking photos."
+    ],
+    "questions": [
+     { "type": "mc", "q": "Where are they going?", "o": ["The zoo","The museum","The beach"], "c": 0 },
+     { "type": "mc", "q": "What time do they leave?", "o": ["At eight","At nine","At ten"], "c": 1 },
+     { "type": "mc", "q": "How do they travel?", "o": ["By train","By coach","By car"], "c": 1 },
+     { "type": "mc", "q": "What should Ben bring to eat?", "o": ["Lunch","Snacks","Nothing"], "c": 0 },
+     { "type": "mc", "q": "What else should Ben bring?", "o": ["A book","A camera","A ball"], "c": 1 }
+    ]
+   },
+   {
+    "id": "A2-P4",
+    "title": "Part 4 · Questions 16–20",
+    "kind": "file",
+    "file": "P3/A2/A2-P4.mp3",
+    "intro": "You will hear a boy called Sam talking about his guitar lessons. For each question, choose the correct answer (A, B or C).",
+    "scripts": [
+     "Sam: I started guitar lessons six months ago. At first my fingers hurt, but now it's easy. I practise every evening for half an hour. My teacher is kind and funny. The best part is playing songs I like. My parents thought it was too expensive, but they're happy now. Next week I play in my first concert, and I feel excited."
+    ],
+    "questions": [
+     { "type": "mc", "q": "How long has Sam played guitar?", "o": ["Six weeks","Six months","Six years"], "c": 1 },
+     { "type": "mc", "q": "What happened at first?", "o": ["His fingers hurt","He got bored","He felt ill"], "c": 0 },
+     { "type": "mc", "q": "When does Sam practise?", "o": ["In the morning","Every evening","At weekends"], "c": 1 },
+     { "type": "mc", "q": "What does Sam like best?", "o": ["Playing songs he likes","The teacher","New strings"], "c": 0 },
+     { "type": "mc", "q": "How does Sam feel about the concert?", "o": ["Nervous","Excited","Bored"], "c": 1 }
+    ]
+   },
+   {
+    "id": "A2-P5",
+    "title": "Part 5 · Questions 21–25",
+    "kind": "file",
+    "file": "P3/A2/A2-P5.mp3",
+    "intro": "You will hear Kate talking to a friend about a school fair. What will each person do? For each question, choose the correct answer.",
+    "bank": ["sell cakes","paint faces","play music","sell drinks","take photos","run games","clean up"],
+    "scripts": [
+     "Kate: Everyone has a job at the school fair. Leo is going to sell cakes, because he loves baking. Nora will paint faces for the little children. Sam is bringing his speakers to play music. Ruby is selling the drinks. And Tom will run the games near the field."
+    ],
+    "questions": [
+     { "type": "match", "person": "Leo", "c": "sell cakes" },
+     { "type": "match", "person": "Nora", "c": "paint faces" },
+     { "type": "match", "person": "Sam", "c": "play music" },
+     { "type": "match", "person": "Ruby", "c": "sell drinks" },
+     { "type": "match", "person": "Tom", "c": "run games" }
+    ]
+   }
+  ]
+ },
+ "B1": {
+  "label": "B1 — Intermediate",
+  "cefr": "Cambridge PET · B1 official format",
+  "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+  "audios": [
+   {
+    "id": "B1-P1",
+    "title": "Part 1 · Questions 1–7",
+    "kind": "file",
+    "paged": true,
+    "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+    "segments": ["Breakfast","Getting to work","The weather","A gift","At the shop","Train time","A lost item"],
+    "scripts": [
+     "Question one. Woman: What shall we eat? Man: I'd love a slice of cake. Woman: For breakfast? Have a sandwich first. Man: Fine, a sandwich then.",
+     "Question two. Girl: Are you driving to work? Boy: The car's at the garage, so I'm cycling today. Girl: On your bike? Good exercise.",
+     "Question three. Man: Shall we go hiking? Woman: Have you seen the sky? It's going to snow heavily. Man: Then let's stay in.",
+     "Question four. Boy: What can we give Grandpa? Girl: He likes reading, so let's buy him a book. Boy: Better than another hat.",
+     "Question five. Woman: Did you get the camera? Man: It was sold out, so I bought a bag for my trip instead. Woman: Useful anyway.",
+     "Question six. Girl: When's the train? Boy: At nine, not half past eight. Girl: Good, we have time for breakfast.",
+     "Question seven. Mum: Why the long face? Boy: I've lost my phone somewhere in the cafe. Mum: Let's call it and listen."
+    ],
+    "questions": [
+     { "type": "pic", "q": "What will the man eat?", "imgs": ["cake","sandwich","pizza"], "c": 1, "audio": "P3/B1/B1-P1-q1.mp3" },
+     { "type": "pic", "q": "How is the boy getting to work?", "imgs": ["car","bike","bus"], "c": 1, "audio": "P3/B1/B1-P1-q2.mp3" },
+     { "type": "pic", "q": "What will the weather be like?", "imgs": ["sunny","rainy","snowy"], "c": 2, "audio": "P3/B1/B1-P1-q3.mp3" },
+     { "type": "pic", "q": "What will they give Grandpa?", "imgs": ["book","hat","camera"], "c": 0, "audio": "P3/B1/B1-P1-q4.mp3" },
+     { "type": "pic", "q": "What did the man buy?", "imgs": ["camera","bag","book"], "c": 1, "audio": "P3/B1/B1-P1-q5.mp3" },
+     { "type": "pic", "q": "What time is the train?", "imgs": ["clock8","clock830","clock9"], "c": 2, "audio": "P3/B1/B1-P1-q6.mp3" },
+     { "type": "pic", "q": "What did the boy lose?", "imgs": ["keys","phone","umbrella"], "c": 1, "audio": "P3/B1/B1-P1-q7.mp3" }
+    ]
+   },
+   {
+    "id": "B1-P2",
+    "title": "Part 2 · Questions 8–13",
+    "kind": "file",
+    "paged": true,
+    "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+    "segments": ["A concert","Last night","A shop","Teacher's advice","A trip","Why he's late"],
+    "scripts": [
+     "You will hear a girl talking about a concert. Girl: The hall was beautiful and the singer was good, but the thing I loved most was the drummer. He was simply amazing.",
+     "You will hear a boy talking about last night. Boy: I meant to watch a film, but my cousin phoned and we talked for hours, so I went to bed very late.",
+     "You will hear a woman talking about a shop. Woman: The clothes are stylish and not too dear, but the staff ignored me completely, so I won't shop there again.",
+     "You will hear a teacher talking to a student. Teacher: Your project is creative and neatly presented, well done. But you must check your spelling carefully before you hand it in next time.",
+     "You will hear a man talking about a trip. Man: I expected the mountains to be tiring, but actually the walking was easy. What surprised me was how cold the nights were.",
+     "You will hear a boy explaining why he's late. Boy: I'm sorry. I left home early, but I forgot my bag and had to go back for it, so I missed my usual bus."
+    ],
+    "questions": [
+     { "type": "mc", "q": "What did the girl love most?", "o": ["The hall","The drummer","The singer"], "c": 1, "audio": "P3/B1/B1-P2-q1.mp3" },
+     { "type": "mc", "q": "What did the boy do last night?", "o": ["Watched a film","Talked on the phone","Went to bed early"], "c": 1, "audio": "P3/B1/B1-P2-q2.mp3" },
+     { "type": "mc", "q": "Why won't the woman return to the shop?", "o": ["High prices","The staff ignored her","Poor clothes"], "c": 1, "audio": "P3/B1/B1-P2-q3.mp3" },
+     { "type": "mc", "q": "What does the teacher want?", "o": ["More colour","Better spelling","Earlier work"], "c": 1, "audio": "P3/B1/B1-P2-q4.mp3" },
+     { "type": "mc", "q": "What surprised the man on the trip?", "o": ["The hard walking","The cold nights","The food"], "c": 1, "audio": "P3/B1/B1-P2-q5.mp3" },
+     { "type": "mc", "q": "Why is the boy late?", "o": ["He overslept","He went back for his bag","The bus was full"], "c": 1, "audio": "P3/B1/B1-P2-q6.mp3" }
+    ]
+   },
+   {
+    "id": "B1-P3",
+    "title": "Part 3 · Questions 14–19",
+    "kind": "file",
+    "file": "P3/B1/B1-P3.mp3",
+    "intro": "You will hear a student telling other students about a photography club. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+    "scripts": [
+     "Hello everyone. Let me tell you about our Photography Club. We meet every Wednesday in the art room. We start at four o'clock and finish at six. The cost is ten pounds for the term, which includes a small notebook. This term we're learning to take portraits. Please remember to bring your own camera, because we don't have enough to share. See you there!"
+    ],
+    "gapTitle": "Photography Club",
+    "questions": [
+     { "type": "gap", "label": "The club meets every: ____", "accept": ["wednesday","wednesdays"] },
+     { "type": "gap", "label": "Where: the ____ room", "accept": ["art"] },
+     { "type": "gap", "label": "Finishes at: ____ o'clock", "accept": ["6","six"] },
+     { "type": "gap", "label": "Cost for the term: £ ____", "accept": ["10","ten"] },
+     { "type": "gap", "label": "This term they learn: ____", "accept": ["portraits","portrait"] },
+     { "type": "gap", "label": "Remember to bring your own: ____", "accept": ["camera"] }
+    ]
+   },
+   {
+    "id": "B1-P4",
+    "title": "Part 4 · Questions 20–25",
+    "kind": "file",
+    "file": "P3/B1/B1-P4.mp3",
+    "intro": "You will hear an interview with a young dancer called Noah. For each question, choose the correct answer (A, B or C).",
+    "scripts": [
+     "Interviewer: Noah, how did you start dancing? Noah: My older sister took classes, and I copied her at home until my parents signed me up too. Interviewer: What style do you most enjoy? Noah: People expect me to say hip-hop, but I actually prefer ballet, because it's so precise. Interviewer: What's the hardest part? Noah: It's not the steps, it's remembering long routines under pressure. Interviewer: Have you performed much? Noah: I danced in a city show last year, and the applause was unforgettable. Interviewer: What advice for beginners? Noah: Be patient and practise the basics every day. Interviewer: And the future? Noah: I'd love to join a professional dance company one day."
+    ],
+    "questions": [
+     { "type": "mc", "q": "How did Noah start dancing?", "o": ["A friend invited him","He copied his sister","At school"], "c": 1 },
+     { "type": "mc", "q": "Which style does Noah prefer?", "o": ["Hip-hop","Ballet","Tap"], "c": 1 },
+     { "type": "mc", "q": "What does Noah find hardest?", "o": ["The steps","Remembering routines","The costumes"], "c": 1 },
+     { "type": "mc", "q": "How did the city show feel?", "o": ["Unforgettable","Boring","Stressful"], "c": 0 },
+     { "type": "mc", "q": "What advice does Noah give?", "o": ["Buy good shoes","Practise the basics daily","Watch shows"], "c": 1 },
+     { "type": "mc", "q": "What is Noah's dream?", "o": ["To teach","To join a dance company","To open a studio"], "c": 1 }
+    ]
+   }
+  ]
+ },
+ "B2": {
+  "label": "B2 — Upper-Intermediate",
+  "cefr": "Cambridge First (FCE) · B2 official format",
+  "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+  "audios": [
+   {
+    "id": "B2-P1",
+    "title": "Part 1 · Questions 1–8",
+    "kind": "file",
+    "paged": true,
+    "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+    "segments": ["A concert","A complaint","Exam advice","A new flat","A weekend","A change","A race","At a shop"],
+    "scripts": [
+     "Question one. Woman: How was the concert? Man: The band played well and the lights were stunning, but the sound was so loud my ears hurt. I left early.",
+     "Question two. Woman: I'm calling about the laptop I bought. Man: A fault? Woman: It works fine, but you sent the wrong colour. I ordered silver, not black.",
+     "Question three. Teacher: For the exam tomorrow, don't stay up late cramming. The wisest thing is to eat a proper breakfast so your brain has energy.",
+     "Question four. Man: How's the new flat? Woman: Friends keep asking if I miss my old place, but honestly I love it. The light and the space are wonderful.",
+     "Question five. Woman: What did you do at the weekend? Man: I'd planned to paint the fence, but it poured with rain, so I read three books instead.",
+     "Question six. Woman: Please be aware that Saturday's workshop now starts at ten, not nine. The venue and the tutor remain the same.",
+     "Question seven. Boy: I came second in the race. Girl: Were you tired? Boy: Not at all. I started too slowly, and by the time I sped up, the leader was too far ahead.",
+     "Question eight. Woman: I bought this bag last week, and the zip is already broken. Man: A replacement? Woman: No, I've lost confidence in it. I'd just like a refund."
+    ],
+    "questions": [
+     { "type": "mc", "q": "Why did the man leave the concert early?", "o": ["The band","The lights","The loud sound"], "c": 2, "audio": "P3/B2/B2-P1-q1.mp3" },
+     { "type": "mc", "q": "What is wrong with the laptop?", "o": ["It is faulty","Wrong colour","It arrived late"], "c": 1, "audio": "P3/B2/B2-P1-q2.mp3" },
+     { "type": "mc", "q": "What does the teacher advise?", "o": ["Stay up cramming","Eat a good breakfast","Arrive early"], "c": 1, "audio": "P3/B2/B2-P1-q3.mp3" },
+     { "type": "mc", "q": "How does the woman feel about the flat?", "o": ["She misses her old place","She loves it","She is unsure"], "c": 1, "audio": "P3/B2/B2-P1-q4.mp3" },
+     { "type": "mc", "q": "What did the man do at the weekend?", "o": ["Painted the fence","Read books","Went out"], "c": 1, "audio": "P3/B2/B2-P1-q5.mp3" },
+     { "type": "mc", "q": "What has changed about the workshop?", "o": ["The time","The venue","The tutor"], "c": 0, "audio": "P3/B2/B2-P1-q6.mp3" },
+     { "type": "mc", "q": "Why did the boy come second?", "o": ["He was tired","He started too slowly","He fell"], "c": 1, "audio": "P3/B2/B2-P1-q7.mp3" },
+     { "type": "mc", "q": "What does the woman want?", "o": ["A refund","A replacement","A repair"], "c": 0, "audio": "P3/B2/B2-P1-q8.mp3" }
+    ]
+   },
+   {
+    "id": "B2-P2",
+    "title": "Part 2 · Questions 9–18",
+    "kind": "file",
+    "file": "P3/B2/B2-P2.mp3",
+    "intro": "You will hear a young volunteer called Ethan talking about a city aquarium. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+    "scripts": [
+     "Hi, I'm Ethan and I volunteer at the city aquarium. The aquarium opened in two thousand and ten, and it now welcomes about thirty thousand visitors a year. Most volunteers help by guiding tours, which is what I do. The training programme lasts four days. By far the most popular animals are the penguins. We're excited that a new jellyfish tank opens in May. The rules: volunteers must be over fifteen, and you have to wear a uniform we provide. We don't pay for travel, so please cover your own. To apply, simply phone the office. We'd be delighted to have you!"
+    ],
+    "gapTitle": "City Aquarium — Volunteering",
+    "questions": [
+     { "type": "gap", "label": "The aquarium opened in: ____", "accept": ["2010","two thousand and ten","two thousand ten"] },
+     { "type": "gap", "label": "Visitors per year: about ____ thousand", "accept": ["30","thirty"] },
+     { "type": "gap", "label": "Ethan helps by guiding: ____", "accept": ["tours","tour"] },
+     { "type": "gap", "label": "Training lasts: ____ days", "accept": ["4","four"] },
+     { "type": "gap", "label": "Most popular animals: the ____", "accept": ["penguins","penguin"] },
+     { "type": "gap", "label": "New tank opens in: ____", "accept": ["may"] },
+     { "type": "gap", "label": "Volunteers must be over: ____", "accept": ["15","fifteen"] },
+     { "type": "gap", "label": "You must wear a: ____", "accept": ["uniform"] },
+     { "type": "gap", "label": "You must cover your own: ____", "accept": ["travel"] },
+     { "type": "gap", "label": "To apply, ____ the office", "accept": ["phone","call","ring"] }
+    ]
+   },
+   {
+    "id": "B2-P3",
+    "title": "Part 3 · Questions 19–23",
+    "kind": "file",
+    "file": "P3/B2/B2-P3.mp3",
+    "intro": "You will hear five people talking about why they started learning a language. For each speaker, choose from the list (A–H) the reason they give. Use each letter once. There are three extra letters you will not need.",
+    "bank": ["for a new job","to travel more easily","to talk to family","to enjoy films and books","because of a partner","to keep the brain active","a school requirement","to make friends online"],
+    "scripts": [
+     "Speaker one. Woman: My grandparents only speak their first language, and I was tired of needing my mother to translate. I wanted to talk to them directly. Speaker two. Man: I retired last year and read that learning a language keeps your memory sharp. So I signed up purely to stay mentally fit. Speaker three. Woman: My company opened an office overseas, and they made it clear that staff who spoke the local language would get the best positions. Speaker four. Man: I fell in love with someone from another country, and I wanted to understand her family and surprise them by speaking to them. Speaker five. Woman: I adore foreign cinema, but I hate relying on subtitles. I wanted to watch films and read novels in the original."
+    ],
+    "questions": [
+     { "type": "match", "person": "Speaker 1", "c": "to talk to family" },
+     { "type": "match", "person": "Speaker 2", "c": "to keep the brain active" },
+     { "type": "match", "person": "Speaker 3", "c": "for a new job" },
+     { "type": "match", "person": "Speaker 4", "c": "because of a partner" },
+     { "type": "match", "person": "Speaker 5", "c": "to enjoy films and books" }
+    ]
+   },
+   {
+    "id": "B2-P4",
+    "title": "Part 4 · Questions 24–30",
+    "kind": "file",
+    "file": "P3/B2/B2-P4.mp3",
+    "intro": "You will hear an interview with a young woman called Grace, who runs a popular science podcast. For each question, choose the best answer (A, B or C).",
+    "scripts": [
+     "Interviewer: Grace, how did your podcast begin? Grace: Almost by accident. I recorded myself explaining an idea to a friend, shared it, and suddenly strangers were listening. Interviewer: Did you study journalism? Grace: No, that surprises people. I studied chemistry, and that scientific training shaped everything. Interviewer: What's the hardest part? Grace: Everyone assumes it's the speaking, but really it's the research. I read for days before each episode. Interviewer: Where do your topics come from? Grace: Mostly from listeners' questions, not from the news. Interviewer: What mistake do beginners make? Grace: They use too much jargon. My advice is to explain things as if to a curious child. Interviewer: And the future? Grace: A publisher wants me to write a book, but for now I'd rather keep recording. Interviewer: Thank you, Grace."
+    ],
+    "questions": [
+     { "type": "mc", "q": "How did Grace's podcast start?", "o": ["She planned it","Almost by accident","For money"], "c": 1 },
+     { "type": "mc", "q": "What did Grace study?", "o": ["Journalism","Chemistry","Media"], "c": 1 },
+     { "type": "mc", "q": "What does Grace find hardest?", "o": ["The speaking","The research","The editing"], "c": 1 },
+     { "type": "mc", "q": "Where do her topics come from?", "o": ["The news","Listeners' questions","Other podcasts"], "c": 1 },
+     { "type": "mc", "q": "What mistake do beginners make?", "o": ["They give up","They use too much jargon","They copy others"], "c": 1 },
+     { "type": "mc", "q": "What advice does Grace give?", "o": ["Explain simply","Use big words","Record daily"], "c": 0 },
+     { "type": "mc", "q": "What does Grace want next?", "o": ["Write a book","Keep recording","Stop podcasting"], "c": 1 }
+    ]
+   }
+  ]
+ },
+ "C1": {
+  "label": "C1 — Advanced",
+  "cefr": "Cambridge Advanced (CAE) · C1 official format",
+  "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+  "audios": [
+   {
+    "id": "C1-P1",
+    "title": "Part 1 · Questions 1–6",
+    "kind": "file",
+    "paged": true,
+    "intro": "You will hear people talking in three different situations. For each question, choose the best answer (A, B or C).",
+    "segments": ["An essay","A concert","A trip","A proposal","An experiment","A decision"],
+    "scripts": [
+     "Question one. Man: I've read your essay. Woman: Too short? Man: No, the length is right. It's the evidence that's thin. Your claims are bold but unsupported. Add some sources.",
+     "Question two. Woman: How was the concert? Man: The orchestra was flawless and the hall superb, but the programme was dull, the same pieces everyone plays. I wanted something fresh.",
+     "Woman: We picked the lodge for the mountain views, which were breathtaking. The beds were comfortable too. Sadly, the food was inedible, cold and tasteless at every meal.",
+     "Question four. Man: I've studied your proposal. The budget is realistic and the timeline sensible. My only worry is the team, it's too small for a project this ambitious.",
+     "Question five. Woman: When we rerun the test, we assumed heat would speed up the reaction. Instead, nothing happened with heat. It was adding light that triggered the change, completely unexpected.",
+     "Question six. Man: Decided about the fellowship? Woman: Yes. The prestige is real and the stipend generous, but it demands moving across the world, and uprooting my children now feels wrong."
+    ],
+    "questions": [
+     { "type": "mc", "q": "What does the man say the essay needs?", "o": ["To be longer","More evidence","A new topic"], "c": 1, "audio": "P3/C1/C1-P1-q1.mp3" },
+     { "type": "mc", "q": "What disappointed the man about the concert?", "o": ["The orchestra","The hall","The programme"], "c": 2, "audio": "P3/C1/C1-P1-q2.mp3" },
+     { "type": "mc", "q": "What spoiled the trip?", "o": ["The views","The beds","The food"], "c": 2, "audio": "P3/C1/C1-P1-q3.mp3" },
+     { "type": "mc", "q": "What is the man's concern about the proposal?", "o": ["The budget","The timeline","The team size"], "c": 2, "audio": "P3/C1/C1-P1-q4.mp3" },
+     { "type": "mc", "q": "What surprised the researchers?", "o": ["Heat sped it up","Light triggered the change","Nothing changed"], "c": 1, "audio": "P3/C1/C1-P1-q5.mp3" },
+     { "type": "mc", "q": "Why has the woman refused the fellowship?", "o": ["The stipend is low","No prestige","She won't uproot her children"], "c": 2, "audio": "P3/C1/C1-P1-q6.mp3" }
+    ]
+   },
+   {
+    "id": "C1-P2",
+    "title": "Part 2 · Questions 7–14",
+    "kind": "file",
+    "file": "P3/C1/C1-P2.mp3",
+    "intro": "You will hear a woman called Clara giving a talk about restoring old clocks. For each question, complete the sentences with a word or short phrase.",
+    "scripts": [
+     "Hello, I'm Clara, and I restore antique clocks. People are often surprised that the value of an old clock lies less in its appearance than in its mechanism. I took up the craft ten years ago, after my father left me his workshop. Today most of my work comes from museums rather than private owners. A widespread myth is that all old clocks are fragile, but in fact many were built to last centuries. The hardest part of restoration isn't the repair, it's sourcing the original parts. A full restoration can take up to six months. If you want to begin, the single most important tool is a good magnifier. And my final piece of advice: always photograph a clock before you take it apart."
+    ],
+    "gapTitle": "Restoring Antique Clocks",
+    "questions": [
+     { "type": "gap", "label": "The value lies in the clock's ____", "accept": ["mechanism"] },
+     { "type": "gap", "label": "Clara inherited a workshop from her ____", "accept": ["father"] },
+     { "type": "gap", "label": "Most of her work comes from ____", "accept": ["museums","museum"] },
+     { "type": "gap", "label": "A myth is that all old clocks are ____", "accept": ["fragile"] },
+     { "type": "gap", "label": "The hardest part is sourcing the original ____", "accept": ["parts","part"] },
+     { "type": "gap", "label": "A full restoration can take up to ____ months", "accept": ["6","six"] },
+     { "type": "gap", "label": "The most important tool is a good ____", "accept": ["magnifier"] },
+     { "type": "gap", "label": "Always ____ a clock before taking it apart", "accept": ["photograph"] }
+    ]
+   },
+   {
+    "id": "C1-P3",
+    "title": "Part 3 · Questions 15–20",
+    "kind": "file",
+    "file": "P3/C1/C1-P3.mp3",
+    "intro": "You will hear an interview with a volcanologist called Hugo. For each question, choose the best answer (A, B, C or D).",
+    "scripts": [
+     "Interviewer: Hugo, what drew you to volcanoes? Interviewer: Most people assume a dramatic eruption inspired you. Hugo: Actually it was a geology textbook I found in a second-hand shop as a teenager. It described the earth as alive. Interviewer: Your research focuses on prediction. Why? Hugo: Because if we can forecast eruptions even a day ahead, we can save thousands of lives. That single goal drives everything I do. Interviewer: Is the work dangerous? Hugo: People imagine me dodging lava daily, but in truth I spend most of my time studying gas readings from a safe distance. Interviewer: What's the biggest misconception? Hugo: That volcanoes are purely destructive. In fact, volcanic soil is among the most fertile on earth. Interviewer: Are you hopeful about prediction? Hugo: Increasingly so. New sensors detect changes we once missed entirely. Interviewer: Advice for young scientists? Hugo: Spend time in the field. No textbook replaces standing on a real volcano. Interviewer: Thank you, Hugo."
+    ],
+    "questions": [
+     { "type": "mc", "q": "What first inspired Hugo?", "o": ["An eruption","A geology textbook","A teacher","A film"], "c": 1 },
+     { "type": "mc", "q": "Why does Hugo study prediction?", "o": ["It is easy","To save lives","For fame","To travel"], "c": 1 },
+     { "type": "mc", "q": "How does Hugo spend most of his time?", "o": ["Dodging lava","Studying gas readings safely","Teaching","Writing"], "c": 1 },
+     { "type": "mc", "q": "What misconception does Hugo correct?", "o": ["Volcanoes are only destructive","Volcanoes are rare","Lava is cold","Volcanoes are extinct"], "c": 0 },
+     { "type": "mc", "q": "How does Hugo feel about prediction?", "o": ["Doubtful","Increasingly hopeful","Indifferent","Afraid"], "c": 1 },
+     { "type": "mc", "q": "What advice does he give?", "o": ["Read more books","Spend time in the field","Work indoors","Avoid danger"], "c": 1 }
+    ]
+   },
+   {
+    "id": "C1-P4",
+    "title": "Part 4 · Questions 21–30",
+    "kind": "file",
+    "file": "P3/C1/C1-P4.mp3",
+    "intro": "You will hear five people talking about starting their own business. TASK ONE (21–25): choose each speaker's main reason for starting. TASK TWO (26–30): choose what each speaker now finds most rewarding.",
+    "scripts": [
+     "Speaker one. Woman: I was sick of taking orders from managers who knew less than me. I started my own firm simply to be my own boss. What I love most now is making every decision myself. Speaker two. Man: I lost my job when the company closed, and rather than job-hunt, I gambled on an idea I'd long had. The best part now is watching my small team grow and learn. Speaker three. Woman: I had a clever invention but no firm would back it, so I had to launch it alone. The greatest reward is seeing customers actually use a product I dreamed up. Speaker four. Man: My children were small and I needed flexible hours that no employer would offer. Now what I treasure is the time I get with my family every day. Speaker five. Woman: I'd saved enough money and simply wanted a challenge before I got too old. The most satisfying thing is how much I've learned about myself along the way."
+    ],
+    "questions": [
+     { "type": "match", "taskLabel": "Task 1 — main reason for starting", "person": "Speaker 1", "bank": ["to be their own boss","lost a previous job","to launch an invention","wanted flexible hours","wanted a challenge","to earn more money","to help the community","family tradition"], "c": "to be their own boss" },
+     { "type": "match", "taskLabel": "Task 1 — main reason for starting", "person": "Speaker 2", "bank": ["to be their own boss","lost a previous job","to launch an invention","wanted flexible hours","wanted a challenge","to earn more money","to help the community","family tradition"], "c": "lost a previous job" },
+     { "type": "match", "taskLabel": "Task 1 — main reason for starting", "person": "Speaker 3", "bank": ["to be their own boss","lost a previous job","to launch an invention","wanted flexible hours","wanted a challenge","to earn more money","to help the community","family tradition"], "c": "to launch an invention" },
+     { "type": "match", "taskLabel": "Task 1 — main reason for starting", "person": "Speaker 4", "bank": ["to be their own boss","lost a previous job","to launch an invention","wanted flexible hours","wanted a challenge","to earn more money","to help the community","family tradition"], "c": "wanted flexible hours" },
+     { "type": "match", "taskLabel": "Task 1 — main reason for starting", "person": "Speaker 5", "bank": ["to be their own boss","lost a previous job","to launch an invention","wanted flexible hours","wanted a challenge","to earn more money","to help the community","family tradition"], "c": "wanted a challenge" },
+     { "type": "match", "taskLabel": "Task 2 — what they now find most rewarding", "person": "Speaker 1", "bank": ["making the decisions","watching the team grow","seeing customers use the product","time with family","personal growth","financial success","public recognition","helping others"], "c": "making the decisions" },
+     { "type": "match", "taskLabel": "Task 2 — what they now find most rewarding", "person": "Speaker 2", "bank": ["making the decisions","watching the team grow","seeing customers use the product","time with family","personal growth","financial success","public recognition","helping others"], "c": "watching the team grow" },
+     { "type": "match", "taskLabel": "Task 2 — what they now find most rewarding", "person": "Speaker 3", "bank": ["making the decisions","watching the team grow","seeing customers use the product","time with family","personal growth","financial success","public recognition","helping others"], "c": "seeing customers use the product" },
+     { "type": "match", "taskLabel": "Task 2 — what they now find most rewarding", "person": "Speaker 4", "bank": ["making the decisions","watching the team grow","seeing customers use the product","time with family","personal growth","financial success","public recognition","helping others"], "c": "time with family" },
+     { "type": "match", "taskLabel": "Task 2 — what they now find most rewarding", "person": "Speaker 5", "bank": ["making the decisions","watching the team grow","seeing customers use the product","time with family","personal growth","financial success","public recognition","helping others"], "c": "personal growth" }
+    ]
+   }
+  ]
+ }
+}; /* Práctica 3 = original recordings */
+
 const state = {
   name: "",
   klass: "",
@@ -3678,7 +4444,7 @@ const state = {
 };
 
 /* Active exam set: MOCK 1 = QUIZ, MOCK 2 = QUIZ2 */
-function currentQuiz(){ return state.examType==='mock02'?QUIZ2:state.examType==='practice'?QUIZ3:QUIZ; }
+function currentQuiz(){ return state.examType==='mock02'?QUIZ2:state.examType==='practice'?QUIZ3:state.examType==='practice2'?QUIZ4:state.examType==='practice3'?QUIZ5:QUIZ; }
 
 /* Picture options: use real photos (images/<concept>.jpg) where available,
    falling back to the built-in SVG icon if the photo fails to load.
@@ -3790,7 +4556,7 @@ async function viewCategory(){
 
       <div class="signin-actions" style="margin-top:8px"><a class="secondary2" id="catBack">&larr; Back to levels</a></div>
     </div>`;
-  $("#catPractice").onclick = ()=>{ state.examType='practice'; state.startTime=Date.now(); state.answers={}; state.seqOrder={}; viewQuiz(); };
+  $("#catPractice").onclick = ()=>{ viewPracticePick(); };
   $("#catMocks").onclick = ()=>{ if(unlocked){ viewExamPick(); } else { alert('🔒 Los MOCKS están bloqueados.\n\nTu profesor los habilitará desde el Portal NIS cuando estés listo para rendirlos.'); } };
   $("#catBack").onclick = ()=> viewLevelSelect();
 }
@@ -3828,6 +4594,49 @@ function viewExamPick(){
   $("#m1").onclick = ()=> start('mock01');
   $("#m2").onclick = ()=> start('mock02');
   $("#epBack").onclick = ()=> viewCategory();
+}
+
+/* ---------- VIEW: choose Práctica 1 / 2 / 3 ---------- */
+function viewPracticePick(){
+  TTS.stop();
+  document.body.classList.remove('exam-mode','result-mode');
+  document.body.classList.add('signin-mode');
+  const examName = {A2:'A2 Key',B1:'B1 Preliminary',B2:'B2 First',C1:'C1 Advanced'}[state.level] || state.level;
+  const cardBtn = "background:#4987c6;color:#fff;border:none;padding:13px 24px;border-radius:10px;font-weight:700;cursor:pointer;font-size:1rem;margin-top:6px";
+  const cardCss = "background:#fff;border-radius:16px;box-shadow:0 10px 30px rgba(15,23,42,.10);padding:28px 30px;margin-bottom:18px";
+  const has2 = !!(QUIZ4 && QUIZ4[state.level]);
+  const has3 = !!(QUIZ5 && QUIZ5[state.level]);
+  app.innerHTML = `
+    <div class="signin-wrap">
+      <div class="crumb">MOCKS CAMBRIDGE &rsaquo; Listening &rsaquo; ${state.level} &rsaquo; Practice</div>
+      <h1>${state.level} Listening — choose a practice</h1>
+      <p class="sub">${examName}. Warm-up listening tests with real audio, in the authentic Cambridge format. Auto-scored with timer and CEFR feedback.</p>
+
+      <div style="${cardCss}">
+        <h2 style="margin:0 0 8px;font-size:1.4rem;color:#2d5a8d">📘 Práctica 1</h2>
+        <p style="color:#475569;margin:0 0 4px;line-height:1.55">The original practice listening test, in the authentic Cambridge format.</p>
+        <button id="p1" style="${cardBtn}">Start Práctica 1 &rarr;</button>
+      </div>
+      ${has2?`
+      <div style="${cardCss}">
+        <h2 style="margin:0 0 8px;font-size:1.4rem;color:#2d5a8d">📘 Práctica 2</h2>
+        <p style="color:#475569;margin:0 0 4px;line-height:1.55">A second practice — fresh recordings and tasks, same format and difficulty.</p>
+        <button id="p2" style="${cardBtn}">Start Práctica 2 &rarr;</button>
+      </div>`:''}
+      ${has3?`
+      <div style="${cardCss}">
+        <h2 style="margin:0 0 8px;font-size:1.4rem;color:#2d5a8d">📘 Práctica 3</h2>
+        <p style="color:#475569;margin:0 0 4px;line-height:1.55">A third practice — new recordings and tasks, same format and difficulty.</p>
+        <button id="p3" style="${cardBtn}">Start Práctica 3 &rarr;</button>
+      </div>`:''}
+
+      <div class="signin-actions" style="margin-top:8px"><a class="secondary2" id="ppBack">&larr; Back</a></div>
+    </div>`;
+  const start = (t)=>{ state.examType=t; state.startTime=Date.now(); state.answers={}; state.seqOrder={}; viewQuiz(); };
+  $("#p1").onclick = ()=> start('practice');
+  if(has2) $("#p2").onclick = ()=> start('practice2');
+  if(has3) $("#p3").onclick = ()=> start('practice3');
+  $("#ppBack").onclick = ()=> viewCategory();
 }
 
 /* ---------- VIEW: Quiz ---------- */
