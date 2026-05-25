@@ -66,5 +66,10 @@
       return !!(r && r.data && r.data.unlocked);
     }catch(e){ return false; }
   }
-  window.NIS = { client: client, currentStudent: currentStudent, save: save, mocksUnlocked: mocksUnlocked };
+  async function signOut(){
+    var c = client(); if(!c) return;
+    try{ await c.auth.signOut(); }catch(e){}
+    try{ localStorage.clear(); }catch(e){}
+  }
+  window.NIS = { client: client, currentStudent: currentStudent, save: save, mocksUnlocked: mocksUnlocked, signOut: signOut };
 })();

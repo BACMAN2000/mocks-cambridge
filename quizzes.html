@@ -66,6 +66,7 @@
   <div class="sub">MOCKS CAMBRIDGE · MOCK 1 &amp; MOCK 2 · A2 / B1 / B2 / C1</div>
   <a class="me-btn" href="../nis-portal/?me=1">📊 Mi progreso</a>
   <a class="me-btn" style="background:#2d5a8d" href="../nis-portal/">🏫 Portal NIS</a>
+  <button class="me-btn" style="background:#9b2c2c;border:none;cursor:pointer;font:inherit" onclick="window._signout()">🚪 Cerrar sesión</button>
 </header>
 <main>
   <h1>MOCKS CAMBRIDGE</h1>
@@ -103,5 +104,13 @@
 
   <div class="footer">MOCKS CAMBRIDGE · NIS English · 2026</div>
 </main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4"></script>
+<script src="nis-bridge.js"></script>
+<script>
+  window._signout = async function(){
+    try{ if(window.NIS && window.NIS.signOut) await window.NIS.signOut(); }catch(e){}
+    window.location.href = '../nis-portal/';
+  };
+</script>
 </body>
 </html>
