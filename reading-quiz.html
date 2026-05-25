@@ -6049,23 +6049,44 @@ const render = {
         ${levels.map(l=>`<div class="tile" data-l="${l}"><span class="lvl">${l}</span><p>${OFFICIAL[l].name}</p></div>`).join('')}
       </div>
       <div class="row" style="margin-top:18px"><button class="ghost" onclick="go('login')">&larr; Back</button></div>`;
-    document.querySelectorAll('.tile').forEach(t=>t.onclick=()=>{state.level=t.dataset.l; go('examPick');});
+    document.querySelectorAll('.tile').forEach(t=>t.onclick=()=>{state.level=t.dataset.l; go('category');});
+  },
+
+  async category(){
+    const off=OFFICIAL[state.level];
+    const hasPractice = !!(EXAMS[state.level] && EXAMS[state.level][state.skill]);
+    let unlocked=false;
+    try{ if(window.NIS && window.NIS.mocksUnlocked) unlocked = await window.NIS.mocksUnlocked(); }catch(e){}
+    app.innerHTML = `
+      ${topbar('MOCKS CAMBRIDGE &rsaquo; '+state.skill+' &rsaquo; '+state.level+' &rsaquo; Choose')}
+      <h1>${state.level} ${state.skill}</h1>
+      <p class="sub">${off.name}. Choose what you want to take today.</p>
+      <div class="grid2">
+        <div class="tile" id="catPractice" style="${hasPractice?'':'opacity:.5;pointer-events:none'}">
+          <span class="ico">&#128214;</span><h3>PRACTICE TESTS</h3>
+          <p>${hasPractice?'Warm-up test in the authentic Cambridge format — auto-scored with timer and CEFR feedback.':'Coming soon for this level.'}</p>
+        </div>
+        <div class="tile" id="catMocks" style="${unlocked?'':'opacity:.6'}">
+          <span class="ico">${unlocked?'&#128221;':'&#128274;'}</span><h3>MOCKS</h3>
+          <p>${unlocked?'Two full mock exams (MOCK 1 &amp; MOCK 2), harder, official Cambridge structure.':'<b>🔒 Locked.</b> Your teacher will unlock the mocks from the NIS Portal.'}</p>
+        </div>
+      </div>
+      <div class="row" style="margin-top:18px"><button class="ghost" onclick="go('level')">&larr; Back to levels</button></div>`;
+    const pBtn=document.getElementById('catPractice');
+    if(pBtn && hasPractice) pBtn.onclick=()=>{ state.examType='practice'; state.answers={}; state._tabSwitches=0; go('exam'); };
+    const mBtn=document.getElementById('catMocks');
+    if(mBtn){
+      if(unlocked) mBtn.onclick=()=>go('examPick');
+      else mBtn.onclick=()=>{ alert('🔒 Los MOCKS están bloqueados.\n\nTu profesor los habilitará desde el Portal NIS cuando estés listo para rendirlos.'); };
+    }
   },
 
   examPick(){
     const off=OFFICIAL[state.level];
     app.innerHTML = `
-      ${topbar('MOCKS CAMBRIDGE &rsaquo; '+state.skill+' &rsaquo; '+state.level+' &rsaquo; Choose an exam')}
-      <h1>${state.level} ${state.skill} — choose your exam</h1>
-      <p class="sub">${off.name}. A practice test plus two full mock exams — all in the same authentic Cambridge (Inspera-style) format. Auto-scored with timer and CEFR analysis.</p>
-
-      ${(EXAMS[state.level] && EXAMS[state.level][state.skill]) ? `
-      <div class="card">
-        <h2>📘 Practice test</h2>
-        <p>A practice ${off.name}-format ${state.skill.toLowerCase()} test — same parts and structure as the mocks, ideal as a warm-up before the full mocks.</p>
-        <div class="row" style="margin-top:14px"><button id="practiceBtn">Start Practice &rarr;</button></div>
-      </div>
-      ` : ''}
+      ${topbar('MOCKS CAMBRIDGE &rsaquo; '+state.skill+' &rsaquo; '+state.level+' &rsaquo; Mocks')}
+      <h1>${state.level} ${state.skill} — choose a mock</h1>
+      <p class="sub">${off.name}. Two full mock exams in the authentic Cambridge (Inspera-style) format. Auto-scored with timer and CEFR analysis.</p>
 
       ${(MOCK01[state.level]) ? `
       <div class="card">
@@ -6088,9 +6109,7 @@ const render = {
         <a class="link" href="${off.url}" target="_blank" rel="noopener">Open Cambridge's official ${state.skill} sample test &nearr;</a>
       </div>
 
-      <div class="row" style="margin-top:18px"><button class="ghost" onclick="go('level')">&larr; Back to levels</button></div>`;
-    const practiceBtn = document.getElementById('practiceBtn');
-    if(practiceBtn) practiceBtn.onclick=()=>{ state.examType='practice'; state.answers={}; state._tabSwitches=0; go('exam'); };
+      <div class="row" style="margin-top:18px"><button class="ghost" onclick="go('category')">&larr; Back</button></div>`;
     const mock01Btn = document.getElementById('mock01Btn');
     if(mock01Btn) mock01Btn.onclick=()=>{ state.examType='mock01'; state.answers={}; state._tabSwitches=0; go('exam'); };
     const mock02Btn = document.getElementById('mock02Btn');
@@ -6321,7 +6340,7 @@ const render = {
     document.getElementById('submitBtn').onclick = finalize;
     document.getElementById('quitBtn').onclick = ()=>{
       if(!confirm('Exit without submitting? Your answers will be lost.')) return;
-      stopTimer(); stopTTS(); acStop(); go('examPick');
+      stopTimer(); stopTTS(); acStop(); go('category');
     };
 
     // Listen for any input/change anywhere in the shell to update progress
@@ -6521,7 +6540,7 @@ const render = {
 
       <div class="row">
         <a class="btn" style="text-decoration:none" href="https://bacman2000.github.io/nis-portal/">🏫 Volver al Portal → siguiente destreza</a>
-        <button class="ghost" onclick="go('examPick')">Try the other exam</button>
+        <button class="ghost" onclick="go('category')">Try another exam</button>
         <button class="ghost" onclick="go('level')">Change level</button>
         <a class="link" style="align-self:center;margin-left:6px" href="quizzes.html">All quizzes &nearr;</a>
       </div>`;

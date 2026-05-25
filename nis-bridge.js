@@ -49,5 +49,22 @@
       return res;
     }catch(e){ return {error:e}; }
   }
-  window.NIS = { client: client, currentStudent: currentStudent, save: save };
+  /* Returns true if MOCKS are unlocked for the logged-in student's grade.
+     Admins/teachers always get access (preview). Standalone / not-logged-in
+     users get FALSE (mocks stay locked until the admin unlocks them). */
+  async function mocksUnlocked(){
+    var c = client(); if(!c) return false;
+    try{
+      var u = await c.auth.getUser();
+      if(!u || !u.data || !u.data.user) return false;
+      var prof = await c.from('profiles').select('grade_id,role').eq('id',u.data.user.id).maybeSingle();
+      var p = prof && prof.data ? prof.data : null;
+      if(!p) return false;
+      if(p.role === 'admin' || p.role === 'teacher') return true;
+      if(!p.grade_id) return false;
+      var r = await c.from('mock_access').select('unlocked').eq('grade_id',p.grade_id).maybeSingle();
+      return !!(r && r.data && r.data.unlocked);
+    }catch(e){ return false; }
+  }
+  window.NIS = { client: client, currentStudent: currentStudent, save: save, mocksUnlocked: mocksUnlocked };
 })();

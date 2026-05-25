@@ -3756,11 +3756,43 @@ function viewLevelSelect(){
     `;
     el.onclick = ()=>{
       state.level = k;
-      viewExamPick();
+      viewCategory();
     };
     levels.appendChild(el);
   });
   $("#lvlBack").onclick = ()=> viewWelcome();
+}
+
+/* ---------- VIEW: choose PRACTICE TESTS / MOCKS ---------- */
+async function viewCategory(){
+  TTS.stop();
+  document.body.classList.remove('exam-mode','result-mode');
+  document.body.classList.add('signin-mode');
+  const examName = {A2:'A2 Key',B1:'B1 Preliminary',B2:'B2 First',C1:'C1 Advanced'}[state.level] || state.level;
+  const cardCss = "background:#fff;border-radius:16px;box-shadow:0 10px 30px rgba(15,23,42,.10);padding:28px 30px;margin-bottom:18px";
+  let unlocked=false;
+  try{ if(window.NIS && window.NIS.mocksUnlocked) unlocked=await window.NIS.mocksUnlocked(); }catch(e){}
+  app.innerHTML = `
+    <div class="signin-wrap">
+      <div class="crumb">MOCKS CAMBRIDGE &rsaquo; Listening &rsaquo; ${state.level} &rsaquo; Choose</div>
+      <h1>${state.level} Listening</h1>
+      <p class="sub">${examName}. Choose what you want to take today.</p>
+
+      <div style="${cardCss};cursor:pointer" id="catPractice">
+        <h2 style="margin:0 0 8px;font-size:1.4rem;color:#2d5a8d">📘 PRACTICE TESTS</h2>
+        <p style="color:#475569;margin:0;line-height:1.55">A warm-up listening test with real audio, in the authentic Cambridge format — auto-scored with timer and CEFR feedback.</p>
+      </div>
+
+      <div style="${cardCss}${unlocked?';cursor:pointer':';opacity:.65'}" id="catMocks">
+        <h2 style="margin:0 0 8px;font-size:1.4rem;color:#2d5a8d">${unlocked?'📝':'🔒'} MOCKS</h2>
+        <p style="color:#475569;margin:0;line-height:1.55">${unlocked?'Two full listening mocks (MOCK 1 &amp; MOCK 2) — harder, official Cambridge structure with real audio.':'<b>🔒 Locked.</b> Your teacher will unlock the mocks from the NIS Portal.'}</p>
+      </div>
+
+      <div class="signin-actions" style="margin-top:8px"><a class="secondary2" id="catBack">&larr; Back to levels</a></div>
+    </div>`;
+  $("#catPractice").onclick = ()=>{ state.examType='practice'; state.startTime=Date.now(); state.answers={}; state.seqOrder={}; viewQuiz(); };
+  $("#catMocks").onclick = ()=>{ if(unlocked){ viewExamPick(); } else { alert('🔒 Los MOCKS están bloqueados.\n\nTu profesor los habilitará desde el Portal NIS cuando estés listo para rendirlos.'); } };
+  $("#catBack").onclick = ()=> viewLevelSelect();
 }
 
 /* ---------- VIEW: choose MOCK 1 / MOCK 2 ---------- */
@@ -3774,15 +3806,9 @@ function viewExamPick(){
   const cardCss = "background:#fff;border-radius:16px;box-shadow:0 10px 30px rgba(15,23,42,.10);padding:28px 30px;margin-bottom:18px";
   app.innerHTML = `
     <div class="signin-wrap">
-      <div class="crumb">MOCKS CAMBRIDGE &rsaquo; Listening &rsaquo; ${state.level} &rsaquo; Choose an exam</div>
-      <h1>${state.level} Listening — choose your exam</h1>
-      <p class="sub">${examName}. A practice test plus two full listening mocks — same authentic Cambridge (Inspera-style) format with real audio. Auto-scored with timer and CEFR analysis.</p>
-
-      <div style="${cardCss}">
-        <h2 style="margin:0 0 8px;font-size:1.4rem;color:#2d5a8d">📘 Practice test</h2>
-        <p style="color:#475569;margin:0 0 4px;line-height:1.55">A practice ${examName}-format listening test with real audio — same parts and structure as the mocks, ideal as a warm-up.</p>
-        <button id="mP" style="${cardBtn}">Start Practice &rarr;</button>
-      </div>
+      <div class="crumb">MOCKS CAMBRIDGE &rsaquo; Listening &rsaquo; ${state.level} &rsaquo; Mocks</div>
+      <h1>${state.level} Listening — choose a mock</h1>
+      <p class="sub">${examName}. Two full listening mocks — same authentic Cambridge (Inspera-style) format with real audio. Auto-scored with timer and CEFR analysis.</p>
 
       <div style="${cardCss}">
         <h2 style="margin:0 0 8px;font-size:1.4rem;color:#2d5a8d">📝 MOCK 1</h2>
@@ -3796,13 +3822,12 @@ function viewExamPick(){
         <button id="m2" style="${cardBtn}">Start MOCK 2 &rarr;</button>
       </div>
 
-      <div class="signin-actions" style="margin-top:8px"><a class="secondary2" id="epBack">&larr; Back to levels</a></div>
+      <div class="signin-actions" style="margin-top:8px"><a class="secondary2" id="epBack">&larr; Back</a></div>
     </div>`;
   const start = (t)=>{ state.examType=t; state.startTime=Date.now(); state.answers={}; state.seqOrder={}; viewQuiz(); };
-  const mP=$("#mP"); if(mP) mP.onclick = ()=> start('practice');
   $("#m1").onclick = ()=> start('mock01');
   $("#m2").onclick = ()=> start('mock02');
-  $("#epBack").onclick = ()=> viewLevelSelect();
+  $("#epBack").onclick = ()=> viewCategory();
 }
 
 /* ---------- VIEW: Quiz ---------- */

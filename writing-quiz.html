@@ -562,21 +562,38 @@ const render={
       <p style="margin-top:16px"><a class="link" onclick="go('welcome')" style="cursor:pointer">← Back</a></p>
     </div>`;
   },
+  async category(){
+    stopTimer();
+    app.className='app';
+    const examName={B1:'B1 Preliminary',B2:'B2 First',C1:'C1 Advanced'}[state.level]||state.level;
+    let unlocked=false;
+    try{ if(window.NIS && window.NIS.mocksUnlocked) unlocked=await window.NIS.mocksUnlocked(); }catch(e){}
+    app.innerHTML=`
+      <div style="color:var(--muted);font-size:.9rem;margin-bottom:6px">MOCKS CAMBRIDGE &rsaquo; Writing &rsaquo; ${state.level} &rsaquo; Choose</div>
+      <h1 style="margin:0 0 6px;font-size:1.7rem">${state.level} Writing</h1>
+      <p style="color:var(--muted);max-width:760px;margin:0 0 16px">${examName}. Choose what you want to take today.</p>
+
+      <div class="card" style="cursor:pointer" onclick="window._pickExam('practice')">
+        <h2>📘 PRACTICE TESTS</h2>
+        <p style="color:var(--muted);margin:0">A warm-up writing test in the authentic Cambridge format. Part 1 compulsory + Part 2 (choose one). Sent to your teacher to mark.</p>
+      </div>
+
+      <div class="card" style="${unlocked?'cursor:pointer':'opacity:.65'}" onclick="${unlocked?"go('examPick')":'window._mockLocked()'}">
+        <h2>${unlocked?'📝':'🔒'} MOCKS</h2>
+        <p style="color:var(--muted);margin:0">${unlocked?'Two full writing mocks (MOCK 1 &amp; MOCK 2) — harder, official Cambridge structure.':'<b>🔒 Locked.</b> Your teacher will unlock the mocks from the NIS Portal.'}</p>
+      </div>
+
+      <p style="margin-top:8px"><a class="link" onclick="go('level')" style="cursor:pointer">&larr; Back to levels</a></p>`;
+  },
   examPick(){
     stopTimer();
     app.className='app';
     const examName={B1:'B1 Preliminary',B2:'B2 First',C1:'C1 Advanced'}[state.level]||state.level;
     const cardBtn="margin-top:8px";
     app.innerHTML=`
-      <div style="color:var(--muted);font-size:.9rem;margin-bottom:6px">MOCKS CAMBRIDGE &rsaquo; Writing &rsaquo; ${state.level} &rsaquo; Choose an exam</div>
-      <h1 style="margin:0 0 6px;font-size:1.7rem">${state.level} Writing — choose your exam</h1>
-      <p style="color:var(--muted);max-width:760px;margin:0 0 16px">${examName}. A practice test plus two full writing mocks — same authentic Cambridge format. Part 1 is compulsory; choose one task in Part 2. Your writing is sent to your teacher to mark.</p>
-
-      <div class="card">
-        <h2>📘 Practice test</h2>
-        <p style="color:var(--muted);margin:0 0 4px">A practice ${examName}-format writing test — same structure as the mocks, ideal as a warm-up.</p>
-        <button class="btn" style="${cardBtn}" onclick="window._pickExam('practice')">Start Practice &rarr;</button>
-      </div>
+      <div style="color:var(--muted);font-size:.9rem;margin-bottom:6px">MOCKS CAMBRIDGE &rsaquo; Writing &rsaquo; ${state.level} &rsaquo; Mocks</div>
+      <h1 style="margin:0 0 6px;font-size:1.7rem">${state.level} Writing — choose a mock</h1>
+      <p style="color:var(--muted);max-width:760px;margin:0 0 16px">${examName}. Two full writing mocks — same authentic Cambridge format. Part 1 is compulsory; choose one task in Part 2. Your writing is sent to your teacher to mark.</p>
 
       <div class="card">
         <h2>📝 MOCK 1</h2>
@@ -590,7 +607,7 @@ const render={
         <button class="btn" style="${cardBtn}" onclick="window._pickExam('mock02')">Start MOCK 2 &rarr;</button>
       </div>
 
-      <p style="margin-top:8px"><a class="link" onclick="go('level')" style="cursor:pointer">&larr; Back to levels</a></p>`;
+      <p style="margin-top:8px"><a class="link" onclick="go('category')" style="cursor:pointer">&larr; Back</a></p>`;
   },
   exam(){
     const ex=exam();
@@ -716,8 +733,9 @@ function startTimer(min){
 }
 function stopTimer(){ if(timerId){clearInterval(timerId);timerId=null;} }
 
-window._pickLevel=(l)=>{ state.level=l; go('examPick'); };
+window._pickLevel=(l)=>{ state.level=l; go('category'); };
 window._pickExam=(t)=>{ state.examType=t; go('exam'); };
+window._mockLocked=()=>{ alert('🔒 Los MOCKS están bloqueados.\n\nTu profesor los habilitará desde el Portal NIS cuando estés listo para rendirlos.'); };
 
 /* Auto-skip sign-in when logged into Portal NIS (shared session) → go to level. */
 (async function(){
