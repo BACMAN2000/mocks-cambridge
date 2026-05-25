@@ -231,6 +231,7 @@
   .story-pics{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:6px 0 18px}
   .story-pics figure{margin:0;border:1px solid #cbd5e1;border-radius:8px;background:#fff;overflow:hidden}
   .story-pics svg{display:block;width:100%;height:auto;background:#fff}
+  .story-pics img{display:block;width:100%;height:160px;object-fit:cover;background:#fff}
   .story-pics figcaption{font-size:.75rem;color:#94a3b8;text-align:center;padding:4px 0;font-family:"Montserrat","Segoe UI",sans-serif}
   @media(max-width:680px){.story-pics{grid-template-columns:1fr}}
   /* MC radio cards in light theme */
@@ -5523,9 +5524,22 @@ const STORY_PICS = {
     `<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" stroke="#1f2937" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="170" cy="24" r="9" fill="#fde68a"/><ellipse cx="100" cy="74" rx="92" ry="40" fill="#e0f2fe" stroke="#cbd5e1"/><circle cx="96" cy="64" r="6"/><path d="M84 70 q12 -8 24 0"/><path d="M70 80 q10 6 20 0 q10 -6 20 0 q10 6 20 0"/><polygon points="40,18 28,44 52,44" fill="#dcfce7"/><line x1="40" y1="44" x2="40" y2="54"/><rect x="138" y="112" width="46" height="26" fill="#f1f5f9"/><circle cx="150" cy="106" r="6"/><line x1="150" y1="112" x2="150" y2="126"/><line x1="150" y1="116" x2="160" y2="122"/></svg>`
   ]
 };
+/* Real-photo story sequences (same people across 3 photos). If a photo set
+   exists for the key, use it; otherwise fall back to the simple SVG drawings. */
+const STORY_PHOTOS = {
+  picnic: ['images/story/picnic-1.jpg','images/story/picnic-2.jpg','images/story/picnic-3.jpg']
+};
 function renderStoryPics(key){
-  const set = STORY_PICS[key];
-  if(!set) return '';
+  const photos = STORY_PHOTOS[key];
+  const captions = ['1','2','3'];
+  const set = STORY_PICS[key] || [];
+  if(photos && photos.length){
+    return `<div class="story-pics">${photos.map((src,i)=>{
+      const fb = (set[i]||'').replace(/"/g,'&quot;');
+      return `<figure><img src="${src}" alt="Picture ${i+1}" loading="lazy" onerror="this.style.display='none';var f=this.nextElementSibling;if(f)f.style.display='block'"><span class="story-fb" style="display:none">${set[i]||''}</span><figcaption>${i+1}</figcaption></figure>`;
+    }).join('')}</div>`;
+  }
+  if(!set.length) return '';
   return `<div class="story-pics">${set.map((svg,i)=>`<figure>${svg}<figcaption>${i+1}</figcaption></figure>`).join('')}</div>`;
 }
 function renderStim(q){
