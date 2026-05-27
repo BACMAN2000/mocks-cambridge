@@ -7286,8 +7286,9 @@ function scoreExam(ex){
         const task = writingTaskOf(p, pr);
         const m = task.match(/(\d+)\s*(?:[–-]\s*\d+)?\s*words?/i);
         const minWords = m ? parseInt(m[1]) : 25;
-        const res = scoreWriting({text, minWords, isEmail, bulletItems:bullets});
-        writing.push({part:partName, q:num, prompt:(typeof pr==='string'?pr:''), task, text, wordCount:res.wordCount, provisionalBand:res.band, max:res.max, criteria:res.criteria, feedback:res.feedback});
+        const wcOnly=(text||'').trim()? (text.trim().split(/\s+/).length):0;
+        // Writing is NOT auto-graded — capture text only; the teacher marks it.
+        writing.push({part:partName, q:num, prompt:(typeof pr==='string'?pr:''), task, text, wordCount:wcOnly});
       });
       counter += p.prompts.length;
       return;

@@ -822,10 +822,6 @@ const render={
   result(){
     stopTimer();
     const r=state.answers; const ex=exam();
-    const totalBand=r.tasks.reduce((a,t)=>a+t.band,0), maxBand=r.tasks.length*5;
-    const pct=Math.round(totalBand/maxBand*100);
-    const firstName=(state.name||'Student').split(' ')[0];
-    const verdict = pct>=80?'Excellent — a strong, well-developed performance.':pct>=60?'Good — a solid pass with room to refine.':pct>=40?'Developing — keep practising structure and coverage.':'Needs work — focus on covering all points and length.';
     app.className='app';
     app.innerHTML=`
       <div class="topbar"><img src="nordic-logo-h.svg" alt="Nordic"><div><h1 style="margin:0;font-size:1.4rem">Writing submitted</h1><div style="color:var(--muted)">${ex.title}</div></div></div>
@@ -843,14 +839,13 @@ const render={
         <div class="card" style="text-align:center;border-left:4px solid var(--good)">
           <div style="font-size:2.2rem">✓</div>
           <h2 style="margin:4px 0">Writing submitted</h2>
-          <p style="color:var(--muted);margin:0">Your writing is <strong>not graded automatically</strong>. It has been sent to your teacher, who will read it and give you a mark by hand. Below is a copy of what you wrote.</p>
+          <p style="color:var(--muted);margin:0">Writing is <strong>not auto-scored</strong> — your teacher will read it and give you a mark by hand. Status: <strong>Pendiente de calificación del profesor</strong>. Below is a copy of what you wrote.</p>
         </div>
         <div class="card">
           <h2>Your answers</h2>
           ${r.tasks.map(t=>`<div style="border:1px solid #e2e8f0;border-radius:10px;padding:14px;margin-bottom:14px">
             <div style="display:flex;justify-content:space-between;align-items:center"><strong>${t.label}</strong><span style="color:var(--muted);font-size:.85rem">${t.wordCount} words</span></div>
             <div class="answer">${t.text?esc(t.text):'<em>No response written.</em>'}</div>
-            ${t.feedback?`<div class="fb"><strong>Self-check tips (not your grade):</strong> ${t.feedback}</div>`:''}
           </div>`).join('')}
         </div>
       </div>
@@ -861,9 +856,9 @@ const render={
       </div>`;
     window._pdf=()=>{ const el=document.getElementById('pdfTarget'); if(!window.html2pdf){ alert('PDF library still loading, try again in a moment.'); return; }
       html2pdf().set({margin:8,filename:`NIS-Writing-${state.level}-${(state.name||'').replace(/\s+/g,'_')}.pdf`,image:{type:'jpeg',quality:0.95},html2canvas:{scale:2,useCORS:true,scrollY:0},jsPDF:{unit:'mm',format:'a4',orientation:'portrait'},pagebreak:{mode:['css','legacy']}}).from(el).save(); };
-    const sb=document.getElementById('sendEmail'); if(sb) sb.onclick=()=>postResult(r,pct,totalBand,maxBand,verdict);
+    const sb=document.getElementById('sendEmail'); if(sb) sb.onclick=()=>postResult(r,false);
     // fire-and-forget webhook
-    postResult(r,pct,totalBand,maxBand,verdict,true);
+    postResult(r,true);
   }
 };
 
@@ -871,32 +866,32 @@ function finalize(){
   if(!confirm('Submit your writing and finish? Your answers will be sent to your teacher to mark.')) return;
   stopTimer();
   const ex=exam();
+  const wc=s=>{ s=(s||'').trim(); return s? s.split(/\s+/).length : 0; };
   const tasks=[];
-  // Part 1 (compulsory)
+  // Writing is NOT auto-graded — the teacher marks it. We only capture the text.
   const t1=ex.parts[0].tasks[0]; const text1=(document.querySelector('[name="p1"]')||{}).value||'';
-  const r1=scoreWriting({text:text1,minWords:t1.minWords,maxWords:t1.maxWords,bulletItems:t1.bullets});
-  tasks.push({label:'Part 1 — '+capit(t1.type),taskType:t1.type,text:text1,...r1});
+  tasks.push({label:'Part 1 — '+capit(t1.type),taskType:t1.type,text:text1,wordCount:wc(text1)});
   // Part 2 (chosen)
   let opt=state.part2Choice;
   if(opt==null){ // fall back to the option with most words
     let best=-1,bestW=-1; ex.parts[1].tasks.forEach((t,i)=>{const ta=document.querySelector(`[name="p2_${i}"]`);const w=ta&&ta.value.trim()?ta.value.trim().split(/\s+/).length:0; if(w>bestW){bestW=w;best=i;}}); opt=best>=0?best:0;
   }
   const t2=ex.parts[1].tasks[opt]; const text2=(document.querySelector(`[name="p2_${opt}"]`)||{}).value||'';
-  const r2=scoreWriting({text:text2,minWords:t2.minWords,maxWords:t2.maxWords,bulletItems:t2.bullets});
-  tasks.push({label:'Part 2 (Q'+t2.q+') — '+capit(t2.type),taskType:t2.type,text:text2,...r2});
+  tasks.push({label:'Part 2 (Q'+t2.q+') — '+capit(t2.type),taskType:t2.type,text:text2,wordCount:wc(text2)});
   state.answers={tasks,part2Chosen:t2.q};
   go('result');
 }
 function capit(s){return s?s.charAt(0).toUpperCase()+s.slice(1):s;}
 
-function postResult(r,pct,totalBand,maxBand,verdict,silent){
+function postResult(r,silent){
   const st=document.getElementById('sendStatus');
   if(!silent&&st){st.style.display='block';st.textContent='Sending…';}
+  // Writing is NOT auto-graded: store/send with no score — the teacher grades it.
   try{ if(window.NIS) window.NIS.save({skill:'Writing', level:state.level, examType:state.examType, score:null, total:null, percent:null, answers:(r&&r.tasks)||null}); }catch(e){}
   if(!CONFIG.webhookUrl){ if(st&&!silent){st.textContent='⚠ No webhook configured — use Download PDF.';} return; }
   const payload={timestamp:new Date().toISOString(),name:state.name,firstName:(state.name||'').split(' ')[0],email:state.email,grade:state.grade,
     skill:'Writing',level:state.level,levelName:LEVEL_NAMES[state.level]||'',examTitle:exam().title,
-    score:totalBand,total:maxBand,percent:pct,verdict:verdict,writingEvaluation:r.tasks,
+    score:null,total:null,percent:null,verdict:'Pendiente de calificación del profesor',writingEvaluation:r.tasks,
     teacherEmail:CONFIG.teacherEmail,schoolName:CONFIG.schoolName};
   fetch(CONFIG.webhookUrl,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(payload)})
     .then(()=>{if(st&&!silent){st.textContent='✓ Sent. Your teacher has received your report.';}})
