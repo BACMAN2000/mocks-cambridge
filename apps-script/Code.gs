@@ -41,6 +41,21 @@ function doGet() {
 function doPost(e) {
   try {
     var data  = parseInput_(e);
+
+    // Teacher-graded Writing result coming from the NIS portal → email the student.
+    if (data.type === 'writing_result') {
+      var em = data.studentEmail || '';
+      if (em && /^\S+@\S+\.\S+$/.test(em)) {
+        var pc = (data.percent != null && data.percent !== '') ? ('  (' + data.percent + '%)') : '';
+        var body = 'Hi ' + (data.firstName || data.studentName || '') + ',\n\n'
+          + 'Your teacher has marked your ' + (data.level || '') + ' Writing.\n\n'
+          + 'Score: ' + data.score + ' / ' + data.total + pc + '\n\n'
+          + (data.message || '') + '\n\n— ' + (data.schoolName || SCHOOL_NAME);
+        MailApp.sendEmail(em, 'Your Writing result — ' + (data.schoolName || SCHOOL_NAME), body);
+      }
+      return json_({ ok: true });
+    }
+
     var skill = data.skill || (data.breakdown ? 'Listening' : 'Reading');
 
     if (skill === 'Writing') {
