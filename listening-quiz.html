@@ -4432,6 +4432,352 @@ const QUIZ5 = {
  }
 }; /* Práctica 3 = original recordings */
 
+/* ============================================================
+   MOCK 3 — third full listening exam per level. Same Cambridge
+   structure as MOCK 1 / MOCK 2. Fresh original scripts/questions.
+   B1 and B2 pitched at the upper boundary of the level (PET/FCE
+   pass-difficulty). Audio lives under mp3/M3/.
+============================================================ */
+const QUIZ6 = {
+
+  /* ---------------- A2 — Cambridge KET (MOCK 3) ---------------- */
+  A2: {
+    label: "A2 — Elementary",
+    cefr: "Cambridge KET · A2 official format",
+    blurb: "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+    audios: [
+      {
+        id: "A2-P1", title: "Part 1 · Questions 1–5", kind: "file", paged: true,
+        intro: "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+        segments: ["A school club","A way to travel","Where the keys are","Lunch today","What time class starts"],
+        scripts: [
+          "Question one. Girl: Which club did you join, Ben? Boy: I wanted football, but they were full. So I picked the guitar club. Girl: Oh, you'll be great.",
+          "Question two. Mum: How are you getting to the library? Boy: I was going to cycle, but it's raining. I'll just take the bus. Mum: Good idea.",
+          "Question three. Dad: Have you seen the car keys? Girl: I think they're in your bag. Dad: My bag? Oh, you're right. Thank you.",
+          "Question four. Boy: What's for lunch today? Mum: I was going to make pizza, but we've no cheese. So I made you a sandwich instead. Boy: That's fine, thanks.",
+          "Question five. Girl: My class starts at nine today, not at half past eight. Boy: Lucky you! Mine still starts at eight."
+        ],
+        questions: [
+          {type:"pic", q:"Which club did Ben join?", imgs:["ball","guitar","book"], c:1, audio:"M3/A2/A2-P1-q1.mp3"},
+          {type:"pic", q:"How will the boy get to the library?", imgs:["bike","bus","car"], c:1, audio:"M3/A2/A2-P1-q2.mp3"},
+          {type:"pic", q:"Where are the car keys?", imgs:["bag","keys","phone"], c:0, audio:"M3/A2/A2-P1-q3.mp3"},
+          {type:"pic", q:"What's the boy having for lunch?", imgs:["pizza","sandwich","cake"], c:1, audio:"M3/A2/A2-P1-q4.mp3"},
+          {type:"pic", q:"What time does the girl's class start?", imgs:["clock8","clock830","clock9"], c:2, audio:"M3/A2/A2-P1-q5.mp3"}
+        ]
+      },
+      {
+        id: "A2-P2", title: "Part 2 · Questions 6–10", kind: "file", file: "M3/A2/A2-P2.mp3",
+        intro: "You will hear a teacher giving information about a school trip. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+        scripts: [
+          "Listen to your teacher talking about the school trip. Teacher: Right everyone, here is the information about our school trip. We're going to the city museum, not the zoo. The trip is on Thursday, leaving at nine o'clock in the morning. Please wear your blue jumper, and bring a small bag with you. The school will pay for the bus, but please bring five pounds for lunch."
+        ],
+        gapTitle: "School Trip",
+        questions: [
+          {type:"gap", label:"We are going to the: ____", accept:["museum","city museum"]},
+          {type:"gap", label:"Day of the trip: ____", accept:["thursday"]},
+          {type:"gap", label:"We leave at: ____ o'clock", accept:["9","nine"]},
+          {type:"gap", label:"Please wear your blue: ____", accept:["jumper"]},
+          {type:"gap", label:"Bring £ ____ for lunch", accept:["5","five"]}
+        ]
+      },
+      {
+        id: "A2-P3", title: "Part 3 · Questions 11–15", kind: "file", file: "M3/A2/A2-P3.mp3",
+        intro: "You will hear a girl called Mia talking to her friend Leo about a birthday party. For each question, choose the correct answer (A, B or C).",
+        scripts: [
+          "Mia: Hi Leo, are you coming to my party? Leo: Of course! When is it? Mia: On Saturday at four o'clock. Leo: Where is it? Mia: At my house, in the garden. Leo: Cool. What can I bring? Mia: Nothing, just yourself. But please don't bring chocolate, my little brother can't eat it. Leo: OK. What are we going to do? Mia: We're going to play games and eat cake. My dad's making a big chocolate cake, but there's strawberry too for my brother. Leo: Sounds amazing! See you Saturday."
+        ],
+        questions: [
+          {type:"mc", q:"When is the party?", o:["On Friday","On Saturday","On Sunday"], c:1},
+          {type:"mc", q:"Where will the party be?", o:["In the garden","In the kitchen","At a restaurant"], c:0},
+          {type:"mc", q:"What does Mia ask Leo NOT to bring?", o:["A present","Chocolate","Food"], c:1},
+          {type:"mc", q:"What will they eat?", o:["Pizza","Cake","Sandwiches"], c:1},
+          {type:"mc", q:"Why is there a strawberry cake too?", o:["Mia prefers it","For her brother","It is cheaper"], c:1}
+        ]
+      },
+      {
+        id: "A2-P4", title: "Part 4 · Questions 16–20", kind: "file", file: "M3/A2/A2-P4.mp3",
+        intro: "You will hear a boy called Daniel talking about his swimming lessons. For each question, choose the correct answer (A, B or C).",
+        scripts: [
+          "Daniel: I started swimming lessons three months ago. At first I really didn't like them, because the water was cold and I was a bit scared. But now I love them. We have a lesson every Tuesday after school. My teacher's name is Mr Brown, and he's very patient. The best thing isn't winning races, it's how relaxed I feel afterwards. Next month we have a small competition with another school. I'm not the fastest, but I'm going to try my best."
+        ],
+        questions: [
+          {type:"mc", q:"How did Daniel feel at first?", o:["He loved it","He was a bit scared","He was bored"], c:1},
+          {type:"mc", q:"When does Daniel have his lesson?", o:["On Monday","On Tuesday","On Friday"], c:1},
+          {type:"mc", q:"What does Daniel say about his teacher?", o:["He is strict","He is patient","He is funny"], c:1},
+          {type:"mc", q:"What does Daniel like best?", o:["Winning races","Feeling relaxed after","Meeting friends"], c:1},
+          {type:"mc", q:"How does Daniel feel about the competition?", o:["Sure he will win","He'll try his best","He doesn't want to go"], c:1}
+        ]
+      },
+      {
+        id: "A2-P5", title: "Part 5 · Questions 21–25", kind: "file", file: "M3/A2/A2-P5.mp3",
+        intro: "You will hear a girl called Anna talking about presents her family got for her birthday. What present did each person give? For each question, choose the correct answer.",
+        bank: ["a camera","a hat","a guitar","a book","a bag","a cake","an umbrella"],
+        scripts: [
+          "Anna: For my birthday everyone in my family gave me something different. My mum gave me a beautiful new bag for school. My dad surprised me with a small guitar, because he knows I want to learn. My brother Jake bought me a book, of course, he loves reading. My grandma made me a chocolate cake, which was delicious. And my little sister Lily gave me a pink hat that she chose herself."
+        ],
+        questions: [
+          {type:"match", person:"Mum", c:"a bag"},
+          {type:"match", person:"Dad", c:"a guitar"},
+          {type:"match", person:"Jake", c:"a book"},
+          {type:"match", person:"Grandma", c:"a cake"},
+          {type:"match", person:"Lily", c:"a hat"}
+        ]
+      }
+    ]
+  },
+
+  /* ---------------- B1 — Cambridge PET (MOCK 3) — harder ---------------- */
+  B1: {
+    label: "B1 — Intermediate",
+    cefr: "Cambridge PET · B1 official format",
+    blurb: "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+    audios: [
+      {
+        id: "B1-P1", title: "Part 1 · Questions 1–7", kind: "file", paged: true,
+        intro: "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+        segments: ["A weekend plan","An object","Getting to work","Tomorrow's weather","Choice of drink","Meeting time","Lost property"],
+        scripts: [
+          "Question one. Boy: Tennis Sunday? Girl: My racket's at my cousin's. Let's just walk in the park — I need fresh air. Boy: Fair enough.",
+          "Question two. Woman: You're carrying so much. Man: Camera, book for the train. But I forgot my umbrella, which is what I'll need by the look of those clouds. Woman: Borrow mine.",
+          "Question three. Man: Driving in tomorrow? Woman: Traffic's awful. I usually cycle, but my knee's playing up, so I'll just take the bus and read. Man: Sensible.",
+          "Question four. Girl: I was going to wear my new dress tomorrow. Boy: I wouldn't. The forecast keeps changing, but now it's heavy rain all afternoon. Girl: Right, jeans and boots then.",
+          "Question five. Waiter: A coffee? Woman: I've had three already. A tea would be nice. Actually, just water please. Waiter: Of course.",
+          "Question six. Man: What time did we say? Woman: First seven, then Anna pushed it back, and now Tom can't make eight, so we're meeting at nine. Man: Very organised.",
+          "Question seven. Mum: What have you lost? Boy: My phone. I had it on the bus. Mum: Try calling it. Boy: I can't, I haven't got it. Oh — it's in my coat pocket."
+        ],
+        questions: [
+          {type:"pic", q:"What do they decide to do on Sunday?", imgs:["ball","park","sandwich"], c:1, audio:"M3/B1/B1-P1-q1.mp3"},
+          {type:"pic", q:"What has the man forgotten?", imgs:["camera","book","umbrella"], c:2, audio:"M3/B1/B1-P1-q2.mp3"},
+          {type:"pic", q:"How will the woman travel to work tomorrow?", imgs:["car","bike","bus"], c:2, audio:"M3/B1/B1-P1-q3.mp3"},
+          {type:"pic", q:"What will the weather be like tomorrow afternoon?", imgs:["sunny","rainy","snowy"], c:1, audio:"M3/B1/B1-P1-q4.mp3"},
+          {type:"pic", q:"What does the woman finally order?", imgs:["cafe","pizza","umbrella"], c:0, audio:"M3/B1/B1-P1-q5.mp3"},
+          {type:"pic", q:"What time will they now meet?", imgs:["clock700","clock8","clock9"], c:2, audio:"M3/B1/B1-P1-q6.mp3"},
+          {type:"pic", q:"Where was the boy's phone?", imgs:["bag","phone","keys"], c:1, audio:"M3/B1/B1-P1-q7.mp3"}
+        ]
+      },
+      {
+        id: "B1-P2", title: "Part 2 · Questions 8–13", kind: "file", paged: true,
+        intro: "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+        segments: ["A new sport","A book review","A film","Advice from a coach","A holiday","Why he's annoyed"],
+        scripts: [
+          "A girl talking about a sport. Girl: I'd convinced myself I'd hate climbing — I'm scared of heights. The instructor was kind, sure, but what kept me going back was the puzzle of it. Every route's a problem to solve, and that I wasn't expecting to enjoy.",
+          "A boy talking about a book. Boy: Everyone's been raving about it. The characters are well-drawn, but the plot drags. Halfway through I realised I didn't care what happened.",
+          "A woman talking about a film. Woman: The special effects were spectacular and the music gave me goosebumps. But the script was full of holes — bits of the story made no sense. Visually stunning, narratively a mess.",
+          "A coach talking to a young runner. Coach: Your times are coming down, great. Before a big race the temptation is to push harder in training. Resist it. What your body needs is sleep — proper, full nights of it.",
+          "A man talking about a holiday. Man: The hotel was a disaster. But you forget that within an hour on the beach. What we'll remember is how welcoming the locals were — they made every meal feel like a family dinner.",
+          "A girl explaining why she's annoyed. Girl: It's not the homework — I don't mind that. It's that the teacher gave no warning, just sprang it on us the morning it was due. I'd made plans."
+        ],
+        questions: [
+          {type:"mc", q:"What does the girl say kept her going back to climbing?", o:["The kind instructor","Solving the route as a puzzle","Overcoming her fear"], c:1, audio:"M3/B1/B1-P2-q1.mp3"},
+          {type:"mc", q:"What does the boy think about the book?", o:["The characters are weak","He didn't care about the story","The ending is good"], c:1, audio:"M3/B1/B1-P2-q2.mp3"},
+          {type:"mc", q:"What did the woman dislike about the film?", o:["The visuals","The music","The script"], c:2, audio:"M3/B1/B1-P2-q3.mp3"},
+          {type:"mc", q:"What does the coach mainly advise?", o:["Train harder","Get plenty of sleep","Eat more"], c:1, audio:"M3/B1/B1-P2-q4.mp3"},
+          {type:"mc", q:"What will the man most remember from the holiday?", o:["The hotel","The beach","The local people"], c:2, audio:"M3/B1/B1-P2-q5.mp3"},
+          {type:"mc", q:"Why is the girl annoyed?", o:["There was too much homework","The teacher gave no warning","She forgot to do it"], c:1, audio:"M3/B1/B1-P2-q6.mp3"}
+        ]
+      },
+      {
+        id: "B1-P3", title: "Part 3 · Questions 14–19", kind: "file", file: "M3/B1/B1-P3.mp3",
+        intro: "You will hear a girl telling other students about a weekend drama workshop. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+        scripts: [
+          "Hi everyone, quick note about our drama workshop. It runs on Sunday, in the main hall — not the theatre, because the lights aren't working there. We start at ten and finish at four. Cost is eighteen pounds, lunch included. This time we focus on improvisation, so no scripts to learn. Bring comfortable trousers, and a notebook for ideas. See you Sunday!"
+        ],
+        gapTitle: "Weekend Drama Workshop",
+        questions: [
+          {type:"gap", label:"Day of the workshop: ____", accept:["sunday"]},
+          {type:"gap", label:"Location: the main ____", accept:["hall"]},
+          {type:"gap", label:"Finishes at: ____ o'clock", accept:["4","four"]},
+          {type:"gap", label:"Cost: £ ____", accept:["18","eighteen"]},
+          {type:"gap", label:"Focus this time: ____", accept:["improvisation"]},
+          {type:"gap", label:"Also bring a: ____", accept:["notebook"]}
+        ]
+      },
+      {
+        id: "B1-P4", title: "Part 4 · Questions 20–25", kind: "file", file: "M3/B1/B1-P4.mp3",
+        intro: "You will hear an interview with a young documentary photographer called Sofia. For each question, choose the correct answer (A, B or C).",
+        scripts: [
+          "Interviewer: Sofia, how did it begin? Sofia: Everyone assumes art school. Actually, I picked up a cheap second-hand camera at fifteen and refused to put it down. I didn't study photography formally until later. Interviewer: What do you most enjoy? Sofia: People expect landscapes. But it's strangers in cities — catching that second when they forget the camera. Interviewer: Hardest part? Sofia: Not the early starts. It's the patience to wait, sometimes for hours, for the right light. Interviewer: A big moment? Sofia: A photo I almost deleted ended up on a magazine cover. That taught me never to trust my first reaction. Interviewer: Advice? Sofia: Don't spend money on lenses; spend it on travel. The best photos come from places, not equipment. Interviewer: Next? Sofia: I've been offered a studio job, but I'd rather keep travelling and teach short courses. Interviewer: Thank you."
+        ],
+        questions: [
+          {type:"mc", q:"How did Sofia start in photography?", o:["At art school","With a second-hand camera at fifteen","From a family member"], c:1, audio:""},
+          {type:"mc", q:"What does Sofia most enjoy photographing?", o:["Landscapes","Strangers in cities","Wildlife"], c:1},
+          {type:"mc", q:"What does Sofia find hardest?", o:["The early mornings","Waiting for the right light","Choosing photos"], c:1},
+          {type:"mc", q:"What did the magazine cover teach her?", o:["To trust her first reaction","Not to trust her first reaction","To delete more photos"], c:1},
+          {type:"mc", q:"What does Sofia advise beginners to do?", o:["Buy better lenses","Spend money on travel","Take a course"], c:1},
+          {type:"mc", q:"What does Sofia want to do next?", o:["Take a studio job","Keep travelling and teach","Open a gallery"], c:1}
+        ]
+      }
+    ]
+  },
+
+  /* ---------------- B2 — Cambridge First / FCE (MOCK 3) — pass-level ---------------- */
+  B2: {
+    label: "B2 — Upper-Intermediate",
+    cefr: "Cambridge First (FCE) · B2 official format",
+    blurb: "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+    audios: [
+      {
+        id: "B2-P1", title: "Part 1 · Questions 1–8", kind: "file", paged: true,
+        intro: "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+        segments: ["A concert","A delivery problem","Study advice","A career change","A weekend choice","A notice","A football match","A return"],
+        scripts: [
+          "Question one. Woman: The concert? Man: The orchestra was sublime — better than I'd hoped. What spoiled it was the venue: people kept arriving late and the hall echoed every footstep. I couldn't settle.",
+          "Question two. Woman: I'm phoning about an order. Assistant: The damaged parcel? Woman: No, that's sorted. The issue is the wrong item has arrived. I ordered a navy jacket and you've sent a grey one, smaller size.",
+          "Question three. Teacher: A word before the exam. The worst thing you can do is revise everything tomorrow night. The value of cramming by then is zero. Far better to walk somewhere quiet and sleep well — your memory will thank you.",
+          "Question four. Man: I hear you've left teaching. Woman: I have. Everyone asks if I was burnt out, but it wasn't that. I'd been quietly writing for years on the side, and I had to give it a serious go before life got in the way.",
+          "Question five. Woman: Cinema or theatre Saturday? Man: Neither grabs me. There's outdoor jazz in the park, free entry. It's a gamble with the weather, but I'd rather risk it than sit indoors again.",
+          "Question six. Man: Quick reminder: tomorrow's library induction takes place in the seminar room, not the main reading room. Time stays at ten. Bring ID — last term several people had to come back another day.",
+          "Question seven. Boy: We drew, three each. Girl: Were you the better team? Boy: No. They dominated the first half and we struggled. But then our striker came on and changed the whole game by himself.",
+          "Question eight. Woman: I'd like a refund on these trainers. Assistant: Is there a defect? Woman: No, they're perfect. The problem is I wore them once and my feet were killing me. The size is right; they're just unforgiving."
+        ],
+        questions: [
+          {type:"mc", q:"What spoiled the concert for the man?", o:["The orchestra","The venue and noise","His seat"], c:1, audio:"M3/B2/B2-P1-q1.mp3"},
+          {type:"mc", q:"What is wrong with the order this time?", o:["The parcel is damaged","Wrong item and size","It hasn't arrived"], c:1, audio:"M3/B2/B2-P1-q2.mp3"},
+          {type:"mc", q:"What does the teacher recommend?", o:["Cramming the night before","Sleeping well","Working in groups"], c:1, audio:"M3/B2/B2-P1-q3.mp3"},
+          {type:"mc", q:"Why did the woman leave teaching?", o:["She was burnt out","To pursue writing seriously","Because of pay"], c:1, audio:"M3/B2/B2-P1-q4.mp3"},
+          {type:"mc", q:"What do they choose to do?", o:["Go to the cinema","Go to the theatre","Try an outdoor concert"], c:2, audio:"M3/B2/B2-P1-q5.mp3"},
+          {type:"mc", q:"What has changed about the induction?", o:["The room","The time","The date"], c:0, audio:"M3/B2/B2-P1-q6.mp3"},
+          {type:"mc", q:"Why did the boy's team draw?", o:["They were the better team","A substitute changed the game","The referee helped"], c:1, audio:"M3/B2/B2-P1-q7.mp3"},
+          {type:"mc", q:"Why does the woman want a refund?", o:["The trainers are faulty","Wrong size","They are uncomfortable"], c:2, audio:"M3/B2/B2-P1-q8.mp3"}
+        ]
+      },
+      {
+        id: "B2-P2", title: "Part 2 · Questions 9–18", kind: "file", file: "M3/B2/B2-P2.mp3",
+        intro: "You will hear a young woman called Helena talking about her work as a beekeeper. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+        scripts: [
+          "Hi, I'm Helena. I started keeping bees nine years ago, after inheriting two empty hives from my uncle. Today I look after around thirty colonies on a small farm outside town. People imagine the most demanding part is harvesting; really, it's the constant disease checks. The biggest surprise for visitors is that I almost never get stung. We sell honey at the Saturday market, and the most popular variety isn't wildflower but lime. New beekeepers assume they need a fancy suit, but the most important item is a smoker. To start, you must be at least sixteen, and you'll need around four hundred pounds for basic equipment. For more, come to our open day in June."
+        ],
+        gapTitle: "Working with Bees",
+        questions: [
+          {type:"gap", label:"Helena began beekeeping ____ years ago", accept:["9","nine"]},
+          {type:"gap", label:"She inherited the hives from her ____", accept:["uncle"]},
+          {type:"gap", label:"She now looks after about ____ colonies", accept:["30","thirty"]},
+          {type:"gap", label:"The most demanding part is the disease ____", accept:["checks","check"]},
+          {type:"gap", label:"They sell honey at the ____ market", accept:["saturday"]},
+          {type:"gap", label:"The most popular honey is: ____", accept:["lime"]},
+          {type:"gap", label:"The most important item is a: ____", accept:["smoker"]},
+          {type:"gap", label:"Minimum age to start: ____", accept:["16","sixteen"]},
+          {type:"gap", label:"Basic equipment costs around £ ____", accept:["400","four hundred"]},
+          {type:"gap", label:"There is an open day in: ____", accept:["june"]}
+        ]
+      },
+      {
+        id: "B2-P3", title: "Part 3 · Questions 19–23", kind: "file", file: "M3/B2/B2-P3.mp3",
+        intro: "You will hear five people talking about why they took up running. For each speaker, choose from the list (A–H) the reason they give. Use each letter once. There are three extra letters you will not need.",
+        bank: ["to recover after an illness","to spend time with a friend","because of a charity challenge","to escape office stress","to lose weight","for the social club","to test themselves","because it was free"],
+        scripts: [
+          "Speaker one. Woman: A close friend signed up for a half marathon to raise money for the hospital that treated her sister. She begged me to join her — once you've agreed to that, you can hardly back out. Speaker two. Man: My desk job was eating me alive. By six I'd be so wound up I couldn't hold a conversation. A colleague suggested I just run after work, no plan, just clear my head. It saved me. Speaker three. Woman: For years every appointment ended the same: lose a stone. Diets never stuck. Running was the last thing I tried — and the only thing that worked. Speaker four. Man: I'd been a swimmer at school and missed being good at something. I started running just to see whether I still had it in me. Now I race every couple of months — I need that test. Speaker five. Woman: People assume runners are loners, but my club is the warmest group I know. After every session there's tea, gossip, real belonging. I'd keep coming even if I never ran another step."
+        ],
+        questions: [
+          {type:"match", person:"Speaker 1", c:"because of a charity challenge"},
+          {type:"match", person:"Speaker 2", c:"to escape office stress"},
+          {type:"match", person:"Speaker 3", c:"to lose weight"},
+          {type:"match", person:"Speaker 4", c:"to test themselves"},
+          {type:"match", person:"Speaker 5", c:"for the social club"}
+        ]
+      },
+      {
+        id: "B2-P4", title: "Part 4 · Questions 24–30", kind: "file", file: "M3/B2/B2-P4.mp3",
+        intro: "You will hear an interview with a young architect called Marcus, who designs eco-friendly houses. For each question, choose the best answer (A, B or C).",
+        scripts: [
+          "Interviewer: Marcus, what started you on this path? Marcus: Everyone assumes a grand environmental mission. The truth is more boring — I grew up in a freezing, draughty old house, and I got obsessed with why buildings have to be so uncomfortable. Interviewer: Did you train as an environmental architect? Marcus: No, my degree was traditional. But I'd been reading widely outside the course, and that mix gave my designs an edge. Interviewer: Hardest? Marcus: People expect technical calculations. Those are tricky, but I enjoy them. What wears me down is persuading clients to trust unfamiliar materials. Interviewer: A favourite project? Marcus: A tiny house I built for a retired teacher on an impossible budget. It taught me more than any showpiece. Interviewer: A common mistake? Marcus: New architects chase striking shapes and forget the human inside. A house must work first; it can look beautiful second. Interviewer: Next? Marcus: I've turned down two big-firm offers. I'd rather stay small and mentor younger architects from less privileged backgrounds. Interviewer: Thank you."
+        ],
+        questions: [
+          {type:"mc", q:"What first interested Marcus in eco-houses?", o:["An environmental mission","His own uncomfortable childhood home","A documentary"], c:1},
+          {type:"mc", q:"How does Marcus describe his university training?", o:["Very specialised in eco-design","Traditional, combined with wider reading","Self-taught"], c:1},
+          {type:"mc", q:"What does Marcus find most challenging?", o:["The technical calculations","Convincing clients about new materials","Finding sites"], c:1},
+          {type:"mc", q:"What did the tiny house project teach him?", o:["The value of big budgets","More than any of his bigger projects","To work alone"], c:1},
+          {type:"mc", q:"What mistake do new architects make?", o:["They focus on shapes, not people","They use cheap materials","They take too long"], c:0},
+          {type:"mc", q:"What does Marcus believe matters most in a house?", o:["That it works for the user","That it looks striking","That it's affordable"], c:0},
+          {type:"mc", q:"What does Marcus want to do next?", o:["Join a big firm","Stay small and mentor others","Open a new office abroad"], c:1}
+        ]
+      }
+    ]
+  },
+
+  /* ---------------- C1 — Cambridge Advanced / CAE (MOCK 3) ---------------- */
+  C1: {
+    label: "C1 — Advanced",
+    cefr: "Cambridge Advanced (CAE) · C1 official format",
+    blurb: "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+    audios: [
+      {
+        id: "C1-P1", title: "Part 1 · Questions 1–6", kind: "file", paged: true,
+        intro: "You will hear people talking in three different situations. For each question, choose the best answer (A, B or C).",
+        segments: ["A novel","A reading","A presentation","A consultancy job","A documentary","Postgraduate study"],
+        scripts: [
+          "Question one. Woman: The novel — worth the hype? Man: The prose is exquisite, I was admiring it constantly. And yet, by the final chapter, I realised I'd felt nothing for a single character. A curiously cold piece of writing, for all its beauty.",
+          "Question two. Man: How was the reading? Woman: The work itself is extraordinary, possibly her finest. What troubled me was the venue — that vast lecture hall stripped every bit of intimacy from the poems. They needed a small room and got an aircraft hangar.",
+          "Question three. Woman: How did the presentation go? Man: The data went down well. My problem wasn't substance, it was structure: I built towards a key implication and then ran out of time before I could deliver it. The whole argument hinged on that final slide.",
+          "Question four. Man: I've reviewed the consultancy offer. Woman: And? Man: The fee is generous, the team brilliant. My only hesitation — a serious one — is the non-compete clause. It would shut me out of half my existing network for two years.",
+          "Question five. Woman: Did you finish the documentary? Man: I did, reluctantly. The footage is remarkable, the access unprecedented. But the narration insists on telling us what to feel at every turn, which I find patronising. I'd have stripped half of it out.",
+          "Question six. Man: Are you doing the master's? Woman: I've stepped back, actually. The content is exactly what I want, the staff couldn't be stronger. But once I costed it out honestly, the debt didn't bear scrutiny — and that surprised me, because I'd assumed I could make the figures work."
+        ],
+        questions: [
+          {type:"mc", q:"What is the man's reservation about the novel?", o:["The prose is dull","He felt nothing for the characters","It is too short"], c:1, audio:"M3/C1/C1-P1-q1.mp3"},
+          {type:"mc", q:"What troubled the woman about the reading?", o:["The poems were weak","The wrong venue","Poor delivery"], c:1, audio:"M3/C1/C1-P1-q2.mp3"},
+          {type:"mc", q:"What does the man regret about his presentation?", o:["The data was thin","He ran out of time before the key point","He spoke too quickly"], c:1, audio:"M3/C1/C1-P1-q3.mp3"},
+          {type:"mc", q:"What hesitation does the man have about the job?", o:["The fee","The team","The non-compete clause"], c:2, audio:"M3/C1/C1-P1-q4.mp3"},
+          {type:"mc", q:"What is the man's criticism of the documentary?", o:["Poor footage","The narration over-directs viewers","Limited access"], c:1, audio:"M3/C1/C1-P1-q5.mp3"},
+          {type:"mc", q:"Why has the woman pulled out of the master's?", o:["The content is wrong","The staff are weak","The cost is unrealistic"], c:2, audio:"M3/C1/C1-P1-q6.mp3"}
+        ]
+      },
+      {
+        id: "C1-P2", title: "Part 2 · Questions 7–14", kind: "file", file: "M3/C1/C1-P2.mp3",
+        intro: "You will hear a woman called Clara giving a talk about her work as a literary translator. For each question, complete the sentences with a word or short phrase.",
+        scripts: [
+          "Hello, I'm Clara, a literary translator for twenty years. People expect me to say the hardest thing is conveying meaning, but it isn't. The greatest challenge is reproducing the rhythm of the original — without that, the prose dies on the page. I fell into the work by accident, after translating a short story for a friend. The author saw it and asked me to do her novel; I never went back. I always work from paper, never onto screen — it slows my thinking usefully. People assume specialist software, but my only essential tool is a small monolingual dictionary. The hardest genre I've translated is poetry — once was enough. The discipline I most recommend isn't language study; it's writing your own fiction, even badly. The one thing nobody tells you is how lonely the work can be."
+        ],
+        gapTitle: "Literary Translation",
+        questions: [
+          {type:"gap", label:"The greatest challenge is reproducing the ____", accept:["rhythm"]},
+          {type:"gap", label:"She started translating a short ____", accept:["story"]},
+          {type:"gap", label:"She prefers to work from ____", accept:["paper"]},
+          {type:"gap", label:"Her only essential tool is a small ____ dictionary", accept:["monolingual"]},
+          {type:"gap", label:"The hardest genre she translated was ____", accept:["poetry"]},
+          {type:"gap", label:"She recommends aspiring translators write their own ____", accept:["fiction"]},
+          {type:"gap", label:"The unspoken difficulty of the work is its ____", accept:["loneliness"]},
+          {type:"gap", label:"She has worked as a translator for ____ years", accept:["20","twenty"]}
+        ]
+      },
+      {
+        id: "C1-P3", title: "Part 3 · Questions 15–20", kind: "file", file: "M3/C1/C1-P3.mp3",
+        intro: "You will hear an interview with a marine biologist called Rosa. For each question, choose the best answer (A, B, C or D).",
+        scripts: [
+          "Interviewer: Rosa, what first drew you in? Rosa: Everyone assumes childhood diving holidays. Actually, I grew up far inland and only saw the sea at eighteen. What hooked me was a single lecture on coral as a partnership between animal and algae — that biology felt like science fiction. Interviewer: Why one reef for twelve years? Rosa: Long data tells the truth, short data lies. Almost everything I now publish depends on patterns only visible across a decade. A single season would have led me to opposite conclusions. Interviewer: Most exhausting? Rosa: People imagine the diving. Diving is the reward. The toll is the funding cycle — writing the same proposal every three years. Interviewer: Public most wrong about? Rosa: They think reefs are simply dying. Reality is more complex and more hopeful — some reefs are quietly adapting, with coral evolving heat tolerance nobody predicted. Interviewer: Optimistic? Rosa: Cautiously realistic. Threats are unprecedented, but underestimating biological resilience has been my field's consistent mistake. Interviewer: Advice? Rosa: Choose a system you love so much that the slow years won't break you. Interviewer: Thank you."
+        ],
+        questions: [
+          {type:"mc", q:"What first attracted Rosa to her field?", o:["Childhood diving holidays","A single lecture on coral biology","Her family","A documentary"], c:1},
+          {type:"mc", q:"Why has Rosa stayed at one site?", o:["It was convenient","Only long data reveals true patterns","To save money","It is the most beautiful"], c:1},
+          {type:"mc", q:"What does Rosa say is the hardest part?", o:["The diving","Constantly applying for funding","Living abroad","Lab analysis"], c:1},
+          {type:"mc", q:"What public misconception does she correct?", o:["Reefs are simply all dying","Reefs are unimportant","Diving harms reefs","Coral is a plant"], c:0},
+          {type:"mc", q:"What has been her field's consistent mistake?", o:["Overestimating threats","Underestimating biological resilience","Ignoring data","Studying too few species"], c:1},
+          {type:"mc", q:"What advice does she give young scientists?", o:["Choose a flexible career","Move often","Love the system you study","Specialise late"], c:2}
+        ]
+      },
+      {
+        id: "C1-P4", title: "Part 4 · Questions 21–30", kind: "file", file: "M3/C1/C1-P4.mp3",
+        intro: "You will hear five people talking about leaving a successful career to do something completely different. TASK ONE (21–25): choose each speaker's main reason for the change. TASK TWO (26–30): choose what each speaker found most difficult about the transition.",
+        scripts: [
+          "Speaker one. Woman: I'd been a corporate lawyer for fifteen years and was, on paper, thriving. But every Sunday evening I felt physically ill. No single crisis — just a slow accumulation of dread until I admitted the job was making me unwell. What I didn't see coming was how invisible I'd feel without that title. Identity is more attached to work than I realised. Speaker two. Man: My father ran a small carpentry workshop, and when he became too ill to continue, I was the only one able to take it over. Leaving finance wasn't a vocation; it was a duty. The hardest part has been the income — I'd grown used to a salary I'm now miles below, and the adjustment has been brutal. Speaker three. Woman: I'd written short stories at weekends for years, and a small prize made me realise the craft was viable. I jumped before I lost my nerve. What's stunned me is the solitude — the daily quiet of a writer's life is something no one prepares you for. Speaker four. Man: Redundancy did the work for me. The company restructured and I was let go at fifty-two. Rather than chase another corporate role, I retrained as a primary teacher. The shock has been physical exhaustion — I'd forgotten how draining being on your feet all day with thirty children actually is. Speaker five. Woman: I'd run a consultancy, but a serious illness changed everything. Surviving made the old goals feel hollow, and I retrained as a counsellor. What I'd never anticipated was the slowness of building credibility from scratch — at forty, you're suddenly a beginner again, and your past counts for nothing."
+        ],
+        questions: [
+          {type:"match", taskLabel:"Task 1 — main reason for the career change", person:"Speaker 1", bank:["the job was harming her health","family responsibility","to take a creative work seriously","forced out by redundancy","a serious illness changed her priorities","financial gain","early retirement","to follow a partner"], c:"the job was harming her health"},
+          {type:"match", taskLabel:"Task 1 — main reason for the career change", person:"Speaker 2", bank:["the job was harming her health","family responsibility","to take a creative work seriously","forced out by redundancy","a serious illness changed her priorities","financial gain","early retirement","to follow a partner"], c:"family responsibility"},
+          {type:"match", taskLabel:"Task 1 — main reason for the career change", person:"Speaker 3", bank:["the job was harming her health","family responsibility","to take a creative work seriously","forced out by redundancy","a serious illness changed her priorities","financial gain","early retirement","to follow a partner"], c:"to take a creative work seriously"},
+          {type:"match", taskLabel:"Task 1 — main reason for the career change", person:"Speaker 4", bank:["the job was harming her health","family responsibility","to take a creative work seriously","forced out by redundancy","a serious illness changed her priorities","financial gain","early retirement","to follow a partner"], c:"forced out by redundancy"},
+          {type:"match", taskLabel:"Task 1 — main reason for the career change", person:"Speaker 5", bank:["the job was harming her health","family responsibility","to take a creative work seriously","forced out by redundancy","a serious illness changed her priorities","financial gain","early retirement","to follow a partner"], c:"a serious illness changed her priorities"},
+          {type:"match", taskLabel:"Task 2 — what they found most difficult", person:"Speaker 1", bank:["loss of professional identity","the drop in income","the daily solitude","physical exhaustion","starting again with no status","missing former colleagues","the volume of new learning","public scepticism"], c:"loss of professional identity"},
+          {type:"match", taskLabel:"Task 2 — what they found most difficult", person:"Speaker 2", bank:["loss of professional identity","the drop in income","the daily solitude","physical exhaustion","starting again with no status","missing former colleagues","the volume of new learning","public scepticism"], c:"the drop in income"},
+          {type:"match", taskLabel:"Task 2 — what they found most difficult", person:"Speaker 3", bank:["loss of professional identity","the drop in income","the daily solitude","physical exhaustion","starting again with no status","missing former colleagues","the volume of new learning","public scepticism"], c:"the daily solitude"},
+          {type:"match", taskLabel:"Task 2 — what they found most difficult", person:"Speaker 4", bank:["loss of professional identity","the drop in income","the daily solitude","physical exhaustion","starting again with no status","missing former colleagues","the volume of new learning","public scepticism"], c:"physical exhaustion"},
+          {type:"match", taskLabel:"Task 2 — what they found most difficult", person:"Speaker 5", bank:["loss of professional identity","the drop in income","the daily solitude","physical exhaustion","starting again with no status","missing former colleagues","the volume of new learning","public scepticism"], c:"starting again with no status"}
+        ]
+      }
+    ]
+  }
+};
+
 const state = {
   name: "",
   klass: "",
@@ -4443,8 +4789,8 @@ const state = {
   seqOrder: {}
 };
 
-/* Active exam set: MOCK 1 = QUIZ, MOCK 2 = QUIZ2 */
-function currentQuiz(){ return state.examType==='mock02'?QUIZ2:state.examType==='practice'?QUIZ3:state.examType==='practice2'?QUIZ4:state.examType==='practice3'?QUIZ5:QUIZ; }
+/* Active exam set: MOCK 1 = QUIZ, MOCK 2 = QUIZ2, MOCK 3 = QUIZ6 */
+function currentQuiz(){ return state.examType==='mock03'?QUIZ6:state.examType==='mock02'?QUIZ2:state.examType==='practice'?QUIZ3:state.examType==='practice2'?QUIZ4:state.examType==='practice3'?QUIZ5:QUIZ; }
 
 /* Picture options: use real photos (images/<concept>.jpg) where available,
    falling back to the built-in SVG icon if the photo fails to load.
@@ -4587,12 +4933,19 @@ function viewExamPick(){
         <p style="color:#475569;margin:0 0 4px;line-height:1.55">A second complete ${examName}-format listening mock — fresh recordings and tasks, same authentic Cambridge structure and difficulty.</p>
         <button id="m2" style="${cardBtn}">Start MOCK 2 &rarr;</button>
       </div>
+      ${(QUIZ6 && QUIZ6[state.level])?`
+      <div style="${cardCss}">
+        <h2 style="margin:0 0 8px;font-size:1.4rem;color:#2d5a8d">📝 MOCK 3</h2>
+        <p style="color:#475569;margin:0 0 4px;line-height:1.55">A third complete ${examName}-format listening mock — brand-new recordings and tasks, same authentic Cambridge structure and difficulty.</p>
+        <button id="m3" style="${cardBtn}">Start MOCK 3 &rarr;</button>
+      </div>`:''}
 
       <div class="signin-actions" style="margin-top:8px"><a class="secondary2" id="epBack">&larr; Back</a></div>
     </div>`;
   const start = (t)=>{ state.examType=t; state.startTime=Date.now(); state.answers={}; state.seqOrder={}; viewQuiz(); };
   $("#m1").onclick = ()=> start('mock01');
   $("#m2").onclick = ()=> start('mock02');
+  if(QUIZ6 && QUIZ6[state.level]) $("#m3").onclick = ()=> start('mock03');
   $("#epBack").onclick = ()=> viewCategory();
 }
 
@@ -5046,7 +5399,7 @@ function onSubmit(){
     skill: "Listening",
     level: state.level,
     examType: state.examType,
-    mock: state.examType === 'mock02' ? 'MOCK 2' : state.examType === 'practice' ? 'Practice' : 'MOCK 1',
+    mock: state.examType === 'mock03' ? 'MOCK 3' : state.examType === 'mock02' ? 'MOCK 2' : state.examType === 'practice' ? 'Practice' : 'MOCK 1',
     score: score.correct,
     total: score.total,
     elapsed_min: elapsedMin,

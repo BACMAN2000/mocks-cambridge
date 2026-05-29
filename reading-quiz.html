@@ -1321,22 +1321,6 @@ Outside the office, the same logic operates in subtler ways. The dining-room cha
         ]
       },
       { type:"match", part:"Part 6",
-        instructions:"Read four short opinion pieces (A–D) on the same topic: the value of formal handwriting in the digital age. Then answer the questions.",
-        sources:[
-          {label:"A", text:"Opinion A. Handwriting, as a daily skill, is finished, and any energy spent defending it would be better spent improving how we teach typing. The argument that handwriting somehow helps memory has been wildly oversold; the few studies that suggest it tend to compare typing on distraction-filled laptops with handwriting in silent classrooms, which is hardly a fair contest. Children who grow up typing are, on average, capable of producing longer and more coherent pieces of writing than children of equivalent age twenty years ago. The nostalgia for handwriting is, in truth, a nostalgia for the classrooms in which most adults learned, rather than evidence of its lasting value. Until we are willing to compare typing taught well with handwriting taught well, the entire debate consists of unfair experiments dressed up as evidence."},
-          {label:"B", text:"Opinion B. To insist that handwriting belongs to the past is to make exactly the kind of confident prediction that the history of technology has repeatedly mocked. We were told the radio would kill print, then television would kill radio, then the internet would kill television; in every case, the older medium survived and changed. Handwriting, similarly, will survive — but as a specialised skill, used for ceremonies, drafts, signatures and intimate notes. Its quiet authority in those situations actually grows as it becomes rarer. A handwritten condolence card in 2030 will carry, almost by virtue of its medium, a weight that no digital alternative can replicate, however thoughtful the words inside it happen to be."},
-          {label:"C", text:"Opinion C. The interesting question is not whether handwriting is useful in adult life, but what it does to a child's developing brain. The act of forming a letter with a pen requires the brain to plan and execute a precise sequence of motor movements that typing simply does not demand. Recent imaging studies have suggested that the same brain regions involved in this physical activity are also recruited when children later try to recognise unfamiliar shapes and patterns. Whatever we decide about adult uses, removing handwriting from primary education is more risky than its critics acknowledge. The decision is, in effect, a wager about the developmental cost of an absence we cannot easily measure until the children in question are well into their twenties."},
-          {label:"D", text:"Opinion D. Defenders of handwriting often appeal to memory, beauty and identity, but these are weak arguments dressed up as strong ones. The handwriting of most adults is, in fact, both unattractive and only intermittently legible. The reason we cling to it is not aesthetic but emotional: we remember writing as the place where, as small children, we first felt able to leave a personal mark on the world. That memory is precious, but it should not dictate the curriculum. Schools have only so many hours, and those hours must train children for the world that exists, not the one their teachers remember. The honest cost of an extra hour of handwriting each week is an hour subtracted from something else — coding, second-language practice, statistical reasoning — and the case for the subtraction has, in my view, simply not been made."}
-        ],
-        bank:{labels:["A","B","C","D"], texts:["Writer A","Writer B","Writer C","Writer D"]},
-        questions:[
-          {stem:"Which writer takes a view most similar to Writer A's about the future of handwriting in adult life?", answer:"D"},
-          {stem:"Which writer differs from the others in focusing primarily on the effects of handwriting on the developing brain?", answer:"C"},
-          {stem:"Which writer, unlike the others, argues that handwriting will survive but in a more specialised role?", answer:"B"},
-          {stem:"Which writer agrees with Writer C that there are real, non-nostalgic reasons to value handwriting?", answer:"B"}
-        ]
-      },
-      { type:"match", part:"Part 7",
         instructions:"In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
         passage:
 `The reluctant astronomer
@@ -1374,7 +1358,7 @@ She herself denies that the experience taught her anything dramatic. Pressed by 
           {stem:"Choose the missing paragraph:", answer:"A"}
         ]
       },
-      { type:"match", part:"Part 8",
+      { type:"match", part:"Part 7",
         instructions:"You are going to read four reviews (A–D) of the same book. Answer the questions by choosing the appropriate reviewer.",
         sources:[
           {label:"A", text:"Reviewer A. Carter's new book is at its strongest when it forgets, for a chapter at a time, that it is supposed to be making an argument. The descriptions of small coastal towns in October — the closed cafés, the careful walks of elderly couples — are some of the finest English prose published this year. Where it falters is in the closing essays, in which the author returns rather doggedly to political arguments she has made better elsewhere, and which sit uneasily next to the more meditative passages. The transitions, in particular, feel forced: a paragraph that has just shown us, with great delicacy, how a fisherman folds his nets at dusk gives way to a paragraph that announces, with no particular grace, what the local council ought to do about housing policy. The two voices are both Carter's; they have, however, been allowed to share the same chapter when one of them ought to have waited."},
@@ -6543,6 +6527,1247 @@ const MOCK02 = {
    MOCK03 — MOCK 3 (C1 only, 100% original content)
 ============================================================ */
 const MOCK03 = {
+ "A2": {
+  "title": "A2 Key — Reading and Writing (MOCK 3)",
+  "note": "Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+  "parts": [
+   {
+    "type": "mc",
+    "part": "Part 1",
+    "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+    "questions": [
+     {
+      "kind": "notice",
+      "header": "Greenway Swimming Pool",
+      "text": "THE BIG POOL IS CLOSED THIS WEEK FOR PAINTING. THE SMALL POOL IS STILL OPEN, BUT ONLY UNTIL 6 P.M.",
+      "stem": "What does the notice tell swimmers?",
+      "options": [
+       "Both pools are closed all week.",
+       "One pool is open, but with shorter hours.",
+       "Swimmers can use any pool until 9 p.m."
+      ],
+      "answer": 1
+     },
+     {
+      "kind": "message",
+      "header": "From: Nadia → To: Sam",
+      "text": "Sam — I left my history book on your kitchen table on Tuesday. I really need it for the test on Thursday. Could your mum drop it at school reception tomorrow morning? Thank you!",
+      "stem": "Why is Nadia writing to Sam?",
+      "options": [
+       "To return a book Sam lent her.",
+       "To ask for help getting her book back.",
+       "To invite Sam to her house on Thursday."
+      ],
+      "answer": 1
+     },
+     {
+      "kind": "email",
+      "from": "Mr Ortiz (Football coach)",
+      "to": "Under-15 squad",
+      "subject": "Saturday training — earlier start",
+      "body": "Hi everyone, because of the regional match on Sunday, training this Saturday will start at 8 a.m., not 10 as usual. Please eat a good breakfast first. The session will finish at the normal time of 11.30.",
+      "stem": "What is the coach telling the players?",
+      "options": [
+       "Training will begin two hours earlier than usual.",
+       "Training will finish later than usual.",
+       "Training will be cancelled this Saturday."
+      ],
+      "answer": 0
+     },
+     {
+      "kind": "note",
+      "header": "Note for Olivia",
+      "text": "Olivia — your guitar lesson has been moved to Friday at 5 because Mr Park is away tomorrow. He says you don't need to bring sheet music this time; he will give you a new song to learn. — Dad",
+      "stem": "What is different about Olivia's next guitar lesson?",
+      "options": [
+       "It is at a new place.",
+       "She does not need to take her music with her.",
+       "She will pay for it on the day."
+      ],
+      "answer": 1
+     },
+     {
+      "kind": "sign",
+      "header": "Hillside Café — Garden",
+      "text": "DOGS ARE WELCOME IN THE GARDEN AREA ONLY. PLEASE KEEP THEM ON A LEAD. DOGS ARE NOT ALLOWED INSIDE THE BUILDING.",
+      "stem": "What does the sign say about dogs?",
+      "options": [
+       "They can go anywhere in the café.",
+       "They can stay outside if they are on a lead.",
+       "They are not allowed at the café at all."
+      ],
+      "answer": 1
+     },
+     {
+      "kind": "notice",
+      "header": "Riverside Bus Service",
+      "text": "FROM 1 MAY, THE NUMBER 22 BUS WILL NOT STOP AT MARKET SQUARE ON SUNDAYS. PLEASE USE THE STOP AT CHURCH ROAD INSTEAD.",
+      "stem": "What is the change for Sunday passengers?",
+      "options": [
+       "The bus will not run on Sundays at all.",
+       "Passengers must use a different stop on Sundays.",
+       "The ticket price has gone up."
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "type": "match",
+    "part": "Part 2",
+    "instructions": "Read about three young people and the holiday clubs they joined. For each question, choose the correct person (A, B or C). The people may be chosen more than once.",
+    "sources": [
+     {
+      "label": "A",
+      "name": "Tomás",
+      "avatar": "<img src=\"https://randomuser.me/api/portraits/men/31.jpg\" alt=\"Tomás\" loading=\"lazy\">",
+      "text": "I joined the science club at the local library every morning for two weeks. We did simple experiments — making slime, building tiny rockets — and at the end of the week, we showed our work to our parents. I was the youngest in the group, which made me nervous at first, but everyone was friendly. The club was free, which my mum loved."
+     },
+     {
+      "label": "B",
+      "name": "Anika",
+      "avatar": "<img src=\"https://randomuser.me/api/portraits/women/53.jpg\" alt=\"Anika\" loading=\"lazy\">",
+      "text": "I signed up for a cooking club at a community kitchen near my house. We met every afternoon for one week. It wasn't expensive, but we did pay a small fee for the ingredients. My favourite part was that we ate what we cooked at the end of each lesson. I would love to do it again next summer, and maybe bring a friend."
+     },
+     {
+      "label": "C",
+      "name": "Felix",
+      "avatar": "<img src=\"https://randomuser.me/api/portraits/men/19.jpg\" alt=\"Felix\" loading=\"lazy\">",
+      "text": "My dad signed me up for an outdoor sports club in the park. We played different games every day for three weeks — football, basketball and even climbing. The teacher was strict about safety, but we still had a lot of fun. It was a bit expensive, but I made two really good friends, and we still meet at weekends."
+     }
+    ],
+    "questions": [
+     {
+      "stem": "Which person joined a club that did not cost any money?",
+      "answer": "A"
+     },
+     {
+      "stem": "Which person hopes to bring someone else with them next time?",
+      "answer": "B"
+     },
+     {
+      "stem": "Which person made friends they still see now?",
+      "answer": "C"
+     },
+     {
+      "stem": "Which person felt worried at the start because of their age?",
+      "answer": "A"
+     },
+     {
+      "stem": "Which person liked the fact that they could eat what they prepared?",
+      "answer": "B"
+     }
+    ],
+    "bank": {
+     "labels": [
+      "A",
+      "B",
+      "C"
+     ],
+     "texts": [
+      "Tomás",
+      "Anika",
+      "Felix"
+     ]
+    }
+   },
+   {
+    "type": "mc",
+    "part": "Part 3",
+    "instructions": "Read the text about a boy who started a small bookshop in his garage. Choose the correct answer A, B or C.",
+    "passage": "Marcel is fourteen and lives in a small town in France. Last spring, his grandmother passed away, leaving him hundreds of old novels and adventure books that filled almost every shelf in his house. His parents were ready to throw most of them away because there was simply no room. Marcel did not want that, so he asked if he could keep them in the family garage and start a small bookshop there at weekends.\n\nAt first, his parents thought it was a silly idea. Who would come to a garage to buy old books? But Marcel painted a colourful sign and put it at the end of his street, and within a few weeks, the neighbours started visiting. He sells each book for only one euro, and he uses the money to buy new ones from charity shops in the city. The shop is now open every Saturday morning.\n\nThe biggest surprise has been the children from his school. Many of them come to read in the garage rather than to buy. Marcel does not mind at all — he says he is happy if more people read, even if they pay nothing. His sister sometimes helps him serve free lemonade, which is also a popular reason for people to visit.\n\nMarcel hopes to keep his shop open for as long as he can. One day, he says, he would like to open a real bookshop in the town, but for now he is enjoying running the small one in his garage. \"It feels nice,\" he says, \"to see my grandmother's books getting read again.\"",
+    "questions": [
+     {
+      "stem": "Why did Marcel decide to start the shop?",
+      "options": [
+       "He wanted to earn money for himself.",
+       "He did not want his grandmother's books to be thrown away.",
+       "His school teacher gave him the idea."
+      ],
+      "answer": 1
+     },
+     {
+      "stem": "What did his parents think of the idea at first?",
+      "options": [
+       "They thought it would not work.",
+       "They wanted Marcel to charge more for the books.",
+       "They were too busy to help."
+      ],
+      "answer": 0
+     },
+     {
+      "stem": "What does Marcel do with the money he earns?",
+      "options": [
+       "He saves it to buy a real shop.",
+       "He uses it to get more books from charity shops.",
+       "He gives it to his sister."
+      ],
+      "answer": 1
+     },
+     {
+      "stem": "How does Marcel feel about children who only come to read?",
+      "options": [
+       "He is glad they come, even without buying.",
+       "He asks them to leave after a short time.",
+       "He prefers customers who actually pay."
+      ],
+      "answer": 0
+     },
+     {
+      "stem": "What does Marcel hope to do in the future?",
+      "options": [
+       "Open a proper bookshop in his town one day.",
+       "Sell his grandmother's books online.",
+       "Move his shop to a bigger garage."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "type": "clozeMC",
+    "part": "Part 4",
+    "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+    "title": "The history of the pencil",
+    "body": "The simple pencil that we use today has a longer history than most people (17)____. In the sixteenth century, farmers in northern England (18)____ a strange black material on the ground after a storm. They soon discovered that this material — graphite — was perfect for (19)____ marks on paper and could easily be wiped away again. Because pure graphite was soft and (20)____ to hold, it was wrapped in string or pieces of wood. Later, a Frenchman (21)____ how to mix graphite with clay to make the inside harder, which is the method still used today. Pencils are now found (22)____ every school and office in the world.",
+    "questions": [
+     {
+      "options": [
+       "wait",
+       "guess",
+       "wonder",
+       "realise"
+      ],
+      "answer": 3
+     },
+     {
+      "options": [
+       "looked",
+       "found",
+       "saw",
+       "watched"
+      ],
+      "answer": 1
+     },
+     {
+      "options": [
+       "doing",
+       "putting",
+       "making",
+       "writing"
+      ],
+      "answer": 2
+     },
+     {
+      "options": [
+       "tired",
+       "weak",
+       "broken",
+       "difficult"
+      ],
+      "answer": 3
+     },
+     {
+      "options": [
+       "showed",
+       "studied",
+       "discovered",
+       "invented"
+      ],
+      "answer": 2
+     },
+     {
+      "options": [
+       "in",
+       "at",
+       "by",
+       "on"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "type": "clozeOpen",
+    "part": "Part 5",
+    "instructions": "For each gap (25–30), write ONE word.",
+    "title": "Email to a cousin",
+    "body": "Dear Lucia,\n\nThanks (23)____ your last email — it was great to read it! I'm writing (24)____ you from my new bedroom. We moved to a different flat last weekend, and (25)____ is much bigger than the old one.\n\nMy new school is only ten minutes (26)____ foot, which is much better than before. I (27)____ already made one friend in my class. Her name is Mia and she loves reading, just like me.\n\nMum says you (28)____ come and visit us in the summer. I really hope you can!\n\nLots of love,\nElsa",
+    "questions": [
+     {
+      "accept": [
+       "for"
+      ]
+     },
+     {
+      "accept": [
+       "to"
+      ]
+     },
+     {
+      "accept": [
+       "it"
+      ]
+     },
+     {
+      "accept": [
+       "on",
+       "by"
+      ]
+     },
+     {
+      "accept": [
+       "have",
+       "ve"
+      ]
+     },
+     {
+      "accept": [
+       "can",
+       "could",
+       "should",
+       "will",
+       "might"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "writing",
+    "part": "Part 6 (Writing — not auto-scored)",
+    "prompts": [
+     {
+      "kind": "email",
+      "instructions": "Your English friend Sam has invited you to spend a weekend at his/her house. Write an email to Sam. In your email: thank Sam for the invitation / say what time you will arrive on Saturday / ask one question about the weekend.\nWrite 35–45 words.",
+      "minWords": 35,
+      "maxWords": 45
+     }
+    ]
+   },
+   {
+    "type": "writing",
+    "part": "Part 7 (Writing — not auto-scored)",
+    "prompts": [
+     {
+      "kind": "story",
+      "instructions": "Write a story for your English class. Your story must begin with this sentence:\nWhen I opened the box, I could not believe what was inside.\nWrite 35–45 words.",
+      "minWords": 35,
+      "maxWords": 45
+     }
+    ]
+   }
+  ]
+ },
+ "B1": {
+  "title": "B1 Preliminary — Reading (MOCK 3)",
+  "note": "All six parts are auto-scored. This mock sits at the upper end of B1 difficulty.",
+  "parts": [
+   {
+    "type": "mc",
+    "part": "Part 1",
+    "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+    "questions": [
+     {
+      "kind": "notice",
+      "header": "Westmoor Sports Centre — Members",
+      "text": "DUE TO REPAIRS, THE MAIN CHANGING ROOMS WILL BE OUT OF USE FROM 12 TO 19 JUNE. MEMBERS SHOULD USE THE SMALLER FACILITIES ON THE FIRST FLOOR, WHICH MAY MEAN WAITING AT PEAK TIMES.",
+      "stem": "What should members of the centre expect during this period?",
+      "options": [
+       "The centre will close completely for one week.",
+       "They may have to queue for the temporary changing rooms.",
+       "Repairs will continue until the end of the month."
+      ],
+      "answer": 1
+     },
+     {
+      "kind": "message",
+      "header": "Text from Hassan to Inés",
+      "text": "Inés — I've just heard from the language school. They've moved tomorrow's class to the upstairs room because the heating downstairs has broken. Same time, just go straight up. I'm not sure if they've messaged everyone, so could you tell anyone you see?",
+      "stem": "Why is Hassan writing to Inés?",
+      "options": [
+       "To warn her that the class has been cancelled.",
+       "To ask her to pass the news on to other classmates.",
+       "To suggest meeting earlier than usual."
+      ],
+      "answer": 1
+     },
+     {
+      "kind": "email",
+      "from": "Eastbridge Tennis Club",
+      "to": "Junior members",
+      "subject": "Summer tournament — entry deadline",
+      "body": "Entries for the under-16 tournament must reach the club office in writing by Friday 28 June. After that date, no further entries can be accepted, even from regular players. Note that anyone who has missed more than three coaching sessions this term will not be allowed to take part.",
+      "stem": "What does the email tell junior members?",
+      "options": [
+       "Late entries will be considered if the player attends regularly.",
+       "Even regular players cannot enter after the closing date.",
+       "Players who missed three sessions can still enter but cannot win."
+      ],
+      "answer": 1
+     },
+     {
+      "kind": "notice",
+      "header": "Cliffside Coastal Path",
+      "text": "PARTS OF THE PATH ARE NARROW AND BECOME DANGEROUS AFTER HEAVY RAIN. WALKERS ARE ASKED TO CHECK THE WEATHER FORECAST BEFORE SETTING OFF AND TO TURN BACK IF THE GROUND BECOMES SLIPPERY UNDERFOOT.",
+      "stem": "What is the main purpose of this notice?",
+      "options": [
+       "To warn walkers that the path is permanently closed.",
+       "To advise walkers to plan ahead and stop if conditions get worse.",
+       "To explain why some sections have been recently rebuilt."
+      ],
+      "answer": 1
+     },
+     {
+      "kind": "note",
+      "header": "From Mum",
+      "text": "Léo — I had to leave for the airport earlier than I expected. The plumber will probably arrive around 4 to look at the kitchen tap. Please don't pay him yet — Dad will deal with the bill when he gets home. The dog has already been fed, so don't give her any extra.",
+      "stem": "What does Mum want Léo to remember?",
+      "options": [
+       "To pay the plumber when he arrives.",
+       "Not to give the dog any more food today.",
+       "To phone Dad as soon as he gets home."
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "type": "match",
+    "part": "Part 2",
+    "instructions": "The five people below are looking for an evening class. Read the descriptions of eight classes (A–H) and decide which class would be most suitable for each person. There are three classes you do not need to use.",
+    "sources": [
+     {
+      "label": "6",
+      "name": "Ingrid",
+      "avatar": "<img src=\"https://randomuser.me/api/portraits/women/72.jpg\" alt=\"Ingrid\" loading=\"lazy\">",
+      "text": "Ingrid has recently retired and would like to use her free time to start writing short stories. She has never written anything before and would feel uncomfortable in a group of experienced writers. She prefers mid-week classes and would like personal feedback on her work."
+     },
+     {
+      "label": "7",
+      "name": "Mateo",
+      "avatar": "<img src=\"https://randomuser.me/api/portraits/men/27.jpg\" alt=\"Mateo\" loading=\"lazy\">",
+      "text": "Mateo runs a small online clothing business but cannot afford a professional photographer for his website. He wants to learn how to take good product photos himself, using only his phone. He can only attend on Tuesday evenings and is on a tight budget."
+     },
+     {
+      "label": "8",
+      "name": "Hana",
+      "avatar": "<img src=\"https://randomuser.me/api/portraits/women/82.jpg\" alt=\"Hana\" loading=\"lazy\">",
+      "text": "Hana wants to learn enough basic Italian to manage on holiday next summer. She is not interested in grammar at this stage; she would prefer a relaxed conversation-based class. Wednesday or Thursday evenings would suit her best."
+     },
+     {
+      "label": "9",
+      "name": "Reuben",
+      "avatar": "<img src=\"https://randomuser.me/api/portraits/men/56.jpg\" alt=\"Reuben\" loading=\"lazy\">",
+      "text": "Reuben is a primary school teacher who wants to refresh his very basic knowledge of how computers work, so that he can answer simple questions from his pupils. He has no time for homework between lessons and would like everything covered during the class itself."
+     },
+     {
+      "label": "10",
+      "name": "Selma",
+      "avatar": "<img src=\"https://randomuser.me/api/portraits/women/15.jpg\" alt=\"Selma\" loading=\"lazy\">",
+      "text": "Selma has played the guitar for years but has never learned to sing while playing. She is shy and would hate to perform in front of a large group. She wants something on a Monday or Friday evening, with no audience involved."
+     }
+    ],
+    "bank": {
+     "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+     ],
+     "texts": [
+      "Beginners' Story Writing Workshop: Wednesday evenings for adults who have never tried to write fiction before. Maximum eight students. The tutor reads each piece privately and returns detailed written comments the following week.",
+      "Phone Photography for Sellers: A short Tuesday-evening course for people setting up small online shops. Learn how to light and frame a product using just a smartphone. Affordable fee; no camera required.",
+      "Holiday Italian in Conversation: A friendly Wednesday-evening class that avoids grammar drills and focuses entirely on speaking. By the end of the course you will manage in restaurants, hotels and shops.",
+      "Voice and Guitar Together: Private Friday-evening sessions for guitarists who would like to add singing. One-to-one tuition only; no group performance at any point.",
+      "Advanced Creative Writing: A demanding Thursday-evening course for writers who have already completed at least one novel. Group critique is central to the course.",
+      "Introduction to How Computers Work: A relaxed Monday-evening class explaining the basics, designed for complete non-specialists. Everything is covered in the lesson — no work between classes.",
+      "Italian for Business: A serious Tuesday-evening course covering written and spoken Italian for the workplace. Substantial homework expected each week.",
+      "Singer-Songwriter Showcase: A Wednesday-evening group class in which each member performs an original song to the class every week."
+     ]
+    },
+    "questions": [
+     {
+      "stem": "Ingrid",
+      "answer": "A"
+     },
+     {
+      "stem": "Mateo",
+      "answer": "B"
+     },
+     {
+      "stem": "Hana",
+      "answer": "C"
+     },
+     {
+      "stem": "Reuben",
+      "answer": "F"
+     },
+     {
+      "stem": "Selma",
+      "answer": "D"
+     }
+    ]
+   },
+   {
+    "type": "mc",
+    "part": "Part 3",
+    "instructions": "Read the text and choose the best answer A, B, C or D.",
+    "passage": "The girl who turned a school garden into a business\n\nWhen Itzel Romero was thirteen, her geography teacher invited the class to design a small vegetable plot behind the school. Most of her classmates lost interest after the first week, but Itzel did not. By the end of the term she was looking after the whole plot on her own, arriving early to water it and staying late to weed. \"I wasn't trying to start anything,\" she says now, looking back. \"I just enjoyed being out there alone in the early morning. It was, I think, the only quiet thing in my life.\"\n\nThe first sign that the plot might become something more came from her neighbours. A woman who walked past the school fence each morning asked, half-jokingly, whether she could buy a handful of the herbs growing inside. Itzel agreed, on the condition that the money go to the school. A week later three other neighbours had asked the same thing, and the head teacher quietly suggested that Itzel might set up a small Saturday stall at the school gate. \"I assumed nobody would come,\" Itzel admits. \"I was wrong about that. I sold everything I had within an hour.\"\n\nWhat happened next surprised everybody, including Itzel. Customers began to request specific things — a particular variety of tomato, a less common type of lettuce — and Itzel realised she would have to learn far more about gardening than she currently knew. She began spending her evenings reading old books from the public library and writing to local farmers with questions. Several were patient enough to reply at length, and one invited her to spend a Saturday on his farm. \"That was the moment,\" she says, \"when I stopped thinking of it as a hobby. I could suddenly see that there was a real craft to learn.\"\n\nItzel is now sixteen, and the school plot has grown into something the head teacher describes, fondly, as \"a polite invasion\". A second plot has been added; two younger pupils help at weekends; and a regular box of vegetables is delivered to a nearby restaurant. Itzel is careful, however, not to call it a business. \"The school owns the land and the school takes the money,\" she points out. \"What I get is the experience. That, for me, is the real payment, and it's already worth more than anything money could buy.\"",
+    "questions": [
+     {
+      "stem": "What does Itzel suggest about her early time looking after the plot?",
+      "options": [
+       "She was determined to make money from it from the start.",
+       "She enjoyed it as a private and peaceful part of her day.",
+       "She found the work too hard without help from classmates.",
+       "She was waiting for the teacher to praise her efforts."
+      ],
+      "answer": 1
+     },
+     {
+      "stem": "How did the school gate stall come about?",
+      "options": [
+       "Itzel had been planning to open one for some time.",
+       "Her geography teacher set it up as a class project.",
+       "Repeated requests from passing neighbours led the head teacher to suggest it.",
+       "A local newspaper offered to advertise the produce."
+      ],
+      "answer": 2
+     },
+     {
+      "stem": "What did Itzel realise after customers began making specific requests?",
+      "options": [
+       "She could charge much higher prices than before.",
+       "She needed to learn far more about gardening than she yet knew.",
+       "The plot was too small to satisfy demand.",
+       "She would have to give up the project."
+      ],
+      "answer": 1
+     },
+     {
+      "stem": "What does the writer mean by \"the moment\" Itzel describes when talking about the farm visit?",
+      "options": [
+       "The point at which she decided to give the plot back to the school.",
+       "The point at which she stopped seeing the work as merely a hobby.",
+       "The point at which she earned enough to buy new tools.",
+       "The point at which her teacher first praised her."
+      ],
+      "answer": 1
+     },
+     {
+      "stem": "How does Itzel describe what she gets from the project today?",
+      "options": [
+       "A small but steady weekly income.",
+       "A growing list of paying customers.",
+       "Valuable experience that she considers more important than money.",
+       "Public recognition from the local council."
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "type": "match",
+    "part": "Part 4",
+    "instructions": "Read the article about a community bus service. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+    "passage": "The little bus that nobody expected to last\n\nFive years ago, the village of Greythorne lost its last regular bus to the nearby town. The route had carried a handful of passengers each day for nearly half a century, but the company that ran it concluded that the numbers no longer justified the fuel. (16)____ Most residents assumed that, like dozens of similar services across the region, it would simply never return.\n\nWhat appeared in its place was something nobody had quite seen before. A retired engineer named Walter Crisp, who had moved to the village two years earlier, proposed that the residents themselves should run a small minibus on the same route, three mornings a week. (17)____ Within a month, twelve volunteers had signed up to share the driving, and a second-hand minibus had been bought, partly with donations and partly with a small grant from the parish council.\n\nThe service began modestly, carrying mostly older residents who could no longer drive. (18)____ A young mother going to a hospital appointment, a teenager travelling to a Saturday job, a tourist who had taken a wrong turn on a country lane — all began to appear, somewhat to the surprise of the volunteers, who had imagined a much narrower group of users.\n\nThe service has not been without problems. Two of the original drivers have since moved away, and the minibus itself needed a costly repair last winter. (19)____ Whenever the future of the project has looked uncertain, however, a new volunteer has appeared, often someone who has used the bus and decided that they would rather help keep it running than watch it disappear.\n\nWalter is careful to point out that the project is not a model for everywhere. (20)____ But for Greythorne, at least, the little bus has turned out to be far more than a way of getting into town. \"It's the village,\" one regular passenger says simply, \"meeting itself.\"",
+    "bank": {
+     "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+     ],
+     "texts": [
+      "A larger village, he believes, would need a more professional structure to survive in the long run.",
+      "The closure was announced in March and the last bus left, almost empty, on a wet evening in April.",
+      "The same vehicle was offered for sale to several private companies before the residents stepped in.",
+      "Over time, however, the passenger list grew quietly more varied.",
+      "His suggestion sounded, even to him, slightly ridiculous when he first made it at a community meeting.",
+      "Each setback has tested the patience of the volunteers and the goodwill of the community alike.",
+      "All of the passengers are now required to hold a special permit issued by the council.",
+      "Within a year, the service had been recognised by a national award for community transport."
+     ]
+    },
+    "questions": [
+     {
+      "stem": "Gap 16",
+      "answer": "B"
+     },
+     {
+      "stem": "Gap 17",
+      "answer": "E"
+     },
+     {
+      "stem": "Gap 18",
+      "answer": "D"
+     },
+     {
+      "stem": "Gap 19",
+      "answer": "F"
+     },
+     {
+      "stem": "Gap 20",
+      "answer": "A"
+     }
+    ]
+   },
+   {
+    "type": "clozeMC",
+    "part": "Part 5",
+    "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+    "title": "Why we yawn",
+    "body": "Most of us yawn several times a day without giving it any thought, yet scientists are still not entirely (21)____ about why we do it. For many years, the popular explanation was that yawning helped the body take (22)____ extra oxygen when we felt tired. Recent studies, however, have largely (23)____ this idea, finding little real link between yawning and the level of oxygen in the blood. A more modern theory (24)____ that yawning may help to cool the brain, which works best within a narrow range of temperatures. Equally curious is the fact that yawning is highly contagious; simply watching someone else yawn is often (25)____ to set us off. This second feature has led some researchers to argue that the behaviour is, above all, a social signal — a quiet way of (26)____ one's mood with the people nearby.",
+    "questions": [
+     {
+      "options": [
+       "right",
+       "sure",
+       "ready",
+       "agreed"
+      ],
+      "answer": 1
+     },
+     {
+      "options": [
+       "in",
+       "on",
+       "up",
+       "out"
+      ],
+      "answer": 0
+     },
+     {
+      "options": [
+       "rejected",
+       "refused",
+       "removed",
+       "missed"
+      ],
+      "answer": 0
+     },
+     {
+      "options": [
+       "supposes",
+       "thinks",
+       "suggests",
+       "tells"
+      ],
+      "answer": 2
+     },
+     {
+      "options": [
+       "able",
+       "enough",
+       "ready",
+       "due"
+      ],
+      "answer": 1
+     },
+     {
+      "options": [
+       "sharing",
+       "joining",
+       "telling",
+       "swapping"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "type": "clozeOpen",
+    "part": "Part 6",
+    "instructions": "For each gap (27–32), write ONE word.",
+    "title": "Email about a volunteer trip",
+    "body": "Hi Yusuf,\n\nI'm really glad you've decided to come (27)____ me on the volunteer trip in August! The organisers sent us the final details yesterday, (28)____ I'm forwarding to you now.\n\nWe'll be helping (29)____ a village school for three weeks. The work is harder (30)____ I'd imagined, but the team sounds great. Don't forget to (31)____ your passport with you to the meeting on Friday — they want to copy it.\n\nIf you have any questions, just (32)____ me know. I really can't wait!\n\nSpeak soon,\nNaila",
+    "questions": [
+     {
+      "accept": [
+       "with"
+      ]
+     },
+     {
+      "accept": [
+       "which"
+      ]
+     },
+     {
+      "accept": [
+       "at"
+      ]
+     },
+     {
+      "accept": [
+       "than"
+      ]
+     },
+     {
+      "accept": [
+       "bring",
+       "take"
+      ]
+     },
+     {
+      "accept": [
+       "let"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "B2": {
+  "title": "B2 First — Reading and Use of English (MOCK 3)",
+  "note": "Parts 1–7 are auto-scored. This mock is calibrated to the upper boundary of B2 difficulty.",
+  "parts": [
+   {
+    "type": "clozeMC",
+    "part": "Part 1",
+    "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+    "title": "The hidden cost of free apps",
+    "body": "When the first smartphone applications appeared, the most striking thing about many of them was the price: they were free. Users (1)____ for granted the idea that an entire piece of software could be downloaded without payment, and within a few years the phrase \"free app\" no longer raised any (2)____ at all. Behind the apparent generosity, however, lay a quieter (3)____ . The developers were not, of course, working for nothing; what they collected instead of money was information. Every search, location and pause was carefully (4)____ , and sold on to advertisers who used it to predict and (5)____ behaviour. Many users were vaguely aware of this exchange, but few troubled to read the terms to which they had so casually (6)____ . As the practice has come under closer scrutiny, regulators have begun to demand greater (7)____ , and some companies have started, reluctantly, to offer a paid alternative without advertising. Whether enough people will pay to (8)____ the model remains to be seen.",
+    "questions": [
+     {
+      "options": [
+       "took",
+       "held",
+       "made",
+       "set"
+      ],
+      "answer": 0
+     },
+     {
+      "options": [
+       "eyebrows",
+       "shoulders",
+       "voices",
+       "elbows"
+      ],
+      "answer": 0
+     },
+     {
+      "options": [
+       "bargain",
+       "swap",
+       "purchase",
+       "loan"
+      ],
+      "answer": 0
+     },
+     {
+      "options": [
+       "logged",
+       "filed",
+       "stored",
+       "saved"
+      ],
+      "answer": 0
+     },
+     {
+      "options": [
+       "shape",
+       "form",
+       "model",
+       "lead"
+      ],
+      "answer": 0
+     },
+     {
+      "options": [
+       "agreed",
+       "answered",
+       "permitted",
+       "allowed"
+      ],
+      "answer": 0
+     },
+     {
+      "options": [
+       "openness",
+       "loudness",
+       "fairness",
+       "ease"
+      ],
+      "answer": 0
+     },
+     {
+      "options": [
+       "shift",
+       "trade",
+       "swap",
+       "switch"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "type": "clozeOpen",
+    "part": "Part 2",
+    "instructions": "Read the text and think of ONE word which best fits each gap.",
+    "title": "The forgotten art of letter writing",
+    "body": "It is hard now to imagine a time when the arrival of a letter could shape the rest of someone's day, and yet that (9)____ exactly the case for most of the last two centuries. Letters were how news travelled, how arguments were carried on, and how love was declared. Their slow rhythm forced writers to choose words with a care that few of us, (10)____ matter how educated, would apply to a message we expect to be read within seconds.\n\nMuch (11)____ been written lately about the supposed death of the form. Such claims are not new; the telegraph was once accused of (12)____ the same thing. The truth is rather more interesting. While the everyday letter has largely been replaced by quicker means, the longer, more deliberate kind has survived, and in some quarters even revived. Schools have begun, cautiously, to (13)____ pupils to handwrite to a partner abroad, and several novelists insist that they (14)____ never compose long emails without first drafting them on paper.\n\nWhat such efforts share is a recognition that the act of writing slowly is itself (15)____ value, regardless of what is finally said. A letter, unlike a message, expects to be reread. It rewards the writer, in other words, for thinking before reaching (16)____ the send key — a habit modern life seems determined to make harder to keep.",
+    "questions": [
+     {
+      "accept": [
+       "was"
+      ]
+     },
+     {
+      "accept": [
+       "no"
+      ]
+     },
+     {
+      "accept": [
+       "has"
+      ]
+     },
+     {
+      "accept": [
+       "doing",
+       "causing"
+      ]
+     },
+     {
+      "accept": [
+       "encourage",
+       "ask",
+       "get"
+      ]
+     },
+     {
+      "accept": [
+       "could",
+       "would"
+      ]
+     },
+     {
+      "accept": [
+       "of"
+      ]
+     },
+     {
+      "accept": [
+       "for"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "wordform",
+    "part": "Part 3",
+    "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+    "title": "Why we trust strangers online",
+    "rows": [
+     {
+      "text": "Psychologists have long been puzzled by the"
+     },
+     {
+      "text": "(17)____ willingness of online shoppers to trust",
+      "root": "EXTRAORDINARY"
+     },
+     {
+      "text": "reviews written by people they have never met."
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "A short paragraph of unverified praise often has"
+     },
+     {
+      "text": "more (18)____ on a buyer than long expert analysis.",
+      "root": "INFLUENCE"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "This reliance on unknown voices was once viewed as"
+     },
+     {
+      "text": "(19)____ behaviour by serious researchers.",
+      "root": "RATIONAL"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "More recent work, however, suggests the habit has a"
+     },
+     {
+      "text": "(20)____ logic that traditional models had missed.",
+      "root": "SURPRISE"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Shoppers seem to treat the volume of small votes as"
+     },
+     {
+      "text": "a kind of collective (21)____ of a product's worth.",
+      "root": "JUDGE"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Of course, the system is far from"
+     },
+     {
+      "text": "(22)____, as cases of paid reviews have shown.",
+      "root": "FAIL"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Platforms have responded by introducing"
+     },
+     {
+      "text": "stricter (23)____ designed to detect dishonest posts.",
+      "root": "CHECK"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Whether such measures will fully restore"
+     },
+     {
+      "text": "(24)____ in the system remains an open question.",
+      "root": "CONFIDENT"
+     }
+    ],
+    "questions": [
+     {
+      "root": "EXTRAORDINARY",
+      "accept": [
+       "extraordinary"
+      ]
+     },
+     {
+      "root": "INFLUENCE",
+      "accept": [
+       "influence"
+      ]
+     },
+     {
+      "root": "RATIONAL",
+      "accept": [
+       "irrational"
+      ]
+     },
+     {
+      "root": "SURPRISE",
+      "accept": [
+       "surprising"
+      ]
+     },
+     {
+      "root": "JUDGE",
+      "accept": [
+       "judgement",
+       "judgment"
+      ]
+     },
+     {
+      "root": "FAIL",
+      "accept": [
+       "failsafe",
+       "fail-safe"
+      ]
+     },
+     {
+      "root": "CHECK",
+      "accept": [
+       "checks"
+      ]
+     },
+     {
+      "root": "CONFIDENT",
+      "accept": [
+       "confidence"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "transform",
+    "part": "Part 4",
+    "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+    "questions": [
+     {
+      "before": "\"You should apologise to your sister,\" Dad told Liam.",
+      "keyword": "OUGHT",
+      "after": "Dad told Liam that he ___ to his sister.",
+      "accept": [
+       "ought to apologise"
+      ]
+     },
+     {
+      "before": "I haven't been to this museum since I was a child.",
+      "keyword": "LAST",
+      "after": "The ___ here was as a child.",
+      "accept": [
+       "last time i came",
+       "last time i was",
+       "last time i visited"
+      ]
+     },
+     {
+      "before": "It wasn't necessary for you to wait at the station.",
+      "keyword": "NEEDN'T",
+      "after": "You ___ at the station.",
+      "accept": [
+       "needn't have waited"
+      ]
+     },
+     {
+      "before": "The town has changed so much that I hardly recognised it.",
+      "keyword": "MUCH",
+      "after": "The town has changed ___ I hardly recognised it.",
+      "accept": [
+       "so much that"
+      ]
+     },
+     {
+      "before": "People say that the painting is worth a fortune.",
+      "keyword": "SAID",
+      "after": "The painting ___ worth a fortune.",
+      "accept": [
+       "is said to be"
+      ]
+     },
+     {
+      "before": "It's not worth complaining about the noise now.",
+      "keyword": "POINT",
+      "after": "There ___ about the noise now.",
+      "accept": [
+       "is no point complaining",
+       "is no point in complaining"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "mc",
+    "part": "Part 5",
+    "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+    "passage": "The unfashionable virtue of patience\n\nFew qualities are praised more often, and practised less, than patience. Parents urge it on children, employers list it among the traits they value, and self-help books return to it with reliable frequency. Yet the very technologies that fill our days have been designed, at considerable expense, to require less of it from us each year. A film begins almost the instant a finger touches a screen; a meal arrives twenty minutes after the thought of it crosses our mind. We say we admire patience, in other words, while constructing a world in which it becomes almost impossible to develop.\n\nThis would matter less if patience were a luxury, a polite addition to an otherwise complete character. The evidence is awkwardly clear that it is not. Long-running studies of children who learn, very early, to wait for something they want — the famous experiment with marshmallows is only the best known — suggest that the small capacity to delay reward predicts a striking range of later outcomes, from school results to physical health. The connection is not magical. The child who can sit out a few uncomfortable minutes for a larger reward is, in miniature, doing what every difficult adult task quietly demands.\n\nIf this is even half right, the steady removal of small frustrations from daily life should worry us. Each individual convenience is, taken on its own, a small mercy. Multiplied across childhood, however, they may amount to a quiet weakening of the very habit they claim to support. A generation that has never had to wait for the next episode, or to argue patiently for a parent's attention, may arrive at adulthood with skills well suited to the present and oddly ill-suited to its own future.\n\nNot every commentator agrees. Some argue, plausibly, that the situation is the opposite of what it seems: that patience is being redistributed rather than lost. The teenager who cannot bear a slow internet connection, they point out, will happily practise the same chord on a guitar for an hour. The capacity to wait, on this view, has not vanished; it has merely become more selective, attaching itself to whatever the individual cares about and quietly abandoning the rest. There is something to this argument, although it does not quite explain why patience should be available for chosen pleasures and almost completely absent for ordinary inconveniences.\n\nWhat seems clear, in any case, is that patience is not a single, fixed quantity. It is more like a small skill, trainable in the way other skills are trainable, and rather like them in needing regular practice. The remedy is unlikely to come from grand resolutions. The people who appear to manage best report, instead, a series of unspectacular habits: putting the phone in another room while reading, choosing the slower route home occasionally, sitting through a meal without entertainment. Each is, in itself, almost embarrassingly modest. Together, they amount to a quiet refusal of the assumption that every minute must be filled, and to a steady rebuilding of a faculty whose disappearance would impoverish us in ways we are only beginning to measure.",
+    "questions": [
+     {
+      "stem": "What contradiction does the writer identify at the start of the text?",
+      "options": [
+       "Patience is praised in books but rarely mentioned in real life.",
+       "We claim to value patience while building a world that makes it harder to develop.",
+       "Children today are more patient than their parents were.",
+       "Technology has slowed down rather than sped up daily life."
+      ],
+      "answer": 1
+     },
+     {
+      "stem": "Why does the writer refer to the marshmallow experiment?",
+      "options": [
+       "To prove that children today refuse to wait for anything.",
+       "To show that delaying small rewards is linked to many later outcomes.",
+       "To argue that sweets damage children's behaviour.",
+       "To question the value of long-running studies."
+      ],
+      "answer": 1
+     },
+     {
+      "stem": "What does the writer suggest about modern conveniences?",
+      "options": [
+       "Each one is a serious problem on its own.",
+       "Taken together, they may weaken the very habit they appear to support.",
+       "They have no real effect on children.",
+       "They should be banned for under-eighteens."
+      ],
+      "answer": 1
+     },
+     {
+      "stem": "How does the writer respond to the argument that patience has been \"redistributed\"?",
+      "options": [
+       "He fully accepts it as the best explanation.",
+       "He rejects it as obviously wrong.",
+       "He concedes there is something to it but finds it incomplete.",
+       "He claims it has no supporters among researchers."
+      ],
+      "answer": 2
+     },
+     {
+      "stem": "What does the writer suggest about patience in the final paragraph?",
+      "options": [
+       "It is something we are born with and cannot change.",
+       "It is a small skill that needs regular, unspectacular practice.",
+       "It can only be restored by grand life-changing decisions.",
+       "It has now disappeared completely from modern life."
+      ],
+      "answer": 1
+     },
+     {
+      "stem": "Which of the following best describes the writer's overall position?",
+      "options": [
+       "Concerned but not despairing, and cautiously practical.",
+       "Entirely pessimistic about the future of patience.",
+       "Confident that no real problem exists.",
+       "Indifferent to whether patience is preserved or lost."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "type": "match",
+    "part": "Part 6",
+    "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+    "passage": "The slow return of the typewriter\n\nUntil quite recently, the manual typewriter looked like a museum piece — a heavy, noisy ancestor of the laptop, kept only by nostalgic uncles and a few stage designers. (37)____ Yet in a small but persistent way, the machine has begun to find new owners, and the second-hand market for the better models has quietly become surprisingly competitive.\n\nThe people drawn to it are rarely those one might expect. Many are in their twenties, born long after the typewriter's commercial decline, and they describe their attraction in terms that have very little to do with nostalgia. (38)____ What they value, instead, is the awkwardness — the very feature that once made the machines seem hopelessly outdated.\n\nThe argument runs roughly as follows. A modern word processor invites endless revision; a typewriter does not. A sentence committed to paper at speed cannot be quietly improved, only crossed out, and the writer must therefore think a little harder before beginning. (39)____ Several novelists, mostly younger ones, have publicly admitted that they now draft on a typewriter for precisely this reason.\n\nNot everyone is persuaded. Critics point out, fairly enough, that the discipline is artificial: nothing actually prevents a thoughtful writer from drafting carefully on a screen. (40)____ A constraint, they argue, may be the easier route to the habit, and a typewriter happens to supply one ready-made.\n\nThe revival has, predictably, given rise to a small industry. (41)____ Workshops to teach new owners how to clean and oil their machines have begun appearing in unexpected places, and a handful of small firms have started producing fresh ribbons after decades when none were made at all.\n\nWhether any of this amounts to more than a passing fashion is impossible to say. (42)____ For the moment, though, the quiet click of keys can be heard in cafés where, a few years ago, nobody would have predicted it.",
+    "bank": {
+     "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+     ],
+     "texts": [
+      "Repair shops that closed long ago have, in some cities, quietly reopened.",
+      "Few new writers have ever shown the slightest interest in the technology.",
+      "It seemed, in short, the kind of object whose moment had safely passed.",
+      "The supporters reply, however, that habit and willpower are different things.",
+      "Much will depend on whether the supply of working ribbons can keep up with demand.",
+      "Whether their work improves as a result is, of course, far harder to prove.",
+      "Nostalgia, as far as one can tell from interviews, plays almost no part in the choice.",
+      "The cafés have therefore decided to remove all electrical sockets from their walls."
+     ]
+    },
+    "questions": [
+     {
+      "stem": "Choose the missing sentence:",
+      "answer": "C"
+     },
+     {
+      "stem": "Choose the missing sentence:",
+      "answer": "G"
+     },
+     {
+      "stem": "Choose the missing sentence:",
+      "answer": "F"
+     },
+     {
+      "stem": "Choose the missing sentence:",
+      "answer": "D"
+     },
+     {
+      "stem": "Choose the missing sentence:",
+      "answer": "A"
+     },
+     {
+      "stem": "Choose the missing sentence:",
+      "answer": "E"
+     }
+    ]
+   },
+   {
+    "type": "match",
+    "part": "Part 7",
+    "instructions": "Read about four adults who decided to learn a musical instrument later in life. Then answer the questions. The same person may be chosen more than once.",
+    "sources": [
+     {
+      "label": "A",
+      "name": "Veronika",
+      "text": "I took up the cello at forty-eight after years of vaguely promising myself I would, and for the first six months I was, frankly, terrible. What surprised me was not the difficulty itself, which I had expected, but how exposed it made me feel. My teacher, who is half my age, has been extraordinarily kind, and yet every lesson required me to be visibly incompetent in front of someone with all the answers, which was an entirely new experience for a person who runs a department at work. I considered giving up several times, usually after particularly humiliating rehearsals, and what stopped me each time was something small: a passing remark from my partner that I had stopped talking about work in the evenings. I had not noticed, but the cello was doing something useful while I was busy hating it. I still play badly, but I no longer mind, which feels like a kind of progress that the music itself does not measure."
+     },
+     {
+      "label": "B",
+      "name": "Devraj",
+      "text": "I always told myself that I would learn the piano \"properly\" one day, by which I meant in a serious, structured way with a strict teacher and graded exams. When I finally started at fifty-two, I tried exactly that, and lasted four months before quietly giving up. The structure that should have helped me felt like a return to school, and I had not enjoyed school much the first time. What rescued the project was abandoning the plan altogether and learning whatever songs happened to appeal to me from week to week, regardless of difficulty or order. My progress on paper is probably worse, but I now sit down to practise without dread, which I suspect matters more in the long run than any certificate. I would not recommend my approach to a younger learner with real ambitions, only to people like me who have tried the orderly route and quietly closed the lid."
+     },
+     {
+      "label": "C",
+      "name": "Helena",
+      "text": "Picking up the violin in my fifties was not, in my case, the result of any romantic longing. It was a practical response to a noisy diagnosis: a neurologist mentioned, almost in passing, that learning a complicated new skill in later life appears to keep certain parts of the brain busier than they would otherwise be. I had recently lost my mother to a long, slow illness of the kind he was describing, and the suggestion lodged itself. I do not pretend to love practising; on most evenings I would rather not. What keeps me sitting down with the instrument is a quiet, somewhat grim determination to give my brain something to chew on each day. The pleasure that other adult learners describe so eloquently has not really arrived, but my reasons for starting have not gone away either, and that turns out to be enough."
+     },
+     {
+      "label": "D",
+      "name": "Joachim",
+      "text": "I took up the guitar after my divorce, mostly because the house was suddenly very quiet and I needed something to do in the evenings that was not television or wine. I had imagined I would teach myself from videos, in the way friends had described, and I am embarrassed to admit how badly that went. I drifted from one tutorial to another without ever building anything, and after six weeks I had not learned a single complete song. What changed everything was, eventually, asking for help — a weekly lesson with a patient tutor, which I had resisted because I associated lessons with childhood. The single hour of structure each week turned out to make the difference between progress and chaos. I now play imperfectly but recognisably, and I tell anyone considering self-teaching to be quietly honest about whether it suits them, because for many of us, including me, it simply does not."
+     }
+    ],
+    "bank": {
+     "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "texts": [
+      "Veronika",
+      "Devraj",
+      "Helena",
+      "Joachim"
+     ]
+    },
+    "questions": [
+     {
+      "stem": "Which person began learning mainly because of concerns about long-term brain health?",
+      "answer": "C"
+     },
+     {
+      "stem": "Which person stopped following a structured plan because it reminded them too much of school?",
+      "answer": "B"
+     },
+     {
+      "stem": "Which person was surprised mainly by the discomfort of looking incompetent in front of a younger expert?",
+      "answer": "A"
+     },
+     {
+      "stem": "Which person took up the instrument as a way of filling sudden silence at home?",
+      "answer": "D"
+     },
+     {
+      "stem": "Which person warns others to be honest about whether teaching themselves will really work for them?",
+      "answer": "D"
+     },
+     {
+      "stem": "Which person says they do not really enjoy practising but continues anyway for reasons unrelated to pleasure?",
+      "answer": "C"
+     },
+     {
+      "stem": "Which person realised the benefits of the activity only when a partner noticed a change in their behaviour?",
+      "answer": "A"
+     },
+     {
+      "stem": "Which person admits their approach would not suit a younger person with serious ambitions?",
+      "answer": "B"
+     },
+     {
+      "stem": "Which person says the moment of asking for proper help turned chaos into progress?",
+      "answer": "D"
+     },
+     {
+      "stem": "Which person measures progress less by skill than by no longer minding their own limitations?",
+      "answer": "A"
+     }
+    ]
+   }
+  ]
+ },
  "C1": {
   "title": "C1 Advanced — Reading and Use of English (MOCK 3)",
   "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",

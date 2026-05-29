@@ -535,6 +535,86 @@ const WRITING5 = {
   }
 };
 
+/* ================= WRITING — MOCK 3 (fresh, harder prompts) ================= */
+const WRITING6 = {
+  B1:{
+    title:'B1 Preliminary — Writing (MOCK 3)', durationMin:45,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in about 100 words.',
+        tasks:[{
+          type:'email', minWords:100,
+          lead:'Read this email from your English-speaking friend Jordan, and the notes you have made.',
+          stimulus:{head:'EMAIL', title:'', body:'From: Jordan\nSubject: My summer project — your opinion\n\nHi!\n\nMy school is asking every student to choose a personal summer project: either learning a new skill on our own, or volunteering with a local organisation in our city. I really cannot decide and your opinion matters to me.\n\nWhich one do you think is more useful for someone our age? And what would you choose if you were me? Should we be doing both, even?\n\nWrite soon!\nJordan'},
+          bullets:['say which project you think is more useful and why','explain what you would choose if you were Jordan','say whether you think Jordan should try to do both','ask Jordan one question about the project'],
+          write:'Write your email to Jordan.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in about 100 words.',
+        tasks:[
+          { type:'article', q:2, minWords:100, lead:'You see this announcement in your school English-language magazine.',
+            stimulus:{title:'A DECISION I AM PROUD OF', body:'Think about a decision you have made that you are now really proud of. Write an article telling us what the decision was, why it was difficult at the time, and how it changed something in your life. The best articles will be published next month.'},
+            bullets:['what the decision was','why it was difficult at the time','how it changed something in your life'], write:'Write your article.' },
+          { type:'story', q:3, minWords:100, lead:'Your English teacher has asked you to write a story.', startSentence:'Lucas picked up the old phone and immediately wished he had not answered it.',
+            stimulus:{title:'', body:'Your story must begin with this sentence:\n\nLucas picked up the old phone and immediately wished he had not answered it.'},
+            bullets:[], write:'Write your story.' }
+        ]
+      }
+    ]
+  },
+  B2:{
+    title:'B2 First — Writing (MOCK 3)', durationMin:80,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write 140-190 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:140, maxWords:190,
+          lead:'In your English class you have been talking about success and ambition. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.',
+          stimulus:{body:'"Modern life pushes young people to be successful too early. Is this a serious problem?"\n\nNotes\n\nWrite about:\n1. mental wellbeing\n2. choosing the wrong path\n3. ............... (your own idea)'},
+          bullets:['mental wellbeing','choosing the wrong path','your own idea','give reasons for your point of view'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write 140-190 words in an appropriate style.',
+        tasks:[
+          { type:'review', q:2, minWords:140, maxWords:190, lead:'You see this announcement on an English-language podcast website.',
+            stimulus:{title:'Podcast reviews wanted', body:'Have you listened to a podcast series that genuinely made you rethink something you used to believe? Write a review describing the series, explaining what changed your mind, and saying whether other listeners your age would find it equally challenging.'},
+            bullets:['describe the podcast series','what changed your mind','whether other young listeners would find it equally challenging'], write:'Write your review.' },
+          { type:'report', q:3, minWords:140, maxWords:190, lead:'The director of your local community centre has asked you to write a report on its weekend programme for teenagers.',
+            stimulus:{title:'Report: the weekend programme for teenagers', body:'Describe what the programme currently offers and how teenagers respond to it, identify the two biggest weaknesses, and recommend one realistic change the centre could make without spending much money.'},
+            bullets:['what the programme offers and how teenagers respond','the two biggest weaknesses','one realistic, low-cost change'], write:'Write your report.' },
+          { type:'email', q:4, minWords:140, maxWords:190, lead:'You have received this email from your English-speaking friend Casey.',
+            stimulus:{body:'From: Casey\nSubject: Quitting my hobby?\n\nI have been doing the same hobby seriously for five years, and lately I have completely lost interest in it. My parents say I will regret it if I stop, but going to practice every week feels like a chore now. You always give honest advice, so what do you think — should I really quit, or is there a way to fall in love with it again?\nThanks,\nCasey'},
+            bullets:['your honest opinion on whether Casey should quit','a way Casey could fall in love with the hobby again','how Casey could talk to the parents about this'], write:'Write your email.' }
+        ]
+      }
+    ]
+  },
+  C1:{
+    title:'C1 Advanced — Writing (MOCK 3)', durationMin:90,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in 220-260 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:220, maxWords:260,
+          lead:'Your class has taken part in a panel discussion about how a city could better support its young people during the difficult years between school and stable work. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would make the greatest long-term difference, giving reasons to support your opinion.',
+          stimulus:{title:'How could a city better support young people moving from school to work?', body:'• subsidised housing for under-25s\n• free mental-health services for school leavers\n• paid mentoring schemes with local employers\n\nSome opinions expressed in the panel:\n"Without somewhere affordable to live, no other support really matters."\n"Most of the young people who drop out do not need money — they need to talk to someone."\n"A real adult who believes in you is worth more than any government course."'},
+          bullets:['discuss two of the ideas','explain which would make the greatest long-term difference','give reasons to support your opinion'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in 220-260 words in an appropriate style.',
+        tasks:[
+          { type:'proposal', q:2, minWords:220, maxWords:260, lead:'The board of an international school has invited proposals from senior students.',
+            stimulus:{title:'Proposal: rethinking how we assess students', body:'Write a proposal arguing that the school should reduce its reliance on traditional written exams in favour of one alternative form of assessment. Explain the limitations of the current system, justify your preferred alternative, and address one major concern that staff and parents are likely to raise.'},
+            bullets:['the limitations of the current exam-based system','your preferred alternative form of assessment, justified','one major concern from staff or parents and how it could be addressed'], write:'Write your proposal.' },
+          { type:'review', q:3, minWords:220, maxWords:260, lead:'An English-language cultural magazine has invited reviews of unforgettable live performances.',
+            stimulus:{title:'A live performance that stayed with you', body:'Send us a review of a concert, play or other live performance that you still think about long after it ended. Describe what made the experience exceptional, identify one element that did not quite work, and assess what kind of audience would gain the most from a similar performance.'},
+            bullets:['what made the experience exceptional','one element that did not quite work','what kind of audience would gain the most from a similar performance'], write:'Write your review.' },
+          { type:'report', q:4, minWords:220, maxWords:260, lead:'The director of a non-profit organisation you volunteer with has asked you to write a report.',
+            stimulus:{title:'Report: how the organisation communicates with the public', body:'Write a report evaluating how the organisation currently presents itself online and in person, comparing the impression it gives with the work it actually does, and recommending two specific changes that would help it reach a wider, younger audience.'},
+            bullets:['how the organisation currently presents itself online and in person','how this compares with the work it actually does','two specific changes to reach a wider, younger audience'], write:'Write your report.' }
+        ]
+      }
+    ]
+  }
+};
+
 /* ================= Writing rubric (offline auto-assessment) ================= */
 function scoreWriting(opts){
   const text=(opts.text||'').trim();
@@ -609,7 +689,7 @@ function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replac
 function go(screen){render[screen]();}
 
 /* views: flat list — index 0 = Part 1; 1..N = Part 2 option 0..N-1 */
-function exam(){const t=state.examType; const set=(t==='mock02'?WRITING2:t==='practice'?WRITING3:t==='practice2'?WRITING4:t==='practice3'?WRITING5:WRITING); return (set&&set[state.level])?set[state.level]:WRITING[state.level];}
+function exam(){const t=state.examType; const set=(t==='mock02'?WRITING2:t==='mock03'?WRITING6:t==='practice'?WRITING3:t==='practice2'?WRITING4:t==='practice3'?WRITING5:WRITING); return (set&&set[state.level])?set[state.level]:WRITING[state.level];}
 function viewCount(){const ex=exam();return 1+ex.parts[1].tasks.length;}
 function viewToTask(v){const ex=exam(); if(v===0) return {part:0,opt:0,task:ex.parts[0].tasks[0]}; return {part:1,opt:v-1,task:ex.parts[1].tasks[v-1]};}
 
@@ -786,6 +866,12 @@ const render={
         <p style="color:var(--muted);margin:0 0 4px">A second complete ${examName}-format writing mock — fresh prompts and tasks, same authentic Cambridge structure and difficulty.</p>
         <button class="btn" style="${cardBtn}" onclick="window._pickExam('mock02')">Start MOCK 2 &rarr;</button>
       </div>
+
+      ${WRITING6[state.level]?`<div class="card">
+        <h2>📝 MOCK 3</h2>
+        <p style="color:var(--muted);margin:0 0 4px">A third complete ${examName}-format writing mock — pitched at the upper end of the level, with fresh prompts and the same authentic Cambridge structure.</p>
+        <button class="btn" style="${cardBtn}" onclick="window._pickExam('mock03')">Start MOCK 3 &rarr;</button>
+      </div>`:''}
 
       <p style="margin-top:8px"><a class="link" onclick="go('category')" style="cursor:pointer">&larr; Back</a></p>`;
   },
