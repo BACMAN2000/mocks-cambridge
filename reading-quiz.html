@@ -9268,6 +9268,15 @@ const render = {
     const hasPractice = !!(EXAMS[state.level] && EXAMS[state.level][state.skill]);
     let unlocked=false;
     try{ if(window.NIS && window.NIS.mocksUnlocked) unlocked = await window.NIS.mocksUnlocked(); }catch(e){}
+    /* Portal NIS: ?branch=practice|mocks salta directo a esa sección (solo la primera vez). */
+    try{
+      const _br = new URLSearchParams(location.search).get('branch');
+      if(_br && !window._branchUsed){
+        window._branchUsed = true;
+        if(_br==='practice' && hasPractice) return go('practicePick');
+        if(_br==='mocks' && unlocked) return go('examPick');
+      }
+    }catch(e){}
     app.innerHTML = `
       ${topbar('MOCKS CAMBRIDGE &rsaquo; '+state.skill+' &rsaquo; '+state.level+' &rsaquo; Choose')}
       <h1>${state.level} ${state.skill}</h1>

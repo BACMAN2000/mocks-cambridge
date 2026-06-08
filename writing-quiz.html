@@ -808,6 +808,15 @@ const render={
     const examName={B1:'B1 Preliminary',B2:'B2 First',C1:'C1 Advanced'}[state.level]||state.level;
     let unlocked=false;
     try{ if(window.NIS && window.NIS.mocksUnlocked) unlocked=await window.NIS.mocksUnlocked(); }catch(e){}
+    /* Portal NIS: ?branch=practice|mocks salta directo a esa sección (solo la primera vez). */
+    try{
+      const _br = new URLSearchParams(location.search).get('branch');
+      if(_br && !window._branchUsed){
+        window._branchUsed = true;
+        if(_br==='practice') return go('practicePick');
+        if(_br==='mocks' && unlocked) return go('examPick');
+      }
+    }catch(e){}
     app.innerHTML=`
       <div style="color:var(--muted);font-size:.9rem;margin-bottom:6px">MOCKS CAMBRIDGE &rsaquo; Writing &rsaquo; ${state.level} &rsaquo; Choose</div>
       <h1 style="margin:0 0 6px;font-size:1.7rem">${state.level} Writing</h1>
