@@ -55,6 +55,17 @@
   .level-card .nm{font-size:.82rem;color:var(--muted)}
   /* Inspera-style shell */
   .shell{min-height:100vh;display:flex;flex-direction:column;background:#fff}
+  /* ---- Anti-cheat overlay (tab-switch warning) — must sit above the exam shell ---- */
+  #acOverlay{position:fixed!important;inset:0!important;z-index:99999!important}
+  /* ---- Anti-cheat: iOS/iPad hardening ----
+     Block the long-press callout (Translate / Look Up / Copy) and selection
+     on the prompt/instructions — the desktop `contextmenu` block does NOT fire
+     on iOS Safari long-press. The answer textarea stays fully editable. */
+  .shell{-webkit-touch-callout:none; -webkit-user-select:none; user-select:none}
+  .shell input,
+  .shell textarea,
+  .shell select,
+  .shell [contenteditable]{-webkit-touch-callout:default; -webkit-user-select:text; user-select:text}
   .hdr{display:flex;align-items:center;gap:16px;padding:12px 20px;border-bottom:1px solid var(--line);background:#fff}
   .hdr .brand img{height:34px;width:auto}
   .hdr .cand{font-size:.9rem;color:var(--muted)}
@@ -668,7 +679,7 @@ function scoreWriting(opts){
 
 /* ================= App ================= */
 const app=document.getElementById('app');
-const state={name:'',grade:'',email:'',level:'',examType:'mock01',view:0,part2Choice:null,startTime:null};
+const state={name:'',grade:'',email:'',level:'',examType:'mock01',view:0,part2Choice:null,startTime:null,_tabSwitches:0,_translateHits:0};
 let timerId=null;
 
 /* Touch devices (iPad, tablets, phones, touchscreen laptops): tapping a field
@@ -909,10 +920,11 @@ const render={
     window._choose=(opt,val)=>{ state.part2Choice = (val==='yes')?opt:(state.part2Choice===opt?null:state.part2Choice);
       const ps=document.getElementById('pickState'); if(ps){const on=state.part2Choice===opt; ps.textContent=on?'✓ Yes — this one will be marked':'Not selected yet'; ps.classList.toggle('on',on);} syncFooter(); };
     document.getElementById('submit').onclick=finalize;
-    document.getElementById('quit').onclick=()=>{ if(confirm('Exit without submitting? Your answers will be lost.')){stopTimer();go('level');} };
+    document.getElementById('quit').onclick=()=>{ if(confirm('Exit without submitting? Your answers will be lost.')){stopTimer();acStop();go('level');} };
     syncFooter();
     state.startTime=Date.now();
     startTimer(ex.durationMin);
+    acStart();   // ← activate anti-cheat (translate block, tab-switch detection, etc.)
   },
   result(){
     stopTimer();
@@ -930,6 +942,8 @@ const render={
         <div class="card"><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:.9rem">
           <div><b>Student:</b> ${esc(state.name)}</div><div><b>Grade:</b> ${esc(state.grade)}</div>
           <div><b>Level:</b> ${state.level} · ${LEVEL_NAMES[state.level]}</div><div><b>Date:</b> ${new Date().toLocaleString()}</div>
+          <div style="grid-column:1/-1;${(state._tabSwitches||0)>0?'background:#fef3c7;border-radius:8px;padding:4px 6px':''}"><b>Tab / window switches:</b> <span style="${(state._tabSwitches||0)>0?'color:#b45309;font-weight:700':'color:#16a34a'}">${state._tabSwitches||0} ${(state._tabSwitches||0)===0?'✓ (none detected)':'⚠ detected'}</span></div>
+          <div style="grid-column:1/-1;${(state._translateHits||0)>0?'background:#fef3c7;border-radius:8px;padding:4px 6px':''}"><b>Translation attempts:</b> <span style="${(state._translateHits||0)>0?'color:#b45309;font-weight:700':'color:#16a34a'}">${state._translateHits||0} ${(state._translateHits||0)===0?'✓ (none detected)':'⚠ detected'}</span></div>
         </div></div>
         <div class="card" style="text-align:center;border-left:4px solid var(--good)">
           <div style="font-size:2.2rem">✓</div>
@@ -960,6 +974,7 @@ const render={
 function finalize(){
   if(!confirm('Submit your writing and finish? Your answers will be sent to your teacher to mark.')) return;
   stopTimer();
+  acStop();
   const ex=exam();
   const wc=s=>{ s=(s||'').trim(); return s? s.split(/\s+/).length : 0; };
   const tasks=[];
@@ -987,10 +1002,125 @@ function postResult(r,silent){
   const payload={timestamp:new Date().toISOString(),name:state.name,firstName:(state.name||'').split(' ')[0],email:state.email,grade:state.grade,
     skill:'Writing',level:state.level,levelName:LEVEL_NAMES[state.level]||'',examTitle:exam().title,
     score:null,total:null,percent:null,verdict:'Pendiente de calificación del profesor',writingEvaluation:r.tasks,
+    tabSwitches:state._tabSwitches||0,
+    translateHits:state._translateHits||0,
     teacherEmail:CONFIG.teacherEmail,schoolName:CONFIG.schoolName};
   fetch(CONFIG.webhookUrl,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(payload)})
     .then(()=>{if(st&&!silent){st.textContent='✓ Sent. Your teacher has received your report.';}})
     .catch(()=>{if(st&&!silent){st.textContent='⚠ Could not send. Use Download PDF instead.';}});
+}
+
+/* ============================================================
+   ANTI-CHEAT — ported from reading-quiz.html. Detects tab/window
+   switches (visibilitychange), blocks browser translate + right-click,
+   and warns on page leave. acStart() is safe to call repeatedly: it
+   tears down any previous session before re-attaching. window.blur is
+   intentionally NOT used — native dialogs (confirm) steal focus and
+   would fire false positives. Answer textareas are exempt from the
+   right-click block so the on-screen keyboard callout still works.
+============================================================ */
+let _AC_on = false;
+let _AC_n  = 0;   // cumulative tab/window-switch counter
+let _AC_trans = 0;   // cumulative translation-detected counter
+let _acTransObs = null;
+let _acTransActive = false;   // edge-trigger guard: true while translation is active
+
+function acStart(){
+  acStop();                  // always tear down any previous session first
+  _AC_on = true;
+  _AC_n  = 0;
+  state._tabSwitches = 0;
+  const sh = document.querySelector('.shell');
+  if(sh){ sh.setAttribute('translate','no'); sh.classList.add('notranslate'); }
+  document.addEventListener('visibilitychange', _acOnVis,  true);
+  window.addEventListener  ('beforeunload',     _acOnLeave);
+  document.addEventListener('contextmenu',      _acOnMenu, true);
+  /* Translation watchdog — see _acTransCheck. Observe ONLY the <html>
+     class/lang (what Google Translate sets) — NOT childList/subtree, or the
+     overlay's own insertion would re-trigger the observer in a loop. */
+  _AC_trans = 0; _acTransActive = false; state._translateHits = 0;
+  try{ _acTransObs = new MutationObserver(_acTransCheck);
+       _acTransObs.observe(document.documentElement, {attributes:true, attributeFilter:['class','lang']});
+       _acTransCheck(); }catch(_){}
+}
+
+function acStop(){
+  _AC_on = false;
+  document.removeEventListener('visibilitychange', _acOnVis,  true);
+  window.removeEventListener  ('beforeunload',     _acOnLeave);
+  document.removeEventListener('contextmenu',      _acOnMenu, true);
+  if(_acTransObs){ try{ _acTransObs.disconnect(); }catch(_){} _acTransObs = null; }
+  const ov = document.getElementById('acOverlay');
+  if(ov) ov.remove();
+  const sh = document.querySelector('.shell');
+  if(sh) sh.classList.remove('notranslate');
+}
+
+/* ① visibilitychange — fires only when the tab is truly hidden */
+function _acOnVis(){
+  if(!_AC_on) return;
+  if(document.hidden){ _AC_n++; state._tabSwitches = _AC_n; _acShowWarn('tab'); }
+}
+/* ② page-leave warning */
+function _acOnLeave(e){ e.preventDefault(); e.returnValue = ''; }
+/* ③ disable right-click on exam content (removes "Translate to…" menu).
+   Answer fields are exempt so the on-screen keyboard callout still works. */
+function _acOnMenu(e){
+  if(e.target.closest('input,textarea,select')) return;
+  if(e.target.closest('.shell')){ e.preventDefault(); }
+}
+
+/* ④ Translation watchdog — detects in-page browser translation.
+   Google Translate (Chrome/Edge) marks <html class="translated-*"> and
+   injects a .goog-te-banner-frame. Safari/Firefox page-translate is a
+   browser-level feature a page cannot fully block, but `notranslate` plus
+   the long-press/right-click blocks already neutralise the common paths.
+   This catches the Chrome/Edge case, warns the student, and records it. */
+function _acTransCheck(){
+  if(!_AC_on) return;
+  const h = document.documentElement;
+  const translated = /(^|\s)translated-(ltr|rtl)/.test(h.className) ||
+                     !!document.querySelector('.goog-te-banner-frame');
+  if(translated && !_acTransActive){
+    _acTransActive = true;   // edge: count once per activation
+    _AC_trans++; state._translateHits = _AC_trans; _acShowWarn('translate');
+  } else if(!translated){
+    _acTransActive = false;  // translation turned off — re-arm for next time
+  }
+}
+
+/* Warning overlay (kind: 'tab' = left the page, 'translate' = translation detected) */
+function _acShowWarn(kind){
+  const isT = kind === 'translate';
+  const old = document.getElementById('acOverlay');
+  if(old) old.remove();
+  const ov = document.createElement('div');
+  ov.id = 'acOverlay';
+  ov.style.cssText =
+    'position:fixed;inset:0;background:rgba(10,15,30,.96);z-index:99999;' +
+    'display:flex;flex-direction:column;align-items:center;justify-content:center;' +
+    'color:#fff;font-family:"Montserrat","Segoe UI",sans-serif;text-align:center;padding:32px';
+  ov.innerHTML =
+    '<div style="font-size:3.5rem;margin-bottom:16px">' + (isT?'🌐':'🚨') + '</div>' +
+    '<h2 style="font-size:1.55rem;margin:0 0 12px;font-weight:800">' +
+      (isT ? 'Translation Is Not Allowed' : 'You Left the Exam Page') + '</h2>' +
+    '<p style="max-width:460px;line-height:1.7;color:#cbd5e1;margin:0 0 8px;font-size:1rem">' +
+      (isT ? 'Page translation has been <strong style="color:#f59e0b">detected and recorded</strong>. Turn off your browser’s translate feature to continue.'
+           : 'Leaving the exam page has been <strong style="color:#f59e0b">detected and recorded</strong>. Your teacher will see the number of times this happened.') +
+    '</p>' +
+    '<p style="color:#94a3b8;font-size:.9rem;max-width:420px;margin:0 0 16px;line-height:1.6">' +
+      'Do not switch tabs, open other apps, or use browser translate during the exam.' +
+    '</p>' +
+    '<div style="background:#7c2d12;border:2px solid #f59e0b;border-radius:10px;' +
+      'padding:12px 28px;font-size:1.15rem;font-weight:800;color:#fef3c7;margin-bottom:20px">' +
+      (isT ? '⚠ Translation attempts: ' + _AC_trans : '⚠ Exits recorded this session: ' + _AC_n) +
+    '</div>' +
+    '<button onclick="document.getElementById(\'acOverlay\').remove()" ' +
+      'style="background:#4987c6;color:#fff;border:none;padding:14px 36px;border-radius:10px;' +
+             'font-size:1rem;font-weight:700;cursor:pointer;font-family:inherit">' +
+      'Return to Exam' +
+    '</button>';
+  document.body.appendChild(ov);
 }
 
 /* timer */

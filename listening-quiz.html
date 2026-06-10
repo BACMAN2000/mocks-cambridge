@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <title>MOCKS CAMBRIDGE — Listening (A2 · B1 · B2 · C1)</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="google" content="notranslate">
+<meta http-equiv="Content-Language" content="en">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" defer></script>
 <!-- Auto-version: always load the latest deployed version without clearing cache. -->
 <script>
@@ -87,6 +89,18 @@
   /* ===== Inspera-style shell (matches Reading/Writing) ===== */
   body.exam-mode > header{display:none}
   .ins-shell{position:fixed; inset:0; display:flex; flex-direction:column; background:#fff; z-index:50}
+  /* ---- Anti-cheat overlay (tab-switch warning) — must sit above the exam shell ---- */
+  #acOverlay{position:fixed!important; inset:0!important; z-index:99999!important}
+  /* ---- Anti-cheat: iOS/iPad hardening ----
+     Block the long-press callout (Translate / Look Up / Copy) and text
+     selection on exam content — the desktop `contextmenu` block does NOT
+     fire on iOS Safari long-press, so this CSS is the iPad equivalent.
+     Answer fields stay fully selectable/editable so typing still works. */
+  body.exam-mode .ins-shell{-webkit-touch-callout:none; -webkit-user-select:none; user-select:none}
+  body.exam-mode .ins-shell input,
+  body.exam-mode .ins-shell textarea,
+  body.exam-mode .ins-shell select,
+  body.exam-mode .ins-shell [contenteditable]{-webkit-touch-callout:default; -webkit-user-select:text; user-select:text}
   .ins-hdr{display:flex; align-items:center; gap:16px; padding:10px 20px; border-bottom:1px solid #cbd5e1; background:#fff; flex-shrink:0}
   .ins-hdr .ins-brand img{height:32px; width:auto; display:block}
   .ins-hdr .ins-cand{font-size:.9rem; color:#64748b}
@@ -4786,11 +4800,125 @@ const state = {
   examType: "mock01",
   startTime: null,
   answers: {},
-  seqOrder: {}
+  seqOrder: {},
+  _tabSwitches: 0,
+  _translateHits: 0
 };
 
 /* Active exam set: MOCK 1 = QUIZ, MOCK 2 = QUIZ2, MOCK 3 = QUIZ6 */
 function currentQuiz(){ return state.examType==='mock03'?QUIZ6:state.examType==='mock02'?QUIZ2:state.examType==='practice'?QUIZ3:state.examType==='practice2'?QUIZ4:state.examType==='practice3'?QUIZ5:QUIZ; }
+
+/* ============================================================
+   ANTI-CHEAT — ported from reading-quiz.html. Detects tab/window
+   switches (visibilitychange), blocks browser translate + right-click,
+   and warns on page leave. acStart() is safe to call repeatedly: it
+   tears down any previous session before re-attaching, so stale state
+   never blocks a new exam. window.blur is intentionally NOT used —
+   native dialogs (confirm) steal focus and would fire false positives.
+============================================================ */
+let _AC_on = false;
+let _AC_n  = 0;   // cumulative tab/window-switch counter
+let _AC_trans = 0;   // cumulative translation-detected counter
+let _acTransObs = null;
+let _acTransActive = false;   // edge-trigger guard: true while translation is active
+
+function acStart(){
+  acStop();                  // always tear down any previous session first
+  _AC_on = true;
+  _AC_n  = 0;
+  state._tabSwitches = 0;
+  const sh = document.querySelector('.ins-shell');
+  if(sh){ sh.setAttribute('translate','no'); sh.classList.add('notranslate'); }
+  document.addEventListener('visibilitychange', _acOnVis,  true);
+  window.addEventListener  ('beforeunload',     _acOnLeave);
+  document.addEventListener('contextmenu',      _acOnMenu, true);
+  /* Translation watchdog — see _acTransCheck. Observe ONLY the <html>
+     class/lang (what Google Translate sets) — NOT childList/subtree, or the
+     overlay's own insertion would re-trigger the observer in a loop. */
+  _AC_trans = 0; _acTransActive = false; state._translateHits = 0;
+  try{ _acTransObs = new MutationObserver(_acTransCheck);
+       _acTransObs.observe(document.documentElement, {attributes:true, attributeFilter:['class','lang']});
+       _acTransCheck(); }catch(_){}
+}
+
+function acStop(){
+  _AC_on = false;
+  document.removeEventListener('visibilitychange', _acOnVis,  true);
+  window.removeEventListener  ('beforeunload',     _acOnLeave);
+  document.removeEventListener('contextmenu',      _acOnMenu, true);
+  if(_acTransObs){ try{ _acTransObs.disconnect(); }catch(_){} _acTransObs = null; }
+  const ov = document.getElementById('acOverlay');
+  if(ov) ov.remove();
+  const sh = document.querySelector('.ins-shell');
+  if(sh) sh.classList.remove('notranslate');
+}
+
+/* ① visibilitychange — fires only when the tab is truly hidden */
+function _acOnVis(){
+  if(!_AC_on) return;
+  if(document.hidden){ _AC_n++; state._tabSwitches = _AC_n; _acShowWarn('tab'); }
+}
+/* ② page-leave warning */
+function _acOnLeave(e){ e.preventDefault(); e.returnValue = ''; }
+/* ③ disable right-click on exam content (removes "Translate to…" menu).
+   Answer fields are exempt so the on-screen keyboard callout still works. */
+function _acOnMenu(e){
+  if(e.target.closest('input,textarea,select')) return;
+  if(e.target.closest('.ins-shell')){ e.preventDefault(); }
+}
+
+/* ④ Translation watchdog — detects in-page browser translation.
+   Google Translate (Chrome/Edge) marks <html class="translated-*"> and
+   injects a .goog-te-banner-frame. Safari/Firefox page-translate is a
+   browser-level feature a page cannot fully block, but `notranslate` plus
+   the long-press/right-click blocks already neutralise the common paths.
+   This catches the Chrome/Edge case, warns the student, and records it. */
+function _acTransCheck(){
+  if(!_AC_on) return;
+  const h = document.documentElement;
+  const translated = /(^|\s)translated-(ltr|rtl)/.test(h.className) ||
+                     !!document.querySelector('.goog-te-banner-frame');
+  if(translated && !_acTransActive){
+    _acTransActive = true;   // edge: count once per activation
+    _AC_trans++; state._translateHits = _AC_trans; _acShowWarn('translate');
+  } else if(!translated){
+    _acTransActive = false;  // translation turned off — re-arm for next time
+  }
+}
+
+/* Warning overlay (kind: 'tab' = left the page, 'translate' = translation detected) */
+function _acShowWarn(kind){
+  const isT = kind === 'translate';
+  const old = document.getElementById('acOverlay');
+  if(old) old.remove();
+  const ov = document.createElement('div');
+  ov.id = 'acOverlay';
+  ov.style.cssText =
+    'position:fixed;inset:0;background:rgba(10,15,30,.96);z-index:99999;' +
+    'display:flex;flex-direction:column;align-items:center;justify-content:center;' +
+    'color:#fff;font-family:"Montserrat","Segoe UI",sans-serif;text-align:center;padding:32px';
+  ov.innerHTML =
+    '<div style="font-size:3.5rem;margin-bottom:16px">' + (isT?'🌐':'🚨') + '</div>' +
+    '<h2 style="font-size:1.55rem;margin:0 0 12px;font-weight:800">' +
+      (isT ? 'Translation Is Not Allowed' : 'You Left the Exam Page') + '</h2>' +
+    '<p style="max-width:460px;line-height:1.7;color:#cbd5e1;margin:0 0 8px;font-size:1rem">' +
+      (isT ? 'Page translation has been <strong style="color:#f59e0b">detected and recorded</strong>. Turn off your browser’s translate feature to continue.'
+           : 'Leaving the exam page has been <strong style="color:#f59e0b">detected and recorded</strong>. Your teacher will see the number of times this happened.') +
+    '</p>' +
+    '<p style="color:#94a3b8;font-size:.9rem;max-width:420px;margin:0 0 16px;line-height:1.6">' +
+      'Do not switch tabs, open other apps, or use browser translate during the exam.' +
+    '</p>' +
+    '<div style="background:#7c2d12;border:2px solid #f59e0b;border-radius:10px;' +
+      'padding:12px 28px;font-size:1.15rem;font-weight:800;color:#fef3c7;margin-bottom:20px">' +
+      (isT ? '⚠ Translation attempts: ' + _AC_trans : '⚠ Exits recorded this session: ' + _AC_n) +
+    '</div>' +
+    '<button onclick="document.getElementById(\'acOverlay\').remove()" ' +
+      'style="background:#4987c6;color:#fff;border:none;padding:14px 36px;border-radius:10px;' +
+             'font-size:1rem;font-weight:700;cursor:pointer;font-family:inherit">' +
+      'Return to Exam' +
+    '</button>';
+  document.body.appendChild(ov);
+}
 
 /* Picture options: use real photos (images/<concept>.jpg) where available,
    falling back to the built-in SVG icon if the photo fails to load.
@@ -5092,10 +5220,11 @@ function viewQuiz(){
   $('#lnext').onclick=()=>window._lNav(1);
   window._lGoView(0, false);
 
-  $('#insExit').onclick=()=>{ if(confirm('¿Salir? Perderás tus respuestas actuales.')){ try{TTS.stop();}catch(e){} document.body.classList.remove('exam-mode'); viewWelcome(); } };
+  $('#insExit').onclick=()=>{ if(confirm('¿Salir? Perderás tus respuestas actuales.')){ try{TTS.stop();}catch(e){} acStop(); document.body.classList.remove('exam-mode'); viewWelcome(); } };
   $('#insSubmit').onclick=onSubmit;
 
   updateProgress();
+  acStart();   // ← activate anti-cheat (translate block, tab-switch detection, etc.)
 }
 
 function renderTTSPlayer(audio){
@@ -5399,6 +5528,7 @@ function onSubmit(){
     if(!confirm(`Tienes ${unanswered} ítems sin responder. ¿Enviar de todas formas?`)) return;
   }
   TTS.stop();
+  acStop();
   const score = computeScore();
   const elapsedMin = Math.round((Date.now()-state.startTime)/60000);
   const payload = {
@@ -5412,6 +5542,8 @@ function onSubmit(){
     score: score.correct,
     total: score.total,
     elapsed_min: elapsedMin,
+    tabSwitches: state._tabSwitches || 0,
+    translateHits: state._translateHits || 0,
     when: new Date().toISOString(),
     answers: state.answers,
     breakdown: score.breakdown
@@ -5506,6 +5638,8 @@ function viewResult(payload){
           <div><label>Level</label>${payload.level||''}</div>
           <div><label>Skill</label>Listening</div>
           <div><label>Time spent</label>${payload.elapsed_min||0} min</div>
+          <div style="${(payload.tabSwitches||0)>0?'background:#fef3c7;border-radius:8px':''}"><label>Tab / window switches</label><span style="${(payload.tabSwitches||0)>0?'color:#b45309;font-weight:700':'color:#16a34a'}">${payload.tabSwitches||0} ${(payload.tabSwitches||0)===0?'✓ (none detected)':'⚠ detected'}</span></div>
+          <div style="${(payload.translateHits||0)>0?'background:#fef3c7;border-radius:8px':''}"><label>Translation attempts</label><span style="${(payload.translateHits||0)>0?'color:#b45309;font-weight:700':'color:#16a34a'}">${payload.translateHits||0} ${(payload.translateHits||0)===0?'✓ (none detected)':'⚠ detected'}</span></div>
         </div>
         <div class="score-card">
           <div class="big ${pass?'pass':'fail'}">${payload.score} / ${payload.total}</div>
