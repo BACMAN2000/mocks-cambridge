@@ -365,6 +365,7 @@
 </style>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="nis-bridge.js"></script>
+<script src="config.js"></script>
 </head>
 <body>
 <div class="wrap" id="app"></div>
@@ -8427,63 +8428,129 @@ function speak(text){
   });
 })();
 
+/* ============================================================
+   ANTI-CHEAT (criterio unificado del Portal NIS, modo examen)
+   3 vidas: salida 1 → aviso; salida 2 → reporte al docente;
+   salida 3 → el examen se ENTREGA automáticamente con lo respondido
+   (sin nota C automática — el docente decide). Detecta cambio de
+   pestaña/app (visibilitychange) Y pérdida de foco de la ventana
+   (dos ventanas lado a lado), confirmada con document.hasFocus() y
+   con un margen de 3s para no contar el confirm() de Submit/Quit ni
+   micro-parpadeos. Bloquea copiar/pegar/clic-derecho y traductor.
+   acStart() reinicia las vidas en cada examen (por intento). ========= */
 let _AC_on = false;
-let _AC_n  = 0;    // cumulative tab/window-switch counter
+let _AC_n  = 0;            // contador de salidas en este examen
+const _AC_MAX = 3;
+let _AC_paused = false, _AC_force = false;
+let _AC_away = false, _AC_awaySrc = '', _AC_awayT = 0, _AC_origConfirm = null;
+const _AC_ACT = 'mock-reading', _AC_LABEL = 'MOCK · Reading & UoE';
 
 function acStart(){
   acStop();                  // always tear down any previous session first
-  _AC_on = true;
-  _AC_n  = 0;
-  state._tabSwitches = 0;
+  _AC_on = true; _AC_n = 0; _AC_away = false; state._tabSwitches = 0;
 
-  /* Translate-blocking: add notranslate class to the live exam shell */
   const sh = document.querySelector('.inspera-shell');
   if(sh){ sh.setAttribute('translate','no'); sh.classList.add('notranslate'); }
+  document.documentElement.setAttribute('translate','no');
 
-  /* Register listeners (capture phase so nothing in the page can stop them) */
-  document.addEventListener('visibilitychange', _acOnVis,  true);
-  window.addEventListener  ('beforeunload',     _acOnLeave);
-  document.addEventListener('contextmenu',      _acOnMenu, true);
+  document.addEventListener('visibilitychange', _acOnVis, true);
+  window.addEventListener  ('blur',  _acOnBlur);
+  window.addEventListener  ('focus', _acOnFocus);
+  window.addEventListener  ('beforeunload', _acOnLeave);
+  document.addEventListener('contextmenu', _acOnMenu, true);
+  ['copy','cut','paste','dragstart','drop'].forEach(ev=>document.addEventListener(ev,_acBlock,true));
+
+  // Pausa la detección mientras hay un confirm()/alert() nativo (Submit/Quit/Clear),
+  // que roba el foco sin que el alumno haya salido de verdad.
+  _AC_origConfirm = window.confirm;
+  window.confirm = function(m){ if(_AC_force) return true; _AC_paused = true;
+    try{ return _AC_origConfirm.call(window, m); } finally{ setTimeout(()=>{ _AC_paused = false; }, 500); } };
 }
 
 function acStop(){
-  _AC_on = false;
-  document.removeEventListener('visibilitychange', _acOnVis,  true);
-  window.removeEventListener  ('beforeunload',     _acOnLeave);
-  document.removeEventListener('contextmenu',      _acOnMenu, true);
-  const ov = document.getElementById('acOverlay');
-  if(ov) ov.remove();
-  const sh = document.querySelector('.inspera-shell');
-  if(sh) sh.classList.remove('notranslate');
+  _AC_on = false; _AC_away = false;
+  document.removeEventListener('visibilitychange', _acOnVis, true);
+  window.removeEventListener  ('blur',  _acOnBlur);
+  window.removeEventListener  ('focus', _acOnFocus);
+  window.removeEventListener  ('beforeunload', _acOnLeave);
+  document.removeEventListener('contextmenu', _acOnMenu, true);
+  ['copy','cut','paste','dragstart','drop'].forEach(ev=>document.removeEventListener(ev,_acBlock,true));
+  if(_AC_origConfirm){ window.confirm = _AC_origConfirm; _AC_origConfirm = null; }
+  const ov = document.getElementById('acOverlay'); if(ov) ov.remove();
+  const sh = document.querySelector('.inspera-shell'); if(sh) sh.classList.remove('notranslate');
 }
 
-/* ① visibilitychange — fires only when the tab is truly hidden */
-function _acOnVis(){
-  if(!_AC_on) return;
-  if(document.hidden){
-    _AC_n++;
-    state._tabSwitches = _AC_n;
-    _acShowWarn();
-  }
-}
+function _acBlock(e){ if(!_AC_on) return; e.preventDefault(); e.stopPropagation(); return false; }
 
-/* ② page-leave warning */
+/* --- detección de salida: pestaña/app (hidden) y ventana (blur+hasFocus) --- */
+function _acBeginAway(src){ if(!_AC_on || _AC_paused || _AC_away) return; _AC_away = true; _AC_awaySrc = src; _AC_awayT = Date.now(); }
+function _acEndAway(){
+  if(!_AC_away) return; _AC_away = false;
+  const dt = Date.now() - _AC_awayT;
+  const min = (_AC_awaySrc === 'blur') ? 3000 : 1200;   // ventana 3s, pestaña 1.2s
+  if(dt < min) return;
+  _acStrike(Math.round(dt/100)/10);
+}
+function _acOnVis(){ if(!_AC_on) return; if(document.hidden) _acBeginAway('hidden'); else _acEndAway(); }
+function _acOnBlur(){ if(!_AC_on) return; setTimeout(()=>{ if(_AC_on && !_AC_paused && !document.hasFocus()) _acBeginAway('blur'); }, 250); }
+function _acOnFocus(){ if(_AC_on) _acEndAway(); }
 function _acOnLeave(e){ e.preventDefault(); e.returnValue = ''; }
+function _acOnMenu(e){ if(e.target.closest('input,textarea,select')) return; e.preventDefault(); }
 
-/* ③ disable right-click on reading text (removes "Translate to…" menu).
-   Answer fields are exempt so the on-screen keyboard's select/paste callout
-   works normally on tablets and phones. */
-function _acOnMenu(e){
-  if(e.target.closest('input,textarea,select')) return;
-  if(e.target.closest(
-    '.inspera-content,.passage,.source-row,.wordform-grid,.transform-q,.inspera-instruction'
-  )){ e.preventDefault(); }
+/* --- vidas / escalada --- */
+function _acStrike(secs){
+  _AC_n++; state._tabSwitches = _AC_n;
+  const left = _AC_MAX - _AC_n;
+  if(left <= 0){ _acReport('locked', secs); _acShowWarn('locked'); _acAutoSubmit(); }
+  else if(left === 1){ _acReport('reported', secs); _acShowWarn('reported'); }
+  else { _acShowWarn('warn'); }
 }
 
-/* Warning overlay */
-function _acShowWarn(){
-  const old = document.getElementById('acOverlay');
-  if(old) old.remove();
+/* Entrega automática: reusa el botón Submit del examen, saltando el confirm. */
+function _acAutoSubmit(){
+  const btn = document.getElementById('submitBtn');
+  if(!btn){ return; }
+  _AC_force = true;
+  try{ btn.click(); }catch(e){}
+  setTimeout(()=>{ _AC_force = false; }, 80);
+}
+
+/* Reporte al docente: incidente en BD + correo (sin nota C — el docente decide). */
+function _acReport(event, secs){
+  Promise.resolve((window.NIS && NIS.currentStudent) ? NIS.currentStudent() : null).then(function(stu){
+    const ua = navigator.userAgent || '';
+    const payload = { type:'anticheat_incident', activity:_AC_ACT, activity_label:_AC_LABEL,
+      level: state.level||'', topic: state.examType||'', event:event,
+      lives_left: Math.max(0,_AC_MAX-_AC_n), switch_count:_AC_n, seconds_away:secs, user_agent:ua,
+      exam_auto_submitted:(event==='locked'),
+      student_id: (stu&&stu.uid)||null, student_name:(stu&&stu.full_name)||'',
+      student_email:(stu&&stu.email)||'', grade:(stu&&stu.grade)||'', at:new Date().toISOString() };
+    try{ const CFG=window.NIS_CONFIG||{}; if(CFG.WRITING_WEBHOOK)
+      fetch(CFG.WRITING_WEBHOOK,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(payload)}); }catch(e){}
+    try{ if(stu&&stu.uid&&window.NIS&&NIS.client){ const c=NIS.client(); if(c)
+      c.from('anticheat_incidents').insert({ student_id:stu.uid, activity:_AC_ACT, activity_label:_AC_LABEL,
+        level:state.level||'', topic:state.examType||'', event:event, lives_left:Math.max(0,_AC_MAX-_AC_n),
+        switch_count:_AC_n, seconds_away:secs, user_agent:ua }); } }catch(e){}
+  });
+}
+
+/* Overlay de aviso/bloqueo */
+function _acShowWarn(kind){
+  const old = document.getElementById('acOverlay'); if(old) old.remove();
+  const left = Math.max(0, _AC_MAX - _AC_n);
+  let hearts=''; for(let i=0;i<_AC_MAX;i++) hearts += (i<left?'❤️':'🖤');
+  let icon, title, msg, showBtn = true;
+  if(kind==='locked'){
+    icon='⛔'; showBtn=false;
+    title='Examen entregado';
+    msg='Saliste del examen demasiadas veces. Para proteger la honestidad, tu examen se <strong>entregó automáticamente</strong> con lo que habías respondido. Tu <strong>docente fue notificado</strong> y revisará el caso.';
+  } else if(kind==='reported'){
+    icon='🚩'; title='Reportado a tu docente';
+    msg='Saliste de nuevo. Esto fue <strong style="color:#fca5a5">reportado a tu docente</strong>. Te queda <strong>1 vida</strong>: la próxima salida <strong>entregará tu examen automáticamente</strong>.';
+  } else {
+    icon='⚠️'; title='Saliste del examen';
+    msg='Te quedan <strong>'+left+' vidas</strong>. No cambies de pestaña, ventana ni app durante el examen. La próxima salida será <strong>reportada a tu docente</strong>.';
+  }
   const ov = document.createElement('div');
   ov.id = 'acOverlay';
   ov.style.cssText =
@@ -8491,24 +8558,15 @@ function _acShowWarn(){
     'display:flex;flex-direction:column;align-items:center;justify-content:center;' +
     'color:#fff;font-family:"Montserrat","Segoe UI",sans-serif;text-align:center;padding:32px';
   ov.innerHTML =
-    '<div style="font-size:3.5rem;margin-bottom:16px">🚨</div>' +
-    '<h2 style="font-size:1.55rem;margin:0 0 12px;font-weight:800">You Left the Exam Page</h2>' +
-    '<p style="max-width:460px;line-height:1.7;color:#cbd5e1;margin:0 0 8px;font-size:1rem">' +
-      'Leaving the exam page has been <strong style="color:#f59e0b">detected and recorded</strong>.' +
-      ' Your teacher will see the number of times this happened.' +
-    '</p>' +
-    '<p style="color:#94a3b8;font-size:.9rem;max-width:420px;margin:0 0 16px;line-height:1.6">' +
-      'Do not switch tabs, open other apps, or use browser translate during the exam.' +
-    '</p>' +
-    '<div style="background:#7c2d12;border:2px solid #f59e0b;border-radius:10px;' +
-      'padding:12px 28px;font-size:1.15rem;font-weight:800;color:#fef3c7;margin-bottom:20px">' +
-      '⚠ Exits recorded this session: ' + _AC_n +
-    '</div>' +
-    '<button onclick="document.getElementById(\'acOverlay\').remove()" ' +
-      'style="background:#4987c6;color:#fff;border:none;padding:14px 36px;border-radius:10px;' +
-             'font-size:1rem;font-weight:700;cursor:pointer;font-family:inherit">' +
-      'Return to Exam' +
-    '</button>';
+    '<div style="font-size:3.5rem;margin-bottom:10px">'+icon+'</div>' +
+    '<h2 style="font-size:1.55rem;margin:0 0 10px;font-weight:800">'+title+'</h2>' +
+    '<div style="font-size:1.7rem;letter-spacing:5px;margin:0 0 14px">'+hearts+'</div>' +
+    '<p style="max-width:470px;line-height:1.7;color:#e2e8f0;margin:0 0 18px;font-size:1rem">'+msg+'</p>' +
+    (showBtn
+      ? '<button onclick="document.getElementById(\'acOverlay\').remove()" ' +
+        'style="background:#4987c6;color:#fff;border:none;padding:14px 36px;border-radius:10px;' +
+               'font-size:1rem;font-weight:700;cursor:pointer;font-family:inherit">Volver al examen</button>'
+      : '<div style="color:#94a3b8;font-size:.9rem;max-width:420px;line-height:1.6">Si crees que es un error, habla con tu docente.</div>');
   document.body.appendChild(ov);
 }
 
