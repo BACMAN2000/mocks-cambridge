@@ -1,0 +1,174 @@
+{
+  "title": "B2 First — Reading and Use of English (Practice 8)",
+  "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The return of the night train",
+      "body": "Not long ago, the night train seemed a (1)____ of a slower age, quietly withdrawn from timetables as airlines offered to whisk travellers across the continent in a fraction of the time. Recently, however, sleeper services have been making a surprising (2)____, with new routes opening and forgotten ones revived. Part of the reason is environmental: a growing number of passengers are increasingly (3)____ about the damage caused by flying and are willing to trade speed for a lighter conscience. But the appeal is not purely practical. There is a particular romance to boarding a train in one city and (4)____ up in another, having crossed mountains and borders while fast asleep. Unlike a cramped flight, a sleeper lets you (5)____ the journey rather than merely endure it. Operators have been quick to (6)____ on this nostalgia, refurbishing old carriages and promising a touch of vanished glamour. Whether the revival can be (7)____ remains to be seen, since running night trains is notoriously expensive. Yet for the moment at least, a way of travelling that many had written (8)____ is firmly back on track.",
+      "questions": [
+        { "options": ["relic", "antique", "fossil", "souvenir"], "answer": 0 },
+        { "options": ["recovery", "return", "comeback", "revival"], "answer": 2 },
+        { "options": ["concerned", "fond", "keen", "proud"], "answer": 0 },
+        { "options": ["standing", "waking", "getting", "rising"], "answer": 1 },
+        { "options": ["endure", "suffer", "savour", "waste"], "answer": 2 },
+        { "options": ["capitalise", "profit", "gain", "benefit"], "answer": 0 },
+        { "options": ["continued", "sustained", "prolonged", "extended"], "answer": 1 },
+        { "options": ["down", "off", "out", "away"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The lost art of the handwritten letter",
+      "body": "There was a time when the arrival of a letter was an event. Writing one demanded that you sit down, gather your thoughts and commit (9)____ to paper, knowing that whatever you wrote could not be instantly deleted or corrected. Today, (10)____ course, most of us communicate in a flurry of messages that vanish almost as soon (11)____ they are read. Something, many people feel, has been lost (12)____ the process. A letter took time, and that time was itself a kind of gift; the writer had thought (13)____ you for long enough to fill a page by hand. It could be kept, reread years (14)____, and returned to like an old photograph. Few of us would give (15)____ the convenience of instant messaging, and nobody is seriously suggesting we should. But it is worth remembering that speed is not the only thing that matters, and (16)____ some kinds of attention cannot be hurried.",
+      "questions": [
+        { "accept": ["it", "yourself", "them"] },
+        { "accept": ["of"] },
+        { "accept": ["as"] },
+        { "accept": ["in"] },
+        { "accept": ["about", "of"] },
+        { "accept": ["later", "afterwards", "on"] },
+        { "accept": ["up"] },
+        { "accept": ["that"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Taking up volunteering",
+      "rows": [
+        { "text": "Many people assume that volunteering requires a huge (17)____ of time, and are put off before they begin.", "root": "COMMIT" },
+        { "text": "In reality, even a couple of hours a week can make a (18)____ difference to a local cause.", "root": "MEANING" },
+        { "text": "The (19)____ that volunteers bring is often worth far more than the hours they give.", "root": "ENTHUSIASTIC" },
+        { "text": "Charities report that a (20)____ small team of regulars achieves more than an army of occasional helpers.", "root": "SURPRISE" },
+        { "text": "For the volunteers themselves, the (21)____ can be considerable, from new friendships to a sense of purpose.", "root": "BENEFIT" },
+        { "text": "Studies suggest that regular giving of this kind is closely linked to greater (22)____ and lower stress.", "root": "HAPPY" },
+        { "text": "The only real (23)____ is getting started, since the first step always feels the hardest.", "root": "DIFFICULT" },
+        { "text": "Once that hurdle is cleared, most people find the experience deeply (24)____.", "root": "REWARD" }
+      ],
+      "questions": [
+        { "root": "COMMIT", "accept": ["commitment"] },
+        { "root": "MEANING", "accept": ["meaningful"] },
+        { "root": "ENTHUSIASTIC", "accept": ["enthusiasm"] },
+        { "root": "SURPRISE", "accept": ["surprisingly"] },
+        { "root": "BENEFIT", "accept": ["benefits"] },
+        { "root": "HAPPY", "accept": ["happiness"] },
+        { "root": "DIFFICULT", "accept": ["difficulty"] },
+        { "root": "REWARD", "accept": ["rewarding"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+      "questions": [
+        {
+          "before": "I haven't visited my grandparents for three years.",
+          "keyword": "SINCE",
+          "after": "It ___ I visited my grandparents.",
+          "accept": ["is three years since", "has been three years since"]
+        },
+        {
+          "before": "\"Don't forget to lock the door,\" she said to me.",
+          "keyword": "REMINDED",
+          "after": "She ___ the door.",
+          "accept": ["reminded me to lock"]
+        },
+        {
+          "before": "They will probably finish the bridge next month.",
+          "keyword": "LIKELY",
+          "after": "The bridge ___ finished next month.",
+          "accept": ["is likely to be"]
+        },
+        {
+          "before": "Nobody expected the team to win the championship.",
+          "keyword": "EXPECTATIONS",
+          "after": "The team won the championship ___ .",
+          "accept": ["against all expectations", "contrary to expectations"]
+        },
+        {
+          "before": "It's a pity I didn't take that job offer.",
+          "keyword": "WISH",
+          "after": "I ___ that job offer.",
+          "accept": ["wish i had taken"]
+        },
+        {
+          "before": "You must not use your phone during the exam.",
+          "keyword": "ALLOWED",
+          "after": "You ___ your phone during the exam.",
+          "accept": ["are not allowed to use"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "Why we are so bad at judging risk\n\nHuman beings are, by almost any measure, remarkably poor at estimating danger. We lie awake worrying about the rare and dramatic — the plane crash, the shark attack, the terrorist — while cheerfully ignoring the mundane hazards that are far more likely to harm us, such as an unhealthy diet or a short car journey without a seatbelt. This mismatch between what frightens us and what actually threatens us is one of the best-documented quirks of the human mind, and understanding it turns out to be surprisingly useful.\n\nThe root of the problem lies in how we form our sense of what is dangerous. We do not, as a rule, consult statistics. Instead, we judge how likely something is by how easily examples of it come to mind. A hazard that is vivid, recent or heavily reported feels common, regardless of how rare it truly is. A plane crash is spectacular and dominates the news for days; the thousands of safe flights that take off the same afternoon are, by definition, not news at all. The result is a picture of the world badly distorted in favour of the memorable over the frequent.\n\nThis tendency is made worse by our reaction to control. We are far more tolerant of risks we feel we have chosen and can steer than of those imposed on us by others. Most people are more nervous as a passenger than as a driver, even though the driver bears more responsibility for the outcome, simply because holding the wheel provides a comforting, and often illusory, sense of command. The same logic explains why we fear the exotic new threat more than the familiar old one: what is unfamiliar feels uncontrollable in a way that the everyday, however deadly, does not.\n\nNone of this would matter much if our misjudgements stayed private. But they do not. Frightened populations demand action, and governments, eager to be seen to respond, pour resources into countering the dangers people fear rather than the ones that actually kill them. Money and attention flow towards the dramatic and away from the dull, with the perverse result that the greatest threats to public health are often the least well funded, precisely because they are too ordinary to frighten anyone.\n\nThe encouraging news is that this bias, once understood, can be resisted. We cannot switch off the instinct that makes the vivid feel likely, but we can learn to distrust it, to pause and ask whether our fear is proportionate to the actual odds. It is a modest mental discipline, but a powerful one, and it applies far beyond questions of physical safety. Wherever we are tempted to judge how probable something is by how easily we can picture it, the same correction is worth making.",
+      "questions": [
+        { "stem": "What mismatch does the writer describe in the first paragraph?", "options": ["Between the risks we take and the ones we avoid.", "Between what frightens us and what actually threatens us.", "Between what governments fund and what scientists study.", "Between how we behave in public and in private."], "answer": 1 },
+        { "stem": "According to the writer, how do we usually judge how likely a danger is?", "options": ["By carefully consulting the relevant statistics.", "By how easily examples of it come to mind.", "By asking experts for their opinion.", "By comparing it with dangers from the past."], "answer": 1 },
+        { "stem": "Why does a plane crash distort our sense of risk?", "options": ["Because flying is genuinely more dangerous than driving.", "Because it is spectacular and dominates the news, unlike safe flights.", "Because most people have witnessed one.", "Because the statistics on flying are unreliable."], "answer": 1 },
+        { "stem": "What point does the writer make about control?", "options": ["We fear risks we can steer more than those imposed on us.", "We tolerate risks we feel we have chosen more readily than imposed ones.", "Drivers are always safer than passengers.", "A sense of control makes every risk larger."], "answer": 1 },
+        { "stem": "What 'perverse result' does the writer identify in public policy?", "options": ["The greatest threats are often the least well funded because they are too ordinary to frighten people.", "Governments ignore all public fears entirely.", "Dramatic dangers receive too little attention.", "Scientists refuse to study common hazards."], "answer": 0 },
+        { "stem": "What is the writer's overall recommendation?", "options": ["To trust our instincts about danger.", "To learn to distrust the instinct that makes the vivid feel likely.", "To rely entirely on governments to assess risk.", "To avoid thinking about risk at all."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+      "passage": "The quiet return of the bicycle to the city\n\nFor much of the twentieth century, the story of the modern city was the story of the car. Streets were widened, junctions enlarged and whole neighbourhoods flattened to keep the traffic moving. (37)____ The bicycle, meanwhile, was pushed to the margins, tolerated as a hobby but never taken seriously as transport.\n\nIn the past decade, that assumption has begun to crumble. City after city has started reclaiming road space for bikes, painting lanes, lowering speed limits and, in a few bold cases, closing central streets to cars altogether. (38)____ The change has been faster than almost anyone predicted.\n\nThe reasons are partly practical. A bicycle takes up a fraction of the space of a car, produces no fumes and costs almost nothing to run. (39)____ In a crowded city, where space is the scarcest resource of all, that efficiency is hard to argue with.\n\nBut the shift is also cultural. For years, cycling in traffic was seen as something only the brave or the reckless would attempt. (40)____ Once safe, separated lanes appear, ordinary people — children, older riders, the nervous — begin to appear on them too, and cycling stops being a subculture and becomes simply a way of getting around.\n\nNot everyone is pleased, of course. Drivers complain about lost road space, and some shopkeepers fear that fewer cars will mean fewer customers. (41)____ Yet the evidence from the cities that have gone furthest is largely reassuring on this point.\n\nWhere the changes have been given time to settle, the results have been striking: quieter streets, cleaner air and, often, busier shops rather than emptier ones. (42)____ The city built entirely around the car, it turns out, was never the only option after all.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "The unspoken assumption was that a successful city was one in which cars could travel as freely as possible.",
+          "The transformation has been most visible in the very city centres once thought impossible to change.",
+          "It can also cover short urban distances faster than a car stuck in congestion.",
+          "This perception, more than any physical danger, kept most people off their bikes.",
+          "Their objections deserve to be taken seriously rather than simply dismissed.",
+          "A growing number of residents now say they would not want to go back.",
+          "Every city has now banned private cars from its streets completely.",
+          "Cyclists have always been the largest single group of road users."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing sentence:", "answer": "A" },
+        { "stem": "Choose the missing sentence:", "answer": "B" },
+        { "stem": "Choose the missing sentence:", "answer": "C" },
+        { "stem": "Choose the missing sentence:", "answer": "D" },
+        { "stem": "Choose the missing sentence:", "answer": "E" },
+        { "stem": "Choose the missing sentence:", "answer": "F" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "Read about four people who changed career in mid-life. Then answer the questions. The same person may be chosen more than once.",
+      "sources": [
+        { "label": "A", "name": "Helena", "text": "I spent nearly twenty years as a corporate lawyer before retraining as a schoolteacher, and almost everyone I knew thought I had taken leave of my senses. The pay was a fraction of what I had earned, and I had to sit exams alongside people half my age. What none of them understood was how hollow the old job had come to feel. I was good at it, well rewarded, and quietly miserable, and no amount of success was going to fix that. The teaching is exhausting and often thankless, but I have not once regretted the change. I only wish I had found the courage to make it ten years earlier, before I wasted so much time convincing myself that a good salary was the same thing as a good life." },
+        { "label": "B", "name": "Rashid", "text": "My move was less a brave decision than an accident I made the best of. The company I had worked at for years collapsed almost overnight, and at forty-five I found myself unemployed with a mortgage and no obvious next step. Rather than chase another job in the same dying industry, I used my redundancy money to train as an electrician, something I had always been curious about. The first year was terrifying and I doubted myself constantly. Looking back, though, I am oddly grateful for the disaster that forced my hand, because left to myself I would never have jumped. Sometimes it takes the ground giving way beneath you to make you finally move." },
+        { "label": "C", "name": "Beatriz", "text": "People assume that changing career means abandoning everything you have learned, but my experience was the opposite. I left journalism to work in communications for a medical charity, and far from starting again from scratch, I found that almost every skill I had built transferred directly. Interviewing, writing clearly, working to a deadline, judging what matters in a story — all of it turned out to be exactly what the new job needed. The change felt enormous from the outside and surprisingly small from within. My advice to anyone hesitating is to look hard at what you already know how to do, because you probably have more to bring than you think." },
+        { "label": "D", "name": "Tomas", "text": "I retrained as a nurse in my fifties, and the hardest part was not the studying but the way people reacted. Friends were encouraging to my face, but I could sense their doubt, and a few asked outright whether I wasn't a little old to be starting something so demanding. I understood the concern, but it stung, and for a while it nearly put me off. What kept me going was refusing to let other people's low expectations become my own. I am now three years into the work and thriving, and the very people who questioned the decision are the first to tell me how much they admire it. Their admiration matters far less to me now than it once would have." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Helena", "Rashid", "Beatriz", "Tomas"] },
+      "questions": [
+        { "stem": "Which person changed career only because circumstances forced them to?", "answer": "B" },
+        { "stem": "Which person discovered that their old skills transferred more easily than expected?", "answer": "C" },
+        { "stem": "Which person regrets not having made the change sooner?", "answer": "A" },
+        { "stem": "Which person had to resist other people's doubts about their age?", "answer": "D" },
+        { "stem": "Which person realised that financial success had not made them content?", "answer": "A" },
+        { "stem": "Which person is grateful for a setback that pushed them into action?", "answer": "B" },
+        { "stem": "Which person says the change felt bigger to outsiders than it did to them?", "answer": "C" },
+        { "stem": "Which person now cares less about others' approval than they used to?", "answer": "D" },
+        { "stem": "Which person advises others to value the experience they already have?", "answer": "C" },
+        { "stem": "Which person admits they lacked the courage to act for a long time?", "answer": "A" }
+      ]
+    }
+  ]
+}

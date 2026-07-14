@@ -1,0 +1,192 @@
+{
+  "title": "C1 Advanced — Reading and Use of English (Practice 6)",
+  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The unreliable witness in our heads",
+      "body": "We tend to think of memory as a kind of recording, faithfully (1)____ the events of our lives for later playback. Nothing could be further from the truth. Every act of remembering is, in fact, an act of reconstruction, and each time we revisit a memory we subtly (2)____ it, blending the original with everything we have felt and learned since. The past we recall is therefore never quite the past that happened. This is not a (3)____ that afflicts only the forgetful or the elderly; it is a fundamental feature of how the healthy mind works. Studies have shown, with unsettling (4)____ , that people can be led to remember events that never took place at all, provided the suggestion is planted skilfully enough. What makes such false memories so troubling is that they feel (5)____ indistinguishable from genuine ones; the vividness of a recollection is no (6)____ of its accuracy. Courts, which for centuries (7)____ heavily on eyewitness testimony, have been slow to (8)____ these findings on board. The confident witness, it turns out, may be no more reliable than the hesitant one.",
+      "questions": [
+        { "options": ["preserving", "conserving", "reserving", "sustaining"], "answer": 0 },
+        { "options": ["revise", "amend", "adjust", "correct"], "answer": 0 },
+        { "options": ["failing", "flaw", "defect", "fault"], "answer": 0 },
+        { "options": ["ease", "readiness", "convenience", "facility"], "answer": 0 },
+        { "options": ["utterly", "thoroughly", "entirely", "wholly"], "answer": 0 },
+        { "options": ["guarantee", "assurance", "warranty", "pledge"], "answer": 0 },
+        { "options": ["relied", "depended", "counted", "rested"], "answer": 0 },
+        { "options": ["take", "bring", "get", "put"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "Why we procrastinate",
+      "body": "Procrastination is usually blamed on laziness or poor time management, but psychologists who study it closely have arrived (9)____ a rather different conclusion. Far (10)____ being a failure of discipline, chronic putting-off appears to be, at heart, a way of managing emotion. We delay the tasks that make us anxious, bored or uncertain, not because we cannot organise our time, (11)____ because avoiding them offers a small, immediate relief.\n\nThe trouble, of course, is that the relief is fleeting and the underlying dread only (12)____ worse. Each postponement adds a layer of guilt to the original discomfort, so (13)____ the task we have been avoiding becomes steadily more forbidding the longer we leave it. What began as a manageable job swells, in the imagination, (14)____ an ordeal.\n\nThis insight has practical consequences. If procrastination is driven (15)____ feeling rather than by scheduling, then better diaries and stricter deadlines will only take us (16)____ far. The more effective remedy is to address the emotion directly — to notice the flicker of dread, name it, and begin anyway, before the mood has had time to harden into avoidance.",
+      "questions": [
+        { "accept": ["at"] },
+        { "accept": ["from"] },
+        { "accept": ["but"] },
+        { "accept": ["grows", "gets", "becomes"] },
+        { "accept": ["that"] },
+        { "accept": ["into"] },
+        { "accept": ["by"] },
+        { "accept": ["so", "only"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "The science of first impressions",
+      "rows": [
+        { "text": "Within a fraction of a second of meeting someone, we form an impression that is remarkably (17)____ to later correction.", "root": "RESIST" },
+        { "text": "These snap judgements are often wildly inaccurate, yet we cling to them with an almost (18)____ conviction.", "root": "REASON" },
+        { "text": "The tendency to judge a whole character from a single trait is one of the mind's most (19)____ shortcuts.", "root": "PERSIST" },
+        { "text": "Advertisers exploit this (20)____ ruthlessly, knowing that an attractive face lends credibility to almost any claim.", "root": "PREDISPOSE" },
+        { "text": "The effect operates entirely beneath awareness, which is precisely what makes it so hard to (21)____ .", "root": "COUNTER" },
+        { "text": "Even trained interviewers, who ought to know better, prove surprisingly (22)____ to its influence.", "root": "SUBJECT" },
+        { "text": "Overcoming it requires a deliberate and frankly (23)____ effort to suspend one's initial verdict.", "root": "EASE" },
+        { "text": "The (24)____ of a bad first impression, once formed, can be a slow and thankless process.", "root": "DO" }
+      ],
+      "questions": [
+        { "root": "RESIST", "accept": ["resistant"] },
+        { "root": "REASON", "accept": ["unreasonable"] },
+        { "root": "PERSIST", "accept": ["persistent"] },
+        { "root": "PREDISPOSE", "accept": ["predisposition"] },
+        { "root": "COUNTER", "accept": ["counteract"] },
+        { "root": "SUBJECT", "accept": ["susceptible"] },
+        { "root": "EASE", "accept": ["uneasy"] },
+        { "root": "DO", "accept": ["undoing"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+      "questions": [
+        {
+          "before": "She regretted not having asked for help sooner.",
+          "keyword": "WISHED",
+          "after": "She ___ for help sooner.",
+          "accept": ["wished she had asked"]
+        },
+        {
+          "before": "However hard he tried, he could not recall the man's name.",
+          "keyword": "MATTER",
+          "after": "___ he tried, he could not recall the man's name.",
+          "accept": ["No matter how hard"]
+        },
+        {
+          "before": "It was only when I saw the photograph that I remembered the trip.",
+          "keyword": "DID",
+          "after": "Only when I saw the photograph ___ the trip.",
+          "accept": ["did I remember"]
+        },
+        {
+          "before": "The therapist suggested that he keep a diary of his moods.",
+          "keyword": "KEEPING",
+          "after": "The therapist ___ a diary of his moods.",
+          "accept": ["suggested keeping", "recommended keeping"]
+        },
+        {
+          "before": "People often underestimate how strongly emotion shapes memory.",
+          "keyword": "EXTENT",
+          "after": "People often underestimate ___ emotion shapes memory.",
+          "accept": ["the extent to which"]
+        },
+        {
+          "before": "He was so absorbed in the book that he forgot the time completely.",
+          "keyword": "LOST",
+          "after": "He was ___ the book that he forgot the time completely.",
+          "accept": ["so lost in"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "In praise of forgetting\n\nWe are, as a culture, obsessed with remembering. Memory-improvement courses promise to make our recall infallible; anxious articles warn of the mental decline that awaits us if we let our powers of retention slip; and the loss of memory, in old age or illness, is rightly counted among the cruellest of human misfortunes. Against this background, it can seem almost perverse to suggest that forgetting is not a flaw in the system but one of its most vital functions. Yet that is precisely what a growing body of research now indicates, and the implications are more consoling than they first appear.\n\nConsider what a life of perfect memory would actually be like. There exist a small number of individuals who cannot forget — who retain, in vivid detail, virtually every day they have ever lived. One might imagine this to be a gift, and in certain respects it is. But those who possess it describe the experience in strikingly ambivalent terms. Every slight, every embarrassment, every grief remains as raw as the day it was first felt, unsoftened by the merciful blurring that time grants the rest of us. They cannot let go of the past because the past will not release them. Forgetting, it emerges, is not merely the absence of memory but an active and necessary process, one that clears space, dulls old pain, and allows a person to move on.\n\nThe usefulness of forgetting extends well beyond emotional comfort. A mind that retained everything indiscriminately would drown in trivia. The precise arrangement of the crockery at a breakfast eaten years ago, the number plate of a car glimpsed once in traffic, the exact wording of a thousand forgotten conversations — a memory that held all of this with equal fidelity would be useless, cluttered beyond the point of function. What we call forgetting is, in large part, the mind's method of separating the significant from the negligible, discarding the vast bulk of experience so that the small, important remainder can be found when it is needed. Far from being a failure of memory, this pruning is what makes memory work at all.\n\nThere is also a subtler point, concerning the relationship between forgetting and thought itself. To think abstractly is, in essence, to forget the particular — to let go of the specific instances so that the general pattern can emerge. A child who has seen many dogs forms the concept 'dog' precisely by forgetting the individual features of each one and retaining only what they share. Memory that clung too tightly to detail would frustrate this process, trapping the mind in an endless catalogue of particulars from which no generalisation could ever be drawn. In this sense, forgetting is not the enemy of understanding but its precondition.\n\nWhy, then, do we fear it so? Part of the answer lies in a confusion between two very different things: the ordinary, healthy forgetting that serves us well, and the pathological loss of memory caused by disease. The two are not points on a single scale but distinct phenomena, and dreading the former because we fear the latter is a category error. The everyday failure to remember where we left our keys is not an early symptom of catastrophe; it is, far more often, the sign of a mind sensibly declining to waste its resources on the trivial.\n\nNone of this is to romanticise genuine memory loss, which can be devastating, nor to counsel carelessness about the things that truly matter. The argument is more modest, and more hopeful. It is that the mind's tendency to let go — of the painful, the trivial, the merely particular — is not a defect to be fought at every turn but a faculty to be understood and, on occasion, even to be grateful for. We are shaped as much by what we release as by what we retain.",
+      "questions": [
+        { "stem": "What does the writer suggest is the prevailing cultural attitude to forgetting?", "options": ["That it is a natural and healthy process.", "That it is a flaw to be feared and resisted.", "That it improves with age.", "That it is impossible to prevent."], "answer": 1 },
+        { "stem": "What do people with near-perfect memory reveal about the experience?", "options": ["That it is an unambiguous gift.", "That painful events remain permanently raw and unsoftened.", "That they remember only pleasant things.", "That their recall fades over time like anyone's."], "answer": 1 },
+        { "stem": "According to the third paragraph, why would total recall be 'useless'?", "options": ["Because it would be physically painful.", "Because the mind would be cluttered with trivia beyond the point of function.", "Because it would prevent people from sleeping.", "Because it would make learning impossible."], "answer": 1 },
+        { "stem": "How does the writer connect forgetting with abstract thought?", "options": ["Abstract thought requires perfect recall of detail.", "Forgetting the particular allows the general pattern to emerge.", "Thinking and remembering are entirely unrelated.", "Forgetting prevents any kind of understanding."], "answer": 1 },
+        { "stem": "What 'category error' does the writer identify?", "options": ["Confusing memory with intelligence.", "Dreading healthy forgetting because we fear disease-related memory loss.", "Assuming that older people forget more than the young.", "Believing that memory can be trained."], "answer": 1 },
+        { "stem": "What is the writer's overall position in the final paragraph?", "options": ["That we should stop trying to remember anything.", "That the mind's tendency to let go is a faculty to be understood and valued.", "That memory loss is never serious.", "That forgetting should always be resisted."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "Read four short opinion pieces (A–D) on the same topic: whether the widespread use of psychological labels and diagnoses in everyday life is helpful. Then answer the questions.",
+      "sources": [
+        { "label": "A", "text": "The spread of clinical vocabulary into ordinary conversation seems to me an almost unqualified good. For most of history, people who suffered in their minds did so in silence, ashamed of feelings they had no words for and no framework to understand. To be able to say 'I think I have anxiety' rather than 'there is something shamefully wrong with me' is a genuine liberation. A name makes a condition discussable, and discussable conditions get treated. Those who sneer at the popularity of these terms have usually never needed them; for the rest of us, having a language for our distress is not a fashion but a lifeline, and I will not apologise for using it." },
+        { "label": "B", "text": "I share the hope that better understanding reduces stigma, but I worry we have overshot the mark. When every ordinary difficulty of living — shyness, sadness, restlessness, the normal friction of being human — is reclassified as a disorder, we risk medicalising the whole of experience. There is a real danger in teaching people to see themselves as patients, defined and to some extent imprisoned by a diagnosis. A label can console, but it can also become an identity and an excuse, a reason to expect less of oneself. The line between naming a genuine illness and pathologising ordinary unhappiness is finer than the enthusiasts admit." },
+        { "label": "C", "text": "What strikes me about this debate is how much turns on who is doing the labelling and why. In the hands of a careful clinician, a diagnosis is a working hypothesis, held provisionally and revised as needed. In the hands of social media, the same terms become badges, accusations and marketing categories, stripped of all the caution that gives them meaning. The problem, in other words, is not the vocabulary itself but its migration into settings that lack any of the safeguards of actual clinical practice. Blaming the words is a mistake; we should be looking at the contexts that have hollowed them out." },
+        { "label": "D", "text": "I find myself unpersuaded that this is a question worth agonising over at all. Language has always absorbed technical terms and worn them down into loose everyday use, and the mind's vocabulary is no different. People say they are 'depressed' about the weather and 'traumatised' by a bad meal, and on the whole everyone understands perfectly well that no clinical claim is being made. The hand-wringing about diluted meanings assumes a precision that ordinary speech has never possessed and does not need. We are quite capable of using a word loosely in one breath and precisely in the next." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which writer argues that the problem lies not in the terms themselves but in the settings where they are used?", "answer": "C" },
+        { "stem": "Which writer, unlike the others, regards the whole controversy as not worth worrying about?", "answer": "D" },
+        { "stem": "Which writer warns that a diagnosis can harden into a limiting identity?", "answer": "B" },
+        { "stem": "Which writer is most wholeheartedly in favour of the everyday use of psychological terms?", "answer": "A" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+      "passage": "The placebo puzzle\n\nFew phenomena in medicine are as familiar, or as quietly baffling, as the placebo effect. A patient is given a pill containing nothing of any pharmacological value, and yet, in a substantial minority of cases, they get better. (41)____\n\nFor a long time the effect was treated as little more than a statistical nuisance, a source of error to be subtracted out of drug trials rather than studied in its own right. (42)____\n\nThe most obvious explanation — that patients are simply imagining their improvement — turns out to be inadequate. Measurable, physical changes accompany many placebo responses. (43)____\n\nEven more puzzling are the findings around expectation. The colour of a pill, its size, its price, even the confidence of the doctor who prescribes it, all measurably alter how well an inert treatment works. (44)____\n\nStrangest of all is a result that seems, at first, to defy common sense entirely. In several careful studies, patients who were openly told that they were receiving a placebo — that the pills contained no active ingredient whatsoever — improved anyway. (45)____\n\nNone of this means that placebos can replace real medicine, and it would be dangerous to conclude otherwise. (46)____ But it does suggest that the sharp line we like to draw between the physical and the psychological, between real treatment and mere belief, is a good deal blurrier than the textbooks admit.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "The mind, it appears, does not need to be deceived in order to marshal the body's own resources.",
+          "That attitude has shifted decisively, and researchers now regard the effect as a genuine window onto the interaction of mind and body.",
+          "A dummy painkiller can trigger the release of the body's natural opioids, an entirely real chemical event set in motion by an entirely inert cause.",
+          "No amount of belief will shrink a tumour or set a broken bone, and to pretend otherwise is a cruelty.",
+          "This apparent contradiction, more than anything, has forced scientists to rethink what a placebo actually is.",
+          "The pharmaceutical companies, unsurprisingly, were reluctant to fund research that might undermine their products.",
+          "Two identical sugar pills, in other words, can produce different effects depending on nothing more than the story attached to them.",
+          "Nothing in the pill itself could account for the recovery, and yet the recovery was undeniably there."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing paragraph:", "answer": "H" },
+        { "stem": "Choose the missing paragraph:", "answer": "B" },
+        { "stem": "Choose the missing paragraph:", "answer": "C" },
+        { "stem": "Choose the missing paragraph:", "answer": "G" },
+        { "stem": "Choose the missing paragraph:", "answer": "A" },
+        { "stem": "Choose the missing paragraph:", "answer": "D" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 8",
+      "instructions": "You are going to read four short pieces (A–D) by people describing a decision that changed the course of their lives. Answer the questions by choosing the appropriate person.",
+      "sources": [
+        { "label": "A", "text": "Nadia — turned down a prestigious promotion. On paper it was madness: more money, more status, the job I had supposedly been working towards for a decade. But something in me balked, and I have learned to trust that particular kind of unease. I could see, with sudden clarity, the person the role would require me to become, and I did not want to be her. Everyone around me was baffled, and for a year or two I second-guessed myself constantly, wondering whether I had thrown away my one chance. What settled it, eventually, was noticing how much lighter I felt. The decision that looked like self-sabotage from the outside was, from the inside, the first genuinely free choice I had made in years." },
+        { "label": "B", "text": "Owen — moved abroad on almost no notice. A friend mentioned a job in a country I had barely thought about, and within six weeks I had packed up a settled life and gone. I do not recommend the method; the first months were lonely and disorienting in ways I had airily assumed I was too worldly to suffer. What I could not have predicted was how thoroughly the upheaval would reset me. Stripped of the familiar routines that had quietly defined me, I discovered preferences and capacities I had never suspected. I am not sure the reckless version of me who booked that flight deserved the reward, but I got it anyway, and I have stopped questioning my good fortune." },
+        { "label": "C", "text": "Priya — went back to education at forty. Returning to a lecture hall two decades after leaving one was mortifying at first; I was certain everyone could see that I did not belong. The impostor feeling never entirely vanished, but I learned to carry on in spite of it, which turns out to be the only thing that actually helps. What surprised me was the reaction of my children, who watched their mother struggle openly with something difficult and, I think, learned more from that than from any lecture I could have given them. The degree itself mattered less, in the end, than what the whole ordeal demonstrated to the people watching me." },
+        { "label": "D", "text": "Theo — ended a business partnership with an old friend. It was the hardest thing I have ever done, and I put it off for far longer than I should have, precisely because the friendship mattered so much. When I finally acted, I braced myself to lose him entirely. Instead, freed from the resentments that the business had been quietly breeding, the friendship recovered and is now stronger than it was before. The lesson I took, and wish I had taken sooner, is that the thing you are most afraid of losing is sometimes exactly what you preserve by letting the other thing go. Delay, in my case, nearly cost me what I was trying to protect." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Nadia", "Owen", "Priya", "Theo"] },
+      "questions": [
+        { "stem": "Which person believes that delaying their decision almost destroyed what they most wanted to keep?", "answer": "D" },
+        { "stem": "Which person made their choice by trusting an instinctive feeling of unease?", "answer": "A" },
+        { "stem": "Which person feels they were rewarded despite the recklessness of how they acted?", "answer": "B" },
+        { "stem": "Which person values the decision most for the example it set for others?", "answer": "C" },
+        { "stem": "Which person went through a long period of doubting whether they had made the right choice?", "answer": "A" },
+        { "stem": "Which person discovered unfamiliar sides of themselves once their old routines were removed?", "answer": "B" },
+        { "stem": "Which person continued despite a persistent feeling of not belonging?", "answer": "C" },
+        { "stem": "Which person found that a relationship improved after they ended something connected to it?", "answer": "D" },
+        { "stem": "Which person rejected an opportunity that others regarded as obviously desirable?", "answer": "A" },
+        { "stem": "Which person admits the manner of their decision was not something they would advise others to copy?", "answer": "B" }
+      ]
+    }
+  ]
+}

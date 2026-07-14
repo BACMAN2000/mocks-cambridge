@@ -1,0 +1,192 @@
+{
+  "title": "C1 Advanced — Reading and Use of English (Practice 8)",
+  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The trouble with multitasking",
+      "body": "We wear our ability to do several things at once as a (1)____ of honour, boasting of answering emails during meetings and checking messages while holding a conversation. The uncomfortable truth, which a large body of research now (2)____, is that the human brain cannot actually attend to two demanding tasks simultaneously. What we call multitasking is really rapid switching, and every switch (3)____ a small cost, a fraction of a second in which the mind must disengage from one thing and (4)____ to another. These fractions add up. Studies consistently find that people who juggle several tasks complete all of them more slowly, and with more errors, than they would have if they had (5)____ each in turn. Worse, heavy multitaskers appear to become measurably worse at filtering out (6)____ information, as though the habit itself erodes the very skill it depends on. The (7)____ is not that we should never switch between tasks, which would be impossible, but that we should stop mistaking busyness for productivity. Doing one thing at a time, it turns out, is not a quaint relic of a slower age but the most efficient (8)____ we have.",
+      "questions": [
+        { "options": ["badge", "mark", "sign", "symbol"], "answer": 0 },
+        { "options": ["proves", "confirms", "decides", "insists"], "answer": 1 },
+        { "options": ["takes", "carries", "gives", "puts"], "answer": 1 },
+        { "options": ["belong", "apply", "adjust", "fit"], "answer": 2 },
+        { "options": ["gripped", "tackled", "seized", "grabbed"], "answer": 1 },
+        { "options": ["mistaken", "unrelated", "irrelevant", "careless"], "answer": 2 },
+        { "options": ["fact", "truth", "point", "case"], "answer": 2 },
+        { "options": ["access", "angle", "approach", "entry"], "answer": 2 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The rise of the side project",
+      "body": "Not long ago, having a job was simply having a job. Today, a growing number of people also maintain what has come to be (9)____ as a 'side project' — a small business, a creative venture or a passion pursued in the hours (10)____ the day job leaves free. For some, the motive is financial, a hedge (11)____ the insecurity of modern employment. For many others, (12)____, the appeal has little to do with money. A side project offers something the main job often cannot: complete control (13)____ what you make and how you make it. There is a risk, of course, that turning every hobby (14)____ a hustle drains the joy from it, and not everyone who starts one is glad they (15)____. But at its best, a side project can be a place to exercise the parts of yourself that the day job has no use (16)____ , and that alone can make it worthwhile.",
+      "questions": [
+        { "accept": ["known"] },
+        { "accept": ["that", "which"] },
+        { "accept": ["against"] },
+        { "accept": ["however", "though"] },
+        { "accept": ["over"] },
+        { "accept": ["into"] },
+        { "accept": ["did"] },
+        { "accept": ["for"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Learning to cook from scratch",
+      "rows": [
+        { "text": "There is a quiet (17)____ that comes from making a meal entirely with your own hands.", "root": "SATISFY" },
+        { "text": "Yet many adults feel strangely (18)____ in the kitchen, convinced they have no talent for it.", "root": "HELP" },
+        { "text": "This self-doubt is almost always (19)____ , since cooking is a skill like any other.", "root": "FOUND" },
+        { "text": "With a little (20)____ , even a nervous beginner can produce something delicious.", "root": "PERSIST" },
+        { "text": "The real (21)____ of a good recipe is that it can be repeated and gradually improved.", "root": "BEAUTIFUL" },
+        { "text": "Cooking for others is an act of everyday (22)____ that quietly strengthens relationships.", "root": "GENEROUS" },
+        { "text": "Shop-bought meals may be convenient, but they rarely match the (23)____ of home cooking.", "root": "FRESH" },
+        { "text": "Above all, the (24)____ to feed yourself well is one of the most useful a person can have.", "root": "ABLE" }
+      ],
+      "questions": [
+        { "root": "SATISFY", "accept": ["satisfaction"] },
+        { "root": "HELP", "accept": ["helpless"] },
+        { "root": "FOUND", "accept": ["unfounded"] },
+        { "root": "PERSIST", "accept": ["persistence"] },
+        { "root": "BEAUTIFUL", "accept": ["beauty"] },
+        { "root": "GENEROUS", "accept": ["generosity"] },
+        { "root": "FRESH", "accept": ["freshness"] },
+        { "root": "ABLE", "accept": ["ability"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+      "questions": [
+        {
+          "before": "He didn't apologise, which surprised everyone.",
+          "keyword": "FAILURE",
+          "after": "His ___ apologise surprised everyone.",
+          "accept": ["failure to"]
+        },
+        {
+          "before": "You can borrow the car as long as you fill it with petrol.",
+          "keyword": "PROVIDED",
+          "after": "You can borrow the car ___ it with petrol.",
+          "accept": ["provided you fill", "provided that you fill"]
+        },
+        {
+          "before": "I didn't realise how late it was until I looked at my watch.",
+          "keyword": "DID",
+          "after": "Not until I looked at my watch ___ how late it was.",
+          "accept": ["did i realise"]
+        },
+        {
+          "before": "The film was so boring that half the audience left.",
+          "keyword": "SUCH",
+          "after": "It ___ that half the audience left.",
+          "accept": ["was such a boring film"]
+        },
+        {
+          "before": "She managed to finish the report despite the interruptions.",
+          "keyword": "SUCCEEDED",
+          "after": "She ___ the report despite the interruptions.",
+          "accept": ["succeeded in finishing"]
+        },
+        {
+          "before": "They should have warned us about the delay.",
+          "keyword": "OUGHT",
+          "after": "They ___ us about the delay.",
+          "accept": ["ought to have warned"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "In praise of the amateur\n\nThe word 'amateur' has fallen on hard times. To call someone an amateur today is very nearly an insult, a way of dismissing their work as clumsy, unserious or second-rate. This is a curious fate for a word whose origin is entirely honourable: it comes from the Latin for 'lover', and once meant simply someone who does a thing for the love of it. Somewhere along the way, we have allowed the professional to claim all the prestige, and in doing so we have lost sight of something valuable that only the amateur can offer.\n\nThe professional, by definition, is paid, and payment brings pressures of its own. Work done for money must satisfy a client, meet a deadline, and turn a profit, and these demands, however reasonable, inevitably shape and constrain what gets made. The amateur is answerable to none of them. Freed from the need to please anyone or to earn a living from the result, the amateur can follow curiosity wherever it leads, take risks that no professional could afford, and pursue projects too strange, too slow or too unprofitable for anyone to fund. Some of the most original work in any field has come from exactly this kind of unpressured freedom.\n\nThere is also the matter of motive. The professional may love the work too, of course, but they must do it whether they love it on a given day or not; it is their job. The amateur does it only because they want to, and that difference is not trivial. It shows in the work. There is an attentiveness, an absence of cynicism, a willingness to labour over details that no one is paying for, which is the particular signature of work done purely out of devotion. We can often sense, without being told, whether something was made for love or for money.\n\nNone of this is to romanticise incompetence. The amateur enjoys no exemption from the duty to be good, and the world is full of enthusiastic work that is simply bad. The point is not that amateurs are better than professionals — plainly they often are not — but that the two operate under different conditions, and that the amateur's conditions, for all their obvious disadvantages, carry certain freedoms that are worth defending. A culture that recognises only paid expertise, and sneers at everything done for love, is a poorer place than it needs to be.\n\nIt is worth remembering, too, that almost everyone begins as an amateur. Every professional was once a beginner doing the thing for nothing, driven by an enthusiasm they had not yet learned to be ashamed of. To honour the amateur is, in part, to honour that beginning — the pure, unprofitable love of a thing that got the whole enterprise going in the first place, and without which no amount of professional skill would ever have been worth acquiring.",
+      "questions": [
+        { "stem": "What does the writer find 'curious' about the word 'amateur'?", "options": ["That it is no longer used at all.", "That a word with honourable origins has become nearly an insult.", "That it originally meant a paid expert.", "That professionals invented it."], "answer": 1 },
+        { "stem": "According to the writer, how does payment affect the professional's work?", "options": ["It always improves the quality of the result.", "It brings pressures that inevitably shape and constrain what gets made.", "It has no effect on what is produced.", "It removes all creative freedom entirely."], "answer": 1 },
+        { "stem": "What advantage does the writer say the amateur has?", "options": ["Access to more funding than professionals.", "The freedom to follow curiosity and take risks no professional could afford.", "A guaranteed audience for their work.", "Greater technical skill than professionals."], "answer": 1 },
+        { "stem": "What does the writer claim we can often sense about a piece of work?", "options": ["How much it cost to produce.", "Whether it was made for love or for money.", "How long it took to complete.", "Who the intended audience was."], "answer": 1 },
+        { "stem": "What qualification does the writer add in the fourth paragraph?", "options": ["That amateurs are always better than professionals.", "That the amateur is not exempt from the duty to be good.", "That incompetence should be celebrated.", "That professionals never love their work."], "answer": 1 },
+        { "stem": "What point does the writer make in the final paragraph?", "options": ["That professionals were never amateurs.", "That almost everyone begins as an amateur, driven by pure enthusiasm.", "That beginners should be ashamed of their enthusiasm.", "That amateur work is worthless without payment."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "Read four short opinion pieces (A–D) on the same topic: whether social media has improved public debate. Then answer the questions.",
+      "sources": [
+        { "label": "A", "text": "For all the hand-wringing, I remain broadly optimistic. Before social media, public debate was controlled by a small number of editors and broadcasters who decided which voices the rest of us were allowed to hear. That gatekeeping is gone, and millions of people who would once have been silent now take part. Yes, the result is noisier and often uglier, but noise is the price of genuine openness. I would far rather have a raucous, unruly conversation that anyone can join than a polite one conducted entirely by a professional elite on our behalf. The mess is not a flaw in the system; it is what democracy actually sounds like." },
+        { "label": "B", "text": "I used to share that optimism, and I have reluctantly abandoned it. The problem is not that more people can speak — that part is genuinely good — but that the platforms are engineered to reward the most extreme and enraging contributions, because those are the ones that hold our attention. A calm, qualified argument sinks without trace; a furious oversimplification travels the world. We have not opened up debate so much as handed it over to whoever shouts most provocatively. The technology does not merely host the conversation; it actively selects for its worst features, and pretending otherwise is naive." },
+        { "label": "C", "text": "Both the celebration and the despair seem to me overstated, resting on the same shaky assumption that the technology itself determines the outcome. It does not. The same platforms that spread lies and fury also organise relief efforts, expose genuine wrongdoing and let isolated people find one another. What we get out of these tools depends on the norms and rules we build around them, which are still being worked out. To praise or condemn 'social media' as such is to mistake a set of choices we are collectively making for an inevitable force of nature." },
+        { "label": "D", "text": "My concern is one the loudest voices in this argument tend to overlook entirely: the sheer exhaustion it produces. Whether the debate is better or worse in the abstract, the lived experience of it is of being permanently agitated, perpetually invited to have an opinion on everything and to have it instantly. Many thoughtful people have simply withdrawn, not because they were shouted down but because they found the relentless pressure of it unbearable. A public square that drives away exactly the calm, reflective participants it most needs is failing, however lively it may look from the outside." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which writer argues that the outcome depends on the rules we build, not the technology itself?", "answer": "C" },
+        { "stem": "Which writer is most positive about the removal of traditional gatekeepers?", "answer": "A" },
+        { "stem": "Which writer emphasises the emotional exhaustion of taking part?", "answer": "D" },
+        { "stem": "Which writer believes the platforms are designed to reward the most extreme contributions?", "answer": "B" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+      "passage": "How habits really work\n\nWe tend to talk about willpower as though it were the key to changing our behaviour, imagining that self-improvement is mostly a matter of wanting something badly enough. The science of habit tells a rather different, and ultimately more encouraging, story. (41)____\n\nAt the heart of every habit, researchers have found, lies a simple loop. There is a cue, a trigger that sets the behaviour in motion; a routine, the behaviour itself; and a reward, the payoff that tells the brain the sequence is worth repeating. (42)____\n\nWhat makes habits so powerful, and so hard to shift, is that once this loop is established, it runs largely without conscious thought. (43)____ This is why we so often find ourselves halfway through a familiar routine — reaching for a snack, checking a phone — with no memory of having decided to begin.\n\nThis automatic quality is usually described as a weakness, but it is really the whole point. (44)____ By offloading routine decisions onto habit, the brain frees up its limited capacity for the things that genuinely require attention.\n\nThe practical lesson is that trying to break a habit by willpower alone is fighting the system the wrong way. (45)____ It is far more effective to keep the cue and the reward but deliberately swap the routine in between, redirecting an existing loop rather than trying to erase it.\n\nThis is why the people who succeed in changing their behaviour rarely rely on heroic self-control. (46)____ They understand that a habit is not a moral failing to be defeated but a mechanism to be reprogrammed, and they work with it rather than against it.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Change, it turns out, has far less to do with willpower than with understanding the hidden machinery that drives what we do.",
+          "Understand this loop, and you hold the key to both forming good habits and dismantling bad ones.",
+          "The behaviour has become automatic precisely so that the conscious mind no longer has to bother with it.",
+          "A brain that had to deliberate over every small action would be paralysed by the sheer number of decisions.",
+          "Instead, they redesign their surroundings so that the good choice becomes the easy, automatic one.",
+          "Willpower has now been shown to play no part whatsoever in human behaviour.",
+          "Suppressing a routine leaves the cue and the craving intact, so the old behaviour tends to return under pressure.",
+          "Nobody has ever managed to form a new habit of any kind."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing paragraph:", "answer": "A" },
+        { "stem": "Choose the missing paragraph:", "answer": "B" },
+        { "stem": "Choose the missing paragraph:", "answer": "C" },
+        { "stem": "Choose the missing paragraph:", "answer": "D" },
+        { "stem": "Choose the missing paragraph:", "answer": "G" },
+        { "stem": "Choose the missing paragraph:", "answer": "E" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 8",
+      "instructions": "You are going to read four short pieces (A–D) in which people describe a place that shaped who they are. Answer the questions by choosing the appropriate person.",
+      "sources": [
+        { "label": "A", "text": "The public library of my home town was, for the child I was, a kind of miracle. We had almost no books at home and even less money, and yet here was a warm building full of them, free to anyone, no questions asked. I more or less educated myself in that reading room over a decade of wet afternoons. What I absorbed there was not only the contents of the books but a lesson about fairness: that some good things ought to belong to everyone equally, regardless of what they can pay. I have spent my adult life defending public institutions, and if you trace that conviction back far enough, it ends at a shabby library that treated a poor child exactly as it treated everyone else." },
+        { "label": "B", "text": "I grew up on a small farm, and the place taught me a relationship with time that I have never lost and that sets me apart from almost everyone I now work with in the city. On a farm you cannot hurry anything that matters; the seasons take exactly as long as they take, and no amount of impatience will bring a harvest a day sooner. I learned young that the most important processes are slow ones, and that the modern faith in speed is often a kind of delusion. My colleagues find me maddeningly patient. What they do not know is that I am simply keeping to a clock set by a landscape they have never seen." },
+        { "label": "C", "text": "The place that made me was a cramped, chaotic community theatre where I spent my teenage years. I was a desperately awkward adolescent, and the theatre was the one place that had a use for me. Nobody there cared where you came from or how strange you were; they cared only whether you would show up and do the work. For the first time I belonged to something, and the confidence that gave me leaked out into the rest of my life. I am not an actor now and never became one. But I learned in that draughty hall that I could be part of a group that made something together, and that discovery changed everything that came after." },
+        { "label": "D", "text": "It was a stretch of coastline near my grandmother's house that shaped me, though I did not understand this until much later. As a child I found it merely boring — grey, empty, endlessly the same. It was only in my twenties, revisiting it during a difficult period, that I grasped what it had quietly given me. That bleak, indifferent shore, so utterly unconcerned with my small troubles, put them into a proportion I could bear. I go back whenever life becomes overwhelming, not to escape my problems but to be reminded of how little they matter against something so vast and old. The place does not comfort me exactly. It corrects me, and that is better." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which person values a place for teaching them that important things cannot be rushed?", "answer": "B" },
+        { "stem": "Which person traces their commitment to public institutions back to a childhood place?", "answer": "A" },
+        { "stem": "Which person found a sense of belonging in a place that accepted them as they were?", "answer": "C" },
+        { "stem": "Which person only understood the place's influence long after childhood?", "answer": "D" },
+        { "stem": "Which person feels a place set them apart from the people they now work with?", "answer": "B" },
+        { "stem": "Which person learned a lesson about fairness from the place?", "answer": "A" },
+        { "stem": "Which person returns to a place to regain a sense of proportion?", "answer": "D" },
+        { "stem": "Which person gained confidence that spread into the rest of their life?", "answer": "C" },
+        { "stem": "Which person educated themselves in the place they describe?", "answer": "A" },
+        { "stem": "Which person describes the place as correcting rather than comforting them?", "answer": "D" }
+      ]
+    }
+  ]
+}

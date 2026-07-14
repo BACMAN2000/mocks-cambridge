@@ -1,0 +1,158 @@
+{
+  "title": "A2 Key — Reading and Writing (Practice 6)",
+  "note": "Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Central Station",
+          "text": "PLATFORM 4 IS CLOSED TODAY. TRAINS TO THE COAST NOW LEAVE FROM PLATFORM 6.",
+          "stem": "What does the notice tell passengers?",
+          "options": ["No trains are running today.", "Coast trains leave from a different platform.", "Platform 6 is closed."],
+          "answer": 1
+        },
+        {
+          "kind": "message",
+          "header": "From: Dad → To: Kim",
+          "text": "Kim, our flight home is delayed by two hours, so we'll land at nine, not seven. Don't wait at the airport — please get a taxi home and we'll pay you back. See you soon!",
+          "stem": "What does Dad want Kim to do?",
+          "options": ["Meet them at the airport at seven.", "Take a taxi home instead of waiting.", "Book a later flight for them."],
+          "answer": 1
+        },
+        {
+          "kind": "email",
+          "from": "Sunny Bay Hotel",
+          "to": "Guests",
+          "subject": "Breakfast times",
+          "body": "Dear guest, breakfast is served between 7 and 9.30 a.m. in the dining room. If you are leaving very early, please tell reception the night before, and we will prepare a breakfast box for you to take.",
+          "stem": "What can guests who leave early do?",
+          "options": ["Eat breakfast after 9.30 a.m.", "Ask for a breakfast box the night before.", "Have breakfast in their room every day."],
+          "answer": 1
+        },
+        {
+          "kind": "note",
+          "header": "Note for Lea",
+          "text": "Lea — I've packed the suitcases, but I couldn't find your sun hat. Please look for it before we leave and put it in the small bag by the door. — Mum",
+          "stem": "What does Mum ask Lea to do?",
+          "options": ["Pack all the suitcases.", "Find her sun hat and pack it.", "Wait by the door."],
+          "answer": 1
+        },
+        {
+          "kind": "sign",
+          "header": "Golden Sands Beach",
+          "text": "SWIMMING IS ONLY SAFE BETWEEN THE RED AND YELLOW FLAGS. DO NOT SWIM WHEN THE RED FLAG IS FLYING ALONE.",
+          "stem": "When is it NOT safe to swim?",
+          "options": ["Between the red and yellow flags.", "When only the red flag is flying.", "When the yellow flag is flying."],
+          "answer": 1
+        },
+        {
+          "kind": "notice",
+          "header": "Old Castle — Guided Tours",
+          "text": "THE CASTLE TOUR IN ENGLISH STARTS AT 11 A.M. THE TOUR IN SPANISH STARTS AT 2 P.M.",
+          "stem": "What does the notice tell visitors?",
+          "options": ["There is only one tour each day.", "Tours are given at different times in two languages.", "The castle is closed in the afternoon."],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "Read about three young people and a holiday they had. For each question, choose the correct person (A, B or C). The people may be chosen more than once.",
+      "sources": [
+        {
+          "label": "A",
+          "name": "Ravi",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/76.jpg\" alt=\"Ravi\" loading=\"lazy\">",
+          "text": "Last summer my family went camping in the mountains for a week. We slept in a tent and cooked our food outside every night. It rained a lot, which was annoying, but I loved walking and seeing the wild animals. I want to go back to the same place next year."
+        },
+        {
+          "label": "B",
+          "name": "Chloe",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/68.jpg\" alt=\"Chloe\" loading=\"lazy\">",
+          "text": "For my holiday, I visited a big city with my aunt. We went to lots of museums and ate in different restaurants every day. My favourite part was seeing a show at the theatre. The only bad thing was that it was very crowded and I got tired of walking so much."
+        },
+        {
+          "label": "C",
+          "name": "Marco",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/12.jpg\" alt=\"Marco\" loading=\"lazy\">",
+          "text": "I spent two weeks with my grandparents in a small village by the sea. There wasn't much to do, so at first I was a bit bored. But I learned to fish with my grandfather and made friends with some local children. In the end, I didn't want to leave."
+        }
+      ],
+      "questions": [
+        {"stem": "Which person slept in a tent on holiday?", "answer": "A"},
+        {"stem": "Which person enjoyed visiting museums?", "answer": "B"},
+        {"stem": "Which person felt bored at the beginning?", "answer": "C"},
+        {"stem": "Which person wants to return to the same place?", "answer": "A"},
+        {"stem": "Which person learned a new skill during the holiday?", "answer": "C"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the text about a boy's first school trip abroad. Choose the correct answer A, B or C.",
+      "passage": "Last year, Daniel went on his first school trip abroad. His class travelled to France for five days to practise their French and to see some famous sights. Daniel had never been on a plane before, and he felt both excited and nervous.\n\nThe journey did not start well. At the airport, Daniel realised he had left his phone at home, so he could not take any photos. His teacher told him not to worry and lent him an old camera to use instead. In the end, Daniel took some wonderful pictures with it.\n\nDuring the trip, the students visited museums and old buildings, and they tried lots of new food. Daniel did not like everything, but he loved the bread and the cheese. He was surprised at how much French he could understand when he tried to speak to local people in the shops.\n\nOn the last day, the class climbed to the top of a tall tower to look at the whole city. Daniel said it was the best moment of the trip. When he got home, he told his parents that he wanted to travel much more in the future.",
+      "questions": [
+        {"stem": "How did Daniel feel about his first plane trip?", "options": ["Excited and nervous.", "Bored and tired.", "Angry and sad."], "answer": 0},
+        {"stem": "What problem did Daniel have at the airport?", "options": ["He lost his passport.", "He had left his phone at home.", "He missed the plane."], "answer": 1},
+        {"stem": "How did Daniel take photos on the trip?", "options": ["He bought a new phone.", "He used a camera from his teacher.", "He did not take any photos."], "answer": 1},
+        {"stem": "What surprised Daniel during the trip?", "options": ["How much French he could understand.", "How cheap the food was.", "How cold the weather was."], "answer": 0},
+        {"stem": "What did Daniel want to do after the trip?", "options": ["Learn to fly a plane.", "Travel more in the future.", "Move to France."], "answer": 1}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 4",
+      "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+      "title": "The Story of the Bicycle",
+      "body": "The bicycle is one of the most useful machines ever invented. The first bicycles were built about two hundred years ago, but they looked nothing (19)____ the bikes we ride today. Those early bikes had no pedals, so people had to push (20)____ feet along the ground to move. As the years passed, inventors made the bicycle safer and (21)____ to ride. Soon, cycling became a popular way for ordinary people (22)____ travel from place to place. Bicycles were cheap, so many people (23)____ afford to buy one. Today, the bicycle is still loved all over the world, and it is much better for the environment (24)____ a car.",
+      "questions": [
+        {"options": ["like", "as", "near", "same"], "answer": 0},
+        {"options": ["them", "their", "they", "theirs"], "answer": 1},
+        {"options": ["easier", "easy", "easily", "more"], "answer": 0},
+        {"options": ["for", "to", "of", "at"], "answer": 1},
+        {"options": ["should", "could", "must", "can"], "answer": 1},
+        {"options": ["that", "than", "then", "as"], "answer": 1}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 5",
+      "instructions": "For each gap (25–30), write ONE word.",
+      "title": "A postcard from a holiday",
+      "body": "Dear Grandma,\n\nI am having a wonderful time here (25)____ the seaside! The weather is lovely, and the beach is only five minutes (26)____ our hotel.\n\nYesterday we (27)____ swimming in the sea and built a big sandcastle. Today we are going (28)____ visit an old castle on the hill. I hope it will not be (29)____ hot to walk up!\n\nI have bought a small present (30)____ you. I will give it to you when we get home.\n\nLots of love,\nBen",
+      "questions": [
+        {"accept": ["at", "by"]},
+        {"accept": ["from"]},
+        {"accept": ["went"]},
+        {"accept": ["to"]},
+        {"accept": ["too"]},
+        {"accept": ["for"]}
+      ]
+    },
+    {
+      "type": "writing",
+      "part": "Part 6",
+      "prompts": [{
+        "kind": "email",
+        "instructions": "Your English friend Robin is planning a holiday by the sea. Write an email to Robin. In your email: suggest one thing to take to the beach / say what the weather might be like / ask one question about the holiday.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    },
+    {
+      "type": "writing",
+      "part": "Part 7",
+      "prompts": [{
+        "kind": "story",
+        "instructions": "Write a story for your English class. Your story must begin with this sentence:\nThe plane landed, and my adventure was about to begin.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    }
+  ]
+}

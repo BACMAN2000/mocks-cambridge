@@ -1,0 +1,189 @@
+{
+  "title": "B2 First — Reading and Use of English (Practice 7)",
+  "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The comeback of vinyl",
+      "body": "A decade ago, the vinyl record seemed to belong firmly to the past, a format that streaming had rendered utterly (1)____. Yet against all expectations, sales of records have been climbing steadily, and shops devoted to them are opening in cities that had not seen one for years. Part of the appeal is the sound, which enthusiasts insist is warmer and richer, though sceptics (2)____ that most listeners could not tell the difference in a blind test. The more convincing explanation may have little to do with audio quality at all. In an age when music has become weightless and endless, a record offers something you can actually (3)____ in your hands. Choosing an album, sliding it from its sleeve and lowering the needle demands a kind of attention that scrolling through a playlist never (4)____. For a younger generation raised entirely on screens, this small ritual feels almost (5)____. The artwork, too, big enough to study, turns the album into an object worth (6)____ rather than a thumbnail to be swiped past. None of this is likely to (7)____ streaming, which remains far cheaper and more convenient. But the record has carved out a devoted niche, proof that the newest technology does not always (8)____ the last one entirely.",
+      "questions": [
+        { "options": ["obsolete", "ancient", "expired", "extinct"], "answer": 0 },
+        { "options": ["counter", "reply", "object", "refuse"], "answer": 0 },
+        { "options": ["hold", "grip", "grab", "catch"], "answer": 0 },
+        { "options": ["demands", "orders", "forces", "insists"], "answer": 0 },
+        { "options": ["rebellious", "guilty", "jealous", "furious"], "answer": 0 },
+        { "options": ["keeping", "saving", "storing", "holding"], "answer": 0 },
+        { "options": ["replace", "exchange", "substitute", "swap"], "answer": 0 },
+        { "options": ["wipe", "clean", "brush", "rub"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The museum that changed its mind",
+      "body": "For over a century, the grand national museums of Europe operated on a simple principle: they collected the treasures of the world and put them (9)____ display for the public to admire. Little thought was (10)____ to how many of those objects had actually arrived. In recent years, (11)____, a difficult conversation has begun. A growing number of countries are asking (12)____ their stolen cultural heritage be returned, and the museums, once so confident, no longer know quite (13)____ to respond. Some have begun handing items back, arguing that an object means far more in the place it (14)____ from than in a glass case abroad. Others resist, warning that (15)____ they return one piece, they will be expected to empty their entire collections. There is no easy answer, but the debate has forced these great institutions to think hard about (16)____ the treasures in their care really belong to them at all.",
+      "questions": [
+        { "accept": ["on"] },
+        { "accept": ["given"] },
+        { "accept": ["however"] },
+        { "accept": ["that"] },
+        { "accept": ["how"] },
+        { "accept": ["came"] },
+        { "accept": ["if", "once"] },
+        { "accept": ["whether"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Learning an instrument as an adult",
+      "rows": [
+        { "text": "There is a widespread (17)____ that only children", "root": "BELIEVE" },
+        { "text": "can master a musical instrument." },
+        { "text": "" },
+        { "text": "In fact, adults often make surprisingly rapid", "root": "" },
+        { "text": "(18)____ once they overcome their nerves.", "root": "PROGRESS" },
+        { "text": "" },
+        { "text": "What holds them back is usually not a lack of", "root": "" },
+        { "text": "talent but a fear of looking (19)____.", "root": "FOOL" },
+        { "text": "" },
+        { "text": "The (20)____ to sit with clumsy early attempts", "root": "WILLING" },
+        { "text": "is what separates those who succeed." },
+        { "text": "" },
+        { "text": "Teachers say the key is regular, (21)____ practice", "root": "REPEAT" },
+        { "text": "rather than occasional bursts of effort." },
+        { "text": "" },
+        { "text": "The (22)____ rewards go well beyond the music", "root": "PSYCHOLOGY" },
+        { "text": "itself, easing stress and lifting the mood." },
+        { "text": "" },
+        { "text": "Above all, the sense of steady (23)____ can be", "root": "ACHIEVE" },
+        { "text": "deeply satisfying at any age." },
+        { "text": "" },
+        { "text": "It is, quite simply, never too late to make a", "root": "" },
+        { "text": "(24)____ start with an instrument you love.", "root": "MEANING" }
+      ],
+      "questions": [
+        { "root": "BELIEVE", "accept": ["belief"] },
+        { "root": "PROGRESS", "accept": ["progress"] },
+        { "root": "FOOL", "accept": ["foolish"] },
+        { "root": "WILLING", "accept": ["willingness"] },
+        { "root": "REPEAT", "accept": ["repeated"] },
+        { "root": "PSYCHOLOGY", "accept": ["psychological"] },
+        { "root": "ACHIEVE", "accept": ["achievement"] },
+        { "root": "MEANING", "accept": ["meaningful"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+      "questions": [
+        {
+          "before": "\"Have you ever played in front of an audience?\" the teacher asked me.",
+          "keyword": "EVER",
+          "after": "The teacher asked me ___ in front of an audience.",
+          "accept": ["if i had ever played", "whether i had ever played"]
+        },
+        {
+          "before": "It wasn't necessary for us to book tickets in advance.",
+          "keyword": "NEED",
+          "after": "We ___ tickets in advance.",
+          "accept": ["did not need to book", "didn't need to book", "need not have booked", "neednt have booked"]
+        },
+        {
+          "before": "The concert was cancelled, so we didn't go.",
+          "keyword": "HAD",
+          "after": "If the concert ___ cancelled, we would have gone.",
+          "accept": ["had not been", "hadn't been"]
+        },
+        {
+          "before": "This is the best exhibition I have ever seen.",
+          "keyword": "NEVER",
+          "after": "I ___ a better exhibition.",
+          "accept": ["have never seen"]
+        },
+        {
+          "before": "Someone painted the mural on the old wall last year.",
+          "keyword": "WAS",
+          "after": "The mural ___ the old wall last year.",
+          "accept": ["was painted on"]
+        },
+        {
+          "before": "They are going to knock down the old theatre.",
+          "keyword": "PULLED",
+          "after": "The old theatre is ___ down.",
+          "accept": ["going to be pulled"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "Why we love a cover version\n\nThere is a moment, familiar to anyone who follows music, when a song you thought you knew completely is suddenly transformed. A different voice, a slower tempo, an unexpected instrument, and a piece that had grown invisible through overfamiliarity is made strange and vivid again. The cover version — one artist's reinterpretation of another's song — is often dismissed as a lesser form, the resort of performers without ideas of their own. This is a serious misjudgement, and it rests on a misunderstanding of what a song actually is.\n\nWe tend to assume that a song belongs, in some deep sense, to whoever recorded it first, and that every later version is merely a copy of that original. But a song is not the same thing as a recording. A song is a structure — a melody, a set of chords, a lyric — capable of supporting an almost limitless number of realisations, in the same way that a play can be staged in a thousand different ways without any single production being the 'real' one. The first recording is simply the first interpretation to reach our ears. It has the advantage of arriving before the others, but that is an accident of timing, not a claim to ownership.\n\nOnce this is understood, the finest cover versions can be seen for what they are: not imitations but arguments. A great reinterpretation makes a case about the song, revealing a meaning that the original had left hidden. A cheerful pop tune, sung slowly and quietly, may turn out to contain a sadness nobody had noticed. A mournful ballad, given a driving beat, may reveal an unexpected defiance. The cover does not compete with the original so much as converse with it, and the listener who knows both is rewarded with a kind of dialogue between two visions of the same thing.\n\nThis is why the most memorable covers are rarely the most faithful ones. A version that merely reproduces the original, changing nothing, has nothing to say; it is karaoke, however skilful. The versions that endure are those that take a risk, that impose a strong and particular reading, even at the cost of upsetting listeners attached to the version they grew up with. Some of these reinterpretations have become so successful that they have eclipsed the originals entirely, and many listeners are astonished to learn that a song they consider definitive was in fact written and first recorded by somebody else.\n\nThere is a lesson here that reaches beyond music. We are quick to assume that whatever we encountered first is the authentic version of a thing, and to treat later variations as departures from a truth. But originality and priority are not the same. The first version of anything — a song, a story, an idea — is not necessarily the best or the truest; it is merely the earliest. To love a cover version is, in a small way, to accept that a thing can be remade, that meaning is not fixed at the moment of creation, and that sometimes the second, or the tenth, attempt is the one that finally gets it right.",
+      "questions": [
+        { "stem": "How are cover versions often unfairly regarded, according to the writer?", "options": ["As superior to the originals.", "As a lesser form used by artists without ideas of their own.", "As impossible to perform well.", "As the only true version of a song."], "answer": 1 },
+        { "stem": "What comparison does the writer use to explain what a song is?", "options": ["A painting that can never be copied.", "A play that can be staged in many different ways.", "A photograph fixed forever.", "A machine with only one function."], "answer": 1 },
+        { "stem": "The writer says the finest cover versions are best understood as", "options": ["faithful imitations.", "arguments that reveal hidden meaning in a song.", "attempts to erase the original.", "purely commercial products."], "answer": 1 },
+        { "stem": "Why are the most memorable covers rarely the most faithful?", "options": ["Because faithful versions are technically impossible.", "Because a version that changes nothing has nothing to say.", "Because listeners dislike all original songs.", "Because faithfulness always improves a song."], "answer": 1 },
+        { "stem": "What broader lesson does the writer draw from cover versions?", "options": ["That the first version of anything is always the best.", "That priority and originality are not the same, and things can be remade.", "That music should never be reinterpreted.", "That meaning is fixed at the moment of creation."], "answer": 1 },
+        { "stem": "What does the writer mean by calling an unchanged cover 'karaoke'?", "options": ["That it is highly original.", "That it reproduces the original without adding anything of its own.", "That it is technically very difficult.", "That it improves on the first recording."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+      "passage": "The unlikely survival of the independent bookshop\n\nWhen the first giant online retailers began selling books at prices no ordinary shop could match, the death of the independent bookshop was widely predicted. (37)____ For a while, the gloomy forecasts seemed entirely justified, and hundreds of much-loved shops closed their doors for good.\n\nAnd then, quietly, the trend began to reverse. Across many countries the number of independent bookshops has been rising again, and some of the new arrivals are flourishing in exactly the towns where the old ones had failed. (38)____ The explanation reveals a great deal about what such shops are actually for.\n\nThe surviving bookshops have learned that they cannot win by competing on price, and have stopped trying. (39)____ What they offer instead is everything the algorithm cannot: a knowledgeable bookseller who has read the stock, a carefully chosen selection rather than an infinite one, and the simple pleasure of discovering a book you were not looking for.\n\nThat last quality turns out to matter enormously. Online, you can find any book you can name, but you rarely stumble upon one you had never heard of. (40)____ A good bookshop, by contrast, is designed for exactly this kind of happy accident.\n\nMany shops have also reinvented themselves as gathering places rather than mere retailers. (41)____ Author events, reading groups and children's story hours fill the calendar, and a café in the corner encourages people to linger rather than dash in and out.\n\nWhether this modest revival will endure, nobody can say for certain. (42)____ But for the moment, the shelves are full, the events are busy, and the shop that everyone expected to disappear is, against the odds, still very much alive.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "How could a small shop possibly survive against such competition?",
+          "The reasons for the recovery are more interesting than the decline ever was.",
+          "They accept that a warehouse will always be cheaper.",
+          "The machine recommends only what is similar to what you already like.",
+          "The shop has become somewhere to spend an evening, not just money.",
+          "Rents and reading habits could yet turn against them again.",
+          "Every independent bookshop now sells its books more cheaply than the internet.",
+          "Nobody has entered a bookshop in over a decade."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing sentence:", "answer": "A" },
+        { "stem": "Choose the missing sentence:", "answer": "B" },
+        { "stem": "Choose the missing sentence:", "answer": "C" },
+        { "stem": "Choose the missing sentence:", "answer": "D" },
+        { "stem": "Choose the missing sentence:", "answer": "E" },
+        { "stem": "Choose the missing sentence:", "answer": "F" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "Read about four people who work in different corners of the creative arts. Then answer the questions. The same person may be chosen more than once.",
+      "sources": [
+        { "label": "A", "name": "Iris", "text": "I write novels, and the question I dread most at festivals is where I get my ideas, because the honest answer is disappointingly dull: I get them by sitting down every morning whether I feel like it or not. People imagine writing as a series of thrilling flashes of inspiration, but for me it is closer to manual labour, a matter of showing up and doing the hours. The good sentences, when they come, arrive in the middle of the boring ones, and there is no way I have ever found to reach them except by writing the boring ones first. I am suspicious of anyone who describes the work as magical, because in my experience that description usually comes from people who have not actually finished a book." },
+        { "label": "B", "name": "Daniel", "text": "I compose music for films, which means I spend my life serving somebody else's vision rather than expressing my own, and I genuinely prefer it that way. A blank page terrifies me; give me a scene, a mood, a director with strong opinions, and I come alive. Some of my composer friends look down on this, as though writing to order were a lesser art, but I think they misunderstand the whole tradition. The great composers of the past worked to commission constantly, writing for a wedding or a church or a wealthy patron, and nobody now thinks the worse of them for it. Constraint, for me, is not the enemy of creativity. It is the very thing that sets it going." },
+        { "label": "C", "name": "Yuki", "text": "I make ceramics, and the hardest lesson I ever had to learn was to let things go. Clay is unpredictable; a pot you have laboured over for days can crack in the kiln in an instant, and for years I took every loss as a personal failure and nearly gave up more than once. What changed was accepting that the material has its own will, and that fighting it is pointless. Now I see the failures as part of the conversation rather than an interruption of it. The pieces I am proudest of are often the ones where something went wrong and I followed the accident instead of correcting it. I would not have believed, when I started, that this is where the beauty lives." },
+        { "label": "D", "name": "Marco", "text": "I am an actor, mostly in the theatre, and people are always surprised when I tell them I am painfully shy in ordinary life. The stage is the one place I feel completely safe, precisely because I am not being myself; I am hiding behind someone else, and the mask is what frees me. Off it, at a party, making small talk as Marco, I am hopeless and would far rather be at home. I think a lot of actors are like this, though few admit it. The public assumes we perform because we crave attention, when for many of us it is closer to the opposite: the character is a place to disappear into, not a way of being seen." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Iris", "Daniel", "Yuki", "Marco"] },
+      "questions": [
+        { "stem": "Which person prefers working within limits set by someone else rather than starting from nothing?", "answer": "B" },
+        { "stem": "Which person came to value accidents and mistakes as part of the creative process?", "answer": "C" },
+        { "stem": "Which person insists that their work is closer to routine labour than to sudden inspiration?", "answer": "A" },
+        { "stem": "Which person says their art allows them to hide rather than to be noticed?", "answer": "D" },
+        { "stem": "Which person is distrustful of those who describe their kind of work as magical?", "answer": "A" },
+        { "stem": "Which person defends their approach by pointing to how great artists of the past worked?", "answer": "B" },
+        { "stem": "Which person nearly abandoned their art because of repeated failures?", "answer": "C" },
+        { "stem": "Which person contradicts the public assumption about why they do their job?", "answer": "D" },
+        { "stem": "Which person believes their finest work grew out of something going wrong?", "answer": "C" },
+        { "stem": "Which person describes themselves as shy away from their work?", "answer": "D" }
+      ]
+    }
+  ]
+}

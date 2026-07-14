@@ -1,0 +1,181 @@
+{
+  "title": "B1 Preliminary — Reading (Practice 8)",
+  "note": "All six parts are auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Bloom Café — Staff Notice",
+          "text": "STAFF MUST WASH THEIR HANDS BEFORE HANDLING ANY FOOD.\nAPRONS ARE PROVIDED AND SHOULD BE CHANGED IF THEY BECOME DIRTY DURING A SHIFT.",
+          "stem": "What does the notice tell staff?",
+          "options": ["They must bring their own aprons to work.", "They should put on a clean apron if theirs gets dirty.", "They only need to wash their hands at the start of the day."],
+          "answer": 1
+        },
+        {
+          "kind": "message",
+          "header": "Text from Manager to Ruby",
+          "text": "Ruby — can you start at 8 tomorrow instead of 9? We've got a big delivery arriving early and I need an extra pair of hands to check it in. You can leave an hour earlier in the afternoon to make up for it. Let me know if that's a problem.",
+          "stem": "Why is the manager writing to Ruby?",
+          "options": ["To ask her to come to work earlier than usual.", "To tell her she must work an extra hour in the afternoon.", "To cancel her shift tomorrow."],
+          "answer": 0
+        },
+        {
+          "kind": "email",
+          "from": "Careers Office",
+          "to": "Final-year students",
+          "subject": "Job fair next week",
+          "body": "The annual job fair takes place on Thursday in the main hall. Over forty companies will attend. Bring several printed copies of your CV, as some employers may ask for one on the spot. Dress smartly — first impressions matter. No booking is needed.",
+          "stem": "What does the email advise students to bring?",
+          "options": ["A booking confirmation for the fair.", "Several printed copies of their CV.", "A list of forty companies."],
+          "answer": 1
+        },
+        {
+          "kind": "sign",
+          "header": "Greenfield Farm Shop",
+          "text": "FRESH BREAD IS BAKED EVERY MORNING AND SELLS OUT QUICKLY.\nTO RESERVE A LOAF, PLEASE ORDER BY PHONE THE DAY BEFORE.",
+          "stem": "What does the sign suggest customers do?",
+          "options": ["Arrive early because bread cannot be reserved.", "Phone a day ahead to make sure they get a loaf.", "Order bread only in the afternoon."],
+          "answer": 1
+        },
+        {
+          "kind": "note",
+          "header": "From Chef Pauline",
+          "text": "Sam — I've written tomorrow's specials on the board, but we've run out of fresh basil, so please leave it off the tomato soup until the delivery comes. Tell the waiters too. And don't forget to turn the big oven off before you lock up tonight!",
+          "stem": "What does Chef Pauline remind Sam to do?",
+          "options": ["Add extra basil to the soup.", "Switch off the large oven before locking up.", "Write the specials on the board."],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "The five people below are looking for a part-time job. Read the descriptions of eight jobs (A–H) and decide which job would be most suitable for each person. There are three jobs you do not need to use.",
+      "sources": [
+        {
+          "label": "6",
+          "name": "Jonah",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/36.jpg\" alt=\"Jonah\" loading=\"lazy\">",
+          "text": "Jonah is a university student who can only work in the evenings and at weekends. He is friendly and enjoys talking to people, and he would like a job in a busy place where he can meet lots of customers."
+        },
+        {
+          "label": "7",
+          "name": "Delia",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/47.jpg\" alt=\"Delia\" loading=\"lazy\">",
+          "text": "Delia loves animals and would like a job that involves caring for them. She is calm and reliable and doesn't mind early mornings. She has no formal qualifications but plenty of patience and experience with pets."
+        },
+        {
+          "label": "8",
+          "name": "Marek",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/59.jpg\" alt=\"Marek\" loading=\"lazy\">",
+          "text": "Marek is good with numbers and prefers quiet work he can do on his own. He is looking for something office-based during normal working hours, ideally involving spreadsheets and careful checking of figures."
+        },
+        {
+          "label": "9",
+          "name": "Sunita",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/61.jpg\" alt=\"Sunita\" loading=\"lazy\">",
+          "text": "Sunita is a talented cook who wants to gain experience in a professional kitchen. She is happy to start at the bottom, preparing vegetables and helping the chefs, and she can work long hours under pressure."
+        },
+        {
+          "label": "10",
+          "name": "Gareth",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/73.jpg\" alt=\"Gareth\" loading=\"lazy\">",
+          "text": "Gareth enjoys driving and being outdoors rather than stuck inside. He would like a job that gets him moving around the local area, and he has a clean driving licence and knows the town very well."
+        }
+      ],
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Café Server (evenings & weekends): Join our lively team serving drinks and snacks to a constant stream of customers. Perfect for a chatty, energetic person. Hours suit students who are busy during the day.",
+          "Animal Shelter Assistant: Help feed and care for rescued cats and dogs. Early starts required. No qualifications needed, but you must be gentle, patient and completely reliable with animals.",
+          "Accounts Clerk: Quiet office role checking invoices and entering figures into spreadsheets. Standard weekday hours. Ideal for someone careful, good with numbers and happy to work independently.",
+          "Kitchen Helper: Work alongside our chefs preparing ingredients in a busy restaurant kitchen. Long, demanding shifts. A great first step for anyone hoping to build a career in cooking.",
+          "Delivery Driver: Deliver parcels around the local area in a company van. A clean driving licence and good knowledge of the town are essential. Plenty of time outdoors and on the move.",
+          "Library Assistant: A calm role shelving books and helping readers find what they need. Weekday afternoons only. Suits someone who enjoys a peaceful, indoor environment.",
+          "Night Security Guard: Watch over an empty office building through the night. Long, solitary shifts with very little human contact. A quiet job for a reliable, independent person.",
+          "Wedding Photographer: Capture people's special day using professional equipment. Requires several years of experience and your own high-quality camera. Weekend work throughout the summer."
+        ]
+      },
+      "questions": [
+        {"stem": "Jonah", "answer": "A"},
+        {"stem": "Delia", "answer": "B"},
+        {"stem": "Marek", "answer": "C"},
+        {"stem": "Sunita", "answer": "D"},
+        {"stem": "Gareth", "answer": "E"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the article about a woman who changed careers and choose the best answer A, B, C or D.",
+      "passage": "The lawyer who became a baker\n\nFor fifteen years, Claudia Renner had what most people would call a successful life. She was a respected lawyer in a large city firm, with a good salary and a corner office. Yet by her late thirties she woke each morning with a heavy feeling she could not explain. \"Nothing was wrong,\" she says. \"That was almost the problem. I had everything I was supposed to want, and I felt empty.\"\n\nThe change began with a hobby. To relax at weekends, Claudia had started baking bread, and she quickly became fascinated by it. \"It was the opposite of my job,\" she explains. \"In law, nothing is ever finished; there is always another argument. With bread, you do the work, you wait, and at the end there is something real that you can hold and share.\" Friends began asking her to bake for their parties, and soon she was selling loaves at a local market on Saturdays.\n\nGiving up her career was terrifying. Her parents were horrified, and colleagues assumed she had lost her mind. \"Everyone kept reminding me how much I was throwing away,\" she recalls. \"But I asked myself a simple question: in ten years, would I regret trying this, or would I regret never having tried? The answer was obvious.\"\n\nThe first two years of her small bakery were exhausting and barely profitable. She worked longer hours than she ever had as a lawyer, rising at four each morning. What was different, she says, was how she felt. \"I was tired, but it was a good tiredness. I was building something of my own.\"\n\nToday her bakery is well known in the city, and she employs six people. She does not tell everyone to follow her example. \"Changing your life is not always the right answer,\" she says. \"But if a feeling of emptiness will not go away, it is worth listening to. Mine was trying to tell me something, and I am glad I finally did.\"",
+      "questions": [
+        {"stem": "How did Claudia feel about her life as a lawyer?", "options": ["She was completely satisfied with it.", "She felt empty despite having what she thought she wanted.", "She hated her colleagues.", "She wished she earned more money."], "answer": 1},
+        {"stem": "Why did Claudia enjoy baking so much?", "options": ["It made her a lot of money quickly.", "It produced something real and finished, unlike her job.", "It was easier than being a lawyer.", "Her parents encouraged her to do it."], "answer": 1},
+        {"stem": "How did people react when Claudia decided to change careers?", "options": ["They thought it was a wonderful idea.", "They were shocked and thought she was making a mistake.", "They offered to invest in her bakery.", "They did not notice the change."], "answer": 1},
+        {"stem": "What does Claudia say about the first two years of her bakery?", "options": ["The work was easy and very profitable.", "She worked hard but felt a satisfying kind of tiredness.", "She regretted leaving law almost at once.", "She hardly had to work at all."], "answer": 1},
+        {"stem": "What advice does Claudia give at the end of the article?", "options": ["Everyone should change their career at least once.", "A lasting feeling of emptiness is worth paying attention to.", "It is always a mistake to leave a good job.", "Baking is the best career for anyone."], "answer": 1}
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 4",
+      "instructions": "Read the article about food waste in restaurants. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+      "passage": "Turning waste into dinner\n\nIn kitchens all over the world, an enormous amount of good food is thrown away every day. Vegetables that are slightly the wrong shape, bread left over at closing time, or parts of an animal that a chef does not know how to use often end up in the bin. (16)____ A growing number of restaurants, however, have decided that this waste is simply unacceptable.\n\nOne of the leaders of this movement is a chef named Otto Lindqvist. In his restaurant, nothing is wasted if it can possibly be avoided. (17)____ Carrot tops become sauces, stale bread is turned into puddings, and vegetable peelings are used to add flavour to soups. His customers, far from complaining, are delighted by the inventive dishes that result.\n\nThe idea is not only good for the planet; it is good for business too. Food that would once have been thrown away costs the restaurant nothing. (18)____ By using every part of what he buys, Otto keeps his prices low while still making a healthy profit.\n\nChanging the way a kitchen works is not easy, however. Cooking in this way takes more time, more imagination and more skill from the staff. (19)____ Otto spends a great deal of his week teaching his team new techniques and encouraging them to see leftovers as an opportunity rather than a nuisance.\n\nHe is convinced that this is the future of cooking. (20)____ For Otto, a good chef is no longer simply one who cooks well, but one who wastes nothing at all.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Much of it is perfectly safe and delicious to eat.",
+          "He treats every scrap as an ingredient waiting to be used.",
+          "This saving is then passed on to his customers.",
+          "Not every cook is willing to work in such a demanding way.",
+          "More and more young chefs are being trained with these ideas from the start.",
+          "Most restaurants throw away roughly half of the food they buy.",
+          "His restaurant was forced to close after only a few months.",
+          "Customers generally prefer meat dishes to vegetables."
+        ]
+      },
+      "questions": [
+        {"stem": "Gap 16", "answer": "A"},
+        {"stem": "Gap 17", "answer": "B"},
+        {"stem": "Gap 18", "answer": "C"},
+        {"stem": "Gap 19", "answer": "D"},
+        {"stem": "Gap 20", "answer": "E"}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 5",
+      "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+      "title": "The story of chocolate",
+      "body": "Chocolate is enjoyed almost everywhere in the world today, but for most of its history it was nothing like the sweet bars we know. The people of ancient Central America were the first to (21)____ the cacao bean, which they used to make a bitter, spicy drink. When this drink first (22)____ Europe hundreds of years later, it was still bitter, and only the rich could afford it. It was not (23)____ someone thought of adding sugar and, much later, milk that chocolate became the sweet treat we recognise. For a long time it remained a luxury, but new machines gradually made it (24)____ to produce in large amounts. As prices fell, chocolate (25)____ available to almost everyone. Today it is one of the world's favourite flavours, though few of those enjoying it (26)____ realise how long its journey has been.",
+      "questions": [
+        {"options": ["grow", "plant", "farm", "seed"], "answer": 0},
+        {"options": ["arrived", "reached", "came", "got"], "answer": 1},
+        {"options": ["before", "until", "since", "when"], "answer": 1},
+        {"options": ["cheaper", "easier", "faster", "simpler"], "answer": 1},
+        {"options": ["turned", "became", "grew", "went"], "answer": 1},
+        {"options": ["never", "ever", "even", "still"], "answer": 2}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 6",
+      "instructions": "For each gap (27–32), write ONE word.",
+      "title": "Email about a cookery class",
+      "body": "Hi Bruno,\n\nI've just signed up for a cookery class that starts next week, and I was wondering (27)____ you'd like to come with me. It's for complete beginners, so you don't (28)____ to have any experience at all.\n\nThe teacher is supposed to be one of the best (29)____ the city, and each week we learn to make a different dish. Apparently we get to eat everything we cook, (30)____ is the best part!\n\nThe class is (31)____ Wednesday evenings and costs very little. Let me know soon, (32)____ the places fill up quickly.\n\nSee you,\nAntonia",
+      "questions": [
+        {"accept": ["if", "whether"]},
+        {"accept": ["have", "need"]},
+        {"accept": ["in"]},
+        {"accept": ["which"]},
+        {"accept": ["on"]},
+        {"accept": ["as", "because", "since", "before"]}
+      ]
+    }
+  ]
+}

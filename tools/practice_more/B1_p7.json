@@ -1,0 +1,181 @@
+{
+  "title": "B1 Preliminary — Reading (Practice 7)",
+  "note": "All six parts are auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Woodland Nature Reserve",
+          "text": "VISITORS ARE ASKED TO STAY ON THE MARKED PATHS TO PROTECT THE WILD FLOWERS.\nPICKING PLANTS OR REMOVING ANYTHING FROM THE RESERVE IS NOT ALLOWED.",
+          "stem": "What does the notice ask visitors to do?",
+          "options": ["Keep to the paths and leave the plants where they are.", "Pick only the wild flowers near the paths.", "Take home a small plant as a souvenir."],
+          "answer": 0
+        },
+        {
+          "kind": "message",
+          "header": "Text from Hana to Owen",
+          "text": "Owen — the beach clean-up on Sunday is now starting at 9 instead of 11 because high tide is earlier than we thought. We'll meet at the car park by the café, not on the sand. Wear old shoes and bring gloves if you have them. See you there!",
+          "stem": "Why is Hana writing to Owen?",
+          "options": ["To tell him the clean-up has been cancelled.", "To let him know the time and meeting place have changed.", "To ask him to buy gloves for everyone."],
+          "answer": 1
+        },
+        {
+          "kind": "email",
+          "from": "Riverside Council",
+          "to": "Local residents",
+          "subject": "Garden waste collection",
+          "body": "During the winter months, garden waste will be collected once a month rather than every two weeks. The next collection is on the 5th. Please leave your green bin out by 7am. Food waste collections continue as normal every week.",
+          "stem": "What is changing during the winter?",
+          "options": ["Food waste will no longer be collected.", "Garden waste will be collected less often.", "Bins must be put out the night before."],
+          "answer": 1
+        },
+        {
+          "kind": "sign",
+          "header": "Oakhill Country Park",
+          "text": "THE LAKESIDE PATH IS CLOSED WHILE A NEW BRIDGE IS BUILT.\nPLEASE FOLLOW THE YELLOW SIGNS FOR THE TEMPORARY ROUTE THROUGH THE MEADOW.",
+          "stem": "What should visitors do?",
+          "options": ["Wait until the bridge is finished before entering.", "Use the yellow-signed route across the meadow.", "Walk along the closed lakeside path carefully."],
+          "answer": 1
+        },
+        {
+          "kind": "note",
+          "header": "From Grandpa",
+          "text": "Mia — I've filled the bird feeder in the garden, but the birds won't come if the cat is out. Please keep her inside until this afternoon so they can eat in peace. There are seeds in the shed if it needs filling again tomorrow.",
+          "stem": "What does Grandpa ask Mia to do?",
+          "options": ["Keep the cat indoors for now.", "Fill the bird feeder this afternoon.", "Buy more seeds from the shed."],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "The five people below want to do something to help the environment. Read the descriptions of eight projects (A–H) and decide which project would be most suitable for each person. There are three projects you do not need to use.",
+      "sources": [
+        {
+          "label": "6",
+          "name": "Samuel",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/19.jpg\" alt=\"Samuel\" loading=\"lazy\">",
+          "text": "Samuel loves being outdoors and getting his hands dirty. He wants to help plant trees and would enjoy hard physical work in the open air at weekends. He is fit and happy to travel out of the city for the day."
+        },
+        {
+          "label": "7",
+          "name": "Bianca",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/71.jpg\" alt=\"Bianca\" loading=\"lazy\">",
+          "text": "Bianca is good with computers and wants to help from home. She cannot travel far but would like to use her skills to support an environmental group, perhaps by helping with their website or social media."
+        },
+        {
+          "label": "8",
+          "name": "Idris",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/52.jpg\" alt=\"Idris\" loading=\"lazy\">",
+          "text": "Idris is a keen wildlife watcher who wants to help scientists by recording the animals and birds he sees. He would like an activity he can do alone, quietly, in his local area whenever he has time."
+        },
+        {
+          "label": "9",
+          "name": "Petra",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/23.jpg\" alt=\"Petra\" loading=\"lazy\">",
+          "text": "Petra teaches young children and wants a project she can bring into her classroom. She is looking for something educational that helps kids learn about nature through simple, fun activities at school."
+        },
+        {
+          "label": "10",
+          "name": "Lars",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/28.jpg\" alt=\"Lars\" loading=\"lazy\">",
+          "text": "Lars wants to reduce the amount of rubbish in his neighbourhood. He would like to join a group that meets regularly to clear litter from local streets and parks and encourages others to recycle."
+        }
+      ],
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Forest Planting Days: Spend a Saturday in the countryside digging and planting young trees. Hard, rewarding outdoor work for volunteers who are physically fit. Transport from the city is provided.",
+          "Online Volunteers Network: Help environmental charities from home by managing their websites, writing posts and running social media accounts. Ideal for people with computer skills who cannot travel.",
+          "Wildlife Watch: Record the birds, insects and animals you spot in your area and send the information to scientists studying nature. A quiet activity you can do alone, at your own pace.",
+          "Nature in the Classroom: A free programme giving teachers simple, fun activities to help young children learn about plants and animals. Includes lesson plans and materials for schools.",
+          "Clean Streets Team: A local group that meets every week to pick up litter from streets and parks and to encourage neighbours to recycle more. Friendly and open to everyone.",
+          "River Science Lab: Advanced water-testing work for qualified scientists, carried out in a laboratory. Requires a university degree in chemistry or biology.",
+          "Solar Panel Fund: Donate money to help install solar panels on community buildings. No time or travel needed — simply give what you can afford.",
+          "Mountain Rescue Training: A demanding course teaching volunteers to rescue injured walkers in remote areas. Requires excellent fitness and a long-term commitment."
+        ]
+      },
+      "questions": [
+        {"stem": "Samuel", "answer": "A"},
+        {"stem": "Bianca", "answer": "B"},
+        {"stem": "Idris", "answer": "C"},
+        {"stem": "Petra", "answer": "D"},
+        {"stem": "Lars", "answer": "E"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the article about a woman who protects sea turtles and choose the best answer A, B, C or D.",
+      "passage": "Guardian of the beach\n\nEvery summer night, while the tourists sleep, Amina Bakri walks slowly along a stretch of dark beach with a torch pointed at the sand. She is looking for the tracks of sea turtles, which crawl out of the water to lay their eggs. \"People think my work is romantic,\" she says. \"Mostly it is walking, waiting and being very tired. But when a turtle appears, all of that disappears.\"\n\nAmina grew up in a fishing family and, as a child, thought little about the turtles that shared her coast. That changed when she was fifteen and watched a nest of baby turtles struggle towards the sea, only to be confused by the bright lights of a nearby hotel. Many crawled the wrong way and died. \"I couldn't forget it,\" she says. \"Those tiny animals were following the light, trusting it, and it killed them. I decided someone had to do something.\"\n\nToday she leads a small team of volunteers who protect the nests through the summer. They mark each one, keep dogs and people away, and, when the eggs hatch, they gently guide the babies towards the water. The work is often frustrating. Some hotel owners resent being asked to dim their lights, and a single careless visitor can destroy weeks of effort in a moment. \"You need patience more than anything,\" Amina says. \"You cannot force people to care. You can only show them, again and again, why it matters.\"\n\nSlowly, attitudes are changing. Several hotels now switch off their beach lights during the nesting season, and local children come to watch the babies hatch. Amina believes this is her real achievement. \"Saving one nest is wonderful, but it is not enough,\" she says. \"What lasts is teaching a child to love these creatures. That child will protect this beach long after I am gone.\"",
+      "questions": [
+        {"stem": "What does Amina say about her work at the start of the article?", "options": ["It is exactly as romantic as people imagine.", "It mostly involves walking and waiting patiently.", "She finds it boring and wants to stop.", "It is easy but not very interesting."], "answer": 1},
+        {"stem": "What made Amina decide to protect the turtles?", "options": ["Her family asked her to.", "She saw baby turtles die after following hotel lights.", "She was paid to do the work.", "A scientist trained her as a child."], "answer": 1},
+        {"stem": "What does Amina's team do with the turtle nests?", "options": ["They move the eggs to a laboratory.", "They mark and protect them and guide the babies to the sea.", "They sell the eggs to tourists.", "They leave them completely alone."], "answer": 1},
+        {"stem": "Why does Amina say the work is often frustrating?", "options": ["The turtles are difficult to find.", "One careless person can undo weeks of effort.", "Her volunteers do not turn up.", "The beach is too far from her home."], "answer": 1},
+        {"stem": "What does Amina consider her greatest achievement?", "options": ["Saving a single nest each summer.", "Teaching children to love and protect the turtles.", "Building a hotel on the beach.", "Making money from tourism."], "answer": 1}
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 4",
+      "instructions": "Read the article about bees in cities. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+      "passage": "The surprising success of city bees\n\nWhen we picture a bee, we usually imagine it flying over a wide country meadow full of wild flowers. It may come as a surprise, then, to learn that bees are often healthier in the middle of a busy city than in the countryside around it. (16)____ Scientists studying the insects have found that many city bees produce more honey and live longer than their rural cousins.\n\nThe reason lies in the way we use land. In many farming areas, huge fields are planted with a single crop, and once that crop has flowered, there is little left for bees to eat. (17)____ Chemicals sprayed on the crops can also harm them. A city, by contrast, is full of parks, gardens and balconies, each planted with a different mixture of flowers.\n\nThis variety means that something is nearly always in bloom, giving bees food from early spring until late autumn. (18)____ As a result, more and more people are keeping hives on their roofs, and some cities now have hundreds of them.\n\nThe trend is not without its problems, however. If too many hives are placed in one area, the bees may struggle to find enough food for them all. (19)____ Experts therefore advise city beekeepers to plant more flowers rather than simply adding more hives.\n\nStill, the message is a hopeful one. (20)____ In protecting these small, hard-working insects, city dwellers are also making their neighbourhoods greener and more beautiful for everyone.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "This can leave them hungry for much of the year.",
+          "It shows that even crowded cities can be rich in wildlife.",
+          "Keeping bees has become a popular hobby among city residents.",
+          "In such cases, competition can leave every hive worse off.",
+          "At first, this idea seems difficult to believe.",
+          "Honey from the countryside is generally considered to taste better.",
+          "Most bees prefer to fly at night when it is cooler.",
+          "City councils have banned the keeping of bees in several areas."
+        ]
+      },
+      "questions": [
+        {"stem": "Gap 16", "answer": "E"},
+        {"stem": "Gap 17", "answer": "A"},
+        {"stem": "Gap 18", "answer": "C"},
+        {"stem": "Gap 19", "answer": "D"},
+        {"stem": "Gap 20", "answer": "B"}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 5",
+      "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+      "title": "How rivers shape the land",
+      "body": "Rivers are among the most powerful forces in nature, quietly shaping the land over enormous periods of (21)____. A river begins as a small stream high in the hills and grows as smaller streams join it on its way to the sea. As it flows, it slowly wears (22)____ the rock and soil beneath it, carving deep valleys that may take thousands of years to (23)____. In flat areas, a river often bends from side to side, and over time these bends can become so wide that the river cuts straight across, (24)____ a curved lake behind. The material a river carries is not wasted: it is dropped further downstream, creating rich soil where crops (25)____ grow well. For this reason, some of the world's oldest cities were built (26)____ the banks of great rivers.",
+      "questions": [
+        {"options": ["time", "moment", "period", "age"], "answer": 0},
+        {"options": ["off", "away", "out", "down"], "answer": 1},
+        {"options": ["form", "build", "grow", "make"], "answer": 0},
+        {"options": ["making", "leaving", "putting", "keeping"], "answer": 1},
+        {"options": ["can", "must", "should", "would"], "answer": 0},
+        {"options": ["at", "on", "in", "by"], "answer": 1}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 6",
+      "instructions": "For each gap (27–32), write ONE word.",
+      "title": "Email about a nature holiday",
+      "body": "Hi Theo,\n\nI've just got back from the most amazing week in the mountains, (27)____ I went walking with a small group. The scenery was more beautiful (28)____ anything I had ever seen.\n\nOn the second day, we (29)____ lucky enough to see a family of deer right beside the path! Nobody made a sound, so they weren't frightened (30)____ us at all.\n\nYou really should go (31)____ time you get the chance. If you decide to book, let me know and I'll tell you (32)____ to take with you — the right boots make all the difference.\n\nTake care,\nJonas",
+      "questions": [
+        {"accept": ["where"]},
+        {"accept": ["than"]},
+        {"accept": ["were"]},
+        {"accept": ["of", "by"]},
+        {"accept": ["next", "any"]},
+        {"accept": ["what"]}
+      ]
+    }
+  ]
+}

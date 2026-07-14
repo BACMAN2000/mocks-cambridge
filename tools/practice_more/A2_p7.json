@@ -1,0 +1,158 @@
+{
+  "title": "A2 Key — Reading and Writing (Practice 7)",
+  "note": "Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Town Library — Second Floor",
+          "text": "THE COMPUTERS ON THE SECOND FLOOR ARE FOR STUDY ONLY. PLEASE DO NOT PLAY GAMES ON THEM.",
+          "stem": "What does the notice tell people?",
+          "options": ["The computers can be used for games.", "The computers must be used for study only.", "The computers are broken."],
+          "answer": 1
+        },
+        {
+          "kind": "message",
+          "header": "From: Zoe → To: Max",
+          "text": "Max, I can't join the online game tonight — my computer is being repaired and won't be ready until Friday. Can we play at the weekend instead? Sorry about that!",
+          "stem": "Why has Zoe sent this message?",
+          "options": ["To ask Max to fix her computer.", "To say she can't play the game tonight.", "To invite Max to her house."],
+          "answer": 1
+        },
+        {
+          "kind": "email",
+          "from": "Photo Club",
+          "to": "Members",
+          "subject": "This week's meeting",
+          "body": "Dear members, this week we will learn how to take photos at night. Please bring your camera or phone, and charge the battery fully before you come. We will meet in the park, not in the usual room.",
+          "stem": "What does the email ask members to do?",
+          "options": ["Buy a new camera.", "Charge their battery before the meeting.", "Meet in the usual room."],
+          "answer": 1
+        },
+        {
+          "kind": "note",
+          "header": "Note for Toby",
+          "text": "Toby — I've downloaded the new film onto the tablet for tonight. Please don't watch it before dinner, because I want to see it together with you. — Sam",
+          "stem": "What does Sam ask Toby to do?",
+          "options": ["Download a film.", "Wait to watch the film together.", "Watch the film before dinner."],
+          "answer": 1
+        },
+        {
+          "kind": "sign",
+          "header": "QuickFix Phone Shop",
+          "text": "PHONES REPAIRED HERE IN ONE HOUR. SCREENS AND BATTERIES CHANGED WHILE YOU WAIT.",
+          "stem": "What does this shop do?",
+          "options": ["It sells new phones only.", "It repairs phones quickly.", "It teaches people to use phones."],
+          "answer": 1
+        },
+        {
+          "kind": "notice",
+          "header": "School Robotics Club",
+          "text": "THE ROBOTICS CLUB NOW MEETS ON THURSDAYS, NOT MONDAYS. NEW MEMBERS ARE ALWAYS WELCOME.",
+          "stem": "What has changed about the club?",
+          "options": ["The day of the meeting.", "The price of the club.", "The place of the meeting."],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "Read about three young people and a hobby that uses technology. For each question, choose the correct person (A, B or C). The people may be chosen more than once.",
+      "sources": [
+        {
+          "label": "A",
+          "name": "Ines",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/54.jpg\" alt=\"Ines\" loading=\"lazy\">",
+          "text": "My hobby is making short videos about cooking and putting them online. I taught myself how to edit them by watching other people's videos. Some of my films have been watched by hundreds of people, which feels amazing. My parents worry I spend too long on the computer, but I always finish my homework first."
+        },
+        {
+          "label": "B",
+          "name": "Diego",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/41.jpg\" alt=\"Diego\" loading=\"lazy\">",
+          "text": "I love building things with a small computer called a robot kit. My uncle gave me my first kit two years ago, and now I have made a robot that can move around the room. It is difficult, and sometimes nothing works, but I never give up. I'd like to be an engineer one day."
+        },
+        {
+          "label": "C",
+          "name": "Nadia",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/8.jpg\" alt=\"Nadia\" loading=\"lazy\">",
+          "text": "I draw pictures on a tablet using a special pen. I used to draw on paper, but I prefer doing it on a screen because I can fix my mistakes easily. I share my drawings with an online group of other young artists, and we give each other advice. It's a friendly place."
+        }
+      ],
+      "questions": [
+        {"stem": "Which person taught themselves a skill from online videos?", "answer": "A"},
+        {"stem": "Which person was given equipment by a relative?", "answer": "B"},
+        {"stem": "Which person prefers working on a screen to using paper?", "answer": "C"},
+        {"stem": "Which person would like a career in engineering?", "answer": "B"},
+        {"stem": "Which person shares their work with an online group of artists?", "answer": "C"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the text about a girl who made a video game. Choose the correct answer A, B or C.",
+      "passage": "Priya is fifteen and has always loved playing video games. About a year ago, she decided that she wanted to make her own game instead of just playing them. Her parents were not sure it was a good idea, because they thought she already spent too long looking at screens.\n\nPriya found a free website that teaches young people how to write simple computer programs. She started with very easy projects, such as making a ball move across the screen. At first, she made a lot of mistakes, and her programs often did not work. She learned that finding and fixing these mistakes was a big part of the job.\n\nAfter several months, Priya finished her first real game. It was a simple game in which a cat had to jump over boxes to reach some food. She asked her friends to play it, and they gave her lots of useful ideas to make it better.\n\nPriya's parents are now very proud of her. They can see that she is not just playing games but also learning a difficult skill. Priya hopes to study computer science at university and one day work for a company that makes games.",
+      "questions": [
+        {"stem": "What did Priya decide to do a year ago?", "options": ["Stop playing video games.", "Make her own video game.", "Sell her old games."], "answer": 1},
+        {"stem": "Why were Priya's parents unsure at first?", "options": ["They thought she used screens too much.", "They did not have a computer.", "They wanted her to play sport."], "answer": 0},
+        {"stem": "What did Priya learn while making her programs?", "options": ["That fixing mistakes is a big part of the work.", "That programming is very easy.", "That she needed to buy special software."], "answer": 0},
+        {"stem": "How did Priya's friends help her?", "options": ["They wrote the program for her.", "They gave her ideas to improve the game.", "They sold the game for her."], "answer": 1},
+        {"stem": "What does Priya hope to do in the future?", "options": ["Study computer science at university.", "Become a professional gamer.", "Teach at her old school."], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 4",
+      "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+      "title": "The First Computers",
+      "body": "Computers are a very important part of modern life, but the first ones were nothing (19)____ the small machines we use today. The earliest computers, built about eighty years ago, were so big (20)____ they filled a whole room. They were also very slow and could only (21)____ simple sums. Only a few large companies and universities were able (22)____ own one, because they cost a huge amount of money. Over the years, engineers found ways to make computers smaller, faster and (23)____ expensive. By the 1980s, many families (24)____ buy a computer for their home. Today, most people carry a powerful computer in their pocket: the mobile phone.",
+      "questions": [
+        {"options": ["like", "as", "near", "same"], "answer": 0},
+        {"options": ["than", "that", "then", "as"], "answer": 1},
+        {"options": ["make", "do", "take", "have"], "answer": 1},
+        {"options": ["to", "for", "of", "at"], "answer": 0},
+        {"options": ["fewer", "less", "little", "least"], "answer": 1},
+        {"options": ["could", "should", "must", "would"], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 5",
+      "instructions": "For each gap (25–30), write ONE word.",
+      "title": "A message about a new phone",
+      "body": "Hi Leo,\n\nGuess what? I finally got a new phone (25)____ my birthday! It is much faster (26)____ my old one, and the camera is really good.\n\nI have already taken lots (27)____ photos of my dog. I will send some (28)____ you later today. Do you want (29)____ come over at the weekend? I can show you all the new games (30)____ I have downloaded.\n\nTalk soon,\nAisha",
+      "questions": [
+        {"accept": ["for"]},
+        {"accept": ["than"]},
+        {"accept": ["of"]},
+        {"accept": ["to"]},
+        {"accept": ["to"]},
+        {"accept": ["that", "which"]}
+      ]
+    },
+    {
+      "type": "writing",
+      "part": "Part 6",
+      "prompts": [{
+        "kind": "email",
+        "instructions": "Your English friend Sam has just bought a new camera. Write an email to Sam. In your email: suggest a good place to take photos / say what Sam could photograph there / ask one question about Sam's camera.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    },
+    {
+      "type": "writing",
+      "part": "Part 7",
+      "prompts": [{
+        "kind": "story",
+        "instructions": "Write a story for your English class. Your story must begin with this sentence:\nI turned on the old computer, and a strange message appeared on the screen.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    }
+  ]
+}

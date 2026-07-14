@@ -1,0 +1,181 @@
+{
+  "title": "B1 Preliminary — Reading (Practice 4)",
+  "note": "All six parts are auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Pinewood Youth Hostel",
+          "text": "GUESTS MUST RETURN ROOM KEYS TO RECEPTION BEFORE 10AM ON THE DAY THEY LEAVE.\nLUGGAGE CAN BE STORED FREE OF CHARGE UNTIL 6PM IF YOU HAVE A LATER TRAIN.",
+          "stem": "What does the notice tell guests who are leaving?",
+          "options": ["They can keep their keys until the evening.", "They may leave their bags at the hostel after checking out.", "They must pay to store luggage after 10am."],
+          "answer": 1
+        },
+        {
+          "kind": "message",
+          "header": "Text from Nadia to Leo",
+          "text": "Leo — the cable car up the mountain is closed today because of strong wind, so I've booked us on the guided walk instead. It leaves at 9, not 11, so we need to set off earlier. Can you meet me at the ticket office by 8.30?",
+          "stem": "Why is Nadia writing to Leo?",
+          "options": ["To tell him their plans have changed and they must arrive sooner.", "To ask him to cancel the guided walk.", "To warn him that the mountain is dangerous today."],
+          "answer": 0
+        },
+        {
+          "kind": "email",
+          "from": "Blue Bay Boat Tours",
+          "to": "Booked passengers",
+          "subject": "Tomorrow's trip",
+          "body": "Because rain is expected in the afternoon, tomorrow's dolphin-watching trip will now leave in the morning at 9am instead of 2pm. Please arrive fifteen minutes early. If you cannot make the new time, contact us today for a full refund.",
+          "stem": "What should passengers do if the new time does not suit them?",
+          "options": ["Come to the harbour anyway and wait.", "Get in touch today to have their money returned.", "Book a different trip for the following week."],
+          "answer": 1
+        },
+        {
+          "kind": "sign",
+          "header": "Riverside National Park",
+          "text": "THE FOREST TRAIL IS OPEN TO WALKERS AND CYCLISTS.\nDOGS ARE WELCOME BUT MUST BE KEPT ON A LEAD AT ALL TIMES NEAR THE LAKE.",
+          "stem": "What does the sign say about visitors with dogs?",
+          "options": ["Dogs are not allowed on the forest trail.", "Dogs may run freely except beside the lake.", "Dogs must be controlled on a lead when close to the lake."],
+          "answer": 2
+        },
+        {
+          "kind": "note",
+          "header": "From Uncle Ben",
+          "text": "Zara — I've left the tent and the maps by the front door for your camping trip. The weather forecast says it might rain on Saturday night, so pack something warm. Remember to charge your phone before you go — there's no signal at the campsite!",
+          "stem": "What does Uncle Ben remind Zara to do?",
+          "options": ["To buy a new tent for the trip.", "To make sure her phone is charged before leaving.", "To check the weather forecast again."],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "The five people below are looking for a holiday. Read the descriptions of eight holidays (A–H) and decide which holiday would be most suitable for each person. There are three holidays you do not need to use.",
+      "sources": [
+        {
+          "label": "6",
+          "name": "Marcus",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/34.jpg\" alt=\"Marcus\" loading=\"lazy\">",
+          "text": "Marcus wants a relaxing week by the sea where he can do almost nothing. He is not interested in sightseeing or activities and simply wants a quiet beach and a comfortable hotel. He would rather avoid crowds and busy resorts."
+        },
+        {
+          "label": "7",
+          "name": "Ingrid",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/52.jpg\" alt=\"Ingrid\" loading=\"lazy\">",
+          "text": "Ingrid loves learning about the past and wants a trip full of ancient ruins and museums. She would like an expert guide who can explain the history in detail. She does not enjoy walking long distances in the heat."
+        },
+        {
+          "label": "8",
+          "name": "Diego",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/57.jpg\" alt=\"Diego\" loading=\"lazy\">",
+          "text": "Diego is an experienced hiker who wants a real physical challenge in the mountains. He is happy to sleep in basic huts and carry his own bag. He is looking for spectacular views and long days of walking."
+        },
+        {
+          "label": "9",
+          "name": "Fatima",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/29.jpg\" alt=\"Fatima\" loading=\"lazy\">",
+          "text": "Fatima is travelling with two small children and needs a holiday designed for families. She wants a place where the children can swim safely and join organised activities, leaving her some time to rest."
+        },
+        {
+          "label": "10",
+          "name": "Kenji",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/71.jpg\" alt=\"Kenji\" loading=\"lazy\">",
+          "text": "Kenji wants to taste the food of a foreign country and learn to cook some of its dishes himself. He would like a holiday that includes visits to local markets and hands-on lessons with a chef."
+        }
+      ],
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Quiet Cove Retreat: A small hotel on a peaceful, sandy bay far from the main tourist towns. There is nothing to do but rest, read and swim. No organised activities, no nightlife — just calm and comfort.",
+          "Ancient Cities Tour: Travel by comfortable coach between famous historical sites, each explained by a professional archaeologist. Walking is kept to a minimum, and there is plenty of time to sit and listen at each ruin.",
+          "High Peaks Trek: Ten demanding days crossing a mountain range on foot. Participants carry their own equipment and stay in simple shelters. For fit, experienced walkers only; rewarded with breathtaking scenery.",
+          "Family Beach Village: A resort built for families, with a shallow children's pool, a daily activity club for kids and babysitting in the evening. Parents can relax while the children are safely entertained.",
+          "Taste of the Region: A week combining market visits, food tastings and cooking classes led by local chefs. You will shop for fresh ingredients and prepare traditional dishes to enjoy each evening.",
+          "Wild Camping Expedition: Sleep under the stars in remote countryside with no facilities at all. You must bring and carry everything, including water. Suitable for adventurous, self-reliant travellers.",
+          "City Shopping Break: Three nights in a lively capital famous for its shops and restaurants. Free time to explore the markets and boutiques, with a guide available for those who want one.",
+          "Lakeside Painting Course: A gentle week of outdoor art classes beside a beautiful lake. All materials provided. No previous experience needed, and the pace is relaxed and unhurried."
+        ]
+      },
+      "questions": [
+        {"stem": "Marcus", "answer": "A"},
+        {"stem": "Ingrid", "answer": "B"},
+        {"stem": "Diego", "answer": "C"},
+        {"stem": "Fatima", "answer": "D"},
+        {"stem": "Kenji", "answer": "E"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the article about a long-distance cyclist and choose the best answer A, B, C or D.",
+      "passage": "The woman who cycled home\n\nWhen Elena Vasquez finished her studies abroad, most of her friends flew home in a matter of hours. Elena, however, decided to travel the four thousand kilometres back to her own country by bicycle. \"Everyone thought I had lost my mind,\" she says. \"My mother begged me to buy a plane ticket. But I had spent three years reading about places I had never seen, and I wanted to feel the distance for myself, not sleep through it at thirty thousand feet.\"\n\nShe set off in early spring with a small tent, two bags and very little money. The first week was the hardest. Her legs ached, it rained almost constantly, and one evening she sat by the road and seriously considered giving up. What kept her going, she says, was not determination but curiosity. \"Every morning I woke up wondering what the next valley would look like. That was stronger than the pain.\"\n\nAs the weeks passed, the journey changed her. She learned to fix her own bicycle, to camp safely and to ask strangers for help in languages she barely spoke. Again and again, people she had never met invited her to eat with them or offered her a bed for the night. \"I had expected the mountains and the rivers to be the best part,\" she admits. \"In the end, what I remember most is the kindness of people who had almost nothing themselves.\"\n\nElena reached home after eleven weeks, thinner, sunburnt and entirely changed. She has since given talks at schools about her trip, though she is careful about the message she gives. \"I don't tell young people to cycle across a continent,\" she laughs. \"I tell them that the slow way of doing something is often the way you actually remember. We are all in such a hurry. My journey taught me that arriving is not always the important part.\"",
+      "questions": [
+        {"stem": "Why did Elena choose to travel home by bicycle?", "options": ["It was much cheaper than flying.", "She wanted to experience the distance rather than skip over it.", "Her mother suggested the idea to her.", "She was afraid of travelling by plane."], "answer": 1},
+        {"stem": "What does Elena say about the first week of her trip?", "options": ["She enjoyed the good weather.", "She reached her home country quickly.", "She almost decided to stop.", "She made many new friends immediately."], "answer": 2},
+        {"stem": "According to Elena, what kept her going when the journey was hard?", "options": ["Her wish to prove her friends wrong.", "Her eagerness to see what lay ahead.", "The money she would earn from talks.", "The comfort of her tent and equipment."], "answer": 1},
+        {"stem": "What surprised Elena most about the journey?", "options": ["How beautiful the mountains and rivers were.", "How easy it was to fix her bicycle.", "How generous ordinary people were to her.", "How quickly she learned new languages."], "answer": 2},
+        {"stem": "What message does Elena give to young people?", "options": ["Everyone should cycle across a continent once.", "Doing something slowly can make it more memorable.", "Reaching your goal is the most important thing.", "Travelling alone is safer than travelling in groups."], "answer": 1}
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 4",
+      "instructions": "Read the article about a mountain railway. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+      "passage": "The little train that climbs the clouds\n\nHigh in the mountains, a small red train makes a journey that once seemed impossible. For more than a hundred years, the Alpine Heights Railway has carried passengers from a quiet valley town up to a village near the very top of the range. (16)____ The climb is so steep that ordinary trains could never manage it, and a special toothed rail was built to stop the carriages from sliding backwards.\n\nBuilding the line in the nineteenth century was a huge and dangerous task. Workers cut tunnels through solid rock by hand and laid track along the edge of deep valleys. (17)____ Many people at the time doubted that the railway would ever be finished, let alone make money.\n\nToday, however, the train is more popular than ever. In summer, thousands of tourists ride up to enjoy the mountain air and the spectacular views. (18)____ In winter, the same carriages carry skiers to the slopes that would otherwise take hours to reach on foot.\n\nRunning the railway is not easy. Snow, ice and falling rocks can block the line, and a team works through the night to keep it clear. (19)____ Without their constant effort, the service would stop within days each winter.\n\nThe company insists that the old train will keep running for generations to come. (20)____ For the people of the valley, it is not merely a way of reaching the top of the mountain, but a much-loved part of who they are.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Some of them travel from the other side of the world just to make the trip.",
+          "The project cost far more than expected and took several years longer than planned.",
+          "These workers are rarely seen by passengers, yet the railway depends on them entirely.",
+          "It remains one of the steepest railways of its kind anywhere in the world.",
+          "Plans to replace it with a modern cable car have twice been rejected by local people.",
+          "The village at the top has almost no visitors during the colder months.",
+          "Tickets can only be bought online at least a month in advance.",
+          "Most of the original carriages were sold to a museum many years ago."
+        ]
+      },
+      "questions": [
+        {"stem": "Gap 16", "answer": "D"},
+        {"stem": "Gap 17", "answer": "B"},
+        {"stem": "Gap 18", "answer": "A"},
+        {"stem": "Gap 19", "answer": "C"},
+        {"stem": "Gap 20", "answer": "E"}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 5",
+      "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+      "title": "The invention of the suitcase with wheels",
+      "body": "It is hard to imagine an airport today without the sound of wheeled suitcases rolling across the floor, yet this simple idea is surprisingly (21)____. For most of the twentieth century, travellers carried their heavy bags by hand or balanced them on separate trolleys. The first suitcase with wheels did not (22)____ until the 1970s, and even then many people refused to buy one, believing that a strong traveller should not (23)____ such help. Shops were reluctant to sell them, and the early designs, which were pulled on a long strap, tipped over (24)____. It was only when a pilot added a handle and placed the wheels underneath that the modern version was (25)____. Within a few years, wheeled cases had become so common that younger travellers could hardly (26)____ that they had ever been considered strange.",
+      "questions": [
+        {"options": ["recent", "modern", "fresh", "late"], "answer": 0},
+        {"options": ["appear", "happen", "arrive", "reach"], "answer": 0},
+        {"options": ["want", "need", "wish", "hope"], "answer": 1},
+        {"options": ["hardly", "rarely", "easily", "barely"], "answer": 2},
+        {"options": ["found", "born", "made", "grown"], "answer": 1},
+        {"options": ["believe", "think", "guess", "suppose"], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 6",
+      "instructions": "For each gap (27–32), write ONE word.",
+      "title": "Email about a road trip",
+      "body": "Hi Sofia,\n\nI can't wait for our road trip next month! I've already planned the route, (27)____ takes us along the coast for three days.\n\nI think we should leave early on the first morning (28)____ that we can avoid the worst of the traffic. The car is a little older (29)____ mine, but my brother says it is very reliable, so we won't (30)____ to worry about it breaking down.\n\nDon't forget (31)____ bring your camera — the views along the cliffs are supposed to be amazing. If (32)____ weather is good, we might even stop for a swim.\n\nSee you soon,\nCarla",
+      "questions": [
+        {"accept": ["which", "that"]},
+        {"accept": ["so"]},
+        {"accept": ["than"]},
+        {"accept": ["have", "need"]},
+        {"accept": ["to"]},
+        {"accept": ["the"]}
+      ]
+    }
+  ]
+}

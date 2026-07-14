@@ -1,0 +1,192 @@
+{
+  "title": "C1 Advanced — Reading and Use of English (Practice 4)",
+  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "When machines learned to write",
+      "body": "The arrival of software capable of producing fluent prose has (1)____ a debate that shows no sign of abating. For decades, the ability to compose a coherent paragraph was regarded as a (2)____ human preserve, one that no machine could plausibly encroach upon. That assumption has now been (3)____ overturned. Programs trained on vast quantities of text can generate essays, reports and even poetry that many readers are unable to (4)____ from human work. Enthusiasts hail this as a liberation, freeing us from drudgery; sceptics (5)____ that something essential is being lost. What both camps tend to overlook is that writing has never been a purely mechanical act of stringing words together. It is, at its best, a way of (6)____ thought itself, of discovering what one believes in the very act of expressing it. If we (7)____ that labour to a machine, we may find that we have relinquished not merely a chore but a faculty. The convenience, in short, may come at a price we are only beginning to (8)____ .",
+      "questions": [
+        { "options": ["reignited", "refreshed", "renewed", "restored"], "answer": 0 },
+        { "options": ["exclusively", "uniquely", "singularly", "solely"], "answer": 1 },
+        { "options": ["comprehensively", "abundantly", "densely", "vividly"], "answer": 0 },
+        { "options": ["distinguish", "recognise", "perceive", "identify"], "answer": 0 },
+        { "options": ["maintain", "confess", "boast", "recall"], "answer": 0 },
+        { "options": ["clarifying", "cleansing", "clearing", "brightening"], "answer": 0 },
+        { "options": ["surrender", "abandon", "forfeit", "waive"], "answer": 0 },
+        { "options": ["appreciate", "evaluate", "reckon", "estimate"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The quiet triumph of the algorithm",
+      "body": "Most of the decisions that shape a modern life are now made, at least in part, by systems few of us could begin to explain. The route your journey takes, the news you are shown, the price you are quoted (9)____ a flight — all are the output of calculations running silently in the background. So thoroughly have these processes been woven into daily existence that we barely notice them, much (10)____ question them.\n\nThis invisibility is precisely (11)____ makes them powerful. A recommendation that arrives without any visible mechanism feels less like persuasion (12)____ than like fact, and we tend to trust it accordingly. (13)____ we understood how such systems reached their conclusions, we might treat their suggestions with more caution; as it is, the opacity does much of the persuading for them.\n\nNone of this would matter (14)____ the stakes were low. But algorithms increasingly decide who is offered a loan, (15)____ is shortlisted for a job, even who is granted bail. When so much hangs (16)____ their judgements, the fact that they cannot readily be interrogated ceases to be a technical detail and becomes a question of justice.",
+      "questions": [
+        { "accept": ["for"] },
+        { "accept": ["less"] },
+        { "accept": ["what"] },
+        { "accept": ["and"] },
+        { "accept": ["if", "had"] },
+        { "accept": ["if"] },
+        { "accept": ["who"] },
+        { "accept": ["on", "upon"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "The promise and peril of automation",
+      "rows": [
+        { "text": "As algorithms take on tasks once thought to require human judgement, questions of (17)____ have moved to the very centre of the debate.", "root": "ACCOUNT" },
+        { "text": "A system that cannot explain its own decisions is, by definition, (18)____ , and that opacity deeply troubles regulators.", "root": "PENETRATE" },
+        { "text": "Engineers now speak openly of the (19)____ of the largest models, whose behaviour can shift in ways nobody fully anticipated.", "root": "PREDICT" },
+        { "text": "The (20)____ of automated systems, so often taken for granted, turns out to depend on data that is anything but clean.", "root": "RELY" },
+        { "text": "Critics warn against an (21)____ faith in tools whose inner workings remain almost entirely obscure.", "root": "CRITIC" },
+        { "text": "Progress, they argue, begins with a grudging (22)____ that even the finest model can err.", "root": "KNOW" },
+        { "text": "In so-called (23)____ learning, the system is simply left to find patterns in the data on its own.", "root": "SUPERVISE" },
+        { "text": "Above all, campaigners are demanding far greater (24)____ in how these consequential decisions are actually reached.", "root": "TRANSPARENT" }
+      ],
+      "questions": [
+        { "root": "ACCOUNT", "accept": ["accountability"] },
+        { "root": "PENETRATE", "accept": ["impenetrable"] },
+        { "root": "PREDICT", "accept": ["unpredictability"] },
+        { "root": "RELY", "accept": ["reliability"] },
+        { "root": "CRITIC", "accept": ["uncritical"] },
+        { "root": "KNOW", "accept": ["acknowledgement", "acknowledgment"] },
+        { "root": "SUPERVISE", "accept": ["unsupervised"] },
+        { "root": "TRANSPARENT", "accept": ["transparency"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+      "questions": [
+        {
+          "before": "As soon as the software was released, users began reporting faults.",
+          "keyword": "SOONER",
+          "after": "No ___ than users began reporting faults.",
+          "accept": ["sooner had the software been released"]
+        },
+        {
+          "before": "People take it for granted that the technology will keep improving.",
+          "keyword": "GRANTED",
+          "after": "It ___ that the technology will keep improving.",
+          "accept": ["is taken for granted"]
+        },
+        {
+          "before": "The engineers had not expected the model to behave so strangely.",
+          "keyword": "ABACK",
+          "after": "The engineers ___ how strangely the model behaved.",
+          "accept": ["were taken aback by"]
+        },
+        {
+          "before": "We only understood the risks when the system failed.",
+          "keyword": "UNTIL",
+          "after": "___ did we understand the risks.",
+          "accept": ["Not until the system failed"]
+        },
+        {
+          "before": "It is possible that the data was corrupted during the transfer.",
+          "keyword": "HAVE",
+          "after": "The data ___ during the transfer.",
+          "accept": ["may have been corrupted", "might have been corrupted", "could have been corrupted"]
+        },
+        {
+          "before": "Nobody could have foreseen how quickly the technology would spread.",
+          "keyword": "ANTICIPATED",
+          "after": "The speed at which the technology spread ___ .",
+          "accept": ["could not have been anticipated"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The automation paradox\n\nThere is a comforting story we like to tell ourselves about machines and work. In it, the tedious, dangerous or repetitive parts of a job are handed over to a device, leaving the human free to concentrate on the interesting, high-level tasks that only a person can perform. The reality, as anyone who has studied automated systems closely will attest, is a good deal stranger, and it goes by the name of the automation paradox: the more reliable a machine becomes, the more dangerous the human operator's role grows, not less.\n\nThe logic is uncomfortable but difficult to escape. When a system handles a task well ninety-nine times out of a hundred, the operator's job is reduced to monitoring — watching a process that almost never goes wrong, waiting for a failure that almost never comes. Human beings are spectacularly ill-suited to this kind of vigilance. Attention, deprived of anything to engage it, simply wanders; after twenty minutes of watching a flawless process, the mind is elsewhere. And it is precisely at the moment the machine finally falters that the human is least prepared to intervene, having spent hours or years being lulled into the assumption that intervention would never be required.\n\nThe aviation industry learned this lesson the hard way. As autopilot systems grew more capable, a new category of accident began to appear — not crashes caused by the technology failing, but crashes caused by pilots who, when the automation abruptly handed control back to them in an emergency, had lost the fine-grained flying skills that constant practice once maintained. The very competence of the machine had quietly eroded the competence of the person supposed to supervise it. Skills that are not exercised do not merely stagnate; they decay.\n\nThere is a further twist. Because the automated system performs so well for so long, organisations come to trust it, and trust breeds complacency. Maintenance budgets are trimmed, training is shortened, the number of human supervisors is reduced — all apparently justified by the machine's excellent record. The system's very reliability thus creates the conditions for a catastrophe, hollowing out the human expertise and institutional caution that would be needed to manage one. The safer the system appears, the more thoroughly the organisation dismantles its own defences.\n\nWhat, then, is to be done? The naive response is to demand more automation still — to remove the fallible human from the loop entirely. In some narrow domains, where every possible situation can be foreseen, this may be feasible. But most of the world is not like that. It is messy, surprising and full of situations no designer anticipated, and in such a world the human capacity for improvisation remains indispensable precisely when things go wrong. The challenge is not to eliminate the operator but to keep them genuinely engaged — to design systems that, paradoxically, are a little less helpful than they could be, so that the person retains the skill and the alertness to act when it matters.\n\nSome engineers now speak of this as designing for 'meaningful human control', and it represents a quiet revolution in thinking. Instead of asking how much of a task a machine can take over, the better question is how much a human must retain in order to remain competent. Sometimes the answer is inconvenient. It may mean requiring pilots to fly manually for portions of a routine flight, or asking a driver to keep their hands on the wheel even when the car could steer itself perfectly well. Such measures look, on the surface, like a refusal to reap the full benefit of the technology. In fact they are an insurance policy against the moment the technology reaches the edge of its competence and, as it always eventually will, hands the problem back to us.\n\nThe deeper lesson extends well beyond cockpits and control rooms. Every time we delegate a capacity to a machine, we should ask not only what we gain but what, through disuse, we stand quietly to lose.",
+      "questions": [
+        { "stem": "What is the central claim of the 'automation paradox'?", "options": ["Machines are inherently less reliable than humans.", "As a machine becomes more reliable, the human role becomes more hazardous.", "Automation always eliminates the need for human operators.", "Reliable machines make human work more interesting."], "answer": 1 },
+        { "stem": "Why, according to the writer, are humans poorly suited to monitoring reliable systems?", "options": ["They lack the technical training required.", "Their attention wanders when there is nothing to engage it.", "They deliberately ignore warning signals.", "They are physically unable to react quickly."], "answer": 1 },
+        { "stem": "What lesson did the aviation industry learn 'the hard way'?", "options": ["Autopilot systems fail more often than expected.", "Pilots' manual skills decayed through lack of practice.", "Passengers preferred human pilots to machines.", "Automation made flying more expensive."], "answer": 1 },
+        { "stem": "How does a system's reliability lead to organisational danger?", "options": ["It causes machines to be used beyond their design limits.", "It encourages complacency that erodes human expertise and caution.", "It makes maintenance impossible to carry out.", "It forces organisations to hire more supervisors."], "answer": 1 },
+        { "stem": "What does the writer suggest about removing the human 'from the loop' entirely?", "options": ["It is the obvious solution in every field.", "It may work only where every situation can be foreseen.", "It has already been achieved in most industries.", "It is cheaper than keeping humans involved."], "answer": 1 },
+        { "stem": "What is the purpose of designing for 'meaningful human control'?", "options": ["To make machines as helpful as they can possibly be.", "To keep the human competent and alert for when the technology reaches its limits.", "To reduce the cost of training operators.", "To prove that humans are superior to machines."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "Read four short opinion pieces (A–D) on the same topic: whether art generated by artificial intelligence should be regarded as genuine art. Then answer the questions.",
+      "sources": [
+        { "label": "A", "text": "The hand-wringing over machine-made art strikes me as a rerun of an argument we have had before and lost. When photography arrived, painters insisted it could never be art because a mere apparatus did the work; a century later, no one seriously doubts that a photograph can be a masterpiece. The same will prove true of images generated by algorithm. What matters in art has never been the effort or the technique but the choices — what to make, what to keep, what to discard — and those choices remain thoroughly human even when a machine executes them. To deny the label 'art' to this new medium is simply to repeat, with fresh vocabulary, the same failure of imagination our predecessors showed." },
+        { "label": "B", "text": "I am not persuaded by the confident historical parallels. Photography still required a human being to stand in a particular place, at a particular moment, and see. The new systems are different in kind: they are trained on millions of existing images, and what they produce is, at bottom, a sophisticated average of other people's work, reassembled without understanding. To call that creation is to stretch the word past breaking. There is craft in prompting these tools, I concede, but it is the craft of the commissioner, not the artist. We should be honest about the distinction rather than dissolving it out of a misplaced desire to seem forward-thinking." },
+        { "label": "C", "text": "Both the enthusiasts and the purists seem to me to be asking the wrong question. Whether we file these images under 'art' is a matter of definition, and definitions are tools, not truths; we can draw the line wherever it proves useful. The genuinely interesting question is what this technology does to the people who use it and the culture that consumes its output. If it widens who gets to make striking images, that is worth something; if it floods the world with frictionless, forgettable content and undercuts the livelihoods of working illustrators, that is worth worrying about. The label is a distraction from the consequences." },
+        { "label": "D", "text": "Much of this debate is conducted as though the value of art lay in some property we could detect by inspecting the finished object. But we respond to art partly because we sense another mind reaching towards us — a person who suffered, chose and meant something. Strip that away and you may still have a pleasing arrangement of colours, but you have lost the thing that made art matter. This is not snobbery about technique; a child's drawing has it and a flawless machine image does not. Until these systems can be said to mean anything by what they produce, I will happily admire their output while declining to call it art." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which writer, like Writer A, believes that historical parallels with earlier technologies are misleading?", "answer": "B" },
+        { "stem": "Which writer argues that the question of whether to apply the label 'art' is less important than the technology's social effects?", "answer": "C" },
+        { "stem": "Which writer holds that art matters because it conveys the intention of another human mind?", "answer": "D" },
+        { "stem": "Which writer is most confident that machine-generated images will eventually be accepted as art?", "answer": "A" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+      "passage": "The machine that learned to talk\n\nFor as long as there have been computers, people have dreamed of holding a conversation with one. The dream is older than the hardware itself, reaching back to a time when 'thinking machine' was a phrase found only in fiction. (41)____\n\nThe first serious attempt to build such a program appeared in the 1960s, and its creator was startled by the response. He had intended it as a demonstration of how superficial machine conversation must necessarily be, a kind of parlour trick. (42)____\n\nFor the next several decades, progress was frustratingly slow. Programs could follow scripts and match keywords, but any conversation that strayed from the expected path collapsed almost at once into nonsense. (43)____\n\nThe breakthrough, when it finally came, arrived from an unexpected direction. Rather than trying to teach a machine the rules of language explicitly, researchers began feeding it staggering quantities of text and letting it infer the patterns for itself. (44)____\n\nThe results astonished even the people who built them. A system with no understanding of the world, in any sense a philosopher would recognise, could nonetheless produce paragraphs that were fluent, relevant and, disconcertingly often, correct. (45)____\n\nWhere all this leads remains genuinely uncertain, and honest researchers admit as much. (46)____ Whatever comes next, the long-held dream of a machine one could simply talk to has, in a matter of years, quietly become an unremarkable feature of ordinary life.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Yet users, he found, poured out their private troubles to the program as though to a trusted confidant, and some refused to believe a machine lay behind the replies.",
+          "The manufacturers, having invested so heavily, were reluctant to admit that the entire approach had reached a dead end.",
+          "This statistical approach had been dismissed for years as a crude shortcut, but at sufficient scale it began to do something its critics had said was impossible.",
+          "The stories of these early failures now read as quaint, but at the time they persuaded many that fluent machine conversation might simply be beyond reach.",
+          "What they could not do was carry over a fact mentioned a moment earlier, which betrayed the absence of any real memory or comprehension.",
+          "The very fluency, however, raised a troubling question: if a system can sound as though it understands without understanding at all, how would we ever tell the difference?",
+          "Some foresee tools of extraordinary usefulness; others warn of a flood of plausible misinformation that no reader will be equipped to sift.",
+          "Early telephone exchanges had faced a strikingly similar problem, though the technology involved could hardly have been more different."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing paragraph:", "answer": "D" },
+        { "stem": "Choose the missing paragraph:", "answer": "A" },
+        { "stem": "Choose the missing paragraph:", "answer": "E" },
+        { "stem": "Choose the missing paragraph:", "answer": "C" },
+        { "stem": "Choose the missing paragraph:", "answer": "F" },
+        { "stem": "Choose the missing paragraph:", "answer": "G" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 8",
+      "instructions": "You are going to read four short pieces (A–D) by people whose jobs now involve working alongside automated systems. Answer the questions by choosing the appropriate person.",
+      "sources": [
+        { "label": "A", "text": "Priya — radiographer. When the image-analysis software was introduced, I braced myself for redundancy, and I will admit the fear was real for a while. What actually happened was subtler. The system is genuinely better than I am at spotting certain faint patterns, and I have learned to defer to it there without wounded pride. But it flags a great deal that turns out to be nothing, and separating the real signal from the noise still takes a trained eye and, frankly, a feel for the patient in front of me. My worry is a different one: the trainees coming up behind me are learning to trust the machine before they have developed the judgement to overrule it, and I am not sure that judgement can be acquired any other way than the slow, old-fashioned one." },
+        { "label": "B", "text": "Tomas — long-haul lorry driver. Everyone assumes automation is about to put me out of a job, and the newspapers have been predicting it for a decade now. On the road, the reality feels a lot further off. The assistance systems are a real help on the motorway, and I am less exhausted at the end of a shift than I used to be, which matters more than people realise. But the moment anything unusual happens — roadworks, a diversion, a nervous cyclist — it all comes straight back to me, and it comes back fast. The strange part is that because the easy hours are now handled for me, I get less practice at ordinary driving, so I have to work consciously to keep my reactions sharp for the hard minutes when they finally arrive." },
+        { "label": "C", "text": "Elena — literary translator. The automatic systems have become genuinely good, good enough that a lot of routine commercial work has simply evaporated, and I would be lying if I said that had not hurt my income. Where I still earn my keep is in the places the machine cannot reach: a pun, a buried allusion, a sentence whose whole point is its ambiguity. I now spend most of my day not translating from scratch but repairing machine drafts, which is oddly harder than starting fresh, because the errors are so plausible that you can read straight past them. The skill I most rely on now is suspicion — the refusal to trust a sentence simply because it reads smoothly." },
+        { "label": "D", "text": "Marcus — small-farm manager. The sensors and the scheduling software have transformed how I run the place, and I say that as someone who resisted every bit of it at first. I water and feed according to what the data tells me, and the waste I used to accept as unavoidable has more or less disappeared. What I did not anticipate was how much I would come to enjoy the analytical side of a job I had always thought of as purely physical. My one reservation is dependence: when the system went down for three days last spring, I realised how much local knowledge I had quietly stopped carrying in my own head, and that lapse frightened me more than the lost harvest." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Priya", "Tomas", "Elena", "Marcus"] },
+      "questions": [
+        { "stem": "Which person worries that newcomers to their field may never develop the judgement to override the machine?", "answer": "A" },
+        { "stem": "Which person was alarmed to discover how much personal knowledge they had allowed the system to replace?", "answer": "D" },
+        { "stem": "Which person says that correcting the machine's work is harder than doing the work from the start?", "answer": "C" },
+        { "stem": "Which person notes that being relieved of the easy tasks has left them less practised at them?", "answer": "B" },
+        { "stem": "Which person admits that the technology has genuinely reduced their earnings?", "answer": "C" },
+        { "stem": "Which person feels less physically drained at the end of the working day than before?", "answer": "B" },
+        { "stem": "Which person was won over to a technology they had initially opposed?", "answer": "D" },
+        { "stem": "Which person concedes that the machine outperforms them at a specific part of the task?", "answer": "A" },
+        { "stem": "Which person unexpectedly came to enjoy an analytical aspect of a formerly practical job?", "answer": "D" },
+        { "stem": "Which person identifies wariness of plausible-sounding output as their most important remaining skill?", "answer": "C" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "title": "B1 Preliminary — Reading (Practice 6)",
+  "note": "All six parts are auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Parkview Swimming Pool",
+          "text": "THE MAIN POOL IS RESERVED FOR SWIMMING LESSONS BETWEEN 4PM AND 6PM ON WEEKDAYS.\nTHE SMALL POOL REMAINS OPEN TO ALL VISITORS DURING THESE HOURS.",
+          "stem": "What does the notice tell visitors?",
+          "options": ["The whole pool is closed on weekday afternoons.", "They can still use the small pool during lesson times.", "Lessons take place in the small pool after 4pm."],
+          "answer": 1
+        },
+        {
+          "kind": "message",
+          "header": "Text from Coach Dan to Ollie",
+          "text": "Ollie — Saturday's match has been moved to the away ground because ours is flooded. Kick-off is still 10am, so meet at the club by 8.45 for the bus, not at the usual pitch. Bring your boots and a change of clothes — it'll be muddy!",
+          "stem": "What does Coach Dan want Ollie to do?",
+          "options": ["Go straight to the away ground on Saturday.", "Come to the club to catch the bus to the match.", "Wait at the usual pitch as normal."],
+          "answer": 1
+        },
+        {
+          "kind": "email",
+          "from": "Green Valley Gym",
+          "to": "All members",
+          "subject": "Class booking system",
+          "body": "From next week, all exercise classes must be booked through our app in advance. Members who do not book will not be guaranteed a place, even if they arrive early. Bookings open 48 hours before each class and can be cancelled free of charge up to two hours before.",
+          "stem": "What must members now do to attend a class?",
+          "options": ["Arrive at least two hours early.", "Reserve a place using the app beforehand.", "Pay an extra fee at the door."],
+          "answer": 1
+        },
+        {
+          "kind": "sign",
+          "header": "Hillside Running Track",
+          "text": "LANES 1 AND 2 ARE FOR WALKERS AND SLOW JOGGERS.\nFASTER RUNNERS SHOULD USE THE OUTER LANES TO AVOID ACCIDENTS.",
+          "stem": "What does the sign ask faster runners to do?",
+          "options": ["Only run in lanes 1 and 2.", "Keep to the outer lanes of the track.", "Avoid using the track completely."],
+          "answer": 1
+        },
+        {
+          "kind": "note",
+          "header": "From your team-mate Sara",
+          "text": "Hi — I've borrowed your tennis racket for tomorrow's practice because mine broke. I'll bring it back to training on Thursday. Also, don't forget the coach said we all have to bring a full water bottle now — she won't let anyone play without one!",
+          "stem": "What does Sara remind you about?",
+          "options": ["To buy a new racket before Thursday.", "To bring a full bottle of water to training.", "To return her racket after practice."],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "The five people below want to try a new sport or activity. Read the descriptions of eight clubs (A–H) and decide which club would be most suitable for each person. There are three clubs you do not need to use.",
+      "sources": [
+        {
+          "label": "6",
+          "name": "Tomas",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/11.jpg\" alt=\"Tomas\" loading=\"lazy\">",
+          "text": "Tomas has a busy office job and sits all day. He wants gentle exercise that will help him relax and reduce his stress, rather than anything competitive or fast. He would prefer something calm and quiet after work."
+        },
+        {
+          "label": "7",
+          "name": "Lena",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/58.jpg\" alt=\"Lena\" loading=\"lazy\">",
+          "text": "Lena loves team sports and the excitement of competition. She played basketball at school and wants to join a proper league with regular matches against other teams. She is fit and doesn't mind training hard."
+        },
+        {
+          "label": "8",
+          "name": "Rashid",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/67.jpg\" alt=\"Rashid\" loading=\"lazy\">",
+          "text": "Rashid wants to get fit in the water but cannot swim well. He is looking for a supportive class for adults who are nervous about swimming, with a patient teacher and a small group."
+        },
+        {
+          "label": "9",
+          "name": "Chloe",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/16.jpg\" alt=\"Chloe\" loading=\"lazy\">",
+          "text": "Chloe enjoys the outdoors and wants an activity that lets her explore the countryside while getting exercise. She likes going long distances and would enjoy a group that organises trips at weekends."
+        },
+        {
+          "label": "10",
+          "name": "Viktor",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/44.jpg\" alt=\"Viktor\" loading=\"lazy\">",
+          "text": "Viktor wants to build strength and learn to defend himself. He is looking for a martial art taught by an experienced instructor and doesn't mind hard, disciplined training a couple of evenings a week."
+        }
+      ],
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Evening Yoga Circle: A calm, slow class held after work for people who want to stretch, breathe and unwind. No competition and no rush — just gentle movement in a peaceful room. Perfect for reducing stress.",
+          "City Basketball League: A serious league for keen players, with weekly training and matches against other local teams every Sunday. New members should already be fit and comfortable playing competitively.",
+          "Adult Learn-to-Swim: Small, friendly classes for grown-ups who feel nervous in the water. A patient instructor builds your confidence step by step. Beginners are especially welcome.",
+          "Weekend Ramblers: A walking club that organises long countryside hikes every Saturday and Sunday. Members explore hills, forests and coastal paths together, covering many kilometres at a steady pace.",
+          "Karate Academy: Traditional martial-arts training led by a highly experienced instructor. Two disciplined evening sessions each week build strength, focus and self-defence skills. Suitable for committed beginners.",
+          "Sunday Cycling Sprint: A fast, competitive road-cycling group for experienced riders who train for races. Long, intense rides at high speed. Not suitable for those who cycle only occasionally.",
+          "Children's Football School: Coaching for children aged six to twelve on Saturday mornings. Fun games and basic skills in a safe environment. Adults are not able to take part.",
+          "Indoor Climbing Centre: Climb tall artificial walls under the supervision of trained staff. Great upper-body exercise, though a head for heights is essential. Equipment provided."
+        ]
+      },
+      "questions": [
+        {"stem": "Tomas", "answer": "A"},
+        {"stem": "Lena", "answer": "B"},
+        {"stem": "Rashid", "answer": "C"},
+        {"stem": "Chloe", "answer": "D"},
+        {"stem": "Viktor", "answer": "E"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the article about a marathon runner and choose the best answer A, B, C or D.",
+      "passage": "Running for the last place\n\nMost people who enter a marathon dream of finishing near the front. Harold Meyer, who is seventy-three, has a very different ambition: he wants to be the last person to cross the line. \"Somebody has to come last,\" he says with a smile, \"and I've decided it should be me, on purpose.\"\n\nHarold did not run at all until he was sixty-five. After his wife died, he found himself alone in a quiet house and, on the advice of his doctor, began walking each morning to improve his health. The walks grew longer, then turned into slow jogs. \"I was astonished,\" he says. \"I had spent my whole life believing I was not a sporty person. It turned out I simply hadn't tried.\"\n\nHis decision to aim for last place came by accident. In his first marathon, he was so far behind that the organisers began packing up the finish line before he arrived. Rather than feeling embarrassed, Harold found the experience oddly moving. The few volunteers who remained cheered louder for him than for anyone else. \"I realised the back of the race is where the real kindness is,\" he explains. \"Up front it's all competition. At the back, everyone just wants you to make it.\"\n\nSince then, Harold has run eleven marathons, always taking his time and always among the last to finish. He now uses his runs to raise money for a charity that helps lonely older people. \"When I started, I was one of them,\" he admits. \"Running gave me a reason to get up, and it gave me back a sense that I mattered.\"\n\nHe has no plans to stop. \"People ask when I'll give up, and I tell them the truth: the day I can only walk, I'll walk it. The point was never speed. The point was refusing to sit down and wait for life to end.\"",
+      "questions": [
+        {"stem": "What is unusual about Harold's ambition in a marathon?", "options": ["He wants to win the race.", "He deliberately aims to finish last.", "He hopes to break a world record.", "He refuses to enter any more races."], "answer": 1},
+        {"stem": "Why did Harold start exercising at sixty-five?", "options": ["He had always loved sport.", "His doctor suggested it after his wife died.", "A friend entered him in a marathon.", "He wanted to raise money for charity."], "answer": 1},
+        {"stem": "How did Harold feel when he finished his first marathon last?", "options": ["Embarrassed in front of the crowd.", "Angry at the organisers.", "Touched by the kindness of the volunteers.", "Determined never to run again."], "answer": 2},
+        {"stem": "What does Harold do with his marathons now?", "options": ["He uses them to raise money for lonely older people.", "He trains younger runners to win.", "He tries to beat his own times.", "He organises the finish line himself."], "answer": 0},
+        {"stem": "What does Harold mean at the end of the article?", "options": ["He plans to stop running very soon.", "He cares most about his finishing time.", "He keeps going in order to stay active and involved in life.", "He regrets ever starting to run."], "answer": 2}
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 4",
+      "instructions": "Read the article about sleep and sport. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+      "passage": "Why athletes need their sleep\n\nWhen we think about how top athletes prepare for competition, we usually picture hard training, careful diets and hours in the gym. One of the most powerful tools available to them, however, costs nothing at all and happens while they are doing nothing. (16)____ Scientists now believe that sleep may be just as important to performance as exercise itself.\n\nDuring deep sleep, the body carries out vital repairs. Muscles that have been damaged by hard training are rebuilt, and the energy used during the day is restored. (17)____ An athlete who trains intensely but sleeps poorly may therefore find that they are actually getting weaker, not stronger.\n\nSleep affects the mind as well as the body. Studies have shown that tired athletes make more mistakes, react more slowly and find it harder to concentrate. (18)____ In fast sports such as tennis or football, even a tiny delay can be the difference between success and failure.\n\nDespite this, many athletes still treat sleep as something to sacrifice. They stay up late travelling, worrying about a big event or looking at their phones. (19)____ Coaches are increasingly trying to change this attitude, treating rest as a serious part of training rather than a sign of laziness.\n\nThe message from the research is simple. (20)____ For anyone hoping to perform at their best, in sport or in ordinary life, a good night's sleep may be the easiest improvement of all.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "That tool is sleep.",
+          "Without enough rest, this repair work is left unfinished.",
+          "A slower reaction time can ruin months of careful preparation.",
+          "Then they wonder why they feel exhausted the next morning.",
+          "No amount of training can fully make up for a lack of rest.",
+          "Most professional teams now employ several full-time cooks.",
+          "Younger athletes tend to recover far more slowly than older ones.",
+          "Sleeping too much is a far greater danger than sleeping too little."
+        ]
+      },
+      "questions": [
+        {"stem": "Gap 16", "answer": "A"},
+        {"stem": "Gap 17", "answer": "B"},
+        {"stem": "Gap 18", "answer": "C"},
+        {"stem": "Gap 19", "answer": "D"},
+        {"stem": "Gap 20", "answer": "E"}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 5",
+      "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+      "title": "The history of the bicycle",
+      "body": "The bicycle is one of the most useful machines ever invented, yet the first versions were nothing like the ones we ride today. Early models had no pedals at all, and riders had to (21)____ themselves along the ground with their feet. These strange machines were heavy, uncomfortable and (22)____ expensive that only rich people could buy them. It took many years of clever improvements (23)____ the bicycle became cheap and practical. Once it did, its effect on ordinary life was enormous. For the first time, people who could not (24)____ a horse were able to travel several kilometres to work or to visit friends. The bicycle also gave many women a new (25)____ of freedom, allowing them to go where they wished without depending on anyone else. Today, more than a century later, it remains one of the (26)____ ways to get around a crowded city.",
+      "questions": [
+        {"options": ["push", "pull", "throw", "carry"], "answer": 0},
+        {"options": ["too", "very", "so", "much"], "answer": 2},
+        {"options": ["until", "before", "since", "when"], "answer": 1},
+        {"options": ["offer", "afford", "spend", "pay"], "answer": 1},
+        {"options": ["feeling", "sense", "idea", "thought"], "answer": 1},
+        {"options": ["better", "best", "well", "good"], "answer": 1}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 6",
+      "instructions": "For each gap (27–32), write ONE word.",
+      "title": "Email about joining a gym",
+      "body": "Hi Marco,\n\nGuess what — I've finally joined the new gym near my flat! I've (27)____ meaning to get fit for months, and I decided to do it before the winter arrives.\n\nThe classes there are much better (28)____ the ones at my old gym, and the trainers are really helpful. There's a swimming pool too, (29)____ is exactly what I wanted.\n\nWould you like to come with me one evening this week? If (30)____ join as well, we could train together, which would make it more fun. It's always easier to keep going when someone (31)____ is there.\n\nLet me know (32)____ you're interested!\n\nSpeak soon,\nElena",
+      "questions": [
+        {"accept": ["been"]},
+        {"accept": ["than"]},
+        {"accept": ["which"]},
+        {"accept": ["you"]},
+        {"accept": ["else"]},
+        {"accept": ["if", "whether"]}
+      ]
+    }
+  ]
+}

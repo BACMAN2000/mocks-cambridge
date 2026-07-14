@@ -1,0 +1,189 @@
+{
+  "title": "B2 First — Reading and Use of English (Practice 6)",
+  "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "Rewilding a river",
+      "body": "For most of the last century, engineers dealt with troublesome rivers by forcing them into straight concrete channels, on the (1)____ that a fast, tidy river was a safe one. In recent years, that thinking has been (2)____ on its head. Faced with worsening floods, a number of towns have begun deliberately to (3)____ their rivers to bend and spread as they once did. The results have (4)____ many people by surprise. A winding river, it turns out, slows the water down and gives it somewhere to go, greatly (5)____ the risk of a sudden flood downstream. At the same time, the restored wetlands (6)____ home to insects, birds and fish that had all but disappeared. Critics initially objected that returning good farmland to marsh made no economic (7)____, but the falling cost of flood damage has largely silenced them. What was once (8)____ off as a romantic idea now looks like sober common sense.",
+      "questions": [
+        { "options": ["assumption", "guess", "belief", "opinion"], "answer": 0 },
+        { "options": ["turned", "put", "set", "thrown"], "answer": 0 },
+        { "options": ["allow", "let", "leave", "permit"], "answer": 0 },
+        { "options": ["caught", "taken", "got", "brought"], "answer": 0 },
+        { "options": ["reducing", "lowering", "dropping", "falling"], "answer": 0 },
+        { "options": ["became", "made", "turned", "grew"], "answer": 0 },
+        { "options": ["sense", "reason", "logic", "point"], "answer": 0 },
+        { "options": ["written", "put", "marked", "signed"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The problem with 'green' labels",
+      "body": "Walk down any supermarket aisle and you will be surrounded (9)____ products claiming to be natural, eco-friendly or kind to the planet. The trouble is that (10)____ of these terms has any agreed legal meaning, so a company can print them on almost anything. A shampoo described as 'green' may (11)____ fact contain the same ingredients as the version beside it, minus a leaf printed on the label. This practice, (12)____ which firms exaggerate their environmental credentials, has become so common that it has earned (13)____ own name: greenwashing. Shoppers who genuinely want to do the right thing are left with little (14)____ but to become detectives, reading the small print and distrusting the bold promises on the front. Until the rules are tightened, the safest assumption is that a claim means nothing (15)____ it can be checked. A label, after all, is written by the very people who stand (16)____ profit from your believing it.",
+      "questions": [
+        { "accept": ["by"] },
+        { "accept": ["none", "neither"] },
+        { "accept": ["in"] },
+        { "accept": ["by", "in"] },
+        { "accept": ["its"] },
+        { "accept": ["choice", "option", "alternative"] },
+        { "accept": ["unless", "until"] },
+        { "accept": ["to"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Bringing back the bees",
+      "rows": [
+        { "text": "Across the world, the steep (17)____ in bee", "root": "DECLINE" },
+        { "text": "numbers has alarmed farmers and scientists alike." },
+        { "text": "" },
+        { "text": "Bees are responsible for the (18)____ of a huge", "root": "POLLINATE" },
+        { "text": "share of the crops we depend on for food." },
+        { "text": "" },
+        { "text": "Their (19)____, therefore, would be a disaster", "root": "APPEAR" },
+        { "text": "far beyond the loss of honey." },
+        { "text": "" },
+        { "text": "The causes are complex, but the (20)____ use of", "root": "CARE" },
+        { "text": "certain pesticides is widely blamed." },
+        { "text": "" },
+        { "text": "Fortunately, ordinary gardeners can make a", "root": "" },
+        { "text": "(21)____ contribution simply by planting flowers.", "root": "MEAN" },
+        { "text": "" },
+        { "text": "Even a small city balcony can become a valuable", "root": "" },
+        { "text": "(22)____ for these hard-working insects.", "root": "REFUGE" },
+        { "text": "" },
+        { "text": "Conservationists stress the (23)____ of acting", "root": "URGENT" },
+        { "text": "before the losses become impossible to reverse." },
+        { "text": "" },
+        { "text": "With enough (24)____ effort, they insist, the", "root": "COLLECT" },
+        { "text": "decline could still be slowed or even halted." }
+      ],
+      "questions": [
+        { "root": "DECLINE", "accept": ["decline"] },
+        { "root": "POLLINATE", "accept": ["pollination"] },
+        { "root": "APPEAR", "accept": ["disappearance"] },
+        { "root": "CARE", "accept": ["careless"] },
+        { "root": "MEAN", "accept": ["meaningful"] },
+        { "root": "REFUGE", "accept": ["refuge"] },
+        { "root": "URGENT", "accept": ["urgency"] },
+        { "root": "COLLECT", "accept": ["collective"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+      "questions": [
+        {
+          "before": "People say that the river was once full of salmon.",
+          "keyword": "SAID",
+          "after": "The river ___ once full of salmon.",
+          "accept": ["is said to have been"]
+        },
+        {
+          "before": "We should have acted on the warnings much sooner.",
+          "keyword": "OUGHT",
+          "after": "We ___ on the warnings much sooner.",
+          "accept": ["ought to have acted"]
+        },
+        {
+          "before": "The factory has polluted the bay for years.",
+          "keyword": "BEEN",
+          "after": "The bay ___ by the factory for years.",
+          "accept": ["has been polluted"]
+        },
+        {
+          "before": "If people don't reduce waste, the problem will get worse.",
+          "keyword": "UNLESS",
+          "after": "The problem will get worse ___ waste.",
+          "accept": ["unless people reduce"]
+        },
+        {
+          "before": "The council didn't ban the pesticide, and the bees died.",
+          "keyword": "HAD",
+          "after": "If the council ___ the pesticide, the bees might have survived.",
+          "accept": ["had banned"]
+        },
+        {
+          "before": "Nobody expected the forest to recover so quickly.",
+          "keyword": "EXPECTED",
+          "after": "The forest recovered far more quickly ___.",
+          "accept": ["than anybody expected", "than anyone expected", "than expected"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The trouble with recycling\n\nFor a generation, recycling has enjoyed a peculiar status among environmental actions: it is the one thing almost everybody agrees on. Separating our bottles and boxes feels virtuous, requires little sacrifice, and comes with the reassuring sense that our waste is being reborn as something useful. It is precisely this comfort, some environmentalists now argue, that has made recycling quietly dangerous — not because the process itself is harmful, but because of what it allows us to avoid thinking about.\n\nThe first problem is that recycling works far less well than most people imagine. A great deal of what we carefully place in the correct bin is never recycled at all. Some of it is too dirty; some is made of mixed materials that no facility can separate economically; some is shipped abroad, where a portion is simply dumped. Certain materials, glass and metal among them, can indeed be reprocessed many times with little loss of quality. But most plastic cannot. Each time it is recycled it degrades, and after a cycle or two it is fit only for landfill. The image of an endless, closed loop, in which a bottle becomes a bottle becomes a bottle forever, is for most plastics a comforting fiction.\n\nThe deeper problem is psychological. Because recycling feels like a complete solution, it can quietly license the very behaviour that causes the problem. A shopper who knows that a plastic container is 'recyclable' may buy it with an untroubled conscience, when the environmentally superior choice would have been not to buy it at all. Researchers have found that simply providing a recycling bin can increase the amount of material people use, as though the option to recycle cancels out the cost of consuming. The bin, meant to reduce waste, ends up encouraging it.\n\nNone of this means we should stop recycling; a badly recycled bottle is still better than one thrown in a river. The argument is about proportion and honesty. Recycling sits at the bottom of a well-known hierarchy that environmentalists have promoted for decades, one that begins with two far more powerful steps: reduce and reuse. Using less in the first place, and using things again before discarding them, prevent waste rather than merely processing it. Yet these are the steps we hear least about, precisely because they demand something of us. Recycling asks only that we sort our rubbish correctly; reducing asks that we consume less, which is a harder message to sell and an unwelcome one to hear.\n\nThe convenient truth is that recycling has become a way of feeling responsible without being inconvenienced. It has allowed manufacturers to keep producing disposable goods and consumers to keep buying them, each side reassured that the resulting mountain of packaging will somehow be taken care of. Real progress, the critics suggest, will begin only when we stop treating recycling as the answer and start treating it as what it actually is: a last resort, useful but limited, for the waste we failed to prevent.",
+      "questions": [
+        { "stem": "Why do some environmentalists now consider recycling 'quietly dangerous'?", "options": ["Because the recycling process poisons the environment.", "Because it lets us avoid thinking about reducing waste in the first place.", "Because it is illegal in many countries.", "Because nobody actually does it."], "answer": 1 },
+        { "stem": "What does the writer say about the recycling of plastic?", "options": ["It can be reprocessed endlessly without loss.", "It degrades each time and soon becomes fit only for landfill.", "It is better than recycling glass or metal.", "It is never sent abroad."], "answer": 1 },
+        { "stem": "What did researchers find about providing a recycling bin?", "options": ["It always reduces the amount people consume.", "It can increase how much material people use.", "It has no effect on behaviour.", "It makes people recycle less."], "answer": 1 },
+        { "stem": "According to the writer, what is the writer's attitude to recycling itself?", "options": ["We should stop recycling entirely.", "Recycling is still worthwhile but should not be treated as a complete solution.", "Recycling is the single most powerful environmental action.", "Recycling is harmful and should be banned."], "answer": 1 },
+        { "stem": "Why do we hear less about 'reduce' and 'reuse'?", "options": ["Because they do not work.", "Because they demand more of us and are a harder message to sell.", "Because they are more expensive than recycling.", "Because scientists disagree about them."], "answer": 1 },
+        { "stem": "What does the phrase 'a way of feeling responsible without being inconvenienced' suggest about recycling?", "options": ["That it solves the waste problem completely.", "That it offers reassurance while allowing wasteful habits to continue.", "That it is extremely difficult for most people.", "That it should replace all other measures."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+      "passage": "The farm beneath the city\n\nDeep below the streets of the capital, in tunnels once used to shelter people during wartime, rows of green leaves are growing under bright pink lights. (37)____ There is no soil and no sunshine, yet the plants are thriving, and every week they are harvested and delivered to restaurants directly overhead.\n\nThis is an example of vertical farming, a method that grows crops in stacked layers indoors rather than spread across open fields. Its supporters make striking claims. (38)____ Because the plants are grown so close to where they are eaten, almost nothing is lost to the long journeys that food normally endures.\n\nThe environmental arguments are genuinely impressive. Such farms use a tiny fraction of the water that ordinary agriculture requires, since the same water is captured and reused rather than soaking away into the ground. (39)____ Nor do they need pesticides, because the sealed indoor environment simply keeps pests out.\n\nYet the critics are far from convinced, and their objection comes down to a single word: electricity. (40)____ Those pink lamps, glowing day and night, consume enormous amounts of power, and unless that power comes from clean sources, the environmental benefit can vanish entirely.\n\nThere is also the question of what can actually be grown. (41)____ Leafy greens and herbs flourish under the lamps, but staple crops such as wheat and rice, which feed most of the world, remain hopelessly uneconomic to produce this way.\n\nFor now, then, the underground farm is best seen as a promising experiment rather than a revolution. (42)____ Whether it can ever feed a city, rather than merely garnish its dinner plates, is a question that only cheaper, cleaner energy will answer.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "The scene looks more like a laboratory than a field.",
+          "A single warehouse, they say, can out-produce many acres of farmland.",
+          "The same is true of the land itself, of which very little is needed.",
+          "Sunlight is free, but artificial light is not.",
+          "The range of profitable crops is, at present, narrow.",
+          "It succeeds brilliantly at a small and specialised task.",
+          "The tunnels are far too dark for anything to grow in them.",
+          "All of the world's wheat is now grown in such tunnels."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing sentence:", "answer": "A" },
+        { "stem": "Choose the missing sentence:", "answer": "B" },
+        { "stem": "Choose the missing sentence:", "answer": "C" },
+        { "stem": "Choose the missing sentence:", "answer": "D" },
+        { "stem": "Choose the missing sentence:", "answer": "E" },
+        { "stem": "Choose the missing sentence:", "answer": "F" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "Read about four people who made a change to live more sustainably. Then answer the questions. The same person may be chosen more than once.",
+      "sources": [
+        { "label": "A", "name": "Lena", "text": "I gave up flying four years ago, and I want to be clear that I do not think this makes me a better person than anyone else. It was simply a line I decided to draw for myself. The hardest part was not the long train journeys, which I have grown to love, but the reaction of other people, who seemed to take my choice as an accusation aimed at them, when it was nothing of the kind. I have learned to say very little about it. What surprised me was how much I gained: I see far more of the countries I pass through, I arrive rested rather than frazzled, and I have rediscovered the pleasure of a journey that is part of the holiday rather than an ordeal to be survived before it." },
+        { "label": "B", "name": "Tomas", "text": "Everyone assumes I went vegetarian for the animals, and I always feel slightly awkward admitting that the animals were not really my motivation. It was the climate figures that did it; I read that a single change to my diet would cut my personal emissions more than almost anything else I could realistically do, and as someone who likes evidence, I could not argue with the numbers. I miss meat, honestly, more than the enthusiasts ever admit they do, and I am not going to pretend the food is always exciting. But I made a decision based on the data and I intend to stick to it, because backing out now would mean the reasoning was never serious in the first place." },
+        { "label": "C", "name": "Priya", "text": "My change was less about giving things up and more about learning to mend them. I taught myself to sew, to fix a bicycle, to repair the small electrical things that break constantly and that we are all encouraged to throw away. I will admit the first repairs were disasters and I ruined several items that were probably beyond saving anyway. But the skills built quickly, and there is a deep, old-fashioned satisfaction in bringing a dead object back to life that shopping has never once given me. My grandmother could do all of this without thinking, and somewhere in two generations we simply forgot how. I feel, oddly, as though I have inherited something that was nearly lost." },
+        { "label": "D", "name": "Oscar", "text": "I run a café, and the change I made was to cut the waste we threw out every night, which frankly used to horrify me. We now give away anything unsold at the end of the day through an app, we compost the rest, and we have redesigned the menu around ingredients that do not spoil so fast. I did it partly out of conscience, but I would be lying if I pretended money played no part; our costs have fallen noticeably since we stopped buying food we only threw away. What I did not anticipate was how much our customers would care. Several told me they now choose us specifically because of it, which was never the plan but is hardly unwelcome." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Lena", "Tomas", "Priya", "Oscar"] },
+      "questions": [
+        { "stem": "Which person was motivated mainly by scientific data rather than emotion?", "answer": "B" },
+        { "stem": "Which person feels they have recovered a skill that had almost been lost between generations?", "answer": "C" },
+        { "stem": "Which person admits that saving money was part of their motivation?", "answer": "D" },
+        { "stem": "Which person found that other people reacted to their choice as if it were a criticism?", "answer": "A" },
+        { "stem": "Which person is honest about missing something they gave up?", "answer": "B" },
+        { "stem": "Which person unexpectedly attracted more custom because of the change?", "answer": "D" },
+        { "stem": "Which person now enjoys the process of travelling more than they used to?", "answer": "A" },
+        { "stem": "Which person says their earliest attempts ended in failure?", "answer": "C" },
+        { "stem": "Which person stresses that their choice was personal and not aimed at judging others?", "answer": "A" },
+        { "stem": "Which person argues that abandoning the change now would undermine their original reasoning?", "answer": "B" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "title": "B1 Preliminary — Reading (Practice 5)",
+  "note": "All six parts are auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Techtown Repair Shop",
+          "text": "PHONE SCREENS CAN USUALLY BE REPLACED WHILE YOU WAIT.\nREPAIRS THAT NEED SPECIAL PARTS MAY TAKE UP TO THREE DAYS. WE WILL PHONE YOU WHEN YOUR DEVICE IS READY.",
+          "stem": "What does the notice tell customers?",
+          "options": ["All repairs are completed while the customer waits.", "The shop will contact customers whose repairs take longer.", "Screens can only be replaced within three days."],
+          "answer": 1
+        },
+        {
+          "kind": "message",
+          "header": "Text from Amir to Grace",
+          "text": "Grace — I've shared the group project document with you, but I think you're editing the old version. Delete the file I sent last week and use the new link in your email instead, or our changes won't match. Let me know once you've swapped over.",
+          "stem": "Why is Amir writing to Grace?",
+          "options": ["To ask her to start using the correct version of the document.", "To tell her the project deadline has changed.", "To warn her that the document has been deleted by mistake."],
+          "answer": 0
+        },
+        {
+          "kind": "email",
+          "from": "Sunrise Fitness App",
+          "to": "Free members",
+          "subject": "Changes to your account",
+          "body": "From the first of next month, the free version of our app will no longer include downloadable workout videos. You will still be able to stream them online. To keep downloading videos for offline use, you can upgrade to a paid plan at any time.",
+          "stem": "What is changing for free members?",
+          "options": ["They will no longer be able to watch any videos.", "They will only be able to watch videos while online.", "They must pay to use the app at all."],
+          "answer": 1
+        },
+        {
+          "kind": "sign",
+          "header": "Central Library — Computer Room",
+          "text": "COMPUTERS MAY BE USED FREE OF CHARGE FOR UP TO ONE HOUR.\nPRINTING COSTS 10p PER PAGE AND MUST BE PAID FOR AT THE MAIN DESK.",
+          "stem": "What does the sign say about using the computers?",
+          "options": ["Printing is included in the free hour.", "Using a computer is free, but printing must be paid for.", "Computers can only be used after paying at the desk."],
+          "answer": 1
+        },
+        {
+          "kind": "note",
+          "header": "From Mum",
+          "text": "Tom — the new smart speaker arrived while you were out. I've left the box on your desk. Don't set it up until I'm home tonight — I want to connect it to my account, not yours. There's pizza in the fridge if you're hungry before then.",
+          "stem": "What does Mum ask Tom not to do?",
+          "options": ["Open the box on his desk.", "Eat the pizza in the fridge.", "Set up the speaker before she returns."],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "The five people below want to buy a new device. Read the descriptions of eight devices (A–H) and decide which device would be most suitable for each person. There are three devices you do not need to use.",
+      "sources": [
+        {
+          "label": "6",
+          "name": "Yuki",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/44.jpg\" alt=\"Yuki\" loading=\"lazy\">",
+          "text": "Yuki reads a great deal and wants something light that she can carry everywhere and read on for hours. She dislikes bright screens that tire her eyes, and battery life matters far more to her than colour or games."
+        },
+        {
+          "label": "7",
+          "name": "Bruno",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/25.jpg\" alt=\"Bruno\" loading=\"lazy\">",
+          "text": "Bruno is a keen runner who wants to record his distance, speed and heart rate without carrying his phone. He wants something small he can wear on his wrist, and it must survive rain and sweat."
+        },
+        {
+          "label": "8",
+          "name": "Amara",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/33.jpg\" alt=\"Amara\" loading=\"lazy\">",
+          "text": "Amara is starting an online design course and needs a powerful machine with a large, clear screen for drawing and editing photos. She works at a desk at home and does not need it to be light or portable."
+        },
+        {
+          "label": "9",
+          "name": "Felix",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/38.jpg\" alt=\"Felix\" loading=\"lazy\">",
+          "text": "Felix travels a lot for work and wants to listen to music and podcasts on noisy planes and trains. Sound quality is important to him, and he would like something that blocks out background noise."
+        },
+        {
+          "label": "10",
+          "name": "Nia",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/9.jpg\" alt=\"Nia\" loading=\"lazy\">",
+          "text": "Nia wants to make short videos of her cooking to share online. She needs a device that films in high quality and is easy to hold steady with one hand while she works. Price is not a big concern."
+        }
+      ],
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "E-Reader Lite: A very light tablet made only for reading. Its special screen looks like paper and is gentle on the eyes even in bright sun. The battery lasts for weeks on a single charge.",
+          "FitBand Pro: A small waterproof wristband that tracks your running distance, pace and heart rate. It works without a phone nearby and is designed for athletes who train in all weather.",
+          "DeskPower Studio: A large desktop computer with a big, sharp screen, built for photo editing and design work. Heavy and not portable, but extremely fast and powerful for creative tasks.",
+          "SilentSound Headphones: Comfortable headphones that block out background noise, perfect for travel. Rich, clear sound and a long battery make them ideal for long journeys by plane or train.",
+          "CineCam Handy: A high-quality video camera small enough to hold in one hand, with a grip that keeps footage steady. Popular with people who film themselves for social media.",
+          "GameStation X: A powerful console for playing the latest video games on a television. Not suitable for reading, exercise or filming; designed purely for gaming at home.",
+          "BudgetTab Mini: A cheap, basic tablet for browsing the internet and watching videos. The screen is small and the battery is short, but it is very affordable.",
+          "SmartHome Hub: A small speaker that controls lights and other devices in your house using your voice. It does not play high-quality music or record video."
+        ]
+      },
+      "questions": [
+        {"stem": "Yuki", "answer": "A"},
+        {"stem": "Bruno", "answer": "B"},
+        {"stem": "Amara", "answer": "C"},
+        {"stem": "Felix", "answer": "D"},
+        {"stem": "Nia", "answer": "E"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the article about a young app developer and choose the best answer A, B, C or D.",
+      "passage": "The app that started as homework\n\nWhen Priya Sharma was seventeen, she found it almost impossible to keep track of her school assignments. Notes were scattered across paper diaries, group chats and her phone, and she was constantly missing deadlines. \"I wasn't lazy,\" she says. \"I just couldn't see everything in one place. One evening I decided that if no app did what I needed, I would try to build one myself.\"\n\nShe had never written a line of computer code before. For three months she taught herself programming from free videos online, staying up late after her homework was done. Her first attempts, she admits, were terrible. \"The app kept crashing, the buttons didn't work, and I nearly deleted the whole thing more than once. But every time I fixed a small problem, I wanted to fix the next one.\"\n\nThe finished app was simple: it collected all of a student's tasks into a single clear list and sent a reminder the day before anything was due. Priya shared it with a few classmates, expecting little. Within a fortnight, half her year group was using it, and teachers had begun to notice that homework was being handed in on time. \"That was the moment I realised I had made something useful, not just something clever,\" she says.\n\nToday, tens of thousands of students use the app, and Priya has turned down offers to fill it with advertisements. \"I could make money that way, but it would ruin the thing that people like about it — that it's calm and clean and doesn't shout at you.\" She is now studying computer science at university, though she insists the degree matters less than the lesson she learned at seventeen. \"You don't need permission to solve your own problem,\" she says. \"You just need to start, and to accept that the first version will be bad.\"",
+      "questions": [
+        {"stem": "Why did Priya decide to build her own app?", "options": ["Her teacher asked her to make one.", "She could not keep her tasks organised in one place.", "She wanted to become famous online.", "She was bored with her school subjects."], "answer": 1},
+        {"stem": "What does Priya say about learning to program?", "options": ["She had studied it at school for years.", "She taught herself using free online videos.", "A friend showed her how to do it.", "She found it easy from the very start."], "answer": 1},
+        {"stem": "How did Priya feel about her first attempts at the app?", "options": ["She was proud of how well they worked.", "They were poor, but each fix encouraged her to continue.", "She gave up on them completely.", "She thought they were good enough to sell."], "answer": 1},
+        {"stem": "What made Priya realise the app was truly useful?", "options": ["A company offered to buy it.", "Students began handing in work on time.", "Her teachers wrote the code for her.", "It appeared in the news."], "answer": 1},
+        {"stem": "Why has Priya refused to add advertisements to the app?", "options": ["Advertising is not allowed for students.", "It would spoil the calm, clean feeling users enjoy.", "She does not know how to add them.", "The app already earns enough money."], "answer": 1}
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 4",
+      "instructions": "Read the article about video calls. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+      "passage": "How video calls changed the way we work\n\nNot so long ago, seeing the face of someone in another country during a phone call felt like something from science fiction. (16)____ Today, millions of people speak to colleagues, friends and family through video every single day, often without giving it a second thought.\n\nThe technology itself is not entirely new. Engineers built the first video telephones more than half a century ago, but they were enormous, expensive and worked badly. (17)____ For decades, the idea remained a curiosity rather than a useful tool.\n\nWhat changed everything was the arrival of fast internet and cheap cameras built into ordinary computers and phones. Suddenly a video call cost nothing and could be made from almost anywhere. (18)____ Businesses were quick to see the advantages, holding meetings between offices on different continents without the cost of flights.\n\nThe change has not been entirely positive, however. Many workers complain that they now spend hours each day staring at a screen full of faces, and that this is more tiring than meeting in person. (19)____ Some companies have even introduced days on which video calls are banned, to give staff a rest.\n\nStill, few people would want to go back. Video calling has allowed families separated by thousands of kilometres to share meals, birthdays and bedtime stories. (20)____ For all its faults, it has made the world feel a good deal smaller.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Only a handful of large companies could afford to use them at all.",
+          "For many families, this connection is worth far more than any business meeting.",
+          "Researchers have even given this feeling of exhaustion a special name.",
+          "The number of people making such calls grew astonishingly fast.",
+          "Yet in the space of a few years it became completely ordinary.",
+          "Most early users found the picture too blurry to be of any use.",
+          "The first mobile phones could not send pictures at all.",
+          "Traditional letters remain the most popular way to keep in touch."
+        ]
+      },
+      "questions": [
+        {"stem": "Gap 16", "answer": "E"},
+        {"stem": "Gap 17", "answer": "A"},
+        {"stem": "Gap 18", "answer": "D"},
+        {"stem": "Gap 19", "answer": "C"},
+        {"stem": "Gap 20", "answer": "B"}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 5",
+      "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+      "title": "The rise of online maps",
+      "body": "Twenty years ago, most drivers kept a thick paper map folded in the car, and getting lost in an unfamiliar town was a common (21)____. Today, almost everyone simply types an address into a phone and (22)____ a voice telling them exactly where to turn. These digital maps have become so reliable that many young people have never learned to read a printed one at (23)____. The change has clear advantages: journeys are faster, and it is far (24)____ to find a small street in a foreign city. Yet some experts worry that we are beginning to (25)____ too heavily on the technology. When the signal disappears, or the battery dies, people who once found their way easily can suddenly feel completely (26)____.",
+      "questions": [
+        {"options": ["experience", "adventure", "event", "accident"], "answer": 0},
+        {"options": ["listens", "follows", "hears", "obeys"], "answer": 1},
+        {"options": ["all", "once", "least", "last"], "answer": 0},
+        {"options": ["easier", "harder", "simpler", "quicker"], "answer": 0},
+        {"options": ["depend", "trust", "rely", "count"], "answer": 2},
+        {"options": ["missed", "lost", "gone", "empty"], "answer": 1}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 6",
+      "instructions": "For each gap (27–32), write ONE word.",
+      "title": "Message about a new laptop",
+      "body": "Hi Daniel,\n\nThanks for helping me choose my new laptop last week — it (27)____ arrived this morning! It's much faster (28)____ my old one, and the screen is beautiful.\n\nThe only problem is that I (29)____ not sure how to move my files across from the old computer. Could you show me (30)____ to do it when you have time? I don't want to lose any of my photos.\n\nI'm free (31)____ Saturday afternoon if that suits you. Let me know, and I'll (32)____ the coffee!\n\nThanks again,\nRosa",
+      "questions": [
+        {"accept": ["has", "just"]},
+        {"accept": ["than"]},
+        {"accept": ["am"]},
+        {"accept": ["how"]},
+        {"accept": ["on", "this"]},
+        {"accept": ["make", "buy", "get", "bring"]}
+      ]
+    }
+  ]
+}

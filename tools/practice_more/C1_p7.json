@@ -1,0 +1,192 @@
+{
+  "title": "C1 Advanced — Reading and Use of English (Practice 7)",
+  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The slow death of boredom",
+      "body": "There was a time, not so long ago, when boredom was simply a (1)____ of everyday life. Waiting for a bus, standing in a queue or sitting through a dull afternoon, we had little choice but to (2)____ ourselves with our own thoughts for company. The smartphone has all but (3)____ these empty moments, filling every gap in the day with an inexhaustible stream of distraction. On the (4)____ of it, this looks like pure progress: who, after all, would choose to be bored? Yet a growing number of psychologists have begun to argue that we may be losing something (5)____ in the bargain. Boredom, they suggest, is not merely an absence to be eliminated but a state with its own quiet (6)____. It is in those unstructured, empty stretches that the mind (7)____ , makes unexpected connections and stumbles upon ideas that a constantly stimulated brain would never have (8)____. A life without a single dull moment, it turns out, may also be a life without room to think.",
+      "questions": [
+        { "options": ["feature", "habit", "routine", "custom"], "answer": 0 },
+        { "options": ["fill", "occupy", "spend", "load"], "answer": 1 },
+        { "options": ["cancelled", "abolished", "refused", "denied"], "answer": 1 },
+        { "options": ["surface", "face", "front", "side"], "answer": 1 },
+        { "options": ["valuable", "expensive", "costly", "wealthy"], "answer": 0 },
+        { "options": ["price", "value", "charge", "fee"], "answer": 1 },
+        { "options": ["wanders", "strays", "escapes", "flees"], "answer": 0 },
+        { "options": ["produced", "provided", "delivered", "supplied"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The economics of attention",
+      "body": "Economists have long studied the allocation of scarce resources, but only recently have they turned their (9)____ to the scarcest resource of all: human attention. There is (10)____ limit to the amount of content the internet can produce, (11)____ there are only so many hours in the day, and only so much any of us can attend (12)____ at once. This simple asymmetry has given (13)____ to an entire industry devoted to capturing and holding our gaze. The more time we spend looking, the more advertising can be sold, (14)____ means that the platforms competing for our attention have every incentive to make themselves as hard to put (15)____ as possible. Understanding this is the first step (16)____ taking back some measure of control over where our minds actually go.",
+      "questions": [
+        { "accept": ["attention"] },
+        { "accept": ["no"] },
+        { "accept": ["but", "yet"] },
+        { "accept": ["to"] },
+        { "accept": ["rise", "birth"] },
+        { "accept": ["which"] },
+        { "accept": ["down"] },
+        { "accept": ["to", "towards", "in"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "The value of urban green space",
+      "rows": [
+        { "text": "Access to parks and gardens has a measurable (17)____ effect on the mental health of city dwellers.", "root": "BENEFIT" },
+        { "text": "Researchers have documented a clear (18)____ between time spent outdoors and reduced anxiety.", "root": "RELATE" },
+        { "text": "Unfortunately, green space is often distributed with striking (19)____ across a single city.", "root": "EQUAL" },
+        { "text": "The mere (20)____ of a neighbourhood park can raise the value of every home around it.", "root": "PRESENT" },
+        { "text": "Planners are increasingly (21)____ of the need to build nature into the city rather than around it.", "root": "MIND" },
+        { "text": "A well-designed park is remarkably (22)____ , serving joggers, families and commuters alike.", "root": "ADAPT" },
+        { "text": "The (23)____ of trees along a street can lower the temperature noticeably on a hot day.", "root": "ABUNDANT" },
+        { "text": "Once lost, mature trees are effectively (24)____ , taking decades to replace.", "root": "REPLACE" }
+      ],
+      "questions": [
+        { "root": "BENEFIT", "accept": ["beneficial"] },
+        { "root": "RELATE", "accept": ["relationship"] },
+        { "root": "EQUAL", "accept": ["inequality"] },
+        { "root": "PRESENT", "accept": ["presence"] },
+        { "root": "MIND", "accept": ["mindful"] },
+        { "root": "ADAPT", "accept": ["adaptable"] },
+        { "root": "ABUNDANT", "accept": ["abundance"] },
+        { "root": "REPLACE", "accept": ["irreplaceable"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+      "questions": [
+        {
+          "before": "I'm certain it was Marcus who took the keys.",
+          "keyword": "MUST",
+          "after": "Marcus ___ the keys.",
+          "accept": ["must have taken"]
+        },
+        {
+          "before": "Despite the heavy rain, the match went ahead.",
+          "keyword": "SPITE",
+          "after": "The match went ahead ___ the heavy rain.",
+          "accept": ["in spite of"]
+        },
+        {
+          "before": "People say the castle is over 800 years old.",
+          "keyword": "SAID",
+          "after": "The castle ___ over 800 years old.",
+          "accept": ["is said to be"]
+        },
+        {
+          "before": "I only realised the mistake after I had sent the email.",
+          "keyword": "UNTIL",
+          "after": "It ___ after sending the email that I realised the mistake.",
+          "accept": ["was not until", "wasn't until"]
+        },
+        {
+          "before": "She would prefer you not to mention the incident.",
+          "keyword": "SOONER",
+          "after": "She ___ the incident.",
+          "accept": ["would sooner you didn't mention", "would sooner you did not mention"]
+        },
+        {
+          "before": "The success of the project depends on everyone cooperating.",
+          "keyword": "WHETHER",
+          "after": "___ succeeds depends on everyone cooperating.",
+          "accept": ["whether the project"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The myth of the lone genius\n\nWe love a good origin story, and few are more seductive than the one about the lone genius. A solitary figure, misunderstood by their contemporaries, labours in isolation until a flash of unaided brilliance changes the world. It is a story we tell about scientists, artists and inventors alike, and it is almost entirely false. The more closely historians examine the great breakthroughs of the past, the more crowded the picture becomes, until the solitary hero all but disappears into the crowd that made the work possible.\n\nConsider the way we credit invention. The light bulb, the telephone, the aeroplane — each is popularly attached to a single name, yet each was in fact the culmination of decades of incremental work by dozens of people, many of them arriving at strikingly similar solutions at almost the same moment. The famous figure was often less the sole originator than the one who assembled existing pieces most effectively, or simply the one who happened to secure the patent first. History, needing a face for its stories, quietly edits out the supporting cast.\n\nWhy, then, does the myth persist so stubbornly? Part of the answer is that it flatters us. The idea that genius is a rare and inborn gift, granted to a chosen few, relieves the rest of us of any obligation to try. If breakthroughs are the work of superhuman individuals, then our own ordinariness is excused. The myth also makes for a far better story than the truth, which tends to involve committees, gradual refinement and a great deal of unglamorous collaboration. A tale of one heroic mind is simply more memorable than an accurate account of many.\n\nThe consequences of believing the myth are not trivial. Organisations that go hunting for a single visionary to solve their problems often overlook the collaborative conditions in which good ideas actually form. Individuals, meanwhile, may abandon promising work the moment it fails to arrive in a single blinding flash, mistaking the ordinary grind of creation for evidence that they lack the gift. The myth, in other words, does not merely misdescribe how innovation happens; it can actively prevent it.\n\nNone of this diminishes genuine talent, which plainly exists and matters. The point is subtler: that talent does its work within a web of collaborators, predecessors and lucky circumstances, and that removing any single strand of that web would often have left the celebrated achievement undone. The lone genius makes a wonderful story. But if we want to understand where great ideas actually come from — and, more usefully, how to encourage more of them — we would do far better to look at the crowd than at the hero standing in front of it.",
+      "questions": [
+        { "stem": "What is the writer's main claim about the 'lone genius' story?", "options": ["That it accurately describes most breakthroughs.", "That it is seductive but almost entirely false.", "That it applies to scientists but not artists.", "That it has only recently become popular."], "answer": 1 },
+        { "stem": "What does the writer say about famous inventors?", "options": ["They usually worked in complete isolation.", "They were often the one who assembled existing pieces or secured the patent first.", "They rarely deserved any credit at all.", "They always arrived at their ideas before anyone else."], "answer": 1 },
+        { "stem": "According to the writer, one reason the myth persists is that it", "options": ["is supported by the historical evidence.", "flatters us by excusing our own ordinariness.", "is promoted mainly by scientists.", "is too complex to be easily disproved."], "answer": 1 },
+        { "stem": "Why does the writer prefer the myth to the truth as a story?", "options": ["Because the truth is impossible to establish.", "Because a tale of one heroic mind is more memorable than an account of many.", "Because collaboration never actually occurs.", "Because committees produce better stories."], "answer": 1 },
+        { "stem": "What practical harm does believing the myth cause, according to the writer?", "options": ["It makes people work too hard in groups.", "It leads people to abandon work that does not arrive in a sudden flash.", "It prevents anyone from ever being credited.", "It causes organisations to avoid hiring talented people."], "answer": 1 },
+        { "stem": "What is the writer's final position on talent?", "options": ["That talent does not exist.", "That talent matters but operates within a web of collaborators and circumstances.", "That the lone hero deserves all the credit after all.", "That collaboration is unimportant to innovation."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "Read four short opinion pieces (A–D) on the same topic: whether the shift to working from home has been good for society. Then answer the questions.",
+      "sources": [
+        { "label": "A", "text": "The enthusiasm for home working strikes me as dangerously short-sighted. Yes, the commute is tiresome and the office can be a distraction, but something vital is lost when colleagues never share a room. The casual conversation by the kettle, the overheard problem that you happen to be able to solve, the slow building of trust that only proximity allows — none of this survives a screen. We are trading the messy, generative friction of shared space for a frictionless efficiency that produces less than it appears to. The costs are simply harder to measure than the savings, and so they are quietly ignored." },
+        { "label": "B", "text": "I understand the nostalgia for the office, but I think it romanticises an arrangement that suited employers far more than employees. For millions of people, home working has meant hours of life reclaimed from the commute, more time with their children, and freedom from the petty surveillance of a manager watching the clock. The claim that creativity requires everyone to be in the same building is asserted far more often than it is demonstrated. If anything, being trusted to manage one's own time has made people more productive, not less, whatever the anxious traditionalists insist." },
+        { "label": "C", "text": "Both sides of this argument make the same mistake, which is to talk as though there were a single right answer that applies to everyone. The truth is that it depends entirely on the work, the person and the stage of their career. A junior employee learning the ropes genuinely benefits from being around experienced colleagues in a way that no video call can replicate; a seasoned expert doing focused solo work may be far better off at home. Insisting on one model for all is the real error, whichever model you happen to prefer." },
+        { "label": "D", "text": "What worries me is a consequence that neither camp seems to discuss: the effect on the cities themselves. When offices empty out, so do the cafés, shops and transport networks that grew up to serve them, and the lively centres we took for granted begin to hollow out. Whether home working is pleasant for the individual worker is almost beside the point. The deeper question is what happens to the shared public life of a place when large numbers of people simply stop showing up to it, and on that, I am distinctly pessimistic." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which writer argues that the right arrangement depends on the individual and their circumstances?", "answer": "C" },
+        { "stem": "Which writer is chiefly concerned with the impact on cities rather than on individual workers?", "answer": "D" },
+        { "stem": "Which writer believes the benefits of home working have been unfairly downplayed?", "answer": "B" },
+        { "stem": "Which writer regrets the loss of the informal interactions that shared space allows?", "answer": "A" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+      "passage": "The serious science of laughter\n\nLaughter is one of the most familiar things human beings do, and one of the least understood. We tend to think of it as a simple response to humour, but the more closely scientists examine it, the stranger it turns out to be. (41)____\n\nThe first surprise is that laughter is overwhelmingly social. Studies that recorded when and why people actually laughed found that the great majority of laughter had little to do with jokes at all. (42)____\n\nA second puzzle concerns how involuntary laughter really is. We like to think we laugh because something is funny, yet the trigger is often not humour but connection. (43)____\n\nMost intriguing of all is what laughter appears to do between people rather than within them. Far from being a mere reaction, it functions as a kind of social glue, a rapid, wordless signal that says: we are alright, we are together, there is no threat here. (44)____\n\nThis social function may explain a fact that has long puzzled researchers: laughter is astonishingly contagious. (45)____ It is why comedy is so much funnier in a full theatre than alone at home, and why recorded laughter, however artificial, still tugs at us.\n\nNone of this means that jokes are irrelevant, of course. (46)____ But it does suggest that we have the whole phenomenon slightly backwards. Laughter is not primarily a response to comedy; comedy is one of the many things we have invented to give ourselves an excuse to do something we were always going to do anyway.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Far more of it accompanied ordinary conversation, greetings and shared attention, the everyday business of being together.",
+          "Hearing others laugh makes us far more likely to laugh ourselves, whether or not we know what they are laughing about.",
+          "Behind this everyday act, it emerges, lies a piece of deep social machinery far older than language itself.",
+          "People are around thirty times more likely to laugh in company than when they are entirely alone.",
+          "A good joke can certainly set the whole process going, and a well-timed one is a real skill.",
+          "By the same logic, laughing at someone rather than with them is such a wounding act precisely because it inverts this signal of belonging.",
+          "Laughter has now been almost completely eliminated from modern working life.",
+          "No animal other than the human being has ever been observed to laugh under any circumstances."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing paragraph:", "answer": "C" },
+        { "stem": "Choose the missing paragraph:", "answer": "A" },
+        { "stem": "Choose the missing paragraph:", "answer": "D" },
+        { "stem": "Choose the missing paragraph:", "answer": "F" },
+        { "stem": "Choose the missing paragraph:", "answer": "B" },
+        { "stem": "Choose the missing paragraph:", "answer": "E" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 8",
+      "instructions": "You are going to read four short pieces (A–D) in which people describe a teacher who influenced them. Answer the questions by choosing the appropriate person.",
+      "sources": [
+        { "label": "A", "text": "Mr Adeyemi taught me history, and what I remember is not a single fact he imparted but a habit of mind he insisted on. He refused to let us accept any claim, his own included, without asking who was making it and why. At first this was infuriating; I wanted to be told the answer, and he would only give me better questions. It was years before I understood the gift. He was not teaching me history at all, really, but teaching me how to think, and every other subject I later studied was easier for it. I have forgotten almost everything about the dates and the battles. The scepticism he drilled into me has never left." },
+        { "label": "B", "text": "My piano teacher, Mrs Kaur, was the first adult who ever took my ambitions seriously. I came from a family where music was considered a pleasant hobby and nothing more, and it had never occurred to me that I might be genuinely good. She simply assumed, from the first lesson, that I could reach a high standard if I worked, and her quiet confidence rearranged my whole sense of what was possible. She was not especially warm, and she never flattered me; if anything she was demanding to the point of severity. But being expected to be excellent, by someone who clearly meant it, changed the course of my life." },
+        { "label": "C", "text": "The teacher who mattered most to me, Señor Vidal, did so almost by accident. I was a difficult, disengaged teenager, and he was the one member of staff who neither tried to befriend me nor gave up on me. He just kept treating me, calmly and without drama, as though I were perfectly capable of behaving well, until eventually I began to believe it and to act accordingly. He never made a speech, never had a heart-to-heart. He simply declined to see me as the problem everyone else had decided I was, and that quiet refusal did more than any amount of counselling ever could." },
+        { "label": "D", "text": "I owe an enormous debt to a chemistry teacher, Dr Lindqvist, though at the time I would never have admitted it. Her lessons were, frankly, chaotic; she would abandon the syllabus entirely to chase some question a student had raised, and we often left with no idea what would be on the exam. It drove the more anxious pupils to despair. But those detours were where the real learning happened, because she showed us, week after week, what it actually looks like to be curious about the world. I did badly in the exam that year and have never cared less about a grade in my life." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which person valued a teacher who taught them how to think rather than what to think?", "answer": "A" },
+        { "stem": "Which person was influenced by a teacher who quietly refused to accept others' low opinion of them?", "answer": "C" },
+        { "stem": "Which person credits a teacher with raising their sense of what they could achieve?", "answer": "B" },
+        { "stem": "Which person admits they did not appreciate the teacher's value at the time?", "answer": "D" },
+        { "stem": "Which person remembers a habit of mind more than any specific content?", "answer": "A" },
+        { "stem": "Which person was affected by a teacher who was demanding rather than warm?", "answer": "B" },
+        { "stem": "Which person describes a teacher whose lessons were disorganised but inspiring?", "answer": "D" },
+        { "stem": "Which person changed their behaviour because a teacher expected the best of them?", "answer": "C" },
+        { "stem": "Which person says the teacher's influence had nothing to do with exam results?", "answer": "D" },
+        { "stem": "Which person came from a background that did not take their talent seriously?", "answer": "B" }
+      ]
+    }
+  ]
+}

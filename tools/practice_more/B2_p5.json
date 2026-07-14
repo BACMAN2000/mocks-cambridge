@@ -1,0 +1,189 @@
+{
+  "title": "B2 First — Reading and Use of English (Practice 5)",
+  "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The forgotten art of learning by heart",
+      "body": "Not so long ago, memorising poems and lists of dates was a normal (1)____ of every school day. In recent decades, however, learning by heart has fallen badly out of (2)____, dismissed by many teachers as dull and mechanical. Why, they ask, should children (3)____ their memories with facts that any phone can supply in an instant? Yet a growing number of researchers are beginning to (4)____ this fashionable view. Memorising a poem, they point out, is not the same as looking it up; the words become part of you, available at any moment and (5)____ to no battery. There is also evidence that the effort of committing something to memory strengthens the brain in ways that simply reading it does not. None of this means we should (6)____ to the endless drills of the past. But the sweeping rejection of memory work may, on (7)____, turn out to have thrown away something genuinely valuable. A mind furnished with a few great poems, the argument (8)____, is a richer place to live than an empty one with a search engine attached.",
+      "questions": [
+        { "options": ["part", "piece", "share", "side"], "answer": 0 },
+        { "options": ["favour", "fashion", "practice", "custom"], "answer": 1 },
+        { "options": ["burden", "load", "weigh", "press"], "answer": 0 },
+        { "options": ["question", "wonder", "doubt", "ask"], "answer": 0 },
+        { "options": ["subject", "tied", "bound", "linked"], "answer": 1 },
+        { "options": ["return", "restore", "recover", "repeat"], "answer": 0 },
+        { "options": ["balance", "average", "whole", "total"], "answer": 0 },
+        { "options": ["runs", "goes", "says", "holds"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "Why we forget so quickly",
+      "body": "Anyone who has crammed for an exam knows the strange feeling of watching hard-won knowledge drain away within days. This is not a personal failing; it is simply (9)____ our memory works. More than a century ago, a researcher showed that we forget most of what we learn very soon (10)____ learning it, unless we make a deliberate effort to review it. The curve of forgetting is steep at first and (11)____ levels off. The practical lesson is clear. Rather (12)____ studying a topic once and hoping for the best, we should return to it several times, (13)____ increasing gaps. Each review, it seems, tells the brain that the information is worth (14)____ on to. Frustrating (15)____ it is, forgetting may even serve a purpose, clearing away the countless trivial details we encounter each day so (16)____ the important ones can stand out.",
+      "questions": [
+        { "accept": ["how"] },
+        { "accept": ["after"] },
+        { "accept": ["then"] },
+        { "accept": ["than"] },
+        { "accept": ["at", "with"] },
+        { "accept": ["holding", "hanging"] },
+        { "accept": ["as", "though", "although"] },
+        { "accept": ["that"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "The trouble with grades",
+      "rows": [
+        { "text": "Few features of school life provoke as much" },
+        { "text": "(17)____ among parents as the report card.", "root": "ANXIOUS" },
+        { "text": "" },
+        { "text": "A single letter or number claims to offer a fair", "root": "" },
+        { "text": "(18)____ of a whole term's work.", "root": "MEASURE" },
+        { "text": "" },
+        { "text": "Critics argue that such marks are often deeply", "root": "" },
+        { "text": "(19)____ and reveal little about real progress.", "root": "MISLEAD" },
+        { "text": "" },
+        { "text": "Two pupils with identical grades may differ", "root": "" },
+        { "text": "(20)____ in the depth of their understanding.", "root": "ENORMOUS" },
+        { "text": "" },
+        { "text": "Worse, the pressure to score highly can kill a", "root": "" },
+        { "text": "child's natural (21)____ for a subject.", "root": "ENTHUSIASTIC" },
+        { "text": "" },
+        { "text": "Some schools have made the bold (22)____ to", "root": "DECIDE" },
+        { "text": "replace grades with detailed written comments." },
+        { "text": "" },
+        { "text": "Early results suggest a marked (23)____ in", "root": "IMPROVE" },
+        { "text": "both wellbeing and long-term motivation." },
+        { "text": "" },
+        { "text": "Whether the approach is (24)____ on a large", "root": "PRACTICE" },
+        { "text": "scale, however, remains an open question." }
+      ],
+      "questions": [
+        { "root": "ANXIOUS", "accept": ["anxiety"] },
+        { "root": "MEASURE", "accept": ["measurement"] },
+        { "root": "MISLEAD", "accept": ["misleading"] },
+        { "root": "ENORMOUS", "accept": ["enormously"] },
+        { "root": "ENTHUSIASTIC", "accept": ["enthusiasm"] },
+        { "root": "DECIDE", "accept": ["decision"] },
+        { "root": "IMPROVE", "accept": ["improvement"] },
+        { "root": "PRACTICE", "accept": ["practical"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+      "questions": [
+        {
+          "before": "\"You should revise more before the exam,\" the tutor told me.",
+          "keyword": "ADVISED",
+          "after": "The tutor ___ more before the exam.",
+          "accept": ["advised me to revise"]
+        },
+        {
+          "before": "Students are not allowed to use phones during the test.",
+          "keyword": "MUST",
+          "after": "Students ___ phones during the test.",
+          "accept": ["must not use", "mustn't use"]
+        },
+        {
+          "before": "I didn't understand the lesson because I hadn't done the reading.",
+          "keyword": "UNDERSTOOD",
+          "after": "If I had done the reading, I ___ the lesson.",
+          "accept": ["would have understood"]
+        },
+        {
+          "before": "It isn't necessary for you to hand in the essay today.",
+          "keyword": "HAVE",
+          "after": "You ___ in the essay today.",
+          "accept": ["do not have to hand", "don't have to hand"]
+        },
+        {
+          "before": "The teacher made us rewrite the whole report.",
+          "keyword": "WERE",
+          "after": "We ___ the whole report.",
+          "accept": ["were made to rewrite"]
+        },
+        {
+          "before": "She started studying French five years ago.",
+          "keyword": "BEEN",
+          "after": "She ___ French for five years.",
+          "accept": ["has been studying"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The case for struggling\n\nThere is a widespread belief, shared by many well-meaning parents and teachers, that good learning should feel smooth. If a child grasps a new idea quickly and without distress, we tend to conclude that the teaching was excellent; if the child struggles, frowns, and gets things wrong, we suspect that something has gone amiss. This intuition is powerful, comforting, and, according to a large body of research, almost exactly backwards.\n\nStudies of how people actually acquire skills point to an uncomfortable truth: the conditions that make learning feel easy are often the very conditions that make it fail to last. When information is presented clearly, reviewed immediately, and practised in a predictable order, students feel confident and perform well in the lesson itself. Yet when they are tested weeks later, that confidence turns out to have been an illusion. The material, so easily absorbed, has slipped away almost as easily.\n\nThe opposite approach, which researchers have given the deliberately unappealing name of 'desirable difficulties', produces the reverse pattern. When learners are forced to retrieve information from memory rather than simply reread it, when practice is spaced out over time rather than crammed, and when different topics are mixed together rather than tackled in neat blocks, the lessons feel noticeably harder. Students make more mistakes and report feeling less sure of themselves. And yet, tested later, they remember far more. The struggle, it appears, is not a sign that learning is failing but a sign that it is working.\n\nWhy should difficulty help? The explanation seems to lie in the effort of retrieval. Each time we successfully drag a fact back into consciousness — rather than having it handed to us — we strengthen the mental pathway that leads to it, making the fact easier to reach next time. Rereading a passage creates a comforting sense of familiarity, but familiarity is not the same as knowledge. Testing yourself, by contrast, is uncomfortable precisely because it exposes what you do not yet know, and it is that exposure that drives learning forward.\n\nThe implications reach beyond the classroom. The finding suggests that our instinctive judgements about our own learning are systematically unreliable. We prefer methods that feel productive — highlighting, rereading, listening again — over methods that feel effortful, and in doing so we consistently choose the weaker option. The feeling of fluency, of everything making easy sense, is seductive, but it is a poor guide to whether anything is actually being retained.\n\nNone of this is an argument for making education needlessly painful. Difficulty for its own sake helps no one, and a learner who is hopelessly lost will simply give up. The point is subtler: that a certain kind of productive struggle, carefully judged, is not an obstacle to be removed but an ingredient to be preserved. The best teachers, perhaps without knowing the research, have always understood this. They resist the temptation to make everything too easy, because they know that the mind, like the body, grows stronger only against resistance.",
+      "questions": [
+        { "stem": "What common belief does the writer challenge at the start?", "options": ["That good learning should feel like a struggle.", "That good learning should feel smooth and easy.", "That teachers should never test their students.", "That children learn best when left alone."], "answer": 1 },
+        { "stem": "What happens when material is presented in an easy, predictable way?", "options": ["Students remember it well weeks later.", "Students feel confident but often forget it later.", "Students immediately reject it.", "Students find it impossible to follow."], "answer": 1 },
+        { "stem": "Why are the harder methods called 'desirable difficulties'?", "options": ["Because they are enjoyable at the time.", "Because although they feel harder, they lead to better long-term memory.", "Because only advanced students can use them.", "Because they were designed to sound appealing."], "answer": 1 },
+        { "stem": "According to the writer, why does retrieval strengthen learning?", "options": ["It makes the material feel familiar.", "Dragging a fact back into consciousness strengthens the pathway to it.", "It removes the need for any effort.", "It allows students to avoid mistakes."], "answer": 1 },
+        { "stem": "What does the writer say about our judgements of our own learning?", "options": ["They are usually accurate.", "They are systematically unreliable, favouring methods that only feel productive.", "They improve with age.", "They match the research exactly."], "answer": 1 },
+        { "stem": "What is the writer's final position on difficulty in learning?", "options": ["Education should be made as painful as possible.", "A certain kind of productive struggle should be preserved, not removed.", "All difficulty should be eliminated from teaching.", "Struggle is always a sign of poor teaching."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+      "passage": "The quiet return of the school library\n\nFor much of the last decade, the school library looked like an institution on its way out. As budgets tightened, many were reduced to a few shelves in a corridor, and some were closed altogether. (37)____ Why, administrators reasoned, spend money on books when every pupil now carries the internet in a pocket?\n\nRecently, however, the mood has begun to shift. A number of schools that stripped out their libraries have quietly started to rebuild them, and the reasons they give are revealing. (38)____ The problem, teachers found, was not that pupils could not find information, but that they could not concentrate long enough to make sense of it.\n\nThe modern school library that is emerging is not quite the hushed room of memory. (39)____ It is designed as much for group projects and quiet conversation as for solitary reading, and the librarian is treated less as a guardian of silence than as a guide through a bewildering sea of sources.\n\nThat guiding role has turned out to be surprisingly important. In an age when anyone can publish anything, the ability to tell a reliable source from a worthless one is a genuine skill. (40)____ Increasingly, it is the librarian who teaches it.\n\nThere is also a simpler benefit, harder to measure but plain to anyone who visits. (41)____ For some children, particularly those without a quiet space at home, it is the only place in their day where they can sit and think without interruption.\n\nWhether the revival will last depends, as ever, on money. (42)____ But the schools leading the way argue that a library is not a luxury to be cut in hard times, but exactly the kind of thing that hard times make more necessary.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "The screen, it seemed, had made the printed page obsolete.",
+          "They had discovered that removing the library solved nothing.",
+          "Instead, it hums with a low and purposeful activity.",
+          "It is one that schools cannot assume pupils will pick up on their own.",
+          "The library offers something a crowded classroom rarely can: calm.",
+          "A well-stocked library is easily the noisiest room in any school.",
+          "Budgets remain tight, and a library rarely shows up in exam results.",
+          "Every pupil now prefers reading on paper to reading on a screen."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing sentence:", "answer": "A" },
+        { "stem": "Choose the missing sentence:", "answer": "B" },
+        { "stem": "Choose the missing sentence:", "answer": "C" },
+        { "stem": "Choose the missing sentence:", "answer": "D" },
+        { "stem": "Choose the missing sentence:", "answer": "E" },
+        { "stem": "Choose the missing sentence:", "answer": "G" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "Read about four adults who returned to formal education later in life. Then answer the questions. The same person may be chosen more than once.",
+      "sources": [
+        { "label": "A", "name": "Fiona", "text": "I left school at sixteen with nothing to show for it, convinced I was simply not clever, and I carried that belief around for the next thirty years like a heavy coat I could not take off. Going back to study for a degree at forty-eight was terrifying, and in the first term I was certain the tutors would soon discover their mistake in admitting me. What changed everything was a single essay that came back covered in praise. It sounds small, but it cracked open a story I had told myself since childhood. I am not, it turns out, stupid; I had merely been badly taught and then given up. If I could say one thing to my younger self, it would be that a bad start is not a verdict." },
+        { "label": "B", "name": "Ken", "text": "For me there was nothing emotional about it. I run a small building firm, and the regulations had changed so fast that I could no longer sign off certain jobs without a formal qualification I did not have. So I enrolled, purely to tick a box, and I approached the whole thing as a chore to be endured. What I had not bargained for was finding the subject genuinely interesting once I was forced to sit with it. I am not going to pretend it transformed my life or anything so dramatic; it did not. But I finished knowing far more about my own trade than the piece of paper actually required, and that has quietly made me better at the work." },
+        { "label": "C", "name": "Amara", "text": "I studied alongside a full-time job and two young children, and anyone who tells you that is manageable is not being honest with you. Something had to give, and for two years it was sleep. I would not recommend the pace to anyone, and there were nights I sat crying over a textbook at one in the morning. And yet I would do it all again without hesitation, because of what my children saw. They watched their mother struggle, fail a module, retake it, and eventually succeed, and I think that lesson was worth more to them than anything I could have told them. The degree matters to me; the example I set matters more." },
+        { "label": "D", "name": "Rob", "text": "People kept congratulating me on my bravery, which I found faintly absurd, because I was not being brave, I was being stubborn. I had wanted to study history since I was a teenager, and life — work, a mortgage, the usual — had simply postponed it for thirty years. When I finally enrolled, the biggest surprise was how much I enjoyed being the oldest in the room. The younger students assumed I would be slow, and in some ways I was, but I brought decades of reading and argument to seminars, and I was not afraid to disagree with a lecturer, which they seemed to find refreshing. I only regret the wasted decades when I let other people's timetables decide mine." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Fiona", "Ken", "Amara", "Rob"] },
+      "questions": [
+        { "stem": "Which person went back to study only in order to gain a qualification their work required?", "answer": "B" },
+        { "stem": "Which person values the example they set for their children above the qualification itself?", "answer": "C" },
+        { "stem": "Which person had carried a false belief about their own intelligence for decades?", "answer": "A" },
+        { "stem": "Which person rejects the idea that returning to study was an act of bravery?", "answer": "D" },
+        { "stem": "Which person found a subject unexpectedly interesting once forced to engage with it?", "answer": "B" },
+        { "stem": "Which person had a single moment of praise that changed how they saw themselves?", "answer": "A" },
+        { "stem": "Which person warns others that combining study with other duties is genuinely exhausting?", "answer": "C" },
+        { "stem": "Which person enjoyed being the oldest person in the classroom?", "answer": "D" },
+        { "stem": "Which person feels they learned more than their qualification strictly demanded?", "answer": "B" },
+        { "stem": "Which person regrets letting other people's schedules delay a long-held ambition?", "answer": "D" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "title": "A2 Key — Reading and Writing (Practice 4)",
+  "note": "Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Greenfield Swimming Pool",
+          "text": "THE SMALL POOL IS CLOSED FOR CLEANING THIS MORNING. PLEASE USE THE BIG POOL UNTIL 12 O'CLOCK.",
+          "stem": "What does the notice tell swimmers?",
+          "options": ["Both pools are closed today.", "They should use the big pool this morning.", "The pool is closed for the whole day."],
+          "answer": 1
+        },
+        {
+          "kind": "message",
+          "header": "From: Coach Tara → To: Team",
+          "text": "Hi everyone, training tonight is now at the sports hall, not the park, because it's raining. Please bring your trainers, not your football boots. We still start at six.",
+          "stem": "Why has the coach sent this message?",
+          "options": ["To cancel training tonight.", "To change where training will happen.", "To ask the team to buy new boots."],
+          "answer": 1
+        },
+        {
+          "kind": "email",
+          "from": "City Gym",
+          "to": "Members",
+          "subject": "New yoga class",
+          "body": "Dear member, we are starting a new yoga class on Wednesday evenings at 7 p.m. The class is free for all members this month. Please book a place online, as there are only twelve spaces.",
+          "stem": "What does the email ask members to do?",
+          "options": ["Pay extra to join the yoga class.", "Book a place for the new class online.", "Come early on Wednesday morning."],
+          "answer": 1
+        },
+        {
+          "kind": "note",
+          "header": "Note for Ella",
+          "text": "Ella — I've taken your tennis racket to be fixed, so you can't use it today. You can borrow mine — it's in the cupboard by the front door. — Dad",
+          "stem": "What can Ella do today?",
+          "options": ["Use her own tennis racket.", "Borrow her dad's racket.", "Buy a new racket."],
+          "answer": 1
+        },
+        {
+          "kind": "sign",
+          "header": "Riverside Running Track",
+          "text": "PLEASE RUN IN THE SAME DIRECTION AS THE ARROWS. WALKERS MUST USE THE OUTSIDE LANE ONLY.",
+          "stem": "What must walkers do?",
+          "options": ["Stay in the outside lane.", "Walk in the middle of the track.", "Run with the arrows."],
+          "answer": 0
+        },
+        {
+          "kind": "notice",
+          "header": "Hillside Sports Centre",
+          "text": "YOU CAN NOW PAY FOR YOUR CLASSES WITH OUR NEW APP. WE NO LONGER TAKE CASH AT THE DESK.",
+          "stem": "What is new at the sports centre?",
+          "options": ["Classes are now more expensive.", "People cannot pay with cash any more.", "The centre is open for longer."],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "Read about three young people and the sport they do. For each question, choose the correct person (A, B or C). The people may be chosen more than once.",
+      "sources": [
+        {
+          "label": "A",
+          "name": "Marta",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/40.jpg\" alt=\"Marta\" loading=\"lazy\">",
+          "text": "I go swimming three times a week at the pool near my school. I started because my doctor said it was good for my back, and now I really love it. The changing rooms are always cold, which I hate, but the swimming itself is wonderful. I want to join the school swimming team next year."
+        },
+        {
+          "label": "B",
+          "name": "Leo",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/32.jpg\" alt=\"Leo\" loading=\"lazy\">",
+          "text": "I climb at an indoor climbing wall every Saturday with my dad. It looked scary at first, but now I feel safe because you always wear a rope. My dad pays for it, but it isn't cheap. One day I would like to climb a real mountain outside."
+        },
+        {
+          "label": "C",
+          "name": "Sofia",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/12.jpg\" alt=\"Sofia\" loading=\"lazy\">",
+          "text": "I cycle to school every day, about five kilometres each way. I don't do it for exercise, really — it's just faster than the bus! In winter it can be very cold in the mornings, which I don't enjoy. My big dream is to cycle all the way around my country when I am older."
+        }
+      ],
+      "questions": [
+        {"stem": "Which person started their sport because of health advice?", "answer": "A"},
+        {"stem": "Which person does their sport with a family member?", "answer": "B"},
+        {"stem": "Which person chose their sport mainly to save time?", "answer": "C"},
+        {"stem": "Which person would like to join a school team?", "answer": "A"},
+        {"stem": "Which person hopes to make a very long journey by bike one day?", "answer": "C"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the text about a boy who joined a running club. Choose the correct answer A, B or C.",
+      "passage": "Tom is twelve and used to spend every lunchtime playing games on his phone. Last year, one of his teachers started a lunchtime running club, and Tom decided to try it, mostly because his best friend wanted to go.\n\nAt first, Tom found running very hard. He could only run for two minutes before he had to stop and walk. He felt embarrassed because some of the older students were much faster than him. He almost decided not to go back.\n\nHowever, the teacher told Tom that everyone improves slowly, and that the important thing was to keep trying. Tom went to the club twice a week for three months. Little by little, he was able to run further without stopping.\n\nIn the summer, the school entered a five-kilometre race in the town. Tom was nervous, but he finished the whole race without walking once. His parents came to watch and were very proud of him.\n\nNow Tom runs almost every day. He says he feels healthier and sleeps better than before. He has even persuaded his older sister to start running with him at weekends.",
+      "questions": [
+        {"stem": "Why did Tom first join the running club?", "options": ["His teacher made him join.", "His best friend wanted to go.", "He wanted to become a champion."], "answer": 1},
+        {"stem": "How did Tom feel when he started running?", "options": ["He found it easy and fun.", "He felt embarrassed that others were faster.", "He was angry with his teacher."], "answer": 1},
+        {"stem": "What did the teacher tell Tom?", "options": ["He should join a different club.", "Everyone improves slowly if they keep trying.", "He was too young to run."], "answer": 1},
+        {"stem": "What happened at the town race?", "options": ["Tom finished without stopping to walk.", "Tom came first in the race.", "Tom had to stop before the end."], "answer": 0},
+        {"stem": "How is Tom different now?", "options": ["He plays more games on his phone.", "He feels healthier and sleeps better.", "He no longer likes running."], "answer": 1}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 4",
+      "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+      "title": "The Olympic Games",
+      "body": "The Olympic Games are the biggest sports event in the world. They (19)____ place every four years, and athletes from almost every country take part. The very first modern Games were (20)____ in Greece in 1896, with only a small number of sports. Today there are hundreds of different events, and millions of people (21)____ them on television. Winning a gold medal is the (22)____ of many athletes, but it takes years of hard training. Some sports, (23)____ swimming and running, have always been part of the Games. Other sports are newer and were only added (24)____ .",
+      "questions": [
+        {"options": ["take", "make", "do", "have"], "answer": 0},
+        {"options": ["held", "kept", "done", "put"], "answer": 0},
+        {"options": ["look", "see", "watch", "view"], "answer": 2},
+        {"options": ["goal", "end", "plan", "point"], "answer": 0},
+        {"options": ["like", "so", "for", "of"], "answer": 0},
+        {"options": ["recently", "lately", "soon", "already"], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 5",
+      "instructions": "For each gap (25–30), write ONE word.",
+      "title": "A message about a football match",
+      "body": "Hi Ben,\n\nThank you (25)____ inviting me to the football match on Saturday! I am really looking forward (26)____ it. I have never been to a big stadium before.\n\nCould you tell me what time we (27)____ meet? I don't want to be late. I will come (28)____ bus, so I might need a few extra minutes.\n\nMy brother would love to come (29)____ well, if there is a spare ticket. Please let me (30)____ if that is possible.\n\nSee you soon,\nMarcus",
+      "questions": [
+        {"accept": ["for"]},
+        {"accept": ["to"]},
+        {"accept": ["should", "can", "will", "must"]},
+        {"accept": ["by"]},
+        {"accept": ["as"]},
+        {"accept": ["know"]}
+      ]
+    },
+    {
+      "type": "writing",
+      "part": "Part 6",
+      "prompts": [{
+        "kind": "email",
+        "instructions": "Your English friend Alex wants to get more exercise. Write an email to Alex. In your email: suggest one sport Alex could try / say where Alex can do it / ask one question about Alex's free time.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    },
+    {
+      "type": "writing",
+      "part": "Part 7",
+      "prompts": [{
+        "kind": "story",
+        "instructions": "Write a story for your English class. Your story must begin with this sentence:\nAs soon as the race started, Sam knew something was wrong.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    }
+  ]
+}

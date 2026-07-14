@@ -1,0 +1,158 @@
+{
+  "title": "A2 Key — Reading and Writing (Practice 8)",
+  "note": "Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Botanic Garden",
+          "text": "PLEASE DO NOT TOUCH THE PLANTS IN THIS GARDEN. SOME OF THEM CAN HURT YOUR SKIN.",
+          "stem": "What does the notice warn visitors about?",
+          "options": ["The plants are not real.", "Some plants can hurt your skin.", "The garden is closed today."],
+          "answer": 1
+        },
+        {
+          "kind": "message",
+          "header": "From: Ella → To: Ben",
+          "text": "Ben, I found a baby bird in our garden that can't fly. I've put it safely in a box, but I don't know what to do. Can you bring your mum after school? She knows about birds.",
+          "stem": "Why has Ella sent this message?",
+          "options": ["To ask Ben and his mum to help a bird.", "To invite Ben to play in the garden.", "To tell Ben she has a new pet."],
+          "answer": 0
+        },
+        {
+          "kind": "email",
+          "from": "Green Nature Club",
+          "to": "Members",
+          "subject": "Saturday forest walk",
+          "body": "Dear members, on Saturday we will walk in the forest to look for wild flowers. Please wear strong shoes and bring water. Do not pick any flowers — we only take photographs of them.",
+          "stem": "What are members NOT allowed to do?",
+          "options": ["Take photographs of flowers.", "Pick the wild flowers.", "Wear strong shoes."],
+          "answer": 1
+        },
+        {
+          "kind": "note",
+          "header": "Note for Dad",
+          "text": "Dad — the cat hasn't eaten her food today and seems very quiet. I think we should take her to the vet. Can you call them when you get home? — Mia",
+          "stem": "What does Mia want Dad to do?",
+          "options": ["Feed the cat more food.", "Phone the vet.", "Take the cat outside."],
+          "answer": 1
+        },
+        {
+          "kind": "sign",
+          "header": "Riverside Park",
+          "text": "KEEP YOUR DOG ON A LEAD NEAR THE DUCK POND. DOGS MAY RUN FREE IN THE FIELD BEYOND THE TREES.",
+          "stem": "Where can dogs run free?",
+          "options": ["Near the duck pond.", "In the field beyond the trees.", "Everywhere in the park."],
+          "answer": 1
+        },
+        {
+          "kind": "notice",
+          "header": "Sandy Cove Beach",
+          "text": "PLEASE TAKE YOUR RUBBISH HOME WITH YOU. RUBBISH ON THE BEACH CAN HARM SEA ANIMALS.",
+          "stem": "Why does the notice ask people to take their rubbish home?",
+          "options": ["The bins are full.", "Rubbish can harm sea animals.", "The beach is closing soon."],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "Read about three young people who care about animals. For each question, choose the correct person (A, B or C). The people may be chosen more than once.",
+      "sources": [
+        {
+          "label": "A",
+          "name": "Omar",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/85.jpg\" alt=\"Omar\" loading=\"lazy\">",
+          "text": "My family keeps six chickens in our back garden. It's my job to feed them every morning before school and to collect their eggs. I don't mind the early start because I love animals. The best part is that we always have fresh eggs for breakfast. In summer, though, cleaning their home is a smelly job!"
+        },
+        {
+          "label": "B",
+          "name": "Lily",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/33.jpg\" alt=\"Lily\" loading=\"lazy\">",
+          "text": "Every Saturday I help at a place that looks after dogs and cats with no home. I walk the dogs and clean their beds. I don't get any money for it, but I do it because I want the animals to be happy. My dream is to work as a vet when I finish school."
+        },
+        {
+          "label": "C",
+          "name": "Sam",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/23.jpg\" alt=\"Sam\" loading=\"lazy\">",
+          "text": "My hobby is watching birds. I go to the lake near my house with a notebook and write down every kind of bird I see. I have to be very quiet and patient, or the birds fly away. Last month I saw a bird that is very rare in our area, and I was really excited."
+        }
+      ],
+      "questions": [
+        {"stem": "Which person collects eggs?", "answer": "A"},
+        {"stem": "Which person helps animals without being paid?", "answer": "B"},
+        {"stem": "Which person needs to stay quiet during their hobby?", "answer": "C"},
+        {"stem": "Which person would like to become a vet?", "answer": "B"},
+        {"stem": "Which person has to get up early?", "answer": "A"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the text about a girl who planted trees. Choose the correct answer A, B or C.",
+      "passage": "Hannah is thirteen and lives in a town where there are not many trees. She learned at school that trees are important because they clean the air and give homes to birds and insects. She felt sad that her own street had no trees at all, so she decided to do something about it.\n\nFirst, Hannah wrote a polite letter to her town council to ask if she could plant some trees. She waited a long time for an answer, and she almost thought they had forgotten her. Finally, a woman from the council phoned and said the town would help.\n\nOn a cold Saturday in spring, Hannah, her family and some neighbours planted twenty young trees along her street. It was hard work, and everyone was tired and muddy by the end of the day. But Hannah was very happy to see the little trees standing in the ground.\n\nTwo years later, the trees are growing well, and birds have already started to build nests in them. Hannah is now helping other streets in her town to plant trees too. She believes that even young people can make their town a greener place.",
+      "questions": [
+        {"stem": "Why did Hannah want to plant trees?", "options": ["Her school gave her the task.", "Her street had no trees.", "She wanted to sell the fruit."], "answer": 1},
+        {"stem": "What did Hannah do first?", "options": ["She bought some young trees.", "She wrote to the town council.", "She asked her neighbours for money."], "answer": 1},
+        {"stem": "How did Hannah feel while she waited for an answer?", "options": ["She thought they had forgotten her.", "She was sure they would say yes.", "She decided to give up completely."], "answer": 0},
+        {"stem": "What was the tree-planting day like?", "options": ["Easy and quick.", "Hard work but happy.", "Sunny and warm."], "answer": 1},
+        {"stem": "What is Hannah doing now?", "options": ["Helping other streets to plant trees.", "Cutting down the old trees.", "Studying trees at university."], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 4",
+      "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+      "title": "Amazing Elephants",
+      "body": "Elephants are the largest animals that live (19)____ land. They are famous for their long noses, which are called trunks. An elephant uses its trunk almost like a hand, (20)____ example to pick up food or to give itself a shower with water. Elephants are also very clever and have excellent memories. They live together (21)____ family groups and take good care of their babies. Sadly, the number of wild elephants has fallen, because people have hunted them and taken (22)____ their land. Many countries now have special parks (23)____ elephants are safe. If we all help, these wonderful animals (24)____ live on our planet for many more years.",
+      "questions": [
+        {"options": ["on", "in", "at", "by"], "answer": 0},
+        {"options": ["by", "for", "as", "in"], "answer": 1},
+        {"options": ["at", "in", "on", "by"], "answer": 1},
+        {"options": ["off", "away", "out", "up"], "answer": 1},
+        {"options": ["which", "where", "when", "who"], "answer": 1},
+        {"options": ["will", "are", "do", "have"], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 5",
+      "instructions": "For each gap (25–30), write ONE word.",
+      "title": "An email about a new pet",
+      "body": "Hi Grandpa,\n\nI have some exciting news — we have got a new dog! We picked him (25)____ from the animal shelter last weekend. He is small and brown, and his name (26)____ Rocky.\n\nRocky is very friendly, but he (27)____ not like being alone. He follows me everywhere! I take him (28)____ a walk in the park every morning before school.\n\nWould you like (29)____ meet him? You could come (30)____ visit us on Sunday. Rocky would love to see you!\n\nLove,\nTom",
+      "questions": [
+        {"accept": ["up"]},
+        {"accept": ["is"]},
+        {"accept": ["does"]},
+        {"accept": ["for"]},
+        {"accept": ["to"]},
+        {"accept": ["and", "to"]}
+      ]
+    },
+    {
+      "type": "writing",
+      "part": "Part 6",
+      "prompts": [{
+        "kind": "email",
+        "instructions": "Your English friend Alex is thinking about getting a pet. Write an email to Alex. In your email: suggest a good pet for Alex / explain why it is a good choice / ask one question about Alex's home.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    },
+    {
+      "type": "writing",
+      "part": "Part 7",
+      "prompts": [{
+        "kind": "story",
+        "instructions": "Write a story for your English class. Your story must begin with this sentence:\nThe little dog looked up at me and would not stop barking.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    }
+  ]
+}

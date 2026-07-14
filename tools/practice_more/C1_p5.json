@@ -1,0 +1,192 @@
+{
+  "title": "C1 Advanced — Reading and Use of English (Practice 5)",
+  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The last great wilderness",
+      "body": "The deep ocean is often described as the least explored region on Earth, and the claim, though frequently repeated, is no (1)____ . We have mapped the surface of distant planets in finer detail than we have charted the floor of our own seas. This ignorance is not for want of interest; it is a straightforward (2)____ of the sheer difficulty of the environment. The pressures at such depths would crush most equipment (3)____ , and the darkness is absolute. Yet the effort of reaching these places has (4)____ discoveries that overturn long-held assumptions. Whole ecosystems, it turns out, thrive in the (5)____ absence of sunlight, drawing their energy instead from chemicals seeping through the seabed. Creatures once thought to be extinct have been found (6)____ on, unbothered by the passage of geological time. Each expedition tends to raise more questions than it (7)____ , and researchers have learned to treat every confident generalisation about the deep as (8)____ pending revision. If humility is a scientific virtue, the ocean floor teaches it relentlessly.",
+      "questions": [
+        { "options": ["exaggeration", "extension", "invention", "distortion"], "answer": 0 },
+        { "options": ["consequence", "outcome", "result", "product"], "answer": 3 },
+        { "options": ["instantly", "presently", "shortly", "momentarily"], "answer": 0 },
+        { "options": ["yielded", "granted", "awarded", "surrendered"], "answer": 0 },
+        { "options": ["utter", "sheer", "plain", "downright"], "answer": 0 },
+        { "options": ["living", "dwelling", "residing", "inhabiting"], "answer": 0 },
+        { "options": ["settles", "answers", "solves", "concludes"], "answer": 1 },
+        { "options": ["provisional", "temporary", "momentary", "passing"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The comeback of the beaver",
+      "body": "Few animals have been so thoroughly misunderstood as the beaver. For centuries it was hunted almost to extinction across Europe, valued (9)____ its fur and, later, dismissed as a nuisance whose dams flooded valuable land. Only recently has a very different picture begun to emerge, one in (10)____ the beaver appears less as a pest than as an unpaid engineer of extraordinary skill.\n\nThe dams that were once so resented turn (11)____ to perform functions we now pay dearly to replicate. By slowing the flow of water, they reduce the risk of flooding downstream; by creating ponds, they filter out pollutants and (12)____ up wetlands that teem with other species. (13)____ a single family of beavers moves into a degraded stream, the transformation over a few seasons can be remarkable.\n\nSchemes to reintroduce the animal have accordingly multiplied, though (14)____ without controversy. Farmers whose fields lie in the path of a rising pond are, understandably, (15)____ from enthusiastic. The challenge, as with (16)____ many environmental questions, lies in balancing a diffuse public benefit against a concentrated private cost.",
+      "questions": [
+        { "accept": ["for"] },
+        { "accept": ["which"] },
+        { "accept": ["out"] },
+        { "accept": ["open"] },
+        { "accept": ["when", "once", "if"] },
+        { "accept": ["not"] },
+        { "accept": ["far"] },
+        { "accept": ["so"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Rethinking conservation",
+      "rows": [
+        { "text": "For much of the last century, conservation rested on the (17)____ belief that nature was best protected by keeping people out of it entirely.", "root": "QUESTION" },
+        { "text": "That approach, however well intentioned, often proved (18)____ , displacing the very communities who had shaped the landscape for generations.", "root": "COUNTER" },
+        { "text": "Ecologists have since come to appreciate the (19)____ complexity of systems they once imagined to be simple.", "root": "STAGGER" },
+        { "text": "Restoring a wetland or a forest turns out to be far from (20)____ ; small interventions can trigger consequences no one foresaw.", "root": "PREDICT" },
+        { "text": "There is now widespread (21)____ that local knowledge, long ignored, may be the most valuable resource of all.", "root": "RECOGNISE" },
+        { "text": "Well-meaning schemes have sometimes done real harm through the sheer (22)____ of their planners.", "root": "SIGHT" },
+        { "text": "The most successful projects tend to treat human needs and wild nature as (23)____ rather than opposed.", "root": "COMPATIBLE" },
+        { "text": "This shift represents nothing less than a (24)____ of what conservation is actually for.", "root": "THINK" }
+      ],
+      "questions": [
+        { "root": "QUESTION", "accept": ["unquestioned", "unquestionable"] },
+        { "root": "COUNTER", "accept": ["counterproductive"] },
+        { "root": "STAGGER", "accept": ["staggering"] },
+        { "root": "PREDICT", "accept": ["predictable"] },
+        { "root": "RECOGNISE", "accept": ["recognition"] },
+        { "root": "SIGHT", "accept": ["shortsightedness", "short-sightedness"] },
+        { "root": "COMPATIBLE", "accept": ["compatible"] },
+        { "root": "THINK", "accept": ["rethinking", "rethink"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+      "questions": [
+        {
+          "before": "The flooding would not have happened if the wetlands had been preserved.",
+          "keyword": "PRESERVED",
+          "after": "Had ___ , the flooding would not have happened.",
+          "accept": ["the wetlands been preserved"]
+        },
+        {
+          "before": "The scientists strongly objected to the way the data had been interpreted.",
+          "keyword": "EXCEPTION",
+          "after": "The scientists ___ the way the data had been interpreted.",
+          "accept": ["took strong exception to", "took exception to"]
+        },
+        {
+          "before": "It is very likely that the species has already disappeared from the region.",
+          "keyword": "ALL",
+          "after": "The species has ___ disappeared from the region.",
+          "accept": ["in all likelihood already", "in all probability already"]
+        },
+        {
+          "before": "People rarely appreciate how quickly an ecosystem can recover.",
+          "keyword": "SELDOM",
+          "after": "___ how quickly an ecosystem can recover.",
+          "accept": ["Seldom do people appreciate"]
+        },
+        {
+          "before": "The project succeeded only because the local community supported it.",
+          "keyword": "BUT",
+          "after": "The project ___ the support of the local community.",
+          "accept": ["would not have succeeded but for", "could not have succeeded but for"]
+        },
+        {
+          "before": "Nobody had realised how much the beavers had changed the river.",
+          "keyword": "EXTENT",
+          "after": "Nobody had realised ___ the beavers had changed the river.",
+          "accept": ["the extent to which"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The trouble with pristine\n\nThere is a word that recurs, almost reflexively, in the way we talk about the natural world: pristine. We speak of pristine forests, pristine coral reefs, pristine wilderness, and the word carries an unmistakable moral charge. Pristine means untouched, unspoiled, as nature intended before human beings arrived to interfere. It is, on the face of it, a harmless piece of vocabulary. In fact, a growing number of ecologists and historians argue, it is one of the most misleading ideas in the whole of environmental thought, and clinging to it has led conservation repeatedly astray.\n\nThe first problem is factual. The landscapes we most readily describe as pristine turn out, on closer inspection, to have been shaped by human hands for thousands of years. The great forests that European settlers encountered in the Americas, and took to be primeval, were in many cases the product of careful management by the people who had lived there for millennia — burned, cleared and cultivated in ways that a casual observer, unfamiliar with the practices involved, simply failed to recognise. What looked like untouched wilderness was in truth an inhabited, worked and deeply humanised place. To call it pristine was not to describe it accurately but to erase the people who had made it.\n\nThe second problem is that the ideal of the pristine sets a standard that can never be met, and in doing so it can paralyse action. If the goal of conservation is to restore a landscape to some imagined condition before human contamination, then almost any actual intervention looks like a compromise, a falling-short, a failure. Purists may object to reintroducing a species because the ecosystem it would enter is no longer 'natural', or oppose active management because tampering, of any kind, offends the ideal of the untouched. The result, too often, is a preference for doing nothing — for fencing off a degraded area and hoping it will heal itself — when active, frankly artificial intervention would do far more good.\n\nThere is, moreover, a subtle arrogance buried in the concept. To divide the world into the pristine and the spoiled is to place human beings permanently outside nature, as a contaminating force whose every touch diminishes. This is a peculiar and, on reflection, rather bleak philosophy. It implies that there is no such thing as a beneficial human relationship with a landscape, that the best we can ever do is to withdraw and leave nature alone. Yet the historical record is full of examples of exactly the opposite: of human practices that enriched biodiversity, that created habitats which would not otherwise have existed, that wove people and place into a single flourishing system.\n\nNone of this is an argument for complacency about environmental destruction, and it would be a serious misreading to take it as one. The damage humans have done to the living world is real, vast and, in many cases, accelerating. The point is narrower but important. It is that the mental image of a pristine nature, from which humanity is necessarily excluded, is a poor guide to repairing that damage. A more useful goal is not the untouched but the flourishing — a landscape rich in life, resilient and diverse, whether or not human beings are part of it, and very often precisely because they are.\n\nThis shift of emphasis, from purity to flourishing, sounds abstract, but it has thoroughly practical consequences. It licenses the gardener's mindset over the curator's: a willingness to intervene, to experiment, to accept that a managed landscape is not a lesser thing than an unmanaged one, merely a different one. It asks not whether a place is untouched but whether it is alive. And by that measure, some of the most heavily managed landscapes on Earth are triumphs, while some carefully fenced-off 'wildernesses', left rigidly alone, are quietly dying.",
+      "questions": [
+        { "stem": "What is the writer's main objection to the word 'pristine'?", "options": ["It is used too rarely in environmental debate.", "It reflects a misleading and damaging idea.", "It is too technical for ordinary readers.", "It applies only to forests and reefs."], "answer": 1 },
+        { "stem": "What does the writer say about the forests that European settlers encountered?", "options": ["They were genuinely untouched by any human activity.", "They had in fact been shaped by long-standing human management.", "They were far smaller than the settlers believed.", "They had already begun to disappear."], "answer": 1 },
+        { "stem": "According to the third paragraph, how can the ideal of the pristine 'paralyse action'?", "options": ["It makes conservation too expensive to attempt.", "It makes almost any actual intervention seem like a failure.", "It requires the removal of all native species.", "It prevents scientists from studying ecosystems."], "answer": 1 },
+        { "stem": "What 'arrogance' does the writer detect in the concept of the pristine?", "options": ["The assumption that scientists know best.", "The idea that humans are permanently outside nature and only ever contaminate it.", "The belief that wealthy nations should lead conservation.", "The claim that nature can heal without help."], "answer": 1 },
+        { "stem": "What does the writer emphasise in the fifth paragraph?", "options": ["That environmental destruction is exaggerated.", "That the argument should not be read as complacency about real damage.", "That humans should withdraw from nature entirely.", "That flourishing is impossible to measure."], "answer": 1 },
+        { "stem": "What does the 'gardener's mindset' involve, according to the final paragraph?", "options": ["Leaving landscapes strictly untouched.", "A willingness to intervene and manage actively.", "Restoring landscapes to their original state.", "Avoiding all forms of experimentation."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "Read four short opinion pieces (A–D) on the same topic: whether individuals changing their behaviour makes any real difference to the environmental crisis. Then answer the questions.",
+      "sources": [
+        { "label": "A", "text": "I have grown weary of being told that my recycling and my short showers are what stand between the planet and catastrophe. The arithmetic simply does not support it. A handful of corporations and a handful of governments account for the overwhelming majority of emissions, and no amount of individual virtue will move those numbers meaningfully. Worse, the relentless focus on personal responsibility was, in large part, manufactured by the very industries that profit from the status quo, precisely in order to shift blame onto consumers and away from themselves. Every hour we spend agonising over our carbon footprint is an hour not spent demanding structural change, which is the only thing that will actually work." },
+        { "label": "B", "text": "The argument that individual action is pointless because corporations pollute more has always struck me as a convenient excuse dressed up as hard-headed realism. Corporations pollute because we buy what they sell; the demand and the supply are not separable. When enough individuals change what they eat, how they travel and what they refuse to purchase, markets shift, and they shift faster than most legislation. I do not pretend that my choices alone will save anything, but the collective effect of millions of such choices is precisely the structural change the cynics claim to want. To wait passively for governments to act is to mistake helplessness for wisdom." },
+        { "label": "C", "text": "It seems obvious to me that the whole framing — individual versus systemic — is a false and rather lazy dichotomy. The two are not rivals competing for our limited attention; they reinforce one another. People who change their own behaviour are far more likely to vote for climate policies, to support them when they impose costs, and to persuade others to do the same. The personal is where the political takes root. To insist that we must choose between fixing ourselves and fixing the system is to misunderstand how social change has ever actually happened, which is always both at once, each feeding the other." },
+        { "label": "D", "text": "I confess I find the entire debate somewhat beside the point. Whether or not my individual actions register in the global statistics, I would rather live in accordance with what I believe than in contradiction to it. There is a value in integrity that is not reducible to measurable impact, and a life is not a spreadsheet. Perhaps my modest efforts change nothing that a satellite could detect; I am fairly sure they change me, and the people who watch me, in ways that matter. The obsession with quantifying every gesture strikes me as its own kind of impoverishment." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which writer, unlike the others, values individual action mainly for reasons of personal integrity rather than measurable effect?", "answer": "D" },
+        { "stem": "Which writer most directly rejects Writer A's claim that individual action is essentially pointless?", "answer": "B" },
+        { "stem": "Which writer argues that individual and systemic change are not rivals but mutually reinforcing?", "answer": "C" },
+        { "stem": "Which writer believes the emphasis on personal responsibility was deliberately promoted by polluting industries?", "answer": "A" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+      "passage": "The forest beneath our feet\n\nStand in a wood and you might imagine each tree to be a solitary individual, competing with its neighbours for light, water and soil. For a long time that is more or less how biologists pictured it too. (41)____\n\nThe revelation began with a puzzle. Researchers noticed that seedlings growing in deep shade, where they received almost no light of their own, nonetheless survived, and sometimes thrived, for years. (42)____\n\nThe explanation, when it emerged, was startling. Beneath the soil, the roots of the trees were connected by an immense network of fungal threads, finer than any root, threading through the ground in quantities almost impossible to imagine. (43)____\n\nThrough this hidden web, it turned out, the trees were trading. Sugars flowed from those with plenty to those in need; a large tree in full sun could quietly subsidise a struggling seedling many metres away. (44)____\n\nThe discovery has reshaped how ecologists think about the forest, though it has also attracted its share of exaggeration. Enthusiastic accounts began to describe the network in frankly sentimental terms, as a kind of woodland community bound by cooperation and care. (45)____\n\nWhat is beyond dispute is that the old picture of the forest as a mere collection of competing individuals was badly incomplete. (46)____ A wood, it now appears, is less a crowd of strangers than a single, vast and intricately connected organism, most of which lies out of sight.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "In a single teaspoon of forest soil there may be several kilometres of these threads, invisibly binding root to root across the whole wood.",
+          "A more sober reading is that the relationships are a mixture of cooperation, exchange and outright parasitism, no more purely benevolent than any other part of nature.",
+          "The timber industry, meanwhile, had every reason to prefer the simpler and more convenient older model.",
+          "Something, evidently, was sustaining them, but the source of that sustenance remained stubbornly mysterious.",
+          "The picture that has replaced it is one of connection so pervasive that the very idea of an individual tree begins to blur.",
+          "That view held that a forest was essentially a competition, red in tooth and claw, with each plant out for itself alone.",
+          "Older trees, the research suggested, could even recognise and preferentially support their own offspring through these channels.",
+          "Loggers had long assumed that removing the largest trees would benefit the smaller ones left behind."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing paragraph:", "answer": "F" },
+        { "stem": "Choose the missing paragraph:", "answer": "D" },
+        { "stem": "Choose the missing paragraph:", "answer": "A" },
+        { "stem": "Choose the missing paragraph:", "answer": "G" },
+        { "stem": "Choose the missing paragraph:", "answer": "B" },
+        { "stem": "Choose the missing paragraph:", "answer": "E" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 8",
+      "instructions": "You are going to read four short pieces (A–D) by people who have made a career working in remote natural environments. Answer the questions by choosing the appropriate person.",
+      "sources": [
+        { "label": "A", "text": "Ingrid — glaciologist. I spend months each year on the ice, and people always ask whether the isolation gets to me. The honest answer is that I have come to crave it; the silence out there has a quality I have never found anywhere else, and returning to the noise of a city is far harder than leaving it. The work itself, though, is a race against time in the most literal sense. The very features I have devoted my life to measuring are vanishing faster than any of us predicted, and there is something quietly devastating about documenting, year after year, the disappearance of the thing you love. I try not to let it curdle into despair, but I would be lying if I said the melancholy never surfaced." },
+        { "label": "B", "text": "Sol — wildlife ranger. The romance people project onto this job would be funny if it were not so wide of the mark. Most of my week is paperwork, vehicle repairs and delicate negotiations with farmers whose livestock the predators occasionally take. The animals are the easy part; the humans are the hard part, and nobody warns you of that when you sign up. What keeps me here, despite everything, is a stubborn conviction that if people like me walk away, the whole fragile arrangement collapses. It is not a glamorous reason, and it does not photograph well, but it is the true one. I stay because the alternative to staying is unthinkable to me." },
+        { "label": "C", "text": "Delphine — marine biologist on a research vessel. I trained expecting a life of discovery, and there is some of that, but the reality is mostly patience — long stretches of tedium punctuated by moments that make the whole thing worthwhile. What I had not anticipated was how much the sea would humble me. Every expedition overturns something I thought I knew, and I have learned to hold my conclusions loosely, which is not a temperament I began with. My family cannot understand why I choose to spend half my life out of contact, unreachable for weeks. I have stopped trying to explain it; some things you either feel in your bones or you do not." },
+        { "label": "D", "text": "Rafael — reforestation project leader. I came to this work from the city, with more idealism than sense, and the first two years nearly broke me. Trees I had planted with such hope died by the thousand, and I learned, slowly and painfully, that enthusiasm is no substitute for understanding the land. The turning point came when I finally started listening to the older farmers who had worked these hillsides all their lives; they knew things no textbook had taught me. Now the forest is genuinely returning, and my chief satisfaction is not the trees themselves but the knowledge that they will still be standing long after I am gone. I am planting for a shade I will never sit in." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Ingrid", "Sol", "Delphine", "Rafael"] },
+      "questions": [
+        { "stem": "Which person finds a particular sadness in recording the decline of what they study?", "answer": "A" },
+        { "stem": "Which person says that dealing with people, not animals, is the most difficult part of the job?", "answer": "B" },
+        { "stem": "Which person values the fact that the results of their work will outlast them?", "answer": "D" },
+        { "stem": "Which person came to their present understanding by heeding the knowledge of local people?", "answer": "D" },
+        { "stem": "Which person has come to prefer solitude to the company they left behind?", "answer": "A" },
+        { "stem": "Which person says their work has made them more willing to revise what they believe?", "answer": "C" },
+        { "stem": "Which person continues in the role chiefly out of a sense of duty rather than for its pleasures?", "answer": "B" },
+        { "stem": "Which person no longer attempts to justify their choices to sceptical relatives?", "answer": "C" },
+        { "stem": "Which person admits their early idealism was not matched by practical understanding?", "answer": "D" },
+        { "stem": "Which person describes long periods of monotony broken by rare, rewarding moments?", "answer": "C" }
+      ]
+    }
+  ]
+}

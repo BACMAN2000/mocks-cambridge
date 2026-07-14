@@ -1,0 +1,158 @@
+{
+  "title": "A2 Key — Reading and Writing (Practice 5)",
+  "note": "Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "The Corner Restaurant",
+          "text": "OUR KITCHEN CLOSES AT 9 P.M., BUT YOU CAN STILL ORDER DRINKS AND DESSERTS UNTIL 10 P.M.",
+          "stem": "What does the notice tell customers?",
+          "options": ["The restaurant closes completely at 9 p.m.", "You can order sweets after the kitchen closes.", "No drinks are served after 9 p.m."],
+          "answer": 1
+        },
+        {
+          "kind": "message",
+          "header": "From: Mum → To: Priya",
+          "text": "Priya, can you start making the salad for dinner? Please wash the tomatoes and cut the cucumber, but don't add the dressing yet — I'll do that when I get home. Thanks!",
+          "stem": "What does Mum ask Priya to do?",
+          "options": ["Cook the whole dinner alone.", "Prepare the salad but not add the dressing.", "Wait until Mum gets home to start."],
+          "answer": 1
+        },
+        {
+          "kind": "email",
+          "from": "Sunshine Cooking School",
+          "to": "Students",
+          "subject": "Tomorrow's bread class",
+          "body": "Dear students, for tomorrow's bread-making class, please remember to bring an apron and a container to take your bread home in. All other ingredients will be provided by us. The class starts at 10 a.m.",
+          "stem": "What must students bring to the class?",
+          "options": ["All the ingredients for the bread.", "An apron and a container.", "Their own small oven."],
+          "answer": 1
+        },
+        {
+          "kind": "note",
+          "header": "Note from Grandma",
+          "text": "Sam — I've made soup for your lunch. It's in the blue pot. Please heat it slowly and don't let it boil, or it won't taste as nice. — Grandma",
+          "stem": "What does Grandma tell Sam about the soup?",
+          "options": ["He should not let it boil.", "He must eat it cold.", "He needs to add more water."],
+          "answer": 0
+        },
+        {
+          "kind": "sign",
+          "header": "Bluebird Café",
+          "text": "PLEASE ORDER AND PAY AT THE COUNTER. WE WILL BRING YOUR FOOD TO YOUR TABLE.",
+          "stem": "What should customers do?",
+          "options": ["Wait at their table to order.", "Order and pay at the counter.", "Collect their food themselves."],
+          "answer": 1
+        },
+        {
+          "kind": "notice",
+          "header": "Old Town Market",
+          "text": "FRESH FISH IS ONLY SOLD ON FRIDAYS AND SATURDAYS. FRUIT AND VEGETABLES ARE AVAILABLE EVERY DAY.",
+          "stem": "What does the notice tell shoppers?",
+          "options": ["Fish is sold every day.", "Fish is only available on two days.", "Fruit is sold only at weekends."],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "Read about three young people and cooking. For each question, choose the correct person (A, B or C). The people may be chosen more than once.",
+      "sources": [
+        {
+          "label": "A",
+          "name": "Amir",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/18.jpg\" alt=\"Amir\" loading=\"lazy\">",
+          "text": "In my family, I am the one who cooks breakfast at the weekend. I make eggs and pancakes for everyone. I learned by watching videos online. My little sister always says my pancakes are the best, which makes me happy. When I'm older I don't want to be a chef, though — I just cook for fun."
+        },
+        {
+          "label": "B",
+          "name": "Lucia",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/24.jpg\" alt=\"Lucia\" loading=\"lazy\">",
+          "text": "I love baking cakes and biscuits, especially chocolate ones. I bake almost every Sunday with my grandmother, who taught me everything I know. Sometimes the cakes don't rise properly and we have to start again, but we always laugh about it. I would love to open my own cake shop one day."
+        },
+        {
+          "label": "C",
+          "name": "Theo",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/60.jpg\" alt=\"Theo\" loading=\"lazy\">",
+          "text": "My parents own a small restaurant, and I help them there on Saturday evenings. I usually carry plates and clean tables rather than cook. It can be very busy and tiring, but my parents pay me a little money. I'm saving it to buy a new bike."
+        }
+      ],
+      "questions": [
+        {"stem": "Which person learned to cook from the internet?", "answer": "A"},
+        {"stem": "Which person cooks with an older relative?", "answer": "B"},
+        {"stem": "Which person is paid for helping?", "answer": "C"},
+        {"stem": "Which person would like to own a food business one day?", "answer": "B"},
+        {"stem": "Which person mostly cleans and carries things instead of cooking?", "answer": "C"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the text about a girl who grows vegetables. Choose the correct answer A, B or C.",
+      "passage": "Nadia is fourteen and lives in a flat in the city with her parents. Two years ago, she became interested in growing her own food after reading about it in a magazine. The problem was that her family did not have a garden.\n\nNadia's mother suggested that she use the small balcony instead. Nadia bought some pots and seeds with her pocket money and began to grow tomatoes, herbs and salad leaves. At first, many of her plants died because she gave them too much water. She learned that plants need care, but not too much.\n\nAfter a few months, Nadia was growing enough vegetables to use in the family's meals. Her father, who does most of the cooking, was very pleased because the food was fresh and cost nothing. Nadia especially loved picking tomatoes straight from the plant and eating them.\n\nNow Nadia has started helping some of her neighbours grow food on their balconies too. She writes a simple blog with tips for people who want to grow vegetables in small spaces. She hopes that one day she can have a real garden of her own.",
+      "questions": [
+        {"stem": "Why couldn't Nadia grow food at first?", "options": ["She had no seeds.", "Her family had no garden.", "Her parents said no."], "answer": 1},
+        {"stem": "What mistake did Nadia make at the start?", "options": ["She gave the plants too much water.", "She forgot to buy any pots.", "She planted the seeds too late."], "answer": 0},
+        {"stem": "Why was Nadia's father pleased?", "options": ["The vegetables were fresh and free.", "He no longer had to cook.", "Nadia sold the vegetables for money."], "answer": 0},
+        {"stem": "What does Nadia do for her neighbours?", "options": ["She cooks meals for them.", "She helps them grow food on their balconies.", "She sells them plants."], "answer": 1},
+        {"stem": "What does Nadia hope for in the future?", "options": ["To become a famous cook.", "To have her own garden.", "To move to a bigger city."], "answer": 1}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 4",
+      "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+      "title": "Where Does Honey Come From?",
+      "body": "Honey is a sweet food that is made by bees. To produce it, bees fly from flower to flower and (19)____ a sweet liquid called nectar. They carry the nectar back to their hive, (20)____ they turn it into honey. People have (21)____ honey for thousands of years, both as a food and as a medicine. Today, farmers keep bees in special boxes so that the bees can (22)____ more honey each year. Bees also do an important (23)____ for nature, because they help plants to grow. Sadly, there are now (24)____ bees than before in many countries, and scientists are trying to help them.",
+      "questions": [
+        {"options": ["bring", "collect", "make", "take"], "answer": 1},
+        {"options": ["which", "where", "who", "when"], "answer": 1},
+        {"options": ["used", "eaten", "taken", "made"], "answer": 0},
+        {"options": ["grow", "produce", "build", "cook"], "answer": 1},
+        {"options": ["thing", "help", "job", "work"], "answer": 2},
+        {"options": ["fewer", "less", "lower", "smaller"], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 5",
+      "instructions": "For each gap (25–30), write ONE word.",
+      "title": "An invitation to dinner",
+      "body": "Hi Sofia,\n\nWould you like to come (25)____ dinner at my house on Friday? My dad is going to cook his famous pasta, (26)____ is always delicious!\n\nPlease tell me (27)____ there is any food you can't eat, so we can make something you like. My mum makes a lovely chocolate cake (28)____ dessert.\n\nWe usually eat (29)____ about seven o'clock. You (30)____ stay the night if you want, because it will be late.\n\nLet me know soon!\nEmma",
+      "questions": [
+        {"accept": ["for", "to"]},
+        {"accept": ["which"]},
+        {"accept": ["if", "whether"]},
+        {"accept": ["for"]},
+        {"accept": ["at"]},
+        {"accept": ["can", "could", "may"]}
+      ]
+    },
+    {
+      "type": "writing",
+      "part": "Part 6",
+      "prompts": [{
+        "kind": "email",
+        "instructions": "Your English friend Jordan is going to cook a meal for their family. Write an email to Jordan. In your email: suggest one dish Jordan could cook / say why it is a good choice / ask one question about the meal.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    },
+    {
+      "type": "writing",
+      "part": "Part 7",
+      "prompts": [{
+        "kind": "story",
+        "instructions": "Write a story for your English class. Your story must begin with this sentence:\nWhen I opened the kitchen door, I could not believe what I saw.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    }
+  ]
+}

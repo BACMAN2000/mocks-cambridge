@@ -1,0 +1,189 @@
+{
+  "title": "B2 First — Reading and Use of English (Practice 4)",
+  "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "Machines that explore for us",
+      "body": "For centuries, the only way to learn about a distant place was to send a human being there, often at great personal (1)____ to those involved. Today, however, some of the most daring journeys are (2)____ out entirely by machines. Robotic probes now roam the surface of Mars, dive to the (3)____ of the ocean and drift through the outer reaches of the solar system, sending back images that no person has ever seen with their own eyes. The advantages are obvious. A robot feels no cold, needs no air and can (4)____ conditions that would kill a human within seconds. Yet the engineers who build these machines are quick to (5)____ that they are not simply replacements for human curiosity. Every command a rover follows was written by someone back on Earth, and every discovery it (6)____ is celebrated by a team of scientists waiting anxiously for the signal. In a (7)____, the robot is less an explorer in its own right than an extension of our own senses, reaching into places our bodies could never (8)____ survive.",
+      "questions": [
+        { "options": ["cost", "price", "expense", "charge"], "answer": 0 },
+        { "options": ["carried", "taken", "made", "brought"], "answer": 0 },
+        { "options": ["depths", "bottoms", "floors", "grounds"], "answer": 0 },
+        { "options": ["withstand", "oppose", "defend", "protect"], "answer": 0 },
+        { "options": ["emphasise", "announce", "persuade", "remind"], "answer": 0 },
+        { "options": ["makes", "does", "gets", "takes"], "answer": 0 },
+        { "options": ["sense", "meaning", "reason", "point"], "answer": 0 },
+        { "options": ["possibly", "hardly", "barely", "nearly"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The long wait for a signal",
+      "body": "When a spacecraft travels to the outer planets, communication with Earth becomes a test (9)____ patience. Radio signals travel at the speed of light, but the distances are (10)____ vast that a message can take hours to arrive. A command sent to a probe near Saturn, (11)____ example, will not reach it for well over an hour, and the reply takes just (12)____ long to come back. This means that engineers cannot control such a craft in real time; (13)____ they can do is send a careful set of instructions and then wait. If (14)____ goes wrong during those silent hours, there is nothing anyone on Earth can do (15)____ watch and hope. It is a strange kind of exploration, one in (16)____ the explorers are always looking at a past that has already happened.",
+      "questions": [
+        { "accept": ["of"] },
+        { "accept": ["so"] },
+        { "accept": ["for"] },
+        { "accept": ["as"] },
+        { "accept": ["all", "what"] },
+        { "accept": ["something", "anything"] },
+        { "accept": ["but", "except"] },
+        { "accept": ["which"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Teaching machines to see",
+      "rows": [
+        { "text": "Computer (17)____ have spent decades", "root": "SCIENCE" },
+        { "text": "teaching machines the difficult skill of sight." },
+        { "text": "" },
+        { "text": "The (18)____ of a human face, effortless for a", "root": "RECOGNISE" },
+        { "text": "toddler, proved astonishingly hard to program." },
+        { "text": "" },
+        { "text": "For years, a machine's (19)____ to tell a cat", "root": "ABLE" },
+        { "text": "from a dog lagged far behind a small child's." },
+        { "text": "" },
+        { "text": "Even now, the technology remains (20)____ in", "root": "RELY" },
+        { "text": "poor light or when an image is partly hidden." },
+        { "text": "" },
+        { "text": "Recent advances have greatly improved the (21)____", "root": "ACCURATE" },
+        { "text": "of these systems in everyday conditions." },
+        { "text": "" },
+        { "text": "The (22)____ applications range from medicine", "root": "PRACTICE" },
+        { "text": "to farming and the search for missing people." },
+        { "text": "" },
+        { "text": "Some are already used in (23)____ situations that", "root": "DANGER" },
+        { "text": "would be far too unsafe for a human inspector." },
+        { "text": "" },
+        { "text": "Even so, the best engineers stay honest about the", "root": "" },
+        { "text": "(24)____ of what such machines can really do.", "root": "LIMIT" }
+      ],
+      "questions": [
+        { "root": "SCIENCE", "accept": ["scientists"] },
+        { "root": "RECOGNISE", "accept": ["recognition"] },
+        { "root": "ABLE", "accept": ["ability"] },
+        { "root": "RELY", "accept": ["unreliable"] },
+        { "root": "ACCURATE", "accept": ["accuracy"] },
+        { "root": "PRACTICE", "accept": ["practical"] },
+        { "root": "DANGER", "accept": ["dangerous"] },
+        { "root": "LIMIT", "accept": ["limitations", "limits"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+      "questions": [
+        {
+          "before": "\"I will send you the data on Monday,\" said the researcher.",
+          "keyword": "WOULD",
+          "after": "The researcher said that she ___ me the data on Monday.",
+          "accept": ["would send"]
+        },
+        {
+          "before": "A technician is installing new software on our computers.",
+          "keyword": "HAVING",
+          "after": "We ___ on our computers at the moment.",
+          "accept": ["are having new software installed"]
+        },
+        {
+          "before": "I'm sorry I didn't study science at university.",
+          "keyword": "WISH",
+          "after": "I ___ science at university.",
+          "accept": ["wish i had studied", "wish i'd studied"]
+        },
+        {
+          "before": "They have postponed the launch until next month.",
+          "keyword": "PUT",
+          "after": "The launch ___ until next month.",
+          "accept": ["has been put off"]
+        },
+        {
+          "before": "The experiment was so complex that few people could follow it.",
+          "keyword": "SUCH",
+          "after": "It ___ that few people could follow it.",
+          "accept": ["was such a complex experiment"]
+        },
+        {
+          "before": "It's possible that the robot ran out of power.",
+          "keyword": "MAY",
+          "after": "The robot ___ out of power.",
+          "accept": ["may have run"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The dream of a second home\n\nOf all the ambitions that modern science has entertained, few are as bold, or as fiercely debated, as the idea of building a permanent human settlement on Mars. To its supporters, the project is nothing less than an insurance policy for our species. A civilisation confined to a single planet, they argue, is a civilisation permanently exposed to a single catastrophe — an asteroid, a plague, a war — and the only rational response is to spread ourselves across more than one world. To its critics, the same project is an expensive distraction from the planet we already have, and a fantasy dressed up as foresight.\n\nThe practical obstacles are formidable, and honest advocates do not pretend otherwise. Mars is bitterly cold, bathed in radiation, and wrapped in an atmosphere far too thin to breathe. The journey alone takes the better part of a year, during which the travellers' muscles waste, their bones thin, and their minds must endure a confinement that few of us could imagine. Once there, the first settlers would live, in effect, inside sealed machines, dependent for every breath on equipment that must never fail. A single serious malfunction, months from any hope of rescue, could end everything.\n\nWhy, then, does the idea persist? Part of the answer is straightforwardly emotional. Human beings have always pushed outward, and the prospect of a new frontier stirs something that no cost-benefit calculation can quite capture. But there is a more sober argument too. The effort required to keep people alive on Mars would force us to master technologies — recycling every drop of water, growing food in hostile conditions, generating power far from any grid — that could prove enormously useful back on Earth. Even a mission that never launched a single colonist might, its defenders claim, repay its cost in the inventions it left behind.\n\nThe critics are unimpressed. They point out that we do not need to travel forty million miles to learn how to conserve water or grow crops efficiently; we could simply fund that research directly, at a fraction of the price. They note, too, that even the most damaged version of Earth — after the worst war or the harshest climate change — would remain vastly more habitable than Mars will ever be. If the goal is a safe place for humanity to shelter, the cheapest such place, by an overwhelming margin, is the planet beneath our feet.\n\nPerhaps the most honest position lies somewhere between the two camps. It is possible to believe both that a Mars settlement is worth attempting and that it must never become an excuse to neglect the world we inhabit now. The danger is not the ambition itself but the story we sometimes tell around it: that if we ruin this planet, another is waiting. No such planet is waiting. Mars, for any foreseeable future, will be a place of extraordinary hardship, sustained at colossal expense by a handful of the bravest people alive. It may one day be a triumph. It will never be an escape.",
+      "questions": [
+        { "stem": "According to supporters, why is settling Mars worthwhile?", "options": ["Because Mars is easier to live on than Earth.", "Because relying on a single planet leaves our species exposed to a single catastrophe.", "Because the journey there is short and safe.", "Because Earth can no longer support human life."], "answer": 1 },
+        { "stem": "What does the writer say about the practical obstacles?", "options": ["Honest advocates admit they are formidable.", "They have already been completely solved.", "They are exaggerated by critics.", "They apply only to the return journey."], "answer": 0 },
+        { "stem": "What 'more sober argument' does the writer give for the project?", "options": ["That Mars is rich in valuable minerals.", "That the technologies developed could prove useful on Earth.", "That the journey would make travellers healthier.", "That it would be cheaper than research on Earth."], "answer": 1 },
+        { "stem": "How do the critics respond to the argument about useful technology?", "options": ["They agree it justifies the whole project.", "They say such research could be funded directly for far less.", "They deny that water can be recycled.", "They claim Earth is already beyond saving."], "answer": 1 },
+        { "stem": "What does the writer identify as the real danger of the Mars dream?", "options": ["The ambition itself.", "The story that another planet is waiting if we ruin this one.", "The bravery of the settlers.", "The cost of the equipment."], "answer": 1 },
+        { "stem": "Which statement best sums up the writer's own view?", "options": ["Settling Mars is pointless and should be abandoned.", "Mars may one day be a triumph but will never be an escape from Earth's problems.", "We should move most of humanity to Mars as soon as possible.", "Earth and Mars are equally habitable."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+      "passage": "The telescope that looks back in time\n\nWhen astronomers switched on the newest generation of space telescope, the first images it returned were greeted with something close to disbelief. (37)____ Galaxies that had been faint smudges to earlier instruments suddenly appeared in astonishing detail, their spiral arms and bright cores clearly visible.\n\nThe secret of the telescope lies in the kind of light it collects. Rather than ordinary visible light, it is tuned to detect infrared, a form of radiation invisible to the human eye. (38)____ This allows it to peer through the vast clouds of dust that hide the birth of stars from ordinary cameras.\n\nThere is a stranger consequence of the way light behaves. Because light takes time to travel, the most distant objects we see are also the oldest. (39)____ In effect, the telescope is not merely a camera but a kind of time machine, showing us the universe as it was billions of years ago.\n\nBuilding such an instrument was an enormous gamble. It had to be launched folded up like a piece of origami and then unfold itself, flawlessly, a million miles from any hope of repair. (40)____ A single jammed hinge would have turned a decade of work into a useless piece of metal drifting in space.\n\nThe scientific rewards have already justified the risk. (41)____ Among them are hints about the atmospheres of distant planets, some of which may one day help us judge whether those worlds could support life.\n\nWhat comes next is impossible to predict, which is precisely the point. (42)____ The history of astronomy suggests that its most important discoveries will be the ones nobody thought to look for.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "The clarity was far beyond anything its designers had promised.",
+          "Infrared can pass through obstacles that block visible light.",
+          "To look at a galaxy far enough away is therefore to look back in time.",
+          "For weeks, engineers held their breath as each stage unfolded on schedule.",
+          "Within months it had produced results that will keep scientists busy for years.",
+          "The telescope was quietly switched off to save money.",
+          "Astronomers agree that the instrument can see nothing at all.",
+          "Every previous telescope had produced sharper images than this one."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing sentence:", "answer": "A" },
+        { "stem": "Choose the missing sentence:", "answer": "B" },
+        { "stem": "Choose the missing sentence:", "answer": "C" },
+        { "stem": "Choose the missing sentence:", "answer": "D" },
+        { "stem": "Choose the missing sentence:", "answer": "E" },
+        { "stem": "Choose the missing sentence:", "answer": "F" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "Read about four people who moved into a career in science or technology. Then answer the questions. The same person may be chosen more than once.",
+      "sources": [
+        { "label": "A", "name": "Nadia", "text": "I trained as a nurse and spent twelve years on hospital wards before I ever wrote a line of code. What pushed me across was frustration: the software we used to record patient information was so badly designed that it actively got in the way of care, and one day I decided that complaining about it was less useful than learning to fix it. Retraining in my thirties, surrounded by people ten years younger, was humbling in a way I had not expected, and there were evenings when I seriously doubted the whole plan. What kept me going was knowing exactly what the tools needed to do, because I had suffered under the bad ones. My colleagues can build almost anything, but few of them have ever stood at a bedside, and that difference turns out to be my single greatest asset." },
+        { "label": "B", "name": "Colin", "text": "People assume I must have loved science at school, and the truth is I found it dull and dropped it as soon as I was allowed to. I came to it decades later, entirely by accident, when a documentary about the deep ocean left me unable to sleep. I started reading, then taking evening classes, then volunteering on a research vessel during my holidays from a job I no longer cared about. I will not pretend it was a smooth path; I was, frankly, too old to be starting, and the money was worse than anything I had earned before. But I have never once regretted the change. The work is slow and often uncomfortable, and I would not swap a single freezing morning at sea for the comfortable career I left behind." },
+        { "label": "C", "name": "Priyanka", "text": "I did not so much change careers as return to one I had been talked out of. My family were adamant that science was insecure and that I should study law, which I did, dutifully, for years. It took a long illness, and the enforced stillness that came with it, to make me admit how unhappy I was. When I recovered, I applied to study biology almost in secret, terrified of what my parents would say. In the end they came round, though it took time. My advice to anyone in a similar position is to be honest with yourself early, because I wasted a decade pleasing other people, and that decade is the one thing I cannot get back. The career itself has been everything I hoped." },
+        { "label": "D", "name": "Marcus", "text": "For me the switch was purely practical, and I get slightly irritated when people try to make it sound like a calling. My old industry was dying, the redundancies were coming, and technology was simply where the secure, well-paid jobs were. So I taught myself, methodically, in the evenings, treating it like a project rather than a passion. I would say to anyone considering it: you do not need to love it, whatever the motivational speakers claim. You need to be willing to be bored, to sit with a problem long after it has stopped being fun, and to keep going when you feel stupid. The people I have seen fail were not the ones who lacked talent; they were the ones who expected it to be exciting all the time." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Nadia", "Colin", "Priyanka", "Marcus"] },
+      "questions": [
+        { "stem": "Which person believes their experience in a previous profession is now their greatest advantage?", "answer": "A" },
+        { "stem": "Which person made the change mainly because their old industry was no longer secure?", "answer": "D" },
+        { "stem": "Which person regrets the years they spent following other people's expectations?", "answer": "C" },
+        { "stem": "Which person was inspired to change by watching a television programme?", "answer": "B" },
+        { "stem": "Which person warns that success depends on tolerating boredom rather than feeling passion?", "answer": "D" },
+        { "stem": "Which person found retraining humbling because of the age of the people around them?", "answer": "A" },
+        { "stem": "Which person had originally been discouraged from a scientific path by their family?", "answer": "C" },
+        { "stem": "Which person accepts the change brought less money but has no regrets?", "answer": "B" },
+        { "stem": "Which person was motivated by frustration with badly designed tools?", "answer": "A" },
+        { "stem": "Which person needed a period of illness before admitting how unhappy they were?", "answer": "C" }
+      ]
+    }
+  ]
+}
