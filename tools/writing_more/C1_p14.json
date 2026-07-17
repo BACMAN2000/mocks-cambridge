@@ -1,0 +1,34 @@
+{
+  "title": "C1 Advanced — Writing (Practice 14)",
+  "durationMin": 90,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 220, "maxWords": 260,
+        "lead": "Your class has attended a seminar about how people's privacy could best be protected in the digital age. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would be more effective, giving reasons to support your opinion.",
+        "stimulus": { "title": "How could people's privacy best be protected in the digital age?", "body": "• stricter laws limiting what companies can collect\n• teaching people to manage their own data\n• requiring apps to protect privacy by default\n\nSome opinions expressed in the seminar:\n\"You cannot expect individuals to out-think a thousand engineers.\"\n\"Most people click 'accept' without reading a single word.\"\n\"The safest setting is the one nobody has to find.\"" },
+        "bullets": ["discuss two of the ideas", "explain which would be more effective", "give reasons to support your opinion"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [
+        { "type": "proposal", "q": 2, "minWords": 220, "maxWords": 260,
+          "lead": "Your college is planning a welfare week and has invited proposals for events from students.",
+          "stimulus": { "title": "Proposal: a digital privacy workshop", "body": "Write a proposal for a workshop teaching students to protect their personal information online. Explain why students need it, describe what the workshop would cover and how it would be run, and suggest how the college could encourage students to attend." },
+          "bullets": ["why students need the workshop", "what it would cover and how it would run", "how to encourage students to attend"],
+          "write": "Write your proposal." },
+        { "type": "review", "q": 3, "minWords": 220, "maxWords": 260,
+          "lead": "An English-language technology magazine has invited reviews of privacy-focused apps and services.",
+          "stimulus": { "title": "Privacy tools under review", "body": "Review an app, browser or service that promises to protect its users' privacy. Describe what it claims to do, evaluate how well it works in daily use and what you sacrifice by using it, and say whether the trade-off is worth it." },
+          "bullets": ["what it claims to do", "how it performs in daily use and what you sacrifice", "whether the trade-off is worth it"],
+          "write": "Write your review." },
+        { "type": "letter", "q": 4, "minWords": 220, "maxWords": 260,
+          "lead": "You have received this letter from an English-speaking friend, Priya.",
+          "stimulus": { "body": "Something unsettling happened this week: I mentioned a product in a private chat, and an hour later adverts for it were everywhere. Now I keep wondering how much of my life is being watched. Part of me wants to delete every account I have, but my work and half my friendships live online.\n\nYou seem to manage this better than I do. How worried should I really be, and what would you actually change?\n\nPriya" },
+          "bullets": ["how worried Priya should really be", "practical changes you would recommend", "why deleting everything is or is not the answer"],
+          "write": "Write your letter in reply." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "title": "B2 First — Reading and Use of English (Practice 10)",
+  "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "Vertical forests and floating suburbs",
+      "body": "Ask a group of architects what the city of 2075 will look like and you will receive wildly different answers. Some predict towers (1)____ in greenery, their balconies planted with thousands of trees to clean the air and cool the streets below. Others believe that rising seas will force whole districts to float, anchored offshore and (2)____ of rearranging themselves as circumstances change. What nearly all experts (3)____ on is that cities cannot stay as they are, since they already (4)____ for more than two thirds of the world's energy use. The greatest obstacle, however, is rarely the technology itself but the money and political will needed to (5)____ bold designs into reality. Decades of broken promises have given grand urban schemes a bad (6)____ among ordinary residents, who suspect, often rightly, that the gleaming pictures will never be built. The conclusion many planners have (7)____ is that the future city will not arrive in one spectacular leap. Instead, it will emerge street by street, through thousands of small improvements that each make a modest but real (8)____ to daily life.",
+      "questions": [
+        { "options": ["dipped", "wrapped", "folded", "twisted"], "answer": 1 },
+        { "options": ["able", "possible", "likely", "capable"], "answer": 3 },
+        { "options": ["agree", "accept", "approve", "admit"], "answer": 0 },
+        { "options": ["stand", "answer", "account", "explain"], "answer": 2 },
+        { "options": ["put", "set", "bring", "turn"], "answer": 3 },
+        { "options": ["fame", "name", "title", "mark"], "answer": 1 },
+        { "options": ["drawn", "carried", "brought", "taken"], "answer": 0 },
+        { "options": ["change", "effect", "difference", "impact"], "answer": 2 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "Cooling a city without air conditioning",
+      "body": "As summers grow hotter, cities are searching for ways to keep their residents cool (9)____ relying on air conditioning, which pumps waste heat into the streets and consumes enormous amounts of electricity. One of the oldest solutions is also one of (10)____ most effective: trees. A mature tree does not merely provide shade; it releases water vapour, cooling the surrounding air by several degrees. Painting roofs white, (11)____ sounds almost too simple to matter, reflects sunlight back into the sky before it (12)____ absorbed. In parts of southern Spain, narrow streets have been covered (13)____ canvas sails for centuries for exactly this reason. None of these measures is new, and that is precisely the point. Long (14)____ electricity existed, builders knew how to design for heat, and much of (15)____ knowledge was simply forgotten in the age of cheap energy. Recovering it may matter just as (16)____ as any futuristic invention.",
+      "questions": [
+        { "accept": ["without"] },
+        { "accept": ["the"] },
+        { "accept": ["which"] },
+        { "accept": ["is", "gets"] },
+        { "accept": ["with", "by"] },
+        { "accept": ["before"] },
+        { "accept": ["that", "this"] },
+        { "accept": ["much"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Streets for people",
+      "rows": [
+        { "text": "The rapid (17)____ of car ownership in the last", "root": "GROW" },
+        { "text": "century reshaped almost every city on Earth." },
+        { "text": "" },
+        { "text": "Streets that had been shared public spaces were" },
+        { "text": "handed over, with little (18)____, to traffic.", "root": "DISCUSS" },
+        { "text": "" },
+        { "text": "Today, many planners regard that transfer as a" },
+        { "text": "costly (19)____ that must now be reversed.", "root": "JUDGE" },
+        { "text": "" },
+        { "text": "Closing roads to cars, once considered political" },
+        { "text": "madness, has proved remarkably (20)____.", "root": "SUCCESS" },
+        { "text": "" },
+        { "text": "Shopkeepers who predicted ruin often report a" },
+        { "text": "noticeable (21)____ in trade instead.", "root": "IMPROVE" },
+        { "text": "" },
+        { "text": "Cyclists and pedestrians, meanwhile, enjoy a new" },
+        { "text": "sense of (22)____ on streets once ruled by engines.", "root": "FREE" },
+        { "text": "" },
+        { "text": "Critics warn, quite (23)____, that such changes can", "root": "REASON" },
+        { "text": "simply push traffic into neighbouring districts." },
+        { "text": "" },
+        { "text": "The debate, at heart, concerns a simple but" },
+        { "text": "(24)____ question: who do streets belong to?", "root": "POWER" }
+      ],
+      "questions": [
+        { "root": "GROW", "accept": ["growth"] },
+        { "root": "DISCUSS", "accept": ["discussion"] },
+        { "root": "JUDGE", "accept": ["misjudgement", "misjudgment"] },
+        { "root": "SUCCESS", "accept": ["successful"] },
+        { "root": "IMPROVE", "accept": ["improvement"] },
+        { "root": "FREE", "accept": ["freedom"] },
+        { "root": "REASON", "accept": ["reasonably"] },
+        { "root": "POWER", "accept": ["powerful"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+      "questions": [
+        {
+          "before": "The council will demolish the old car park next year.",
+          "keyword": "BE",
+          "after": "The old car park ___ by the council next year.",
+          "accept": ["will be demolished", "is going to be demolished"]
+        },
+        {
+          "before": "Living in the suburbs is cheaper than living in the centre.",
+          "keyword": "EXPENSIVE",
+          "after": "Living in the centre is ___ living in the suburbs.",
+          "accept": ["more expensive than"]
+        },
+        {
+          "before": "\"We are going to plant a thousand trees,\" the mayor announced.",
+          "keyword": "THEY",
+          "after": "The mayor announced that ___ to plant a thousand trees.",
+          "accept": ["they were going"]
+        },
+        {
+          "before": "It took us three hours to cross the city by bus.",
+          "keyword": "SPENT",
+          "after": "We ___ the city by bus.",
+          "accept": ["spent three hours crossing"]
+        },
+        {
+          "before": "People say this neighbourhood was once the noisiest in the city.",
+          "keyword": "BEEN",
+          "after": "This neighbourhood is said to ___ the noisiest in the city.",
+          "accept": ["have been", "have once been"]
+        },
+        {
+          "before": "Unless the city invests in public transport, traffic will get worse.",
+          "keyword": "FAILS",
+          "after": "Traffic will get worse if the city ___ in public transport.",
+          "accept": ["fails to invest"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The fifteen-minute city\n\nOf all the ideas to emerge from urban planning in recent years, few have travelled as far, or attracted as much unexpected controversy, as the 'fifteen-minute city'. The concept itself is disarmingly simple: a city arranged so that the things people need every day — shops, schools, doctors, parks, and ideally work — can be reached within a quarter of an hour on foot or by bicycle. Nobody is asked to give anything up; the aim is merely that daily life should not require a motorway.\n\nThe idea existed quietly in academic journals for years before world events pushed it into the spotlight. When millions of people found themselves suddenly working from home, they discovered their own neighbourhoods, often for the first time. Streets they had only ever driven through became places to walk; local shops they had never entered became lifelines. For many, the experience raised an awkward question: why had they been spending two hours a day travelling to do things that could, with better planning, have been around the corner?\n\nCritics of the concept do not, on the whole, dispute that walkable neighbourhoods are pleasant. Their worry is about who gets them. Districts with cafés, clinics and leafy squares within strolling distance tend to be expensive, and making a neighbourhood more walkable has a well-documented habit of making it pricier still. Without deliberate effort, they argue, the fifteen-minute city risks becoming a collection of privileged villages, while poorer residents are pushed to distant suburbs and left with the longest journeys of all.\n\nThen came a stranger objection. In several countries, campaigners began to claim that the policy was a disguised plot to confine people to their districts and monitor their movements. Planners found themselves accused of designing open-air prisons when, as they wearily pointed out, their documents proposed nothing more sinister than more bicycle lanes and better bus routes; not a single plan contained any restriction on where anyone could go. The episode would be comic if it did not reveal something serious: a section of the public now so distrustful of authority that even a proposal to build more bakeries can be read as a conspiracy.\n\nWhat should a fair-minded observer conclude? Probably that the fifteen-minute city is neither the utopia its enthusiasts paint nor the plot its opponents fear, but something more modest: common sense with a memorable name. Most great cities were built on exactly this pattern before the car scattered them. The real test of the idea is not whether it works in fashionable central districts — it plainly does — but whether governments are willing to spend what it takes to bring the same convenience to the neighbourhoods that need it most. A quarter of an hour is a fine ambition; it should not be a luxury.",
+      "questions": [
+        { "stem": "What is the basic idea of the fifteen-minute city?", "options": ["That all cars should be banned from city centres.", "That no journey in a city should take more than an hour.", "That daily necessities should be reachable within a short walk or cycle ride.", "That every neighbourhood should build its own motorway."], "answer": 2 },
+        { "stem": "According to the writer, why did the idea suddenly become popular?", "options": ["A period of working from home made people discover the value of their own neighbourhoods.", "Academic journals launched a publicity campaign.", "Car ownership became illegal in several countries.", "Local shops offered large discounts to nearby residents."], "answer": 0 },
+        { "stem": "What is the main worry expressed by the critics described in the third paragraph?", "options": ["That walkable neighbourhoods are unpleasant to live in.", "That nobody wants to live near shops and clinics.", "That bicycles are dangerous in dense districts.", "That the benefits will go to wealthy areas while poorer residents face even longer journeys."], "answer": 3 },
+        { "stem": "How did planners respond to the claim that the policy was a plot?", "options": ["They admitted that some restrictions were planned.", "They pointed out wearily that their plans contained no restrictions on movement at all.", "They withdrew the proposals immediately.", "They refused to publish their documents."], "answer": 1 },
+        { "stem": "What does the writer think the strange controversy reveals?", "options": ["A serious level of public distrust towards authority.", "That planners secretly enjoy conflict.", "That bakeries are unpopular.", "That conspiracy theories are always harmless."], "answer": 0 },
+        { "stem": "Which statement best reflects the writer's conclusion?", "options": ["The idea is a dangerous experiment that should be abandoned.", "The idea only matters in fashionable central districts.", "The idea is modest common sense, and the real test is applying it fairly across whole cities.", "Cities were never arranged this way before cars existed."], "answer": 2 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+      "passage": "Farms beneath the streets\n\nThirty metres below a busy high street, in tunnels originally dug as air-raid shelters, rows of salad plants are growing under strips of pink-purple light. (37)____ The farm's founders, however, insist that the location is not a gimmick but the whole point.\n\nGrowing food underground, they argue, solves several problems at once. City land is scarce and ferociously expensive, while disused tunnels and basements sit empty, and the weather above ground grows less predictable every year. (38)____ That stability means no frosts, no heatwaves and no energy wasted fighting the seasons.\n\nThe plants grow without soil, their roots misted with a nutrient solution that is collected and recycled again and again. (39)____ Supporters see in such figures a glimpse of how crowded cities might one day help feed themselves.\n\nNot everyone is convinced. Critics point out that lettuce and herbs, however fresh, will never fill anyone's stomach. (40)____ For the foreseeable future, then, underground farming will supply garnishes rather than dinners.\n\nThe economics are equally delicate. Electricity is the farm's largest cost, and a sharp rise in prices can wipe out a year's profit overnight. (41)____ Whether that appeal will outlast the novelty is an open question.\n\nStill, the founders remain cheerful. Cities, they note, have always pushed their essential services out of sight — water, power, transport. (42)____ If they are right, the future of farming may lie not on the horizon but under our feet.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Perhaps, they suggest, some of our food production will quietly follow the same path.",
+          "Down in the tunnels, by contrast, the temperature barely changes all year round.",
+          "Staple crops such as wheat and potatoes would demand far more space and light than any tunnel could provide.",
+          "Most customers, they claim, refuse on principle to eat anything grown without sunlight.",
+          "It is, on the face of it, a deeply strange place to put a farm.",
+          "For this reason the tunnels were sealed after the war and never entered again.",
+          "As a result, the farm uses a small fraction of the water a conventional field would need.",
+          "The business survives partly by selling its story, through tours, events and partnerships with restaurants keen on novelty."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing sentence:", "answer": "E" },
+        { "stem": "Choose the missing sentence:", "answer": "B" },
+        { "stem": "Choose the missing sentence:", "answer": "G" },
+        { "stem": "Choose the missing sentence:", "answer": "C" },
+        { "stem": "Choose the missing sentence:", "answer": "H" },
+        { "stem": "Choose the missing sentence:", "answer": "A" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "Read about four people who live in unusual homes. Then answer the questions. The same person may be chosen more than once.",
+      "sources": [
+        { "label": "A", "name": "Sofia", "text": "Moving to a completely car-free district felt like a leap in the dark, and I confess I spent the first month braced for disaster. How would deliveries arrive? What about emergencies? In the event, every one of those worries proved groundless: cargo bikes bring the shopping, and an ambulance can reach any doorway faster than it could through ordinary traffic. The change I never predicted was in my children. With no cars to fear, they walk to school alone, visit friends alone, and have a freedom I never dared give them at our old address. The one honest drawback is distance of another kind: my parents live deep in the countryside, and without a car of our own, getting to them has become a half-day expedition involving two trains and a rural bus." },
+        { "label": "B", "name": "Henrik", "text": "I will be straightforward about my motives: I did not choose a 3D-printed house to make a statement about the future. I chose it because it cost barely half the price of the ordinary brick houses on the same street, and that was the difference between owning and renting for my family. The building went up in weeks, which the neighbours watched with open suspicion, and journalists still ring the doorbell more often than I would like. Living in it is mostly unremarkable, with one comic exception: almost every wall curves, which is lovely to look at and hopeless for furniture. Our bookshelves stand away from the walls like guests who refuse to sit down. Even so, if I had the choice again tomorrow, I would make it without hesitating." },
+        { "label": "C", "name": "Janet", "text": "It was my daughter who wore me down. After my husband died I wanted to stay in our old house, and I resisted the idea of a retirement community with real stubbornness — I imagined corridors, timetables, and strangers. What she found me instead was a converted office tower where each of us has a private flat but shares a big kitchen, a garden on the roof and two meals a week if we want them. Within a year my blood pressure was down and I had stopped taking one of my tablets, and my doctor is quite open about the reason: company. I never lacked neighbours before; I simply never met them. The building we live in decides that for us, I now believe. Walls can keep people apart or bring them together, and for forty years mine kept people apart." },
+        { "label": "D", "name": "Tom", "text": "Our house floats. It sits on a concrete hull in a river district that floods every winter, and when the water rises, the whole building rises with it, sliding up two steel posts before settling back down as the level falls. Getting the mortgage was easy compared with the insurance: no company would touch us for nearly a year, because their forms had no box for a house that moves. Maintenance is another running cost people forget, since everything below the waterline must be inspected like a boat. Yet I have never once regretted it. The strangest feeling comes during the big storms, when the sirens sound and our neighbours on ordinary foundations load their cars to leave. That is exactly when we feel safest, riding calmly on the very water everyone else is fleeing." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Sofia", "Henrik", "Janet", "Tom"] },
+      "questions": [
+        { "stem": "Which person was persuaded by a relative to change the way they live?", "answer": "C" },
+        { "stem": "Which person found that their initial worries turned out to be unnecessary?", "answer": "A" },
+        { "stem": "Which person had difficulty obtaining insurance for their home?", "answer": "D" },
+        { "stem": "Which person chose their home mainly because it cost far less than the alternatives?", "answer": "B" },
+        { "stem": "Which person believes the change has made their children more independent?", "answer": "A" },
+        { "stem": "Which person credits an improvement in their health to the company of neighbours?", "answer": "C" },
+        { "stem": "Which person feels most secure at exactly the moments when others are in danger?", "answer": "D" },
+        { "stem": "Which person mentions practical problems caused by the shape of their home?", "answer": "B" },
+        { "stem": "Which person concludes that the design of a building determines whether neighbours get to know each other?", "answer": "C" },
+        { "stem": "Which person admits that visiting family who live elsewhere has become more difficult?", "answer": "A" }
+      ]
+    }
+  ]
+}

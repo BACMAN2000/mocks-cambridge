@@ -1,0 +1,241 @@
+{
+ "label": "B1 — Intermediate",
+ "cefr": "Cambridge PET · B1 official format",
+ "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+ "audios": [
+  {
+   "id": "B1-P1",
+   "title": "Part 1 · Questions 1–7",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+   "segments": [
+    "For the runners",
+    "Getting to the start",
+    "Race-day weather",
+    "The start time",
+    "At the finish line",
+    "The route",
+    "The organiser's problem"
+   ],
+   "scripts": [
+    "Question one. Girl: What do the runners get when they finish, Marcus? A medal? Marcus: Medals were too expensive this year, sadly. Every finisher gets a red cotton hat instead, with the charity's name on it. Girl: Actually, that's more useful than a medal — you can wear a hat all winter.",
+    "Question two. Boy: How are you getting to the start on Sunday, Sara? The buses don't run that early. Sara: I know — and parking's impossible with the roads closed. I'm cycling there and leaving my bike at my aunt's flat, two streets from the start. Boy: Smart. I might join you.",
+    "Question three. Woman: I've been checking the forecast all week — they kept promising rain for Sunday. Man: They've changed it this morning: cold at the start, but sunshine the whole day. Woman: Perfect running weather, then. The runners will be delighted.",
+    "Question four. Girl: Dad, the race starts at nine, doesn't it? Dad: That was last year, Lucy. There are twice as many runners now, so they're starting half an hour earlier — half past eight sharp. Girl: Half past eight! Then we need to leave home by seven.",
+    "Question five. Boy: My mum's team is baking for the finish-line stall, Nora. Sandwiches, right? Nora: They discussed sandwiches, but they'd go dry in the sun. It's cakes — dozens of them, all donated, all sold for the charity. Boy: I'm suddenly very interested in crossing that finish line.",
+    "Question six. Woman: Does the route go past the library this year? I want to take photos there. Man: They changed that section — the street's being repaired. The whole middle part now loops through the park instead. Woman: Even prettier. I'll stand by the fountain.",
+    "Question seven. Girl: You look stressed, Tom. What's happened? Tom: I've got the runners' lists, I've got the money box... but the keys to the equipment cupboard have vanished. All the signs are locked inside! Girl: Ask Rosa — she was putting posters in there this morning."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What will every finisher receive?",
+     "imgs": ["hat", "bag", "ball"],
+     "c": 0,
+     "audio": "M6/B1/B1-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will Sara get to the start?",
+     "imgs": ["bus", "car", "bike"],
+     "c": 2,
+     "audio": "M6/B1/B1-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will the weather be like on Sunday?",
+     "imgs": ["rainy", "sunny", "snowy"],
+     "c": 1,
+     "audio": "M6/B1/B1-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the race start this year?",
+     "imgs": ["clock8", "clock830", "clock9"],
+     "c": 1,
+     "audio": "M6/B1/B1-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will be sold at the finish-line stall?",
+     "imgs": ["sandwich", "pizza", "cake"],
+     "c": 2,
+     "audio": "M6/B1/B1-P1-q5.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where does the middle of the route go now?",
+     "imgs": ["library", "park", "cafe"],
+     "c": 1,
+     "audio": "M6/B1/B1-P1-q6.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What has Tom lost?",
+     "imgs": ["phone", "keys", "umbrella"],
+     "c": 1,
+     "audio": "M6/B1/B1-P1-q7.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P2",
+   "title": "Part 2 · Questions 8–13",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+   "segments": [
+    "Why she runs",
+    "Training advice",
+    "Raising money",
+    "Registration",
+    "Last year's run",
+    "The volunteers"
+   ],
+   "scripts": [
+    "You will hear a woman explaining why she joined the charity run. Woman: Everyone assumes I'm doing it for the exercise, and I let them think that, because the real reason is harder to say out loud. The children's ward this run supports looked after my nephew for four months last year. Running five kilometres is the smallest thank-you I can manage.",
+    "You will hear a coach giving advice to new runners. Coach: Beginners always ask me about shoes and diets, and those things matter a little. But the mistake that ruins most first races is much simpler: starting too fast. The crowd cheers, the music plays, and you fly through the first kilometre — then you suffer for the other four. Start slower than feels natural. You'll thank me at the finish.",
+    "You will hear a boy talking about collecting money. Boy: I set up an online page like everyone else, and it did fine — mostly family, to be honest. What actually worked was old-fashioned: I offered to wash cars on our street every Saturday for a month. My neighbours paid far more than strangers online ever would, and now they all know about the charity too.",
+    "You will hear an assistant answering questions about the run. Assistant: A few reminders about entries. You can register online until Thursday midnight — after that, the system closes and no exceptions are made, because we print the number bibs on Friday. There's no registration on the day itself, so please don't just turn up hoping. And if you've entered but can't run, let us know — there's a waiting list of people who'd love your place.",
+    "You will hear a girl talking about last year's run. Girl: My time was terrible — I walked most of the last kilometre, and my little brother nearly beat me. But something happened on the way that I'll never forget: a runner in front of me stopped, turned round, and helped an older man who'd stumbled, and then they crossed the line together, arm in arm. Nobody remembers who won that day. Everybody remembers them.",
+    "You will hear an organiser talking about volunteers. Man: People queue up to hand out water on race day — it's fun, the sun's out, everyone's cheering. What we're desperate for is the unglamorous jobs: the team that arrives at five in the morning to put out the signs, and the one that stays after everyone's gone home to clear the park. Without those two teams, there is no race."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why is the woman really doing the run?",
+     "o": ["To get more exercise", "To thank the hospital ward", "To run with her nephew"],
+     "c": 1,
+     "audio": "M6/B1/B1-P2-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the coach's main advice?",
+     "o": ["Buy the right shoes", "Eat well before racing", "Begin the race slowly"],
+     "c": 2,
+     "audio": "M6/B1/B1-P2-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What raised the most money for the boy?",
+     "o": ["His online page", "Washing neighbours' cars", "Donations from strangers"],
+     "c": 1,
+     "audio": "M6/B1/B1-P2-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the assistant say about registration?",
+     "o": ["It closes on Thursday night", "It is possible on race day", "It reopens on Friday"],
+     "c": 0,
+     "audio": "M6/B1/B1-P2-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the girl remember most about last year?",
+     "o": ["Her brother nearly beating her", "Walking the last kilometre", "A runner helping a man who stumbled"],
+     "c": 2,
+     "audio": "M6/B1/B1-P2-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Which volunteers does the organiser need most?",
+     "o": ["People to hand out water", "People for early and late jobs", "People to cheer the runners"],
+     "c": 1,
+     "audio": "M6/B1/B1-P2-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P3",
+   "title": "Part 3 · Questions 14–19",
+   "kind": "file",
+   "file": "M6/B1/B1-P3.mp3",
+   "intro": "You will hear a woman giving information about a charity run on local radio. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Woman: And now some information about this year's Riverside Charity Run, which takes place on Sunday the twelfth of May. The distance is five kilometres — a route along the river and through the park, flat all the way, so it's perfect for families and first-time runners. Entry costs ten pounds for adults, and children under fourteen run free with a paying adult. Every penny of the entry money goes to the children's ward at the local hospital — last year we raised over six thousand pounds, and we'd love to beat that. Runners should arrive early to collect their number from the registration tent, which opens at half past seven — you can't run without a number pinned to your shirt, so don't skip the queue. There'll be water at the halfway point and fruit at the finish. One request from the organisers: leave your headphones at home, please. The route is shared with cyclists, and you need to hear what's around you. See you on the twelfth!"
+   ],
+   "gapTitle": "Riverside Charity Run",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Date: Sunday the ____ of May",
+     "accept": ["12", "12th", "twelfth"]
+    },
+    {
+     "type": "gap",
+     "label": "Distance: ____ kilometres",
+     "accept": ["5", "five"]
+    },
+    {
+     "type": "gap",
+     "label": "Entry for adults: £ ____",
+     "accept": ["10", "ten"]
+    },
+    {
+     "type": "gap",
+     "label": "The money goes to the children's ward at the: ____",
+     "accept": ["hospital", "local hospital"]
+    },
+    {
+     "type": "gap",
+     "label": "The registration tent opens at: half past ____",
+     "accept": ["7", "seven"]
+    },
+    {
+     "type": "gap",
+     "label": "Runners should not bring: ____",
+     "accept": ["headphones"]
+    }
+   ]
+  },
+  {
+   "id": "B1-P4",
+   "title": "Part 4 · Questions 20–25",
+   "kind": "file",
+   "file": "M6/B1/B1-P4.mp3",
+   "intro": "You will hear an interview with a woman called Olivia, who organises a charity run. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Interviewer: My guest today is Olivia, the organiser of the Riverside Charity Run, now in its fifth year. Olivia, how did the run begin? Olivia: Almost by accident. Five years ago I was training for a big city marathon that got cancelled at the last minute, and about twenty of us from the running club decided to do our own small run anyway, just so the training wasn't wasted. Someone suggested collecting a little money for the hospital while we were at it. That casual idea is now my whole autumn, winter and spring. Interviewer: What don't people understand about organising a run? Olivia: The paperwork! Everyone imagines me measuring routes and blowing whistles. In reality, I spend months on permissions — the council, the police, the insurance, the river authority. Closing one road for one morning takes about forty letters. The running is the easy part. Interviewer: Has anything ever gone seriously wrong? Olivia: Year three. Two days before the race, a storm flooded half the route. I sat in my kitchen at midnight, ready to cancel, phone in hand. Then our youngest volunteer — she was sixteen — walked the whole park with me at dawn and sketched a new route that avoided every flooded section. We didn't cancel. I keep her drawing framed in my office. Interviewer: The run has grown a lot. Is bigger always better? Olivia: That's the question that keeps me awake, honestly. More runners means more money for the ward, and I can't argue with that. But I refuse to lose the feeling that every single runner could be greeted by name. The day it becomes a faceless crowd, we'll have lost something money can't replace. So we cap the numbers now — people are surprised we say no. Interviewer: What moment each year means the most to you? Olivia: Not the start, though the noise is wonderful. It's about an hour after, when the fast runners have finished — and the very last walkers come round the final corner and hear the crowd cheering louder for them than for the winners. That's the whole spirit of the day in one moment. Interviewer: And the future? Olivia: People keep telling me to add a half-marathon, make it a festival, get sponsors with big names. Maybe one day. But my real dream is quieter — I want to stand at the finish in year twenty, hand a cotton hat to somebody who ran the very first race with us, and their grandchild next to them."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How did the charity run start?",
+     "o": ["After a marathon was cancelled", "As a hospital fundraising plan", "As a running club competition"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What takes most of Olivia's time?",
+     "o": ["Measuring the route", "Getting permissions and paperwork", "Training the volunteers"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How was the flood problem solved in year three?",
+     "o": ["The race was moved to another day", "A young volunteer planned a new route", "The council repaired the route in time"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why does Olivia limit the number of runners?",
+     "o": ["To keep the event personal", "To raise more money", "Because the police require it"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Which moment means most to Olivia?",
+     "o": ["The noisy start of the race", "The winners crossing the line", "The last walkers being cheered"],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What is Olivia's dream for the future?",
+     "o": ["Adding a half-marathon", "Finding famous sponsors", "Seeing the run continue for decades"],
+     "c": 2
+    }
+   ]
+  }
+ ]
+}

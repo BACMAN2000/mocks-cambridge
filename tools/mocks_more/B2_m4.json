@@ -1,0 +1,189 @@
+{
+  "title": "B2 First — Reading and Use of English (MOCK 4)",
+  "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "Keeping the past standing",
+      "body": "Old buildings occupy a curious place in our affections. We admire them, photograph them and campaign to save them, yet few of us give much (1)____ to what saving them actually involves. When a historic structure falls into (2)____, a familiar argument begins. Purists insist that any repair should remain visible, so that a careful observer can (3)____ the original work from the modern additions. Others prefer restoration so seamless that even an expert can barely (4)____ the difference. Both camps agree on one thing, however: doing nothing is rarely an option, because neglect does not simply pause a building's history — it ends it. Restorers therefore have to (5)____ a delicate balance. Use too much modern material and the building becomes a replica; use too little and it may not (6)____ another century of storms and traffic. The finest craftsmen spend years mastering techniques that had almost (7)____ out, precisely so that their repairs will age at the same rate as the stone around them. It is slow, expensive and largely invisible work, which is perhaps why it so rarely (8)____ the headlines.",
+      "questions": [
+        { "options": ["interest", "thought", "notice", "concern"], "answer": 1 },
+        { "options": ["disrepair", "damage", "breakdown", "failure"], "answer": 0 },
+        { "options": ["say", "know", "tell", "notice"], "answer": 2 },
+        { "options": ["catch", "spot", "view", "glance"], "answer": 1 },
+        { "options": ["hit", "beat", "knock", "strike"], "answer": 3 },
+        { "options": ["survive", "overcome", "confront", "oppose"], "answer": 0 },
+        { "options": ["passed", "faded", "died", "run"], "answer": 2 },
+        { "options": ["does", "takes", "gives", "makes"], "answer": 3 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The cathedral that took two lifetimes",
+      "body": "Some of Europe's great cathedrals took (9)____ than a century to complete, which means that the masons who laid the foundations knew perfectly well that they (10)____ never live to see the roof. It is hard for us to imagine working (11)____ such conditions. Modern building projects are judged by (12)____ quickly they can be finished, and a delay of even a few months is treated (13)____ something close to a scandal. Yet there is something to be said for the older attitude. A structure intended to stand for a thousand years can hardly be thrown (14)____ in a hurry. Those medieval builders, most of (15)____ names have been lost, were working for people they would never meet — and it is difficult to think of a greater act of generosity (16)____ that.",
+      "questions": [
+        { "accept": ["more", "longer"] },
+        { "accept": ["would"] },
+        { "accept": ["under", "in"] },
+        { "accept": ["how"] },
+        { "accept": ["as"] },
+        { "accept": ["up", "together"] },
+        { "accept": ["whose"] },
+        { "accept": ["than"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "The craft of repair",
+      "rows": [
+        { "text": "The (17)____ of a damaged monument is a task", "root": "RESTORE" },
+        { "text": "that calls for patience above all else." },
+        { "text": "" },
+        { "text": "Genuinely (18)____ craftsmen are increasingly rare,", "root": "SKILL" },
+        { "text": "and training a new one takes many years." },
+        { "text": "" },
+        { "text": "Matching the (19)____ of centuries-old stone", "root": "APPEAR" },
+        { "text": "is far harder than most visitors realise." },
+        { "text": "" },
+        { "text": "Steel rods are sometimes hidden inside old walls" },
+        { "text": "to (20)____ them without changing how they look.", "root": "STRONG" },
+        { "text": "" },
+        { "text": "Architects carry a heavy (21)____, since a single", "root": "RESPONSIBLE" },
+        { "text": "mistake may destroy what centuries have preserved." },
+        { "text": "" },
+        { "text": "Some compromises are (22)____, because original", "root": "AVOID" },
+        { "text": "materials can no longer be obtained." },
+        { "text": "" },
+        { "text": "(23)____, the hardest decision is often about", "root": "SURPRISE" },
+        { "text": "what not to repair at all." },
+        { "text": "" },
+        { "text": "True craft (24)____ passes from hand to hand,", "root": "KNOW" },
+        { "text": "and once the chain breaks, it is hard to mend." }
+      ],
+      "questions": [
+        { "root": "RESTORE", "accept": ["restoration"] },
+        { "root": "SKILL", "accept": ["skilled", "skilful", "skillful"] },
+        { "root": "APPEAR", "accept": ["appearance"] },
+        { "root": "STRONG", "accept": ["strengthen"] },
+        { "root": "RESPONSIBLE", "accept": ["responsibility"] },
+        { "root": "AVOID", "accept": ["unavoidable"] },
+        { "root": "SURPRISE", "accept": ["surprisingly"] },
+        { "root": "KNOW", "accept": ["knowledge"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+      "questions": [
+        {
+          "before": "The council last inspected the tower ten years ago.",
+          "keyword": "BEEN",
+          "after": "It ___ the council last inspected the tower.",
+          "accept": ["has been ten years since"]
+        },
+        {
+          "before": "Restoring the roof took longer than the architects had expected.",
+          "keyword": "NOT",
+          "after": "Restoring the roof did ___ as the architects had expected.",
+          "accept": ["not take as long"]
+        },
+        {
+          "before": "'Don't touch the scaffolding,' the foreman said to the visitors.",
+          "keyword": "WARNED",
+          "after": "The foreman ___ touch the scaffolding.",
+          "accept": ["warned the visitors not to"]
+        },
+        {
+          "before": "It was wrong of the owners to ignore the surveyor's report.",
+          "keyword": "SHOULD",
+          "after": "The owners ___ the surveyor's report.",
+          "accept": ["should not have ignored", "shouldn't have ignored"]
+        },
+        {
+          "before": "Only a few of the original windows have survived.",
+          "keyword": "HARDLY",
+          "after": "___ of the original windows have survived.",
+          "accept": ["hardly any"]
+        },
+        {
+          "before": "The building is closed because they are repairing the floor.",
+          "keyword": "BEING",
+          "after": "The building is closed because the floor ___.",
+          "accept": ["is being repaired"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The argument in the stones\n\nStand in front of any famous old building and you are looking at a battlefield. Not, usually, a military one — though plenty of cathedrals have survived those too — but a battlefield of ideas, on which two visions of the past have been quietly fighting for more than a century. The question that divides them sounds innocent enough: when an old building decays, what exactly should we put back?\n\nOne camp answers: as little as possible. For these conservators, an ancient wall is a document, and every crack, patch and clumsy medieval repair is a sentence in it. To cut out the worn stones and insert crisp new copies is, in their eyes, a kind of forgery — the architectural equivalent of rewriting an old letter in fresh ink and then claiming it is the original. Repairs, they insist, should be honest: visible if you look, sympathetic but never disguised. A building that has stood for six hundred years has earned the right to look its age.\n\nThe opposing camp finds this attitude precious. Buildings, they argue, are not documents but living things, and a living thing that cannot be used will die. Nobody will heat, insure and maintain a structure that is treated as an untouchable relic; sooner or later the roof fails, and then the argument becomes academic, because there is nothing left to argue about. Far better, they say, to restore boldly — new stone, new carving, even whole new wings — if that is the price of keeping the building alive and occupied. A copy in daily use, on this view, honours the past far better than an authentic ruin.\n\nIn practice, most modern professionals steer between the two extremes, guided by principles that have hardened into international charters: do as little as possible, but as much as necessary; use materials that can be removed again if a future generation disagrees with you; and record everything, so that no one is ever deceived about which century made what. It is a sensible compromise, though like most compromises it fully satisfies nobody.\n\nWhat both camps tend to overlook, in the heat of their elegant argument, is that the greatest destroyer of old buildings is neither the forger's chisel nor the purist's neglect, but something far duller: the slow arithmetic of maintenance that nobody wants to fund. Gutters, drains and roof tiles decide the fate of more historic architecture than all the theorists combined. The battle of ideas matters, but it is won or lost by whoever pays for the scaffolding — and until we accept that, the stones will go on quietly falling, whichever philosophy we carve above the door.",
+      "questions": [
+        { "stem": "What does the writer mean by calling a famous old building 'a battlefield'?", "options": ["Most old buildings were originally military structures.", "Visitors often argue about which buildings are most beautiful.", "It is the object of a long-running conflict between two views of how to treat the past.", "Cathedrals have all survived actual wars."], "answer": 2 },
+        { "stem": "Why does the first camp compare replacing worn stones to forgery?", "options": ["Because it presents new work as if it were the original record of the past.", "Because new stone is always of worse quality than old stone.", "Because altering ancient walls is against the law.", "Because medieval repairs were themselves fakes."], "answer": 0 },
+        { "stem": "According to the second camp, what happens to a building treated as an untouchable relic?", "options": ["It becomes more valuable.", "It is immediately demolished.", "It attracts more visitors.", "It eventually decays because nobody will maintain a structure that cannot be used."], "answer": 3 },
+        { "stem": "Which of these is one of the principles in the international charters mentioned?", "options": ["Always rebuild in the original style.", "Use materials that a future generation could remove again.", "Never allow modern materials of any kind.", "Keep all records of repairs secret."], "answer": 1 },
+        { "stem": "What does the writer say actually destroys most old buildings?", "options": ["The unglamorous failure to pay for routine maintenance.", "Bold restorers and their chisels.", "Purist theories of conservation.", "Tourism and overcrowding."], "answer": 0 },
+        { "stem": "Which statement best reflects the writer's overall view?", "options": ["The purists are right and the restorers are forgers.", "The restorers are right and the purists are sentimental.", "The theoretical debate matters less than the practical question of who pays for upkeep.", "Old buildings should be left to fall down naturally."], "answer": 2 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+      "passage": "The station that refused to die\n\nWhen the last train left Alderford station on a wet evening in 1968, few of the passengers looked back. The line was closing, the town had a new bus route, and the handsome Victorian building seemed destined to follow hundreds of others into rubble. (37)____ For nearly thirty years it stood empty, its roof leaking, its clock stopped, and its platforms slowly disappearing under brambles.\n\nThe rescue began not with a wealthy investor but with a retired teacher who lived opposite and was, in her own words, 'tired of watching a good building die'. She called a public meeting, expecting a dozen people; more than a hundred came. (38)____ Within a year the new trust had two hundred members and a bank account containing rather less than the price of a single window.\n\nWhat the volunteers lacked in money they made up for elsewhere. (39)____ They taught themselves to repair sash windows, repoint brickwork and coax ninety-year-old ironwork back to life, guided at first by library books and later by professional builders who, initially amused by the amateurs, ended up donating whole weekends.\n\nThe turning point came when the regional transport authority announced that the old line itself was to reopen. (40)____ Suddenly the trust found itself sitting in meetings with engineers and lawyers, negotiating over platform heights and fire regulations.\n\nToday the station handles more passengers than it did at any point in its Victorian heyday. (41)____ The café in the old ticket office is run, fittingly, by the granddaughter of the last stationmaster.\n\nVisitors sometimes assume that a building so lovingly kept must have been cherished continuously since the day it opened. (42)____ Almost nothing, the volunteers like to say, survives on its own; but almost anything can be saved.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Evenings and weekends, unpaid and in all weathers, they simply turned up and learned.",
+          "Among them are daily commuters who have no idea that the place was ever closed.",
+          "Demolition was proposed more than once, and was avoided as much by luck as by judgement.",
+          "The volunteers eventually agreed that the building was beyond saving.",
+          "By the end of the evening she had a committee, a bank account and the beginnings of a plan.",
+          "Nothing could be further from what actually happened.",
+          "What had been a hobby became, almost overnight, part of an official transport plan.",
+          "By then the station was already attracting more visitors than the town's museum."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing sentence:", "answer": "C" },
+        { "stem": "Choose the missing sentence:", "answer": "E" },
+        { "stem": "Choose the missing sentence:", "answer": "A" },
+        { "stem": "Choose the missing sentence:", "answer": "G" },
+        { "stem": "Choose the missing sentence:", "answer": "B" },
+        { "stem": "Choose the missing sentence:", "answer": "F" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "Read about four people who work in the restoration of historic buildings. Then answer the questions. The same person may be chosen more than once.",
+      "sources": [
+        { "label": "A", "name": "Marta", "text": "I served a seven-year apprenticeship under a master mason who rarely praised anything, and I am grateful for every difficult minute of it. Stone teaches you patience: rush a cut and you have wasted something that took millions of years to form. People imagine restoration is all artistry, and it partly is, but it is also physically brutal — my back and my wrists remind me of every cathedral I have worked on, and most masons carry some injury by the age of fifty. The strange reward of this trade is invisibility. When I finish a repair, I want visitors to walk past without a second glance. If someone stops and says they cannot tell where the old work ends and mine begins, that is the finest compliment I can be paid, though it does make it difficult to show off." },
+        { "label": "B", "name": "Joseph", "text": "The stained-glass workshop has been in my family for four generations, and I fought hard not to join it. I wanted anything but glass; I trained as an accountant and lasted six years before I admitted defeat and came home. I am glad beyond words that I did, though I only see that now. What worries me is what happens after me. Restoring medieval glass takes a decade to learn properly, and I have not had a serious apprentice in years; when my generation retires, the skills could vanish within a single lifetime. Clients sometimes press me about deadlines, and I have learned to refuse politely. A window that has waited six hundred years can wait another six months, and hurrying is exactly how irreplaceable things get broken. I never rush, whatever it costs me in contracts." },
+        { "label": "C", "name": "Danielle", "text": "I spent the first ten years of my career designing new office buildings, and I left because I realised I did not much care whether any of them survived. Working with historic buildings is the opposite: everything matters, and everything is an argument. My official job is drawings and schedules; my real job is persuasion. Owners arrive wanting to strip a building back and make it look brand new, and the hardest part of my work — harder than any technical problem — is convincing them that doing less is usually doing better, and that restraint costs money precisely because it takes more thought. Heritage rules can be maddening and budgets are never enough, but I have not been bored for a single day since I changed direction, which is more than I could say before." },
+        { "label": "D", "name": "Tom", "text": "Nobody is less qualified for this work on paper than I am — I was a delivery driver, and I first came to the old mill as a weekend volunteer because my wife signed us both up. Now I organise a hundred and forty people, from teenagers to retired engineers. What I have learned is that enthusiasm, properly organised, gets more done than expertise; you can teach someone to point brickwork in a month, but you cannot teach them to turn up in the rain. The exception is safety — that training is the one thing we never improvise, because an old building can hurt you in a dozen different ways. What keeps me awake is not the work but the money. Our funding is decided year by year, and every autumn I wonder whether we will still exist in the spring." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Marta", "Joseph", "Danielle", "Tom"] },
+      "questions": [
+        { "stem": "Which person considers it a compliment when their work goes completely unnoticed?", "answer": "A" },
+        { "stem": "Which person joined a family business only after trying a different career?", "answer": "B" },
+        { "stem": "Which person changed direction after finding their previous work unsatisfying?", "answer": "C" },
+        { "stem": "Which person fears their craft may disappear because there are no new trainees?", "answer": "B" },
+        { "stem": "Which person says that persuading clients to do less is the hardest part of the job?", "answer": "C" },
+        { "stem": "Which person mentions the physical toll the work has taken on their body?", "answer": "A" },
+        { "stem": "Which person believes organised enthusiasm achieves more than expertise?", "answer": "D" },
+        { "stem": "Which person refuses to be hurried, even at the risk of losing work?", "answer": "B" },
+        { "stem": "Which person worries every year about whether their organisation will keep its funding?", "answer": "D" },
+        { "stem": "Which person spent years learning their trade under a demanding teacher?", "answer": "A" }
+      ]
+    }
+  ]
+}

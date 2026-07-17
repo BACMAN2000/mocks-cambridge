@@ -1,0 +1,181 @@
+{
+  "title": "B1 Preliminary — Reading (Practice 12)",
+  "note": "All six parts are auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Milldale Village Hall",
+          "text": "THE MONTHLY FARMERS' MARKET MOVES INDOORS FROM NOVEMBER TO MARCH.\nSTALLHOLDERS SHOULD ARRIVE BY 7.30AM TO SET UP — THE DOORS OPEN TO CUSTOMERS AT 9AM SHARP.",
+          "stem": "What does the notice tell stallholders?",
+          "options": ["The market is cancelled during the winter.", "They need to be ready before customers arrive at nine.", "They may set up their stalls at any time before 9am."],
+          "answer": 1
+        },
+        {
+          "kind": "message",
+          "header": "Text from Elsa to Danny",
+          "text": "Danny — I'm on the 5.15 train from the city, but there's a problem on the line and we're stuck outside Oakford. Could you ask your dad to pick me up from Oakford station instead of Milldale? The driver says we'll be there in about twenty minutes. Sorry!",
+          "stem": "What does Elsa want Danny to do?",
+          "options": ["Arrange for her to be collected from a different station.", "Meet her at Milldale station in twenty minutes.", "Find out what the problem on the line is."],
+          "answer": 0
+        },
+        {
+          "kind": "email",
+          "from": "Northgate City Council",
+          "to": "Residents of Harbour Street",
+          "subject": "Night works",
+          "body": "From Monday, engineers will repair the tram lines on Harbour Street. To avoid closing the road during business hours, all work will take place between 10pm and 5am, and some noise is unavoidable. The work should be finished within two weeks. We apologise for the disturbance.",
+          "stem": "Why will the repairs be done at night?",
+          "options": ["The trams do not run after 10pm.", "The engineers are busy elsewhere during the day.", "The council wants to keep the road open in the daytime."],
+          "answer": 2
+        },
+        {
+          "kind": "sign",
+          "header": "Greenhill Community Garden",
+          "text": "THIS GARDEN IS CARED FOR BY LOCAL VOLUNTEERS.\nEVERYONE IS WELCOME TO PICK THE HERBS — PLEASE TAKE ONLY WHAT YOU NEED AND LEAVE SOME FOR YOUR NEIGHBOURS.",
+          "stem": "What does the sign say visitors may do?",
+          "options": ["Join the volunteers without asking.", "Take a small amount of the herbs for themselves.", "Pick as many herbs as they like."],
+          "answer": 1
+        },
+        {
+          "kind": "note",
+          "header": "From Aunt Vera",
+          "text": "Robbie — welcome to the farm! I've had to go to the vet with one of the goats. Help yourself to lunch, but whatever you do, keep the kitchen door shut — the chickens walk straight in and they're impossible to catch once they're under the table. Back by 3. Vera",
+          "stem": "What must Robbie remember to do?",
+          "options": ["Feed the chickens before 3 o'clock.", "Wait for Vera before having lunch.", "Make sure the kitchen door stays closed."],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "The five people below are looking for a new place to live. Read the descriptions of eight places (A–H) and decide which place would be most suitable for each person. There are three places you do not need to use.",
+      "sources": [
+        {
+          "label": "6",
+          "name": "Olivia",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/13.jpg\" alt=\"Olivia\" loading=\"lazy\">",
+          "text": "Olivia has just got her first job in the city centre and does not drive. She wants a small, affordable flat within walking distance of her office, with shops and cafés nearby for the weekends."
+        },
+        {
+          "label": "7",
+          "name": "The Kowalskis",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/52.jpg\" alt=\"The Kowalskis\" loading=\"lazy\">",
+          "text": "Mr and Mrs Kowalski have three young children and a large dog. They want a house with a big garden in a quiet place, but Mr Kowalski works in the city, so there must be a fast train he can take every morning."
+        },
+        {
+          "label": "8",
+          "name": "Hugo",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/76.jpg\" alt=\"Hugo\" loading=\"lazy\">",
+          "text": "Hugo is a painter who needs peace, natural light and beautiful views to work. He grows his own vegetables and wants as few neighbours as possible. He works at home, so transport connections do not matter to him."
+        },
+        {
+          "label": "9",
+          "name": "Chloe",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/97.jpg\" alt=\"Chloe\" loading=\"lazy\">",
+          "text": "Chloe is a student nurse who will work night shifts at the Royal Hospital. She needs a cheap room she can rent with other young people, as close to the hospital as possible, because buses stop running at midnight."
+        },
+        {
+          "label": "10",
+          "name": "Arthur",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/8.jpg\" alt=\"Arthur\" loading=\"lazy\">",
+          "text": "Arthur has retired and wants to live in a small country town rather than a big city or a lonely village. He no longer drives, so he wants shops, a doctor and a library he can reach on foot, and friendly neighbours around him."
+        }
+      ],
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Market Row, Fernbridge: A cosy cottage on the main square of a friendly little town. The weekly market, library, surgery and all the shops are two minutes' walk away. Neighbours here still stop to chat on the corner.",
+          "Rose Farm Cottages, Elmton: A family house with five bedrooms and an enormous garden in a peaceful village. Elmton station is at the end of the lane, with express trains reaching the city centre in twenty-eight minutes.",
+          "The Old Lighthouse: A unique round home on a rocky island, reached by boat twice a week. Total silence and dramatic sea views, but no garden — the island is bare rock.",
+          "City View Apartments: Compact one-bedroom flats five minutes on foot from the business district, above a lively street of cafés, bakeries and small shops. Ideal for young professionals; prices are surprisingly reasonable.",
+          "Kings Park Mansions: Luxury four-bedroom apartments overlooking the city's largest park, with a private gym and parking. Among the most expensive addresses in the city.",
+          "Nightingale House: Shared house for young workers and students, with low rents and all bills included. Directly opposite the Royal Hospital's main entrance — you can be at work in three minutes, at any hour.",
+          "Meadow End Caravan Park: Holiday caravans for summer rental beside a busy campsite with a pool, a club house and evening entertainment. Not available between October and Easter.",
+          "Hilltop Studio: A remote stone house alone at the top of a valley, with huge windows facing south over miles of open country. Large vegetable plot included; the nearest neighbour lives two kilometres away."
+        ]
+      },
+      "questions": [
+        {"stem": "Olivia", "answer": "D"},
+        {"stem": "The Kowalskis", "answer": "B"},
+        {"stem": "Hugo", "answer": "H"},
+        {"stem": "Chloe", "answer": "F"},
+        {"stem": "Arthur", "answer": "A"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the article about a family who moved to the countryside and choose the best answer A, B, C or D.",
+      "passage": "Swapping the city for a hillside\n\nTwo years ago, Miriam Costa, her husband and their two teenage sons left their apartment in the capital and moved to a farmhouse on a hillside, an hour from the nearest cinema. Friends predicted they would be back within six months. \"They weren't completely wrong to doubt us,\" Miriam admits. \"We didn't move because we dreamed of growing vegetables or keeping goats, like people imagine. We moved because our rent doubled in three years, and we did the sums and realised we were working every hour just to pay for a flat we were never in.\"\n\nThe first winter tested them all. The heating broke during the coldest week of the year, the internet failed whenever it stormed, and the boys, aged thirteen and fifteen, complained constantly about leaving their friends. \"I expected the cold and the repairs,\" says Miriam. \"What I hadn't prepared for was the silence in the evenings. In the city there's always a background hum. Here, at first, the quiet actually kept me awake at night. It sounds ridiculous, but it was the hardest thing to get used to.\"\n\nSlowly, the family adjusted. Miriam's husband, a graphic designer, kept his city clients and works online, driving in for meetings twice a month. The boys joined the village football team, where, to their surprise, they were welcomed as heroes simply for making up the numbers. \"In their old school they were two faces among two thousand,\" Miriam says. \"Here, the coach phones if they miss training. They matter. That has changed them more than anything.\"\n\nWould she recommend the move to others? Miriam hesitates. \"People ask me that expecting a simple yes. My honest answer is: know why you're doing it. If you move expecting paradise, the first burst pipe will send you straight back. We came for practical reasons and found the good things gradually. I think that's why we stayed.\"",
+      "questions": [
+        {"stem": "Why did Miriam's family move to the countryside?", "options": ["They had always dreamed of country life.", "They wanted to start a small farm.", "The cost of city housing had become too high.", "Her husband found a new job there."], "answer": 2},
+        {"stem": "What did Miriam find hardest during the first winter?", "options": ["Getting used to how quiet it was.", "The broken heating system.", "Her sons' complaints about their friends.", "The unreliable internet connection."], "answer": 0},
+        {"stem": "How does Miriam's husband manage his work?", "options": ["He gave up his design career after moving.", "He works from home and visits the city occasionally.", "He drives to the city every day for meetings.", "He found new clients in the village."], "answer": 1},
+        {"stem": "According to Miriam, how has village life affected her sons?", "options": ["They have become the best players in the team.", "They still wish they were back in the city.", "They find school easier than before.", "They feel noticed and important in the community."], "answer": 3},
+        {"stem": "What advice does Miriam give people thinking about a similar move?", "options": ["Be clear about your real reasons for moving.", "Expect country life to be a paradise.", "Wait until your children have left school.", "Repair the house before you move in."], "answer": 0}
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 4",
+      "instructions": "Read the article about city farms. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+      "passage": "Farms between the tower blocks\n\nWhen people think of a farm, they usually picture green fields far from town. Yet in some of the world's biggest cities, real farms — with pigs, goats, chickens and vegetable gardens — are hidden between apartment blocks and railway lines. (16)____ Most are run as charities and are free for anyone to visit.\n\nThe first city farms opened in the 1970s, when local people turned abandoned building sites into shared gardens. (17)____ Animals arrived later, often donated by farmers who were retiring, and the idea spread from city to city.\n\nFor many urban children, these farms provide their first meeting with a living farm animal. (18)____ Teachers say the visits change how pupils think about food, and some schools now grow vegetables in their own playgrounds as a result.\n\nThe farms matter to adults too. Doctors in several cities now send patients suffering from stress to help with the animals for a few hours a week. (19)____ Many volunteers say the farm is the only place where they feel part of a community.\n\nCity farms are rarely rich, and several have closed in recent years when their funding disappeared. (20)____ Supporters argue that would be a small price for keeping a piece of the countryside alive in the middle of the concrete.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "At the beginning, these plots grew only fruit and vegetables.",
+          "Cows, however, are usually too large for such small sites.",
+          "Caring for a goat, it turns out, can be better medicine than any pill.",
+          "Some have never seen a real chicken before, only pictures in books.",
+          "There are now more than two hundred of them across Europe alone.",
+          "The animals are sold at market once they are fully grown.",
+          "Farmers in the countryside often earn more than city workers.",
+          "Campaigners believe a small charge on city car parks could protect them all."
+        ]
+      },
+      "questions": [
+        {"stem": "Gap 16", "answer": "E"},
+        {"stem": "Gap 17", "answer": "A"},
+        {"stem": "Gap 18", "answer": "D"},
+        {"stem": "Gap 19", "answer": "C"},
+        {"stem": "Gap 20", "answer": "H"}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 5",
+      "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+      "title": "Why are cities getting greener?",
+      "body": "Anyone who walks around a modern city will notice something that was rare twenty years ago: plants are everywhere. Trees line the streets, flowers grow on office roofs, and climbing plants cover entire walls of (21)____ buildings. This change is not just about beauty. City planners have (22)____ that plants solve several urban problems at once. In summer, a street with large trees can be five degrees (23)____ than a street without them, which saves energy on air conditioning. Plants also (24)____ some of the dust and dirt from the air, and green roofs soak up heavy rain that would otherwise flood the drains. Perhaps most importantly, researchers have found that people who can see trees from their windows (25)____ to feel calmer and happier than those who look out at concrete. Making a city green is not cheap, but compared with the (26)____ of floods, heatwaves and unhealthy citizens, a few thousand trees may be the best bargain in town.",
+      "questions": [
+        {"options": ["high", "long", "great", "tall"], "answer": 3},
+        {"options": ["invented", "realised", "wondered", "imagined"], "answer": 1},
+        {"options": ["warmer", "hotter", "cooler", "colder"], "answer": 2},
+        {"options": ["remove", "empty", "clean", "wash"], "answer": 0},
+        {"options": ["use", "want", "tend", "like"], "answer": 2},
+        {"options": ["price", "cost", "value", "bill"], "answer": 1}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 6",
+      "instructions": "For each gap (27–32), write ONE word.",
+      "title": "Email about moving house",
+      "body": "Hi Tessa,\n\nBig news — we're moving! My parents have bought a house in a village called Ashwell, so we're leaving the city at the end (27)____ July.\n\nI have mixed feelings about it. The new house is much bigger than our flat, and I'll finally have a bedroom of my (28)____. On the other hand, I'm sad about leaving my friends, and there isn't (29)____ to do in the village — no cinema, no shopping centre, nothing!\n\nMum says I (30)____ get used to it quickly, and that I can come back to visit whenever I like. The train only takes (31)____ hour.\n\nPromise you'll come and stay with me in the summer holidays. If you don't, I'll never forgive you! I'll send you the new address as soon (32)____ I can.\n\nLove,\nBecky",
+      "questions": [
+        {"accept": ["of"]},
+        {"accept": ["own"]},
+        {"accept": ["much", "anything"]},
+        {"accept": ["will", "might"]},
+        {"accept": ["an", "one"]},
+        {"accept": ["as"]}
+      ]
+    }
+  ]
+}

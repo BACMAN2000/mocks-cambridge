@@ -1,0 +1,343 @@
+{
+ "label": "B2 — Upper-Intermediate",
+ "cefr": "Cambridge First (FCE) · B2 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+ "audios": [
+  {
+   "id": "B2-P1",
+   "title": "Part 1 · Questions 1–8",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A rooftop garden",
+    "A seed order",
+    "A radio programme",
+    "A community garden",
+    "A college course",
+    "A plant stall",
+    "A school garden",
+    "At a garden centre"
+   ],
+   "scripts": [
+    "Question one. Man: How was the rooftop garden you visited? Woman: Smaller than I expected, actually, and you couldn't really see much of the city from up there. But I couldn't believe how many different vegetables they'd managed to grow in such a tiny space. That's what I keep thinking about.",
+    "Question two. Man: Hello, I'm calling about the tomato seeds I ordered from your website last week. Woman: Were they delayed? Man: No, the parcel came quickly enough, but when I opened it, I found lettuce seeds inside instead. I'd like the ones I actually paid for.",
+    "Question three. Woman: And a quick note about tonight's gardening programme. It will still be presented by our regular host at the usual time of eight o'clock, but instead of looking at garden design as advertised, it will now focus on growing food on balconies.",
+    "Question four. Woman: They're finally turning that empty car park into a community garden. Man: I know, and everyone keeps saying it'll be abandoned within a year. Honestly, I think they're wrong. I've already signed up for a plot, and I can't wait to get started.",
+    "Question five. Girl: I'm thinking of doing the gardening course at the college next term. Woman: Good idea, but don't wait until term begins. Places go incredibly fast, so put your name down this week. The fee's not a problem, you can pay that later.",
+    "Question six. Man: How did the plant stall go on Saturday? Woman: Well, we didn't sell everything, and the weather was miserable all morning. But so many people asked about joining our gardening group that we've now got a waiting list. That's what really made my day.",
+    "Question seven. Girl: So what's the plan for the new school garden? Boy: Some people wanted flowers because they look nice, and the teacher suggested herbs, but in the end we voted to start with potatoes. Apparently they're almost impossible to get wrong.",
+    "Question eight. Woman: Excuse me, I bought this fern here last month and the leaves keep turning brown. Assistant: Would you like to exchange it for another one? Woman: No, I'd rather keep it, honestly. I just want to know what I'm doing wrong so I can save it."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What impressed the woman about the rooftop garden?",
+     "o": [
+      "Its size",
+      "The view of the city",
+      "The variety of vegetables"
+     ],
+     "c": 2,
+     "audio": "P4/B2/B2-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the problem with the man's order?",
+     "o": [
+      "It arrived late",
+      "He received the wrong seeds",
+      "The packet was damaged"
+     ],
+     "c": 1,
+     "audio": "P4/B2/B2-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What has changed about the radio programme?",
+     "o": [
+      "The time",
+      "The topic",
+      "The presenter"
+     ],
+     "c": 1,
+     "audio": "P4/B2/B2-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How does the man feel about the new community garden?",
+     "o": [
+      "Enthusiastic",
+      "Doubtful",
+      "Annoyed"
+     ],
+     "c": 0,
+     "audio": "P4/B2/B2-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the woman advise the girl to do?",
+     "o": [
+      "Apply as soon as possible",
+      "Pay the fee immediately",
+      "Wait until term starts"
+     ],
+     "c": 0,
+     "audio": "P4/B2/B2-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why is the woman pleased about the stall?",
+     "o": [
+      "The weather improved",
+      "They sold every plant",
+      "Many people wanted to join the group"
+     ],
+     "c": 2,
+     "audio": "P4/B2/B2-P1-q6.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What will the students grow first?",
+     "o": [
+      "Flowers",
+      "Herbs",
+      "Potatoes"
+     ],
+     "c": 2,
+     "audio": "P4/B2/B2-P1-q7.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the woman want at the garden centre?",
+     "o": [
+      "To exchange the plant",
+      "Advice on caring for the plant",
+      "Her money back"
+     ],
+     "c": 1,
+     "audio": "P4/B2/B2-P1-q8.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B2-P2",
+   "title": "Part 2 · Questions 9–18",
+   "kind": "file",
+   "file": "P4/B2/B2-P2.mp3",
+   "intro": "You will hear a young volunteer called Tom talking about a rooftop garden project called Green Heights. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Tom: Hi, I'm Tom, and for the past two years I've been volunteering with Green Heights, a rooftop garden right in the middle of the city. People sometimes think urban gardening is a new fashion, but our project actually began back in twenty fourteen, when a small group of neighbours got permission to use an empty roof. We started with just twelve members, and I'm proud to say there are now around eighty of us, from teenagers to retired people. The location surprises everyone: we're on the roof of an old factory, which once made shoes, and from up there you get an amazing view over the whole neighbourhood. We grow all sorts of things. Our strawberries, to be honest, have never done well, because the birds usually take them before we do, but our tomatoes are a different story. They've been so successful that local chefs now ask for them by name. In fact, we supply several restaurants in the area, and because the streets are so crowded, everything is delivered by bicycle, which turns out to be quicker than any van. There's exciting news this year too. We've spent months building a greenhouse so we can keep growing through the winter, and it finally opens in September. Now, if you're thinking of joining us, let me tell you what's involved. We ask every volunteer to help for at least two hours a week. That doesn't sound like much, but with eighty people it soon adds up. Safety matters as well. Some of the plants we clear have sharp stems, so whatever the weather, you must wear gloves. We provide those, along with all the tools you'll need. And there are rewards too. Everything we don't sell is shared out among us, and each month every member takes home a free bag of compost, made from our own kitchen waste. Some people join for the vegetables, but most stay for the company. I've made friends of all ages up on that roof, and after a stressful day there's honestly nothing better than an hour of quiet digging. So if you'd like to get involved, please don't use the form on our noticeboard, because that's out of date. The best thing is simply to send an email, and one of the team will invite you up for a visit. I promise, once you've watched the sunset from our roof, you'll want to stay."
+   ],
+   "gapTitle": "Green Heights Rooftop Garden — Volunteering",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The project began in: ____",
+     "accept": [
+      "2014",
+      "twenty fourteen"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Number of members now: about ____",
+     "accept": [
+      "80",
+      "eighty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The garden is on the roof of an old: ____",
+     "accept": [
+      "factory",
+      "shoe factory"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The most successful crop: ____",
+     "accept": [
+      "tomatoes",
+      "tomato"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Vegetables are delivered to restaurants by: ____",
+     "accept": [
+      "bicycle",
+      "bike"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The greenhouse opens in: ____",
+     "accept": [
+      "september"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Volunteers help for at least: ____ hours a week",
+     "accept": [
+      "2",
+      "two"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "For safety, volunteers must wear: ____",
+     "accept": [
+      "gloves"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Each month members get a free bag of: ____",
+     "accept": [
+      "compost"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "To join, you should send an: ____",
+     "accept": [
+      "email",
+      "e-mail"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2-P3",
+   "title": "Part 3 · Questions 19–23",
+   "kind": "file",
+   "file": "P4/B2/B2-P3.mp3",
+   "intro": "You will hear five people talking about why they took up gardening. For each speaker, choose from the list (A–H) the reason they give. Use each letter once. There are three extra letters you will not need.",
+   "bank": [
+    "to grow their own food",
+    "to save money",
+    "to relax after work",
+    "to meet their neighbours",
+    "to teach their children",
+    "to improve their health",
+    "to help wildlife",
+    "to win competitions"
+   ],
+   "scripts": [
+    "Speaker one. Woman: My job is basically back-to-back meetings, and I used to carry all that tension home with me. Now, the moment I step into the garden, my shoulders just drop. It's certainly not about saving money, I probably spend more on seeds than the vegetables are worth, but an hour out there and my head is completely clear. Speaker two. Man: My kids genuinely thought potatoes came from a supermarket shelf. That bothered me, so we dug a patch together in the spring. Watching them pull up their first carrots was wonderful, and the funny thing is, they now happily eat vegetables they used to refuse. That lesson was the whole point. Speaker three. Woman: I read an article saying that bees and butterflies are disappearing from cities, and it really upset me. So I filled my little garden with the flowers they love, and I leave a wild corner untouched. We get a few berries too, but honestly, that's just a bonus. The garden isn't really for me. Speaker four. Man: I'll never win any prizes for my roses, and I'm fine with that. After I hurt my back, the physiotherapist said I needed regular gentle movement, and the gym bored me to tears. All the digging, carrying and bending in the garden keeps me active, and I honestly feel stronger than I have in years. Speaker five. Woman: When I moved to this street, I didn't know a single person, and working from home made it worse. Then I took on a plot at the shared garden behind the church. Within a month I'd been invited to two barbecues, and now I stop for a chat every time I walk down the road."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Speaker 1",
+     "c": "to relax after work"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 2",
+     "c": "to teach their children"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 3",
+     "c": "to help wildlife"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 4",
+     "c": "to improve their health"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 5",
+     "c": "to meet their neighbours"
+    }
+   ]
+  },
+  {
+   "id": "B2-P4",
+   "title": "Part 4 · Questions 24–30",
+   "kind": "file",
+   "file": "P4/B2/B2-P4.mp3",
+   "intro": "You will hear an interview with a woman called Elena, who leads an urban gardening organisation. For each question, choose the best answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Elena, welcome. How did you first get involved in urban gardening? Elena: People always assume I studied agriculture, but my degree was actually in law. What really started it was the view from my flat: an abandoned plot full of rubbish. One weekend I knocked on my neighbours' doors, and twenty of us cleared it together. Interviewer: What has surprised you most since then? Elena: Everyone expects me to say the amount of food we grow. Honestly, it's the people. I imagined our members would mostly be retired gardeners, but half of them are busy young professionals who had never touched a spade before. Interviewer: What's the biggest challenge for a new garden project? Elena: Money is easier to find than people think, and vandalism is much rarer than the newspapers suggest. The real difficulty is land. An owner will happily lend you a site for a year, but a garden needs security, and getting a long-term agreement takes endless patience. Interviewer: Can cities really feed themselves this way? Elena: No, and we should be honest about that. City gardens will never replace farms. Their real power is changing how people think about food: once you've grown a carrot yourself, you never throw one away again. Interviewer: What advice would you give to a complete beginner? Elena: Don't rush out and buy expensive tools and enormous planters. Start with a few pots on a windowsill, learn from what dies, and grow from there. Interviewer: Looking back, what are you proudest of? Elena: We've won several awards, which is lovely, but the thing that means most to me is our schools programme. Three thousand children now garden every week because of it. Interviewer: And what's next for you? Elena: People keep asking when I'm going to write a book, but that can wait. We've just signed an agreement to create gardens on hospital roofs, and that's where all my energy is going. Interviewer: Elena, thank you very much."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How did Elena become involved in urban gardening?",
+     "o": [
+      "She studied it at university",
+      "She wanted to improve a site near her home",
+      "A neighbour asked her to help"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What has surprised Elena most?",
+     "o": [
+      "The variety of people involved",
+      "The amount of food produced",
+      "How quickly gardens spread"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "According to Elena, the biggest challenge for new gardens is",
+     "o": [
+      "finding enough money",
+      "preventing vandalism",
+      "keeping a site long term"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What does Elena say about food grown in cities?",
+     "o": [
+      "It could replace farms one day",
+      "It changes people's attitude to food",
+      "It is cheaper than supermarket food"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What advice does Elena give beginners?",
+     "o": [
+      "Start with a few pots",
+      "Buy good quality tools first",
+      "Join an organised course"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What is Elena proudest of?",
+     "o": [
+      "The awards her organisation has won",
+      "The number of gardens created",
+      "The programme for schools"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What will Elena do next?",
+     "o": [
+      "Write a book",
+      "Create gardens at hospitals",
+      "Open projects abroad"
+     ],
+     "c": 1
+    }
+   ]
+  }
+ ]
+}

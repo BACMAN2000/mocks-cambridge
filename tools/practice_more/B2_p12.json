@@ -1,0 +1,189 @@
+{
+  "title": "B2 First — Reading and Use of English (Practice 12)",
+  "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The night shift inside you",
+      "body": "Scientists have long known that sleep is essential, but only in recent decades have they begun to work (1)____ exactly what the sleeping brain is doing. Far from switching off, it takes (2)____ of the quiet hours to perform essential maintenance. During the deepest stages of sleep, a remarkable cleaning system flushes away the waste chemicals that (3)____ up between our brain cells during the day. At the same time, the experiences of the previous day are sorted, and the important ones are moved into long-term storage. Missing even one night's sleep has a measurable (4)____ on concentration, mood and judgement, as anyone who has sat an exam after a sleepless night can confirm. Chronic shortage is more serious still, and has been (5)____ to heart disease, obesity and diabetes. Despite all this, many of us continue to treat sleep as a luxury we can do (6)____ whenever life gets busy. Attitudes, however, are slowly changing. Some employers now take the issue (7)____, discouraging late-night emails and educating staff about rest. Their reasoning is simple: in the long (8)____, there is no substitute for a full night's sleep, and no coffee strong enough to replace one.",
+      "questions": [
+        { "options": ["off", "up", "over", "out"], "answer": 3 },
+        { "options": ["profit", "advantage", "benefit", "occasion"], "answer": 1 },
+        { "options": ["grow", "raise", "build", "rise"], "answer": 2 },
+        { "options": ["effect", "affect", "result", "outcome"], "answer": 0 },
+        { "options": ["joined", "linked", "attached", "combined"], "answer": 1 },
+        { "options": ["over", "away", "down", "without"], "answer": 3 },
+        { "options": ["strongly", "heavily", "seriously", "deeply"], "answer": 2 },
+        { "options": ["run", "race", "road", "path"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "Are you a lark or an owl?",
+      "body": "Some people leap out of bed at dawn, full of energy; others do not feel properly awake (9)____ the middle of the morning. Scientists refer to these two types as larks and owls, and the difference between them is far (10)____ a matter of laziness. Each of us carries an internal clock, and its settings are largely inherited, which means that night owls can no more choose their rhythm (11)____ they can choose their height. Trouble arises because school and work timetables are designed by and for larks. Owls are forced to perform (12)____ their worst hour of the day, and many drag themselves through the week in a fog, catching (13)____ on lost sleep at weekends. Some researchers argue that schools should simply start later, and trials in (14)____ lessons began at ten o'clock have produced encouraging results: attendance improved, and so (15)____ exam grades. Changing the clocks of institutions, it turns out, may be far easier than changing (16)____ inside our bodies.",
+      "questions": [
+        { "accept": ["until", "till", "before"] },
+        { "accept": ["from"] },
+        { "accept": ["than"] },
+        { "accept": ["at"] },
+        { "accept": ["up"] },
+        { "accept": ["which"] },
+        { "accept": ["did"] },
+        { "accept": ["those", "ones"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Why teenagers sleep late",
+      "rows": [
+        { "text": "There is a common (17)____ that teenagers who", "root": "BELIEVE" },
+        { "text": "sleep until noon are simply idle." },
+        { "text": "" },
+        { "text": "In (18)____, their body clocks genuinely shift", "root": "REAL" },
+        { "text": "during adolescence, by up to two hours." },
+        { "text": "" },
+        { "text": "This (19)____ change pushes their natural", "root": "BIOLOGY" },
+        { "text": "bedtime towards one in the morning." },
+        { "text": "" },
+        { "text": "Early school starts are therefore deeply (20)____", "root": "FAIR" },
+        { "text": "to students in their mid-teens." },
+        { "text": "" },
+        { "text": "Sleep-deprived pupils show poorer (21)____ and", "root": "CONCENTRATE" },
+        { "text": "weaker memory in morning lessons." },
+        { "text": "" },
+        { "text": "Some head teachers have taken the (22)____ step", "root": "USUAL" },
+        { "text": "of delaying the first bell until ten o'clock." },
+        { "text": "" },
+        { "text": "The (23)____ effects on results have persuaded", "root": "BENEFIT" },
+        { "text": "several neighbouring schools to follow." },
+        { "text": "" },
+        { "text": "Sleep, the evidence suggests, deserves the same" },
+        { "text": "(24)____ as diet and exercise in public health.", "root": "ATTEND" }
+      ],
+      "questions": [
+        { "root": "BELIEVE", "accept": ["belief"] },
+        { "root": "REAL", "accept": ["reality"] },
+        { "root": "BIOLOGY", "accept": ["biological"] },
+        { "root": "FAIR", "accept": ["unfair"] },
+        { "root": "CONCENTRATE", "accept": ["concentration"] },
+        { "root": "USUAL", "accept": ["unusual"] },
+        { "root": "BENEFIT", "accept": ["beneficial"] },
+        { "root": "ATTEND", "accept": ["attention"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+      "questions": [
+        {
+          "before": "I have never slept as badly as I did last night.",
+          "keyword": "WORST",
+          "after": "Last night's sleep was ___ ever had.",
+          "accept": ["the worst i have", "the worst i've"]
+        },
+        {
+          "before": "Experts believe that most adults need eight hours' sleep.",
+          "keyword": "ARE",
+          "after": "Most adults ___ eight hours' sleep.",
+          "accept": ["are believed to need"]
+        },
+        {
+          "before": "I couldn't fall asleep because of the noise from the street.",
+          "keyword": "PREVENTED",
+          "after": "The noise from the street ___ asleep.",
+          "accept": ["prevented me from falling"]
+        },
+        {
+          "before": "It was a mistake for me to drink coffee so late.",
+          "keyword": "HAVE",
+          "after": "I ___ coffee so late.",
+          "accept": ["should not have drunk", "shouldn't have drunk", "ought not to have drunk"]
+        },
+        {
+          "before": "If you don't switch off your phone, you won't sleep well.",
+          "keyword": "UNLESS",
+          "after": "You won't sleep well ___ your phone.",
+          "accept": ["unless you switch off"]
+        },
+        {
+          "before": "As soon as my head touched the pillow, I fell asleep.",
+          "keyword": "HAD",
+          "after": "No sooner ___ the pillow than I fell asleep.",
+          "accept": ["had my head touched"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "In defence of the nap\n\nFew human habits divide the world as neatly as the nap. In some countries, a rest after lunch is regarded as the mark of a civilised life; in others, it is treated as an embarrassing confession. The industrialised world mostly falls into the second camp. There, sleeping in the daytime carries a faint smell of failure, as though the napper lacked the seriousness that modern work demands. Doctors who study sleep find this attitude not just unkind but scientifically absurd.\n\nThe evidence in the nap's favour is unusually solid. In a famous series of studies, researchers looked at long-distance pilots, whose profession combines monotony with the occasional need for split-second judgement. Pilots who were allowed a planned rest of under half an hour performed dramatically better in the final phase of their flights: their reaction times sharpened and their attention lapses fell measurably. The results were so clear that planned 'controlled rest' has since been built into the rules of many airlines. What works above the clouds works below them too: short naps have been shown to improve memory, mood and the ability to learn in students, nurses and factory workers alike.\n\nThe science, however, comes with small print. The benefits belong to the short nap — twenty minutes or so — taken early in the afternoon. Sleep longer, and you risk descending into the deeper stages of sleep, from which you wake heavy, confused and worse off than before; the effect can take an hour to shake off. Nap too late in the day, and you spend the night paying for it, staring at the ceiling at two in the morning. The nap, in other words, is a precision instrument rather than a blunt one.\n\nBusiness has recently discovered the idea, and some companies now install sleeping pods in their offices, photographed proudly for recruitment brochures. It would be pleasant to read this as enlightenment, but a degree of suspicion is in order. A firm that provides a nap pod while quietly expecting staff to answer emails at midnight has not embraced the science of rest; it has merely found a fashionable way to keep people in the building longer. The pod is only progress if the workload around it changes too.\n\nThe deepest argument for the nap is that it was never really optional. The human body clock dips reliably in the early afternoon, whether or not lunch has been eaten; the drowsiness that office workers fight with coffee at three o'clock is not a character flaw but a biological signature, one that whole cultures once organised their day around. Perhaps, instead of asking whether napping is acceptable, we should ask how we came to design a working day that ignores the design of the worker. A short, well-timed rest is not a retreat from seriousness. Used properly, it may be one of the most serious tools we have.",
+      "questions": [
+        { "stem": "How are daytime naps generally viewed in the industrialised world, according to the writer?", "options": ["As a valuable professional skill.", "As a habit confined to doctors.", "As a topic nobody has opinions about.", "As something faintly shameful, suggesting a lack of seriousness."], "answer": 3 },
+        { "stem": "What did the research with pilots demonstrate?", "options": ["That pilots should avoid sleeping before flights.", "That short planned rests measurably improved alertness late in flights.", "That naps only work for factory workers.", "That reaction times cannot be changed by rest."], "answer": 1 },
+        { "stem": "What warning does the writer give about napping?", "options": ["Long or late naps can leave you groggy and damage the following night's sleep.", "Naps are dangerous for students of any age.", "Twenty-minute naps are too short to have any effect.", "Napping before noon is always harmful."], "answer": 0 },
+        { "stem": "Why is the writer suspicious of some companies that install nap pods?", "options": ["Because the pods are usually uncomfortable.", "Because employees have refused to use them.", "Because the real purpose may be to keep staff working longer hours.", "Because the pods are too expensive to photograph."], "answer": 2 },
+        { "stem": "What does the writer say about the early-afternoon dip in energy?", "options": ["It only affects people who eat large lunches.", "It can be permanently cured with coffee.", "It is a sign of poor character.", "It is a natural feature of the human body clock, not a personal failing."], "answer": 3 },
+        { "stem": "Which statement best expresses the writer's conclusion?", "options": ["Napping should be banned in serious workplaces.", "A short, well-timed nap is a serious tool, and the working day should respect how bodies actually work.", "Only pilots should be allowed to nap.", "The afternoon dip proves that lunch should be abolished."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+      "passage": "The night cinema\n\nEvery night, without buying a ticket, you attend a private cinema. (37)____ Scientists have struggled for more than a century to explain why we watch them.\n\nOne early theory held that dreams are simply noise — random sparks from a resting brain, woven into stories by a mind that cannot help looking for patterns. (38)____ Many researchers found that conclusion hard to accept, and the evidence has increasingly turned against it.\n\nModern sleep science tells a different story. The dreaming brain, it turns out, replays fragments of the day, strengthening some memories and letting others fade. (39)____ The dream, in other words, may be what the filing feels like from the inside.\n\nAnother theory focuses on emotion rather than memory. Dreams serve up frightening, embarrassing or thrilling experiences in a place where none of it can do us any harm. (40)____ It is certainly true that people deprived of dreaming sleep cope noticeably worse with stress the next day.\n\nThere are practical lessons as well. Students who sleep soon after studying remember the material better than those who stay awake for hours afterwards. (41)____ Athletes and musicians report the same effect with physical skills, from free throws to difficult passages.\n\nPerhaps no single explanation will ever cover everything the night cinema shows. (42)____ Whatever the answer, the programme continues: tonight, as every night, the lights will dim and the strangest film in the world will begin.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "It seems the sleeping brain quietly continues to practise whatever the waking brain has begun.",
+          "The films shown there are your dreams: vivid, strange and stubbornly difficult to explain.",
+          "Brain scans show bursts of activity in memory regions at exactly the moments when dreams are most vivid.",
+          "This is why doctors now advise patients never to sleep for more than five hours.",
+          "By then, cinemas had already lost most of their audiences to television.",
+          "It may be that dreams do several jobs at once, as most things in biology do.",
+          "If that were true, searching for meaning in a dream would be like reading messages in clouds.",
+          "Some researchers describe this as a flight simulator, in which the mind rehearses danger in perfect safety."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing sentence:", "answer": "B" },
+        { "stem": "Choose the missing sentence:", "answer": "G" },
+        { "stem": "Choose the missing sentence:", "answer": "C" },
+        { "stem": "Choose the missing sentence:", "answer": "H" },
+        { "stem": "Choose the missing sentence:", "answer": "A" },
+        { "stem": "Choose the missing sentence:", "answer": "F" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "Read about four people whose lives revolve around unusual sleep patterns. Then answer the questions. The same person may be chosen more than once.",
+      "sources": [
+        { "label": "A", "name": "Carmen", "text": "I have been a night nurse for fifteen years, and I can tell you the great secret of shift work: you never truly get used to it. People assume the body adapts eventually, the way it adapts to a new city. It does not; you simply become experienced at being tired. The hardest part is not the work — the ward at 3 a.m. has a calm the day shift never sees — but the mismatch with everyone I love. I sleep while my children come home from school, and I am buttering toast when they are going to bed. I have missed more family dinners than I can count. And yet I defend what I do without hesitation, because a society is judged by what happens in it at three in the morning. Somebody has to be awake, and competent, and kind, at exactly the hour when everyone else is allowed to be asleep." },
+        { "label": "B", "name": "Lars", "text": "At the research station where I winter, the sun sets in April and does not rise again until August. Without dawn or dusk, the body's clock has nothing to hold on to, so we build a skeleton of artificial routine and hang our days on it: lamps that blaze blue-white at breakfast, dimmed corridors after nine, meals served to the minute whether anyone is hungry or not. I keep to the schedule the way a sailor keeps to a rope in a storm. What fascinated me most in my first winter was watching the others. By July, the darkness had crept into people's moods; small irritations grew teeth, and the doctor quietly doubled her tea-and-chat sessions. We measure the winter not in weeks but in tempers. When the first rim of sun finally returns, grown scientists go outside and cheer." },
+        { "label": "C", "name": "Aisha", "text": "For six years I was an insomniac, and like most insomniacs I made everything worse by trying harder. I went to bed earlier and earlier, lay there longer and longer, and turned my bedroom into a kind of examination hall where I failed nightly. The solution, when it finally came, sounded like a joke: spend less time in bed. Under a therapist's guidance I restricted myself to six hours, out of bed at the same minute every day regardless, the bed reserved for sleep and nothing else — no phone, no worrying, no trying. Within two months, sleep stopped being something I chased and became something that caught me. I was so astonished that I trained to help others, and I now run a weekly group where I teach the same method to people who look exactly as desperate as I once did." },
+        { "label": "D", "name": "Grigor", "text": "Long-haul pilots do not really live in time zones; we live between them. My rule is that the destination starts before the journey does: three days before a Tokyo rotation, I begin nudging my meals and bedtime towards Tokyo's clock, so that I land already half-arrived. In the air, rest is not left to chance either. On long sectors we take strictly planned turns to sleep, twenty minutes at a time in the controlled-rest procedure — brief, timed naps that the safety data show keep our reactions sharp for the approach, which is the part of the flight that actually matters. Passengers sometimes look alarmed at the idea of a sleeping pilot. I tell them the alarming thing would be the opposite: an industry that pretended human beings could ignore their own biology and simply push through." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Carmen", "Lars", "Aisha", "Grigor"] },
+      "questions": [
+        { "stem": "Which person says the body never fully adjusts, however long you do the job?", "answer": "A" },
+        { "stem": "Which person solved their problem by spending less time in bed?", "answer": "C" },
+        { "stem": "Which person depends on strict artificial routines because natural light is absent?", "answer": "B" },
+        { "stem": "Which person begins adjusting their sleep to another place's clock before travelling?", "answer": "D" },
+        { "stem": "Which person had made their problem worse by trying too hard to solve it?", "answer": "C" },
+        { "stem": "Which person describes a painful mismatch between their schedule and family life?", "answer": "A" },
+        { "stem": "Which person uses short, planned naps as a professional safety tool?", "answer": "D" },
+        { "stem": "Which person observed the mood of the people around them deteriorating?", "answer": "B" },
+        { "stem": "Which person argues that society depends on people with their working pattern?", "answer": "A" },
+        { "stem": "Which person now teaches others the method that helped them?", "answer": "C" }
+      ]
+    }
+  ]
+}

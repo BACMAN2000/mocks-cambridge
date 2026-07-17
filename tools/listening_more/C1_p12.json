@@ -1,0 +1,422 @@
+{
+ "label": "C1 — Advanced",
+ "cefr": "Cambridge Advanced (CAE) · C1 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+ "audios": [
+  {
+   "id": "C1-P1",
+   "title": "Part 1 · Questions 1–6",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in three different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A first marathon",
+    "A training plan",
+    "A sports lecture",
+    "An ultra race",
+    "A recovery week",
+    "A coaching session"
+   ],
+   "scripts": [
+    "Question one. Woman: How did your first marathon go? Man: I finished, which is the main thing. But the surprise was where the wall hit me. I'd braced myself for my legs to give out, and physically they were fine. It was my head that nearly stopped me at mile twenty, the sheer mental battle to keep going. I hadn't trained for that at all.",
+    "Question two. Man: Are you following that intense new training plan? Woman: I started it, then backed off. It wasn't too hard, exactly. The problem was it left no room for rest, and I've finally learned that I don't get fitter during the hard sessions, I get fitter recovering from them. A plan with no recovery is really just a plan for injury.",
+    "Question three. Woman: What did you make of the sports science lecture? Man: Eye-opening. I'd always believed fatigue was purely your muscles running out of fuel. The speaker argued it's largely the brain, a kind of protective governor that makes you feel exhausted long before your body is genuinely spent. That completely reframed how I think about pushing on.",
+    "Question four. Man: A hundred miles? Why on earth enter an ultra? Woman: Everyone asks that. It's not about proving I'm tough, honestly. It's that at that distance, you stop racing other people and start negotiating with yourself, hour after hour. That inner conversation is the whole appeal. The scenery and the medal are almost beside the point.",
+    "Question five. Man: You're taking a whole week off training? Isn't that a step back? Woman: I used to think so, and I'd feel guilty resting. Now I see it differently. My best performances have always come after I've eased off completely for a few days. The rest isn't lost training; it's when all the earlier training finally sinks in.",
+    "Question six. Woman: Did the coach change your technique much? Man: Barely touched my technique, actually, which surprised me. What she changed was my pacing. I'd always gone out too fast and faded. She taught me to hold back at the start, and it turns out running the second half faster than the first is the single biggest gain I've made."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What surprised the man about his first marathon?",
+     "o": [
+      "His legs gave out early",
+      "The main struggle was mental, not physical",
+      "It was easier than expected"
+     ],
+     "c": 1,
+     "audio": "P12/C1/C1-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why did the woman abandon the training plan?",
+     "o": [
+      "It was physically too hard",
+      "It allowed no time for recovery",
+      "It was too easy to be useful"
+     ],
+     "c": 1,
+     "audio": "P12/C1/C1-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What idea from the lecture struck the man?",
+     "o": [
+      "Fatigue is largely governed by the brain",
+      "Muscles alone cause tiredness",
+      "Fatigue cannot be trained"
+     ],
+     "c": 0,
+     "audio": "P12/C1/C1-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the woman say draws her to ultra racing?",
+     "o": [
+      "Proving her toughness to others",
+      "The inner negotiation with herself",
+      "Winning medals"
+     ],
+     "c": 1,
+     "audio": "P12/C1/C1-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How does the woman now view her rest week?",
+     "o": [
+      "As lost training she feels guilty about",
+      "As when earlier training finally takes effect",
+      "As a sign she is unfit"
+     ],
+     "c": 1,
+     "audio": "P12/C1/C1-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the coach mainly change for the man?",
+     "o": [
+      "His running technique",
+      "His pacing strategy",
+      "His diet"
+     ],
+     "c": 1,
+     "audio": "P12/C1/C1-P1-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "C1-P2",
+   "title": "Part 2 · Questions 7–14",
+   "kind": "file",
+   "file": "P12/C1/C1-P2.mp3",
+   "intro": "You will hear a sports physiologist called Hannah giving a talk about the science of endurance. For each question, complete the sentences with a word or short phrase.",
+   "scripts": [
+    "Hello, I'm Hannah, and I study what actually limits human endurance, a question whose answer has been quietly overturned in recent years. For most of the twentieth century, the textbook explanation was purely mechanical. Fatigue, we were told, was simply the muscles running out of fuel or drowning in waste products, above all a substance called lactate, long blamed as the villain that makes your legs burn. In fact, the modern view has almost entirely rehabilitated it, and we now understand that lactate is not a poison at all but a useful fuel the body recycles. So if the muscles aren't the whole story, what is? The most influential recent theory holds that endurance is regulated by the brain, which acts as a kind of protective governor, generating the feeling of exhaustion to make you slow down while a safety reserve still remains in the tank. In other words, the wall you hit is, to a large degree, a decision made below conscious awareness to protect the body from harm. This reframing has enormous practical consequences, the first being that how you feel is powerfully shaped by your expectations. Athletes given a harmless dummy treatment they believe to be performance-enhancing genuinely go faster; the belief itself is doing real physiological work. A second consequence concerns pacing, which turns out to be the most decisive skill in any long event. The classic beginner's error is to start too fast on a wave of adrenaline and pay for it catastrophically later; the elite athlete, by contrast, aims for an even effort, often running the second half slightly faster, a strategy we call the negative split. Now, none of this means the body doesn't matter. The single physiological measurement that best predicts endurance performance isn't raw power but efficiency, how little oxygen you burn to hold a given pace, what we term running economy. And the most under-appreciated ingredient of all is recovery, because, crucially, you do not get stronger during hard training; you get stronger while resting from it, as the body rebuilds. My closing thought is that endurance is best understood not as a fixed physical ceiling but as a conversation, a constant negotiation between a cautious brain and a body that, more often than not, has rather more left to give than we dare to believe."
+   ],
+   "gapTitle": "Endurance Sport Science",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The substance long blamed for burning muscles, now seen as a useful fuel, is ____",
+     "accept": [
+      "lactate",
+      "lactic acid"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The influential modern theory says endurance is regulated by the ____",
+     "accept": [
+      "brain"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The brain acts as a protective ____ that makes you slow down",
+     "accept": [
+      "governor"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "How tired you feel is powerfully shaped by your ____",
+     "accept": [
+      "expectations",
+      "expectation",
+      "beliefs"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Running the second half slightly faster is a strategy called a negative ____",
+     "accept": [
+      "split"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The best physiological predictor is not power but ____",
+     "accept": [
+      "efficiency",
+      "economy"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "How little oxygen you burn to hold a pace is called running ____",
+     "accept": [
+      "economy"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "You do not get stronger during training but while ____ from it",
+     "accept": [
+      "resting",
+      "recovering"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1-P3",
+   "title": "Part 3 · Questions 15–20",
+   "kind": "file",
+   "file": "P12/C1/C1-P3.mp3",
+   "intro": "You will hear an interview with an endurance coach called Marcus. For each question, choose the best answer (A, B, C or D).",
+   "scripts": [
+    "Interviewer: Marcus, what's the biggest mistake amateur endurance athletes make? Marcus: Training too hard, paradoxically. They think more is always better, so they turn every run into a race and never truly rest. The result is that they plateau or get injured. The hardest thing I teach isn't how to push; it's how to hold back. Restraint is the advanced skill. Interviewer: You put a lot of emphasis on the mind. Is that just motivation? Marcus: It's deeper than pep talks. What I try to do is retrain how an athlete interprets discomfort. The same burning sensation can read as a threat that makes you quit, or as a sensation you've learned to sit with calmly. Nothing about the body changes; the meaning you give it changes everything. Interviewer: Do you believe in natural talent? Marcus: I do, but I think it's wildly overrated as a predictor. I've seen gifted athletes squander their edge and stubborn, unremarkable ones outlast them all. Over a long enough distance, consistency beats talent almost every time. The tortoise story is annoyingly accurate. Interviewer: How do you handle an athlete who wants a quick result? Marcus: Gently, but I don't indulge it. The adaptations that make you a durable endurance athlete take years, not weeks, and anyone promising a shortcut is either lying or about to injure you. I'd rather lose a client than rush the physiology. Interviewer: Is technology changing your job? Marcus: It's a double-edged thing. The data is genuinely useful, but I see athletes so glued to their watches that they've forgotten how to listen to their own bodies. When the numbers and the sensations disagree, I still trust the athlete's own perception over the gadget. Interviewer: What's the deepest satisfaction in your work? Marcus: Honestly, watching someone discover they're capable of far more than they believed. The physical result is nice, but that shift in self-belief spills into the rest of their life, and that's the part that lasts long after they've stopped competing. Interviewer: Marcus, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What is the biggest mistake amateurs make, according to Marcus?",
+     "o": [
+      "Training too little",
+      "Training too hard and never resting",
+      "Ignoring their technique",
+      "Eating the wrong food"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Marcus try to retrain in athletes' minds?",
+     "o": [
+      "Their level of motivation",
+      "How they interpret discomfort",
+      "Their competitive aggression",
+      "Their fear of losing"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Marcus's view of natural talent?",
+     "o": [
+      "It is the strongest predictor of success",
+      "It is real but overrated compared with consistency",
+      "It does not exist",
+      "It matters only over short distances"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How does Marcus treat an athlete wanting quick results?",
+     "o": [
+      "He gives them a shortcut plan",
+      "He refuses to rush the physiology, even at the cost of a client",
+      "He guarantees fast improvement",
+      "He passes them to another coach"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Marcus's attitude to training technology?",
+     "o": [
+      "He rejects it completely",
+      "He trusts the athlete's own perception over the gadget when they conflict",
+      "He follows the data above all",
+      "He thinks it is a passing fad"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What gives Marcus the deepest satisfaction?",
+     "o": [
+      "Winning races",
+      "Seeing athletes gain lasting self-belief",
+      "Financial success",
+      "Public recognition"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "C1-P4",
+   "title": "Part 4 · Questions 21–30",
+   "kind": "file",
+   "file": "P12/C1/C1-P4.mp3",
+   "intro": "You will hear five endurance athletes talking about their sport. TASK ONE (21–25): choose the biggest lesson each has learned. TASK TWO (26–30): choose what motivates each to keep going.",
+   "scripts": [
+    "Speaker one. Woman: The hardest thing I ever had to accept was that resting isn't laziness, that after years of grinding myself into the ground I only improved once I built proper recovery in, that's the lesson that transformed me. And what keeps me coming back, honestly, is the friendships, the people I've met on cold morning runs who've become closer than family. Speaker two. Man: What I've truly learned is patience, that the body adapts on its own slow timetable and there is simply no shortcut, however much you crave one. That took me a decade to believe. What drives me on is the pure escape of it, those hours on the trail where my racing mind finally goes quiet and I feel entirely free of everything. Speaker three. Woman: My great lesson was about pacing, plain and simple, that going out too fast has wrecked more of my races than any lack of fitness ever did, and holding back early is everything. And what motivates me is the competition, I'll admit it, the raw thrill of racing another person to a line, that's what makes my heart pound. Speaker four. Man: The thing I finally grasped is that the limit is mostly in the mind, that the exhaustion I feel is my brain protecting me, not my body finished, and I can lean past it further than I'd dreamed. What pulls me forward is the sense of progress, watching myself do this year what was impossible last year, that measurable improvement is a drug. Speaker five. Woman: What I learned the hard way is that how you interpret the pain decides everything, that the same burn is either a wall or just a feeling, depending on the story you tell yourself. And what keeps me going is nothing grand, it's simply the health of it, knowing that every mile is buying me strength and years, and that's motivation enough to lace up in the dark."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the biggest lesson the speaker has learned",
+     "person": "Speaker 1",
+     "bank": [
+      "recovery is essential, not laziness",
+      "the body adapts only slowly, with no shortcuts",
+      "starting too fast ruins races",
+      "the limit is mostly mental",
+      "interpreting pain determines everything",
+      "diet matters more than training",
+      "equipment makes the difference",
+      "talent beats hard work"
+     ],
+     "c": "recovery is essential, not laziness"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the biggest lesson the speaker has learned",
+     "person": "Speaker 2",
+     "bank": [
+      "recovery is essential, not laziness",
+      "the body adapts only slowly, with no shortcuts",
+      "starting too fast ruins races",
+      "the limit is mostly mental",
+      "interpreting pain determines everything",
+      "diet matters more than training",
+      "equipment makes the difference",
+      "talent beats hard work"
+     ],
+     "c": "the body adapts only slowly, with no shortcuts"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the biggest lesson the speaker has learned",
+     "person": "Speaker 3",
+     "bank": [
+      "recovery is essential, not laziness",
+      "the body adapts only slowly, with no shortcuts",
+      "starting too fast ruins races",
+      "the limit is mostly mental",
+      "interpreting pain determines everything",
+      "diet matters more than training",
+      "equipment makes the difference",
+      "talent beats hard work"
+     ],
+     "c": "starting too fast ruins races"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the biggest lesson the speaker has learned",
+     "person": "Speaker 4",
+     "bank": [
+      "recovery is essential, not laziness",
+      "the body adapts only slowly, with no shortcuts",
+      "starting too fast ruins races",
+      "the limit is mostly mental",
+      "interpreting pain determines everything",
+      "diet matters more than training",
+      "equipment makes the difference",
+      "talent beats hard work"
+     ],
+     "c": "the limit is mostly mental"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the biggest lesson the speaker has learned",
+     "person": "Speaker 5",
+     "bank": [
+      "recovery is essential, not laziness",
+      "the body adapts only slowly, with no shortcuts",
+      "starting too fast ruins races",
+      "the limit is mostly mental",
+      "interpreting pain determines everything",
+      "diet matters more than training",
+      "equipment makes the difference",
+      "talent beats hard work"
+     ],
+     "c": "interpreting pain determines everything"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what motivates the speaker to keep going",
+     "person": "Speaker 1",
+     "bank": [
+      "the friendships formed through the sport",
+      "the escape and mental quiet it offers",
+      "the thrill of competing against others",
+      "the sense of measurable progress",
+      "the health benefits it brings",
+      "the money and prizes",
+      "the beautiful scenery",
+      "the public recognition"
+     ],
+     "c": "the friendships formed through the sport"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what motivates the speaker to keep going",
+     "person": "Speaker 2",
+     "bank": [
+      "the friendships formed through the sport",
+      "the escape and mental quiet it offers",
+      "the thrill of competing against others",
+      "the sense of measurable progress",
+      "the health benefits it brings",
+      "the money and prizes",
+      "the beautiful scenery",
+      "the public recognition"
+     ],
+     "c": "the escape and mental quiet it offers"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what motivates the speaker to keep going",
+     "person": "Speaker 3",
+     "bank": [
+      "the friendships formed through the sport",
+      "the escape and mental quiet it offers",
+      "the thrill of competing against others",
+      "the sense of measurable progress",
+      "the health benefits it brings",
+      "the money and prizes",
+      "the beautiful scenery",
+      "the public recognition"
+     ],
+     "c": "the thrill of competing against others"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what motivates the speaker to keep going",
+     "person": "Speaker 4",
+     "bank": [
+      "the friendships formed through the sport",
+      "the escape and mental quiet it offers",
+      "the thrill of competing against others",
+      "the sense of measurable progress",
+      "the health benefits it brings",
+      "the money and prizes",
+      "the beautiful scenery",
+      "the public recognition"
+     ],
+     "c": "the sense of measurable progress"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what motivates the speaker to keep going",
+     "person": "Speaker 5",
+     "bank": [
+      "the friendships formed through the sport",
+      "the escape and mental quiet it offers",
+      "the thrill of competing against others",
+      "the sense of measurable progress",
+      "the health benefits it brings",
+      "the money and prizes",
+      "the beautiful scenery",
+      "the public recognition"
+     ],
+     "c": "the health benefits it brings"
+    }
+   ]
+  }
+ ]
+}

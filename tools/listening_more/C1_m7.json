@@ -1,0 +1,419 @@
+{
+ "label": "C1 — Advanced",
+ "cefr": "Cambridge Advanced (CAE) · C1 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+ "audios": [
+  {
+   "id": "C1-P1",
+   "title": "Part 1 · Questions 1–6",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A cancelled ascent",
+    "A documentary",
+    "A town meeting",
+    "A career choice",
+    "A laboratory result",
+    "A television request"
+   ],
+   "scripts": [
+    "Question one. Man: The forecast's perfect for tomorrow, clear skies, no wind, and you're still cancelling the summit work? Woman: I am, and the weather's got nothing to do with it. The overnight gas run shows the sulphur ratios drifting in a direction I don't like, nothing dramatic, probably nothing at all, but probably isn't a word I take up a crater with me. The blue sky will still be there next month. I'd like the same to be true of the team.",
+    "Question two. Woman: Everyone's raving about that eruption documentary, the footage is astonishing. Man: The footage is astonishing, that's precisely my grievance. Ninety minutes of lava fountains scored like an opera, and four minutes, I timed it, on the two years of quiet instrument-reading that got every single villager off that mountain in time. The rescue was the miracle, and it was made of spreadsheets. But spreadsheets don't glow in the dark, so the film worships the fire and files the forecast under credits.",
+    "Question three. Man: Doctor, the exclusion line cuts straight through my orchards, and your own graphs say the tremors have eased for a fortnight. Redraw the line. Woman: The tremors have eased, I won't insult you by denying your own eyes. But this volcano's last three eruptions each followed exactly this kind of lull, it goes quiet the way a wave pulls back before it breaks. I can't promise you an eruption, mayor, and I can't promise you safety either. What I can promise is that lines redrawn for harvests have been redrawn in histories I don't want to repeat.",
+    "Question four. Man: So what pulled you into volcanology, the drama? The travel? Woman: Everyone assumes the fireworks, and I do love them, I'm human. But the honest answer is stranger: it was the timescales. I grew up thinking of the ground as furniture, fixed, finished, boring. Then a lecturer showed us a photograph of a Roman mosaic floor tilted like a ship's deck by two thousand years of slow uplift, and the floor of the world became a liquid to me, just a very patient one. I've never recovered, thankfully.",
+    "Question five. Woman: We sectioned crystals from the new lava, and each one keeps a diary, rings like a tree, recording its journey upwards. The textbook story is stately: magma loitering in the chamber for centuries, drifting up over decades. These crystals say otherwise. The chemistry shifts we're reading happened over months, the final ascent possibly weeks, days even, for a system everyone had filed under dormant. The reviewers will fight us, and honestly, I'd have fought this paper myself five years ago. The rings don't much care.",
+    "Question six. Woman: The evening news wants you live at eight, the whole country's watching that ash cloud. You'd reach two million people. Man: And they've told me the format: ninety seconds, and the anchor's first question, on the record, is will it erupt, yes or no. There is no honest yes or no, there's a set of probabilities that shift with every gas run, and ninety seconds turns me into either a prophet or a clown. I've offered them our duty scientist for the full briefing at nine, charts and caveats included. If that's too long for television, the refusal is my answer."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why has the woman cancelled the summit work?",
+     "o": [
+      "The weather forecast has worsened",
+      "The gas measurements concern her",
+      "The team is not yet ready"
+     ],
+     "c": 1,
+     "audio": "M7/C1/C1-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the man's criticism of the documentary?",
+     "o": [
+      "Its footage of the eruption is exaggerated",
+      "It sidelines the unglamorous work that saved lives",
+      "It gives too much time to the scientists"
+     ],
+     "c": 1,
+     "audio": "M7/C1/C1-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How does the scientist respond to the mayor's request?",
+     "o": [
+      "She denies that the tremors have eased",
+      "She agrees to redraw the exclusion line",
+      "She argues the lull itself fits a dangerous pattern"
+     ],
+     "c": 2,
+     "audio": "M7/C1/C1-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What drew the woman to volcanology?",
+     "o": [
+      "A change in how she perceived the ground itself",
+      "The spectacle of eruptions",
+      "The opportunity to travel"
+     ],
+     "c": 0,
+     "audio": "M7/C1/C1-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What do the crystal results suggest?",
+     "o": [
+      "The magma rose far faster than the accepted account",
+      "The volcano has been wrongly classified as active",
+      "The textbook timescales have been confirmed"
+     ],
+     "c": 0,
+     "audio": "M7/C1/C1-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why is the man refusing the live interview?",
+     "o": [
+      "He distrusts the news anchor personally",
+      "The format demands a certainty he cannot honestly give",
+      "He wants a larger audience than the programme offers"
+     ],
+     "c": 1,
+     "audio": "M7/C1/C1-P1-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "C1-P2",
+   "title": "Part 2 · Questions 7–14",
+   "kind": "file",
+   "file": "M7/C1/C1-P2.mp3",
+   "intro": "You will hear a volcanologist called Sofia giving a talk about fieldwork on active volcanoes. For each question, complete the sentences with a word or short phrase.",
+   "scripts": [
+    "Good evening. I'm Sofia, and I've spent eleven field seasons on active volcanoes, which sounds romantic until you learn that most of the job is carrying batteries uphill. Let me walk you through what fieldwork actually involves, and why the unglamorous parts are the ones that save lives. A volcano signals its intentions in three languages, and we try to stay fluent in all of them. The first is chemistry. As magma rises, the gases dissolved in it escape early, and the one we watch above all is sulphur: when its emissions climb sharply, something below is moving, and the crater teams, mine, go up in masks to bottle the evidence. The second language is vibration. Around the mountain we maintain a necklace of seismometers, instruments that register earthquakes so tiny no human being will ever feel them, thousands of them some weeks. And the third language is shape. This surprises everyone: a volcano inflates, and our satellite receivers measure the ground rising by centimetres, sometimes within a single month. When all three languages start shouting at once, we start telephoning civil authorities. Now, the danger, because I'm always asked. Lava is the postcard hazard, and lava is, mostly, a slow, avoidable river. What we actually fear are pyroclastic flows: avalanches of gas and incandescent fragments that pour down the flanks at several hundred kilometres an hour, outrunning anything with legs or wheels. Every rule in our field manual descends from that one phenomenon. And the rule I enforce without exception is this: inside the exclusion zone, nobody works alone, ever, not for a perfect sample. The mountain has killed more scientists through solitude than through eruption. The part of the job people romanticise most is sampling fresh lava, and fair enough, it is theatrical: you approach the flow's edge in aluminised suits, and you take the sample with a geologist's hammer and a steel bucket of water, quenching the melt instantly so its chemistry freezes mid-sentence. Those frozen sentences tell us where the magma has been and how fast it travelled. I want to end with honesty about our limits, because false confidence in my field costs lives. People compare us to weather forecasting, and the comparison is apt, but we are where meteorology was half a century ago. Ask me whether a restless volcano will erupt this month and I can give you decent odds. Ask me for the day, and I cannot, no one honestly can, and any volcanologist who names the day for a camera has stopped doing science and started doing theatre. Why persist, then? Because the arithmetic is unanswerable: half a billion people live within reach of an active volcano, and every hour of warning we add is measured, ultimately, in evacuated streets. On my office wall there's a photograph of a bus queue, orderly, unhurried, boarding out of a town that ceased to exist thirty-one hours later. That queue is the entire point of the discipline. Thank you."
+   ],
+   "gapTitle": "Volcanology Fieldwork",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The gas watched above all others is ____",
+     "accept": [
+      "sulphur",
+      "sulfur"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Seismometers register ____ too tiny for humans to feel",
+     "accept": [
+      "earthquakes"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Satellite receivers measure the ground rising by ____",
+     "accept": [
+      "centimetres",
+      "centimeters"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The most feared hazards are pyroclastic ____",
+     "accept": [
+      "flows"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Inside the exclusion zone, nobody ever works ____",
+     "accept": [
+      "alone"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Fresh lava is sampled with a hammer and a bucket of ____",
+     "accept": [
+      "water"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Volcanologists cannot honestly predict the exact ____ of an eruption",
+     "accept": [
+      "day"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Half a billion people live within reach of an active ____",
+     "accept": [
+      "volcano"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1-P3",
+   "title": "Part 3 · Questions 15–20",
+   "kind": "file",
+   "file": "M7/C1/C1-P3.mp3",
+   "intro": "You will hear an interview with a volcanologist called Max. For each question, choose the best answer (A, B, C or D).",
+   "scripts": [
+    "Interviewer: Max, you've monitored volcanoes on four continents for thirty years. Is the fear still there, or does it wear off? Max: It relocates. The raw animal fright at a shuddering crater rim, that faded years ago, which is itself dangerous, familiarity is a sedative. What's replaced it is a colder fear that lives in the observatory, not on the mountain: the fear of the graph you misread, the alarm you rationalised away at two in the morning. The volcano can only kill me. My interpretation of it can kill a town. I've arranged my anxieties accordingly. Interviewer: You were part of the team that called the famous evacuation, sixty thousand people, and the eruption came two days later. That must live with you as a triumph. Max: It lives with me as a coin toss we won, and I say that deliberately. The data supported evacuation, but the data was ambiguous, data always is, and I've sat on identical evidence that fizzled into nothing. Had the mountain chosen to sulk instead, those same sixty thousand would have returned to looted houses and ruined harvests cursing our name, and the next evacuation order, somewhere, someday, would be defied because of us. We were right, but I refuse to pretend we were certain. The public thinks those are the same word. They are not, and the difference is where my profession actually lives. Interviewer: Is there a mistake of your own you're willing to name? Max: The one I teach with is a mistake of tone, not measurement. Early in my career, a village elder told me the mountain's springs had gone warm and the birds had left the high pastures, and I nodded with the special politeness scientists reserve for folklore, and logged nothing. Eleven days later my instruments caught up with his birds. The springs were geothermal fact, not fable. I don't romanticise local knowledge, it can be wrong, superstitions kill too. But I stopped grading information by the vocabulary it arrives in. The mountain doesn't care who notices it first. Interviewer: There's fierce competition for observatory funding, and you've been outspoken about how it distorts the science. Max: Because the incentives are upside down. An eruption forecast that fails makes headlines; a catastrophe quietly prevented makes an annual report. So money flows to the spectacular, to crisis response, helicopters, hazard maps commissioned after the ash settles, while the dull decades of baseline monitoring, the very thing that makes forecasts possible, get trimmed as fat in every budget round. We fund the fire brigade and defund the smoke detector, then act astonished by the fires. Interviewer: Your daughter has just started in the same field, I believe. What did you tell her? Max: Two things, and she claims to be bored of both. First, that the instrument she must calibrate most carefully is her own confidence, it drifts, like any sensor, and always towards flattery. And second, unglamorously: learn statistics before you learn climbing. The mountaineering gets you to the data. The statistics decide whether the data gets to mean anything. She informs me she intends to be excellent at both, which I find terrifying and correct. Interviewer: Max, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How has Max's fear changed over his career?",
+     "o": [
+      "It has shifted from physical danger to the risk of misjudgement",
+      "It has faded entirely with experience",
+      "It has grown stronger at the crater rim",
+      "It now focuses on his own safety record"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Why does Max resist calling the evacuation a triumph?",
+     "o": [
+      "The eruption caused damage despite the warning",
+      "The decision was sound but the evidence was not conclusive",
+      "He now believes the evacuation was unnecessary",
+      "Colleagues deserve the credit he received"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What lesson does Max draw from the incident with the village elder?",
+     "o": [
+      "Folklore should be treated as scientific evidence",
+      "Local observations deserve assessment regardless of their form",
+      "Instruments are more reliable than human observers",
+      "Politeness has no place in fieldwork"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Max's complaint about funding?",
+     "o": [
+      "Observatories waste money on helicopters",
+      "Crisis response receives too little support",
+      "Routine monitoring is sacrificed to the spectacular",
+      "Hazard maps are commissioned too early"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What does Max mean by calling confidence an instrument that drifts?",
+     "o": [
+      "Self-assurance needs the same checking as any sensor",
+      "Scientists become less confident with age",
+      "Instruments eventually flatter their operators",
+      "Confidence is the most accurate guide in a crisis"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What is Max's attitude towards his daughter's ambitions?",
+     "o": [
+      "He doubts she can master both skills",
+      "He wishes she had chosen another field",
+      "A mixture of alarm and approval",
+      "Indifference disguised as humour"
+     ],
+     "c": 2
+    }
+   ]
+  },
+  {
+   "id": "C1-P4",
+   "title": "Part 4 · Questions 21–30",
+   "kind": "file",
+   "file": "M7/C1/C1-P4.mp3",
+   "intro": "You will hear five members of a volcano observatory team talking about their work. TASK ONE (21–25): choose each speaker's role on the team. TASK TWO (26–30): choose what each speaker finds hardest about the work.",
+   "scripts": [
+    "Speaker one. Helena: My office is the crater floor, technically, mask on, bottles out, catching the mountain's breath before the wind dilutes it. The chemistry itself I could do in my sleep, it's everything around the chemistry that ages you: four hours of scree under a forty-kilo pack to reach the fumaroles, acid mist that dissolves your zips and finds every cut on your knuckles, and the descent, always somehow longer, on knees that have started invoicing me monthly. My cardiologist calls my job a stress test with a view. I've stopped correcting him, mostly because he's right and partly because I can no longer catch my breath to argue. Speaker two. Noah: I live in headphones, listening to rock under strain, thousands of tiny fractures a night scrolling down my screens. And here's the confession of the trade: the mountain mumbles. The dramatic swarm that empties villages, that signal a child could read. What I get instead, at three in the morning, is a faint shift in the tremor's pitch that might be magma on the move or might be rain in the summit lake, and the two look like twins on a bad night. You call the director or you don't, and both mistakes have names in this profession's history. Living permanently between two wrong answers, that's the job under the job. Speaker three. Kate: I'm the observatory's face in the villages, markets, school halls, funerals too, because trust is built at all of them or none of them. And trust is precisely the mountain I climb. Forty years ago, a director here ordered an evacuation for an eruption that never came, before I was born, and I still pay for it at every parish meeting: the harvest lost in seventy-nine gets quoted at me like scripture. Instruments forgive you a false alarm. Grandmothers don't. So I drink the coffee, hold the babies, and rebuild, cup by cup, the one sensor network no grant will ever fund, and the only one that makes the sirens work: belief. Speaker four. Ben: I fly the drones, which colleagues envied right up until they priced one. My aircraft map the dome from above, sniff the plume, film the fissures no human should stand over, and the data is glorious. The mountain's tax on all this is levied in hardware: heat shear over the vents that flips a machine like a pancake, ash that chews motors to filings, and once, gloriously, a lava bomb, direct hit, caught on the aircraft's own final frame. Eleven thousand euros to weigh, roughly, a grapefruit. My grant reports have a line item the auditors always query: consumed by volcano. I've stopped rephrasing it. It's the only honest sentence in the file. Speaker five. Grace: I read the volcano's memoirs, the old flows, layer by layer, because the mountain's past is the only rehearsal we get for its future, and every hazard map redraws itself around what my trenches say. The geology I adore. The cost is the calendar: proper stratigraphy means whole seasons in tents on the far flank, weeks beyond phone signal, and I've now missed, by my own count, two graduations, one wedding anniversary that mattered more than the other party admits, and my daughter's entire exam spring. She addresses her letters to the volcano now, not to me, her little joke, mostly. The rock keeps ten-thousand-year records. I'm failing to keep fifteen years of mine."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — their role on the team",
+     "person": "Speaker 1",
+     "bank": [
+      "sampling volcanic gases",
+      "monitoring seismic signals",
+      "community liaison",
+      "operating survey drones",
+      "studying ancient deposits",
+      "maintaining the instrument network",
+      "managing satellite imagery",
+      "running evacuation drills"
+     ],
+     "c": "sampling volcanic gases"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — their role on the team",
+     "person": "Speaker 2",
+     "bank": [
+      "sampling volcanic gases",
+      "monitoring seismic signals",
+      "community liaison",
+      "operating survey drones",
+      "studying ancient deposits",
+      "maintaining the instrument network",
+      "managing satellite imagery",
+      "running evacuation drills"
+     ],
+     "c": "monitoring seismic signals"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — their role on the team",
+     "person": "Speaker 3",
+     "bank": [
+      "sampling volcanic gases",
+      "monitoring seismic signals",
+      "community liaison",
+      "operating survey drones",
+      "studying ancient deposits",
+      "maintaining the instrument network",
+      "managing satellite imagery",
+      "running evacuation drills"
+     ],
+     "c": "community liaison"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — their role on the team",
+     "person": "Speaker 4",
+     "bank": [
+      "sampling volcanic gases",
+      "monitoring seismic signals",
+      "community liaison",
+      "operating survey drones",
+      "studying ancient deposits",
+      "maintaining the instrument network",
+      "managing satellite imagery",
+      "running evacuation drills"
+     ],
+     "c": "operating survey drones"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — their role on the team",
+     "person": "Speaker 5",
+     "bank": [
+      "sampling volcanic gases",
+      "monitoring seismic signals",
+      "community liaison",
+      "operating survey drones",
+      "studying ancient deposits",
+      "maintaining the instrument network",
+      "managing satellite imagery",
+      "running evacuation drills"
+     ],
+     "c": "studying ancient deposits"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they find hardest",
+     "person": "Speaker 1",
+     "bank": [
+      "the physical demands of the terrain",
+      "the ambiguity of the signals",
+      "overcoming inherited distrust",
+      "losing equipment to the mountain",
+      "long absences from family",
+      "concealing fear from colleagues",
+      "constant funding battles",
+      "the monotony between crises"
+     ],
+     "c": "the physical demands of the terrain"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they find hardest",
+     "person": "Speaker 2",
+     "bank": [
+      "the physical demands of the terrain",
+      "the ambiguity of the signals",
+      "overcoming inherited distrust",
+      "losing equipment to the mountain",
+      "long absences from family",
+      "concealing fear from colleagues",
+      "constant funding battles",
+      "the monotony between crises"
+     ],
+     "c": "the ambiguity of the signals"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they find hardest",
+     "person": "Speaker 3",
+     "bank": [
+      "the physical demands of the terrain",
+      "the ambiguity of the signals",
+      "overcoming inherited distrust",
+      "losing equipment to the mountain",
+      "long absences from family",
+      "concealing fear from colleagues",
+      "constant funding battles",
+      "the monotony between crises"
+     ],
+     "c": "overcoming inherited distrust"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they find hardest",
+     "person": "Speaker 4",
+     "bank": [
+      "the physical demands of the terrain",
+      "the ambiguity of the signals",
+      "overcoming inherited distrust",
+      "losing equipment to the mountain",
+      "long absences from family",
+      "concealing fear from colleagues",
+      "constant funding battles",
+      "the monotony between crises"
+     ],
+     "c": "losing equipment to the mountain"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they find hardest",
+     "person": "Speaker 5",
+     "bank": [
+      "the physical demands of the terrain",
+      "the ambiguity of the signals",
+      "overcoming inherited distrust",
+      "losing equipment to the mountain",
+      "long absences from family",
+      "concealing fear from colleagues",
+      "constant funding battles",
+      "the monotony between crises"
+     ],
+     "c": "long absences from family"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "C1 Advanced — Writing (Practice 18)",
+  "durationMin": 90,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 220, "maxWords": 260,
+        "lead": "Your class has attended a seminar about how the connections between older and younger generations could be strengthened. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would be more effective, giving reasons to support your opinion.",
+        "stimulus": { "title": "How could connections between older and younger generations be strengthened?", "body": "• creating community spaces shared by all ages\n• mentoring schemes pairing older adults with young people\n• young volunteers teaching older people digital skills\n\nSome opinions expressed in the seminar:\n\"We built separate buildings for the young and the old, then wondered why they never meet.\"\n\"An hour a week with someone who has lived a life is worth a shelf of self-help books.\"\n\"Teach your grandmother to video-call and you give her back her family.\"" },
+        "bullets": ["discuss two of the ideas", "explain which would be more effective", "give reasons to support your opinion"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [
+        { "type": "proposal", "q": 2, "minWords": 220, "maxWords": 260,
+          "lead": "Your local community centre has invited proposals for new regular activities.",
+          "stimulus": { "title": "Proposal: an intergenerational skills exchange", "body": "Write a proposal for a weekly session at which older and younger residents teach each other skills. Describe how the sessions would work, explain how you would attract both age groups and keep them coming back, and outline the benefits for the community." },
+          "bullets": ["how the sessions would work", "how you would attract both age groups", "the benefits for the community"],
+          "write": "Write your proposal." },
+        { "type": "report", "q": 3, "minWords": 220, "maxWords": 260,
+          "lead": "Your college runs a scheme in which students visit elderly residents at a local care home. The scheme's organiser has asked you to write a report on it.",
+          "stimulus": { "title": "Report: the visiting scheme", "body": "Write a report evaluating the visiting scheme. Describe how the visits work in practice, assess what residents and students each gain from them, and recommend how the scheme could involve more students without losing its personal character." },
+          "bullets": ["how the visits work in practice", "what residents and students each gain", "how to involve more students without losing the personal character"],
+          "write": "Write your report." },
+        { "type": "letter", "q": 4, "minWords": 220, "maxWords": 260,
+          "lead": "You have received this letter from an English-speaking friend, Noor.",
+          "stimulus": { "body": "My grandfather is coming to live with us next month. I love him dearly, but I'm 22, and I'll be sharing a home with someone who thinks dinner is at six and music should be quiet. My friends say my social life is over.\n\nYou lived with your grandparents for a while, didn't you? How did you make it work - and honestly, what did it give you that surprised you?\n\nNoor" },
+          "bullets": ["your advice on making the arrangement work", "how Noor could keep a social life", "what living with a grandparent can unexpectedly give you"],
+          "write": "Write your letter in reply." }
+      ]
+    }
+  ]
+}

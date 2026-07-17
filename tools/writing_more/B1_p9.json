@@ -1,0 +1,30 @@
+{
+  "title": "B1 Preliminary — Writing (Practice 9)",
+  "durationMin": 45,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in about 100 words.",
+      "tasks": [{
+        "type": "email", "minWords": 100,
+        "lead": "Read this email from Mrs Silva, the organiser of your school sports day, and the notes you have made.",
+        "stimulus": { "head": "EMAIL", "title": "", "body": "From: Mrs Silva\nSubject: School Sports Day — next Friday\n\nDear Students,\n\nOur Sports Day is next Friday! You can take part in running, football, basketball or volleyball. Which event would you like to enter?\n\nWe also need some students to help serve drinks and put up posters. Can you help with anything?\n\nMrs Silva" },
+        "bullets": ["say which event you would like to enter and why", "offer to help with drinks or posters", "suggest a way to make Sports Day more fun", "ask one question about the day"],
+        "write": "Write your email to Mrs Silva."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in about 100 words.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 100,
+          "lead": "You see this announcement in your school English-language magazine.",
+          "stimulus": { "title": "THE SPORT I LOVE WATCHING", "body": "Some people love playing sport, but watching it can be just as exciting! Which sport do you most enjoy watching, and why? Write an article and tell us. The best articles will be published next month." },
+          "bullets": ["which sport you enjoy watching", "where and how you usually watch it", "why it is so exciting"],
+          "write": "Write your article." },
+        { "type": "story", "q": 3, "minWords": 100,
+          "lead": "Your English teacher has asked you to write a story.",
+          "startSentence": "With one minute left in the match, Leo finally got his chance.",
+          "stimulus": { "title": "", "body": "Your story must begin with this sentence:\n\nWith one minute left in the match, Leo finally got his chance." },
+          "bullets": [],
+          "write": "Write your story." }
+      ]
+    }
+  ]
+}

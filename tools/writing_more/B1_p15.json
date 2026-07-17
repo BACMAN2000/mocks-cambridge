@@ -1,0 +1,30 @@
+{
+  "title": "B1 Preliminary — Writing (Practice 15)",
+  "durationMin": 45,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in about 100 words.",
+      "tasks": [{
+        "type": "email", "minWords": 100,
+        "lead": "Read this email from your neighbour, Mrs Green, and the notes you have made.",
+        "stimulus": { "head": "EMAIL", "title": "", "body": "From: Mrs Green\nSubject: A small favour\n\nHello,\n\nI hope you are well. I'm going to visit my daughter next week, and I'll be away from Monday to Friday.\n\nWould you be able to water my plants and feed my cat, Biscuit, while I'm away? Of course, I'll bring you back something nice!\n\nMrs Green" },
+        "bullets": ["agree to help Mrs Green", "ask what Biscuit eats and how often", "ask where she keeps the key", "wish her a good trip"],
+        "write": "Write your email to Mrs Green."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in about 100 words.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 100,
+          "lead": "You see this announcement in your school English-language magazine.",
+          "stimulus": { "title": "SMALL THINGS THAT HELP OTHERS", "body": "You don't have to be a superhero to help people! Write an article about the small ways young people can help their neighbours and community. The best articles will be published next month." },
+          "bullets": ["ways young people can help their neighbours", "a time when you helped someone", "how helping others makes you feel"],
+          "write": "Write your article." },
+        { "type": "story", "q": 3, "minWords": 100,
+          "lead": "Your English teacher has asked you to write a story.",
+          "startSentence": "When Petra heard a strange noise from the house next door, she decided to find out what it was.",
+          "stimulus": { "title": "", "body": "Your story must begin with this sentence:\n\nWhen Petra heard a strange noise from the house next door, she decided to find out what it was." },
+          "bullets": [],
+          "write": "Write your story." }
+      ]
+    }
+  ]
+}

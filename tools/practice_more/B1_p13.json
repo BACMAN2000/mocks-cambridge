@@ -1,0 +1,181 @@
+{
+  "title": "B1 Preliminary — Reading (Practice 13)",
+  "note": "All six parts are auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "The Olive Tree Restaurant",
+          "text": "OUR KITCHEN USES NUTS IN MANY DISHES.\nIF YOU HAVE ANY FOOD ALLERGY, PLEASE INFORM YOUR WAITER BEFORE ORDERING — THE CHEF CAN ADAPT MOST DISHES IF ASKED IN ADVANCE.",
+          "stem": "What should customers with allergies do?",
+          "options": ["Avoid all dishes containing nuts.", "Ask the chef directly about the menu.", "Tell the waiter before they choose their food."],
+          "answer": 2
+        },
+        {
+          "kind": "message",
+          "header": "Text from Mateo to Kirsty",
+          "text": "Kirsty — small change for tonight's international dinner at mine. Josh is now bringing a Thai curry, and that's too similar to what you were planning. Could you do a dessert from Mexico instead? You said you had a good recipe. Everything else stays the same — 7pm, bring a big appetite!",
+          "stem": "Why is Mateo writing to Kirsty?",
+          "options": ["To tell her the dinner now starts at a different time.", "To ask her to bring a different kind of dish.", "To check whether Josh can bring a curry."],
+          "answer": 1
+        },
+        {
+          "kind": "email",
+          "from": "World Kitchen Cookery School",
+          "to": "Saturday class students",
+          "subject": "This week's lesson",
+          "body": "This Saturday we are cooking Japanese noodles. The school provides all ingredients, but the dish is prepared in a very hot pan, so long sleeves must be worn — students in short sleeves will not be allowed to cook. Aprons and knives, as always, are provided.",
+          "stem": "What must students bring to this week's class?",
+          "options": ["Clothing that covers their arms.", "Their own knives and aprons.", "Ingredients for the noodle dish."],
+          "answer": 0
+        },
+        {
+          "kind": "sign",
+          "header": "Portside Fish Market",
+          "text": "TODAY'S CATCH ARRIVES AT 6AM AND IS USUALLY SOLD OUT BY 11.\nCOME EARLY FOR THE WIDEST CHOICE — WE DO NOT RESERVE FISH BY TELEPHONE.",
+          "stem": "What does the sign tell customers?",
+          "options": ["The market stays open until 11 every day.", "They can order fish by phone before 6am.", "Arriving early gives them the best selection."],
+          "answer": 2
+        },
+        {
+          "kind": "note",
+          "header": "From Grandpa",
+          "text": "Nina — I've started the tomato sauce for tonight. It needs to cook slowly all afternoon, so when you get in, just give it a stir every half hour — don't turn the heat up to hurry it, or it'll burn like last time! The bread dough in the blue bowl is fine, leave it alone.",
+          "stem": "What does Grandpa ask Nina to do?",
+          "options": ["Stir the sauce regularly without increasing the heat.", "Finish making the bread in the blue bowl.", "Turn up the heat so the sauce is ready sooner."],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "The five people below all want to eat out tonight. Read the descriptions of eight restaurants (A–H) and decide which restaurant would be most suitable for each person. There are three restaurants you do not need to use.",
+      "sources": [
+        {
+          "label": "6",
+          "name": "Leon",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/37.jpg\" alt=\"Leon\" loading=\"lazy\">",
+          "text": "Leon wants to try eating with his hands from a shared plate, the way food is traditionally enjoyed in other cultures. He loves spicy dishes and wants somewhere lively where trying something completely new is part of the fun."
+        },
+        {
+          "label": "7",
+          "name": "Priti",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/49.jpg\" alt=\"Priti\" loading=\"lazy\">",
+          "text": "Priti is vegetarian and tired of restaurants that offer her only one boring dish. She wants a place where the whole menu is meat-free and creative. She is celebrating her exam results, so a special atmosphere matters."
+        },
+        {
+          "label": "8",
+          "name": "Marco",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/88.jpg\" alt=\"Marco\" loading=\"lazy\">",
+          "text": "Marco is taking his grandparents out for their anniversary. They dislike loud music and unfamiliar food, and his grandfather walks with a stick, so they need a calm place with classic dishes and easy access at street level."
+        },
+        {
+          "label": "9",
+          "name": "Jade",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/6.jpg\" alt=\"Jade\" loading=\"lazy\">",
+          "text": "Jade is a food blogger looking for something unusual to write about this week. She wants to watch skilled chefs preparing the food in front of her, and she is happy to pay more for a memorable experience."
+        },
+        {
+          "label": "10",
+          "name": "Sam",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/59.jpg\" alt=\"Sam\" loading=\"lazy\">",
+          "text": "Sam is a student meeting six friends after football practice. They are always starving, they never have much money, and they can never agree on what kind of food they want, so plenty of choice is essential."
+        }
+      ],
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Sakura Counter: Sit around our open kitchen and watch master chefs slice, roll and flame each course before your eyes. A theatrical ten-course experience — expensive, but our guests say they never forget it.",
+          "Addis House: Eat the Ethiopian way! Hot, spicy stews are served on one huge flat bread that everyone shares — no knives or forks, just your fingers. Loud, friendly and always full of laughter.",
+          "The Global Food Hall: Twelve counters under one roof — burgers, noodles, pizza, tacos and more. Big portions at student-friendly prices, and everyone in your group can pick something different.",
+          "La Petite Crêperie: A tiny candle-lit café serving sweet and savoury pancakes. Very romantic, though the dining room is up two steep flights of stairs and seats only twelve guests.",
+          "The Green Fig: An award-winning restaurant where every single dish is vegetarian — even meat-lovers leave amazed. Beautiful dining room with fairy lights, perfect for celebrations. Booking recommended.",
+          "Smokehouse Grill: Famous for enormous steaks and ribs cooked over a wood fire. Live rock band every night from 8pm. Not one for quiet conversation — or for vegetarians!",
+          "The Copper Kettle: A peaceful, old-fashioned dining room on the ground floor, serving traditional roast dinners and homemade pies just like grandmother used to make. Soft background piano only, and staff who never rush you.",
+          "Street Eats Night Market: An outdoor market of food trucks by the river. Cheap and cheerful, but it only opens on Friday and Saturday nights, and there is nowhere to sit under cover if it rains."
+        ]
+      },
+      "questions": [
+        {"stem": "Leon", "answer": "B"},
+        {"stem": "Priti", "answer": "E"},
+        {"stem": "Marco", "answer": "G"},
+        {"stem": "Jade", "answer": "A"},
+        {"stem": "Sam", "answer": "C"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the article about a young chef and choose the best answer A, B, C or D.",
+      "passage": "Cooking my grandmother's recipes\n\nWhen Sofia Marchetti opened her tiny restaurant last spring, she put just five dishes on the menu — all of them recipes that her grandmother used to cook in a mountain village. \"Restaurant guides keep calling my food 'new' and 'original', which makes me laugh,\" she says. \"Nothing on my menu is new. Some of these recipes are two hundred years old. They only seem original because everyone else stopped cooking them.\"\n\nSofia did not plan to become a chef. She was studying law when her grandmother, Rosa, became ill, and Sofia moved back to the village for a year to care for her. \"Nonna couldn't stand for long, so she sat in the kitchen and directed me like a general,\" Sofia remembers. \"Two spoons of this, never stir it twice, taste it now. I wrote nothing down at first. Then I understood that if I didn't record what she knew, it would disappear with her. I filled three notebooks that winter.\"\n\nAfter her grandmother recovered, Sofia finished her law degree — but she never worked as a lawyer. Instead, she took a job washing dishes in a city restaurant to learn how a professional kitchen worked, then spent her savings on a small empty shop with room for only eight tables. Her parents were horrified. \"They had paid for five years of university,\" she admits. \"My mother didn't speak to me for a month. She works at the restaurant now, on Saturdays — but she still introduces me to people as 'my daughter, who was almost a lawyer'.\"\n\nThe restaurant is now booked out weeks in advance, and a publisher has asked Sofia to turn the three notebooks into a cookbook. She is hesitating. \"A recipe is not really a list of ingredients — it's a person teaching you, correcting you, telling you a story. I want the book to feel like sitting in Nonna's kitchen. If I can't manage that, I'd rather not do it at all.\"",
+      "questions": [
+        {"stem": "Why does Sofia laugh at how guides describe her food?", "options": ["Her dishes are simpler than they claim.", "Her recipes are actually very old.", "She invented the dishes as a joke.", "The guides have never visited her restaurant."], "answer": 1},
+        {"stem": "Why did Sofia start writing her grandmother's recipes down?", "options": ["Her grandmother asked her to make a record.", "She wanted material for a future restaurant.", "She feared the knowledge would otherwise be lost.", "She found them too difficult to remember."], "answer": 2},
+        {"stem": "What did Sofia do after finishing her law degree?", "options": ["She worked as a lawyer for a short time.", "She returned to the village to live with Rosa.", "She borrowed money to buy a large restaurant.", "She took a basic job to learn about professional kitchens."], "answer": 3},
+        {"stem": "What do we learn about Sofia's mother?", "options": ["She was angry at first but now helps at the restaurant.", "She refused to ever visit the restaurant.", "She persuaded Sofia to leave university.", "She taught Sofia most of the recipes herself."], "answer": 0},
+        {"stem": "Why is Sofia unsure about writing the cookbook?", "options": ["She is too busy at the restaurant to write.", "She wants it to capture more than just instructions.", "The publisher wants to change the recipes.", "Her grandmother is against the idea."], "answer": 1}
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 4",
+      "instructions": "Read the article about the history of chocolate. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+      "passage": "The long journey of chocolate\n\nEvery day, people around the world eat millions of bars of chocolate without giving a thought to where it came from. Its story begins over three thousand years ago in the forests of Central America, where people first learned to use the seeds of the cacao tree. (16)____ It was flavoured with chilli and spices, and it was nothing like the sweet treat we know today.\n\nCacao seeds were so valuable that some civilisations used them as money. (17)____ A rabbit, according to old records, was worth about ten seeds.\n\nWhen Spanish ships brought cacao to Europe in the sixteenth century, the bitter drink slowly became fashionable — once sugar was added. (18)____ Ordinary people could only dream of tasting it.\n\nEverything changed in the nineteenth century, when new machines made it possible to turn cacao into solid bars cheaply. (19)____ Within a generation, chocolate went from a luxury of palaces to a pleasure of ordinary street corners.\n\nToday, most cacao is grown in West Africa, often on small family farms. (20)____ Several chocolate companies have promised to change this, paying farmers more and helping their children attend school. The next chapter of chocolate's long journey, campaigners hope, will be a fairer one.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Milk chocolate was actually invented by accident in a small kitchen.",
+          "For centuries, it remained an expensive drink enjoyed mainly by kings, queens and the very rich.",
+          "The trees only grow in hot, wet climates near the equator.",
+          "For most of this time, chocolate was not eaten at all, but drunk as a bitter, spicy liquid.",
+          "Many of the farmers who grow it, however, have never tasted a finished chocolate bar.",
+          "Prices in the markets were even written in quantities of cacao.",
+          "Factories competed to produce sweeter and cheaper bars for the growing crowds of customers.",
+          "Doctors at the time believed the drink could cure almost any illness."
+        ]
+      },
+      "questions": [
+        {"stem": "Gap 16", "answer": "D"},
+        {"stem": "Gap 17", "answer": "F"},
+        {"stem": "Gap 18", "answer": "B"},
+        {"stem": "Gap 19", "answer": "G"},
+        {"stem": "Gap 20", "answer": "E"}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 5",
+      "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+      "title": "The world's most expensive spice",
+      "body": "If you ever wonder why saffron costs more than silver, the answer lies in how it is (21)____. The spice comes from a small purple flower, and each flower contains just three tiny red threads. These threads must be picked by hand, one flower at a (22)____, early in the morning before the sun becomes too strong. It takes about one hundred and fifty thousand flowers to (23)____ a single kilogram of saffron, and the harvest season lasts only a few weeks each autumn. During this short period, whole villages work from dawn until dark. Because real saffron is so valuable, markets are full of fakes, and buyers must learn to (24)____ the difference between true threads and cheap imitations. Cooks, however, insist the price is worth paying: a small (25)____ of saffron is enough to give a golden colour and a delicate taste to a whole dish. As one famous chef put it, saffron is proof that in cooking, as in life, the best things rarely (26)____ easily.",
+      "questions": [
+        {"options": ["built", "done", "produced", "created"], "answer": 2},
+        {"options": ["time", "moment", "turn", "go"], "answer": 0},
+        {"options": ["do", "make", "form", "reach"], "answer": 1},
+        {"options": ["say", "see", "know", "tell"], "answer": 3},
+        {"options": ["amount", "number", "piece", "slice"], "answer": 0},
+        {"options": ["arrive", "happen", "appear", "come"], "answer": 3}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 6",
+      "instructions": "For each gap (27–32), write ONE word.",
+      "title": "Email about a cooking class",
+      "body": "Hi Andre,\n\nYou'll never guess what I did last weekend — I took a Korean cooking class! My cousin gave (27)____ the course as a birthday present.\n\nThere were ten of us in the class, and most people had never cooked Korean food (28)____. The teacher showed us how to prepare three dishes, and then we had to make them (29)____ ourselves. Mine didn't look as beautiful as hers, but it tasted better (30)____ I expected!\n\nThe best part was at the end, when we all sat down and ate everything together. I enjoyed it so (31)____ that I've already booked the next class.\n\nYou love spicy food, don't you? You should come with me next time — I'm sure you (32)____ enjoy it.\n\nSee you soon,\nPaulo",
+      "questions": [
+        {"accept": ["me"]},
+        {"accept": ["before"]},
+        {"accept": ["by"]},
+        {"accept": ["than"]},
+        {"accept": ["much"]},
+        {"accept": ["would", "will"]}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+ "label": "B2 — Upper-Intermediate",
+ "cefr": "Cambridge First (FCE) · B2 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+ "audios": [
+  {
+   "id": "B2-P1",
+   "title": "Part 1 · Questions 1–8",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A history podcast",
+    "A recording session",
+    "A morning run",
+    "A podcast club",
+    "An advertising decision",
+    "A live show",
+    "An interview guest",
+    "At an electronics shop"
+   ],
+   "scripts": [
+    "Question one. Woman: You're always listening to that history podcast. Is it because of the famous presenter? Man: He's good, but that's not really it. Each episode takes one tiny object, a coin, a button, a spoon, and unfolds a whole century from it. That way of telling stories is what keeps me coming back.",
+    "Question two. Man: Did you manage to record episode ten yesterday? Woman: We tried. The microphones behaved themselves for once, and my guest was fantastic. Then next door started drilling into the wall, and you can hear it on every single take. We'll have to record the whole thing again on Sunday.",
+    "Question three. Man: You've stopped listening to music on your runs? Girl: Completely. I started a science podcast during the holidays, and now I plan my whole run around it. Yesterday I actually ran an extra kilometre because I refused to stop before the end of the episode.",
+    "Question four. Woman: Our podcast club meets at the library on the first Tuesday of every month. It works just like a book club, but instead of reading, everyone listens to the chosen episode at home, and then we spend the evening discussing it together over coffee. New members are always welcome.",
+    "Question five. Woman: So why are we moving our advertising money to podcasts? Man: Simple: trust. When a host people have listened to for years recommends something in their own words, it lands completely differently from a radio jingle. The research is clear, listeners remember it, and they act on it.",
+    "Question six. Boy: How was seeing your favourite podcast recorded live? Girl: Brilliant, but eye-opening. On my headphones it always sounds effortless, like two friends chatting. In the theatre they stopped constantly, repeated jokes, re-read whole sections. The hour I listen to must take them an entire day to make.",
+    "Question seven. Woman: Didn't you talk about your bees on some little podcast? Man: That's what I thought it was, little! It went out on Monday, and by Friday I'd sold every jar of honey I had, and there's now a waiting list. A magazine wants to visit the hives next week. All from one conversation in my kitchen.",
+    "Question eight. Boy: I need a microphone for my new podcast, and this professional one looks amazing. Assistant: It's excellent, but honestly? For a first podcast, this smaller one gives you ninety percent of the quality for a third of the price. You can upgrade later if the show takes off. Boy: That makes sense, I'll take your advice."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why does the man like the history podcast?",
+     "o": [
+      "The famous presenter",
+      "The way stories are told",
+      "The short episodes"
+     ],
+     "c": 1,
+     "audio": "P10/B2/B2-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why must they record the episode again?",
+     "o": [
+      "The microphones failed",
+      "The guest performed badly",
+      "There was noise from next door"
+     ],
+     "c": 2,
+     "audio": "P10/B2/B2-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the girl say about podcasts?",
+     "o": [
+      "They make her run further",
+      "She misses her music",
+      "They distract her too much"
+     ],
+     "c": 0,
+     "audio": "P10/B2/B2-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What do club members do?",
+     "o": [
+      "Listen to episodes together at the library",
+      "Discuss episodes they heard at home",
+      "Learn how to record podcasts"
+     ],
+     "c": 1,
+     "audio": "P10/B2/B2-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why is the company choosing podcast advertising?",
+     "o": [
+      "Listeners trust the hosts",
+      "Podcast adverts cost less",
+      "Radio audiences are shrinking"
+     ],
+     "c": 0,
+     "audio": "P10/B2/B2-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What surprised the girl at the live show?",
+     "o": [
+      "The size of the theatre",
+      "The hosts arguing on stage",
+      "How much work each episode takes"
+     ],
+     "c": 2,
+     "audio": "P10/B2/B2-P1-q6.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What happened after the man's interview?",
+     "o": [
+      "His honey sold out",
+      "He regretted taking part",
+      "He was invited onto the radio"
+     ],
+     "c": 0,
+     "audio": "P10/B2/B2-P1-q7.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the boy decide to buy?",
+     "o": [
+      "The professional microphone",
+      "The cheaper microphone",
+      "Nothing for now"
+     ],
+     "c": 1,
+     "audio": "P10/B2/B2-P1-q8.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B2-P2",
+   "title": "Part 2 · Questions 9–18",
+   "kind": "file",
+   "file": "P10/B2/B2-P2.mp3",
+   "intro": "You will hear a teenager called Max talking about the podcast club he started at school. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Max: Hi, I'm Max, and I want to tell you about our school podcast club, mostly so that you'll join, I'll be honest. We started the club three years ago, when podcasts suddenly seemed to be everywhere except our school. There were four of us at the beginning; today there are twenty-five members, and we've had to split into teams, some research, some present, some edit. We meet every Wednesday after lessons. People assume we hide away in the computer rooms, but our home is actually the library, where the librarian, who is secretly our biggest fan, guards our equipment. Our first episode was nearly a disaster. We picked the most controversial subject we could think of: school dinners. The cooks refused to talk to us for a week, but when they realised we genuinely wanted their side of the story, they gave us a brilliant interview, and even shared their roast potato secrets. That episode has now been downloaded two thousand times, which still seems unreal to me. Good equipment matters, and ours has a nice story behind it. We entered a young reporters competition and won, and the prize money came from a local radio station, who also let us tour their studios. We spent it on two proper microphones and editing software. As for where we record, you'd laugh. Classrooms echo terribly, so we record in an old storeroom behind the gym, squeezed between boxes of sports equipment. All that stored kit soaks up the sound, and our sound engineer says professional studios pay thousands for walls like ours! We publish a new episode every Friday during term time, and most people listen over the weekend. Our most popular episode so far surprised everybody. It wasn't the one with the famous footballer's cousin, no. It was our interview with the school caretaker, who has worked here for forty years and remembers when the sports hall was a field. Teachers, parents, even former students wrote to us about that one. If you'd like to join, you don't need any experience, and you don't need to love the sound of your own voice, because editors and researchers matter just as much as presenters. The only thing we ask is that you bring an idea: one thing you're curious about, or one person you think has a story. That's how every good episode begins. Find us in the library on Wednesday, and bring your curiosity."
+   ],
+   "gapTitle": "Max's School Podcast Club",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The club started ____ years ago",
+     "accept": [
+      "3",
+      "three"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Number of members now: ____",
+     "accept": [
+      "25",
+      "twenty-five",
+      "twenty five"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The club meets every: ____",
+     "accept": [
+      "wednesday",
+      "wednesdays"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The first episode was about school: ____",
+     "accept": [
+      "dinners",
+      "meals",
+      "lunches"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The first episode has been downloaded ____ times",
+     "accept": [
+      "2000",
+      "2,000",
+      "two thousand"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The prize money came from a local: ____",
+     "accept": [
+      "radio station"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Episodes are recorded in an old: ____",
+     "accept": [
+      "storeroom",
+      "store room"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "A new episode comes out every: ____",
+     "accept": [
+      "friday",
+      "fridays"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The most popular episode featured the school: ____",
+     "accept": [
+      "caretaker"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "New members must bring an: ____",
+     "accept": [
+      "idea"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2-P3",
+   "title": "Part 3 · Questions 19–23",
+   "kind": "file",
+   "file": "P10/B2/B2-P3.mp3",
+   "intro": "You will hear five people talking about why they listen to podcasts. For each speaker, choose from the list (A–H) the reason they give. Use each letter once. There are three extra letters you will not need.",
+   "bank": [
+    "to fall asleep",
+    "to learn a language",
+    "to feel less lonely",
+    "to keep up with the news",
+    "to laugh",
+    "to improve their job skills",
+    "to pass time while driving",
+    "to discover new music"
+   ],
+   "scripts": [
+    "Speaker one. Man: My commute is two hours a day, and for years it was the worst part of my life, just traffic lights and frustration. Podcasts changed all that. I've crossed the Sahara, solved murders and learned how bridges stay up, all without leaving the motorway. These days, when I arrive home, I sometimes sit in the car for five minutes to hear the end of a chapter. Speaker two. Woman: I'm getting married in Italy next year, into an Italian family, and I refuse to spend the wedding just smiling and nodding. There's a podcast where two sisters from Rome speak slowly about everyday life, and I repeat their phrases while I cook. Last month I understood my first joke from my future mother-in-law on a video call. I actually cheered. Speaker three. Man: I've worked from home since the pandemic, and some days the postman is my only visitor. My flat used to feel horribly silent. Now I put my favourite shows on while I work, and it sounds daft, but those hosts feel like colleagues. I know their pets' names, their terrible taste in films. The silence doesn't press on me the way it did. Speaker four. Woman: My doctor suggested all the usual things for my sleepless nights, and none of them worked. Then a friend recommended a podcast about the history of medieval farming. The presenter has this soft, unhurried voice, and honestly, I've never heard the end of a single episode. I'm gone within ten minutes. I must owe that man a hundred nights of sleep. Speaker five. Man: There's a comedy podcast where two old school friends read out ridiculous local news stories, and it's genuinely dangerous, I've had strangers stare at me on the bus because I'm shaking with silent laughter. After a miserable day at work, I don't want news or lessons. Twenty minutes of those two idiots and the day repairs itself."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Speaker 1",
+     "c": "to pass time while driving"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 2",
+     "c": "to learn a language"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 3",
+     "c": "to feel less lonely"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 4",
+     "c": "to fall asleep"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 5",
+     "c": "to laugh"
+    }
+   ]
+  },
+  {
+   "id": "B2-P4",
+   "title": "Part 4 · Questions 24–30",
+   "kind": "file",
+   "file": "P10/B2/B2-P4.mp3",
+   "intro": "You will hear an interview with a woman called Hannah, who works as a podcast producer. For each question, choose the best answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Hannah, you produce some very popular podcasts, but you actually started in radio. Why did you leave? Hannah: I loved radio, but the clock ruled everything. If a guest said something fascinating at nine fifty-eight, it didn't matter, we cut to the news at ten. In podcasting, a conversation takes exactly as long as it deserves. That freedom is why I left. It certainly wasn't the money, there wasn't any in podcasting back then! Interviewer: Hundreds of new podcasts launch every day. What separates the ones that succeed? Hannah: People expect me to talk about equipment or famous hosts, but I've seen shows recorded in bedrooms beat programmes with enormous budgets. The successful ones know exactly who they're talking to. Not 'everyone who likes sport', but one imagined listener, walking one particular dog, down one rainy street. Speak to that person, and thousands of others feel included. Interviewer: What's the most common beginner's mistake? Hannah: Length, without a doubt. First-time podcasters fall in love with their own recordings and release ninety-minute episodes. Nobody is waiting for ninety minutes from a stranger. Start at twenty minutes, and earn the right to go longer. Interviewer: Some people say there are simply too many podcasts now. Hannah: There are millions, true. But here's the secret statistic: most podcasts stop within seven episodes. People burn out, or get bored, or life gets in the way. So the real competition isn't millions of shows, it's the small group who keep going. In this industry, stubbornness beats talent. Interviewer: You've trained many interviewers. What's the secret? Hannah: Be willing to throw away your list of questions. Beginners cling to question seven while the guest is offering them gold. The best moments of my whole career came from the same two words: 'go on'. Listening is the job, the questions are just doors. Interviewer: Where is podcasting heading next? Hannah: Everyone predicts celebrity shows will take over, and they do grab the headlines. I believe the opposite. The future is small and specific: shows about one street, one hospital ward, one dying language. Audio survives every new technology because it's intimate, a voice in your ear while you wash the dishes. That never goes out of fashion. Interviewer: And what's next for you? Hannah: Something that terrifies me, which is how I know it's right: my first fiction series. A proper audio drama, with actors and sound design. After fifteen years of true stories, I want to find out whether I can make people cry with an invented one. Interviewer: Hannah, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why did Hannah leave radio?",
+     "o": [
+      "Podcasting paid better",
+      "She wanted freedom from time limits",
+      "She disliked live broadcasting"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "According to Hannah, successful podcasts",
+     "o": [
+      "know their listener precisely",
+      "use professional equipment",
+      "are hosted by famous people"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What mistake do beginners often make?",
+     "o": [
+      "They spend too much on equipment",
+      "They make their episodes too long",
+      "They copy successful shows"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Hannah say about the competition?",
+     "o": [
+      "There are too many shows to succeed",
+      "Most podcasts stop very quickly",
+      "Only talented people survive"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Hannah's advice about interviewing?",
+     "o": [
+      "Listen and react to the guest",
+      "Prepare your questions carefully",
+      "Keep interviews short"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Hannah predict for podcasting?",
+     "o": [
+      "Celebrity shows will dominate",
+      "Video will replace audio",
+      "Small, specific shows are the future"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What is Hannah's next project?",
+     "o": [
+      "A fiction series",
+      "A celebrity interview show",
+      "A return to radio"
+     ],
+     "c": 0
+    }
+   ]
+  }
+ ]
+}

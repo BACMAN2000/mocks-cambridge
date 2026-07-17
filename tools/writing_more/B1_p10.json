@@ -1,0 +1,30 @@
+{
+  "title": "B1 Preliminary — Writing (Practice 10)",
+  "durationMin": 45,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in about 100 words.",
+      "tasks": [{
+        "type": "email", "minWords": 100,
+        "lead": "Read this email from your English-speaking friend Marta and the notes you have made.",
+        "stimulus": { "head": "EMAIL", "title": "", "body": "From: Marta\nSubject: Cooking competition — let's enter together!\n\nHi!\n\nGuess what — the community centre is holding a cooking competition for teenagers next month, and teams of two can enter! Shall we enter together?\n\nWe have to cook one main dish. What do you think we should make? And when can we practise?\n\nMarta" },
+        "bullets": ["agree to enter the competition with Marta", "suggest a dish you could cook together and why", "say when you are free to practise", "ask one question about the competition"],
+        "write": "Write your email to Marta."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in about 100 words.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 100,
+          "lead": "You see this announcement in your school English-language magazine.",
+          "stimulus": { "title": "A DISH FROM MY COUNTRY", "body": "Every country has a special dish that everyone should try. Write an article about a traditional dish from your country, describing it and explaining why visitors should taste it. The best articles will be published next month." },
+          "bullets": ["which traditional dish you have chosen", "what it is made of and when people eat it", "why visitors should try it"],
+          "write": "Write your article." },
+        { "type": "story", "q": 3, "minWords": 100,
+          "lead": "Your English teacher has asked you to write a story.",
+          "startSentence": "The kitchen was full of smoke, but Carla refused to give up.",
+          "stimulus": { "title": "", "body": "Your story must begin with this sentence:\n\nThe kitchen was full of smoke, but Carla refused to give up." },
+          "bullets": [],
+          "write": "Write your story." }
+      ]
+    }
+  ]
+}

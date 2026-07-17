@@ -1,0 +1,305 @@
+{
+ "label": "A2 — Elementary",
+ "cefr": "Cambridge KET · A2 official format",
+ "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+ "audios": [
+  {
+   "id": "A2-P1",
+   "title": "Part 1 · Questions 1–5",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+   "segments": [
+    "At the music shop",
+    "The lesson time",
+    "The school concert",
+    "The music festival",
+    "Getting to the lesson"
+   ],
+   "scripts": [
+    "Question one. Girl: Did you buy the camera you wanted, Leo? Boy: I saved up for the camera, but then I saw a guitar in the music shop and bought that instead. Girl: Wow, can you play it? Boy: Not yet!",
+    "Question two. Mum: Your guitar lesson is at four o'clock, isn't it? Boy: It was, but my teacher changed it to half past four. Mum: Then we can have a snack first.",
+    "Question three. Girl: Is the school concert in the park this year? Boy: No, it might rain, so it's in the big café next to the school. Girl: Nice and warm — good.",
+    "Question four. Woman: Will the music festival be OK tomorrow? Man: The forecast says sunny all day — not like last year's rain! Woman: Finally some luck.",
+    "Question five. Dad: Shall I drive you to your piano lesson? Girl: No thanks, Dad — it's a lovely day, so I'll go by bike. Dad: Take care on the road."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What did Leo buy?",
+     "imgs": [
+      "guitar",
+      "camera",
+      "phone"
+     ],
+     "c": 0,
+     "audio": "P17/A2/A2-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time is the boy's guitar lesson now?",
+     "imgs": [
+      "clock400",
+      "clock420",
+      "clock430"
+     ],
+     "c": 2,
+     "audio": "P17/A2/A2-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where is the school concert this year?",
+     "imgs": [
+      "park",
+      "library",
+      "cafe"
+     ],
+     "c": 2,
+     "audio": "P17/A2/A2-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will the weather be like at the festival tomorrow?",
+     "imgs": [
+      "rainy",
+      "sunny",
+      "snowy"
+     ],
+     "c": 1,
+     "audio": "P17/A2/A2-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will the girl go to her piano lesson?",
+     "imgs": [
+      "car",
+      "bike",
+      "bus"
+     ],
+     "c": 1,
+     "audio": "P17/A2/A2-P1-q5.mp3"
+    }
+   ]
+  },
+  {
+   "id": "A2-P2",
+   "title": "Part 2 · Questions 6–10",
+   "kind": "file",
+   "file": "P17/A2/A2-P2.mp3",
+   "intro": "You will hear a teacher telling students about music lessons at school. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+   "scripts": [
+    "Listen to a teacher talking about school music lessons. Teacher: Good news, everyone — school music lessons start again in September. This year you can learn the drums as well as the piano and the violin. Lessons are on Mondays, in the school hall. Each lesson costs four pounds. If you want to join, write your name on the list outside the music room before Friday. And remember — the school can lend you an instrument for free."
+   ],
+   "gapTitle": "School Music Lessons",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Lessons start in: ____",
+     "accept": [
+      "september"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "New instrument this year: the ____",
+     "accept": [
+      "drums"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Lessons are on: ____",
+     "accept": [
+      "monday",
+      "mondays"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Cost of each lesson: £ ____",
+     "accept": [
+      "4",
+      "four"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Write your name on the list before: ____",
+     "accept": [
+      "friday"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2-P3",
+   "title": "Part 3 · Questions 11–15",
+   "kind": "file",
+   "file": "P17/A2/A2-P3.mp3",
+   "intro": "You will hear Ruby talking to her friend Max about their band practice. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Ruby: Max, can we practise at your house on Thursday? Max: My mum works at home on Thursdays — the noise drives her crazy. What about Wednesday? Ruby: Fine, Wednesday then. I'll bring my keyboard. Max: Isn't it really heavy? Ruby: My brother can carry it in his car. Max: Great. Should we ask Elena to sing with us? Ruby: I already did — she's got a cold, so she'll join us next week. Max: OK. Oh, and can you print the song words? My printer is broken. Ruby: Sure, no problem."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "When will Ruby and Max practise?",
+     "o": [
+      "On Thursday",
+      "On Wednesday",
+      "Next week"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why can't they practise on Thursday?",
+     "o": [
+      "Max's mum works at home that day",
+      "Max has a lesson",
+      "The house is too small"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How will the keyboard get to Max's house?",
+     "o": [
+      "By bus",
+      "In Ruby's brother's car",
+      "Max will carry it"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why can't Elena come this week?",
+     "o": [
+      "She is on holiday",
+      "She has a cold",
+      "She doesn't like singing"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What will Ruby print?",
+     "o": [
+      "The song words",
+      "Concert tickets",
+      "Some photos"
+     ],
+     "c": 0
+    }
+   ]
+  },
+  {
+   "id": "A2-P4",
+   "title": "Part 4 · Questions 16–20",
+   "kind": "file",
+   "file": "P17/A2/A2-P4.mp3",
+   "intro": "You will hear a boy called Ethan talking about learning the violin. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Ethan: I started violin lessons two years ago because my best friend played, and I didn't want to be left out. He stopped after six months, but I kept going — funny, isn't it? At first I practised only ten minutes a day, but now I do half an hour before dinner every evening. My little sister covers her ears when I play, but my grandad loves listening. He always said I should play in the school orchestra, and last week the music teacher asked me to join! We'll play our first concert in December."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why did Ethan start learning the violin?",
+     "o": [
+      "His best friend played it",
+      "His grandad asked him to",
+      "He heard it at a concert"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How long does Ethan practise now?",
+     "o": [
+      "Ten minutes a day",
+      "Half an hour a day",
+      "An hour a day"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Who loves listening to Ethan play?",
+     "o": [
+      "His grandad",
+      "His sister",
+      "His best friend"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Who asked Ethan to join the orchestra?",
+     "o": [
+      "His grandad",
+      "The music teacher",
+      "His friend"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "When is the first concert?",
+     "o": [
+      "Next week",
+      "In December",
+      "In six months"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P5",
+   "title": "Part 5 · Questions 21–25",
+   "kind": "file",
+   "file": "P17/A2/A2-P5.mp3",
+   "intro": "You will hear Clara talking about her music club. What does each person play? For each question, choose the correct answer.",
+   "bank": [
+    "the drums",
+    "the piano",
+    "the violin",
+    "the guitar",
+    "the flute",
+    "the trumpet",
+    "the harp"
+   ],
+   "scripts": [
+    "Clara: Everyone in our music club plays something different. Ben plays the drums — his neighbours aren't very happy about it! Sofia plays the piano; she's been learning since she was five. Hugo plays the trumpet, really loudly. Kate plays the flute — it sounds like a little bird singing. And Noah plays the guitar and writes his own songs."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Ben",
+     "c": "the drums"
+    },
+    {
+     "type": "match",
+     "person": "Sofia",
+     "c": "the piano"
+    },
+    {
+     "type": "match",
+     "person": "Hugo",
+     "c": "the trumpet"
+    },
+    {
+     "type": "match",
+     "person": "Kate",
+     "c": "the flute"
+    },
+    {
+     "type": "match",
+     "person": "Noah",
+     "c": "the guitar"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+  "title": "B1 Preliminary — Reading (MOCK 4)",
+  "note": "All six parts are auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Greenhill Animal Shelter",
+          "text": "VOLUNTEERS: PLEASE SIGN IN AT THE OFFICE BEFORE STARTING YOUR SHIFT.\nDOG-WALKING EQUIPMENT IS KEPT IN THE BLUE CUPBOARD AND MUST BE RETURNED CLEAN AFTER USE.",
+          "stem": "What must volunteers do at the shelter?",
+          "options": ["Clean the office before their shift begins.", "Keep the dog-walking equipment with them between shifts.", "Register at the office before they start work."],
+          "answer": 2
+        },
+        {
+          "kind": "message",
+          "header": "Text from Priya to Sam",
+          "text": "Sam — the beach clean-up tomorrow now starts at the south car park, not by the pier, because the council is repairing the steps there. Gloves and bags are provided, so just bring water and a hat. See you at 9!",
+          "stem": "What does Priya want Sam to know?",
+          "options": ["The meeting place for the clean-up has changed.", "He needs to bring his own gloves and bags.", "The clean-up has been cancelled because of repairs."],
+          "answer": 0
+        },
+        {
+          "kind": "email",
+          "from": "Volunteer Coordinator, Westfield Library",
+          "to": "New reading club helpers",
+          "subject": "Saturday reading club",
+          "body": "Thanks for offering to help at the children's reading club. Before your first session, you'll need to attend a short training talk this Thursday at 6pm. If you can't come then, let me know and I'll arrange for you to watch the recorded version instead.",
+          "stem": "What should new volunteers do if they cannot attend Thursday's talk?",
+          "options": ["Wait for the talk to be repeated the following week.", "Contact the coordinator so they can watch a recording.", "Start helping at the club without any training."],
+          "answer": 1
+        },
+        {
+          "kind": "sign",
+          "header": "Community Food Store",
+          "text": "DONATIONS OF TINNED FOOD WELCOME DURING OPENING HOURS.\nPLEASE CHECK DATES: WE ARE UNABLE TO ACCEPT ITEMS PAST THEIR BEST-BEFORE DATE.",
+          "stem": "What does the sign say about donations?",
+          "options": ["Tinned food can be left outside at any time.", "All food items are accepted whatever their date.", "Food that is too old will not be taken."],
+          "answer": 2
+        },
+        {
+          "kind": "note",
+          "header": "From Mum",
+          "text": "Tom — the retirement home rang to say your visit is moved from 4 to 5 o'clock, so you've got time to finish your homework first. They asked if you'd bring the photos from the summer fair — the residents loved talking to you about it. Dinner's in the fridge.",
+          "stem": "Why did the retirement home contact Tom's family?",
+          "options": ["To say his visit will be later than planned.", "To ask him to help at the summer fair.", "To invite him to have dinner with the residents."],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "The five people below all want to do some volunteering. Read the descriptions of eight volunteering opportunities (A–H) and decide which one would be most suitable for each person. There are three opportunities you do not need to use.",
+      "sources": [
+        {
+          "label": "6",
+          "name": "Rosa",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/65.jpg\" alt=\"Rosa\" loading=\"lazy\">",
+          "text": "Rosa loves animals and being outdoors, and she doesn't mind hard physical work. She has a full-time job during the week, so she can only volunteer at weekends. She would hate to spend her time indoors."
+        },
+        {
+          "label": "7",
+          "name": "Ahmed",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/43.jpg\" alt=\"Ahmed\" loading=\"lazy\">",
+          "text": "Ahmed is excellent at maths and science and would like to help teenagers who are struggling at school. He works during the day and travels a lot, so he can only volunteer from home in the evenings."
+        },
+        {
+          "label": "8",
+          "name": "Claire",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/8.jpg\" alt=\"Claire\" loading=\"lazy\">",
+          "text": "Claire is a retired nurse who misses talking to people every day. She wants to use her professional knowledge to comfort others, but only during weekday daytimes, as her evenings are busy with family."
+        },
+        {
+          "label": "9",
+          "name": "Jonas",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/22.jpg\" alt=\"Jonas\" loading=\"lazy\">",
+          "text": "Jonas is a student who wants some short-term experience of organising events to put on his CV. He enjoys being busy, meeting lots of people and solving problems quickly. He is free during the summer holidays."
+        },
+        {
+          "label": "10",
+          "name": "Mei",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/90.jpg\" alt=\"Mei\" loading=\"lazy\">",
+          "text": "Mei wants to improve the green spaces in her own neighbourhood and would love to learn about growing plants. She looks after her young daughter, so she needs somewhere the little girl can safely come along too."
+        }
+      ],
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Hospital Friends: Spend weekday mornings sitting and chatting with patients who have few visitors. We especially welcome volunteers with a background in health care, who can reassure worried patients and answer their simple questions.",
+          "Paws and Claws Shelter: Helpers needed Monday to Friday mornings to clean cages, wash bedding and prepare food in our indoor animal centre. Ideal for animal lovers with free time during the working week.",
+          "Wild Coast Rescue: Outdoor volunteers wanted at our seabird and seal rescue centre. The work is physical — carrying equipment, repairing fences and cleaning pools in all weathers — and takes place on Saturdays and Sundays.",
+          "Growing Together: A friendly community garden project that turns empty corners of local streets into small parks. Sessions are relaxed and flexible, families are welcome, and children have their own safe area where they can dig and plant.",
+          "Silver Surfers: Teach older people to use phones and computers at our town-centre café every Wednesday afternoon. Patience is more important than expert knowledge — most questions are about emails and photos.",
+          "Click and Learn: Volunteer tutors give one-hour maths and science sessions to secondary school students by video call, two evenings a week. All you need is a quiet room and an internet connection — you can help from anywhere.",
+          "Nightline Listeners: Answer calls on our evening telephone support line for people who feel lonely or anxious. Volunteers must complete a training course and promise to stay with us for at least six months.",
+          "Festival Crew: Join our team for one busy week each summer, setting up stages, guiding visitors and solving last-minute problems at the region's biggest music festival. Fast-moving work and great experience for your CV."
+        ]
+      },
+      "questions": [
+        {"stem": "Rosa", "answer": "C"},
+        {"stem": "Ahmed", "answer": "F"},
+        {"stem": "Claire", "answer": "A"},
+        {"stem": "Jonas", "answer": "H"},
+        {"stem": "Mei", "answer": "D"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the article about a volunteer at a food bank and choose the best answer A, B, C or D.",
+      "passage": "The accidental volunteer\n\nDaniel Okoro never planned to become a volunteer. Three years ago, he went to his local food bank simply to drop off some tins his mother had bought too many of. While he was there, the manager asked whether he could help carry boxes 'just for an hour'. That hour turned into an afternoon, and the afternoon into every Tuesday since. \"I'd love to tell you I had a great plan to help my community,\" he laughs. \"The truth is I was simply in the right place when someone needed a pair of hands.\"\n\nAt first, Daniel assumed the work would make him miserable. Instead, he found a warehouse full of jokes, music and strong tea. He admits, though, that his first months were harder than he expected — not because of the heavy lifting, but because talking with visitors who felt ashamed of needing help demanded a patience he didn't know he had. \"You learn to chat about football or the weather,\" he says. \"Anything that reminds people they're just people, not problems.\"\n\nThe experience has also changed his working life. Daniel is an engineer, and he used to believe his job skills had nothing to do with charity work. Then he noticed how much food was wasted because of the way the storeroom was organised. He redesigned the shelving and the system for recording stock, and waste fell by almost half. \"Companies pay consultants a fortune for changes like that,\" says the manager. \"Daniel did it between cups of tea.\"\n\nDaniel is careful not to paint too rosy a picture. The number of visitors has doubled since he started, and there are weeks when the shelves look worryingly empty. What keeps him coming back is not the belief that he is fixing anything, he says, but something much simpler. \"If I'm honest, I get as much out of Tuesday afternoons as I give. Anyone who tells you volunteering is a sacrifice hasn't tried it.\"",
+      "questions": [
+        {"stem": "How did Daniel first become involved with the food bank?", "options": ["He wanted to gain useful experience for his job.", "He was asked to help while delivering a donation.", "His mother suggested he should volunteer there.", "He had planned for a long time to serve his community."], "answer": 1},
+        {"stem": "What did Daniel find most difficult at the beginning?", "options": ["carrying heavy boxes around the warehouse", "the unhappy atmosphere among the volunteers", "giving up his free time every Tuesday", "talking to visitors who felt uncomfortable"], "answer": 3},
+        {"stem": "What do we learn about Daniel's engineering skills?", "options": ["They turned out to be more useful to the food bank than he had thought.", "They were the reason the manager first asked him to help.", "They impressed a firm of consultants who visited the warehouse.", "They helped him to find a better-paid job."], "answer": 0},
+        {"stem": "What does Daniel suggest about the food bank's situation?", "options": ["The shelves are always full these days.", "Fewer people need its help than before.", "He does not believe his work is solving the whole problem.", "It will probably have to close before long."], "answer": 2},
+        {"stem": "Which sentence best sums up Daniel's message?", "options": ["Volunteering means giving up a great deal.", "Volunteering gives the volunteer as much as it gives others.", "People should train properly before helping a charity.", "Only people with professional skills should volunteer."], "answer": 1}
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 4",
+      "instructions": "Read the article about a village shop. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+      "passage": "The shop the village refused to lose\n\nWhen the only shop in the small village of Elmford closed five years ago, many residents felt their community had lost its heart. The nearest supermarket was a twenty-minute drive away, which was a serious problem for older people without cars. (16)____ Within a month, more than sixty people had offered their time.\n\nThe volunteers took over the empty building and prepared it themselves. (17)____ Others learned how to order stock, use the till and keep the accounts. Nobody was paid a penny, yet the shop managed to open six days a week from the very start.\n\nToday the shop sells far more than bread and milk. There is a small café corner where customers can sit with a coffee, and a noticeboard advertising local events. (18)____ For some of them, the volunteers say, it is the only conversation they have all day.\n\nRunning a business with unpaid staff is not always simple. Volunteers sometimes cancel at short notice, and finding people to cover the early morning shift can be difficult. (19)____ So far, there has always been someone willing to step in.\n\nThe success of Elmford has attracted attention from other villages in the region. (20)____ The volunteers are happy to share what they have learned, though they give every visitor the same warning: a community shop only works when the whole community wants it to.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "When that happens, a message goes out and another helper usually appears within the hour.",
+          "The supermarket has since offered to open a small branch in the village.",
+          "Some had building skills, so they mended the roof and painted the walls.",
+          "Most customers now prefer to do their shopping on the internet instead.",
+          "Several have already sent groups to see exactly how the shop is organised.",
+          "Instead of accepting the situation, a group of neighbours decided to open a shop of their own.",
+          "Elderly customers in particular come in as much for a chat as for their groceries.",
+          "The café had to close eventually because it did not make enough money."
+        ]
+      },
+      "questions": [
+        {"stem": "Gap 16", "answer": "F"},
+        {"stem": "Gap 17", "answer": "C"},
+        {"stem": "Gap 18", "answer": "G"},
+        {"stem": "Gap 19", "answer": "A"},
+        {"stem": "Gap 20", "answer": "E"}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 5",
+      "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+      "title": "Volunteering on holiday",
+      "body": "Every year, thousands of people choose to spend their holidays helping others instead of lying on a beach. Volunteers may find themselves planting trees, repairing footpaths or (21)____ care of injured wildlife. Supporters of these working holidays say they allow travellers to get to (22)____ a place far better than ordinary tourism ever could. Critics, however, warn that short visits can do little real good (23)____ the projects are carefully planned by people who understand local needs. Experts therefore advise anyone considering such a trip to find out exactly how their money will be (24)____ before they book. A good organisation will happily explain (25)____ its projects involve and which skills volunteers need. For the right person, the (26)____ can be unforgettable — and can change the way they see the world.",
+      "questions": [
+        {"options": ["giving", "putting", "taking", "holding"], "answer": 2},
+        {"options": ["know", "learn", "understand", "discover"], "answer": 0},
+        {"options": ["although", "because", "so", "unless"], "answer": 3},
+        {"options": ["paid", "spent", "charged", "cost"], "answer": 1},
+        {"options": ["that", "how", "what", "which"], "answer": 2},
+        {"options": ["experience", "event", "practice", "incident"], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 6",
+      "instructions": "For each gap (27–32), write ONE word.",
+      "title": "Email about volunteering",
+      "body": "Hi Marco,\n\nGuess what — I've just finished my first month as a volunteer at the animal shelter! I go every Saturday morning, (27)____ means getting up early, but it's worth it.\n\nThe dogs are so friendly, and there's one old one (28)____ name is Biscuit — he follows me everywhere. The staff say he has (29)____ living at the shelter for almost two years.\n\nThey need more helpers, so why (30)____ you come along with me next weekend? You don't need any experience at all. If you enjoy it as (31)____ as I do, you could sign up too.\n\nLet me know (32)____ you're interested and I'll tell the manager.\n\nLove,\nHana",
+      "questions": [
+        {"accept": ["which"]},
+        {"accept": ["whose"]},
+        {"accept": ["been"]},
+        {"accept": ["don't", "dont"]},
+        {"accept": ["much"]},
+        {"accept": ["if", "whether"]}
+      ]
+    }
+  ]
+}

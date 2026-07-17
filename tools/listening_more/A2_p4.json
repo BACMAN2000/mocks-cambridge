@@ -1,0 +1,310 @@
+{
+ "label": "A2 — Elementary",
+ "cefr": "Cambridge KET · A2 official format",
+ "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+ "audios": [
+  {
+   "id": "A2-P1",
+   "title": "Part 1 · Questions 1–5",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+   "segments": [
+    "A new hobby",
+    "After class",
+    "Art club time",
+    "Photography club",
+    "Food after chess"
+   ],
+   "scripts": [
+    "Question one. Girl: Do you still play football after school, Tom? Boy: Not any more. I have guitar lessons on Mondays now. Girl: Really? That sounds fun.",
+    "Question two. Boy: Are you going to the park after class, Lucy? Girl: I can't today — I'm going to the library to read for my project. Boy: OK, see you later then.",
+    "Question three. Boy: Does art club start at four o'clock today? Girl: It used to, but this term it starts at half past four. Boy: Great, I can finish my homework first.",
+    "Question four. Mum: Have you got everything for photography club? Boy: I'm taking Dad's camera — my phone takes terrible photos. Mum: All right, but be careful with it.",
+    "Question five. Girl: Shall we get a sandwich after chess club? Boy: Let's have pizza instead — there's a new place near school. Girl: Mmm, good idea."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What does Tom do after school on Mondays now?",
+     "imgs": [
+      "ball",
+      "guitar",
+      "camera"
+     ],
+     "c": 1,
+     "audio": "P4/A2/A2-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where is Lucy going after class?",
+     "imgs": [
+      "park",
+      "library",
+      "cafe"
+     ],
+     "c": 1,
+     "audio": "P4/A2/A2-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does art club start this term?",
+     "imgs": [
+      "clock400",
+      "clock420",
+      "clock430"
+     ],
+     "c": 2,
+     "audio": "P4/A2/A2-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will the boy take to photography club?",
+     "imgs": [
+      "camera",
+      "phone",
+      "bag"
+     ],
+     "c": 0,
+     "audio": "P4/A2/A2-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will they eat after chess club?",
+     "imgs": [
+      "sandwich",
+      "pizza",
+      "cake"
+     ],
+     "c": 1,
+     "audio": "P4/A2/A2-P1-q5.mp3"
+    }
+   ]
+  },
+  {
+   "id": "A2-P2",
+   "title": "Part 2 · Questions 6–10",
+   "kind": "file",
+   "file": "P4/A2/A2-P2.mp3",
+   "intro": "You will hear a teacher telling students about a new drama club. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+   "scripts": [
+    "Listen to a teacher talking about a new drama club. Teacher: I have some exciting news about our new drama club. The club meets every Friday after school, in room twelve. It starts at four o'clock and finishes at half past five. The club costs three pounds a month. Please bring comfortable shoes, because we move around a lot. If you want to join, talk to Miss Porter in the school office."
+   ],
+   "gapTitle": "New Drama Club",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Meets: every ____",
+     "accept": [
+      "friday"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Room number: ____",
+     "accept": [
+      "12",
+      "twelve"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Starts at: ____ p.m.",
+     "accept": [
+      "4",
+      "four",
+      "4:00",
+      "4.00",
+      "4 o'clock",
+      "four o'clock"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Cost each month: £ ____",
+     "accept": [
+      "3",
+      "three"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Bring: comfortable ____",
+     "accept": [
+      "shoes"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2-P3",
+   "title": "Part 3 · Questions 11–15",
+   "kind": "file",
+   "file": "P4/A2/A2-P3.mp3",
+   "intro": "You will hear Anna talking to her friend Ben about after-school clubs. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Anna: Hi Ben, which club are you joining this term? Ben: I wanted to join the football team, but it's full, so I'm doing the cooking club instead. Anna: Cooking? That sounds fun. When is it? Ben: Every Tuesday after school. My mum is happy because now I can help with dinner at home. Anna: Do you have to pay for it? Ben: The club is free, but we bring our own food to cook. Anna: Maybe I'll come too. Ben: You should! Last week we made pizza, and next week we're making little cakes."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Which club is Ben joining this term?",
+     "o": [
+      "Football",
+      "Cooking",
+      "Drama"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "When does the club meet?",
+     "o": [
+      "On Mondays",
+      "On Tuesdays",
+      "On Fridays"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why is Ben's mum happy?",
+     "o": [
+      "Ben can help with dinner",
+      "The club is near their house",
+      "Ben's marks are better"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How much does the club cost?",
+     "o": [
+      "Nothing",
+      "Three pounds",
+      "Five pounds"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What will the club make next week?",
+     "o": [
+      "Pizza",
+      "Little cakes",
+      "Sandwiches"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P4",
+   "title": "Part 4 · Questions 16–20",
+   "kind": "file",
+   "file": "P4/A2/A2-P4.mp3",
+   "intro": "You will hear a girl called Lucy talking about her hobby. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Lucy: Two years ago my grandmother gave me her old guitar, and that's how my hobby started. At first I tried to learn from videos on the internet, but it was too hard, so now I have lessons every Wednesday. My teacher is quite strict, but she's also very kind. I practise for half an hour every evening, after my homework. My brother says the noise is terrible, but my parents love listening to me. In the summer I'm going to play at the school concert for the first time, and I can't wait."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Who gave Lucy her guitar?",
+     "o": [
+      "Her grandmother",
+      "Her teacher",
+      "Her brother"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How did Lucy first try to learn?",
+     "o": [
+      "With a teacher",
+      "From videos",
+      "From a book"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "When are Lucy's lessons?",
+     "o": [
+      "Every Monday",
+      "Every Wednesday",
+      "At the weekend"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "When does Lucy practise?",
+     "o": [
+      "Before school",
+      "After her homework",
+      "At lunchtime"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How does Lucy feel about the school concert?",
+     "o": [
+      "She's excited",
+      "She's nervous",
+      "She's not interested"
+     ],
+     "c": 0
+    }
+   ]
+  },
+  {
+   "id": "A2-P5",
+   "title": "Part 5 · Questions 21–25",
+   "kind": "file",
+   "file": "P4/A2/A2-P5.mp3",
+   "intro": "You will hear Kate talking about her friends' hobbies. What does each person do after school? For each question, choose the correct answer.",
+   "bank": [
+    "chess",
+    "swimming",
+    "painting",
+    "photography",
+    "dancing",
+    "cooking",
+    "football"
+   ],
+   "scripts": [
+    "Kate: All my friends do something different after school. Emma joined the chess club, and she's already really good at it. Jack goes swimming twice a week at the new pool. Grace loves art, so she does painting on Thursdays. Noah takes his camera everywhere — he's in the photography club. And Ruby just started dancing lessons, and she absolutely loves them."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Emma",
+     "c": "chess"
+    },
+    {
+     "type": "match",
+     "person": "Jack",
+     "c": "swimming"
+    },
+    {
+     "type": "match",
+     "person": "Grace",
+     "c": "painting"
+    },
+    {
+     "type": "match",
+     "person": "Noah",
+     "c": "photography"
+    },
+    {
+     "type": "match",
+     "person": "Ruby",
+     "c": "dancing"
+    }
+   ]
+  }
+ ]
+}

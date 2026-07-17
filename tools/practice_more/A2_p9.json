@@ -1,0 +1,158 @@
+{
+  "title": "A2 Key — Reading and Writing (Practice 9)",
+  "note": "Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Riverside Concert Hall",
+          "text": "TONIGHT'S PIANO CONCERT WILL START AT 8 P.M., NOT 7.30 P.M. DOORS OPEN AT 7.15 P.M.",
+          "stem": "What does the notice say about tonight's concert?",
+          "options": ["It will begin later than planned.", "It is cancelled.", "The doors open at 8 p.m."],
+          "answer": 0
+        },
+        {
+          "kind": "message",
+          "header": "From: Dan → To: Milo",
+          "text": "Hi Milo, I've got two tickets for the rock concert on Friday, but my brother can't come now. Do you want his ticket? It's free — you just need to tell me before tomorrow evening.",
+          "stem": "Why has Dan written to Milo?",
+          "options": ["To ask Milo to buy two tickets.", "To say the concert is on Saturday.", "To offer Milo a free ticket."],
+          "answer": 2
+        },
+        {
+          "kind": "email",
+          "from": "Star Music School",
+          "to": "Students",
+          "subject": "Guitar lessons",
+          "body": "Dear student, guitar lessons will move from Tuesdays to Thursdays next month because our teacher has a new job in the mornings. The time and the room will stay the same. Please tell us if you cannot come on Thursdays.",
+          "stem": "What is changing about the guitar lessons?",
+          "options": ["The room where they happen.", "The day when they happen.", "The time when they start."],
+          "answer": 1
+        },
+        {
+          "kind": "note",
+          "header": "Note for Katya",
+          "text": "Katya — Your violin teacher phoned. She wants you to practise the new song before Saturday's lesson, not the old one. The music is on your bed. — Mum",
+          "stem": "What should Katya do before Saturday?",
+          "options": ["Practise the new song.", "Phone her teacher back.", "Buy some new music."],
+          "answer": 0
+        },
+        {
+          "kind": "sign",
+          "header": "City Concert Hall",
+          "text": "PLEASE TURN OFF YOUR PHONE DURING THE CONCERT. PHOTOS ARE ONLY ALLOWED AT THE END OF THE SHOW.",
+          "stem": "When can people take photos?",
+          "options": ["During any song.", "Never.", "When the show finishes."],
+          "answer": 2
+        },
+        {
+          "kind": "notice",
+          "header": "Melody Music Shop",
+          "text": "SECOND-HAND GUITARS NOW HALF PRICE. WE ALSO BUY OLD INSTRUMENTS — ASK AT THE DESK.",
+          "stem": "What does the notice say?",
+          "options": ["New guitars are half price.", "The shop buys old instruments.", "The shop only sells guitars."],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "Read about three young people and music. For each question, choose the correct person (A, B or C). The people may be chosen more than once.",
+      "sources": [
+        {
+          "label": "A",
+          "name": "Elena",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/45.jpg\" alt=\"Elena\" loading=\"lazy\">",
+          "text": "I play the drums. I started two years ago, after my aunt took me to a concert and I couldn't stop watching the drummer. I practise in our garage, but the people next door sometimes knock on the wall because of the noise! My dream is to start a band with my friends from school."
+        },
+        {
+          "label": "B",
+          "name": "Marcus",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/71.jpg\" alt=\"Marcus\" loading=\"lazy\">",
+          "text": "I sing in my school choir. We travel to other towns for competitions, which is great fun. The first time I stood on a stage, my legs were shaking and I wanted to run away. Now I love performing. Last year our choir won first prize in a big competition, and our photo was in the newspaper."
+        },
+        {
+          "label": "C",
+          "name": "Aya",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/68.jpg\" alt=\"Aya\" loading=\"lazy\">",
+          "text": "I play the piano. I never had a teacher — I learned everything from an app on my tablet, a little bit every day. I mostly play quiet, classical pieces. My grandparents live far away, so I play for them on video calls. One day I want to write my own songs instead of only playing other people's."
+        }
+      ],
+      "questions": [
+        {"stem": "Which person learned to play using an app?", "answer": "C"},
+        {"stem": "Which person's group won a prize?", "answer": "B"},
+        {"stem": "Which person sometimes makes the neighbours unhappy?", "answer": "A"},
+        {"stem": "Which person wants to write their own music?", "answer": "C"},
+        {"stem": "Which person felt very nervous the first time they performed?", "answer": "B"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the text about a girl who is learning the guitar. Choose the correct answer A, B or C.",
+      "passage": "Lily is thirteen and has always loved listening to pop music on her headphones. Last year, her uncle moved to another country and gave her his old electric guitar because he could not take it with him.\n\nAt first, Lily tried to teach herself with videos, but she found it difficult to understand them. Her fingers hurt, and the songs sounded terrible. After two weeks, she put the guitar under her bed and stopped playing.\n\nThen one day, Lily's music teacher at school said the school was starting a guitar club on Wednesday afternoons. The club was free, and beginners were welcome. Lily decided to try one more time.\n\nIn the club, Lily met other students who were learning too, and the teacher showed them easy songs to play together. Playing with other people was much more fun than playing alone in her room. Lily stopped feeling embarrassed about her mistakes.\n\nNow Lily practises every evening after dinner. Next month, the club is going to play three songs at the school show. Lily's uncle says he will watch a video of it online, and Lily wants to make him proud.",
+      "questions": [
+        {"stem": "How did Lily get her guitar?", "options": ["She bought it with her pocket money.", "Her teacher lent it to her.", "Her uncle gave it to her."], "answer": 2},
+        {"stem": "Why did Lily stop playing at first?", "options": ["Learning from videos was too difficult.", "Her uncle asked for the guitar back.", "She had no time after school."], "answer": 0},
+        {"stem": "What did Lily's teacher tell the class?", "options": ["Everyone should buy a guitar.", "The school was starting a free guitar club.", "Only good players could join the club."], "answer": 1},
+        {"stem": "Why did Lily enjoy the club?", "options": ["The club gave her a new guitar.", "It finished early on Wednesdays.", "Playing with others was more fun than playing alone."], "answer": 2},
+        {"stem": "What will happen next month?", "options": ["The club will play at the school show.", "Lily's uncle will visit the school.", "Lily will join a different club."], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 4",
+      "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+      "title": "Street Musicians",
+      "body": "In many cities around the world, you can hear music in the streets. Street musicians play in parks, squares and train stations. People who (19)____ the music often stop and listen for a few minutes. If they enjoy it, they may (20)____ some money into the musician's hat or guitar case. Some famous singers (21)____ their careers in the street before they became well known. Playing outside is not always easy, (22)____ . The weather can be cold, and some days musicians earn very (23)____ money. But many say they love what they do, because every day is different and they can (24)____ new people all the time.",
+      "questions": [
+        {"options": ["listen", "hear", "sound", "feel"], "answer": 1},
+        {"options": ["send", "pay", "spend", "drop"], "answer": 3},
+        {"options": ["began", "opened", "made", "turned"], "answer": 0},
+        {"options": ["also", "too", "however", "instead"], "answer": 2},
+        {"options": ["few", "little", "small", "low"], "answer": 1},
+        {"options": ["know", "find", "look", "meet"], "answer": 3}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 5",
+      "instructions": "For each gap (25–30), write ONE word.",
+      "title": "A message about a concert",
+      "body": "Hi Tom,\n\nGuess what! My favourite band is playing (25)____ our town next month. I have wanted to see them (26)____ years!\n\nThe tickets go on sale on Monday. Would you like to come with (27)____ ? They cost fifteen pounds each, (28)____ is not too expensive.\n\nWe can go to the concert (29)____ bus. My dad says he will pick us up afterwards, so we don't have to walk home (30)____ night.\n\nWrite back soon!\nJess",
+      "questions": [
+        {"accept": ["in"]},
+        {"accept": ["for"]},
+        {"accept": ["me", "us"]},
+        {"accept": ["which"]},
+        {"accept": ["by"]},
+        {"accept": ["at"]}
+      ]
+    },
+    {
+      "type": "writing",
+      "part": "Part 6",
+      "prompts": [{
+        "kind": "email",
+        "instructions": "Your English friend Sam wants to listen to some new music. Write an email to Sam. In your email: say what kind of music you like / suggest one singer or band Sam could listen to / ask one question about Sam's favourite music.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    },
+    {
+      "type": "writing",
+      "part": "Part 7",
+      "prompts": [{
+        "kind": "story",
+        "instructions": "Write a story for your English class. Your story must begin with this sentence:\nWhen Maria walked onto the stage, the room went quiet.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    }
+  ]
+}

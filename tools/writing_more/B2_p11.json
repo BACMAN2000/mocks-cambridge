@@ -1,0 +1,34 @@
+{
+  "title": "B2 First — Writing (Practice 11)",
+  "durationMin": 80,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 140, "maxWords": 190,
+        "lead": "In your English class you have been talking about friendship. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+        "stimulus": { "body": "\"Friendships made online can be just as strong as friendships made face to face. Do you agree?\"\n\nNotes\n\nWrite about:\n1. trust\n2. shared activities\n3. ............... (your own idea)" },
+        "bullets": ["trust", "shared activities", "your own idea", "give reasons for your point of view"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+      "tasks": [
+        { "type": "letter", "q": 2, "minWords": 140, "maxWords": 190,
+          "lead": "You have received this letter from your English-speaking friend Lee.",
+          "stimulus": { "body": "Big news — my family is moving to another town this summer, so I'll be starting at a completely new school in September. Honestly, I'm terrified about making friends all over again. You changed schools two years ago, didn't you? How did you meet people? Is there anything you wish you had done differently?\nBest,\nLee" },
+          "bullets": ["how you met people at your new school", "something you wish you had done differently", "advice to help Lee feel less worried"],
+          "write": "Write your letter in reply." },
+        { "type": "report", "q": 3, "minWords": 140, "maxWords": 190,
+          "lead": "The student welfare officer at your college wants to help new students make friends and has asked you to write a report.",
+          "stimulus": { "title": "Report: helping new students meet people", "body": "Describe how students at your college usually socialise, explain why new students can find it hard to join in, and suggest two activities the college could organise to help them." },
+          "bullets": ["how students usually socialise", "why new students find it hard to join in", "two activities the college could organise"],
+          "write": "Write your report." },
+        { "type": "article", "q": 4, "minWords": 140, "maxWords": 190,
+          "lead": "You see this announcement in an English-language magazine for young people.",
+          "stimulus": { "title": "A FRIEND I HAVE NEVER MET", "body": "Do you have a good friend you only know online — through gaming, fan communities or social media? Write an article describing how the friendship began, what you do together despite the distance, and whether you would like to meet in real life one day." },
+          "bullets": ["how the online friendship began", "what you do together despite the distance", "whether you would like to meet in real life"],
+          "write": "Write your article." }
+      ]
+    }
+  ]
+}

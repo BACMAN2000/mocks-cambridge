@@ -1,0 +1,189 @@
+{
+  "title": "B2 First — Reading and Use of English (Practice 14)",
+  "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The dish that travelled the world",
+      "body": "Few things reveal the history of human movement as clearly as the food on our plates. Take the humble potato, which (1)____ from the mountains of South America. When it first reached Europe in the sixteenth century, it was treated with deep (2)____, and many farmers refused for generations to grow it, let alone eat it. Attitudes only changed when war and hunger left people with little (3)____. Within a century, the once-despised crop had (4)____ the diet of half the continent. Spices tell a similar story, (5)____ that their journey was driven by wealth rather than hunger. Merchants were prepared to (6)____ enormous risks, crossing dangerous oceans for a cargo of pepper or cloves that could make a man rich for life. Whole cities (7)____ their fortunes to this trade, and the streets of Venice and Lisbon were, in a sense, paved with nutmeg. The lesson of food history is that no cuisine is pure. Every 'national dish', on closer (8)____, turns out to be an international one, assembled over centuries from borrowed ingredients and adopted techniques.",
+      "questions": [
+        { "options": ["descends", "comes", "derives", "arrives"], "answer": 1 },
+        { "options": ["suspicion", "denial", "objection", "refusal"], "answer": 0 },
+        { "options": ["option", "chance", "decision", "choice"], "answer": 3 },
+        { "options": ["converted", "switched", "transformed", "exchanged"], "answer": 2 },
+        { "options": ["except", "unless", "besides", "despite"], "answer": 0 },
+        { "options": ["make", "do", "run", "hold"], "answer": 2 },
+        { "options": ["thanked", "owed", "earned", "gave"], "answer": 1 },
+        { "options": ["watch", "sight", "review", "inspection"], "answer": 3 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "How the sandwich got its name",
+      "body": "According to a story that has been repeated (9)____ over two centuries, the sandwich owes its name to an English aristocrat, the Earl of Sandwich, (10)____ was too devoted to the card table to stop for dinner. Rather than leave the game, he ordered his meat brought to him between two slices of bread, so that he could eat with one hand and play with (11)____ other. Whether the tale is strictly true is another (12)____; historians point out that busy people had been putting food inside bread for thousands of years (13)____ anyone thought to give the habit a name. What the story really shows is (14)____ food fashions spread. The earl was famous, the habit looked convenient, and within a few years his title was (15)____ used across Europe for a dish the poor had always eaten. Names, it seems, tend to go (16)____ the powerful, even when the inventions themselves do not.",
+      "questions": [
+        { "accept": ["for"] },
+        { "accept": ["who"] },
+        { "accept": ["the"] },
+        { "accept": ["matter", "question"] },
+        { "accept": ["before"] },
+        { "accept": ["how"] },
+        { "accept": ["being"] },
+        { "accept": ["to"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Keeping food fresh",
+      "rows": [
+        { "text": "Before refrigeration, the (17)____ of food was a", "root": "PRESERVE" },
+        { "text": "daily battle against heat, damp and time." },
+        { "text": "" },
+        { "text": "Salting and smoking were among the most" },
+        { "text": "(18)____ methods known to early cooks.", "root": "EFFECT" },
+        { "text": "" },
+        { "text": "Their (19)____ was such that some foods created", "root": "POPULAR" },
+        { "text": "for survival are now expensive delicacies." },
+        { "text": "" },
+        { "text": "Drying removed the (20)____ that bacteria need", "root": "MOIST" },
+        { "text": "to grow, and worked in any sunny climate." },
+        { "text": "" },
+        { "text": "In cold regions, ice houses gave the (21)____", "root": "WEALTH" },
+        { "text": "a taste of winter in the middle of summer." },
+        { "text": "" },
+        { "text": "The (22)____ of canning in the early 1800s", "root": "INVENT" },
+        { "text": "changed the diet of armies and sailors alike." },
+        { "text": "" },
+        { "text": "Early tins, (23)____, had to be opened with a", "root": "FORTUNE" },
+        { "text": "hammer, as the tin opener came decades later." },
+        { "text": "" },
+        { "text": "Modern fridges have turned such (24)____ skills", "root": "TRADITION" },
+        { "text": "into hobbies rather than necessities." }
+      ],
+      "questions": [
+        { "root": "PRESERVE", "accept": ["preservation"] },
+        { "root": "EFFECT", "accept": ["effective"] },
+        { "root": "POPULAR", "accept": ["popularity"] },
+        { "root": "MOIST", "accept": ["moisture"] },
+        { "root": "WEALTH", "accept": ["wealthy"] },
+        { "root": "INVENT", "accept": ["invention"] },
+        { "root": "FORTUNE", "accept": ["unfortunately"] },
+        { "root": "TRADITION", "accept": ["traditional"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+      "questions": [
+        {
+          "before": "Chefs first made this dish in Naples over a century ago.",
+          "keyword": "WAS",
+          "after": "This dish ___ in Naples over a century ago.",
+          "accept": ["was first made"]
+        },
+        {
+          "before": "\"Have you ever tried making bread at home?\" Marta asked me.",
+          "keyword": "I",
+          "after": "Marta asked me whether ___ tried making bread at home.",
+          "accept": ["i had ever"]
+        },
+        {
+          "before": "Eating vegetables every day is good for you.",
+          "keyword": "DOES",
+          "after": "Eating vegetables every day ___ good.",
+          "accept": ["does you good"]
+        },
+        {
+          "before": "The restaurant was so popular that we couldn't get a table.",
+          "keyword": "SUCH",
+          "after": "It was ___ that we couldn't get a table.",
+          "accept": ["such a popular restaurant"]
+        },
+        {
+          "before": "My grandmother continues to cook although she is ninety.",
+          "keyword": "SPITE",
+          "after": "My grandmother continues to cook in ___ ninety.",
+          "accept": ["spite of being"]
+        },
+        {
+          "before": "We ran out of sugar, so I couldn't finish the cake.",
+          "keyword": "IF",
+          "after": "I could have finished the cake ___ run out of sugar.",
+          "accept": ["if we had not", "if we hadn't"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The surprising youth of 'traditional' food\n\nEvery nation has its sacred dishes: the recipes described as ancient, unchanging, and woven into the very identity of a people. Ask when these traditions began, and you will usually hear vague gestures towards the mists of time. Look at the historical record, however, and something awkward emerges: a remarkable number of the world's 'timeless' dishes are, by the standards of history, practically teenagers.\n\nConsider the tomato, without which Italian cooking now seems unimaginable. The plant is American, and no Italian had seen one before the sixteenth century; even after it arrived, suspicious Europeans grew it mostly as a decorative curiosity, and cookbooks took a further two hundred years to take it seriously. The red sauces that now define a nation's table are, in the timeline of Italian civilisation, a recent development — younger than the opera house and considerably younger than the fork.\n\nThe chilli pepper made an even longer journey with even greater success. Also American in origin, it travelled with Portuguese traders to India, Thailand and China, where it settled in so completely that the cuisines of half of Asia are now unthinkable without it. So total was the adoption that many people today are astonished to learn the heat in their national dishes arrived by ship a few centuries ago. A pepper from one hemisphere became the signature of the other — history's most successful culinary immigrant.\n\nWhy, then, do we insist on the antiquity of our menus? Historians of culture suggest that the answer has little to do with food and much to do with comfort. In periods of rapid change — industrialisation, migration, globalisation — people reach for symbols of stability, and few symbols are as warm, as frequent, or as easy to share as a meal. A dish eaten 'the way our ancestors ate it' offers a daily, edible sense of belonging. That the claim is often historically shaky matters less than the feeling it provides; the myth is doing emotional work, not scholarly work.\n\nNone of this should be taken as mockery. A cuisine is best understood not as a museum but as a conversation: one that has been running for centuries, in which new ingredients, new neighbours and new necessities are constantly adding their voices. The arrival of the tomato did not corrupt Italian cooking; it enriched a conversation already in progress, just as the chilli enriched a dozen others. Seen this way, tradition is not a fixed inheritance to be guarded from change. It is a snapshot of a moving process — a single frame from a very long film. The dishes our great-grandchildren will one day defend as ancient and unchangeable are, in all probability, being invented somewhere right now.",
+      "questions": [
+        { "stem": "What is the writer's main point in the first paragraph?", "options": ["Many dishes considered ancient are far more recent than people assume.", "Most nations have no traditional dishes at all.", "Historical records about food have all been lost.", "Sacred dishes should never be questioned."], "answer": 0 },
+        { "stem": "What does the example of the tomato illustrate?", "options": ["That Italians invented red sauce in the Middle Ages.", "That decorative plants can never become food.", "That cookbooks adopt new ingredients immediately.", "That a food now central to a national cuisine arrived relatively recently from elsewhere."], "answer": 3 },
+        { "stem": "Why does the writer call the chilli 'history's most successful culinary immigrant'?", "options": ["Because it is the hottest spice in the world.", "Because it settled so completely into the cuisines of a different hemisphere.", "Because Portuguese traders refused to sell it.", "Because it never changed on its journey."], "answer": 1 },
+        { "stem": "According to the historians mentioned, why do people insist their food is ancient?", "options": ["Because scholars have proved most claims correct.", "Because governments require it.", "Because in times of rapid change, a 'timeless' meal provides a comforting sense of belonging.", "Because old recipes taste objectively better."], "answer": 2 },
+        { "stem": "Why does the writer compare a cuisine to a conversation?", "options": ["Because recipes are usually passed on by talking.", "Because it is continually changed by new ingredients and new voices.", "Because meals are eaten in company.", "Because arguments about food are common."], "answer": 1 },
+        { "stem": "What is the writer's final view of tradition?", "options": ["It is a snapshot of a moving process rather than something fixed.", "It must be guarded from all change.", "It ended when globalisation began.", "It only exists in museums."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+      "passage": "From bitter drink to sweet bar\n\nFor most of its long history, chocolate was not something you ate but something you drank. (37)____ Sugar did not enter the recipe at all until the beans crossed the Atlantic to Europe.\n\nIn the royal courts of Spain and France, the sweetened drink became a fashionable luxury, sipped at ceremonies and prescribed by doctors for every imaginable complaint. (38)____ For two centuries, chocolate remained liquid, expensive and firmly aristocratic.\n\nThe transformation came with the industrial age. (39)____ This invention made chocolate dramatically cheaper, and it opened the door to something entirely new.\n\nManufacturers soon discovered that the extracted fat, recombined with sugar and cocoa powder, could be poured into moulds and would set solid. (40)____ Customers did not seem to mind in the least: the bars sold as fast as they could be made.\n\nThe final refinements came from Switzerland, where one maker blended in dried milk and another built a machine that kneaded the chocolate for days on end. (41)____ Between them, these advances created the smooth bar the world now takes for granted.\n\nToday chocolate is a global industry worth billions, yet most of the farmers who grow the beans have never tasted the finished product, and many earn less than a living wage. (42)____ It is a strange ending for a food that began as the drink of kings — and a reminder that every sweet thing has a history, not all of it sweet.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Campaigners argue that the people who farm the beans deserve a fairer share of the fortune the bar has built.",
+          "A Dutch chemist found a way to press the fat from the roasted beans, leaving a fine powder that mixed easily.",
+          "After several days of this treatment, the gritty paste emerged with a silky texture never achieved before.",
+          "Special porcelain pots and tall cups were designed just for serving it, and some survive in museums today.",
+          "By then, hardly anyone in Europe could afford sugar of any kind.",
+          "The first true eating chocolate, sold in the 1840s, was coarse and grainy by modern standards.",
+          "The Aztecs whisked it with water, chilli and spices into a bitter, foaming drink reserved for warriors and kings.",
+          "This explains why chocolate is no longer manufactured anywhere in Switzerland."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing sentence:", "answer": "G" },
+        { "stem": "Choose the missing sentence:", "answer": "D" },
+        { "stem": "Choose the missing sentence:", "answer": "B" },
+        { "stem": "Choose the missing sentence:", "answer": "F" },
+        { "stem": "Choose the missing sentence:", "answer": "C" },
+        { "stem": "Choose the missing sentence:", "answer": "A" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "Read about four people whose work keeps food history alive. Then answer the questions. The same person may be chosen more than once.",
+      "sources": [
+        { "label": "A", "name": "Greta", "text": "I cook the year 1450 for a living. At the open-air museum where I work, my kitchen is a reconstructed farmhouse, my oven is a wood fire, and everything happens in full view of the visitors, who lean over the rope asking questions while I knead. That audience is the best and hardest part of the job: children want to stir everything, and at least once a day an adult asks where I keep the real cooker. There isn't one. No thermometer, no mixer, no clock — I judge the oven by holding my arm near the bricks and counting, the way the old manuals describe. Modern cooks are always startled by how much skill lives in the equipment they never think about. Take the machines away, and you meet the cook you actually are." },
+        { "label": "B", "name": "Sam", "text": "My great-grandfather opened our fish and chip shop in 1931, and I am the fourth generation to stand at the range. Twice now, consultants have sat me down with glossy folders to explain that the future is burgers, or wraps, or whatever was fashionable that year, and twice I have politely shown them the door. We fry fish, we fry chips, and we do both properly — that is the whole business plan, and the queue on Fridays suggests it still works. I did give in to the card machine, mind you; even tradition has to make change. What people are really buying, I think, is continuity. Men bring their grandsons and stand on the same tiles they stood on as boys, and the smell tells them the world has not entirely moved on without them." },
+        { "label": "C", "name": "Lucía", "text": "My work is a race, and my opponents are funerals. I travel with a recorder and a notebook, sitting in kitchens with women in their eighties and nineties, writing down recipes that exist nowhere on paper — dishes measured in handfuls and eggshells, timed by prayers and songs. When one of these cooks dies unrecorded, a small library burns. People assume I am hunting grand banquet dishes, but the treasures are the ordinary ones: the Tuesday soup, the bread for washing day. Feasts get written down precisely because they are special; it is the everyday food, the food that actually built a people, that vanishes silently, and I believe it deserves every bit of the attention we lavish on the cathedral dishes. My archive holds nine hundred recipes now. It should hold nine thousand." },
+        { "label": "D", "name": "Antoine", "text": "When I put my version of our region's most famous stew on the menu — the broth clarified, the meat cooked for eighteen hours at a low temperature — one newspaper called it vandalism, and a retired chef wrote demanding I be stopped. The fury amused me, because I had done my homework. In the archives I found the 'eternal' recipe written down eleven times across two centuries, and no two versions agree: different meats, different vegetables, wine in some and beer in others. Each generation quietly rewrote the dish and called the result ancient. So I reject the charge of disrespect. A dish kept under glass is not honoured; it is embalmed. I honour the stew the way every generation before me did — by arguing with it, changing it, and passing it on alive." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Greta", "Sam", "Lucía", "Antoine"] },
+      "questions": [
+        { "stem": "Which person is racing to record knowledge before it disappears forever?", "answer": "C" },
+        { "stem": "Which person has been publicly accused of disrespecting the past?", "answer": "D" },
+        { "stem": "Which person continues a business founded by their family?", "answer": "B" },
+        { "stem": "Which person works without the equipment modern cooks depend on?", "answer": "A" },
+        { "stem": "Which person argues that changing a dish is a way of keeping it alive?", "answer": "D" },
+        { "stem": "Which person gathers information directly from very elderly people?", "answer": "C" },
+        { "stem": "Which person is watched by the public while they work?", "answer": "A" },
+        { "stem": "Which person has rejected professional advice to change what they sell?", "answer": "B" },
+        { "stem": "Which person discovered that a supposedly fixed recipe had in fact changed many times?", "answer": "D" },
+        { "stem": "Which person believes everyday food deserves as much attention as special-occasion dishes?", "answer": "C" }
+      ]
+    }
+  ]
+}

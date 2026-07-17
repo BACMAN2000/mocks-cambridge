@@ -1,0 +1,34 @@
+{
+  "title": "B2 First — Writing (MOCK 5)",
+  "durationMin": 80,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 140, "maxWords": 190,
+        "lead": "In your English class you have been talking about artificial intelligence. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+        "stimulus": { "body": "\"Artificial intelligence tools now do many everyday tasks for us. Does this really make our lives better?\"\n\nNotes\n\nWrite about:\n1. saving time\n2. skills we might lose\n3. ............... (your own idea)" },
+        "bullets": ["saving time", "skills we might lose", "your own idea", "give reasons for your point of view"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+      "tasks": [
+        { "type": "email", "q": 2, "minWords": 140, "maxWords": 190,
+          "lead": "You have received this email from your English-speaking friend Jules.",
+          "stimulus": { "body": "From: Jules\nSubject: AI and homework\n\nSettle an argument for me. Half my class says using AI tools for homework is basically cheating; the other half uses them for everything and says I'm falling behind. You use this stuff sensibly, I think — where do you draw the line? What do you actually use AI for, and what would you never use it for?\nConfused,\nJules" },
+          "bullets": ["where you draw the line with AI and homework", "what you actually use AI for", "what you would never use it for, and why"],
+          "write": "Write your email." },
+        { "type": "article", "q": 3, "minWords": 140, "maxWords": 190,
+          "lead": "You see this announcement in an English-language magazine for young people.",
+          "stimulus": { "title": "A JOB MACHINES WILL NEVER DO", "body": "Every week we hear about another job that artificial intelligence might take over. But surely some jobs will always need a human being? Write an article about one job you believe machines will never truly do, explaining what makes it impossible to automate, and saying what this tells us about people." },
+          "bullets": ["one job machines will never truly do", "what makes it impossible to automate", "what this tells us about people"],
+          "write": "Write your article." },
+        { "type": "review", "q": 4, "minWords": 140, "maxWords": 190,
+          "lead": "You see this announcement on an English-language technology website.",
+          "stimulus": { "title": "AI apps — hype or help?", "body": "From photo editors to language tutors, apps powered by artificial intelligence promise to transform our lives. Write a review of one AI-powered app you have used, describing what it does well, being honest about its limits and mistakes, and saying whether it lives up to the hype." },
+          "bullets": ["what the app does well", "its limits and mistakes", "whether it lives up to the hype"],
+          "write": "Write your review." }
+      ]
+    }
+  ]
+}

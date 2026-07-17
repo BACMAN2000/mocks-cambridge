@@ -1,0 +1,34 @@
+{
+  "title": "B2 First — Writing (Practice 14)",
+  "durationMin": 80,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 140, "maxWords": 190,
+        "lead": "In your English class you have been talking about reading. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+        "stimulus": { "body": "\"Reading a printed book is better than reading on a screen. Do you agree?\"\n\nNotes\n\nWrite about:\n1. concentration\n2. cost\n3. ............... (your own idea)" },
+        "bullets": ["concentration", "cost", "your own idea", "give reasons for your point of view"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+      "tasks": [
+        { "type": "review", "q": 2, "minWords": 140, "maxWords": 190,
+          "lead": "You see this announcement in your school's English-language magazine.",
+          "stimulus": { "title": "The book you couldn't put down", "body": "We are looking for reviews of books that kept readers up past midnight! Write a review of a book you found impossible to put down, describing what it is about without spoiling the ending, explaining what made it so gripping, and saying who should read it next." },
+          "bullets": ["what the book is about (no spoilers!)", "what made it so gripping", "who should read it next"],
+          "write": "Write your review." },
+        { "type": "article", "q": 3, "minWords": 140, "maxWords": 190,
+          "lead": "You see this announcement on an English-language website for teenagers.",
+          "stimulus": { "title": "HOW I FIND TIME TO READ", "body": "Between school, sport and social media, who still has time for books? You do — and we want to know your secret. Write an article explaining when and where you manage to read, what almost stops you, and one trick that helps you read more." },
+          "bullets": ["when and where you manage to read", "what almost stops you", "one trick that helps you read more"],
+          "write": "Write your article." },
+        { "type": "report", "q": 4, "minWords": 140, "maxWords": 190,
+          "lead": "Your school librarian wants to encourage reading for pleasure and has asked you to write a report.",
+          "stimulus": { "title": "Report: reading for pleasure at our school", "body": "Describe how much students at your school read outside their studies, explain the main reasons many read so little, and suggest two ways the library could encourage reading for pleasure." },
+          "bullets": ["how much students read outside their studies", "why many read so little", "two ways the library could encourage reading"],
+          "write": "Write your report." }
+      ]
+    }
+  ]
+}

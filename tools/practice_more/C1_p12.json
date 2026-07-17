@@ -1,0 +1,192 @@
+{
+  "title": "C1 Advanced — Reading and Use of English (Practice 12)",
+  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The biographer's dilemma",
+      "body": "Biography has always (1)____ uneasily between history and literature, claiming the rigour of the one and the readability of the other. The biographer must (2)____ together a life from fragments — letters, diaries, the (3)____ recollections of ageing friends — and no matter how scrupulous the research, gaps (4)____ . The temptation to fill them with plausible invention can prove hard to (5)____ , for a life with holes in it makes an unsatisfying story. Readers, for their part, (6)____ little patience with uncertainty: they want verdicts, motives and turning points, not questions left (7)____ . The best biographies (8)____ this pressure, admitting frankly what cannot be known; the worst quietly convert speculation into fact, and are usually the more popular for it.",
+      "questions": [
+        { "options": ["stood", "lain", "rested", "sat"], "answer": 3 },
+        { "options": ["stick", "piece", "fix", "weld"], "answer": 1 },
+        { "options": ["misty", "cloudy", "hazy", "foggy"], "answer": 2 },
+        { "options": ["remain", "stay", "rest", "keep"], "answer": 0 },
+        { "options": ["defy", "resist", "oppose", "refuse"], "answer": 1 },
+        { "options": ["spare", "lend", "grant", "show"], "answer": 3 },
+        { "options": ["hanging", "floating", "drifting", "swinging"], "answer": 0 },
+        { "options": ["endure", "suffer", "withstand", "tolerate"], "answer": 2 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The authorised version",
+      "body": "Autobiography would seem to be the most reliable form of life-writing: who knows a life better (9)____ the person who lived it? Yet memoirs are, if (10)____ , less trustworthy than biographies written by strangers. Memory does not store the past; it reconstructs it, and every act of recollection quietly reshapes events in the light of (11)____ came after. We remember our younger selves as more consistent, more far-sighted and rather (12)____ likeable than the record suggests they actually were.\n\nNor is the distortion always innocent. A memoir is a public performance, and few performers can resist casting (13)____ in a flattering role. Even the confession of faults tends to be strategic: the writer owns (14)____ to small vices in order to seem honest about the large ones.\n\nNone of this means that such books are worthless — far (15)____ it. Read carefully, a memoir reveals a great deal, though less about what happened than about how its author wished, at the moment of writing, to be seen. In (16)____ words, the lies are data too.",
+      "questions": [
+        { "accept": ["than"] },
+        { "accept": ["anything"] },
+        { "accept": ["what", "whatever"] },
+        { "accept": ["more"] },
+        { "accept": ["themselves"] },
+        { "accept": ["up"] },
+        { "accept": ["from"] },
+        { "accept": ["other"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Lives on paper",
+      "rows": [
+        { "text": "Historians treat memoirs with a professional (17)____ that outsiders can mistake for cynicism.", "root": "TRUST" },
+        { "text": "Even entirely honest witnesses produce accounts riddled with (18)____ .", "root": "CONSIST" },
+        { "text": "All remembering is (19)____ , keeping what flatters and quietly discarding what does not.", "root": "SELECT" },
+        { "text": "Popular (20)____ about famous figures often prove impossible to dislodge, however clear the contrary evidence.", "root": "CONCEIVE" },
+        { "text": "Victorian biographers wrote lives of unbroken (21)____ , suppressing anything that might tarnish the subject.", "root": "HERO" },
+        { "text": "Appearances in such books are, therefore, frequently (22)____ .", "root": "DECEIVE" },
+        { "text": "A fair (23)____ of any life must include the failures as well as the triumphs.", "root": "PORTRAY" },
+        { "text": "The frontier between scholarship and (24)____ reconstruction is easier to cross than to defend.", "root": "IMAGINE" }
+      ],
+      "questions": [
+        { "root": "TRUST", "accept": ["distrust", "mistrust"] },
+        { "root": "CONSIST", "accept": ["inconsistencies", "inconsistency"] },
+        { "root": "SELECT", "accept": ["selective"] },
+        { "root": "CONCEIVE", "accept": ["misconceptions", "misconception"] },
+        { "root": "HERO", "accept": ["heroism"] },
+        { "root": "DECEIVE", "accept": ["deceptive"] },
+        { "root": "PORTRAY", "accept": ["portrayal"] },
+        { "root": "IMAGINE", "accept": ["imaginative"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+      "questions": [
+        {
+          "before": "The diaries were not discovered until long after her death.",
+          "keyword": "CAME",
+          "after": "It was long after her death that the diaries ___ .",
+          "accept": ["came to light", "finally came to light"]
+        },
+        {
+          "before": "The biographer could not possibly have known about the secret marriage.",
+          "keyword": "WAY",
+          "after": "There is ___ biographer could have known about the secret marriage.",
+          "accept": ["no way the", "no way that the", "no way in which the"]
+        },
+        {
+          "before": "He destroyed the letters so that nobody would ever read them.",
+          "keyword": "PREVENT",
+          "after": "He destroyed the letters to ___ ever reading them.",
+          "accept": ["prevent anyone from", "prevent anybody from", "prevent people from"]
+        },
+        {
+          "before": "It is widely believed that the poet wrote the memoir himself.",
+          "keyword": "HAVE",
+          "after": "The poet is widely believed ___ the memoir himself.",
+          "accept": ["to have written"]
+        },
+        {
+          "before": "She refused to discuss her childhood, however hard interviewers pressed her.",
+          "keyword": "MATTER",
+          "after": "She refused to discuss her childhood, ___ hard interviewers pressed her.",
+          "accept": ["no matter how"]
+        },
+        {
+          "before": "Publication of the letters was delayed because the family objected.",
+          "keyword": "OWING",
+          "after": "Publication of the letters was delayed ___ from the family.",
+          "accept": ["owing to objections", "owing to the objections", "owing to an objection"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The shape of a life\n\nEvery biography, whatever its subject, tells the same story. A child displays early signs of the gift that will define them; obstacles arise and are overcome; a turning point arrives, recognised in a chapter title if not by the protagonist; there follows the great work, the reckoning, the late reflections. The material differs, the shape does not — and the shape, it must be said plainly, is a fiction. Nobody lives a life with a plot. Lives are lived forwards, in fog, one contingent day at a time, and the orderly arc from promise to fulfilment is something imposed afterwards, by a writer who knows the ending and cannot resist letting that knowledge organise everything that came before.\n\nA French sociologist once called this the 'biographical illusion', and its workings are easy to observe. Consider what hindsight does to luck. The subject happens to share a train carriage with a future collaborator; a manuscript happens to land on the one editor eccentric enough to want it. Lived forwards, these are lottery tickets. Narrated backwards, they become destiny: the meeting is 'fateful', the rejections that preceded acceptance become a 'test of resolve', and a career that might, with one missed train, have been a footnote is presented as the unfolding of an essence visible from the nursery. The biographer rarely lies about any single fact. The falsehood is structural: it lies in the connective tissue, in every 'therefore' and 'inevitably' smuggled in where an honest account would say 'and then, as it happened'.\n\nWhy does the arc survive, when every practitioner half-knows it is false? Partly because readers demand it. We do not, in truth, open biographies to encounter contingency; we open them for consolation, for evidence that lives add up, that suffering is preparation and detours are secretly the road. A biography faithful to the fog — a life presented as the chaos it felt like to live — would be not merely unmarketable but almost unreadable, for narrative is how human beings digest time, and a story without shape is not a story at all. The biographer is thus in the position of a mapmaker commissioned by travellers who insist that the country be drawn simpler than it is, because they intend to navigate their own lives by it.\n\nThere is also a subtler pressure, seldom acknowledged: the subject has usually been shaping the arc in advance. People of consequence tend to be people who curated their own archives — who kept the letters that flattered them, burned the ones that did not, and gave interviews in which the legend was polished long before any biographer arrived. The life comes pre-narrated. Writing against that grain requires treating one's own subject as a hostile witness, and biographers, who must live for years in intimate daily contact with their subjects' voices, are rarely able to sustain the necessary coldness. Suspicion softens into sympathy; sympathy is audible on every page.\n\nIt does not follow that biography is worthless — only that we persistently misclassify it. A good biography is not a record of a life; it is a portrait, and like all portraits it is an argument: a claim about which of the countless possible arrangements of the evidence is most illuminating, made by a particular writer from a particular angle at a particular distance. Portraits can be honest, penetrating, even true, in the way a caricature can catch a face better than a passport photograph. What they cannot be is neutral, and the reader who forgets this — who takes the arc for the life — is not reading a biography. They are being read to, and comforted, and they should at least know it.\n\nThe test of a biography, then, is not whether it has escaped shaping, which is impossible, but whether it lets the seams show: whether the 'perhaps' and 'we cannot know' survive into the finished prose, whether luck is allowed to remain luck. Such books sell less well. They are the only ones that deserve the name of history.",
+      "questions": [
+        { "stem": "What is the writer's central claim in the first paragraph?", "options": ["The narrative arc found in biographies is imposed afterwards rather than present in lives.", "Most biographies are careless about factual accuracy.", "Biographers should concentrate on their subjects' childhoods.", "The lives of famous people genuinely follow a common pattern."], "answer": 0 },
+        { "stem": "According to the second paragraph, where does the falsehood of biography chiefly lie?", "options": ["In the invention of meetings that never occurred.", "In the suppression of the subject's failures.", "In the connections implied between events rather than in the events themselves.", "In the exaggeration of the subject's talents."], "answer": 2 },
+        { "stem": "Why, according to the writer, do readers prefer the traditional arc?", "options": ["It makes biographies shorter and easier to finish.", "It reassures them that lives are meaningful and that suffering has a purpose.", "It allows them to compare different subjects easily.", "It reflects the way most people actually experience their lives."], "answer": 1 },
+        { "stem": "What 'subtler pressure' on biographers does the fourth paragraph describe?", "options": ["Publishers demand sympathetic treatments of popular figures.", "Living relatives threaten legal action over unwelcome disclosures.", "Biographers lack access to private archives.", "Subjects have often curated the evidence and shaped their own legend in advance."], "answer": 3 },
+        { "stem": "What does the writer mean by calling a good biography a 'portrait'?", "options": ["It is an argued interpretation from a particular angle, not a neutral record.", "It should focus on the subject's physical appearance.", "It must be produced with the subject's cooperation.", "It is necessarily less truthful than a photograph."], "answer": 0 },
+        { "stem": "By what standard does the final paragraph judge biographies?", "options": ["Their commercial success with general readers.", "The completeness of their documentation.", "Their willingness to leave uncertainty and luck visible in the text.", "The elegance and polish of their prose."], "answer": 2 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "Read four short opinion pieces (A–D) on the same topic: whether biographers are entitled to reveal what their subjects wished to keep private. Then answer the questions.",
+      "sources": [
+        { "label": "A", "text": "The dead have no secrets, because they have no interests; harm requires someone to be harmed, and the grave is beyond embarrassment. What the dead leave behind is evidence, and evidence belongs to history. Every concession we make to posthumous 'privacy' is a concession to the airbrush: the Victorian widow burning her husband's letters was not protecting a person, she was falsifying the record for those of us who would come after. I would go further — the suppressed material is usually the load-bearing part of the truth. A life with the shameful chapters removed is not a discreet version of the same life; it is a different life, and a lie. Our duty of candour is owed to the living reader, not to the sensibilities of the deceased." },
+        { "label": "B", "text": "It is glibly said that revelation cannot hurt the dead, as though a life's secrets conveniently expired with their keeper. But secrets are rarely sole property. The affair exposed in chapter nine had a second participant, perhaps still alive; the children who learn from a bestseller what their mother chose never to tell them are not characters in history — they are people at breakfast. Nor do I accept that a promise loses its force at the graveside: many subjects confided in friends, doctors and lovers precisely on the understanding of permanent silence, and the biographer who mines those confidences is spending trust that was never theirs. Disclosure needs a justification in each case, and 'the public was curious' has never been one." },
+        { "label": "C", "text": "Both the absolutists and the guardians of discretion seem to me to miss the operative question, which is one of relevance. Where the concealed matter shaped the public work — the poet's addiction that is audible in every late poem, the statesman's illness concealed while he signed treaties — disclosure is not a violation but an explanation, and suppressing it would falsify exactly what the reader has a right to understand. But where the secret shaped nothing beyond the subject's own heart, printing it is not scholarship; it is rummaging. The test I propose is uncomfortable only because it requires judgement in every instance: does this fact illuminate the achievement, or merely undress the achiever? One earns its place in the book. The other earns its place in the gossip column, whatever the footnotes claim." },
+        { "label": "D", "text": "I notice that we conduct this entire debate as though biographers were disinterested tribunals weighing the subject's rights against the public's, when they are in fact parties to the case. Revelation is a commercial product: the secret chapter is the serialised chapter, the one that buys the headlines and earns back the advance. Under those incentives, high talk of the historical record is largely rationalisation after the fact — the scandal was going in regardless. I do not conclude that exposure is always wrong; I conclude that the exposer's reasoning deserves the same scepticism we would apply to any interested witness. Show me a biographer who reveals a secret that makes their book harder to sell, and I will believe the appeal to truth. I am still waiting for the example." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which writer holds that the dead can no longer be wronged by disclosure?", "answer": "A" },
+        { "stem": "Which writer proposes judging each revelation by its connection to the subject's public achievement?", "answer": "C" },
+        { "stem": "Which writer emphasises the effect of revelations on people other than the subject?", "answer": "B" },
+        { "stem": "Which writer redirects attention from the subject's rights to the financial motives of biographers?", "answer": "D" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+      "passage": "The unravelling of a legend\n\nWhen a publisher commissioned Marta Weiss to write the definitive life of the travel writer Julian Voss, she considered it the summit of her career. Voss's account of crossing the Andes alone in 1936, 'The Silver Passes', had enchanted her at fourteen and made her a biographer at thirty. (41)____\n\nThe trouble began, as such trouble usually does, with something trivial: a single date that refused to fit. (42)____\n\nAt first she assumed a slip of the famous memory, the kind of error any traveller might make years after the event. The records suggested something less forgivable. (43)____\n\nWeiss has described the weeks that followed as a kind of grief. The man whose voice had accompanied half her life had invented its central chapter, and every page of her admiration now required renegotiation. (44)____\n\nShe chose, in the end, to write the book the evidence demanded, expecting to be remembered as the woman who destroyed Julian Voss. The reception confounded her entirely. (45)____\n\nWeiss remains ambivalent about that verdict, and her final chapter declines to join the celebration. (46)____ It is a question, she notes drily, that biographers might ask of their own trade more often than they do.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Shipping manifests and a consulate ledger placed Voss in Lisbon for the entire season of the crossing; the mountains he described with such piercing exactness had been assembled from other men's journals, borrowed maps and sheer nerve.",
+          "Voss's own publishers had, it emerged, harboured doubts as early as the 1950s, but sales made scepticism inconvenient.",
+          "Her editor, to his credit, never wavered; the estate was another matter, threatening first litigation and then, more woundingly, an appeal to her lifelong devotion to the man.",
+          "If a lie can be written better than the truth, she asks there, and can move readers to cross real mountains, what exactly is it that we prize when we prize authenticity?",
+          "The archive, when it arrived from the estate, filled ninety boxes: passports, pressed flowers, five decades of correspondence, and the battered field notebooks she had waited twenty years to open.",
+          "Reviewers hailed the exposure as a masterpiece of detection; sales of 'The Silver Passes' tripled; and readers, far from feeling betrayed, seemed to find the fabricator more fascinating than the explorer had ever been.",
+          "A letter to his sister, cheerful and unmistakably dated, had been posted from a valley Voss could not have reached until a fortnight later — unless the celebrated itinerary was wrong.",
+          "Later biographers would face similar dilemmas with other subjects, though rarely with so much at stake."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing paragraph:", "answer": "E" },
+        { "stem": "Choose the missing paragraph:", "answer": "G" },
+        { "stem": "Choose the missing paragraph:", "answer": "A" },
+        { "stem": "Choose the missing paragraph:", "answer": "C" },
+        { "stem": "Choose the missing paragraph:", "answer": "F" },
+        { "stem": "Choose the missing paragraph:", "answer": "D" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 8",
+      "instructions": "You are going to read four short pieces (A–D) by people who write or preserve the stories of other people's lives. Answer the questions by choosing the appropriate person.",
+      "sources": [
+        { "label": "A", "text": "Ruth — obituary writer. People imagine my desk as a morbid place, but obituaries are the least deathly writing I know; they are about everything except the dying. The craft has one iron discipline: eight hundred words, no more, for an entire existence, which teaches you quickly that the art lies in what you leave out. I keep a file of the living — we all do, though we don't advertise it — and the strangest part of the job is interviewing someone about their own obituary without either of us naming what we are doing. What I have learned from four hundred lives is oddly cheering: the achievements people are remembered for are almost never the ones printed on their business cards. It is the kindness in the third paragraph that relatives ring up to thank you for." },
+        { "label": "B", "text": "Gerald — ghostwriter of celebrity memoirs. My name has appeared on none of the eleven bestsellers I have written, and the confidentiality clauses mean it never will, an arrangement I accepted with open eyes and still find, on bad days, quietly corrosive. The work itself is closer to acting than to writing: I spend months learning to breathe in someone else's rhythm until their sentences arrive unbidden. Here is the trade's secret: the version of events my clients give me is usually not the version their diaries support, and my real job is negotiating between the two — nudging the story as close to the truth as vanity will permit, then living with the distance that remains. I comfort myself that every memoir is a performance anyway. Mine are simply performed by two people, one of whom takes the bow." },
+        { "label": "C", "text": "Solveig — sound archivist on an oral history project. For nine years I have recorded the last speakers of vanishing trades and dialects — herring gutters, hill shepherds, a woman who could still sing rope-making songs no one else alive had heard. The recorder changes people; switch it on and they stand to attention, reciting the official version of their lives. The real material comes when they think we have finished — in the doorway, over the second cup of tea — so I have learned never to pack away the microphone first. What keeps me awake is not the technology, though the formats decay faster than the memories; it is triage. For every voice I record, three die unrecorded, and I am the one who chooses. Nobody trained me for that arithmetic, and no one could." },
+        { "label": "D", "text": "Anselm — biographer of a living politician. Writing the life of someone who can read your drafts is a contact sport, and I entered it naively. My subject granted me interviews, then attempted to grant me conclusions; charm alternated with lawyers' letters, roughly quarterly. The deeper difficulty is epistemological: a living subject is a moving target, revising their past in response to your questions, so that the act of research contaminates the evidence — I would put an episode to him one year and hear it retold, subtly improved, as settled memory the next. My rule, arrived at painfully, is to interview last, after the paper trail is closed, and to treat everything said to me as performance until a document agrees. He calls this hostile. I call it the only courtesy worth having: being taken seriously enough to be checked." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Ruth", "Gerald", "Solveig", "Anselm"] },
+      "questions": [
+        { "stem": "Which person must decide whose stories will be preserved at all?", "answer": "C" },
+        { "stem": "Which person finds that people are remembered for different things than their formal successes?", "answer": "A" },
+        { "stem": "Which person delays direct questioning until documentary research is complete?", "answer": "D" },
+        { "stem": "Which person compares their work to performing rather than writing?", "answer": "B" },
+        { "stem": "Which person conducts conversations whose true purpose is never openly acknowledged?", "answer": "A" },
+        { "stem": "Which person obtains their best material when subjects believe the work is over?", "answer": "C" },
+        { "stem": "Which person observes that their own research alters the testimony it gathers?", "answer": "D" },
+        { "stem": "Which person regards strict limits on length as the source of their craft?", "answer": "A" },
+        { "stem": "Which person accepts permanent anonymity as a condition of their work?", "answer": "B" },
+        { "stem": "Which person worries about the physical deterioration of their materials?", "answer": "C" }
+      ]
+    }
+  ]
+}

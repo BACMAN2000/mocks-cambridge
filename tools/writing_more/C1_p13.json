@@ -1,0 +1,34 @@
+{
+  "title": "C1 Advanced — Writing (Practice 13)",
+  "durationMin": 90,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 220, "maxWords": 260,
+        "lead": "Your class has attended a seminar about where a government's sports budget would be best spent. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would bring the greater benefit to the country, giving reasons to support your opinion.",
+        "stimulus": { "title": "Where would a government's sports budget be best spent?", "body": "• funding elite athletes to win international medals\n• building everyday facilities such as pools and pitches\n• improving physical education in schools\n\nSome opinions expressed in the seminar:\n\"One gold medal does more for national pride than a hundred new pitches.\"\n\"Medals inspire people for a week; a local pool changes their whole life.\"\n\"If children learn to hate sport at school, no stadium will win them back.\"" },
+        "bullets": ["discuss two of the ideas", "explain which would bring the greater benefit", "give reasons to support your opinion"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [
+        { "type": "report", "q": 2, "minWords": 220, "maxWords": 260,
+          "lead": "Your town council is deciding how to spend its sports budget and has asked residents' groups for reports on local facilities.",
+          "stimulus": { "title": "Report: sports facilities in the town", "body": "Write a report describing which sports facilities residents currently use and which they avoid, explaining the main reasons for their choices, and recommending where the council's money would make the biggest difference." },
+          "bullets": ["which facilities residents use and avoid", "the main reasons for their choices", "where the money would make the biggest difference"],
+          "write": "Write your report." },
+        { "type": "review", "q": 3, "minWords": 220, "maxWords": 260,
+          "lead": "An English-language sports website has invited reviews of sports documentaries.",
+          "stimulus": { "title": "Sports documentary reviews", "body": "Review a documentary about a sportsperson, team or sporting event. Describe the story it tells, assess whether it offers real insight or simply celebrates its subject, and say whether someone with no interest in sport would still enjoy it." },
+          "bullets": ["the story the documentary tells", "whether it offers real insight or just celebration", "whether non-sports fans would enjoy it"],
+          "write": "Write your review." },
+        { "type": "email", "q": 4, "minWords": 220, "maxWords": 260,
+          "lead": "You have received this email from your English-speaking friend Leo.",
+          "stimulus": { "body": "From: Leo\nSubject: Coming for the championships!\n\nGuess what - I've got tickets for the international championships being held in your country next year! I'll be there for a week, but I only have tickets for two days of events.\n\nWhat's the atmosphere likely to be like? How should I plan the days around the sport, and is there anything about how your country celebrates these occasions that I should know about before I arrive?\n\nLeo" },
+          "bullets": ["what the atmosphere will be like", "how Leo should plan the non-sport days", "what Leo should know about how your country celebrates"],
+          "write": "Write your email in reply." }
+      ]
+    }
+  ]
+}

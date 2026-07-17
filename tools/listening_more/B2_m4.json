@@ -1,0 +1,344 @@
+{
+ "label": "B2 — Upper-Intermediate",
+ "cefr": "Cambridge First (FCE) · B2 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+ "audios": [
+  {
+   "id": "B2-P1",
+   "title": "Part 1 · Questions 1–8",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A posting south",
+    "A shipping deadline",
+    "A safety briefing",
+    "Looking back",
+    "Two vacancies",
+    "An announcement",
+    "A research delay",
+    "At an exhibition"
+   ],
+   "scripts": [
+    "Question one. Woman: So you got the Antarctic posting! Six months on the ice. Aren't you dreading the endless darkness? Man: Funnily enough, that's what everyone assumes, and it doesn't worry me in the slightest, I've always been a night owl. Nor is it the cold, you're better dressed there than anywhere. If I'm honest, what gnaws at me is missing half a year of my daughter growing up. The rest of it, I genuinely can't wait for.",
+    "Question two. Man: Hello, it's Jack from Southern Logistics, about the scientific equipment for the research station. Woman: Is there a problem with the invoice? I thought we'd settled all that. Man: The paperwork's fine, and so is the packing. My concern is timing. The supply ship sails on Friday, and it's the last one of the season. If those crates aren't at the dock by Thursday evening, they'll be sitting in a warehouse until spring. Woman: Understood. I'll get them to you Wednesday, to be safe.",
+    "Question three. Coach: Before you go out on the ice today, one warning that surprises every new arrival. You're all wrapped up against the cold, and quite right too. But the injury we treat most often here isn't frostbite. In air this dry, you can become dangerously dehydrated without ever feeling thirsty. So the rule is: drink water at every stop, whether you want it or not.",
+    "Question four. Man: You wintered at the station a few years back, didn't you? What was the hardest part, being so cut off? Woman: That's what I braced myself for, and oddly, the isolation never really bit, we were a good crew. What nearly drove me mad was something nobody had mentioned: the generators. That mechanical hum, day and night, for eight months. On my first morning home, the silence felt deafening.",
+    "Question five. Woman: They're advertising two jobs at the station: chef and maintenance engineer. You've got the qualifications for either. Man: I know, and the engineer's salary is certainly tempting, quite a bit more. But I've been reading crew diaries, and it's striking how often they say the same thing: a good cook holds the whole station together through the winter. I'd rather be the person keeping everyone's spirits up. I'm sending the chef application tonight.",
+    "Question six. Woman: A short announcement for schools registered for tomorrow's live video link with the leader of the Halley research station. Owing to a fault with the station's satellite connection, the event cannot take place as planned. It has not been cancelled, we're working with the station to agree a new date, which we'll email to you. A recording will also be made available for any school that can't join live.",
+    "Question seven. Woman: Your penguin study was supposed to finish this season. What's holding it up? Man: Everyone assumes it's the weather, but conditions have actually been kind this year, and the funding is secure through next season, thankfully. The real trouble is the birds themselves. The entire colony has shifted twelve kilometres along the coast, so all our monitoring cameras are now filming empty rocks. We have to relocate every piece of equipment before we can gather any more data.",
+    "Question eight. Man: One ticket for the polar exhibition, please. And could I join the two o'clock guided tour? I've heard the guide's an ex-expedition member. Assistant: She is, and I'm afraid that's exactly why today's tour filled up weeks ago. I can offer you the audio guide, or there's space on Thursday's tour. Man: I fly home tomorrow, unfortunately. I'll take the headset, then, better than missing the stories altogether."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What concerns the man about his Antarctic posting?",
+     "o": [
+      "The months of darkness",
+      "Being away from his family",
+      "The extreme cold"
+     ],
+     "c": 1,
+     "audio": "M4/B2/B2-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why is Jack calling the research organisation?",
+     "o": [
+      "To question an invoice",
+      "To report damaged packing",
+      "To insist on a delivery deadline"
+     ],
+     "c": 2,
+     "audio": "M4/B2/B2-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the instructor warn new arrivals about?",
+     "o": [
+      "The risk of frostbite",
+      "The risk of dehydration",
+      "The risk of getting lost"
+     ],
+     "c": 1,
+     "audio": "M4/B2/B2-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the woman find hardest about her time at the station?",
+     "o": [
+      "The constant noise of machinery",
+      "Feeling cut off from home",
+      "Getting on with the crew"
+     ],
+     "c": 0,
+     "audio": "M4/B2/B2-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why will the man apply for the chef's job?",
+     "o": [
+      "It is better paid",
+      "He wants to support the crew's morale",
+      "He is not qualified for the other job"
+     ],
+     "c": 1,
+     "audio": "M4/B2/B2-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is happening to the video link event?",
+     "o": [
+      "It has been cancelled completely",
+      "It will be rearranged for another date",
+      "It will go ahead as recording only"
+     ],
+     "c": 1,
+     "audio": "M4/B2/B2-P1-q6.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why is the penguin study delayed?",
+     "o": [
+      "The colony has moved",
+      "The weather has been severe",
+      "The funding has run out"
+     ],
+     "c": 0,
+     "audio": "M4/B2/B2-P1-q7.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What will the man do at the exhibition?",
+     "o": [
+      "Join the two o'clock tour",
+      "Come back on Thursday",
+      "Use the audio guide"
+     ],
+     "c": 2,
+     "audio": "M4/B2/B2-P1-q8.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B2-P2",
+   "title": "Part 2 · Questions 9–18",
+   "kind": "file",
+   "file": "M4/B2/B2-P2.mp3",
+   "intro": "You will hear a man called Noah talking about the year he spent working at an Antarctic research station. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Good evening. My name's Noah, and two years ago I did something I'd dreamed about since I was a boy: I spent a full year at an Antarctic research station. Let me try to give you a picture of that life. First, the numbers. In summer the station is a busy little town, over eighty scientists and support staff coming and going. But when the last plane leaves in March, everything changes. Through the winter months, just twenty-four people remain, and those are the people you eat with, work with and argue with until the sun returns. People assume everyone down there is a scientist. Not so, a station is like a village, and it needs all trades. I wasn't there to study ice cores or penguins. I was the station's electrician, responsible for keeping the power flowing in a place where a blackout isn't an inconvenience, it's an emergency. Getting there was an adventure in itself. Most people picture flying in, and some staff do. But the heavy cargo and most of the winter crew travel by ship, and so did I. The journey took nine days, and I was seasick for the first three, across the roughest stretch of ocean on the planet. I'll never forget my first sight of the ice cliffs. About the cold, everyone asks. In midsummer, oddly, it can feel almost pleasant, I've had colder days skiing in Europe. But in the depths of winter the temperature at our station fell to minus forty degrees. At that point, exposed skin freezes in minutes, and even breathing feels different. Indoors, though, life was surprisingly comfortable. And here's a detail that always surprises people: we had fresh salad all winter. In a heated container full of purple light, we grew lettuce without any soil at all, along with herbs and the occasional radish. After months of tinned and frozen food, believe me, a bowl of fresh green leaves feels like a miracle. My duties were mostly routine maintenance, but I volunteered for one task I came to love. Every morning at exactly the same time, whatever the weather, I helped release the weather balloon, a huge white sphere that rises thirty kilometres and radios back its measurements. There's something magical about letting it go and watching it vanish into that enormous sky. Contact with home was precious. There was no mobile signal, of course, and the internet was too slow for video. I called my family on the satellite phone once a week, on Sunday evenings, twenty minutes that I planned like a military operation. The strangest celebration of the year came in June. Midwinter is the great Antarctic festival, the halfway point of the dark season, celebrated with a special dinner that the whole crew spends days preparing, gifts made by hand in the workshop, and messages from stations all over the continent. It meant more to me than any Christmas. People ask what I brought back from that year. Patience, certainly, and a smaller opinion of my own problems. But my practical advice for anyone going south is this: keep a diary. Write every day, even when nothing happens. A year of small details fades faster than you think, and mine is now the most precious thing I own. Thank you."
+   ],
+   "gapTitle": "A Year on the Ice — Noah's Story",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Number of people at the station in winter: ____",
+     "accept": [
+      "24",
+      "twenty-four",
+      "twenty four"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Noah's job at the station: ____",
+     "accept": [
+      "electrician"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Noah travelled to Antarctica by: ____",
+     "accept": [
+      "ship",
+      "boat"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The journey took ____ days",
+     "accept": [
+      "9",
+      "nine"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "In winter the temperature fell to minus ____ degrees",
+     "accept": [
+      "40",
+      "forty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "In a heated container they grew: ____",
+     "accept": [
+      "lettuce",
+      "salad"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Every morning he helped release a weather: ____",
+     "accept": [
+      "balloon"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "He phoned his family once a: ____",
+     "accept": [
+      "week"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Midwinter was celebrated with a special: ____",
+     "accept": [
+      "dinner",
+      "meal"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "His advice: keep a ____",
+     "accept": [
+      "diary",
+      "journal"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2-P3",
+   "title": "Part 3 · Questions 19–23",
+   "kind": "file",
+   "file": "M4/B2/B2-P3.mp3",
+   "intro": "You will hear five people who have worked in Antarctica talking about what they found most challenging. For each speaker, choose from the list (A–H) the challenge they mention. Use each letter once. There are three extra letters you will not need.",
+   "bank": [
+    "the lack of privacy",
+    "the constant summer daylight",
+    "limited contact with home",
+    "the physical demands of the work",
+    "adjusting to life afterwards",
+    "the strict daily routines",
+    "the absence of fresh food",
+    "the never-ending wind"
+   ],
+   "scripts": [
+    "Speaker one. Man: People warned me about the weather, and yes, the wind screams for days on end, but you adapt to that surprisingly fast. What I never adapted to was this: in fourteen months, I was never once truly alone. You eat together, work together, watch films together, and the walls between the sleeping cabins are like paper. I used to volunteer for jobs in the storage huts just to have a room to myself for an hour. That, nobody prepares you for. Speaker two. Woman: My tour was in summer, which everyone imagines is the easy season. In some ways it is, but there's a catch nobody takes seriously until they live it: the sun simply never goes down. Ever. You come off a night shift into blazing sunshine, your body has no idea what time it is, and the blackout blinds never quite work. By week six I was sleeping three broken hours a night and crying over misplaced paperwork. It sounds like a small thing. It isn't. Speaker three. Man: The year itself I coped with better than I'd feared, the routines, the food, even the dark. The part no one briefs you on comes later, when you step off the ship. A week after fourteen months on the ice, I stood in a supermarket and couldn't move, forty kinds of breakfast cereal, music playing, strangers everywhere. I had to walk out. It took me months to feel normal in a crowd again, and some of the old hands say it never fully goes. Speaker four. Woman: It sounds trivial next to the dangers people imagine, but ask anyone who's wintered: by August, the whole station is dreaming about crunchy things. Apples. Salad. A tomato that isn't from a tin. The cooks work wonders with what's in the stores, truly, but there's a sad week in autumn when the last of the real fruit runs out, and after that, everything is dried, tinned or frozen. The first apple I ate back home, I actually photographed. Speaker five. Man: What wore me down wasn't dramatic at all. It was the timetable. Meals at fixed hours, radio checks at fixed hours, water rationing, even the showers scheduled, three minutes, twice a week. Every hour of every day accounted for. I understand why, in that environment, order keeps people alive. But I'm someone who's freelanced my whole life, and by the end I felt like a piece of clockwork. The first thing I did back home was eat dinner at midnight, just because I could."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Speaker 1",
+     "c": "the lack of privacy"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 2",
+     "c": "the constant summer daylight"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 3",
+     "c": "adjusting to life afterwards"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 4",
+     "c": "the absence of fresh food"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 5",
+     "c": "the strict daily routines"
+    }
+   ]
+  },
+  {
+   "id": "B2-P4",
+   "title": "Part 4 · Questions 24–30",
+   "kind": "file",
+   "file": "M4/B2/B2-P4.mp3",
+   "intro": "You will hear an interview with a woman called Helena, who has led an Antarctic research station. For each question, choose the best answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Helena, you've led a research station through two Antarctic winters. Let's start with selection. When you choose a winter crew, what do you look for? Helena: Not what people expect. Applicants arrive with spectacular qualifications, glaciology prizes, mountain rescue medals, and of course competence matters. But I've seen brilliant scientists fall apart in July, and I've seen an unassuming plumber quietly hold a station together. What I actually select for is how people behave when they're tired, irritated and stuck in a small room with someone they disagree with. Whether a group can live together decides the winter, the science follows from that. Interviewer: How has leading in that environment changed you as a leader? Helena: Profoundly. My first winter, I tried to be everywhere, solve everything, sit in on every decision. By June I was exhausted and, worse, the crew had stopped solving problems themselves, they just brought everything to my door. The second winter I forced myself to step back and let the team own their areas, even when I'd have done things differently. It felt like losing control. It was actually the moment the station started running properly. Interviewer: Conflict must be inevitable, twenty people, one building, months of darkness. How do you handle it? Helena: The instinct is to let small things slide, someone's always late for their shift, someone never washes their mug, it seems petty to mention it. That instinct is dead wrong down south. In winter, a mug becomes a feud by August. So my rule is the opposite of diplomatic silence: name the small irritation in the open, this week, while it's still small. Our Sunday meetings can sound absurd, ten minutes on dishwashing rotas, but those ten minutes are the station's safety valve. Interviewer: You also give public talks about the science. What have you learned about communicating it? Helena: Something that frustrated me for years, if I'm honest. We measure things that matter enormously, atmospheric carbon, the flow of glaciers, and audiences' eyes glaze over. Then someone asks about the penguins, and the room lights up. I used to resent that. Now I use it: the wildlife is the doorway, people fall for the penguins, and once they care about the place, they'll listen to ten minutes of ice data. You reach the head through the heart. Interviewer: What do people most misunderstand about Antarctic life? Helena: They think it's a survival story, that we're heroes in blizzards, wrestling danger daily. The truth would disappoint any filmmaker: a well-run station is almost aggressively uneventful. Checklists, maintenance, careful meals, early nights. The drama people imagine is precisely what good planning exists to prevent. If my winter is boring, I've done my job. Interviewer: The stations now have reasonable internet. You've seen before and after, has it improved life? Helena: Honestly, it's a genuine trade-off, and I'd resist anyone who calls it simple progress. The gains are real, a crew member can see their newborn nephew, and that can rescue a person's whole winter. But something has quietly died too. The old station evenings, music, cards, long ridiculous debates, have given way to twenty closed doors and twenty glowing screens. We now schedule screen-free evenings, which feels absurd, engineering the very community that isolation used to create automatically. Interviewer: And what's your next project? Helena: The one I care most about: getting stations off diesel. Every litre we burn arrives by ship at huge cost and risk, which is absurd in the windiest place on Earth. We're installing a new generation of turbines built for extreme cold, and my ambition is a station that runs mainly on wind before I retire. Interviewer: Helena, thank you very much."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What does Helena consider most important when selecting a winter crew?",
+     "o": [
+      "Scientific qualifications",
+      "How people behave under strain",
+      "Previous polar experience"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What did Helena learn from her first winter as leader?",
+     "o": [
+      "To involve herself in every decision",
+      "To let the team take more responsibility",
+      "To spend more time on the science"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How does Helena deal with conflict at the station?",
+     "o": [
+      "She discusses small problems early",
+      "She waits for problems to pass",
+      "She separates the people involved"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How does Helena now feel about the public's interest in wildlife?",
+     "o": [
+      "She finds it a useful way in",
+      "She still finds it annoying",
+      "She thinks it distracts from science"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "According to Helena, what do people misunderstand about station life?",
+     "o": [
+      "They think it is dangerous and dramatic",
+      "They think the work is easy",
+      "They think the crews are too large"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What is Helena's view of internet access at the stations?",
+     "o": [
+      "It has clearly improved life",
+      "It has brought both benefits and losses",
+      "It should be removed in winter"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Helena's next project?",
+     "o": [
+      "Building a larger station",
+      "Powering stations with wind",
+      "Improving the satellite connection"
+     ],
+     "c": 1
+    }
+   ]
+  }
+ ]
+}

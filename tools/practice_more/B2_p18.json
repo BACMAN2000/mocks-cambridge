@@ -1,0 +1,189 @@
+{
+  "title": "B2 First — Reading and Use of English (Practice 18)",
+  "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "Made by hand",
+      "body": "In an age of mass production, it is easy to assume that traditional crafts are doomed to die (1)____. Yet in recent years, handmade goods have enjoyed a remarkable (2)____ in popularity. Customers, it seems, are increasingly willing to pay a premium for objects that (3)____ the marks of an individual maker: the slight unevenness of a hand-thrown bowl, the visible stitching on a leather bag. Part of the appeal lies in the story, for knowing who made a thing, and how, (4)____ it a value that no factory can copy. Social media has played an unexpected (5)____ in the revival, allowing craftspeople in remote workshops to reach customers on the other side of the world directly. Even so, making a living from craft remains (6)____ from easy. Cheap imitations flood the market within weeks of any successful design, and genuine makers must fight to (7)____ out from the crowd. What keeps them going, many say, is the deep (8)____ that comes from watching an object take shape under their own hands — a reward that no salary, however generous, can quite provide.",
+      "questions": [
+        { "options": ["off", "out", "down", "away"], "answer": 1 },
+        { "options": ["flood", "wave", "surge", "stream"], "answer": 2 },
+        { "options": ["bear", "carry", "hold", "wear"], "answer": 0 },
+        { "options": ["adds", "brings", "offers", "lends"], "answer": 3 },
+        { "options": ["piece", "act", "part", "share"], "answer": 2 },
+        { "options": ["far", "away", "apart", "aside"], "answer": 0 },
+        { "options": ["step", "look", "come", "stand"], "answer": 3 },
+        { "options": ["comfort", "satisfaction", "entertainment", "amusement"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "Learning at the workbench",
+      "body": "For centuries, the normal way to learn a trade was not in a classroom but at a workbench, (9)____ a young apprentice spent years under the eye of a master. The system was often harsh, but it passed skills from hand to hand in a way (10)____ no book could ever match. Much of what a craftsman knows can hardly be put (11)____ words at all: the exact feel of properly prepared clay, or the sound a plane makes (12)____ the blade is set correctly. Such knowledge can only be absorbed by watching and copying, failing and trying (13)____. In many countries, apprenticeships fell out of fashion as universities expanded, and centuries-old workshops closed for lack of anyone to take (14)____ the business. Recently, however, governments have begun to change course, having noticed that skilled plumbers and stonemasons are now harder to find (15)____ graduates in many subjects — and frequently better paid. The workbench, it (16)____, still has lessons to teach.",
+      "questions": [
+        { "accept": ["where"] },
+        { "accept": ["that", "which"] },
+        { "accept": ["into", "in"] },
+        { "accept": ["when", "once", "if"] },
+        { "accept": ["again"] },
+        { "accept": ["over", "on"] },
+        { "accept": ["than"] },
+        { "accept": ["seems", "appears"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "A future made by hand",
+      "rows": [
+        { "text": "Automation has removed much of the (17)____ for", "root": "REQUIRE" },
+        { "text": "human hands in modern factories." },
+        { "text": "" },
+        { "text": "Yet handmade objects have never lost their" },
+        { "text": "(18)____ for buyers seeking something unique.", "root": "ATTRACT" },
+        { "text": "" },
+        { "text": "A machine can copy a design with perfect" },
+        { "text": "(19)____, thousands of times an hour.", "root": "PRECISE" },
+        { "text": "" },
+        { "text": "What it cannot copy is the tiny (20)____ that", "root": "PERFECT" },
+        { "text": "marks an object as made by a person." },
+        { "text": "" },
+        { "text": "Ironically, such 'flaws' have become a highly" },
+        { "text": "(21)____ feature of luxury goods.", "root": "DESIRE" },
+        { "text": "" },
+        { "text": "Young people show a new (22)____ to spend", "root": "WILLING" },
+        { "text": "years slowly mastering a trade." },
+        { "text": "" },
+        { "text": "Some leave office careers for workshops, trading" },
+        { "text": "salary for a sense of (23)____.", "root": "ACHIEVE" },
+        { "text": "" },
+        { "text": "In a digital age, the ability to shape real things" },
+        { "text": "may prove (24)____ precious.", "root": "INCREASE" }
+      ],
+      "questions": [
+        { "root": "REQUIRE", "accept": ["requirement"] },
+        { "root": "ATTRACT", "accept": ["attraction", "attractiveness"] },
+        { "root": "PRECISE", "accept": ["precision"] },
+        { "root": "PERFECT", "accept": ["imperfection", "imperfections"] },
+        { "root": "DESIRE", "accept": ["desirable"] },
+        { "root": "WILLING", "accept": ["willingness"] },
+        { "root": "ACHIEVE", "accept": ["achievement"] },
+        { "root": "INCREASE", "accept": ["increasingly"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+      "questions": [
+        {
+          "before": "A local carpenter is repairing our roof at the moment.",
+          "keyword": "HAVING",
+          "after": "We ___ by a local carpenter at the moment.",
+          "accept": ["are having our roof repaired", "are having the roof repaired"]
+        },
+        {
+          "before": "\"I'll finish the chair by Friday, I promise,\" said the carpenter.",
+          "keyword": "PROMISED",
+          "after": "The carpenter ___ the chair by Friday.",
+          "accept": ["promised to finish"]
+        },
+        {
+          "before": "Nobody has used this loom for fifty years.",
+          "keyword": "BEEN",
+          "after": "This loom ___ for fifty years.",
+          "accept": ["has not been used", "hasn't been used"]
+        },
+        {
+          "before": "Machine-made copies are much cheaper than handmade originals.",
+          "keyword": "NEARLY",
+          "after": "Handmade originals are not ___ machine-made copies.",
+          "accept": ["nearly as cheap as"]
+        },
+        {
+          "before": "She became a potter because she hated office work.",
+          "keyword": "UP",
+          "after": "She ___ because she hated office work.",
+          "accept": ["took up pottery"]
+        },
+        {
+          "before": "Mastering this craft took me ten years.",
+          "keyword": "IT",
+          "after": "___ ten years to master this craft.",
+          "accept": ["it took me"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "Why we still want things made by people\n\nJudged by any rational measure, the handmade object should be extinct. A machine can produce a more regular bowl, a stronger chair and a more precise watch than any human, at a fraction of the cost and in a fraction of the time. And yet, at the very moment automation has perfected the copy, demand for the imperfect original is climbing. Craft fairs multiply, waiting lists for hand-forged knives stretch into years, and 'handmade' has become one of the most valuable words in retail. The paradox deserves an explanation.\n\nThe first part of the answer is that buyers of handmade goods are not really buying superior function. They are buying embodied time — the knowledge that a person spent hours on this one thing — and with it a story that can be told and retold: who made it, where, how, with what. A factory bowl does its job silently; a hand-thrown bowl arrives with a biography attached. In an economy where almost everything is anonymous, the object with a maker has become the rarity, and rarity has always commanded a price.\n\nPsychologists have tested how deep this preference runs, and the results are striking. In experiments, people presented with identical objects — the same scarf, the same bar of chocolate — consistently rated the one labelled 'handmade' as more beautiful, more valuable, and even better-tasting than its supposedly machine-made twin. The label alone changed the experience. We do not merely prefer handmade things; we perceive them differently, seasoning them, as one researcher put it, with the thought of the hands involved.\n\nThere is also a quieter, more practical dimension. Objects made by craftspeople are typically made to be mended: the chair can be re-glued, the knife re-ground, the coat re-lined, often by the very person who made them. Much of modern production, by contrast, is deliberately sealed, glued and priced so that repair is impossible or pointless, and the broken object goes to landfill. Choosing craft, for a growing number of buyers, is less about nostalgia than about refusing disposability — buying one good thing slowly instead of ten poor things quickly.\n\nSuccess, of course, has attracted imitators of a special kind. Marketers have learned the market value of the word 'handmade' and apply it with increasing creativity to products that machines made from start to finish, adding a printed signature here and an artfully rustic label there. The practice — call it craftwashing — borrows the story without the labour, and it flourishes precisely because the story is what customers are paying for. Genuine makers, who cannot compete on price, find themselves competing instead on proof, opening their workshops to visitors and filming their processes simply to demonstrate that the hands in the story exist.\n\nNone of this will make the handmade object common again; the economics forbid it. But its survival no longer seems in doubt, and the reason is worth stating plainly. The machine answers our need for objects. The handmade object answers a different need — for connection, for permanence, for evidence of one another — and that need, unlike a bowl or a chair, cannot be manufactured.",
+      "questions": [
+        { "stem": "What paradox does the writer present in the first paragraph?", "options": ["Although machines make better and cheaper objects, demand for handmade ones is growing.", "Although handmade objects are stronger, nobody buys them.", "Machines have become slower than human makers.", "Craft fairs are disappearing despite high demand."], "answer": 0 },
+        { "stem": "According to the second paragraph, what are buyers of handmade goods really paying for?", "options": ["Superior function and regularity.", "The embodied time and story of a human maker.", "Cheaper long-term costs.", "Anonymous, silent objects."], "answer": 1 },
+        { "stem": "What did the experiments with identical objects show?", "options": ["That people can always detect machine-made goods.", "That labels have no effect on perception.", "That chocolate tastes the same whatever people are told.", "That the word 'handmade' alone made people rate objects as better."], "answer": 3 },
+        { "stem": "What point does the writer make about repair?", "options": ["Modern factories repair products free of charge.", "Repairing craft objects costs more than replacing them.", "Craft objects are typically made to be mended, unlike much modern production.", "Landfills mostly contain handmade goods."], "answer": 2 },
+        { "stem": "What is 'craftwashing', as described in the passage?", "options": ["Marketing machine-made products as if they were handmade.", "Cleaning workshops before visitors arrive.", "A traditional technique for finishing wood.", "Filming craftspeople at work."], "answer": 0 },
+        { "stem": "Which statement best reflects the writer's conclusion?", "options": ["Handmade objects will soon replace mass production.", "The need answered by handmade objects will disappear with time.", "The handmade object survives because it meets a human need that cannot be manufactured.", "Machines will eventually learn to tell stories too."], "answer": 2 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+      "passage": "The cathedral's stone doctors\n\nHigh above the city, on scaffolding that tourists rarely notice, a team of masons is carving replacements for stones first shaped eight centuries ago. (37)____ Their workshop has existed, in one form or another, since the first tower rose.\n\nThe masons work much as their predecessors did. (38)____ Templates are still cut from thin boards, measurements are still taken with callipers, and each mason still carves a personal mark into the hidden face of every finished stone.\n\nRecruitment, once the workshop's greatest worry, has taken a surprising turn. (39)____ The master mason says he no longer needs to advertise at all; the difficulty now is choosing.\n\nTraining, though, cannot be hurried, whatever the applicants' enthusiasm. (40)____ The stone is unforgiving, and a single careless blow near the end can waste a month of work.\n\nThe question of machines is asked constantly, usually by visitors. Computer-guided cutters could copy a damaged gargoyle in a matter of days. (41)____ A scanned copy, the master argues, repeats the old stone's shape but none of the decisions that produced it.\n\n(42)____ The masons say they find the thought a comfort rather than a burden. They are not preserving the past, one of them explains; they are keeping a very slow conversation going.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Apart from the electric hoist that lifts the blocks, most of their tools would be familiar to a craftsman of the Middle Ages.",
+          "A new mason spends four years on plain blocks before being trusted with anything decorative.",
+          "Some of the stones being carved today will not need replacing for another five hundred years.",
+          "Applications have tripled in a decade, many of them from graduates leaving screen-based jobs.",
+          "The cathedral, like every great medieval building, has never really been finished — only continuously repaired.",
+          "The cathedral was in fact completed within a single generation and never altered again.",
+          "The workshop does use them for rough shaping, but the final surface is always finished by hand.",
+          "As a result, the workshop was permanently closed in order to save money."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing sentence:", "answer": "E" },
+        { "stem": "Choose the missing sentence:", "answer": "A" },
+        { "stem": "Choose the missing sentence:", "answer": "D" },
+        { "stem": "Choose the missing sentence:", "answer": "B" },
+        { "stem": "Choose the missing sentence:", "answer": "G" },
+        { "stem": "Choose the missing sentence:", "answer": "C" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "Read about four craftspeople working today. Then answer the questions. The same person may be chosen more than once.",
+      "sources": [
+        { "label": "A", "name": "Marta", "text": "For eleven years I was a corporate lawyer, and I was good at it, which made leaving harder to explain. What nobody at the firm knew was that my evenings belonged to a bookbinding course, and that I was happier with glue on my fingers than I had ever been in a meeting. When I finally resigned, my colleagues assumed a scandal; the truth was a workshop. I now restore books, and my working day might involve a water-damaged family Bible or a traveller's journal from the 1700s. Volumes that were sewn by hand three hundred years ago pass across my bench, and I am intensely aware of being one repairer in a chain of them. The pay is a fraction of my old salary. The work, unlike the old work, feels like it will outlive me." },
+        { "label": "B", "name": "Dev", "text": "I build eleven guitars a year, and that number is a decision, not a limitation. The waiting list stands at just over four years, and people regularly tell me I am mad: hire two assistants, buy the machines, make forty. An investor once sat in my workshop and offered to fund exactly that expansion, and I turned him down before his coffee was cold. He was not buying my guitars; he was buying my name to put on faster ones. Every instrument I make passes through my hands at every stage, and that is precisely what the name means. Grow, and the thing people are queuing for is the thing you no longer make. My customers wait years, and I take that patience as a responsibility: the guitar that finally arrives must be worth every month of it." },
+        { "label": "C", "name": "Hana", "text": "I mend broken ceramics, and I mend them visibly. My method comes from a Japanese tradition I first encountered as a student, in which cracks are joined with lacquer and dusted with gold, so that the break becomes a bright seam running through the piece. The philosophy behind it seized me and has never let go: damage is part of an object's history, not the end of it, and a well-repaired pot can be more beautiful than it was before the fall. People bring me shattered wedding china and their grandmother's teapot, and they often cry when they collect them. Twice a month I run workshops where beginners repair a piece of their own, and watching someone's face as they gild their first crack — that is the part of my job I would never give up." },
+        { "label": "D", "name": "Angus", "text": "My anvil is Victorian and my order book is digital, and I feel no contradiction whatsoever. I forge staircases, gates and railings for modern buildings, and I design every commission on a screen before any metal is heated: the software lets clients walk through a virtual version of their staircase months before it exists, and a laser cutter handles the repetitive plates so that my hammer time is saved for the work that actually needs a human. The thing I never planned was the audience. My nephew filmed me forging a gate one afternoon and put it online; that clip has been watched four million times, and the channel we started now brings commissions from three continents. People, it turns out, are hungry to watch metal being persuaded. The old smiths had a village around the forge. Mine is just bigger." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Marta", "Dev", "Hana", "Angus"] },
+      "questions": [
+        { "stem": "Which person believes damage can add to an object's beauty?", "answer": "C" },
+        { "stem": "Which person deliberately limits how much they produce?", "answer": "B" },
+        { "stem": "Which person reached a huge audience by showing their work online?", "answer": "D" },
+        { "stem": "Which person gave up a well-paid profession for their craft?", "answer": "A" },
+        { "stem": "Which person makes customers wait years for a finished piece?", "answer": "B" },
+        { "stem": "Which person passes on their skills at regular teaching sessions?", "answer": "C" },
+        { "stem": "Which person regularly handles objects that are centuries old?", "answer": "A" },
+        { "stem": "Which person combines traditional methods with modern technology?", "answer": "D" },
+        { "stem": "Which person turned down money that was offered to expand their business?", "answer": "B" },
+        { "stem": "Which person was inspired by a tradition from another country?", "answer": "C" }
+      ]
+    }
+  ]
+}

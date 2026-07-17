@@ -1,0 +1,181 @@
+{
+  "title": "B1 Preliminary — Reading (MOCK 6)",
+  "note": "All six parts are auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Glacier Trail Information Point",
+          "text": "ALL WALKERS HEADING BEYOND THIS POINT MUST WRITE THEIR NAMES IN THE ROUTE BOOK AND SIGN OUT AGAIN ON RETURN.\nRANGERS CHECK THE BOOK AT 6PM DAILY.",
+          "stem": "Why should walkers use the route book?",
+          "options": ["So that rangers know if anyone has not returned.", "To reserve a place on the glacier trail.", "To record their opinion of the route for other walkers."],
+          "answer": 0
+        },
+        {
+          "kind": "message",
+          "header": "Text from Marco to Elsa",
+          "text": "Elsa — forecast says heavy snow above 2,000 metres from midday, so the guide wants to leave at 5.30 instead of 7. Breakfast will be packed for us to eat on the way. Bring your head torch — it'll still be dark when we set off.",
+          "stem": "What does the message tell Elsa?",
+          "options": ["Breakfast will be served earlier than usual in the dining room.", "The trip has been cancelled because of heavy snow.", "The group will begin walking before it gets light."],
+          "answer": 2
+        },
+        {
+          "kind": "email",
+          "from": "Expedition Leader",
+          "to": "Peak Challenge team",
+          "subject": "Kit check",
+          "body": "Before Saturday's training walk, please make sure your boots are properly broken in — new boots on a long walk almost always mean blisters. Also, anyone whose rucksack weighs more than 12 kilos should come and see me first; last year several people carried far too much.",
+          "stem": "Why should some team members speak to the leader?",
+          "options": ["Their boots are too new for a long walk.", "Their rucksacks may be too heavy.", "They missed last year's training walk."],
+          "answer": 1
+        },
+        {
+          "kind": "sign",
+          "header": "High Pass Mountain Hut",
+          "text": "DRINKING WATER IS LIMITED.\nTHE TAP IN THE KITCHEN IS FOR COOKING AND DRINKING ONLY.\nPLEASE USE THE STREAM BEHIND THE HUT FOR WASHING.",
+          "stem": "What does the sign ask visitors to do?",
+          "options": ["Wash in the stream rather than at the kitchen tap.", "Boil water from the stream before drinking it.", "Bring their own drinking water to the hut."],
+          "answer": 0
+        },
+        {
+          "kind": "note",
+          "header": "From Rosa",
+          "text": "Jack — I've borrowed your sleeping bag for the expedition, hope that's OK. Mine got soaked when the tent leaked at Easter and it still smells awful! I'll buy you a new one if anything happens to it, promise. Back Sunday night.",
+          "stem": "Why has Rosa taken Jack's sleeping bag?",
+          "options": ["She promised to buy a new one before the trip.", "She has lent her own bag to someone else.", "Hers was damaged on an earlier trip."],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "The five people below all want to go on an adventure trip. Read the descriptions of eight trips (A–H) and decide which would be most suitable for each person. There are three trips you do not need to use.",
+      "sources": [
+        {
+          "label": "6",
+          "name": "Oliver",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/9.jpg\" alt=\"Oliver\" loading=\"lazy\">",
+          "text": "Oliver has never spent a night in a tent but has always wanted to try expedition life. He owns no outdoor equipment at all, so he needs a trip where everything is provided and instructors teach the basics."
+        },
+        {
+          "label": "7",
+          "name": "Sandra",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/48.jpg\" alt=\"Sandra\" loading=\"lazy\">",
+          "text": "Sandra dreams of seeing the northern lights in winter. However, she has a knee problem, so she cannot walk far, and after a cold day she wants a warm, comfortable place to sleep, not a tent."
+        },
+        {
+          "label": "8",
+          "name": "Petr",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/85.jpg\" alt=\"Petr\" loading=\"lazy\">",
+          "text": "Petr is an extremely fit climber who has saved for years for a serious challenge. He wants to stand on a really high summit, and he insists on climbing with professional guides."
+        },
+        {
+          "label": "9",
+          "name": "Alba",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/26.jpg\" alt=\"Alba\" loading=\"lazy\">",
+          "text": "Alba loves rivers and already knows the basics of paddling. She would like her first proper journey: several days travelling on the water and camping on the banks at night."
+        },
+        {
+          "label": "10",
+          "name": "Hugo",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/61.jpg\" alt=\"Hugo\" loading=\"lazy\">",
+          "text": "Hugo wants to experience the desert, travelling the way local people have always travelled and sleeping outside under the stars. He is not interested in hotels or modern transport."
+        }
+      ],
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Sands of Silence: Cross the great desert on foot and by camel with local guides, following routes their families have used for centuries. Nights are spent sleeping in the open beside the fire, just as travellers always have.",
+          "Summit Dreams: A three-week expedition to a 5,200-metre peak, led by qualified professional mountain guides. Only for climbers in excellent physical condition who are ready for a genuine test.",
+          "Learn to Sail: A week at our friendly coastal centre, with daily lessons on the sea for complete beginners and improvers. Evenings are spent in shared cabins beside the harbour.",
+          "First Steps Outdoors: A weekend expedition for adults who have never camped before. We provide tents, cooking equipment and sleeping bags, and our instructors show you everything from lighting a stove to reading a map.",
+          "Ice and Rope: Five demanding days learning winter mountain skills — walking on snow, using ropes and building snow shelters. Expect long hours on foot in freezing conditions.",
+          "River Journey: Four days travelling down a wild river by canoe, camping on the banks each night. Suitable for paddlers who already know the basics and want their first longer trip.",
+          "Northern Lights Lodge: Watch the winter sky from a warm, comfortable lodge in the far north. Daily trips by heated vehicle take you to the best viewing spots — no walking required.",
+          "Family Wild Weekend: A relaxed camping weekend for parents and children, with easy nature activities for all ages. Families bring their own tents and food; we supply the campfire stories."
+        ]
+      },
+      "questions": [
+        {"stem": "Oliver", "answer": "D"},
+        {"stem": "Sandra", "answer": "G"},
+        {"stem": "Petr", "answer": "B"},
+        {"stem": "Alba", "answer": "F"},
+        {"stem": "Hugo", "answer": "A"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read these extracts from the diary of a polar expedition member and choose the best answer A, B, C or D.",
+      "passage": "From my expedition diary\n\nDay 3. People imagine that crossing an ice cap must be thrilling. This evening, as I write in a shaking tent, I can report that it is mostly repetitive: you ski, you eat, you put up the tent, you sleep, and the next day you do it all again. Before we left, I worried about hidden cracks in the ice and about polar bears. Nobody warned me that the real enemy would be the sameness of the days.\n\nDay 7. A storm has kept us in our tents for two days, and I have discovered something unexpected about myself. At home I cannot sit still for half an hour without checking my phone; here, with nothing but a book, some chocolate and the noise of the wind, I feel calmer than I have felt for years. Marta, our leader, says storms are the expedition's way of teaching patience. I laughed at that on Day 1. I am not laughing now — she has a point.\n\nDay 12. Today was nearly a disaster. During the afternoon, one of my skis came loose and began sliding towards a slope of hard blue ice. Without thinking, I stepped after it — exactly the mistake we had been trained never to make. Erik caught my arm before I could take a second step. Later he was kind about it, but nobody said much at dinner. We were all imagining what could have happened, and none of us wanted to say it aloud.\n\nDay 15. Tomorrow we should reach the coast, and I already know what I will miss. Not the cold, certainly, and not the food, which after two weeks tastes of nothing except oil and salt. What I will miss is the simplicity. Out here, a good day means twenty kilometres covered and a dry sleeping bag. I refuse to promise myself that I will 'live simply' back home — everybody breaks that promise within a week. Instead, I will simply remember that I was happy with so little, and let that knowledge change what it wants to change.",
+      "questions": [
+        {"stem": "What surprised the writer most about the expedition?", "options": ["how dangerous the cracks in the ice were", "how thrilling each day turned out to be", "how similar one day was to the next", "how badly the team slept in the tents"], "answer": 2},
+        {"stem": "During the storm, the writer realised that", "options": ["she missed her phone more than she had expected.", "she was able to feel calm while doing very little.", "Marta had planned the delay to teach the team patience.", "reading was impossible in the noisy tent."], "answer": 1},
+        {"stem": "What do we learn about the incident on Day 12?", "options": ["Erik was blamed for the loss of a ski.", "The team discussed the danger openly at dinner.", "The writer's training stopped her from making any mistake.", "The team stayed quiet because they knew how badly it could have ended."], "answer": 3},
+        {"stem": "What does the writer say about the food?", "options": ["It has become dull to eat.", "It is the thing she will miss most.", "There is not enough of it left.", "It tastes better after a long day's skiing."], "answer": 0},
+        {"stem": "What does the writer decide on Day 15?", "options": ["to promise to live simply when she returns home", "to start planning another expedition soon", "to let the experience change her life in its own quiet way", "to tell everyone at home how happy the trip made her"], "answer": 2}
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 4",
+      "instructions": "Read the article about a forgotten expedition. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+      "passage": "The expedition that nobody remembers\n\nIn the summer of 1931, while the newspapers were full of famous pilots and polar heroes, a quiet team of six scientists left the port of Kestrel Bay to explore the unmapped Harrow Range. Their leader, Edith Calloway, had no interest in breaking records. (16)____ For her, a successful journey meant returning with notebooks full of measurements, not with newspaper headlines.\n\nThe first weeks went well, but autumn arrived early that year. Snow blocked the high passes, and the team's food began to run low. (17)____ Calloway divided what remained into careful daily portions, and nobody ate more than their share.\n\nBy October, the situation was serious. The two strongest members went ahead to fetch help while the others sheltered in a cave. (18)____ It was, one of them later wrote, the longest fortnight of their lives.\n\nRescue came at last, and every member of the team survived. Yet when they reached home, they discovered that the newspapers had little space for an expedition without a flag on a summit or a tragic ending. (19)____ The maps they had drawn were quietly filed away, and their names were soon forgotten.\n\nForgotten, that is, until three years ago, when a student found Calloway's diaries in a university library. (20)____ Thanks to that discovery, the six quiet scientists of Kestrel Bay are finally receiving the attention they never asked for.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "To make matters worse, one of the team fell ill and could no longer carry his pack.",
+          "Modern equipment would have made the journey far easier.",
+          "Reporters preferred stories of triumph or disaster, and this journey offered neither.",
+          "Several members of the team later became famous explorers.",
+          "What attracted her was the chance to study mountains that no scientist had ever visited.",
+          "She has since turned them into a book that has surprised everyone by selling thousands of copies.",
+          "The cave was too small for the equipment, which had to be left outside.",
+          "Those who stayed behind had no way of knowing whether help would ever arrive."
+        ]
+      },
+      "questions": [
+        {"stem": "Gap 16", "answer": "E"},
+        {"stem": "Gap 17", "answer": "A"},
+        {"stem": "Gap 18", "answer": "H"},
+        {"stem": "Gap 19", "answer": "C"},
+        {"stem": "Gap 20", "answer": "F"}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 5",
+      "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+      "title": "What to pack for an adventure",
+      "body": "Experienced adventurers all agree on one thing: beginners take far too much (21)____ with them. Every extra kilogram feels light at breakfast and heavy by the afternoon, so learning to leave things behind is the first (22)____ every traveller must learn. Clothes should be chosen with the weather in (23)____, and it is safer to carry several thin layers than one thick coat. Water, a map and a torch are essential, and many guides also (24)____ packing a small first-aid kit, even for short trips. Whatever you decide to take, test your bag on a short walk (25)____ setting off on the real journey. If you cannot carry it comfortably for an hour, you will certainly not manage it for a (26)____ day in the mountains.",
+      "questions": [
+        {"options": ["instruments", "machines", "tools", "equipment"], "answer": 3},
+        {"options": ["fact", "lesson", "subject", "point"], "answer": 1},
+        {"options": ["head", "thought", "mind", "memory"], "answer": 2},
+        {"options": ["recommend", "insist", "warn", "refuse"], "answer": 0},
+        {"options": ["until", "by", "already", "before"], "answer": 3},
+        {"options": ["complete", "whole", "total", "distant"], "answer": 1}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 6",
+      "instructions": "For each gap (27–32), write ONE word.",
+      "title": "Email from base camp",
+      "body": "Hi Dad,\n\nGreetings from base camp! We arrived two days (27)____, after a ten-hour walk up from the nearest village.\n\nIt's much colder here (28)____ I expected, but the tents are warm and the food is better than everyone said it would be. Tomorrow we start the climb itself, (29)____ will take about five days if the weather stays clear.\n\nOur guide has climbed this mountain more than twenty times, so we are (30)____ very good hands. You mustn't worry (31)____ me — I promise I'll be careful.\n\nI'll call you as soon (32)____ we get back to the village.\n\nLove,\nMaya",
+      "questions": [
+        {"accept": ["ago"]},
+        {"accept": ["than"]},
+        {"accept": ["which"]},
+        {"accept": ["in"]},
+        {"accept": ["about"]},
+        {"accept": ["as"]}
+      ]
+    }
+  ]
+}

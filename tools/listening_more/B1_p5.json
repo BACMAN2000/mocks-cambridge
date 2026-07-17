@@ -1,0 +1,241 @@
+{
+ "label": "B1 — Intermediate",
+ "cefr": "Cambridge PET · B1 official format",
+ "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+ "audios": [
+  {
+   "id": "B1-P1",
+   "title": "Part 1 · Questions 1–7",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+   "segments": [
+    "Lunch for the trip",
+    "How they will travel",
+    "Tomorrow's weather",
+    "Something to bring",
+    "The meeting place",
+    "The market",
+    "Something missing"
+   ],
+   "scripts": [
+    "Question one. Jack: Can I take money for pizza on the trip, Mum? Mum: There's nowhere to buy food at the castle, so I'm making you sandwiches. Jack: OK, cheese ones, please.",
+    "Question two. Emma: Is your dad driving us to the museum for the trip? Boy: No, the school has booked a bus for the whole class. Emma: Even better — we can all sit together.",
+    "Question three. Boy: It's freezing today, isn't it? Girl: Yes, and the forecast says it will actually snow tomorrow. Boy: I hope the trip isn't cancelled!",
+    "Question four. Teacher: One more thing about Friday. Leave your school bags at home — a small one is fine — but everybody must bring a sun hat, because we'll be outside all day.",
+    "Question five. Girl: Where are we meeting on Friday? Wasn't it outside the library? Boy: That's changed. Miss said we're meeting at the park gates now. Girl: Right, I'll tell Sofia.",
+    "Question six. Boy: Does the market open at eight? I want to go before school. Girl: On Tuesdays it doesn't open until nine, I'm afraid. Boy: Oh well, I'll go at the weekend.",
+    "Question seven. Girl: Tom, you look worried. Have you lost your phone again? Tom: No, it's here in my pocket. It's my keys I can't find anywhere. Girl: Try your coat."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What will Jack take for lunch on the trip?",
+     "imgs": ["sandwich", "pizza", "cake"],
+     "c": 0,
+     "audio": "P5/B1/B1-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will the class travel to the museum?",
+     "imgs": ["bus", "bike", "car"],
+     "c": 0,
+     "audio": "P5/B1/B1-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will the weather be like tomorrow?",
+     "imgs": ["sunny", "rainy", "snowy"],
+     "c": 2,
+     "audio": "P5/B1/B1-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What must everybody bring on Friday?",
+     "imgs": ["hat", "bag", "umbrella"],
+     "c": 0,
+     "audio": "P5/B1/B1-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where will the class meet on Friday?",
+     "imgs": ["park", "cafe", "library"],
+     "c": 0,
+     "audio": "P5/B1/B1-P1-q5.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the market open on Tuesdays?",
+     "imgs": ["clock8", "clock830", "clock9"],
+     "c": 2,
+     "audio": "P5/B1/B1-P1-q6.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What can't Tom find?",
+     "imgs": ["phone", "keys", "umbrella"],
+     "c": 1,
+     "audio": "P5/B1/B1-P1-q7.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P2",
+   "title": "Part 2 · Questions 8–13",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+   "segments": [
+    "Last year's trip",
+    "Choosing a place",
+    "The cost",
+    "What to wear",
+    "Why he can't go",
+    "After the trip"
+   ],
+   "scripts": [
+    "Question eight. You will hear a girl talking about last year's class trip. Girl: The museum part was fine, though a bit long, and it rained during our picnic, which was a shame. But the castle was amazing — walking along those old walls was the best thing we did all year.",
+    "Question nine. You will hear a boy talking about where his class is going. Boy: Most of us voted for the zoo, and the beach got a few votes too. But the zoo is closed for building work this term, so in the end we're going to the science museum.",
+    "Question ten. You will hear a woman talking about the cost of a school trip. Woman: The letter says fifteen pounds per student. Last year it was twenty, but this time the school is paying for the coach, so it works out cheaper for parents.",
+    "Question eleven. You will hear a teacher talking about a trip. Teacher: You won't need school uniform on Thursday — normal clothes are fine. What really matters is comfortable shoes, because the walk up to the fort takes nearly an hour.",
+    "Question twelve. You will hear a boy explaining why he can't go on the trip. Boy: It's not about the money — my parents said they'd happily pay. The real problem is that my violin exam is on exactly the same day, and the music school can't change it.",
+    "Question thirteen. You will hear a girl talking about work to do after the trip. Girl: I thought we'd have to write a long essay, like last time. But the teacher says each group is going to make a poster instead, with photos and short texts. That sounds much more fun."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What did the girl enjoy most about last year's trip?",
+     "o": ["The castle", "The museum", "The picnic"],
+     "c": 0,
+     "audio": "P5/B1/B1-P2-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Where will the boy's class go on their trip?",
+     "o": ["The zoo", "The science museum", "The beach"],
+     "c": 1,
+     "audio": "P5/B1/B1-P2-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How much does this year's trip cost?",
+     "o": ["£12", "£15", "£20"],
+     "c": 1,
+     "audio": "P5/B1/B1-P2-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the teacher say students need on Thursday?",
+     "o": ["Comfortable shoes", "School uniform", "A warm coat"],
+     "c": 0,
+     "audio": "P5/B1/B1-P2-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why can't the boy go on the trip?",
+     "o": ["It costs too much", "He has a music exam", "He is ill"],
+     "c": 1,
+     "audio": "P5/B1/B1-P2-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What will students make after the trip?",
+     "o": ["An essay", "A video", "A poster"],
+     "c": 2,
+     "audio": "P5/B1/B1-P2-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P3",
+   "title": "Part 3 · Questions 14–19",
+   "kind": "file",
+   "file": "P5/B1/B1-P3.mp3",
+   "intro": "You will hear a teacher giving her class the details of a school trip. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Good morning, everyone. Listen carefully, because here are the final details for our class trip to Ashton Castle. The trip is on Friday — not Thursday, as it said in the first letter. We will travel there by coach, which leaves from the school gates at nine o'clock in the morning, so please arrive ten minutes early. The cost is eleven pounds, and that includes your entrance ticket and the guided tour. The weather changes quickly on the hill, so as well as a packed lunch, everybody should bring a raincoat. Finally, if you haven't handed in your permission form yet, please give it to Mrs Baker in the school office by Wednesday. Any questions?"
+   ],
+   "gapTitle": "Class Trip to Ashton Castle",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Day of the trip: ____",
+     "accept": ["friday"]
+    },
+    {
+     "type": "gap",
+     "label": "Travel by: ____",
+     "accept": ["coach"]
+    },
+    {
+     "type": "gap",
+     "label": "Coach leaves at: ____ a.m.",
+     "accept": ["9", "nine", "9:00", "9.00", "9 o'clock", "nine o'clock"]
+    },
+    {
+     "type": "gap",
+     "label": "Cost: £ ____",
+     "accept": ["11", "eleven"]
+    },
+    {
+     "type": "gap",
+     "label": "Everybody should bring: a ____",
+     "accept": ["raincoat"]
+    },
+    {
+     "type": "gap",
+     "label": "Give permission forms to: Mrs ____",
+     "accept": ["baker"]
+    }
+   ]
+  },
+  {
+   "id": "B1-P4",
+   "title": "Part 4 · Questions 20–25",
+   "kind": "file",
+   "file": "P5/B1/B1-P4.mp3",
+   "intro": "You will hear an interview with a student called Emma, who helped to plan her class trip. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Today I'm talking to Emma, who helped to plan her class trip this year. Emma, why did the class choose the old silver mine? Emma: The teacher suggested a theme park, and lots of people liked that idea. But we'd studied mining in history lessons, so in the end we picked the mine — we wanted to see the real thing. Interviewer: What was the hardest part of planning? Emma: Finding a free date was easy, actually. The difficult bit was keeping the price low enough for everyone. I phoned three coach companies before I found a good one. Interviewer: Did anything go wrong? Emma: Nearly! Two days before the trip, the coach company said our bus had broken down. Luckily they found us another one in time. Interviewer: What did your classmates enjoy most? Emma: I expected them to say the underground train, but almost everyone said the best part was trying on the miners' helmets and lamps. Interviewer: Would you change anything? Emma: Yes — we only had twenty minutes in the gift shop and café. Next time I'd plan more free time. Interviewer: Any advice for other students who plan a trip? Emma: Start organising everything really early. We began three months before, and we still felt busy at the end."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why did the class choose to visit the mine?",
+     "o": ["The teacher chose it", "They had studied mining at school", "It was the cheapest option"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What was the hardest part of planning the trip?",
+     "o": ["Finding a free date", "Choosing the place", "Keeping the price low"],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What almost went wrong before the trip?",
+     "o": ["The coach broke down", "The mine was closed", "A teacher was ill"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What did the students enjoy most?",
+     "o": ["The underground train", "Trying on miners' equipment", "The gift shop"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What would Emma change about the trip?",
+     "o": ["She would plan more free time", "She would take a different coach", "She would choose another place"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What advice does Emma give other students?",
+     "o": ["Ask teachers to organise everything", "Visit the place first", "Start planning very early"],
+     "c": 2
+    }
+   ]
+  }
+ ]
+}

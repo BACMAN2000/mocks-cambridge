@@ -1,0 +1,192 @@
+{
+  "title": "C1 Advanced — Reading and Use of English (MOCK 5)",
+  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The safest cities in history",
+      "body": "The modern city is, by historical standards, an astonishingly safe place to live, yet its inhabitants have rarely felt more (1)____ to danger. Fires that once (2)____ whole districts are now contained within minutes; diseases that once emptied streets have been all but eradicated. Nevertheless, surveys consistently show that urban dwellers (3)____ the likelihood of violent crime, while paying almost no attention to the mundane hazards — traffic, air quality, isolation — that actually (4)____ the greatest toll. Psychologists attribute this mismatch to the way vivid, dramatic events (5)____ themselves on the memory, whereas chronic risks accumulate too gradually to register at all. City authorities, for their part, find themselves in an awkward (6)____: resources devoted to reassuring the public are often resources (7)____ from measures that would genuinely save lives. A rational city would spend where the danger is; an actual city spends where the fear is, and politicians who ignore that distinction tend to pay a heavy (8)____ at the ballot box.",
+      "questions": [
+        { "options": ["subjected", "exposed", "liable", "prone"], "answer": 1 },
+        { "options": ["absorbed", "dissolved", "extinguished", "consumed"], "answer": 3 },
+        { "options": ["overestimate", "overrate", "outweigh", "overtake"], "answer": 0 },
+        { "options": ["charge", "impose", "exact", "claim"], "answer": 2 },
+        { "options": ["imprint", "install", "implant", "insert"], "answer": 0 },
+        { "options": ["stance", "posture", "standing", "position"], "answer": 3 },
+        { "options": ["deflected", "detached", "diverted", "displaced"], "answer": 2 },
+        { "options": ["cost", "price", "charge", "fee"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "Living with water",
+      "body": "No city can be made entirely safe, (9)____ much its engineers might wish otherwise. Every flood barrier is built to withstand the worst storm on record — but records, (10)____ definition, describe only the past. Planners therefore speak not of preventing disaster but of managing it, a shift (11)____ emphasis that changes everything.\n\nRather (12)____ raising the walls ever higher, some cities now deliberately allow certain districts to flood, sacrificing parks and playing fields (13)____ that homes might stay dry. It is an approach that demands honesty: residents must be told that protection has limits, a message politicians would (14)____ avoid delivering.\n\nYet the evidence suggests that people cope better with risk when they are treated (15)____ adults. What erodes public trust is not danger itself so much (16)____ the discovery that danger was concealed.",
+      "questions": [
+        { "accept": ["however"] },
+        { "accept": ["by"] },
+        { "accept": ["in", "of"] },
+        { "accept": ["than"] },
+        { "accept": ["so"] },
+        { "accept": ["rather", "sooner"] },
+        { "accept": ["as", "like"] },
+        { "accept": ["as"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "The price of protection",
+      "rows": [
+        { "text": "City life involves a continual, largely unconscious (17)____ of hazards.", "root": "ASSESS" },
+        { "text": "Perfect safety is not merely expensive; it is (18)____ .", "root": "ATTAIN" },
+        { "text": "The (19)____ of early tower blocks to fire was tragically exposed.", "root": "VULNERABLE" },
+        { "text": "Campaigners condemned the council's (20)____ response to residents' repeated warnings.", "root": "DISMISS" },
+        { "text": "Regulations written in the wake of disasters tend to be applied with (21)____ zeal, then gradually forgotten.", "root": "CHARACTER" },
+        { "text": "Insurers possess an (22)____ ability to put a price on almost any misfortune.", "root": "RIVAL" },
+        { "text": "The sheer (23)____ of urban systems means that failures propagate in unforeseen ways.", "root": "DEPEND" },
+        { "text": "A city that punishes every failure breeds (24)____ officials who take no decisions at all.", "root": "CAUTION" }
+      ],
+      "questions": [
+        { "root": "ASSESS", "accept": ["assessment"] },
+        { "root": "ATTAIN", "accept": ["unattainable"] },
+        { "root": "VULNERABLE", "accept": ["vulnerability"] },
+        { "root": "DISMISS", "accept": ["dismissive"] },
+        { "root": "CHARACTER", "accept": ["uncharacteristic"] },
+        { "root": "RIVAL", "accept": ["unrivalled", "unrivaled"] },
+        { "root": "DEPEND", "accept": ["interdependence", "interdependency"] },
+        { "root": "CAUTION", "accept": ["overcautious", "over-cautious"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+      "questions": [
+        {
+          "before": "It was only because a resident raised the alarm that the building was evacuated.",
+          "keyword": "BUT",
+          "after": "___ the alarm, the building would not have been evacuated.",
+          "accept": ["but for a resident raising", "but for a resident's raising"]
+        },
+        {
+          "before": "Officials consider the bridge to be perfectly safe.",
+          "keyword": "THOUGHT",
+          "after": "The bridge ___ perfectly safe.",
+          "accept": ["is thought to be"]
+        },
+        {
+          "before": "The city would have flooded if the barrier had not held.",
+          "keyword": "HAD",
+          "after": "___ , the city would have flooded.",
+          "accept": ["had the barrier not held"]
+        },
+        {
+          "before": "Cutting the maintenance budget turned out to be a serious mistake.",
+          "keyword": "PROVED",
+          "after": "Cutting the maintenance budget ___ a serious mistake.",
+          "accept": ["proved to be"]
+        },
+        {
+          "before": "They cancelled the festival because violence might break out.",
+          "keyword": "CASE",
+          "after": "They cancelled the festival ___ out.",
+          "accept": ["in case violence broke"]
+        },
+        {
+          "before": "People increasingly regard congestion as the price of prosperity.",
+          "keyword": "COME",
+          "after": "Congestion has ___ as the price of prosperity.",
+          "accept": ["come to be regarded", "come to be seen"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "Designing for danger\n\nThe engineer's approach to safety has a reassuring simplicity: identify the hazard, then pad it, fence it, signpost it or remove it. Helmets for cyclists, barriers for pedestrians, rubber surfacing for playgrounds — each intervention subtracts a quantity of danger from the environment, and it seems to follow that the sum of harm must fall by the same amount. The assumption is so intuitive that it is rarely stated, let alone examined: make the world safer, and people will be safer in it.\n\nThe difficulty is that people are not fixed quantities. They observe the world, form estimates of its dangers, and adjust their behaviour accordingly — and when the environment is made to feel safer, the adjustment often runs in precisely the wrong direction. Drivers with anti-lock brakes follow the car in front more closely; workers issued with better protective equipment take chances their predecessors would have refused. The phenomenon, known as risk compensation, has been documented in fields from aviation to childcare, though its strength is fiercely debated. The fairest reading of the evidence is that the effect is real but partial: compensation erodes the benefit of most safety measures without abolishing it, and claims that seatbelts or helmets make things worse overall belong to polemic rather than to science.\n\nWhere the idea earns its keep is in the design of streets. A wide, straight, generously engineered road communicates, in the vocabulary drivers actually read, an invitation to speed — whatever the signs may plead. Conversely, a street that is narrow, planted, busy with visible human activity and stripped of the usual reassurances obliges a driver to slow down and pay attention, not because a rule demands it but because the environment does. Planners speak of 'self-explaining streets': roads whose physical form, rather than their signage, tells users how to behave. On such streets, safety is not bolted on; it is built in, and it works through perception rather than in spite of it.\n\nIt would be easy to overcorrect into a new dogma, so a caution is in order. Compensation is strongest where people feel in control and can see the protective measure working — behind a steering wheel, say. It is weakest where the protection is invisible or the user passive: nobody grows careless with candles because the house has a smoke alarm, and vaccinated people do not, on the whole, go looking for infection. Any honest account of risk must therefore be a map of circumstances, not a slogan; the same intervention can be a clear gain in one setting and self-defeating in another.\n\nFor those who plan cities, the practical lesson is nevertheless considerable. It is not enough to calculate how safe an environment is; one must also attend to how safe it feels, because the feeling is itself a causal force. A junction that looks mildly alarming may produce vigilance, and therefore safety; a crossing that looks foolproof may produce inattention, and therefore casualties. Perception, in other words, is not a nuisance interfering with the real physics of the street. It is part of the physics.\n\nThe conclusion is not that cities should manufacture danger, but that they should stop trying to anaesthetise the sense of it. A certain legibility of risk — the visible pedestrian, the uncertain priority, the corner that cannot quite be seen around — keeps the human animal doing what it evolved to do: paying attention. The safest street may not be the one that promises safety loudest, but the one that quietly declines to make the promise at all.",
+      "questions": [
+        { "stem": "What assumption does the writer identify at the start of the passage?", "options": ["That reducing danger in the environment leads directly to fewer injuries.", "That people are incapable of judging risks for themselves.", "That safety equipment is usually too expensive to justify.", "That most accidents are caused by deliberate rule-breaking."], "answer": 0 },
+        { "stem": "What does the writer say about the evidence for risk compensation?", "options": ["It has been decisively refuted by recent studies.", "It shows that safety measures generally cause more harm than good.", "It suggests the effect is real but rarely cancels out the benefit of a safety measure.", "It applies only to professional drivers and pilots."], "answer": 2 },
+        { "stem": "The phrase 'self-explaining streets' refers to roads that", "options": ["carry signs describing the local speed limit", "are closed to all motorised traffic", "announce hazards to drivers electronically", "communicate appropriate behaviour through their physical design"], "answer": 3 },
+        { "stem": "Why does the writer mention smoke alarms?", "options": ["To argue that fire safety is the greatest urban challenge.", "To illustrate that compensation does not occur equally in all situations.", "To criticise householders who neglect routine maintenance.", "To show that cheap devices can outperform expensive ones."], "answer": 1 },
+        { "stem": "According to the writer, what should urban designers take into account?", "options": ["How safe an environment feels as well as how safe it actually is.", "The cost of insurance in different districts.", "The preferences of the fastest drivers.", "The need to remove every source of uncertainty."], "answer": 0 },
+        { "stem": "Which statement best reflects the writer's conclusion?", "options": ["Cities should aim to eliminate risk wherever technically possible.", "Perceptions of danger are too irrational to be worth studying.", "A degree of perceived danger can serve as useful feedback for city dwellers.", "Safety engineering has made no measurable difference to urban life."], "answer": 2 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "Read four short opinion pieces (A–D) on the same topic: how much risk urban public space — especially space used by children — should be allowed to contain. Then answer the questions.",
+      "sources": [
+        { "label": "A", "text": "Somewhere in the last generation, the scraped knee was reclassified from rite of passage to scandal, and our public spaces have been remodelled accordingly: play equipment shortened, surfaces padded, anything climbable removed. The driving force, let us be honest, has rarely been evidence of harm; it has been the fear of being sued, with every council lawyer imagining the writ that follows the fall. The result is a landscape that teaches children nothing, because judgement of danger, like any judgement, is learned only through graduated exposure. Deny them small risks under supervision and they will find large ones without it — a trade nobody should welcome." },
+        { "label": "B", "text": "The golden age of free-range childhood is largely a trick of memory. The generation now mourning its lost tree-climbing grew up alongside children who fell out of those trees onto concrete, and the casualty wards of the 1970s kept the records to prove it. Playground deaths and serious head injuries have fallen dramatically, and they fell because of precisely the standards and surfacing now derided as mollycoddling. I do not oppose challenge in play — the research on its benefits deserves attention — but I notice that romanticising risk comes easiest to the able-bodied and the lucky. Show me the evidence, and I will support the climbing frame; nostalgia alone is not an argument." },
+        { "label": "C", "text": "This quarrel would lose most of its energy if the two sides stopped using 'danger' to mean two different things. A rusted bolt inside a slide is a hazard: invisible, unassessable, contributing nothing to any child's development. A high climbing net is a risk: visible, graspable, and chosen — or declined — by the child who stands beneath it. Good design is not a compromise between safety and adventure; it is the systematic removal of hazards combined with the deliberate retention of risks. Once that distinction is made, the padded, litigation-proof desert and the neglected deathtrap are revealed as two versions of the same failure: environments nobody designed with children's judgement in mind." },
+        { "label": "D", "text": "What is billed as a debate about childhood is really a debate about geography. In the leafy boroughs, parents petition for 'adventure playgrounds' where risk is curated like a tasting menu; the argument is over which enriching dangers to install. Three miles away, children negotiate arterial roads, broken glass and derelict buildings — risk in abundance, none of it chosen, none of it designed to teach anything. The interesting question about urban danger was never 'how much?', as both the nostalgists and the safety campaigners assume. It is 'who gets to choose theirs?'. Until the answer stops depending on postcode, the rest is an argument about garnish." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which writer differs from the others in treating the distribution of risk, rather than its overall level, as the central issue?", "answer": "D" },
+        { "stem": "Which writer, unlike Writer A, believes that the drive for safety has produced measurable benefits?", "answer": "B" },
+        { "stem": "Which writer argues that the disagreement rests on a failure to separate two distinct concepts?", "answer": "C" },
+        { "stem": "Which writer attributes the spread of safety measures principally to fear of legal action?", "answer": "A" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+      "passage": "The junction with no rules\n\nFor years, the crossroads at the centre of Haldenbury was the kind of place traffic engineers cite with a shudder: four busy roads, a school on one corner, and an accident record that filled a filing cabinet. Successive improvements — more signs, more lights, more railings — had each been followed by a brief lull and then a return to form. (41)____\n\nHis reasoning, once he was permitted to explain it, had a perverse elegance. Drivers obey lights, he argued, instead of attending to people; strip the instructions away and uncertainty itself becomes the regulator, obliging everyone to slow down and negotiate. (42)____\n\nThe trial went ahead regardless, on a drizzly Monday in March, with council staff stationed nervously at each corner and an ambulance, unadvertised, parked around the block. (43)____\n\nThe safety statistics took longer to accumulate, but two years on they pointed the same way: collisions were down by more than half, and serious injuries had ceased altogether. (44)____\n\nEven the scheme's champions accept this caution, and something subtler besides. The junction works, they argue, precisely because it feels dangerous; its safety rests on an atmosphere of alertness that familiarity could in time erode. (45)____\n\nThere is, finally, the question of who thrives in such an environment. Negotiating a rule-free junction by glance and gesture assumes that everyone can see, move briskly and hold their nerve. (46)____ The lesson of Haldenbury may therefore be less that rules are unnecessary than that no single street can be safe in the same way for everyone.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "By the end of the first week, the figures confounded almost everyone: traffic was moving more slowly, yet journey times through the junction had actually fallen, because nobody now waited at a red light beside an empty road.",
+          "For blind residents and for some of the elderly, the removal of the crossings they depended on has meant not liberation but exile from their own town centre.",
+          "So when a consultant proposed solving the problem by removing every sign, signal and marking, councillors assumed at first that they had misheard him.",
+          "If that happens, the town may face the strange task of reintroducing a little confusion — a fresh dose of the very uncertainty the redesign relied upon.",
+          "The consultant himself had grown up three streets from the junction, though he had not set foot in the town for many years before the project began.",
+          "Predictably, the local press was less measured, with one editorial demanding to know whether the town was to become 'a laboratory, and its pensioners the mice'.",
+          "Similar schemes in other countries had by then been abandoned altogether, owing chiefly to noise complaints from residents living nearby.",
+          "Sceptics rightly observe that a single trial in a modest market town proves little, and that what works at one junction might fail catastrophically at another."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing paragraph:", "answer": "C" },
+        { "stem": "Choose the missing paragraph:", "answer": "F" },
+        { "stem": "Choose the missing paragraph:", "answer": "A" },
+        { "stem": "Choose the missing paragraph:", "answer": "H" },
+        { "stem": "Choose the missing paragraph:", "answer": "D" },
+        { "stem": "Choose the missing paragraph:", "answer": "B" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 8",
+      "instructions": "You are going to read four short pieces (A–D) by people whose work involves managing risk in cities. Answer the questions by choosing the appropriate person.",
+      "sources": [
+        { "label": "A", "text": "Nadia — bridge inspector. The central absurdity of my profession is that success is invisible: a bridge that stays up is a story nobody prints. Every budget round, I must argue for money to prevent events that, if I do my job, will never occur — and the better I do it, the weaker my case appears. People imagine inspection is pure measurement, but a corrosion rating is a judgement call dressed in a number, and two honest inspectors can read the same steel differently. Whenever a bridge fails somewhere in the world, my phone rings for a fortnight and the purse strings loosen; six months later, the amnesia returns on schedule." },
+        { "label": "B", "text": "Owen — emergency planner. I spend my working life rehearsing days I hope never to see. What the full-scale exercises expose, over and over, is not broken equipment but broken conversations: two control rooms using the same word to mean different things, an agency that never passes on what it assumes everyone knows. The hardest part of my job is coaxing organisations into failing honestly during a drill, in front of their rivals, so the failure never happens in earnest. I keep a private file of near-misses — the disasters that almost happened — and it has taught me more than any inquiry report. What keeps me awake is not any particular threat; it is how comfortable everyone has become." },
+        { "label": "C", "text": "Chen — actuary. People accuse my industry of trading on fear, but a premium is the most honest piece of risk information most citizens ever receive: it is what a danger costs when someone has to back their estimate with money. What frustrates me is the opposite habit — treating our models as prophecy. A model is a disciplined guess, and I say so in every meeting. Early in my career, the data flatly contradicted my instinct about which neighbourhoods flooded; the data was right, and the humiliation was formative. These days climate is rewriting the tables faster than we can print them, which makes humility less a virtue than a survival skill." },
+        { "label": "D", "text": "Sofia — playground designer. I put danger into playgrounds on purpose, and I am paid by the same councils that once paid to take it out. The trick is grading it: a route upward for every level of nerve, each step visible and each step chosen. At my sites, grazed knees and bruises have gone up — I say so openly — while fractures and head injuries have fallen, because children meet difficulty in doses they can read. Parents arrive as opponents and are converted on the spot, watching their child judge a gap correctly for the first time. My real battles are not with regulators, who have been surprisingly supportive, but with liability insurers, for whom any designed risk is simply a claim awaiting its date." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Nadia", "Owen", "Chen", "Sofia"] },
+      "questions": [
+        { "stem": "Which person argues that the price of their product conveys valuable information?", "answer": "C" },
+        { "stem": "Which person finds that the effectiveness of their work makes it harder to justify paying for it?", "answer": "A" },
+        { "stem": "Which person deliberately makes something less safe in one respect in order to make it safer in another?", "answer": "D" },
+        { "stem": "Which person believes that practice exercises expose human rather than technical shortcomings?", "answer": "B" },
+        { "stem": "Which person concedes that their professional judgements are not purely objective?", "answer": "A" },
+        { "stem": "Which person recalls an occasion on which the evidence overturned their own instinct?", "answer": "C" },
+        { "stem": "Which person claims to have learned more from events that almost happened than from official investigations?", "answer": "B" },
+        { "stem": "Which person says opposition to their work comes mainly from insurers rather than from officialdom?", "answer": "D" },
+        { "stem": "Which person objects to their forecasts being treated as certainties?", "answer": "C" },
+        { "stem": "Which person is more troubled by general complacency than by any specific danger?", "answer": "B" }
+      ]
+    }
+  ]
+}

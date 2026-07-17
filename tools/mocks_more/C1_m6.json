@@ -1,0 +1,192 @@
+{
+  "title": "C1 Advanced — Reading and Use of English (MOCK 6)",
+  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "Reading the rocks",
+      "body": "Few sciences make such heavy (1)____ on the imagination as geology. Its students are asked to take seriously spans of time beside which the whole of human history (2)____ to an afterthought. We can pronounce the words 'four and a half billion years' readily enough, but the mind, (3)____ as it is to lifetimes and seasons, simply cannot take them (4)____. The pioneers of the discipline, confronting the evidence of the strata, watched their tidy chronologies fall (5)____. The rocks recorded oceans where mountains now stand, and forests beneath what is presently ice; they testified to a planet in slow but perpetual (6)____. The discovery was as unsettling in its day as anything physics has since (7)____ up, and society has arguably yet to (8)____ to terms with all its implications.",
+      "questions": [
+        { "options": ["burdens", "claims", "loads", "demands"], "answer": 3 },
+        { "options": ["fades", "shrinks", "lowers", "narrows"], "answer": 1 },
+        { "options": ["calibrated", "dedicated", "subjected", "converted"], "answer": 0 },
+        { "options": ["up", "over", "in", "off"], "answer": 2 },
+        { "options": ["away", "apart", "aside", "astray"], "answer": 1 },
+        { "options": ["current", "stream", "tide", "flux"], "answer": 3 },
+        { "options": ["thrown", "cast", "tossed", "flung"], "answer": 0 },
+        { "options": ["get", "arrive", "come", "reach"], "answer": 2 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The junction in the cliff",
+      "body": "There is a stretch of coastline in Scotland (9)____ two sets of rock layers meet at an angle, one standing nearly vertical, the (10)____ lying flat above it. To an untrained eye the junction is easy to miss; to the man who first grasped its meaning, it was (11)____ short of a revelation.\n\nThe vertical layers, he realised, must once have been laid down flat on a sea floor, then buckled upright, raised and worn away — (12)____ before the horizontal layers had even begun to form. Each of these processes, at the rates observable today, would demand a span of time vastly greater than the few thousand years the Earth was then supposed (13)____ have existed. Standing at that junction, a companion later wrote, the mind 'grew giddy looking (14)____ far into the abyss of time'.\n\nIt is worth remembering (15)____ the discovery was made: not with instruments, (16)____ with patient reasoning from things anyone might have seen.",
+      "questions": [
+        { "accept": ["where"] },
+        { "accept": ["other"] },
+        { "accept": ["nothing", "little"] },
+        { "accept": ["all"] },
+        { "accept": ["to"] },
+        { "accept": ["so"] },
+        { "accept": ["how"] },
+        { "accept": ["but"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "An abyss of time",
+      "rows": [
+        { "text": "The Earth's crust preserves a record of quite (17)____ antiquity.", "root": "IMAGINE" },
+        { "text": "Fossils provide (18)____ evidence that whole categories of life have vanished.", "root": "DISPUTE" },
+        { "text": "Rock strata do not accumulate (19)____ ; there are long interruptions when nothing is deposited at all.", "root": "CONTINUE" },
+        { "text": "Radiometric dating brought a new (20)____ to estimates that had previously rested on guesswork.", "root": "PRECISE" },
+        { "text": "Some early theories of the Earth's formation now look charmingly (21)____ .", "root": "FANCY" },
+        { "text": "It took remarkable (22)____ to challenge the accepted age of the world.", "root": "PERSEVERE" },
+        { "text": "The idea that continents drift was initially greeted with open (23)____ .", "root": "DERIDE" },
+        { "text": "Geologists must resist the (24)____ temptation to read the record as a story with ourselves as its ending.", "root": "UNDERSTAND" }
+      ],
+      "questions": [
+        { "root": "IMAGINE", "accept": ["unimaginable"] },
+        { "root": "DISPUTE", "accept": ["indisputable", "undisputable"] },
+        { "root": "CONTINUE", "accept": ["continuously"] },
+        { "root": "PRECISE", "accept": ["precision"] },
+        { "root": "FANCY", "accept": ["fanciful"] },
+        { "root": "PERSEVERE", "accept": ["perseverance"] },
+        { "root": "DERIDE", "accept": ["derision"] },
+        { "root": "UNDERSTAND", "accept": ["understandable"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+      "questions": [
+        {
+          "before": "The theory met with widespread scepticism when it was first proposed.",
+          "keyword": "RECEPTION",
+          "after": "The theory ___ when it was first proposed.",
+          "accept": ["was given a sceptical reception", "got a sceptical reception", "had a sceptical reception"]
+        },
+        {
+          "before": "Scientists only accepted the theory when ocean-floor data emerged.",
+          "keyword": "NOT",
+          "after": "It was ___ emerged that scientists accepted the theory.",
+          "accept": ["not until ocean-floor data", "not until the ocean-floor data"]
+        },
+        {
+          "before": "Nobody knew at all how old the planet really was.",
+          "keyword": "SLIGHTEST",
+          "after": "Nobody had ___ how old the planet really was.",
+          "accept": ["the slightest idea", "the slightest notion", "the slightest idea of", "the slightest notion of"]
+        },
+        {
+          "before": "People believe the granite formed deep underground.",
+          "keyword": "BELIEVED",
+          "after": "The granite ___ deep underground.",
+          "accept": ["is believed to have formed"]
+        },
+        {
+          "before": "Although she was working entirely alone, she completed the survey.",
+          "keyword": "FACT",
+          "after": "She completed the survey despite ___ she was working entirely alone.",
+          "accept": ["the fact that"]
+        },
+        {
+          "before": "If the cliff had not eroded, the fossils would never have been discovered.",
+          "keyword": "BEEN",
+          "after": "Had it not ___ of the cliff, the fossils would never have been discovered.",
+          "accept": ["been for the erosion"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The uses of vertigo\n\nMuseum labels are fond of a certain rhetorical move. Compress the Earth's four and a half billion years into a single calendar year, they tell us, and the dinosaurs die on Boxing Day, agriculture is invented in the final minute, and the whole of recorded history flickers past in the last few seconds before midnight. The visitor is expected to leave suitably humbled, having absorbed what is usually described as geology's great moral lesson: that humanity is a latecomer of no particular consequence, a blink in the planetary story. It is a striking image, and I have come to think it teaches almost exactly the wrong thing.\n\nThe trouble lies in the slide from brevity to insignificance, as though importance were measured by duration. It is not. A lightning strike lasts milliseconds and can burn down a forest; the impact that ended the Cretaceous occupied, in geological terms, an instant. By any physical measure — energy redirected, chemistry altered, species displaced — our own brief tenure is proving loud out of all proportion to its length. A creature that can relocate rivers, adjust the composition of the atmosphere and leave a detectable layer in the sediments of every continent is many things, but a blink is not one of them. The calendar image, meant to deflate human self-importance, quietly excuses human consequence.\n\nIt is worth recalling why deep time was resisted in the first place. The obstacle was never merely evidential; by the early nineteenth century the strata spoke plainly enough to anyone prepared to listen. What the idea threatened was a story — one in which the world was a stage built for us, and time a short corridor with humanity waiting at the end of it. Deep time demolished the corridor. Yet the scientists who did the demolishing proved reluctant to live in the ruins: within a generation, popular accounts had reorganised the new immensity into a tale of steady ascent, with life 'progressing' through the ages towards, inevitably, ourselves. The stage had grown vastly older; the star of the show had not changed.\n\nWhat deep time actually teaches, taken neat, is harder to swallow: contingency. The record is not a staircase but a sprawl of experiments, most of them terminated by circumstance. Rewind and rerun the story with trivial differences — an asteroid a few minutes early, an ocean current a degree warmer — and nothing resembling us need ever appear. This, not our smallness, is the genuinely unsettling lesson: we were never the point of the exercise, because there was no exercise and no point. Vertigo of that kind is not humility. It is freedom from a flattering plot, which is a different and more useful thing.\n\nIt is also, increasingly, a practical matter. We now make commitments whose consequences will outlast every institution that made them: waste that must be kept from groundwater for tens of millennia, carbon whose effects will still be legible in the shells of creatures not yet evolved. Deep time has migrated from the lecture hall to the planning application. To think in epochs is no longer an exotic discipline for specialists; it is the minimum timescale of responsible decision, and our persistent failure to manage it is becoming the defining incompetence of the age.\n\nSo let the museum keep its compressed calendar, which at least administers the initial jolt. But the jolt is a beginning, not a conclusion. The interesting question was never how small we are against the immensity of time — a comparison that flatters us with its very drama — but what a creature this briefly influential owes to the long future it has started to write. Giddiness passes. What we do when it passes is the real lesson.",
+      "questions": [
+        { "stem": "What is the writer's attitude to the claim that geology teaches humility?", "options": ["He accepts it as the discipline's most important lesson.", "He dismisses it as an invention of museum curators.", "He regards it as a half-truth that obscures more than it reveals.", "He believes it applies only to professional geologists."], "answer": 2 },
+        { "stem": "The writer argues that the brevity of human existence", "options": ["is a poor guide to the scale of human influence", "proves that human concerns are ultimately trivial", "has been exaggerated by geologists", "makes long-term planning pointless"], "answer": 0 },
+        { "stem": "According to the writer, early resistance to deep time arose mainly because the idea", "options": ["contradicted careful measurements of rock formation", "threatened a story in which humanity held a central place", "was proposed by scientists of poor reputation", "required mathematics that few could follow"], "answer": 1 },
+        { "stem": "According to the writer, how did later popular accounts undermine the lesson of deep time?", "options": ["By denying the reliability of the rock record.", "By refusing to assign dates to geological events.", "By insisting that the Earth was younger than claimed.", "By recasting life's history as a progression leading to humanity."], "answer": 3 },
+        { "stem": "Why does the writer mention nuclear waste and carbon?", "options": ["To argue that geological training should be compulsory for planners.", "To show that deep time makes present-day dangers seem unimportant.", "To illustrate that thinking in vast timescales has become a practical necessity.", "To criticise industries for ignoring geological advice."], "answer": 2 },
+        { "stem": "In the final paragraph, the writer regards the 'compressed calendar' image as", "options": ["worthless and in need of retirement", "a useful starting point that must not be mistaken for the conclusion", "the best available summary of geology's moral lesson", "too complicated for general audiences to grasp"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "Read four short opinion pieces (A–D) on the same topic: whether the 'Anthropocene' — a proposed epoch defined by human influence — should be formally added to the geological timescale. Then answer the questions.",
+      "sources": [
+        { "label": "A", "text": "Stratigraphy is a bureaucracy of deep time, and proudly so: its epochs are ratified only when a signal is global, durable and legible in the rock, judged by criteria that have served for over a century. The proposed epoch is a few decades old — an eyeblink that would embarrass even the shortest unit we currently recognise — and the campaign for it is driven, quite openly, by the desire to make a political point. The point may even be a good one. But the moment our commission starts certifying arguments rather than strata, its rulings become just another opinion. The timescale commands respect precisely because it is dull, and dullness of that kind is worth defending." },
+        { "label": "B", "text": "Go to the sediment and look. The radionuclides from weapons testing form a layer detectable in lake beds and ice from pole to pole; add the plastics, the flying ash, the shifted isotopes of carbon and nitrogen, and you have a boundary marker as sharp as any golden spike the commission has ever ratified. By its own criteria, the case is made. What its defenders call neutrality is, in practice, a decision to leave the most consequential planetary signal of the era unnamed — and an institution that declines to name what its own methods plainly detect is not staying out of the argument. It is taking a side and calling it silence." },
+        { "label": "C", "text": "My hope is that the proposal fails — though not for the stratigraphers' reasons, which strike me as a fussy misreading of what the word is for. 'Anthropocene' does its work in essays, courtrooms and classrooms: it is a provocation, an accusation, an open question about responsibility. Formalise it, and the question closes; committees will fix its start date, police its definition, and file it between other epochs where it will trouble nobody. Some concepts are more valuable unratified, the way a case is more alive before the verdict. The term's refusal to sit still is not a defect awaiting correction. It is the entire point." },
+        { "label": "D", "text": "Before carving the name into the timescale, we might ask what it actually says. 'The age of humans' quietly distributes the blame across a species, most of whose members contributed almost nothing to the changes in question and many of whom bear their heaviest costs. The layers in the sediment were not laid down by humanity in general; they trace to particular systems of production, in particular places, over a particular century and a half. A label that converts those specifics into collective guilt is not neutral science; it is bad history. Whether the commission ratifies the term interests me far less than whether we keep mistaking it for an explanation." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which writer, unlike Writer A, believes the physical evidence meets the established criteria for defining a new epoch?", "answer": "B" },
+        { "stem": "Which writer reaches the same conclusion as Writer A about formal adoption, while rejecting the reasoning behind it?", "answer": "C" },
+        { "stem": "Which writer objects to the proposed name on the grounds that it obscures responsibility for the changes it describes?", "answer": "D" },
+        { "stem": "Which writer maintains that adopting the term would compromise the impartiality of a scientific institution?", "answer": "A" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+      "passage": "An archive written in ice\n\nEvery winter's snowfall on the great ice sheets settles, compresses and is buried by the next, until what began as weather becomes, over millennia, geology. Drill downwards and you drill backwards: each metre of core hauled to the surface is a page from an archive that nobody wrote and nothing has censored. (41)____\n\nThe bubbles are the prize. As snow turns to ice it seals tiny pockets of the atmosphere itself, so that a core is not merely a record of ancient climate but a physical sample of ancient air. (42)____\n\nReading the archive, however, is anything but straightforward. Annual layers, crisp near the surface, are squeezed ever thinner with depth until they blur together. (43)____\n\nWhat the cores revealed, once these difficulties were mastered, overturned a comfortable assumption. Climate, the record showed, does not always drift; sometimes it lurches, flipping between states within a human lifetime, occasionally within a decade. (44)____\n\nThe discovery transformed how scientists think about the machinery that governs the planet. (45)____\n\nThe deepest cores now reach back the better part of a million years, and plans exist to double that. (46)____ Somewhere beneath the ice, the archive keeps its counsel, page under page, waiting to be read.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "One such swing, recorded near the end of the last glaciation, saw temperatures over the ice sheet leap by something approaching ten degrees within a few decades — an instant, geologically speaking.",
+          "Locked in these pockets, the carbon dioxide of a hundred thousand years ago can be measured directly, with no modelling or inference required — an almost absurd stroke of scientific luck.",
+          "Similar techniques have since been applied to lake sediments and cave formations, though these lack the sealed samples of atmosphere that make the polar records unique.",
+          "A system capable of such behaviour, researchers realised, is not a dial that turns smoothly but a switch that can flip, and nobody can yet say precisely where the thresholds lie.",
+          "Worse, ice flows: the deepest layers have been stretched, folded and occasionally shuffled, so that the oldest pages of the book are also the most disordered.",
+          "The prize sought in that older ice is the answer to a specific puzzle: why the rhythm of the ice ages changed, around a million years ago, from a faster beat to a slower one.",
+          "The metaphor is hard to resist, and the drillers themselves use it freely, speaking of chapters, of missing pages, and of passages where the text has been smudged beyond recovery.",
+          "The first expeditions to cross the great ice sheets had no scientific ambitions at all, being driven almost entirely by national rivalry."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing paragraph:", "answer": "G" },
+        { "stem": "Choose the missing paragraph:", "answer": "B" },
+        { "stem": "Choose the missing paragraph:", "answer": "E" },
+        { "stem": "Choose the missing paragraph:", "answer": "A" },
+        { "stem": "Choose the missing paragraph:", "answer": "D" },
+        { "stem": "Choose the missing paragraph:", "answer": "F" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 8",
+      "instructions": "You are going to read four short pieces (A–D) by people whose work brings them into contact with vast stretches of time. Answer the questions by choosing the appropriate person.",
+      "sources": [
+        { "label": "A", "text": "Lena — field palaeontologist. Films have taught people that my job is the moment of discovery, but the moment is a rounding error; the real work is the year of preparation that follows, grain by grain, under a microscope. I will admit what the lectures leave out: luck is enormous. My career rests on a cliff collapsing the winter before I happened to walk beneath it. What I cannot forgive is the trade in fossils as ornaments, because a specimen ripped from its rock has been silenced — the surrounding stone, the position, the company it kept hold most of the information, and the bone alone is almost the least of it. Once, unwrapping a block in the lab, I understood I was the first living thing to set eyes on that animal in seventy million years. You do not sleep normally after a day like that." },
+        { "label": "B", "text": "Daniel — geochronologist. I run the laboratory that puts numbers on the past, and the numbers are better than they have ever been: debates that consumed careers a generation ago can now be settled in an afternoon on a clean sample. Two things spoil my satisfaction. The first is watching a date I published with a carefully stated uncertainty reappear in articles, and then in textbooks, stripped of its error bars and paraded as an exact fact. The second is subtler: colleagues arrive not wanting a date but wanting their date, the one their hypothesis needs, and the pressure is never stated and always felt. The machine does not care what anyone hopes. That indifference is the most useful thing in the building." },
+        { "label": "C", "text": "Amara — museum exhibition designer. My commission was a gallery about deep time, and my first three designs failed for the same reason: I kept stating the numbers, and numbers on that scale slide off the visitors like rain. What finally worked was space instead of speech — the gallery itself became the timeline, eighty metres of it, with all of written history compressed into a strip thinner than a fingernail beside the exit. Some of the scientific advisers grumble that I have simplified, and they are right; I have traded detail for a feeling, and I defend the trade, because a visitor who feels the scale wrongly understood is closer to the truth than one who reads it correctly and feels nothing. I know the room is working by the sound it makes. The sound is silence." },
+        { "label": "D", "text": "Henrik — repository planner. My team must mark a nuclear waste site so that it is left undisturbed for ten thousand years. Treat that as a feat of engineering and you will fail; the barriers are the easy part. The problem is that every language on the marker will die, every symbol will drift, and no organisation — church, state or company — has yet survived a tenth of the span we are designing for, so any plan that assumes a caretaker is fantasy. We considered menacing architecture and settled on redundancy: many messages, many forms, on the theory that we cannot prevent forgetting, only make it slower and less complete. Colleagues in the sciences find the timescale romantic. For me it is simply the specification, and the strangest client brief on Earth: a letter addressed to people who may never exist." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Lena", "Daniel", "Amara", "Henrik"] },
+      "questions": [
+        { "stem": "Which person treats immense stretches of time as a practical design constraint rather than a subject of wonder?", "answer": "D" },
+        { "stem": "Which person is under unspoken pressure to produce results that support a preferred conclusion?", "answer": "B" },
+        { "stem": "Which person defends conveying an accurate impression at the cost of scientific detail?", "answer": "C" },
+        { "stem": "Which person acknowledges that chance played a decisive part in their professional success?", "answer": "A" },
+        { "stem": "Which person doubts that any organisation can endure long enough to oversee their task?", "answer": "D" },
+        { "stem": "Which person judges the success of their work by an audience's wordless reaction?", "answer": "C" },
+        { "stem": "Which person complains that specimens are prized as objects while the information surrounding them is destroyed?", "answer": "A" },
+        { "stem": "Which person regrets that figures they produce are repeated without their stated uncertainties?", "answer": "B" },
+        { "stem": "Which person accepts that their goal is not to prevent an outcome but to slow it down?", "answer": "D" },
+        { "stem": "Which person describes a moment of direct, personal contact with the remote past?", "answer": "A" }
+      ]
+    }
+  ]
+}

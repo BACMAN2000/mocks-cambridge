@@ -1,0 +1,30 @@
+{
+  "title": "B1 Preliminary — Writing (Practice 11)",
+  "durationMin": 45,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in about 100 words.",
+      "tasks": [{
+        "type": "email", "minWords": 100,
+        "lead": "Read this email from Mr Okafor, the school librarian, and the notes you have made.",
+        "stimulus": { "head": "EMAIL", "title": "", "body": "From: Mr Okafor\nSubject: Library reading project\n\nDear Students,\n\nThe library is starting a reading project next term. Each student will recommend one book for other students to read and will make a poster about it.\n\nWhich book would you like to recommend, and why? We also need helpers to organise the book display. Are you interested?\n\nMr Okafor" },
+        "bullets": ["say which book you would recommend and why", "describe what you would put on your poster", "offer to help with the book display", "ask one question about the project"],
+        "write": "Write your email to Mr Okafor."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in about 100 words.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 100,
+          "lead": "You see this announcement in your school English-language magazine.",
+          "stimulus": { "title": "PAPER BOOKS OR E-BOOKS?", "body": "Some people love the feel of a real book, while others prefer reading on a screen. Which do you prefer, and why? Write an article and tell us. The best articles will be published next month." },
+          "bullets": ["whether you prefer paper books or e-books", "the reasons for your choice", "what you are reading at the moment"],
+          "write": "Write your article." },
+        { "type": "story", "q": 3, "minWords": 100,
+          "lead": "Your English teacher has asked you to write a story.",
+          "startSentence": "Inside the old library book, Tariq found a letter written fifty years ago.",
+          "stimulus": { "title": "", "body": "Your story must begin with this sentence:\n\nInside the old library book, Tariq found a letter written fifty years ago." },
+          "bullets": [],
+          "write": "Write your story." }
+      ]
+    }
+  ]
+}

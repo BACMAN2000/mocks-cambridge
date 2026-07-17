@@ -1,0 +1,241 @@
+{
+ "label": "B1 — Intermediate",
+ "cefr": "Cambridge PET · B1 official format",
+ "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+ "audios": [
+  {
+   "id": "B1-P1",
+   "title": "Part 1 · Questions 1–7",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+   "segments": [
+    "For the interview",
+    "The guest arrives",
+    "The weather report",
+    "Show time",
+    "A competition prize",
+    "Recording a report",
+    "Lost property"
+   ],
+   "scripts": [
+    "Question one. Girl: I'm interviewing the head teacher for the radio show today, Marcus. Should I take the big camera? Marcus: It's radio, Olivia — nobody sees anything! Just take your phone to record the sound. Olivia: Of course. Silly me.",
+    "Question two. Boy: Is the singer coming to the studio by car this afternoon? Woman: She wanted to, but there's nowhere to park near school, so she's cycling here instead. Boy: Cycling! Great — that can be my first question.",
+    "Question three. Boy: What's the weather report for the show, Grace? More rain? Grace: Not this time — tomorrow will be sunny all day, perfect for sports day. Boy: Fantastic, the listeners will be happy for once.",
+    "Question four. Girl: Does our show still start at four o'clock, Sam? Sam: Didn't you hear? The teachers' meeting finishes late, so we now go on air at half past four. Girl: Half past four. I'd better change the opening announcement.",
+    "Question five. Woman: What's the prize for the radio quiz this month, Jack? Another book? Jack: We wanted something more exciting, so the photography shop has given us a camera. Woman: A camera! Everyone will want to enter now.",
+    "Question six. Boy: Where shall we record the interviews about the new sports hall, Emma? The playground's too noisy. Emma: The librarian says we can use the library after lessons — it's the quietest room in school. Boy: Perfect, I'll book it.",
+    "Question seven. Man: Before you all go — someone left something in the studio yesterday. Girl: My umbrella! I looked for it everywhere at home. Man: Well, it's been next to the microphone all night. Please check your things before you leave, everyone."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What will Olivia take to the interview?",
+     "imgs": ["camera", "phone", "book"],
+     "c": 1,
+     "audio": "P18/B1/B1-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How is the singer coming to the studio?",
+     "imgs": ["car", "bus", "bike"],
+     "c": 2,
+     "audio": "P18/B1/B1-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will the weather be like tomorrow?",
+     "imgs": ["rainy", "sunny", "snowy"],
+     "c": 1,
+     "audio": "P18/B1/B1-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the show start today?",
+     "imgs": ["clock400", "clock430", "clock700"],
+     "c": 1,
+     "audio": "P18/B1/B1-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What is this month's quiz prize?",
+     "imgs": ["book", "guitar", "camera"],
+     "c": 2,
+     "audio": "P18/B1/B1-P1-q5.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where will they record the interviews?",
+     "imgs": ["library", "park", "cafe"],
+     "c": 0,
+     "audio": "P18/B1/B1-P1-q6.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What did the girl leave in the studio?",
+     "imgs": ["keys", "bag", "umbrella"],
+     "c": 2,
+     "audio": "P18/B1/B1-P1-q7.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P2",
+   "title": "Part 2 · Questions 8–13",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+   "segments": [
+    "The first show",
+    "A new programme",
+    "Choosing the music",
+    "Interviewing people",
+    "The listeners",
+    "A technical problem"
+   ],
+   "scripts": [
+    "You will hear a girl talking about presenting her first radio show. Girl: I wrote everything down, every single word, because I was sure my mind would go blank. And then, live on air, I knocked my notes off the desk! I had to talk without them — and strangely, that was when I finally sounded natural.",
+    "You will hear a teacher announcing a new programme. Teacher: From next week the station has a new Friday programme. It's not about music, and it's not sports news either — we get plenty of both already. It's a book programme, where students recommend what they're reading. If you'd like to take part, come and see me.",
+    "You will hear a boy who chooses music for the station. Boy: People think I just play my favourite songs, but it doesn't work like that. We have a request box in the hall, and my job is to build each show from what's in the box. Half the songs I play, I'd never choose myself — and that's exactly the point.",
+    "You will hear a girl talking about interviewing. Girl: My first interviews were terrible because I was so busy reading my next question that I never listened to the answers. Our teacher gave me one rule: prepare three questions only, then react to what you hear. My interviews improved overnight.",
+    "You will hear a boy talking about the station's listeners. Boy: We assumed only students listened, mainly in the lunch break. Then we ran a survey, and guess what — the kitchen staff listen every single day while they cook, and they even vote in our quizzes. Now we always say hello to them on air.",
+    "You will hear a woman talking about a problem during a show. Woman: Just as the head teacher started her big announcement, the microphone stopped working. Dead silence. Luckily our engineer, Hugo, had a spare one plugged in and ready, so we lost less than a minute. That's why we test everything twice before every show."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "When did the girl start to sound natural?",
+     "o": ["When she read her notes", "After she lost her notes", "Before the show began"],
+     "c": 1,
+     "audio": "P18/B1/B1-P2-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What will the new Friday programme be about?",
+     "o": ["Music", "Books", "Sports news"],
+     "c": 1,
+     "audio": "P18/B1/B1-P2-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How does the boy choose the music?",
+     "o": ["He plays his favourite songs", "He uses listeners' requests", "He asks the teachers"],
+     "c": 1,
+     "audio": "P18/B1/B1-P2-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What advice improved the girl's interviews?",
+     "o": ["Prepare fewer questions and listen", "Write every question down", "Read the answers carefully"],
+     "c": 0,
+     "audio": "P18/B1/B1-P2-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the survey show?",
+     "o": ["Only students listen", "The kitchen staff listen every day", "Nobody votes in the quizzes"],
+     "c": 1,
+     "audio": "P18/B1/B1-P2-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why was the problem solved so quickly?",
+     "o": ["The head teacher waited", "A spare microphone was ready", "The show was not live"],
+     "c": 1,
+     "audio": "P18/B1/B1-P2-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P3",
+   "title": "Part 3 · Questions 14–19",
+   "kind": "file",
+   "file": "P18/B1/B1-P3.mp3",
+   "intro": "You will hear a boy telling students about joining the school radio station. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Boy: Hi, everyone. I'm here to tell you about joining the school radio station. We're a friendly team, and this year we have space for twelve new members. The club meets every Tuesday — not in a classroom, but in the studio, which is the small room behind the school hall. Meetings start at half past three, straight after lessons, and finish around five. You don't need any experience, and it costs nothing to join, but you do need to fill in a form from the school office, and a parent has to sign it. New members spend their first month learning to use the equipment, and after that you can join a show team. This term our new members will make a programme about sport, so if you love football, basketball or swimming, this is your moment. Come and find us on Tuesday!"
+   ],
+   "gapTitle": "Join the School Radio Station",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Places for new members: ____",
+     "accept": ["12", "twelve"]
+    },
+    {
+     "type": "gap",
+     "label": "The club meets every: ____",
+     "accept": ["tuesday", "tuesdays"]
+    },
+    {
+     "type": "gap",
+     "label": "The studio is behind the school: ____",
+     "accept": ["hall"]
+    },
+    {
+     "type": "gap",
+     "label": "Meetings start at: half past ____",
+     "accept": ["3", "three"]
+    },
+    {
+     "type": "gap",
+     "label": "A parent must sign the: ____",
+     "accept": ["form"]
+    },
+    {
+     "type": "gap",
+     "label": "New members will make a programme about: ____",
+     "accept": ["sport", "sports"]
+    }
+   ]
+  },
+  {
+   "id": "B1-P4",
+   "title": "Part 4 · Questions 20–25",
+   "kind": "file",
+   "file": "P18/B1/B1-P4.mp3",
+   "intro": "You will hear an interview with a girl called Ruby, who runs her school's radio station. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Interviewer: With me today is Ruby, who runs her school radio station. Ruby, how did the station begin? Ruby: It already existed when I arrived, but it had been silent for two years — the equipment was just sitting in a cupboard. My music teacher mentioned it one day, almost as a joke, and I couldn't stop thinking about it. A month later we were back on air. Interviewer: What was the biggest challenge at the start? Ruby: Everyone expects me to say the old equipment, but most of it still worked fine. The real problem was convincing people to speak. Students would help behind the scenes happily, but the moment I offered them a microphone, they ran! Interviewer: How did you solve that? Ruby: By starting with interviews instead of solo shows. It's much less frightening to have a conversation than to talk alone into a microphone. After a term of interviewing, most of our shy helpers wanted their own programmes. Interviewer: What's been your proudest moment? Ruby: We ran a week of programmes made entirely by first-year students — I wasn't allowed to touch anything, those were my own rules. Hearing them solve their problems without me was better than any show I've ever made myself. Interviewer: Has running the station changed your plans for the future? Ruby: Completely. I always thought I'd study music, but now I want to study journalism. Asking questions turned out to be more exciting than playing songs. Interviewer: And what's next for the station? Ruby: We're recording interviews with people who worked at the school long ago — a sort of sound museum. Future students will be able to listen to the history of their own school."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What happened before Ruby restarted the station?",
+     "o": ["It had been silent for two years", "The equipment was thrown away", "A teacher was running it"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What was the biggest challenge at first?",
+     "o": ["Repairing the old equipment", "Getting students to speak on air", "Finding helpers for the station"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How did Ruby help shy students?",
+     "o": ["She gave them solo shows", "She started with interviews", "She let them work behind the scenes only"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Ruby most proud of?",
+     "o": ["A week of shows made by first-years", "Her own best programme", "Fixing problems for younger students"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How have Ruby's plans changed?",
+     "o": ["She now wants to study journalism", "She has decided to study music", "She wants to leave the station"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What is the station's next project?",
+     "o": ["A new music programme", "Recording the school's history", "Building a sound museum room"],
+     "c": 1
+    }
+   ]
+  }
+ ]
+}

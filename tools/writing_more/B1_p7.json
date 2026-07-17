@@ -1,0 +1,30 @@
+{
+  "title": "B1 Preliminary — Writing (Practice 7)",
+  "durationMin": 45,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in about 100 words.",
+      "tasks": [{
+        "type": "email", "minWords": 100,
+        "lead": "Read this email from your English-speaking friend Emma and the notes you have made.",
+        "stimulus": { "head": "EMAIL", "title": "", "body": "From: Emma\nSubject: Weekend trip!\n\nHi!\n\nMy family and I are planning a weekend trip at the end of the month, and my parents said I can invite you! We can't decide between the mountains and the beach — which would you prefer?\n\nWe'll leave on Saturday morning. Is that OK for you?\n\nEmma" },
+        "bullets": ["thank Emma for the invitation and accept", "say whether you prefer the mountains or the beach, and why", "confirm that Saturday morning is fine for you", "ask what you should bring on the trip"],
+        "write": "Write your email to Emma."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in about 100 words.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 100,
+          "lead": "You see this announcement in your school English-language magazine.",
+          "stimulus": { "title": "MY BEST DAY OUT EVER", "body": "Think about the best trip or day out you have ever had. Where did you go, and what made it so special? Write an article telling us all about it. The best articles will be published next month." },
+          "bullets": ["where you went and who you were with", "what you did there", "why it was so special"],
+          "write": "Write your article." },
+        { "type": "story", "q": 3, "minWords": 100,
+          "lead": "Your English teacher has asked you to write a story.",
+          "startSentence": "Halfway up the mountain, Ben realised they had taken the wrong path.",
+          "stimulus": { "title": "", "body": "Your story must begin with this sentence:\n\nHalfway up the mountain, Ben realised they had taken the wrong path." },
+          "bullets": [],
+          "write": "Write your story." }
+      ]
+    }
+  ]
+}

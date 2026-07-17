@@ -1,0 +1,34 @@
+{
+  "title": "B2 First — Writing (Practice 16)",
+  "durationMin": 80,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 140, "maxWords": 190,
+        "lead": "In your English class you have been talking about advertising. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+        "stimulus": { "body": "\"Advertising aimed at teenagers should be more strictly controlled. Do you agree?\"\n\nNotes\n\nWrite about:\n1. social media\n2. spending money\n3. ............... (your own idea)" },
+        "bullets": ["social media", "spending money", "your own idea", "give reasons for your point of view"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+      "tasks": [
+        { "type": "report", "q": 2, "minWords": 140, "maxWords": 190,
+          "lead": "Your media studies teacher is preparing a lesson on advertising and has asked you to write a report.",
+          "stimulus": { "title": "Report: the advertising students see every day", "body": "Describe where students at your school see most advertising during a normal day, explain which kinds of advert influence them most, and suggest one thing the school could teach students to help them judge adverts more critically." },
+          "bullets": ["where students see most advertising", "which adverts influence them most", "one thing the school could teach students"],
+          "write": "Write your report." },
+        { "type": "article", "q": 3, "minWords": 140, "maxWords": 190,
+          "lead": "You see this announcement in an English-language magazine for young people.",
+          "stimulus": { "title": "AN ADVERT I ACTUALLY ENJOYED", "body": "We usually skip adverts as fast as we can — but occasionally one makes us laugh, think or even cry. Write an article about an advert you genuinely enjoyed, describing it, explaining why it worked on you, and saying whether a good advert can ever be a piece of art." },
+          "bullets": ["describe the advert", "why it worked on you", "whether a good advert can be a piece of art"],
+          "write": "Write your article." },
+        { "type": "letter", "q": 4, "minWords": 140, "maxWords": 190,
+          "lead": "You have received this letter from your English-speaking friend Kim.",
+          "stimulus": { "body": "I need to confess something: I keep buying things that influencers recommend, and half of them turn out to be rubbish. Last month I wasted all my birthday money on a jacket that looked amazing online and awful on me. Why do I keep falling for it? How do you decide what's worth buying? Please share your wisdom!\nKim" },
+          "bullets": ["why people fall for influencer recommendations", "how you decide what is worth buying", "advice to help Kim spend more wisely"],
+          "write": "Write your letter in reply." }
+      ]
+    }
+  ]
+}

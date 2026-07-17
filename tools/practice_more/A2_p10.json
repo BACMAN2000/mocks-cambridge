@@ -1,0 +1,158 @@
+{
+  "title": "A2 Key — Reading and Writing (Practice 10)",
+  "note": "Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Fenton's Department Store",
+          "text": "OUR WINTER SALE STARTS SATURDAY. ALL COATS AND BOOTS 30% CHEAPER FOR ONE WEEK ONLY.",
+          "stem": "What does the notice say about the sale?",
+          "options": ["It lasts all winter.", "Everything in the store is cheaper.", "It begins on Saturday."],
+          "answer": 2
+        },
+        {
+          "kind": "message",
+          "header": "From: Aunt Rosa → To: Nina",
+          "text": "Nina, I'm at the supermarket. I've got everything on your mum's list, but they don't have any brown bread. Shall I get white bread instead, or nothing? Text me quickly!",
+          "stem": "What does Aunt Rosa want to know?",
+          "options": ["Where the shopping list is.", "Whether she should buy white bread.", "What time the supermarket closes."],
+          "answer": 1
+        },
+        {
+          "kind": "email",
+          "from": "Pages Bookshop",
+          "to": "Customers",
+          "subject": "Your order",
+          "body": "Dear customer, the book you ordered has arrived at our shop. You can collect it any day this week between 9 a.m. and 5.30 p.m. Please bring your order number with you. We can only keep the book for seven days.",
+          "stem": "What must the customer bring to the shop?",
+          "options": ["Their order number.", "The book they ordered.", "Some money for the postage."],
+          "answer": 0
+        },
+        {
+          "kind": "note",
+          "header": "Note for Ben",
+          "text": "Ben — Here's £10 for the market. Please buy six eggs and some apples. If there's money left, you can get yourself an ice cream. Bring back the change if you don't. — Mum",
+          "stem": "What can Ben do with any extra money?",
+          "options": ["Keep it in his room.", "Buy more apples.", "Buy an ice cream for himself."],
+          "answer": 2
+        },
+        {
+          "kind": "sign",
+          "header": "Corner Shop",
+          "text": "WE CANNOT ACCEPT NOTES BIGGER THAN £20. CARD PAYMENTS WELCOME FOR ANYTHING OVER £1.",
+          "stem": "What does the sign tell customers?",
+          "options": ["They cannot pay with a £50 note.", "Cards are never accepted.", "Everything costs less than £20."],
+          "answer": 0
+        },
+        {
+          "kind": "notice",
+          "header": "Silver Street Market",
+          "text": "THE MARKET WILL CLOSE AT 2 P.M. TODAY BECAUSE OF THE STREET FESTIVAL. OPEN AS NORMAL TOMORROW.",
+          "stem": "Why is the market closing early today?",
+          "options": ["It has sold everything.", "There is a festival in the street.", "It always closes at 2 p.m."],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "Read about three young people and shopping. For each question, choose the correct person (A, B or C). The people may be chosen more than once.",
+      "sources": [
+        {
+          "label": "A",
+          "name": "Daniel",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/9.jpg\" alt=\"Daniel\" loading=\"lazy\">",
+          "text": "I get pocket money every week for washing my dad's car and helping in the garden. I keep it all in a big glass jar in my bedroom. I'm saving for a new video game that comes out in the summer. Before I buy anything, I always compare prices online — sometimes the same game costs much less in a different shop."
+        },
+        {
+          "label": "B",
+          "name": "Keiko",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/57.jpg\" alt=\"Keiko\" loading=\"lazy\">",
+          "text": "I love clothes, but I almost never buy them new. My older sister and I go to second-hand shops in town on Saturdays. You have to look carefully, but you can find wonderful things. Once I found a beautiful jacket for two pounds! Shopping this way saves a lot of money, and I think it's better for the planet too."
+        },
+        {
+          "label": "C",
+          "name": "Omar",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/83.jpg\" alt=\"Omar\" loading=\"lazy\">",
+          "text": "On Sundays, my dad and I have a little table at the market where we sell my old toys and comics. I use the money for football stickers. My favourite part is talking to the customers — you meet all kinds of people at a market. When I grow up, I would like to have a real shop of my own."
+        }
+      ],
+      "questions": [
+        {"stem": "Which person earns money by helping at home?", "answer": "A"},
+        {"stem": "Which person would like to have a shop in the future?", "answer": "C"},
+        {"stem": "Which person buys clothes that are not new?", "answer": "B"},
+        {"stem": "Which person is saving for a game?", "answer": "A"},
+        {"stem": "Which person enjoys meeting the people who buy things?", "answer": "C"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the text about a girl who sold things at a market. Choose the correct answer A, B or C.",
+      "passage": "Emma is thirteen and loves making bracelets from coloured string. She learned how to make them from her cousin during the summer holidays, and soon her bedroom was full of them.\n\nOne day, Emma's mum saw all the bracelets and had an idea. There was a small market in their town every Saturday, and children could have a stall for free. Why didn't Emma try to sell some bracelets there?\n\nEmma was worried at first. What if nobody wanted to buy them? But her best friend Grace offered to help her, so she decided to try. They made a big sign, and Emma's dad lent them a little table.\n\nOn the first Saturday, it rained all morning and they only sold four bracelets. Emma wanted to give up, but Grace said they should try one more time. The next week, the sun was out and the market was full of people. They sold thirty bracelets in one day!\n\nEmma is saving the money for a new camera. She has also learned something important: things often go badly at first, but you should not stop trying.",
+      "questions": [
+        {"stem": "Who taught Emma to make bracelets?", "options": ["Her best friend.", "Her cousin.", "Her mother."], "answer": 1},
+        {"stem": "Whose idea was the market stall?", "options": ["Emma's.", "Grace's.", "Emma's mum's."], "answer": 2},
+        {"stem": "Why did Emma decide to try selling?", "options": ["Her friend offered to help her.", "She needed money quickly.", "Her dad told her to."], "answer": 0},
+        {"stem": "What happened on the first Saturday?", "options": ["They sold thirty bracelets.", "They only sold a few because of the rain.", "Nobody came to the market."], "answer": 1},
+        {"stem": "What is Emma going to do with the money?", "options": ["Buy more string.", "Give it to Grace.", "Buy a camera."], "answer": 2}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 4",
+      "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+      "title": "The History of Money",
+      "body": "Long ago, there was no money at all. If people (19)____ something, they had to change it for something else — for example, a farmer might give eggs to get shoes. This was slow and difficult, so people began to (20)____ things like shells and pieces of metal as money. The first coins were made about three thousand years (21)____ . Paper money came much later. Today, many people (22)____ for things with a card or a phone, and some people almost never use coins or notes. Money has changed a lot, (23)____ one thing stays the same: most of us would like a little (24)____ of it!",
+      "questions": [
+        {"options": ["wanted", "liked", "hoped", "asked"], "answer": 0},
+        {"options": ["make", "spend", "use", "buy"], "answer": 2},
+        {"options": ["before", "past", "since", "ago"], "answer": 3},
+        {"options": ["buy", "pay", "cost", "sell"], "answer": 1},
+        {"options": ["but", "so", "because", "or"], "answer": 0},
+        {"options": ["much", "many", "more", "lots"], "answer": 2}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 5",
+      "instructions": "For each gap (25–30), write ONE word.",
+      "title": "A message about a shopping trip",
+      "body": "Hi Leah,\n\nAre you free (25)____ Saturday? I need to buy a present (26)____ my brother's birthday, and I'd love your help.\n\nHe likes computer games, but I (27)____ not know which one to choose. You know much more about games (28)____ me!\n\nWe could meet outside the shopping centre (29)____ ten o'clock. Afterwards, I'll buy you a hot chocolate to say thank (30)____ .\n\nSee you soon,\nMia",
+      "questions": [
+        {"accept": ["on", "this"]},
+        {"accept": ["for"]},
+        {"accept": ["do"]},
+        {"accept": ["than"]},
+        {"accept": ["at"]},
+        {"accept": ["you"]}
+      ]
+    },
+    {
+      "type": "writing",
+      "part": "Part 6",
+      "prompts": [{
+        "kind": "email",
+        "instructions": "Your English friend Charlie has some birthday money to spend. Write an email to Charlie. In your email: suggest one thing Charlie could buy / say where Charlie can buy it / ask one question about Charlie's birthday.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    },
+    {
+      "type": "writing",
+      "part": "Part 7",
+      "prompts": [{
+        "kind": "story",
+        "instructions": "Write a story for your English class. Your story must begin with this sentence:\nWhen Anna opened her purse at the shop, she got a big surprise.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    }
+  ]
+}

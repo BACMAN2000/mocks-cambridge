@@ -1,0 +1,158 @@
+{
+  "title": "A2 Key — Reading and Writing (MOCK 5)",
+  "note": "Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Brown's Bakery",
+          "text": "WEEKEND HELPER WANTED. SATURDAYS ONLY, 8 A.M.–2 P.M. NO EXPERIENCE NEEDED — WE WILL TRAIN YOU. ASK FOR MARIA INSIDE.",
+          "stem": "Who should answer this notice?",
+          "options": ["Someone who can work every weekend and weekday.", "Someone who is free on Saturdays.", "Someone who has worked in a bakery before."],
+          "answer": 1
+        },
+        {
+          "kind": "message",
+          "header": "From: Dad → To: Katie",
+          "text": "Katie, I have to work late at the hospital tonight, so I can't take you to your guitar lesson. Ask your aunt for a lift — she finishes work at five. There's pasta in the fridge if you're hungry.",
+          "stem": "What does Katie's dad want her to do?",
+          "options": ["Ask her aunt to drive her to the lesson.", "Cook some pasta for the family.", "Come to the hospital at five o'clock."],
+          "answer": 0
+        },
+        {
+          "kind": "email",
+          "from": "Sunnyside Vet Clinic",
+          "to": "Jack Turner",
+          "subject": "Work experience week",
+          "body": "Dear Jack, we are happy to offer you a work experience place from 14 to 18 March. You will help feed the animals and clean their rooms, but you cannot give them medicine — only the vets do that. Please wear old clothes and bring your own lunch each day.",
+          "stem": "What will Jack do at the clinic?",
+          "options": ["Give medicine to sick animals.", "Buy lunch for the vets every day.", "Feed the animals and clean their rooms."],
+          "answer": 2
+        },
+        {
+          "kind": "note",
+          "header": "Note for Tomás",
+          "text": "Tomás — the manager phoned about your interview at the shoe shop. It's now Thursday at 4.30, not Wednesday. Wear something smart and take your school certificate with you. Good luck! — Rosa",
+          "stem": "What has changed about the interview?",
+          "options": ["The place where it will happen.", "The day it will happen.", "What Tomás should take with him."],
+          "answer": 1
+        },
+        {
+          "kind": "sign",
+          "header": "Staff Entrance — Milton's Department Store",
+          "text": "ALL STAFF MUST SHOW THEIR CARD AT THE DOOR. VISITORS SHOULD USE THE MAIN ENTRANCE ON KING STREET.",
+          "stem": "What must staff do?",
+          "options": ["Show a card when they come in.", "Enter through the main entrance.", "Wait for visitors on King Street."],
+          "answer": 0
+        },
+        {
+          "kind": "notice",
+          "header": "Harbour Café",
+          "text": "OUR KITCHEN IS SHORT OF STAFF THIS WEEK, SO HOT MEALS MAY TAKE UP TO 30 MINUTES. SANDWICHES AND CAKES ARE READY IMMEDIATELY. THANK YOU FOR WAITING.",
+          "stem": "What does the notice tell customers?",
+          "options": ["The café is closed this week.", "Sandwiches take thirty minutes to prepare.", "Hot food may be slower than usual."],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "Read about three young people and the jobs they do at the weekend or after school. For each question, choose the correct person (A, B or C). The people may be chosen more than once.",
+      "sources": [
+        {
+          "label": "A",
+          "name": "Priya",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/51.jpg\" alt=\"Priya\" loading=\"lazy\">",
+          "text": "I deliver newspapers in my street every morning before school. The worst part is getting out of bed at six o'clock — in winter it's still dark! But I like being outside when the town is quiet, and the dogs on my street all know me now. I'm saving all the money for a laptop, and I nearly have enough."
+        },
+        {
+          "label": "B",
+          "name": "Marco",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/45.jpg\" alt=\"Marco\" loading=\"lazy\">",
+          "text": "My family has a small restaurant, and I help there on Fridays and Saturdays. I take orders and carry plates, and sometimes I help in the kitchen. My favourite thing is chatting with visitors from different countries — I've learned words in five languages! When I'm older, I want to open a restaurant of my own by the sea."
+        },
+        {
+          "label": "C",
+          "name": "Amy",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/23.jpg\" alt=\"Amy\" loading=\"lazy\">",
+          "text": "I walk dogs for people in my street after school. It started last year when my neighbour broke her leg and couldn't take her dog out, and soon other people asked me too. I love animals, so it's perfect, though rainy days are hard work. Every pound I earn pays for my horse-riding lessons on Sundays."
+        }
+      ],
+      "questions": [
+        {"stem": "Which person started their job because someone was hurt?", "answer": "C"},
+        {"stem": "Which person finds it hard to get up early?", "answer": "A"},
+        {"stem": "Which person enjoys talking to people from other countries?", "answer": "B"},
+        {"stem": "Which person uses the money they earn for another hobby?", "answer": "C"},
+        {"stem": "Which person hopes to have their own business one day?", "answer": "B"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the text about a man who changed his job. Choose the correct answer A, B or C.",
+      "passage": "When David was at school, everyone thought he would work in a bank like his father. He was good at maths, and his father often took him to the office during the holidays. But David had a secret dream: he wanted to cook.\n\nAfter leaving school, David did work in a bank for two years. The money was good, but he was bored. Every evening he went home and cooked dinner for his flatmates, trying new dishes from books and the internet. His friends told him his food was better than in many restaurants.\n\nOne day, David saw a card in the window of a small restaurant near his flat. The owner needed a kitchen helper at weekends. The pay was low and the hours were long, but David took the job. For six months he worked in the bank during the week and in the restaurant kitchen every weekend, and he was often tired.\n\nFinally, the restaurant owner offered him a full-time job as a junior cook. David's father was surprised, but not angry. 'I knew you never really loved the bank,' he laughed.\n\nDavid has now worked at the restaurant for three years. He earns less than before, but he says he is much happier. Next month, for the first time, the owner is letting him put one of his own dishes on the menu.",
+      "questions": [
+        {"stem": "Why did people expect David to work in a bank?", "options": ["His father worked in one and David was good at maths.", "He often dreamed about banks as a child.", "He needed the money to buy cooking books."], "answer": 0},
+        {"stem": "How did David feel about his job at the bank?", "options": ["He wanted to stay there for ever.", "He was too tired to do it well.", "It paid well but he found it boring."], "answer": 2},
+        {"stem": "How did David find out about the restaurant job?", "options": ["A friend told him about it.", "He saw a notice in the window.", "The owner phoned him at the bank."], "answer": 1},
+        {"stem": "Why was David often tired for six months?", "options": ["He was doing two jobs at the same time.", "He cooked dinner for his flatmates every evening.", "He worked very long hours at the bank."], "answer": 0},
+        {"stem": "What is going to happen next month?", "options": ["David will open his own restaurant.", "David will start earning more than at the bank.", "One of David's own dishes will be on the menu."], "answer": 2}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 4",
+      "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+      "title": "Working at night",
+      "body": "Most people work during the day, but some jobs have to be done (19)____ night. Nurses, police officers and bakers often start work when everyone (20)____ is going to bed. Doctors say that night workers should try to sleep at (21)____ seven hours during the day, but this can be difficult, especially in summer. Bakers, for example, usually begin at three in the morning, so the bread is ready (22)____ the shops open. Many night workers say the streets are quiet and they enjoy the peace. Others miss their families and would (23)____ work in the daytime. It is not an easy life, but without these workers, our towns could not (24)____ going day and night.",
+      "questions": [
+        {"options": ["in", "on", "by", "at"], "answer": 3},
+        {"options": ["other", "else", "another", "others"], "answer": 1},
+        {"options": ["least", "last", "first", "most"], "answer": 0},
+        {"options": ["yet", "ago", "before", "still"], "answer": 2},
+        {"options": ["prefer", "like", "better", "rather"], "answer": 3},
+        {"options": ["stay", "keep", "hold", "go"], "answer": 1}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 5",
+      "instructions": "For each gap (25–30), write ONE word.",
+      "title": "A message about a Saturday job",
+      "body": "Hi Lena,\n\nGreat news — I got the job (25)____ the sports shop in town! I start (26)____ Saturday at nine o'clock.\n\nThe manager said I will (27)____ to wear a blue T-shirt, but the shop gives it to me for free. I (28)____ know how much money I will get yet, but that doesn't matter — I'm just so happy!\n\n(29)____ you come and see me during my lunch break? There is a nice café next (30)____ the shop.\n\nSee you soon,\nRuth",
+      "questions": [
+        {"accept": ["at", "in"]},
+        {"accept": ["on", "this", "next"]},
+        {"accept": ["have", "need"]},
+        {"accept": ["don't"]},
+        {"accept": ["can", "could", "will", "would"]},
+        {"accept": ["to"]}
+      ]
+    },
+    {
+      "type": "writing",
+      "part": "Part 6",
+      "prompts": [{
+        "kind": "email",
+        "instructions": "Your English friend Pat asked you about the job you would like to do in the future. Write an email to Pat. In your email: say what job you would like to do / explain why you would like it / ask Pat about their dream job.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    },
+    {
+      "type": "writing",
+      "part": "Part 7",
+      "prompts": [{
+        "kind": "story",
+        "instructions": "Write a story for your English class. Your story must begin with this sentence:\nOn Maya's first day at her new job, something surprising happened.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    }
+  ]
+}

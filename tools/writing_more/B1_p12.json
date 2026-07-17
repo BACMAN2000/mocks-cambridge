@@ -1,0 +1,30 @@
+{
+  "title": "B1 Preliminary — Writing (Practice 12)",
+  "durationMin": 45,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in about 100 words.",
+      "tasks": [{
+        "type": "email", "minWords": 100,
+        "lead": "Read this email from your English teacher, Ms Duval, and the notes you have made.",
+        "stimulus": { "head": "EMAIL", "title": "", "body": "From: Ms Duval\nSubject: Our new class blog\n\nDear Class,\n\nGreat news — our class is going to start a blog in English! We will post about school life, hobbies and local news.\n\nI need to know what you would like to write about. I'm also looking for two students to take photos for the blog. Would you like to be one of them?\n\nMs Duval" },
+        "bullets": ["say what topic you would like to write about and why", "offer to take photos for the blog", "suggest a name for the blog", "ask one question about how the blog will work"],
+        "write": "Write your email to Ms Duval."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in about 100 words.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 100,
+          "lead": "You see this announcement in your school English-language magazine.",
+          "stimulus": { "title": "MY LIFE ONLINE", "body": "How do you use the internet in your daily life — for homework, games, videos or chatting with friends? Write an article about what you do online and what you enjoy most. The best articles will be published next month." },
+          "bullets": ["what you usually do online", "what you enjoy most and why", "one thing you would like to change about how you use the internet"],
+          "write": "Write your article." },
+        { "type": "story", "q": 3, "minWords": 100,
+          "lead": "Your English teacher has asked you to write a story.",
+          "startSentence": "When Elif turned on her computer that morning, there was a message she did not expect.",
+          "stimulus": { "title": "", "body": "Your story must begin with this sentence:\n\nWhen Elif turned on her computer that morning, there was a message she did not expect." },
+          "bullets": [],
+          "write": "Write your story." }
+      ]
+    }
+  ]
+}

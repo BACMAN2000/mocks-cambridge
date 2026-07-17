@@ -1,0 +1,158 @@
+{
+  "title": "A2 Key — Reading and Writing (Practice 16)",
+  "note": "Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Lakeside School",
+          "text": "SPORTS DAY IS MOVED TO THURSDAY BECAUSE OF TOMORROW'S STORM. ALL RACES WILL HAPPEN AS PLANNED, JUST TWO DAYS LATER.",
+          "stem": "Why has sports day changed?",
+          "options": ["The teachers are busy tomorrow.", "Bad weather is coming.", "The races are cancelled."],
+          "answer": 1
+        },
+        {
+          "kind": "message",
+          "header": "From: Gran → To: Poppy",
+          "text": "Poppy, it's going to be very hot today — over 30 degrees! If you're cycling to the beach, please take your water bottle and wear your hat. Put on sun cream before you leave, not when you get there.",
+          "stem": "When should Poppy put on sun cream?",
+          "options": ["Before leaving home.", "When she gets to the beach.", "After swimming."],
+          "answer": 0
+        },
+        {
+          "kind": "email",
+          "from": "Snowline Ski School",
+          "to": "Parents",
+          "subject": "Saturday's lesson",
+          "body": "Dear parents, there has not been enough snow this week, so Saturday's beginners' lesson will be an indoor lesson about safety and equipment instead. Same time, same place. Children should still bring their warm jackets, as the building is cold.",
+          "stem": "What will happen on Saturday?",
+          "options": ["The lesson is cancelled.", "Children will ski on the mountain.", "There will be an indoor lesson."],
+          "answer": 2
+        },
+        {
+          "kind": "note",
+          "header": "Note for Ash",
+          "text": "Ash — The weather forecast says heavy rain this afternoon. Please close all the upstairs windows before you leave for school, and bring the washing in from the garden if it isn't dry. — Mum",
+          "stem": "What must Ash do before school?",
+          "options": ["Hang the washing outside.", "Close the upstairs windows.", "Watch the weather forecast."],
+          "answer": 1
+        },
+        {
+          "kind": "sign",
+          "header": "Bay Beach",
+          "text": "RED FLAG TODAY: STRONG WIND AND BIG WAVES. NO SWIMMING. THE BEACH SHOP AND CAFÉ ARE OPEN AS USUAL.",
+          "stem": "What can people do at the beach today?",
+          "options": ["Swim near the flag.", "Only swim in the morning.", "Visit the shop and café."],
+          "answer": 2
+        },
+        {
+          "kind": "notice",
+          "header": "Elm Street Garden Centre",
+          "text": "SPRING IS COMING! FLOWER SEEDS ARE NOW HALF PRICE. FREE PLANTING LESSON EVERY SUNDAY AT 11 A.M. — NO BOOKING NEEDED.",
+          "stem": "What happens at 11 a.m. on Sundays?",
+          "options": ["A free planting lesson.", "Seeds go on sale.", "The centre opens."],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "Read about three young people and their favourite season. For each question, choose the correct person (A, B or C). The people may be chosen more than once.",
+      "sources": [
+        {
+          "label": "A",
+          "name": "Astrid",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/72.jpg\" alt=\"Astrid\" loading=\"lazy\">",
+          "text": "Winter is the best season, no question! I live in the north, where it snows for three months. Every weekend, my dad and I go skating on the frozen lake near our house. The only thing I don't like is when the snow in town turns brown and dirty from the cars. On the lake, it stays beautiful and white."
+        },
+        {
+          "label": "B",
+          "name": "Mateo",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/4.jpg\" alt=\"Mateo\" loading=\"lazy\">",
+          "text": "For me, nothing beats summer. My family has a little house by the sea, and we stay there for six weeks every year. I swim in the sea every single morning, even before breakfast. In the evenings, we eat outside and play cards until it gets dark. I never want summer to end."
+        },
+        {
+          "label": "C",
+          "name": "Yuki",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/44.jpg\" alt=\"Yuki\" loading=\"lazy\">",
+          "text": "I love autumn most of all. When the leaves turn red and gold, I take my camera to the forest and walk for hours taking photos. My birthday is in October too, so that makes autumn even more special. I also like wearing warm jumpers again after the hot summer."
+        }
+      ],
+      "questions": [
+        {"stem": "Which person likes taking photos?", "answer": "C"},
+        {"stem": "Which person does a sport on ice?", "answer": "A"},
+        {"stem": "Which person spends their holidays by the sea?", "answer": "B"},
+        {"stem": "Which person has a birthday in their favourite season?", "answer": "C"},
+        {"stem": "Which person says there is one thing they don't like about their favourite season?", "answer": "A"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the text about a snowy day. Choose the correct answer A, B or C.",
+      "passage": "One Friday morning in January, Alex woke up and noticed that his bedroom seemed strangely bright. When he looked out of the window, he understood why: everything was white. It had snowed all night, and the snow was still falling.\n\nAt breakfast, Alex's mum checked the school website. The school was closed for the day because the buses could not travel on the snowy roads. Alex and his little sister Mia cheered so loudly that the cat ran out of the room.\n\nThe children spent the whole morning in the park with their neighbours. They built a snowman with a carrot nose, and Alex won the snowball fight against the older kids from next door. Mia mostly ate the snow, which their mum said she should not do.\n\nIn the afternoon, they helped their elderly neighbour, Mr Field, by clearing the snow from his path. He thanked them with hot chocolate and told them stories about the great snow of 1982, when the snow reached the top of the cars.\n\nBy Sunday, the snow had turned to grey rain, and on Monday, school was open again. Alex didn't mind too much. His teacher asked the class to write about their weekend — and for once, Alex had plenty to say.",
+      "questions": [
+        {"stem": "Why did Alex's bedroom seem bright?", "options": ["Snow had fallen in the night.", "His mum had turned the light on.", "He had woken up very late."], "answer": 0},
+        {"stem": "Why was the school closed?", "options": ["The teachers were ill.", "The heating was broken.", "Buses could not use the roads."], "answer": 2},
+        {"stem": "What did Alex do in the park?", "options": ["He ate the snow.", "He won a snowball fight.", "He fell over on the ice."], "answer": 1},
+        {"stem": "How did Mr Field thank the children?", "options": ["He gave them some money.", "He spoke to their mum.", "He made them hot chocolate."], "answer": 2},
+        {"stem": "Why was Alex happy at school on Monday?", "options": ["He had a lot to write about.", "It was snowing again.", "The teacher cancelled the homework."], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 4",
+      "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+      "title": "Rainbows",
+      "body": "Have you ever seen a rainbow? You can only see one when the sun and rain appear at the same (19)____ . Sunlight looks white, but it is really made of many colours. When light (20)____ through drops of rain, it breaks into these colours, and we see them in the sky. A rainbow always shows its colours in the same (21)____ , with red at the top. To see one, you must (22)____ with your back to the sun. Some lucky people have seen a double rainbow — two bows, one (23)____ the other. Old stories say there is gold at the end of a rainbow, but sadly you can never (24)____ there: as you walk, the rainbow moves too!",
+      "questions": [
+        {"options": ["day", "hour", "time", "moment"], "answer": 2},
+        {"options": ["walks", "passes", "crosses", "runs"], "answer": 1},
+        {"options": ["line", "list", "way", "order"], "answer": 3},
+        {"options": ["stand", "sit", "look", "stay"], "answer": 0},
+        {"options": ["under", "next", "above", "on"], "answer": 2},
+        {"options": ["come", "get", "reach", "go"], "answer": 1}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 5",
+      "instructions": "For each gap (25–30), write ONE word.",
+      "title": "A message from a campsite",
+      "body": "Hi Ben,\n\nWe arrived at the campsite yesterday. The weather was terrible — it rained (25)____ day! We had to play cards inside the tent.\n\nToday is much better. The sun (26)____ shining, and it's warm. We are going to walk to the top (27)____ the hill this afternoon.\n\nDad says it might (28)____ windy tomorrow, so we will fly our new kite (29)____ the beach.\n\nI'll see you (30)____ Sunday when we get back.\nYour friend,\nEthan",
+      "questions": [
+        {"accept": ["all"]},
+        {"accept": ["is"]},
+        {"accept": ["of"]},
+        {"accept": ["be", "get", "turn"]},
+        {"accept": ["on", "at", "by"]},
+        {"accept": ["on", "this"]}
+      ]
+    },
+    {
+      "type": "writing",
+      "part": "Part 6",
+      "prompts": [{
+        "kind": "email",
+        "instructions": "Your English friend Charlie is visiting your town next month. Write an email to Charlie. In your email: say what the weather is usually like then / tell Charlie what clothes to bring / suggest one thing you can do together outside.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    },
+    {
+      "type": "writing",
+      "part": "Part 7",
+      "prompts": [{
+        "kind": "story",
+        "instructions": "Write a story for your English class. Your story must begin with this sentence:\nWhen Sara opened the curtains that morning, the garden was completely white.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    }
+  ]
+}

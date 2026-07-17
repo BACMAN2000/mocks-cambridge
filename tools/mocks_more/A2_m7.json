@@ -1,0 +1,158 @@
+{
+  "title": "A2 Key — Reading and Writing (MOCK 7)",
+  "note": "Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Silver Street Community Hall",
+          "text": "SUMMER STREET PARTY — SATURDAY 21 JUNE. EVERY FAMILY IS ASKED TO BRING ONE PLATE OF FOOD TO SHARE. DRINKS AND MUSIC ARE PROVIDED.",
+          "stem": "What should each family bring to the party?",
+          "options": ["Some food for everyone to share.", "Their own drinks.", "Some music to play."],
+          "answer": 0
+        },
+        {
+          "kind": "message",
+          "header": "From: Aunt Carla → To: Nina",
+          "text": "Nina, Grandpa's 80th birthday dinner is still a secret, so please don't say anything to him! Just tell him we're taking him to the cinema on Sunday. Everyone will be waiting at the restaurant.",
+          "stem": "What must Nina keep secret from Grandpa?",
+          "options": ["That the family is going to the cinema.", "That there will be a dinner for him.", "That his birthday is on Sunday."],
+          "answer": 1
+        },
+        {
+          "kind": "email",
+          "from": "Miss Lane",
+          "to": "Class 6 parents",
+          "subject": "End-of-year show",
+          "body": "Dear parents, our end-of-year show is on Thursday 17 July at 6 p.m. in the school hall. Children must arrive by 5.15 to get dressed. Each family may bring two guests, as the hall is small. Photos are allowed, but please do not use flash during the songs.",
+          "stem": "What does the email say about photos?",
+          "options": ["They are not allowed in the hall.", "Each family may take only two photos.", "People can take them, but without flash during the songs."],
+          "answer": 2
+        },
+        {
+          "kind": "note",
+          "header": "Note for Josh",
+          "text": "Josh — the cake for Mum's party isn't ready yet. The baker will phone this afternoon. When she calls, please go and collect it — the money is in the blue jar. I'll be at work until six. — Dad",
+          "stem": "When should Josh collect the cake?",
+          "options": ["After the baker telephones.", "At six o'clock, when Dad finishes work.", "This morning, before the party."],
+          "answer": 0
+        },
+        {
+          "kind": "sign",
+          "header": "Rosewood Gardens",
+          "text": "WEDDING TODAY IN THE ROSE GARDEN, 2–4 P.M. THIS PART OF THE GARDENS WILL BE CLOSED TO VISITORS. ALL OTHER AREAS ARE OPEN AS USUAL.",
+          "stem": "What does the sign mean?",
+          "options": ["The gardens are closed for the whole day.", "Visitors are welcome to watch the wedding.", "Visitors cannot enter one part of the gardens this afternoon."],
+          "answer": 2
+        },
+        {
+          "kind": "notice",
+          "header": "Newtown Library",
+          "text": "THE LIBRARY IS 100 YEARS OLD THIS MONTH! JOIN OUR BIRTHDAY AFTERNOON ON 28 MAY: CAKE, STORIES AND A SMALL GIFT FOR EVERY CHILD. NO NEED TO BOOK.",
+          "stem": "What does the notice say about the birthday afternoon?",
+          "options": ["Children must book a place first.", "Everyone can simply come along.", "Every child should bring a small gift."],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "Read about three young people and a celebration they remember. For each question, choose the correct person (A, B or C). The people may be chosen more than once.",
+      "sources": [
+        {
+          "label": "A",
+          "name": "Mateo",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/29.jpg\" alt=\"Mateo\" loading=\"lazy\">",
+          "text": "Last summer I went to my cousin's wedding in Mexico. There were hundreds of guests, and I met aunts, uncles and cousins I had never seen in my life! I had to wear a suit, which felt terrible in the heat, but I forgot about it when the music started. We danced until after midnight — even my grandfather!"
+        },
+        {
+          "label": "B",
+          "name": "Yuki",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/72.jpg\" alt=\"Yuki\" loading=\"lazy\">",
+          "text": "Every New Year we go to my grandparents' house in the mountains. The special food takes two days to prepare, and last year I helped to cook it for the first time — my grandmother taught me. It's a quiet celebration, just our family, and on the first morning of the year we get up early to watch the sun rise together."
+        },
+        {
+          "label": "C",
+          "name": "Ella",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/33.jpg\" alt=\"Ella\" loading=\"lazy\">",
+          "text": "The best day of my year is our town's summer festival. I play the drum in the band that walks at the front of the parade, and we practise every week for months before the big day. Last year it rained all afternoon, but nobody went home! A photo of me with my drum was in the local newspaper."
+        }
+      ],
+      "questions": [
+        {"stem": "Which person met relatives for the first time at the celebration?", "answer": "A"},
+        {"stem": "Which person prepares for the celebration for months?", "answer": "C"},
+        {"stem": "Which person helped to make the special food?", "answer": "B"},
+        {"stem": "Which person celebrates with only a small group of people?", "answer": "B"},
+        {"stem": "Which person wore clothes that were not comfortable?", "answer": "A"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the text about a girl's special birthday. Choose the correct answer A, B or C.",
+      "passage": "Amira's twelfth birthday was in the middle of August, and for weeks she planned a party in her garden. She invited ten friends, and her father promised to cook burgers outside. The day before the party, Amira and her mother made a huge chocolate cake and hung coloured lights in the trees.\n\nBut on the morning of her birthday, Amira woke up to the sound of heavy rain. She looked out of the window and wanted to cry. The garden was full of water, and the lights hung sadly from the wet branches. Her mother said they could move everything inside, but their sitting room was far too small for so many people.\n\nThen their neighbour, Mr Okafor, knocked at the door. He had heard about the problem from Amira's father. Mr Okafor owned the small café at the end of the street, which was always closed on Sundays. He said Amira could have her party there — and he wouldn't take any money, because Amira often helped him carry his shopping home.\n\nBy three o'clock, the café was full of balloons and music. Amira's father cooked in the café kitchen instead of the garden, and when Amira carried in the chocolate cake, all her friends sang loudly. 'It was better than the garden,' Amira said afterwards. 'And now we have a funny story to tell every year.'",
+      "questions": [
+        {"stem": "What did Amira and her mother do the day before the party?", "options": ["They cooked burgers in the garden.", "They moved the party inside the house.", "They made a cake and put up lights."], "answer": 2},
+        {"stem": "Why couldn't the party happen inside Amira's house?", "options": ["Her father was cooking there.", "The sitting room was too small.", "The lights didn't work inside."], "answer": 1},
+        {"stem": "Why didn't Mr Okafor want any money for the café?", "options": ["Amira often helped him with his shopping.", "The café was going to close for ever.", "Amira's father had already paid him."], "answer": 0},
+        {"stem": "How did Mr Okafor know about Amira's problem?", "options": ["Amira knocked on his door to tell him.", "He saw the wet garden from the street.", "Amira's father told him about it."], "answer": 2},
+        {"stem": "What did Amira think about the party in the end?", "options": ["It was worse than a party in the garden.", "It was even better than her first plan.", "It was too noisy with all the singing."], "answer": 1}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 4",
+      "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+      "title": "Birthdays around the world",
+      "body": "People celebrate birthdays in different ways around the world. In some countries, parents (19)____ the birthday child choose the family dinner. In others, friends pull the child's ears once for every year of (20)____ age! Many families put candles on a cake — one candle (21)____ each year — and the child must blow them all out at the same time, (22)____ their wish will not come true. In Denmark, people put a flag outside the house (23)____ everyone knows there is a birthday inside. But one thing is the same everywhere: birthdays help us remember (24)____ important our families and friends are.",
+      "questions": [
+        {"options": ["allow", "leave", "want", "let"], "answer": 3},
+        {"options": ["its", "his", "their", "our"], "answer": 2},
+        {"options": ["by", "for", "with", "from"], "answer": 1},
+        {"options": ["or", "and", "but", "so"], "answer": 0},
+        {"options": ["because", "if", "so", "when"], "answer": 2},
+        {"options": ["what", "very", "much", "how"], "answer": 3}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 5",
+      "instructions": "For each gap (25–30), write ONE word.",
+      "title": "An invitation to a party",
+      "body": "Hi Daisy,\n\nNext Saturday it is my sister's birthday, and we are having a party (25)____ our house. Would you like (26)____ come? It starts (27)____ four o'clock in the afternoon.\n\nYou don't need to bring a present, but my sister loves flowers, so maybe we could buy (28)____ together?\n\nMy mum is making pizza, and there will (29)____ a big chocolate cake too.\n\nPlease tell me if you can come. I hope to see you (30)____!\n\nLove,\nCarmen",
+      "questions": [
+        {"accept": ["at", "in"]},
+        {"accept": ["to"]},
+        {"accept": ["at"]},
+        {"accept": ["some", "them"]},
+        {"accept": ["be"]},
+        {"accept": ["there", "soon", "then"]}
+      ]
+    },
+    {
+      "type": "writing",
+      "part": "Part 6",
+      "prompts": [{
+        "kind": "email",
+        "instructions": "It was your birthday last weekend. Write an email to your English friend Jo. In your email: say how you celebrated your birthday / tell Jo about your favourite present / invite Jo to your next party.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    },
+    {
+      "type": "writing",
+      "part": "Part 7",
+      "prompts": [{
+        "kind": "story",
+        "instructions": "Write a story for your English class. Your story must begin with this sentence:\nWhen Ana arrived home, all the lights in the house were off.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    }
+  ]
+}

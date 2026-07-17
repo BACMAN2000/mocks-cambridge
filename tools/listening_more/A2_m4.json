@@ -1,0 +1,307 @@
+{
+ "label": "A2 — Elementary",
+ "cefr": "Cambridge KET · A2 official format",
+ "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+ "audios": [
+  {
+   "id": "A2-P1",
+   "title": "Part 1 · Questions 1–5",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+   "segments": [
+    "When it all starts",
+    "Getting to the field",
+    "After the races",
+    "The forecast",
+    "Nearly forgotten"
+   ],
+   "scripts": [
+    "Question one. Girl: Sports day starts at eight tomorrow, doesn't it? Boy: That's when the gates open. The races don't start until nine. Girl: So if we arrive at half past eight, we'll still have time. Boy: Exactly.",
+    "Question two. Boy: Is your mum driving you to the sports field? Girl: She was going to, but her car won't start. The bus doesn't stop near the field, so I'm cycling. Boy: See you at the gate, then.",
+    "Question three. Girl: Dad's making his famous pizza after sports day, right? Boy: He wanted to, but the oven's broken. Mum bought a big chocolate cake instead. Girl: Even better!",
+    "Question four. Woman: They said sports day might be cancelled because of rain. Man: That was yesterday's forecast. Now they say it'll be sunny all morning. Woman: The children will be so happy.",
+    "Question five. Mum: Have you got everything for sports day, Jack? Boy: Bag, water, phone… oh no, my cap for the sun! Mum: Take your dad's hat — it's hanging on the door."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What time do the races start?",
+     "imgs": [
+      "clock8",
+      "clock830",
+      "clock9"
+     ],
+     "c": 2,
+     "audio": "M4/A2/A2-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will the girl get to the sports field?",
+     "imgs": [
+      "bus",
+      "bike",
+      "car"
+     ],
+     "c": 1,
+     "audio": "M4/A2/A2-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will they eat after sports day?",
+     "imgs": [
+      "pizza",
+      "sandwich",
+      "cake"
+     ],
+     "c": 2,
+     "audio": "M4/A2/A2-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will the weather be like on sports day?",
+     "imgs": [
+      "rainy",
+      "sunny",
+      "snowy"
+     ],
+     "c": 1,
+     "audio": "M4/A2/A2-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will Jack take to protect him from the sun?",
+     "imgs": [
+      "bag",
+      "phone",
+      "hat"
+     ],
+     "c": 2,
+     "audio": "M4/A2/A2-P1-q5.mp3"
+    }
+   ]
+  },
+  {
+   "id": "A2-P2",
+   "title": "Part 2 · Questions 6–10",
+   "kind": "file",
+   "file": "M4/A2/A2-P2.mp3",
+   "intro": "You will hear a coach giving information about sports day. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+   "scripts": [
+    "Listen to a coach giving information about sports day. Coach: Right, everyone, some changes for Friday's sports day. It usually takes place at the school field, but this year we're using Mill Park, because our field is being repaired. Races begin at nine thirty — not nine, as it says on the posters. Each runner gets a number at the white tent; my helper, Mrs Kelly, will be there from nine o'clock. Wear your yellow team shirt, not the blue one — the blue shirts are for the swimming team. And bring a bottle of water, because it's going to be a warm day."
+   ],
+   "gapTitle": "Sports Day — Important Changes",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Place this year: ____ Park",
+     "accept": [
+      "mill"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Races begin at: ____",
+     "accept": [
+      "9:30",
+      "9.30",
+      "930",
+      "nine thirty",
+      "half past nine"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Get your number from: Mrs ____",
+     "accept": [
+      "kelly"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Wear the ____ team shirt",
+     "accept": [
+      "yellow"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Bring a bottle of: ____",
+     "accept": [
+      "water"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2-P3",
+   "title": "Part 3 · Questions 11–15",
+   "kind": "file",
+   "file": "M4/A2/A2-P3.mp3",
+   "intro": "You will hear Marcus talking to his friend Grace about sports day. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Marcus: Grace, which race are you doing on sports day? Grace: Last year I did the long jump, but I hurt my knee in the spring, so this year I'm only doing the relay. Marcus: I'm in the relay too — and the eight-hundred metres. Grace: Rather you than me! Is your whole family coming to watch? Marcus: Dad's working, unfortunately. Mum's coming, and she's bringing my grandma. Grace: Nice. Are you nervous? Marcus: About the relay, no. But in the eight-hundred, Daniel is really fast — I've never beaten him. Grace: You beat him at training last week! Marcus: Only because he had a cold. Grace: Well, get to the field early — Coach wants the relay teams there by half past eight to practise with the baton."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Which race will Grace do this year?",
+     "o": [
+      "The long jump",
+      "The relay",
+      "The eight-hundred metres"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why did Grace stop doing the long jump?",
+     "o": [
+      "She hurt her knee",
+      "She finds it boring",
+      "The coach chose her for another race"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Who will come to watch Marcus?",
+     "o": [
+      "His mum and dad",
+      "His mum and grandma",
+      "His grandma and grandad"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How does Marcus feel about the eight-hundred metres?",
+     "o": [
+      "Sure he will win",
+      "Worried about another runner",
+      "Angry with the coach"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why must the relay runners arrive early?",
+     "o": [
+      "To practise with the baton",
+      "To get their numbers",
+      "To help the coach"
+     ],
+     "c": 0
+    }
+   ]
+  },
+  {
+   "id": "A2-P4",
+   "title": "Part 4 · Questions 16–20",
+   "kind": "file",
+   "file": "M4/A2/A2-P4.mp3",
+   "intro": "You will hear a boy called Oliver talking about last year's sports day. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Oliver: People always laugh when I tell them about last year's sports day. I'm not a fast runner — I usually come last — so I wasn't excited about it at all. My plan was to stand at the back and hope nobody noticed me. But our best runner fell over just before the relay, and the coach put me in the team. I was terrified! I didn't run any faster than usual, to be honest, but the other three runners were brilliant, and we finished second. Everyone cheered like we'd won the World Cup. I still don't love running — but this year, I put my own name down for the relay."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How did Oliver feel before last year's sports day?",
+     "o": [
+      "Not excited",
+      "Very excited",
+      "A little nervous"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Why did Oliver run in the relay?",
+     "o": [
+      "The coach's best runner was ill",
+      "Another runner fell over",
+      "He asked to join the team"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Oliver say about his running in the race?",
+     "o": [
+      "It was faster than usual",
+      "It was the same as always",
+      "It was slower because he was scared"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What was the team's result?",
+     "o": [
+      "They won",
+      "They came second",
+      "They came last"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What has Oliver done this year?",
+     "o": [
+      "Joined the relay team himself",
+      "Become the coach's helper",
+      "Stopped doing sport"
+     ],
+     "c": 0
+    }
+   ]
+  },
+  {
+   "id": "A2-P5",
+   "title": "Part 5 · Questions 21–25",
+   "kind": "file",
+   "file": "M4/A2/A2-P5.mp3",
+   "intro": "You will hear a teacher telling the class who is helping at sports day. What will each person do? For each question, choose the correct answer.",
+   "bank": [
+    "give out water",
+    "hold the finish tape",
+    "take photographs",
+    "play music",
+    "carry the flags",
+    "write the results",
+    "look after the little children"
+   ],
+   "scripts": [
+    "Teacher: Thank you to everyone helping on Friday — now listen carefully, because there are some changes. Sandy, you wanted to take photographs, but Mr Reed is doing that with the school camera, so you'll write the results on the big board instead. Hugo, you're playing the music between the races — please, nothing too loud. Rosa, you'll give out water at the finish line; the runners will love you. Tom, you asked to carry the flags, and yes, that's your job. And Helena, you're brilliant with the little ones, so you'll look after the youngest children near the sandpit."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Sandy",
+     "c": "write the results"
+    },
+    {
+     "type": "match",
+     "person": "Hugo",
+     "c": "play music"
+    },
+    {
+     "type": "match",
+     "person": "Rosa",
+     "c": "give out water"
+    },
+    {
+     "type": "match",
+     "person": "Tom",
+     "c": "carry the flags"
+    },
+    {
+     "type": "match",
+     "person": "Helena",
+     "c": "look after the little children"
+    }
+   ]
+  }
+ ]
+}

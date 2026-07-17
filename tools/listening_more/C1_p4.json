@@ -1,0 +1,423 @@
+{
+ "label": "C1 — Advanced",
+ "cefr": "Cambridge Advanced (CAE) · C1 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+ "audios": [
+  {
+   "id": "C1-P1",
+   "title": "Part 1 · Questions 1–6",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in three different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A streaming documentary",
+    "A subscription",
+    "A live concert",
+    "A royalty statement",
+    "A recommendation algorithm",
+    "Cancelling a service"
+   ],
+   "scripts": [
+    "Question one. Woman: Did you finish that documentary series on the record labels? Man: I did, though I nearly gave up halfway. The interviews with the executives were fascinating, but the reconstructed scenes felt padded, as if they were stretching thin material to fill six episodes. Woman: So it was the archive footage that carried it. Man: Exactly. Whenever they let the real footage speak for itself, it was gripping.",
+    "Question two. Man: Are you keeping all four of those music subscriptions? Woman: I've been meaning to look at that. The thing is, I only really use one of them, but I keep the others because I've built playlists on each and I dread moving everything across. Man: So it's not the money. Woman: No, honestly it's the sheer hassle of migrating that keeps me paying.",
+    "Question three. Woman: How was the gig? I heard the sound was patchy. Man: The sound was fine where I was standing, actually. What let it down was that half the set was new material nobody knew, and the crowd just stood there politely. When they finally played the old songs, the place came alive. A bit late by then.",
+    "Question four. Man: Have you made sense of your royalty statement yet? Woman: Sort of. What shocked me wasn't how little each stream pays, I knew that, it was how much gets swallowed by the distributor before anything reaches me. The per-stream figure is almost beside the point once you see the deductions.",
+    "Question five. Woman: Do you trust what the app recommends these days? Man: I used to think it knew my taste better than I did. Lately, though, it just keeps serving up variations on whatever I played last, so I end up in a loop. I'd actually welcome something jarring, something outside my comfort zone, for a change.",
+    "Question six. Man: So you've cancelled the film service at last. Woman: I have, and I feel oddly guilty about it. It wasn't that the catalogue got worse, if anything there's more on there than ever. The problem was I'd scroll for twenty minutes and give up. Too much choice, and I ended up watching nothing."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What does the man say about the documentary series?",
+     "o": [
+      "The reconstructed scenes were the highlight",
+      "The genuine footage was its strength",
+      "The executives refused to be interviewed"
+     ],
+     "c": 1,
+     "audio": "P4/C1/C1-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why does the woman keep paying for several subscriptions?",
+     "o": [
+      "She cannot afford to lose the content",
+      "She uses all of them regularly",
+      "Moving her playlists would be too much trouble"
+     ],
+     "c": 2,
+     "audio": "P4/C1/C1-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What disappointed the man about the concert?",
+     "o": [
+      "The poor sound quality",
+      "The focus on unfamiliar songs",
+      "The size of the crowd"
+     ],
+     "c": 1,
+     "audio": "P4/C1/C1-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What surprised the woman about her royalty statement?",
+     "o": [
+      "The amount taken by the distributor",
+      "The low payment per stream",
+      "The number of streams she had"
+     ],
+     "c": 0,
+     "audio": "P4/C1/C1-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the man's complaint about the recommendation app?",
+     "o": [
+      "It no longer understands his taste at all",
+      "It keeps offering more of the same",
+      "It suggests music he finds unpleasant"
+     ],
+     "c": 1,
+     "audio": "P4/C1/C1-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why did the woman cancel the film service?",
+     "o": [
+      "The catalogue had shrunk",
+      "It had become too expensive",
+      "The abundance of choice left her watching nothing"
+     ],
+     "c": 2,
+     "audio": "P4/C1/C1-P1-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "C1-P2",
+   "title": "Part 2 · Questions 7–14",
+   "kind": "file",
+   "file": "P4/C1/C1-P2.mp3",
+   "intro": "You will hear a music economist called Clara giving a talk about the economics of streaming. For each question, complete the sentences with a word or short phrase.",
+   "scripts": [
+    "Hello, I'm Clara, and I spend my working life untangling where the money actually goes when you press play. Let me begin by dismantling a myth. People imagine that each time a song is streamed, a tidy sum drops into the artist's account. In reality, no single stream has a fixed price at all. What happens instead is that a platform pools all its subscription income for the month and then divides it according to each track's share of total plays. Economists call this the pro-rata model, and it has one consequence that troubles me: your subscription fee doesn't necessarily support the artists you personally listen to. If a handful of global stars dominate the month's listening, your money drifts towards them, even if you never played a note of their work. There is an alternative that many musicians prefer, sometimes labelled the user-centric model, where your fee is shared only among the artists you yourself streamed. It sounds fairer, and small independent acts would gain from it, yet the major platforms resist it, chiefly because it would be administratively costly to calculate. Now, of the money a platform takes in, a substantial slice never reaches the recording at all. Roughly thirty per cent is retained by the platform before anything is distributed. Of what remains, the lion's share flows to the owner of the recording, which for most established artists means the record label, not the performer. The songwriter, curiously, tends to receive the smallest portion of the pie, which is why so many musicians now insist on retaining a credit as a writer. What has changed the incentives most profoundly is the length of songs. Because payment is triggered once a listener passes a certain point, usually around thirty seconds, producers have learned to front-load tracks, placing the hook right at the start. The gradual, slow-building opening has quietly become an economic liability. Albums, too, have grown longer, not shorter, because every additional track is another chance to be counted. The final point I'll leave you with concerns discovery. The real prize is no longer a sale but a place on an influential playlist, since inclusion there can multiply an artist's income overnight. That has shifted power towards the curators, and it means the gatekeeper of the industry is increasingly not a critic but an algorithm. Understanding that shift, I'd argue, matters more than memorising any per-stream figure."
+   ],
+   "gapTitle": "The Economics of Streaming",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The system Clara describes, where income is pooled and divided, is called the ____ model",
+     "accept": [
+      "pro-rata",
+      "pro rata"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The fairer alternative that musicians prefer is known as the ____ model",
+     "accept": [
+      "user-centric",
+      "user centric"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Platforms resist that alternative mainly because it would be administratively ____",
+     "accept": [
+      "costly",
+      "expensive"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Before any money is distributed, the platform keeps roughly ____ per cent",
+     "accept": [
+      "30",
+      "thirty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The person who usually receives the smallest portion is the ____",
+     "accept": [
+      "songwriter",
+      "writer"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Payment is usually triggered once a listener passes around ____ seconds",
+     "accept": [
+      "30",
+      "thirty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "To be counted more often, producers now place the ____ at the very start of a track",
+     "accept": [
+      "hook"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Clara argues the industry's real gatekeeper is now increasingly an ____",
+     "accept": [
+      "algorithm"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1-P3",
+   "title": "Part 3 · Questions 15–20",
+   "kind": "file",
+   "file": "P4/C1/C1-P3.mp3",
+   "intro": "You will hear an interview with an independent record-label founder called Daniel. For each question, choose the best answer (A, B, C or D).",
+   "scripts": [
+    "Interviewer: Daniel, you left a well-paid job at a major label to start your own. Was that a leap of faith? Daniel: People love to frame it as some romantic gamble, but honestly it was a calculated bet. I could see that the tools for reaching listeners directly were becoming cheap enough that a small operation could compete. The romance came later, once the spreadsheets said it might work. Interviewer: And has streaming been the great leveller people promised? Daniel: I'd put it more carefully. It has certainly lowered the barrier to being heard, anyone can upload now. But being heard and being noticed are entirely different things, and the second barrier is arguably higher than ever. So it democratised distribution while, if anything, concentrating attention. Interviewer: Many of your artists complain about per-stream rates. Do you? Daniel: I try to steer them away from that obsession, actually. Fixating on the fraction of a penny per play is a trap, because it's the wrong metric. What matters is the depth of the relationship with a few thousand committed fans who'll buy a ticket or a record. Chasing raw stream counts is chasing the wrong rabbit. Interviewer: You've been critical of playlists. Why? Daniel: Not critical of them exactly, they're a fact of life. My worry is dependency. An artist who lives or dies by one editorial playlist is building on sand, because the moment they're dropped, the numbers collapse overnight. I'd rather my acts owned their audience directly, even if it grows more slowly. Interviewer: Do you think the major labels are worried about operations like yours? Daniel: Worried is too strong. They're watchful. Individually we're a rounding error to them. But collectively, thousands of small labels are quietly reshaping expectations about what a fair deal looks like, and that they do notice. Interviewer: Finally, what would you change about the industry tomorrow? Daniel: Transparency, above all. Not the rates themselves, but the ability of an artist to see exactly where every penny travels. Sunlight would fix more problems than any rise in the per-stream figure. Interviewer: Daniel, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How does Daniel describe his decision to start the label?",
+     "o": [
+      "A romantic gamble he later regretted",
+      "A calculated bet based on changing tools",
+      "A reluctant move forced on him",
+      "An impulsive break from corporate life"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Daniel's view of streaming's effect?",
+     "o": [
+      "It has made success genuinely equal for all",
+      "It has made both distribution and attention easier",
+      "It has widened access but concentrated attention",
+      "It has made being heard almost impossible"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "Why does he discourage artists from focusing on per-stream rates?",
+     "o": [
+      "The rates are actually generous",
+      "It distracts from building committed fans",
+      "The figures are impossible to verify",
+      "He believes the rates will soon rise"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is his main concern about playlists?",
+     "o": [
+      "They promote the wrong kind of music",
+      "They pay artists too little",
+      "They create a dangerous dependency",
+      "They are chosen unfairly"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "How does Daniel characterise the major labels' attitude to small operations?",
+     "o": [
+      "Deeply anxious about each one",
+      "Completely indifferent",
+      "Watchful of them collectively",
+      "Openly hostile"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What single change would Daniel prioritise?",
+     "o": [
+      "Higher per-stream payments",
+      "Full transparency about where money goes",
+      "Fewer playlists",
+      "Stricter contracts"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "C1-P4",
+   "title": "Part 4 · Questions 21–30",
+   "kind": "file",
+   "file": "P4/C1/C1-P4.mp3",
+   "intro": "You will hear five people who work in music talking about the streaming era. TASK ONE (21–25): choose what each speaker values most about streaming. TASK TWO (26–30): choose what each speaker finds most frustrating about it.",
+   "scripts": [
+    "Speaker one. Woman: I make ambient records that would never have found a shelf in a shop, so the fact that a listener in another hemisphere can stumble on my work at two in the morning still amazes me, that reach is everything to me. What wears me down, though, is watching the platform lump my hour-long pieces in with three-minute pop songs and pay them the same, as if length and intention count for nothing. Speaker two. Man: For me the joy is the data, honestly, I can see which town is playing a track and route a tour straight there, it's taken the guesswork out of the road. The catch is that everyone now writes to please the recommendation engine, and I find that homogenising, songs sanded down until they all open the same predictable way. Speaker three. Woman: What I treasure is not needing a label's permission any more, I record on Monday and the world hears it on Friday, that independence is priceless. My real gripe is quite different, it's that a single editor adding you to a list can change your fortunes overnight, and that much power resting with so few people makes me deeply uneasy. Speaker four. Man: The thing I'd never give back is the archive, decades of obscure recordings that used to rot in vaults are now a click away, and as a lifelong collector that's a small miracle. Where it grates is the sheer opacity of the accounting, I get a statement each quarter and I genuinely cannot trace how the figure was reached. Speaker five. Woman: Above all I love that I keep every penny of ownership, no advance, no strings, the masters are mine, and after years in bad deals that autonomy means the world. But I'll admit the flood defeats me, forty thousand tracks uploaded a day, and my life's work can vanish into that torrent without a ripple, the noise is relentless."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the speaker values most about streaming",
+     "person": "Speaker 1",
+     "bank": [
+      "reaching a global audience",
+      "access to useful listener data",
+      "independence from record labels",
+      "the vast musical archive available",
+      "keeping full ownership of the work",
+      "the chance of viral success",
+      "lower production costs",
+      "connecting with other musicians"
+     ],
+     "c": "reaching a global audience"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the speaker values most about streaming",
+     "person": "Speaker 2",
+     "bank": [
+      "reaching a global audience",
+      "access to useful listener data",
+      "independence from record labels",
+      "the vast musical archive available",
+      "keeping full ownership of the work",
+      "the chance of viral success",
+      "lower production costs",
+      "connecting with other musicians"
+     ],
+     "c": "access to useful listener data"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the speaker values most about streaming",
+     "person": "Speaker 3",
+     "bank": [
+      "reaching a global audience",
+      "access to useful listener data",
+      "independence from record labels",
+      "the vast musical archive available",
+      "keeping full ownership of the work",
+      "the chance of viral success",
+      "lower production costs",
+      "connecting with other musicians"
+     ],
+     "c": "independence from record labels"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the speaker values most about streaming",
+     "person": "Speaker 4",
+     "bank": [
+      "reaching a global audience",
+      "access to useful listener data",
+      "independence from record labels",
+      "the vast musical archive available",
+      "keeping full ownership of the work",
+      "the chance of viral success",
+      "lower production costs",
+      "connecting with other musicians"
+     ],
+     "c": "the vast musical archive available"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the speaker values most about streaming",
+     "person": "Speaker 5",
+     "bank": [
+      "reaching a global audience",
+      "access to useful listener data",
+      "independence from record labels",
+      "the vast musical archive available",
+      "keeping full ownership of the work",
+      "the chance of viral success",
+      "lower production costs",
+      "connecting with other musicians"
+     ],
+     "c": "keeping full ownership of the work"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker finds most frustrating about it",
+     "person": "Speaker 1",
+     "bank": [
+      "songs paid the same regardless of length",
+      "music becoming more uniform",
+      "too much power held by playlist editors",
+      "confusing, opaque accounting",
+      "being lost in the sheer volume of uploads",
+      "declining sound quality",
+      "unreliable internet access",
+      "listeners no longer buying albums"
+     ],
+     "c": "songs paid the same regardless of length"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker finds most frustrating about it",
+     "person": "Speaker 2",
+     "bank": [
+      "songs paid the same regardless of length",
+      "music becoming more uniform",
+      "too much power held by playlist editors",
+      "confusing, opaque accounting",
+      "being lost in the sheer volume of uploads",
+      "declining sound quality",
+      "unreliable internet access",
+      "listeners no longer buying albums"
+     ],
+     "c": "music becoming more uniform"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker finds most frustrating about it",
+     "person": "Speaker 3",
+     "bank": [
+      "songs paid the same regardless of length",
+      "music becoming more uniform",
+      "too much power held by playlist editors",
+      "confusing, opaque accounting",
+      "being lost in the sheer volume of uploads",
+      "declining sound quality",
+      "unreliable internet access",
+      "listeners no longer buying albums"
+     ],
+     "c": "too much power held by playlist editors"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker finds most frustrating about it",
+     "person": "Speaker 4",
+     "bank": [
+      "songs paid the same regardless of length",
+      "music becoming more uniform",
+      "too much power held by playlist editors",
+      "confusing, opaque accounting",
+      "being lost in the sheer volume of uploads",
+      "declining sound quality",
+      "unreliable internet access",
+      "listeners no longer buying albums"
+     ],
+     "c": "confusing, opaque accounting"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker finds most frustrating about it",
+     "person": "Speaker 5",
+     "bank": [
+      "songs paid the same regardless of length",
+      "music becoming more uniform",
+      "too much power held by playlist editors",
+      "confusing, opaque accounting",
+      "being lost in the sheer volume of uploads",
+      "declining sound quality",
+      "unreliable internet access",
+      "listeners no longer buying albums"
+     ],
+     "c": "being lost in the sheer volume of uploads"
+    }
+   ]
+  }
+ ]
+}

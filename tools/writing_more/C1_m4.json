@@ -1,0 +1,34 @@
+{
+  "title": "C1 Advanced — Writing (MOCK 4)",
+  "durationMin": 90,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 220, "maxWords": 260,
+        "lead": "Your class has attended a seminar about how people could regain control of their attention in a world of constant digital distraction. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would be more effective, giving reasons to support your opinion.",
+        "stimulus": { "title": "How could people regain control of their attention?", "body": "• regulating the design features that make apps addictive\n• teaching attention management as a core skill in schools\n• changing the culture that expects everyone to be constantly available\n\nSome opinions expressed in the seminar:\n\"These apps are engineered by experts to be irresistible - willpower is not a fair fight.\"\n\"We teach children to read but not to decide what deserves their attention.\"\n\"The real tyranny is the reply that is expected within five minutes.\"" },
+        "bullets": ["discuss two of the ideas", "explain which would be more effective", "give reasons to support your opinion"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [
+        { "type": "proposal", "q": 2, "minWords": 220, "maxWords": 260,
+          "lead": "Your college principal has invited proposals from students on improving concentration and wellbeing on campus.",
+          "stimulus": { "title": "Proposal: phone-free zones on campus", "body": "Write a proposal recommending that certain areas of the college become phone-free. Identify which areas you would choose and why, explain how the policy could be introduced without feeling like a punishment, and anticipate the strongest objection students will raise, showing how you would answer it." },
+          "bullets": ["which areas you would choose and why", "how to introduce the policy without it feeling like a punishment", "the strongest objection and your answer to it"],
+          "write": "Write your proposal." },
+        { "type": "review", "q": 3, "minWords": 220, "maxWords": 260,
+          "lead": "An English-language magazine has invited reviews of books or documentaries about technology and the mind.",
+          "stimulus": { "title": "The battle for your attention", "body": "Review a book or documentary that examines how digital technology competes for human attention. Summarise its central claims, evaluate how convincingly it supports them, and assess whether its advice survives contact with real life." },
+          "bullets": ["its central claims", "how convincingly it supports them", "whether its advice works in real life"],
+          "write": "Write your review." },
+        { "type": "report", "q": 4, "minWords": 220, "maxWords": 260,
+          "lead": "Your student council is concerned about how screen use affects students' study and sleep, and has asked you to write a report based on a survey of your year group.",
+          "stimulus": { "title": "Report: screens, study and sleep", "body": "Write a report presenting what the survey revealed about students' screen habits, analysing the effects students themselves report on their study and sleep, and recommending realistic steps the council should take - avoiding measures students would simply ignore." },
+          "bullets": ["what the survey revealed about screen habits", "the effects on study and sleep", "realistic steps the council should take"],
+          "write": "Write your report." }
+      ]
+    }
+  ]
+}

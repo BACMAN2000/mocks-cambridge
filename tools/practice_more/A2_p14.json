@@ -1,0 +1,158 @@
+{
+  "title": "A2 Key — Reading and Writing (Practice 14)",
+  "note": "Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Regal Cinema",
+          "text": "TICKETS FOR THE 6 P.M. FILM ARE SOLD OUT. THERE ARE STILL SEATS FOR THE 8.30 P.M. SHOW.",
+          "stem": "What does the notice tell people?",
+          "options": ["The cinema is closed tonight.", "They can still see the later show.", "The 8.30 p.m. film is sold out."],
+          "answer": 1
+        },
+        {
+          "kind": "message",
+          "header": "From: Callum → To: Dev",
+          "text": "Dev, the film tonight is two hours long, so it won't finish until ten. My mum says she can drive you home afterwards, so you don't need to ask your dad for a lift. See you at the cinema at 7.45.",
+          "stem": "Why does Dev not need to ask his dad for a lift?",
+          "options": ["The film finishes early.", "Dev can walk home.", "Callum's mum will take him home."],
+          "answer": 2
+        },
+        {
+          "kind": "email",
+          "from": "Filmstar Club",
+          "to": "Members",
+          "subject": "This month's film night",
+          "body": "Dear member, this month's film night is on Friday 14th in the school hall. We will vote between two films at the start of the evening — one comedy and one adventure film. Bring £1 for snacks and drinks.",
+          "stem": "How will the club choose the film?",
+          "options": ["Members will vote on the night.", "The teacher will decide.", "The comedy will be shown first."],
+          "answer": 0
+        },
+        {
+          "kind": "note",
+          "header": "Note for Ivy",
+          "text": "Ivy — I'm recording the nature programme at 8 for Grandpa, so please don't change the channel until it finishes at 9. You can watch your show on the tablet instead. — Mum",
+          "stem": "What can Ivy do at 8 o'clock?",
+          "options": ["Change the channel.", "Watch her show on the tablet.", "Record a programme for Grandpa."],
+          "answer": 1
+        },
+        {
+          "kind": "sign",
+          "header": "Studio Tour — Door B",
+          "text": "THE TOUR LASTS 90 MINUTES. PLEASE ARRIVE 15 MINUTES BEFORE YOUR TOUR TIME. LATECOMERS CANNOT JOIN.",
+          "stem": "What must visitors do?",
+          "options": ["Arrive 15 minutes early.", "Stay for two hours.", "Wait for people who are late."],
+          "answer": 0
+        },
+        {
+          "kind": "notice",
+          "header": "Westfield Library",
+          "text": "FILM CLUB FOR AGES 10–14 STARTS THURSDAY. WE WATCH A FILM, THEN TALK ABOUT IT. FREE, BUT PLACES ARE LIMITED — SIGN UP AT THE DESK.",
+          "stem": "What do people at the club do after watching a film?",
+          "options": ["Write about it.", "Vote for the next film.", "Discuss it."],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "Read about three young people and films and television. For each question, choose the correct person (A, B or C). The people may be chosen more than once.",
+      "sources": [
+        {
+          "label": "A",
+          "name": "Diego",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/13.jpg\" alt=\"Diego\" loading=\"lazy\">",
+          "text": "In my house, Friday night is film night. The whole family watches together — even my baby sister, though she always falls asleep. We take turns choosing the film, and when it's my turn I always pick something funny. My job is making the popcorn, and I'm getting really good at it."
+        },
+        {
+          "label": "B",
+          "name": "Alice",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/50.jpg\" alt=\"Alice\" loading=\"lazy\">",
+          "text": "My friends and I make our own short films with my phone. I write the stories, and my friends act in them. Our last film was about a talking dog, and it won first prize in the school film competition! When I finish school, I want to study film-making and become a director."
+        },
+        {
+          "label": "C",
+          "name": "Ken",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/76.jpg\" alt=\"Ken\" loading=\"lazy\">",
+          "text": "I don't watch many films — I prefer television programmes about space and nature. I love learning new facts and telling them to my class. Last month, my teacher asked me to give a short talk about planets, because I know so much about them. I was nervous, but everyone clapped at the end."
+        }
+      ],
+      "questions": [
+        {"stem": "Which person creates their own films?", "answer": "B"},
+        {"stem": "Which person watches films with their family every week?", "answer": "A"},
+        {"stem": "Which person enjoys learning facts from television?", "answer": "C"},
+        {"stem": "Which person has won a prize?", "answer": "B"},
+        {"stem": "Which person was asked to speak to their class?", "answer": "C"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the text about a girl who was in a film. Choose the correct answer A, B or C.",
+      "passage": "Last summer, something exciting happened in Chloe's small town: a film company arrived to make a film in the old castle. Everyone was talking about it, and there were big trucks and bright lights in the streets for weeks.\n\nOne day, Chloe's drama teacher told her class some amazing news. The film company needed about fifty local children to be in a market scene, and anyone from the class could put their name down. Chloe wrote her name at the top of the list.\n\nFilming took place on a Saturday. Chloe had to wear old-fashioned clothes and stand by a fruit stall. She was surprised by how slow everything was — they filmed the same short scene nine times! By the afternoon, standing still was quite boring, but the film's star said hello to the children, which made everyone happy.\n\nThe film came out this spring, and Chloe went to see it with her family. Her scene lasted only a few seconds, and you can only see the back of her head! Her brother laughed, but Chloe didn't mind.\n\nChloe enjoyed the experience so much that she has joined a drama group in the next town. She now knows that making films is slow, hard work — but she still thinks it's magic.",
+      "questions": [
+        {"stem": "Why did the film company come to Chloe's town?", "options": ["To film in the old castle.", "To find new actors.", "To open a cinema."], "answer": 0},
+        {"stem": "How did Chloe get a part in the film?", "options": ["The star chose her.", "She put her name on a list at school.", "Her family knew the director."], "answer": 1},
+        {"stem": "What surprised Chloe about filming?", "options": ["The clothes were modern.", "The children were paid.", "The same scene was filmed many times."], "answer": 2},
+        {"stem": "What made the children happy during filming?", "options": ["The film's star spoke to them.", "They could eat the fruit.", "They finished at lunchtime."], "answer": 0},
+        {"stem": "What does Chloe do now?", "options": ["She works for a film company.", "She goes to a drama group.", "She is making her own film."], "answer": 1}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 4",
+      "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+      "title": "Cartoons",
+      "body": "Cartoons have been popular for about a hundred years. The first famous cartoons were short and had no (19)____ , so cinemas played live music while people watched. Making a cartoon was very slow work: artists had to (20)____ thousands of pictures by hand for just a few minutes of film. When the pictures were shown quickly, one (21)____ another, the characters seemed to move. Today, most cartoons are made (22)____ computers, which makes the work much faster. But some things have not changed: a good cartoon still needs a great story and characters that people (23)____ about. That is (24)____ children and adults all over the world still love them.",
+      "questions": [
+        {"options": ["music", "colour", "noise", "sound"], "answer": 3},
+        {"options": ["draw", "print", "write", "copy"], "answer": 0},
+        {"options": ["behind", "next", "after", "past"], "answer": 2},
+        {"options": ["at", "on", "in", "to"], "answer": 1},
+        {"options": ["think", "worry", "talk", "care"], "answer": 3},
+        {"options": ["why", "because", "how", "what"], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 5",
+      "instructions": "For each gap (25–30), write ONE word.",
+      "title": "A message about a film night",
+      "body": "Hi Ryan,\n\nWe're having a film night at my house (25)____ Saturday. Would you like (26)____ come? Marco and Jenny are coming too.\n\nWe can't decide (27)____ film to watch, so bring one or two ideas with you. My dad will make pizza (28)____ everyone.\n\nCome at about six o'clock. The film will start (29)____ seven, after we eat. My mum can take you home when it finishes, so you won't (30)____ to walk.\n\nSee you then!\nLuka",
+      "questions": [
+        {"accept": ["on", "this", "next"]},
+        {"accept": ["to"]},
+        {"accept": ["which", "what"]},
+        {"accept": ["for"]},
+        {"accept": ["at", "around", "about", "by"]},
+        {"accept": ["have", "need"]}
+      ]
+    },
+    {
+      "type": "writing",
+      "part": "Part 6",
+      "prompts": [{
+        "kind": "email",
+        "instructions": "Your English friend Nicky wants to watch a good film this weekend. Write an email to Nicky. In your email: say what your favourite film is / explain why you like it / ask one question about the films Nicky likes.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    },
+    {
+      "type": "writing",
+      "part": "Part 7",
+      "prompts": [{
+        "kind": "story",
+        "instructions": "Write a story for your English class. Your story must begin with this sentence:\nWhen the lights went out in the cinema, Emma heard a strange sound.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    }
+  ]
+}

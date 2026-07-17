@@ -1,0 +1,34 @@
+{
+  "title": "B2 First — Writing (Practice 8)",
+  "durationMin": 80,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 140, "maxWords": 190,
+        "lead": "In your English class you have been talking about learning languages. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+        "stimulus": { "body": "\"Every student should learn at least one foreign language at school. Do you agree?\"\n\nNotes\n\nWrite about:\n1. future jobs\n2. understanding other cultures\n3. ............... (your own idea)" },
+        "bullets": ["future jobs", "understanding other cultures", "your own idea", "give reasons for your point of view"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+      "tasks": [
+        { "type": "email", "q": 2, "minWords": 140, "maxWords": 190,
+          "lead": "You have received this email from your English-speaking friend Nicky.",
+          "stimulus": { "body": "From: Nicky\nSubject: Which language?\n\nNext year at school I have to choose a new language, and I can't decide between Spanish, French and Mandarin. You're so good at languages — which one would you pick, and why? Also, be honest: how much work is it really, outside class? I don't want any nasty surprises!\nThanks,\nNicky" },
+          "bullets": ["which language Nicky should choose, and why", "how much work it involves outside class", "some encouragement for Nicky"],
+          "write": "Write your email." },
+        { "type": "report", "q": 3, "minWords": 140, "maxWords": 190,
+          "lead": "The director of your language school wants students to get more speaking practice and has asked you to write a report.",
+          "stimulus": { "title": "Report: more speaking practice", "body": "Describe the opportunities students currently have to speak the language they are learning, suggest two new activities that would give them more practice, and explain which activity the school should introduce first." },
+          "bullets": ["current opportunities to practise speaking", "two new activities", "which activity should come first, and why"],
+          "write": "Write your report." },
+        { "type": "article", "q": 4, "minWords": 140, "maxWords": 190,
+          "lead": "You see this announcement on an English-language website for students.",
+          "stimulus": { "title": "AN APP OR A CLASSROOM?", "body": "Millions of people now learn languages on their phones instead of in a classroom. Which works better? Write an article comparing the two ways of learning, using your own experience, and saying which you would recommend to a complete beginner." },
+          "bullets": ["learning with an app compared with a classroom", "your own experience", "your recommendation for a complete beginner"],
+          "write": "Write your article." }
+      ]
+    }
+  ]
+}

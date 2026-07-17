@@ -1,0 +1,192 @@
+{
+  "title": "C1 Advanced — Reading and Use of English (Practice 10)",
+  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The wild returns to the city",
+      "body": "Cities were long (1)____ as the antithesis of nature, deserts of concrete from which wildlife had been permanently expelled. The reality has proved far more interesting. Peregrine falcons, to take the most (2)____ example, now breed more densely in some city centres than in any natural habitat, drawn by the abundance of prey and the (3)____ absence of their own predators. Planners have begun to (4)____ on this unexpected adaptability, weaving corridors of habitat through the built environment so that species can move safely between parks, rooftops and riverbanks. The benefits are not (5)____ aesthetic. A growing body of research shows that green spaces (6)____ a measurable effect on residents' physical and mental health, quite apart from their role in cooling streets and absorbing floodwater. Sceptics (7)____ such schemes as mere window-dressing, arguing that a city can never be genuinely wild. But wildness, on this view, is not a place so much as a process — and a process, unlike a place, can be set in (8)____ almost anywhere.",
+      "questions": [
+        { "options": ["believed", "regarded", "assumed", "supposed"], "answer": 1 },
+        { "options": ["renowned", "glorified", "distinguished", "celebrated"], "answer": 3 },
+        { "options": ["virtual", "actual", "real", "literal"], "answer": 0 },
+        { "options": ["count", "insist", "capitalise", "depend"], "answer": 2 },
+        { "options": ["barely", "scarcely", "narrowly", "purely"], "answer": 3 },
+        { "options": ["impose", "exert", "inflict", "apply"], "answer": 1 },
+        { "options": ["wave", "brush", "dismiss", "laugh"], "answer": 2 },
+        { "options": ["motion", "movement", "action", "progress"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The fox next door",
+      "body": "The return of the urban fox has divided opinion like (9)____ other animal. To some householders, foxes are welcome neighbours whose evening appearances are a small nightly theatre; to others they are little (10)____ than vermin. What is beyond dispute is that the species has adapted to city life with astonishing speed. Foxes have learned not (11)____ to cross roads at the quietest times but even to follow railway cuttings as safe corridors through the densest districts.\n\nIt is often assumed that urban foxes were driven into cities by the destruction of their rural habitat. The evidence suggests (12)____ : most urban populations established themselves at a time when the countryside was under no particular pressure. The animals came, it seems, simply (13)____ the living was good — bins provide reliably, and traffic apart, the city holds remarkably few dangers for them.\n\nWhether we choose to celebrate or resent them, the foxes are here to (14)____ . Attempts at removal have failed wherever they have been tried: clear one territory and it is refilled (15)____ weeks by animals from the next. We may as (16)____ learn to enjoy the company.",
+      "questions": [
+        { "accept": ["no"] },
+        { "accept": ["more", "better"] },
+        { "accept": ["only", "just", "merely"] },
+        { "accept": ["otherwise"] },
+        { "accept": ["because"] },
+        { "accept": ["stay"] },
+        { "accept": ["within"] },
+        { "accept": ["well"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Making room for the wild",
+      "rows": [
+        { "text": "Even in districts of high housing (17)____ , surprising pockets of habitat can be threaded between the buildings.", "root": "DENSE" },
+        { "text": "The (18)____ of urban soil, exhausted by decades of compaction and pollution, is usually the first task.", "root": "RICH" },
+        { "text": "The species that flourish in cities are not always the ones we would choose; a few are frankly (19)____ .", "root": "DESIRE" },
+        { "text": "The rapid (20)____ of derelict land by wild plants surprises no botanist, though it often astonishes the public.", "root": "COLONY" },
+        { "text": "Residents report a deep satisfaction in glimpsing something genuinely (21)____ from a kitchen window.", "root": "TAME" },
+        { "text": "Wilder parks demand a different kind of (22)____ — not the abandonment of care but its redirection.", "root": "MAINTAIN" },
+        { "text": "Coexistence with nature requires a certain (23)____ of untidiness that municipal tradition finds difficult.", "root": "TOLERATE" },
+        { "text": "The (24)____ of insect life recovers with remarkable speed once rigid mowing regimes are relaxed.", "root": "DIVERSE" }
+      ],
+      "questions": [
+        { "root": "DENSE", "accept": ["density"] },
+        { "root": "RICH", "accept": ["enrichment"] },
+        { "root": "DESIRE", "accept": ["undesirable"] },
+        { "root": "COLONY", "accept": ["colonisation", "colonization"] },
+        { "root": "TAME", "accept": ["untamed"] },
+        { "root": "MAINTAIN", "accept": ["maintenance"] },
+        { "root": "TOLERATE", "accept": ["tolerance", "toleration"] },
+        { "root": "DIVERSE", "accept": ["diversity"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+      "questions": [
+        {
+          "before": "The council went ahead with the scheme even though residents objected.",
+          "keyword": "OBJECTIONS",
+          "after": "The council went ahead with the scheme ___ residents.",
+          "accept": ["in the face of objections from", "despite objections from", "despite the objections of", "in spite of objections from"]
+        },
+        {
+          "before": "It took the volunteers three years to restore the riverbank.",
+          "keyword": "SPENT",
+          "after": "The volunteers ___ the riverbank.",
+          "accept": ["spent three years restoring"]
+        },
+        {
+          "before": "The park is much wilder now than it was a decade ago.",
+          "keyword": "NOTHING",
+          "after": "A decade ago the park was ___ wild as it is now.",
+          "accept": ["nothing like as", "nothing like so"]
+        },
+        {
+          "before": "Local people had no warning at all that the trees would be felled.",
+          "keyword": "NOTICE",
+          "after": "The trees were felled ___ to local people.",
+          "accept": ["without any notice being given", "without notice being given", "without any notice given"]
+        },
+        {
+          "before": "Everyone was surprised by how quickly the otters returned.",
+          "keyword": "SPEED",
+          "after": "What surprised everyone was ___ which the otters returned.",
+          "accept": ["the speed with which", "the speed at which"]
+        },
+        {
+          "before": "If the funding had not arrived, the project would have collapsed.",
+          "keyword": "BEEN",
+          "after": "___ the funding, the project would have collapsed.",
+          "accept": ["had it not been for", "if it had not been for", "but for there having been"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The accidental wilderness\n\nAsk someone to picture a nature reserve and they will describe something green: a wood, a marsh, a flowered meadow. They will almost certainly not describe a derelict oil depot, its soil laced with ash and clinker, its surface a chaos of rubble, bramble and cracked concrete. Yet sites of exactly this kind now support some of the richest insect life in northern Europe — richer, hectare for hectare, than many of the celebrated reserves we spend fortunes maintaining. The uncomfortable fact, for anyone whose idea of conservation involves tidiness, is that nature does some of its best work in the places we have wrecked and then forgotten.\n\nThe explanation is less paradoxical than it first appears. Most rare invertebrates are specialists of poor ground: they need bare, sun-baked earth, sparse vegetation, and a landscape that is repeatedly disturbed and never allowed to settle into uniform scrub. Modern farmland, drenched in fertiliser, is too rich for them; mature woodland is too shaded; and the manicured urban park, mown weekly to a green carpet, might as well be asphalt. A demolished factory site, by contrast, offers everything: thin toxic soils that keep aggressive plants in check, rubble that holds the sun's heat like a storage radiator, and a mosaic of micro-habitats jumbled together in a way no landscape designer would ever dare to specify. Dereliction, in short, mimics the churned, open, messy landscapes in which these species evolved — landscapes that orderly management has all but eliminated from the countryside.\n\nThis ought to prompt some humility in the rewilding movement, which has its own preferred aesthetic: the wolf, the beaver, the regenerating forest. Such projects have real value, but they carry a quiet assumption that wildness is something to be reintroduced from outside, shipped in like an amenity. The brownfield sites suggest something different: that wildness is not an ingredient but a response — the thing life does, unprompted, wherever our attention lapses. Nobody planned the flower-rich grasslands of the abandoned depot. They assembled themselves, plant by plant and wasp by wasp, out of whatever drifted in, with a speed that mocks the decade-long timescales of official habitat creation.\n\nThere is, however, a serious obstacle to valuing such places, and it is not ecological. Brownfield land is precisely the land that cities most covet for development, and its defenders find themselves arguing an unpopular case. Campaign for an ancient oak wood and the public is with you; campaign for a rubble field colonised by rare bees, and you will be told, in tones of gathering impatience, that the site is an eyesore and that homes matter more than insects. The species-per-hectare figures may favour the depot, but sentiment does not, and in planning disputes sentiment is a currency that outspends data with ease.\n\nSome conservationists have concluded that the answer is rebranding: call the sites 'open mosaic habitat', give them interpretation boards and neat gravel paths, fold them into the familiar category of the nature reserve. The strategy may save a handful of the best places, and for that reason it is hard to oppose. Yet something is lost in the translation. The value of the accidental wilderness lies partly in what it teaches: that the living world does not need our design skills, our planting schemes or our approval — only our restraint. A tidied, signposted, officially designated brownfield site preserves the species but quietly buries the lesson.\n\nNone of this is an argument for demolishing factories in the name of biodiversity, still less for abandoning the countryside to its fate. It is an argument for widening our idea of what nature is permitted to look like. As long as our conservation instincts remain wedded to the picturesque, we will go on protecting the landscapes that please us while bulldozing the ones that merely teem with life — and congratulating ourselves, all the while, on our love of the wild.",
+      "questions": [
+        { "stem": "What 'uncomfortable fact' does the writer present in the first paragraph?", "options": ["Nature reserves are more expensive than most people realise.", "Some of the richest habitats are ruined industrial sites rather than conventionally beautiful places.", "Insect life is declining even in protected areas.", "Oil depots are impossible to restore to their natural state."], "answer": 1 },
+        { "stem": "Why, according to the second paragraph, do rare invertebrates thrive on derelict land?", "options": ["They are attracted by the warmth of abandoned machinery.", "They have adapted genetically to industrial pollution.", "Such sites are protected from human interference by law.", "The poor, disturbed conditions resemble the open landscapes they evolved in."], "answer": 3 },
+        { "stem": "What lesson does the writer draw for the rewilding movement?", "options": ["Wildness is a spontaneous response of life rather than something imported by design.", "Reintroducing large mammals should be its highest priority.", "Official habitat creation is faster than natural colonisation.", "Its projects have so far achieved very little of value."], "answer": 0 },
+        { "stem": "What is the main obstacle to protecting brownfield sites, in the writer's view?", "options": ["Their soils are too contaminated to make protection worthwhile.", "Ecologists disagree about how to measure their value.", "Public sentiment favours conventionally attractive landscapes over them.", "Developers are legally entitled to build on them without consultation."], "answer": 2 },
+        { "stem": "What is the writer's attitude to the 'rebranding' strategy described in the fifth paragraph?", "options": ["Enthusiastic support, since it guarantees the sites' survival.", "Reluctant acceptance, while regretting the deeper lesson it obscures.", "Outright rejection, because it deceives the public.", "Indifference, since the sites will be lost regardless."], "answer": 1 },
+        { "stem": "What conclusion does the final paragraph reach?", "options": ["Factories should be removed to create more habitat.", "The countryside no longer deserves conservation effort.", "Conservation should concentrate on the most beautiful landscapes.", "Our idea of what nature may look like needs to be broadened."], "answer": 3 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "Read four short opinion pieces (A–D) on the same topic: whether large wild species such as beavers should be deliberately reintroduced into city rivers and parks. Then answer the questions.",
+      "sources": [
+        { "label": "A", "text": "The case for urban beavers is no longer speculative; it has been made, dam by dam, in the pilot schemes of the last decade. Where the animals have been released into city watercourses, peak flood flows have dropped measurably, water quality has improved downstream, and — the result nobody predicted — visitor numbers to the surrounding parks have soared. The engineering alone would justify the policy: we pay consultancies handsomely to design the water-slowing structures that a beaver family builds free of charge and maintains around the clock. The trials have been run and the results are in. What is lacking now is not evidence but nerve." },
+        { "label": "B", "text": "I yield to no one in my affection for wild creatures, but a city is a machine for human flourishing, and every scheme must be judged by what it does for the people who live there — particularly those with the least. The beaver lobby is remarkably quiet about whose gardens flood when a dam shifts the water table, and whose taxes fund the compensation. These are not trivial externalities; they land on people who were never asked. If we have money and political capital for urban nature, street trees and pocket parks deliver more benefit to more residents at a fraction of the cost and none of the risk. Romance is not a planning criterion." },
+        { "label": "C", "text": "I support reintroductions, and precisely for that reason I wince at how they are usually done. The pattern repeats: a scheme is designed in an office, announced as a fait accompli, and only then 'consulted on' — by which point opposition has hardened into identity. Every failed release I have studied collapsed not for ecological reasons but because residents concluded, usually correctly, that the animals mattered more to the organisers than the neighbourhood did. Where projects have begun instead with a year of open meetings, shared design and honest talk about risks, the same schemes have sailed through. The animals are the easy part; legitimacy is the habitat that actually has to be built first." },
+        { "label": "D", "text": "The spreadsheets can be made to say what we like — flood attenuation, footfall, ecosystem services priced by the cubic metre. I find the whole exercise faintly degrading, as though a heron were a piece of municipal infrastructure that must earn its keep. The real case for sharing our cities with large, self-willed creatures is that the encounter changes us: a child who has watched a beaver at dusk carries thereafter a different idea of what a city is and whom it belongs to. That transformation will never survive translation into a cost-benefit column, and the attempt to so translate it concedes the argument to the accountants before it begins. Some goods are not services." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which writer, unlike the other three, regards such reintroductions as essentially misconceived?", "answer": "B" },
+        { "stem": "Which writer objects to justifying reintroductions in terms of measurable benefits at all?", "answer": "D" },
+        { "stem": "Which writer bases their case chiefly on the outcomes of earlier trial schemes?", "answer": "A" },
+        { "stem": "Which writer attributes the failure of past projects to inadequate involvement of local people?", "answer": "C" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+      "passage": "The reserve nobody built\n\nDrivers on the ring road pass it every day without a glance: a stretch of scrubby, hummocky ground behind a chain-link fence, the kind of land that appears on planning maps as a blank awaiting a purpose. (41)____\n\nFor thirty years after the machinery fell silent, almost nobody went there. The gates rusted shut, the security patrols dwindled and stopped, and the site was left to its own devices in a way that almost no land in a crowded country ever is. (42)____\n\nWhat she found, over months of patient survey work, exceeded anything she had allowed herself to hope. (43)____\n\nThe figures demanded an explanation, and it turned out to lie in the site's unpromising history itself. (44)____\n\nThe irony was that the qualities that made the site precious also made it doomed. Within weeks of the survey's publication, outline plans appeared for a logistics park: the land was, after all, officially derelict, and dereliction is what planning exists to cure. (45)____\n\nThe reprieve, when it came, was only partial, and nobody involved pretends the arrangement is permanent. (46)____ Perhaps that is the most that can be asked: not victory, but time — and a public that has begun, at last, to look through the fence.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "In one summer she recorded more than a thousand invertebrate species, dozens of them nationally scarce, several believed extinct in the region — a tally that outstripped every managed reserve in the county.",
+          "Half the site is now protected under an agreement that must be renewed each decade, while the other half awaits the warehouses; the bees, presumably, have not been informed of the boundary.",
+          "Few of them know that the fence encloses the remains of an oil-blending works, abandoned when the industry moved downriver, its tanks drained and its buildings flattened decades ago.",
+          "Comparable sites in other countries have been turned into open-air museums, complete with guided tours of the surviving machinery.",
+          "The ash and clinker spread across the site had created exactly the thin, mineral, sun-warmed soils that scarce insects require, while the rubble mounds and old tank beds jumbled dozens of micro-habitats into every acre.",
+          "The chance visit of a single entomologist changed all that; she had permission to collect on the neighbouring marsh, misread her map, and spent an afternoon on the wrong side of the fence.",
+          "The developers argued, not without force, that their scheme included green roofs and a landscaped corridor that would support more wildlife than the average farm.",
+          "A hastily assembled coalition of naturalists and residents fought the proposal through two public inquiries, armed with species lists in place of banners."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing paragraph:", "answer": "C" },
+        { "stem": "Choose the missing paragraph:", "answer": "F" },
+        { "stem": "Choose the missing paragraph:", "answer": "A" },
+        { "stem": "Choose the missing paragraph:", "answer": "E" },
+        { "stem": "Choose the missing paragraph:", "answer": "H" },
+        { "stem": "Choose the missing paragraph:", "answer": "B" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 8",
+      "instructions": "You are going to read four short pieces (A–D) by people involved in bringing wildness back to cities. Answer the questions by choosing the appropriate person.",
+      "sources": [
+        { "label": "A", "text": "Grace — city council ecologist. My job, reduced to its essentials, is translation: I turn the needs of species into the language of committees, and committee decisions into something the land can survive. The hardest lesson of my career was discovering that the fiercest opposition to wilder parks comes not from developers but from people who love parks — love them, that is, as they currently are. I have stood in public meetings being shouted at over uncut grass by residents who would chain themselves to a tree to save it. I no longer begin with ecology at all. I begin by asking people what they remember growing up, because almost everyone over fifty remembers more butterflies, and from that shared memory you can build almost anything." },
+        { "label": "B", "text": "Theo — founder of a guerrilla gardening network. We started by seed-bombing roundabouts at two in the morning, which I now regard as youthful theatre, gloriously beside the point. The real work turned out to be duller and better: adopting the neglected corners officially, signing the council's licence forms, turning outlaws into volunteers. I resisted that shift for years — respectability felt like defeat — and I was wrong, since one legal verge cared for by a street outlasts fifty midnight raids. What still keeps me up at night is continuity. Half our plots depend on one dedicated person, and when that person moves away, the bindweed takes back everything within a season. Nature is patient; volunteers' knees are not." },
+        { "label": "C", "text": "Yusuf — warden of a rewilded cemetery. The Victorian cemetery I look after was a scandal before it was a sanctuary: too full to sell plots, too expensive to mow, it was simply abandoned by its owners, and forty years of neglect did what no management plan would have dared — knotted woodland, orchids on the old graves, owls in the chapel roof. My work now is a strange inversion of groundskeeping: I am paid to hold the tidiness back, to fell just enough, mow just enough, and no more. Visitors sometimes tell me the place is disrespectful to the dead. I walk them to the family graves wrapped in ivy and point out that nothing here is forgotten; it is simply being held by something older than we are." },
+        { "label": "D", "text": "Marisol — community organiser on a housing estate. The regeneration plans for our estate came with the usual strip of turf and six lollipop trees, and we said no — politely, repeatedly, and with four hundred signatures. What we asked for instead was a real wood, small but genuine, on the waste ground behind the towers, planted and owned by the residents themselves. The council's landscape architects fought us over every species; they wanted things that die tidily. Eight years on, the wood is scruffy, dense and full of children, and the same architects bring visiting delegations to photograph it. I have learned to smile about that. The lesson I pass to other estates is simple: do not ask for nature to be provided. Ask for the land, and provide it yourselves." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Grace", "Theo", "Yusuf", "Marisol"] },
+      "questions": [
+        { "stem": "Which person advises others to seek control of land rather than finished amenities?", "answer": "D" },
+        { "stem": "Which person came to accept that working within official rules achieves more than defiant gestures?", "answer": "B" },
+        { "stem": "Which person found that the strongest resistance to change came from those most attached to a place?", "answer": "A" },
+        { "stem": "Which person is employed to restrain, rather than impose, human care of a site?", "answer": "C" },
+        { "stem": "Which person worries that their achievements rest too heavily on a few committed individuals?", "answer": "B" },
+        { "stem": "Which person saw professionals who had opposed a project later showcase it with pride?", "answer": "D" },
+        { "stem": "Which person responds to accusations that their site shows a lack of respect?", "answer": "C" },
+        { "stem": "Which person begins persuasion by appealing to people's childhood memories?", "answer": "A" },
+        { "stem": "Which person describes their early activities as dramatic but ultimately ineffective?", "answer": "B" },
+        { "stem": "Which person sees their role as mediating between institutions and the natural world?", "answer": "A" }
+      ]
+    }
+  ]
+}

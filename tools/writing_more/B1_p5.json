@@ -1,0 +1,30 @@
+{
+  "title": "B1 Preliminary — Writing (Practice 5)",
+  "durationMin": 45,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in about 100 words.",
+      "tasks": [{
+        "type": "email", "minWords": 100,
+        "lead": "Read this email from your English-speaking friend Lucy and the notes you have made.",
+        "stimulus": { "head": "EMAIL", "title": "", "body": "From: Lucy\nSubject: Your town festival\n\nHi!\n\nI saw some photos of the festival in your town last year — it looked amazing! I'd love to come this year.\n\nWhen exactly is it, and what happens there? Also, what's the best thing to eat at the festival?\n\nWrite soon!\nLucy" },
+        "bullets": ["tell Lucy when the festival is", "describe what happens at the festival", "recommend something to eat there", "invite Lucy to stay at your house"],
+        "write": "Write your email to Lucy."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in about 100 words.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 100,
+          "lead": "You see this announcement in your school English-language magazine.",
+          "stimulus": { "title": "A CELEBRATION TO REMEMBER", "body": "Which celebration or special day do you enjoy most every year? Write an article describing it and explaining why it is important to you. The best articles will be published next month." },
+          "bullets": ["which celebration you enjoy most", "what you and your family or friends do", "why it is important to you"],
+          "write": "Write your article." },
+        { "type": "story", "q": 3, "minWords": 100,
+          "lead": "Your English teacher has asked you to write a story.",
+          "startSentence": "The music in the town square suddenly stopped, and everyone looked up.",
+          "stimulus": { "title": "", "body": "Your story must begin with this sentence:\n\nThe music in the town square suddenly stopped, and everyone looked up." },
+          "bullets": [],
+          "write": "Write your story." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+ "label": "C1 — Advanced",
+ "cefr": "Cambridge Advanced (CAE) · C1 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+ "audios": [
+  {
+   "id": "C1-P1",
+   "title": "Part 1 · Questions 1–6",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A disputed statement",
+    "A plagiarism case",
+    "An anonymous letter",
+    "An unmasked author",
+    "Texting evidence",
+    "An expert witness"
+   ],
+   "scripts": [
+    "Question one. Woman: The prosecution's whole case leans on that typed confession, and the officer swears it's word for word what your client said. Man: Then the officer has sworn to something remarkable, because I've listened to four hours of my client on tape and he has never once produced a subordinate clause. The confession reads like a policy document, whereupon, in respect of, at which juncture. A man's grammar doesn't put on a suit for one afternoon. Someone else's fingerprints are all over that syntax.",
+    "Question two. Man: So the plagiarism hearing, how did it end? Woman: In the strangest way. The software had flagged her essay against a thesis from 1994, ninety per cent overlap, open and shut, apparently. Except our linguist noticed both texts made the same bizarre error, a mangled quotation that exists nowhere else in print. The 1994 author had stolen it too, from the same ancient crib sheet doing the rounds. So she was guilty, but of inheriting a theft, not committing one. The committee had no box for that.",
+    "Question three. Woman: The poison-pen letters had the whole village auditioning suspects, and everyone fancied the retired headmaster, the letters were so full of semicolons. Man: Which is precisely what should have cleared him, if anyone had been thinking. A man who has marked essays for forty years doesn't suddenly misspell the vicar's name three different ways in one page. The semicolons weren't a signature, they were a costume. Whoever wrote those letters was dressing up as educated, and slightly overdoing it.",
+    "Question four. Woman: They finally proved the anonymous crime novels were yours, the stylometry people matched them to your journalism. You must be furious. Man: Everyone assumes fury, and there was a week of it, mainly on principle. But I'd be lying if I called the unmasking a pure loss. The disguise had begun to feel like a second mortgage, and reviewers kept praising the anonymous fellow for a fearlessness they'd never granted me under my own name. He got better notices than I ever did. In a way I'm relieved to inherit his reputation.",
+    "Question five. Man: We analysed two hundred court cases where text messages were evidence, and the pattern that alarmed us wasn't forgery, forgeries are rare and usually clumsy. It was interpretation. Juries read a full stop at the end of a message as coldness, capital letters as rage, an emoji as intent, with total confidence and no consistency. The messages were authentic. The meanings juries extracted from them were, half the time, home-made.",
+    "Question six. Woman: The defence want you as their expert, it's a huge case, why the hesitation? Man: Because I've read the transcripts, and my honest report helps them on two points out of three. The third point cuts against their client, badly. They're pressing me to trim the report to the helpful two, politely, of course, everyone's polite. If I trim, I'm an advocate in a lab coat. I'll testify to all three findings or they can find another linguist, and I've told them so this morning."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why does the man doubt the confession?",
+     "o": [
+      "The officer has changed his account",
+      "Its style is inconsistent with his client's speech",
+      "His client denies ever confessing"
+     ],
+     "c": 1,
+     "audio": "M5/C1/C1-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the linguist's discovery show about the student?",
+     "o": [
+      "Her essay had been copied by another author",
+      "The software had matched the wrong thesis",
+      "Her source was itself derived from a copied text"
+     ],
+     "c": 2,
+     "audio": "M5/C1/C1-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the man conclude about the letters' style?",
+     "o": [
+      "It was an attempt to seem educated",
+      "It proves the headmaster wrote them",
+      "It shows the writer knew the vicar well"
+     ],
+     "c": 0,
+     "audio": "M5/C1/C1-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How does the novelist now feel about being identified?",
+     "o": [
+      "Furious that his privacy was destroyed",
+      "Partly glad to claim his pseudonym's success",
+      "Determined to write anonymously again"
+     ],
+     "c": 1,
+     "audio": "M5/C1/C1-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What alarmed the researchers about text messages in court?",
+     "o": [
+      "How often the messages were forged",
+      "How confidently juries misread authentic messages",
+      "How rarely messages were admitted as evidence"
+     ],
+     "c": 1,
+     "audio": "M5/C1/C1-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why is the man hesitating about the case?",
+     "o": [
+      "He is being asked to present only selected findings",
+      "He believes the client is guilty",
+      "He doubts his own analysis of the transcripts"
+     ],
+     "c": 0,
+     "audio": "M5/C1/C1-P1-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "C1-P2",
+   "title": "Part 2 · Questions 7–14",
+   "kind": "file",
+   "file": "M5/C1/C1-P2.mp3",
+   "intro": "You will hear a forensic linguist called Nora giving a talk about her field. For each question, complete the sentences with a word or short phrase.",
+   "scripts": [
+    "Good evening. I'm Nora, and I'm a forensic linguist, which means the police send me words the way they send other laboratories bloodstains. Let me sketch the discipline, and then puncture a few of the myths that trail it. The field earned its public reputation through a kidnapping case in the sixties, where the analysis of a ransom note, its odd spellings, its transplanted dialect, pointed investigators away from the obvious suspect and towards the actual one. Notes demanding money remain, so to speak, our founding documents, though today I spend far more time on emails and instant messages than on letters pasted together from newsprint. The premise beneath everything we do is that no two people use language identically. Each of us carries a lifetime's sediment of habits, favourite constructions, characteristic errors, a personal dialect that scholars call an idiolect, and though it's not a fingerprint, whatever the television dramas imply, it is stubbornly, usefully distinctive. Now, the finding that surprises every jury I've ever addressed: the words that betray an author are almost never the memorable ones. Anyone can avoid their pet vocabulary when disguising a text; that's the first thing a forger suppresses. What nobody manages to police are the little grey words, the of, the that, the which, what my trade calls function words, deployed below the level of awareness, thousands of times, in ratios as habitual as a heartbeat. The flamboyant vocabulary is a mask that stays on. The grammar underneath does not. Punctuation deserves its own chapter, and in my case files it has one. I helped convict a man whose threatening messages were superficially anonymous but who could not, in any register, at any level of caution, let go of the semicolon; he used it in a shopping list. His defence called it coincidence. Eleven documented years of semicolons disagreed. I must, though, be honest about our limits, because the field's credibility depends on it. Linguistic evidence is circumstantial by nature: I can testify that two texts are consistent with one author, that a resignation letter sits oddly against everything else its supposed writer produced, but consistency is not identity, and any linguist who offers a courtroom certainty is practising astrology with citations. We are one instrument in the orchestra, we support, we corroborate, we redirect suspicion. What we never supply, alone, is proof, and judges are right to hold us to that. The newest wing of the discipline barely existed when I trained: software now sifts authorship candidates by comparing millions of texts in minutes, work that once consumed my whole winters. I welcome the machines with one caveat, which I'll dress as a warning to any student listening: the algorithm counts brilliantly and understands nothing. It will tell you two documents rhyme statistically; it cannot tell you the second one is a parody. That judgement, the reading of intent through the numbers, remains obstinately human, and I suspect, and rather hope, it always will. Thank you."
+   ],
+   "gapTitle": "Forensic Linguistics",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The field became famous through the analysis of a ____ note",
+     "accept": [
+      "ransom"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Each person's private dialect is called an ____",
+     "accept": [
+      "idiolect"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Authors are betrayed by the little grey ____ words",
+     "accept": [
+      "function"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "One man was convicted partly by his attachment to the ____",
+     "accept": [
+      "semicolon"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "He even used it in a shopping ____",
+     "accept": [
+      "list"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Linguistic evidence is by nature ____",
+     "accept": [
+      "circumstantial"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Alone, linguistics never supplies ____",
+     "accept": [
+      "proof"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Software counts brilliantly but understands ____",
+     "accept": [
+      "nothing"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1-P3",
+   "title": "Part 3 · Questions 15–20",
+   "kind": "file",
+   "file": "M5/C1/C1-P3.mp3",
+   "intro": "You will hear an interview with a forensic linguist called Marcus. For each question, choose the best answer (A, B, C or D).",
+   "scripts": [
+    "Interviewer: Marcus, thirty years of reading other people's words for a living. Has it changed how you read your own? Marcus: Profoundly, and not comfortably. I draft an email and watch my own tics assemble on the screen, the hedging, the fondness for triplets, the apology smuggled into every request. It's like being a surgeon with a mirror permanently angled at your own anatomy. I've concluded there's no innocent sentence, including that one. Interviewer: Your evidence has helped convict people, and at least once, helped free a man. Which weighs more? Marcus: The freeing, without hesitation, but not for the sentimental reason you'd print. The convictions were team efforts, my strand woven with a dozen others, and I sleep easily about them. The exoneration was different: every other strand pointed at that man, and the language alone said no, whoever wrote these messages, it isn't him. Standing in court effectively alone against the file, that's when you discover whether you believe your own discipline. I discovered I did, and I've dined out on the relief ever since. Interviewer: The public increasingly meets your field through true-crime podcasts. A blessing? Marcus: A mixed one, tilting worse. The interest is real and I won't sneer at it, half my graduate students arrived via their headphones. But the podcasts compress a month of tentative analysis into a eureka moment before the advert break, and juries now arrive expecting me to perform one. When I say instead, this evidence is consistent with, but cannot establish, I watch a row of faces deflate, as though I'd broken a promise television made on my behalf. Interviewer: You've been scathing about colleagues who overclaim. Name the temptation honestly. Marcus: The temptation is that certainty is a seller's market. A barrister doesn't want a lecture on probability, he wants an arrow, and there is always, always, an expert somewhere who'll sharpen one for the fee. Resisting isn't nobility, it's self-preservation with a long horizon: overclaim once and get caught, and every past case you touched starts unravelling on appeal. My caution isn't a virtue. It's compound interest. Interviewer: Anonymous online abuse is now half your caseload. Has the internet changed authorship itself? Marcus: It's changed the wardrobe, not the walk. People imagine the internet made anonymity easy, and superficially it did, burner accounts cost nothing. But the same people then write ten thousand words a year in public, and volume is the enemy of every disguise. In the letter era I'd have a page of a suspect's prose. Now I have their decade. Honestly, the anonymous have never been so generous. Interviewer: Last question. Could someone with your training commit the perfect anonymous crime, textually speaking? Marcus: For about six hundred words, yes, I genuinely believe the mask would hold. Past that, the old signatures start seeping through, the rhythms, the grey words, the punctuation leaning where it always leans. Style is a current: you can swim against it impressively, briefly, and then it carries you home. Which is, professionally speaking, the most reassuring sentence I know. Interviewer: Marcus, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How has Marcus's profession affected his own writing?",
+     "o": [
+      "He has eliminated his stylistic habits",
+      "He is uncomfortably aware of his own patterns",
+      "He now writes as briefly as possible",
+      "He avoids writing emails altogether"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why does the exoneration matter most to Marcus?",
+     "o": [
+      "It attracted the most publicity",
+      "It tested his faith in his discipline",
+      "It was his only unaided success",
+      "It proved the other evidence was fabricated"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Marcus's complaint about true-crime podcasts?",
+     "o": [
+      "They discourage students from the field",
+      "They portray linguists as unreliable",
+      "They create expectations of dramatic certainty",
+      "They reveal confidential case details"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "How does Marcus explain his refusal to overclaim?",
+     "o": [
+      "As enlightened self-interest",
+      "As a matter of pure principle",
+      "As obedience to court rules",
+      "As loyalty to his colleagues"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Marcus say the internet has done to anonymity?",
+     "o": [
+      "Made it easier to sustain than before",
+      "Undermined it through the sheer volume people write",
+      "Made authorship analysis obsolete",
+      "Restricted his work to short texts"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Marcus imply with his final image of the current?",
+     "o": [
+      "A trained expert could evade detection indefinitely",
+      "Personal style eventually defeats any disguise",
+      "Swimming against style improves with practice",
+      "His own writing lacks a detectable signature"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "C1-P4",
+   "title": "Part 4 · Questions 21–30",
+   "kind": "file",
+   "file": "M5/C1/C1-P4.mp3",
+   "intro": "You will hear five people whose work involves analysing language. TASK ONE (21–25): choose the field each speaker works in. TASK TWO (26–30): choose the lesson about language each speaker has drawn.",
+   "scripts": [
+    "Speaker one. Ben: Twenty years on the force, and the case I'm remembered for turned on two letters. An extortion campaign, beautifully disguised, the writer varied his vocabulary like an actor changing wigs. But across forty messages he never once wrote the word of after a percentage, always fifty percent the profits, an odd little elision, invisible unless you're counting. We were counting. It matched one supplier's invoices, ten years of them. He'd policed every flourish and never thought to guard the plumbing of his own sentences, and the plumbing is what convicted him. Speaker two. Emma: I handle academic integrity for a university, which these days is less about copying than about ghostwriting, essays bought wholesale, polished, plausible. The purchased chapters are actually the easy part. What we've learned to do is set the suspect essay beside the student's ordinary messages to tutors, and the seams show almost immediately: a writer can wear someone else's style for a paragraph, even a page, but hold it for three thousand words? Never yet, not once in my files. Eventually the borrowed coat slips off the shoulders, mid-sentence usually. We just read until it does. Speaker three. Leo: The letter was supposedly 1852, a composer to his patron, and physically it was flawless, correct paper, correct iron-gall ink, a provenance you could frame. The seller had done everything right except read widely. One phrase, a term for nervous exhaustion, doesn't enter the language for another thirty years, it belongs to the 1880s as surely as the telephone does. All that chemistry defeated by one anachronism. Forgers can source old paper by the crate. What no warehouse stocks is the vocabulary of a particular decade, because words carry their birth certificates. Speaker four. Sandy: My unit reviews flagged messages, threats against schools, stations, public figures, and the training that saved us from a thousand wrong turns is this: the messages that shout are almost never the messages that matter. Capital letters, gore, operatic fury, that's overwhelmingly theatre, misery venting itself. The message that empties your stomach is quiet, it has a date in it, a specific door, a calm little sentence about timing. We triage by markers of planning now, not by temperature. Rage is loud and mostly hollow. Intent is quiet and administrative, and learning that felt like learning a new alphabet. Speaker five. Jack: Trademark law sounds bloodless until two corporations spend millions arguing over whether a word has died. My favourite case: a brand name so successful it was becoming the generic term for the product, which legally is fatal, victory dissolving the prize. Both sides hired linguists, surveys, corpora, the works. And the deciding evidence wasn't professorial at all, it was supermarket shopping lists, thousands of them, volunteered in evidence, showing real people using the brand name for any rival product in the aisle. The judges followed the shoppers. In my trade, the dictionary doesn't get the last word. The checkout queue does."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the field they work in",
+     "person": "Speaker 1",
+     "bank": [
+      "criminal investigation",
+      "academic integrity",
+      "authenticating historical documents",
+      "assessing online threats",
+      "trademark disputes",
+      "political speechwriting",
+      "courtroom interpreting",
+      "insurance fraud detection"
+     ],
+     "c": "criminal investigation"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the field they work in",
+     "person": "Speaker 2",
+     "bank": [
+      "criminal investigation",
+      "academic integrity",
+      "authenticating historical documents",
+      "assessing online threats",
+      "trademark disputes",
+      "political speechwriting",
+      "courtroom interpreting",
+      "insurance fraud detection"
+     ],
+     "c": "academic integrity"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the field they work in",
+     "person": "Speaker 3",
+     "bank": [
+      "criminal investigation",
+      "academic integrity",
+      "authenticating historical documents",
+      "assessing online threats",
+      "trademark disputes",
+      "political speechwriting",
+      "courtroom interpreting",
+      "insurance fraud detection"
+     ],
+     "c": "authenticating historical documents"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the field they work in",
+     "person": "Speaker 4",
+     "bank": [
+      "criminal investigation",
+      "academic integrity",
+      "authenticating historical documents",
+      "assessing online threats",
+      "trademark disputes",
+      "political speechwriting",
+      "courtroom interpreting",
+      "insurance fraud detection"
+     ],
+     "c": "assessing online threats"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the field they work in",
+     "person": "Speaker 5",
+     "bank": [
+      "criminal investigation",
+      "academic integrity",
+      "authenticating historical documents",
+      "assessing online threats",
+      "trademark disputes",
+      "political speechwriting",
+      "courtroom interpreting",
+      "insurance fraud detection"
+     ],
+     "c": "trademark disputes"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the lesson they have drawn",
+     "person": "Speaker 1",
+     "bank": [
+      "the smallest words matter most",
+      "a borrowed voice soon slips",
+      "vocabulary betrays its era",
+      "tone is a poor guide to intent",
+      "ordinary speakers set the standard",
+      "punctuation is pure habit",
+      "translation always loses meaning",
+      "repetition reveals anxiety"
+     ],
+     "c": "the smallest words matter most"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the lesson they have drawn",
+     "person": "Speaker 2",
+     "bank": [
+      "the smallest words matter most",
+      "a borrowed voice soon slips",
+      "vocabulary betrays its era",
+      "tone is a poor guide to intent",
+      "ordinary speakers set the standard",
+      "punctuation is pure habit",
+      "translation always loses meaning",
+      "repetition reveals anxiety"
+     ],
+     "c": "a borrowed voice soon slips"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the lesson they have drawn",
+     "person": "Speaker 3",
+     "bank": [
+      "the smallest words matter most",
+      "a borrowed voice soon slips",
+      "vocabulary betrays its era",
+      "tone is a poor guide to intent",
+      "ordinary speakers set the standard",
+      "punctuation is pure habit",
+      "translation always loses meaning",
+      "repetition reveals anxiety"
+     ],
+     "c": "vocabulary betrays its era"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the lesson they have drawn",
+     "person": "Speaker 4",
+     "bank": [
+      "the smallest words matter most",
+      "a borrowed voice soon slips",
+      "vocabulary betrays its era",
+      "tone is a poor guide to intent",
+      "ordinary speakers set the standard",
+      "punctuation is pure habit",
+      "translation always loses meaning",
+      "repetition reveals anxiety"
+     ],
+     "c": "tone is a poor guide to intent"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the lesson they have drawn",
+     "person": "Speaker 5",
+     "bank": [
+      "the smallest words matter most",
+      "a borrowed voice soon slips",
+      "vocabulary betrays its era",
+      "tone is a poor guide to intent",
+      "ordinary speakers set the standard",
+      "punctuation is pure habit",
+      "translation always loses meaning",
+      "repetition reveals anxiety"
+     ],
+     "c": "ordinary speakers set the standard"
+    }
+   ]
+  }
+ ]
+}

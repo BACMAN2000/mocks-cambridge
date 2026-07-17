@@ -1,0 +1,308 @@
+{
+ "label": "A2 — Elementary",
+ "cefr": "Cambridge KET · A2 official format",
+ "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+ "audios": [
+  {
+   "id": "A2-P1",
+   "title": "Part 1 · Questions 1–5",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+   "segments": [
+    "Travelling there",
+    "Packing",
+    "Beach weather",
+    "Beach food",
+    "The boat trip"
+   ],
+   "scripts": [
+    "Question one. Girl: Are we going to the seaside by car, Dad? Dad: The car is too small for all the bags, so we're taking the bus this year. Girl: OK, I want to sit by the window.",
+    "Question two. Mum: Have you packed everything, Ben? Boy: Nearly everything. Mum: Don't forget your hat — the sun will be very strong. Boy: It's already in my bag.",
+    "Question three. Boy: Can we swim in the sea tomorrow? Woman: It rained this morning, but tomorrow will be sunny all day. Boy: Fantastic!",
+    "Question four. Girl: Can we buy pizza on the beach, Mum? Mum: It's too expensive there. I'll make sandwiches to take with us. Girl: With cheese, please!",
+    "Question five. Man: What time is the boat trip tomorrow? Woman: It leaves at nine o'clock. Not half past eight — I checked twice. Man: Good, we can have breakfast first."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "How will the family travel to the seaside?",
+     "imgs": [
+      "car",
+      "bus",
+      "bike"
+     ],
+     "c": 1,
+     "audio": "P8/A2/A2-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What must Ben remember to pack?",
+     "imgs": [
+      "umbrella",
+      "hat",
+      "camera"
+     ],
+     "c": 1,
+     "audio": "P8/A2/A2-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will the weather be like tomorrow?",
+     "imgs": [
+      "rainy",
+      "sunny",
+      "snowy"
+     ],
+     "c": 1,
+     "audio": "P8/A2/A2-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will they eat on the beach?",
+     "imgs": [
+      "pizza",
+      "sandwich",
+      "cake"
+     ],
+     "c": 1,
+     "audio": "P8/A2/A2-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the boat trip leave?",
+     "imgs": [
+      "clock830",
+      "clock9",
+      "clock8"
+     ],
+     "c": 1,
+     "audio": "P8/A2/A2-P1-q5.mp3"
+    }
+   ]
+  },
+  {
+   "id": "A2-P2",
+   "title": "Part 2 · Questions 6–10",
+   "kind": "file",
+   "file": "P8/A2/A2-P2.mp3",
+   "intro": "You will hear a man talking about a children's beach club. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+   "scripts": [
+    "Listen to a man talking about a beach club for children. Man: Welcome to Sunny Bay! Our children's beach club is open every morning from Monday to Friday. It starts at half past nine, next to the white boats. One morning costs four pounds. Children should bring a towel, and we give everyone a free orange juice. This week's big activity is building a giant sand castle on Friday. See you on the beach!"
+   ],
+   "gapTitle": "Sunny Bay Beach Club",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Open: Monday to ____",
+     "accept": [
+      "friday"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Starts at: ____ a.m.",
+     "accept": [
+      "9:30",
+      "9.30",
+      "930",
+      "half past nine",
+      "nine thirty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "One morning costs: £ ____",
+     "accept": [
+      "4",
+      "four"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Children should bring: a ____",
+     "accept": [
+      "towel"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Free drink: orange ____",
+     "accept": [
+      "juice"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2-P3",
+   "title": "Part 3 · Questions 11–15",
+   "kind": "file",
+   "file": "P8/A2/A2-P3.mp3",
+   "intro": "You will hear Ruby talking to her friend Noah about her holiday. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Noah: Hi Ruby! You look really brown — where did you go? Ruby: We spent a week at the seaside, in a little white house near the beach. Noah: Nice! Did you swim every day? Ruby: Almost every day. One day it was too windy, so we visited a lighthouse instead. Noah: What was the best part? Ruby: The boat trip — we saw dolphins jumping right next to us! Noah: Wow! Did you take photos? Ruby: My dad did. I was too excited and just watched them. Noah: Would you go back? Ruby: Tomorrow, if I could!"
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Where did Ruby stay on holiday?",
+     "o": [
+      "In a hotel",
+      "In a house near the beach",
+      "At her aunt's flat"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why didn't Ruby swim one day?",
+     "o": [
+      "It was too windy",
+      "She was ill",
+      "The water was cold"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What did the family visit?",
+     "o": [
+      "A castle",
+      "A lighthouse",
+      "A museum"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What was the best part of the holiday for Ruby?",
+     "o": [
+      "Seeing dolphins",
+      "The white house",
+      "Swimming every day"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Who took photos of the dolphins?",
+     "o": [
+      "Ruby",
+      "Ruby's dad",
+      "Nobody"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P4",
+   "title": "Part 4 · Questions 16–20",
+   "kind": "file",
+   "file": "P8/A2/A2-P4.mp3",
+   "intro": "You will hear a boy called Hugo talking about learning to surf. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Hugo: Last summer I learned to surf at the seaside. My cousin surfs really well, and watching her made me want to try it. The first lesson was on the sand — we didn't even touch the water, which was a bit boring. But in the second lesson I stood up on the board for three seconds, and everyone cheered. My teacher was a really funny man called Marcus. The lessons were early in the morning, when the sea was quiet. Falling in the water didn't hurt — it was the salty taste I didn't like! Next year I want to surf a bigger wave than my cousin."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Who made Hugo want to surf?",
+     "o": [
+      "His cousin",
+      "His teacher",
+      "A friend from school"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Where was the first lesson?",
+     "o": [
+      "In the sea",
+      "On the sand",
+      "In a pool"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What happened in the second lesson?",
+     "o": [
+      "Hugo stood up on the board",
+      "Hugo fell and got hurt",
+      "Hugo watched the others"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "When were the lessons?",
+     "o": [
+      "Early in the morning",
+      "After lunch",
+      "In the evening"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What didn't Hugo like?",
+     "o": [
+      "Falling in the water",
+      "The taste of the sea water",
+      "Getting up early"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P5",
+   "title": "Part 5 · Questions 21–25",
+   "kind": "file",
+   "file": "P8/A2/A2-P5.mp3",
+   "intro": "You will hear Anna talking about a family beach day. What is each person taking? For each question, choose the correct answer.",
+   "bank": [
+    "ball",
+    "camera",
+    "towels",
+    "umbrella",
+    "sandwiches",
+    "radio",
+    "books"
+   ],
+   "scripts": [
+    "Anna: We're all bringing something for our beach day tomorrow. Tom is bringing a ball, so we can play a game on the sand. Elena is taking her camera to photograph the sea birds. Mum is packing the towels for everyone. Dad is carrying the big umbrella, because it gets so hot at midday. And Sam is making the sandwiches tonight."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Tom",
+     "c": "ball"
+    },
+    {
+     "type": "match",
+     "person": "Elena",
+     "c": "camera"
+    },
+    {
+     "type": "match",
+     "person": "Mum",
+     "c": "towels"
+    },
+    {
+     "type": "match",
+     "person": "Dad",
+     "c": "umbrella"
+    },
+    {
+     "type": "match",
+     "person": "Sam",
+     "c": "sandwiches"
+    }
+   ]
+  }
+ ]
+}

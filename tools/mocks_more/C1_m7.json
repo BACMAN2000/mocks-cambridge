@@ -1,0 +1,192 @@
+{
+  "title": "C1 Advanced — Reading and Use of English (MOCK 7)",
+  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The trouble with 'the science says'",
+      "body": "Scientists are forever being urged to communicate better, as though public scepticism could be (1)____ down to nothing more than poor presentation. The (2)____ assumption — that facts, clearly stated, will speak for themselves — has proved remarkably resistant to the abundant evidence (3)____ it. Study after study shows that simply supplying information does little to shift opinion on contested questions; indeed, it can (4)____ entrench existing views, as people marshal their considerable ingenuity to explain away whatever fails to fit. Communication researchers refer to this as the 'deficit model', and they have spent thirty years trying to (5)____ its grip on scientific institutions. Their alternative begins from an uncomfortable premise: audiences are not empty vessels but jurors, (6)____ verdicts on the trustworthiness of the messenger as much as on the message. A public that mistrusts a source will not be won (7)____ by louder repetition. What builds trust, the research suggests, is not polish but candour — a willingness to (8)____ uncertainty rather than paper over it.",
+      "questions": [
+        { "options": ["put", "set", "laid", "brought"], "answer": 0 },
+        { "options": ["undermining", "underpinning", "underlying", "undertaking"], "answer": 2 },
+        { "options": ["versus", "against", "towards", "despite"], "answer": 1 },
+        { "options": ["deeper", "harder", "stronger", "further"], "answer": 3 },
+        { "options": ["relieve", "release", "loosen", "soften"], "answer": 2 },
+        { "options": ["passing", "giving", "placing", "setting"], "answer": 0 },
+        { "options": ["out", "up", "in", "over"], "answer": 3 },
+        { "options": ["expose", "admit", "confess", "reveal"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The metaphor problem",
+      "body": "Science cannot be communicated (9)____ metaphor. Genes are 'blueprints', the brain is a 'computer', greenhouse gases form a 'blanket' — and each comparison, however helpful at first, carries baggage of (10)____ own. Call DNA a blueprint and people will assume the organism is fixed at birth; call the atom a tiny solar system and generations will picture electrons (11)____ orbit like planets.\n\nThe trouble is that a metaphor's convenience and its accuracy have little to (12)____ with each other. Nor is it (13)____ use blaming the public for taking images literally: that is precisely (14)____ images are for.\n\nThe real skill lies in choosing comparisons (15)____ inevitable distortions are the harmless ones — and in recognising the moment (16)____ which a once-useful picture starts to mislead more than it illuminates.",
+      "questions": [
+        { "accept": ["without"] },
+        { "accept": ["its"] },
+        { "accept": ["in"] },
+        { "accept": ["do"] },
+        { "accept": ["any", "much"] },
+        { "accept": ["what"] },
+        { "accept": ["whose"] },
+        { "accept": ["at"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Breakthrough fatigue",
+      "rows": [
+        { "text": "Headlines routinely announce 'breakthroughs' with a confidence the underlying studies do nothing to (17)____ .", "root": "JUST" },
+        { "text": "Much science reporting suffers from systematic (18)____ , presenting tentative findings as settled fact.", "root": "SIMPLE" },
+        { "text": "Researchers themselves are not blameless, approving press releases written with (19)____ optimism.", "root": "LEAD" },
+        { "text": "Public trust, once lost in this way, may prove (20)____ .", "root": "RETRIEVE" },
+        { "text": "Editors defend dramatic headlines as (21)____ in a marketplace where subtlety goes unread.", "root": "DEFEND" },
+        { "text": "Critics reply that such practices are not merely lazy but actively (22)____ .", "root": "RESPONSIBLE" },
+        { "text": "The most effective communicators treat their audience's doubts with (23)____ rather than contempt.", "root": "SERIOUS" },
+        { "text": "In the long run, (24)____ may prove a better persuader than certainty.", "root": "MODEST" }
+      ],
+      "questions": [
+        { "root": "JUST", "accept": ["justify"] },
+        { "root": "SIMPLE", "accept": ["oversimplification", "over-simplification"] },
+        { "root": "LEAD", "accept": ["misleading"] },
+        { "root": "RETRIEVE", "accept": ["irretrievable"] },
+        { "root": "DEFEND", "accept": ["defensible"] },
+        { "root": "RESPONSIBLE", "accept": ["irresponsible"] },
+        { "root": "SERIOUS", "accept": ["seriousness"] },
+        { "root": "MODEST", "accept": ["modesty"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+      "questions": [
+        {
+          "before": "Journalists often exaggerate the significance of preliminary findings.",
+          "keyword": "TENDENCY",
+          "after": "Journalists have ___ the significance of preliminary findings.",
+          "accept": ["a tendency to exaggerate"]
+        },
+        {
+          "before": "The researcher regretted speaking to the press so soon.",
+          "keyword": "WISHED",
+          "after": "The researcher ___ to the press so soon.",
+          "accept": ["wished she had not spoken", "wished he had not spoken", "wished they had not spoken", "wished she hadn't spoken", "wished he hadn't spoken", "wished they hadn't spoken"]
+        },
+        {
+          "before": "It seems that the results were leaked before publication.",
+          "keyword": "APPEAR",
+          "after": "The results ___ leaked before publication.",
+          "accept": ["appear to have been"]
+        },
+        {
+          "before": "The public no longer trusts experts as much as it once did.",
+          "keyword": "FAITH",
+          "after": "The public has ___ experts than it once had.",
+          "accept": ["less faith in"]
+        },
+        {
+          "before": "Whatever you do, don't mention the funding dispute during the interview.",
+          "keyword": "ACCOUNT",
+          "after": "On ___ the funding dispute during the interview.",
+          "accept": ["no account should you mention", "no account must you mention", "no account are you to mention"]
+        },
+        {
+          "before": "The lecture was so complicated that hardly anyone understood it.",
+          "keyword": "SUCH",
+          "after": "It was ___ lecture that hardly anyone understood it.",
+          "accept": ["such a complicated"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The scientist as hero\n\nEvery science has its nativity scenes. The apple drops on the dozing genius; the bath overflows and a naked man runs through the streets shouting; a dish is left uncovered by a window, and a spore of mould drifts in to found modern medicine. Communicators reach for these tales for an unimpeachable reason: they work. Audiences remember them, repeat them, warm to them. The trouble is what the stories carry in their luggage. In making science memorable, they systematically misdescribe it — and the misdescription is not a harmless garnish but a lens that distorts everything seen through it.\n\nConsider what the anecdotes leave out. The apple conceals twenty years of calculation; the mould conceals the decade of unglamorous work, by an entire team, that turned a curiosity into a usable drug. The convention of the lone genius does not merely compress this labour; it erases the collaborators, the technicians, the rivals whose half-right ideas were indispensable — and in doing so it quietly instructs the audience in who does discovery and how. Discovery, the stories teach, is the possession of singular minds, arriving in flashes, to people of a recognisable type. Every part of that lesson is false, and each falsehood has a constituency it discourages.\n\nThe public consequences are on display whenever science moves slowly in public. An audience raised on eureka expects rescue to arrive as an event: the cure announced, the machine unveiled, the answer found. When what arrives instead is the ordinary product of research — a consensus assembled gradually, hedged, revised at the edges — it does not read as knowledge at all. It reads as dithering. Much of the public bewilderment at climate science, for instance, stems less from the difficulty of the material than from a mismatch of narrative expectations: decades of converging evidence simply do not look like what we have been taught discovery looks like. The heroic frame does not merely oversell science's triumphs; it makes science's normal condition look like failure.\n\nInside the profession, the frame exerts a quieter pressure. Prizes are designed for protagonists, not for networks; journalists need a face; funding bodies respond to stories with arcs. Researchers, being adaptable, learn to present their work accordingly — the stumble becomes an insight, the team recedes, the hedge is trimmed from the finding. None of this need involve outright dishonesty; it is a matter of lighting. But the cumulative effect is a profession obliged to narrate itself in a genre that rewards overclaiming, in which the truthful answer — that we are not yet sure, that it was mostly collective drudgery — is a competitive disadvantage.\n\nThe standard defence of the heroic mode deserves to be stated fairly: attention is not optional. A public that hears no story hears nothing, and the alternative to the memorable anecdote is usually not a subtler understanding but blank indifference. Abstractions do not travel; people do. Anyone who has tried to interest a commissioning editor in 'incremental progress by a large consortium' knows the dilemma is real, and sneering at narrative from a position of unread accuracy is its own kind of failure.\n\nBut the choice is not between myth and silence. It is between genres. The detective story has gripped readers for a century and a half, and its engine is not epiphany but method: evidence sifted, hypotheses discarded, the false lead patiently run to ground. Audiences demonstrably relish watching disciplined inquiry at work — which is, after all, what science is. Tell discovery as procedure rather than miracle, with the team on stage and the dead ends left in, and you sacrifice a little glamour for a great deal of truth. The stories would still be stories. They would simply be about the right hero.",
+      "questions": [
+        { "stem": "In the first paragraph, the writer suggests that famous anecdotes about discovery", "options": ["are usually invented by journalists rather than scientists", "have been shown to be historically accurate", "are too obscure to interest general audiences", "achieve memorability at the expense of truthfulness"], "answer": 3 },
+        { "stem": "According to the writer, the 'lone genius' convention is harmful partly because it", "options": ["discourages gifted individuals from entering science", "shapes assumptions about who is capable of discovery", "overstates the role of luck in research", "makes scientists reluctant to accept prizes"], "answer": 1 },
+        { "stem": "The writer refers to climate science in order to show that", "options": ["scientists in that field are unusually poor communicators", "public interest in the subject has declined sharply", "gradually built agreement can be misread as indecision", "genuine breakthroughs there are rarer than elsewhere"], "answer": 2 },
+        { "stem": "What effect does the writer say the heroic frame has within the scientific profession?", "options": ["It pressures researchers to package their work as dramatic stories.", "It has eliminated collaborative projects entirely.", "It causes prizes to be awarded at random.", "It prevents journals from publishing negative results."], "answer": 0 },
+        { "stem": "How does the writer respond to the argument that stories are necessary to attract attention?", "options": ["By denying that audiences enjoy narrative at all.", "By accepting it as a genuine dilemma rather than dismissing it.", "By claiming accuracy always attracts larger audiences.", "By blaming broadcasters for having created the problem."], "answer": 1 },
+        { "stem": "The writer mentions detective fiction in order to", "options": ["recommend that scientists write novels about their work", "show that fictional scientists are more admired than real ones", "argue that entertainment and science should be kept separate", "suggest that the public can be gripped by depictions of methodical work"], "answer": 3 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "Read four short opinion pieces (A–D) on the same topic: whether scientists should publicly advocate policies related to their research. Then answer the questions.",
+      "sources": [
+        { "label": "A", "text": "A scientist's authority is a savings account held in a currency called perceived disinterest, and advocacy is how you spend it. The polling is sobering: in fields where researchers have campaigned most visibly, trust has not merely declined — it has split along partisan lines, so that the same data now arrives pre-sorted into 'ours' and 'theirs'. That is a catastrophic outcome for a profession whose entire value lies in being believed by people who disagree with each other. By all means publish the findings, loudly and often. But the moment a researcher tells the public what must be done, she has exchanged the lab coat for a rosette, and rosettes are precisely what half the audience has learned to distrust." },
+        { "label": "B", "text": "The lectern is not a monastery, and the vow of silence being urged on my colleagues is itself a policy position — one that suits whoever profits from delay. Audiences are not fools: they know we have views, and a researcher who describes a gathering emergency in the passive voice, then declines to say what follows, reads not as neutral but as evasive. The polling deployed against advocacy shows exactly this, if read with care: trust erodes where scientists seem to be hiding the ball, not where they are candid about both their evidence and their values. A doctor who delivered a grave diagnosis and then refused, on principle, to recommend treatment would not be praised for objectivity. She would be struck off." },
+        { "label": "C", "text": "Most of this argument would dissolve if we kept three activities in separate boxes. Establishing what is happening is science, and scientists should assert it with all the force the evidence bears. Estimating what different responses would cost and achieve is also, largely, within our competence. But choosing among those responses means ranking one group's sacrifices against another's — a weighing of values on which a doctorate confers no authority whatever. That choice belongs to citizens. The purists err by refusing the second task, the campaigners by annexing the third, and both, from opposite directions, blur the only line that actually matters. Guard the line, and speak freely on the near side of it." },
+        { "label": "D", "text": "The entire debate rests on a door that closed decades ago. Audience research is unambiguous: the public already assumes scientists have agendas — funding to chase, careers to protect, politics of their own — and no display of professional restraint dislodges the assumption, because it was never based on our behaviour in the first place. The neutrality my colleagues are so anxious to preserve is not a resource we are spending; it is a costume the audience stopped believing in some time ago. The genuine choice is between influence that is disclosed and influence that is denied, and only one of these deserves to be called honest. I would rather be read as an open partisan than as a bad actor." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which writer proposes a division of labour under which scientists should stop short of recommending particular courses of action?", "answer": "C" },
+        { "stem": "Which writer, like Writer B, regards the neutrality valued by Writer A as unachievable, though for different reasons?", "answer": "D" },
+        { "stem": "Which writer disputes Writer A's interpretation of the survey evidence about public trust?", "answer": "B" },
+        { "stem": "Which writer argues that taking public positions depletes a resource on which science depends?", "answer": "A" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+      "passage": "Anatomy of a health scare\n\nThe study itself, when you finally track it down, is a model of caution. Forty-one volunteers, a modest correlation, and a concluding paragraph in which the authors warn — twice — against drawing any dietary conclusions from so preliminary a result. (41)____\n\nThe release led, as releases are designed to, to coverage. A wire service compressed the claim further; a morning programme compressed the compression; and by the weekend, a finding about a biochemical marker in fewer than fifty people had become a familiar headline formula: everyday food 'linked to' frightening disease. (42)____\n\nThe scientists watched all this, by their own account, with mounting horror. (43)____\n\nBy midweek the story had acquired its counter-story. Rival experts were quoted calling the coverage overblown; columnists mocked the panic; and a fact-checking site painstakingly reconstructed the chain of exaggeration, much as this article has. (44)____\n\nResearchers who study such episodes point out that the damage is rarely confined to a single food or a single week. (45)____\n\nIs there a remedy? Those who have examined the problem closely are wary of tidy answers, but they return to one observation. At every link in the chain — press office, wire service, studio — someone had a moment in which accuracy might have been chosen over impact, and chose otherwise, each for locally sensible reasons. (46)____ No single villain, in other words; just a machine with no part whose job it is to say no.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "At each of these steps something was subtracted — a sample size here, a 'may' there — and nothing was ever added except confidence.",
+          "The disease in question, though rare, had recently featured in a popular television drama, which may partly explain the media's appetite for the story.",
+          "Each debunked scare, they argue, leaves behind a residue — a public slightly more convinced that studies contradict one another constantly, and that the sensible response is to ignore them all.",
+          "One of them later described the peculiar helplessness of hearing her own work discussed on the radio and being unable to recognise it.",
+          "The press officer needed coverage, the editor needed clicks, the producer needed a story that fitted the slot before the travel news; none of them, individually, lied.",
+          "Nothing in what followed, in other words, can be blamed on the researchers' own text; the transformation began one step later, with a press release whose headline dispensed with every one of those carefully placed qualifications.",
+          "Similar patterns have been documented in the reporting of economic statistics, where preliminary figures are routinely revised without fanfare.",
+          "Yet corrections, however thorough, obey a cruel arithmetic: the alarm had reached millions, while the retraction reached the thousands who least needed it."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing paragraph:", "answer": "F" },
+        { "stem": "Choose the missing paragraph:", "answer": "A" },
+        { "stem": "Choose the missing paragraph:", "answer": "D" },
+        { "stem": "Choose the missing paragraph:", "answer": "H" },
+        { "stem": "Choose the missing paragraph:", "answer": "C" },
+        { "stem": "Choose the missing paragraph:", "answer": "E" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 8",
+      "instructions": "You are going to read four short pieces (A–D) by people who communicate science to the public in different roles. Answer the questions by choosing the appropriate person.",
+      "sources": [
+        { "label": "A", "text": "Beatriz — university press officer. I serve two masters who despise each other's taste. The researchers want every qualification preserved in amber; the news desks want a claim that fits in eight words. I have learned, to my discomfort, exactly what one deleted hedge is worth — roughly triple the coverage — and I would love to tell you I never make that trade. I don't always win against the news desks, and I don't always win against myself. The releases I am proudest of sank without a ripple, which is an odd thing to be proud of. These days I keep a different scorecard: the exaggerated stories that never ran because I refused to feed them. Nobody gives out prizes for absences, but the absences are the job." },
+        { "label": "B", "text": "Callum — science presenter. I make spectacle on purpose and I will not apologise for it: you cannot correct a misconception in a viewer you never had. Every simplification in my scripts is a decision, made knowingly, and I publish a running list on my website — 'what I glossed over and why' — which my viewers, to the academics' astonishment, actually read and love. The professors sneered at me for years, right up until their grant renewals started asking about public engagement; my inbox is now full of very polite requests. People assume the hard part of my job is explaining. It is not. The hard part is choosing what to leave unsaid, and living with the choice." },
+        { "label": "C", "text": "Ingrid — climate scientist. I never planned to be public property; I started posting when a broadcast so mangled my subfield that colleagues were quoting the error back to me at conferences. The replies taught me the real grammar of the medium: you are never arguing with the person shouting at you, you are arguing for the thousands reading in silence, and the moment you forget them you have lost. My university, which celebrates 'engagement' in every brochure, quietly summoned me to a meeting about my 'tone' after I stated — accurately — what our findings imply for policy targets. I will not soften a number for anyone. But I have learned to open with what my readers and I share, and only then say the hard thing." },
+        { "label": "D", "text": "Samir — science journalist. Researchers tend to assume I am their megaphone, and take it badly when I remember that I am not: my duty runs to readers, not to any laboratory's reputation, however distinguished. I fight my subeditors over headlines and lose about as often as I win — the ones I lose still make me wince. One rule of mine is non-negotiable: no single study gets reported without a dissenting expert voice, a policy scientists applaud loudly right up until the study in question is theirs, at which point the dissenter becomes a philistine. People imagine my stories are shaped by ideology or spin. Mostly they are shaped by four o'clock: the deadline edits harder than any editor." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Beatriz", "Callum", "Ingrid", "Samir"] },
+      "questions": [
+        { "stem": "Which person deliberately addresses their arguments to an audience other than the person they appear to be arguing with?", "answer": "C" },
+        { "stem": "Which person admits to sometimes yielding to a temptation they disapprove of?", "answer": "A" },
+        { "stem": "Which person maintains that their primary obligation is not to the scientific community?", "answer": "D" },
+        { "stem": "Which person openly documents the inaccuracies they have knowingly allowed?", "answer": "B" },
+        { "stem": "Which person counts the stories that never appeared as their real achievements?", "answer": "A" },
+        { "stem": "Which person was privately cautioned by their employer over communications considered contentious?", "answer": "C" },
+        { "stem": "Which person argues that reaching an audience must come before correcting its misunderstandings?", "answer": "B" },
+        { "stem": "Which person applies a self-imposed rule that annoys the very people who claim to support it?", "answer": "D" },
+        { "stem": "Which person was drawn into public communication by the distortion of their own subject?", "answer": "C" },
+        { "stem": "Which person describes being caught between the demands of two conflicting groups?", "answer": "A" }
+      ]
+    }
+  ]
+}

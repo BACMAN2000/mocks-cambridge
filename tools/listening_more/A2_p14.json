@@ -1,0 +1,306 @@
+{
+ "label": "A2 — Elementary",
+ "cefr": "Cambridge KET · A2 official format",
+ "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+ "audios": [
+  {
+   "id": "A2-P1",
+   "title": "Part 1 · Questions 1–5",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+   "segments": [
+    "At the library desk",
+    "Where to study",
+    "The weather",
+    "Something left behind",
+    "Closing time"
+   ],
+   "scripts": [
+    "Question one. Boy: Are you borrowing a camera from the media desk, Anna? Girl: I thought about it, but I'm taking out a book about photography instead. Boy: That's cheaper if you drop it!",
+    "Question two. Boy: Shall we study at the café this afternoon? Girl: It's too noisy there, and it's cold in the park. Let's go to the library. Boy: Good idea, it's quiet there.",
+    "Question three. Woman: Are you walking to the library? Man: Yes — it was raining this morning, but it's lovely and sunny now. Woman: Take your time, then.",
+    "Question four. Mum: You look worried, Tom. Boy: I left my umbrella at the library. I've got my keys and my phone in my bag, but the umbrella isn't there. Mum: We can get it tomorrow.",
+    "Question five. Girl: Does the library close at half past four today? Boy: No, that's on Sundays. Today it's open until seven o'clock. Girl: Great, we have lots of time."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What is the girl borrowing from the library?",
+     "imgs": [
+      "book",
+      "camera",
+      "phone"
+     ],
+     "c": 0,
+     "audio": "P14/A2/A2-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where will they study?",
+     "imgs": [
+      "cafe",
+      "park",
+      "library"
+     ],
+     "c": 2,
+     "audio": "P14/A2/A2-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What's the weather like now?",
+     "imgs": [
+      "rainy",
+      "sunny",
+      "snowy"
+     ],
+     "c": 1,
+     "audio": "P14/A2/A2-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What did Tom leave at the library?",
+     "imgs": [
+      "keys",
+      "umbrella",
+      "phone"
+     ],
+     "c": 1,
+     "audio": "P14/A2/A2-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the library close today?",
+     "imgs": [
+      "clock430",
+      "clock700",
+      "clock730"
+     ],
+     "c": 1,
+     "audio": "P14/A2/A2-P1-q5.mp3"
+    }
+   ]
+  },
+  {
+   "id": "A2-P2",
+   "title": "Part 2 · Questions 6–10",
+   "kind": "file",
+   "file": "P14/A2/A2-P2.mp3",
+   "intro": "You will hear a librarian telling students about the school book club. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+   "scripts": [
+    "Listen to a librarian talking about the school book club. Librarian: Hello everyone. The book club meets every Thursday after school, in room twelve. This month we are reading a story called 'The Silver Boat'. New members pay two pounds for the whole year. Please bring a pencil and your library card to every meeting. If you have any questions, ask Mrs Porter at the desk."
+   ],
+   "gapTitle": "School Book Club",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Club meets on: ____",
+     "accept": [
+      "thursday",
+      "thursdays"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Room number: ____",
+     "accept": [
+      "12",
+      "twelve"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "This month's book: 'The Silver ____'",
+     "accept": [
+      "boat"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "New members pay: £ ____",
+     "accept": [
+      "2",
+      "two"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Bring a pencil and your library ____",
+     "accept": [
+      "card"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2-P3",
+   "title": "Part 3 · Questions 11–15",
+   "kind": "file",
+   "file": "P14/A2/A2-P3.mp3",
+   "intro": "You will hear Lucy talking to her friend Sam about the new town library. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Lucy: Hi Sam, have you been to the new library in town? Sam: Not yet. Is it near the station? Lucy: It was going to be there, but they built it next to the park in the end. Sam: When did you go? Lucy: On Wednesday, after my piano lesson. Sam: What's it like? Lucy: The children's room is nice, but the best thing is the comics section — it's huge. Sam: Can you borrow films there? Lucy: Yes, but only for three days. Books are for two weeks. Sam: Let's go together on Saturday morning. Lucy: I help my dad in the mornings — let's go after lunch instead. Sam: Fine by me."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Where is the new library?",
+     "o": [
+      "Next to the station",
+      "Next to the park",
+      "Next to the school"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "When did Lucy visit the library?",
+     "o": [
+      "On Monday",
+      "On Wednesday",
+      "On Saturday"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Lucy like best about the library?",
+     "o": [
+      "The comics section",
+      "The children's room",
+      "The music room"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How long can you keep a film?",
+     "o": [
+      "Three days",
+      "One week",
+      "Two weeks"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "When will Lucy and Sam go to the library?",
+     "o": [
+      "Saturday morning",
+      "Saturday afternoon",
+      "Sunday morning"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P4",
+   "title": "Part 4 · Questions 16–20",
+   "kind": "file",
+   "file": "P14/A2/A2-P4.mp3",
+   "intro": "You will hear a girl called Grace talking about reading. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Grace: My aunt gave me my first real book when I was seven, and I've loved reading ever since. I usually read in bed at night, because the house is quiet then. My friends prefer stories about sport, but I always choose adventure stories. Last month I read a book that was five hundred pages long — it took me three weeks to finish! Now I want to enter the library's reading competition. You have to read six books before the holidays, and I've already finished two."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Who gave Grace her first book?",
+     "o": [
+      "Her aunt",
+      "Her teacher",
+      "Her friend"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "When does Grace usually read?",
+     "o": [
+      "In the morning",
+      "At night",
+      "After school"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What kind of stories does Grace choose?",
+     "o": [
+      "Sports stories",
+      "Adventure stories",
+      "Animal stories"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How long did the long book take her to read?",
+     "o": [
+      "Three days",
+      "Three weeks",
+      "Five weeks"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How many competition books has Grace finished?",
+     "o": [
+      "Two",
+      "Six",
+      "Seven"
+     ],
+     "c": 0
+    }
+   ]
+  },
+  {
+   "id": "A2-P5",
+   "title": "Part 5 · Questions 21–25",
+   "kind": "file",
+   "file": "P14/A2/A2-P5.mp3",
+   "intro": "You will hear Nora talking to her mum about books her friends borrowed from the library. What did each person borrow? For each question, choose the correct answer.",
+   "bank": [
+    "a cookbook",
+    "a comic",
+    "a sports book",
+    "an animal story",
+    "a travel book",
+    "a music book",
+    "a ghost story"
+   ],
+   "scripts": [
+    "Nora: Everyone in my class borrowed something different from the library today. Jack took a comic — he loves the pictures. Emma chose a cookbook, because she wants to make a cake for her mum's birthday. Leo borrowed a ghost story; he says it isn't scary at all. Ruby got a travel book about Italy, ready for her holiday. And Daniel took an animal story about a lost dog — he says it's the best book ever."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Jack",
+     "c": "a comic"
+    },
+    {
+     "type": "match",
+     "person": "Emma",
+     "c": "a cookbook"
+    },
+    {
+     "type": "match",
+     "person": "Leo",
+     "c": "a ghost story"
+    },
+    {
+     "type": "match",
+     "person": "Ruby",
+     "c": "a travel book"
+    },
+    {
+     "type": "match",
+     "person": "Daniel",
+     "c": "an animal story"
+    }
+   ]
+  }
+ ]
+}

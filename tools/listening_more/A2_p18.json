@@ -1,0 +1,311 @@
+{
+ "label": "A2 — Elementary",
+ "cefr": "Cambridge KET · A2 official format",
+ "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+ "audios": [
+  {
+   "id": "A2-P1",
+   "title": "Part 1 · Questions 1–5",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+   "segments": [
+    "Getting to the city",
+    "The bus time",
+    "Taking photos",
+    "The weather",
+    "Food for the trip"
+   ],
+   "scripts": [
+    "Question one. Girl: Is your dad driving us to the city on Saturday? Boy: The car's at the garage, so we're getting the bus. Girl: OK, I'll buy the tickets today.",
+    "Question two. Boy: The bus leaves at nine, right? Girl: The nine o'clock one is full. We're on the half past eight bus. Boy: Then I must get up early!",
+    "Question three. Mum: Are you taking your phone to the castle, Lucy? Girl: Yes, but for photos I'm taking Dad's camera — the pictures are much better. Mum: Look after it!",
+    "Question four. Man: What's the weather going to be like for the trip? Woman: Cold but sunny — no rain this time. Man: Perfect for walking.",
+    "Question five. Boy: Can we get pizza in the city, Mum? Mum: It's too expensive there. I'll make sandwiches for everyone. Boy: With cheese, please!"
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "How will they travel to the city?",
+     "imgs": [
+      "car",
+      "bus",
+      "bike"
+     ],
+     "c": 1,
+     "audio": "P18/A2/A2-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does their bus leave?",
+     "imgs": [
+      "clock830",
+      "clock9",
+      "clock8"
+     ],
+     "c": 0,
+     "audio": "P18/A2/A2-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will Lucy use to take photos?",
+     "imgs": [
+      "phone",
+      "camera",
+      "book"
+     ],
+     "c": 1,
+     "audio": "P18/A2/A2-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will the weather be like on the trip?",
+     "imgs": [
+      "rainy",
+      "sunny",
+      "snowy"
+     ],
+     "c": 1,
+     "audio": "P18/A2/A2-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will they eat on the trip?",
+     "imgs": [
+      "cake",
+      "pizza",
+      "sandwich"
+     ],
+     "c": 2,
+     "audio": "P18/A2/A2-P1-q5.mp3"
+    }
+   ]
+  },
+  {
+   "id": "A2-P2",
+   "title": "Part 2 · Questions 6–10",
+   "kind": "file",
+   "file": "P18/A2/A2-P2.mp3",
+   "intro": "You will hear a teacher telling students about a trip to a castle. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+   "scripts": [
+    "Listen to a teacher talking about the trip to Hilton Castle. Teacher: Here's everything you need to know about our day trip to Hilton Castle. We're going on the fifteenth of May. The coach leaves from the school gate at eight fifteen — please don't be late. The visit costs six pounds, and that includes a boat ride on the castle lake. Bring a raincoat, because the garden tour happens in all weather. We'll be back at school by five o'clock."
+   ],
+   "gapTitle": "Trip to Hilton Castle",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Date of trip: ____ May",
+     "accept": [
+      "15",
+      "15th",
+      "fifteen",
+      "fifteenth"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Coach leaves at: ____",
+     "accept": [
+      "8:15",
+      "8.15",
+      "815",
+      "eight fifteen",
+      "quarter past eight"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Cost of visit: £ ____",
+     "accept": [
+      "6",
+      "six"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Price includes a ____ ride",
+     "accept": [
+      "boat"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Bring a: ____",
+     "accept": [
+      "raincoat"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2-P3",
+   "title": "Part 3 · Questions 11–15",
+   "kind": "file",
+   "file": "P18/A2/A2-P3.mp3",
+   "intro": "You will hear Anna talking to her friend Sam about a trip to the zoo. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Anna: Sam, are you coming to the zoo with us on Sunday? Sam: I thought the trip was on Saturday! Anna: It was, but my dad has to work, so we moved it. Sam: OK, Sunday's fine. How much is a ticket? Anna: Ten pounds, but children under twelve pay five. Sam: I'm twelve already, so it's ten for me. Anna: Same here. Let's see the elephants first — they're only outside in the morning. Sam: I really want to see the penguins. Anna: We will, after lunch. And bring a hat — there isn't much shade. Sam: Good idea."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "When is the zoo trip now?",
+     "o": [
+      "On Saturday",
+      "On Sunday",
+      "Next weekend"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why did they change the day?",
+     "o": [
+      "Anna's dad has to work",
+      "The zoo is closed",
+      "Sam is busy"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How much will Sam pay?",
+     "o": [
+      "Five pounds",
+      "Ten pounds",
+      "Twelve pounds"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What will they see first?",
+     "o": [
+      "The penguins",
+      "The elephants",
+      "The monkeys"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What should Sam bring?",
+     "o": [
+      "A hat",
+      "An umbrella",
+      "Some food"
+     ],
+     "c": 0
+    }
+   ]
+  },
+  {
+   "id": "A2-P4",
+   "title": "Part 4 · Questions 16–20",
+   "kind": "file",
+   "file": "P18/A2/A2-P4.mp3",
+   "intro": "You will hear a girl called Hannah talking about a day trip to the mountains. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Hannah: Last Saturday my family drove to the mountains. We wanted to leave at seven, but my brother couldn't find his boots, so we left at eight. The drive took two hours, and I slept most of the way! We walked up to a waterfall — my legs hurt afterwards, but the view was fantastic, so I didn't mind at all. Dad wanted to eat at the restaurant at the top, but it was closed, so we had our picnic by the river instead. On the way home we stopped for ice cream. I'd love to go again in winter to see the snow."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What time did the family leave?",
+     "o": [
+      "At seven o'clock",
+      "At eight o'clock",
+      "At nine o'clock"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why did they leave late?",
+     "o": [
+      "Her brother couldn't find his boots",
+      "The car had a problem",
+      "They all got up late"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Where did they have lunch?",
+     "o": [
+      "At a restaurant",
+      "By the river",
+      "At the waterfall"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What did Hannah think of the walk?",
+     "o": [
+      "Hard but beautiful",
+      "Boring",
+      "Too easy"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "When would Hannah like to go again?",
+     "o": [
+      "In winter",
+      "In spring",
+      "In summer"
+     ],
+     "c": 0
+    }
+   ]
+  },
+  {
+   "id": "A2-P5",
+   "title": "Part 5 · Questions 21–25",
+   "kind": "file",
+   "file": "P18/A2/A2-P5.mp3",
+   "intro": "You will hear Tom talking about the school trip. What did each person buy at the gift shop? For each question, choose the correct answer.",
+   "bank": [
+    "a postcard",
+    "a toy animal",
+    "a pencil",
+    "a poster",
+    "a cap",
+    "a keyring",
+    "a mug"
+   ],
+   "scripts": [
+    "Tom: We all went to the gift shop at the end of the trip. Lily bought a toy animal — a little grey elephant. Marcus got a cap with the museum's name on it. Nora chose a poster of the old ships for her bedroom wall. Oliver bought a keyring for his dad's birthday. And Grace got a mug with a dinosaur on it — when you put hot tea in, the dinosaur disappears!"
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Lily",
+     "c": "a toy animal"
+    },
+    {
+     "type": "match",
+     "person": "Marcus",
+     "c": "a cap"
+    },
+    {
+     "type": "match",
+     "person": "Nora",
+     "c": "a poster"
+    },
+    {
+     "type": "match",
+     "person": "Oliver",
+     "c": "a keyring"
+    },
+    {
+     "type": "match",
+     "person": "Grace",
+     "c": "a mug"
+    }
+   ]
+  }
+ ]
+}

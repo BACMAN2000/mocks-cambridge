@@ -1,0 +1,314 @@
+{
+ "label": "A2 — Elementary",
+ "cefr": "Cambridge KET · A2 official format",
+ "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+ "audios": [
+  {
+   "id": "A2-P1",
+   "title": "Part 1 · Questions 1–5",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+   "segments": [
+    "A present for Kate",
+    "The party place",
+    "Party time",
+    "Grandpa's present",
+    "Party food"
+   ],
+   "scripts": [
+    "Question one. Boy: What are you giving Kate for her birthday? Girl: I was going to buy her a hat, but she loves reading, so I bought her a book about horses. Boy: She'll love it.",
+    "Question two. Girl: Is Sam's party at his house? Boy: No, it's at the café next to the cinema — the one with the big cakes. Girl: Great choice!",
+    "Question three. Boy: Does the party start at four? Girl: It says half past four on the invitation. Boy: Oh good, I finish swimming at four.",
+    "Question four. Girl: What did your grandpa give you for your birthday? Boy: I asked for a phone, but he gave me his old camera — and honestly, it's much cooler. Girl: Lucky you!",
+    "Question five. Boy: Will there be pizza at Emma's party? Girl: No pizza this year — her mum is making a huge chocolate cake. Boy: Even better."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What will the girl give Kate?",
+     "imgs": [
+      "hat",
+      "book",
+      "bag"
+     ],
+     "c": 1,
+     "audio": "P12/A2/A2-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where is Sam's party?",
+     "imgs": [
+      "park",
+      "cafe",
+      "library"
+     ],
+     "c": 1,
+     "audio": "P12/A2/A2-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the party start?",
+     "imgs": [
+      "clock400",
+      "clock430",
+      "clock700"
+     ],
+     "c": 1,
+     "audio": "P12/A2/A2-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What did Grandpa give the boy?",
+     "imgs": [
+      "phone",
+      "camera",
+      "guitar"
+     ],
+     "c": 1,
+     "audio": "P12/A2/A2-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What food will there be at Emma's party?",
+     "imgs": [
+      "pizza",
+      "sandwich",
+      "cake"
+     ],
+     "c": 2,
+     "audio": "P12/A2/A2-P1-q5.mp3"
+    }
+   ]
+  },
+  {
+   "id": "A2-P2",
+   "title": "Part 2 · Questions 6–10",
+   "kind": "file",
+   "file": "P12/A2/A2-P2.mp3",
+   "intro": "You will hear a mum telling her son about his birthday party. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+   "scripts": [
+    "Listen to a mum talking about a birthday party. Mum: Listen carefully, Leo, here's the plan for your birthday party on Saturday. The party is at the bowling club on Green Street. It starts at two o'clock, and your friends' parents will collect them at five. Eight children are coming — I've counted all the yes answers. We'll have burgers there, and I'm making the cake tonight. And please write your thank-you cards on Sunday."
+   ],
+   "gapTitle": "Leo's Birthday Party",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Place: the bowling club on ____ Street",
+     "accept": [
+      "green"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Starts at: ____ p.m.",
+     "accept": [
+      "2",
+      "two",
+      "2:00",
+      "2.00",
+      "2 o'clock",
+      "two o'clock"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Parents collect children at: ____ p.m.",
+     "accept": [
+      "5",
+      "five",
+      "5:00",
+      "5.00",
+      "5 o'clock",
+      "five o'clock"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Number of children coming: ____",
+     "accept": [
+      "8",
+      "eight"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Food at the club: ____",
+     "accept": [
+      "burgers"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2-P3",
+   "title": "Part 3 · Questions 11–15",
+   "kind": "file",
+   "file": "P12/A2/A2-P3.mp3",
+   "intro": "You will hear Grace talking to her friend Hugo about a present for their friend Mia. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Grace: Hugo, it's Mia's birthday next Friday. Shall we buy her a present together? Hugo: Good idea — then we can get something bigger. How much can you spend? Grace: I've got six pounds. Hugo: And I've got four, so that's ten together. Grace: What about a T-shirt? Hugo: Her sister is already giving her clothes. What about paints? She loves art. Grace: Perfect! There's an art shop near my house. Hugo: Let's go on Wednesday after school. Grace: I can't on Wednesday — Thursday? Hugo: Thursday's fine. And let's make the birthday card ourselves. Grace: She'd love that."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "When is Mia's birthday?",
+     "o": [
+      "Next Friday",
+      "Next Wednesday",
+      "On Sunday"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How much money do they have together?",
+     "o": [
+      "Six pounds",
+      "Ten pounds",
+      "Four pounds"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why won't they buy a T-shirt?",
+     "o": [
+      "Mia's sister is giving her clothes",
+      "It's too expensive",
+      "Mia doesn't like T-shirts"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What will they buy for Mia?",
+     "o": [
+      "A T-shirt",
+      "Paints",
+      "A book"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "When will they go to the shop?",
+     "o": [
+      "On Wednesday",
+      "On Thursday",
+      "On Friday"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P4",
+   "title": "Part 4 · Questions 16–20",
+   "kind": "file",
+   "file": "P12/A2/A2-P4.mp3",
+   "intro": "You will hear a boy called Sam talking about his best birthday. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Sam: My best birthday ever was last year, when I turned ten. I thought we were just having a little dinner at home — that's what Mum told me. But when I opened the living-room door, all my friends jumped out and shouted surprise! My sister planned everything for a month, and I never guessed a thing. We played games in the garden, and my uncle did funny magic tricks for everyone. The best present was a bike from my parents — I'd wanted one for two years. The only sad thing was that my grandma was ill and couldn't come, so on Sunday we visited her and took her some cake."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What did Sam think was happening on his birthday?",
+     "o": [
+      "A small dinner at home",
+      "A big party",
+      "A trip"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Who planned the surprise party?",
+     "o": [
+      "His mum",
+      "His sister",
+      "His uncle"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What did Sam's uncle do at the party?",
+     "o": [
+      "He cooked the dinner",
+      "He did magic tricks",
+      "He took photos"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What was the best present?",
+     "o": [
+      "A bike",
+      "A phone",
+      "A game"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Why didn't Grandma come to the party?",
+     "o": [
+      "She was ill",
+      "She lives far away",
+      "She was working"
+     ],
+     "c": 0
+    }
+   ]
+  },
+  {
+   "id": "A2-P5",
+   "title": "Part 5 · Questions 21–25",
+   "kind": "file",
+   "file": "P12/A2/A2-P5.mp3",
+   "intro": "You will hear Lily talking about her grandma's birthday. What did each person give her? For each question, choose the correct answer.",
+   "bank": [
+    "scarf",
+    "chocolates",
+    "plant",
+    "cup",
+    "gloves",
+    "radio",
+    "socks"
+   ],
+   "scripts": [
+    "Lily: Everyone gave Grandma something lovely for her birthday. Dad gave her a warm scarf for the winter. Mum bought her favourite chocolates from the little sweet shop. Ruby gave her a small plant for the kitchen window. Tom made her a colourful cup in his art class. And Max gave her some warm gloves for her winter walks."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Dad",
+     "c": "scarf"
+    },
+    {
+     "type": "match",
+     "person": "Mum",
+     "c": "chocolates"
+    },
+    {
+     "type": "match",
+     "person": "Ruby",
+     "c": "plant"
+    },
+    {
+     "type": "match",
+     "person": "Tom",
+     "c": "cup"
+    },
+    {
+     "type": "match",
+     "person": "Max",
+     "c": "gloves"
+    }
+   ]
+  }
+ ]
+}

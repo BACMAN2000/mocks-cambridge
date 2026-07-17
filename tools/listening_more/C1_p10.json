@@ -1,0 +1,425 @@
+{
+ "label": "C1 — Advanced",
+ "cefr": "Cambridge Advanced (CAE) · C1 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+ "audios": [
+  {
+   "id": "C1-P1",
+   "title": "Part 1 · Questions 1–6",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in three different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A new biography",
+    "A memoir",
+    "A documentary portrait",
+    "A literary talk",
+    "An estate dispute",
+    "A reading choice"
+   ],
+   "scripts": [
+    "Question one. Woman: Have you finished that huge new biography of the composer? Man: I have, and I admired the research enormously, every letter tracked down. But I finished it feeling I knew the facts of his life without ever glimpsing the man himself. All that diligence, and somehow the person slipped through the author's fingers.",
+    "Question two. Man: You didn't warm to her memoir, then? Woman: It's beautifully written, I'll grant it that. My unease was different. She's so candid about her sister's private struggles, things her sister never chose to make public. However elegant the prose, I kept wondering whether those stories were really hers to tell.",
+    "Question three. Woman: Did the documentary do the artist justice? Man: Visually it was gorgeous. But it committed the sin I most dislike in these portraits, it tidied him up. All the difficult, contradictory edges were sanded away until you were left with a saint. Real people aren't that consistent, and pretending otherwise felt dishonest.",
+    "Question four. Man: How was the talk on writing lives? Woman: More provocative than I expected. The biographer argued that her first duty isn't to her subject at all, nor even to the family, but to the reader, to tell the truth as she finds it. It's a stern position, and it rather unsettled the room.",
+    "Question five. Woman: I heard the family blocked the biography. Man: They tried to. The estate controls the letters, you see, and they'd only grant access if the writer agreed to certain omissions. To his credit, he refused and published without them. A thinner book, perhaps, but an honest one.",
+    "Question six. Man: You're reading the authorised life or the unauthorised one? Woman: The unauthorised, deliberately. I used to assume the authorised version, blessed by the family, would be the fuller picture. Now I suspect the opposite, that the approval comes at the price of leaving out anything awkward. So these days I trust the one nobody sanctioned."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What was the man's reservation about the biography?",
+     "o": [
+      "The research was careless",
+      "It captured facts but not the person",
+      "It was far too short"
+     ],
+     "c": 1,
+     "audio": "P10/C1/C1-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What troubled the woman about the memoir?",
+     "o": [
+      "The poor quality of the writing",
+      "Its exposure of her sister's private life",
+      "That it was too flattering"
+     ],
+     "c": 1,
+     "audio": "P10/C1/C1-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the man dislike about the documentary?",
+     "o": [
+      "It smoothed the subject into a saint",
+      "The images were dull",
+      "It was too critical of the artist"
+     ],
+     "c": 0,
+     "audio": "P10/C1/C1-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What was the biographer's controversial view at the talk?",
+     "o": [
+      "Her duty is chiefly to the family",
+      "Her first duty is to the reader and the truth",
+      "She should protect the subject's reputation"
+     ],
+     "c": 1,
+     "audio": "P10/C1/C1-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How did the writer respond to the estate's conditions?",
+     "o": [
+      "He accepted the omissions to gain access",
+      "He refused and published without the letters",
+      "He abandoned the book"
+     ],
+     "c": 1,
+     "audio": "P10/C1/C1-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why does the woman now prefer unauthorised biographies?",
+     "o": [
+      "They are cheaper",
+      "Family approval tends to mean awkward things are omitted",
+      "They are always shorter"
+     ],
+     "c": 1,
+     "audio": "P10/C1/C1-P1-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "C1-P2",
+   "title": "Part 2 · Questions 7–14",
+   "kind": "file",
+   "file": "P10/C1/C1-P2.mp3",
+   "intro": "You will hear a biographer called Sofia giving a talk about the ethics of writing lives. For each question, complete the sentences with a word or short phrase.",
+   "scripts": [
+    "Hello, I'm Sofia, and I write the lives of the dead, which is a stranger and more troubling occupation than it sounds. Let me begin with the central tension of my craft. A biography lives or dies by intimacy; readers want to feel they have truly known a person. Yet that very intimacy is achieved by exposing things the subject, were they alive, might never have consented to reveal. So the biographer is caught permanently between two duties, a duty of truth to the reader and a duty of what I can only call respect towards the dead. My first principle is that my ultimate loyalty must be to accuracy, because a flattering portrait that shades the truth isn't a biography at all; it's an advertisement. That said, accuracy is not the same as cruelty, and I try never to include a painful private detail unless it genuinely illuminates the person's public work or character. If a fact merely titillates without explaining anything, I leave it out, and I make no apology for that discretion. The trickiest material of all is the private letter, because letters were written to one specific reader, never to posterity, and publishing them always involves a small betrayal of that original confidence. A related dilemma concerns the living: even when my subject is long dead, their words often expose people who are still alive, and I owe those bystanders a care I don't strictly owe the dead. Then there is the question of who controls the evidence. Frequently the family holds the archive, and access comes with strings, an unspoken understanding that certain episodes will be handled gently. I've learned to be deeply wary of the authorised biography, because approval is almost always purchased with omission. My own preference, whenever I can manage it, is independence, even when that means a thinner file and a harder book to write. My final reflection is this. Every biography is, inescapably, an act of interpretation; I am not holding up a mirror but painting a portrait, and the honest thing is to admit that the frame, the selection, the emphasis, all bear my fingerprints. The best I can offer the reader is not the impossible whole truth, but a truthful, and openly partial, attempt at it."
+   ],
+   "gapTitle": "The Ethics of Biography",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "A biography lives or dies by its sense of ____",
+     "accept": [
+      "intimacy"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Sofia says her ultimate loyalty must be to ____",
+     "accept": [
+      "accuracy",
+      "the truth",
+      "truth"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "A flattering portrait that shades the truth is really just an ____",
+     "accept": [
+      "advertisement",
+      "advert"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "She includes a painful private detail only if it helps to ____ the person",
+     "accept": [
+      "illuminate",
+      "explain"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The trickiest material of all is the private ____",
+     "accept": [
+      "letter",
+      "letters",
+      "correspondence"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Sofia feels a special duty of care towards people who are still ____",
+     "accept": [
+      "alive",
+      "living"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "She is wary of the authorised biography because approval is bought with ____",
+     "accept": [
+      "omission",
+      "omissions"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Sofia admits a biography is always an act of ____ rather than a mirror",
+     "accept": [
+      "interpretation"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1-P3",
+   "title": "Part 3 · Questions 15–20",
+   "kind": "file",
+   "file": "P10/C1/C1-P3.mp3",
+   "intro": "You will hear an interview with a biographer called Oliver. For each question, choose the best answer (A, B, C or D).",
+   "scripts": [
+    "Interviewer: Oliver, do you feel you come to love your subjects? Oliver: People expect me to say yes, and I resist it. Love blinds you. What I aim for is something harder, a kind of clear-eyed sympathy, close enough to understand a person but distant enough to judge them honestly. The moment I start defending my subject like a friend, the book is compromised. Interviewer: You had access to a diary no one had read. Was that a gift? Oliver: It was a burden as much as a gift, actually. A diary is the most private document there is, written for no eyes at all, and every time I quoted it I felt I was reading someone's mind without permission. The richer the source, the heavier the guilt. Interviewer: Some accuse you of dwelling on your subjects' failings. Fair? Oliver: I'd put it differently. I dwell on their contradictions, which isn't the same as their failings. A person who is only admirable is a waxwork. My job is to show how the same man could be generous and petty within the same hour; the tension is the truth of him. Interviewer: Should the family have a veto? Oliver: Absolutely not, and I say that having been leaned on plenty. Families are the least reliable witnesses to their own, too close, too invested. I'll listen to them for facts and colour, but the instant they try to shape the verdict, I have to shut the door, politely but firmly. Interviewer: Do you worry about being unfair to the dead, who can't answer back? Oliver: Constantly, and I think a biographer who doesn't is dangerous. My safeguard is evidence: I'll only make a claim I could defend in a courtroom. Speculation dressed as fact is the real disrespect, far worse than an uncomfortable truth. Interviewer: What do you hope a reader takes away? Oliver: Not admiration, and not contempt, but recognition, the shock of seeing that this extraordinary figure was, underneath, as muddled and human as they are. If they close the book feeling less alone, I've succeeded. Interviewer: Oliver, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What relationship does Oliver aim for with his subjects?",
+     "o": [
+      "Genuine love and loyalty",
+      "Clear-eyed sympathy at a judging distance",
+      "Complete detachment",
+      "Open hostility"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How did Oliver feel about quoting the private diary?",
+     "o": [
+      "Purely delighted at the material",
+      "A sense of guilt at intruding on private thoughts",
+      "Bored by its contents",
+      "Sceptical of its truth"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How does Oliver answer the charge that he dwells on failings?",
+     "o": [
+      "He denies covering anything negative",
+      "He says he explores contradictions, not merely faults",
+      "He admits he enjoys exposing people",
+      "He blames his editors"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Oliver's view of giving families a veto?",
+     "o": [
+      "They should control the final verdict",
+      "They are useful only for facts, never the judgement",
+      "They should write the book themselves",
+      "They should be excluded entirely"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Oliver's safeguard against being unfair to the dead?",
+     "o": [
+      "Avoiding all criticism",
+      "Making only claims he could defend with evidence",
+      "Asking the family's permission",
+      "Leaving out private material"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Oliver most hope readers feel?",
+     "o": [
+      "Admiration for the subject",
+      "Contempt for the subject",
+      "Recognition of shared humanity",
+      "Indifference"
+     ],
+     "c": 2
+    }
+   ]
+  },
+  {
+   "id": "C1-P4",
+   "title": "Part 4 · Questions 21–30",
+   "kind": "file",
+   "file": "P10/C1/C1-P4.mp3",
+   "intro": "You will hear five people who write or edit biographies talking about their work. TASK ONE (21–25): choose what each speaker finds most rewarding. TASK TWO (26–30): choose the ethical dilemma each wrestles with most.",
+   "scripts": [
+    "Speaker one. Woman: What I love, honestly, is the detective work, weeks in dusty archives chasing a single misfiled letter that unlocks everything, that thrill of the hunt never fades. What torments me, though, is the private correspondence, because those letters were written to one soul and never meant for strangers, and publishing them always feels like a quiet betrayal I can't quite justify. Speaker two. Man: For me the joy is resurrection, bringing back a forgotten woman history had erased and setting her rightful place before readers, giving voice to the silenced. My constant struggle is different: my subject's diary names people still walking around today, and I lie awake wondering what I owe those living bystanders who never asked to be in my book. Speaker three. Woman: The reward I treasure is the sheer craft of the sentence, shaping a life into a shapely narrative, because a biography is a work of art, not a filing cabinet. What I wrestle with endlessly is the family, who guard the archive and grant access only if I promise to look away from the uglier chapters, and every time I feel the pull to soften the truth for access. Speaker four. Man: Honestly, what keeps me going is the intimacy, the strange privilege of coming to know a stranger better than their own friends did. My deepest unease is about fairness to the dead, who can't defend themselves, and I'm forever asking whether it's decent to pass judgement on someone who cannot answer back. Speaker five. Woman: My favourite part is puncturing the myth, dismantling the tidy official legend to reveal the messier, more interesting human beneath, because I distrust saints. But the dilemma that gnaws at me is knowing which painful secret genuinely illuminates the work and which is mere gossip, and where, exactly, the line between honesty and cruelty actually lies."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the speaker finds most rewarding",
+     "person": "Speaker 1",
+     "bank": [
+      "the detective work of research",
+      "rescuing a forgotten figure from obscurity",
+      "the craft of shaping a narrative",
+      "the intimacy of knowing a stranger deeply",
+      "puncturing an official myth",
+      "meeting the subject's admirers",
+      "the fame the books bring",
+      "travelling to distant places"
+     ],
+     "c": "the detective work of research"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the speaker finds most rewarding",
+     "person": "Speaker 2",
+     "bank": [
+      "the detective work of research",
+      "rescuing a forgotten figure from obscurity",
+      "the craft of shaping a narrative",
+      "the intimacy of knowing a stranger deeply",
+      "puncturing an official myth",
+      "meeting the subject's admirers",
+      "the fame the books bring",
+      "travelling to distant places"
+     ],
+     "c": "rescuing a forgotten figure from obscurity"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the speaker finds most rewarding",
+     "person": "Speaker 3",
+     "bank": [
+      "the detective work of research",
+      "rescuing a forgotten figure from obscurity",
+      "the craft of shaping a narrative",
+      "the intimacy of knowing a stranger deeply",
+      "puncturing an official myth",
+      "meeting the subject's admirers",
+      "the fame the books bring",
+      "travelling to distant places"
+     ],
+     "c": "the craft of shaping a narrative"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the speaker finds most rewarding",
+     "person": "Speaker 4",
+     "bank": [
+      "the detective work of research",
+      "rescuing a forgotten figure from obscurity",
+      "the craft of shaping a narrative",
+      "the intimacy of knowing a stranger deeply",
+      "puncturing an official myth",
+      "meeting the subject's admirers",
+      "the fame the books bring",
+      "travelling to distant places"
+     ],
+     "c": "the intimacy of knowing a stranger deeply"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the speaker finds most rewarding",
+     "person": "Speaker 5",
+     "bank": [
+      "the detective work of research",
+      "rescuing a forgotten figure from obscurity",
+      "the craft of shaping a narrative",
+      "the intimacy of knowing a stranger deeply",
+      "puncturing an official myth",
+      "meeting the subject's admirers",
+      "the fame the books bring",
+      "travelling to distant places"
+     ],
+     "c": "puncturing an official myth"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the ethical dilemma the speaker wrestles with most",
+     "person": "Speaker 1",
+     "bank": [
+      "publishing private letters",
+      "duty to living people named in sources",
+      "softening the truth to keep archive access",
+      "fairness to the dead who cannot reply",
+      "distinguishing illuminating detail from gossip",
+      "protecting the subject's reputation",
+      "meeting publishers' deadlines",
+      "competing with rival biographers"
+     ],
+     "c": "publishing private letters"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the ethical dilemma the speaker wrestles with most",
+     "person": "Speaker 2",
+     "bank": [
+      "publishing private letters",
+      "duty to living people named in sources",
+      "softening the truth to keep archive access",
+      "fairness to the dead who cannot reply",
+      "distinguishing illuminating detail from gossip",
+      "protecting the subject's reputation",
+      "meeting publishers' deadlines",
+      "competing with rival biographers"
+     ],
+     "c": "duty to living people named in sources"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the ethical dilemma the speaker wrestles with most",
+     "person": "Speaker 3",
+     "bank": [
+      "publishing private letters",
+      "duty to living people named in sources",
+      "softening the truth to keep archive access",
+      "fairness to the dead who cannot reply",
+      "distinguishing illuminating detail from gossip",
+      "protecting the subject's reputation",
+      "meeting publishers' deadlines",
+      "competing with rival biographers"
+     ],
+     "c": "softening the truth to keep archive access"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the ethical dilemma the speaker wrestles with most",
+     "person": "Speaker 4",
+     "bank": [
+      "publishing private letters",
+      "duty to living people named in sources",
+      "softening the truth to keep archive access",
+      "fairness to the dead who cannot reply",
+      "distinguishing illuminating detail from gossip",
+      "protecting the subject's reputation",
+      "meeting publishers' deadlines",
+      "competing with rival biographers"
+     ],
+     "c": "fairness to the dead who cannot reply"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the ethical dilemma the speaker wrestles with most",
+     "person": "Speaker 5",
+     "bank": [
+      "publishing private letters",
+      "duty to living people named in sources",
+      "softening the truth to keep archive access",
+      "fairness to the dead who cannot reply",
+      "distinguishing illuminating detail from gossip",
+      "protecting the subject's reputation",
+      "meeting publishers' deadlines",
+      "competing with rival biographers"
+     ],
+     "c": "distinguishing illuminating detail from gossip"
+    }
+   ]
+  }
+ ]
+}

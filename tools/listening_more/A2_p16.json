@@ -1,0 +1,309 @@
+{
+ "label": "A2 — Elementary",
+ "cefr": "Cambridge KET · A2 official format",
+ "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+ "audios": [
+  {
+   "id": "A2-P1",
+   "title": "Part 1 · Questions 1–5",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+   "segments": [
+    "Looking outside",
+    "A rainy-day plan",
+    "Getting ready",
+    "The weather report",
+    "Going to the match"
+   ],
+   "scripts": [
+    "Question one. Boy: Is it still raining, Mum? Mum: No, look out of the window — the snow has started! Boy: Great, let's make a snowman.",
+    "Question two. Girl: If it rains tomorrow, shall we go to the café? Boy: It's always full on Saturdays. Let's go to the library — they have a games afternoon. Girl: Perfect.",
+    "Question three. Mum: Take your umbrella, Jack — it's going to rain. Boy: I can't find it, so I'm taking Dad's big hat instead. Mum: Well, that's better than nothing.",
+    "Question four. Man: The radio says the rain will stop at four o'clock. Woman: Yesterday they said half past four, and it rained all day! Man: Let's hope they're right today.",
+    "Question five. Girl: Are we cycling to the match? Boy: In this weather? No way. Dad can't drive us, so we'll take the bus. Girl: OK, I'll check the times."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What's the weather like now?",
+     "imgs": [
+      "rainy",
+      "snowy",
+      "sunny"
+     ],
+     "c": 1,
+     "audio": "P16/A2/A2-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where will they go if it rains?",
+     "imgs": [
+      "library",
+      "park",
+      "cafe"
+     ],
+     "c": 0,
+     "audio": "P16/A2/A2-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will Jack take with him?",
+     "imgs": [
+      "umbrella",
+      "hat",
+      "bag"
+     ],
+     "c": 1,
+     "audio": "P16/A2/A2-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the radio say the rain will stop today?",
+     "imgs": [
+      "clock400",
+      "clock430",
+      "clock700"
+     ],
+     "c": 0,
+     "audio": "P16/A2/A2-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will they get to the match?",
+     "imgs": [
+      "bike",
+      "bus",
+      "car"
+     ],
+     "c": 1,
+     "audio": "P16/A2/A2-P1-q5.mp3"
+    }
+   ]
+  },
+  {
+   "id": "A2-P2",
+   "title": "Part 2 · Questions 6–10",
+   "kind": "file",
+   "file": "P16/A2/A2-P2.mp3",
+   "intro": "You will hear a teacher telling students about the class picnic. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+   "scripts": [
+    "Listen to a teacher talking about the class picnic. Teacher: Now, about our class picnic on Tuesday. The weather report says it will be sunny in the morning but windy later, so we will leave at ten o'clock, not at midday. We're walking to Green Park — it's only twenty minutes away. Everyone should bring water and a sun hat. And if it rains, we will stay at school and watch a film in room five."
+   ],
+   "gapTitle": "Class Picnic",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Day of picnic: ____",
+     "accept": [
+      "tuesday"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Leave school at: ____ a.m.",
+     "accept": [
+      "10",
+      "ten",
+      "10:00",
+      "10.00",
+      "10 o'clock",
+      "ten o'clock"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Place: ____ Park",
+     "accept": [
+      "green"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Bring water and a sun ____",
+     "accept": [
+      "hat"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "If it rains: film in room ____",
+     "accept": [
+      "5",
+      "five"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2-P3",
+   "title": "Part 3 · Questions 11–15",
+   "kind": "file",
+   "file": "P16/A2/A2-P3.mp3",
+   "intro": "You will hear Daniel talking to his friend Kate about their weekend plans. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Daniel: Kate, are we still going to the lake on Saturday? Kate: I checked the weather — it's going to rain all day Saturday, but Sunday will be sunny. Daniel: Sunday it is, then. Should we cycle there? Kate: It's too far. My mum said she'll take us in the car. Daniel: Great. Shall I bring my football? Kate: Bring your camera instead — there are beautiful birds at the lake. Daniel: OK. What time do we leave? Kate: Mum wants to leave at nine, but let's say half past nine, because you're always late! Daniel: Very funny."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "When will Daniel and Kate go to the lake?",
+     "o": [
+      "On Saturday",
+      "On Sunday",
+      "Next weekend"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why did they change the day?",
+     "o": [
+      "It will rain on Saturday",
+      "Kate's mum is busy",
+      "Daniel is ill"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How will they travel to the lake?",
+     "o": [
+      "By car",
+      "By bike",
+      "By bus"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What will Daniel bring?",
+     "o": [
+      "A football",
+      "A camera",
+      "A picnic"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What time will they leave?",
+     "o": [
+      "At nine o'clock",
+      "At half past nine",
+      "At ten o'clock"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P4",
+   "title": "Part 4 · Questions 16–20",
+   "kind": "file",
+   "file": "P16/A2/A2-P4.mp3",
+   "intro": "You will hear a boy called Noah talking about a camping trip. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Noah: Last month my family went camping by the river. Dad checked the weather before we left, and it said sunny all weekend — but on the first night there was a huge storm! Water came into the tent and my sleeping bag got completely wet. Mum wanted to drive home, but Dad fixed the tent in the morning, and the rest of the weekend was lovely. The best moment was swimming in the river on Sunday. Next time we're going in July, when the weather is safer — and I'm taking two sleeping bags!"
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What did the weather report say?",
+     "o": [
+      "Sunny all weekend",
+      "Rain on Saturday",
+      "Storms every night"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What happened on the first night?",
+     "o": [
+      "The car broke down",
+      "There was a big storm",
+      "They lost the tent"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Who wanted to go home?",
+     "o": [
+      "Mum",
+      "Dad",
+      "Noah"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What was the best moment of the trip?",
+     "o": [
+      "Fixing the tent",
+      "Swimming in the river",
+      "Making a fire"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What will Noah take next time?",
+     "o": [
+      "A bigger tent",
+      "Two sleeping bags",
+      "An umbrella"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P5",
+   "title": "Part 5 · Questions 21–25",
+   "kind": "file",
+   "file": "P16/A2/A2-P5.mp3",
+   "intro": "You will hear Elena talking about her friends' plans for the rainy weekend. What will each person do? For each question, choose the correct answer.",
+   "bank": [
+    "watch a film",
+    "bake a cake",
+    "play computer games",
+    "paint pictures",
+    "read a book",
+    "clean his room",
+    "visit a museum"
+   ],
+   "scripts": [
+    "Elena: It's going to rain all weekend, so everyone has indoor plans. Sam is going to bake a cake with his dad — chocolate, I hope! Lucy wants to paint pictures for her grandma's birthday. Oliver is finally going to clean his room; his mum says he can't go out until it's done. Hannah is visiting the science museum with her cousins. And Marcus will read a book — he got three new ones for his birthday."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Sam",
+     "c": "bake a cake"
+    },
+    {
+     "type": "match",
+     "person": "Lucy",
+     "c": "paint pictures"
+    },
+    {
+     "type": "match",
+     "person": "Oliver",
+     "c": "clean his room"
+    },
+    {
+     "type": "match",
+     "person": "Hannah",
+     "c": "visit a museum"
+    },
+    {
+     "type": "match",
+     "person": "Marcus",
+     "c": "read a book"
+    }
+   ]
+  }
+ ]
+}

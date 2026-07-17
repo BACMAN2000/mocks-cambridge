@@ -1,0 +1,189 @@
+{
+  "title": "B2 First — Reading and Use of English (Practice 9)",
+  "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The champions of memory",
+      "body": "Every year, competitors from around the world gather to (1)____ part in the World Memory Championship, where they memorise shuffled packs of cards, endless strings of digits and long lists of random words. At first (2)____, these people seem to have been born with extraordinary brains. The truth, however, is far more encouraging. When researchers examined the champions closely, they found that their memories were nothing out of the (3)____; what set them apart was technique. Almost all of them made (4)____ of an ancient method known as the memory palace, in which the items to be remembered are placed, in the imagination, along a familiar route such as the walk from bedroom to kitchen. The brain (5)____ images and places far more readily than it does abstract facts, and the method simply takes advantage of this. With a few weeks of practice, ordinary students can (6)____ dramatic improvements of their own. That does not mean such tricks are a substitute (7)____ real understanding, and some tasks, like grasping a difficult idea, cannot be reduced to a game. Still, the champions prove a point worth remembering: memory is less a gift than a skill, and like any skill it (8)____ sharper with training.",
+      "questions": [
+        { "options": ["make", "do", "take", "get"], "answer": 2 },
+        { "options": ["glance", "view", "impression", "look"], "answer": 0 },
+        { "options": ["common", "usual", "normal", "ordinary"], "answer": 3 },
+        { "options": ["practice", "use", "benefit", "advantage"], "answer": 1 },
+        { "options": ["retains", "reserves", "maintains", "withholds"], "answer": 0 },
+        { "options": ["reach", "gain", "achieve", "arrive"], "answer": 2 },
+        { "options": ["to", "of", "with", "for"], "answer": 3 },
+        { "options": ["turns", "grows", "goes", "comes"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "Why we remember faces but forget names",
+      "body": "Most of us have had the embarrassing experience of recognising a face without (9)____ able to recall the name that goes with it. Strange (10)____ it may seem, the two tasks are handled quite differently by the brain. A face is processed (11)____ a whole image, rich in meaning, while a name is little more than a random label that could belong to almost anyone. (12)____ makes names so slippery is precisely this lack of connection. Research shows that we are far (13)____ likely to forget a person's name than their job or their hobbies, even when all three are mentioned in the same conversation. There are, (14)____, ways to fight back. If you repeat a name aloud as soon as you hear it, and again a few minutes (15)____, the chances of keeping it rise sharply. It also helps to connect the name (16)____ something memorable about the person's appearance, however silly the link may be.",
+      "questions": [
+        { "accept": ["being"] },
+        { "accept": ["as", "though"] },
+        { "accept": ["as"] },
+        { "accept": ["what"] },
+        { "accept": ["more"] },
+        { "accept": ["however"] },
+        { "accept": ["later", "afterwards"] },
+        { "accept": ["with", "to"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Does music help you study?",
+      "rows": [
+        { "text": "Many students are firmly (17)____ that music", "root": "CONVINCE" },
+        { "text": "helps them concentrate while they revise." },
+        { "text": "" },
+        { "text": "The (18)____ evidence, however, paints a more", "root": "SCIENCE" },
+        { "text": "complicated picture than they might hope." },
+        { "text": "" },
+        { "text": "In several studies, background songs with lyrics" },
+        { "text": "caused a clear (19)____ in reading performance.", "root": "REDUCE" },
+        { "text": "" },
+        { "text": "Instrumental music appears far less (20)____,", "root": "HARM" },
+        { "text": "and may even calm anxious learners." },
+        { "text": "" },
+        { "text": "Much depends on the (21)____ of the task, since", "root": "DIFFICULT" },
+        { "text": "simple chores tolerate noise better than new ideas." },
+        { "text": "" },
+        { "text": "Personality matters too: quieter students find" },
+        { "text": "interruptions almost (22)____ to ignore.", "root": "POSSIBLE" },
+        { "text": "" },
+        { "text": "The (23)____ advice is to save your favourite", "root": "SENSE" },
+        { "text": "playlist for washing dishes, not for revising." },
+        { "text": "" },
+        { "text": "For serious study, silence remains, perhaps (24)____,", "root": "SURPRISE" },
+        { "text": "the most reliable companion of all." }
+      ],
+      "questions": [
+        { "root": "CONVINCE", "accept": ["convinced"] },
+        { "root": "SCIENCE", "accept": ["scientific"] },
+        { "root": "REDUCE", "accept": ["reduction"] },
+        { "root": "HARM", "accept": ["harmful"] },
+        { "root": "DIFFICULT", "accept": ["difficulty"] },
+        { "root": "POSSIBLE", "accept": ["impossible"] },
+        { "root": "SENSE", "accept": ["sensible"] },
+        { "root": "SURPRISE", "accept": ["unsurprisingly"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+      "questions": [
+        {
+          "before": "\"Don't forget to bring your notes tomorrow,\" Anna said to me.",
+          "keyword": "REMINDED",
+          "after": "Anna ___ my notes the following day.",
+          "accept": ["reminded me to bring"]
+        },
+        {
+          "before": "I haven't seen my old teacher for ten years.",
+          "keyword": "LAST",
+          "after": "The ___ my old teacher was ten years ago.",
+          "accept": ["last time i saw"]
+        },
+        {
+          "before": "Reading the chapter twice is more useful than highlighting it.",
+          "keyword": "AS",
+          "after": "Highlighting the chapter is not ___ reading it twice.",
+          "accept": ["as useful as", "so useful as"]
+        },
+        {
+          "before": "People say that sleep improves memory.",
+          "keyword": "SAID",
+          "after": "Sleep ___ memory.",
+          "accept": ["is said to improve"]
+        },
+        {
+          "before": "It was wrong of me to ignore the teacher's advice.",
+          "keyword": "SHOULD",
+          "after": "I ___ the teacher's advice.",
+          "accept": ["should not have ignored", "shouldn't have ignored"]
+        },
+        {
+          "before": "Despite studying hard, Tom failed the exam.",
+          "keyword": "EVEN",
+          "after": "Tom failed the exam ___ hard.",
+          "accept": ["even though he studied", "even though he had studied", "even though he'd studied"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The myth of the photographic memory\n\nAsk people to name the most enviable mental gift imaginable and many will describe the same thing: a photographic memory, the supposed ability to glance at a page or a scene and recall it later in perfect detail, like a photograph filed away in the mind. The idea is everywhere — in films, in newspaper profiles of chess champions, in the way we talk about gifted classmates. There is only one problem with it. Despite more than a century of searching, psychologists have never verified a single convincing case.\n\nThat is not to say that remarkable memories do not exist. They plainly do. Some people can recite thousands of digits of pi; others can name the day of the week for any date in the last century. But when researchers examine these individuals closely, the picture that emerges is not one of mental photography. Instead, they find strategies: rhythms, stories, images and well-practised systems that turn meaningless material into something the brain can grip. The performance is real, but it is built, not born.\n\nThe nearest thing to an exception was a young woman studied in the 1970s, who appeared able to combine two random patterns of dots seen days apart into a single image — a feat that would seem to require truly photographic storage. Yet she declined all further testing, the result was never repeated with anyone else, and many researchers now doubt the original study. A single unrepeated case, they argue, is not a foundation on which to build a belief.\n\nWhy, then, does the myth survive so stubbornly? Partly because we all experience occasional flashes of vivid visual memory and imagine that some lucky person must possess the full version. Partly, too, because the alternative is less flattering: if exceptional memory is a skill, then the rest of us have no excuse. It is easier to call the digit-reciter a freak of nature than to accept that he practised for two hours a day, every day, for years.\n\nThe deepest irony is that a truly photographic memory, if it existed, would probably be a curse. Remembering everything means being unable to forget: the trivial would pile up beside the important with no way to tell them apart, and yesterday's shopping list would compete for attention with a childhood friend's face. Forgetting is not a design flaw in the brain but one of its services, quietly clearing space so that what matters can be found. A perfect record, in the end, is not at all the same thing as a useful mind.",
+      "questions": [
+        { "stem": "What point does the writer make about photographic memory in the first paragraph?", "options": ["It is especially common among chess players.", "Although the idea is popular, no convincing case has ever been verified.", "Films have recently stopped mentioning it.", "Psychologists only began studying it a few years ago."], "answer": 1 },
+        { "stem": "According to the second paragraph, what explains most remarkable feats of memory?", "options": ["Unusually large brains.", "Pure luck on the day of the performance.", "A rare inherited gift.", "Well-practised strategies that make meaningless material easier to grip."], "answer": 3 },
+        { "stem": "What does the writer say about the woman studied in the 1970s?", "options": ["Her case was never repeated and is now widely doubted.", "She went on to a long career as a researcher.", "Her ability was confirmed by many later experiments.", "She successfully taught her method to other volunteers."], "answer": 0 },
+        { "stem": "Why, according to the writer, do people prefer to believe in the myth?", "options": ["Because scientists actively encourage the belief.", "Because they have never experienced vivid memories themselves.", "Because accepting that memory is a skill would leave them without an excuse.", "Because the digit-reciters insist their talent is natural."], "answer": 2 },
+        { "stem": "What does the writer suggest about forgetting?", "options": ["It is a flaw that science will soon correct.", "It usefully clears away trivial material so that important things can be found.", "It affects only people with poor concentration.", "It happens more often to people who practise memory techniques."], "answer": 1 },
+        { "stem": "Which statement best sums up the writer's overall view?", "options": ["Photographic memory is real but extremely rare.", "Most people could never improve their memories.", "Remembering everything should be everyone's goal.", "Exceptional memory is a built skill, and total recall would be a burden rather than a gift."], "answer": 3 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+      "passage": "The camera that remembers for you\n\nAt any concert, gallery opening or graduation, the view is now the same: a forest of raised phones, each recording the moment for the future. (37)____ Psychologists, however, have begun to ask what all this recording is doing to the memories we actually keep in our heads.\n\nIn one well-known experiment, visitors to a museum were asked to photograph some exhibits and simply observe others. (38)____ It was as if handing the job of remembering to the camera had told the brain it need not bother.\n\nResearchers call this the 'photo-taking impairment effect', and it appears to be strongest when we snap away carelessly. (39)____ Those who zoomed in on details, choosing an angle and framing the shot with care, remembered nearly as much as people who took no photographs at all.\n\nThere is a parallel with the way we treat information in general. Once we know a fact is stored somewhere — in a phone, on a website — we make noticeably less effort to store it in ourselves. (40)____ We remember where to find things rather than the things themselves.\n\nNone of this means we should abandon our cameras. A photograph can be a powerful cue, capable of unlocking details of a day we thought we had lost. (41)____ The trouble comes only when recording starts to replace experiencing.\n\nPerhaps the wisest approach is also the simplest. Take a picture or two, deliberately and with attention, and then put the phone away. (42)____ The best version of the moment, after all, is the one you were actually present for.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "The same study, however, contained an interesting exception.",
+          "Then give the rest of your attention to the event itself.",
+          "The assumption is that the images will preserve the event perfectly.",
+          "Looking through old albums with family can even strengthen shared memories.",
+          "Early cameras, by contrast, could take only a handful of pictures.",
+          "A day later, they remembered noticeably fewer of the objects they had photographed.",
+          "Scientists have given this tendency a name: digital amnesia.",
+          "As a result, most people have stopped attending concerts altogether."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing sentence:", "answer": "C" },
+        { "stem": "Choose the missing sentence:", "answer": "F" },
+        { "stem": "Choose the missing sentence:", "answer": "A" },
+        { "stem": "Choose the missing sentence:", "answer": "G" },
+        { "stem": "Choose the missing sentence:", "answer": "D" },
+        { "stem": "Choose the missing sentence:", "answer": "B" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "Read about four people with unusual memory skills. Then answer the questions. The same person may be chosen more than once.",
+      "sources": [
+        { "label": "A", "name": "Lucia", "text": "As an actress, I am expected to swallow forty pages of dialogue in a week, and directors tend to assume that experience makes it painless. When a colleague first suggested formal memory techniques, I was openly sceptical — they sounded like party tricks, and I nearly refused to try them at all. What converted me was discovering how much my body wants to be involved. I cannot learn a scene sitting still; I pace my flat, script in hand, and the lines seem to attach themselves to the movement, so that a turn by the window brings back a whole speech. I also learned that repetition on its own is worthless until I understand why my character says each line. Meaning is the glue; without it, nothing sticks for long." },
+        { "label": "B", "name": "Daniel", "text": "I entered my first memory competition more or less as a joke, and before training I did the sensible thing and had my memory properly tested. The results were completely average, which delighted me, because it meant everything afterwards was down to method. I built my skills on the memory palace, filling imaginary buildings with absurd images, and three years later I won a national title. I am always careful to say what the technique cannot do: it stores information, but it does not explain anything, and it was no help at all when I actually needed to understand my engineering course. These days I spend my Fridays in local schools, showing children the basics, because I would have loved someone to show me at their age." },
+        { "label": "C", "name": "Margaret", "text": "When I retired, my doctor suggested I take up something demanding to keep my mind active, and rather than puzzles I chose poetry. I began with one short poem a month, learned while walking the dog, and I now carry more than sixty in my head. Once a season I recite at the community centre, which terrified me at first and now feels like a gift I hand round. What I never expected was how the poems would alter daily life. A rainy street, a blackbird, a delayed bus — each now arrives with lines attached, as if the poets were walking beside me and commenting. My memory is no better than my neighbours'; the difference is only that I decided to furnish it deliberately." },
+        { "label": "D", "name": "Ravi", "text": "I have waited tables for eleven years and I never write an order down, even for large groups. Customers regularly tell me I must have been born with a gift, which makes me laugh, because I learned the whole thing from an older colleague in my first job, who drilled me through quiet afternoons until the method became automatic: faces, positions, dishes, linked in a chain. It is practice, nothing grander. I did once get badly burned by my own confidence — showing off with a table of twelve, I swapped the dishes of two guests, one of whom had told me about an allergy. No harm was done, thankfully, but the fright cured me of performing for applause. Now the skill serves the customers, not my ego." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Lucia", "Daniel", "Margaret", "Ravi"] },
+      "questions": [
+        { "stem": "Which person discovered that their natural memory was no better than average?", "answer": "B" },
+        { "stem": "Which person learned their method from someone they worked with?", "answer": "D" },
+        { "stem": "Which person finds that physical movement helps them memorise?", "answer": "A" },
+        { "stem": "Which person took up memorising on the advice of a medical professional?", "answer": "C" },
+        { "stem": "Which person describes an occasion when overconfidence led to an embarrassing mistake?", "answer": "D" },
+        { "stem": "Which person points out that their technique is of little use for genuine understanding?", "answer": "B" },
+        { "stem": "Which person was doubtful about memory techniques before trying them?", "answer": "A" },
+        { "stem": "Which person says that what they memorised has changed how they experience everyday life?", "answer": "C" },
+        { "stem": "Which person now passes their methods on to young learners?", "answer": "B" },
+        { "stem": "Which person is often assumed by strangers to have a natural gift?", "answer": "D" }
+      ]
+    }
+  ]
+}

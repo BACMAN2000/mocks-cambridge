@@ -1,0 +1,344 @@
+{
+ "label": "B2 — Upper-Intermediate",
+ "cefr": "Cambridge First (FCE) · B2 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+ "audios": [
+  {
+   "id": "B2-P1",
+   "title": "Part 1 · Questions 1–8",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A play",
+    "Theatre tickets",
+    "A rehearsal",
+    "A theatre group",
+    "Finding a venue",
+    "An announcement",
+    "Leaving the cast",
+    "A costume shop"
+   ],
+   "scripts": [
+    "Question one. Woman: So, what did you make of the play last night? Man: Well, the set was stunning, and it certainly didn't drag, which surprised me for a three-hour show. My problem was the lead actor. He simply wasn't believable as an old soldier, he was far too cheerful the whole way through.",
+    "Question two. Woman: Hello, I'm ringing about the two tickets I booked for Friday's performance. Man: Is there a problem with them? Woman: No, nothing like that, and I don't want my money back either. It's just that something has come up at work, so I was hoping to move them to the Saturday show instead.",
+    "Question three. Woman: Before we run the scene again, one thing. I know some of you are worried about being heard at the back, but your volume is honestly fine. What's losing the audience is speed. You're racing through your lines, so give every sentence room to breathe.",
+    "Question four. Man: You joined the theatre group in September, didn't you? How's it going? Girl: It's funny, I signed up because I dreamed of being on stage, and I did audition. But then they needed help building the scenery, and I discovered that's what I really love. I'd choose painting the set over acting any day now.",
+    "Question five. Man: Bad news, we can't rehearse in the gym hall next week, they're painting it. Woman: What about the community centre? Man: Booked solid, I checked. But the librarian says we can use the big meeting room at the library, as long as we're out by nine. Woman: That'll do nicely.",
+    "Question six. Man: Ladies and gentlemen, please note that this evening's performance of The Glass Garden will begin thirty minutes later than advertised, at eight o'clock, owing to a technical problem with the lighting. The venue and the interval arrangements remain exactly as printed in your programme.",
+    "Question seven. Woman: I heard you dropped out of the play. Was it stage fright in the end? Boy: No, honestly, being on stage never bothered me, and I was keeping up with my schoolwork fine. The trouble was that rehearsals moved to Thursday evenings, which is exactly when I have football training, and I couldn't be in two places at once.",
+    "Question eight. Woman: Hi, I'm in a play set in the nineteen twenties and I need a dress from that period. Assistant: We have several for sale, from around eighty pounds. Woman: Oh, I wouldn't need it after the show. Could I just borrow one for the week and bring it back? Assistant: Of course, our hire service is exactly that."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What did the man dislike about the play?",
+     "o": [
+      "The main actor's performance",
+      "The design of the set",
+      "How long it lasted"
+     ],
+     "c": 0,
+     "audio": "P14/B2/B2-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why is the woman calling the theatre?",
+     "o": [
+      "To ask for a refund",
+      "To change the date of her tickets",
+      "To complain about her seats"
+     ],
+     "c": 1,
+     "audio": "P14/B2/B2-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the director tell the actors to do?",
+     "o": [
+      "Speak more loudly",
+      "Speak more slowly",
+      "Learn their lines better"
+     ],
+     "c": 1,
+     "audio": "P14/B2/B2-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the girl enjoy most about the theatre group?",
+     "o": [
+      "Acting on stage",
+      "Working on the scenery",
+      "Taking part in auditions"
+     ],
+     "c": 1,
+     "audio": "P14/B2/B2-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Where will the group rehearse next week?",
+     "o": [
+      "In the gym hall",
+      "In the community centre",
+      "In the library"
+     ],
+     "c": 2,
+     "audio": "P14/B2/B2-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What has changed about this evening's performance?",
+     "o": [
+      "The starting time",
+      "The venue",
+      "The interval arrangements"
+     ],
+     "c": 0,
+     "audio": "P14/B2/B2-P1-q6.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why did the boy leave the play?",
+     "o": [
+      "He was nervous about performing",
+      "He was falling behind at school",
+      "Rehearsals clashed with his sport"
+     ],
+     "c": 2,
+     "audio": "P14/B2/B2-P1-q7.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the woman want to do at the shop?",
+     "o": [
+      "Buy a dress",
+      "Hire a dress",
+      "Return a dress"
+     ],
+     "c": 1,
+     "audio": "P14/B2/B2-P1-q8.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B2-P2",
+   "title": "Part 2 · Questions 9–18",
+   "kind": "file",
+   "file": "P14/B2/B2-P2.mp3",
+   "intro": "You will hear a woman called Grace talking about her community theatre group, the Riverside Players. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Hello, I'm Grace, and I want to tell you about the Riverside Players, our local community theatre group. People often assume we started recently, because we've been in the news a lot this year, but in fact the group was founded back in 1985, decades before I ever got involved. For most of its history the group rehearsed in the town hall, but the rent there kept rising, so five years ago we moved into a former fire station, which we've been converting ourselves, bit by bit, ever since. Membership goes up and down, of course. We had over sixty people on the books at one point, though many rarely appeared. Right now we have about forty active members, which suits us perfectly. And it's a real mix of generations. Our oldest member is over eighty and still refuses to miss a rehearsal, while the youngest is just fifteen, and she already directs better than some of us. In the early years the Players tried to stage five shows annually, which nearly finished everybody off. These days we put on three productions a year, and the quality has improved enormously as a result. Everyone tells us comedies are what sell, and ours do respectably, but year after year our most successful show is actually the musical. Tickets sell out within a fortnight. Speaking of tickets, we work hard to stay affordable. While most theatres in the region charge fifteen pounds or more, a standard ticket with us costs eight pounds, and we're determined to keep it that way. We had a stroke of luck last year, too. We received a grant from a regional arts fund, and after a long debate about whether to spend it on new seating, we used it to buy modern lighting, which has transformed the look of every scene. As for our weekly routine, we did consider switching to Thursdays, because the football club wanted our slot, but in the end rehearsals stayed on Tuesdays, from seven until ten. Finally, if any of this appeals to you, joining couldn't be easier. There's no audition, and you don't have to fill in a single form. Just come along to one of our open evenings, say hello, and see what we do. Whether you want to act, build, sew or sell tickets, there's a place for you."
+   ],
+   "gapTitle": "The Riverside Players — Community Theatre",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The group was founded in: ____",
+     "accept": [
+      "1985",
+      "nineteen eighty-five",
+      "nineteen eighty five"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The group now meets in a former: ____",
+     "accept": [
+      "fire station"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Number of active members: about ____",
+     "accept": [
+      "40",
+      "forty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The youngest member is ____ years old",
+     "accept": [
+      "15",
+      "fifteen"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Productions staged each year: ____",
+     "accept": [
+      "3",
+      "three"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The most successful show is always the: ____",
+     "accept": [
+      "musical"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "A standard ticket costs: ____ pounds",
+     "accept": [
+      "8",
+      "eight"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The grant was spent on new: ____",
+     "accept": [
+      "lighting",
+      "lights"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Rehearsals take place on: ____",
+     "accept": [
+      "tuesdays",
+      "tuesday"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "To join, go along to an: ____ evening",
+     "accept": [
+      "open"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2-P3",
+   "title": "Part 3 · Questions 19–23",
+   "kind": "file",
+   "file": "P14/B2/B2-P3.mp3",
+   "intro": "You will hear five people talking about what they enjoy most about being in an amateur theatre group. For each speaker, choose from the list (A–H) what they enjoy most. Use each letter once. There are three extra letters you will not need.",
+   "bank": [
+    "the teamwork behind the scenes",
+    "performing to a live audience",
+    "escaping their daily routine",
+    "learning practical skills",
+    "mixing with different generations",
+    "gaining confidence in public",
+    "the chance to travel",
+    "discovering new writers"
+   ],
+   "scripts": [
+    "Speaker one. Woman: I used to sit in meetings at work with something to say and never dare open my mouth. Then I got pushed into a small part in a comedy, and standing up in front of two hundred strangers changes you. These days I'll happily give a presentation to anyone. That's what theatre has really given me. Speaker two. Man: I've never once been on stage, and I don't intend to start. I joined to help out and ended up running the workshop. In three years I've picked up carpentry, basic electrics, even a bit of sewing. Where else would I get taught all that for nothing? Speaker three. Woman: In my ordinary life I only ever seem to talk to people my own age. At the theatre I rehearse alongside a retired sea captain of eighty and a schoolgirl of fourteen, and we're all equals. That blend of ages is something I've found nowhere else, and it's why I stay. Speaker four. Man: My job is spreadsheets, deadlines, the same train, the same desk. Twice a week I walk through the theatre door and all of that simply stops existing. For three hours I'm in another century, another life. People talk about the applause, but for me it's that complete break from the everyday that matters. Speaker five. Woman: The rehearsals are fun, and the backstage crowd are lovely, but honestly, nothing compares to that moment when the lights go up and you can feel real people out there in the dark, reacting to every word. When a joke lands and the whole room laughs, that's the feeling I'm there for."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Speaker 1",
+     "c": "gaining confidence in public"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 2",
+     "c": "learning practical skills"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 3",
+     "c": "mixing with different generations"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 4",
+     "c": "escaping their daily routine"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 5",
+     "c": "performing to a live audience"
+    }
+   ]
+  },
+  {
+   "id": "B2-P4",
+   "title": "Part 4 · Questions 24–30",
+   "kind": "file",
+   "file": "P14/B2/B2-P4.mp3",
+   "intro": "You will hear an interview with a man called Marcus, who founded a community theatre. For each question, choose the best answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Marcus, you founded the Corner House Theatre ten years ago. What made you do it? Marcus: People assume it was some lifelong dream, but it really wasn't. What happened was that the old Playhouse in town shut down, and suddenly dozens of local actors and musicians had nowhere to perform. Somebody had to give them a stage, and I had an empty building. Interviewer: What was the hardest part in the beginning? Marcus: Everyone warned me the struggle would be money, and it's true we had very little. But actually we managed on almost nothing. What kept me awake was persuading people to come through the door at all. For the first year we performed to rows of empty seats. Interviewer: How do you decide which plays to put on? Marcus: In most theatres the director simply chooses, and for a while I did that too. But it caused resentment, so now every member gets a vote at our summer meeting, and the programme comes out of that. I don't always love the result, but everyone feels the season belongs to them. Interviewer: Who actually comes to your shows? Marcus: That's been the great surprise. We assumed our audience would be retired people, because that's who has free evenings. In fact it's the under-thirties who fill the place. They tell us they want something live and local that doesn't cost a fortune. Interviewer: You've worked with professionals too. What can amateurs do that professionals can't? Marcus: A professional theatre has investors to satisfy, so it can't afford a flop, and that makes it cautious. Nobody's livelihood depends on us. If we want to stage a strange new play by an unknown writer, we just do it. That freedom to take risks is our real advantage. Interviewer: How is the theatre funded these days? Marcus: For years we survived on a council grant, but that ended two years ago, and honestly I feared for our future. Then several local businesses stepped in as sponsors, and that's what keeps the lights on now. Ticket money alone would never be enough. Interviewer: And what's next for the Corner House? Marcus: People keep suggesting we tour, or find a bigger building, but I don't want either. What we're actually doing is starting a youth section in the autumn, for ages twelve to eighteen. If we don't train the next generation, there'll be no theatre in twenty years. Interviewer: Marcus, thank you very much."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why did Marcus found the theatre?",
+     "o": [
+      "It had always been his dream",
+      "Local performers had lost their venue",
+      "He wanted to earn money from his building"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What was his biggest problem at the start?",
+     "o": [
+      "A lack of money",
+      "Finding enough actors",
+      "Attracting an audience"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "How are plays chosen now?",
+     "o": [
+      "The director decides alone",
+      "The members vote",
+      "A committee of experts decides"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What has surprised Marcus about his audience?",
+     "o": [
+      "Most of them are young",
+      "Most of them are retired",
+      "Most come from other towns"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "According to Marcus, what advantage do amateur theatres have?",
+     "o": [
+      "They can charge lower prices",
+      "They can take more risks",
+      "They rehearse for longer"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How is the theatre mainly funded today?",
+     "o": [
+      "By a council grant",
+      "By ticket sales",
+      "By local businesses"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What is Marcus planning to do next?",
+     "o": [
+      "Take his shows on tour",
+      "Move to a larger building",
+      "Start a group for teenagers"
+     ],
+     "c": 2
+    }
+   ]
+  }
+ ]
+}

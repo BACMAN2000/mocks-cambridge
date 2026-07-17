@@ -1,0 +1,313 @@
+{
+ "label": "A2 — Elementary",
+ "cefr": "Cambridge KET · A2 official format",
+ "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+ "audios": [
+  {
+   "id": "A2-P1",
+   "title": "Part 1 · Questions 1–5",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+   "segments": [
+    "A new thing",
+    "Meeting place",
+    "Closing time",
+    "Something lost",
+    "Food for a party"
+   ],
+   "scripts": [
+    "Question one. Boy: Did you buy that bag you liked, Anna? Girl: It was too expensive, so I got this hat instead. Boy: It looks great on you.",
+    "Question two. Girl: Shall I meet you outside the library, Tom? Boy: Let's meet at the café on the first floor — it's warmer there. Girl: Good idea, see you at three.",
+    "Question three. Woman: Excuse me, does the shopping centre close at seven today? Assistant: It usually does, but on Fridays we close at half past seven. Woman: Oh good, I still have time.",
+    "Question four. Woman: What's wrong? Man: I've got my keys and my phone, but I left my umbrella in the shoe shop. Woman: Let's go back quickly — they'll still have it.",
+    "Question five. Girl: Should we get sandwiches for Emma's party? Boy: There's no time to make food — let's just buy a big cake from the baker's. Girl: Perfect, she loves chocolate."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What did Anna buy?",
+     "imgs": [
+      "bag",
+      "hat",
+      "book"
+     ],
+     "c": 1,
+     "audio": "P6/A2/A2-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where will they meet?",
+     "imgs": [
+      "library",
+      "cafe",
+      "park"
+     ],
+     "c": 1,
+     "audio": "P6/A2/A2-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the shopping centre close on Fridays?",
+     "imgs": [
+      "clock700",
+      "clock730",
+      "clock8"
+     ],
+     "c": 1,
+     "audio": "P6/A2/A2-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What did the man leave in the shoe shop?",
+     "imgs": [
+      "keys",
+      "phone",
+      "umbrella"
+     ],
+     "c": 2,
+     "audio": "P6/A2/A2-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will they buy for the party?",
+     "imgs": [
+      "sandwich",
+      "cake",
+      "pizza"
+     ],
+     "c": 1,
+     "audio": "P6/A2/A2-P1-q5.mp3"
+    }
+   ]
+  },
+  {
+   "id": "A2-P2",
+   "title": "Part 2 · Questions 6–10",
+   "kind": "file",
+   "file": "P6/A2/A2-P2.mp3",
+   "intro": "You will hear an announcement at a shopping centre. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+   "scripts": [
+    "Listen to an announcement at the shopping centre. Assistant: Good morning, shoppers, and welcome. This week we have a big book sale on the second floor. All children's books cost two pounds. The sale finishes on Sunday. Today the sports shop opens late, at eleven o'clock, because of building work. And remember, there is free parking behind the centre for the whole week. Enjoy your shopping!"
+   ],
+   "gapTitle": "Shopping Centre News",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Book sale: on the ____ floor",
+     "accept": [
+      "second",
+      "2nd",
+      "2"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Children's books: £ ____",
+     "accept": [
+      "2",
+      "two"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Sale finishes on: ____",
+     "accept": [
+      "sunday"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Sports shop opens today at: ____ a.m.",
+     "accept": [
+      "11",
+      "eleven",
+      "11:00",
+      "11.00",
+      "11 o'clock",
+      "eleven o'clock"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Free parking: behind the ____",
+     "accept": [
+      "centre",
+      "center",
+      "shopping centre"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2-P3",
+   "title": "Part 3 · Questions 11–15",
+   "kind": "file",
+   "file": "P6/A2/A2-P3.mp3",
+   "intro": "You will hear Lucy talking to her friend Sam at the shopping centre. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Lucy: Hi Sam! Are you shopping too? Sam: Yes, I need a present for my dad. It's his birthday on Sunday. Lucy: What are you going to get him? Sam: I thought about a book, but he never has time to read, so I'm buying him a coffee cup with a photo of our dog on it. Lucy: That's a lovely idea. Which shop does that? Sam: The photo shop on the top floor. It only takes an hour to make. Lucy: Great. Do you want to have a juice while you wait? Sam: Sure, but let's go to the small café near the lift — the big one is always full."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why is Sam at the shopping centre?",
+     "o": [
+      "To buy a present",
+      "To meet his dad",
+      "To buy a book"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "When is Sam's dad's birthday?",
+     "o": [
+      "Today",
+      "On Saturday",
+      "On Sunday"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What is Sam going to buy?",
+     "o": [
+      "A book",
+      "A coffee cup",
+      "A camera"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Where is the photo shop?",
+     "o": [
+      "On the top floor",
+      "Near the lift",
+      "On the first floor"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Where will they have a juice?",
+     "o": [
+      "At the big café",
+      "At the small café",
+      "At Sam's house"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P4",
+   "title": "Part 4 · Questions 16–20",
+   "kind": "file",
+   "file": "P6/A2/A2-P4.mp3",
+   "intro": "You will hear a girl called Grace talking about her Saturday job. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Grace: Every Saturday I help my uncle at his shop in the shopping centre. He sells fruit and vegetables. I started six months ago, and at the beginning I dropped things all the time, but now I'm much faster. I work from nine until one, and then my uncle buys me lunch. The best thing isn't the money — it's talking to the customers, because they're really friendly. With the money I'm saving for a new bike, and I nearly have enough."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Where does Grace work?",
+     "o": [
+      "In a fruit and vegetable shop",
+      "In a shoe shop",
+      "In a café"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "When did Grace start the job?",
+     "o": [
+      "Six months ago",
+      "Six weeks ago",
+      "Last year"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What time does Grace finish work?",
+     "o": [
+      "At nine",
+      "At one",
+      "At three"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Grace like best about the job?",
+     "o": [
+      "The money",
+      "The free lunch",
+      "Talking to the customers"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What is Grace saving her money for?",
+     "o": [
+      "A phone",
+      "A bike",
+      "A guitar"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P5",
+   "title": "Part 5 · Questions 21–25",
+   "kind": "file",
+   "file": "P6/A2/A2-P5.mp3",
+   "intro": "You will hear Emma talking about a day at the shopping centre. What did each person buy? For each question, choose the correct answer.",
+   "bank": [
+    "shoes",
+    "poster",
+    "football",
+    "watch",
+    "comics",
+    "dress",
+    "perfume"
+   ],
+   "scripts": [
+    "Emma: We all went to the shopping centre on Saturday, and everyone bought something different. Lucy found some red shoes for the school party. Ben bought a poster of his favourite band for his bedroom wall. Sofia got a new football, because her old one had a hole in it. Jack chose a watch — he spent his grandad's birthday money on it. And Nora bought some funny comics to read on holiday."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Lucy",
+     "c": "shoes"
+    },
+    {
+     "type": "match",
+     "person": "Ben",
+     "c": "poster"
+    },
+    {
+     "type": "match",
+     "person": "Sofia",
+     "c": "football"
+    },
+    {
+     "type": "match",
+     "person": "Jack",
+     "c": "watch"
+    },
+    {
+     "type": "match",
+     "person": "Nora",
+     "c": "comics"
+    }
+   ]
+  }
+ ]
+}

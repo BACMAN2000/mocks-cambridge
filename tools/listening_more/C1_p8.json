@@ -1,0 +1,424 @@
+{
+ "label": "C1 — Advanced",
+ "cefr": "Cambridge Advanced (CAE) · C1 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+ "audios": [
+  {
+   "id": "C1-P1",
+   "title": "Part 1 · Questions 1–6",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in three different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A cheese stall",
+    "A bakery",
+    "A farm shop",
+    "A food festival",
+    "A small brewery",
+    "A market decision"
+   ],
+   "scripts": [
+    "Question one. Woman: That cheese you bought at the market, was it worth the price? Man: Honestly, at first I winced at the cost. But the stallholder let me taste three ages of the same cheese side by side, and once I understood what the extra months of maturing did to it, the price made complete sense. I'd happily pay it again.",
+    "Question two. Man: Your local baker's queue is out the door every morning. Woman: I know, and it's not really about the bread being cheap, because it isn't. People line up because he only bakes a fixed number of loaves and when they're gone, they're gone. That scarcity has turned a loaf of bread into something people plan their morning around.",
+    "Question three. Woman: Did you find the farm shop worth the drive? Man: The vegetables were lovely, sure, but what won me over was meeting the woman who'd grown them. She talked me through why a knobbly tomato tastes better than a perfect supermarket one. I came for produce and left with a whole education.",
+    "Question four. Man: How was the food festival? I heard it was packed. Woman: Too packed, if anything. I could barely reach the stalls I'd come for. But I stumbled on a tiny producer making fermented hot sauces, someone I'd never have found otherwise, and that one discovery redeemed the whole crush for me.",
+    "Question five. Woman: You've started buying from that little brewery. What's the appeal? Man: Their beer's good, but plenty of beer is good. What keeps me going back is that they change the recipe with the seasons, so it's never quite the same twice. That unpredictability is exactly what the big brands can't offer.",
+    "Question six. Man: You spent ages at that market deciding between two honeys. Woman: I did. In the end I chose the more expensive one, but not for the reason you'd think. It wasn't that it tasted dramatically better. It was that the beekeeper could tell me the exact hillside the bees had foraged, and knowing that changed how it tasted to me."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What convinced the man the cheese was worth its price?",
+     "o": [
+      "It was cheaper than he expected",
+      "Tasting how maturing changed the same cheese",
+      "The stallholder gave him a discount"
+     ],
+     "c": 1,
+     "audio": "P8/C1/C1-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why do people queue at the bakery, according to the woman?",
+     "o": [
+      "The bread is very cheap",
+      "The deliberately limited number of loaves",
+      "It opens earlier than others"
+     ],
+     "c": 1,
+     "audio": "P8/C1/C1-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What most impressed the man at the farm shop?",
+     "o": [
+      "Learning directly from the grower",
+      "The low prices",
+      "The size of the vegetables"
+     ],
+     "c": 0,
+     "audio": "P8/C1/C1-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What made the crowded festival worthwhile for the woman?",
+     "o": [
+      "Reaching all the stalls she wanted",
+      "Discovering an obscure hot-sauce maker",
+      "Meeting friends there"
+     ],
+     "c": 1,
+     "audio": "P8/C1/C1-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why does the man keep returning to the small brewery?",
+     "o": [
+      "The beer is the cheapest available",
+      "The recipe changes with the seasons",
+      "It is closest to his home"
+     ],
+     "c": 1,
+     "audio": "P8/C1/C1-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why did the woman choose the more expensive honey?",
+     "o": [
+      "It tasted far superior",
+      "Knowing exactly where it came from",
+      "It was better packaged"
+     ],
+     "c": 1,
+     "audio": "P8/C1/C1-P1-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "C1-P2",
+   "title": "Part 2 · Questions 7–14",
+   "kind": "file",
+   "file": "P8/C1/C1-P2.mp3",
+   "intro": "You will hear an artisan cheesemaker called Rosa giving a talk about small-scale food production. For each question, complete the sentences with a word or short phrase.",
+   "scripts": [
+    "Hello, I'm Rosa, and I make cheese by hand on a small farm, roughly forty wheels a week, which to an industrial dairy would be a rounding error. People often ask whether I feel threatened by the supermarkets, and my honest answer is no, because we are not really in the same business at all. A factory sells consistency; every block tastes identical, wherever and whenever you buy it. What I sell is almost the opposite, namely variation, the fact that my cheese in spring, when the cows graze young grass, tastes noticeably different from the same cheese in autumn. That link between the flavour and the specific place and moment it came from is what the French call terroir, and it is my entire livelihood. Now, I want to be honest about the economics, because there's a lot of romanticism talked about this world. The single biggest challenge for a producer like me is not making the cheese; it's distribution, getting a fragile, perishable product to customers before it spoils, without a supermarket's vast logistics behind me. That's why so many of us have abandoned wholesale altogether and sell directly to the public, because the margins on wholesale simply don't cover the labour. My prices look high on the shelf, but once you account for the hours of hand-turning each wheel demands, I earn less per hour than you might imagine. A myth I'm forever puncturing is that artisan automatically means healthier; it doesn't, necessarily, and I distrust anyone who claims it does. What it does mean is traceable, that I can tell you the name of every animal whose milk is in your cheese. The skill that took me longest to master, incidentally, was not the recipe but the patience of ageing, learning to leave a wheel alone in the cellar for a year and trust the process. And my final thought is about the future. I'm not worried about demand; there will always be people who care. What keeps me awake is succession, the fear that when my generation retires, there won't be enough young people willing to learn a craft this demanding for such modest reward."
+   ],
+   "gapTitle": "Artisan Food Producers",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "A factory sells consistency, whereas Rosa sells ____",
+     "accept": [
+      "variation",
+      "variety"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The link between flavour and a specific place is called ____",
+     "accept": [
+      "terroir"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Rosa says her single biggest challenge is ____",
+     "accept": [
+      "distribution",
+      "distributing"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Many small producers now sell ____ to the public instead of wholesale",
+     "accept": [
+      "directly",
+      "direct"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Rosa insists that artisan does not automatically mean ____",
+     "accept": [
+      "healthier",
+      "healthy"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "What artisan production does guarantee, she says, is being ____",
+     "accept": [
+      "traceable"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The skill that took Rosa longest to master was the patience of ____",
+     "accept": [
+      "ageing",
+      "aging",
+      "maturing"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "What worries Rosa most about the future is ____",
+     "accept": [
+      "succession",
+      "finding successors"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1-P3",
+   "title": "Part 3 · Questions 15–20",
+   "kind": "file",
+   "file": "P8/C1/C1-P3.mp3",
+   "intro": "You will hear an interview with an artisan baker called Hugo. For each question, choose the best answer (A, B, C or D).",
+   "scripts": [
+    "Interviewer: Hugo, you gave up a career in finance to bake bread. Do people find that romantic? Hugo: They do, and I gently correct them. They picture me dusted in flour at dawn, at peace with the world. The reality is a physically punishing business with brutal margins. I love it, but I'd be lying if I called it an escape; it's simply a different, and harder, kind of work. Interviewer: Your bread is expensive. How do you justify that? Hugo: I don't try to justify it against a supermarket loaf, because they're not the same product. Mine takes two days to ferment and is made entirely by hand. The fairer question is whether the price reflects the labour, and honestly, even at my prices, it barely does. Interviewer: You refuse to expand. Why turn away money? Hugo: Because the moment I open a second site, I become a manager, not a baker, and the quality I've built my name on starts to slip through my fingers. I've watched it happen to others. I'd rather stay small and excellent than grow large and mediocre. Interviewer: Is there snobbery in the artisan world? Hugo: Plenty, and it irritates me. There's a tendency to sneer at ordinary sliced bread, which fed people perfectly well for generations. My gripe with industrial baking isn't that it's cheap; it's that it hides what it does with additives. Cheap isn't the sin; concealment is. Interviewer: What's the hardest part of the craft to teach? Hugo: Reading the dough. Recipes are easy; anyone can follow a formula. But sensing, by touch, that a dough needs another ten minutes today because the kitchen is warmer, that's intuition, and it can only be earned through years of failure. Interviewer: Would you encourage a young person into this trade? Hugo: Honestly? Only if they can't imagine doing anything else. It's too hard to enter for the money or the image. But for the right person, the satisfaction is like nothing else. Interviewer: Hugo, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How does Hugo respond to romantic ideas about his job?",
+     "o": [
+      "He agrees it is a peaceful escape",
+      "He stresses it is punishing, harder work",
+      "He says it is easier than finance",
+      "He refuses to discuss it"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How does Hugo defend his prices?",
+     "o": [
+      "By comparing them to supermarket loaves",
+      "By saying they barely cover the labour involved",
+      "By claiming the bread is healthier",
+      "By pointing to his reputation"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why does Hugo refuse to expand?",
+     "o": [
+      "He cannot raise the money",
+      "Growth would turn him into a manager and harm quality",
+      "There is no demand",
+      "The rent is too high"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Hugo's real objection to industrial baking?",
+     "o": [
+      "That it is too cheap",
+      "That it conceals its use of additives",
+      "That it is old-fashioned",
+      "That it employs too few people"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Hugo find hardest to teach?",
+     "o": [
+      "Following a recipe",
+      "The intuition of reading the dough by touch",
+      "Cleaning the equipment",
+      "Pricing the bread"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "When would Hugo encourage a young person into baking?",
+     "o": [
+      "If they want to make good money",
+      "If they like the image of the craft",
+      "Only if they cannot imagine doing anything else",
+      "If they have studied finance first"
+     ],
+     "c": 2
+    }
+   ]
+  },
+  {
+   "id": "C1-P4",
+   "title": "Part 4 · Questions 21–30",
+   "kind": "file",
+   "file": "P8/C1/C1-P4.mp3",
+   "intro": "You will hear five artisan food producers talking about their work. TASK ONE (21–25): choose what each producer values most about their craft. TASK TWO (26–30): choose the greatest difficulty each faces.",
+   "scripts": [
+    "Speaker one. Woman: I make preserves from fruit that would otherwise be thrown away, wonky, bruised, unsellable to the shops, and turning waste into something delicious is what gets me out of bed. That sense of rescuing food is everything. My constant headache, though, is that my season is desperately short, a few frantic weeks when the fruit ripens, and I have to earn a whole year's living in that tiny window. Speaker two. Man: For me it's the direct contact with the people who eat what I smoke and cure, standing at a market stall and watching a face light up, that human connection is the whole point. What defeats me repeatedly is the paperwork, the endless food-safety regulation that was clearly written for factories, not for a one-man smokehouse like mine. Speaker three. Woman: What I cherish is carrying on my grandmother's recipes exactly as she made them, an unbroken thread back three generations, and I feel her at my shoulder every day. The thing that keeps me awake is finding anyone to take it on after me, because my own children have their own lives and this craft may simply end with me. Speaker four. Man: I'm in it for the experimentation, honestly, inventing flavours nobody's tasted, fermenting things people think are mad until they try them. The creative freedom is intoxicating. But my perpetual struggle is getting the stuff to customers before it spoils, because I've no cold-chain, no lorries, just me and a small van and a very unforgiving clock. Speaker five. Woman: The part I treasure is the sheer quality I can achieve at this scale, a perfection that would be impossible in a factory, and I won't compromise it for anyone. My real problem is money, plain and simple, that after all the hours I put in, the sums barely add up, and one bad month could finish me."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the producer values most about their craft",
+     "person": "Speaker 1",
+     "bank": [
+      "turning would-be waste into food",
+      "direct human contact with customers",
+      "preserving a family tradition",
+      "the freedom to experiment",
+      "achieving quality impossible at scale",
+      "working outdoors",
+      "being their own boss",
+      "supporting the local economy"
+     ],
+     "c": "turning would-be waste into food"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the producer values most about their craft",
+     "person": "Speaker 2",
+     "bank": [
+      "turning would-be waste into food",
+      "direct human contact with customers",
+      "preserving a family tradition",
+      "the freedom to experiment",
+      "achieving quality impossible at scale",
+      "working outdoors",
+      "being their own boss",
+      "supporting the local economy"
+     ],
+     "c": "direct human contact with customers"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the producer values most about their craft",
+     "person": "Speaker 3",
+     "bank": [
+      "turning would-be waste into food",
+      "direct human contact with customers",
+      "preserving a family tradition",
+      "the freedom to experiment",
+      "achieving quality impossible at scale",
+      "working outdoors",
+      "being their own boss",
+      "supporting the local economy"
+     ],
+     "c": "preserving a family tradition"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the producer values most about their craft",
+     "person": "Speaker 4",
+     "bank": [
+      "turning would-be waste into food",
+      "direct human contact with customers",
+      "preserving a family tradition",
+      "the freedom to experiment",
+      "achieving quality impossible at scale",
+      "working outdoors",
+      "being their own boss",
+      "supporting the local economy"
+     ],
+     "c": "the freedom to experiment"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the producer values most about their craft",
+     "person": "Speaker 5",
+     "bank": [
+      "turning would-be waste into food",
+      "direct human contact with customers",
+      "preserving a family tradition",
+      "the freedom to experiment",
+      "achieving quality impossible at scale",
+      "working outdoors",
+      "being their own boss",
+      "supporting the local economy"
+     ],
+     "c": "achieving quality impossible at scale"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the greatest difficulty the producer faces",
+     "person": "Speaker 1",
+     "bank": [
+      "a very short earning season",
+      "burdensome food-safety regulation",
+      "finding someone to continue the craft",
+      "getting products to customers before they spoil",
+      "barely making the finances work",
+      "competition from supermarkets",
+      "a lack of skilled staff",
+      "rising ingredient costs"
+     ],
+     "c": "a very short earning season"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the greatest difficulty the producer faces",
+     "person": "Speaker 2",
+     "bank": [
+      "a very short earning season",
+      "burdensome food-safety regulation",
+      "finding someone to continue the craft",
+      "getting products to customers before they spoil",
+      "barely making the finances work",
+      "competition from supermarkets",
+      "a lack of skilled staff",
+      "rising ingredient costs"
+     ],
+     "c": "burdensome food-safety regulation"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the greatest difficulty the producer faces",
+     "person": "Speaker 3",
+     "bank": [
+      "a very short earning season",
+      "burdensome food-safety regulation",
+      "finding someone to continue the craft",
+      "getting products to customers before they spoil",
+      "barely making the finances work",
+      "competition from supermarkets",
+      "a lack of skilled staff",
+      "rising ingredient costs"
+     ],
+     "c": "finding someone to continue the craft"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the greatest difficulty the producer faces",
+     "person": "Speaker 4",
+     "bank": [
+      "a very short earning season",
+      "burdensome food-safety regulation",
+      "finding someone to continue the craft",
+      "getting products to customers before they spoil",
+      "barely making the finances work",
+      "competition from supermarkets",
+      "a lack of skilled staff",
+      "rising ingredient costs"
+     ],
+     "c": "getting products to customers before they spoil"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the greatest difficulty the producer faces",
+     "person": "Speaker 5",
+     "bank": [
+      "a very short earning season",
+      "burdensome food-safety regulation",
+      "finding someone to continue the craft",
+      "getting products to customers before they spoil",
+      "barely making the finances work",
+      "competition from supermarkets",
+      "a lack of skilled staff",
+      "rising ingredient costs"
+     ],
+     "c": "barely making the finances work"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,418 @@
+{
+ "label": "C1 — Advanced",
+ "cefr": "Cambridge Advanced (CAE) · C1 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+ "audios": [
+  {
+   "id": "C1-P1",
+   "title": "Part 1 · Questions 1–6",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in three different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A noisy flat",
+    "A sound walk",
+    "A new park",
+    "A radio feature",
+    "A café choice",
+    "A city at night"
+   ],
+   "scripts": [
+    "Question one. Man: How are you sleeping in the new flat by the main road? Woman: Better than I feared, oddly. It's not that it's quiet, it certainly isn't. It's that the traffic is a steady, unbroken hum, and I've found the brain tunes out a constant sound far more easily than a sudden one. It's the single slamming door across the courtyard that jolts me awake.",
+    "Question two. Woman: You went on one of those guided sound walks? Man: I did, and I was sceptical, thought it would be pretentious. But the guide had us stop and simply close our eyes on a busy corner, and I heard layers I'd walked past for years, birdsong under the buses, a fountain I'd never noticed. It genuinely retuned my ears.",
+    "Question three. Man: Is the new park living up to the hype? Woman: The planting's lovely, but what impressed me was invisible. The designers built a low earth bank along the road side, and it soaks up the traffic noise so completely that ten metres in you'd swear you were in the countryside. That mound does more than all the flowers.",
+    "Question four. Woman: Did you catch that radio feature on city noise? Man: I did. I'd assumed it would be the usual complaint that cities are too loud. Instead the argument was subtler, that it's not loudness itself that harms us but our lack of control over it. A noise you can't switch off wears you down far more than a louder one you chose.",
+    "Question five. Man: Why do we always end up at this particular café? Woman: I've thought about that. The coffee's fine, not special. Honestly, I think it's the acoustics, there's soft furnishing everywhere, so you can actually hear the person across the table. Every other café near here is a hard-surfaced echo chamber where I lose half the conversation.",
+    "Question six. Woman: You said the city sounds different at night. How? Man: It's not just quieter, that's the obvious part. It's that the sounds change character entirely, individual footsteps you'd never pick out by day, a distant train, a fox. The daytime roar hides all that. Night doesn't silence the city; it lets you hear its smaller voices."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What does the woman find easier to sleep through?",
+     "o": [
+      "A sudden slamming door",
+      "The constant hum of traffic",
+      "Complete silence"
+     ],
+     "c": 1,
+     "audio": "P11/C1/C1-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the sound walk do for the man?",
+     "o": [
+      "Confirmed it was pretentious",
+      "Made him notice sounds he had long ignored",
+      "Gave him a headache"
+     ],
+     "c": 1,
+     "audio": "P11/C1/C1-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What most impressed the woman about the park?",
+     "o": [
+      "The colourful planting",
+      "An earth bank that absorbs traffic noise",
+      "The children's playground"
+     ],
+     "c": 1,
+     "audio": "P11/C1/C1-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What was the radio feature's main argument?",
+     "o": [
+      "Cities are simply too loud",
+      "Lack of control over noise harms us more than loudness",
+      "Noise has no effect on health"
+     ],
+     "c": 1,
+     "audio": "P11/C1/C1-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why does the woman prefer that café?",
+     "o": [
+      "The quality of its coffee",
+      "Its acoustics let her hear conversation",
+      "It is the cheapest nearby"
+     ],
+     "c": 1,
+     "audio": "P11/C1/C1-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the man say about the city at night?",
+     "o": [
+      "It falls completely silent",
+      "Its smaller sounds become audible",
+      "It is louder than by day"
+     ],
+     "c": 1,
+     "audio": "P11/C1/C1-P1-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "C1-P2",
+   "title": "Part 2 · Questions 7–14",
+   "kind": "file",
+   "file": "P11/C1/C1-P2.mp3",
+   "intro": "You will hear an acoustic ecologist called Ruby giving a talk about urban soundscapes. For each question, complete the sentences with a word or short phrase.",
+   "scripts": [
+    "Hello, I'm Ruby, and I study the sounds of cities, a field sometimes called acoustic ecology. The first thing I want to overturn is the assumption that my subject is simply noise, and that the goal is to eliminate it. That's the wrong frame entirely. A city stripped of all sound would be sterile and, frankly, unsettling. What we study instead is the soundscape, the whole acoustic environment of a place, the good and the bad together, exactly as an ecologist studies a whole habitat rather than a single pest. Now, a crucial distinction I draw is between sound and noise. The two are not defined by volume at all. Noise, in my working definition, is simply unwanted sound, which means the very same rumble can be music to one listener and torment to another. That subjectivity is why blunt measurements in decibels tell us so little; a single number can't capture how a sound makes people feel. The most important finding in my discipline is that the harm a sound does depends far less on its loudness than on whether the listener has any control over it. A noise you cannot stop, a neighbour's bass through the wall, is far more corrosive to wellbeing than a louder sound you chose, like a concert. Control, not volume, is the key variable. There's a category of sound I'm especially keen to protect, what we call keynote sounds, the constant background textures that give a place its identity, the particular hum of a certain square that residents would miss without knowing why. Against those I set the signal sounds, the alarms and sirens designed to grab attention, which we've allowed to multiply thoughtlessly. When it comes to design, the crude old approach was simply to build a barrier, a wall to block the traffic. The more sophisticated modern approach is to add desirable sound rather than only subtracting the unwanted, introducing a fountain, say, whose splash masks the road while pleasing the ear. And my final plea is for the ear in city planning. We lavish enormous care on how a district looks, and almost none on how it sounds, yet sound reaches us whether we like it or not; we have, after all, no earlids. A city that is designed only for the eye is a city designed for only half of us."
+   ],
+   "gapTitle": "Urban Soundscapes",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Ruby's field of study is sometimes called acoustic ____",
+     "accept": [
+      "ecology"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Rather than noise, she studies the whole ____ of a place",
+     "accept": [
+      "soundscape"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "In her definition, noise is simply ____ sound",
+     "accept": [
+      "unwanted"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Harm depends far less on loudness than on whether the listener has ____",
+     "accept": [
+      "control"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The background textures that give a place its identity are called ____ sounds",
+     "accept": [
+      "keynote"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Alarms and sirens designed to grab attention are called ____ sounds",
+     "accept": [
+      "signal"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "A sophisticated fix is to add desirable sound, such as a ____, to mask traffic",
+     "accept": [
+      "fountain"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Ruby reminds us we cannot shut out sound because we have no ____",
+     "accept": [
+      "earlids",
+      "ear lids"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1-P3",
+   "title": "Part 3 · Questions 15–20",
+   "kind": "file",
+   "file": "P11/C1/C1-P3.mp3",
+   "intro": "You will hear an interview with a sound designer called Ethan who works on public spaces. For each question, choose the best answer (A, B, C or D).",
+   "scripts": [
+    "Interviewer: Ethan, you design how public places sound. Isn't that just soundproofing? Ethan: That's the popular misconception, and it's exactly backwards. Soundproofing is subtraction, taking sound away. My work is far more about addition, about composing what a space should sound like. Silence isn't the goal; a well-tuned richness is. A dead, silent atrium feels like a morgue, and people flee it. Interviewer: Can you really change how people behave with sound? Ethan: More than most people would believe, and it makes me uneasy, frankly. Play certain music in a station and you can slow people down or speed them up, even nudge where they linger. The power is real, and precisely because it works below conscious awareness, I think it demands genuine ethical restraint. Interviewer: You've criticised the way shops use sound. Why? Ethan: Because so much of it is manipulation dressed as ambience. Engineering a mood purely to loosen someone's wallet, without their knowing, crosses a line for me. I'll happily make a space pleasant; I won't secretly herd people towards the tills. The difference is respect for the person. Interviewer: Is there a sound you think cities have wrongly lost? Ethan: The human-scale ones, honestly. We've drowned footsteps and voices and birdsong under mechanical drone, and I think we underestimate what that costs us. Those small, living sounds tell us, at some deep level, that we're among other people and not alone. Interviewer: Do residents know what they want acoustically? Ethan: Rarely in words, and that's the fascinating part. Ask people to describe the sound of a place they love and they struggle. But play them a recording with one element removed and they'll instantly feel something's wrong, without being able to name it. The knowledge is there; it's just wordless. Interviewer: What's your ultimate aim in a project? Ethan: That nobody notices my work at all. If people simply feel unaccountably calmer or happier in a space and never suspect the sound had anything to do with it, then I've done it right. Good sound design should be felt, not heard. Interviewer: Ethan, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How does Ethan describe his work compared to soundproofing?",
+     "o": [
+      "It is essentially the same thing",
+      "It is about adding and composing sound, not removing it",
+      "It aims to create total silence",
+      "It only involves measuring decibels"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why does the power to change behaviour make Ethan uneasy?",
+     "o": [
+      "It rarely works",
+      "It operates below conscious awareness",
+      "It is too expensive",
+      "It only affects children"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Ethan's objection to how shops use sound?",
+     "o": [
+      "It is too quiet",
+      "It manipulates people without their knowledge",
+      "It is old-fashioned",
+      "It disturbs nearby residents"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Which lost sounds does Ethan most regret?",
+     "o": [
+      "Industrial machinery",
+      "Human-scale sounds like footsteps and voices",
+      "Traffic noise",
+      "Loud music"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Ethan say about residents' awareness of sound?",
+     "o": [
+      "They can describe it precisely",
+      "They sense when something is wrong but cannot name it",
+      "They are indifferent to it",
+      "They only notice loud sounds"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Ethan's ultimate aim?",
+     "o": [
+      "That his work is widely praised",
+      "That people feel the effect without noticing the cause",
+      "That the space becomes famous",
+      "That the sound is clearly audible"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "C1-P4",
+   "title": "Part 4 · Questions 21–30",
+   "kind": "file",
+   "file": "P11/C1/C1-P4.mp3",
+   "intro": "You will hear five people talking about sound in the city. TASK ONE (21–25): choose what each speaker most values about a city's sound. TASK TWO (26–30): choose what each speaker finds most troubling about it.",
+   "scripts": [
+    "Speaker one. Woman: I'm a field recorder, and what I cherish is the keynote hum of a particular market square, that unrepeatable texture that tells you exactly where you are with your eyes shut, an acoustic fingerprint no two cities share. What dismays me is how carelessly we've let sirens and alarms multiply, this constant jangle of signals all screaming for attention until none of them means anything. Speaker two. Man: For me the joy is the human scale, footsteps, laughter, a busker, the living murmur that reminds me I'm among people. What genuinely alarms me, though, is the health cost, the way relentless traffic noise quietly raises blood pressure and steals sleep from people who never chose to live beside a motorway. Speaker three. Woman: What I treasure is contrast, honestly, the way a city can hold a roaring avenue and, a step through an archway, a courtyard so still you hear a fountain. That layering delights me. My worry is quite specific: it's the loss of quiet as a public good, that there's almost nowhere left where an ordinary person can simply escape the din for free. Speaker four. Man: The thing I love is how sound shifts by the hour, the same street utterly different at dawn and midnight, a city that never sounds the same twice. What troubles me most is manipulation, the piped music and engineered ambience designed to steer us like cattle without our ever noticing we're being nudged. Speaker five. Woman: Above all I value the birdsong that persists against the odds, threading through the traffic, proof that other life shares the city with us. But the thing that keeps me up is inequality, plainly, that the poorest streets are always the loudest, hemmed by the roads and railways nobody with a choice would tolerate, while the wealthy buy their silence."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the speaker most values about a city's sound",
+     "person": "Speaker 1",
+     "bank": [
+      "the unique acoustic identity of a place",
+      "human-scale living sounds",
+      "the contrast between loud and quiet spaces",
+      "the way sound changes through the day",
+      "birdsong surviving in the city",
+      "the energy of busy crowds",
+      "the sound of running water",
+      "music played in public spaces"
+     ],
+     "c": "the unique acoustic identity of a place"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the speaker most values about a city's sound",
+     "person": "Speaker 2",
+     "bank": [
+      "the unique acoustic identity of a place",
+      "human-scale living sounds",
+      "the contrast between loud and quiet spaces",
+      "the way sound changes through the day",
+      "birdsong surviving in the city",
+      "the energy of busy crowds",
+      "the sound of running water",
+      "music played in public spaces"
+     ],
+     "c": "human-scale living sounds"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the speaker most values about a city's sound",
+     "person": "Speaker 3",
+     "bank": [
+      "the unique acoustic identity of a place",
+      "human-scale living sounds",
+      "the contrast between loud and quiet spaces",
+      "the way sound changes through the day",
+      "birdsong surviving in the city",
+      "the energy of busy crowds",
+      "the sound of running water",
+      "music played in public spaces"
+     ],
+     "c": "the contrast between loud and quiet spaces"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the speaker most values about a city's sound",
+     "person": "Speaker 4",
+     "bank": [
+      "the unique acoustic identity of a place",
+      "human-scale living sounds",
+      "the contrast between loud and quiet spaces",
+      "the way sound changes through the day",
+      "birdsong surviving in the city",
+      "the energy of busy crowds",
+      "the sound of running water",
+      "music played in public spaces"
+     ],
+     "c": "the way sound changes through the day"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the speaker most values about a city's sound",
+     "person": "Speaker 5",
+     "bank": [
+      "the unique acoustic identity of a place",
+      "human-scale living sounds",
+      "the contrast between loud and quiet spaces",
+      "the way sound changes through the day",
+      "birdsong surviving in the city",
+      "the energy of busy crowds",
+      "the sound of running water",
+      "music played in public spaces"
+     ],
+     "c": "birdsong surviving in the city"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker finds most troubling about it",
+     "person": "Speaker 1",
+     "bank": [
+      "the meaningless multiplication of alarms",
+      "the health cost of traffic noise",
+      "the loss of free quiet spaces",
+      "manipulative engineered ambience",
+      "noise inequality between rich and poor areas",
+      "the disappearance of live music",
+      "poorly insulated new buildings",
+      "the decline of birdlife"
+     ],
+     "c": "the meaningless multiplication of alarms"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker finds most troubling about it",
+     "person": "Speaker 2",
+     "bank": [
+      "the meaningless multiplication of alarms",
+      "the health cost of traffic noise",
+      "the loss of free quiet spaces",
+      "manipulative engineered ambience",
+      "noise inequality between rich and poor areas",
+      "the disappearance of live music",
+      "poorly insulated new buildings",
+      "the decline of birdlife"
+     ],
+     "c": "the health cost of traffic noise"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker finds most troubling about it",
+     "person": "Speaker 3",
+     "bank": [
+      "the meaningless multiplication of alarms",
+      "the health cost of traffic noise",
+      "the loss of free quiet spaces",
+      "manipulative engineered ambience",
+      "noise inequality between rich and poor areas",
+      "the disappearance of live music",
+      "poorly insulated new buildings",
+      "the decline of birdlife"
+     ],
+     "c": "the loss of free quiet spaces"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker finds most troubling about it",
+     "person": "Speaker 4",
+     "bank": [
+      "the meaningless multiplication of alarms",
+      "the health cost of traffic noise",
+      "the loss of free quiet spaces",
+      "manipulative engineered ambience",
+      "noise inequality between rich and poor areas",
+      "the disappearance of live music",
+      "poorly insulated new buildings",
+      "the decline of birdlife"
+     ],
+     "c": "manipulative engineered ambience"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker finds most troubling about it",
+     "person": "Speaker 5",
+     "bank": [
+      "the meaningless multiplication of alarms",
+      "the health cost of traffic noise",
+      "the loss of free quiet spaces",
+      "manipulative engineered ambience",
+      "noise inequality between rich and poor areas",
+      "the disappearance of live music",
+      "poorly insulated new buildings",
+      "the decline of birdlife"
+     ],
+     "c": "noise inequality between rich and poor areas"
+    }
+   ]
+  }
+ ]
+}

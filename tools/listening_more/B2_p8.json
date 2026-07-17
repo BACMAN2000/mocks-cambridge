@@ -1,0 +1,341 @@
+{
+ "label": "B2 — Upper-Intermediate",
+ "cefr": "Cambridge First (FCE) · B2 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+ "audios": [
+  {
+   "id": "B2-P1",
+   "title": "Part 1 · Questions 1–8",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A vintage jacket",
+    "A charity shop",
+    "A clothes swap",
+    "A repair café",
+    "A school survey",
+    "An online sale",
+    "A documentary",
+    "At a market stall"
+   ],
+   "scripts": [
+    "Question one. Man: Nice jacket, is it new? Woman: New to me! It's from the seventies, I found it in a little shop by the station. It wasn't even that cheap, actually, but knowing it's been danced in for fifty years before it reached me, that's what I love about it.",
+    "Question two. Woman: Thanks for bringing these clothes in, they'll sell well. Man: I've got more at home if you need them. Woman: Actually, we get plenty of clothes, more than we can sell. What we're really short of at the moment is men's shoes. If you have any of those, they'd go straight in the window.",
+    "Question three. Woman: A few reminders about Saturday's clothes swap at the community hall. You can bring up to ten items, and there's no entry fee this year. But please make sure everything is freshly washed, because anything stained or damaged will be turned away at the door.",
+    "Question four. Girl: You took your jeans to that repair café? Man: Yes, and I expected to just drop them off, but that's not how it works. A volunteer sat me down at the sewing machine and showed me how to fix the tear myself. I've already repaired a shirt at home since then. Brilliant place.",
+    "Question five. Boy: How's your survey about second-hand clothes going? Girl: Interesting, actually. I assumed everyone would say they do it to protect the environment, and a few people did. But by far the most common reason my classmates gave was simply that they can't afford new clothes very often.",
+    "Question six. Man: Did you sell that winter coat online in the end? Woman: Sort of. The buyer paid straight away, but now she's messaged saying the coat is green, not blue like in my photos. It's the light in my flat, everything photographs strangely. I've offered to take it back, it's only fair.",
+    "Question seven. Girl: You've gone very quiet, was the documentary that good? Boy: It's still in my head. I knew fashion caused pollution, everyone knows that. But there was a scene where brand-new clothes, never worn by anyone, were being burned by the lorry-load because nobody had bought them. I can't stop thinking about it.",
+    "Question eight. Woman: How much is this dress? Assistant: That one's twelve pounds. Woman: Hmm, would you take eight? Assistant: I can't go that low, it's pure silk. Tell you what, take the dress and this scarf together for fifteen. Woman: Oh, go on then, you've convinced me."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why does the woman love the jacket?",
+     "o": [
+      "Its history",
+      "Its low price",
+      "Its perfect condition"
+     ],
+     "c": 0,
+     "audio": "P8/B2/B2-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the charity shop need most?",
+     "o": [
+      "Children's toys",
+      "More clothes",
+      "Men's shoes"
+     ],
+     "c": 2,
+     "audio": "P8/B2/B2-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What must people do for the clothes swap?",
+     "o": [
+      "Pay an entry fee",
+      "Bring only washed clothes",
+      "Arrive before ten o'clock"
+     ],
+     "c": 1,
+     "audio": "P8/B2/B2-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What surprised the man about the repair café?",
+     "o": [
+      "He was taught to do the repair himself",
+      "The repair was completely free",
+      "The volunteers worked very fast"
+     ],
+     "c": 0,
+     "audio": "P8/B2/B2-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What was the main reason given in the girl's survey?",
+     "o": [
+      "Protecting the environment",
+      "Saving money",
+      "Finding original styles"
+     ],
+     "c": 1,
+     "audio": "P8/B2/B2-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the problem with the coat?",
+     "o": [
+      "The colour looked different in the photos",
+      "It was damaged in the post",
+      "The buyer has not paid"
+     ],
+     "c": 0,
+     "audio": "P8/B2/B2-P1-q6.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What shocked the boy most in the documentary?",
+     "o": [
+      "Rivers polluted by factories",
+      "Workers' low wages",
+      "New clothes being destroyed"
+     ],
+     "c": 2,
+     "audio": "P8/B2/B2-P1-q7.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the woman agree to do?",
+     "o": [
+      "Pay eight pounds for the dress",
+      "Buy the dress and a scarf",
+      "Leave without buying"
+     ],
+     "c": 1,
+     "audio": "P8/B2/B2-P1-q8.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B2-P2",
+   "title": "Part 2 · Questions 9–18",
+   "kind": "file",
+   "file": "P8/B2/B2-P2.mp3",
+   "intro": "You will hear a man called Ben talking about the second-hand clothes shop he manages. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Ben: Hello, I'm Ben, and I manage a rather special second-hand clothes shop on Mill Street. We're often mistaken for an ordinary charity shop, so let me explain what makes us different. The shop opened in nineteen ninety, back when second-hand clothes were something people felt slightly embarrassed about. How times change! These days we have customers queuing outside on Saturday mornings. We're not part of a big chain: every penny of profit goes to the children's hospital here in town, and last year we raised over sixty thousand pounds, which paid for new equipment on two wards. What sells best? People always assume it's party dresses, and they do go quickly. But year after year, our best-selling items are winter coats. A good wool coat costs a fortune new, and ours are a tenth of the price. We get surprises among the donations too. Somebody once left us a nineteen fifties wedding dress in an old suitcase. A collector spotted it, and it sold for four hundred pounds, which is still our record. If you'd like to donate, please bring your bags in on Tuesdays, because that's when our sorting team is here. It matters, because every single item gets checked by hand. Anything with a loose button or a small tear goes to our volunteer menders, and after that everything is ironed before it reaches the rails. That care is the reason the shop smells of fresh laundry rather than dust! We love our younger customers too: show a student card and you'll get twenty percent off everything, every day of the week. Serious fashion hunters should head upstairs to the vintage room. Nothing goes up there unless it's more than thirty years old, and stylists from the city come out regularly to hunt through it. And put one date in your diary: in November we hold our annual fashion show at the town hall, where every single outfit on stage comes from the shop. Tickets sell out fast, and it's a genuinely fun evening. Finally, we always need help. You don't need any experience with clothes to volunteer, we'll happily teach you everything. But I'll admit we're especially keen to meet people who can sew, because our menders have far more work than hands. Come in and say hello, the kettle is always on. And remember: the most sustainable piece of clothing is the one that already exists."
+   ],
+   "gapTitle": "Mill Street Second-hand Shop",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The shop opened in: ____",
+     "accept": [
+      "1990",
+      "nineteen ninety"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "All profits go to the children's: ____",
+     "accept": [
+      "hospital"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The best-selling items are winter: ____",
+     "accept": [
+      "coats"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "A wedding dress once sold for ____ pounds",
+     "accept": [
+      "400",
+      "four hundred"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Bring donations to the shop on: ____",
+     "accept": [
+      "tuesdays",
+      "tuesday"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "After repairs, all clothes are ____ before going on sale",
+     "accept": [
+      "ironed"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Students get a discount of ____ percent",
+     "accept": [
+      "20",
+      "twenty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Vintage room clothes are over ____ years old",
+     "accept": [
+      "30",
+      "thirty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The annual fashion show is in: ____",
+     "accept": [
+      "november"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The shop especially needs volunteers who can: ____",
+     "accept": [
+      "sew"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2-P3",
+   "title": "Part 3 · Questions 19–23",
+   "kind": "file",
+   "file": "P8/B2/B2-P3.mp3",
+   "intro": "You will hear five people talking about why they buy second-hand clothes. For each speaker, choose from the list (A–H) the reason they give. Use each letter once. There are three extra letters you will not need.",
+   "bank": [
+    "to find unique items",
+    "to save money",
+    "to protect the environment",
+    "to support a charity",
+    "for their quality",
+    "to resell at a profit",
+    "for a hobby project",
+    "to remember the past"
+   ],
+   "scripts": [
+    "Speaker one. Man: I went to a wedding once and three of us were wearing exactly the same shirt. Never again! Now everything in my wardrobe comes from second-hand shops, and I can promise you nobody else at the party is wearing my nineteen eighties Italian blazer. It's not really about the price, it's that nothing I own exists twice. Speaker two. Woman: I used to buy something new every single weekend, until I read that making one pair of jeans uses thousands of litres of water. That figure honestly haunted me. I haven't bought anything brand new for three years now, and my rule is simple: the planet has enough clothes already, they're just in the wrong wardrobes. Speaker three. Man: Feel the wool on this coat, it's forty years old and it'll see me out. I inherited my grandfather's tweed jacket, and wearing it taught me something: clothes used to be built to last. The shirts I bought new in recent years fell apart within twelve months. Old clothes are simply made better, and that's the entire reason I hunt for them. Speaker four. Woman: My Saturday routine is strict: markets at seven, charity shops at nine. I've trained my eye to spot designer labels in a rail of jumble, and what I find goes straight online the same evening. Last month a silk scarf I paid two pounds for went for sixty. It's not my job, but it paid for our summer holiday, and I love the hunt. Speaker five. Man: I hardly ever wear what I buy, actually. I'm after the fabric. Old jeans, leather jackets, curtains even, I cut them up and turn them into bags, which I give as presents. There's an evening class at the library where we all sew together. My friends think I'm mad until they get their birthday present, and then they put in requests."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Speaker 1",
+     "c": "to find unique items"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 2",
+     "c": "to protect the environment"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 3",
+     "c": "for their quality"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 4",
+     "c": "to resell at a profit"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 5",
+     "c": "for a hobby project"
+    }
+   ]
+  },
+  {
+   "id": "B2-P4",
+   "title": "Part 4 · Questions 24–30",
+   "kind": "file",
+   "file": "P8/B2/B2-P4.mp3",
+   "intro": "You will hear an interview with a woman called Ruby, who founded an online second-hand fashion platform. For each question, choose the best answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Ruby, your second-hand fashion platform now has two million users. How did it all start? Ruby: With a wardrobe I couldn't close! I invited friends round, we swapped the clothes we were bored of, and it turned into a monthly party. When strangers started asking if they could come, I realised this was bigger than my living room, so I built a simple website. The whole business grew out of those evenings. Interviewer: And who buys second-hand today? Ruby: Everyone, that's the point. But here's what surprised me most. I always assumed people sold their clothes to make money. When we finally surveyed our sellers, money came third. Most of them said the real reason was guilt, they couldn't bear seeing barely worn clothes doing nothing in a cupboard. Interviewer: What's the biggest challenge for second-hand fashion? Ruby: Honestly? The falling quality of new clothes. A blouse made this year is often too flimsy to survive a second owner. We now have to reject nearly a third of what people send us, and that number gets worse every season. The clothes of the nineties will outlive us all; today's won't see out the decade. Interviewer: Vintage prices seem to be rising. Is second-hand still a bargain? Ruby: Some prices have gone up, that's true, a seventies leather jacket costs three times what it did. But that's a tiny corner of the market. If you're patient, and you're not chasing whatever is fashionable this exact month, the bargains are still absolutely everywhere. Interviewer: What mistake do buyers make most often? Ruby: Buying something because it's cheap rather than because they love it. A three-pound shirt you never wear isn't a bargain, it's clutter that happened to be cheap. I tell people: imagine it costs ten times the price, would you still want it? Only buy it if the answer is yes. Interviewer: Any practical tips for shoppers? Ruby: Ignore the size on the label and check the actual measurements. Sizing has changed completely over the decades, a nineteen sixties fourteen is roughly a modern ten. A little tape measure in your pocket will save you endless disappointment. Interviewer: What's next for you? Ruby: The thing I'm most excited about isn't selling at all. Next spring we're opening a repair school, free evening classes where people learn to fix and alter their own clothes. If a million users each save one garment a year, that's a mountain of clothing that never becomes rubbish. Interviewer: Ruby, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How did Ruby's business begin?",
+     "o": [
+      "As clothes-swap parties with friends",
+      "As a market stall",
+      "As a university project"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What surprised Ruby about her sellers?",
+     "o": [
+      "Most want to make money",
+      "Most are motivated by guilt",
+      "Most are teenagers"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "According to Ruby, the industry's biggest challenge is",
+     "o": [
+      "the poor quality of new clothes",
+      "rising postage costs",
+      "competition from big brands"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Ruby say about prices?",
+     "o": [
+      "Everything has become expensive",
+      "Bargains are still easy to find",
+      "Sellers ask for too much"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What mistake do buyers often make?",
+     "o": [
+      "Buying things just because they are cheap",
+      "Paying too much for vintage pieces",
+      "Ignoring the condition of clothes"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What practical tip does Ruby give?",
+     "o": [
+      "Trust the size on the label",
+      "Check the measurements",
+      "Shop early in the morning"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Ruby planning next?",
+     "o": [
+      "A new city-centre shop",
+      "A vintage fashion show",
+      "A school for repairing clothes"
+     ],
+     "c": 2
+    }
+   ]
+  }
+ ]
+}

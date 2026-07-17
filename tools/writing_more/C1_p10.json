@@ -1,0 +1,34 @@
+{
+  "title": "C1 Advanced — Writing (Practice 10)",
+  "durationMin": 90,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 220, "maxWords": 260,
+        "lead": "Your class has attended a seminar about what employers should prioritise when their staff work from home. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea is more important, giving reasons to support your opinion.",
+        "stimulus": { "title": "What should employers prioritise when staff work from home?", "body": "• keeping communication between colleagues strong\n• protecting employees' mental health and boundaries\n• judging staff on results rather than hours online\n\nSome opinions expressed in the seminar:\n\"Ideas used to be born at the coffee machine; now there is no coffee machine.\"\n\"When your bedroom is your office, the working day never really ends.\"\n\"Watching who is 'online' is surveillance, not management.\"" },
+        "bullets": ["discuss two of the ideas", "explain which is more important", "give reasons to support your opinion"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [
+        { "type": "report", "q": 2, "minWords": 220, "maxWords": 260,
+          "lead": "The company where you work has just completed a six-month trial of hybrid working, and the management has asked staff representatives for reports. You have agreed to write one.",
+          "stimulus": { "title": "Report: the hybrid working trial", "body": "Write a report evaluating the trial. Describe how staff responded to hybrid working, identify what worked well and what caused problems, and recommend whether the arrangement should be made permanent, and on what conditions." },
+          "bullets": ["how staff responded to the trial", "what worked well and what caused problems", "your recommendation, with conditions"],
+          "write": "Write your report." },
+        { "type": "review", "q": 3, "minWords": 220, "maxWords": 260,
+          "lead": "An English-language technology magazine has invited reviews of tools for remote workers.",
+          "stimulus": { "title": "Remote working tools", "body": "Review an app, platform or workspace that is supposed to make remote working easier. Describe what it offers, assess how far it solves the real problems of working away from an office, and say whether it is worth what it costs." },
+          "bullets": ["what it offers", "how far it solves the real problems of remote work", "whether it is worth the cost"],
+          "write": "Write your review." },
+        { "type": "email", "q": 4, "minWords": 220, "maxWords": 260,
+          "lead": "You have received this email from your English-speaking friend Nadia.",
+          "stimulus": { "body": "From: Nadia\nSubject: Fully remote job offer\n\nI've been offered a completely remote job with a company on the other side of the world. Better pay, no commute, and I could even travel while working. But I've never worked from home for more than a day or two, and I keep hearing people say it gets lonely.\n\nYou've done this for a while now - what is it actually like? Should I take it, and how would I make it work?\n\nNadia" },
+          "bullets": ["what remote working is really like, good and bad", "your advice on whether Nadia should accept", "practical suggestions for making it work"],
+          "write": "Write your email in reply." }
+      ]
+    }
+  ]
+}

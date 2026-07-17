@@ -1,0 +1,341 @@
+{
+ "label": "B2 — Upper-Intermediate",
+ "cefr": "Cambridge First (FCE) · B2 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+ "audios": [
+  {
+   "id": "B2-P1",
+   "title": "Part 1 · Questions 1–8",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A podcast",
+    "A schedule change",
+    "Class advice",
+    "A family project",
+    "Job interviews",
+    "An announcement",
+    "School radio",
+    "A careers fair"
+   ],
+   "scripts": [
+    "Question one. Man: Did you listen to that podcast interview with the mountain climber? Woman: I did, and what a wasted opportunity. The climber was fascinating whenever she got a word in. The trouble was the host, he kept jumping in with his own climbing stories. I wanted to shout, let your guest speak!",
+    "Question two. Woman: Hello, it's Sara from the Gazette. I'm supposed to be interviewing the mayor at two o'clock today. Man: That's right, he's expecting you. Woman: Well, that's the problem, I'm afraid. My train back from the conference has been cancelled, and the next one doesn't get in until four. Could we possibly push the interview to five? Man: Let me check his diary. Yes, five o'clock works.",
+    "Question three. Teacher: Next week you'll each interview a local business owner, so listen carefully. Don't worry about having professional microphones, your phones will do fine. And there's no need to dress up. What I will be checking is whether you've researched the person before you sit down with them. Walking in knowing nothing is the one mistake I won't forgive.",
+    "Question four. Man: How's your family history project coming along? Girl: Really well. I interviewed my grandfather for two hours. I expected the war stories to be the highlight, that's why I wanted to talk to him. But honestly, the part I can't stop thinking about is his description of ordinary life, what they ate, how they washed clothes, what a Sunday felt like. That's the stuff nobody writes down.",
+    "Question five. Woman: I've drafted the questions for tomorrow's job candidates. I've included that puzzle about the ship and the ladder, to test how they think. Man: Hmm, can I be honest? Those trick puzzles just tell us who's read the same books we have. I'd drop it and ask them to describe a real problem they've actually dealt with. Woman: Fair enough, that would tell us more. I'll swap it.",
+    "Question six. Man: A quick update for everyone attending this afternoon's masterclass with the radio presenter Olivia Reed. Because so many of you have signed up, the session can no longer take place in Room Two as printed in your programme. It will now be held in the main hall, at the same time, three o'clock. Please spread the word.",
+    "Question seven. Girl: How did your interview with the head teacher go for the school radio? Boy: Total disaster, and I can't even blame her, she gave brilliant answers. I'd tested the microphone, checked the batteries, everything. But in all the nerves I never actually pressed record. Forty minutes of gold, gone. She's kindly agreed to do it again on Friday.",
+    "Question eight. Woman: Thanks for stopping at our stand. Most students ask me what the starting salary is. Man: Actually, that's not my main concern, and I've already read about the holidays on your website. What I'd really like to know is what training you offer in the first year. That's what will decide it for me. Woman: Then you'll like what I'm about to tell you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What did the woman dislike about the podcast?",
+     "o": [
+      "The host talked too much",
+      "The guest was boring",
+      "It was too short"
+     ],
+     "c": 0,
+     "audio": "P18/B2/B2-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why does Sara want to change the time of the interview?",
+     "o": [
+      "The mayor is busy at two",
+      "Her train has been cancelled",
+      "She has another interview first"
+     ],
+     "c": 1,
+     "audio": "P18/B2/B2-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the teacher say is essential?",
+     "o": [
+      "Using good equipment",
+      "Dressing smartly",
+      "Researching the person first"
+     ],
+     "c": 2,
+     "audio": "P18/B2/B2-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the girl find most interesting in her grandfather's interview?",
+     "o": [
+      "His war stories",
+      "His description of daily life",
+      "His opinions about the present"
+     ],
+     "c": 1,
+     "audio": "P18/B2/B2-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What do they decide about the puzzle question?",
+     "o": [
+      "To keep it in the interview",
+      "To replace it with a question about real experience",
+      "To make it more difficult"
+     ],
+     "c": 1,
+     "audio": "P18/B2/B2-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What has changed about the masterclass?",
+     "o": [
+      "The room",
+      "The time",
+      "The speaker"
+     ],
+     "c": 0,
+     "audio": "P18/B2/B2-P1-q6.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What went wrong with the boy's interview?",
+     "o": [
+      "The batteries ran out",
+      "He forgot to press record",
+      "The head teacher gave short answers"
+     ],
+     "c": 1,
+     "audio": "P18/B2/B2-P1-q7.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the man want to know about the job?",
+     "o": [
+      "The salary",
+      "The holidays",
+      "The training offered"
+     ],
+     "c": 2,
+     "audio": "P18/B2/B2-P1-q8.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B2-P2",
+   "title": "Part 2 · Questions 9–18",
+   "kind": "file",
+   "file": "P18/B2/B2-P2.mp3",
+   "intro": "You will hear a radio journalist called Ruby talking about the art of interviewing people. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Hello everyone, I'm Ruby, and interviewing people is how I've made my living. It doesn't feel that long since I started, but I've now been a radio journalist for twelve years, which means thousands of conversations with strangers, some of them unforgettable. People assume my first interview must have been with someone famous, a politician or a singer. Not even close. My very first interview was with a farmer, about a flooded field, and I was so nervous my questions were shaking on the page. He was kind, and I learned more from him than from any course. Since then I've trained a lot of young reporters, and they almost all arrive with the same bad habit. It isn't asking long questions, although they do that too. The worst mistake beginners make is interrupting. The guest is three seconds away from saying something true and surprising, and the eager young interviewer talks over them. Learning to stay quiet is half the job. That said, preparation matters enormously. For a big interview I usually prepare about twenty questions. Do I ask all twenty? Almost never, five or six, usually. But the preparation means I understand the subject well enough to abandon my list when something more interesting appears. And if you only remember one question from this talk, make it this one. The most powerful question in any interview is simply: why? One word. People give you a fact, you ask why, and suddenly you're hearing the real story. As for where I work, you might picture a studio with headphones and a glass wall. I avoid studios whenever I can, they make people stiff and careful. I'd much rather record people in their kitchen. At their own table, with their own mug of tea, people forget the microphone within minutes, and that's when the good material comes. Length matters too. Editors always want everything shorter, but there's a number I fight for. In my experience the ideal interview lasts forty minutes: long enough to go deep, short enough that nobody tires. The first ten minutes are usually polite nonsense, the gold comes later. Two more things. However experienced you are, always check your equipment twice, before you leave and again at the door. I once lost an entire interview to a dead battery, never again. And people always ask about my favourite interview. It wasn't a celebrity. It was a lighthouse keeper, the last one in the country, recorded during a storm with the waves crashing outside. Radio doesn't get better than that. Finally, if you'd like to learn properly, I'm running a course for beginners, it starts in October, and details are on the station's website. Come and learn to be quiet with me. Thank you."
+   ],
+   "gapTitle": "Ruby — The Art of the Interview",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Ruby has been a radio journalist for ____ years",
+     "accept": [
+      "12",
+      "twelve"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Her first interview was with a: ____",
+     "accept": [
+      "farmer"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The worst mistake beginners make is: ____",
+     "accept": [
+      "interrupting"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "For a big interview she prepares about ____ questions",
+     "accept": [
+      "20",
+      "twenty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The most powerful question is: ____",
+     "accept": [
+      "why"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "She prefers to record people in their: ____",
+     "accept": [
+      "kitchen",
+      "kitchens"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The ideal interview lasts ____ minutes",
+     "accept": [
+      "40",
+      "forty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "You should always check your equipment: ____",
+     "accept": [
+      "twice",
+      "two times"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Her favourite interview was with a lighthouse: ____",
+     "accept": [
+      "keeper"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Her course for beginners starts in: ____",
+     "accept": [
+      "october"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2-P3",
+   "title": "Part 3 · Questions 19–23",
+   "kind": "file",
+   "file": "P18/B2/B2-P3.mp3",
+   "intro": "You will hear five people talking about what helped them most in a job interview. For each speaker, choose from the list (A–H) what helped them. Use each letter once. There are three extra letters you will not need.",
+   "bank": [
+    "arriving very early",
+    "researching the company",
+    "practising with a friend",
+    "wearing comfortable clothes",
+    "asking their own questions",
+    "doing breathing exercises",
+    "taking notes during the interview",
+    "treating it as a conversation"
+   ],
+   "scripts": [
+    "Speaker one. Woman: Before my interview, my flatmate spent a whole weekend firing questions at me across the kitchen table, playing the part of a really unfriendly manager. I hated every minute, and it was the best thing I could have done. By the real interview, I'd already heard every difficult question out loud and stumbled through my answers where it didn't matter. Nothing they asked me was new. Speaker two. Man: I spent three evenings reading everything I could find about the firm, their projects, their annual report, even interviews with the directors. In the interview, I mentioned a bridge they'd built in Portugal, and the whole room sat up. Afterwards they told me most candidates couldn't name a single thing the company had actually done. That's what got me the job, I'm sure of it. Speaker three. Woman: My problem was always seeing interviews as exams, with right and wrong answers and me about to fail. Before the last one, an older colleague told me: it's just two people finding out if they'd work well together. Something clicked. I walked in curious instead of terrified, and we ended up laughing about our terrible first jobs. They called me that same evening. Speaker four. Man: My mind used to go completely blank with nerves, I once forgot my own job title. A friend who does yoga taught me a simple trick: slow breathing, in for four counts, out for six, for a few minutes before walking in. It sounds like nothing, but it slows your heart right down. I did it in the car park, and for the first time ever my brain stayed switched on. Speaker five. Woman: Everyone prepares answers, but nobody prepares questions, and that's what made the difference for me. At the end, when they asked if I had anything for them, I didn't say no. I asked how they'd measure my success after a year, and what the team found hardest. The interviewer later told me those five minutes impressed them more than all my answers put together."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Speaker 1",
+     "c": "practising with a friend"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 2",
+     "c": "researching the company"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 3",
+     "c": "treating it as a conversation"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 4",
+     "c": "doing breathing exercises"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 5",
+     "c": "asking their own questions"
+    }
+   ]
+  },
+  {
+   "id": "B2-P4",
+   "title": "Part 4 · Questions 24–30",
+   "kind": "file",
+   "file": "P18/B2/B2-P4.mp3",
+   "intro": "You will hear an interview with a man called Hugo, who trains journalists in interviewing skills. For each question, choose the best answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Hugo, you've trained hundreds of journalists. What's the single most important skill for an interviewer? Hugo: Everyone expects me to say asking clever questions, and clever questions are nice. But the skill that separates good interviewers from great ones is listening, real listening. Most people are so busy planning their next question that they miss the extraordinary thing that was just said. The best follow-up questions aren't written in advance, they're heard. Interviewer: So where do beginners go wrong? Hugo: They cling to their script like a life raft. I watch trainees sail straight past a confession, a contradiction, a trembling voice, because question seven was next on their list and question seven is what they asked. The list should be a map you glance at, not a rail track you're bolted to. Interviewer: You're famous for teaching something unusual: the power of silence. Tell us about that. Hugo: It's the cheapest trick in the trade and the hardest to learn. When someone finishes an answer, don't speak. Count to five in your head. Silence feels unbearable, so people fill it, and what they fill it with is almost always the thing they hadn't planned to say. My trainees squirm when they practise it, and then it wins them their best material for the rest of their careers. Interviewer: What about interviewing people on difficult subjects, people who've been through something terrible? Hugo: Then the rules change completely. With a politician, surprise has its uses. With someone who's suffered, never. My rule there is simple: no surprises. Tell them the areas you'll cover before you start, let them see the shape of the conversation. You lose nothing, they've lived it, they know it better than you, and what you gain is trust, and trust is the whole interview. Interviewer: Has technology changed the craft? Everyone interviews by video call now. Hugo: It has, and we've lost something real. On a screen you get the face, sure, but you lose the small signals, the hands twisting a ring, the glance at the door, the foot tapping under the table. Half of listening is done with your eyes. I still travel for any interview that matters, and I tell my trainees to do the same when they can. Interviewer: After all these years, who do you most enjoy interviewing? Hugo: Not the famous, they've told their stories so many times the answers come out laminated. Give me a so-called ordinary person, a night nurse, a ferry captain, a school caretaker, someone who's never been asked about their life before. The first time someone tells their story is the only time it's completely true. Interviewer: Finally, Hugo, what's your advice for a young person who wants to learn this craft? Hugo: Don't wait for a job or a course. Interview your own family, this month, while you can. Sit your grandmother down with a phone recording and ask about her first day at work, her old street, the things nobody's asked her in fifty years. You'll learn the craft, and your family will thank you forever. Everything I know, I learned at my grandfather's kitchen table. Interviewer: Hugo, thank you very much."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "According to Hugo, what is the most important skill for an interviewer?",
+     "o": [
+      "Preparing clever questions",
+      "Listening carefully",
+      "Speaking confidently"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What mistake do beginners make?",
+     "o": [
+      "They follow their list of questions too strictly",
+      "They forget their questions",
+      "They ask questions that are too personal"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Why does Hugo recommend staying silent after an answer?",
+     "o": [
+      "It gives the interviewer time to think",
+      "It shows respect for the guest",
+      "People often add something unplanned"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What is Hugo's rule for interviewing people who have suffered?",
+     "o": [
+      "Keep the interview very short",
+      "Tell them the topics in advance",
+      "Avoid difficult questions completely"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Hugo say about video call interviews?",
+     "o": [
+      "They make guests more relaxed",
+      "They hide important body language",
+      "They save valuable time"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Who does Hugo prefer to interview?",
+     "o": [
+      "Famous people",
+      "Politicians",
+      "Ordinary people"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What does Hugo advise young people to do?",
+     "o": [
+      "Apply for journalism courses",
+      "Interview their own relatives",
+      "Watch famous interviewers online"
+     ],
+     "c": 1
+    }
+   ]
+  }
+ ]
+}

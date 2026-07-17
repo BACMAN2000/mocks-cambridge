@@ -1,0 +1,309 @@
+{
+ "label": "A2 — Elementary",
+ "cefr": "Cambridge KET · A2 official format",
+ "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+ "audios": [
+  {
+   "id": "A2-P1",
+   "title": "Part 1 · Questions 1–5",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+   "segments": [
+    "Travelling to Grandma's",
+    "A present for Grandma",
+    "Dinner time",
+    "Weekend weather",
+    "Something missing"
+   ],
+   "scripts": [
+    "Question one. Boy: Dad wanted to drive to Grandma's on Saturday, but the road is closed for the street market, so we're taking the bus. Girl: The bus? That takes ages! Boy: Better than not going at all.",
+    "Question two. Mum: Shall we buy Grandma some flowers for Sunday? Girl: The flower shop's shut on Sundays. Let's make her a cake — she loved the last one. Mum: Good idea, and you can help me.",
+    "Question three. Woman: Grandad says dinner is at half past seven. Man: Our bus gets in at seven, so we'll be there just in time. Woman: Perfect, I'll tell him we're coming.",
+    "Question four. Boy: Will it snow at the farm this weekend? Girl: Grandad said it snowed on Tuesday, but this weekend will just be rainy. Boy: I'll leave the sledge at home, then.",
+    "Question five. Dad: Why can't you call Emma? Girl: My phone's not here! I charged it in Grandma's kitchen and… oh no. Dad: At least your keys are in your bag this time. Girl: Very funny, Dad."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "How will the family travel to Grandma's?",
+     "imgs": [
+      "bus",
+      "car",
+      "bike"
+     ],
+     "c": 0,
+     "audio": "M5/A2/A2-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will they take to Grandma?",
+     "imgs": [
+      "book",
+      "cake",
+      "phone"
+     ],
+     "c": 1,
+     "audio": "M5/A2/A2-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time is dinner at Grandad's house?",
+     "imgs": [
+      "clock700",
+      "clock730",
+      "clock8"
+     ],
+     "c": 1,
+     "audio": "M5/A2/A2-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will the weather be like at the farm this weekend?",
+     "imgs": [
+      "snowy",
+      "rainy",
+      "sunny"
+     ],
+     "c": 1,
+     "audio": "M5/A2/A2-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What did the girl leave at her grandmother's house?",
+     "imgs": [
+      "phone",
+      "keys",
+      "umbrella"
+     ],
+     "c": 0,
+     "audio": "M5/A2/A2-P1-q5.mp3"
+    }
+   ]
+  },
+  {
+   "id": "A2-P2",
+   "title": "Part 2 · Questions 6–10",
+   "kind": "file",
+   "file": "M5/A2/A2-P2.mp3",
+   "intro": "You will hear a grandmother leaving a phone message for her grandchildren. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+   "scripts": [
+    "Listen to a woman leaving a phone message for her grandchildren. Woman: Hello dears, it's Grandma. About your visit next weekend — come on Saturday, not Sunday, because on Sunday we've got tickets for the flower show. Grandad will meet your bus at the station at ten fifteen. Bring your boots, because the garden is very muddy after all the rain. Oh, and it's Uncle Peter's birthday on Saturday — he'll be forty-five — so we're having a special dinner. Could you bring some lemonade? I've already made the cake. See you soon!"
+   ],
+   "gapTitle": "Grandma's Message",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Come on: ____",
+     "accept": [
+      "saturday"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Grandad will meet the bus at: ____",
+     "accept": [
+      "10:15",
+      "10.15",
+      "1015",
+      "ten fifteen",
+      "quarter past ten"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "For the muddy garden, bring your: ____",
+     "accept": [
+      "boots"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Uncle Peter will be: ____",
+     "accept": [
+      "45",
+      "forty-five",
+      "forty five"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The children should bring some: ____",
+     "accept": [
+      "lemonade"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2-P3",
+   "title": "Part 3 · Questions 11–15",
+   "kind": "file",
+   "file": "M5/A2/A2-P3.mp3",
+   "intro": "You will hear Leo talking to his grandfather on the phone about a visit to the farm. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Leo: Hi Grandad! Mum says we're arriving on Friday evening. Man: That's right — but there's a small change, Leo. The village bus doesn't run on Fridays any more, so I'll collect you from the station myself. Leo: In the old red car? Man: The red car's at the garage. I'll be in Grandma's blue one, so look carefully. Leo: OK. Can we go fishing on Saturday? Man: Saturday's market day — Grandma needs us to help sell her jam in the morning. We'll fish on Sunday, before your train home. Leo: Great! Shall I bring my rod? Man: No need — I've bought you a new one. Just bring warm clothes; the river's cold at seven in the morning. Leo: Seven?! Man: Fish don't sleep late, young man!"
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How will Leo get from the station to the farm?",
+     "o": [
+      "His grandfather will collect him",
+      "By village bus",
+      "By taxi"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Which car should Leo look for?",
+     "o": [
+      "The red one",
+      "The blue one",
+      "A new one"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What will they do on Saturday morning?",
+     "o": [
+      "Go fishing",
+      "Sell jam at the market",
+      "Take the car to the garage"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What has Leo's grandfather bought for him?",
+     "o": [
+      "A fishing rod",
+      "Some warm clothes",
+      "A jar of jam"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "When will they go fishing?",
+     "o": [
+      "Friday evening",
+      "Saturday morning",
+      "Sunday morning"
+     ],
+     "c": 2
+    }
+   ]
+  },
+  {
+   "id": "A2-P4",
+   "title": "Part 4 · Questions 16–20",
+   "kind": "file",
+   "file": "M5/A2/A2-P4.mp3",
+   "intro": "You will hear a girl called Elena talking about staying with her grandparents. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Elena: My grandparents live by the sea, and I stay with them every August. My friends think it must be boring — no cinema, no shopping centre — but honestly it's my favourite part of the summer. My grandmother gets up at six to swim in the sea, whatever the weather, and this year I finally went with her for the first time. The water was freezing, but after five minutes it felt wonderful. My grandfather taught me to play chess when I was little; I lost every game for years, but this summer I beat him twice. He said he wasn't playing his best — but Grandma told me he practises every night on the computer now! I used to phone my friends every day from there. Now I hardly touch my phone — there's just no time."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What does Elena think of staying with her grandparents?",
+     "o": [
+      "It's a bit boring",
+      "It's the best part of her summer",
+      "It's too quiet for her"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What did Elena do for the first time this year?",
+     "o": [
+      "Learned to play chess",
+      "Swam in the sea early in the morning",
+      "Cooked dinner for everyone"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What happened at chess this summer?",
+     "o": [
+      "Her grandfather won every game",
+      "Elena beat her grandfather twice",
+      "They only played on the computer"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Elena's grandmother say about her grandfather?",
+     "o": [
+      "He practises chess every night",
+      "He doesn't enjoy chess any more",
+      "He never plays his best"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Elena say about her phone?",
+     "o": [
+      "She hardly uses it at her grandparents' house",
+      "She phones her friends every day",
+      "She broke it at the beach"
+     ],
+     "c": 0
+    }
+   ]
+  },
+  {
+   "id": "A2-P5",
+   "title": "Part 5 · Questions 21–25",
+   "kind": "file",
+   "file": "M5/A2/A2-P5.mp3",
+   "intro": "You will hear Kate talking about a family visit to her grandparents. What did each person do to help? For each question, choose the correct answer.",
+   "bank": [
+    "washed the car",
+    "picked apples",
+    "painted the gate",
+    "walked the dog",
+    "made the dinner",
+    "cut the grass",
+    "cleaned the windows"
+   ],
+   "scripts": [
+    "Kate: When we visited Grandma last weekend, everyone had a job. Ben wanted to cut the grass, but the machine was broken, so he picked apples all afternoon — we've got hundreds now! Lily walked the dog down to the river and back, twice. Sam painted the garden gate; he got more paint on himself than on the wood. Olivia cleaned all the windows until they shone. And Hugo made the dinner with Grandma — chicken and rice, and it was actually delicious."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Ben",
+     "c": "picked apples"
+    },
+    {
+     "type": "match",
+     "person": "Lily",
+     "c": "walked the dog"
+    },
+    {
+     "type": "match",
+     "person": "Sam",
+     "c": "painted the gate"
+    },
+    {
+     "type": "match",
+     "person": "Olivia",
+     "c": "cleaned the windows"
+    },
+    {
+     "type": "match",
+     "person": "Hugo",
+     "c": "made the dinner"
+    }
+   ]
+  }
+ ]
+}

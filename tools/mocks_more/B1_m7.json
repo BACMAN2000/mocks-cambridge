@@ -1,0 +1,181 @@
+{
+  "title": "B1 Preliminary — Reading (MOCK 7)",
+  "note": "All six parts are auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "City Library",
+          "text": "FREE ONLINE COURSES: LIBRARY MEMBERS CAN NOW USE THE SKILLPATH WEBSITE AT NO COST.\nASK STAFF AT THE DESK FOR YOUR LOGIN CODE.\nCOMPUTERS ON THE FIRST FLOOR MAY BE BOOKED FOR UP TO TWO HOURS A DAY.",
+          "stem": "How can members start using the SkillPath website?",
+          "options": ["By paying a small fee at the desk.", "By getting a code from library staff.", "By booking a first-floor computer."],
+          "answer": 1
+        },
+        {
+          "kind": "message",
+          "header": "Text from Katya to Nina",
+          "text": "Nina — the guitar teacher's live lesson has moved to 6 tonight because his internet was down earlier. He says we should watch the strumming video before we join, or we'll be behind the others. Log in a few minutes early — last week the online room was full!",
+          "stem": "What should Nina do before tonight's lesson?",
+          "options": ["Watch a video the teacher has recommended.", "Get her internet connection repaired.", "Ask the teacher to repeat last week's class."],
+          "answer": 0
+        },
+        {
+          "kind": "email",
+          "from": "PhotoLearn Online",
+          "to": "Course students",
+          "subject": "Your photography course",
+          "body": "Well done — you have now completed eight of the ten units! A reminder that your final project must be uploaded by Sunday at midnight. Projects sent after the deadline cannot be marked, and the certificate is only awarded to students whose projects receive a pass.",
+          "stem": "What does the email say about the certificate?",
+          "options": ["It is sent automatically after eight units.", "It is posted to all students on Sunday.", "Students only get it if their project passes."],
+          "answer": 2
+        },
+        {
+          "kind": "sign",
+          "header": "Ashton Community Centre",
+          "text": "DIGITAL SKILLS DROP-IN — TUESDAYS 10–12.\nBRING YOUR OWN LAPTOP OR PHONE. NO NEED TO BOOK — JUST COME ALONG.\nPLEASE NOTE: OUR VOLUNTEERS CANNOT REPAIR DEVICES.",
+          "stem": "What does the sign say about the drop-in sessions?",
+          "options": ["Visitors must reserve a place in advance.", "People should bring a device of their own.", "Broken laptops can be repaired by the volunteers."],
+          "answer": 1
+        },
+        {
+          "kind": "note",
+          "header": "From Gran",
+          "text": "Leo — I've finally finished that online cooking course I started in January! For the last lesson we cook a dish we choose ourselves, so I'm making Thai soup for dinner tonight and you're my taster. Don't eat anything big at lunchtime! Gran x",
+          "stem": "Why is Gran making soup this evening?",
+          "options": ["It is the final task of her course.", "Leo asked her to cook something Thai.", "She wants to practise before starting a course."],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "The five people below all want to learn a new skill online. Read the descriptions of eight online courses (A–H) and decide which would be most suitable for each person. There are three courses you do not need to use.",
+      "sources": [
+        {
+          "label": "6",
+          "name": "Beatriz",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/54.jpg\" alt=\"Beatriz\" loading=\"lazy\">",
+          "text": "Beatriz works long hours and can only study late at night. She wants to learn Japanese, but apps bore her — she wants to practise speaking in live conversations with real, qualified teachers."
+        },
+        {
+          "label": "7",
+          "name": "Stefan",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/28.jpg\" alt=\"Stefan\" loading=\"lazy\">",
+          "text": "Stefan, who is thirty, wants to learn programming from zero, but he knows himself: without deadlines and someone checking his progress, he gives up. He wants personal support from a real person."
+        },
+        {
+          "label": "8",
+          "name": "Olga",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/81.jpg\" alt=\"Olga\" loading=\"lazy\">",
+          "text": "Olga wants to learn to draw, but her shift work makes fixed timetables impossible, and she hates deadlines. She would rather pay once and then take as long as she likes over the lessons."
+        },
+        {
+          "label": "9",
+          "name": "Danny",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/14.jpg\" alt=\"Danny\" loading=\"lazy\">",
+          "text": "Danny wants to move into office work and needs to show employers something official. He is looking for a finance course that ends with an exam and a qualification companies actually recognise."
+        },
+        {
+          "label": "10",
+          "name": "Priya",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/39.jpg\" alt=\"Priya\" loading=\"lazy\">",
+          "text": "Priya knits beautiful jumpers and dreams of selling them on the internet. She doesn't want a general business degree — just practical help with photographing her work, setting prices and opening a small online shop."
+        }
+      ],
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Business Basics Certificate: A complete introduction to bookkeeping and office finance, finishing with an online exam. Our qualification is accepted by employers right across the country.",
+          "Game Makers Club: Live online lessons in video game design for students aged twelve to sixteen, held straight after school hours. A fun first step into programming for young people.",
+          "Code with a Coach: Learn programming from absolute zero with your own personal mentor, who calls you every week, sets clear deadlines and keeps you going whenever the work gets hard.",
+          "WordPlay: A free app that teaches languages through five-minute games and puzzles. Perfect for a few fun minutes a day — no teachers, no timetables, no pressure.",
+          "The Artist's Path: A complete drawing course that you buy once and keep forever. Study whenever you like and take years if you need to — there are no deadlines and nothing to hand in.",
+          "Sell Your Craft: A practical course for people who make things by hand and dream of selling them. Learn how to photograph your work, set the right prices and open your own small online shop.",
+          "Tokyo Talk: Learn Japanese with qualified teachers in live one-to-one conversation classes. Lessons can be booked at any hour of the day or night, to suit workers in every time zone.",
+          "Sketch Club Live: Join our friendly online drawing class every Tuesday evening for ten weeks. Weekly homework keeps you improving, and the course finishes with an online exhibition."
+        ]
+      },
+      "questions": [
+        {"stem": "Beatriz", "answer": "G"},
+        {"stem": "Stefan", "answer": "C"},
+        {"stem": "Olga", "answer": "E"},
+        {"stem": "Danny", "answer": "A"},
+        {"stem": "Priya", "answer": "F"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the article about a man who learned the violin online and choose the best answer A, B, C or D.",
+      "passage": "It's never too late to play\n\nWhen Harold Jenkins retired from his job as a bus driver, his granddaughter gave him a strange present: a cheap violin and a note that said, 'The internet will teach you.' Harold had never played an instrument in his life. \"At school we were told music was for the clever children,\" he remembers. \"I believed that for fifty years. It took a nine-year-old to change my mind.\"\n\nHarold began with free video lessons, practising in the garden shed so that nobody could hear his mistakes. Progress was painfully slow. \"The videos made everything look easy. The teacher's fingers just fell into the right places, and mine wouldn't. Several times I put the violin back in its case and told myself the whole idea was ridiculous.\" What brought him back, each time, was the online group he had joined, full of adult beginners like himself. \"Someone in Brazil would post a terrible recording, and twenty people would cheer and tell them to keep going. When my turn came, they cheered for me too. You can't give up on people like that.\"\n\nAfter a year, Harold could manage simple tunes; after three, he joined a local orchestra for amateurs. He is careful, though, to explain what online learning could and couldn't do. \"The videos showed me where to put my fingers. But nobody on a screen can hear that your elbow is too high or your bow is shaking. When I finally paid for a few face-to-face lessons, my teacher fixed faults in one afternoon that I'd spent two years building.\"\n\nNow seventy, Harold still practises every morning. His granddaughter, meanwhile, has given up the violin completely — she prefers judo. \"People say young brains learn faster, and perhaps they do,\" Harold smiles. \"But old learners know something better: slow is not the same as impossible.\"",
+      "questions": [
+        {"stem": "What stopped Harold learning music earlier in his life?", "options": ["an idea about himself that he accepted at school", "the high cost of instruments and lessons", "his family's lack of interest in music", "the long hours he worked as a bus driver"], "answer": 0},
+        {"stem": "What helped Harold carry on when he wanted to give up?", "options": ["watching the teacher's videos again", "practising where nobody could hear him", "the encouragement of other learners online", "a promise he had made to his granddaughter"], "answer": 2},
+        {"stem": "What does Harold say about the video lessons?", "options": ["They were too expensive for most beginners.", "They made his elbow and bow technique worse.", "They were more useful than lessons with his real teacher.", "They could not correct the faults in the way he played."], "answer": 3},
+        {"stem": "What happened when Harold had lessons with a real teacher?", "options": ["He decided to leave the amateur orchestra.", "Problems he had practised for years were quickly put right.", "He discovered the videos had taught him nothing at all.", "He stopped using the internet for music completely."], "answer": 1},
+        {"stem": "What is Harold's message about adult learners?", "options": ["Learning slowly does not mean you will fail.", "Adults actually learn more quickly than children.", "Everyone should take up an instrument after retiring.", "Online groups are more useful than orchestras."], "answer": 0}
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 4",
+      "instructions": "Read the article about online learning. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+      "passage": "Classrooms without walls\n\nTwenty years ago, learning a new skill usually meant finding a class in your own town, at a time the teacher chose, at a price you might not be able to afford. Today, anyone with an internet connection can learn almost anything, from Arabic to app design. (16)____ Not all of them, however, will finish what they start.\n\nResearchers who study online education have found that the biggest problem is not the quality of the courses. (17)____ Without a fixed lesson time or a teacher waiting, it is simply too easy to promise yourself that you will study 'tomorrow'.\n\nCourse designers have responded with clever tricks borrowed from computer games. Learners collect points, win badges and see their names on lists of top students. (18)____ Others say the effect wears off within a few weeks, and what remains is the same old need for self-discipline.\n\nAnother idea has worked better: the study group. Learners who join an online community, where members share their progress each week, are far more likely to complete a course. (19)____ Knowing that real people expect to see your work, it seems, is a stronger motivation than any badge.\n\nSo will the online classroom ever completely replace the traditional one? Most experts doubt it. (20)____ The future, they suggest, belongs to learners who combine the two: the freedom of the internet, plus the power of a real person who notices when you are absent.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "The oldest universities in the world were founded many centuries ago.",
+          "Some experts believe these rewards genuinely help people to keep going.",
+          "Millions of people now sign up for online courses every single year.",
+          "Online courses are almost always more expensive than evening classes.",
+          "A screen, they point out, cannot yet copy everything a good teacher does in a room full of students.",
+          "It is, instead, that studying alone demands a level of organisation many of us simply do not have.",
+          "Most study groups also arrange to meet in person at least once a month.",
+          "The same researchers found that learners studying completely alone gave up three times more often."
+        ]
+      },
+      "questions": [
+        {"stem": "Gap 16", "answer": "C"},
+        {"stem": "Gap 17", "answer": "F"},
+        {"stem": "Gap 18", "answer": "B"},
+        {"stem": "Gap 19", "answer": "H"},
+        {"stem": "Gap 20", "answer": "E"}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 5",
+      "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+      "title": "The secret of practising",
+      "body": "Anyone who has tried to learn a new skill knows that progress can feel painfully slow. Scientists who study learning say that how you practise (21)____ more than how long you practise. Repeating something you can already do feels pleasant, but it (22)____ to very little improvement. Real progress happens at the edge of your ability, where tasks are difficult enough to make you (23)____ mistakes. Short, regular sessions are also far more effective (24)____ occasional marathon ones, because the brain needs rest in order to store new information. Above all, experts advise learners to be patient with themselves. Skills that (25)____ effortless when a professional performs them have usually taken years to develop. If you keep going when others stop, you will be amazed by the (26)____ you can make in a single year.",
+      "questions": [
+        {"options": ["matters", "cares", "works", "means"], "answer": 0},
+        {"options": ["results", "gets", "leads", "causes"], "answer": 2},
+        {"options": ["do", "make", "have", "take"], "answer": 1},
+        {"options": ["as", "from", "to", "than"], "answer": 3},
+        {"options": ["look", "see", "watch", "show"], "answer": 0},
+        {"options": ["movement", "increase", "progress", "advance"], "answer": 2}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 6",
+      "instructions": "For each gap (27–32), write ONE word.",
+      "title": "Email about an online course",
+      "body": "Hi Carmen,\n\nYou know I've (27)____ learning Italian online since March? Well, yesterday I had my first real conversation with an Italian speaker — and she understood me!\n\nThe course is run by a school in Rome, (28)____ teachers give live classes every evening. It costs less (29)____ my old classes at the college did, and I don't have to travel anywhere.\n\nWhy don't you sign (30)____ for the beginners' class? We could practise together, and if you start now, you'll (31)____ able to join the conversation group by the summer.\n\nLet me know what you think — it would be (32)____ much more fun with a friend!\n\nBesos,\nRocío",
+      "questions": [
+        {"accept": ["been"]},
+        {"accept": ["whose"]},
+        {"accept": ["than"]},
+        {"accept": ["up"]},
+        {"accept": ["be"]},
+        {"accept": ["so"]}
+      ]
+    }
+  ]
+}

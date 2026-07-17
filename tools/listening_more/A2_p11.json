@@ -1,0 +1,309 @@
+{
+ "label": "A2 — Elementary",
+ "cefr": "Cambridge KET · A2 official format",
+ "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+ "audios": [
+  {
+   "id": "A2-P1",
+   "title": "Part 1 · Questions 1–5",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+   "segments": [
+    "After school",
+    "Getting to the match",
+    "The swimming race",
+    "Tennis today",
+    "Basketball practice"
+   ],
+   "scripts": [
+    "Question one. Girl: Are you practising the guitar after school, Tom? Boy: Not today — we've got a big football game. Girl: Oh, good luck then!",
+    "Question two. Jack: Is your dad driving us to the match, Ben? Ben: The car broke down yesterday, so we're taking the bus. Jack: OK, let's not miss it.",
+    "Question three. Girl: What time is your swimming race, Max? Max: At four twenty. Not half past four — so don't be late! Girl: Don't worry, I'll be there.",
+    "Question four. Woman: Is the tennis game still on this afternoon? Man: Sadly not — look at all that rain! They've moved it to next week. Woman: What a pity.",
+    "Question five. Mum: Have you got your ball for basketball practice? Girl: The coach brings the balls, Mum. I just need my sports bag. Mum: It's by the door."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What will Tom do after school today?",
+     "imgs": [
+      "guitar",
+      "ball",
+      "book"
+     ],
+     "c": 1,
+     "audio": "P11/A2/A2-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will the boys get to the match?",
+     "imgs": [
+      "car",
+      "bus",
+      "bike"
+     ],
+     "c": 1,
+     "audio": "P11/A2/A2-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time is Max's swimming race?",
+     "imgs": [
+      "clock400",
+      "clock420",
+      "clock430"
+     ],
+     "c": 1,
+     "audio": "P11/A2/A2-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What is the weather like this afternoon?",
+     "imgs": [
+      "sunny",
+      "rainy",
+      "snowy"
+     ],
+     "c": 1,
+     "audio": "P11/A2/A2-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What does the girl need to take to practice?",
+     "imgs": [
+      "ball",
+      "bag",
+      "hat"
+     ],
+     "c": 1,
+     "audio": "P11/A2/A2-P1-q5.mp3"
+    }
+   ]
+  },
+  {
+   "id": "A2-P2",
+   "title": "Part 2 · Questions 6–10",
+   "kind": "file",
+   "file": "P11/A2/A2-P2.mp3",
+   "intro": "You will hear a coach talking about a summer basketball camp. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+   "scripts": [
+    "Listen to a coach talking about a summer basketball camp. Coach: Hello, players! Here's the information about our summer basketball camp. The camp runs for five days, from Monday to Friday. We start every day at nine o'clock in the sports hall. The camp costs twenty pounds for the whole week. Please bring white shoes for the hall — dark ones mark the floor. And on the last day, your families can come and watch the final game and take photos."
+   ],
+   "gapTitle": "Summer Basketball Camp",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Camp days: Monday to ____",
+     "accept": [
+      "friday"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Starts every day at: ____ a.m.",
+     "accept": [
+      "9",
+      "nine",
+      "9:00",
+      "9.00",
+      "9 o'clock",
+      "nine o'clock"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Cost for the week: £ ____",
+     "accept": [
+      "20",
+      "twenty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Bring: ____ shoes",
+     "accept": [
+      "white"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Last day: families watch the final ____",
+     "accept": [
+      "game"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2-P3",
+   "title": "Part 3 · Questions 11–15",
+   "kind": "file",
+   "file": "P11/A2/A2-P3.mp3",
+   "intro": "You will hear Nora talking to her friend Daniel about a tennis club. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Nora: Daniel, you play tennis, don't you? I want to start. Daniel: Great! I play at the club behind the swimming pool. Nora: Is it expensive? Daniel: It's twelve pounds a month for students, and the first lesson is free. Nora: Do I need my own racket? Daniel: No, the club lends you one at the beginning. Nora: When could I try it? Daniel: Beginners' lessons are on Wednesdays at five. Nora: Perfect — Wednesday is my free day. Will you come with me? Daniel: Sure, I'll meet you at the gate."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Where is the tennis club?",
+     "o": [
+      "Behind the swimming pool",
+      "Next to the school",
+      "In the park"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How much does the club cost for students?",
+     "o": [
+      "Twelve pounds a month",
+      "Twenty pounds a month",
+      "Nothing"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does the club lend to beginners?",
+     "o": [
+      "Shoes",
+      "A racket",
+      "A ball"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "When are the beginners' lessons?",
+     "o": [
+      "Mondays at five",
+      "Wednesdays at five",
+      "Saturdays at ten"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Where will Daniel meet Nora?",
+     "o": [
+      "At the gate",
+      "At school",
+      "At the pool"
+     ],
+     "c": 0
+    }
+   ]
+  },
+  {
+   "id": "A2-P4",
+   "title": "Part 4 · Questions 16–20",
+   "kind": "file",
+   "file": "P11/A2/A2-P4.mp3",
+   "intro": "You will hear a boy called Oliver talking about running. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Oliver: I started running last year because my doctor said I needed more exercise. At first I could only run for five minutes, and I wanted to stop. But my mum ran with me every evening, and slowly it got easier. Now I run for half an hour, three times a week. Last month I finished my first race — the town run for children. I came twentieth out of a hundred runners, and I felt fantastic. My next goal isn't winning; I just want to run the same race faster than this year."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why did Oliver start running?",
+     "o": [
+      "His doctor said he needed exercise",
+      "His friends were runners",
+      "He wanted to win races"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Who ran with Oliver at first?",
+     "o": [
+      "His dad",
+      "His mum",
+      "His brother"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How often does Oliver run now?",
+     "o": [
+      "Every day",
+      "Three times a week",
+      "Once a week"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What did Oliver do last month?",
+     "o": [
+      "He won a race",
+      "He finished his first race",
+      "He hurt his leg"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Oliver's next goal?",
+     "o": [
+      "To win the race",
+      "To run the race faster than this year",
+      "To run every day"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P5",
+   "title": "Part 5 · Questions 21–25",
+   "kind": "file",
+   "file": "P11/A2/A2-P5.mp3",
+   "intro": "You will hear Emma talking about her friends and family. Which sport does each person do? For each question, choose the correct answer.",
+   "bank": [
+    "tennis",
+    "football",
+    "swimming",
+    "basketball",
+    "running",
+    "volleyball",
+    "hockey"
+   ],
+   "scripts": [
+    "Emma: In my family and with my friends, everyone loves a different sport. My brother Max plays tennis every weekend. Lucy is in the school football team — she scores lots of goals. Tom goes swimming before school, really early in the morning. Sofia plays basketball, because she's the tallest in our class. And Jack loves running in the park with his dad."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Max",
+     "c": "tennis"
+    },
+    {
+     "type": "match",
+     "person": "Lucy",
+     "c": "football"
+    },
+    {
+     "type": "match",
+     "person": "Tom",
+     "c": "swimming"
+    },
+    {
+     "type": "match",
+     "person": "Sofia",
+     "c": "basketball"
+    },
+    {
+     "type": "match",
+     "person": "Jack",
+     "c": "running"
+    }
+   ]
+  }
+ ]
+}

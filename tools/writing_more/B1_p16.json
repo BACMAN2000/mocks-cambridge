@@ -1,0 +1,30 @@
+{
+  "title": "B1 Preliminary — Writing (Practice 16)",
+  "durationMin": 45,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in about 100 words.",
+      "tasks": [{
+        "type": "email", "minWords": 100,
+        "lead": "Read this email from your English teacher, Mr Petrov, and the notes you have made.",
+        "stimulus": { "head": "EMAIL", "title": "", "body": "From: Mr Petrov\nSubject: School photography contest\n\nDear Class,\n\nOur school is holding a photography contest! The theme is \"My Town\", and you can enter one photo each. The winning photos will be shown at the school entrance.\n\nWould you like to take part? Tell me what kind of photo you are planning to take. We also need a name for the exhibition — any ideas?\n\nMr Petrov" },
+        "bullets": ["say you would like to take part", "describe the photo you are planning to take", "suggest a name for the exhibition", "ask one question about the contest rules"],
+        "write": "Write your email to Mr Petrov."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in about 100 words.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 100,
+          "lead": "You see this announcement in your school English-language magazine.",
+          "stimulus": { "title": "A PHOTO I WILL NEVER DELETE", "body": "We all have hundreds of photos on our phones, but some are more special than others. Write an article about one photo you will never delete, describing it and explaining why it matters to you. The best articles will be published next month." },
+          "bullets": ["what the photo shows", "when and where it was taken", "why you will never delete it"],
+          "write": "Write your article." },
+        { "type": "story", "q": 3, "minWords": 100,
+          "lead": "Your English teacher has asked you to write a story.",
+          "startSentence": "When Ivan looked at the photo more carefully, he saw something strange in the background.",
+          "stimulus": { "title": "", "body": "Your story must begin with this sentence:\n\nWhen Ivan looked at the photo more carefully, he saw something strange in the background." },
+          "bullets": [],
+          "write": "Write your story." }
+      ]
+    }
+  ]
+}

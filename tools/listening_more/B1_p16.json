@@ -1,0 +1,241 @@
+{
+ "label": "B1 — Intermediate",
+ "cefr": "Cambridge PET · B1 official format",
+ "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+ "audios": [
+  {
+   "id": "B1-P1",
+   "title": "Part 1 · Questions 1–7",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+   "segments": [
+    "Packing a suitcase",
+    "Getting to the airport",
+    "Weather abroad",
+    "The flight",
+    "A present",
+    "The first day",
+    "At the airport"
+   ],
+   "scripts": [
+    "Question one. Mum: Have you finished packing for Ireland, Sofia? Sofia: Nearly. I've packed my camera and a good book for the plane. Mum: Put your umbrella in too — it rains there almost every day. Sofia: True! I'll get it from the hall.",
+    "Question two. Boy: Dad, is the airport bus early enough for my flight on Sunday? Dad: The first bus would get you there too late, Noah, so I'll drive you myself. Boy: Thanks, Dad. Can we leave at six?",
+    "Question three. Girl: What's the weather like in Montreal, Hugo? You arrive in January, right? Hugo: Yes — my host family says the city is completely white then. Snow every week! Girl: Wow, pack a warm coat!",
+    "Question four. Woman: What time is your flight tomorrow? Man: Well, we board at half past eight, but the plane actually takes off at nine. Woman: So we should be at the airport by seven, to be safe. Man: Exactly.",
+    "Question five. Girl: I want to give my host family something from home, Grandma. Maybe a cake? Woman: A cake might not survive the journey, Ruby. Why not a book with photos of our city? Ruby: Perfect — they can keep it forever.",
+    "Question six. Boy: Where do we go on the first morning, Elena? Straight to the classrooms? Elena: No — the message says all new students meet in the library at nine, for a welcome talk. Boy: The library. OK, I'll find it on the map.",
+    "Question seven. Woman: You look worried — what's wrong? Man: I can't find my bag! I've got my suitcase, and my phone's in my hand... Woman: Isn't that it, on the seat by the café? Man: Oh, thank goodness. All my documents are in there."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What does Mum tell Sofia to pack?",
+     "imgs": ["camera", "book", "umbrella"],
+     "c": 2,
+     "audio": "P16/B1/B1-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will Noah get to the airport?",
+     "imgs": ["bus", "car", "bike"],
+     "c": 1,
+     "audio": "P16/B1/B1-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What is the weather like in Montreal in January?",
+     "imgs": ["rainy", "sunny", "snowy"],
+     "c": 2,
+     "audio": "P16/B1/B1-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the plane take off?",
+     "imgs": ["clock830", "clock9", "clock700"],
+     "c": 1,
+     "audio": "P16/B1/B1-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will Ruby give her host family?",
+     "imgs": ["cake", "book", "camera"],
+     "c": 1,
+     "audio": "P16/B1/B1-P1-q5.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where do new students meet on the first morning?",
+     "imgs": ["library", "cafe", "park"],
+     "c": 0,
+     "audio": "P16/B1/B1-P1-q6.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What has the man lost at the airport?",
+     "imgs": ["phone", "keys", "bag"],
+     "c": 2,
+     "audio": "P16/B1/B1-P1-q7.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P2",
+   "title": "Part 2 · Questions 8–13",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+   "segments": [
+    "The host family",
+    "Feeling homesick",
+    "Learning the language",
+    "A surprise",
+    "The school system",
+    "Advice for students"
+   ],
+   "scripts": [
+    "You will hear a girl talking about her host family abroad. Girl: Before I arrived I was nervous, because their emails were so short and formal. But in person they're the warmest people — the mother cooks with me every evening, and now we can't stop chatting. You can't judge people from emails.",
+    "You will hear a boy talking about his first weeks abroad. Boy: Everyone warned me I'd miss my parents, but strangely that's been fine — we video call on Sundays. What I really miss is the food from home. I'd give anything for a proper plate of my grandmother's cooking.",
+    "You will hear a woman talking about learning a language abroad. Woman: I took classes every morning, and they helped, but my real progress came from joining a swimming club. Nobody there spoke my language, so I had no choice but to communicate. That's when I finally stopped translating in my head.",
+    "You will hear a boy talking about something that surprised him. Boy: I expected the lessons to be different, and the food, obviously. What I never imagined was that shops would close so early — at home you can buy things almost at midnight! The first week I nearly missed dinner twice.",
+    "You will hear a girl comparing schools. Girl: My school here starts later in the morning, which I love. But the homework is another story — there's much more of it than at home, and teachers check it every single day. So it's not easier, just different.",
+    "You will hear a man giving advice to students going abroad. Man: Students always ask me which dictionary to buy or which apps to download. Honestly, those things matter less than one simple habit: say yes to every invitation in your first month. Every trip, every party, every game. That's how a foreign city becomes home."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What does the girl say about her host family?",
+     "o": ["They are friendlier than they seemed", "They write long emails", "They are quite formal at home"],
+     "c": 0,
+     "audio": "P16/B1/B1-P2-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the boy miss most?",
+     "o": ["His parents", "Food from home", "His friends"],
+     "c": 1,
+     "audio": "P16/B1/B1-P2-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What helped the woman most with the language?",
+     "o": ["Her morning classes", "Joining a sports club", "Translating carefully"],
+     "c": 1,
+     "audio": "P16/B1/B1-P2-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What surprised the boy most?",
+     "o": ["The different lessons", "The unusual food", "The early closing times"],
+     "c": 2,
+     "audio": "P16/B1/B1-P2-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the girl say about her new school?",
+     "o": ["It gives more homework", "It starts earlier", "It is easier than her old school"],
+     "c": 0,
+     "audio": "P16/B1/B1-P2-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the man's main advice?",
+     "o": ["Buy a good dictionary", "Download useful apps", "Accept every invitation at first"],
+     "c": 2,
+     "audio": "P16/B1/B1-P2-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P3",
+   "title": "Part 3 · Questions 14–19",
+   "kind": "file",
+   "file": "P16/B1/B1-P3.mp3",
+   "intro": "You will hear a woman giving information to a group of exchange students. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Woman: Welcome, everyone, to your exchange programme. Let me quickly explain this week's arrangements. Your orientation meeting is on Wednesday — please don't miss it, because you'll receive your student cards there. The meeting is not at the school itself; it takes place in the town hall, opposite the train station. We start at ten o'clock sharp, and there'll be coffee and snacks afterwards. There are twenty-five students in this year's group, from eight different countries, so you'll make friends quickly. On Saturday we've organised a trip to the mountains, which costs fifteen pounds, including lunch — bring that money on Wednesday, please. And one essential thing for the meeting itself: bring your passport, because we need it to complete your registration. See you on Wednesday!"
+   ],
+   "gapTitle": "Exchange Programme — First Week",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Orientation meeting day: ____",
+     "accept": ["wednesday"]
+    },
+    {
+     "type": "gap",
+     "label": "Place: the town ____",
+     "accept": ["hall"]
+    },
+    {
+     "type": "gap",
+     "label": "Starts at: ____ o'clock",
+     "accept": ["10", "ten"]
+    },
+    {
+     "type": "gap",
+     "label": "Number of students in the group: ____",
+     "accept": ["25", "twenty-five", "twenty five"]
+    },
+    {
+     "type": "gap",
+     "label": "Saturday trip costs: £ ____",
+     "accept": ["15", "fifteen"]
+    },
+    {
+     "type": "gap",
+     "label": "Bring to the meeting: your ____",
+     "accept": ["passport"]
+    }
+   ]
+  },
+  {
+   "id": "B1-P4",
+   "title": "Part 4 · Questions 20–25",
+   "kind": "file",
+   "file": "P16/B1/B1-P4.mp3",
+   "intro": "You will hear an interview with a girl called Elena, who spent six months studying abroad. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Interviewer: My guest today is Elena, who has just come back from six months studying abroad. Elena, why did you decide to go? Elena: Most people go to improve the language, and of course I wanted that too. But my real reason was different — I'd lived in the same small town all my life, and I wanted to find out who I was somewhere nobody knew me. Interviewer: What was the hardest moment? Elena: Everyone expects me to say the first week, but that was actually exciting. The difficult time came after about two months, when the novelty disappeared and everyday problems began — bank letters, bus strikes, a broken washing machine. That's when I nearly gave up. Interviewer: But you didn't. What kept you there? Elena: My classmates, definitely. When I told them I was thinking of going home, they organised a weekend trip to the coast to cheer me up. After that, I never thought about leaving again. Interviewer: How was the school itself? Elena: The teachers were excellent, though the style took some getting used to. At home the teacher explains and we write. There, you're expected to argue and disagree — politely, of course. At first I found that shocking, later I loved it. Interviewer: What do you miss now that you're back? Elena: Funny you ask — not the famous sights at all. I miss my Tuesday evenings at the little cinema club, watching old films with the same ten people. Interviewer: Would you recommend studying abroad? Elena: Yes, but not to copy anyone else's experience. Go and make your own mistakes — they teach you more than the classes do."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why did Elena mainly want to study abroad?",
+     "o": ["To improve the language", "To discover herself in a new place", "To leave her school"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "When was the most difficult time for Elena?",
+     "o": ["During the first week", "After about two months", "At the very end of her stay"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What made Elena decide to stay?",
+     "o": ["A trip organised by her classmates", "A phone call from her family", "A holiday on her own"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What surprised Elena about the lessons?",
+     "o": ["Students were expected to disagree", "The teachers explained everything", "There was a lot of writing"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Elena miss most now?",
+     "o": ["The famous sights", "The film club evenings", "Her host family's cooking"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Elena's advice to other students?",
+     "o": ["Copy what worked for others", "Avoid making mistakes", "Learn from your own experiences"],
+     "c": 2
+    }
+   ]
+  }
+ ]
+}

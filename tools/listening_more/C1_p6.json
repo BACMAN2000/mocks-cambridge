@@ -1,0 +1,422 @@
+{
+ "label": "C1 — Advanced",
+ "cefr": "Cambridge Advanced (CAE) · C1 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+ "audios": [
+  {
+   "id": "C1-P1",
+   "title": "Part 1 · Questions 1–6",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in three different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A museum clock",
+    "A wristwatch",
+    "A sundial",
+    "A history lecture",
+    "A railway timetable",
+    "A repair job"
+   ],
+   "scripts": [
+    "Question one. Woman: Did you see the great astronomical clock in the town hall? Man: I queued for ages to see it strike the hour. Honestly, the little moving figures were a letdown, rather crude up close. But the mechanism behind the glass, all those interlocking wheels turning at once, that was mesmerising. I could have watched it for an hour.",
+    "Question two. Man: Are you actually going to wear that mechanical watch instead of your phone? Woman: I know it loses a couple of minutes a week, so it's hardly practical. But that's rather the point for me. Winding it each morning makes me feel connected to the thing, in a way a perfectly accurate screen never does. Man: Ritual over precision, then.",
+    "Question three. Woman: Your garden sundial's beautiful, but does it actually tell the time? Man: Roughly. People expect it to match their watch to the minute, and of course it can't, because clock time and sun time drift apart across the year. Once you accept it shows solar time, not railway time, you stop being disappointed and start being fascinated.",
+    "Question four. Man: What did you make of the lecture on medieval timekeeping? Woman: I went in expecting dry technical detail about gears. What I got instead was really a social history, how the mechanical clock reorganised the working day and handed power to whoever controlled the bell. The technology was almost a side note. That reframing has stuck with me.",
+    "Question five. Woman: I never realised the railways changed the clocks. Man: Nor did I until recently. Before the trains, every town kept its own local time, minutes apart. It was the need for a single timetable that forced the whole country onto one standard hour. Convenience for travellers, yes, but really it was the railway companies imposing order.",
+    "Question six. Man: How's the antique carriage clock coming along? Woman: Slowly. The cleaning was straightforward, but one tiny wheel was worn beyond use and there's simply no replacement to buy. So I'm having to cut a new one by hand from brass. That single part will take me longer than the entire rest of the restoration."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What did the man find most impressive about the clock?",
+     "o": [
+      "The moving figures",
+      "The visible mechanism of turning wheels",
+      "The sound of it striking"
+     ],
+     "c": 1,
+     "audio": "P6/C1/C1-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why does the woman prefer her mechanical watch?",
+     "o": [
+      "It keeps better time than a phone",
+      "The daily ritual makes her feel connected to it",
+      "It was inexpensive"
+     ],
+     "c": 1,
+     "audio": "P6/C1/C1-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the man say about his sundial?",
+     "o": [
+      "It shows solar time, not clock time",
+      "It is completely inaccurate",
+      "It matches a watch exactly"
+     ],
+     "c": 0,
+     "audio": "P6/C1/C1-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What surprised the woman about the lecture?",
+     "o": [
+      "It was mostly technical detail",
+      "It focused on the clock's social impact",
+      "It ignored the Middle Ages"
+     ],
+     "c": 1,
+     "audio": "P6/C1/C1-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "According to the man, what forced towns onto a single standard time?",
+     "o": [
+      "The invention of the wristwatch",
+      "The needs of the railway timetable",
+      "A government decree about farming"
+     ],
+     "c": 1,
+     "audio": "P6/C1/C1-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why is the clock repair taking so long?",
+     "o": [
+      "A worn part must be made by hand",
+      "The cleaning is very difficult",
+      "The owner keeps changing her mind"
+     ],
+     "c": 0,
+     "audio": "P6/C1/C1-P1-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "C1-P2",
+   "title": "Part 2 · Questions 7–14",
+   "kind": "file",
+   "file": "P6/C1/C1-P2.mp3",
+   "intro": "You will hear a horologist called Helena giving a talk about the history of timekeeping. For each question, complete the sentences with a word or short phrase.",
+   "scripts": [
+    "Hello, I'm Helena, and I study the long, surprisingly turbulent history of how humans have measured time. We tend to assume that time is simply out there to be read, but in fact almost everything about the way we tell it was invented, contested and imposed. Consider the day itself. For most of history, an hour was not a fixed length at all. The Romans divided daylight into twelve parts, which meant an hour in summer was considerably longer than an hour in winter. The idea of the equal hour, identical whatever the season, only triumphed with the spread of the mechanical clock. And that clock, when it arrived in medieval Europe, was driven not by farmers or merchants but by monasteries, whose need to summon the community to prayer at fixed points created the demand. For centuries the great limitation of any clock was the pendulum's cousin, the escapement, but the real breakthrough came when a Dutch scientist applied the pendulum to timekeeping, transforming accuracy overnight. Even so, one problem defeated the best minds of Europe for generations, and that was finding longitude at sea. A pendulum is useless on a rolling ship, and a ship that cannot fix its position east or west is a ship in danger. The prize was eventually claimed not by an astronomer but by a self-taught carpenter, John Harrison, who built a clock robust enough to keep near-perfect time on a heaving deck. His marine chronometer arguably saved more lives than any medicine of its age. Now, the standardisation of time within a single country came astonishingly late, and the driving force, as many are surprised to learn, was the railway. A timetable is meaningless if every town keeps its own local noon, so the companies imposed one uniform time across the network. The final leap was global. Delegates met in Washington in the eighteen-eighties and agreed to carve the world into time zones measured from a single meridian, the one running through Greenwich. And the story is not over. Today the second itself is no longer defined by the heavens at all but by the vibrations of a caesium atom, which is why we occasionally have to insert a so-called leap second to keep our flawless atomic clocks in step with the slightly irregular spin of the Earth. Time, it turns out, is one of humanity's most enduring negotiations with nature."
+   ],
+   "gapTitle": "The History of Timekeeping",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "For the Romans, an hour in summer was longer than one in ____",
+     "accept": [
+      "winter"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The demand for the early mechanical clock came chiefly from ____",
+     "accept": [
+      "monasteries",
+      "monks",
+      "the church"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Accuracy was transformed when a Dutch scientist applied the ____ to timekeeping",
+     "accept": [
+      "pendulum"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The problem that defeated Europe for generations was finding ____ at sea",
+     "accept": [
+      "longitude"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The longitude prize was won by a self-taught ____ named John Harrison",
+     "accept": [
+      "carpenter"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Standard time within a country was driven mainly by the ____",
+     "accept": [
+      "railway",
+      "railways",
+      "railroad"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Global time zones were measured from the meridian running through ____",
+     "accept": [
+      "greenwich"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Today the second is defined by the vibrations of a ____ atom",
+     "accept": [
+      "caesium",
+      "cesium"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1-P3",
+   "title": "Part 3 · Questions 15–20",
+   "kind": "file",
+   "file": "P6/C1/C1-P3.mp3",
+   "intro": "You will hear an interview with a clock restorer and historian called Marcus. For each question, choose the best answer (A, B, C or D).",
+   "scripts": [
+    "Interviewer: Marcus, you restore antique clocks. Is your job mainly about accuracy? Marcus: People assume so, but no. A collector rarely wants the clock to keep perfect time. What they want is for it to be honest to its own era, to work exactly as its maker intended, flaws and all. If I secretly modernised the mechanism to gain accuracy, I'd be betraying the object. Interviewer: Do you ever refuse to replace a broken part? Marcus: Constantly, and it's the hardest judgement I make. There's a temptation to swap in a shiny new component that works better, but every original part you remove erases a little of the clock's history. My rule is to intervene as little as the clock will tolerate. Interviewer: You've said modern life has a strange relationship with time. What do you mean? Marcus: We're simultaneously obsessed with time and blind to it. We carry devices accurate to the millionth of a second, yet we feel more harried than any previous generation. The precision hasn't bought us calm, quite the reverse. Interviewer: Is that the fault of the technology? Marcus: I resist blaming the tools. A clock only ever reflects the values of the society that builds it. The medieval bell disciplined the monks who wanted to be disciplined. Our restless devices reflect our own restlessness; they didn't create it. Interviewer: What first drew you to old clocks? Marcus: Oddly, it was the sound. As a boy I stayed with my grandmother, whose house was full of ticking, and I found it deeply reassuring. It wasn't the engineering that hooked me, it was that companionable heartbeat in a quiet room. Interviewer: And what worries you about the trade's future? Marcus: The skills, frankly. Fewer and fewer people can cut a wheel by hand or read an old mechanism. If we lose those craftspeople, the objects survive but become mute, because nobody will be left who can make them speak again. Interviewer: Marcus, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What do collectors most want from a restored clock, according to Marcus?",
+     "o": [
+      "Perfect modern accuracy",
+      "Faithfulness to how it originally worked",
+      "A completely new mechanism",
+      "The highest possible resale value"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why is Marcus reluctant to replace broken parts?",
+     "o": [
+      "New parts are too expensive",
+      "Removing originals erases the clock's history",
+      "He lacks the necessary skill",
+      "Owners rarely notice the difference"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What paradox about modern life does Marcus point out?",
+     "o": [
+      "We ignore time completely",
+      "Great precision has not made us feel calmer",
+      "Clocks are less accurate than before",
+      "Nobody wears watches any more"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Marcus believe a clock reflects?",
+     "o": [
+      "The wealth of its owner",
+      "The values of the society that made it",
+      "The climate of its region",
+      "The skill of its restorer"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What first attracted Marcus to clocks as a boy?",
+     "o": [
+      "Their intricate engineering",
+      "Their financial value",
+      "The reassuring sound of ticking",
+      "A school project"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What most worries Marcus about the future?",
+     "o": [
+      "The loss of hand-craft skills",
+      "A shortage of antique clocks",
+      "Falling prices at auction",
+      "Competition from machines"
+     ],
+     "c": 0
+    }
+   ]
+  },
+  {
+   "id": "C1-P4",
+   "title": "Part 4 · Questions 21–30",
+   "kind": "file",
+   "file": "P6/C1/C1-P4.mp3",
+   "intro": "You will hear five people talking about their fascination with clocks and timekeeping. TASK ONE (21–25): choose what first sparked each speaker's interest. TASK TWO (26–30): choose what each speaker finds most remarkable about the history of time.",
+   "scripts": [
+    "Speaker one. Woman: I came to all this through sailing, of all things, navigating by the stars on a small boat and realising with a jolt how helpless you are without an accurate clock. That practical scare hooked me. And what still astonishes me is that the longitude puzzle, which baffled the finest astronomers for a century, was finally cracked by a village carpenter with no formal training whatsoever. Speaker two. Man: Honestly it began with a broken watch my father left me, and the urge to understand what made it tick. Taking it apart was my gateway. What I find most extraordinary, looking back, is that for most of human history an hour had no fixed length at all, that summer hours and winter hours were simply different sizes. It overturns everything you assume. Speaker three. Woman: For me it was a university module on the medieval church that did it, unexpectedly. I'd signed up for the art and stumbled on the clocks. The thing that never ceases to amaze me is how a single town could suddenly be forced to abandon its own local noon, that the railways rewrote something as intimate as what o'clock it was. Speaker four. Man: My interest was pure childhood wonder at a garden sundial, watching the shadow creep and wondering how it knew. That mystery stayed with me for life. What strikes me most now is that our modern second isn't drawn from the sun or stars at all, but from an atom vibrating, and that we even have to bolt on an extra second now and then to keep our clocks honest with the Earth. Speaker five. Woman: I fell into it through my grandmother's collection, a whole room of ticking that I inherited and had to learn to care for. Duty became love. And the fact that dazzles me still is that the equal, unchanging hour we all take for granted only won out because monasteries needed to call the faithful to prayer at fixed moments. Faith, not science, gave us the modern hour."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what first sparked the speaker's interest",
+     "person": "Speaker 1",
+     "bank": [
+      "an experience of sailing and navigation",
+      "inheriting and dismantling a watch",
+      "a university course on the church",
+      "childhood wonder at a sundial",
+      "inheriting a relative's collection",
+      "a museum exhibition",
+      "a career as an engineer",
+      "a television programme"
+     ],
+     "c": "an experience of sailing and navigation"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what first sparked the speaker's interest",
+     "person": "Speaker 2",
+     "bank": [
+      "an experience of sailing and navigation",
+      "inheriting and dismantling a watch",
+      "a university course on the church",
+      "childhood wonder at a sundial",
+      "inheriting a relative's collection",
+      "a museum exhibition",
+      "a career as an engineer",
+      "a television programme"
+     ],
+     "c": "inheriting and dismantling a watch"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what first sparked the speaker's interest",
+     "person": "Speaker 3",
+     "bank": [
+      "an experience of sailing and navigation",
+      "inheriting and dismantling a watch",
+      "a university course on the church",
+      "childhood wonder at a sundial",
+      "inheriting a relative's collection",
+      "a museum exhibition",
+      "a career as an engineer",
+      "a television programme"
+     ],
+     "c": "a university course on the church"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what first sparked the speaker's interest",
+     "person": "Speaker 4",
+     "bank": [
+      "an experience of sailing and navigation",
+      "inheriting and dismantling a watch",
+      "a university course on the church",
+      "childhood wonder at a sundial",
+      "inheriting a relative's collection",
+      "a museum exhibition",
+      "a career as an engineer",
+      "a television programme"
+     ],
+     "c": "childhood wonder at a sundial"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what first sparked the speaker's interest",
+     "person": "Speaker 5",
+     "bank": [
+      "an experience of sailing and navigation",
+      "inheriting and dismantling a watch",
+      "a university course on the church",
+      "childhood wonder at a sundial",
+      "inheriting a relative's collection",
+      "a museum exhibition",
+      "a career as an engineer",
+      "a television programme"
+     ],
+     "c": "inheriting a relative's collection"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker finds most remarkable about the history of time",
+     "person": "Speaker 1",
+     "bank": [
+      "an untrained carpenter solved the longitude problem",
+      "the hour once had no fixed length",
+      "railways abolished local time",
+      "the second now comes from a vibrating atom",
+      "monasteries gave us the equal hour",
+      "sundials predate all other clocks",
+      "time zones cross entire oceans",
+      "clocks were once luxury objects"
+     ],
+     "c": "an untrained carpenter solved the longitude problem"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker finds most remarkable about the history of time",
+     "person": "Speaker 2",
+     "bank": [
+      "an untrained carpenter solved the longitude problem",
+      "the hour once had no fixed length",
+      "railways abolished local time",
+      "the second now comes from a vibrating atom",
+      "monasteries gave us the equal hour",
+      "sundials predate all other clocks",
+      "time zones cross entire oceans",
+      "clocks were once luxury objects"
+     ],
+     "c": "the hour once had no fixed length"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker finds most remarkable about the history of time",
+     "person": "Speaker 3",
+     "bank": [
+      "an untrained carpenter solved the longitude problem",
+      "the hour once had no fixed length",
+      "railways abolished local time",
+      "the second now comes from a vibrating atom",
+      "monasteries gave us the equal hour",
+      "sundials predate all other clocks",
+      "time zones cross entire oceans",
+      "clocks were once luxury objects"
+     ],
+     "c": "railways abolished local time"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker finds most remarkable about the history of time",
+     "person": "Speaker 4",
+     "bank": [
+      "an untrained carpenter solved the longitude problem",
+      "the hour once had no fixed length",
+      "railways abolished local time",
+      "the second now comes from a vibrating atom",
+      "monasteries gave us the equal hour",
+      "sundials predate all other clocks",
+      "time zones cross entire oceans",
+      "clocks were once luxury objects"
+     ],
+     "c": "the second now comes from a vibrating atom"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker finds most remarkable about the history of time",
+     "person": "Speaker 5",
+     "bank": [
+      "an untrained carpenter solved the longitude problem",
+      "the hour once had no fixed length",
+      "railways abolished local time",
+      "the second now comes from a vibrating atom",
+      "monasteries gave us the equal hour",
+      "sundials predate all other clocks",
+      "time zones cross entire oceans",
+      "clocks were once luxury objects"
+     ],
+     "c": "monasteries gave us the equal hour"
+    }
+   ]
+  }
+ ]
+}

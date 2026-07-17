@@ -1,0 +1,181 @@
+{
+  "title": "B1 Preliminary — Reading (MOCK 5)",
+  "note": "All six parts are auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Hillcrest College — Student Design Competition",
+          "text": "DESIGN A POSTER ADVERTISING THE SUMMER CONCERT.\nENTRIES MUST BE HANDED IN TO THE ART OFFICE BY FRIDAY 12 MAY.\nTHE WINNING DESIGN WILL BE PRINTED AND DISPLAYED ACROSS TOWN.",
+          "stem": "What must students do to enter the competition?",
+          "options": ["Display their poster around the town themselves.", "Take their design to the art office before the deadline.", "Print several copies of their poster before entering."],
+          "answer": 1
+        },
+        {
+          "kind": "message",
+          "header": "Text from Ana to Dario",
+          "text": "Dario — I saw an advert for that new pizza place saying students eat half-price on Tuesdays if they show their college card. Shall we try it tonight instead of cooking? I can book a table for 7 if you're free.",
+          "stem": "What is Ana suggesting?",
+          "options": ["cooking pizza together at home tonight", "getting new college cards before Tuesday", "having an inexpensive meal out this evening"],
+          "answer": 2
+        },
+        {
+          "kind": "email",
+          "from": "TrailRunner Magazine",
+          "to": "Subscribers",
+          "subject": "Your subscription",
+          "body": "Our records show that your subscription ends next month. Renew before the 30th and you will pay this year's price rather than the new, higher one. Renewing takes two minutes on our website — you won't need to enter your details again.",
+          "stem": "Why has the magazine written to the reader?",
+          "options": ["To encourage them to renew before the price goes up.", "To explain why the magazine has become more expensive.", "To ask them to update their personal details online."],
+          "answer": 0
+        },
+        {
+          "kind": "sign",
+          "header": "Fenwick's Department Store",
+          "text": "CLOSING-DOWN SALE — EVERYTHING HALF PRICE.\nALL SALES FINAL: GOODS CANNOT BE RETURNED OR EXCHANGED.\nLAST DAY SATURDAY.",
+          "stem": "What does the sign tell customers?",
+          "options": ["The shop will exchange sale items until Saturday.", "Items bought in the sale cannot be brought back.", "Prices will be reduced even further on the last day."],
+          "answer": 1
+        },
+        {
+          "kind": "note",
+          "header": "From Dad",
+          "text": "Keira — a man phoned about the bike you advertised online. He offered £60 instead of £80, but he can collect it tonight and pay cash. I said you'd ring him back before 6 — his number's on the pad by the kettle.",
+          "stem": "What does Keira need to do?",
+          "options": ["Deliver the bike to the buyer this evening.", "Put a new advertisement online for the bike.", "Phone the man before six o'clock."],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "The five people below all run small businesses and want to advertise. Read the descriptions of eight advertising services (A–H) and decide which would be most suitable for each person. There are three services you do not need to use.",
+      "sources": [
+        {
+          "label": "6",
+          "name": "Lucia",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/33.jpg\" alt=\"Lucia\" loading=\"lazy\">",
+          "text": "Lucia's little bakery is loved by everyone who finds it, but many people in town still don't know it exists. She has a small budget, is hopeless with computers, and would like someone to create the advertisement for her."
+        },
+        {
+          "label": "7",
+          "name": "Tomas",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/76.jpg\" alt=\"Tomas\" loading=\"lazy\">",
+          "text": "Tomas sells skateboards and streetwear to teenagers. He knows his customers spend hours on their phones, but the shop keeps him too busy to post photos or answer comments himself. He wants someone to do that for him."
+        },
+        {
+          "label": "8",
+          "name": "Nadia",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/17.jpg\" alt=\"Nadia\" loading=\"lazy\">",
+          "text": "Nadia's escape-room business is fun, but all her competitors advertise in the same boring, serious way. She wants something entertaining that people will laugh at and share with their friends on the internet."
+        },
+        {
+          "label": "9",
+          "name": "Robert",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/50.jpg\" alt=\"Robert\" loading=\"lazy\">",
+          "text": "Robert makes garden furniture, and his customers drive to his workshop from all over the region. He wants his name to be seen by as many drivers as possible, and he prefers a simple price that stays the same every month."
+        },
+        {
+          "label": "10",
+          "name": "Amara",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/72.jpg\" alt=\"Amara\" loading=\"lazy\">",
+          "text": "Amara's new cleaning company only serves three neighbourhoods on the east side of the city. She doesn't want to pay to reach the whole city — just the streets where her possible customers actually live."
+        }
+      ],
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Prime Time Productions: We create professional television commercials and book them into evening programmes seen across the country. A powerful choice for companies with a large advertising budget.",
+          "Social Star Agency: We take over your social media pages completely — posting daily photos, running competitions and replying to every comment — so you can reach young customers without ever touching a computer.",
+          "The Billboard Company: Rent poster space beside the region's busiest roads and be seen by thousands of drivers every day. One simple fixed price per month, with no extra costs.",
+          "WebWizards: We build complete online shops with worldwide payment and delivery tools, perfect for businesses that want to sell their products to customers in other countries.",
+          "Town Crier Weekly: Advertise in our free local newspaper, delivered to every home in town. Prices start low, and placing an advert couldn't be easier — just phone us and our team will design it for you at no extra cost.",
+          "Festival Connect: Sponsorship packages that put your company's name on stages, posters and tickets at major music festivals attended by visitors from all over the country.",
+          "Video Van: We film short, funny videos about your business and help you spread them online. Perfect for companies that want to stand out from serious competitors and get people talking.",
+          "Direct Mail Design: We create colourful leaflets and deliver them by hand to the exact streets you choose, so your offer lands only in the neighbourhoods where your customers live."
+        ]
+      },
+      "questions": [
+        {"stem": "Lucia", "answer": "E"},
+        {"stem": "Tomas", "answer": "B"},
+        {"stem": "Nadia", "answer": "G"},
+        {"stem": "Robert", "answer": "C"},
+        {"stem": "Amara", "answer": "H"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the article about a man who wrote music for advertisements and choose the best answer A, B, C or D.",
+      "passage": "The tune you can't forget\n\nIf you grew up in the 1990s, there is a good chance that Martin Hale's songs are still in your head — though you have almost certainly never heard his name. For twenty years, Martin wrote jingles: the short, cheerful tunes used in radio and television advertisements for everything from toothpaste to car insurance.\n\nIt was never the plan. Martin trained as a classical musician and dreamed of concert halls. Then, one weekend, he wrote a tune for a friend's furniture shop simply to help him out. The advertisement ran on local radio, sales jumped, and within a month three other companies had rung asking for something similar. \"I told myself it was temporary,\" he says. \"Twenty years later, I was still being temporary.\"\n\nPeople assume that writing a twenty-second tune must be easy for a trained musician. Martin insists the opposite is true. \"A symphony gives you an hour to say something. A jingle gives you the time between two breaths. Everything unnecessary has to go, and what's left must stick in a listener's memory after one hearing. I worked harder on some jingles than on anything I wrote at college.\"\n\nNot everyone approved. His old professors considered advertising a waste of his training, and at parties he sometimes avoided saying what he did. What truly bothered him, though, was something else. \"Millions of people could sing my tunes, but not one of them knew my name. I used to tell myself it didn't matter. It did, a little.\"\n\nToday, jingles have almost disappeared; companies prefer to buy famous pop songs for their advertisements instead. Martin thinks something real has been lost. \"A jingle was written for you, about your product — it created a memory. Renting a song that's already famous just borrows someone else's memory. It's effective, I suppose, but it isn't craft.\" And craft, he believes, deserves respect wherever it appears. \"There's no such thing as small music,\" he says. \"Only small ideas about it.\"",
+      "questions": [
+        {"stem": "How did Martin start writing jingles?", "options": ["He answered an advertisement for a songwriter.", "He gave up hope of a career in classical music.", "A radio station invited him to write a tune.", "He did a favour for someone he knew."], "answer": 3},
+        {"stem": "What does Martin say about writing jingles?", "options": ["Producing something so short was surprisingly hard work.", "It needed no real musical training.", "It was easier than the music he wrote at college.", "He often needed several weeks to finish one tune."], "answer": 0},
+        {"stem": "How did Martin feel about his work at the time?", "options": ["proud that everyone knew who he was", "embarrassed that his professors praised him so much", "sorry that the public did not know his name", "certain that he had chosen the wrong career"], "answer": 2},
+        {"stem": "What is Martin's opinion of the music in modern advertising?", "options": ["Famous songs make advertisements more original.", "Something valuable has been lost now that jingles are rare.", "Modern advertisements would be better with no music.", "Pop songs are too expensive for most companies to use."], "answer": 1},
+        {"stem": "What would Martin most like readers to understand?", "options": ["Advertising ruined his life as a musician.", "Classical training is essential for writing jingles.", "Radio advertising works better than television advertising.", "Even 'small' music can deserve respect."], "answer": 3}
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 4",
+      "instructions": "Read the article about the history of advertising. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+      "passage": "Before the internet: how shops found their customers\n\nToday, advertisements follow us around the internet, but attracting customers is far from a new idea. In ancient markets, traders simply shouted about their goods, and the seller with the loudest voice often did the best business. (16)____ Signs like these were necessary because most people at the time could not read.\n\nBy the nineteenth century, city streets were crowded with printed posters. Companies competed for every wall, and workers were sent out at night to paste their advertisements over those of their rivals. (17)____ One popular trick was to hire men to walk the streets wearing large boards, so that the advertisement itself could move through the town and go wherever the crowds went.\n\nThe arrival of radio in the twentieth century changed everything. For the first time, an advertisement could enter every home in the country at the same moment. (18)____ Families began repeating them without even meaning to, and some of those little tunes were still remembered fifty years later.\n\nNot everyone welcomed the growing industry. Some writers complained that advertising pushed people to buy things they neither needed nor could afford. (19)____ Governments gradually agreed that limits were needed, and laws were introduced to stop companies making claims that were simply untrue.\n\nLooking back, it is tempting to laugh at the painted signs and walking boards of the past. (20)____ The methods change with every new invention, but the aim — to catch our attention before a rival does — has stayed exactly the same.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Advertisers soon discovered that a short song was remembered far longer than any spoken message.",
+          "Shopkeepers who preferred a quieter method hung painted pictures of their goods above their doors instead.",
+          "Television advertising remained more expensive than every other kind.",
+          "Yet in one important way, advertising has hardly changed at all.",
+          "Others looked for ways to make their advertisements stand out without fighting for wall space.",
+          "Most of these early radio programmes have unfortunately been lost.",
+          "It was especially unfair, they argued, to aim advertisements at children too young to understand them.",
+          "Modern posters are usually designed on computers in a matter of minutes."
+        ]
+      },
+      "questions": [
+        {"stem": "Gap 16", "answer": "B"},
+        {"stem": "Gap 17", "answer": "E"},
+        {"stem": "Gap 18", "answer": "A"},
+        {"stem": "Gap 19", "answer": "G"},
+        {"stem": "Gap 20", "answer": "D"}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 5",
+      "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+      "title": "The tricks of the supermarket",
+      "body": "Have you ever gone into a supermarket for bread and milk and come out with a full bag of shopping? If so, you are not alone — and it is probably not an (21)____. Supermarkets are carefully designed to (22)____ customers to spend more than they intended. Bread is often baked near the entrance, (23)____ the smell of fresh baking makes shoppers feel relaxed and hungry. Basic products are usually placed at the back of the store, so that shoppers have to walk (24)____ many tempting shelves to reach them. Prices ending in 99 are another well-known (25)____ of persuading us that something costs less than it really does. Once you know these tricks, you may find it easier to leave the store with (26)____ what you came for — and nothing more.",
+      "questions": [
+        {"options": ["error", "accident", "event", "effect"], "answer": 1},
+        {"options": ["make", "let", "insist", "encourage"], "answer": 3},
+        {"options": ["since", "therefore", "however", "despite"], "answer": 0},
+        {"options": ["through", "across", "past", "over"], "answer": 2},
+        {"options": ["manner", "way", "style", "route"], "answer": 1},
+        {"options": ["justly", "properly", "rightly", "exactly"], "answer": 3}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 6",
+      "instructions": "For each gap (27–32), write ONE word.",
+      "title": "Email about a poster",
+      "body": "Hi Ben,\n\nThe drama club has asked me to make a poster to advertise (27)____ end-of-year show, and I'd love your help.\n\nYou're much better (28)____ drawing than I am, and everyone loved the design you did last year. I've already written the words, so all we need (29)____ do is add the pictures.\n\nCould we meet on Thursday after class? It shouldn't take longer (30)____ an hour. If the poster is ready by Friday, we can put copies up around school before the weekend, (31)____ means far more people will see them.\n\nLet me know if Thursday suits you — and thanks (32)____ advance!\n\nSam",
+      "questions": [
+        {"accept": ["the", "our", "their", "its"]},
+        {"accept": ["at"]},
+        {"accept": ["to"]},
+        {"accept": ["than"]},
+        {"accept": ["which"]},
+        {"accept": ["in"]}
+      ]
+    }
+  ]
+}

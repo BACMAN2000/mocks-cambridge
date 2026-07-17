@@ -1,0 +1,189 @@
+{
+  "title": "B2 First — Reading and Use of English (Practice 15)",
+  "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "When a language falls silent",
+      "body": "Of the roughly seven thousand languages spoken in the world today, nearly half are (1)____ danger of disappearing within a century. A language dies when parents stop (2)____ it on to their children, and this rarely happens by free choice. In most cases, the decision is made under economic (3)____: families conclude, often with regret, that a bigger language offers their children a better future. When the last elderly speaker eventually dies, an entire way of seeing the world dies (4)____ them. Songs, jokes, place names and centuries of local knowledge about plants, weather and the sea are lost, often without ever having been written (5)____. Yet the trend, though powerful, is not impossible to (6)____. Welsh and Hawaiian have both been brought (7)____ from the edge of extinction by determined communities that built schools, radio stations and, more recently, apps in their own tongues. Their success (8)____ as a reminder that decline, however steep, is not the same thing as destiny.",
+      "questions": [
+        { "options": ["in", "at", "on", "under"], "answer": 0 },
+        { "options": ["giving", "carrying", "sending", "passing"], "answer": 3 },
+        { "options": ["force", "pressure", "strength", "weight"], "answer": 1 },
+        { "options": ["beside", "along", "with", "by"], "answer": 2 },
+        { "options": ["up", "down", "off", "away"], "answer": 1 },
+        { "options": ["return", "recover", "repair", "reverse"], "answer": 3 },
+        { "options": ["back", "over", "round", "through"], "answer": 0 },
+        { "options": ["counts", "results", "serves", "operates"], "answer": 2 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "Recording the last voices",
+      "body": "It is often claimed that a language dies roughly every two weeks, and although the true figure is impossible to pin (9)____, the general picture is not in doubt. Faced with this, linguists are hurrying to record endangered tongues (10)____ there is still time. Documenting a language involves far more than the compilation (11)____ word lists. Grammar, songs, jokes and stories must all be captured, for it is in these (12)____ a language truly lives. The work can also be delicate. Some communities are proud to share their speech; others, remembering years of punishment at school for using it, must first be convinced that attitudes have genuinely changed. In one famous case, two elderly sisters were thought to be the last speakers of their language, but they had quarrelled years (13)____ and refused to speak to each other at all. Recordings matter because they allow a sleeping language to be woken (14)____ by future generations, (15)____ has already happened in a handful of celebrated cases. A language, after (16)____, is never entirely dead while a single recording of it survives.",
+      "questions": [
+        { "accept": ["down"] },
+        { "accept": ["while"] },
+        { "accept": ["of"] },
+        { "accept": ["that"] },
+        { "accept": ["before", "earlier", "previously"] },
+        { "accept": ["up"] },
+        { "accept": ["as", "which"] },
+        { "accept": ["all"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Bringing a language back",
+      "rows": [
+        { "text": "The (17)____ of a language is not always final,", "root": "APPEAR" },
+        { "text": "as the story of Welsh demonstrates." },
+        { "text": "" },
+        { "text": "A century ago, many parents saw the language as" },
+        { "text": "an obstacle to their children's (18)____ success.", "root": "ECONOMY" },
+        { "text": "" },
+        { "text": "Its use in schools was actively (19)____, and", "root": "COURAGE" },
+        { "text": "pupils were sometimes punished for speaking it." },
+        { "text": "" },
+        { "text": "By the 1960s, campaigners feared its total" },
+        { "text": "(20)____ within a couple of generations.", "root": "EXTINCT" },
+        { "text": "" },
+        { "text": "Their response was a (21)____ campaign for", "root": "DETERMINE" },
+        { "text": "Welsh schools, television and road signs." },
+        { "text": "" },
+        { "text": "Slowly, public attitudes underwent a remarkable" },
+        { "text": "(22)____, and speaker numbers began to climb.", "root": "TRANSFORM" },
+        { "text": "" },
+        { "text": "Today the language enjoys official status and" },
+        { "text": "growing (23)____ among the young.", "root": "CONFIDENT" },
+        { "text": "" },
+        { "text": "Its revival is a source of (24)____ for", "root": "INSPIRE" },
+        { "text": "threatened languages everywhere." }
+      ],
+      "questions": [
+        { "root": "APPEAR", "accept": ["disappearance"] },
+        { "root": "ECONOMY", "accept": ["economic"] },
+        { "root": "COURAGE", "accept": ["discouraged"] },
+        { "root": "EXTINCT", "accept": ["extinction"] },
+        { "root": "DETERMINE", "accept": ["determined"] },
+        { "root": "TRANSFORM", "accept": ["transformation"] },
+        { "root": "CONFIDENT", "accept": ["confidence"] },
+        { "root": "INSPIRE", "accept": ["inspiration"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+      "questions": [
+        {
+          "before": "\"Why don't we record grandmother's stories?\" said Ana.",
+          "keyword": "SUGGESTED",
+          "after": "Ana ___ grandmother's stories.",
+          "accept": ["suggested recording", "suggested that they record", "suggested they record"]
+        },
+        {
+          "before": "Only a few elderly people still speak the language.",
+          "keyword": "BY",
+          "after": "The language is now spoken ___ elderly people.",
+          "accept": ["by only a few", "only by a few"]
+        },
+        {
+          "before": "The community stopped using the language fifty years ago.",
+          "keyword": "USED",
+          "after": "The community ___ the language until fifty years ago.",
+          "accept": ["used to use", "used to speak"]
+        },
+        {
+          "before": "It is essential to record the last speakers as soon as possible.",
+          "keyword": "MUST",
+          "after": "The last speakers ___ as soon as possible.",
+          "accept": ["must be recorded"]
+        },
+        {
+          "before": "Although the project was difficult, the team refused to give up.",
+          "keyword": "HOW",
+          "after": "The team refused to give up, no matter ___ was.",
+          "accept": ["how difficult the project"]
+        },
+        {
+          "before": "People believe that the island once had six different languages.",
+          "keyword": "HAVE",
+          "after": "The island is believed to ___ six different languages.",
+          "accept": ["have once had", "have had"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "What dies with a language\n\nWhen people hear that half the world's languages may vanish this century, a common reaction is a shrug. Languages, on this view, are simply tools, and if humanity ends up sharing a few big, convenient ones, communication will be easier and business will run more smoothly. It sounds sensible, and linguists have spent decades explaining why it is wrong — or at least, why it misses almost everything that matters.\n\nThe first thing that dies with a language is knowledge. Small languages are typically spoken by communities that have inhabited one landscape for centuries, and their vocabularies are dense archives of that experience. There are languages with separate terms for dozens of states of sea ice, each carrying survival information; languages whose plant names encode which species are edible, which are medicinal and which will kill. When researchers catalogue the plants known to traditional communities, they repeatedly find species and uses unknown to science, described precisely in languages that may not survive their oldest speakers. Each unwritten dictionary that disappears takes a share of that archive with it.\n\nThe second loss is harder to measure. Languages differ not only in their words but in what they oblige their speakers to notice. In some, you cannot describe an event without indicating how you know about it — whether you saw it yourself, heard it from another, or merely infer it. In others, directions are given not as left and right but as north and south, producing speakers with a compass-like sense of orientation that astonishes visitors. None of this proves that a language imprisons its speakers' thoughts; people can think anything in any tongue. But each language is a distinct experiment in being human, and when one vanishes, an experiment ends, its results unrecorded.\n\nDefenders of consolidation reply that nostalgia should not stand in the way of opportunity, and that parents who switch languages are making a rational choice for their children. The objection deserves respect — it is, after all, the parents' choice to make. Yet it rests on a false either-or. Children are spectacularly good at carrying two or three languages at once, and communities from Wales to New Zealand have shown that a small language can thrive alongside a global one, in schools, on television and online. The real choice is rarely between the village language and prosperity; it is between raising children with one inheritance or two.\n\nThere is also, finally, a matter of simple meaning. Ask the members of a community that has lost its language what the loss feels like, and they rarely talk about vocabulary. They talk about songs that no longer rhyme in translation, grandparents' jokes that no longer land, prayers that feel borrowed. A language, it turns out, is not only a tool. It is the sound a particular history makes when it speaks — and the world will not be richer for having fewer voices.",
+      "questions": [
+        { "stem": "What common attitude does the writer describe at the start?", "options": ["That every language must be preserved at any cost.", "That linguists exaggerate the number of languages.", "That losing languages hardly matters, since fewer languages mean easier communication.", "That business requires thousands of languages."], "answer": 2 },
+        { "stem": "What point does the writer make about the vocabularies of small languages?", "options": ["They are too small to be scientifically interesting.", "They store precise practical knowledge about local nature and survival.", "They mostly consist of borrowed words.", "They have all been carefully written down."], "answer": 1 },
+        { "stem": "Why does the writer mention languages that use north and south instead of left and right?", "options": ["To prove that such languages are impossible to learn.", "To show that translation is always easy.", "To argue that compasses made language unnecessary.", "To illustrate that languages differ in what they train speakers to notice."], "answer": 3 },
+        { "stem": "How does the writer respond to the argument that switching languages is a rational parental choice?", "options": ["By arguing it rests on a false either-or, since children can carry more than one language.", "By denying that parents have any right to choose.", "By claiming children cannot learn global languages.", "By agreeing that small languages must be abandoned."], "answer": 0 },
+        { "stem": "According to the final paragraph, what do communities mourn most after losing a language?", "options": ["The cost of language classes.", "Songs, jokes and prayers that no longer feel their own.", "The difficulty of doing business.", "The loss of official documents."], "answer": 1 },
+        { "stem": "Which statement best captures the writer's overall argument?", "options": ["A single world language would enrich humanity.", "Language loss affects only linguists.", "Small languages survive best in isolation.", "Each language is an irreplaceable inheritance, and the world loses something real with every silenced voice."], "answer": 3 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+      "passage": "Waking a sleeping language\n\nWhen Maria Torres began studying linguistics, she could not speak a word of the language her grandmother had been punished for using at school. (37)____ It was a silence stretching back two generations, and she set out to break it.\n\nThe language had not been spoken fluently since the 1950s, but it was not entirely gone. (38)____ From these dusty materials, she slowly began to rebuild its grammar, word by word and rule by rule.\n\nProgress was painfully slow, and some problems seemed impossible at first. (39)____ Related languages spoken in neighbouring valleys provided clues, and an old wax-cylinder recording, found mislabelled in a museum drawer, provided more.\n\nAfter five years of work, she felt ready to teach, and announced evening classes in a borrowed schoolroom. (40)____ Elderly people who had heard the language in childhood found fragments returning to them mid-lesson, sometimes through tears.\n\nThe milestone she treasures came much later. (41)____ Linguists may argue about the precise moment a language stops being extinct; for Maria, the question was settled in that living room.\n\nSceptics still ask, politely, what the practical point of it all is. (42)____ The words, she says, were never just words; they are the sound of her community's memory, and a people with its memory restored stands differently in the world.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "In her family, as in most others, the language had simply never been passed on.",
+          "A child in the community said her first words in the language — the first new native speaker in seventy years.",
+          "The hardest task was working out how the written words had actually been pronounced.",
+          "Her answer is simple: a community that recovers its language recovers a part of itself.",
+          "Missionaries, it turned out, had left behind dictionaries, letters and even translations of religious texts.",
+          "For this reason, she decided to abandon the project and study medicine instead.",
+          "To her astonishment, forty people arrived for the first evening, some having driven for hours.",
+          "Most linguists agree that pronunciation is the least important part of any language."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing sentence:", "answer": "A" },
+        { "stem": "Choose the missing sentence:", "answer": "E" },
+        { "stem": "Choose the missing sentence:", "answer": "C" },
+        { "stem": "Choose the missing sentence:", "answer": "G" },
+        { "stem": "Choose the missing sentence:", "answer": "B" },
+        { "stem": "Choose the missing sentence:", "answer": "D" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "Read about four people involved with endangered languages. Then answer the questions. The same person may be chosen more than once.",
+      "sources": [
+        { "label": "A", "name": "Tevita", "text": "They tell me I am the last one who can speak it properly, which is a strange kind of fame to carry. Researchers fly in twice a year, and I sit with them gladly, filling their recorders with everything I have: the fishing songs, the names of winds, the story cycles my father recited on the long canoe journeys. But what no recording will ever hold is the ordinary part — the teasing, the gossip, the talk that goes nowhere. There is no one left to have that with, and I miss it the way you miss salt. The strangest thing is what the language keeps for me alone. Whole scenes of my childhood — my mother at the cooking fire, my brothers in the shallows — return only when I think in our words. In English, the same years are just facts. In our language, they are still warm." },
+        { "label": "B", "name": "Ingrid", "text": "Field linguistics looks romantic from a distance: notebooks, jungles, disappearing words. The reality is arithmetic. My main consultants are in their eighties and nineties, and every funeral closes a door no key will ever open again, so I live with a clock ticking behind everything I do. The work itself begins long before grammar. In the villages where I record, people remember teachers who beat children for speaking the language, and officials who called it backward; when someone like me arrives with microphones and consent forms, suspicion is not paranoia — it is history. I have learned to arrive slowly, drink the tea, explain everything twice, and accept that some doors stay shut. The elders who do choose to speak give something beyond price, and my job is to be worthy of it: to record not just their words but the laughter between them." },
+        { "label": "C", "name": "Mateo", "text": "I am twenty-four, and I make rap music in a language most of its remaining speakers use mainly for prayers. When my first video went up, some of the elders were genuinely angry — they felt sacred words had been dragged somewhere disrespectful, and one wrote to my grandmother about it. I understood the anger, but I also understood something they could not see: my generation will not meet this language in church or in grammar books. They live on their phones, so that is where the language must go. I built a free app with a friend — games, streaks, voice recording — and the rap channel now has more young followers than our language has speakers. The elders and I have made our peace, mostly. As one of them finally said to me: better the old words in new songs than no words at all." },
+        { "label": "D", "name": "Rosa", "text": "Everyone now praises our immersion school, where children learn everything from mathematics to music in our own language. Nobody remembers the seven years before it opened: the permits refused, the inspectors who insisted education in our language could not be legal, the meetings where I was patronised by officials half my age. Twice I came close to abandoning the whole idea; I remember sitting in my car outside the ministry, genuinely doubting whether the school could ever exist, let alone succeed. We opened at last with eleven pupils in a borrowed hall. Today we have two hundred, and the effect I never predicted is my favourite: the language is flowing backwards, from children to adults. Parents who grew up without it are learning it at the kitchen table, corrected by their own eight-year-olds, so that they can keep up with their children's world." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Tevita", "Ingrid", "Mateo", "Rosa"] },
+      "questions": [
+        { "stem": "Which person had to battle official obstacles for years to achieve their goal?", "answer": "D" },
+        { "stem": "Which person has nobody left to share everyday conversation with?", "answer": "A" },
+        { "stem": "Which person uses technology and popular culture to reach the young?", "answer": "C" },
+        { "stem": "Which person must sometimes overcome a community's understandable mistrust?", "answer": "B" },
+        { "stem": "Which person regularly works with visiting researchers?", "answer": "A" },
+        { "stem": "Which person has watched knowledge flow from children to their parents?", "answer": "D" },
+        { "stem": "Which person describes living under constant time pressure?", "answer": "B" },
+        { "stem": "Which person was criticised for combining tradition with something modern?", "answer": "C" },
+        { "stem": "Which person finds that certain memories return only in one language?", "answer": "A" },
+        { "stem": "Which person admits they came close to giving up on their project?", "answer": "D" }
+      ]
+    }
+  ]
+}

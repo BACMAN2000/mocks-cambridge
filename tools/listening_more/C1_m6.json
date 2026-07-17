@@ -1,0 +1,420 @@
+{
+ "label": "C1 — Advanced",
+ "cefr": "Cambridge Advanced (CAE) · C1 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+ "audios": [
+  {
+   "id": "C1-P1",
+   "title": "Part 1 · Questions 1–6",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "Email habits",
+    "A television programme",
+    "A restaurant trend",
+    "A town's decision",
+    "A multitasking study",
+    "A business trip"
+   ],
+   "scripts": [
+    "Question one. Woman: Your out-of-office says you answer email twice a day, at eleven and four. People must find that infuriating. Man: Some did, for about a fortnight, and then a strange thing happened: the urgent messages stopped being sent to me at all, because genuinely urgent things go to the phone, it turns out. What's left ripens nicely in the inbox, half the threads resolve themselves before four o'clock. My colleagues thought I was rationing my attention out of arrogance. I was just refusing to let other people's reflexes set my tempo.",
+    "Question two. Man: Seven unbroken hours of a canal boat drifting through the countryside, no commentary, no music, and you watched all of it? Woman: With my mother, who's eighty-four, and that's rather the point. Ordinary television is edited at a pace that frankly excludes her now, she finds the cutting exhausting. This she could inhabit, we both could, and we talked through the whole seven hours, which we haven't done in years. Everyone calls it boring television. It's the first television in a decade that made room for us.",
+    "Question three. Woman: So you're stripping the tasting menu back from fourteen courses to five. Isn't slow dining your whole reputation? Man: It is, and that's precisely why. Fourteen courses meant a procession of interruptions, a waiter every nine minutes narrating a foam. Guests spent the evening being audiences. Five generous courses means an hour and a half that belongs to the table, not the kitchen. I confused slowness with elaboration for years. They're not the same thing, in fact they're barely acquainted.",
+    "Question four. Man: Two years since the town joined the slow city network, banned the drive-through, pedestrianised the square. Verdict? Woman: Mixed, if I'm honest, and I campaigned for it. The square in the evening is glorious, cafés spilling out, children everywhere, nobody regrets that. But some of the promises were simply romance: the artisan shops we were assured would flourish are struggling like everyone else, rents didn't read the manifesto. I'd vote yes again, but I'd write a far more modest pamphlet.",
+    "Question five. Woman: We paid people to do two streams of work in parallel, messages and analysis, exactly as offices demand, and measured the cost of the switching. The productivity loss we expected, forty per cent, it's in every textbook. What the textbooks miss is what happened when we let them work on one thing only: it took most of them two full days to stop twitching, checking, surfacing for interruptions that never came. The multitasking wasn't just costing them time. It had rewired what their attention could tolerate.",
+    "Question six. Man: I've booked the sleeper train for the Milan negotiations, eleven hours instead of two in the air. My boss thinks I've lost my mind. Woman: Has she seen your last flight itinerary? Man: That's my argument exactly. I flew out at dawn, negotiated at noon groggy as a jet-lagged owl, and gave away margin we're still mourning. This time I board at nine, sleep, and walk into that boardroom rested with my papers read twice. The airline gets me there faster. The train gets me there ready. Ready is what they're paying me for."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What happened when the man restricted his email hours?",
+     "o": [
+      "Colleagues remained permanently irritated",
+      "Truly urgent matters found other channels",
+      "He began to miss important messages"
+     ],
+     "c": 1,
+     "audio": "M6/C1/C1-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why does the woman value the canal boat programme?",
+     "o": [
+      "Its pace allowed her mother to share it",
+      "It taught her about the countryside",
+      "It was more skilfully edited than most television"
+     ],
+     "c": 0,
+     "audio": "M6/C1/C1-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why is the chef reducing the number of courses?",
+     "o": [
+      "Guests complained about the portions",
+      "He has realised elaboration is not the same as slowness",
+      "The kitchen cannot sustain fourteen courses"
+     ],
+     "c": 1,
+     "audio": "M6/C1/C1-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the woman's verdict on her town's slow city experiment?",
+     "o": [
+      "She regrets having campaigned for it",
+      "It has delivered everything promised",
+      "Its social gains are real but some claims were naive"
+     ],
+     "c": 2,
+     "audio": "M6/C1/C1-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the study reveal beyond the expected productivity loss?",
+     "o": [
+      "Multitasking had lasting effects on attention itself",
+      "Workers preferred handling two streams at once",
+      "The textbook figure of forty per cent was wrong"
+     ],
+     "c": 0,
+     "audio": "M6/C1/C1-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How does the man justify taking the sleeper train?",
+     "o": [
+      "It is cheaper than flying at dawn",
+      "He will arrive in a better state to negotiate",
+      "His boss encouraged the experiment"
+     ],
+     "c": 1,
+     "audio": "M6/C1/C1-P1-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "C1-P2",
+   "title": "Part 2 · Questions 7–14",
+   "kind": "file",
+   "file": "M6/C1/C1-P2.mp3",
+   "intro": "You will hear a journalist called Hugo giving a talk about the Slow Movement. For each question, complete the sentences with a word or short phrase.",
+   "scripts": [
+    "Good evening. I'm Hugo, and I've spent six years reporting on the Slow Movement, which obliges me to begin with its creation myth, because for once the myth is true. The movement was born in the nineteen-eighties, in Italy, out of a protest, not against modernity in general but against one particular restaurant, a fast-food outlet opening beside a beloved Roman landmark. The demonstrators handed out bowls of traditional pasta, which remains, I'd argue, the most persuasive manifesto ever written. From that skirmish over dinner grew a philosophy that has since colonised everything: cities, medicine, journalism, even parenting. Its emblem, chosen with a wink, is the snail, and I've come to think the wink matters. Now, the misunderstanding I must clear away before anything else. The philosophy has never argued that slower is always better, whatever its critics claim; its founders talk about finding the right speed for each thing, fast where fast serves you, slow where it doesn't. The enemy was never velocity. The enemy is living your whole life in a single gear. The movement's spread has produced some improbable outposts. There is now slow journalism: I write for a magazine that publishes just four times a year, on paper, no website worth the name, and against every prediction, including mine, our circulation rises annually, because it turns out readers will pay for news that has finished happening. There are slow towns, over two hundred of them, certified and inspected, where planning rules protect local markets from the uniformity that makes every high street the same high street. And the research keeps handing us uncomfortable numbers. My favourite: scientists who time pedestrians across the world's cities found average walking speed has risen by ten per cent in a single decade, and the increases are steepest exactly where reported stress is highest. We are, quite literally, measurably, in more of a hurry than our parents, and it shows in our stride before it shows in our medical files. Medicine, in fact, is where the movement stops being charming and becomes serious. Studies of hospital consultations show something almost absurd: when doctors simply sit down at the bedside rather than stand, patients consistently judge the visit to have lasted longer, feel better informed, and trust the advice more, though the clock records no difference at all. Slowness, in other words, is partly a performance of attention, and attention, not minutes, is what patients are starving for. I'll close with my prescription, the one I actually follow, and I promise it costs nothing. Don't redesign your existence, you'll abandon that by Thursday. Choose one daily activity, your morning coffee, the walk to the station, one meal, and do it at half speed, deliberately, every day, as an experiment in what you've been stepping over. Mine is the coffee. It has taken me six years of research to learn to drink it sitting down, which tells you everything about how deep the hurry goes. Thank you."
+   ],
+   "gapTitle": "The Slow Movement",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The movement began as a protest against a fast-food ____",
+     "accept": [
+      "restaurant",
+      "outlet"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The movement's emblem is the ____",
+     "accept": [
+      "snail"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The founders talk about finding the right ____ for each thing",
+     "accept": [
+      "speed"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Hugo's magazine publishes only ____ times a year",
+     "accept": [
+      "4",
+      "four"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "In slow towns, planning rules protect local ____",
+     "accept": [
+      "markets"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Average urban walking speed has risen by ____ per cent in a decade",
+     "accept": [
+      "10",
+      "ten"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Patients judge visits longer when doctors simply ____ down",
+     "accept": [
+      "sit"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Hugo advises doing one daily activity at half ____",
+     "accept": [
+      "speed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1-P3",
+   "title": "Part 3 · Questions 15–20",
+   "kind": "file",
+   "file": "M6/C1/C1-P3.mp3",
+   "intro": "You will hear an interview with a consultant called Rosa, who advises companies on slower ways of working. For each question, choose the best answer (A, B, C or D).",
+   "scripts": [
+    "Interviewer: Rosa, you're paid by corporations to make them slower. How is that not the easiest job in the world to fake? Rosa: Because the invoice arrives with numbers attached, and mine had better move. Look, if I walked in preaching serenity, I'd be escorted out by lunchtime, and rightly. What I actually sell is subtraction: fewer meetings, fewer parallel projects, fewer decisions made at the speed of panic. The slowness is a by-product. The product is error rates, and error rates, unlike serenity, appear in quarterly reports. Interviewer: Your critics say slow working is a boutique luxury, fine for consultants, meaningless for a nurse on a twelve-hour shift. Rosa: And when they say it smugly, I want to argue; when a nurse says it, I mostly want to apologise, because the charge lands. I can't slow her shift, only her rota-writers can, and that's exactly where I've started aiming. It's convenient for institutions to translate every structural failure into advice about individual breathing. I refuse the translation. If slowness is only available for purchase, it isn't a movement, it's a spa. Interviewer: You ran a famous experiment, the no-deadline team. Confess how it went. Rosa: Gloriously wrong, and I publish the failure with the successes, it's the most requested chapter. We assumed deadlines were the disease. Remove them, and the team didn't relax, they drifted, then they quietly invented deadlines of their own, worse ones, secret ones, and stress went up. What the experiment taught me is that people don't suffer from finish lines, they suffer from finish lines drawn by strangers. Now we set fewer deadlines, but the team draws them. Same calendar, different author, transformed result. Interviewer: Technology firms now sell slowness itself, apps that lock your phone, retreats costing thousands. Your movement is being merchandised. Rosa: It was inevitable, the market eats its critics for breakfast, always has. I've stopped clutching my pearls about it. If a locking app genuinely returns an evening to somebody, I won't sneer at the shopkeeper. Where I draw the line is the pricing of what was free: silence, walking, an unplugged Sunday, repackaged at four hundred pounds a weekend. You cannot sell people their own kitchen table. Well, evidently you can. You shouldn't. Interviewer: After fifteen years of this work, what's the resistance you still can't crack? Rosa: Status. Not schedules, not software, status. In most firms, visible busyness is still how importance is worn, the full calendar is the modern medal collection. I can redesign any workflow in a fortnight; redesigning what a company admires takes a decade. My most reliable trick is embarrassingly small: get the most senior person to leave loudly at four o'clock, twice a week, and say why on the way out. One director strolling out in daylight repeals more culture than any policy I've ever written. Interviewer: And you, personally, are you cured of hurry? Rosa: In remission, let's say, with relapses. Last month I caught myself speed-listening to an audiobook about patience, at double speed, and I'd like to tell you I stopped, but I finished the chapter first. The hurry is in deep. That's precisely why I trust the work: I'm not selling a country I live in. I'm selling one I'm still emigrating to. Interviewer: Rosa, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How does Rosa justify her work to sceptical companies?",
+     "o": [
+      "By promising a calmer atmosphere",
+      "By linking her methods to measurable mistakes",
+      "By reducing the cost of meetings",
+      "By invoking the slow movement's philosophy"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How does Rosa react to the criticism about workers like nurses?",
+     "o": [
+      "She concedes it and has redirected her efforts",
+      "She dismisses it as smug point-scoring",
+      "She argues breathing techniques still help",
+      "She claims slowness is available to everyone"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What did the no-deadline experiment teach Rosa?",
+     "o": [
+      "Deadlines should be abolished gradually",
+      "Teams work best without any finish lines",
+      "The origin of a deadline matters more than its existence",
+      "Secret deadlines reduce stress"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What is Rosa's attitude to the commercialisation of slowness?",
+     "o": [
+      "Blanket contempt for those selling it",
+      "Tolerance of useful products but not of repackaging free things",
+      "Enthusiasm for retreats and locking apps alike",
+      "Indifference, since the market was inevitable"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Rosa identify as the deepest obstacle to change?",
+     "o": [
+      "Inflexible scheduling software",
+      "The prestige attached to appearing busy",
+      "Senior staff leaving too early",
+      "The cost of redesigning workflows"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Rosa's final anecdote suggest about her?",
+     "o": [
+      "She has fully overcome her own hurry",
+      "She sees her own struggle as a credential",
+      "She no longer believes in her methods",
+      "She avoids audiobooks about patience"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "C1-P4",
+   "title": "Part 4 · Questions 21–30",
+   "kind": "file",
+   "file": "M6/C1/C1-P4.mp3",
+   "intro": "You will hear five people who have deliberately slowed down part of their lives. TASK ONE (21–25): choose the area of life each speaker has slowed. TASK TWO (26–30): choose the difficulty each speaker admits to.",
+   "scripts": [
+    "Speaker one. Oliver: I gave up flying within Europe three years ago, everything's trains now, the Alps at breakfast instead of a cloud layer at thirty thousand feet, and I write more in a rattling dining car than I ever managed in departure lounges. I'd recommend it without reservation, except for one thing, and I'll say it plainly because the brochures won't: the sums are absurd. Two days of my life and nearly triple the airfare to reach Lisbon, and each ticket faces a budget airline seat priced like a sandwich. My convictions can afford it, currently. I'm never sure they could survive a pay cut. Speaker two. Mia: I compressed my agency to a four-day week and banned meetings before noon, and the work, the actual work, has never been better, deeper, fewer errors, clients remark on it. What the case studies never mention is the tax you pay in rooms you're not in. Word went round that we'd become, quote, a lifestyle business, a rival repeats it to every client we pitch against, and last spring an industry panel I'd normally chair went to a man whose calendar is a war zone. The work wins on quality and loses on optics, and optics, it turns out, sit on half the juries. Speaker three. Ethan: I build furniture with hand tools now, planes, chisels, a saw my grandfather sharpened, and a chest of drawers takes me the better part of two months. The finish is beyond anything a machine shop produces, customers wait a year, willingly. The struggle is nowhere anyone would guess: it's internal, a voice with a stopwatch that I've carried since my factory years, murmuring that an afternoon spent fitting one drawer is an afternoon embezzled from somebody. The wood has forgiven me every mistake. The clock in my head hasn't yet, and I've stopped promising it will. Speaker four. Lucy: Our food went slow five years ago, an allotment, bread from an overnight dough, a stew that occupies a Sunday, and my blood pressure and our grocery bills have both applauded. The resistance came from inside the house, and it was fierce. Teenagers, both of them, staging what I can only call a hostage negotiation over the deep-fat fryer, mourning drive-through milkshakes like a lost civilisation. Two years of eye-rolling at the dinner I'd spent four hours on. The daughter came round the day her friends declared our kitchen the good kitchen. The son holds out on principle. I've learned to cook through scorn. Speaker five. Marcus: I read one book at a time now, slowly, pencil in hand, sometimes a fortnight for three hundred pages, and books have started staying with me again, the way they did at twenty. Nobody warned me about the physical part. The first weeks, my hand crept towards a phone that wasn't there the way a smoker's hand creeps to a shirt pocket, twice a page, an actual twitch, and long paragraphs produced something close to air hunger. It took a month before a chapter would hold me without my nervous system filing a complaint. People talk about slowing down as a decision. Below the neck, it's a detox."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the area of life they have slowed",
+     "person": "Speaker 1",
+     "bank": [
+      "how they travel",
+      "their working week",
+      "a craft they practise",
+      "how their household eats",
+      "the way they read",
+      "their exercise routine",
+      "their correspondence",
+      "their holidays"
+     ],
+     "c": "how they travel"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the area of life they have slowed",
+     "person": "Speaker 2",
+     "bank": [
+      "how they travel",
+      "their working week",
+      "a craft they practise",
+      "how their household eats",
+      "the way they read",
+      "their exercise routine",
+      "their correspondence",
+      "their holidays"
+     ],
+     "c": "their working week"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the area of life they have slowed",
+     "person": "Speaker 3",
+     "bank": [
+      "how they travel",
+      "their working week",
+      "a craft they practise",
+      "how their household eats",
+      "the way they read",
+      "their exercise routine",
+      "their correspondence",
+      "their holidays"
+     ],
+     "c": "a craft they practise"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the area of life they have slowed",
+     "person": "Speaker 4",
+     "bank": [
+      "how they travel",
+      "their working week",
+      "a craft they practise",
+      "how their household eats",
+      "the way they read",
+      "their exercise routine",
+      "their correspondence",
+      "their holidays"
+     ],
+     "c": "how their household eats"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the area of life they have slowed",
+     "person": "Speaker 5",
+     "bank": [
+      "how they travel",
+      "their working week",
+      "a craft they practise",
+      "how their household eats",
+      "the way they read",
+      "their exercise routine",
+      "their correspondence",
+      "their holidays"
+     ],
+     "c": "the way they read"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the difficulty they admit to",
+     "person": "Speaker 1",
+     "bank": [
+      "the financial cost",
+      "damage to their professional image",
+      "an ingrained sense of guilt",
+      "opposition within the family",
+      "their body's craving for old habits",
+      "scorn from strangers",
+      "loneliness",
+      "doubts about the benefits"
+     ],
+     "c": "the financial cost"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the difficulty they admit to",
+     "person": "Speaker 2",
+     "bank": [
+      "the financial cost",
+      "damage to their professional image",
+      "an ingrained sense of guilt",
+      "opposition within the family",
+      "their body's craving for old habits",
+      "scorn from strangers",
+      "loneliness",
+      "doubts about the benefits"
+     ],
+     "c": "damage to their professional image"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the difficulty they admit to",
+     "person": "Speaker 3",
+     "bank": [
+      "the financial cost",
+      "damage to their professional image",
+      "an ingrained sense of guilt",
+      "opposition within the family",
+      "their body's craving for old habits",
+      "scorn from strangers",
+      "loneliness",
+      "doubts about the benefits"
+     ],
+     "c": "an ingrained sense of guilt"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the difficulty they admit to",
+     "person": "Speaker 4",
+     "bank": [
+      "the financial cost",
+      "damage to their professional image",
+      "an ingrained sense of guilt",
+      "opposition within the family",
+      "their body's craving for old habits",
+      "scorn from strangers",
+      "loneliness",
+      "doubts about the benefits"
+     ],
+     "c": "opposition within the family"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the difficulty they admit to",
+     "person": "Speaker 5",
+     "bank": [
+      "the financial cost",
+      "damage to their professional image",
+      "an ingrained sense of guilt",
+      "opposition within the family",
+      "their body's craving for old habits",
+      "scorn from strangers",
+      "loneliness",
+      "doubts about the benefits"
+     ],
+     "c": "their body's craving for old habits"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "B2 First — Writing (Practice 7)",
+  "durationMin": 80,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 140, "maxWords": 190,
+        "lead": "In your English class you have been talking about families and technology. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+        "stimulus": { "body": "\"Parents should limit the amount of time their teenage children spend on their phones. Do you agree?\"\n\nNotes\n\nWrite about:\n1. sleep\n2. schoolwork\n3. ............... (your own idea)" },
+        "bullets": ["sleep", "schoolwork", "your own idea", "give reasons for your point of view"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 140, "maxWords": 190,
+          "lead": "You see this announcement in an English-language magazine for young people.",
+          "stimulus": { "title": "A DAY WITHOUT MY PHONE", "body": "Could you survive a whole day without your phone? Perhaps you have already tried! Write an article describing what a phone-free day would be like (or was like) for you, explaining the most difficult moment, and saying what you learned about your own habits." },
+          "bullets": ["what a phone-free day would be like or was like", "the most difficult moment", "what you learned about your habits"],
+          "write": "Write your article." },
+        { "type": "letter", "q": 3, "minWords": 140, "maxWords": 190,
+          "lead": "You have received this letter from your English-speaking friend Dana.",
+          "stimulus": { "body": "My parents have suddenly decided I spend too long on my phone, and now they want to set a daily limit. I think it's completely unfair — I use it for homework too! We keep arguing about it. What do you think? Are they right? And how can I get them to trust me a bit more?\nLove,\nDana" },
+          "bullets": ["whether you think Dana's parents are right", "reasons for your opinion", "how Dana could win her parents' trust"],
+          "write": "Write your letter in reply." },
+        { "type": "review", "q": 4, "minWords": 140, "maxWords": 190,
+          "lead": "You see this announcement on an English-language entertainment website.",
+          "stimulus": { "title": "Worth the watch?", "body": "Streaming series can swallow hours of our free time. Write a review of a series you have watched recently, describing what it is about, saying what kept you watching (or nearly made you stop), and explaining whether it deserves so many hours of a viewer's life." },
+          "bullets": ["what the series is about", "what kept you watching or nearly made you stop", "whether it deserves the viewer's time"],
+          "write": "Write your review." }
+      ]
+    }
+  ]
+}

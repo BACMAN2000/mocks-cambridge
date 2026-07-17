@@ -1,0 +1,34 @@
+{
+  "title": "C1 Advanced — Writing (Practice 7)",
+  "durationMin": 90,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 220, "maxWords": 260,
+        "lead": "Your class has attended a seminar about how a city centre could be made more pleasant to live in. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would make the greater difference, giving reasons to support your opinion.",
+        "stimulus": { "title": "How could a city centre be made more pleasant to live in?", "body": "• closing central streets to private cars\n• creating more parks and green spaces\n• mixing housing, shops and offices in the same areas\n\nSome opinions expressed in the seminar:\n\"Remove the traffic and the city suddenly has a voice you can hear.\"\n\"People do not linger on concrete; they linger under trees.\"\n\"A district that empties at six in the evening is not really a city.\"" },
+        "bullets": ["discuss two of the ideas", "explain which would make the greater difference", "give reasons to support your opinion"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [
+        { "type": "proposal", "q": 2, "minWords": 220, "maxWords": 260,
+          "lead": "Your city council is planning to redesign a neglected central square and has invited proposals from residents.",
+          "stimulus": { "title": "Proposal: redesigning the main square", "body": "Write a proposal for the redesign of the square. Describe what makes the square unwelcoming at present, recommend the key features the new design should include, and explain how the redesigned square would change the way residents use the city centre." },
+          "bullets": ["what makes the square unwelcoming now", "the key features the new design should include", "how the redesign would change residents' habits"],
+          "write": "Write your proposal." },
+        { "type": "report", "q": 3, "minWords": 220, "maxWords": 260,
+          "lead": "Your local council is reviewing its cycling infrastructure and has asked residents' groups for reports. You have agreed to write one.",
+          "stimulus": { "title": "Report: cycling in the city", "body": "Write a report assessing how safe and practical cycling currently is in your city, identifying the main barriers that stop more people from cycling, and recommending the improvements the council should prioritise." },
+          "bullets": ["how safe and practical cycling is now", "the main barriers stopping people", "the improvements the council should prioritise"],
+          "write": "Write your report." },
+        { "type": "letter", "q": 4, "minWords": 220, "maxWords": 260,
+          "lead": "You have received this letter from an English-speaking friend, Robin.",
+          "stimulus": { "body": "Big decision time! I've got a job offer in a huge capital city and another in a small town near the mountains. The city job pays more and sounds exciting, but everyone tells me I'd spend my life commuting. The town is beautiful but I'm worried I'd be bored within a year.\n\nYou've lived in both kinds of place - what would you do in my position?\n\nBest wishes,\nRobin" },
+          "bullets": ["your advice on which offer Robin should accept", "the realities of daily life in each place", "reasons to support your advice"],
+          "write": "Write your letter in reply." }
+      ]
+    }
+  ]
+}

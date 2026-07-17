@@ -1,0 +1,241 @@
+{
+ "label": "B1 — Intermediate",
+ "cefr": "Cambridge PET · B1 official format",
+ "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+ "audios": [
+  {
+   "id": "B1-P1",
+   "title": "Part 1 · Questions 1–7",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+   "segments": [
+    "The first prize",
+    "When the fair starts",
+    "Where the display is",
+    "Weather for the experiment",
+    "Bringing the project",
+    "The cake sale",
+    "Something forgotten"
+   ],
+   "scripts": [
+    "Question one. Girl: Is the first prize book tokens again, like last year? Boy: No, this year the winner gets a camera! Girl: A camera? Now I really want to win.",
+    "Question two. Boy: Does the science fair start at half past four? Girl: That's when the judging starts. The doors open for visitors at four. Boy: Right, I'll tell my parents to come at four, then.",
+    "Question three. Girl: Are the projects going to be in the gym, like always? Boy: Not this year — it's being painted. Everything will be in the library instead. Girl: The library? I hope there's enough space!",
+    "Question four. Boy: My project needs strong sunshine — I'm measuring solar power. Girl: You're in luck. Tomorrow is going to be sunny all day. Boy: Phew! Snow was forecast last week and I panicked.",
+    "Question five. Mum: How are you getting that big volcano model to school, Grace? Grace: It won't survive the bus, so Dad's taking me in the car before work. Mum: Sensible. Hold it flat on your knees!",
+    "Question six. Boy: I'm hungry. Is there food at the fair? Girl: The parents' club has a stall — they're only selling cake this year, no sandwiches. Boy: Only cake? That's fine by me!",
+    "Question seven. Girl: Ben, you look terrible. What's wrong? Ben: I've got the model, I've got the posters... but my notebook with all the results is at home on my desk! Girl: Ring your mum, quick."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What is the first prize this year?",
+     "imgs": ["book", "ball", "camera"],
+     "c": 2,
+     "audio": "P11/B1/B1-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time do the doors open for visitors?",
+     "imgs": ["clock400", "clock430", "clock700"],
+     "c": 0,
+     "audio": "P11/B1/B1-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where will the projects be displayed?",
+     "imgs": ["park", "library", "cafe"],
+     "c": 1,
+     "audio": "P11/B1/B1-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will the weather be like tomorrow?",
+     "imgs": ["sunny", "rainy", "snowy"],
+     "c": 0,
+     "audio": "P11/B1/B1-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will Grace take her project to school?",
+     "imgs": ["bus", "car", "bike"],
+     "c": 1,
+     "audio": "P11/B1/B1-P1-q5.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will the parents' club sell at the fair?",
+     "imgs": ["cake", "pizza", "sandwich"],
+     "c": 0,
+     "audio": "P11/B1/B1-P1-q6.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What did Ben leave at home?",
+     "imgs": ["book", "phone", "keys"],
+     "c": 0,
+     "audio": "P11/B1/B1-P1-q7.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P2",
+   "title": "Part 2 · Questions 8–13",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+   "segments": [
+    "Choosing a topic",
+    "Working together",
+    "What the judges want",
+    "Last year's disaster",
+    "Before the big day",
+    "A parent's help"
+   ],
+   "scripts": [
+    "Question eight. You will hear a girl talking about her science fair project. Girl: I nearly did volcanoes, because the models look amazing, and my friend suggested something about space. But then I watched a film about plastic in the sea, and I knew straight away: my project is about recycling. It just felt more important.",
+    "Question nine. You will hear a boy talking about working with a partner. Boy: Sam's my best friend, but that's not why we're a team — we argue about football all day! The real reason is that he's brilliant at building things and I'm good at explaining, so together we cover everything.",
+    "Question ten. You will hear a teacher talking about the science fair judges. Teacher: A word of advice. Some of you are building enormous models, and that's lovely, but the judges have seen a thousand models. What impresses them is a student who can explain their experiment clearly in two minutes. Practise that.",
+    "Question eleven. You will hear a boy talking about last year's fair. Boy: My experiment worked, and the judges liked my talk. Then, five minutes before the prizes, someone opened a window, the wind came in, and my whole display board crashed to the floor. This year I'm bringing extra tape. Lots of it.",
+    "Question twelve. You will hear a girl talking about the night before the fair. Girl: My mum keeps asking if I'm nervous, and my brother says I'll freeze in front of the judges. Honestly? I've practised so many times that I just want to get started. I can't wait for tomorrow.",
+    "Question thirteen. You will hear a man talking about helping his daughter. Man: Of course parents want to help, and some basically build the whole project — you can always tell. The rule at our school is clear, and I think it's right: we can give advice and answer questions, but every piece must be made by the student."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What is the girl's project about?",
+     "o": ["Volcanoes", "Recycling", "Space"],
+     "c": 1,
+     "audio": "P11/B1/B1-P2-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why do the boys work well as a team?",
+     "o": ["They are best friends", "They both love building", "They have different skills"],
+     "c": 2,
+     "audio": "P11/B1/B1-P2-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the teacher say impresses the judges most?",
+     "o": ["A clear explanation", "A big model", "A long report"],
+     "c": 0,
+     "audio": "P11/B1/B1-P2-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What went wrong for the boy last year?",
+     "o": ["His experiment failed", "His display board fell down", "He forgot his talk"],
+     "c": 1,
+     "audio": "P11/B1/B1-P2-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How does the girl feel about the fair?",
+     "o": ["Nervous", "Worried about the judges", "Excited to start"],
+     "c": 2,
+     "audio": "P11/B1/B1-P2-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the man say parents are allowed to do?",
+     "o": ["Build difficult parts", "Give advice only", "Check the results"],
+     "c": 1,
+     "audio": "P11/B1/B1-P2-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P3",
+   "title": "Part 3 · Questions 14–19",
+   "kind": "file",
+   "file": "P11/B1/B1-P3.mp3",
+   "intro": "You will hear a teacher giving students the details of the school science fair. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Settle down, everyone — important information about the science fair, so listen carefully. The fair is on Thursday, not Friday as it said on the first poster, because Friday is a staff training day. It will take place in the sports hall, and there'll be a table for every project. Bring your projects to the hall at three o'clock, straight after lessons, so you have time to set everything up before the doors open. Now, whatever your experiment is, every display must include a poster explaining what you did — projects without one lose points. Visitors get in free, but we're selling a printed programme for fifty pence to raise money for new lab equipment. And finally, the moment you're waiting for: the winners will be announced at six by the head teacher herself. Good luck, everyone!"
+   ],
+   "gapTitle": "School Science Fair",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Day of the fair: ____",
+     "accept": ["thursday"]
+    },
+    {
+     "type": "gap",
+     "label": "Place: the sports ____",
+     "accept": ["hall"]
+    },
+    {
+     "type": "gap",
+     "label": "Bring projects at: ____ o'clock",
+     "accept": ["3", "three"]
+    },
+    {
+     "type": "gap",
+     "label": "Every display must include a ____",
+     "accept": ["poster"]
+    },
+    {
+     "type": "gap",
+     "label": "Programme costs: ____ pence",
+     "accept": ["50", "fifty"]
+    },
+    {
+     "type": "gap",
+     "label": "Winners announced by: the head ____",
+     "accept": ["teacher"]
+    }
+   ]
+  },
+  {
+   "id": "B1-P4",
+   "title": "Part 4 · Questions 20–25",
+   "kind": "file",
+   "file": "P11/B1/B1-P4.mp3",
+   "intro": "You will hear an interview with a student called Nora, who won last year's school science fair. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Nora won the school science fair last year with a water filter made from sand and charcoal. Nora, where did the idea come from? Nora: Not from a science book, which is what people guess. We were camping last summer and the stream water looked so dirty, and my little sister asked why we couldn't just clean it. I couldn't answer her — so I decided to find out. Interviewer: How long did the project take? Nora: The building part was quick, maybe two weekends. The slow part was testing — I tested the filter every day for two months and wrote everything down. That notebook was half my project, really. Interviewer: Did anything go wrong? Nora: Constantly! My first three filters didn't work at all. The water actually came out dirtier. I nearly gave up after the third one, and my mum said: one more try. The fourth one worked. Interviewer: How did you feel when you won? Nora: Everyone expects me to say happy, and I was — but mostly I was shocked. There were projects with motors and flashing lights, and mine was a plastic bottle full of sand! Interviewer: What did you do with the prize money? Nora: I bought a proper microscope, second-hand. I'd wanted one for years. Interviewer: And this year? Nora: I'm not competing — the rules say last year's winner joins the judges instead. I'm actually more nervous about judging than I ever was about competing!"
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Where did Nora get the idea for her project?",
+     "o": ["From a science book", "From a camping trip", "From a teacher"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Which part of the project took longest?",
+     "o": ["Building the filter", "Writing the report", "Testing the filter"],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What happened with Nora's first filters?",
+     "o": ["They made the water dirtier", "They broke easily", "They worked too slowly"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How did Nora feel when she won?",
+     "o": ["Proud of her lights", "Shocked", "Calm"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What did Nora buy with the prize money?",
+     "o": ["A microscope", "A camera", "A new filter"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What will Nora do at this year's fair?",
+     "o": ["Compete with a new project", "Sell programmes", "Be one of the judges"],
+     "c": 2
+    }
+   ]
+  }
+ ]
+}

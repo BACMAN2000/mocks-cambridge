@@ -1,0 +1,30 @@
+{
+  "title": "B1 Preliminary — Writing (Practice 8)",
+  "durationMin": 45,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in about 100 words.",
+      "tasks": [{
+        "type": "email", "minWords": 100,
+        "lead": "Read this email from your English teacher, Mr Novak, and the notes you have made.",
+        "stimulus": { "head": "EMAIL", "title": "", "body": "From: Mr Novak\nSubject: New student arriving on Monday\n\nDear Class,\n\nA new student called Alex is joining our class on Monday. Alex has just moved here from another country and doesn't know anyone yet.\n\nI'm looking for a volunteer to help Alex during the first week. Would you like to do this? Tell me how you could help.\n\nMr Novak" },
+        "bullets": ["offer to help Alex during the first week", "say how you could help at school", "suggest an activity to do with Alex after school", "ask one question about Alex"],
+        "write": "Write your email to Mr Novak."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in about 100 words.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 100,
+          "lead": "You see this announcement in your school English-language magazine.",
+          "stimulus": { "title": "HOW TO MAKE NEW FRIENDS", "body": "Starting at a new school or club can be difficult. What is the best way to make new friends? Write an article giving your advice. The best articles will be published next month." },
+          "bullets": ["why making new friends can be difficult", "your best advice for making friends", "an example from your own experience"],
+          "write": "Write your article." },
+        { "type": "story", "q": 3, "minWords": 100,
+          "lead": "Your English teacher has asked you to write a story.",
+          "startSentence": "On her first day at the new school, Nadia sat down next to a girl with a friendly smile.",
+          "stimulus": { "title": "", "body": "Your story must begin with this sentence:\n\nOn her first day at the new school, Nadia sat down next to a girl with a friendly smile." },
+          "bullets": [],
+          "write": "Write your story." }
+      ]
+    }
+  ]
+}

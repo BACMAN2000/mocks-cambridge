@@ -1,0 +1,34 @@
+{
+  "title": "B2 First — Writing (Practice 9)",
+  "durationMin": 80,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 140, "maxWords": 190,
+        "lead": "In your English class you have been talking about food and health. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+        "stimulus": { "body": "\"Schools should stop selling unhealthy snacks and sugary drinks. Do you agree?\"\n\nNotes\n\nWrite about:\n1. students' health\n2. freedom to choose\n3. ............... (your own idea)" },
+        "bullets": ["students' health", "freedom to choose", "your own idea", "give reasons for your point of view"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+      "tasks": [
+        { "type": "review", "q": 2, "minWords": 140, "maxWords": 190,
+          "lead": "You see this announcement on an English-language website about food.",
+          "stimulus": { "title": "Cheap, quick and healthy?", "body": "Students always say healthy food is too expensive or too slow. Prove them wrong! Write a review of a café, market stall or restaurant near your school where students can eat well, describing the food, the prices and the atmosphere, and saying who would enjoy it most." },
+          "bullets": ["the food and the prices", "the atmosphere", "who would enjoy it most"],
+          "write": "Write your review." },
+        { "type": "letter", "q": 3, "minWords": 140, "maxWords": 190,
+          "lead": "You have received this letter from your English-speaking friend Ellie.",
+          "stimulus": { "body": "University is great, but I'm living away from home for the first time and I have to cook for myself. So far I've mostly eaten pasta and toast! You cook quite a lot, don't you? What easy meals should I learn first? And how do you avoid wasting food and money when you shop?\nMiss you,\nEllie" },
+          "bullets": ["easy meals Ellie should learn first", "how to avoid wasting food and money", "some encouragement about cooking"],
+          "write": "Write your letter in reply." },
+        { "type": "report", "q": 4, "minWords": 140, "maxWords": 190,
+          "lead": "Your school principal is thinking about opening a breakfast club and has asked you to write a report.",
+          "stimulus": { "title": "Report: a school breakfast club", "body": "Describe what students at your school usually eat before lessons, explain how this affects their morning classes, and say whether you would recommend opening a breakfast club, giving reasons." },
+          "bullets": ["what students usually eat before lessons", "how this affects morning classes", "your recommendation about the breakfast club"],
+          "write": "Write your report." }
+      ]
+    }
+  ]
+}

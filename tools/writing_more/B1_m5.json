@@ -1,0 +1,30 @@
+{
+  "title": "B1 Preliminary — Writing (MOCK 5)",
+  "durationMin": 45,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in about 100 words.",
+      "tasks": [{
+        "type": "email", "minWords": 100,
+        "lead": "Read this email from Daniel, the president of your school students' club, and the notes you have made.",
+        "stimulus": { "head": "EMAIL", "title": "", "body": "From: Daniel\nSubject: Charity event — we need your help!\n\nHi everyone,\n\nThe students' club has decided to organise a charity event to raise money for the children's hospital. We are choosing between three ideas: a second-hand book sale, a talent show, or a sponsored walk in the park.\n\nWe need to decide quickly because the event will be on the last Saturday of next month. Which idea do you think is best? And what job could you do on the day — selling tickets, making posters, or something else?\n\nEvery helper counts!\n\nDaniel" },
+        "bullets": ["say which of the three ideas you think is best and why", "say what job you could do on the day", "suggest a way to tell more people about the event", "ask one question about the event"],
+        "write": "Write your email to Daniel."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in about 100 words.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 100,
+          "lead": "You see this announcement in your school English-language magazine.",
+          "stimulus": { "title": "YOUNG PEOPLE CAN CHANGE THE WORLD", "body": "You don't need to be rich or famous to make a difference. All over the world, young people are helping others in big and small ways. Write an article about how teenagers can make a difference in their community, and give an example. The best articles will be published next month." },
+          "bullets": ["ways teenagers can make a difference", "an example of a person or project you admire", "why it is important for young people to get involved"],
+          "write": "Write your article." },
+        { "type": "story", "q": 3, "minWords": 100,
+          "lead": "Your English teacher has asked you to write a story.",
+          "startSentence": "By lunchtime we had only collected ten euros, and I was starting to worry.",
+          "stimulus": { "title": "", "body": "Your story must begin with this sentence:\n\nBy lunchtime we had only collected ten euros, and I was starting to worry." },
+          "bullets": [],
+          "write": "Write your story." }
+      ]
+    }
+  ]
+}

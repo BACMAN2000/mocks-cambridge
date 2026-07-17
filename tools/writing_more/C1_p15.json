@@ -1,0 +1,34 @@
+{
+  "title": "C1 Advanced — Writing (Practice 15)",
+  "durationMin": 90,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 220, "maxWords": 260,
+        "lead": "Your class has attended a seminar about how universities could open their doors to a wider range of students. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would be more effective, giving reasons to support your opinion.",
+        "stimulus": { "title": "How could universities open their doors to a wider range of students?", "body": "• offering more full scholarships to low-income students\n• sending students and lecturers into schools in disadvantaged areas\n• creating part-time and online routes to a full degree\n\nSome opinions expressed in the seminar:\n\"Talent is spread evenly; money is not.\"\n\"You cannot apply to a place you have never imagined yourself in.\"\n\"Plenty of capable people simply cannot stop working for three years.\"" },
+        "bullets": ["discuss two of the ideas", "explain which would be more effective", "give reasons to support your opinion"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [
+        { "type": "letter", "q": 2, "minWords": 220, "maxWords": 260,
+          "lead": "You have received this letter from an English-speaking friend, Sami.",
+          "stimulus": { "body": "Decision time: I've been accepted by a good university, but I've also been offered a paid apprenticeship at an engineering firm. My parents are pushing hard for university; the firm says I'll be qualified and debt-free in four years. Everyone has an opinion except me!\n\nYou know what I'm like - which path do you honestly think suits me better, and why?\n\nSami" },
+          "bullets": ["your honest advice on which path suits Sami", "the strengths and drawbacks of each option", "how Sami could deal with their parents' expectations"],
+          "write": "Write your letter in reply." },
+        { "type": "report", "q": 3, "minWords": 220, "maxWords": 260,
+          "lead": "Your college runs a mentoring programme in which older students help school pupils prepare for higher education. The coordinator has asked you to write a report on it.",
+          "stimulus": { "title": "Report: the mentoring programme", "body": "Write a report evaluating the programme's first year. Describe what the mentors actually did, assess the effect on the pupils and on the mentors themselves, and recommend two changes for next year." },
+          "bullets": ["what the mentors actually did", "the effect on pupils and mentors", "two changes for next year"],
+          "write": "Write your report." },
+        { "type": "proposal", "q": 4, "minWords": 220, "maxWords": 260,
+          "lead": "Your university wants more applications from students whose families have never attended university, and has invited proposals from current students.",
+          "stimulus": { "title": "Proposal: rethinking the open day", "body": "Write a proposal for redesigning the university open day so that it genuinely welcomes first-generation applicants. Identify what puts such visitors off at present, describe the changes you recommend, and explain how current students could be involved." },
+          "bullets": ["what puts first-generation visitors off now", "the changes you recommend", "how current students could be involved"],
+          "write": "Write your proposal." }
+      ]
+    }
+  ]
+}

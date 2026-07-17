@@ -1,0 +1,241 @@
+{
+ "label": "B1 — Intermediate",
+ "cefr": "Cambridge PET · B1 official format",
+ "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+ "audios": [
+  {
+   "id": "B1-P1",
+   "title": "Part 1 · Questions 1–7",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+   "segments": [
+    "Food for the party",
+    "Getting to town",
+    "The weather",
+    "Where to study",
+    "A lost thing",
+    "A radio programme",
+    "Birthday money"
+   ],
+   "scripts": [
+    "Question one. Anna: What shall I take to the class party, Mum? Mum: You said you would make sandwiches. Anna: Everyone is bringing those, so I'll bake a chocolate cake instead. Mum: Good idea.",
+    "Question two. Girl: Are you taking the bus into town, Ben? Ben: I usually do, but it's such a lovely day that I'm going by bike. Girl: Enjoy the ride!",
+    "Question three. Woman: The forecast said it would snow today. Man: Well, look out of the window — it's bright and sunny. Woman: Perfect for a walk, then.",
+    "Question four. Lucy: Shall we do our homework in the library after school? Tom: It closes early today. Let's work at the café opposite instead. Lucy: Fine, see you there.",
+    "Question five. Dad: You look worried, Grace. What's the matter? Grace: I think I left my umbrella on the bus this morning. Dad: Never mind, you can take mine tomorrow.",
+    "Question six. Boy: The radio programme about hobbies starts at seven, doesn't it? Girl: Not tonight — it's on at half past seven. Boy: Great, then we won't miss it.",
+    "Question seven. Girl: Did you spend your birthday money on a camera, Max? Max: I was going to, but I found a second-hand guitar in town, so I bought that instead. Girl: Cool, you can learn some songs."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What will Anna take to the party?",
+     "imgs": ["sandwich", "pizza", "cake"],
+     "c": 2,
+     "audio": "P4/B1/B1-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will Ben get to town?",
+     "imgs": ["bus", "bike", "car"],
+     "c": 1,
+     "audio": "P4/B1/B1-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What is the weather like now?",
+     "imgs": ["sunny", "rainy", "snowy"],
+     "c": 0,
+     "audio": "P4/B1/B1-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where will Lucy and Tom do their homework?",
+     "imgs": ["park", "cafe", "library"],
+     "c": 1,
+     "audio": "P4/B1/B1-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What did Grace lose?",
+     "imgs": ["keys", "phone", "umbrella"],
+     "c": 2,
+     "audio": "P4/B1/B1-P1-q5.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the radio programme start?",
+     "imgs": ["clock700", "clock730", "clock8"],
+     "c": 1,
+     "audio": "P4/B1/B1-P1-q6.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What did Max buy with his birthday money?",
+     "imgs": ["guitar", "camera", "book"],
+     "c": 0,
+     "audio": "P4/B1/B1-P1-q7.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P2",
+   "title": "Part 2 · Questions 8–13",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+   "segments": [
+    "A chess club",
+    "A radio show",
+    "The weekend",
+    "Learning to paint",
+    "A hobby project",
+    "Giving up a hobby"
+   ],
+   "scripts": [
+    "Question eight. You will hear a girl talking about a chess club. Girl: My brother has played for years and he kept inviting me, but I never went. Then my best friend Kate joined, so I went along with her. Funny thing is, now I enjoy it more than she does.",
+    "Question nine. You will hear a man talking about a radio programme. Man: The music they play is nothing special, and the interviews can go on a bit, but the listeners' phone calls are always so funny that I never miss a show.",
+    "Question ten. You will hear a boy talking about his weekend. Boy: I'd planned to go fishing with my uncle, but the river was too high after all the rain, so I stayed at home and built a model plane instead. It took me the whole afternoon.",
+    "Question eleven. You will hear a woman talking about painting. Woman: People think you need expensive brushes and paints, but that's simply not true. The real secret is practising a little every day — that's what made my pictures better, not the equipment.",
+    "Question twelve. You will hear a teacher talking to a class. Teacher: Your hobby projects are due on Friday. Please don't just print pictures from the internet. I want each of you to interview someone about their hobby and write down what they tell you.",
+    "Question thirteen. You will hear a boy explaining why he stopped a hobby. Boy: I loved ice skating, and the lessons weren't even expensive. The problem was that the rink is right on the other side of the city, and the journey there and back simply took too long."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why did the girl join the chess club?",
+     "o": ["Her brother invited her", "Her best friend joined", "She saw an advertisement"],
+     "c": 1,
+     "audio": "P4/B1/B1-P2-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the man like best about the programme?",
+     "o": ["The music", "The interviews", "The listeners' calls"],
+     "c": 2,
+     "audio": "P4/B1/B1-P2-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the boy do at the weekend?",
+     "o": ["He went fishing", "He built a model plane", "He visited his uncle"],
+     "c": 1,
+     "audio": "P4/B1/B1-P2-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the woman say helped her paint better?",
+     "o": ["Practising every day", "Buying good equipment", "Taking lessons"],
+     "c": 0,
+     "audio": "P4/B1/B1-P2-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the teacher want the students to do?",
+     "o": ["Print pictures from the internet", "Hand the project in early", "Interview someone about a hobby"],
+     "c": 2,
+     "audio": "P4/B1/B1-P2-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why did the boy stop ice skating?",
+     "o": ["The lessons cost too much", "The rink was too far away", "He lost interest in it"],
+     "c": 1,
+     "audio": "P4/B1/B1-P2-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P3",
+   "title": "Part 3 · Questions 14–19",
+   "kind": "file",
+   "file": "P4/B1/B1-P3.mp3",
+   "intro": "You will hear a radio presenter talking about a hobby fair. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Hello, listeners! Here on our programme about hobbies we love telling you about local events, and here's a great one. Next Saturday there's a Hobby Fair at the community centre in Green Street. The doors open at ten o'clock in the morning, and entry costs two pounds, although children under twelve go in free. More than thirty clubs will have stands there, and this year the most popular one will probably be the model railway — it fills half the main room! If you fancy trying something new yourself, the painting workshop still has a few places, but you must book by Thursday. Have a wonderful week, everyone!"
+   ],
+   "gapTitle": "Hobby Fair",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Day: next ____",
+     "accept": ["saturday"]
+    },
+    {
+     "type": "gap",
+     "label": "Place: the ____ centre in Green Street",
+     "accept": ["community"]
+    },
+    {
+     "type": "gap",
+     "label": "Doors open at: ____ o'clock",
+     "accept": ["10", "ten"]
+    },
+    {
+     "type": "gap",
+     "label": "Entry costs: £ ____",
+     "accept": ["2", "two"]
+    },
+    {
+     "type": "gap",
+     "label": "Most popular stand: the model ____",
+     "accept": ["railway"]
+    },
+    {
+     "type": "gap",
+     "label": "Book the painting workshop by: ____",
+     "accept": ["thursday"]
+    }
+   ]
+  },
+  {
+   "id": "B1-P4",
+   "title": "Part 4 · Questions 20–25",
+   "kind": "file",
+   "file": "P4/B1/B1-P4.mp3",
+   "intro": "You will hear a radio interview with a young climber called Ben, talking about his hobby. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Welcome back to our programme about hobbies. Today I'm talking to Ben, who spends his free time climbing. Ben, how did it all begin? Ben: A lot of people start at an indoor climbing wall, but for me it was a summer camp in the mountains when I was twelve. I tried it once and I was hooked. Interviewer: What do you enjoy most about it? Ben: People imagine it's the view from the top, but honestly it's solving problems — every wall is like a puzzle for your hands and feet. Interviewer: Is anything especially difficult? Ben: Strength matters less than you'd think. The hardest thing for me was learning to stay calm when I'm high up. Interviewer: How often do you train? Ben: I'd love to go every day, but with schoolwork I manage three times a week at the club. Interviewer: Any advice for beginners? Ben: Don't spend lots of money on equipment at first. The important thing is to take lessons with a qualified instructor — that's what keeps you safe. Interviewer: And what's next for you? Ben: There's a national junior competition in the spring, and my dream is to reach the final."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How did Ben start climbing?",
+     "o": ["At a summer camp", "At an indoor climbing wall", "With his school"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Ben enjoy most about climbing?",
+     "o": ["The views from the top", "Winning competitions", "Solving problems on the wall"],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What was hardest for Ben to learn?",
+     "o": ["Staying calm high up", "Getting strong enough", "Finding time to train"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How often does Ben train?",
+     "o": ["Once a week", "Every day", "Three times a week"],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What advice does Ben give beginners?",
+     "o": ["Take lessons with an instructor", "Buy expensive equipment", "Train alone at first"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Ben hope to do next?",
+     "o": ["Teach younger climbers", "Reach a competition final", "Climb abroad"],
+     "c": 1
+    }
+   ]
+  }
+ ]
+}

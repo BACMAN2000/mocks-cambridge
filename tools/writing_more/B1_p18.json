@@ -1,0 +1,30 @@
+{
+  "title": "B1 Preliminary — Writing (Practice 18)",
+  "durationMin": 45,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in about 100 words.",
+      "tasks": [{
+        "type": "email", "minWords": 100,
+        "lead": "Read this email from your science teacher, Ms Romero, and the notes you have made.",
+        "stimulus": { "head": "EMAIL", "title": "", "body": "From: Ms Romero\nSubject: A garden for our school\n\nDear Class,\n\nThe school has given us a small piece of land behind the gym to create a school garden! We can grow vegetables, flowers or both.\n\nWhat do you think we should grow, and why? We will work on the garden after school — which day suits you best?\n\nMs Romero" },
+        "bullets": ["say what the class should grow and why", "say which day after school suits you best", "offer to bring something useful for the garden", "suggest what to do with the vegetables or flowers later"],
+        "write": "Write your email to Ms Romero."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in about 100 words.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 100,
+          "lead": "You see this announcement in your school English-language magazine.",
+          "stimulus": { "title": "WHY GREEN SPACES MATTER", "body": "Parks, gardens and trees make our towns better places to live. Write an article about your favourite green space and why places like this are important. The best articles will be published next month." },
+          "bullets": ["your favourite park or green space", "what you do there", "why green spaces are important for everyone"],
+          "write": "Write your article." },
+        { "type": "story", "q": 3, "minWords": 100,
+          "lead": "Your English teacher has asked you to write a story.",
+          "startSentence": "Under the oldest tree in the garden, Hana's dog began to dig faster and faster.",
+          "stimulus": { "title": "", "body": "Your story must begin with this sentence:\n\nUnder the oldest tree in the garden, Hana's dog began to dig faster and faster." },
+          "bullets": [],
+          "write": "Write your story." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "C1 Advanced — Writing (Practice 16)",
+  "durationMin": 90,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 220, "maxWords": 260,
+        "lead": "Your class has attended a seminar about how a community could make the food it eats more sustainable. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would make the greater difference, giving reasons to support your opinion.",
+        "stimulus": { "title": "How could a community make the food it eats more sustainable?", "body": "• supporting local farmers and food markets\n• encouraging people to eat less meat\n• cutting the amount of food that is wasted\n\nSome opinions expressed in the seminar:\n\"Food that travels three thousand kilometres cannot call itself fresh.\"\n\"Nobody wants a lecture at dinner - give people dishes worth choosing.\"\n\"We grow enough food already; we just throw a third of it away.\"" },
+        "bullets": ["discuss two of the ideas", "explain which would make the greater difference", "give reasons to support your opinion"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [
+        { "type": "proposal", "q": 2, "minWords": 220, "maxWords": 260,
+          "lead": "Your town council has offered an unused piece of land to residents and invited proposals for its use.",
+          "stimulus": { "title": "Proposal: a community food garden", "body": "Write a proposal for turning the land into a community food garden. Describe how the garden would be organised and maintained, explain how it would involve people of different ages and backgrounds, and outline the benefits beyond the food itself." },
+          "bullets": ["how the garden would be organised and maintained", "how it would involve different residents", "the benefits beyond the food itself"],
+          "write": "Write your proposal." },
+        { "type": "report", "q": 3, "minWords": 220, "maxWords": 260,
+          "lead": "The director of your college has asked for a report on food waste in the college canteen.",
+          "stimulus": { "title": "Report: food waste in the canteen", "body": "Write a report describing where and why food is wasted in the canteen, evaluating two possible ways of reducing the waste, and recommending which the college should adopt first." },
+          "bullets": ["where and why food is wasted", "two possible ways of reducing it", "which the college should adopt first, and why"],
+          "write": "Write your report." },
+        { "type": "review", "q": 4, "minWords": 220, "maxWords": 260,
+          "lead": "An English-language food website has invited reviews of restaurants that claim to be sustainable.",
+          "stimulus": { "title": "How green is your dinner?", "body": "Review a restaurant or café that promotes itself as sustainable or locally sourced. Describe the food and the experience, assess whether its environmental claims seem genuine or merely good marketing, and say whether you would go back." },
+          "bullets": ["the food and the experience", "whether its claims seem genuine or just marketing", "whether you would go back"],
+          "write": "Write your review." }
+      ]
+    }
+  ]
+}

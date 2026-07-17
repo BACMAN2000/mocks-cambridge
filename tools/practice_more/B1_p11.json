@@ -1,0 +1,181 @@
+{
+  "title": "B1 Preliminary — Reading (Practice 11)",
+  "note": "All six parts are auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Oakwood Nature Reserve",
+          "text": "THE OSPREY NEST CAMERA IS NOW SHOWING LIVE PICTURES IN THE VISITOR CENTRE.\nTO AVOID DISTURBING THE BIRDS, THE PATH PAST THE NEST ITSELF IS CLOSED UNTIL THE CHICKS LEAVE IN AUGUST.",
+          "stem": "How can visitors see the ospreys at the moment?",
+          "options": ["By watching a screen in the visitor centre.", "By walking quietly along the path to the nest.", "By joining a special tour in August."],
+          "answer": 0
+        },
+        {
+          "kind": "message",
+          "header": "Text from Joel to Hannah",
+          "text": "Hannah — I know we planned to count the frogs at the pond after school, but Miss Reeve wants us to hand in our wildlife diaries first thing tomorrow instead of Friday. Mine's only half done! Can we swap the pond visit to Thursday and finish our diaries tonight?",
+          "stem": "Why does Joel want to change their plans?",
+          "options": ["The pond is closed to students until Thursday.", "He has lost his wildlife diary at school.", "Their schoolwork is now due earlier than expected."],
+          "answer": 2
+        },
+        {
+          "kind": "email",
+          "from": "Wildlife Watch Club",
+          "to": "All members",
+          "subject": "Beach clean-up day",
+          "body": "Thank you to everyone who signed up for Sunday's beach clean-up. Gloves and bags will be provided, but the car park by the lighthouse is closed for repairs, so please use the one behind the sailing club instead. We meet at the pier steps at 9am.",
+          "stem": "What has changed about Sunday's event?",
+          "options": ["It will start later than originally planned.", "Members should park in a different place.", "Members must now bring their own gloves."],
+          "answer": 1
+        },
+        {
+          "kind": "sign",
+          "header": "Silverdale Safari Park",
+          "text": "PLEASE KEEP YOUR CAR WINDOWS CLOSED IN THE MONKEY ENCLOSURE.\nTHE MONKEYS LOOK FRIENDLY, BUT THEY WILL TAKE ANYTHING THEY CAN REACH — MIRRORS AND AERIALS INCLUDED!",
+          "stem": "Why should drivers keep their windows closed?",
+          "options": ["The monkeys can be dangerous to touch.", "The park does not allow feeding animals.", "The monkeys may steal things from cars."],
+          "answer": 2
+        },
+        {
+          "kind": "note",
+          "header": "From Mum",
+          "text": "Priya — a bird flew into the kitchen window this morning. It's alive but seems shocked, so I've put it in a box in the garage with a towel over it. The wildlife rescue lady said don't give it food or water — she'll collect it at 5. Just check it's still safely in the box when you get home.",
+          "stem": "What does Mum want Priya to do?",
+          "options": ["Give the bird some food and water.", "Make sure the bird has not escaped from the box.", "Take the bird to the wildlife rescue centre."],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "The five people below all want to volunteer on a nature project. Read the descriptions of eight projects (A–H) and decide which project would be most suitable for each person. There are three projects you do not need to use.",
+      "sources": [
+        {
+          "label": "6",
+          "name": "Camille",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/75.jpg\" alt=\"Camille\" loading=\"lazy\">",
+          "text": "Camille is fascinated by sea creatures and wants to work directly with injured animals, helping them recover. She is free for the whole summer and happy to live away from home, but she cannot swim very well."
+        },
+        {
+          "label": "7",
+          "name": "Viktor",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/64.jpg\" alt=\"Viktor\" loading=\"lazy\">",
+          "text": "Viktor is interested in birds and loves photography. He would like a project where he can watch wildlife for long periods without disturbing it, and where his camera skills would actually be useful to scientists."
+        },
+        {
+          "label": "8",
+          "name": "Rosa",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/41.jpg\" alt=\"Rosa\" loading=\"lazy\">",
+          "text": "Rosa enjoys gardening and wants to help nature in her own city, as she cannot travel. She is only free for a couple of hours each week, so she needs something local and flexible rather than a full-time project."
+        },
+        {
+          "label": "9",
+          "name": "Aiden",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/29.jpg\" alt=\"Aiden\" loading=\"lazy\">",
+          "text": "Aiden is very fit and wants to spend two weeks doing tough physical work in wild mountain country. He would love to help bring back the forests that once grew there, and he does not mind cold or basic conditions."
+        },
+        {
+          "label": "10",
+          "name": "Mei",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/58.jpg\" alt=\"Mei\" loading=\"lazy\">",
+          "text": "Mei is studying biology and needs experience counting and recording animals for her university application. She would prefer a night-time project, because she works in a bakery every morning and afternoon."
+        }
+      ],
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Eagle Watch: Help scientists monitor a family of rare eagles from a hidden shelter on the cliffs. Volunteers watch in silence for several hours at a time and photograph the birds' behaviour for the research team's records.",
+          "Highland Tree Project: Join a two-week camp planting thousands of young trees on bare mountainsides. The work is hard, the weather is often freezing and the huts are simple, but volunteers restore a real forest.",
+          "Dolphin Boat Surveys: Spend your days on a research boat recording dolphins out at sea. All volunteers must pass a swimming test before joining, as the team sometimes enters the water with the animals.",
+          "Seal Hospital: Our coastal rescue centre cares for sick and injured seals until they can return to the sea. Volunteers feed the patients, clean the pools from the outside and help the vet with treatments. Summer-long placements include accommodation.",
+          "Butterfly Garden Cafe: Serve drinks and snacks to visitors at our butterfly house. No contact with the insects themselves, but staff receive free entry to the exhibition and a uniform.",
+          "Desert Camel Trek: A sponsored ten-day ride across the desert to raise money for endangered species. Riders sleep in tents and must raise at least £800 before departure.",
+          "City Bee Corners: Turn forgotten corners of the city into tiny flower gardens for bees and butterflies. Volunteers adopt a spot near their home and tend it whenever they have a spare hour — no fixed schedule at all.",
+          "Bat Count Nights: Meet at sunset to count bats leaving their roosts, using special detectors that make their calls audible. Data goes straight to a national science project. Perfect for volunteers who are busy during the day."
+        ]
+      },
+      "questions": [
+        {"stem": "Camille", "answer": "D"},
+        {"stem": "Viktor", "answer": "A"},
+        {"stem": "Rosa", "answer": "G"},
+        {"stem": "Aiden", "answer": "B"},
+        {"stem": "Mei", "answer": "H"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the article about a hedgehog rescuer and choose the best answer A, B, C or D.",
+      "passage": "A garden full of hedgehogs\n\nFour years ago, Callum Reid found a small hedgehog lying in the road outside his house on a cold October evening. \"I nearly walked past,\" he admits. \"I assumed it was beyond help. But when I bent down, I saw it breathing, so I wrapped it in my jacket and knocked on the door of a neighbour who I knew kept chickens. I thought she might know what to do. She didn't — but between us we found a wildlife hospital online and drove there at midnight.\"\n\nThe hedgehog, which Callum named Conker, survived, and the hospital asked whether Callum could look after him through the winter, as he was too small to survive outside. Callum said yes — and that, he laughs, was his big mistake. \"Once the hospital had my number, they rang every few weeks. Could I take one more? By the next autumn I had eleven hedgehogs in my garden shed, and my electricity bill had doubled because of the heat lamps.\"\n\nCallum, who works as a postman, now spends around two hours every evening weighing his patients, preparing their food and cleaning their cages. The hardest part, he says, is not the work but the goodbyes. \"People think releasing a healthy hedgehog must feel wonderful. Honestly? You've fed this animal every night for five months, and then you open a cage in a hedge somewhere and it walks away without looking back. It's the whole point — but it still stings a little.\"\n\nHe is keen to point out that anyone with a garden can help without becoming a rescuer. \"Cut a small hole in your fence so hedgehogs can travel between gardens, leave a corner untidy, and check long grass before cutting it. If people did those three things, half my patients would never have needed me. I'd honestly love to be unnecessary.\"",
+      "questions": [
+        {"stem": "What do we learn about the night Callum found Conker?", "options": ["He recognised immediately that the hedgehog could be saved.", "His neighbour told him how to care for the hedgehog.", "He took the hedgehog to a vet the following morning.", "He almost did not stop to help the hedgehog."], "answer": 3},
+        {"stem": "Why does Callum say agreeing to keep Conker was 'his big mistake'?", "options": ["Conker damaged his garden shed badly.", "It led to him caring for many more hedgehogs.", "The hospital charged him for Conker's treatment.", "His electricity bill was already too high."], "answer": 1},
+        {"stem": "What does Callum find most difficult about rescuing hedgehogs?", "options": ["Spending two hours working every evening.", "Preparing the right food for each animal.", "Letting the animals go after months of care.", "Finding safe places to release them."], "answer": 2},
+        {"stem": "What does Callum say about releasing a healthy hedgehog?", "options": ["It is necessary even though it makes him a little sad.", "It is the most enjoyable part of the work.", "It often fails because the animals return.", "It should only be done by wildlife hospitals."], "answer": 0},
+        {"stem": "What is Callum's message to people with gardens?", "options": ["They should consider becoming rescuers themselves.", "They should report injured hedgehogs to him directly.", "They should keep their gardens tidy and safe.", "Small changes could stop many hedgehogs getting hurt."], "answer": 3}
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 4",
+      "instructions": "Read the article about wolves returning to Europe. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+      "passage": "The return of the wolf\n\nA hundred years ago, wolves had almost completely disappeared from western Europe. Hunted for centuries, they survived only in remote forests and mountains far to the east. (16)____ Today, they can once again be found in more than twenty European countries.\n\nThe wolves were not brought back by people. Instead, they returned on their own four paws, walking hundreds of kilometres along rivers and through forests. (17)____ One famous male, fitted with a tracking collar, crossed four countries in less than two years.\n\nMany scientists are delighted. Wolves hunt deer and wild boar, whose growing numbers have been destroying young trees and farmers' crops. (18)____ In areas where wolves have settled, some forests are already growing back more strongly.\n\nNot everyone is celebrating, however. Farmers in mountain villages worry about their sheep, and some have found animals killed. (19)____ Governments now pay for these protective measures in many regions, as well as paying farmers for any animals lost.\n\nThe wolf's return raises a bigger question: can modern Europe share its crowded landscape with a large wild hunter? (20)____ The answer will depend less on the wolves themselves than on the patience of the people who live alongside them.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Traditional defences, such as guard dogs and electric fences, are therefore becoming popular again.",
+          "Then, in the 1990s, new laws protecting the species began to change everything.",
+          "Wolves almost never attack humans, and no such attack has been recorded there.",
+          "Some experts believe it will take decades before we know for certain.",
+          "Young wolves regularly travel enormous distances to find new territory and a mate.",
+          "A fully grown wolf can eat several kilograms of meat in a single meal.",
+          "By controlling these animals, the hunters are quietly repairing the landscape.",
+          "Farmers receive no support of any kind in most of these countries."
+        ]
+      },
+      "questions": [
+        {"stem": "Gap 16", "answer": "B"},
+        {"stem": "Gap 17", "answer": "E"},
+        {"stem": "Gap 18", "answer": "G"},
+        {"stem": "Gap 19", "answer": "A"},
+        {"stem": "Gap 20", "answer": "D"}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 5",
+      "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+      "title": "The world's loudest bird",
+      "body": "Deep in the South American rainforest lives a white bird about the size of a pigeon that holds a remarkable record: it is the loudest bird on (21)____. The male white bellbird produces a call that can (22)____ 125 decibels — louder than a rock concert and almost as loud as a plane taking off. What surprises scientists most is who the bird sings to. Instead of calling across the forest to distant females, the male often screams directly at a female sitting on a branch right (23)____ to him. Researchers cannot yet explain why the females put up with this painful concert, although some believe they are judging the male's strength by the (24)____ of his voice. Making so much noise comes at a cost, however. The bellbird's body is small, so each scream uses a huge amount of (25)____, and the loudest calls are also the shortest. In nature, it seems, you cannot have everything — not even if you are the noisiest bird in the (26)____.",
+      "questions": [
+        {"options": ["Earth", "world", "land", "ground"], "answer": 0},
+        {"options": ["arrive", "get", "reach", "touch"], "answer": 2},
+        {"options": ["close", "next", "near", "beside"], "answer": 1},
+        {"options": ["might", "force", "energy", "power"], "answer": 3},
+        {"options": ["work", "energy", "action", "effect"], "answer": 1},
+        {"options": ["forest", "jungle", "trees", "wood"], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 6",
+      "instructions": "For each gap (27–32), write ONE word.",
+      "title": "Email about a wildlife trip",
+      "body": "Hi Jonas,\n\nI have just come back from the whale-watching trip I told you (27)____ last month. It was even better than I expected!\n\nWe went out on a small boat with a guide (28)____ has studied whales for twenty years. At first we saw nothing, and I was afraid we (29)____ be unlucky. Then, after about an hour, a huge grey whale appeared right next to the boat! It was (30)____ close that we could hear it breathing.\n\nThe guide told us there (31)____ more whales here now than ten years ago, because fishing boats must stay away from the bay. Isn't that great news?\n\nYou should come (32)____ me next year — I'm definitely going again.\n\nBest wishes,\nInes",
+      "questions": [
+        {"accept": ["about"]},
+        {"accept": ["who", "that"]},
+        {"accept": ["would", "might", "could"]},
+        {"accept": ["so"]},
+        {"accept": ["are"]},
+        {"accept": ["with"]}
+      ]
+    }
+  ]
+}

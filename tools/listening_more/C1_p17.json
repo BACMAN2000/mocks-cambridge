@@ -1,0 +1,420 @@
+{
+ "label": "C1 — Advanced",
+ "cefr": "Cambridge Advanced (CAE) · C1 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+ "audios": [
+  {
+   "id": "C1-P1",
+   "title": "Part 1 · Questions 1–6",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "An auction",
+    "A decluttered flat",
+    "A museum donation",
+    "A price bubble",
+    "A classroom study",
+    "A collector's plan"
+   ],
+   "scripts": [
+    "Question one. Woman: You're seriously bidding on that stamp? It's three months' salary, and you already own two almost identical. Man: Almost is the operative word. This one closes the 1922 set, thirty years I've been circling it. I can explain the watermark varieties if you like, but honestly, the only justification that matters is that afterwards there will be no gap. You don't reason with a gap.",
+    "Question two. Man: So the great declutter happened at last? The teapots are gone? Woman: All but nine, and I'd braced myself for grief, everyone promises you grief. What I actually felt, watching the boxes go, was lighter, and slightly foolish. It turns out I'd finished collecting years ago and just hadn't told myself. The keeping had become a habit wearing the costume of a passion.",
+    "Question three. Woman: The Hartley bequest arrived this week, four thousand butterflies. As specimens, candidly, they're unremarkable, any provincial museum has finer. What makes the bequest priceless is the paperwork: sixty years of field notebooks, every capture dated, mapped and weathered. He didn't just collect insects, he accidentally recorded a century of climate. We'd have taken the notebooks without the butterflies.",
+    "Question four. Man: Have you seen what those model cars fetch now? Ten times what we paid in the nineties. Woman: You must be delighted. Man: You'd think so, but the auctions are full of men with spreadsheets who've never opened a box, buying purely to sell on. Prices climbing is flattering. Watching the hobby turn into a stock exchange, that I could do without.",
+    "Question five. Woman: We compared eight-year-olds who kept collections, cards, shells, anything, with those who didn't, expecting the collectors to be better at sorting and categorising, and they were, modestly. The result we didn't see coming concerned patience. In delayed-reward tests, the young collectors held out roughly twice as long. Waiting for the missing piece, it seems, is training in itself.",
+    "Question six. Man: The dealer's offered me the 1961 poster at last, but the price is brutal. Woman: So it's finally happening? Man: It is, but not with savings. I've spent the weekend pulling every duplicate off my shelves, and they go to auction next month. The collection funds its own crown jewel or it doesn't get one. My bank account and my marriage both stay intact."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How does the man justify bidding on the stamp?",
+     "o": [
+      "It is a sound investment",
+      "It will complete a long-pursued set",
+      "It is rarer than his other stamps"
+     ],
+     "c": 1,
+     "audio": "P17/C1/C1-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How did the woman feel after giving away her teapots?",
+     "o": [
+      "Relieved rather than grief-stricken",
+      "Sadder than she had expected",
+      "Determined to start collecting again"
+     ],
+     "c": 0,
+     "audio": "P17/C1/C1-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why does the curator value the butterfly bequest?",
+     "o": [
+      "The specimens are exceptionally fine",
+      "The accompanying records are scientifically precious",
+      "It is larger than any rival collection"
+     ],
+     "c": 1,
+     "audio": "P17/C1/C1-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the man's attitude to the rise in model car prices?",
+     "o": [
+      "He is planning to sell at the peak",
+      "He regrets not buying more in the nineties",
+      "He dislikes what speculation is doing to the hobby"
+     ],
+     "c": 2,
+     "audio": "P17/C1/C1-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What surprised the researchers about children who collect?",
+     "o": [
+      "They were no better at categorising",
+      "They showed markedly greater patience",
+      "They preferred immediate rewards"
+     ],
+     "c": 1,
+     "audio": "P17/C1/C1-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How will the man pay for the 1961 poster?",
+     "o": [
+      "By using his savings",
+      "By negotiating a lower price",
+      "By selling duplicates from his collection"
+     ],
+     "c": 2,
+     "audio": "P17/C1/C1-P1-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "C1-P2",
+   "title": "Part 2 · Questions 7–14",
+   "kind": "file",
+   "file": "P17/C1/C1-P2.mp3",
+   "intro": "You will hear a psychologist called Hannah giving a talk about the psychology of collecting. For each question, complete the sentences with a word or short phrase.",
+   "scripts": [
+    "Good evening. I'm Hannah, and I've spent fifteen years studying why human beings collect things, a behaviour so widespread that treating it as an eccentricity misses the point entirely. Roughly one adult in three keeps a collection of some kind, and the impulse starts early: in our longitudinal work, deliberate collecting, choosing, keeping and arranging a category of objects, typically emerges around the age of seven, just as children discover classification itself. Let me first clear away the comparison that every collector dreads, the comparison with hoarding. Clinically, the two are almost opposites. Hoarding is defined by indiscriminate accumulation; collecting is defined by selection, and above all by order. A hoard grows; a collection is curated. Show me shelves where every object has a place and a reason, and whatever the tabloids say, I am not looking at pathology. Now, the engine of the whole business. People assume the collector's pleasure lies in possession, but every study we have run points the same way: the emotional peak comes during the search, not after it. Brain imaging shows anticipation lighting up reward circuits far more vividly than acquisition does, which explains the melancholy so many collectors report the day a collection is finally complete. One veteran collector told me finishing was like being made redundant by your own happiness. The stereotype of the collector as a solitary figure also collapses under data. The keeping of catalogues looks solitary, and yes, serious collectors are formidable record-keepers, but those records exist largely to be shared, compared and disputed. Collecting is one of the most social behaviours we study: fairs, clubs, rivalries, decades-long correspondences about postmark varieties. The objects are, half the time, an excuse for the people. There is a darker note, and honesty requires it. For a minority, the incompleteness of a collection tips from motivation into genuine anxiety, a gap on a shelf experienced almost as a wound, and spending that follows can damage families. The line between devotion and compulsion is real, and it is crossed, though far more rarely than popular psychology pretends. I should add that collecting built the modern world's memory. Nearly every great public museum began life as a private passion, in those Renaissance rooms called cabinets of curiosities, and the traffic continues: the finest private collections still end their lives as public donations. When I interview elderly collectors about the future, their dominant worry is not price but stewardship, finding hands that will care. And that is my closing thought. When we asked two hundred collectors what they would save first in a fire, almost none named their most valuable piece. They named the object with the best story, the flawed coin a grandfather carried through a war, the concert ticket from the night they met a spouse. Monetary value organises the market, but stories organise the collector. Thank you."
+   ],
+   "gapTitle": "The Psychology of Collecting",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Deliberate collecting typically begins around the age of ____",
+     "accept": [
+      "7",
+      "seven"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Unlike hoarding, collecting is defined by selection and ____",
+     "accept": [
+      "order"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The emotional peak of collecting comes during the ____",
+     "accept": [
+      "search"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Serious collectors are formidable keepers of ____",
+     "accept": [
+      "catalogues",
+      "records",
+      "catalogs"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "For a minority, an incomplete collection causes genuine ____",
+     "accept": [
+      "anxiety"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Early museum rooms were called cabinets of ____",
+     "accept": [
+      "curiosities"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Elderly collectors worry most about ____ , not price",
+     "accept": [
+      "stewardship"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "In a fire, most collectors would save the object with the best ____",
+     "accept": [
+      "story"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1-P3",
+   "title": "Part 3 · Questions 15–20",
+   "kind": "file",
+   "file": "P17/C1/C1-P3.mp3",
+   "intro": "You will hear an interview with an auctioneer called Oliver, who has spent forty years working with collectors. For each question, choose the best answer (A, B, C or D).",
+   "scripts": [
+    "Interviewer: Oliver, after forty years on the rostrum, can you tell a true collector from an investor at a glance? Oliver: Within seconds, and it has nothing to do with clothes or paddles. The investor asks what a piece will be worth. The collector asks where it has been. I've watched a man pay a fortune for a cracked jug and glow for a week, purely because it once stood in a particular Devon farmhouse. No spreadsheet explains that man, and my whole trade rests on him. Interviewer: Auctioneers are sometimes accused of exploiting exactly that passion. Oliver: It's a fair charge to raise, and I'll answer it squarely rather than dodge. The rostrum gives you real power over people in the grip of wanting, and early in my career I used it carelessly, I talked things up, I let rivalries cook. I'm not proud of that. The discipline I learned is to slow the room down precisely when it most wants to speed up. A good auctioneer leaves money on the table sometimes. The alternative is customers who wake up ashamed, and shame doesn't come back through the door. Interviewer: You've seen collecting fashions come and go. What actually determines them? Oliver: Childhood, on a thirty-year delay. Whatever the ten-year-olds of a decade adored, the fifty-year-olds of a later decade will bankrupt themselves recovering. Watch the playground, and you're reading the auction catalogues of 2050. It's the most reliable law I know, and I've never once managed to profit from it in advance, which should tell you something about laws and about me. Interviewer: Is there a purchase you've regretted enabling? Oliver: One, and I think of it more often than I'd like. A widow, bidding far past sense on her late husband's category, and I could see, everyone could see, it wasn't the porcelain she was bidding on. I should have paused the sale, spoken with her privately. I hammered it through instead. Perfectly legal, professionally impeccable, and it has never once felt right. Interviewer: The online platforms, are they killing the auction room? Oliver: They've killed something, the accidental education. A saleroom viewing was a free museum where you could handle things, and a teenager could wander in from the rain and leave with an obsession. A website shows you exactly what you searched for, which is precisely the problem. Serendipity doesn't have a search box. The bidding survives online, the apprenticeship doesn't. Interviewer: And your own collection? There must be one. Oliver: Auctioneers' catalogues, three rooms of them, which my wife points out is the professional deformation in its purest form. I sell the objects and keep the lists. I did warn you no spreadsheet explains a collector. Interviewer: Oliver, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "According to Oliver, what distinguishes a true collector?",
+     "o": [
+      "The size of their budget",
+      "An interest in an object's history",
+      "Their knowledge of market prices",
+      "A preference for flawless pieces"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How does Oliver respond to the accusation of exploiting collectors?",
+     "o": [
+      "He denies that auctioneers have such power",
+      "He admits past fault and describes how he changed",
+      "He blames rivalries among the bidders",
+      "He argues shame keeps customers returning"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Oliver say drives collecting fashions?",
+     "o": [
+      "The tastes of wealthy investors",
+      "Auction house publicity",
+      "What people loved as children",
+      "Laws he has learned to profit from"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "Why does Oliver regret the sale involving the widow?",
+     "o": [
+      "The sale broke professional rules",
+      "The porcelain was overvalued",
+      "He failed to intervene when he sensed her real motive",
+      "Her family later complained to him"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What does Oliver believe online platforms have destroyed?",
+     "o": [
+      "The chance of unplanned discovery",
+      "The excitement of bidding",
+      "The accuracy of search tools",
+      "The profits of auction houses"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What is implied by Oliver's remark about his own collection?",
+     "o": [
+      "He has finally stopped collecting",
+      "He too is driven by something beyond logic",
+      "His wife shares his passion for catalogues",
+      "He values his collection for its price"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "C1-P4",
+   "title": "Part 4 · Questions 21–30",
+   "kind": "file",
+   "file": "P17/C1/C1-P4.mp3",
+   "intro": "You will hear five people talking about their collections. TASK ONE (21–25): choose how each speaker's collection began. TASK TWO (26–30): choose what each speaker now values most about collecting.",
+   "scripts": [
+    "Speaker one. Max: Mine started in a flea market in Lisbon, of all places. I was sheltering from a downpour and picked up a tin globe, pocket-sized, oceans half rubbed away, and something about it refused to be put down. One globe became four hundred. People ask which is the rarest and I genuinely have to look it up, because that's never been the pulse of it for me. The pulse is the looking: the last stall on a wet Sunday, the box under the trestle table nobody else bothered to open. Finding is almost the sad part. Speaker two. Rosa: My grandmother left me her postcards, two thousand of them, and I'll be honest, at the time I'd have preferred the piano. They sat in the loft for a year before I opened the first album out of guilt. Now there are eleven thousand, so the guilt clearly passed. These days what occupies me is the question of afterwards. I've catalogued everything, I've spoken to the archive in town, and my niece spends Saturdays sorting with me, learning the eras. A collection you haven't arranged a future for is just a burden with sentimental packaging. Speaker three. Ben: After my wife died, the silence in the house had a weight to it, and her sister, wise woman, dropped a shoebox of old cinema programmes on my kitchen table, because films were what Margaret and I did, every Friday for forty years. Sorting that box was the first evening I got through without the radio on. I won't pretend it's really about the programmes even now. When I find one from a night we were actually there, 1974, the Odeon, the two of us nineteen, it's the nearest thing I have to her hand on my shoulder. Speaker four. Mia: Dad gave me a fossil for my ninth birthday, an ammonite, and I can still feel the cold spiral of it in my palm. That was the seed, no question, though it lay dormant through university. What I never saw coming was the people. The fossil world is this vast, argumentative, generous family, forums at midnight, field trips in horizontal rain, a retired quarryman in Wales who posts me finds because, quote, the young ones should have them. I came for the stones. Twenty years on, I'd say the stones are the membership card. Speaker five. Hugo: I restore clocks for a living, so mechanisms passed through my hands daily, and one day I simply stopped letting certain keys leave, winding keys, hundreds of years of them, and a collection had begun before I'd agreed to anything. Colleagues assume it's an investment, it emphatically is not, ask my accountant. What it gives me is Sunday evenings: the trays out, the blessed sorting by century and maker, each key labelled and laid in its place. My working week is other people's broken time, all chaos and deadlines. The trays are the one corner of existence I have entirely in order."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — how the collection began",
+     "person": "Speaker 1",
+     "bank": [
+      "a chance find in a market",
+      "an unexpected inheritance",
+      "a way of coping with loss",
+      "a childhood gift",
+      "an overflow from their profession",
+      "a rivalry with a sibling",
+      "a holiday romance",
+      "a mistaken purchase"
+     ],
+     "c": "a chance find in a market"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — how the collection began",
+     "person": "Speaker 2",
+     "bank": [
+      "a chance find in a market",
+      "an unexpected inheritance",
+      "a way of coping with loss",
+      "a childhood gift",
+      "an overflow from their profession",
+      "a rivalry with a sibling",
+      "a holiday romance",
+      "a mistaken purchase"
+     ],
+     "c": "an unexpected inheritance"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — how the collection began",
+     "person": "Speaker 3",
+     "bank": [
+      "a chance find in a market",
+      "an unexpected inheritance",
+      "a way of coping with loss",
+      "a childhood gift",
+      "an overflow from their profession",
+      "a rivalry with a sibling",
+      "a holiday romance",
+      "a mistaken purchase"
+     ],
+     "c": "a way of coping with loss"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — how the collection began",
+     "person": "Speaker 4",
+     "bank": [
+      "a chance find in a market",
+      "an unexpected inheritance",
+      "a way of coping with loss",
+      "a childhood gift",
+      "an overflow from their profession",
+      "a rivalry with a sibling",
+      "a holiday romance",
+      "a mistaken purchase"
+     ],
+     "c": "a childhood gift"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — how the collection began",
+     "person": "Speaker 5",
+     "bank": [
+      "a chance find in a market",
+      "an unexpected inheritance",
+      "a way of coping with loss",
+      "a childhood gift",
+      "an overflow from their profession",
+      "a rivalry with a sibling",
+      "a holiday romance",
+      "a mistaken purchase"
+     ],
+     "c": "an overflow from their profession"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they now value most",
+     "person": "Speaker 1",
+     "bank": [
+      "the excitement of searching",
+      "securing the collection's future",
+      "a link to someone they lost",
+      "the community around the hobby",
+      "the ritual of putting things in order",
+      "the financial return",
+      "impressing visitors",
+      "the expertise they have gained"
+     ],
+     "c": "the excitement of searching"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they now value most",
+     "person": "Speaker 2",
+     "bank": [
+      "the excitement of searching",
+      "securing the collection's future",
+      "a link to someone they lost",
+      "the community around the hobby",
+      "the ritual of putting things in order",
+      "the financial return",
+      "impressing visitors",
+      "the expertise they have gained"
+     ],
+     "c": "securing the collection's future"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they now value most",
+     "person": "Speaker 3",
+     "bank": [
+      "the excitement of searching",
+      "securing the collection's future",
+      "a link to someone they lost",
+      "the community around the hobby",
+      "the ritual of putting things in order",
+      "the financial return",
+      "impressing visitors",
+      "the expertise they have gained"
+     ],
+     "c": "a link to someone they lost"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they now value most",
+     "person": "Speaker 4",
+     "bank": [
+      "the excitement of searching",
+      "securing the collection's future",
+      "a link to someone they lost",
+      "the community around the hobby",
+      "the ritual of putting things in order",
+      "the financial return",
+      "impressing visitors",
+      "the expertise they have gained"
+     ],
+     "c": "the community around the hobby"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they now value most",
+     "person": "Speaker 5",
+     "bank": [
+      "the excitement of searching",
+      "securing the collection's future",
+      "a link to someone they lost",
+      "the community around the hobby",
+      "the ritual of putting things in order",
+      "the financial return",
+      "impressing visitors",
+      "the expertise they have gained"
+     ],
+     "c": "the ritual of putting things in order"
+    }
+   ]
+  }
+ ]
+}

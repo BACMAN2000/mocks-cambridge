@@ -1,0 +1,181 @@
+{
+  "title": "B1 Preliminary — Reading (Practice 16)",
+  "note": "All six parts are auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Hartfield School — Exchange Week",
+          "text": "STUDENTS HOSTING A GERMAN EXCHANGE PARTNER: YOUR GUEST'S TIMETABLE IS NOW ON THE LANGUAGES NOTICEBOARD.\nPLEASE CHECK IT TODAY — SOME GUESTS ATTEND DIFFERENT LESSONS FROM THEIR HOSTS.",
+          "stem": "Why should host students look at the noticeboard?",
+          "options": ["To find out which guest they will host.", "To sign up for the exchange programme.", "To see their guest's lesson arrangements."],
+          "answer": 2
+        },
+        {
+          "kind": "message",
+          "header": "Text from Chiara to Ross",
+          "text": "Ross — my French penfriend Manon arrives tomorrow, and I've just found out her bus gets in at 3, right when I have my piano exam! Mum can't leave work either. You've met her on video chat — would you meet the bus and take her to ours? I'll be back by 4.30. You're a star!",
+          "stem": "What does Chiara want Ross to do?",
+          "options": ["Collect Manon and take her to Chiara's house.", "Take Chiara to her piano exam by 3 o'clock.", "Video call Manon to explain the problem."],
+          "answer": 0
+        },
+        {
+          "kind": "email",
+          "from": "Lingua Summer Camps",
+          "to": "Parents of registered students",
+          "subject": "Language level test",
+          "body": "Before camp begins, every student takes a short online English test so we can place them in the right class. The test opens on Monday and must be completed by 25 June. It cannot be retaken, so please make sure your child does it somewhere quiet, without help.",
+          "stem": "What does the email say about the test?",
+          "options": ["Students may take it as many times as they like.", "Students should complete it alone in a quiet place.", "Students will take it on the first day of camp."],
+          "answer": 1
+        },
+        {
+          "kind": "sign",
+          "header": "City Library — Language Corner",
+          "text": "CONVERSATION TABLES EVERY WEDNESDAY, 6–8PM.\nPRACTISE SPANISH, JAPANESE OR ARABIC WITH NATIVE SPEAKERS. FREE, BUT PLACES ARE LIMITED — ADD YOUR NAME TO TONIGHT'S LIST AT THE DESK.",
+          "stem": "What should people do if they want to take part tonight?",
+          "options": ["Pay a small fee at the desk.", "Put their name on a list at the desk.", "Arrive at the library before 6pm."],
+          "answer": 1
+        },
+        {
+          "kind": "note",
+          "header": "From Dad",
+          "text": "Yuki — your host family in Dublin emailed. They're vegetarian, so they're asking if that's OK for meals, or whether they should cook meat separately for you. Answer them tonight please — they seem lovely and they want to plan your welcome dinner. Their email is printed on my desk.",
+          "stem": "What does Yuki need to do tonight?",
+          "options": ["Reply to the host family about food.", "Choose what to cook for the welcome dinner.", "Print the host family's email for Dad."],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "The five students below all want to improve a foreign language abroad. Read the descriptions of eight programmes (A–H) and decide which programme would be most suitable for each person. There are three programmes you do not need to use.",
+      "sources": [
+        {
+          "label": "6",
+          "name": "Louis",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/22.jpg\" alt=\"Louis\" loading=\"lazy\">",
+          "text": "Louis learns best by doing practical things, not sitting in classrooms. He wants to improve his Spanish while working with his hands, and he would be happiest outdoors. He can stay away for a whole month in summer."
+        },
+        {
+          "label": "7",
+          "name": "Emilia",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/64.jpg\" alt=\"Emilia\" loading=\"lazy\">",
+          "text": "Emilia is fifteen and this would be her first time away from her parents, so they want an organised programme where adults are responsible for students around the clock. She loves sport and wants plenty of activities after class."
+        },
+        {
+          "label": "8",
+          "name": "Dominik",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/85.jpg\" alt=\"Dominik\" loading=\"lazy\">",
+          "text": "Dominik needs to pass an official English exam to study engineering abroad next year. He wants serious, intensive preparation with lots of practice tests, and he does not care about excursions or entertainment."
+        },
+        {
+          "label": "9",
+          "name": "Alice",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/31.jpg\" alt=\"Alice\" loading=\"lazy\">",
+          "text": "Alice wants to live exactly like a local teenager: going to a real school, sharing family meals and picking up the language naturally. She is confident, independent and happy to stay abroad for several months."
+        },
+        {
+          "label": "10",
+          "name": "Sergio",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/49.jpg\" alt=\"Sergio\" loading=\"lazy\">",
+          "text": "Sergio is a university student of French who loves cinema. He wants to spend his language course doing something creative connected to films, and he dreams of making his own short video in French."
+        }
+      ],
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Full School Immersion: Spend a term or a full year attending an ordinary secondary school abroad, living with a carefully chosen family. No tourist programme, no group of foreign classmates — just real daily life in another language.",
+          "Grand City Language Tour: Visit four capital cities in two weeks, with a morning language lesson in each and afternoons for sightseeing. Hotels and travel included. A taste of everything, but never long in one place!",
+          "Eco-Farm Spanish: Help on a family farm in the mountains for four weeks — harvesting vegetables, repairing fences and caring for animals — while speaking Spanish all day with the farmers. Two evening grammar lessons a week included.",
+          "Business English for Professionals: One-to-one lessons for adults preparing for job interviews and international careers. Minimum age 21. Courses take place in a city-centre office building.",
+          "Exam Success Academy: Six hours of English daily with expert teachers who know the official exams inside out. Weekly mock tests, personal feedback and a guaranteed exam place at the end of the course. Not much free time — this is study, study, study.",
+          "Lights, Camera, Français!: A three-week course in Lyon combining French classes with film-making workshops. Students write, act in and edit a short film in French, shown at a real cinema on the final evening.",
+          "International Sports Camp: English lessons every morning, then football, swimming, climbing and tennis all afternoon with students from thirty countries. Staff supervise everything, including evenings, and camp doctors are on site day and night. Ages 12–16.",
+          "Museum Volunteers Programme: Improve your Italian by guiding visitors at a famous art museum. Volunteers must already speak the language fluently, as they answer real tourists' questions all day."
+        ]
+      },
+      "questions": [
+        {"stem": "Louis", "answer": "C"},
+        {"stem": "Emilia", "answer": "G"},
+        {"stem": "Dominik", "answer": "E"},
+        {"stem": "Alice", "answer": "A"},
+        {"stem": "Sergio", "answer": "F"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the article about a school exchange and choose the best answer A, B, C or D.",
+      "passage": "My term at a school in Finland\n\nWhen sixteen-year-old Gabriel Moreau won a place on an exchange programme to Finland, his friends mostly asked about the cold. \"Everyone warned me about the winter,\" he laughs. \"Nobody warned me about the silence. In my school in France, we talk constantly — in class, in the corridors, everywhere. In my Finnish classroom, when the teacher asked a question, students actually thought before answering. The first week, those quiet pauses made me so uncomfortable that I filled every one of them by talking nonsense. My host brother finally told me, very kindly, that silence in Finland just means people are thinking. That one sentence changed my whole term.\"\n\nGabriel's biggest surprise came from how much freedom students were given. \"We finished lessons at two or three o'clock, and there was hardly any homework compared to home. At first I thought: this is a holiday! Then I understood the deal — teachers trusted us to manage our own learning, and everybody knew the trust would disappear if we wasted it. Strangely, I studied more willingly there than I ever had in France, where someone is always checking you.\"\n\nNot everything was easy. Gabriel spoke good English, which most Finnish students used with him happily — too happily, in fact. \"My goal was to learn some Finnish, but the moment I tried, people switched to English to help me,\" he says. \"In the end I made a rule with my host family: no English at the dinner table. The first evenings were slow and full of dictionary breaks, but by December I could tell a whole story in Finnish. Badly — but a whole story.\"\n\nNow back in France, Gabriel says the exchange changed how he wants to learn. \"I used to think a good student was someone who answers fastest. Now I think it's someone who knows why they are studying. I brought home a little of that Finnish silence. My friends find it strange when I pause before answering. I tell them: I'm not being slow, I'm thinking. They don't believe me yet.\"",
+      "questions": [
+        {"stem": "What surprised Gabriel most during his first week?", "options": ["How cold the Finnish winter was.", "How quiet the students were in class.", "How difficult the lessons were.", "How unfriendly his classmates seemed."], "answer": 1},
+        {"stem": "What did Gabriel realise about the freedom given to Finnish students?", "options": ["It depended on students using it responsibly.", "It meant lessons were less important there.", "It made most students study less.", "It only applied to exchange students."], "answer": 0},
+        {"stem": "What problem did Gabriel have with learning Finnish?", "options": ["His host family refused to correct him.", "He could not find a good dictionary.", "People kept switching to English with him.", "The grammar was too hard for beginners."], "answer": 2},
+        {"stem": "How did Gabriel manage to improve his Finnish?", "options": ["He took extra lessons after school.", "He watched Finnish television every evening.", "He practised with other exchange students.", "He agreed to avoid English during family dinners."], "answer": 3},
+        {"stem": "How has the exchange changed Gabriel's ideas about learning?", "options": ["He now answers questions faster than before.", "He believes understanding your purpose matters most.", "He thinks French schools give too little homework.", "He wants all lessons to finish at two o'clock."], "answer": 1}
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 4",
+      "instructions": "Read the article about learning languages. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+      "passage": "How many languages can one person learn?\n\nMost people manage one or two foreign languages at school, often with great effort. Yet history records individuals who claimed to speak twenty, thirty or even fifty. (16)____ Modern researchers are trying to separate the truth from the legends.\n\nScientists use the word 'polyglot' for someone who speaks many languages well. (17)____ Beyond that number, they say, it becomes difficult to keep every language active and ready to use.\n\nWhat makes polyglots special? For years, people assumed they were simply born with unusual brains. (18)____ Most polyglots interviewed in studies describe ordinary memories but extraordinary habits: daily practice, clever use of spare minutes, and no fear of making mistakes.\n\nOne famous modern polyglot, a translator from Slovakia, compares languages to fires. (19)____ She spends her mornings 'feeding' whichever languages she needs that week, reading news or listening to podcasts in each one.\n\nCan anyone become a polyglot? Researchers believe motivation matters more than talent. (20)____ In other words, the question is not whether you can learn five languages — it is whether you truly want to.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "In their studies, learners with strong personal reasons made far more progress than those with mere ability.",
+          "One nineteenth-century Italian priest was said to understand more than seventy.",
+          "Children who grow up with two languages often mix them at first.",
+          "Recent research, however, suggests that method beats natural gift.",
+          "English has become the most commonly studied language in the world.",
+          "If you stop feeding one, she says, it does not die — but it burns very low.",
+          "Some of them, sadly, never travelled outside their own country.",
+          "Their tests suggest that even the best rarely maintain more than about ten at a high level."
+        ]
+      },
+      "questions": [
+        {"stem": "Gap 16", "answer": "B"},
+        {"stem": "Gap 17", "answer": "H"},
+        {"stem": "Gap 18", "answer": "D"},
+        {"stem": "Gap 19", "answer": "F"},
+        {"stem": "Gap 20", "answer": "A"}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 5",
+      "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+      "title": "Why do we forget languages?",
+      "body": "Many adults remember studying a foreign language at school for years, yet today they can hardly (21)____ a single sentence in it. Where did all those words go? Scientists who study memory say the language is usually not gone at (22)____ — it is simply sleeping. In experiments, adults who believed they had forgotten everything were still able to (23)____ correct words from wrong ones far better than complete beginners. The brain, it seems, keeps old languages in deep storage and only (24)____ them away when they are unused for decades. The good news is that a sleeping language wakes up much faster than a new one is learned. People who return to a language after twenty years often (25)____ surprising progress within weeks. Experts recommend short, regular contact: a song on the way to work, a film with subtitles, five minutes with an app. Little and often, they say, is the (26)____ to bringing a forgotten language back to life.",
+      "questions": [
+        {"options": ["produce", "invent", "talk", "express"], "answer": 0},
+        {"options": ["least", "once", "first", "all"], "answer": 3},
+        {"options": ["divide", "tell", "notice", "choose"], "answer": 1},
+        {"options": ["puts", "takes", "throws", "gives"], "answer": 2},
+        {"options": ["do", "get", "take", "make"], "answer": 3},
+        {"options": ["answer", "key", "way", "door"], "answer": 1}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 6",
+      "instructions": "For each gap (27–32), write ONE word.",
+      "title": "Email to a host family",
+      "body": "Dear Mr and Mrs Byrne,\n\nThank you so much for agreeing to host me during the exchange in April. I am really looking forward (27)____ meeting you and your family!\n\nMy teacher says you have a son called Patrick, (28)____ is the same age as me. Does he like basketball? I play twice a week at home, so perhaps we (29)____ play together.\n\nMy mother has asked me to tell you that I am allergic (30)____ eggs, but please don't worry — I can eat almost everything else, and I would love to try real Irish food.\n\nThis will be my first visit to Ireland, so could you tell me (31)____ clothes I should bring? My friends say it rains a lot there!\n\nThank you again (32)____ your kindness. See you very soon.\n\nBest wishes,\nLena",
+      "questions": [
+        {"accept": ["to"]},
+        {"accept": ["who"]},
+        {"accept": ["could", "can", "might", "may"]},
+        {"accept": ["to"]},
+        {"accept": ["what", "which"]},
+        {"accept": ["for"]}
+      ]
+    }
+  ]
+}

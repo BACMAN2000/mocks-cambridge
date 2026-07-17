@@ -1,0 +1,348 @@
+{
+ "label": "B2 — Upper-Intermediate",
+ "cefr": "Cambridge First (FCE) · B2 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+ "audios": [
+  {
+   "id": "B2-P1",
+   "title": "Part 1 · Questions 1–8",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A train booking",
+    "A sleeper cabin",
+    "A station announcement",
+    "A travel decision",
+    "A dining car",
+    "A late arrival",
+    "A travel vlog",
+    "At a ticket office"
+   ],
+   "scripts": [
+    "Question one. Man: You're taking the train to Vienna? That's fourteen hours! Woman: Twelve, actually, and I'll be asleep for most of them. Think about it: no four a.m. taxi to the airport, and I save a night's hotel because the ticket is my bed. I arrive at eight, right in the city centre, ready for breakfast.",
+    "Question two. Woman: So what was the sleeper cabin actually like? Man: Tiny, I won't lie, you couldn't swing a cat. But everything folds out of the walls, a sink, a table, even a little ladder, and it all has its exact place, like a ship's cabin. Whoever designed it thought of everything. I was genuinely impressed.",
+    "Question three. Woman: Attention please, passengers for the twenty-two fifteen night service to Milan. This train will depart on time tonight, but not from platform four as shown on your tickets. Please make your way to platform nine, at the far end of the station, where boarding will begin shortly.",
+    "Question four. Woman: The flights are half the price, I checked again this morning. Man: I know, and I'm still not tempted. We spent last year teaching the kids about their carbon footprint, didn't we? Taking the sleeper cuts this trip's emissions by about ninety percent. For once, let's practise what we preach. Woman: Fair enough. Trains it is.",
+    "Question five. Man: What do you remember best from the whole journey? Woman: Easy. I woke up early and went along to the dining car for a coffee, and while I was sitting there, the Alps just appeared, pink in the sunrise, right outside the window. A businessman opposite me closed his laptop and we both simply stared. You don't get that on a plane.",
+    "Question six. Girl: I thought you were arriving at nine! Boy: So did I. The night train sat outside Cologne for two hours, some signal failure, so I missed the morning connection. To be fair, the company sorted me out quickly, a seat on the next train and a breakfast voucher, but I still turned up ninety minutes late for Grandma's party.",
+    "Question seven. Man: Why do you like her videos so much? Every second person films night trains these days. Woman: Because she doesn't pretend. She shows the romance, the sunsets, all of that, but she'll also tell you when the carriage was freezing or the toilet was a disaster. So when she says a route is worth it, I believe her. I've booked two trips on her word.",
+    "Question eight. Man: I'd like a sleeper to Prague this Friday, a private compartment if possible. Assistant: Friday is fully booked, I'm afraid, the private compartments sell out weeks ahead. I do have one left for Thursday night, though. Man: Thursday... you know what, I can move my meeting. Go on, book it before someone else does."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why has the woman chosen the night train?",
+     "o": [
+      "It is faster than flying",
+      "The ticket includes a bed for the night",
+      "She is afraid of flying"
+     ],
+     "c": 1,
+     "audio": "P13/B2/B2-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What impressed the man about the cabin?",
+     "o": [
+      "The clever design",
+      "The friendly staff",
+      "The modern bathroom"
+     ],
+     "c": 0,
+     "audio": "P13/B2/B2-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What has changed about the Milan service?",
+     "o": [
+      "The departure time",
+      "The platform",
+      "The destination"
+     ],
+     "c": 1,
+     "audio": "P13/B2/B2-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why does the man prefer the train?",
+     "o": [
+      "It is cheaper than flying",
+      "The children enjoy trains",
+      "It causes less pollution"
+     ],
+     "c": 2,
+     "audio": "P13/B2/B2-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the woman remember best?",
+     "o": [
+      "The sunrise over the mountains",
+      "A conversation with a stranger",
+      "The quality of the food"
+     ],
+     "c": 0,
+     "audio": "P13/B2/B2-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why was the boy late?",
+     "o": [
+      "He missed the night train",
+      "His train was delayed by a signal problem",
+      "He overslept in his cabin"
+     ],
+     "c": 1,
+     "audio": "P13/B2/B2-P1-q6.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why does the woman trust the vlogger?",
+     "o": [
+      "Her cheap travel tips",
+      "Her beautiful filming",
+      "Her honesty about problems"
+     ],
+     "c": 2,
+     "audio": "P13/B2/B2-P1-q7.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the man decide to do?",
+     "o": [
+      "Travel on Thursday instead",
+      "Take a seat instead of a bed",
+      "Wait for a cancellation"
+     ],
+     "c": 0,
+     "audio": "P13/B2/B2-P1-q8.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B2-P2",
+   "title": "Part 2 · Questions 9–18",
+   "kind": "file",
+   "file": "P13/B2/B2-P2.mp3",
+   "intro": "You will hear a woman called Rosa, who works as an attendant on a European night train, talking about her job. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Rosa: Good evening! I'm Rosa, and if you take the night train south this year, you might meet me in the corridor, I'm one of the attendants. I've worked on sleeper trains for eight years now, and I still feel a small thrill at every departure. Let me tell you about my train. We leave the capital every evening at ten o'clock, gliding out past the suburbs while most passengers are already in their slippers. By the time you wake up, the world outside has changed language twice: during the night we cross four countries, which I think is the quietest kind of magic there is. It's a big community rolling through the dark, on a full night we carry around two hundred passengers, and my job is to get every one of them to breakfast happy. People imagine my work is mostly making beds, and there's certainly plenty of that. But you'd be amazed what passengers ask for at two in the morning. The thing we hand out most, without any question, is earplugs. We keep whole boxes of them, because a train has its own song and not everybody loves it. Mornings are my favourite shift. From six o'clock I'm knocking gently on doors with trays: coffee, juice and warm rolls, we collect the rolls fresh at a station stop in the small hours, and the smell fills the whole carriage. And if you're awake early enough, do lift your blind, because we cross the mountains at dawn, and I've seen that view a thousand times without ever getting tired of it. Now, a few tips from an insider. If you want space to yourself, travel in November. It's by far our quietest month, and you'll often have a compartment to yourself for the price of a shared bed. Keep your documents handy at night, too: on this route, officers may board at the border, and passengers must show their tickets and passports. I always say, keep them under your pillow, not buried in a suitcase on the luggage rack. And when you book, ask for a cabin in the middle of the carriage. You're further from the doors and the wheels there, and the ride is noticeably smoother. People sometimes ask if I'd ever swap to a daytime route, better hours, they say. Never. Somewhere out there tonight, a child is falling asleep in one city and waking up by the sea, and I get to be part of that. Sweet dreams, and mind the step."
+   ],
+   "gapTitle": "Rosa — Night Train Attendant",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Rosa has worked on sleeper trains for ____ years",
+     "accept": [
+      "8",
+      "eight"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The train leaves every evening at: ____",
+     "accept": [
+      "10",
+      "ten",
+      "22:00",
+      "10:00",
+      "ten o'clock",
+      "10 o'clock"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "During the night the train crosses ____ countries",
+     "accept": [
+      "4",
+      "four"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "On a full night it carries about ____ passengers",
+     "accept": [
+      "200",
+      "two hundred"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The item passengers request most: ____",
+     "accept": [
+      "earplugs",
+      "ear plugs"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Breakfast is coffee, juice and warm: ____",
+     "accept": [
+      "rolls",
+      "bread rolls"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The train crosses the mountains at: ____",
+     "accept": [
+      "dawn"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The quietest month to travel is: ____",
+     "accept": [
+      "november"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "At the border, passengers show tickets and: ____",
+     "accept": [
+      "passports",
+      "a passport",
+      "passport"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Book a cabin in the ____ of the carriage",
+     "accept": [
+      "middle"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2-P3",
+   "title": "Part 3 · Questions 19–23",
+   "kind": "file",
+   "file": "P13/B2/B2-P3.mp3",
+   "intro": "You will hear five people talking about why they travel by night train. For each speaker, choose from the list (A–H) the reason they give. Use each letter once. There are three extra letters you will not need.",
+   "bank": [
+    "to reduce their impact on the planet",
+    "fear of flying",
+    "to save on hotel bills",
+    "for the romance of it",
+    "to work during the journey",
+    "to meet new people",
+    "to see the scenery",
+    "because of childhood memories"
+   ],
+   "scripts": [
+    "Speaker one. Man: I stopped flying eight years ago, and it wasn't a lifestyle choice, believe me. My last flight, I gripped the armrest so hard my fingers ached for a day, and I promised myself never again. For a while I thought my travelling life was over. Then I discovered sleepers, and suddenly the whole continent opened up again. My heart stays calm on rails. Speaker two. Woman: Blame the old films, honestly. I grew up watching detectives in dining cars and strangers in silk dressing gowns, and I never got over it. So yes, when I take the sleeper, I dress up for dinner, I order a proper meal, and I watch the lights slide past with my coffee. My friends say I'm living in the wrong century. Perhaps, but it's a lovely century. Speaker three. Man: I do the sums, that's my thing, I'm afraid. A flight gets me there at midnight, which means paying for a hotel before the meetings even start. The sleeper is my transport and my room in one ticket, and I arrive in the centre at eight, showered, five minutes from the office. My accountant approves, and frankly so does my back. Speaker four. Woman: I looked at my year honestly, and the flights were most of my footprint. It's that simple, and that uncomfortable. I still want to see the world, so now, if I can't get there overnight by rail, I mostly don't go. It can take longer, of course. But I'd rather arrive a little slower with a lighter conscience. Speaker five. Man: My grandparents lived by the sea, a whole night away, and every summer my brother and I would take the sleeper down. I can still hear the wheels and my grandmother's voice on the platform. She's gone now, but when I settle into a couchette and the train pulls out, I'm eight years old again for a moment. That's worth any ticket price."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Speaker 1",
+     "c": "fear of flying"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 2",
+     "c": "for the romance of it"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 3",
+     "c": "to save on hotel bills"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 4",
+     "c": "to reduce their impact on the planet"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 5",
+     "c": "because of childhood memories"
+    }
+   ]
+  },
+  {
+   "id": "B2-P4",
+   "title": "Part 4 · Questions 24–30",
+   "kind": "file",
+   "file": "P13/B2/B2-P4.mp3",
+   "intro": "You will hear an interview with a man called Hugo, a travel writer who specialises in night trains. For each question, choose the best answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Hugo, you've been called the voice of the night train revival. How did it all start? Hugo: By accident, like most good things. Six years ago my flight home from Vienna was cancelled, and the only option left was a sleeper I didn't even know existed. I boarded it furious, and I stepped off the next morning a changed man. I wrote a short piece about that night, and it found more readers than anything I'd written in fifteen years. The message was fairly obvious. Interviewer: Night trains are reopening all over Europe. Why now? Hugo: People love to say nostalgia, all those old films, and the romance certainly helps. But the honest answer is the climate. Travellers, especially younger ones, want to keep exploring without the guilt of short flights, and suddenly a bed on rails makes perfect sense. The operators have noticed: routes that died twenty years ago are being reborn. Interviewer: Why did they die in the first place? Hugo: Cheap flights, plain and simple. When you could cross Europe for the price of a pizza, a twelve-hour train couldn't compete. The operators gave up: carriages grew shabby, dining cars vanished, and the whole experience quietly declined until closing routes looked like mercy. Interviewer: Critics say the revival is too expensive. Is that fair? Hugo: Partly fair. If you book late, the prices can make your eyes water. But two things. Book months ahead and it's a completely different story. And always count the full sum: that train ticket includes your hotel night and delivers you to the city centre. Set it against a flight plus a hotel plus two airport transfers, and the maths often wins. Interviewer: You must constantly be asked which route is best. Hugo: And everyone expects me to name the famous Alpine ones. My honest favourite is a slightly shabby train through the Balkans that hardly anyone has heard of. The scenery is astonishing, the conductor knows everyone at every station, and somebody always insists on sharing their food with you. Glamour is nice; welcome is better. Interviewer: What about sharing a compartment with strangers? Many people dread that. Hugo: They dread the idea of it. In practice, that's where the whole magic lives. I've shared cabins with opera singers, beekeepers, and a nun who beat me twice at cards. A plane seats people next to each other; a night train introduces them. Interviewer: So what's next for you? Hugo: The big one, a book I've dreamed about for years. Next spring I'm travelling from Lisbon to the far north of Finland using nothing but night trains, twenty of them, writing as I go. If the final train ends somewhere with snow and reindeer, the ending writes itself. Interviewer: Hugo, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How did Hugo discover night trains?",
+     "o": [
+      "A cancelled flight forced him onto one",
+      "A magazine sent him on assignment",
+      "A friend recommended a route"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "According to Hugo, night trains are returning mainly because of",
+     "o": [
+      "nostalgia for old films",
+      "concern about the climate",
+      "falling ticket prices"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why did night trains almost disappear?",
+     "o": [
+      "Passengers found them uncomfortable",
+      "Airlines offered very cheap flights",
+      "The trains became too slow"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Hugo say about prices?",
+     "o": [
+      "Booking early makes a big difference",
+      "Trains always cost more than flying",
+      "Prices are rising quickly"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Which route is Hugo's favourite?",
+     "o": [
+      "A famous Alpine line",
+      "A little-known Balkan train",
+      "A route along the coast"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Hugo think about sharing compartments?",
+     "o": [
+      "It puts many people off",
+      "It should always be optional",
+      "It is the best part of the journey"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What is Hugo's next project?",
+     "o": [
+      "A long journey for a new book",
+      "A television series",
+      "Opening his own route"
+     ],
+     "c": 0
+    }
+   ]
+  }
+ ]
+}

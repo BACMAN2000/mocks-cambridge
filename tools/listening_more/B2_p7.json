@@ -1,0 +1,344 @@
+{
+ "label": "B2 — Upper-Intermediate",
+ "cefr": "Cambridge First (FCE) · B2 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+ "audios": [
+  {
+   "id": "B2-P1",
+   "title": "Part 1 · Questions 1–8",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A cookery show",
+    "A restaurant meal",
+    "A science lesson",
+    "A coffee shop",
+    "A radio report",
+    "A birthday cake",
+    "A food podcast",
+    "At a market"
+   ],
+   "scripts": [
+    "Question one. Man: Did you see that cookery programme about desserts? Woman: I did, and I couldn't believe it when the chef put salt in the chocolate cream, a whole spoonful! But apparently it makes the sweetness taste stronger. I tried it myself yesterday, and she's absolutely right.",
+    "Question two. Woman: How was the new restaurant? Man: Beautiful room, and the waiters couldn't have been kinder. But whoever's in the kitchen has a very heavy hand with the chilli. My main course was so hot I honestly couldn't taste anything else. A shame, really.",
+    "Question three. Teacher: Today we're going to do a simple experiment. You'll each hold your nose and eat a piece of apple, then a piece of onion. You'll find it surprisingly hard to tell them apart, because most of what we call taste actually comes from smell, not from the tongue at all.",
+    "Question four. Man: No sugar? You used to have two! Girl: I gave it up last month. The first week, coffee tasted horrible, really bitter. But my taste seems to have adjusted, because now I actually prefer it this way. I can finally taste the coffee itself.",
+    "Question five. Man: And here's a curious result from a university study. Shoppers who heard classical music in the wine aisle bought noticeably more expensive bottles, while pop music had no effect on spending at all. The researchers say we shop with our ears more than we'd like to admit.",
+    "Question six. Girl: How was the cake you made for your mum's birthday? Boy: A disaster. It looked perfect, golden brown, beautifully risen. Then everyone took one bite and went quiet. I'd used salt instead of sugar, the containers in our kitchen are identical. Mum laughed for about ten minutes.",
+    "Question seven. Woman: You should listen to that podcast episode about bitter foods. Man: Another chef interview? Woman: No, it's a scientist, and she explains why some children really can't stand sprouts or coffee, some people are simply born with far more taste buds. It made me stop forcing broccoli on my son.",
+    "Question eight. Man: Try this one, it's our mildest cheese, very popular. Woman: Mmm, that's pleasant. Ooh, and what about this darker one? Man: Careful, that's been aged for two years, quite intense. Woman: Goodness, that's wonderful, it tastes of walnuts! Forget the mild one, I'll take a big piece of this instead."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What surprised the woman about the programme?",
+     "o": [
+      "The chef added salt to a dessert",
+      "The chef used cheap chocolate",
+      "The recipe took hours to make"
+     ],
+     "c": 0,
+     "audio": "P7/B2/B2-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the man dislike about the restaurant?",
+     "o": [
+      "The slow service",
+      "The spiciness of the food",
+      "The noisy room"
+     ],
+     "c": 1,
+     "audio": "P7/B2/B2-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What point is the teacher making?",
+     "o": [
+      "The tongue does most of the work",
+      "Smell is essential to flavour",
+      "Apples and onions contain similar chemicals"
+     ],
+     "c": 1,
+     "audio": "P7/B2/B2-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the girl say about giving up sugar?",
+     "o": [
+      "Her sense of taste has adapted",
+      "She still misses it",
+      "She drinks less coffee now"
+     ],
+     "c": 0,
+     "audio": "P7/B2/B2-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the study find?",
+     "o": [
+      "Music had no effect on shoppers",
+      "Pop music made people spend more",
+      "Classical music led to dearer purchases"
+     ],
+     "c": 2,
+     "audio": "P7/B2/B2-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What went wrong with the cake?",
+     "o": [
+      "It did not rise",
+      "It was burnt",
+      "The boy confused two ingredients"
+     ],
+     "c": 2,
+     "audio": "P7/B2/B2-P1-q6.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the woman learn from the podcast?",
+     "o": [
+      "Some children are more sensitive to bitter tastes",
+      "Coffee is unhealthy for children",
+      "Chefs rarely cook vegetables well"
+     ],
+     "c": 0,
+     "audio": "P7/B2/B2-P1-q7.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the woman decide to buy?",
+     "o": [
+      "The mild cheese",
+      "The aged cheese",
+      "A piece of each"
+     ],
+     "c": 1,
+     "audio": "P7/B2/B2-P1-q8.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B2-P2",
+   "title": "Part 2 · Questions 9–18",
+   "kind": "file",
+   "file": "P7/B2/B2-P2.mp3",
+   "intro": "You will hear a museum guide called Nora talking about an exhibition on the science of taste. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Nora: Good morning everyone, I'm Nora, one of the guides here at the science museum, and I'd like to tell you about our new exhibition, Flavour Lab, which explores the science of taste. It opened last month and has already broken our visitor records, so do come soon: it closes in January, and we're expecting the final weeks to be very busy. Let me give you a taste, excuse the joke, of what you'll find. The first room is all about the tongue. Most people guess we have a few hundred taste buds, but a healthy adult tongue actually carries around ten thousand of them. And they don't last long: your body replaces them every two weeks, which is why you can burn your tongue on hot soup and taste perfectly well again a few days later. You'll also learn about the five basic tastes. Sweet, salty, sour and bitter are familiar to everyone, but the fifth, called umami, is the savoury taste you find in meat, cheese and mushrooms. It was identified over a century ago by a chemist working in Japan, although European scientists took decades to accept it. My favourite part is the smell room, where you can test yourself on forty different smells, everything from fresh bread to petrol, and some are much harder to name than you'd expect. That room leads to our most famous experiment: visitors eat jelly beans while holding their nose. Without smell, almost nobody can name the flavour, and it's the clearest proof that your nose does most of the work we call taste. There's a section on genetics too. Researchers believe that about one person in four is what scientists call a supertaster, born with extra taste buds. Supertasters often hate coffee and grapefruit, so if you know somebody fussy, they may simply have a very talented tongue. For families, we run hands-on workshops for children every Saturday, where they make sherbet and test their own tongues. There's no booking, but the places do fill up by lunchtime. As for tickets, adults pay nine pounds, but entry is completely free for children under twelve, which makes this a lovely family day out. And before you leave, do visit the shop: our little guidebook contains every experiment from the exhibition, so you can repeat them all in your own kitchen. I hope to see you in the Flavour Lab soon, and I promise you'll never look at your dinner in quite the same way again."
+   ],
+   "gapTitle": "Flavour Lab — Museum Exhibition",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The exhibition closes in: ____",
+     "accept": [
+      "january"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Taste buds on an adult tongue: about ____",
+     "accept": [
+      "10000",
+      "10,000",
+      "ten thousand"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Taste buds are replaced every: ____ weeks",
+     "accept": [
+      "2",
+      "two"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The fifth basic taste is called: ____",
+     "accept": [
+      "umami"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Umami was identified by a chemist in: ____",
+     "accept": [
+      "japan"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The smell room has ____ different smells",
+     "accept": [
+      "40",
+      "forty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "In the experiment, visitors hold their nose and eat: ____",
+     "accept": [
+      "jelly beans",
+      "jellybeans"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "About one person in ____ is a supertaster",
+     "accept": [
+      "4",
+      "four"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Children's workshops are held every: ____",
+     "accept": [
+      "saturday",
+      "saturdays"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Entry is free for children under: ____",
+     "accept": [
+      "12",
+      "twelve"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2-P3",
+   "title": "Part 3 · Questions 19–23",
+   "kind": "file",
+   "file": "P7/B2/B2-P3.mp3",
+   "intro": "You will hear five people talking about why their eating habits changed. For each speaker, choose from the list (A–H) the reason they give. Use each letter once. There are three extra letters you will not need.",
+   "bank": [
+    "after an illness",
+    "after living abroad",
+    "after a cookery course",
+    "because of a new job",
+    "after becoming a parent",
+    "after watching a documentary",
+    "because of an allergy",
+    "after growing vegetables"
+   ],
+   "scripts": [
+    "Speaker one. Woman: I spent two years teaching in Thailand, and at first the food nearly blew my head off. By the end, I was adding chillies to everything, even breakfast. Now that I'm home, my mum's cooking, which I adored growing up, honestly tastes of nothing. I've had to completely relearn how to cook for myself, with three times the spice. Speaker two. Man: I always laughed at people who changed their diet because of something on television, and then it happened to me. One evening I watched a film about how much sugar is hidden in ordinary food, cereal, bread, even sauces. I checked my own cupboard during the adverts, and that was it. I haven't bought a fizzy drink since. Speaker three. Woman: Before my daughter came along, I lived on toast and takeaways, and I didn't see the problem. But you can't feed a two-year-old like that, and she copies absolutely everything I do. So I cook real meals now, vegetables, fish, the lot, and the strange thing is, I've ended up eating better than at any time in my life. Speaker four. Man: Three winters ago I caught a nasty virus and lost my sense of smell for almost six months. Food was like cardboard, and I actually forgot to eat some days. When flavour finally crept back, a plain orange tasted like a miracle. Since then I refuse to eat boring food, life's too short, and every meal feels like a small celebration. Speaker five. Woman: My husband gave me a weekend cookery course for Christmas, and I nearly didn't go. Best present I've ever had. The chef taught us how to build flavour with herbs and lemon instead of piles of salt, and how to make fresh pasta. We hardly ever order takeaways any more, not because they're unhealthy, but because mine honestly tastes better."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Speaker 1",
+     "c": "after living abroad"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 2",
+     "c": "after watching a documentary"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 3",
+     "c": "after becoming a parent"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 4",
+     "c": "after an illness"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 5",
+     "c": "after a cookery course"
+    }
+   ]
+  },
+  {
+   "id": "B2-P4",
+   "title": "Part 4 · Questions 24–30",
+   "kind": "file",
+   "file": "P7/B2/B2-P4.mp3",
+   "intro": "You will hear an interview with a man called Daniel, who works as a food scientist. For each question, choose the best answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Daniel, you're a food scientist. What does that actually involve? Daniel: People imagine I sit in a laboratory inventing flavours for sweets and crisps, and that side of the industry does exist. Most of my work is the opposite, though: taking salt and sugar out of everyday foods while keeping the taste people love. If a soup loses a third of its salt and nobody notices, that's a good month for me. Interviewer: Your experiments on colour got a lot of attention. What did you find? Daniel: We gave people identical drinks in different colours. The red version was rated sweeter than the yellow one by almost everybody, even though the recipe was exactly the same. We taste with our eyes far more than we realise. Interviewer: Is it true that food tastes different on a plane? Daniel: Completely true. In a dry, noisy cabin, your ability to detect sweet and salty tastes drops by around thirty percent. That's why so many passengers order tomato juice in the air but never at home: its savoury taste survives the noise. Airlines actually season their food more strongly because of this. Interviewer: What's the biggest myth about taste? Daniel: The tongue map, without question. Generations of schoolbooks showed sweetness at the tip of the tongue and bitterness at the back. It's simply wrong, every area of the tongue detects every taste, and we've known that for decades, yet the map refuses to die. Interviewer: Has anything in your research genuinely surprised you? Daniel: Sound. We asked people to eat crisps while wearing headphones, and when we played them a louder crunch, they swore the crisps were fresher. Same bag! I never expected hearing to matter that much. Interviewer: Any advice for people who want to enjoy their food more? Daniel: Put the phone away. In our tests, people eating in front of screens could barely remember what they'd eaten, and they enjoyed it less. Attention is a seasoning, honestly, and it costs nothing. Interviewer: And what's next for you? Daniel: The project closest to my heart: hospital food. Illness and medicines dull people's sense of taste just when eating matters most, so we're designing dishes that still taste vivid to patients. If we get it right, people will leave hospital better fed. Interviewer: Daniel, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What does Daniel mainly work on?",
+     "o": [
+      "Inventing flavours for snacks",
+      "Reducing salt and sugar in food",
+      "Testing food safety"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What did the colour experiment show?",
+     "o": [
+      "Red drinks were rated sweeter",
+      "Yellow drinks were more refreshing",
+      "People refused oddly coloured drinks"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Why do many passengers choose tomato juice on planes?",
+     "o": [
+      "It is usually free",
+      "Its savoury taste stays strong in flight",
+      "The crew recommend it"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Daniel say about the tongue map?",
+     "o": [
+      "It is roughly correct",
+      "It only applies to children",
+      "It is completely false"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What genuinely surprised Daniel in his research?",
+     "o": [
+      "The effect of sound on taste",
+      "The effect of temperature on flavour",
+      "How quickly crisps lose freshness"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What advice does Daniel give?",
+     "o": [
+      "Eat more slowly",
+      "Avoid screens while eating",
+      "Use more herbs and spices"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Daniel working on next?",
+     "o": [
+      "Better meals for hospital patients",
+      "New menus for airlines",
+      "A book about the science of taste"
+     ],
+     "c": 0
+    }
+   ]
+  }
+ ]
+}

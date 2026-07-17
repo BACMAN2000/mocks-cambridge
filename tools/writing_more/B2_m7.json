@@ -1,0 +1,34 @@
+{
+  "title": "B2 First — Writing (MOCK 7)",
+  "durationMin": 80,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 140, "maxWords": 190,
+        "lead": "In your English class you have been talking about how cities change. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+        "stimulus": { "body": "\"Historic buildings should be protected, even when a city urgently needs land for new development. Do you agree?\"\n\nNotes\n\nWrite about:\n1. a city's identity\n2. the cost of protecting old buildings\n3. ............... (your own idea)" },
+        "bullets": ["a city's identity", "the cost of protecting old buildings", "your own idea", "give reasons for your point of view"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 140, "maxWords": 190,
+          "lead": "You see this announcement in an English-language magazine about history and travel.",
+          "stimulus": { "title": "A PLACE WORTH SAVING", "body": "All over the world, historic places are disappearing under new roads, offices and apartments. Write an article about a historic place near you that you believe must be saved, describing it, explaining what would be lost if it disappeared, and suggesting how it could be given a future." },
+          "bullets": ["describe the historic place", "what would be lost if it disappeared", "how it could be given a future"],
+          "write": "Write your article." },
+        { "type": "email", "q": 3, "minWords": 140, "maxWords": 190,
+          "lead": "You have received this email from your English-speaking friend Andy.",
+          "stimulus": { "body": "From: Andy\nSubject: Is it true about the old market?\n\nI read online that the old market in your town might be knocked down to build a shopping centre — surely not?! I have such good memories of that place from my visit. What's actually happening? How do people in the town feel about it? And what do YOU think should be done?\nWrite back soon,\nAndy" },
+          "bullets": ["what is actually happening to the old market", "how people in the town feel", "what you think should be done"],
+          "write": "Write your email." },
+        { "type": "report", "q": 4, "minWords": 140, "maxWords": 190,
+          "lead": "Your town council has invited young residents to write reports about the future of a historic building in the town centre.",
+          "stimulus": { "title": "Report: a new life for an old building", "body": "Describe the current condition of a historic building in your town centre and how it is used, suggest a new use that would attract young people, and explain how this use would benefit the whole town." },
+          "bullets": ["the building's current condition and use", "a new use that would attract young people", "how this would benefit the whole town"],
+          "write": "Write your report." }
+      ]
+    }
+  ]
+}

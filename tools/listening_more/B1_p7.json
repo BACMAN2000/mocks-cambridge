@@ -1,0 +1,241 @@
+{
+ "label": "B1 — Intermediate",
+ "cefr": "Cambridge PET · B1 official format",
+ "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+ "audios": [
+  {
+   "id": "B1-P1",
+   "title": "Part 1 · Questions 1–7",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+   "segments": [
+    "What to take",
+    "When the music starts",
+    "The weather",
+    "Getting there",
+    "Festival food",
+    "The meeting place",
+    "Something lost"
+   ],
+   "scripts": [
+    "Question one. Girl: Are you taking your guitar to the festival, Noah? Noah: It's far too heavy to carry around all day. I'm just taking my camera — I want photos of the bands. Girl: Good thinking.",
+    "Question two. Boy: The gates open at seven, right? Girl: Yes, but the first band doesn't play until half past seven. Boy: Perfect, we can find a good spot near the stage first.",
+    "Question three. Man: Should we pack raincoats for the festival? Woman: I checked this morning — it's going to be sunny all weekend. Man: Brilliant, that never happens!",
+    "Question four. Girl: Is your mum driving us to the festival? Boy: Parking there is terrible, so we're taking the special festival bus from the square. Girl: Even better, it stops right at the gates.",
+    "Question five. Boy: I'm hungry already. Girl: Me too. There's a stand selling sandwiches, but everyone says the pizza van by the main stage is the thing to try. Boy: Pizza it is, then.",
+    "Question six. Girl: Where shall we all meet before the festival? Boy: Kate suggested the café in town, but that's miles away. Let's just meet at the park gates next to the entrance. Girl: Fine, three o'clock.",
+    "Question seven. Boy: Ruby, why are you running? Ruby: The wind blew my hat off near the dance tent and I have to find it — it's my sister's! Boy: I'll help you look."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What is Noah taking to the festival?",
+     "imgs": ["guitar", "camera", "bag"],
+     "c": 1,
+     "audio": "P7/B1/B1-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the first band play?",
+     "imgs": ["clock700", "clock730", "clock8"],
+     "c": 1,
+     "audio": "P7/B1/B1-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will the weather be like at the weekend?",
+     "imgs": ["sunny", "rainy", "snowy"],
+     "c": 0,
+     "audio": "P7/B1/B1-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will they get to the festival?",
+     "imgs": ["bike", "car", "bus"],
+     "c": 2,
+     "audio": "P7/B1/B1-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will they eat at the festival?",
+     "imgs": ["sandwich", "pizza", "cake"],
+     "c": 1,
+     "audio": "P7/B1/B1-P1-q5.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where will the friends meet?",
+     "imgs": ["park", "cafe", "library"],
+     "c": 0,
+     "audio": "P7/B1/B1-P1-q6.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What has Ruby lost?",
+     "imgs": ["hat", "phone", "keys"],
+     "c": 0,
+     "audio": "P7/B1/B1-P1-q7.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P2",
+   "title": "Part 2 · Questions 8–13",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+   "segments": [
+    "The best part",
+    "Buying tickets",
+    "A volunteer",
+    "Camping",
+    "An announcement",
+    "Meeting a singer"
+   ],
+   "scripts": [
+    "Question eight. You will hear a girl talking about a festival she went to. Girl: The main stage bands were good, and the food was better than I expected. But the dance tent was something else — we stayed there until midnight and my legs hurt for two days afterwards. Best part by far.",
+    "Question nine. You will hear a man giving advice about festival tickets. Man: Whatever you do, don't wait and buy your ticket at the gate — it costs ten pounds more there. Book on the festival website, and if you do it before May, students get an extra discount.",
+    "Question ten. You will hear a boy talking about volunteering at a festival. Boy: I hoped they'd put me backstage with the bands, and my sister got to serve food, which looked fun. Me? I spent the weekend showing people where to park their cars. Not exciting, but I got in free.",
+    "Question eleven. You will hear a woman talking about camping at a festival. Woman: I didn't mind sleeping in a tent, and the showers were cleaner than people say. What nearly drove me crazy was the noise at night — people singing until four in the morning, every night.",
+    "Question twelve. You will hear a festival announcement. Woman: Attention, please. Tonight's concert by the Silver Foxes will still begin at nine o'clock as planned, but because of the strong wind it has been moved from the lake stage to the main tent. Again, the place has changed, not the time.",
+    "Question thirteen. You will hear a boy talking about meeting a singer. Boy: I saw her walking near the food stands and I froze — I couldn't say a word. But she came over herself and asked about my festival T-shirt. I couldn't believe how friendly she was. I expected a big star to just walk past."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What did the girl enjoy most at the festival?",
+     "o": ["The main stage bands", "The dance tent", "The food"],
+     "c": 1,
+     "audio": "P7/B1/B1-P2-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the man advise people to do?",
+     "o": ["Buy tickets at the gate", "Wait until May", "Book on the website"],
+     "c": 2,
+     "audio": "P7/B1/B1-P2-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the boy do as a volunteer?",
+     "o": ["He helped with parking", "He worked backstage", "He served food"],
+     "c": 0,
+     "audio": "P7/B1/B1-P2-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the woman dislike about camping?",
+     "o": ["Sleeping in a tent", "The dirty showers", "The noise at night"],
+     "c": 2,
+     "audio": "P7/B1/B1-P2-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What has changed about tonight's concert?",
+     "o": ["The place", "The time", "The band"],
+     "c": 0,
+     "audio": "P7/B1/B1-P2-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How did the boy feel about the singer?",
+     "o": ["Surprised she was so friendly", "Disappointed she was busy", "Embarrassed about his T-shirt"],
+     "c": 0,
+     "audio": "P7/B1/B1-P2-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P3",
+   "title": "Part 3 · Questions 14–19",
+   "kind": "file",
+   "file": "P7/B1/B1-P3.mp3",
+   "intro": "You will hear an announcement about a music festival. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Hello, music lovers! Here's everything you need to know about this year's Greenfield Music Festival. The festival takes place over the last weekend of June — that's a month earlier than last year, so put it in your diary now. As always, we're at Riverside Park, just ten minutes' walk from the station. Tickets cost twenty pounds, but students pay only nine pounds with a student card. The gates open at four o'clock each day, and this year's headline band, The Blue Foxes, will close the show on the main stage on Sunday night. One last tip from us: the grass gets cold in the evening, so bring a blanket to sit on. See you at Greenfield!"
+   ],
+   "gapTitle": "Greenfield Music Festival",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The festival is at the end of: ____",
+     "accept": ["june"]
+    },
+    {
+     "type": "gap",
+     "label": "Place: Riverside ____",
+     "accept": ["park"]
+    },
+    {
+     "type": "gap",
+     "label": "Student ticket: £ ____",
+     "accept": ["9", "nine"]
+    },
+    {
+     "type": "gap",
+     "label": "Gates open at: ____ o'clock",
+     "accept": ["4", "four"]
+    },
+    {
+     "type": "gap",
+     "label": "The Blue Foxes play on the main ____",
+     "accept": ["stage"]
+    },
+    {
+     "type": "gap",
+     "label": "Bring a ____ to sit on",
+     "accept": ["blanket"]
+    }
+   ]
+  },
+  {
+   "id": "B1-P4",
+   "title": "Part 4 · Questions 20–25",
+   "kind": "file",
+   "file": "P7/B1/B1-P4.mp3",
+   "intro": "You will hear an interview with a young singer called Elena, who is going to perform at a music festival. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Interviewer: This weekend, Elena will sing at the Greenfield Festival for the first time. Elena, welcome. How did you start singing? Elena: Thank you! People assume I went to a music school, but no — I started in my grandmother's kitchen. She sang old songs while she cooked, and I just copied her. Interviewer: How were you chosen for the festival? Elena: My brother filmed me singing at a family party and sent the video to the organisers without telling me. Three weeks later they phoned me. I was angry with him for about a minute — then I screamed with happiness. Interviewer: Are you nervous about anything? Elena: Strangely, not the crowd. What worries me is the weather, because my stage is outdoors, and singing in the wind is really hard. Interviewer: What will you sing? Elena: Everyone expects famous songs, but I've decided to perform only songs I wrote myself. It's a risk, but they say what I want to say. Interviewer: What's the best advice you've been given? Elena: My grandmother told me: don't sing to impress people, sing to talk to them. I think about that before every show. Interviewer: And after the festival? Elena: I want to record my first album in the autumn — that's the big dream right now."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Where did Elena learn to sing?",
+     "o": ["At a music school", "At her grandmother's house", "In a school choir"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How was Elena chosen for the festival?",
+     "o": ["Her brother sent a video of her", "She won a competition", "She wrote to the organisers"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What is Elena worried about?",
+     "o": ["The size of the crowd", "Forgetting her words", "The weather"],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What will Elena sing at the festival?",
+     "o": ["Famous songs", "Her own songs", "Her grandmother's songs"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What advice does Elena remember before every show?",
+     "o": ["Sing to talk to people", "Practise until it is perfect", "Choose songs the crowd knows"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Elena want to do after the festival?",
+     "o": ["Go on tour", "Record an album", "Start a band"],
+     "c": 1
+    }
+   ]
+  }
+ ]
+}

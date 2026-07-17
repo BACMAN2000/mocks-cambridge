@@ -64,43 +64,67 @@
 <body>
 <header>
   <a class="logo" href="quizzes.html"><img src="nordic-logo-h.svg" alt="Nordic International School of Lima"></a>
-  <div class="sub">MOCKS CAMBRIDGE · MOCK 1 &amp; MOCK 2 · A2 / B1 / B2 / C1</div>
+  <div class="sub">MOCKS CAMBRIDGE · Mocks &amp; Practice Tests · A2 / B1 / B2 / C1</div>
   <a class="me-btn" href="../nis-portal/?me=1">📊 Mi progreso</a>
   <a class="me-btn" style="background:#2d5a8d" href="../nis-portal/">🏫 Portal NIS</a>
   <button class="me-btn" style="background:#9b2c2c;border:none;cursor:pointer;font:inherit" onclick="window._signout()">🚪 Cerrar sesión</button>
 </header>
 <main>
   <h1>MOCKS CAMBRIDGE</h1>
-  <p class="lead">Dos exámenes simulacro (MOCK 1 y MOCK 2) en formato Cambridge oficial, con mayor nivel de dificultad. Elige una destreza y pulsa el botón — entras directo con tu sesión del Portal NIS.</p>
+  <p class="lead">Exámenes en formato Cambridge oficial por destreza y nivel (A2 · B1 · B2 · C1). Elige una sección — entras directo con tu sesión del Portal NIS.</p>
 
+  <h2 style="font-size:18px;margin:6px 0 2px">📝 MOCKS — exámenes oficiales</h2>
+  <p style="color:#475569;font-size:13px;margin:0 0 12px">Simulacros completos con mayor dificultad. <b>Bloqueados por defecto</b>: coordinación los habilita por grado cuando se programan.</p>
   <div class="grid">
     <div class="card">
-      <h2>📖 Reading &amp; Use of English Mock</h2>
-      <div class="desc">Textos originales estilo KET/PET/FCE/CAE con temporizador, mayor dificultad. 2 simulacros completos por nivel.</div>
-      <a class="btn read" href="reading-quiz.html">Abrir Reading Mock</a>
+      <h2>📖 Reading &amp; Use of English</h2>
+      <div class="desc">Textos originales estilo KET/PET/FCE/CAE con temporizador, mayor dificultad.</div>
+      <a class="btn read" href="reading-quiz.html?branch=mocks">Abrir Reading Mock</a>
     </div>
 
     <div class="card">
-      <h2>🎧 Listening Mock</h2>
-      <div class="desc">MOCK 1 y MOCK 2 en formato Cambridge (A2/B1/B2/C1) con audio real. 2 simulacros completos por nivel.</div>
-      <a class="btn" href="listening-quiz.html">Abrir Listening Mock</a>
+      <h2>🎧 Listening</h2>
+      <div class="desc">Formato Cambridge (A2/B1/B2/C1) con audio real.</div>
+      <a class="btn" href="listening-quiz.html?branch=mocks">Abrir Listening Mock</a>
     </div>
 
     <div class="card">
-      <h2>✍️ Writing Mock</h2>
-      <div class="desc">Tareas estilo PET/FCE/CAE (Part 1 obligatoria + Part 2 a elegir) con evaluación por rúbrica. MOCK 1 y MOCK 2. Solo B1 · B2 · C1.</div>
-      <a class="btn write" href="writing-quiz.html">Abrir Writing Mock</a>
+      <h2>✍️ Writing</h2>
+      <div class="desc">Tareas estilo PET/FCE/CAE (Part 1 obligatoria + Part 2 a elegir) con evaluación por rúbrica. Solo B1 · B2 · C1.</div>
+      <a class="btn write" href="writing-quiz.html?branch=mocks">Abrir Writing Mock</a>
     </div>
 
     <div class="card" style="opacity:.8">
-      <h2>🗣️ Speaking Mock</h2>
+      <h2>🗣️ Speaking</h2>
       <div class="desc">Entrevista estilo Cambridge con examinador, por niveles.</div>
       <span class="btn" style="background:#94a3b8;cursor:default">Próximamente</span>
     </div>
   </div>
 
+  <h2 style="font-size:18px;margin:22px 0 2px">🎯 PRACTICE TESTS — práctica</h2>
+  <p style="color:#475569;font-size:13px;margin:0 0 12px">Tests de práctica en el mismo formato Cambridge, auto-corregidos. <b>Abiertos por defecto</b>; tu profesor puede reservarlos por grado para usarlos en clase.</p>
+  <div class="grid">
+    <div class="card">
+      <h2>📖 Reading &amp; Use of English</h2>
+      <div class="desc">Prácticas por nivel con textos y tareas originales, temporizador y feedback CEFR.</div>
+      <a class="btn read" href="reading-quiz.html?branch=practice">Abrir Reading Practice</a>
+    </div>
+
+    <div class="card">
+      <h2>🎧 Listening</h2>
+      <div class="desc">Prácticas con audio real en formato Cambridge, auto-corregidas.</div>
+      <a class="btn" href="listening-quiz.html?branch=practice">Abrir Listening Practice</a>
+    </div>
+
+    <div class="card">
+      <h2>✍️ Writing</h2>
+      <div class="desc">Prácticas de writing (Part 1 + Part 2 a elegir), enviadas al profesor para su corrección. Solo B1 · B2 · C1.</div>
+      <a class="btn write" href="writing-quiz.html?branch=practice">Abrir Writing Practice</a>
+    </div>
+  </div>
+
   <div class="tip">
-    💡 Los estudiantes ingresan desde el <b>Portal NIS</b> con su correo y contraseña. Sugerencia: <b>Práctica 1</b> en clase y <b>Práctica 2 y 3</b> como refuerzo; los <b>Mocks</b> se habilitan desde el portal del administrador. Los resultados se guardan automáticamente.
+    💡 Los estudiantes ingresan desde el <b>Portal NIS</b> con su correo y contraseña. Los <b>Practice Tests</b> son para practicar (el profesor puede reservarlos por grado); los <b>Mocks</b> son exámenes oficiales y solo el admin los habilita cuando se programan. Los resultados se guardan automáticamente.
   </div>
 
   <div class="footer">MOCKS CAMBRIDGE · NIS English · 2026</div>

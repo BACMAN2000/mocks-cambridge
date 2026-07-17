@@ -1,0 +1,241 @@
+{
+ "label": "B1 — Intermediate",
+ "cefr": "Cambridge PET · B1 official format",
+ "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+ "audios": [
+  {
+   "id": "B1-P1",
+   "title": "Part 1 · Questions 1–7",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+   "segments": [
+    "A gift for the dogs",
+    "Getting to the shelter",
+    "The weather",
+    "Meeting time",
+    "What to take",
+    "Where to meet",
+    "Something lost"
+   ],
+   "scripts": [
+    "Question one. Girl: I'm visiting the animal shelter tomorrow, Mum. Shall I bake a cake for the volunteers? Mum: That's kind, Lucy, but they've asked everyone to bring a ball for the dogs to play with. Girl: Good idea — I'll take the new one from the garden.",
+    "Question two. Boy: Can you drive me to the shelter on Saturday, Dad? Dad: Sorry, Ben, I'm working, and the bus doesn't stop anywhere near there. Boy: That's OK, I'll go on my bike. It only takes twenty minutes.",
+    "Question three. Woman: Are you still walking the shelter dogs this afternoon? Man: Yes — it rained all morning, but look, the sun's come out now, so the field will be fine. Woman: Great, the dogs will love that.",
+    "Question four. Kate: Is the volunteer meeting at half past four as usual, Anna? Anna: Not today — they've moved it to four o'clock because the vet is coming. Kate: Thanks for telling me, I'd better hurry then.",
+    "Question five. Mum: It's going to be hot at the shelter open day, Tom. Have you packed your water bottle? Tom: Yes, and my sunglasses are in my bag. Mum: Take a hat as well — you'll be outside all afternoon. Tom: OK, I'll get it now.",
+    "Question six. Sam: Where shall we meet before we visit the shelter, Emma? At the café near the bridge? Emma: The café's closed on Sundays. Let's meet outside the library instead — it's on the way. Sam: Fine, see you there at ten.",
+    "Question seven. Woman: What are you looking for, Leo? Leo: My keys. I've got my phone and my bag, but the keys aren't in my pocket. Woman: You left them on the office desk — I'll fetch them for you."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What will Lucy take to the shelter?",
+     "imgs": ["cake", "ball", "book"],
+     "c": 1,
+     "audio": "P14/B1/B1-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will Ben get to the shelter on Saturday?",
+     "imgs": ["bus", "car", "bike"],
+     "c": 2,
+     "audio": "P14/B1/B1-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What is the weather like this afternoon?",
+     "imgs": ["sunny", "rainy", "snowy"],
+     "c": 0,
+     "audio": "P14/B1/B1-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time is the volunteer meeting today?",
+     "imgs": ["clock400", "clock430", "clock730"],
+     "c": 0,
+     "audio": "P14/B1/B1-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What does Mum tell Tom to take?",
+     "imgs": ["hat", "umbrella", "bag"],
+     "c": 0,
+     "audio": "P14/B1/B1-P1-q5.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where will Sam and Emma meet?",
+     "imgs": ["cafe", "library", "park"],
+     "c": 1,
+     "audio": "P14/B1/B1-P1-q6.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What is Leo looking for?",
+     "imgs": ["keys", "phone", "umbrella"],
+     "c": 0,
+     "audio": "P14/B1/B1-P1-q7.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P2",
+   "title": "Part 2 · Questions 8–13",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+   "segments": [
+    "First day volunteering",
+    "Help needed",
+    "Adopting a cat",
+    "The open day",
+    "An old dog",
+    "Donations"
+   ],
+   "scripts": [
+    "You will hear a girl talking about her first day at an animal shelter. Girl: I thought I'd spend the whole morning cleaning, and I did wash a few food bowls, but most of the time I was walking the dogs in the field behind the shelter. That was easily my favourite part of the day.",
+    "You will hear a shelter manager talking to new volunteers. Man: Thanks for coming, everyone. We have plenty of people to walk the dogs at weekends, believe it or not. What we really need is help on weekday mornings, especially with feeding the animals before nine o'clock.",
+    "You will hear a woman talking about adopting a cat. Woman: My children had been asking for a kitten for years, but that's not really why we went to the shelter. The truth is I work from home now, and the house felt terribly quiet during the day. Milo keeps me company while I work.",
+    "You will hear a boy talking about the shelter's open day. Boy: We were worried nobody would come because of the weather, but in the end the rain stayed away and lots of families visited. The real problem was that we ran out of leaflets in the first hour, so many visitors left without any information.",
+    "You will hear a girl talking about a dog at the shelter. Girl: Everyone walks straight past Bruno because he's ten years old and sleeps most of the day. But when you sit down next to him, he's the gentlest dog in the whole place. I really hope a family notices that soon.",
+    "You will hear an assistant at the shelter talking about donations. Assistant: People often bring us tins of pet food, which is very kind, but honestly our store room is already full of them. If you'd like to help, old towels and blankets are what we're short of — we use them every single day."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What did the girl enjoy most on her first day?",
+     "o": ["Cleaning the food bowls", "Walking the dogs", "Feeding the cats"],
+     "c": 1,
+     "audio": "P14/B1/B1-P2-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What help does the shelter need most?",
+     "o": ["Dog walking at weekends", "Feeding animals on weekday mornings", "Cleaning in the evenings"],
+     "c": 1,
+     "audio": "P14/B1/B1-P2-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why did the woman adopt a cat?",
+     "o": ["Her children wanted one", "She felt lonely working at home", "A friend suggested it"],
+     "c": 1,
+     "audio": "P14/B1/B1-P2-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What was the problem at the open day?",
+     "o": ["It rained all day", "Very few people came", "There weren't enough leaflets"],
+     "c": 2,
+     "audio": "P14/B1/B1-P2-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the girl think about Bruno?",
+     "o": ["He is too old to be adopted", "He is gentle and deserves a home", "He should sleep less"],
+     "c": 1,
+     "audio": "P14/B1/B1-P2-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the shelter need people to donate?",
+     "o": ["Tins of pet food", "Towels and blankets", "Money for the store room"],
+     "c": 1,
+     "audio": "P14/B1/B1-P2-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P3",
+   "title": "Part 3 · Questions 14–19",
+   "kind": "file",
+   "file": "P14/B1/B1-P3.mp3",
+   "intro": "You will hear a woman giving information to new volunteers at an animal shelter. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Sandy: Hello, everyone, and thank you for signing up to volunteer at Hillside Animal Shelter. Before you can start, you must come to one training session, which takes place this Friday. When you arrive, please don't go to the main building — we'll meet in the office, which is the small white building beside the car park. The session starts at half past four and lasts about an hour. Volunteers need to be at least fourteen years old, so please bring your student card to prove your age. Everyone receives a green T-shirt to wear at the shelter, and that costs eight pounds. One last thing: the dogs get very muddy at this time of year, so remember to bring some old gloves with you. See you all on Friday!"
+   ],
+   "gapTitle": "Hillside Animal Shelter — New Volunteers",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Training session day: ____",
+     "accept": ["friday"]
+    },
+    {
+     "type": "gap",
+     "label": "Meet in the: ____",
+     "accept": ["office"]
+    },
+    {
+     "type": "gap",
+     "label": "Starts at: half past ____",
+     "accept": ["4", "four"]
+    },
+    {
+     "type": "gap",
+     "label": "Minimum age: ____ years old",
+     "accept": ["14", "fourteen"]
+    },
+    {
+     "type": "gap",
+     "label": "T-shirt costs: £ ____",
+     "accept": ["8", "eight"]
+    },
+    {
+     "type": "gap",
+     "label": "Remember to bring: old ____",
+     "accept": ["gloves"]
+    }
+   ]
+  },
+  {
+   "id": "B1-P4",
+   "title": "Part 4 · Questions 20–25",
+   "kind": "file",
+   "file": "P14/B1/B1-P4.mp3",
+   "intro": "You will hear an interview with a girl called Grace, who volunteers at an animal shelter. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Today I'm talking to Grace, who volunteers at an animal shelter every weekend. Grace, how did it all begin? Grace: A lot of people think I started because we had pets at home, but we never did. Actually, my school organised a visit to the shelter last year, and after that day I just kept going back. Interviewer: What jobs do you usually do there? Grace: Mostly I help with the cats. Walking the dogs looks like more fun, I know, but the cats need someone calm to sit with them, and apparently I'm quite good at that. Interviewer: What's the most difficult part? Grace: People imagine it's the cleaning, but I honestly don't mind that. The hard part is saying goodbye when an animal you love gets adopted. You're happy for them, of course, but you miss them terribly. Interviewer: Has volunteering changed you at all? Grace: Definitely. I used to be really shy, but now I talk to visitors every weekend and explain how adoption works. My parents can hardly believe it. Interviewer: What would you say to other teenagers who want to volunteer? Grace: Don't wait until you have lots of free time — even two hours a week makes a real difference to the animals. Interviewer: And what about your future plans? Grace: Everyone says I should become a vet, but the sight of blood makes me feel ill! I'd rather study biology and work in animal protection one day."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How did Grace start volunteering?",
+     "o": ["Her family had pets", "She visited the shelter with her school", "A friend invited her"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Grace mostly do at the shelter?",
+     "o": ["She walks the dogs", "She helps with the cats", "She cleans the buildings"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Grace find hardest?",
+     "o": ["The cleaning", "Saying goodbye to adopted animals", "Talking to visitors"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How has volunteering changed Grace?",
+     "o": ["She has become more confident", "She has less free time", "She is calmer with animals"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What advice does Grace give teenagers?",
+     "o": ["Wait until you have plenty of time", "Help even for a few hours a week", "Only volunteer at weekends"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Grace want to do in the future?",
+     "o": ["Become a vet", "Work in animal protection", "Open her own shelter"],
+     "c": 1
+    }
+   ]
+  }
+ ]
+}

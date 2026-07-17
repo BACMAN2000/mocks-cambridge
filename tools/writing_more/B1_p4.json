@@ -1,0 +1,30 @@
+{
+  "title": "B1 Preliminary — Writing (Practice 4)",
+  "durationMin": 45,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in about 100 words.",
+      "tasks": [{
+        "type": "email", "minWords": 100,
+        "lead": "Read this email from your English teacher, Ms Carter, and the notes you have made.",
+        "stimulus": { "head": "EMAIL", "title": "", "body": "From: Ms Carter\nSubject: New school clubs\n\nDear Class,\n\nNext term the school is starting some new clubs on Wednesday afternoons: a film club, a chess club and a drama club. Which club would you like to join, and why?\n\nWe also need ideas for one more club. What do you suggest?\n\nMs Carter" },
+        "bullets": ["say which club you would like to join and why", "suggest an idea for one more club", "explain why other students would enjoy your idea", "ask one question about the clubs"],
+        "write": "Write your email to Ms Carter."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in about 100 words.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 100,
+          "lead": "You see this announcement in your school English-language magazine.",
+          "stimulus": { "title": "MY FAVOURITE HOBBY", "body": "What do you love doing in your free time? Write an article about your favourite hobby, telling us how you started and why you enjoy it so much. The best articles will be published next month." },
+          "bullets": ["what your favourite hobby is", "how you started doing it", "why you enjoy it"],
+          "write": "Write your article." },
+        { "type": "story", "q": 3, "minWords": 100,
+          "lead": "Your English teacher has asked you to write a story.",
+          "startSentence": "When Marco checked his bag, he saw that something was missing.",
+          "stimulus": { "title": "", "body": "Your story must begin with this sentence:\n\nWhen Marco checked his bag, he saw that something was missing." },
+          "bullets": [],
+          "write": "Write your story." }
+      ]
+    }
+  ]
+}

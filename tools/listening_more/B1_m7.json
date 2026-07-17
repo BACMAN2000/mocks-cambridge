@@ -1,0 +1,241 @@
+{
+ "label": "B1 — Intermediate",
+ "cefr": "Cambridge PET · B1 official format",
+ "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+ "audios": [
+  {
+   "id": "B1-P1",
+   "title": "Part 1 · Questions 1–7",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+   "segments": [
+    "Filming equipment",
+    "Up the mountain",
+    "What they filmed",
+    "The broadcast",
+    "Lunch on location",
+    "The interview place",
+    "Damaged equipment"
+   ],
+   "scripts": [
+    "Question one. Woman: The film crew's leaving at six tomorrow, Jack. Is everything packed? Jack: The microphones and the lights are in the van. The camera stays with me, though — that never leaves my side on a trip. Woman: Wise. Remember what happened to the last one.",
+    "Question two. Man: How did the crew get up the mountain for the storm scenes? Surely not the little bus? Woman: The bus only goes to the village. From there the farm road's so rough that they hired a four-wheel-drive car. Man: And above that? Woman: Above that, you walk!",
+    "Question three. Boy: Dad, you filmed in the mountains in April, didn't you? Was it raining the whole time? Dad: We expected rain, funnily enough, but we got something better — snow, thick fresh snow, in April! Those white scenes became the most beautiful part of the film. Boy: I can't wait to see it.",
+    "Question four. Girl: The weather documentary's on tonight, Emma! Eight o'clock, right? Emma: Nearly — the football ran late last week, so everything's moved. It starts at half past seven now, straight after the news. Girl: Half past seven. I'll set an alarm — I'm not missing the storm scenes.",
+    "Question five. Woman: What did the crew eat up there, miles from anywhere? Pizza deliveries? Man: Very funny. The village bakery made them sandwiches every morning — cheese, mostly — and they carried them up in their packs. Woman: Sandwiches at the top of a mountain. Better than any restaurant, I'd say.",
+    "Question six. Boy: Where did they interview the old weather scientist, Rosa? In a studio? Rosa: They tried the studio and hated it — too artificial. In the end they filmed her in the park, on her favourite bench, with real clouds moving behind her. Boy: Much better. She's watched the sky from that bench for fifty years.",
+    "Question seven. Girl: You said some equipment didn't survive the storm scenes, Hugo. The camera? Hugo: The camera was fine, luckily — it's built for weather. It was my umbrella that died — the wind turned it inside out in two seconds, live on film! Girl: Please tell me that's in the documentary. Hugo: It's in the funny extras at the end."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What does Jack keep with him?",
+     "imgs": ["camera", "phone", "bag"],
+     "c": 0,
+     "audio": "M7/B1/B1-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How did the crew travel up the farm road?",
+     "imgs": ["bus", "car", "bike"],
+     "c": 1,
+     "audio": "M7/B1/B1-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What was the weather like when they filmed in April?",
+     "imgs": ["rainy", "sunny", "snowy"],
+     "c": 2,
+     "audio": "M7/B1/B1-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the documentary start now?",
+     "imgs": ["clock700", "clock730", "clock8"],
+     "c": 1,
+     "audio": "M7/B1/B1-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What did the crew eat on the mountain?",
+     "imgs": ["pizza", "sandwich", "cake"],
+     "c": 1,
+     "audio": "M7/B1/B1-P1-q5.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where was the scientist interviewed?",
+     "imgs": ["library", "cafe", "park"],
+     "c": 2,
+     "audio": "M7/B1/B1-P1-q6.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What was destroyed in the storm?",
+     "imgs": ["camera", "umbrella", "hat"],
+     "c": 1,
+     "audio": "M7/B1/B1-P1-q7.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P2",
+   "title": "Part 2 · Questions 8–13",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+   "segments": [
+    "Chasing storms",
+    "A scientist explains",
+    "Watching the film",
+    "The hardest scene",
+    "Sounds of weather",
+    "A teacher's opinion"
+   ],
+   "scripts": [
+    "You will hear a woman who films storms. Woman: People call my job dangerous, and they picture me driving into tornadoes laughing. The reality is the opposite — we spend most of our time driving away from storms, to the one safe spot where the light and the distance are right. The best storm shot is taken by the most careful person in the county, not the bravest.",
+    "You will hear a scientist from the documentary. Man: The question I'm asked most is whether weather forecasts are just guessing. They're not — a modern three-day forecast is right about nine times out of ten, which would have sounded like magic when I started. The honest problem is further out: beyond a week, the atmosphere simply refuses to be predicted, and no computer will fully change that.",
+    "You will hear a boy talking about the documentary. Boy: I only watched because my mum had the remote, if I'm honest. I expected maps and graphs and a man pointing at clouds. What I got was a farmer crying about his flooded fields, and lightning filmed from inside the storm. When it finished I went straight online to find part two — and I never do that.",
+    "You will hear a cameraman talking about filming. Man: Everyone assumes the storm scenes were the hardest, and they were certainly the most exciting. But storms perform for the camera — the real nightmare was fog. We waited eleven days in a mountain hut for fog thick enough, and when it finally came, we had about twenty minutes to film before it swallowed the light completely.",
+    "You will hear a woman who records sound for films. Woman: For the documentary, the pictures always got the applause, but ask yourself — what does weather actually feel like? Mostly, it's what you hear: rain on a tin roof, wind finding the gap under a door. My favourite trick? The huge thunder in the final scene wasn't thunder at all. Real thunder sounded too weak, so we recorded a lorry crossing an old wooden bridge.",
+    "You will hear a teacher talking about the documentary. Teacher: I show my classes a lot of science films, and most of them explain far too much, far too fast. This one is different, and here's why I use it: it isn't afraid of silence. It shows you the sky for a whole minute and lets you wonder. My students ask better questions after that minute of clouds than after an hour of facts."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What does the storm filmmaker say about her job?",
+     "o": ["It requires care more than bravery", "It means driving into storms", "It is the most dangerous job she knows"],
+     "c": 0,
+     "audio": "M7/B1/B1-P2-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the scientist say about forecasts?",
+     "o": ["Three-day forecasts are usually right", "Forecasts are mostly guessing", "Computers will soon predict any week"],
+     "c": 0,
+     "audio": "M7/B1/B1-P2-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How did the boy feel after watching?",
+     "o": ["Keen to see the next part", "Bored by the maps and graphs", "Sorry for choosing the programme"],
+     "c": 0,
+     "audio": "M7/B1/B1-P2-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What was hardest for the cameraman to film?",
+     "o": ["The storm scenes", "The fog", "The mountain light"],
+     "c": 1,
+     "audio": "M7/B1/B1-P2-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the woman reveal about the final scene?",
+     "o": ["The thunder was really a lorry", "The rain was recorded on a roof", "The thunder was recorded twice"],
+     "c": 0,
+     "audio": "M7/B1/B1-P2-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why does the teacher like the documentary?",
+     "o": ["It gives students time to think", "It explains everything quickly", "It is full of useful facts"],
+     "c": 0,
+     "audio": "M7/B1/B1-P2-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P3",
+   "title": "Part 3 · Questions 14–19",
+   "kind": "file",
+   "file": "M7/B1/B1-P3.mp3",
+   "intro": "You will hear a teacher giving information about a special showing of a weather documentary at school. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Teacher: Before you all rush off, some exciting news. As part of science week, the school is showing the new weather documentary 'Wild Skies' — and the director himself is coming. The showing is this Thursday, and please note it's not in the usual classroom: we're using the main hall, because we're expecting a big audience. Doors open at six, and the film itself starts at half past six exactly — latecomers will have to wait for the break to come in, so be on time. The film lasts ninety minutes, and afterwards the director will stay to answer your questions, so start thinking of good ones now. Tickets are free for students, but you must still collect one, because seats are limited — they're available from the school office from tomorrow morning, one each. Parents are welcome too; their tickets cost two pounds, which goes to the science club. And bring a jumper — the hall gets cold in the evening!"
+   ],
+   "gapTitle": "'Wild Skies' — School Showing",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Day of the showing: ____",
+     "accept": ["thursday"]
+    },
+    {
+     "type": "gap",
+     "label": "Place: the main ____",
+     "accept": ["hall"]
+    },
+    {
+     "type": "gap",
+     "label": "The film starts at: half past ____",
+     "accept": ["6", "six"]
+    },
+    {
+     "type": "gap",
+     "label": "The film lasts: ____ minutes",
+     "accept": ["90", "ninety"]
+    },
+    {
+     "type": "gap",
+     "label": "After the film, questions for the: ____",
+     "accept": ["director"]
+    },
+    {
+     "type": "gap",
+     "label": "Collect tickets from the school: ____",
+     "accept": ["office"]
+    }
+   ]
+  },
+  {
+   "id": "B1-P4",
+   "title": "Part 4 · Questions 20–25",
+   "kind": "file",
+   "file": "M7/B1/B1-P4.mp3",
+   "intro": "You will hear an interview with a man called Hugo, who made a documentary about extreme weather. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Tonight I'm joined by Hugo, director of the weather documentary 'Wild Skies'. Hugo, why weather, of all subjects? Hugo: People expect a dramatic answer — that I survived a hurricane as a child or something. The truth is smaller and stranger. Years ago I filmed a wedding, and halfway through, a storm arrived. Everyone ran inside except the grandmother, who stood watching the sky with a face full of wonder. I filmed her instead of the wedding. That face is why I make weather films. Interviewer: The documentary took three years. Why so long? Hugo: Because weather doesn't take bookings! You can plan everything — crew, permits, equipment — but you cannot order a storm for Tuesday. We once flew to the coast four separate times for one scene, and the sky stayed stubbornly blue every visit. The fifth time, we got ten perfect minutes. Three years is mostly waiting, honestly. Interviewer: There's a scene everyone talks about — the lightning filmed from inside the storm. How close were you really? Hugo: Closer than I'd planned, further than it looks. That's the honest answer. We were in a reinforced vehicle with a scientist who'd studied that valley for twenty years, and we followed her rules absolutely. I'm proud of the scene, but I want young filmmakers to hear this clearly: no shot, none, is worth your safety. Interviewer: Was there anything you filmed but chose not to include? Hugo: Yes, and it was the hardest cut of my life. We filmed a village the morning after a flood — people saving photographs from the mud. It was powerful, maybe the most powerful thing we had. But sitting in the edit room, it felt like we'd be using their worst day for our applause. We visited, showed them the film, and asked. They said no. So it's not in the film, and I sleep well. Interviewer: What do you hope audiences take away? Hugo: Not fear — there's enough of that. And not just facts either, because facts alone slide off people. I want them to walk outside afterwards and actually look up. If the film turns one person into a sky-watcher for the rest of their life, everything else was worth it. Interviewer: So what's next? Hugo: Everyone assumes I'll go bigger — hurricanes, tornadoes, disaster epics. I'm doing the opposite. The next film is about fog: the slowest, quietest weather there is. My producers think I'm mad. I think it'll be the best thing I've ever made."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why did Hugo start making weather films?",
+     "o": ["He survived a hurricane as a child", "He filmed a woman watching a storm", "A grandmother asked him to film the sky"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why did the documentary take three years?",
+     "o": ["The weather could not be planned", "The crew kept changing", "The permits took years to arrange"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Hugo say about the lightning scene?",
+     "o": ["It looked closer than it was", "Safety mattered more than any shot", "The scientist filmed it for the crew"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why did Hugo cut the flood scene?",
+     "o": ["The villagers did not want it shown", "The footage was too poor to use", "The edit room lost the material"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Hugo want audiences to do?",
+     "o": ["Learn the important facts", "Feel afraid of extreme weather", "Start watching the sky themselves"],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What will Hugo's next film be about?",
+     "o": ["Hurricanes and tornadoes", "Fog", "A disaster epic"],
+     "c": 1
+    }
+   ]
+  }
+ ]
+}

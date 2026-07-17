@@ -1,0 +1,343 @@
+{
+ "label": "B2 — Upper-Intermediate",
+ "cefr": "Cambridge First (FCE) · B2 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+ "audios": [
+  {
+   "id": "B2-P1",
+   "title": "Part 1 · Questions 1–8",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "An animated film",
+    "A drawing class",
+    "A job interview",
+    "A computer problem",
+    "An exhibition",
+    "A film festival",
+    "A school club",
+    "At an art shop"
+   ],
+   "scripts": [
+    "Question one. Woman: So how was the new animated film? Man: The story itself was nothing special, pretty predictable really, and the songs went on a bit too long. But the hand-drawn backgrounds were extraordinary, like watching a painting come to life. That alone was worth the ticket.",
+    "Question two. Teacher: You've all improved this term, and I know some of you copy pictures from the internet at home. There's nothing wrong with that, but if you really want to progress, draw from real life. Sketch people on the bus, your own hands, anything that's actually in front of you.",
+    "Question three. Man: How did the interview at the animation studio go? Girl: Strange, actually. I applied to be an assistant animator, but they looked through my portfolio and said my real talent was character design, so that's the job they've offered me instead. I start next month.",
+    "Question four. Man: My animation software keeps freezing every time I try to add sound to a scene. Woman: Oh no, have you lost your project? Man: Luckily not, I back everything up every night. But I've got a deadline on Friday and I simply can't finish the last scene like this.",
+    "Question five. Woman: Due to popular demand, the exhibition of early animation, including the original puppets and hand-painted film cells, will now remain open until the end of August, a full two months longer than planned. Tickets still cost eight pounds and can be booked online.",
+    "Question six. Girl: Congratulations on the festival prize! Was it for your drawings? Boy: That's what everyone assumes, but the judges said several entries were beautifully drawn. What made mine stand out, apparently, was the soundtrack. My brother recorded all the sounds using kitchen objects.",
+    "Question seven. Boy: Are you coming to animation club on Tuesday? Girl: Haven't you heard? Mr Field can't do Tuesdays any more, so from next week we're meeting on Thursdays instead, same time, same room. Boy: Thursdays? That's actually better for me.",
+    "Question eight. Woman: I'm looking for a present for my nephew, he's mad about drawing cartoons. Assistant: This professional set is our very best, one hundred and twenty pounds. Woman: That's far too much for an eleven-year-old. I'll take the beginner's kit instead, he'll get just as much fun out of it."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What did the man admire about the film?",
+     "o": [
+      "The story",
+      "The music",
+      "The way it was drawn"
+     ],
+     "c": 2,
+     "audio": "P5/B2/B2-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the teacher advise the students to do?",
+     "o": [
+      "Copy pictures from the internet",
+      "Draw real things around them",
+      "Practise on the bus every day"
+     ],
+     "c": 1,
+     "audio": "P5/B2/B2-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What happened at the girl's interview?",
+     "o": [
+      "She was rejected",
+      "She was offered a different job",
+      "She was asked to improve her portfolio"
+     ],
+     "c": 1,
+     "audio": "P5/B2/B2-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the man's problem?",
+     "o": [
+      "The program stops working",
+      "He has lost his work",
+      "He has already missed his deadline"
+     ],
+     "c": 0,
+     "audio": "P5/B2/B2-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What has changed about the exhibition?",
+     "o": [
+      "The ticket price",
+      "It will stay open longer",
+      "New objects have been added"
+     ],
+     "c": 1,
+     "audio": "P5/B2/B2-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why did the boy's film win the prize?",
+     "o": [
+      "The drawings",
+      "The story",
+      "The sound"
+     ],
+     "c": 2,
+     "audio": "P5/B2/B2-P1-q6.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What has changed about the animation club?",
+     "o": [
+      "The day",
+      "The time",
+      "The room"
+     ],
+     "c": 0,
+     "audio": "P5/B2/B2-P1-q7.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the woman decide to buy?",
+     "o": [
+      "The professional set",
+      "The beginner's kit",
+      "A gift card"
+     ],
+     "c": 1,
+     "audio": "P5/B2/B2-P1-q8.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B2-P2",
+   "title": "Part 2 · Questions 9–18",
+   "kind": "file",
+   "file": "P5/B2/B2-P2.mp3",
+   "intro": "You will hear a student called Lucy talking about her animation course at college. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Lucy: Hello! I'm Lucy, and I'm in my second year of the animation course here, so I've been asked to tell you what it's really like. The college itself is old, but animation is quite a recent arrival: the department opened in two thousand and five, and it now has a fantastic reputation. People imagine huge lecture halls, but classes here are small, just fifteen students, which means the tutors know exactly how each of us is getting on. A warning, though: the first year is not all computers. In fact, it's mainly drawing, hour after hour of it, because the tutors believe you can't animate movement until you've learned to see it properly. Some students find that frustrating, but I absolutely loved it. Everyone asks about my favourite part of the course, and they expect me to say special effects. Actually, it's sound. Adding footsteps, wind and voices to a silent scene feels like magic, and it has completely changed the way I watch films. The equipment here is excellent too. There's a studio in the basement, and students can borrow cameras free of charge for up to a week, which is brilliant when you're filming a project. This term there's something special coming up: in October, animators from a well-known studio are visiting to run a workshop, and last year's students still talk about how much they learned from it. Towards the end of the course, everything builds up to your final film. It must last three minutes, no more and no less, which sounds short until you realise that every single second takes about two hours of work! The best films are shown at a local cinema in front of a real audience, and I honestly can't wait for that. Of course, student life isn't free, so like most people here I have a part-time job: I work three evenings a week in a bookshop near the station. It's usually quiet, so I can even sketch between customers. If you're thinking of applying, here's my advice: don't worry too much about your exam grades. What the tutors really look at is your portfolio, so start filling a sketchbook now, and draw every day, even if it's only for ten minutes. If you love telling stories with pictures, this course will feel like home."
+   ],
+   "gapTitle": "Lucy's Animation Course",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The animation department opened in: ____",
+     "accept": [
+      "2005",
+      "two thousand and five",
+      "two thousand five"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Number of students in a class: ____",
+     "accept": [
+      "15",
+      "fifteen"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The first year is mainly spent: ____",
+     "accept": [
+      "drawing"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Lucy's favourite part of the course: ____",
+     "accept": [
+      "sound"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Students can borrow ____ free of charge",
+     "accept": [
+      "cameras",
+      "a camera",
+      "camera"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Studio animators will run a workshop in: ____",
+     "accept": [
+      "october"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The final film must last: ____ minutes",
+     "accept": [
+      "3",
+      "three"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The best films are shown at a local: ____",
+     "accept": [
+      "cinema"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Lucy works part-time in a: ____",
+     "accept": [
+      "bookshop",
+      "book shop"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Applicants are judged mainly on their: ____",
+     "accept": [
+      "portfolio"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2-P3",
+   "title": "Part 3 · Questions 19–23",
+   "kind": "file",
+   "file": "P5/B2/B2-P3.mp3",
+   "intro": "You will hear five animators talking about what they enjoy most about their work. For each speaker, choose from the list (A–H) what they mention. Use each letter once. There are three extra letters you will not need.",
+   "bank": [
+    "working in a team",
+    "seeing their drawings move",
+    "the variety of projects",
+    "travelling to festivals",
+    "teaching newcomers",
+    "solving technical problems",
+    "creating characters",
+    "the good salary"
+   ],
+   "scripts": [
+    "Speaker one. Man: For me it's all about inventing someone from nothing. You decide how they walk, what makes them laugh, whether they've got a bad temper. My colleagues argue for hours about software and rendering, but I happily leave all that to them. Give me a blank page and a personality to design, and I'm happy. Speaker two. Woman: People think animators just draw all day, but a lot of my time goes on making things behave properly: hair blowing in the wind, water splashing, a coat folding as someone sits down. It can take days of testing and failing, and when it finally works, that moment beats everything else in the job. Speaker three. Man: Last month I was animating a breakfast cereal advert, this month it's a music video, and after that there's a children's series about pirates. Some of my friends moved into games because the money's better, and fair enough, but I'd go mad doing the same thing every day. That constant change is why I stay. Speaker four. Woman: I always imagined animation as a lonely job, just you and a desk. The reality couldn't be more different. Every scene passes through dozens of hands: designers, painters, editors, musicians. We eat lunch together, we solve problems together, and honestly the studio feels like a big noisy family. That's what I'd miss most. Speaker five. Man: I've been doing this for twenty years, and you'd think the novelty would wear off. But there's still one moment that gets me every time: you've made hundreds of separate drawings, you press play, and suddenly the character breathes and looks around. It felt like magic when I was a student, and it still does."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Speaker 1",
+     "c": "creating characters"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 2",
+     "c": "solving technical problems"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 3",
+     "c": "the variety of projects"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 4",
+     "c": "working in a team"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 5",
+     "c": "seeing their drawings move"
+    }
+   ]
+  },
+  {
+   "id": "B2-P4",
+   "title": "Part 4 · Questions 24–30",
+   "kind": "file",
+   "file": "P5/B2/B2-P4.mp3",
+   "intro": "You will hear an interview with a man called Leo, who works as an animation director. For each question, choose the best answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Leo, you're an animation director now, but how did your career actually begin? Leo: Not the way people expect. I did apply to film school, but I didn't get in. So I taught myself at home, made tiny films in my bedroom and posted them online. One of them was seen by a producer, and she offered me my first job. Interviewer: What was that first job like? Leo: Humbling! For nearly a year I never designed a single character. I drew the frames between other artists' drawings, thousands of them. It felt boring at the time, but honestly, it trained my eye better than any course could have. Interviewer: In your view, what's the most important skill for an animator? Leo: People usually say drawing, or knowing the right software. I'd say it's observation. You have to watch how a tired person opens a door, how a child tells a lie. An animator is really an actor with a pencil. Interviewer: You started in hand-drawn animation. Has the move to computers changed the job? Leo: The tools change constantly, and you have to keep learning them, but they're just tools. A dull story is dull in any technique. What really matters hasn't changed at all. Interviewer: And now that you're a director, what's the hardest part? Leo: Without question, telling an artist that a scene they've spent weeks on has to be cut or done again. I know exactly how that feels, so those conversations keep me awake at night. Interviewer: What advice would you give to young animators? Leo: Don't spend five years planning a masterpiece. Finish small things. A ten-second film that exists is worth more than a hundred pages of brilliant ideas, because finishing teaches you what planning never can. Interviewer: So what's next for you? Leo: Well, a big studio has offered me a feature film, which is very flattering, but I've said no for now. I'm going back to my kitchen table to make a short film of my own, just me and a pencil. Interviewer: Leo, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How did Leo's career begin?",
+     "o": [
+      "He studied at film school",
+      "A producer saw his films online",
+      "A family member found him work"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Leo say about his first job?",
+     "o": [
+      "It taught him a great deal",
+      "It was more creative than he expected",
+      "It made him well known quickly"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "According to Leo, the most important skill for an animator is",
+     "o": [
+      "drawing well",
+      "knowing the latest software",
+      "observing people carefully"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What does Leo think about new technology?",
+     "o": [
+      "It has made animation worse",
+      "It makes stories more interesting",
+      "It has not changed what really matters"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What does Leo find hardest as a director?",
+     "o": [
+      "Learning new tools",
+      "Giving bad news to artists",
+      "Meeting tight deadlines"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What advice does Leo give young animators?",
+     "o": [
+      "Complete short, small films",
+      "Plan one large project carefully",
+      "Move to a city with studios"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What will Leo do next?",
+     "o": [
+      "Direct a feature film for a studio",
+      "Make a short film on his own",
+      "Start teaching animation"
+     ],
+     "c": 1
+    }
+   ]
+  }
+ ]
+}

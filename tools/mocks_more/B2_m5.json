@@ -1,0 +1,189 @@
+{
+  "title": "B2 First — Reading and Use of English (MOCK 5)",
+  "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "Finding the way",
+      "body": "For most of human history, getting from one place to another meant (1)____ close attention to the world itself. Travellers steered (2)____ the stars, memorised coastlines and passed directions on in songs and stories. An experienced sailor could (3)____ his position by the colour of the water or the behaviour of seabirds. Such knowledge was handed (4)____ from one generation to the next, often without anything ever being written down. The compass, when it arrived, (5)____ about a quiet revolution in seafaring. Maps became steadily more (6)____, and voyages that had once seemed suicidal became almost routine. Even so, no instrument ever (7)____ the need for judgement entirely. A compass could tell a navigator which way north lay, but he still had to (8)____ allowances for wind, current and his own tiredness — and the sea punished anyone who forgot it.",
+      "questions": [
+        { "options": ["setting", "paying", "catching", "holding"], "answer": 1 },
+        { "options": ["with", "from", "under", "by"], "answer": 3 },
+        { "options": ["judge", "measure", "count", "value"], "answer": 0 },
+        { "options": ["over", "out", "down", "off"], "answer": 2 },
+        { "options": ["brought", "came", "turned", "set"], "answer": 0 },
+        { "options": ["truthful", "faithful", "strict", "accurate"], "answer": 3 },
+        { "options": ["extracted", "withdrew", "removed", "excluded"], "answer": 2 },
+        { "options": ["do", "make", "take", "give"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "Crossing the largest ocean",
+      "body": "The islanders of the Pacific crossed thousands of miles of open ocean (9)____ any instruments at all. They read the ocean itself: the direction of the swells, the flight paths of birds and the way clouds gather (10)____ distant land. A trainee navigator would spend years learning (11)____ to interpret these signs, often lying in the bottom of a canoe to feel the waves before he was allowed to steer. (12)____ was memorised, because nothing could be written down. When European explorers first arrived, many refused to believe that (13)____ voyages were possible without charts. Yet the islanders had settled almost (14)____ habitable island in the world's largest ocean, a feat (15)____ took their ancestors thousands of years and which modern sailors, equipped with every device imaginable, still regard (16)____ astonishing.",
+      "questions": [
+        { "accept": ["without"] },
+        { "accept": ["over", "above"] },
+        { "accept": ["how"] },
+        { "accept": ["everything"] },
+        { "accept": ["such"] },
+        { "accept": ["every"] },
+        { "accept": ["which", "that"] },
+        { "accept": ["as"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "The longitude problem",
+      "rows": [
+        { "text": "Early (17)____ often had only the vaguest idea", "root": "EXPLORE" },
+        { "text": "of where their journeys were taking them." },
+        { "text": "" },
+        { "text": "Their maps, though often wildly (18)____, still", "root": "ACCURATE" },
+        { "text": "guided ships safely across entire oceans." },
+        { "text": "" },
+        { "text": "The (19)____ of a reliable clock finally allowed", "root": "INVENT" },
+        { "text": "sailors to calculate how far east or west they were." },
+        { "text": "" },
+        { "text": "Before then, even highly (20)____ captains could", "root": "EXPERIENCE" },
+        { "text": "be hundreds of miles from where they believed." },
+        { "text": "" },
+        { "text": "The consequences of such errors were often (21)____,", "root": "DISASTER" },
+        { "text": "with whole fleets wrecked on unseen rocks." },
+        { "text": "" },
+        { "text": "Governments offered huge rewards for a (22)____", "root": "SOLVE" },
+        { "text": "to what became known as the longitude problem." },
+        { "text": "" },
+        { "text": "The winning design showed extraordinary (23)____,", "root": "PRECISE" },
+        { "text": "keeping near-perfect time on a rolling ship." },
+        { "text": "" },
+        { "text": "It is worth remembering these (24)____ whenever", "root": "ACHIEVE" },
+        { "text": "a phone quietly tells us where we are." }
+      ],
+      "questions": [
+        { "root": "EXPLORE", "accept": ["explorers"] },
+        { "root": "ACCURATE", "accept": ["inaccurate"] },
+        { "root": "INVENT", "accept": ["invention"] },
+        { "root": "EXPERIENCE", "accept": ["experienced"] },
+        { "root": "DISASTER", "accept": ["disastrous"] },
+        { "root": "SOLVE", "accept": ["solution"] },
+        { "root": "PRECISE", "accept": ["precision"] },
+        { "root": "ACHIEVE", "accept": ["achievements"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+      "questions": [
+        {
+          "before": "People say that the captain never used a map.",
+          "keyword": "SAID",
+          "after": "The captain is ___ used a map.",
+          "accept": ["said never to have", "said to never have", "said to have never"]
+        },
+        {
+          "before": "We got lost because we didn't take a compass.",
+          "keyword": "IF",
+          "after": "We would not have got lost ___ a compass.",
+          "accept": ["if we had taken", "if we'd taken"]
+        },
+        {
+          "before": "Using the stars to navigate is a skill few people still have.",
+          "keyword": "HOW",
+          "after": "Few people still know ___ by the stars.",
+          "accept": ["how to navigate"]
+        },
+        {
+          "before": "Despite the fog, the pilot found the harbour.",
+          "keyword": "EVEN",
+          "after": "The pilot found the harbour ___ was fog.",
+          "accept": ["even though there"]
+        },
+        {
+          "before": "It took them three days to cross the desert.",
+          "keyword": "SPENT",
+          "after": "They ___ the desert.",
+          "accept": ["spent three days crossing"]
+        },
+        {
+          "before": "Sailors trusted the older navigators more than their instruments.",
+          "keyword": "DID",
+          "after": "Sailors did not trust their instruments as much as they ___ navigators.",
+          "accept": ["did the older", "did the old"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The sense we are losing?\n\nAsk people what technology they would find hardest to give up and, sooner or later, someone mentions satellite navigation. The little blue dot has become so woven into daily life that many drivers no longer attempt a journey of any length without it. That such a tool is useful is beyond argument. The more interesting question is what, if anything, it is doing to us.\n\nThe suspicion that it is doing something is not mere nostalgia. In one much-discussed study, researchers examined experienced city taxi drivers who had spent years memorising thousands of streets, and found that a region of the brain involved in spatial memory was measurably enlarged. Navigation, in other words, is not just a skill but a workout: the brain, like a muscle, grows with use. When a device makes the decisions — turn left here, second exit there — that workout stops. Follow-up research suggests that people guided by turn-by-turn instructions form strikingly weaker mental maps of the places they pass through than people who navigate for themselves.\n\nDefenders of the technology reply, reasonably enough, that the same charge has been made against every convenience in history. Writing was once accused of destroying memory; the pocket calculator was supposed to kill arithmetic; nobody now seriously proposes abandoning either. Freed from the chore of route-finding, they argue, drivers can attend to the road, arrive less stressed, and venture into unfamiliar cities they would once have avoided altogether. A skill outsourced, on this view, is not a skill lost but attention released for better things.\n\nYet the comparison is not quite exact. A calculator relieves us of a procedure; navigation, some psychologists argue, is closer to a relationship with the world. Knowing where you are — genuinely knowing, in the body rather than on the screen — turns space into place, an environment you inhabit rather than a corridor you are processed through. People who always follow the dot report a curious experience: they arrive efficiently everywhere, yet could not sketch the route they took, as though they had been delivered rather than travelled.\n\nThe sensible conclusion is probably neither panic nor complacency. Nobody needs to throw the technology away, any more than literate people needed to stop writing things down. But a capacity that shrinks when unused, and that connects us to the physical world, seems worth exercising on purpose — the occasional journey with the screen switched off, the deliberate wrong turn, the walk navigated by memory and sun. We keep other skills alive for pleasure long after machines surpassed us; nobody runs because they can beat a car. Wayfinding may deserve the same courtesy.",
+      "questions": [
+        { "stem": "What does the writer say is 'beyond argument'?", "options": ["That satellite navigation is useful.", "That satellite navigation is harming us.", "That drivers should give the technology up.", "That the blue dot is often inaccurate."], "answer": 0 },
+        { "stem": "What did the study of taxi drivers suggest?", "options": ["Taxi drivers are born with unusually large brains.", "Taxi drivers dislike satellite navigation.", "A brain region linked to spatial memory can grow through use.", "Memorising streets is impossible for most people."], "answer": 2 },
+        { "stem": "Why do defenders of the technology mention writing and the pocket calculator?", "options": ["To prove that both inventions were genuinely harmful.", "To show that similar fears about new conveniences have proved unfounded before.", "To argue that arithmetic is no longer taught in schools.", "To suggest that satellite navigation will soon be abandoned."], "answer": 1 },
+        { "stem": "Why does the writer think the calculator comparison is 'not quite exact'?", "options": ["Because calculators are cheaper than navigation devices.", "Because arithmetic is harder than navigation.", "Because calculators also damage spatial memory.", "Because navigation involves a relationship with the world, not just a procedure."], "answer": 3 },
+        { "stem": "What 'curious experience' do people who always follow the dot report?", "options": ["They frequently get lost on familiar roads.", "They refuse to visit unfamiliar cities.", "They reach places efficiently but cannot recall the route they took.", "They sketch detailed maps of every journey from memory."], "answer": 2 },
+        { "stem": "What does the writer recommend in the final paragraph?", "options": ["Deliberately practising navigation at times, without abandoning the technology.", "Throwing navigation devices away completely.", "Trusting the technology in all circumstances.", "Taking up running instead of driving."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+      "passage": "The bird that cannot be lost\n\nTake a homing pigeon in a covered box, drive it hundreds of miles from its loft by a deliberately confusing route, and release it in a place it has never seen. (37)____ Within hours, in most cases, it will be home. How the bird performs this feat has puzzled scientists for well over a century, and the puzzle is still not entirely solved.\n\nThe obvious explanation — that the pigeon somehow remembers the outward journey — was eliminated long ago. (38)____ Even birds transported under anaesthetic, unable to register any part of the route, found their way back without difficulty.\n\nAttention then turned to the sky. Pigeons, experiments showed, use the position of the sun as a compass, checking it against a remarkably accurate internal clock. (39)____ On overcast days the birds fly home regardless, which means the sun cannot be the whole story.\n\nThe current favourite among researchers is magnetism. Pigeons appear able to sense the Earth's magnetic field and to use it not only as a compass but as a kind of map. (40)____ Attach a small magnet to a pigeon's back, and on cloudy days — when it cannot fall back on the sun — its navigation visibly deteriorates.\n\nYet even magnetism does not close the case. Some birds with disrupted magnetic senses still get home, apparently recognising the characteristic smell of their own region's air. (41)____ It is as if the bird carries not one navigation system but half a dozen, switching between them as conditions demand.\n\nPerhaps that is the real lesson of the homing pigeon. (42)____ Nature, faced with the problem of finding the way, did not settle on a single elegant solution; it piled up every solution it could find, and the result is a small grey bird that is, for all practical purposes, impossible to lose.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Birds shut away where they could see nothing of the landscape returned just as reliably.",
+          "The impressive thing is not any single sense, but the refusal to depend on just one.",
+          "The strongest evidence comes from experiments that deliberately interfere with this sense.",
+          "It will circle briefly, as if consulting something invisible, and then set off in the right direction.",
+          "Pigeons, in the end, proved unable to find their way home in most experiments.",
+          "This discovery seemed decisive until researchers tried releasing birds under heavy cloud.",
+          "This is why the sport of pigeon racing was eventually banned in most countries.",
+          "Others seem to follow roads and motorway junctions like any human driver."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing sentence:", "answer": "D" },
+        { "stem": "Choose the missing sentence:", "answer": "A" },
+        { "stem": "Choose the missing sentence:", "answer": "F" },
+        { "stem": "Choose the missing sentence:", "answer": "C" },
+        { "stem": "Choose the missing sentence:", "answer": "H" },
+        { "stem": "Choose the missing sentence:", "answer": "B" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "Read about four people who find their way without satellite navigation. Then answer the questions. The same person may be chosen more than once.",
+      "sources": [
+        { "label": "A", "name": "Ingrid", "text": "I teach coastal sailing, and on the first morning of every course I collect the students' phones and switch off the boat's electronic chart. You can imagine the reaction; some people genuinely believe I am putting them in danger. By day three they are plotting positions with a compass and a paper chart, and by the end of the week most admit — some grudgingly — that they finally understand what the instruments had been doing for them all along. Former students write to me years later to say thank you, usually after some crisis of their own. My own conversion happened the hard way: a lightning strike once destroyed every screen on a delivery voyage, two days from land. The paper chart, the compass and the old skills brought us in. I am not against electronics; I am against having nothing underneath them." },
+        { "label": "B", "name": "Samir", "text": "My father guided travellers across this desert, as his father did before him, and I learned the stars the way other children learn street names — by walking beneath them, night after night, at his side. Tourists now arrive with devices that promise their position to within a few metres, and more than once I have been asked, politely, why my services are necessary at all. The desert usually answers for me: batteries hate the heat, and screens are unreadable at noon. What troubles me is closer to home. My own sons are respectful about the old knowledge, but they are studying in the city, and I do not believe either of them will ever guide. Something that took our family generations to gather can be lost in a single one, and I think about that on every crossing." },
+        { "label": "C", "name": "Maeve", "text": "It took me nearly four years to learn this city well enough to pass the taxi examination — twenty-five thousand streets, plus every hospital, hotel, theatre and courthouse between them. People ask why anyone would bother when a phone does it instantly, and I understand the question. But the machine and I are not doing the same thing. The satnav drivers follow a line; they could drive a street every day for a year and not be able to tell you what stands on it. I hold the city itself in my head, and the training changed me for good: I cannot walk anywhere now, even on holiday in a strange town, without automatically building the map as I go. When a road closes without warning, the difference shows. I re-route before the passenger has even noticed; the line-followers sit in the jam, waiting to be rescued." },
+        { "label": "D", "name": "Lauri", "text": "I took up orienteering at thirty-nine, purely because my doctor told me to exercise and running in circles bored me senseless. I stayed for reasons that have nothing to do with fitness: it is chess at running speed, and the forest punishes arrogance faster than any opponent. People watch the top competitors and assume they were born with a compass in their heads. Nonsense. Map reading is a skill like reading music — anyone with patience can learn it, and I have taught pensioners and nine-year-olds in the same season. My real education came in my second year, when I ignored my compass in thick fog because I felt certain it was wrong, and spent three hours finding my way off a hillside. I have never learned more in a single afternoon, before or since, and I tell every beginner that story." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Ingrid", "Samir", "Maeve", "Lauri"] },
+      "questions": [
+        { "stem": "Which person makes their students give up electronic devices during training?", "answer": "A" },
+        { "stem": "Which person learned their skills from a parent?", "answer": "B" },
+        { "stem": "Which person says a serious mistake taught them more than anything else?", "answer": "D" },
+        { "stem": "Which person spent years committing an enormous amount of information to memory?", "answer": "C" },
+        { "stem": "Which person was once in danger when technology suddenly failed?", "answer": "A" },
+        { "stem": "Which person fears that knowledge built up over generations will not be passed on?", "answer": "B" },
+        { "stem": "Which person insists their skill can be learned by anyone with patience?", "answer": "D" },
+        { "stem": "Which person believes people who rely on devices never really get to know a place?", "answer": "C" },
+        { "stem": "Which person finds that people who object at first are often grateful afterwards?", "answer": "A" },
+        { "stem": "Which person says their training permanently changed how they experience new places?", "answer": "C" }
+      ]
+    }
+  ]
+}

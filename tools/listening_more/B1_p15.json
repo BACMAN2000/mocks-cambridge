@@ -1,0 +1,241 @@
+{
+ "label": "B1 — Intermediate",
+ "cefr": "Cambridge PET · B1 official format",
+ "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+ "audios": [
+  {
+   "id": "B1-P1",
+   "title": "Part 1 · Questions 1–7",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+   "segments": [
+    "A costume",
+    "Going to the theatre",
+    "The performance",
+    "Rehearsal time",
+    "After the rehearsal",
+    "Practising outside",
+    "Something forgotten"
+   ],
+   "scripts": [
+    "Question one. Girl: I still need something for my pirate costume, Mum. Mum: What about that old umbrella for a sword, Mia? Mia: No, the teacher said I just need a big hat — she's got everything else. Mum: A hat? We can find one this afternoon.",
+    "Question two. Boy: How are you getting to the theatre workshop, Lucy? By bus? Lucy: My mum usually drives me, but her car's at the garage, so today I'm taking the bus from the square. Boy: Me too — let's go together.",
+    "Question three. Woman: Is the play still happening in the school garden on Saturday? Man: Haven't you heard? They're expecting heavy rain, so it's been moved inside. Woman: What a shame — the garden is so pretty.",
+    "Question four. Emma: What time does the workshop start tonight, Jack? Six o'clock? Jack: It used to, but the director changed it to seven because some actors were arriving late from work. Emma: Seven o'clock — got it.",
+    "Question five. Boy: Shall we get something to eat after the rehearsal, Nora? Nora: Yes! There's a place near the theatre that makes wonderful cakes. Boy: Actually the others are already ordering pizza for everybody. Nora: Even better — I'm starving.",
+    "Question six. Girl: Where are we practising the street scene today? Boy: The director wants real open space, so we're meeting in the park by the fountain, not in the hall. Girl: The park? I hope it stays warm.",
+    "Question seven. Mum: Have you got everything for the show, Max? Max: My costume's here, and my phone... oh no, I've left my guitar at school! I need it for the second act. Mum: Get in, we'll drive past school on the way."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What does Mia need for her costume?",
+     "imgs": ["umbrella", "hat", "bag"],
+     "c": 1,
+     "audio": "P15/B1/B1-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How is Lucy going to the workshop today?",
+     "imgs": ["car", "bus", "bike"],
+     "c": 1,
+     "audio": "P15/B1/B1-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will the weather be like on Saturday?",
+     "imgs": ["sunny", "snowy", "rainy"],
+     "c": 2,
+     "audio": "P15/B1/B1-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the workshop start tonight?",
+     "imgs": ["clock700", "clock730", "clock8"],
+     "c": 0,
+     "audio": "P15/B1/B1-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will they eat after the rehearsal?",
+     "imgs": ["cake", "sandwich", "pizza"],
+     "c": 2,
+     "audio": "P15/B1/B1-P1-q5.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where will they practise the street scene?",
+     "imgs": ["park", "cafe", "library"],
+     "c": 0,
+     "audio": "P15/B1/B1-P1-q6.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What has Max left at school?",
+     "imgs": ["phone", "guitar", "camera"],
+     "c": 1,
+     "audio": "P15/B1/B1-P1-q7.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P2",
+   "title": "Part 2 · Questions 8–13",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+   "segments": [
+    "The audition",
+    "Speaking on stage",
+    "Stage fright",
+    "A costume problem",
+    "A change of plan",
+    "The best part"
+   ],
+   "scripts": [
+    "You will hear a girl talking about her audition. Girl: I practised my song for weeks because I was sure they'd ask for one, but in the end they didn't. Instead, they gave me a page from the play to read aloud with another student. I think it went well, actually.",
+    "You will hear a teacher giving advice to young actors. Teacher: Many of you speak your lines beautifully, but only the first two rows can hear you. Don't shout — that ruins the emotion. Just slow down and send your voice to the back wall of the room. Practise that this week.",
+    "You will hear a boy talking about performing. Boy: People assume I'm relaxed because I joke around in rehearsals. The truth is, the moment before I walk on stage my hands shake terribly. Once I say my first line, though, the fear simply disappears.",
+    "You will hear a woman who makes costumes for the workshop. Woman: The jackets for the main characters turned out beautifully, and we finished them early for once. Unfortunately the shop sent us the wrong colour material for the dancers' dresses, so those will be ready a week late.",
+    "You will hear a director talking to the actors. Man: Listen, everyone. The theatre needs our rehearsal room on Thursday, so instead of cancelling, we'll meet on Wednesday at the usual time. Same room, same scenes — just one day earlier. Please tell anyone who's not here.",
+    "You will hear a girl talking about the theatre workshop. Girl: Honestly, I didn't join for the acting. What I love most is the hour after rehearsal when we all sit around, drink hot chocolate and invent ideas for the show. Some of our best scenes were born that way."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What did the girl do at the audition?",
+     "o": ["She sang a song", "She read part of the play", "She danced with a partner"],
+     "c": 1,
+     "audio": "P15/B1/B1-P2-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the teacher want the actors to do?",
+     "o": ["Speak more loudly by shouting", "Slow down and project their voices", "Learn their lines better"],
+     "c": 1,
+     "audio": "P15/B1/B1-P2-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "When does the boy feel nervous?",
+     "o": ["Just before going on stage", "During rehearsals", "After saying his first line"],
+     "c": 0,
+     "audio": "P15/B1/B1-P2-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the problem with the costumes?",
+     "o": ["The jackets are unfinished", "The dresses will be late", "The material was too expensive"],
+     "c": 1,
+     "audio": "P15/B1/B1-P2-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What change does the director announce?",
+     "o": ["The rehearsal is cancelled", "The rehearsal moves to Wednesday", "The rehearsal room will change"],
+     "c": 1,
+     "audio": "P15/B1/B1-P2-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the girl like most about the workshop?",
+     "o": ["Performing on stage", "Sharing ideas after rehearsal", "Drinking hot chocolate at home"],
+     "c": 1,
+     "audio": "P15/B1/B1-P2-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P3",
+   "title": "Part 3 · Questions 14–19",
+   "kind": "file",
+   "file": "P15/B1/B1-P3.mp3",
+   "intro": "You will hear a man giving information about a holiday theatre workshop. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Man: Good morning, everyone, and welcome to the summer theatre workshop. Let me give you the important details. The workshop runs for five days, starting on Monday. We won't be in the main theatre, I'm afraid — all our sessions take place in the music room, on the first floor. We begin every day at half past nine, so please don't be late, and we finish at one o'clock. The full week costs twelve pounds, which includes your script and all the materials. At the end of the week, on Friday evening, you'll perform a short musical for your families. Two practical things: wear comfortable shoes, because there's a lot of movement, and bring a notebook every day, because you'll want to write down your director's instructions. Right — let's meet the team!"
+   ],
+   "gapTitle": "Summer Theatre Workshop",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The workshop starts on: ____",
+     "accept": ["monday"]
+    },
+    {
+     "type": "gap",
+     "label": "Sessions take place in the: ____ room",
+     "accept": ["music"]
+    },
+    {
+     "type": "gap",
+     "label": "Every day begins at: half past ____",
+     "accept": ["9", "nine"]
+    },
+    {
+     "type": "gap",
+     "label": "The week costs: £ ____",
+     "accept": ["12", "twelve"]
+    },
+    {
+     "type": "gap",
+     "label": "On Friday they will perform a: ____",
+     "accept": ["musical"]
+    },
+    {
+     "type": "gap",
+     "label": "Bring every day: a ____",
+     "accept": ["notebook"]
+    }
+   ]
+  },
+  {
+   "id": "B1-P4",
+   "title": "Part 4 · Questions 20–25",
+   "kind": "file",
+   "file": "P15/B1/B1-P4.mp3",
+   "intro": "You will hear an interview with a girl called Lily, who acts in a youth theatre group. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Today my guest is Lily, who has just played the main part in her youth theatre's new show. Lily, how did you get into acting? Lily: By accident, really. My best friend didn't want to go to the auditions alone, so I went along just to keep her company. She didn't get a part in the end — but I did! Interviewer: How did you feel about playing the main character? Lily: Terrified at first, honestly. It wasn't the acting that worried me, it was remembering so many lines. My brother tested me at breakfast every morning for a month. Interviewer: What was the most useful thing the director taught you? Lily: She always said that listening is more important than speaking. If you really listen to the other actors, your own lines sound natural. That changed everything for me. Interviewer: Did anything go wrong during the shows? Lily: On the second night a door on the stage got stuck, and I couldn't make my entrance! I had to climb through the window in the scenery. The audience thought it was part of the play and laughed for ages. Interviewer: What do you enjoy most about theatre? Lily: People expect me to say being applauded, but it's actually the weeks of rehearsal, when the group slowly turns into a family. Interviewer: And next year? Lily: I'd like to try something completely different — directing. Watching our director made me want to be the person who shapes the whole story."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why did Lily go to the auditions?",
+     "o": ["To get the main part", "To go with her friend", "Her brother suggested it"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What worried Lily about the main part?",
+     "o": ["Acting in front of people", "Learning all her lines", "Singing on stage"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What did the director teach Lily?",
+     "o": ["To listen carefully to other actors", "To speak more loudly", "To move naturally on stage"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What happened on the second night?",
+     "o": ["Lily forgot her lines", "A door would not open", "The audience arrived late"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Lily enjoy most about theatre?",
+     "o": ["Hearing the applause", "The rehearsals with the group", "Performing the final show"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Lily want to do next year?",
+     "o": ["Act in a bigger theatre", "Write her own play", "Direct a show"],
+     "c": 2
+    }
+   ]
+  }
+ ]
+}

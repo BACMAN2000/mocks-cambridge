@@ -1,0 +1,189 @@
+{
+  "title": "B2 First — Reading and Use of English (MOCK 7)",
+  "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "Where the water led",
+      "body": "It is no (1)____ that the world's first great cities grew up beside rivers. A river offered drinking water, fish, fertile soil and a natural highway along which goods could be (2)____ far more easily than over land. Even flooding, which (3)____ terror into farmers elsewhere, was welcomed in ancient Egypt: when the waters retreated each year, they left (4)____ a layer of rich mud in which almost anything would grow. In time, communities learned to (5)____ the water through canals onto distant fields, turning desert into farmland. Managing a river on this scale (6)____ cooperation between thousands of people, and some historians argue that the sheer organisation involved is what (7)____ rise to the first governments. Rivers, in other words, did not merely feed the first cities; they may well have (8)____ them into existence.",
+      "questions": [
+        { "options": ["chance", "luck", "accident", "fortune"], "answer": 2 },
+        { "options": ["carried", "fetched", "lifted", "held"], "answer": 0 },
+        { "options": ["hit", "struck", "beat", "knocked"], "answer": 1 },
+        { "options": ["below", "beneath", "backwards", "behind"], "answer": 3 },
+        { "options": ["direct", "aim", "point", "address"], "answer": 0 },
+        { "options": ["claimed", "charged", "demanded", "ordered"], "answer": 2 },
+        { "options": ["made", "brought", "set", "gave"], "answer": 3 },
+        { "options": ["carried", "brought", "drawn", "pushed"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "Living with the flood",
+      "body": "For the people of the delta, the river has always been (9)____ friend and enemy. In a good year it rises gently, soaking the fields and leaving them richer (10)____ before. In a bad year it sweeps away everything (11)____ its path — houses, cattle, sometimes whole villages. You might expect people to move away, but very (12)____ do. The land is simply too fertile to abandon, and families have farmed it for (13)____ long that leaving would feel like a kind of betrayal. Instead, they adapt. Houses are built (14)____ stilts, boats are kept ready beside every door, and children learn to swim almost as soon (15)____ they can walk. Outsiders sometimes describe such communities as victims. The people themselves see it differently: the flood, they say, is not an interruption to their way of life — it (16)____ their way of life.",
+      "questions": [
+        { "accept": ["both"] },
+        { "accept": ["than"] },
+        { "accept": ["in"] },
+        { "accept": ["few"] },
+        { "accept": ["so"] },
+        { "accept": ["on"] },
+        { "accept": ["as"] },
+        { "accept": ["is"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "The price of a dam",
+      "rows": [
+        { "text": "The (17)____ of a major dam changes a river", "root": "CONSTRUCT" },
+        { "text": "for hundreds of miles in both directions." },
+        { "text": "" },
+        { "text": "Supporters promise a (18)____ supply of", "root": "RELY" },
+        { "text": "electricity and protection from deadly floods." },
+        { "text": "" },
+        { "text": "Opponents point to the (19)____ of ancient", "root": "DESTROY" },
+        { "text": "valleys, villages and fishing grounds." },
+        { "text": "" },
+        { "text": "The (20)____ of local people is rarely sought", "root": "AGREE" },
+        { "text": "before the first concrete is poured." },
+        { "text": "" },
+        { "text": "Fish that once swam (21)____ upstream to breed", "root": "FREE" },
+        { "text": "now find their ancient routes blocked." },
+        { "text": "" },
+        { "text": "Engineers respond with (22)____ solutions such as", "root": "IMAGINE" },
+        { "text": "artificial channels that let the fish climb past." },
+        { "text": "" },
+        { "text": "Whether the benefits justify the (23)____ is a", "root": "LOSE" },
+        { "text": "question each generation must answer again." },
+        { "text": "" },
+        { "text": "What is certain is that no dam lasts forever," },
+        { "text": "and rivers have infinite (24)____.", "root": "PATIENT" }
+      ],
+      "questions": [
+        { "root": "CONSTRUCT", "accept": ["construction"] },
+        { "root": "RELY", "accept": ["reliable"] },
+        { "root": "DESTROY", "accept": ["destruction"] },
+        { "root": "AGREE", "accept": ["agreement"] },
+        { "root": "FREE", "accept": ["freely"] },
+        { "root": "IMAGINE", "accept": ["imaginative"] },
+        { "root": "LOSE", "accept": ["losses"] },
+        { "root": "PATIENT", "accept": ["patience"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+      "questions": [
+        {
+          "before": "People believe the bridge is over five hundred years old.",
+          "keyword": "BE",
+          "after": "The bridge is believed ___ over five hundred years old.",
+          "accept": ["to be"]
+        },
+        {
+          "before": "Swimming in the river is forbidden because of the strong current.",
+          "keyword": "ALLOWED",
+          "after": "Because of the strong current, people ___ in the river.",
+          "accept": ["are not allowed to swim", "aren't allowed to swim"]
+        },
+        {
+          "before": "The floods destroyed the harvest, so prices rose.",
+          "keyword": "RESULT",
+          "after": "Prices rose as a ___ destroying the harvest.",
+          "accept": ["result of the floods"]
+        },
+        {
+          "before": "'We moved here twenty years ago,' said the farmer.",
+          "keyword": "BEEN",
+          "after": "The farmer said they had ___ twenty years.",
+          "accept": ["been living there for", "been there for"]
+        },
+        {
+          "before": "The village was cut off because the bridge collapsed.",
+          "keyword": "IF",
+          "after": "The village would not have been cut off ___ collapsed.",
+          "accept": ["if the bridge had not", "if the bridge hadn't"]
+        },
+        {
+          "before": "I have never seen such a wide river before.",
+          "keyword": "EVER",
+          "after": "This is the widest river I ___.",
+          "accept": ["have ever seen"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The rivers beneath our feet\n\nBeneath the streets of almost every old city runs a second, secret map: the rivers it has buried. Streams that once powered mills and watered orchards were, one by one, arched over with brick and absorbed into the sewer system, until rivers that had given their names to whole districts survived only as a damp rumour in basements. The Victorians who entombed them were not vandals. The rivers of the industrial city had become open drains, spreading disease through the crowded streets around them, and burying them saved thousands of lives. It seemed, at the time, like the story's obvious final chapter.\n\nIt was not. In recent decades, cities around the world have begun, cautiously, to dig their rivers up again — a movement known, rather beautifully, as daylighting. What began as a handful of eccentric projects has become almost mainstream, and the arguments in its favour have grown steadily harder to dismiss.\n\nSome of those arguments are severely practical. A buried river in a concrete pipe can carry only so much water; in an age of harsher storms, that fixed capacity has become a liability, and a re-opened river with grassy banks turns out to absorb floodwater far better than any culvert. An exposed river also cools the streets around it, a service whose value climbs with every heatwave. Engineers who once regarded daylighting as sentimental now often propose it themselves, for reasons of pure hydraulics.\n\nOther arguments are harder to measure but no less real. Where rivers have been reopened, people gather. Property nearby rises in value, sometimes uncomfortably so; cafés turn to face the water; children discover, with visible astonishment, that their street had a river under it all along. Doctors write, with increasing confidence, about the measurable effects of moving water on the anxious human mind. None of this fits neatly on a spreadsheet, which is precisely why, for a century, it was left off them.\n\nThere are reasonable objections. Daylighting is expensive; it disrupts traffic for years; and the rising rents that follow a successful scheme can push out the very residents who campaigned for it. A reopened river is not automatically a public good — it depends, like most things in cities, on who is allowed to enjoy it. But the deeper lesson of the buried rivers seems secure. Each generation solves its problems in the confident belief that its solution is final, and each is wrong. The Victorians were right to bury the rivers, and we are right to dig them up — and some improvement we cannot yet imagine will one day seem just as obvious to the people who undo ours.",
+      "questions": [
+        { "stem": "How does the writer describe the Victorians who buried the rivers?", "options": ["As vandals who destroyed the city's beauty.", "As people acting reasonably against a genuine danger to health.", "As engineers who ran out of money.", "As sentimental about the industrial past."], "answer": 1 },
+        { "stem": "What has happened to the practice of 'daylighting'?", "options": ["It has been abandoned as eccentric.", "It remains illegal in most cities.", "It was invented by the Victorians.", "It has moved from a few unusual projects towards the mainstream."], "answer": 3 },
+        { "stem": "Why do some engineers now support reopening rivers?", "options": ["Open rivers handle storm water better than fixed pipes and cool the surrounding streets.", "Concrete culverts have become too cheap to be profitable.", "Sewers are no longer needed in modern cities.", "They enjoy sentimental projects."], "answer": 0 },
+        { "stem": "What point does the writer make about the social benefits of reopened rivers?", "options": ["They are easily measured on spreadsheets.", "They are largely imaginary.", "They are real but hard to quantify, which is why they were ignored for so long.", "They matter only to property developers."], "answer": 2 },
+        { "stem": "What problem can follow a successful daylighting scheme?", "options": ["The river usually floods the district.", "Rising rents may drive out the residents who campaigned for the scheme.", "Traffic disappears from the city permanently.", "Children lose interest in the river."], "answer": 1 },
+        { "stem": "What is 'the deeper lesson' the writer draws at the end?", "options": ["That the Victorians were simply wrong.", "That rivers should never have existed in cities.", "That modern solutions, unlike Victorian ones, are final.", "That every generation wrongly believes its solutions are final."], "answer": 3 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+      "passage": "The fish that came back\n\nFor the best part of a century, the river that winds through the old industrial city was written off as dead. Its water ran grey with mill waste, oxygen levels were close to zero, and the last salmon had been caught — and stuffed, and displayed in a glass case — sometime before the First World War. (37)____ To most residents, the river was simply a smell with a bridge over it.\n\nThe recovery began, as such recoveries often do, with laws that seemed unremarkable at the time. Factories were gradually required to treat their waste, and the worst pipes were closed one by one. (38)____ The water just grew slowly, invisibly cleaner.\n\nThe first sign that something had changed arrived on a fishing line. An angler, expecting the usual eels, found himself holding a small, silver, unmistakable salmon, and his photograph appeared on the front page of the local paper. (39)____ Biologists confirmed what the angler already suspected: salmon are ruthless judges of water quality, and they simply do not enter dirty rivers.\n\nThere was still a problem, and it was made of stone. The weirs built to power the mills stood across the river like a staircase with no steps, and a returning fish could get no further than the first of them. (40)____ Watching a salmon fling itself again and again at a wall of falling water is, visitors report, strangely difficult to walk away from.\n\nToday the fish pass upstream through specially built channels, monitored by counters and cameras. (41)____ Schoolchildren who visit the counting station are shown live images of fish passing a window in the dark, swimming patiently against the current towards gravel beds their ancestors last saw generations ago.\n\nThe city, for its part, has rediscovered its waterfront, with new paths and cafés facing water that people once crossed the street to avoid. (42)____ The salmon, indifferent to all of this, keep swimming. They are not a symbol to themselves; they are simply going home — and the fact that home is worth returning to is, perhaps, the finest compliment the city has ever been paid.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "For a while, the cleaned river was therefore a corridor leading to a locked door.",
+          "The salmon, however, never returned, and the river remains empty today.",
+          "None of these measures was dramatic on its own, and none of them made headlines.",
+          "Estate agents now mention the river in their advertisements rather than apologising for it.",
+          "Older photographs show warning signs along the banks, forbidding even paddling.",
+          "As a result, the mills reopened and began producing cloth again.",
+          "The excitement was not really about one fish, but about what its presence proved.",
+          "Their numbers are still small, but they rise, unevenly, year after year."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing sentence:", "answer": "E" },
+        { "stem": "Choose the missing sentence:", "answer": "C" },
+        { "stem": "Choose the missing sentence:", "answer": "G" },
+        { "stem": "Choose the missing sentence:", "answer": "A" },
+        { "stem": "Choose the missing sentence:", "answer": "H" },
+        { "stem": "Choose the missing sentence:", "answer": "D" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "Read about four people whose working lives revolve around a river. Then answer the questions. The same person may be chosen more than once.",
+      "sources": [
+        { "label": "A", "name": "Hana", "text": "My job is to measure the river's health, and the results surprise everyone I show them to. This water is cleaner than it has been for well over a century — otters are back, and last spring we recorded a fish species that vanished in my great-grandmother's day. Yet when we survey the public, most people still describe the river as filthy and dangerous. That reputation is forty years out of date, and it does real damage: people protect what they love, and nobody loves a river they believe is a sewer. I could not gather a fraction of my data alone. Every week, volunteers — retired chemists, students, one entire birdwatching club — wade in with sampling kits, unpaid and mostly unthanked. Whatever the funding bodies think, it is these people who keep the science running." },
+        { "label": "B", "name": "Georg", "text": "My grandfather carried coal on this river, my father carried grain, and I carry shipping containers, so I suppose the family has moved with the times. People are astonished that river freight still exists at all, which tells you how invisible we have become. It should not be: one barge takes dozens of lorries off the motorway, and moves the same load on a fraction of the fuel. If governments were serious about cleaner transport, they would invest in waterways instead of endlessly widening roads. The life suits me — the pace is slow, and nobody tailgates you. What has changed is the water itself. Twice in the last five summers, the river has dropped so low that we tied up for weeks, fully loaded, going nowhere. My grandfather never mentioned any such thing. The climate is rewriting the rules of a very old trade." },
+        { "label": "C", "name": "Amara", "text": "I swam in this river as a child, before the warning signs went up, and I spent one memorable week in hospital as a result — the water was exactly as bad as the authorities claimed. Most people would have taken the hint. I took it personally. For nine years our group tested the water, published the results, packed public meetings and embarrassed officials, until last summer the stretch by the old boathouse was finally declared an official bathing site, the first on this river in living memory. On the opening morning, four hundred people swam. I stood on the bank and cried, which I had not planned. We are not finished, either: designation forces the water companies to keep the river clean, which was the real point all along. A right that exists on paper is only the beginning." },
+        { "label": "D", "name": "Tomás", "text": "The museum lives in a former rope warehouse, which is fitting, since almost everything in it was donated by people who once worked the docks. When the port closed, the city did something strange: it simply turned around. For thirty years, new buildings faced away from the water, as if the river were something to be ashamed of. My work is a race against time in the most literal sense. The men and women who remember the working river are in their eighties and nineties now, and each month my recorder and I sit in another kitchen, taping stories nobody ever wrote down — a whole world of cranes, tides and nicknames that exists only in their memories. I love this work, and I do it on a budget renewed one year at a time. Every winter the council debates our little grant, and every winter I quietly prepare for the possibility that we will not be here to finish." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Hana", "Georg", "Amara", "Tomás"] },
+      "questions": [
+        { "stem": "Which person believes the public's view of the river is out of date?", "answer": "A" },
+        { "stem": "Which person continues a trade that has been in their family for generations?", "answer": "B" },
+        { "stem": "Which person became ill because of the condition of the water?", "answer": "C" },
+        { "stem": "Which person is recording people's memories before they are lost?", "answer": "D" },
+        { "stem": "Which person argues their industry is better for the environment than the alternative?", "answer": "B" },
+        { "stem": "Which person relies on unpaid helpers to carry out their work?", "answer": "A" },
+        { "stem": "Which person campaigned successfully for official public access?", "answer": "C" },
+        { "stem": "Which person says the city ignored the river after an industry disappeared?", "answer": "D" },
+        { "stem": "Which person worries each year about the future funding of their organisation?", "answer": "D" },
+        { "stem": "Which person is hopeful because conditions have improved enormously over the past century?", "answer": "A" }
+      ]
+    }
+  ]
+}

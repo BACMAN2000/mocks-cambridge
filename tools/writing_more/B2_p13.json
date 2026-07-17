@@ -1,0 +1,34 @@
+{
+  "title": "B2 First — Writing (Practice 13)",
+  "durationMin": 80,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 140, "maxWords": 190,
+        "lead": "In your English class you have been talking about sport in the community. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+        "stimulus": { "body": "\"Towns should spend more public money on sports facilities for young people. Do you agree?\"\n\nNotes\n\nWrite about:\n1. health\n2. other things the money could pay for\n3. ............... (your own idea)" },
+        "bullets": ["health", "other things the money could pay for", "your own idea", "give reasons for your point of view"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 140, "maxWords": 190,
+          "lead": "You see this announcement in an English-language magazine for young people.",
+          "stimulus": { "title": "THE SPORT EVERYONE SHOULD TRY", "body": "Football and basketball get all the attention — but what about the sports nobody talks about? Write an article about a sport you think more people should try, describing what it involves, explaining why you enjoy it, and saying how a beginner could get started." },
+          "bullets": ["what the sport involves", "why you enjoy it", "how a beginner could get started"],
+          "write": "Write your article." },
+        { "type": "letter", "q": 3, "minWords": 140, "maxWords": 190,
+          "lead": "You have received this letter from your English-speaking friend Morgan.",
+          "stimulus": { "body": "I've decided I really need to do more exercise, but here's my problem: I hate gyms, and the idea of joining a sports club full of strangers makes me want to hide! You do loads of sport — how did you get started? Is there anything I could do that doesn't involve being watched by other people, at least at first?\nYours,\nMorgan" },
+          "bullets": ["how you got started in sport", "activities Morgan could do without feeling watched", "encouragement to take the first step"],
+          "write": "Write your letter in reply." },
+        { "type": "email", "q": 4, "minWords": 140, "maxWords": 190,
+          "lead": "You have received this email from your English-speaking friend Andrea, who may come to study at your school.",
+          "stimulus": { "body": "From: Andrea\nSubject: Sport at your school\n\nMy family might move to your city next year, which means I could end up at your school! Sport is a big deal for me — I train several times a week. What are the sports facilities like at your school? Which teams or clubs could I join? And are the coaches any good?\nThanks a lot,\nAndrea" },
+          "bullets": ["what the sports facilities are like", "teams or clubs Andrea could join", "your opinion of the coaches"],
+          "write": "Write your email." }
+      ]
+    }
+  ]
+}

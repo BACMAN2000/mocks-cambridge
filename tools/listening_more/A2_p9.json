@@ -1,0 +1,309 @@
+{
+ "label": "A2 — Elementary",
+ "cefr": "Cambridge KET · A2 official format",
+ "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+ "audios": [
+  {
+   "id": "A2-P1",
+   "title": "Part 1 · Questions 1–5",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+   "segments": [
+    "At the park",
+    "At the pet shop",
+    "A winter walk",
+    "The vet visit",
+    "Trip to the farm"
+   ],
+   "scripts": [
+    "Question one. Girl: Guess what I saw at the park this morning! Boy: A big dog? Girl: No — three little rabbits under a tree! Boy: Let's go and look after school.",
+    "Question two. Boy: What did you buy at the pet shop, Emma? Girl: I looked at a funny little hat for my cat, but I bought her a ball. She lost her old one under the sofa. Boy: She'll love it.",
+    "Question three. Mum: Are you taking the dog for his walk now? Boy: Look outside — it's snowing! Mum: He loves the snow. Put on your warm coat.",
+    "Question four. Man: What time do we take the cat to the vet? Woman: The appointment was at four, but they called — it's now half past four. Man: OK, we have more time then.",
+    "Question five. Girl: Are we cycling to the animal farm on Saturday? Boy: It's too far by bike. Dad said he'll take us in the car. Girl: Even better!"
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "Where did the girl see the rabbits?",
+     "imgs": [
+      "park",
+      "cafe",
+      "library"
+     ],
+     "c": 0,
+     "audio": "P9/A2/A2-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What did Emma buy for her cat?",
+     "imgs": [
+      "ball",
+      "hat",
+      "book"
+     ],
+     "c": 0,
+     "audio": "P9/A2/A2-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What is the weather like now?",
+     "imgs": [
+      "sunny",
+      "rainy",
+      "snowy"
+     ],
+     "c": 2,
+     "audio": "P9/A2/A2-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time is the vet appointment now?",
+     "imgs": [
+      "clock400",
+      "clock430",
+      "clock420"
+     ],
+     "c": 1,
+     "audio": "P9/A2/A2-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will they go to the animal farm?",
+     "imgs": [
+      "bike",
+      "car",
+      "bus"
+     ],
+     "c": 1,
+     "audio": "P9/A2/A2-P1-q5.mp3"
+    }
+   ]
+  },
+  {
+   "id": "A2-P2",
+   "title": "Part 2 · Questions 6–10",
+   "kind": "file",
+   "file": "P9/A2/A2-P2.mp3",
+   "intro": "You will hear a teacher telling students about a class visit to the zoo. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+   "scripts": [
+    "Listen to a teacher talking about a class visit to the zoo. Teacher: Here is everything you need to know about our zoo visit on Friday. The bus leaves school at nine o'clock, so don't be late. The ticket costs seven pounds — please bring the money in an envelope with your name on it. At midday we'll watch the penguins at feeding time; that's my favourite part. Bring a warm coat, because most of the animals are outside. We'll be back at school at three o'clock."
+   ],
+   "gapTitle": "Class Visit to the Zoo",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Day of the visit: ____",
+     "accept": [
+      "friday"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Bus leaves school at: ____ a.m.",
+     "accept": [
+      "9",
+      "nine",
+      "9:00",
+      "9.00",
+      "9 o'clock",
+      "nine o'clock"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Ticket: £ ____",
+     "accept": [
+      "7",
+      "seven"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "At midday: watch the ____",
+     "accept": [
+      "penguins"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Bring: a warm ____",
+     "accept": [
+      "coat"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2-P3",
+   "title": "Part 3 · Questions 11–15",
+   "kind": "file",
+   "file": "P9/A2/A2-P3.mp3",
+   "intro": "You will hear Lily talking to her friend Jack about her new pet. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Jack: Lily, I heard you got a new pet! Is it a dog? Lily: I really wanted a dog, but our flat is too small, so we got a hamster. Jack: What's his name? Lily: Biscuit — because he's exactly that colour. Jack: Who looks after him? Lily: I clean his cage every Sunday, and my little brother gives him his food in the mornings. Jack: Does he sleep all day? Lily: Yes! He only wakes up in the evening, and then he runs and runs in his wheel. Jack: Can I come and see him? Lily: Sure, come on Saturday afternoon."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why didn't Lily get a dog?",
+     "o": [
+      "Her flat is too small",
+      "Dogs are too expensive",
+      "Her mum doesn't like them"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Why is the hamster called Biscuit?",
+     "o": [
+      "He loves eating biscuits",
+      "He is the colour of a biscuit",
+      "Lily's brother chose the name"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "When does Lily clean the cage?",
+     "o": [
+      "Every day",
+      "Every Sunday",
+      "Every morning"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does the hamster do in the evening?",
+     "o": [
+      "He sleeps",
+      "He runs in his wheel",
+      "He eats biscuits"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "When will Jack visit?",
+     "o": [
+      "On Saturday afternoon",
+      "On Sunday morning",
+      "This evening"
+     ],
+     "c": 0
+    }
+   ]
+  },
+  {
+   "id": "A2-P4",
+   "title": "Part 4 · Questions 16–20",
+   "kind": "file",
+   "file": "P9/A2/A2-P4.mp3",
+   "intro": "You will hear a girl called Elena talking about helping at an animal home. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Elena: Every Saturday morning I help at the animal home near my house. I started because my neighbour works there and she invited me. My job is to brush the dogs and fill their water bowls — I'm still too young to walk the big ones. My favourite dog is an old brown one called Charlie. Nobody wanted him for a whole year, because he isn't young or pretty. But last month a kind family finally took him home, and I was happy and sad at the same time. When I'm older, I want to be a vet."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "When does Elena help at the animal home?",
+     "o": [
+      "On Saturday mornings",
+      "After school",
+      "On Sunday afternoons"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Who invited Elena to help there?",
+     "o": [
+      "Her teacher",
+      "Her neighbour",
+      "Her cousin"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Elena's job?",
+     "o": [
+      "Walking the big dogs",
+      "Brushing dogs and filling water bowls",
+      "Cleaning the office"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why did nobody want Charlie for a year?",
+     "o": [
+      "He isn't young or pretty",
+      "He is very noisy",
+      "He was often ill"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Elena want to be when she's older?",
+     "o": [
+      "A teacher",
+      "A dog trainer",
+      "A vet"
+     ],
+     "c": 2
+    }
+   ]
+  },
+  {
+   "id": "A2-P5",
+   "title": "Part 5 · Questions 21–25",
+   "kind": "file",
+   "file": "P9/A2/A2-P5.mp3",
+   "intro": "You will hear Tom talking about his friends' pets. Which animal does each person have? For each question, choose the correct answer.",
+   "bank": [
+    "cat",
+    "dog",
+    "fish",
+    "rabbit",
+    "bird",
+    "hamster",
+    "tortoise"
+   ],
+   "scripts": [
+    "Tom: Everyone in my group of friends has a different pet. Grace has a white cat that sleeps on her homework. Ben has a big friendly dog called Rocket. Nora keeps three orange fish in a tank in her bedroom. Ethan has a rabbit that lives in a little house in the garden. And Sandy has a green bird that says hello when you walk in."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Grace",
+     "c": "cat"
+    },
+    {
+     "type": "match",
+     "person": "Ben",
+     "c": "dog"
+    },
+    {
+     "type": "match",
+     "person": "Nora",
+     "c": "fish"
+    },
+    {
+     "type": "match",
+     "person": "Ethan",
+     "c": "rabbit"
+    },
+    {
+     "type": "match",
+     "person": "Sandy",
+     "c": "bird"
+    }
+   ]
+  }
+ ]
+}

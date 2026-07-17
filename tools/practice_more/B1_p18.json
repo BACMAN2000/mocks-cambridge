@@ -1,0 +1,181 @@
+{
+  "title": "B1 Preliminary — Reading (Practice 18)",
+  "note": "All six parts are auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Brightside Science Museum",
+          "text": "THE INVENTORS' WORKSHOP IS FREE WITH YOUR MUSEUM TICKET.\nSESSIONS RUN EVERY HOUR AND LAST 45 MINUTES. SPACES CANNOT BE RESERVED — SIMPLY JOIN THE QUEUE AT THE WORKSHOP DOOR.",
+          "stem": "How can visitors get a place in the workshop?",
+          "options": ["By booking when they buy a museum ticket.", "By waiting in line outside the workshop.", "By paying a small extra charge at the door."],
+          "answer": 1
+        },
+        {
+          "kind": "message",
+          "header": "Text from Zainab to Marcus",
+          "text": "Marcus — our science project model is nearly done, but the little motor we ordered doesn't fit the base you built. Dad says the electronics shop on Duke Street sells smaller ones for about £6. Could you go after school? I'd go myself but I've got dentist. Keep the receipt for Miss Patel!",
+          "stem": "What does Zainab ask Marcus to do?",
+          "options": ["Buy a different motor for their project.", "Build a new base for the model.", "Show the receipt to the dentist."],
+          "answer": 0
+        },
+        {
+          "kind": "email",
+          "from": "HomeSmart Support",
+          "to": "Customers",
+          "subject": "Your doorbell camera",
+          "body": "A free software update for your doorbell camera will be installed automatically this week. Your doorbell will restart itself once, usually at night, and will not record for around ten minutes while this happens. You do not need to do anything, but do not unplug the doorbell during the restart.",
+          "stem": "What are customers told about the update?",
+          "options": ["They must install it themselves this week.", "Their doorbell will stop recording for a whole night.", "They should leave the doorbell plugged in while it restarts."],
+          "answer": 2
+        },
+        {
+          "kind": "sign",
+          "header": "Fenwick Library — 3D Printer",
+          "text": "THE 3D PRINTER IS FREE FOR MEMBERS.\nPRINTS TAKE SEVERAL HOURS: LEAVE YOUR DESIGN FILE AND COLLECT YOUR OBJECT AFTER 2PM THE NEXT DAY. STAFF PRINT ITEMS IN THE ORDER THEY ARRIVE.",
+          "stem": "What does the sign say about using the 3D printer?",
+          "options": ["Members leave a file and pick up the printed object the following day.", "Members must stay and watch while their object is printed.", "Printing is only available to staff after 2pm."],
+          "answer": 0
+        },
+        {
+          "kind": "note",
+          "header": "From Grandad",
+          "text": "Milo — the robot vacuum you set up for me has been brilliant all week, but this morning it keeps stopping and beeping in the hall. I've read the little book you left and I think it needs its brushes cleaned, but I can't get the bottom cover open. Pop round when you can — no hurry. Biscuits waiting!",
+          "stem": "Why is Grandad writing to Milo?",
+          "options": ["The robot vacuum has stopped charging properly.", "He wants help with a small repair he cannot manage.", "He cannot find the instruction book Milo left."],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "The five people below all want to buy a clever gadget as a present. Read the descriptions of eight gadgets (A–H) and decide which gadget would be most suitable for each person. There are three gadgets you do not need to use.",
+      "sources": [
+        {
+          "label": "6",
+          "name": "Rina",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/47.jpg\" alt=\"Rina\" loading=\"lazy\">",
+          "text": "Rina's brother cycles to work all year round and often arrives after dark. She worries about his safety on the road and wants a present that makes him easier for drivers to see, without him having to remember anything extra."
+        },
+        {
+          "label": "7",
+          "name": "Douglas",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/61.jpg\" alt=\"Douglas\" loading=\"lazy\">",
+          "text": "Douglas wants a present for his mother, who loves growing herbs but forgets to water them, and her kitchen gets very little sunlight. She enjoys cooking with fresh leaves all winter, so it should work all year round."
+        },
+        {
+          "label": "8",
+          "name": "Selma",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/84.jpg\" alt=\"Selma\" loading=\"lazy\">",
+          "text": "Selma's grandfather keeps losing his keys and glasses around the house, and it upsets him. She wants something simple that helps him find lost things quickly. It must be very easy to use, as he dislikes complicated technology."
+        },
+        {
+          "label": "9",
+          "name": "Anton",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/72.jpg\" alt=\"Anton\" loading=\"lazy\">",
+          "text": "Anton's flatmate studies in cafés and constantly complains that her laptop dies in the middle of her work, as sockets are never free. Anton wants a birthday present that solves this problem and is light enough for her bag."
+        },
+        {
+          "label": "10",
+          "name": "Priya",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/15.jpg\" alt=\"Priya\" loading=\"lazy\">",
+          "text": "Priya's father has started swimming in the cold sea every morning and keeps asking how cold the water 'really' is. She wants a fun, tough gadget he can take into the waves that records his swims and the conditions."
+        }
+      ],
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "SwimTrack Pro: A rugged waterproof watch built for open-water swimmers. It records distance, time and water temperature for every swim, and floats if it comes off. Screen readable even through waves and spray.",
+          "TagFinder Buttons: Small tags that attach to keys, glasses cases or wallets. Press the single big button on the home unit and the lost item rings loudly until found. No app, no setup — grandparents love it.",
+          "PowerPocket 20: A slim battery pack that recharges a laptop twice and weighs less than a paperback book. Slips into any bag pocket — never hunt for a café socket again.",
+          "GrowBox Kitchen Garden: An indoor mini-garden with built-in lamps that replace sunlight and a tank that waters the plants automatically for two weeks. Grows fresh herbs on any worktop, even in December.",
+          "GlowRider Vest: A comfortable cycling vest with bright LED panels that switch on automatically when light fades and flash when the wearer brakes. Charges once a week; the rider just puts it on and forgets it.",
+          "EchoPen Translator: A smart pen that reads printed text aloud in forty languages and saves notes to the cloud. Ideal for language students and travellers who love reading.",
+          "SolarCharge Tent Light: A camping lantern that charges in the sun all day and lights a tent all night. Includes a socket for charging phones in the wild. Not waterproof.",
+          "ChefMate Scales: Smart kitchen scales that guide you through recipes step by step on a screen, adjusting quantities automatically. For keen cooks who love precision baking."
+        ]
+      },
+      "questions": [
+        {"stem": "Rina", "answer": "E"},
+        {"stem": "Douglas", "answer": "D"},
+        {"stem": "Selma", "answer": "B"},
+        {"stem": "Anton", "answer": "C"},
+        {"stem": "Priya", "answer": "A"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the article about a young inventor and choose the best answer A, B, C or D.",
+      "passage": "The schoolgirl who reinvented the umbrella\n\nMost people, when their umbrella turns inside out in a storm, simply groan and buy a new one. When it happened to fourteen-year-old Hana Suzuki for the third time in one winter, she went home and started drawing. \"Everyone laughed when I said I was going to fix the umbrella,\" she remembers. \"It's a thousand-year-old design. My physics teacher told me the world's biggest companies had already tried. To me, that wasn't a reason to stop — it just meant nobody had tried my way yet.\"\n\nHana's idea was to copy nature. She had watched a documentary about desert beetles whose folding wings survive sandstorms, and she wondered whether an umbrella could fold along the same curved lines. She spent a year building models from wire, plastic straws and her grandmother's old raincoats. Her first eleven prototypes broke, one of them in front of a class she was presenting to. \"Prototype twelve survived the school's electric fan at full power,\" she says proudly. \"Then it survived a real typhoon on our balcony. My mother filmed it while I danced in the rain like a mad person.\"\n\nA video of that balcony test, posted by her cousin, was watched half a million times in a week. Within a month, three manufacturers had contacted the family. Hana, however, refused to sell the design completely. \"They wanted to buy it and own it forever. My parents said I should take the money for university,\" she admits. \"But the beetle wings weren't my invention — nature did the hard part. So I agreed to a deal where the design stays partly mine, and a share of every sale goes to insect conservation projects. The companies thought I was joking. I wasn't.\"\n\nThe first umbrellas go on sale next spring. Hana, now sixteen, is already working on her next project — a bicycle helmet that folds flat — though she insists she is a schoolgirl first and an inventor second. \"Exams still make me more nervous than television interviews,\" she laughs. \"And when it rains, honestly? I usually just wear a hood. Don't tell the umbrella companies.\"",
+      "questions": [
+        {"stem": "How did Hana react when people doubted her idea?", "options": ["She asked her physics teacher for help.", "She decided to work for a big company instead.", "She saw their doubts as no reason to give up.", "She kept her project secret from everyone."], "answer": 2},
+        {"stem": "Where did Hana get the idea for her design?", "options": ["From her grandmother's old raincoats.", "From one of her physics lessons.", "From studying other companies' umbrellas.", "From a film about desert insects."], "answer": 3},
+        {"stem": "What does Hana say about prototype twelve?", "options": ["It broke during a class presentation.", "It passed tests with a fan and a real storm.", "It took eleven months to build.", "It was filmed by her cousin for television."], "answer": 1},
+        {"stem": "Why did Hana refuse the manufacturers' first offers?", "options": ["She did not want to give up ownership of the design completely.", "Her parents advised her not to accept the money.", "She thought the companies offered too little money.", "She wanted to sell the design to a nature charity instead."], "answer": 0},
+        {"stem": "What impression does Hana give of herself at the end?", "options": ["She now finds school unimportant.", "She is planning to stop inventing after her exams.", "She is proud of using an umbrella every day.", "She stays modest despite her success."], "answer": 3}
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 4",
+      "instructions": "Read the article about the microwave oven. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+      "passage": "The melted chocolate bar that changed our kitchens\n\nSome inventions are the result of years of careful planning. Others begin with a ruined snack. In 1945, an American engineer named Percy Spencer was testing radar equipment when he noticed something odd: the chocolate bar in his pocket had completely melted. (16)____ Instead, he became curious and placed a bag of corn kernels next to the machine. Minutes later, he was watching popcorn bounce around his laboratory.\n\nSpencer quickly understood that the radar's invisible waves could heat food from the inside. (17)____ It stood nearly two metres tall, weighed 340 kilograms and cost as much as a small house.\n\nAt first, almost nobody wanted one. Restaurants and ships bought a few, but families saw no reason to replace their trusted cookers. (18)____ Prices fell, the machines shrank, and by the 1980s the microwave had conquered kitchens across the world.\n\nThe microwave also changed what we eat. Supermarkets filled with ready meals designed to go from freezer to table in minutes. (19)____ Cooks and food writers complained that a generation was forgetting how to use a real oven.\n\nToday, around ninety per cent of homes in many countries own a microwave. (20)____ Not bad for an invention that started with a mess in an engineer's pocket.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "That changed as the technology improved through the 1960s and 1970s.",
+          "Radar had been developed during the war to detect enemy aircraft.",
+          "Many people would have simply cleaned their pocket and forgotten about it.",
+          "Not everyone welcomed this new speed, however.",
+          "Spencer himself never earned more than a small bonus for his discovery.",
+          "Within two years, his company had built the first microwave oven.",
+          "Modern models use less electricity than most kettles.",
+          "Scientists at the time believed the waves were dangerous to watch."
+        ]
+      },
+      "questions": [
+        {"stem": "Gap 16", "answer": "C"},
+        {"stem": "Gap 17", "answer": "F"},
+        {"stem": "Gap 18", "answer": "A"},
+        {"stem": "Gap 19", "answer": "D"},
+        {"stem": "Gap 20", "answer": "G"}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 5",
+      "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+      "title": "The zip: a small invention with a long story",
+      "body": "Look down at your jacket or your bag and you will probably find one of the most successful inventions in history: the zip. We use zips so often that we hardly (21)____ them, yet this simple fastener took more than forty years to become popular. The first version, shown at a great exhibition in 1893, worked so badly that it kept bursting open in (22)____. Its inventor died believing his idea had failed. It was a Swedish engineer, working years later, who redesigned the tiny teeth so that they locked together (23)____. Even then, clothing companies refused to touch the strange new fastener; for two decades, zips were mainly sewn onto boots and tobacco pouches. Their big chance came when fashion designers in Paris began using them in dresses in the 1930s, praising the way a zip allowed clothes to (24)____ the shape of the body. Soldiers' uniforms in the Second World War made the zip world-famous, and by 1950 factories could hardly keep (25)____ with demand. Today, billions are produced every year — a quiet reminder that some ideas simply arrive (26)____ their time.",
+      "questions": [
+        {"options": ["watch", "notice", "look", "regard"], "answer": 1},
+        {"options": ["public", "front", "sight", "open"], "answer": 0},
+        {"options": ["strongly", "hardly", "heavily", "securely"], "answer": 3},
+        {"options": ["make", "hold", "follow", "copy"], "answer": 2},
+        {"options": ["up", "on", "away", "along"], "answer": 0},
+        {"options": ["after", "behind", "before", "over"], "answer": 2}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 6",
+      "instructions": "For each gap (27–32), write ONE word.",
+      "title": "Email about a school invention fair",
+      "body": "Hi Lukas,\n\nGreat news — our invention won second prize at the school science fair (27)____ Friday! I wish you could (28)____ seen the judges' faces when our automatic plant-watering machine actually worked.\n\nTo be honest, I was terribly nervous. Just before the judging, one of the tubes came loose, and water went all (29)____ the table! Luckily, Marta fixed it in about thirty seconds. She stayed much calmer (30)____ me.\n\nThe first prize went to a robot that sorts rubbish for recycling, which I have to admit was brilliant. Still, we won fifty euros, (31)____ we're going to spend on parts for an even better machine next year.\n\nThank you so much for helping us test everything in your garage. We couldn't have done it (32)____ you!\n\nBest,\nJonas",
+      "questions": [
+        {"accept": ["on", "last"]},
+        {"accept": ["have"]},
+        {"accept": ["over"]},
+        {"accept": ["than"]},
+        {"accept": ["which"]},
+        {"accept": ["without"]}
+      ]
+    }
+  ]
+}

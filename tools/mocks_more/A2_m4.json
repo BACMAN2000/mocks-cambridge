@@ -1,0 +1,158 @@
+{
+  "title": "A2 Key — Reading and Writing (MOCK 4)",
+  "note": "Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Westfield School — Trip to France",
+          "text": "STUDENTS MUST BE AT THE AIRPORT BY 6.30 A.M. THE COACH LEAVES SCHOOL AT 5.45 A.M. ANYONE ARRIVING AFTER 6.45 WILL NOT BE ABLE TO FLY.",
+          "stem": "What does the notice say students must do?",
+          "options": ["Arrive at the airport by half past six.", "Take the coach at a quarter to seven.", "Meet at school at 6.30 a.m."],
+          "answer": 0
+        },
+        {
+          "kind": "message",
+          "header": "From: Mr Rossi → To: Trip group",
+          "text": "Hi all, remember to pack a raincoat — the weather in Dublin can change very quickly. You don't need to bring lunch for the journey, as we'll stop at a café on the way, but do bring a bottle of water.",
+          "stem": "What should students bring with them?",
+          "options": ["Lunch for the journey.", "Something to eat at the café.", "A raincoat and a bottle of water."],
+          "answer": 2
+        },
+        {
+          "kind": "email",
+          "from": "Hotel Miramar",
+          "to": "Ms Kelly",
+          "subject": "Your school group booking",
+          "body": "Dear Ms Kelly, thank you for your booking for twenty students. Breakfast is served from 7 to 9 a.m. Please send us a list of the students' names by Friday, as we need it for our records. Evening meals must be booked one day before.",
+          "stem": "What does the hotel ask Ms Kelly to do?",
+          "options": ["Book the evening meals a week early.", "Send the students' names before Friday ends.", "Arrive for breakfast before 7 a.m."],
+          "answer": 1
+        },
+        {
+          "kind": "note",
+          "header": "Note for Daniel",
+          "text": "Daniel — your passport is still on the kitchen table! I can drive it to school at lunchtime, but text me before 12 to say you need it. Don't leave for the trip without it! — Mum",
+          "stem": "What must Daniel do?",
+          "options": ["Send his mum a message before midday.", "Collect his passport from the kitchen at lunchtime.", "Drive home to get his passport."],
+          "answer": 0
+        },
+        {
+          "kind": "sign",
+          "header": "City Museum — School Groups",
+          "text": "SCHOOL GROUPS ENTER FREE ON WEEKDAYS. TEACHERS MUST SHOW A LETTER FROM THEIR SCHOOL AT THE DESK.",
+          "stem": "What does the sign say?",
+          "options": ["School groups pay half price on weekdays.", "Students must bring a letter from home.", "Teachers need to show a letter from their school."],
+          "answer": 2
+        },
+        {
+          "kind": "notice",
+          "header": "Trip Meeting — Change",
+          "text": "THE PARENTS' MEETING ABOUT THE ROME TRIP HAS MOVED FROM THE LIBRARY TO THE MAIN HALL. THE DATE AND TIME ARE THE SAME AS BEFORE.",
+          "stem": "What has changed about the meeting?",
+          "options": ["Its date.", "Its place.", "Its time."],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "Read about three young people and a school trip abroad they went on. For each question, choose the correct person (A, B or C). The people may be chosen more than once.",
+      "sources": [
+        {
+          "label": "A",
+          "name": "Nadia",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/65.jpg\" alt=\"Nadia\" loading=\"lazy\">",
+          "text": "My class went to Paris last year. The coach journey took twelve hours, which felt much too long, but the city was worth it. My favourite place was a huge art gallery — I could have stayed there all day. Every evening I wrote about the day in a little diary, so I won't forget anything. One day I want to go back and show my family everything."
+        },
+        {
+          "label": "B",
+          "name": "Oliver",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/18.jpg\" alt=\"Oliver\" loading=\"lazy\">",
+          "text": "Our school trip was to Berlin, and it was my first time on a plane — I held my friend's arm when we took off! The best part was meeting students from a German school and trying to speak their language. I did lose my phone on the underground, which was terrible, but one of our teachers went back and found it at the station office."
+        },
+        {
+          "label": "C",
+          "name": "Kenji",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/77.jpg\" alt=\"Kenji\" loading=\"lazy\">",
+          "text": "I went to Lisbon with my class and stayed in the home of a local family. Their food was new to me and I wasn't sure about it at first, but by the end of the week I loved it. I missed my parents for the first day or two. I took hundreds of photos, and one of them won a competition at school when we got home."
+        }
+      ],
+      "questions": [
+        {"stem": "Which person travelled by plane for the first time?", "answer": "B"},
+        {"stem": "Which person wrote about the trip every day?", "answer": "A"},
+        {"stem": "Which person stayed in a local family's home?", "answer": "C"},
+        {"stem": "Which person lost something during the trip?", "answer": "B"},
+        {"stem": "Which person would like to visit the same city again?", "answer": "A"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the text about a girl's school trip to Spain. Choose the correct answer A, B or C.",
+      "passage": "Last spring, Lucy's class travelled to Valencia in Spain for five days. The trip was expensive, so during the winter the students washed cars and sold cakes to help pay for it. Lucy earned nearly half of the money for her ticket herself.\n\nLucy had flown before with her family, but she had never been away from her parents for so long. On the first night in the hotel she felt a little sad, although she didn't tell anyone. Sharing a room with her two best friends soon helped her forget about home.\n\nEvery morning the group had Spanish lessons with a local teacher, and in the afternoons they visited interesting places. Lucy's favourite was the huge covered market in the city centre. Their teacher gave everyone an hour to buy fruit for a picnic, but they had to ask for it in Spanish. Lucy was surprised by how much she could say.\n\nOn the last day, the students were allowed to go shopping for presents. Lucy chose a scarf for her mother and a little wooden boat for her brother. She wanted to get something for her father too, but by then she had spent almost all her money.\n\nOn the journey home, Lucy decided that she would study harder in her Spanish classes. Next year the school will visit the same city again, and she is determined to go.",
+      "questions": [
+        {"stem": "How did Lucy pay for part of the trip?", "options": ["Her parents gave her all the money.", "She borrowed the money from friends.", "She earned money by doing jobs."], "answer": 2},
+        {"stem": "How did Lucy feel on the first night?", "options": ["A little sad, but she kept it to herself.", "Happy to be far away from home.", "Angry about sharing a room."], "answer": 0},
+        {"stem": "What did the students have to do at the market?", "options": ["Buy presents for their families.", "Ask for fruit in Spanish.", "Have a lesson with a local teacher."], "answer": 1},
+        {"stem": "Why didn't Lucy buy a present for her father?", "options": ["She forgot about him.", "She couldn't find anything he would like.", "She had almost no money left."], "answer": 2},
+        {"stem": "What did Lucy decide on the way home?", "options": ["To work harder at Spanish.", "To visit a different country next year.", "To travel to Valencia with her family."], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 4",
+      "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+      "title": "Travelling with your class",
+      "body": "Every year, thousands of students go on school trips to other countries. Teachers say that young people often learn (19)____ on a trip than in a normal classroom. Students must look (20)____ their own tickets and money, speak to new people, and be on time (21)____ the whole journey. Many students feel nervous (22)____ they leave, especially if it is their first time abroad. However, most of them (23)____ wonderful memories of the experience, and some even (24)____ friends with students from other countries.",
+      "questions": [
+        {"options": ["much", "more", "most", "many"], "answer": 1},
+        {"options": ["at", "for", "after", "up"], "answer": 2},
+        {"options": ["during", "while", "since", "until"], "answer": 0},
+        {"options": ["so", "since", "until", "before"], "answer": 3},
+        {"options": ["hold", "stay", "keep", "save"], "answer": 2},
+        {"options": ["make", "do", "get", "take"], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 5",
+      "instructions": "For each gap (25–30), write ONE word.",
+      "title": "An email about a school trip",
+      "body": "Hi Grandma,\n\nGuess what! My class (25)____ going to France next month. We will travel (26)____ train under the sea, which I think is amazing.\n\nI need to buy a new bag (27)____ the trip, because my old one is broken. Mum says she will take me shopping (28)____ Saturday.\n\nI promise I will send you a postcard when we are (29)____. There is so (30)____ to see in Paris!\n\nLove,\nEmma",
+      "questions": [
+        {"accept": ["is"]},
+        {"accept": ["by"]},
+        {"accept": ["for"]},
+        {"accept": ["on", "this", "next"]},
+        {"accept": ["there"]},
+        {"accept": ["much"]}
+      ]
+    },
+    {
+      "type": "writing",
+      "part": "Part 6",
+      "prompts": [{
+        "kind": "email",
+        "instructions": "Your English friend Sam is coming to your country on a school trip. Write an email to Sam. In your email: say which city Sam should visit / suggest one thing to see there / offer to meet Sam during the trip.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    },
+    {
+      "type": "writing",
+      "part": "Part 7",
+      "prompts": [{
+        "kind": "story",
+        "instructions": "Write a story for your English class. Your story must begin with this sentence:\nWhen the plane landed, Anna looked out of the window and smiled.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    }
+  ]
+}

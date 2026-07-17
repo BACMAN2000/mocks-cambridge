@@ -1,0 +1,241 @@
+{
+ "label": "B1 — Intermediate",
+ "cefr": "Cambridge PET · B1 official format",
+ "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+ "audios": [
+  {
+   "id": "B1-P1",
+   "title": "Part 1 · Questions 1–7",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+   "segments": [
+    "A present from home",
+    "Getting to school",
+    "English weather",
+    "Saturday plans",
+    "School start time",
+    "Something forgotten",
+    "Cooking together"
+   ],
+   "scripts": [
+    "Question one. Boy: What did you bring your host family, Sofia? Sofia: I wanted to bring a cake from our bakery, but it would have broken in my suitcase, so I brought a book about my city instead. Boy: They'll love that.",
+    "Question two. Girl: Does your host family live near the school, Hugo? Hugo: Not really — it's too far to walk or cycle, so my host dad drives us in every morning. Girl: That's kind of him.",
+    "Question three. Mum: How's the weather over there, love? Girl: Everyone told me it would rain every day, but honestly it's been sunny since I arrived. Mum: You were lucky, then!",
+    "Question four. Boy: What are you doing with your exchange partner on Saturday? Girl: We thought about the cinema, but in the end we're having a picnic in the park with the whole group. Boy: Sounds fun.",
+    "Question five. Girl: School here starts at half past eight — I can't believe it. Boy: Why? What time does it start at home? Girl: Nine! I've never got up so early in my life. Boy: Poor you!",
+    "Question six. Mum: Have you got everything? Passport, phone, tickets? Boy: Yes, yes... oh no. I've packed everything except my umbrella, and they say it rains there all the time! Mum: Take mine, quick.",
+    "Question seven. Girl: What did you do with your host family last night? Boy: Their grandmother came over and we all made pizza together — I even threw the dough in the air. Girl: Did you catch it? Boy: Mostly!"
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What did Sofia bring her host family?",
+     "imgs": ["cake", "book", "hat"],
+     "c": 1,
+     "audio": "P8/B1/B1-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How does Hugo get to school?",
+     "imgs": ["bus", "bike", "car"],
+     "c": 2,
+     "audio": "P8/B1/B1-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What has the weather been like?",
+     "imgs": ["sunny", "rainy", "snowy"],
+     "c": 0,
+     "audio": "P8/B1/B1-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where will the girl go on Saturday?",
+     "imgs": ["park", "cafe", "library"],
+     "c": 0,
+     "audio": "P8/B1/B1-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does school start in England?",
+     "imgs": ["clock8", "clock830", "clock9"],
+     "c": 1,
+     "audio": "P8/B1/B1-P1-q5.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What did the boy forget to pack?",
+     "imgs": ["keys", "phone", "umbrella"],
+     "c": 2,
+     "audio": "P8/B1/B1-P1-q6.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What did the boy make with his host family?",
+     "imgs": ["pizza", "sandwich", "cake"],
+     "c": 0,
+     "audio": "P8/B1/B1-P1-q7.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P2",
+   "title": "Part 2 · Questions 8–13",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+   "segments": [
+    "An exchange partner",
+    "A different school",
+    "The first evening",
+    "Missing home",
+    "The welcome party",
+    "Saying goodbye"
+   ],
+   "scripts": [
+    "Question eight. You will hear a boy talking about his exchange partner. Boy: Before he arrived I was worried we'd have nothing to talk about, and his emails were quite short. But when we met, his English was so good that we talked for three hours straight. I really wasn't expecting that.",
+    "Question nine. You will hear a girl talking about the school she is visiting. Girl: The school day is actually longer than at home, and the classes are about the same size. The strangest thing for me is that nobody wears a uniform — everyone just comes in their own clothes.",
+    "Question ten. You will hear a woman talking about her exchange guest's first evening. Woman: We'd planned to take her out for dinner, but she was so tired after the flight. So instead we stayed in, and she showed us photos of her family and her town on her phone. It was the perfect start, really.",
+    "Question eleven. You will hear a boy talking about missing home. Boy: In the first week I missed everyone badly. Calling home every night actually made it worse, strangely. What really helped was joining the basketball games after school — I was too busy to feel sad.",
+    "Question twelve. You will hear a teacher talking about a welcome party. Teacher: For Friday's welcome party, the school will provide all the drinks, and the music is organised. What we'd like each exchange student to bring is a dish from their own country — sweet or salty, your choice.",
+    "Question thirteen. You will hear a girl talking about the end of her exchange week. Girl: At the airport everyone was crying, even the boys, and I felt terrible on the plane. But we message each other every day now, and my exchange partner is coming to stay with my family in the spring, so it's not really goodbye."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What surprised the boy about his exchange partner?",
+     "o": ["His short emails", "His excellent English", "His long journey"],
+     "c": 1,
+     "audio": "P8/B1/B1-P2-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the girl find strangest about the school?",
+     "o": ["The long school day", "The size of the classes", "Students don't wear uniforms"],
+     "c": 2,
+     "audio": "P8/B1/B1-P2-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the family do on the guest's first evening?",
+     "o": ["They looked at photos together", "They went to a restaurant", "They visited the town"],
+     "c": 0,
+     "audio": "P8/B1/B1-P2-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What helped the boy stop missing home?",
+     "o": ["Calling his family every night", "Playing basketball after school", "Writing about his feelings"],
+     "c": 1,
+     "audio": "P8/B1/B1-P2-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What should exchange students bring to the party?",
+     "o": ["Drinks", "Music", "Food from their country"],
+     "c": 2,
+     "audio": "P8/B1/B1-P2-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why does the girl feel better now?",
+     "o": ["Her partner will visit her soon", "She is going back next year", "Her friends gave her presents"],
+     "c": 0,
+     "audio": "P8/B1/B1-P2-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P3",
+   "title": "Part 3 · Questions 14–19",
+   "kind": "file",
+   "file": "P8/B1/B1-P3.mp3",
+   "intro": "You will hear a teacher telling her students about the programme for an exchange week. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Right, everyone, listen carefully — here is the plan for the exchange week. Our visitors from Spain arrive on Monday, at about five in the afternoon, and your host families will collect them from here. On Tuesday morning, the first activity is a tour of the school, so your partners can find their way around. On Wednesday we're all going on a trip to the city museum — the coach is paid for, but you'll each need five pounds for the entrance ticket. Thursday is a normal school day, and your partners will join your classes. Then on Friday evening we finish with a farewell party in the gym. It starts at six o'clock, and families are welcome too. Oh, and for the Wednesday trip, everyone should bring a packed lunch. Any questions?"
+   ],
+   "gapTitle": "Exchange Week Programme",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Visitors arrive on: ____",
+     "accept": ["monday"]
+    },
+    {
+     "type": "gap",
+     "label": "Tuesday: a tour of the ____",
+     "accept": ["school"]
+    },
+    {
+     "type": "gap",
+     "label": "Wednesday trip: the city ____",
+     "accept": ["museum"]
+    },
+    {
+     "type": "gap",
+     "label": "Entrance ticket: £ ____",
+     "accept": ["5", "five"]
+    },
+    {
+     "type": "gap",
+     "label": "Friday: farewell party at ____ o'clock",
+     "accept": ["6", "six"]
+    },
+    {
+     "type": "gap",
+     "label": "On Wednesday bring a packed ____",
+     "accept": ["lunch"]
+    }
+   ]
+  },
+  {
+   "id": "B1-P4",
+   "title": "Part 4 · Questions 20–25",
+   "kind": "file",
+   "file": "P8/B1/B1-P4.mp3",
+   "intro": "You will hear an interview with a student called Hugo about his week as an exchange student. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Hugo has just come back from an exchange week abroad. Hugo, what worried you most before you left? Hugo: Everyone asked if I was scared of speaking English all day, but that part didn't scare me. My big worry was the food — I'm a fussy eater, and I thought I'd be hungry all week. Interviewer: And were you? Hugo: Not at all! My host mum was a fantastic cook. In fact, my favourite moment of the whole week was a small thing: one evening we all cooked dinner together and they taught me their family recipe. It felt like being at home. Interviewer: What was different about the school? Hugo: The subjects were mostly the same as mine. What amazed me was that lessons started at eight and finished at half past one — the whole afternoon was free for sport and clubs. Interviewer: How did you communicate with your host family? Hugo: My English isn't perfect, and their accent was hard at first. When words failed, we drew little pictures on a kitchen notepad — it worked, and it made us laugh every time. Interviewer: Was there anything you missed from home? Hugo: My own bed, a little. But mainly my dog, Rocky. I showed the family about a hundred photos of him. Interviewer: Would you recommend an exchange? Hugo: Completely — but my advice is: don't spend the evenings messaging friends at home. Be with your host family. That's where you really learn."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What worried Hugo most before the trip?",
+     "o": ["Speaking English all day", "The food", "Missing his family"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What was Hugo's favourite moment of the week?",
+     "o": ["Cooking with the host family", "Visiting the city", "Playing sport at school"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What amazed Hugo about the school?",
+     "o": ["The different subjects", "The size of the classes", "The short school day"],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What did Hugo do when he couldn't find the right words?",
+     "o": ["He used a dictionary", "He drew pictures", "He asked his teacher"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What did Hugo miss most from home?",
+     "o": ["His dog", "His bed", "His friends"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What advice does Hugo give exchange students?",
+     "o": ["Message friends at home every day", "Take lots of photos", "Spend evenings with the host family"],
+     "c": 2
+    }
+   ]
+  }
+ ]
+}

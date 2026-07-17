@@ -1,0 +1,192 @@
+{
+  "title": "C1 Advanced — Reading and Use of English (Practice 16)",
+  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "In praise of quiet",
+      "body": "Noise has become so constant a companion that we scarcely (1)____ it. The hum of traffic, the drone of appliances, the murmur of other people's music: together they form a (2)____ of sound against which modern life is lived, and which we notice only in the rare moments it stops. Researchers have begun to (3)____ the costs of this saturation. Chronic noise has been (4)____ to raised blood pressure, disturbed sleep and impaired memory, and children in schools beneath flight paths measurably (5)____ behind their peers in reading. Silence, meanwhile, is being (6)____ as a luxury good: hotels advertise soundproofed floors, and retreats charge handsomely for the (7)____ of nothing to hear. There is something troubling in that arithmetic. Quiet, the evidence suggests, is not an indulgence but a biological need — and like clean air, with which it has much in common, it is (8)____ with striking unevenness, flowing to those who can pay and pooling thinnest where the need is greatest.",
+      "questions": [
+        { "options": ["remark", "observe", "detect", "register"], "answer": 3 },
+        { "options": ["curtain", "scenery", "backdrop", "landscape"], "answer": 2 },
+        { "options": ["tally", "score", "number", "sum"], "answer": 0 },
+        { "options": ["joined", "linked", "attached", "bound"], "answer": 1 },
+        { "options": ["slip", "delay", "lag", "linger"], "answer": 2 },
+        { "options": ["traded", "marketed", "commercialised", "advertised"], "answer": 1 },
+        { "options": ["privilege", "benefit", "advantage", "favour"], "answer": 0 },
+        { "options": ["divided", "spread", "shared", "distributed"], "answer": 3 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The quietest room on Earth",
+      "body": "The quietest place on Earth is a small room in a laboratory, so thoroughly insulated that it absorbs almost all sound. Visitors rarely last long inside. Deprived of every external noise, the ear turns inward, and people become aware, many for the first time in their lives, (9)____ the sounds of their own bodies: the heartbeat, the rush of blood, the faint whine of the nervous system (10)____ .\n\nFar (11)____ being restful, total silence tends to unsettle. Most volunteers ask to leave within twenty minutes, and very few can (12)____ a full hour. It seems we are calibrated to a world that murmurs, and when the murmur stops, something in us concludes that things have gone badly (13)____ .\n\n(14)____ is why the silence people say they crave is rarely silence at all. What we mean, when we dream of quiet, is the right sounds: rain, wind in the leaves, a distant bell — noise enough to assure us the world is still there, and little (15)____ to make demands of us. Perfect silence, like perfect darkness, belongs to the category of things better longed (16)____ than possessed.",
+      "questions": [
+        { "accept": ["of"] },
+        { "accept": ["itself"] },
+        { "accept": ["from"] },
+        { "accept": ["manage", "last", "endure", "stand", "bear"] },
+        { "accept": ["wrong"] },
+        { "accept": ["this", "that", "which"] },
+        { "accept": ["enough"] },
+        { "accept": ["for"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Sound and the city",
+      "rows": [
+        { "text": "The health effects of noise long went (17)____ , dismissed as a matter of mere annoyance.", "root": "NOTICE" },
+        { "text": "Prolonged (18)____ to levels above fifty decibels measurably raises stress hormones.", "root": "EXPOSE" },
+        { "text": "Residents living near the airport describe years of (19)____ nights.", "root": "SLEEP" },
+        { "text": "Regulators long treated noise as an (20)____ rather than a genuine hazard.", "root": "ANNOY" },
+        { "text": "The (21)____ roar of the trading floor was once worn as a badge of vitality.", "root": "DEAF" },
+        { "text": "Campaigners now describe unwanted sound as a (22)____ in its own right.", "root": "POLLUTE" },
+        { "text": "Planning rules protect (23)____ areas far more strictly than schools or hospitals.", "root": "RESIDE" },
+        { "text": "Urban parks, surveys show, are prized above all for their (24)____ .", "root": "TRANQUIL" }
+      ],
+      "questions": [
+        { "root": "NOTICE", "accept": ["unnoticed"] },
+        { "root": "EXPOSE", "accept": ["exposure"] },
+        { "root": "SLEEP", "accept": ["sleepless"] },
+        { "root": "ANNOY", "accept": ["annoyance"] },
+        { "root": "DEAF", "accept": ["deafening"] },
+        { "root": "POLLUTE", "accept": ["pollutant"] },
+        { "root": "RESIDE", "accept": ["residential"] },
+        { "root": "TRANQUIL", "accept": ["tranquillity", "tranquility"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+      "questions": [
+        {
+          "before": "You are not allowed to make noise after eleven o'clock.",
+          "keyword": "FORBIDDEN",
+          "after": "It ___ noise after eleven o'clock.",
+          "accept": ["is forbidden to make"]
+        },
+        {
+          "before": "The neighbours played music so loudly that I couldn't sleep.",
+          "keyword": "SUCH",
+          "after": "The neighbours played ___ that I couldn't sleep.",
+          "accept": ["such loud music"]
+        },
+        {
+          "before": "The city is much noisier now than it was in the past.",
+          "keyword": "NEARLY",
+          "after": "In the past the city was ___ noisy as it is now.",
+          "accept": ["not nearly so", "not nearly as"]
+        },
+        {
+          "before": "They soundproofed the studio so that recordings would not be spoiled.",
+          "keyword": "AVOID",
+          "after": "They soundproofed the studio ___ recordings.",
+          "accept": ["to avoid spoiling", "to avoid spoiling the", "in order to avoid spoiling", "so as to avoid spoiling"]
+        },
+        {
+          "before": "Complaints about the festival's volume have risen sharply.",
+          "keyword": "SHARP",
+          "after": "There has been ___ complaints about the festival's volume.",
+          "accept": ["a sharp rise in", "a sharp increase in"]
+        },
+        {
+          "before": "Only when the generator stopped did we notice how loud it had been.",
+          "keyword": "UNTIL",
+          "after": "It was not ___ stopped that we noticed how loud it had been.",
+          "accept": ["until the generator", "until the generator had"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The unequal distribution of quiet\n\nStand in the atrium of a certain bank's headquarters and the first thing you notice is what you do not hear. The traffic is a rumour behind triple glazing; the ventilation whispers; even the lifts arrive with a discreet sigh. Cross the city to the streets beside the elevated motorway — the streets where rents are lowest — and the soundscape changes as sharply as the architecture: an unbroken seventy-decibel wash of engines, punctuated by sirens, that continues, measurably, all night. We are accustomed to mapping inequality in income, housing and air quality. We have barely begun to map it in sound, though the contours follow the money with the same faithful precision.\n\nThis is not an accident of geography but a product of markets doing exactly what markets do. Quiet is desirable; desirable things are priced; and so silence has been quietly capitalised into property values, hotel tariffs and the business-class lounge. The same logic runs in reverse: noise, having negative value, is exported to wherever resistance is weakest. The flight path, the logistics depot, the six-lane arterial — each lands where land is cheap, and land is cheap, in part, because such things have already landed there. The result is a compounding spiral in which the loudest environments and the fewest resources converge on the same postcodes, and a child's chance of a quiet night becomes a reliable function of her parents' income.\n\nIt would matter less if noise were what officialdom long assumed: a nuisance, disagreeable but trivial. The epidemiology says otherwise. Chronic environmental noise is associated with elevated blood pressure, cardiovascular disease and disturbed sleep — and disturbed sleep is a master key that opens the door to almost every other harm, from diabetes to depression. The studies of schools are especially hard to read calmly: children taught under flight paths lag in reading, and the deficit tracks the decibels. Crucially, the body does not habituate as the mind believes it does. Residents insist they no longer hear the trains; their cortisol, measured at three in the morning, disagrees. You can stop noticing noise. Stopping hearing it is not in the body's gift.\n\nThe standard rejoinder deserves a hearing: noise, say its defenders, is simply the sound of life. The city that never quiets is the city that works, mixes and stays open late; the hush of the suburb can be its own kind of death; and there is a class politics of complaint, in which the newly arrived professional reports the long-established workshop, the church, the street market. All this is true, and any policy that hears only the complainers will gentrify by decibel meter. But the objection, taken seriously, argues for something more radical than the status quo: it argues that the sonic commons should be governed, deliberately and fairly, rather than left to the default in which the powerful buy insulation and everyone else absorbs the externality. Vitality is not the issue. Involuntariness is.\n\nWhat would governing quiet look like? Less like prohibition than like plumbing: night-flight curfews with teeth; freight routed around bedrooms; road surfaces and speed limits chosen with ears as well as engineering in mind; acoustic standards written into social housing as firmly as fire codes, rather than reserved, as now, for concert halls and boardrooms. None of this is exotic; every element exists somewhere in Europe already. What is missing is the recognition that they belong to public health, not to amenity — that a quiet bedroom is infrastructure, as surely as a sewer.\n\nThe deeper obstacle is imaginative. Because quiet cannot be photographed, its absence produces no arresting image, no equivalent of the smog bank or the foam-choked river; the harm accumulates in blood vessels and school reports, invisibly, one interrupted night at a time. The nineteenth century eventually learned to see dirty water as a public wrong rather than a private misfortune. The twenty-first has the same lesson to learn about sound — and the residents beside the motorway, who have never needed convincing, are still waiting for the rest of us to hear it.",
+      "questions": [
+        { "stem": "What is the main function of the contrast in the first paragraph?", "options": ["To introduce the idea that exposure to noise tracks economic inequality.", "To show that modern architecture has solved the problem of noise.", "To compare working conditions in banking with those in transport.", "To demonstrate that city centres are quieter than suburbs."], "answer": 0 },
+        { "stem": "According to the second paragraph, why do noise and poverty converge?", "options": ["Poorer residents are less sensitive to sound.", "Noisy facilities are placed where land is cheap, further depressing its value in a spiral.", "Planning authorities deliberately target poor districts.", "Wealthy districts produce less noise of their own."], "answer": 1 },
+        { "stem": "What point does the writer make with the reference to cortisol measurements?", "options": ["Stress hormones are unreliable indicators of harm.", "Residents near railways exaggerate their discomfort.", "Habituation to noise happens quickly in most people.", "The body continues to respond to noise even when people believe they have adapted."], "answer": 3 },
+        { "stem": "How does the writer treat the argument that noise is 'the sound of life'?", "options": ["It is dismissed as special pleading by industry.", "It is accepted as a conclusive reason to leave things as they are.", "It is acknowledged, but redirected towards the issue of consent rather than vitality.", "It is attributed to people who have never lived in cities."], "answer": 2 },
+        { "stem": "What characterises the policies proposed in the fifth paragraph?", "options": ["They are practical measures already in use somewhere, reframed as public health.", "They are untested ideas requiring new technology.", "They depend on banning most night-time economic activity.", "They apply only to concert halls and public buildings."], "answer": 0 },
+        { "stem": "What is the 'deeper obstacle' identified in the final paragraph?", "options": ["The expense of acoustic insulation.", "The invisibility of noise harm, which produces no compelling image.", "Public opposition to regulation of any kind.", "Scientific disagreement about the effects of sound."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "Read four short opinion pieces (A–D) on the same topic: the value of silence in an age of noise. Then answer the questions.",
+      "sources": [
+        { "label": "A", "text": "Composers know a secret the wellness industry has not yet packaged: silence is not the absence of sound but the presence of attention. The rest in a score is not nothing — it is the most charged moment on the page, the place where listening happens. This is why I am unmoved by soundproofed retreats and noise-cancelling headphones, which pursue silence as a possession, something to be acquired and consumed. The silence that matters is a practice, not a purchase: the deliberate quieting of one's own noise in order to hear what is already there. It can be practised on a railway platform at rush hour. I have known people who owned perfect quiet and never once listened, and buskers who understood rests better than any acoustic engineer." },
+        { "label": "B", "text": "Whenever I read that ours is the noisiest age in history, I reach for my files. Here is a philosopher in first-century Rome, driven to distraction by the bathhouse below his lodgings; here are the pamphleteers of 1890s London, campaigning against street musicians in language identical to today's petitions against leaf blowers. Every generation believes it invented the problem, and every generation is wrong, which should make us suspicious of the diagnosis. What has genuinely changed is not the decibel level — medieval towns were astonishingly loud — but our relationship to interruption: we now carry the noise-source in our pockets and call it connection. The complaint is ancient. The self-administration is new, and it, not the traffic, is the interesting story." },
+        { "label": "C", "text": "I have sat through too many conferences on 'reclaiming silence' held in venues where a night's stay costs a week's wages, and I have started asking impolite questions about who is imagined to be doing the reclaiming. Noise is not evenly loathed because it is not evenly suffered: the seminar's participants retreat to quiet postcodes, while the delegates' taxis idle outside somebody else's bedroom window. Worse, the campaigns that do succeed tend to silence the wrong things — the street market, the church, the teenagers — while the motorway, which answers to no petition, roars on. I am for quiet, emphatically. But a movement that treats it as a lifestyle rather than as a question of distribution will deliver silence to those who already have it, and call the result peace." },
+        { "label": "D", "text": "Strip away the poetry and the polemic, and the measurements remain. Two decades of cohort studies now converge on the same findings: chronic noise exposure predicts cardiovascular disease with a consistency that rivals several classical risk factors, and the reading gap in schools under flight paths widens with each decibel. Most tellingly, the harm proceeds in people who report no annoyance whatever — the sleeping brain registers what the waking mind has learned to ignore. I have no quarrel with those who value silence for contemplative or aesthetic reasons; they are welcome allies. But the case no longer needs them. Quiet earned its place in public health the way clean water did: not through poetry, but through mortality tables." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which writer treats silence as a skill to be practised rather than a condition to be acquired?", "answer": "A" },
+        { "stem": "Which writer rests their argument primarily on measurable effects on the body?", "answer": "D" },
+        { "stem": "Which writer argues that campaigns for quiet neglect questions of social class?", "answer": "C" },
+        { "stem": "Which writer maintains that complaints about noise are as old as cities themselves?", "answer": "B" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+      "passage": "The collector of vanishing quiet\n\nFor thirty years, an acoustic ecologist named Gordon Hempton has been compiling an inventory of a resource nobody else thought to count: places on Earth where, for at least fifteen minutes at dawn, no human-made sound can be heard at all. (41)____\n\nHis method is monastic in its patience. He arrives before first light, plants his microphones, and waits — sometimes for days — for the window in which the world sounds as it did before engines. (42)____\n\nThe list he has assembled is shorter than anyone expects, and it is shrinking. (43)____\n\nThe chief culprit is not the ground but the sky. (44)____\n\nHempton's response has been to campaign not for silence in general but for single, specific places — most famously one square inch of rainforest in a national park, marked by a small red stone on a moss-covered log. (45)____\n\nCritics have called the project quixotic, a rounding error in a deafening world, and Hempton does not entirely disagree. (46)____ The quiet places, he says, are not being lost because anyone chose to destroy them. They are being lost because nobody was keeping the ledger — and a ledger, at least, is something one man can keep.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "When he began, in the 1980s, he could find more than twenty such sites in his home state alone; on his most recent survey, three remained.",
+          "But he defends the asymmetry of it: a single protected inch, he argues, quietly disciplines a thousand square miles around it, since noise refuses to respect boundaries in either direction.",
+          "By silence, he is careful to explain, he does not mean the absence of sound: his recordings teem with wrens, meltwater, wingbeats and wind — what he means is the absence of us.",
+          "Similar inventories have since been attempted for darkness, with night-sky reserves now designated on every continent.",
+          "The logic is deliberate: protect that inch from aircraft noise, and you must in practice keep the air above a vast surrounding territory clear, one square inch functioning as a lever on a landscape.",
+          "A commercial jet at cruising altitude lays a carpet of sound sixty miles wide, and the great flyways now grid the continent so completely that even the remotest valleys receive a scheduled interruption every few minutes.",
+          "The recordings that result have made him celebrated in circles he professes not to care about, winning awards for albums he describes, flatly, as data.",
+          "Doubters who accompany him tend to be converted less by argument than by the experience itself, which several have described as the loudest thing they have ever heard."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing paragraph:", "answer": "C" },
+        { "stem": "Choose the missing paragraph:", "answer": "G" },
+        { "stem": "Choose the missing paragraph:", "answer": "A" },
+        { "stem": "Choose the missing paragraph:", "answer": "F" },
+        { "stem": "Choose the missing paragraph:", "answer": "E" },
+        { "stem": "Choose the missing paragraph:", "answer": "B" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 8",
+      "instructions": "You are going to read four short pieces (A–D) by people whose working lives are governed by sound or its absence. Answer the questions by choosing the appropriate person.",
+      "sources": [
+        { "label": "A", "text": "Brother Anselm — guestmaster of a monastery. The visitors arrive expecting silence to soothe them, and for the first day it usually does; it is on the second day that the trouble starts. With nothing to drown them out, their own thoughts become audible, and some guests find that unbearable — we have learned to keep an eye on the second evening, and the guest who suddenly discovers an urgent reason to leave. Those who stay through it describe the third day as a kind of unlocking. I should confess that our silence is not what outsiders imagine: the monastery is full of sound — bells, chant, sandals on stone, the mill of the kitchen. What we have removed is not noise but commentary. Nobody here narrates, opines or fills a pause out of terror of it. That, not the absence of sound, is what the guests have never experienced before." },
+        { "label": "B", "text": "Rosa — film sound designer. My proudest work is the work nobody notices, which makes for strange dinner conversation. On the last picture, the director wanted a bedroom at night, 1950s, third floor, facing a courtyard — and I built that room from silence upward: a refrigerator two rooms away, a clock deliberately out of rhythm with the cut, distant plumbing. Not one viewer will name those sounds, and every viewer would feel their absence as wrongness. Here is the trade secret: true silence on a soundtrack reads as equipment failure, so when a scene requires 'silence' I must compose it — room tone, cloth, breath — quiet as a made thing. After thirty years I cannot switch it off. In restaurants I hear the compressor cycle behind the music, and my husband has learned that when I go still, I am not upset. I am listening to the building." },
+        { "label": "C", "text": "Dr Adeyemi — audiologist. The patients I worry about are not the ones who come in shouting about their deafness; they are the ones who arrive saying everything is fine, sent by an exasperated spouse. Hearing loss of the common kind is a slow subtraction of consonants — the vowels carry on, so speech remains audible but stops being intelligible, and the sufferer, hearing plenty of sound, concludes that everyone else has started mumbling. By the time they reach me, many have spent years quietly withdrawing: from restaurants first, then the telephone, then company itself, and the isolation does damage the hearing aid alone cannot reverse. So my consultations are only half acoustics. The other half is persuasion — convincing someone that the silence creeping over their evenings was never peace, and that the world they stopped attending is still there, waiting to be turned back on." },
+        { "label": "D", "text": "Marguerite — chief librarian of a city reading room. Twice in my career I have had to defend the silence of my own building, and the second fight was the strange one. In the nineties, the fashionable view was that quiet was elitist and unwelcoming, and the reading room was to be 'activated' with talk zones and events; we resisted, politely and stubbornly, and were called dinosaurs. Twenty years later the same newspapers that mocked us ran features on the reading room as a sanctuary, and our seats now book out days ahead — students, shift workers, people in grief. What I learned between the two battles is that a silent room is not an empty policy; it is a service, and an increasingly rare one: the only place left in this city where a person can be present, in public, among others, and owe nobody a single word. We do not provide quiet instead of community. The quiet is the community." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Brother Anselm", "Rosa", "Dr Adeyemi", "Marguerite"] },
+      "questions": [
+        { "stem": "Which person constructs an illusion that must never be noticed to succeed?", "answer": "B" },
+        { "stem": "Which person saw official opinion reverse itself about the value of what they provide?", "answer": "D" },
+        { "stem": "Which person watches for a predictable crisis at a particular point in people's stays?", "answer": "A" },
+        { "stem": "Which person treats persuasion as an essential half of their professional work?", "answer": "C" },
+        { "stem": "Which person argues that shared silence creates, rather than prevents, a form of community?", "answer": "D" },
+        { "stem": "Which person is unable to stop exercising their professional perception in everyday life?", "answer": "B" },
+        { "stem": "Which person describes a condition whose sufferers typically deny anything is wrong?", "answer": "C" },
+        { "stem": "Which person distinguishes the removal of unnecessary speech from the removal of sound?", "answer": "A" },
+        { "stem": "Which person's workplace now attracts precisely the demand it was once criticised for ignoring?", "answer": "D" },
+        { "stem": "Which person says that genuine absence of sound would be interpreted as a fault?", "answer": "B" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "B1 Preliminary — Writing (Practice 17)",
+  "durationMin": 45,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in about 100 words.",
+      "tasks": [{
+        "type": "email", "minWords": 100,
+        "lead": "Read this email from your English-speaking friend Chris and the notes you have made.",
+        "stimulus": { "head": "EMAIL", "title": "", "body": "From: Chris\nSubject: We're moving house!\n\nHi!\n\nBig news — my family is moving to a new house on the other side of town next Saturday! There are so many boxes everywhere, and my parents say we need all the help we can get.\n\nCould you come and help us carry things? Afterwards we're ordering pizza for everyone!\n\nChris" },
+        "bullets": ["agree to help Chris on Saturday", "say what time you can arrive", "suggest bringing something useful for the move", "ask one question about the new house"],
+        "write": "Write your email to Chris."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in about 100 words.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 100,
+          "lead": "You see this announcement in your school English-language magazine.",
+          "stimulus": { "title": "MY DREAM HOME", "body": "If you could live anywhere — a flat in a big city, a house by the sea, a farm in the countryside — what would your dream home be like? Write an article and tell us. The best articles will be published next month." },
+          "bullets": ["where your dream home would be", "what it would look like inside and outside", "why you would love living there"],
+          "write": "Write your article." },
+        { "type": "story", "q": 3, "minWords": 100,
+          "lead": "Your English teacher has asked you to write a story.",
+          "startSentence": "In the empty new house, Maya opened the last box and started to laugh.",
+          "stimulus": { "title": "", "body": "Your story must begin with this sentence:\n\nIn the empty new house, Maya opened the last box and started to laugh." },
+          "bullets": [],
+          "write": "Write your story." }
+      ]
+    }
+  ]
+}

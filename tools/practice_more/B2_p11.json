@@ -1,0 +1,189 @@
+{
+  "title": "B2 First — Reading and Use of English (Practice 11)",
+  "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "How streaming changed the song",
+      "body": "Over the past twenty years, the music industry has been turned (1)____ down by streaming. Listeners once saved for weeks to buy a single album; now, for a modest monthly (2)____, they can hear almost every song ever recorded. This shift has (3)____ about profound changes in the way music is actually written. Because royalties are only paid once a track has been streamed past a certain point, songwriters find themselves (4)____ pressure to deliver the chorus within the first thirty seconds, before an impatient listener skips ahead. Introductions have shrunk, and the average song is now noticeably shorter than it was a decade (5)____. Not everyone regards these developments as a change for the (6)____. Streaming has also allowed unknown musicians to (7)____ an audience of millions without a record company's help, something unimaginable in the old system. What nobody disputes is that the way we pay for music shapes the music itself, and some critics wonder aloud whether the golden age of the album has quietly come to an (8)____.",
+      "questions": [
+        { "options": ["upside", "inside", "downside", "outside"], "answer": 0 },
+        { "options": ["ticket", "price", "fee", "wage"], "answer": 2 },
+        { "options": ["set", "brought", "come", "put"], "answer": 1 },
+        { "options": ["in", "on", "at", "under"], "answer": 3 },
+        { "options": ["before", "since", "ago", "past"], "answer": 2 },
+        { "options": ["worse", "worst", "bad", "wrong"], "answer": 0 },
+        { "options": ["arrive", "reach", "achieve", "access"], "answer": 1 },
+        { "options": ["finish", "ending", "stop", "end"], "answer": 3 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The return of vinyl",
+      "body": "To almost everyone's surprise, records made of vinyl, a format that was declared dead in the 1990s, are now selling in numbers (9)____ have not been seen for decades. It would be easy to assume that nostalgia is (10)____ drives the trend, yet most buyers are far too young to remember the format's first life. Some say they are drawn (11)____ the ritual: choosing a record, lowering the needle and listening to an album from start to finish, (12)____ than skipping restlessly between songs. Others simply want to own something physical in a world (13)____ music has become invisible. Ironically, surveys suggest that a surprising number of vinyl buyers do not (14)____ own a record player. For them, a record is less a way of hearing music (15)____ a way of supporting an artist they love — and of holding, at (16)____, something real in their hands.",
+      "questions": [
+        { "accept": ["that", "which"] },
+        { "accept": ["what"] },
+        { "accept": ["to", "by"] },
+        { "accept": ["rather"] },
+        { "accept": ["where"] },
+        { "accept": ["even", "actually"] },
+        { "accept": ["than"] },
+        { "accept": ["last", "least"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Behind every hit",
+      "rows": [
+        { "text": "Few listeners could name a single session" },
+        { "text": "(17)____, yet their playing is everywhere.", "root": "MUSIC" },
+        { "text": "" },
+        { "text": "These (18)____ professionals record the guitar,", "root": "KNOW" },
+        { "text": "drum and string parts behind famous voices." },
+        { "text": "" },
+        { "text": "The work demands total (19)____ as well as", "root": "ACCURATE" },
+        { "text": "speed, because studio time is expensive." },
+        { "text": "" },
+        { "text": "A reputation for (20)____ counts for more than", "root": "RELY" },
+        { "text": "brilliance: sessions start exactly on time." },
+        { "text": "" },
+        { "text": "The best players show remarkable (21)____,", "root": "FLEXIBLE" },
+        { "text": "moving from jazz to pop in a single day." },
+        { "text": "" },
+        { "text": "Many admit there is little public (22)____ of", "root": "RECOGNISE" },
+        { "text": "their contribution to famous recordings." },
+        { "text": "" },
+        { "text": "Streaming has made their position even less" },
+        { "text": "(23)____ than it was in the age of CDs.", "root": "COMFORT" },
+        { "text": "" },
+        { "text": "Still, most would not swap the studio for the" },
+        { "text": "(24)____ glare of the concert stage.", "root": "MERCY" }
+      ],
+      "questions": [
+        { "root": "MUSIC", "accept": ["musician"] },
+        { "root": "KNOW", "accept": ["unknown"] },
+        { "root": "ACCURATE", "accept": ["accuracy"] },
+        { "root": "RELY", "accept": ["reliability"] },
+        { "root": "FLEXIBLE", "accept": ["flexibility"] },
+        { "root": "RECOGNISE", "accept": ["recognition"] },
+        { "root": "COMFORT", "accept": ["comfortable"] },
+        { "root": "MERCY", "accept": ["merciless"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+      "questions": [
+        {
+          "before": "The band cancelled the concert because the singer was ill.",
+          "keyword": "CALLED",
+          "after": "The concert ___ because the singer was ill.",
+          "accept": ["was called off"]
+        },
+        {
+          "before": "\"Did you write this song yourself?\" the interviewer asked Maya.",
+          "keyword": "HAD",
+          "after": "The interviewer asked Maya whether ___ the song herself.",
+          "accept": ["she had written"]
+        },
+        {
+          "before": "It's a pity I can't play the piano.",
+          "keyword": "COULD",
+          "after": "I wish ___ the piano.",
+          "accept": ["i could play"]
+        },
+        {
+          "before": "Nobody was surprised that the tickets sold out immediately.",
+          "keyword": "CAME",
+          "after": "It ___ to nobody that the tickets sold out immediately.",
+          "accept": ["came as a surprise"]
+        },
+        {
+          "before": "People think the guitarist left the band because of an argument.",
+          "keyword": "TO",
+          "after": "The guitarist is thought ___ the band because of an argument.",
+          "accept": ["to have left"]
+        },
+        {
+          "before": "I started listening to this band three years ago and I still listen to them.",
+          "keyword": "BEEN",
+          "after": "I ___ to this band for three years.",
+          "accept": ["have been listening", "'ve been listening"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The disappearing middle of the music world\n\nWhen people worry about the music industry, they usually worry about the wrong end of it. The superstars are doing fine: their tours fill stadiums, their faces sell perfume, and the tiny payments that streaming provides become serious money when multiplied by billions of plays. Nor, at the other extreme, has it ever been easier to be a hobbyist, recording songs in a bedroom and releasing them to the world by breakfast. The group in genuine trouble sits between these two: the working musician, neither famous nor amateur, who once made a modest living from music and increasingly cannot.\n\nIt is worth remembering how that living used to be assembled. Album sales, even small ones, provided a base income; local radio paid for airplay; and a circuit of mid-sized venues offered steady, unglamorous work. Each element has since been hollowed out. A stream pays a fraction of a fraction of what a CD once did, so a loyal following of twenty thousand listeners, once enough to sustain a career, now barely covers the cost of recording. Meanwhile, many of the mid-sized venues that formed the middle rungs of the ladder have closed, squeezed between rising rents and changing habits.\n\nThe standard advice to musicians is to make up the difference on the road and at the merchandise table, and many do, selling T-shirts and vinyl with the energy of market traders. But touring has costs that fans rarely see — vans, fuel, accommodation, crew — and for a band of five, a tour that looks triumphant from the audience can end in four figures of debt. One widely shared confession by a moderately successful band, detailing how a sold-out national tour had lost them money, did more to educate the public than any economist could have.\n\nDoes any of this matter, beyond the musicians themselves? The optimists say the market is simply doing its work: listeners have voted, and the middle has lost. Yet there is a cultural cost that the market does not price. Nearly every artist now considered great spent years being merely promising, supported through that apprenticeship by the unglamorous middle of the industry. Remove the middle, and tomorrow's greats must either break through instantly or come from families wealthy enough to subsidise the wait. The first is rare; the second narrows music to the voices of those who can afford it.\n\nThere are gentler signs, too. Some listeners, aware of the arithmetic, have begun buying directly from artists, attending small venues deliberately, and treating the price of a record as a contribution rather than a purchase. None of this will bring back the old economy, and perhaps it should not come back. But a healthy musical culture, like a healthy forest, needs more than its tallest trees. It needs the undergrowth, where new things start.",
+      "questions": [
+        { "stem": "Who, according to the first paragraph, is in genuine difficulty?", "options": ["Working musicians who are neither famous nor amateurs.", "Superstar performers on stadium tours.", "Hobbyists recording at home.", "Perfume companies that sponsor singers."], "answer": 0 },
+        { "stem": "What point does the writer make about a following of twenty thousand listeners?", "options": ["It has always been too small to sustain a career.", "It guarantees stadium tours today.", "It once supported a career but now barely covers recording costs.", "It is impossible to achieve without radio play."], "answer": 2 },
+        { "stem": "What did the band's widely shared confession reveal?", "options": ["That merchandise tables are illegal at most venues.", "That even a sold-out national tour can leave a band in debt.", "That fans prefer T-shirts to vinyl.", "That touring is the most profitable part of the industry."], "answer": 1 },
+        { "stem": "How does the writer respond to the optimists' argument?", "options": ["By agreeing that the market's verdict settles the matter.", "By denying that listeners' habits have changed.", "By claiming superstars will fund new artists.", "By arguing that the market ignores a real cultural cost."], "answer": 3 },
+        { "stem": "Why does the loss of the industry's middle threaten future great artists?", "options": ["Because instruments have become too expensive.", "Because streaming services ban new musicians.", "Because promising artists need years of modest support that will no longer exist.", "Because mid-sized venues refuse to book young bands."], "answer": 2 },
+        { "stem": "What does the writer's forest comparison suggest?", "options": ["A musical culture needs its modest 'undergrowth', not just its stars.", "Only the tallest trees matter in a forest.", "Music careers should be planned like forestry.", "The old economy of album sales will soon return."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+      "passage": "Too old to start?\n\nWalk past the practice rooms of any music school on a weekday evening and you will hear scales played with more determination than grace. (37)____ Teachers report that beginners over forty are now their fastest-growing group of students.\n\nThe obstacle most adults fear is the brain itself. It is widely believed that unless you begin an instrument in childhood, a door quietly closes and can never be reopened. (38)____ Adult brains do learn differently, but they compensate with patience, discipline and a much clearer idea of why they are practising.\n\nIn some respects, adult beginners actually hold the advantage. (39)____ A nine-year-old may have supple fingers, but rarely a heartfelt opinion about how a slow ballad ought to feel.\n\nThere are real difficulties, of course, and honest teachers do not hide them. (40)____ The frustration is sharper, too, because an adult's taste is fully formed: you can hear exactly how far your playing falls short of what you intend.\n\nWhy persist, then? Interestingly, the answers students give have almost nothing to do with performance. (41)____ In a distracted age, an activity that demands both hands, both ears and complete attention has become a kind of luxury.\n\nPerhaps the healthiest change is in what success is taken to mean. (42)____ They are chasing Tuesday evening, the next small improvement, and the private pleasure of a phrase played better than it was last week.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Recent research suggests that this belief is, at best, a half-truth.",
+          "Progress that a child achieves in a month may take an adult three.",
+          "This is why most schools now refuse to accept pupils under the age of ten.",
+          "Increasingly, the people producing them are not children but adults in their forties, fifties and beyond.",
+          "Nobody in these practice rooms is chasing a concert hall.",
+          "They understand the music they are trying to make, often after decades of attentive listening.",
+          "As a result, ticket prices for professional concerts have doubled in a decade.",
+          "They speak instead of a concentration so complete that an hour disappears without being noticed."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing sentence:", "answer": "D" },
+        { "stem": "Choose the missing sentence:", "answer": "A" },
+        { "stem": "Choose the missing sentence:", "answer": "F" },
+        { "stem": "Choose the missing sentence:", "answer": "B" },
+        { "stem": "Choose the missing sentence:", "answer": "H" },
+        { "stem": "Choose the missing sentence:", "answer": "E" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "Read about four people who earn their living from music in different ways. Then answer the questions. The same person may be chosen more than once.",
+      "sources": [
+        { "label": "A", "name": "Elena", "text": "When my orchestra lost its funding, I assumed my life in music was over, because a violinist without an orchestra seemed to me like a sailor without a sea. Out of desperation I offered a few lessons online, and within two years teaching had become a business with students on four continents, from a surgeon in Singapore to a retired farmer in Wales. The strange truth is that my income is now steadier than it ever was in the orchestra, where every season began with rumours about cuts. And yet something is missing that money cannot measure. Playing alone into a camera, I ache for the feeling of forty musicians breathing together, that moment when a hall full of strangers goes quiet at once. Teaching feeds me; ensemble playing fed something else." },
+        { "label": "B", "name": "Joel", "text": "I am a drummer for hire, which means I belong to three bands and to none of them. Most of my year is spent on the road, and I genuinely love it — the rhythm of new towns, the hour on stage that makes the other twenty-three make sense. But nobody tells you about the invoice your body eventually sends. My hearing has a permanent whistle in one ear, my shoulders are a map of old strains, and I know drummers of sixty still lifting their own gear because stopping was never affordable. That is the thought that keeps me awake: not this year, but the years after the phone stops ringing. There is no pension at the merchandise table. Even knowing all that, I would not trade the road for anything with a desk in it." },
+        { "label": "C", "name": "Wendy", "text": "Two record companies have offered me contracts, and I have said no twice, politely, which my family found incomprehensible. But I had done the arithmetic. Before I recorded my last album, I asked the people who come to my concerts to fund it directly, and eight hundred of them did, paying in advance for something that did not yet exist. That money made the album, and everything it earns comes back to me and the musicians who played on it. My audience is small and will probably stay small, and I have made my peace with that; the folk clubs I play are not stadiums, but they are full. I sell records and hand-stitched songbooks at a little table afterwards, and most months the sums work. Modest and mine — that is the deal, and it suits me." },
+        { "label": "D", "name": "Kofi", "text": "You have heard my songs, though you have never heard of me, and that is exactly how I like it. I write and produce for other artists, and anonymity is not a sacrifice; it is a luxury. I can sit in a café next to someone humming my chorus, and nobody films me buying milk. For years the royalties trickled, and then one song — written in an afternoon, almost as a joke — was picked up by a star, and that single piece of work paid off my parents' house and bought me ten years of freedom. I will not pretend the craft is pure. I study what the streaming platforms reward, and I shape my songs for them: strong openings, short runtimes, choruses that arrive early. You may call that cynical. I call it knowing the shape of the room I am singing into." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Elena", "Joel", "Wendy", "Kofi"] },
+      "questions": [
+        { "stem": "Which person is glad that the public does not know who they are?", "answer": "D" },
+        { "stem": "Which person worries about how they will manage when they are older?", "answer": "B" },
+        { "stem": "Which person now earns more steadily than they did in their previous musical job?", "answer": "A" },
+        { "stem": "Which person asked their audience for money before a recording existed?", "answer": "C" },
+        { "stem": "Which person mentions the physical toll of their working life?", "answer": "B" },
+        { "stem": "Which person's finances were transformed by a single piece of work?", "answer": "D" },
+        { "stem": "Which person has refused offers from record companies?", "answer": "C" },
+        { "stem": "Which person misses the experience of making music together with others?", "answer": "A" },
+        { "stem": "Which person deliberately shapes their work to suit streaming platforms?", "answer": "D" },
+        { "stem": "Which person says they would not exchange their way of life for an office job?", "answer": "B" }
+      ]
+    }
+  ]
+}

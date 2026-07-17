@@ -1,0 +1,34 @@
+{
+  "title": "C1 Advanced — Writing (MOCK 7)",
+  "durationMin": 90,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 220, "maxWords": 260,
+        "lead": "Your class has attended a seminar about how people could be protected from manipulative techniques of persuasion. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would be more effective, giving reasons to support your opinion.",
+        "stimulus": { "title": "How could people be protected from manipulative persuasion?", "body": "• banning design tricks that push users into choices they would not otherwise make\n• teaching the techniques of persuasion openly in schools\n• requiring all targeted political and commercial messages to declare who paid for them\n\nSome opinions expressed in the seminar:\n\"A cancellation button hidden behind five screens is not design; it is a trap.\"\n\"Show a child how the magician does the trick and the spell is broken for life.\"\n\"I don't mind being persuaded - I mind not knowing who is doing the persuading.\"" },
+        "bullets": ["discuss two of the ideas", "explain which would be more effective", "give reasons to support your opinion"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [
+        { "type": "report", "q": 2, "minWords": 220, "maxWords": 260,
+          "lead": "Your students' union is reviewing its policy on advertising and sponsorship on campus, and has asked you to write a report.",
+          "stimulus": { "title": "Report: advertising on campus", "body": "Write a report describing the forms advertising and sponsorship currently take on campus, assessing which practices students find acceptable and which they consider intrusive or manipulative, and recommending the rules the union should adopt." },
+          "bullets": ["the forms advertising currently takes on campus", "which practices students find acceptable and which manipulative", "the rules the union should adopt"],
+          "write": "Write your report." },
+        { "type": "proposal", "q": 3, "minWords": 220, "maxWords": 260,
+          "lead": "Your college is redesigning its curriculum and has invited proposals from students for one new compulsory module.",
+          "stimulus": { "title": "Proposal: a module on the art of persuasion", "body": "Write a proposal for a compulsory module in which students study how persuasion works - in advertising, politics and everyday life - and practise using it responsibly themselves. Explain why every student needs this module, describe what it would involve, and answer the objection that it would take time away from academic subjects." },
+          "bullets": ["why every student needs the module", "what the module would involve", "your answer to the objection about lost academic time"],
+          "write": "Write your proposal." },
+        { "type": "letter", "q": 4, "minWords": 220, "maxWords": 260,
+          "lead": "You have received this letter from an English-speaking friend, Gabriel.",
+          "stimulus": { "body": "I need a second conscience. My marketing job is going brilliantly, but this week I was asked to design a campaign using every psychological trick in the book - fake countdown timers, 'only 2 left!' warnings, the lot. My boss calls it standard practice. It works, and nobody is technically lied to. So why do I feel grubby about it?\n\nIs there actually a line here, and have I crossed it? What would you do in my place?\n\nGabriel" },
+          "bullets": ["whether there is a real ethical line, and where you think it lies", "your view on Gabriel's specific situation", "practical advice on what Gabriel should do next"],
+          "write": "Write your letter in reply." }
+      ]
+    }
+  ]
+}

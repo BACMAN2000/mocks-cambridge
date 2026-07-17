@@ -1,0 +1,419 @@
+{
+ "label": "C1 — Advanced",
+ "cefr": "Cambridge Advanced (CAE) · C1 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+ "audios": [
+  {
+   "id": "C1-P1",
+   "title": "Part 1 · Questions 1–6",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A clifftop cottage",
+    "A sea wall",
+    "A vanished beach",
+    "A documentary",
+    "A survey",
+    "A café owner"
+   ],
+   "scripts": [
+    "Question one. Woman: I know the survey mentions erosion, but look at that view, you'd never tire of it. Man: You might not get the chance to tire of it. The report says the cliff edge has moved eleven metres in a decade. However the price is dressed up, we'd be buying a countdown, not a cottage.",
+    "Question two. Woman: Yes, we finally got the funding, and the new sea wall is going up this spring, so there's real relief in the village. But I'd stop short of calling it a victory. The engineers were candid with us: it buys us thirty years, perhaps forty. It's a postponement, not an answer, and the young families here know it.",
+    "Question three. Man: There was a beach below my grandmother's house, wide enough for cricket at low tide. It's simply gone now, the sea takes what it takes. People expect me to be furious, and I suppose I could be. Mostly I feel the way you feel about a season ending. It was never really ours to keep.",
+    "Question four. Man: Everyone's praising that documentary about the drowned villages. Woman: The photography deserves the praise, it's extraordinary. My difficulty is with the tone. All those lingering shots of abandoned pianos, it turns real people's losses into something picturesque. The residents I've met want engineers and honest numbers, not elegies.",
+    "Question five. Woman: Our survey followed three coastal communities for five years, expecting to find that stress tracked the pace of erosion. It didn't, or not directly. The households under the most strain weren't those closest to the edge, but those left waiting for decisions, the ones the council had neither promised to defend nor formally abandoned.",
+    "Question six. Man: So will you take the relocation package for the café? Woman: I've told them I need another year. It's not the money, the offer's fair, more than fair. But the moment I sign, this stops being a village with a café and starts being a place people used to live. Somebody has to be last to give up, and it may as well be me."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What does the man imply about the cottage?",
+     "o": [
+      "The price makes it a bargain",
+      "Buying it means accepting its eventual loss",
+      "The survey exaggerates the danger"
+     ],
+     "c": 1,
+     "audio": "P15/C1/C1-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How does the woman regard the new sea wall?",
+     "o": [
+      "As a temporary reprieve rather than a solution",
+      "As a victory for the whole village",
+      "As a waste of the funding they fought for"
+     ],
+     "c": 0,
+     "audio": "P15/C1/C1-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How does the man feel about the lost beach?",
+     "o": [
+      "Angrier than people realise",
+      "Determined to see it restored",
+      "Resigned rather than resentful"
+     ],
+     "c": 2,
+     "audio": "P15/C1/C1-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the woman's criticism of the documentary?",
+     "o": [
+      "Its photography is overrated",
+      "It romanticises the residents' losses",
+      "It contains too many technical details"
+     ],
+     "c": 1,
+     "audio": "P15/C1/C1-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the survey reveal about stress in coastal communities?",
+     "o": [
+      "It was greatest where erosion was fastest",
+      "It was linked above all to unresolved decisions",
+      "It affected only households nearest the edge"
+     ],
+     "c": 1,
+     "audio": "P15/C1/C1-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why is the woman delaying her decision about the café?",
+     "o": [
+      "She hopes to negotiate a better offer",
+      "She feels a duty to keep the village alive",
+      "She doubts the relocation package is fair"
+     ],
+     "c": 1,
+     "audio": "P15/C1/C1-P1-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "C1-P2",
+   "title": "Part 2 · Questions 7–14",
+   "kind": "file",
+   "file": "P15/C1/C1-P2.mp3",
+   "intro": "You will hear a coastal geographer called Elena giving a talk about communities facing coastal erosion. For each question, complete the sentences with a word or short phrase.",
+   "scripts": [
+    "Good afternoon. I'm Elena, and for the past decade I've worked with villages along one of the fastest-eroding coastlines in Europe. Let me begin with the scale of the thing, because the numbers still startle me. Along the stretch I study, the cliffs are retreating by up to two metres every single year, which means a garden fence planted today may be hanging in mid-air before a child born this morning starts school. The reason is geology: these are not cliffs of granite but of soft clay, laid down by glaciers, and the sea removes them the way rain removes a sandcastle. The instinctive response is to build defences, and for a century that is exactly what we did. But here is the uncomfortable arithmetic of a coastline: waves carry sediment along the shore, and a concrete wall that protects one town interrupts that conveyor belt, starving the neighbouring beaches of sand, so they thin and vanish, and the erosion accelerates a few miles away. We did not so much stop the problem as post it down the coast. That recognition lies behind the policy that now dominates planning, known as managed retreat, the deliberate, phased surrender of some stretches of coast in order to concentrate defence where it can actually succeed. On paper it is rational. In a village hall it is agony, and I have sat through those meetings. What surprises outsiders is what residents grieve for most. It is rarely the houses, houses can be valued and, in principle, replaced. Again and again, the loss people cannot get past is the church, because a building where generations were married and buried concentrates a community's memory in a way no compensation formula recognises. There are gentler tools than concrete, and the most promising is the restoration of salt marshes. A healthy marsh in front of a settlement acts as a sponge, absorbing a remarkable proportion of each wave's energy before it ever touches land, and unlike a wall, a marsh repairs itself after every storm. But we must be honest about money. Where retreat is unavoidable, current relocation grants almost never match a home's market value, and families who did nothing wrong can lose most of what they had saved in their bricks. Until that changes, talk of orderly retreat is optimistic. My closing advice to any coastal community is this: do not wait to be planned for. The villages that fare best are those that write their own adaptation plan, however modest, because a community with a plan negotiates, and a community without one is merely notified. Thank you."
+   ],
+   "gapTitle": "Living with Coastal Erosion",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The cliffs Elena studies retreat by up to ____ metres a year",
+     "accept": [
+      "2",
+      "two"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The cliffs erode quickly because they are made of soft ____",
+     "accept": [
+      "clay"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Walls protect one town but starve nearby beaches of ____",
+     "accept": [
+      "sand",
+      "sediment"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The dominant policy is known as managed ____",
+     "accept": [
+      "retreat"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The loss residents grieve for most is the ____",
+     "accept": [
+      "church"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Salt marshes absorb much of each wave's ____",
+     "accept": [
+      "energy"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Relocation grants almost never match a home's market ____",
+     "accept": [
+      "value"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Elena urges communities to write their own adaptation ____",
+     "accept": [
+      "plan"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1-P3",
+   "title": "Part 3 · Questions 15–20",
+   "kind": "file",
+   "file": "P15/C1/C1-P3.mp3",
+   "intro": "You will hear an interview with a coastal engineer called Hugo. For each question, choose the best answer (A, B, C or D).",
+   "scripts": [
+    "Interviewer: Hugo, you spent twenty years building sea defences, and now you advise against many of them. What changed? Hugo: Not a single dramatic moment, more an accumulation of return visits. You build a magnificent revetment, you're applauded, and ten years later you drive past the next village along and see what your magnificence has cost them. Engineers are trained to solve the problem in front of us. The sea, inconveniently, refuses to stay in front of us. Interviewer: So are hard defences always a mistake? Hugo: That's the caricature of my position, and I resent it slightly. A port city, a power station, a hospital, of course you defend those, with concrete and without apology. My argument is narrower: we should stop pretending every settlement can be defended forever, because the pretence itself does harm. A community promised protection that will never come stops adapting. False hope is the most expensive material on any coastline. Interviewer: The government's criteria for which places get defended, are they fair? Hugo: They're transparent, which is not the same thing. The formula weighs the value of what's behind the wall, so a hundred expensive houses outrank three hundred modest ones. Nobody designed it to be cruel, but if you map the outcomes, you find the coastline is being rearranged along economic lines, and I think we should at least say that out loud. Interviewer: How do residents receive you when you recommend retreat? Hugo: With more grace than I'd manage in their place. The anger, when it comes, is rarely about the sea. It's about process, hearing your village's fate on the regional news before any official has knocked on your door. I've concluded the manner of these decisions wounds people more deeply than the decisions themselves. Interviewer: There's a fashionable phrase, working with nature. Do you believe in it? Hugo: I believe in it the way I believe in exercise, genuinely, but wary of those who think saying the words is the same as doing the thing. A salt marsh is a superb engineer, but restoring one takes land, and land has owners, and owners have lawyers. The ecology is the easy half. Interviewer: Finally, would you live by the sea yourself? Hugo: I do, cheerfully, on rock, forty metres up. I checked the geology before I checked the kitchen. My wife maintains I fell in love with the bedrock and the house merely came with it, and I have never once denied it. Interviewer: Hugo, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What changed Hugo's view of sea defences?",
+     "o": [
+      "A single catastrophic failure",
+      "Repeatedly seeing their effects elsewhere",
+      "Criticism from other engineers",
+      "New academic research"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How does Hugo respond to the claim that he opposes all hard defences?",
+     "o": [
+      "He accepts it is broadly accurate",
+      "He says it misrepresents a narrower argument",
+      "He refuses to discuss individual cases",
+      "He admits his position keeps changing"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Hugo suggest about the criteria for funding defences?",
+     "o": [
+      "They are deliberately cruel",
+      "They are secret and unaccountable",
+      "Their transparency does not make them fair",
+      "They favour smaller communities"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What has Hugo concluded about residents' anger?",
+     "o": [
+      "It is directed mainly at how decisions are communicated",
+      "It is aimed chiefly at engineers like him",
+      "It fades once compensation is agreed",
+      "It is caused by fear of the sea itself"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What is Hugo's attitude to 'working with nature'?",
+     "o": [
+      "He dismisses it as a slogan",
+      "He supports it while doubting some of its advocates",
+      "He believes it solves the ownership problem",
+      "He thinks the ecology is the hardest part"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Hugo's final answer reveal about him?",
+     "o": [
+      "He avoids living near the coast",
+      "He chose his home on professional grounds",
+      "He regrets buying his current house",
+      "He disagrees with his wife about the sea"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "C1-P4",
+   "title": "Part 4 · Questions 21–30",
+   "kind": "file",
+   "file": "P15/C1/C1-P4.mp3",
+   "intro": "You will hear five people who live in a village threatened by coastal erosion. TASK ONE (21–25): choose what each speaker has decided to do. TASK TWO (26–30): choose what each speaker finds hardest about the situation.",
+   "scripts": [
+    "Speaker one. Jack: I farmed that clifftop land like my father before me, and I'll be here when the last field goes over the edge, that's settled as far as I'm concerned. They can keep their forms and their grants. What wears me down isn't the decision, I sleep fine. It's the slowness of it, a metre gone by Easter, another fence line moved by autumn. A storm you can rage at. This is more like watching someone you love forget your name, one visit at a time. Speaker two. Kate: I can't stop the sea, so I've settled on doing the one useful thing left: I'm recording everything, every doorway, every gravestone, interviews with anyone over sixty, all archived properly before it goes. The council calls the project charming, which tells you everything. Three letters about the state of the slipway, three acknowledgement slips in return, and not one named human being has ever rung me back. The sea I can forgive, it's only obeying physics. Being processed rather than answered, that's the part I can't. Speaker three. Noah: The guesthouse was my livelihood, twelve rooms, sea views, you can guess the rest. I've stopped fighting it, and I'm turning the place into a day-visit centre, erosion walks, cliff photography courses, school groups. If the coast is going to be famous for disappearing, we may as well be the ones explaining it. What keeps me awake is that nobody will put a date on anything. Five years, fifteen, forty, every official shrugs differently, and you can't plan a business, or a life, around a shrug. Speaker four. Sofia: I've read every technical report, and our village sits in the one bay where a modest offshore reef would genuinely work, so that's my life now, petitions, ministers, marine engineers, I've become fluent in all of it. I won't pretend it isn't uphill. But what actually stings is going on the radio and hearing the presenter chuckle about people who, quote, chose to live on a crumbling cliff. My grandparents bought that house when the sea was two fields away. The jokes from people who've never seen the place, that's what I find unforgivable. Speaker five. Ben: We've taken the package, signed last month, there's a bungalow inland with our name on it, and honestly, once the boxes are packed I think relief will outweigh the rest. It was the right call and I'd make it again. But Tuesday quiz nights at the Anchor, borrowing ladders, feeding each other's cats, forty years of that doesn't fit in a removal van. The house I can leave to the sea without a backward glance. It's the people two doors down I don't know how to say goodbye to."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what they have decided to do",
+     "person": "Speaker 1",
+     "bank": [
+      "remain until the very end",
+      "create a record of the village",
+      "adapt their business to the situation",
+      "campaign for a specific defence scheme",
+      "accept relocation and move inland",
+      "take legal action against the council",
+      "rebuild elsewhere on the coast",
+      "stand for election locally"
+     ],
+     "c": "remain until the very end"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what they have decided to do",
+     "person": "Speaker 2",
+     "bank": [
+      "remain until the very end",
+      "create a record of the village",
+      "adapt their business to the situation",
+      "campaign for a specific defence scheme",
+      "accept relocation and move inland",
+      "take legal action against the council",
+      "rebuild elsewhere on the coast",
+      "stand for election locally"
+     ],
+     "c": "create a record of the village"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what they have decided to do",
+     "person": "Speaker 3",
+     "bank": [
+      "remain until the very end",
+      "create a record of the village",
+      "adapt their business to the situation",
+      "campaign for a specific defence scheme",
+      "accept relocation and move inland",
+      "take legal action against the council",
+      "rebuild elsewhere on the coast",
+      "stand for election locally"
+     ],
+     "c": "adapt their business to the situation"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what they have decided to do",
+     "person": "Speaker 4",
+     "bank": [
+      "remain until the very end",
+      "create a record of the village",
+      "adapt their business to the situation",
+      "campaign for a specific defence scheme",
+      "accept relocation and move inland",
+      "take legal action against the council",
+      "rebuild elsewhere on the coast",
+      "stand for election locally"
+     ],
+     "c": "campaign for a specific defence scheme"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what they have decided to do",
+     "person": "Speaker 5",
+     "bank": [
+      "remain until the very end",
+      "create a record of the village",
+      "adapt their business to the situation",
+      "campaign for a specific defence scheme",
+      "accept relocation and move inland",
+      "take legal action against the council",
+      "rebuild elsewhere on the coast",
+      "stand for election locally"
+     ],
+     "c": "accept relocation and move inland"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they find hardest",
+     "person": "Speaker 1",
+     "bank": [
+      "the gradualness of the loss",
+      "the impersonal official response",
+      "the lack of any clear timescale",
+      "mockery from outsiders",
+      "parting from neighbours",
+      "the cost of insurance",
+      "disagreement within the family",
+      "the silence of former friends"
+     ],
+     "c": "the gradualness of the loss"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they find hardest",
+     "person": "Speaker 2",
+     "bank": [
+      "the gradualness of the loss",
+      "the impersonal official response",
+      "the lack of any clear timescale",
+      "mockery from outsiders",
+      "parting from neighbours",
+      "the cost of insurance",
+      "disagreement within the family",
+      "the silence of former friends"
+     ],
+     "c": "the impersonal official response"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they find hardest",
+     "person": "Speaker 3",
+     "bank": [
+      "the gradualness of the loss",
+      "the impersonal official response",
+      "the lack of any clear timescale",
+      "mockery from outsiders",
+      "parting from neighbours",
+      "the cost of insurance",
+      "disagreement within the family",
+      "the silence of former friends"
+     ],
+     "c": "the lack of any clear timescale"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they find hardest",
+     "person": "Speaker 4",
+     "bank": [
+      "the gradualness of the loss",
+      "the impersonal official response",
+      "the lack of any clear timescale",
+      "mockery from outsiders",
+      "parting from neighbours",
+      "the cost of insurance",
+      "disagreement within the family",
+      "the silence of former friends"
+     ],
+     "c": "mockery from outsiders"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they find hardest",
+     "person": "Speaker 5",
+     "bank": [
+      "the gradualness of the loss",
+      "the impersonal official response",
+      "the lack of any clear timescale",
+      "mockery from outsiders",
+      "parting from neighbours",
+      "the cost of insurance",
+      "disagreement within the family",
+      "the silence of former friends"
+     ],
+     "c": "parting from neighbours"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,341 @@
+{
+ "label": "B2 — Upper-Intermediate",
+ "cefr": "Cambridge First (FCE) · B2 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+ "audios": [
+  {
+   "id": "B2-P1",
+   "title": "Part 1 · Questions 1–8",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A kayaking trip",
+    "A booking problem",
+    "A safety talk",
+    "A mountain walk",
+    "A zip line",
+    "A travel programme",
+    "A camping holiday",
+    "At an equipment shop"
+   ],
+   "scripts": [
+    "Question one. Man: So you actually went kayaking in the end? Woman: I'd been dreading it all week, I even thought about cancelling. But once we got out on the water I didn't want it to end. I've already booked another session for next month.",
+    "Question two. Man: Hello, I booked the climbing weekend for the fifteenth. Woman: Ah yes, I was just about to ring you. The instructor isn't available that weekend, so we've had to move the whole course back a week. The price is the same, of course, and lunch is still included.",
+    "Question three. Coach: Before we set off on the rapids, some of you have asked about falling in. Don't worry, your life jacket will do its job. What I really need from you is this: whatever happens, keep hold of your paddle, because that's how we pull you back into the raft.",
+    "Question four. Girl: You're back early, was it raining up there? Boy: No, we were actually lucky with the weather. But halfway up we found the main path closed because of a rockfall, and the other route would have taken four more hours, so we decided to come down.",
+    "Question five. Woman: A reminder for visitors waiting for the zip line: there's no upper age limit, and you don't need any previous experience, but for safety reasons all riders must weigh at least forty kilos. Helmets and gloves are provided at the top station.",
+    "Question six. Man: Did you watch that new adventure travel series? Woman: The scenery was stunning, of course, but every programme like that has good scenery. What I liked was that the presenter admitted when she was scared. It felt honest, not like the usual showing off.",
+    "Question seven. Boy: How was the camping trip? Girl: Mostly brilliant. We didn't get lost for once, and the new tent survived the wind without any trouble. The disaster was the food, we left the whole cool box sitting in the kitchen at home, so we lived on biscuits from the village shop.",
+    "Question eight. Man: Do you have these walking boots in a size forty-four? Assistant: I'm afraid that size sold out at the weekend, though the same boot comes in brown. Man: Hmm, it's for a trip in a fortnight. Could you order the grey ones in for me? I don't mind waiting a few days."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How does the woman feel about kayaking now?",
+     "o": [
+      "She regrets going",
+      "She wants to do it again",
+      "She still finds it frightening"
+     ],
+     "c": 1,
+     "audio": "P6/B2/B2-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What has changed about the man's climbing course?",
+     "o": [
+      "The instructor",
+      "The price",
+      "The date"
+     ],
+     "c": 2,
+     "audio": "P6/B2/B2-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the coach tell the group to do?",
+     "o": [
+      "Hold on to the paddle",
+      "Check their life jackets",
+      "Stay inside the raft"
+     ],
+     "c": 0,
+     "audio": "P6/B2/B2-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why did the boy turn back on the mountain?",
+     "o": [
+      "A path was closed",
+      "The weather got worse",
+      "Someone was injured"
+     ],
+     "c": 0,
+     "audio": "P6/B2/B2-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What must zip line riders do?",
+     "o": [
+      "Bring their own helmet",
+      "Be under sixty years old",
+      "Weigh at least forty kilos"
+     ],
+     "c": 2,
+     "audio": "P6/B2/B2-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the woman like about the travel series?",
+     "o": [
+      "The beautiful scenery",
+      "The honest presenter",
+      "The exciting locations"
+     ],
+     "c": 1,
+     "audio": "P6/B2/B2-P1-q6.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What went wrong on the camping trip?",
+     "o": [
+      "They got lost",
+      "The tent was damaged",
+      "They forgot their food"
+     ],
+     "c": 2,
+     "audio": "P6/B2/B2-P1-q7.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the man decide to do?",
+     "o": [
+      "Buy the brown pair",
+      "Order the grey pair",
+      "Try another shop"
+     ],
+     "c": 1,
+     "audio": "P6/B2/B2-P1-q8.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B2-P2",
+   "title": "Part 2 · Questions 9–18",
+   "kind": "file",
+   "file": "P6/B2/B2-P2.mp3",
+   "intro": "You will hear a man called Sam talking about the adventure centre where he works as a guide. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Sam: Hi, I'm Sam, and I work as a guide at the Wild River Adventure Centre. Let me tell you a bit about us. People often guess we've been here for decades because the buildings look so established, but the centre actually opened in twenty eleven, on the site of an old farm, and we now welcome around thirty thousand visitors a year. Everyone assumes our climbing wall is the star attraction, and it is popular, but by far the most bookings are for rafting. There's something about crashing through white water as a team that people just can't get enough of. My personal favourite, though, is the zip line. It stretches seven hundred metres across the valley, and on a clear day you can see all the way to the sea while you fly. A few practical things if you're planning a visit. Whatever activity you choose, please arrive thirty minutes before your session starts. That gives us time to fit your equipment properly and go through the safety talk without rushing. For water activities we provide wetsuits, helmets and boots free of charge, but do remember to bring a towel, because that's the one thing we don't supply. Families always ask about age limits. Most of our activities are open to everyone, but for rafting you have to be at least twelve, simply because of the strength you need to hold a paddle in rough water. Younger children can try the lake kayaks instead, which are calm and great fun. When you need a rest, our café overlooks the river, and I have to mention that it has become slightly famous for its hot chocolate. People honestly drive out here just for that, especially in winter. There's news for next season too. We've spent two years exploring the caves under the hillside with specialists, and our brand-new caving experience opens in April. I've done the training route myself, and it's genuinely unforgettable. If you're wondering when to come, most people book for July and August, but in my opinion the centre is at its best in May, when the valley is green and the river is high. One last tip: you can book by phone if you prefer, but if you book online you get a ten percent discount, and you can see live availability for every activity. Hope to see you on the river soon!"
+   ],
+   "gapTitle": "Wild River Adventure Centre",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The centre opened in: ____",
+     "accept": [
+      "2011",
+      "twenty eleven"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The activity with the most bookings: ____",
+     "accept": [
+      "rafting"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The zip line is ____ metres long",
+     "accept": [
+      "700",
+      "seven hundred"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Arrive ____ minutes before your session",
+     "accept": [
+      "30",
+      "thirty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Visitors must bring their own: ____",
+     "accept": [
+      "towel",
+      "towels"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Minimum age for rafting: ____",
+     "accept": [
+      "12",
+      "twelve"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The café is famous for its: ____",
+     "accept": [
+      "hot chocolate"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The caving experience opens in: ____",
+     "accept": [
+      "april"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Sam thinks the best month to visit is: ____",
+     "accept": [
+      "may"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "To get a discount, book: ____",
+     "accept": [
+      "online"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2-P3",
+   "title": "Part 3 · Questions 19–23",
+   "kind": "file",
+   "file": "P6/B2/B2-P3.mp3",
+   "intro": "You will hear five people talking about why they chose an adventure holiday. For each speaker, choose from the list (A–H) the reason they give. Use each letter once. There are three extra letters you will not need.",
+   "bank": [
+    "to face a fear",
+    "to celebrate a birthday",
+    "to get fit",
+    "to try something new",
+    "to spend time with family",
+    "to escape technology",
+    "to see wild animals",
+    "to make a film"
+   ],
+   "scripts": [
+    "Speaker one. Woman: I've been terrified of heights my whole life. I couldn't even use a ladder. Last spring I decided I'd had enough of avoiding things, so I booked a climbing week in the mountains. I cried on the first morning, I won't pretend I didn't, but by Friday I stood on a cliff edge and felt calm. That's why I went, and it worked. Speaker two. Man: My job means I'm answering messages from seven in the morning until late at night, weekends included. When I saw a trek advertised as having no phone signal for six days, that was honestly the whole attraction. Not the mountains, not the exercise. Just six days where nobody could reach me. It was wonderful. Speaker three. Woman: My brother and I were inseparable as kids, but with jobs in different cities we'd drifted into just sending birthday cards. So I booked us a canoe trip, five days on the river, two paddles, one tent. We argued about directions, laughed until it hurt, and now we do it every single summer. That trip gave me my brother back. Speaker four. Man: I could have done an ordinary boat tour, but I wanted to be right down on the water. We kayaked along the coast for a week, and seals swam under our boats every morning. One evening a whale surfaced so close we could hear it breathe. That's the only reason I chose the trip, and I'd go back tomorrow just for that. Speaker five. Woman: Some friends assumed it was some kind of birthday crisis, since I'd just turned forty, but honestly it wasn't that. I'd simply done the same quiet beach holiday for fifteen years, and I couldn't face another fortnight on a sunbed. I saw an advert for a survival course, signed up the same evening, and spent a week building shelters in the rain. Completely different, completely brilliant."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Speaker 1",
+     "c": "to face a fear"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 2",
+     "c": "to escape technology"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 3",
+     "c": "to spend time with family"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 4",
+     "c": "to see wild animals"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 5",
+     "c": "to try something new"
+    }
+   ]
+  },
+  {
+   "id": "B2-P4",
+   "title": "Part 4 · Questions 24–30",
+   "kind": "file",
+   "file": "P6/B2/B2-P4.mp3",
+   "intro": "You will hear an interview with a woman called Kate, who runs an adventure travel company. For each question, choose the best answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Kate, your company takes people trekking, rafting and climbing all over the world. Was adventure always the career plan? Kate: Not at all. My first job in tourism was leading walking tours around the city's museums and monuments. I enjoyed it, but I kept looking at the hills beyond the rooftops. One winter I trained as a mountain leader, and I never went back. Interviewer: People think of adventure tourism as dangerous. Is it? Kate: Far less than people imagine. Statistically you're safer on our climbing weekend than driving to it. The feeling of risk is what customers want, so our job is to make things feel wilder than they really are. And when small accidents do happen, it's almost never on the cliff face. It's usually someone tired tripping over a tent rope in the dark. Interviewer: How has the industry changed since you started? Kate: The biggest surprise is who books now. Twenty years ago it was almost all men in their twenties and thirties. These days my fastest-growing group of customers is people over sixty. Last month a seventy-three-year-old finished our hardest trek, and she wasn't even the oldest in the group. Interviewer: What do your customers struggle with most? Kate: Everyone expects me to say the climbing, or the cold. Actually, it's the first two days without a phone signal. Some people get genuinely anxious. Then by day four, those same people tell me the silence is the best part of the trip. Interviewer: When you hire new guides, what do you look for? Kate: Qualifications matter, obviously, and fitness helps. But I've turned down brilliant climbers because they sighed when someone was slow. What I really want is patience. You can teach a person to read a river, but you can't teach them to care for a nervous beginner. Interviewer: What advice would you give someone booking their first adventure holiday? Kate: Don't choose the photo, choose the people. A famous mountain with a poor leader is a miserable week. Ask who is actually taking you out, and how long they've worked there. Interviewer: And what's next for the company? Kate: The project I care most about: from next year we're running expeditions designed for wheelchair users, with adapted rafts and specially trained teams. It has taken three years to plan, and I can't wait. Interviewer: Kate, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What was Kate's first job in tourism?",
+     "o": [
+      "Mountain leader",
+      "City tour guide",
+      "Museum assistant"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Kate say about accidents?",
+     "o": [
+      "They mostly happen during simple moments",
+      "They are becoming more common",
+      "They usually happen while climbing"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What has surprised Kate most about the industry?",
+     "o": [
+      "The rise in prices",
+      "The popularity of trekking",
+      "The growth in older customers"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What do customers find hardest?",
+     "o": [
+      "The physical effort",
+      "Being without their phones",
+      "Sleeping in tents"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What quality does Kate most want in a guide?",
+     "o": [
+      "Climbing skill",
+      "Physical fitness",
+      "Patience"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What advice does Kate give about booking a trip?",
+     "o": [
+      "Choose a famous destination",
+      "Find out about the guides",
+      "Start with something short"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is the company doing next?",
+     "o": [
+      "Running trips for wheelchair users",
+      "Buying new equipment",
+      "Opening a second centre"
+     ],
+     "c": 0
+    }
+   ]
+  }
+ ]
+}

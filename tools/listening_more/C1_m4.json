@@ -1,0 +1,417 @@
+{
+ "label": "C1 — Advanced",
+ "cefr": "Cambridge Advanced (CAE) · C1 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+ "audios": [
+  {
+   "id": "C1-P1",
+   "title": "Part 1 · Questions 1–6",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A council debate",
+    "A new building",
+    "A complaint",
+    "E-book lending",
+    "A usage study",
+    "A volunteer"
+   ],
+   "scripts": [
+    "Question one. Woman: The branch issues fewer books than any in the borough, the spreadsheet makes the case for closure by itself. Man: The spreadsheet counts what's easy to count, that's all a spreadsheet ever does. Walk in on a Tuesday and tally what it misses: the shift worker asleep over a newspaper because it's the only warm place he isn't moved along from, the girl doing homework nobody at home can help with. Close it and those needs don't vanish, they just resurface in budgets with far angrier names.",
+    "Question two. Man: People keep calling your new library a glorified café, that must rankle. Woman: Oddly, I've made my peace with it, because the sneer contains a fact. We did put the coffee at the heart of the building, and quite deliberately: the books people can get at home now, on any screen, at midnight. What they can't download is somewhere to be with strangers without a script. If it takes a flat white to lure people into the same room as each other, the flat white is doing civic work.",
+    "Question three. Woman: I finally complained about the noise, the toddler group was practically a carnival. And the librarian was terribly gracious, showed me the quiet floor upstairs, which is, I admit, genuinely silent. So I got everything I asked for. And yet walking home I felt oddly deflated, as though I'd requested the removal of something I'd actually come for. I've started sitting one floor closer to the carnival.",
+    "Question four. Man: Surely you'd want libraries lending your novels digitally, it's exposure. Woman: I'd want it if the arithmetic weren't upside down. A printed copy, the library buys and lends until it falls apart, fine, that's the ancient bargain. The e-book they must license, per loan, at rates that devour their budget, so the more successfully they lend, the poorer they get. I'm not against digital lending. I'm against a bargain redesigned so that only one side can lose.",
+    "Question five. Woman: We assumed proximity would dominate, build a branch close to people and they'll come. Distance turned out to matter far less than we'd banked on. The variable that swallowed the model was whether someone had been taken to a library before the age of about ten, by anyone, a parent, a teacher, a neighbour. Build wherever you like: for adults who missed that induction, the doors may as well be painted on.",
+    "Question six. Man: You're at the library four mornings a week now, surely they should be paying you. Woman: They tried to make it three, I refused. Look, I ran logistics for thirty years and retirement was beginning to feel like being politely deleted. The homework club restores my rank, so to speak, the kids need the algebra and I need to be needed, and I frankly can't tell you which of us is getting the better deal. The bus fares are the entire cost of my current happiness."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What is the man's objection to the closure case?",
+     "o": [
+      "The figures for book lending are inaccurate",
+      "The data ignores the branch's less measurable functions",
+      "The savings would be smaller than projected"
+     ],
+     "c": 1,
+     "audio": "M4/C1/C1-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How does the woman respond to criticism of her building?",
+     "o": [
+      "She accepts the description while rejecting its intent",
+      "She regrets giving the café such prominence",
+      "She denies that books have lost importance"
+     ],
+     "c": 0,
+     "audio": "M4/C1/C1-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the woman realise after her complaint was resolved?",
+     "o": [
+      "The quiet floor was noisier than promised",
+      "The librarian had dismissed her concerns",
+      "The liveliness was part of what drew her there"
+     ],
+     "c": 2,
+     "audio": "M4/C1/C1-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the novelist's position on digital lending?",
+     "o": [
+      "She objects to the terms rather than the principle",
+      "She believes it gives authors valuable exposure",
+      "She wants libraries to lend only printed copies"
+     ],
+     "c": 0,
+     "audio": "M4/C1/C1-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the study identify as the strongest predictor of library use?",
+     "o": [
+      "Living near a branch",
+      "An early introduction to libraries",
+      "The quality of the local building"
+     ],
+     "c": 1,
+     "audio": "M4/C1/C1-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the woman suggest about her volunteering?",
+     "o": [
+      "She resents not being paid for it",
+      "It meets a need of her own as much as the children's",
+      "She plans to reduce her hours soon"
+     ],
+     "c": 1,
+     "audio": "M4/C1/C1-P1-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "C1-P2",
+   "title": "Part 2 · Questions 7–14",
+   "kind": "file",
+   "file": "M4/C1/C1-P2.mp3",
+   "intro": "You will hear a head librarian called Ruby giving a talk about the reinvention of libraries. For each question, complete the sentences with a word or short phrase.",
+   "scripts": [
+    "Good evening. I'm Ruby, and I run a city library service that was, a decade ago, quietly dying, and is now the busiest civic institution in town. I'm often asked for the secret, and it disappoints people, because the secret was an act of accounting heresy: we stopped measuring our success by loans. For a century, the loan was the librarian's heartbeat, the stamped date, the rising graph, and by that measure we were in terminal decline. But watch what people actually did in the building and a different institution came into focus, one the loan statistics were blind to. So we rebuilt, literally, and the architects' brief contained a sentence that scandalised my profession: design the building around conversation. Not around shelving, not around silence, around the human voice at civil volume. The silent floor survives, magnificently silent, at the top; but the ground floor now hums, and the hum is the point. Then we let the collection itself off the leash. Alongside the novels and histories, we now lend what the press inevitably dubbed the library of things: drills, sewing machines, telescopes, and the logic is identical to the logic of books, buy once, share widely, waste nothing. The waiting list for the telescopes, I'll admit, has become its own local legend. Who came? Everyone, eventually, but the group that grew fastest confounded every stereotype of the profession: teenagers. We had assumed they were lost to their bedrooms and their screens; it turned out they were starved of precisely what we had, a place to exist among others that demands no purchase, no membership of anything, no explanation. My staff had to change too, and here I'll risk a grand claim. The librarian's historic craft was helping people find information. That war is over, information won, it's everywhere, cheap as air. The craft now is triage amid the flood: our training these days is substantially about misinformation, how to help a frightened patron sort the peer-reviewed from the plausible at ten minutes to closing. Same vocation, inverted problem. The building has acquired civic muscles we never planned. When the council convened a citizens' assembly on the future of the riverfront, they held it in our reading room, and I'd argue no other roof in town could have hosted it, we are the last address every faction still trusts. That, incidentally, is the argument I now take to funders, and I've learned to say it without blushing: stop filing us under leisure. A library is infrastructure, as surely as the bridge and the water main, it's simply that what we distribute is harder to meter. And if you want my successor's yardstick, it's this: not how many items leave the building, but how long people choose to stay. On that measure, the average visit has tripled in ten years. We used to be a warehouse with a counter. We have become, I'd say on my braver days, the city's spare room. Thank you."
+   ],
+   "gapTitle": "The Reinvention of Libraries",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The service stopped measuring its success by ____",
+     "accept": [
+      "loans"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The architects were told to design the building around ____",
+     "accept": [
+      "conversation"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The press called the new lending scheme the library of ____",
+     "accept": [
+      "things"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The fastest-growing group of users was ____",
+     "accept": [
+      "teenagers"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Staff training now focuses substantially on ____",
+     "accept": [
+      "misinformation"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The reading room hosted the citizens' ____ on the riverfront",
+     "accept": [
+      "assembly"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Ruby tells funders a library is ____ , not leisure",
+     "accept": [
+      "infrastructure"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The new yardstick is how long people choose to ____",
+     "accept": [
+      "stay"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1-P3",
+   "title": "Part 3 · Questions 15–20",
+   "kind": "file",
+   "file": "M4/C1/C1-P3.mp3",
+   "intro": "You will hear an interview with a library director called Ethan. For each question, choose the best answer (A, B, C or D).",
+   "scripts": [
+    "Interviewer: Ethan, you're celebrated as the man who saved his city's libraries, yet you've said the word saved makes you wince. Why? Ethan: Because it flatters the wrong instinct. Saved implies restoration, polishing the old institution and handing it back intact, and had we done that we'd have produced a beautifully preserved irrelevance, a museum of a library. What we actually did was closer to a demolition conducted with enormous respect. I'd rather be accused of vandalism than taxidermy, and I've been accused of both, sometimes in the same letter. Interviewer: The traditionalists' charge is that in chasing footfall you've abandoned the core readers. Ethan: It's the charge I take most seriously, and I'd distinguish two versions of it. The lazy version just means the building got noisier, and to that I say: we built the quietest reading rooms in the region, upstairs, and they're fuller than ever. But there's a sharper version, that a library chasing everyone risks standing for nothing, that breadth becomes blur, and I don't dismiss that. I'd say we walk that line rather than deny it exists. Anyone running a public institution who claims never to feel that tension is either lying or not paying attention. Interviewer: You famously refused a large corporate sponsorship. That must have hurt financially. Ethan: It hurt exactly as much as the finance director said it would, and I'd refuse it again tomorrow. The money was clean, the branding was tasteful, that wasn't the issue. The issue is that we are, almost by accident, the last institution in town suspected of no agenda whatsoever, and that suspicion of innocence is our entire capital. You can't sell a corner of neutrality. There's no such thing as slightly sponsored trust. Interviewer: Some colleagues say your model only works in cities, that you've little to offer a village with one part-time branch. Ethan: They're half right, and I've stopped being defensive about it. You can't scale a café-and-events model down to a room that opens nine hours a week. But the underlying move, asking what your community is starved of and becoming that, scales to any size. I've seen a one-room branch become the village's parcel point, warm bank and de facto citizens' advice desk. That's not my model shrunk. That's the same question answered locally, which is the only way it's ever answered well. Interviewer: What frightens you for the sector? Ethan: Not closure, oddly, closures make headlines and headlines summon defenders. What frightens me is the quieter death: the branch that stays open with hours trimmed, stock unrefreshed, staff unreplaced, until it survives in name only. Nobody marches for a library that's technically still there. Erosion never gets a protest, and erosion, not the axe, is how we'll lose most of what we lose. Interviewer: And what gives you hope? Ethan: That every prediction of our obsolescence has been made by people who don't use us, about people who do. The internet was supposed to bury us; it sent us the teenagers instead. I've stopped predicting. I just try to keep the doors interesting. Interviewer: Ethan, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why does the word 'saved' make Ethan uncomfortable?",
+     "o": [
+      "It suggests preserving what needed transforming",
+      "It gives him credit that belongs to his staff",
+      "It understates the scale of the demolition",
+      "It reminds him of accusations of vandalism"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How does Ethan treat the two versions of the traditionalists' charge?",
+     "o": [
+      "He refutes one and concedes force to the other",
+      "He dismisses both as ill-informed",
+      "He accepts both without reservation",
+      "He blames both on media coverage"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Why did Ethan refuse the sponsorship?",
+     "o": [
+      "The money came from a dubious source",
+      "The branding would have been intrusive",
+      "Perceived neutrality cannot be partially traded",
+      "The finance director opposed the deal"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What does Ethan say about applying his model to villages?",
+     "o": [
+      "The model transfers with minor adjustments",
+      "The method transfers even though the model does not",
+      "Small branches should merge to adopt it",
+      "Villages are better served by mobile libraries"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Ethan fear most for libraries?",
+     "o": [
+      "Sudden high-profile closures",
+      "Gradual decline that attracts no resistance",
+      "Protests that damage their reputation",
+      "Competition from commercial spaces"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is implied by Ethan's final remarks?",
+     "o": [
+      "He believes the internet remains a threat",
+      "Forecasts of decline have come from non-users",
+      "He regrets not predicting the teenagers' return",
+      "Libraries should stop changing now"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "C1-P4",
+   "title": "Part 4 · Questions 21–30",
+   "kind": "file",
+   "file": "M4/C1/C1-P4.mp3",
+   "intro": "You will hear five people talking about what their reinvented local library means to them. TASK ONE (21–25): choose what each speaker mainly uses the library for. TASK TWO (26–30): choose what each speaker has unexpectedly gained.",
+   "scripts": [
+    "Speaker one. Lily: When I started the candle business it was me, a kitchen table and a toddler, and the co-working desks at the library were the only office I could afford, which is to say free. Three years on I could rent somewhere, and I haven't, the wifi and the reference desk still see me every Tuesday. The twist is what happened last spring: the library asked me to run their small-business clinic, and now there's a queue of kitchen-table founders bringing me their spreadsheets. I went in as somebody hiding from her laundry. I appear, apparently, on the council's website as a local expert, which my toddler finds hilarious. Speaker two. Sam: I arrived with engineering qualifications no one here recognised and English that lived entirely inside a textbook, so the library's conversation club was, frankly, medicinal. Twice a week, free, no judgement, just talk. The vocabulary came along as promised. What nobody promised was Arthur, eighty-one, retired railwayman, my conversation partner by pure lottery of the sign-up sheet. We've talked every Thursday for two years, his allotment, my mother's cooking, the deficiencies of local buses. My children call him grandpa now, in two languages. I came to conjugate verbs, honestly. I stayed for the man across the table. Speaker three. Clara: The family history bug bit me at sixty, and the library's archive room became my second address, parish records, shipping lists, the microfilm machine I now operate better than the staff. I was tracing my great-grandfather, ship's cook, dead at sea, so the family always said. The archive said otherwise: he jumped ship in Valparaiso and ran a boarding house for twenty years, wrote home twice, was ignored twice. My grandmother's silences suddenly have furniture in them. It's unsettled the whole family, in the way that only the truth can, and I'm not sorry. The past was always going to be somebody. Speaker four. Daniel: I first walked in, embarrassingly, for a hedge trimmer, the library of things being cheaper than the hire shop, and I kept coming back, a floor sander, a sewing machine, eventually their carpentry bench on the maker floor. I was an insurance adjuster at the time, and the Wednesday evenings at that bench became the part of the week that felt like mine. You can guess the rest: night classes, an apprenticeship at forty-three, and I now make kitchens for a living, including, last month, the new counter for the library café, at cost, obviously. My old colleagues think I had a breakdown. I think I had a library card. Speaker five. Kate: Four of us in a two-bedroom flat, so I write my poems in the library because it's the one door I can close, metaphorically, the quiet floor doesn't even have doors. That's all I wanted from the place, silence and a socket, and for a year that's all I took. Then the events librarian, who misses nothing, saw the notebook and bullied me, charmingly, onto the bill of their open-mic night. I've read there six times now. Strangers have opinions about my poems, informed, alarming opinions. A crowded flat made me a writer with an audience, which is a sentence I still can't quite believe."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what they mainly use the library for",
+     "person": "Speaker 1",
+     "bank": [
+      "a base for running a business",
+      "practising the local language",
+      "investigating family history",
+      "borrowing equipment and tools",
+      "finding space away from home",
+      "attending author events",
+      "childcare during work hours",
+      "studying for examinations"
+     ],
+     "c": "a base for running a business"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what they mainly use the library for",
+     "person": "Speaker 2",
+     "bank": [
+      "a base for running a business",
+      "practising the local language",
+      "investigating family history",
+      "borrowing equipment and tools",
+      "finding space away from home",
+      "attending author events",
+      "childcare during work hours",
+      "studying for examinations"
+     ],
+     "c": "practising the local language"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what they mainly use the library for",
+     "person": "Speaker 3",
+     "bank": [
+      "a base for running a business",
+      "practising the local language",
+      "investigating family history",
+      "borrowing equipment and tools",
+      "finding space away from home",
+      "attending author events",
+      "childcare during work hours",
+      "studying for examinations"
+     ],
+     "c": "investigating family history"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what they mainly use the library for",
+     "person": "Speaker 4",
+     "bank": [
+      "a base for running a business",
+      "practising the local language",
+      "investigating family history",
+      "borrowing equipment and tools",
+      "finding space away from home",
+      "attending author events",
+      "childcare during work hours",
+      "studying for examinations"
+     ],
+     "c": "borrowing equipment and tools"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what they mainly use the library for",
+     "person": "Speaker 5",
+     "bank": [
+      "a base for running a business",
+      "practising the local language",
+      "investigating family history",
+      "borrowing equipment and tools",
+      "finding space away from home",
+      "attending author events",
+      "childcare during work hours",
+      "studying for examinations"
+     ],
+     "c": "finding space away from home"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they have unexpectedly gained",
+     "person": "Speaker 1",
+     "bank": [
+      "a public advisory role",
+      "a friendship across generations",
+      "an unsettling family discovery",
+      "an entirely new career",
+      "an audience for their writing",
+      "a rent-free workshop",
+      "recognition from former colleagues",
+      "a solution to a housing problem"
+     ],
+     "c": "a public advisory role"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they have unexpectedly gained",
+     "person": "Speaker 2",
+     "bank": [
+      "a public advisory role",
+      "a friendship across generations",
+      "an unsettling family discovery",
+      "an entirely new career",
+      "an audience for their writing",
+      "a rent-free workshop",
+      "recognition from former colleagues",
+      "a solution to a housing problem"
+     ],
+     "c": "a friendship across generations"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they have unexpectedly gained",
+     "person": "Speaker 3",
+     "bank": [
+      "a public advisory role",
+      "a friendship across generations",
+      "an unsettling family discovery",
+      "an entirely new career",
+      "an audience for their writing",
+      "a rent-free workshop",
+      "recognition from former colleagues",
+      "a solution to a housing problem"
+     ],
+     "c": "an unsettling family discovery"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they have unexpectedly gained",
+     "person": "Speaker 4",
+     "bank": [
+      "a public advisory role",
+      "a friendship across generations",
+      "an unsettling family discovery",
+      "an entirely new career",
+      "an audience for their writing",
+      "a rent-free workshop",
+      "recognition from former colleagues",
+      "a solution to a housing problem"
+     ],
+     "c": "an entirely new career"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what they have unexpectedly gained",
+     "person": "Speaker 5",
+     "bank": [
+      "a public advisory role",
+      "a friendship across generations",
+      "an unsettling family discovery",
+      "an entirely new career",
+      "an audience for their writing",
+      "a rent-free workshop",
+      "recognition from former colleagues",
+      "a solution to a housing problem"
+     ],
+     "c": "an audience for their writing"
+    }
+   ]
+  }
+ ]
+}

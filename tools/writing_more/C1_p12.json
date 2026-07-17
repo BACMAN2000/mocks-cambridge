@@ -1,0 +1,34 @@
+{
+  "title": "C1 Advanced — Writing (Practice 12)",
+  "durationMin": 90,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 220, "maxWords": 260,
+        "lead": "Your class has attended a panel discussion about the main benefits the sharing economy brings to a city. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which benefit is more significant, giving reasons to support your opinion.",
+        "stimulus": { "title": "What are the main benefits of the sharing economy for a city?", "body": "• cheaper access to cars, tools and accommodation\n• less waste, because fewer things are bought and thrown away\n• flexible income for people who rent out what they own\n\nSome opinions expressed in the discussion:\n\"Why buy a drill you will use twice a year?\"\n\"Sharing one car properly takes ten others off the road.\"\n\"For some families, renting out a spare room is what pays the bills.\"" },
+        "bullets": ["discuss two of the ideas", "explain which benefit is more significant", "give reasons to support your opinion"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [
+        { "type": "review", "q": 2, "minWords": 220, "maxWords": 260,
+          "lead": "An English-language consumer website has invited reviews of sharing-economy services.",
+          "stimulus": { "title": "Sharing-economy reviews wanted", "body": "Review a sharing or rental service you have used, such as car-sharing, bike hire or holiday accommodation. Describe how the service works in practice, evaluate how it compares with owning or with traditional alternatives, and warn readers about anything that surprised you." },
+          "bullets": ["how the service works in practice", "how it compares with owning or traditional alternatives", "anything that surprised you"],
+          "write": "Write your review." },
+        { "type": "proposal", "q": 3, "minWords": 220, "maxWords": 260,
+          "lead": "Your neighbourhood association has a small budget for community projects and has invited proposals.",
+          "stimulus": { "title": "Proposal: a community tool and equipment library", "body": "Write a proposal for a library from which residents could borrow tools, camping gear and other rarely used equipment. Explain how it would be set up and run, how residents would be persuaded to trust and use it, and why it deserves the association's budget." },
+          "bullets": ["how the library would be set up and run", "how residents would be persuaded to use it", "why it deserves the budget"],
+          "write": "Write your proposal." },
+        { "type": "letter", "q": 4, "minWords": 220, "maxWords": 260,
+          "lead": "You have received this letter from an English-speaking friend, Marta.",
+          "stimulus": { "body": "I've moved into a flat with a spare room, and everyone keeps telling me to rent it out to tourists - apparently I could cover half my rent that way. It's tempting, but the idea of strangers in my home every weekend makes me nervous, and my neighbours already complain about noise in the building.\n\nYou're always sensible about these things. What would you do?\n\nLove,\nMarta" },
+          "bullets": ["your advice on whether Marta should rent out the room", "the advantages and risks she should weigh up", "an alternative she could consider"],
+          "write": "Write your letter in reply." }
+      ]
+    }
+  ]
+}

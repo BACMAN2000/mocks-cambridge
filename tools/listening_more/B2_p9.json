@@ -1,0 +1,348 @@
+{
+ "label": "B2 — Upper-Intermediate",
+ "cefr": "Cambridge First (FCE) · B2 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+ "audios": [
+  {
+   "id": "B2-P1",
+   "title": "Part 1 · Questions 1–8",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A beach clean",
+    "An aquarium visit",
+    "A news report",
+    "A diving course",
+    "A school talk",
+    "A photo competition",
+    "A fishing trip",
+    "At a gift shop"
+   ],
+   "scripts": [
+    "Question one. Man: How was the beach clean on Sunday? Woman: Tiring! I expected bottles and bags, and we certainly found plenty. But what really got to me was the tiny stuff, thousands of little pieces of plastic mixed into the sand, far too small to pick up by hand. That's the part I can't forget.",
+    "Question two. Girl: So did you love the sharks, then? Boy: They were fine, I suppose, just swimming round and round. The one I couldn't leave was the octopus. It changed colour right in front of me, and the keeper said it can open jars. I went back to its tank three times.",
+    "Question three. Woman: Some good news from the coast this morning. Five years ago, volunteers began planting seagrass meadows in the bay, and divers now report that the area has doubled in size. Even better, seahorses, which disappeared from the bay thirty years ago, have been spotted there twice this month.",
+    "Question four. Man: How's the diving course going? Woman: Much better now. In the pool I panicked and used up my air in twenty minutes. My instructor said the secret isn't strong swimming, it's slow breathing. Once I got that right, everything else followed. We're going into the sea next week.",
+    "Question five. Woman: Before I finish, here's one thing every one of you can do this summer. Enjoy your parties, but please never release balloons outside. They drift out to sea, and to a turtle a burst balloon looks exactly like a jellyfish, which is its favourite food. Choose bubbles instead, the turtles will thank you.",
+    "Question six. Man: Congratulations on winning the photo competition! Was it that dolphin picture? Girl: Everyone loves that one, but no. The judges chose my close-up of a crab that had made its home inside a rusty tin can. They said it told the whole story of the modern sea in a single image.",
+    "Question seven. Boy: Grandad, we've been out here for two hours and caught one tiny fish. Man: When I was your age, we'd have filled the bucket by now, from this exact spot. It's not the weather, and it's not bad luck, son. There are simply far fewer fish than there were fifty years ago.",
+    "Question eight. Woman: I need a birthday present for my niece, she's obsessed with the sea. Assistant: This dolphin toy is our best seller. Woman: She's got a whole shelf of those already. What's this seal adoption pack? Assistant: You get updates about a real rescued seal for a year. Woman: Perfect, that's much better than another toy."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What surprised the woman at the beach clean?",
+     "o": [
+      "The number of bottles",
+      "The tiny pieces of plastic",
+      "How few people came"
+     ],
+     "c": 1,
+     "audio": "P9/B2/B2-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Which animal did the boy like best?",
+     "o": [
+      "The octopus",
+      "The sharks",
+      "The jellyfish"
+     ],
+     "c": 0,
+     "audio": "P9/B2/B2-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the good news in the report?",
+     "o": [
+      "Seahorses have returned to the bay",
+      "Divers found an old shipwreck",
+      "A new aquarium has opened"
+     ],
+     "c": 0,
+     "audio": "P9/B2/B2-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the woman learn on the diving course?",
+     "o": [
+      "To swim more strongly",
+      "To breathe slowly",
+      "To check her equipment"
+     ],
+     "c": 1,
+     "audio": "P9/B2/B2-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the speaker ask students to do?",
+     "o": [
+      "Join a beach clean",
+      "Stop eating jellyfish",
+      "Avoid releasing balloons"
+     ],
+     "c": 2,
+     "audio": "P9/B2/B2-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Which photo won the competition?",
+     "o": [
+      "A dolphin jumping",
+      "A crab living in a tin can",
+      "A sunset over the bay"
+     ],
+     "c": 1,
+     "audio": "P9/B2/B2-P1-q6.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What point does the grandfather make?",
+     "o": [
+      "The weather is wrong for fishing",
+      "They have been unlucky today",
+      "There are fewer fish than before"
+     ],
+     "c": 2,
+     "audio": "P9/B2/B2-P1-q7.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the woman decide to buy?",
+     "o": [
+      "A dolphin toy",
+      "A book about the sea",
+      "A seal adoption pack"
+     ],
+     "c": 2,
+     "audio": "P9/B2/B2-P1-q8.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B2-P2",
+   "title": "Part 2 · Questions 9–18",
+   "kind": "file",
+   "file": "P9/B2/B2-P2.mp3",
+   "intro": "You will hear a woman called Clara talking about the marine rescue centre where she volunteers. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Clara: Hello everyone, I'm Clara, and every weekend you'll find me in rubber boots at the Bay Marine Rescue Centre. Let me tell you what we do. The centre began in two thousand and three, when a local vet started treating injured seabirds in her own garage. From that tiny start we've grown into a proper hospital for sea life, and last year alone we cared for ninety animals. People imagine the place is full of dolphins, but they're actually rare visitors. Most of our patients, by a long way, are seals, especially pups separated from their mothers during the autumn storms. As for what brings them to us, I wish I could say it was all natural causes. The single biggest cause of the injuries we treat is fishing nets, old, abandoned ones that drift for years, catching whatever swims into them. Cutting an animal free without hurting it is delicate work, and our vets are brilliant at it. Recovery takes patience. A typical patient stays with us for about four months, first in the treatment room, then in the outdoor pools, where they have to prove they can catch live fish before they leave. The best part, of course, is release day. We take each animal back to the beach where it was found, always early in the morning, when the coast is quiet and cool. Watching a seal look back at you once and then vanish into the waves, I cry every single time. Now, we'd love you to visit. The centre is open to the public, and the highlight is watching the seals being fed at eleven o'clock, when the keepers tell each animal's story. Just remember that we're closed on Mondays, because that's our deep-cleaning day. There's exciting news this year too: we've just finished building a much larger recovery pool. We could never have afforded it ourselves. The money came from a donation by a local supermarket, which shows that businesses really can be part of the solution. Finally, if you'd like to help from home, you can adopt one of our long-term residents. It costs twenty-five pounds a year, you get photos, updates and a certificate, and every penny goes on fish and medicine. Schools love it. One class adopted a seal called Pebble and wrote to him all year. He never wrote back, but they didn't seem to mind! Thanks for listening, and I hope to see you at the centre soon."
+   ],
+   "gapTitle": "Bay Marine Rescue Centre",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The centre began in: ____",
+     "accept": [
+      "2003",
+      "two thousand and three",
+      "two thousand three"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Animals cared for last year: ____",
+     "accept": [
+      "90",
+      "ninety"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Most patients are: ____",
+     "accept": [
+      "seals",
+      "seal pups"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The biggest cause of injuries: ____",
+     "accept": [
+      "fishing nets",
+      "nets"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "A typical patient stays about ____ months",
+     "accept": [
+      "4",
+      "four"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Animals are released early in the: ____",
+     "accept": [
+      "morning"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Visitors can watch the seals being fed at: ____",
+     "accept": [
+      "11",
+      "eleven",
+      "11:00",
+      "eleven o'clock"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The centre is closed on: ____",
+     "accept": [
+      "mondays",
+      "monday"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The new pool was paid for by a local: ____",
+     "accept": [
+      "supermarket"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Adopting an animal costs ____ pounds a year",
+     "accept": [
+      "25",
+      "twenty-five",
+      "twenty five"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2-P3",
+   "title": "Part 3 · Questions 19–23",
+   "kind": "file",
+   "file": "P9/B2/B2-P3.mp3",
+   "intro": "You will hear five people talking about how they help protect the sea. For each speaker, choose from the list (A–H) what they do. Use each letter once. There are three extra letters you will not need.",
+   "bank": [
+    "collecting beach rubbish",
+    "changing what they eat",
+    "teaching young people",
+    "counting sea creatures",
+    "giving money to charities",
+    "refusing single-use plastic",
+    "writing to politicians",
+    "working as a volunteer diver"
+   ],
+   "scripts": [
+    "Speaker one. Woman: I walk the same stretch of coast every morning with my dog, and about a year ago I downloaded an app from a university. Now, whatever I spot, jellyfish, seabirds, even a dead crab, I photograph it and log it. The scientists say thousands of walkers like me give them data no research ship could ever collect. It costs me nothing but a few minutes. Speaker two. Man: I used to order the same seafood without a second thought. Then my daughter showed me a guide that rates every species, which stocks are healthy, which are collapsing. It lives on my phone now, and I check it at the fish counter and in restaurants. There are things I loved that I simply don't touch any more, and I've discovered plenty I'd never tried. Speaker three. Woman: I can't dive, I get seasick on a ferry, honestly. So my weapon is my pen. I write to my member of parliament so often that her office knows my name, and last year our group collected eight thousand signatures against plastic waste. When the council banned balloon releases in our town, I felt prouder than I've ever felt at work. Speaker four. Man: My rule is simple: if I'll use it for five minutes and it lasts five hundred years, I don't take it. There's a fold-up fork in my bag, a metal bottle in my rucksack, and I've told my local café to stop giving me straws. My friends teased me at first. Funny thing is, three of them now carry the same bottle. Speaker five. Woman: Every Saturday morning you'll find me on the rocks with fifteen children and a bucket. We run a little club where they meet starfish and anemones face to face. I don't lecture them about pollution, there's no need. Once a child has held a hermit crab, they'll defend that beach for life. You protect what you love, it's that simple."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Speaker 1",
+     "c": "counting sea creatures"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 2",
+     "c": "changing what they eat"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 3",
+     "c": "writing to politicians"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 4",
+     "c": "refusing single-use plastic"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 5",
+     "c": "teaching young people"
+    }
+   ]
+  },
+  {
+   "id": "B2-P4",
+   "title": "Part 4 · Questions 24–30",
+   "kind": "file",
+   "file": "P9/B2/B2-P4.mp3",
+   "intro": "You will hear an interview with a man called Marcus, who works as a marine biologist. For each question, choose the best answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Marcus, welcome. Was there a moment that made you choose marine biology? Marcus: People assume it was television documentaries, and I did love those. But the real moment was a school trip to the coast when I was nine. A teacher put a starfish in my hands and told me it could regrow a lost arm. I thought that was the most incredible thing I'd ever heard, and I never really recovered. Interviewer: And these days you study something most people have never heard of. Marcus: That's right, underwater noise. Sound travels nearly five times faster in water than in air, and the modern ocean is full of engines. Whales use sound to find food and to find each other, and in busy shipping lanes they're effectively trying to shout over the traffic. Interviewer: Your research produced a surprising result, didn't it? Marcus: The one that changed my career: when ships slow down by just ten percent, their noise drops by almost half. No new engines, no expensive technology, just gentle braking. Several ports now reward slower ships, partly because of studies like ours. I love that finding because anyone can understand it. Interviewer: What do people get wrong about the ocean's problems? Marcus: Whenever I give a talk, every question is about plastic. It's a real problem, don't misunderstand me. But the invisible threats, warming water and noise, frighten me more, precisely because you can't photograph them. A beach covered in bottles makes the news; a silent, overheated bay doesn't. Interviewer: Does anything about the coverage frustrate you? Marcus: The same five animals get all the attention. Dolphins, turtles, polar bears, always the beautiful ones. Meanwhile the plankton that produce half the oxygen you're breathing right now never make a single headline, and without them nothing else survives. Interviewer: After all this, what gives you hope? Marcus: Protected areas, without a doubt. Close a bay to fishing for five years and the recovery will amaze you. I've watched a stretch of bare, lifeless sea floor turn back into a forest of life. The ocean forgives quickly, if we give it the chance. Interviewer: So what's next for you? Marcus: I'm swapping my desk for a ship. Next spring I'm joining a six-month expedition to the Arctic, recording the sound of the ocean under the ice before it changes forever. Interviewer: Marcus, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What made Marcus choose his career?",
+     "o": [
+      "Television documentaries",
+      "A school trip to the coast",
+      "A book about whales"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Marcus study?",
+     "o": [
+      "Noise in the ocean",
+      "Plastic pollution",
+      "Fish farming"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What did his research show about ships?",
+     "o": [
+      "They need quieter engines",
+      "Slowing down greatly reduces their noise",
+      "They should avoid certain routes"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Which problems worry Marcus most?",
+     "o": [
+      "Threats that cannot be seen",
+      "Plastic on beaches",
+      "Damage caused by tourism"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What frustrates Marcus about media coverage?",
+     "o": [
+      "It exaggerates the dangers",
+      "It blames the wrong people",
+      "It ignores less attractive species"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What gives Marcus hope?",
+     "o": [
+      "New technology",
+      "The recovery of protected areas",
+      "Younger scientists"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What will Marcus do next?",
+     "o": [
+      "Help design quieter ships",
+      "Join an expedition to the Arctic",
+      "Write a book about plankton"
+     ],
+     "c": 1
+    }
+   ]
+  }
+ ]
+}

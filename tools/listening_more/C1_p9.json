@@ -1,0 +1,422 @@
+{
+ "label": "C1 — Advanced",
+ "cefr": "Cambridge Advanced (CAE) · C1 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+ "audios": [
+  {
+   "id": "C1-P1",
+   "title": "Part 1 · Questions 1–6",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in three different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A science documentary",
+    "A satellite launch",
+    "An observatory visit",
+    "A university talk",
+    "A news report",
+    "A career decision"
+   ],
+   "scripts": [
+    "Question one. Woman: Did you watch that documentary about junk in orbit? Man: I did, though I'd have liked less drama and more substance. All those swirling graphics of debris clouds were striking, but the one thing that actually stayed with me was a scientist quietly explaining how a fleck of paint can hit like a bullet. That single image did more than all the special effects.",
+    "Question two. Man: So they've launched another batch of internet satellites. Woman: Yes, and astronomers are furious, not because the satellites are useless, they're not, but because the sheer number of them is starting to streak across every long-exposure photograph of the night sky. It's the scale, not the idea, that people object to.",
+    "Question three. Woman: How was the observatory open day? Man: Fascinating, but sobering. I'd gone hoping to see planets, and we did. What I hadn't expected was the astronomer showing us live tracking of thousands of pieces of debris. Seeing that cloud of rubbish mapped in real time rather took the shine off the stars.",
+    "Question four. Man: Did the guest lecture change your view of space? Woman: Completely. I'd always imagined space as this infinite, empty vastness where nothing could possibly get crowded. The speaker explained that the useful orbits, the low ones, are actually a narrow, finite band, and they're filling up fast. That the sky could run out of room had never crossed my mind.",
+    "Question five. Woman: The news said a satellite nearly collided this morning. Man: A near miss, yes. What struck me wasn't the drama of it but the admission afterwards, that nobody's really in charge, that there's no traffic controller for orbit the way there is for aircraft. The lack of any authority up there is the frightening part.",
+    "Question six. Man: You're thinking of specialising in this debris problem for your research? Woman: I am. Everyone assumes I'd find cleaning up rubbish a dull subject next to exploring distant galaxies. But to me it's the opposite: it's the one space problem where what I do in the next few years might genuinely make a difference. That's what pulls me in."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What most stayed with the man from the documentary?",
+     "o": [
+      "The dramatic graphics",
+      "A quiet explanation of how tiny debris strikes like a bullet",
+      "The interviews with astronauts"
+     ],
+     "c": 1,
+     "audio": "P9/C1/C1-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What do astronomers object to about the satellites?",
+     "o": [
+      "That they do not work",
+      "The sheer number spoiling long-exposure images",
+      "That they are too expensive"
+     ],
+     "c": 1,
+     "audio": "P9/C1/C1-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What unexpectedly affected the man at the observatory?",
+     "o": [
+      "Seeing debris mapped live in real time",
+      "The cold weather",
+      "Failing to see any planets"
+     ],
+     "c": 0,
+     "audio": "P9/C1/C1-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What idea from the lecture surprised the woman?",
+     "o": [
+      "That space is completely empty",
+      "That useful orbits are a finite, filling band",
+      "That satellites never collide"
+     ],
+     "c": 1,
+     "audio": "P9/C1/C1-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the man find frightening about the near miss?",
+     "o": [
+      "The speed of the satellites",
+      "That there is no controlling authority in orbit",
+      "That it was kept secret"
+     ],
+     "c": 1,
+     "audio": "P9/C1/C1-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why does the woman want to research space debris?",
+     "o": [
+      "It is the easiest topic available",
+      "She finds it more glamorous than galaxies",
+      "Her work on it could make a real near-term difference"
+     ],
+     "c": 2,
+     "audio": "P9/C1/C1-P1-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "C1-P2",
+   "title": "Part 2 · Questions 7–14",
+   "kind": "file",
+   "file": "P9/C1/C1-P2.mp3",
+   "intro": "You will hear an aerospace engineer called Elena giving a talk about space debris. For each question, complete the sentences with a word or short phrase.",
+   "scripts": [
+    "Hello, I'm Elena, and I work on the problem of what we've left behind in orbit. Let me start with a number that unsettles people. There are now more than thirty thousand pieces of debris large enough to be tracked from the ground, and many millions too small to see, each of them circling the planet at some twenty-eight thousand kilometres an hour. At that speed, an object the size of a marble carries the energy of a hand grenade. The reason this matters so much is a chilling idea first set out by a scientist named Kessler. He warned that beyond a certain density of debris, collisions would start to breed further collisions, each smash producing thousands of new fragments, until a chain reaction rendered whole orbits unusable for generations. We call this nightmare scenario the Kessler syndrome, and the frightening thing is that it needs no new launches to unfold; once triggered, it feeds on itself. Now, where is the danger greatest? It's concentrated in what we call low Earth orbit, the busy band a few hundred kilometres up where most satellites, and the space station itself, actually operate. That's precious real estate, and it's getting crowded. People ask me why we don't simply clean it up, and the honest answer is that removal is extraordinarily difficult. You can't just send up a giant net; each piece is tumbling unpredictably, and reaching it costs a fortune in fuel. So the emphasis of serious policy has shifted from removal towards prevention, above all the rule that any new satellite must be capable of deorbiting itself at the end of its life, ideally burning up in the atmosphere. There's a deeper obstacle, though, and it isn't technical at all; it's legal. Under existing treaties, a defunct satellite still legally belongs to the country that launched it, which means no one else may touch it without permission, even to remove a hazard. So a dead object nobody wants becomes untouchable. My closing thought is this. We have treated orbit as an infinite dumping ground, exactly as earlier generations treated the oceans, and the lesson is the same: a shared resource with no owner and no rules will, sooner or later, be ruined by everyone and defended by no one."
+   ],
+   "gapTitle": "Space Debris",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "A marble-sized object in orbit carries the energy of a hand ____",
+     "accept": [
+      "grenade"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The chain-reaction scenario is named after the scientist ____",
+     "accept": [
+      "kessler"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Alarmingly, this chain reaction needs no new ____ to begin",
+     "accept": [
+      "launches",
+      "launch"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The danger is concentrated in the band called low Earth ____",
+     "accept": [
+      "orbit"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Serious policy has shifted from removal towards ____",
+     "accept": [
+      "prevention",
+      "preventing"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "New satellites must be able to ____ themselves at the end of life",
+     "accept": [
+      "deorbit",
+      "de-orbit"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "A major obstacle to clean-up is not technical but ____",
+     "accept": [
+      "legal"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Elena compares our treatment of orbit to earlier abuse of the ____",
+     "accept": [
+      "oceans",
+      "ocean",
+      "seas"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1-P3",
+   "title": "Part 3 · Questions 15–20",
+   "kind": "file",
+   "file": "P9/C1/C1-P3.mp3",
+   "intro": "You will hear an interview with a space-policy researcher called Max. For each question, choose the best answer (A, B, C or D).",
+   "scripts": [
+    "Interviewer: Max, is space debris really an emergency, or is that media hype? Max: I'd resist the word emergency, because it implies something sudden, and this is the opposite, a slow-motion problem that's easy to keep postponing. That's precisely what makes it dangerous. There's no single dramatic moment that forces action, so it drifts down everyone's list of priorities year after year. Interviewer: Whose responsibility is it to fix? Max: That's the crux, and the frustrating answer is everyone's and therefore no one's. It's the textbook tragedy of the commons. Each operator benefits from launching, but the cost of the mess is shared by all, so no individual actor has much incentive to spend money cleaning up after others. Interviewer: Could technology solve it, harpoons, lasers, nets? Max: The engineering demonstrations are genuinely impressive, and I don't doubt we could remove debris if we chose to. But I've come to believe the barriers were never really engineering ones. They're about money and law, about who pays and who's permitted to touch another nation's dead satellite. Solve those, and the hardware is the easy part. Interviewer: Are the new mega-constellations of internet satellites making things worse? Max: It's more nuanced than the headlines suggest. The reputable operators actually design their satellites to deorbit responsibly, so in isolation they behave well. My worry is cumulative: even a tiny failure rate, multiplied across tens of thousands of objects, adds up to a serious hazard. It's a numbers game. Interviewer: Are you optimistic? Max: Cautiously. What gives me hope isn't technology but a shift in attitude, the beginnings of a sense that orbit is a shared environment to be stewarded, not a free-for-all. Twenty years ago that conversation didn't exist at all. Interviewer: What single measure would help most? Max: Making operators financially liable for what they leave behind. The moment debris has a real cost attached to it, behaviour changes overnight. Everything else follows from that. Interviewer: Max, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why does Max avoid calling the problem an emergency?",
+     "o": [
+      "He thinks it is exaggerated by scientists",
+      "Its slowness makes it easy to keep postponing",
+      "It has already been solved",
+      "It affects very few people"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How does Max characterise responsibility for the problem?",
+     "o": [
+      "It clearly belongs to one agency",
+      "It is a tragedy of the commons, shared by all and owned by none",
+      "It belongs to private companies alone",
+      "It is nobody's concern"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Max believe are the real barriers to removing debris?",
+     "o": [
+      "Engineering limitations",
+      "Money and law",
+      "Public indifference",
+      "A shortage of scientists"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Max's concern about mega-constellations?",
+     "o": [
+      "Their operators behave irresponsibly",
+      "Even a tiny failure rate adds up across huge numbers",
+      "They cannot deorbit at all",
+      "They are useless to consumers"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What gives Max cautious hope?",
+     "o": [
+      "A breakthrough in technology",
+      "A shift towards seeing orbit as a shared environment",
+      "Fewer satellites being launched",
+      "New international armies in space"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What single measure would help most, in Max's view?",
+     "o": [
+      "Banning all launches",
+      "Making operators financially liable for debris",
+      "Building bigger nets",
+      "Moving satellites higher"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "C1-P4",
+   "title": "Part 4 · Questions 21–30",
+   "kind": "file",
+   "file": "P9/C1/C1-P4.mp3",
+   "intro": "You will hear five people who work in the space sector talking about orbital debris. TASK ONE (21–25): choose each speaker's main concern. TASK TWO (26–30): choose what each speaker thinks is the best way forward.",
+   "scripts": [
+    "Speaker one. Woman: I run a small satellite firm, and what troubles me most is honestly the legal tangle, that a dead satellite still belongs to whoever launched it, so a hazard everyone can see becomes a thing no one is allowed to touch. The way through, to my mind, is a proper international treaty, binding rules that every launching nation signs up to, because voluntary guidelines simply won't hold. Speaker two. Man: As an astronomer, my worry is narrower but real, that the swarms of new satellites are ruining the night sky for observation, streaking through our images night after night. What I'd push for is far stricter licensing before launch, forcing operators to prove they'll minimise reflectivity and clutter before a single rocket leaves the ground. Speaker three. Woman: My fear is the runaway chain reaction, the Kessler cascade, that one bad collision could beget thousands more and lock us out of orbit for centuries. I'm convinced the answer has to be active removal, actually going up and hauling the biggest, most dangerous derelicts down before they can smash into anything. Speaker four. Man: What keeps me up is the money problem, that cleaning up costs a fortune and nobody wants to pay for a mess that's partly everyone's. So for me the fix is economic: make polluters pay, charge operators a deposit they only get back once they've safely disposed of their satellite. Speaker five. Woman: My concern is simpler and more human, that the public just doesn't grasp how serious this is, that it stays invisible and abstract. And I think the most powerful lever is education, honestly, because governments only act when ordinary people understand the stakes and start demanding something be done."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the speaker's main concern",
+     "person": "Speaker 1",
+     "bank": [
+      "the legal tangle over ownership",
+      "the ruining of the night sky",
+      "a runaway collision chain reaction",
+      "who pays for the clean-up",
+      "public ignorance of the problem",
+      "the cost of new launches",
+      "the loss of astronaut safety",
+      "falling debris reaching the ground"
+     ],
+     "c": "the legal tangle over ownership"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the speaker's main concern",
+     "person": "Speaker 2",
+     "bank": [
+      "the legal tangle over ownership",
+      "the ruining of the night sky",
+      "a runaway collision chain reaction",
+      "who pays for the clean-up",
+      "public ignorance of the problem",
+      "the cost of new launches",
+      "the loss of astronaut safety",
+      "falling debris reaching the ground"
+     ],
+     "c": "the ruining of the night sky"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the speaker's main concern",
+     "person": "Speaker 3",
+     "bank": [
+      "the legal tangle over ownership",
+      "the ruining of the night sky",
+      "a runaway collision chain reaction",
+      "who pays for the clean-up",
+      "public ignorance of the problem",
+      "the cost of new launches",
+      "the loss of astronaut safety",
+      "falling debris reaching the ground"
+     ],
+     "c": "a runaway collision chain reaction"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the speaker's main concern",
+     "person": "Speaker 4",
+     "bank": [
+      "the legal tangle over ownership",
+      "the ruining of the night sky",
+      "a runaway collision chain reaction",
+      "who pays for the clean-up",
+      "public ignorance of the problem",
+      "the cost of new launches",
+      "the loss of astronaut safety",
+      "falling debris reaching the ground"
+     ],
+     "c": "who pays for the clean-up"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the speaker's main concern",
+     "person": "Speaker 5",
+     "bank": [
+      "the legal tangle over ownership",
+      "the ruining of the night sky",
+      "a runaway collision chain reaction",
+      "who pays for the clean-up",
+      "public ignorance of the problem",
+      "the cost of new launches",
+      "the loss of astronaut safety",
+      "falling debris reaching the ground"
+     ],
+     "c": "public ignorance of the problem"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker thinks is the best way forward",
+     "person": "Speaker 1",
+     "bank": [
+      "a binding international treaty",
+      "stricter licensing before launch",
+      "actively removing large derelicts",
+      "making polluters pay a deposit",
+      "educating the public",
+      "halting all new launches",
+      "moving satellites to higher orbits",
+      "building better tracking systems"
+     ],
+     "c": "a binding international treaty"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker thinks is the best way forward",
+     "person": "Speaker 2",
+     "bank": [
+      "a binding international treaty",
+      "stricter licensing before launch",
+      "actively removing large derelicts",
+      "making polluters pay a deposit",
+      "educating the public",
+      "halting all new launches",
+      "moving satellites to higher orbits",
+      "building better tracking systems"
+     ],
+     "c": "stricter licensing before launch"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker thinks is the best way forward",
+     "person": "Speaker 3",
+     "bank": [
+      "a binding international treaty",
+      "stricter licensing before launch",
+      "actively removing large derelicts",
+      "making polluters pay a deposit",
+      "educating the public",
+      "halting all new launches",
+      "moving satellites to higher orbits",
+      "building better tracking systems"
+     ],
+     "c": "actively removing large derelicts"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker thinks is the best way forward",
+     "person": "Speaker 4",
+     "bank": [
+      "a binding international treaty",
+      "stricter licensing before launch",
+      "actively removing large derelicts",
+      "making polluters pay a deposit",
+      "educating the public",
+      "halting all new launches",
+      "moving satellites to higher orbits",
+      "building better tracking systems"
+     ],
+     "c": "making polluters pay a deposit"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker thinks is the best way forward",
+     "person": "Speaker 5",
+     "bank": [
+      "a binding international treaty",
+      "stricter licensing before launch",
+      "actively removing large derelicts",
+      "making polluters pay a deposit",
+      "educating the public",
+      "halting all new launches",
+      "moving satellites to higher orbits",
+      "building better tracking systems"
+     ],
+     "c": "educating the public"
+    }
+   ]
+  }
+ ]
+}

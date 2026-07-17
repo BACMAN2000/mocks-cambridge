@@ -1,0 +1,189 @@
+{
+  "title": "B2 First — Reading and Use of English (Practice 13)",
+  "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "Waiting for the perfect shot",
+      "body": "Wildlife photography looks glamorous from the outside, but the daily reality mostly (1)____ of waiting. A professional may spend weeks in a cramped hide, motionless for hours in the cold, just to (2)____ a glimpse of a rare animal. Success depends less on expensive equipment than on deep knowledge of animal behaviour, built up (3)____ years of patient observation. Modern cameras can shoot in near-total darkness and freeze a wingbeat in mid-air, but no technology can (4)____ for being in the wrong place when the moment arrives. The finest photographers study droppings, tracks and feeding signs like detectives, so that when a chance finally comes their (5)____, they are already in position. Ethical questions also (6)____ large in the profession. Getting too close can put animals (7)____ stress, cause parents to abandon their young, or wear paths to dens that predators then follow. Responsible photographers accept that some pictures must simply not be taken, because no image, however striking, is (8)____ the harm it might cause to the creature in it.",
+      "questions": [
+        { "options": ["contains", "includes", "consists", "involves"], "answer": 2 },
+        { "options": ["take", "give", "make", "catch"], "answer": 3 },
+        { "options": ["over", "along", "across", "against"], "answer": 0 },
+        { "options": ["replace", "compensate", "recover", "repair"], "answer": 1 },
+        { "options": ["path", "road", "direction", "way"], "answer": 3 },
+        { "options": ["loom", "hang", "stand", "lie"], "answer": 0 },
+        { "options": ["in", "at", "under", "below"], "answer": 2 },
+        { "options": ["worthy", "worth", "valued", "deserving"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The camera that waits alone",
+      "body": "Some of the most extraordinary wildlife photographs of recent years were taken (9)____ any photographer present at all. Camera traps, devices that fire automatically (10)____ an animal breaks an invisible beam, have transformed our knowledge of the world's shyest species. Creatures (11)____ as the snow leopard, which a human observer might wait years to glimpse, now photograph themselves as they pass in the dark. Setting a trap successfully is far (12)____ simple, however. The photographer must predict exactly (13)____ an animal will walk, judge the light that will fall on that spot at dawn (14)____ at dusk, and then leave the equipment untouched for weeks (15)____ a time. Most of the resulting images are failures: blurred tails, empty branches, a moth an inch from the lens. But every so (16)____, the patient machine captures a moment that no human being could ever have witnessed.",
+      "questions": [
+        { "accept": ["without"] },
+        { "accept": ["when", "whenever", "once", "if"] },
+        { "accept": ["such"] },
+        { "accept": ["from"] },
+        { "accept": ["where"] },
+        { "accept": ["or", "and"] },
+        { "accept": ["at"] },
+        { "accept": ["often"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Pictures with a purpose",
+      "rows": [
+        { "text": "Conservation groups have long understood the" },
+        { "text": "(17)____ power of a single image.", "root": "PERSUADE" },
+        { "text": "" },
+        { "text": "A memorable photograph can achieve what no" },
+        { "text": "(18)____ report ever could.", "root": "STATISTIC" },
+        { "text": "" },
+        { "text": "One famous image of a starving polar bear caused" },
+        { "text": "worldwide (19)____ within hours of appearing.", "root": "SAD" },
+        { "text": "" },
+        { "text": "Yet such pictures also attract (20)____ from", "root": "CRITIC" },
+        { "text": "researchers who question what they really show." },
+        { "text": "" },
+        { "text": "A single animal's suffering is not, by itself," },
+        { "text": "(21)____ of a changing climate.", "root": "PROVE" },
+        { "text": "" },
+        { "text": "Careless captions can leave audiences badly" },
+        { "text": "(22)____ about what the science actually says.", "root": "INFORM" },
+        { "text": "" },
+        { "text": "Used (23)____, however, photography remains", "root": "RESPONSIBLE" },
+        { "text": "conservation's sharpest tool." },
+        { "text": "" },
+        { "text": "Few speeches have ever saved a forest; a handful" },
+        { "text": "of (24)____ images genuinely have.", "root": "FORGET" }
+      ],
+      "questions": [
+        { "root": "PERSUADE", "accept": ["persuasive"] },
+        { "root": "STATISTIC", "accept": ["statistical"] },
+        { "root": "SAD", "accept": ["sadness"] },
+        { "root": "CRITIC", "accept": ["criticism"] },
+        { "root": "PROVE", "accept": ["proof"] },
+        { "root": "INFORM", "accept": ["misinformed"] },
+        { "root": "RESPONSIBLE", "accept": ["responsibly"] },
+        { "root": "FORGET", "accept": ["unforgettable"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+      "questions": [
+        {
+          "before": "\"Don't move,\" the guide whispered to us.",
+          "keyword": "TOLD",
+          "after": "The guide ___ move.",
+          "accept": ["told us not to"]
+        },
+        {
+          "before": "Photographing wolves is more difficult than photographing deer.",
+          "keyword": "LESS",
+          "after": "Photographing deer is ___ photographing wolves.",
+          "accept": ["less difficult than"]
+        },
+        {
+          "before": "The park ranger said we could not use flash photography.",
+          "keyword": "ALLOWED",
+          "after": "We ___ to use flash photography, the ranger said.",
+          "accept": ["were not allowed", "weren't allowed"]
+        },
+        {
+          "before": "Strong winds made it impossible for us to reach the nesting site.",
+          "keyword": "DUE",
+          "after": "We could not reach the nesting site ___ strong winds.",
+          "accept": ["due to", "due to the"]
+        },
+        {
+          "before": "I regret selling my old camera.",
+          "keyword": "WISH",
+          "after": "I ___ my old camera.",
+          "accept": ["wish i had not sold", "wish i hadn't sold"]
+        },
+        {
+          "before": "The eagle was so fast that I couldn't photograph it.",
+          "keyword": "TOO",
+          "after": "The eagle flew ___ to photograph.",
+          "accept": ["too fast for me"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The ethics of the perfect shot\n\nEvery year, the winners of the world's great wildlife photography competitions are published to a chorus of admiration. A lynx mid-leap in falling snow; an owl staring down the lens with impossible clarity. What the captions rarely mention is a quiet argument running through the profession about how images like these are made — and how many of them are, in an uncomfortable sense, fiction.\n\nThe most common shortcut is baiting: putting out food so that a wild animal appears exactly where the light is best. To its defenders it is harmless; a fox fed once by a photographer is still a wild fox. Opponents reply that the practice changes the very behaviour the picture claims to document. Animals that learn to associate humans with food lose their caution, wander into villages and onto roads, and are frequently the ones found dead there later. The photograph shows wildness; the method used to get it quietly subtracts wildness from the world.\n\nFurther along the same road lie the game farms, businesses that rent out captive, trained predators to be photographed against wilderness backdrops. A surprising number of the snarling 'wild' wolves seen in calendars and advertisements are, in reality, professional animals with handlers standing a few metres out of frame. Some magazines and competitions now demand declarations, and several celebrated images have been quietly disqualified after their backstories emerged. The photographers involved rarely see themselves as cheats; the audience, they argue, wants drama, and no one is harmed. But a market flooded with staged perfection resets what viewers expect a wildlife photograph to be, and the patient professional who waits three weeks for one honest frame cannot compete with an afternoon at a game farm.\n\nDigital manipulation raises the stakes again. Modern software can move an animal to a better position, thicken the falling snow, or generate an entire scene that never existed. The technology is not the problem; the caption is. A composite image labelled as a composite is craft, and nobody objects. The same image labelled as a lucky field encounter is a small lie — and wildlife photography, unlike fashion photography, trades entirely on the claim that its moments are real. Each exposed fake spends a little of the whole profession's credibility, and that credibility is precisely what gives conservation photography its power to move parliaments and publics.\n\nThe stakes, in other words, are higher than a competition medal. When viewers can no longer trust that the starving bear or the last rhino in the frame is real, the strongest argument such pictures make — look, this is actually happening — collapses. The honest wildlife photograph is slower, rarer and often less spectacular than its manufactured rivals. It is also the only kind that, in the end, is worth anything at all.",
+      "questions": [
+        { "stem": "What 'quiet argument' does the writer introduce in the first paragraph?", "options": ["Whether competitions award enough prizes.", "How admired wildlife images are actually produced.", "Whether owls are harder to photograph than lynxes.", "Why captions have become too long."], "answer": 1 },
+        { "stem": "What is the opponents' main objection to baiting?", "options": ["It changes animals' behaviour and can ultimately cost them their lives.", "It makes photographs too dark to publish.", "It is more expensive than waiting patiently.", "It only works with foxes."], "answer": 0 },
+        { "stem": "What does the writer say about game farms?", "options": ["They are now banned by every competition.", "They only supply photographs of birds.", "Many apparently wild predators in published images are actually trained captive animals.", "Their images are always clearly labelled."], "answer": 2 },
+        { "stem": "According to the writer, when does digital manipulation become dishonest?", "options": ["Whenever software is used at all.", "Only when snow is added to a scene.", "When the image is printed in a calendar.", "When a manipulated image is presented as a real field encounter."], "answer": 3 },
+        { "stem": "Why does fakery matter beyond the profession itself, in the writer's view?", "options": ["Because it undermines the credibility that gives conservation images their power.", "Because it raises the price of cameras.", "Because competitions lose money on disqualifications.", "Because fashion photographers complain about unfair competition."], "answer": 0 },
+        { "stem": "Which statement best reflects the writer's conclusion?", "options": ["Staged images are acceptable if they are dramatic enough.", "Audiences prefer manufactured pictures and should have them.", "The slower, honest photograph is the only kind with lasting value.", "Wildlife photography should abandon claims to reality."], "answer": 2 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+      "passage": "The kingfisher year\n\nWhen the photographer Rachel Moore decided to devote an entire year to a single species, her colleagues told her frankly that she was making a mistake. (37)____ She went ahead anyway, renting a damp cottage beside a slow river in the west of England.\n\nHer chosen subject, the kingfisher, is famously frustrating. (38)____ Catching that streak of colour with a camera would be the technical challenge of her life.\n\nThe first months produced almost nothing usable. (39)____ What the same notebooks also record, in growing detail, is everything else: otters at first light, a heron's fishing routine, the slow turning of the river through the seasons.\n\nGradually the birds accepted her hide as part of the bank, and she began to understand their habits well enough to be waiting where the action would happen. (40)____ The image she is now known for — a kingfisher breaking the surface with a fish, every water drop sharp — was taken at a perch she had watched for some two hundred hours.\n\n(41)____ She found the question almost funny. The shutter, she replied, had been open for a thousandth of a second, but the photograph had taken eleven months.\n\nAsked what the year really taught her, she does not talk about photography at all. (42)____ The year she was supposed to be throwing away turned out to be the one that made her.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Knowing where a bird would fish, and when, mattered far more than any lens she owned.",
+          "Staying in one place, she says, taught her more than a decade of chasing rare species around the planet ever had.",
+          "It announces itself with a sharp whistle and a streak of blue, and is gone before the eye has properly registered it.",
+          "Kingfishers, after all, are among the easiest of all birds to photograph.",
+          "When the image won a major award, interviewers mostly wanted to hear about luck.",
+          "A year on one bird, they pointed out, is a long time in an industry that rewards constant novelty.",
+          "As a result, she sold her equipment and took up painting instead.",
+          "Her notebooks from that period record equipment failures, flooded paths and seventeen consecutive days without a single sighting."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing sentence:", "answer": "F" },
+        { "stem": "Choose the missing sentence:", "answer": "C" },
+        { "stem": "Choose the missing sentence:", "answer": "H" },
+        { "stem": "Choose the missing sentence:", "answer": "A" },
+        { "stem": "Choose the missing sentence:", "answer": "E" },
+        { "stem": "Choose the missing sentence:", "answer": "B" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "Read about four wildlife photographers who work in very different environments. Then answer the questions. The same person may be chosen more than once.",
+      "sources": [
+        { "label": "A", "name": "Isabel", "text": "I photograph seals, and the first rule of my work is that you cannot chase anything underwater. A seal swims circles around any human; the only usable pictures happen when an animal decides, out of pure curiosity, to come and inspect you. So my job is mostly about being interesting to a seal: hanging quietly in the green light, breathing slowly, letting them approach on their own terms. The whole time, a corner of my mind is running arithmetic — air remaining, depth, distance to the boat — because down there I am responsible for my own life support, and no photograph is worth getting that sum wrong. People ask how I chose this path. Honestly, it chose me: I was eight, snorkelling on holiday with my grandfather, and a seal appeared out of the murk and looked straight into my mask. I have been trying to photograph that feeling ever since." },
+        { "label": "B", "name": "Neil", "text": "My entire career has happened within five miles of my flat. I photograph the wild city: the foxes that trot through supermarket car parks at 2 a.m., the badgers under the railway embankment, the peregrines nesting on a tower block. My working day starts when the last buses stop and finishes when the joggers appear; I have become a connoisseur of the hour before dawn, when the city belongs to animals and to me. What drives me is a kind of argument. People call these creatures vermin, pests, problems — and then they see my picture of a fox raising cubs in a builder's skip and something shifts in their faces. If I have one professional goal, it is that: to make people look differently at the neighbours they never knew they had. I have no desire to fly anywhere. The wilderness is at the end of my street." },
+        { "label": "C", "name": "Tomasz", "text": "Among bird photographers, feeding your subject is so common that refusing it makes you the odd one out, and I am, cheerfully, the odd one out. Plenty of the owl portraits people admire online were bought with shop-bought mice tossed onto the snow. I decided years ago that I would not do it, and the price of that decision is real: I have watched competitors publish in a season more striking images than I manage in three. But a photograph, for me, is a claim about what happened, and I want mine to say: this bird was living its own life, unbribed. My pictures are sometimes messier, the light less perfect. I have come to believe the story a picture tells matters more than its polish — that an honest, slightly flawed frame is worth more than a beautiful transaction." },
+        { "label": "D", "name": "Yuki", "text": "I work at forty below, photographing musk oxen and Arctic foxes, and at that temperature the enemy is not boredom but the cold's patient attack on everything I carry. Batteries that promise four hours die in forty minutes inside their insulated pouches. One January the rubber grip of my main camera simply cracked apart in my hands like old chocolate, and I have lost two lenses to internal frost. The animals demand stillness: I once lay flat on wind-packed snow for five hours, moving nothing but my shutter finger, while a white fox hunted voles around me, and it took two days for the feeling to fully return to my feet. People imagine the difficulty is finding the animals. It is not. It is remaining a functioning photographer, with functioning equipment, in a place that wants to switch you both off." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Isabel", "Neil", "Tomasz", "Yuki"] },
+      "questions": [
+        { "stem": "Which person finds all their subjects without leaving the city?", "answer": "B" },
+        { "stem": "Which person must constantly monitor their own life-support equipment while working?", "answer": "A" },
+        { "stem": "Which person has had equipment destroyed by the conditions they work in?", "answer": "D" },
+        { "stem": "Which person refuses a technique that most others in their field accept?", "answer": "C" },
+        { "stem": "Which person says usable pictures depend on the animal choosing to approach?", "answer": "A" },
+        { "stem": "Which person does most of their work while other people are asleep?", "answer": "B" },
+        { "stem": "Which person believes an honest but imperfect image is worth more than a polished one?", "answer": "C" },
+        { "stem": "Which person describes staying painfully still for hours to get a picture?", "answer": "D" },
+        { "stem": "Which person wants to change how people regard the animals living around them?", "answer": "B" },
+        { "stem": "Which person traces their career back to a childhood encounter?", "answer": "A" }
+      ]
+    }
+  ]
+}

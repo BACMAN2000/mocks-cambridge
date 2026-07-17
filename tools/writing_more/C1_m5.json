@@ -1,0 +1,34 @@
+{
+  "title": "C1 Advanced — Writing (MOCK 5)",
+  "durationMin": 90,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 220, "maxWords": 260,
+        "lead": "Your class has attended a panel discussion about the areas of life in which a willingness to take risks benefits society most. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain in which area risk-taking is more valuable, giving reasons to support your opinion.",
+        "stimulus": { "title": "In which areas does risk-taking benefit society most?", "body": "• entrepreneurs starting new businesses\n• scientists pursuing unproven ideas\n• individuals making bold personal choices, such as changing career or country\n\nSome opinions expressed in the discussion:\n\"Every job in this town exists because somebody once gambled their savings.\"\n\"The experiments that fail teach us more than the ones that merely confirm.\"\n\"A society of people too frightened to change their own lives will never change anything else.\"" },
+        "bullets": ["discuss two of the ideas", "explain in which area risk-taking is more valuable", "give reasons to support your opinion"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [
+        { "type": "letter", "q": 2, "minWords": 220, "maxWords": 260,
+          "lead": "You have received this letter from an English-speaking friend, Elin.",
+          "stimulus": { "body": "I'm about to do something either brave or very stupid: leave my secure job to join two friends launching a start-up. No salary for at least a year, a real chance it fails - but if I say no, I think I'll wonder about it for the rest of my life.\n\nMy family think I've lost my mind. You're the most level-headed person I know: tell me honestly what you think, and don't spare my feelings.\n\nElin" },
+          "bullets": ["your honest opinion of Elin's plan", "the risks Elin may be underestimating or overestimating", "what Elin should do to protect themselves if they go ahead"],
+          "write": "Write your letter in reply." },
+        { "type": "report", "q": 3, "minWords": 220, "maxWords": 260,
+          "lead": "Your college introduced an outdoor adventure programme last year, including climbing and wilderness expeditions. The principal, who is worried about safety, has asked you to write a report.",
+          "stimulus": { "title": "Report: the outdoor adventure programme", "body": "Write a report assessing the programme's first year. Describe what students have gained from activities involving managed risk, address the safety concerns honestly, and recommend whether the programme should continue, and in what form." },
+          "bullets": ["what students have gained from managed risk", "an honest assessment of the safety concerns", "your recommendation on the programme's future"],
+          "write": "Write your report." },
+        { "type": "review", "q": 4, "minWords": 220, "maxWords": 260,
+          "lead": "An English-language magazine has invited reviews of films and books about people who took extraordinary risks.",
+          "stimulus": { "title": "Lives on the edge", "body": "Review a film, documentary or book about a person who risked everything - an explorer, athlete, artist or founder. Describe how their story is told, consider whether the work glamorises risk or examines its true costs, and say what an ordinary, cautious viewer can take from it." },
+          "bullets": ["how the person's story is told", "whether it glamorises risk or examines its costs", "what a cautious viewer can take from it"],
+          "write": "Write your review." }
+      ]
+    }
+  ]
+}

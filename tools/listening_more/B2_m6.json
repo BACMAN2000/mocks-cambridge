@@ -1,0 +1,343 @@
+{
+ "label": "B2 — Upper-Intermediate",
+ "cefr": "Cambridge First (FCE) · B2 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+ "audios": [
+  {
+   "id": "B2-P1",
+   "title": "Part 1 · Questions 1–8",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A viral video",
+    "A phone call",
+    "Media class",
+    "Filming an event",
+    "A news tip",
+    "An announcement",
+    "A local blog",
+    "Work experience"
+   ],
+   "scripts": [
+    "Question one. Woman: Did you see that flood video everyone's sharing? Cars floating down the high street, they say it's from last night's storm. Man: I did, and something bothered me, so I checked. The shops in the video closed down years ago, one of them is a bakery now. That footage is from the floods of 2019, someone's just reposted it with a new caption. Last night's storm barely filled the gutters. Woman: And thirty thousand people have shared it already.",
+    "Question two. Man: Newsroom, Jack speaking. Woman: Hi, I'm the one who emailed you the pictures of the collapsed crane. Man: Yes, thank you, we'd like to use them. But before we can publish, I need you to send the original files straight from your phone, not the screenshots you emailed. The originals carry the time and location inside the file, and that's what lets us prove the photos are what they claim to be. Woman: Oh, I didn't know that mattered. Sending them now.",
+    "Question three. Teacher: Right, before you share any story you find online, here's the habit I want you to build. Don't be dazzled by follower counts, big accounts get things wrong all the time, and checking whether other sites repeat the story only tells you it spread, not that it's true. Instead, click on the account itself and scroll. What did it post last month? Last year? Does it even exist beyond this one story? Two minutes of scrolling exposes most fakes.",
+    "Question four. Man: You filmed the protest outside the town hall on Saturday, didn't you? The paper used your video! Girl: They did, and here's the funny thing, I was sure the pictures were what mattered, so I nearly didn't bother with the rest. But what made the footage usable, the editor told me, was the little notebook I kept: exact times, which street I was standing on, what happened just before I pressed record. Without that, she said, dramatic pictures are almost worthless, because they can't be trusted.",
+    "Question five. Woman: We've had a tip that the leisure centre is closing, from someone who says they work there. Shall I post it tonight? We'd be first. Man: We'd be first, and we'd be finished if it's wrong, remember the school closure story that turned out to be a rumour? That blog never recovered. Woman: So we sit on it? Man: We check it. I'll call the council press office in the morning, and you find a second person who works there. If both confirm, we publish tomorrow and we're still ahead of everyone.",
+    "Question six. Woman: A message for everyone booked on Saturday's verification workshop, where you'll learn to check photos and videos before sharing them. The session now starts at ten instead of nine thirty, please note the later start. More importantly, the centre's computer room is being refurbished, so laptops will no longer be provided. You must bring your own, the software we'll install is free. The trainer and the content are unchanged.",
+    "Question seven. Woman: Your neighbourhood site gets more readers than the old local paper ever did. What's the secret? Man: Everyone assumes it's crime stories or the football club, and those do fine. But the backbone of the whole thing is duller than anyone believes: I sit through every council planning meeting, the ones that decide the bus routes and the new flats, and I write them up in plain English. Nobody else attends, not even the paper any more. Turns out that's exactly what people can't get anywhere else.",
+    "Question eight. Boy: I wanted to ask about work experience at the paper this summer. I'm afraid I haven't got any qualifications yet. Woman: Qualifications we can teach around, and don't worry about equipment, we provide all that. What we do ask for is proof you actually write: three published pieces. Boy: Published? I'm sixteen, nobody's going to print me. Woman: Your school magazine counts. So does a blog, if you run it seriously. Three pieces we can read, that's the door in."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What did the man discover about the flood video?",
+     "o": [
+      "It was filmed years ago",
+      "It was filmed in another town",
+      "It was digitally altered"
+     ],
+     "c": 0,
+     "audio": "M6/B2/B2-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does Jack ask the woman to do?",
+     "o": [
+      "Send the original photo files",
+      "Take more photos of the crane",
+      "Describe what she saw"
+     ],
+     "c": 0,
+     "audio": "M6/B2/B2-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What checking habit does the teacher recommend?",
+     "o": [
+      "Looking at an account's earlier posts",
+      "Counting an account's followers",
+      "Seeing if other sites repeat the story"
+     ],
+     "c": 0,
+     "audio": "M6/B2/B2-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What made the girl's protest footage valuable?",
+     "o": [
+      "The quality of her pictures",
+      "The notes she made while filming",
+      "The interviews she recorded"
+     ],
+     "c": 1,
+     "audio": "M6/B2/B2-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What do they decide to do about the tip?",
+     "o": [
+      "Publish it immediately",
+      "Ignore it as a rumour",
+      "Confirm it before publishing"
+     ],
+     "c": 2,
+     "audio": "M6/B2/B2-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What must workshop participants now do?",
+     "o": [
+      "Arrive half an hour earlier",
+      "Bring their own laptops",
+      "Pay for the software"
+     ],
+     "c": 1,
+     "audio": "M6/B2/B2-P1-q6.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the man say explains his site's success?",
+     "o": [
+      "His reports on council meetings",
+      "His crime reporting",
+      "His football coverage"
+     ],
+     "c": 0,
+     "audio": "M6/B2/B2-P1-q7.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the boy need for work experience at the paper?",
+     "o": [
+      "Journalism qualifications",
+      "His own camera equipment",
+      "Three published pieces of writing"
+     ],
+     "c": 2,
+     "audio": "M6/B2/B2-P1-q8.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B2-P2",
+   "title": "Part 2 · Questions 9–18",
+   "kind": "file",
+   "file": "M6/B2/B2-P2.mp3",
+   "intro": "You will hear a woman called Lucy talking about the community news website she runs. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Hello, I'm Lucy, and I run what people kindly call the town's newspaper, although it has never once been printed on paper. Let me tell you how it works. Our local paper, which had reported on this town for over a century, shut its doors for good in 2019, and for a while nothing replaced it. Rumours filled the gap, as they always do. I watched it happen for a year, getting crosser and crosser, and finally launched the website in 2020. People assume I must be a trained journalist, and I find their faces wonderful when I correct them. For twenty years I was a librarian, here in this town. And honestly, it's better preparation than people think: a librarian's whole job is finding reliable information and handing it to people who need it. That's exactly what the site does. I don't do it alone, far from it. There's a team of seven volunteers: a retired teacher, a bus driver, two students, a nurse, a plumber and a former printer from the old paper, who says he's making amends for its closure. Nobody is paid, including me. Everyone assumes our readers come for the dramatic stories, the fire at the warehouse, the court cases. Those get read, certainly. But year after year, our statistics say something humbler: the most-read stories are about buses. Route changes, fare rises, the eternal saga of the number fourteen. It makes sense, honestly, nothing shapes a day here like whether the bus comes. We're not a rolling news channel, and I refuse to pretend otherwise, accuracy takes time. We publish twice a week, Tuesdays and Fridays, and if a story isn't solid by deadline, it waits. Our readers know this, and I think it's exactly why they trust us. How do we survive with no owner and no advertising? The answer still moves me: the site is funded by donations from readers, hundreds of small monthly contributions, the price of a coffee. The bank manager was baffled. Five years on, we've never missed a bill. The unglamorous heart of the work is exactly what you'd guess: meetings. Above all, the council. I attend every council meeting, once a month, usually alone in the public gallery, and report what's decided in words anyone can read in five minutes. Democracy dies quietly in empty galleries; someone has to sit there. And it matters. Our proudest moment started as three paragraphs about the footbridge by the school, closed for two years while the council and a contractor argued about whose fault the cracks were. Children were walking an extra mile round by the main road. We kept the story alive week after week, and within six months of our first report, the bridge was repaired. That's when the town decided we were worth keeping. We think about the future too. Teenagers don't dream of running local news sites, so we've started catching them early: we run training for teenagers, one Saturday a month, camera phones, interviews, fact-checking, the lot. Two of our trainees have already had bylines on the site, and one is off to study journalism. As for what's next, we're finally giving in to the demand to be listenable as well as readable. We're launching a podcast in November, one episode a week, the town's news read aloud with a few longer interviews, for everyone who'd rather listen on the bus. Appropriately enough. Thank you."
+   ],
+   "gapTitle": "The Town Online — Lucy's News Site",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Lucy launched the website in: ____",
+     "accept": [
+      "2020",
+      "twenty twenty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Before this, Lucy worked as a: ____",
+     "accept": [
+      "librarian"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Number of volunteers on the team: ____",
+     "accept": [
+      "7",
+      "seven"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The most-read stories are about: ____",
+     "accept": [
+      "buses",
+      "the buses",
+      "bus routes"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The site publishes ____ a week",
+     "accept": [
+      "twice",
+      "two times"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The site is funded by readers': ____",
+     "accept": [
+      "donations",
+      "contributions"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Once a month Lucy attends a ____ meeting",
+     "accept": [
+      "council"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Their reporting got a ____ repaired",
+     "accept": [
+      "footbridge",
+      "bridge"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "They run monthly training for: ____",
+     "accept": [
+      "teenagers"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "A podcast launches in: ____",
+     "accept": [
+      "november"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2-P3",
+   "title": "Part 3 · Questions 19–23",
+   "kind": "file",
+   "file": "M6/B2/B2-P3.mp3",
+   "intro": "You will hear five people talking about why they report news in their communities. For each speaker, choose from the list (A–H) the reason they give. Use each letter once. There are three extra letters you will not need.",
+   "bank": [
+    "distrust of the mainstream media",
+    "giving their community a voice",
+    "exposing wrongdoing",
+    "building a career in journalism",
+    "the excitement of breaking news",
+    "correcting false rumours",
+    "encouragement from a teacher",
+    "witnessing a major event"
+   ],
+   "scripts": [
+    "Speaker one. Man: I was on the platform the morning of the rail crash, twenty metres from it. What changed me wasn't the event itself, terrible as it was, it was reading the reports afterwards. They had the timing wrong, the platform wrong, even the direction the train was travelling. I had photographs proving otherwise, and nobody to give them to. That morning made me a reporter. I never want to stand next to the truth again with no way to tell it. Speaker two. Woman: Look up our village in the news archives and you'll find precisely three kinds of story: floods, road accidents and, once, a stolen tractor. Nothing about the choir that won the national final, the farm that feeds half the county, the hundred quiet lives that make this place work. The papers only come when something goes wrong. So I write the rest of it, the everyday life of a place the news has decided is invisible. Somebody should be saying: we're here, and we're more than our disasters. Speaker three. Man: It started in our street's group chat, of all places. Someone posted that the water was unsafe to drink, pure invention, but by evening people were queuing for bottled water and shouting at the council. I work in a lab, checking things is my day job, so I posted the actual test results, with links. The panic stopped in an hour. Now that's what I do: when a rumour starts galloping round the town's social media, I chase it down and post what's actually true, with the evidence attached. Unglamorous, endless, necessary. Speaker four. Woman: I noticed the same three companies winning every council contract, the parks, the bins, the school roofs, and one of them belonged to a councillor's brother. The paper wasn't interested, too small, too local, too slow a story. So I learned to file information requests myself, spent a year reading contracts at my kitchen table, and published everything. Two resignations followed. I'm not a journalist, I'm a bookkeeper, but somebody had to hold the torch, and it turned out to be me. Speaker five. Man: I'll be honest, my reasons are less noble than most. I'm nineteen, I'm studying journalism, and every editor I email says the same thing: show me what you've published. So I cover everything in this town, flower shows, court sessions, five-a-side football, and every piece goes in the portfolio. It's working, a regional paper has started taking my match reports. This town is my training ground, and I'm grateful to it, but in five years I intend to be reporting from somewhere much bigger."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Speaker 1",
+     "c": "witnessing a major event"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 2",
+     "c": "giving their community a voice"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 3",
+     "c": "correcting false rumours"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 4",
+     "c": "exposing wrongdoing"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 5",
+     "c": "building a career in journalism"
+    }
+   ]
+  },
+  {
+   "id": "B2-P4",
+   "title": "Part 4 · Questions 24–30",
+   "kind": "file",
+   "file": "M6/B2/B2-P4.mp3",
+   "intro": "You will hear an interview with a man called Jack, a professor who studies citizen journalism. For each question, choose the best answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Jack, you've studied citizen journalism for twenty years, yet I've heard you say you dislike the term itself. Why? Jack: Because it flatters and confuses at the same time. When someone films a fire from their balcony, they've done something valuable, but they haven't done journalism, they've witnessed. Journalism is what happens next: verifying, seeking the other side, providing context, taking responsibility for errors. Calling every witness a journalist erases the difference between seeing something and checking it, and that difference is the whole game. I prefer to talk about witness media, and I'll defend the clumsy phrase to anyone. Interviewer: Whatever we call it, what has it genuinely given us? Jack: Two things no newsroom can buy: presence and speed. No editor can station reporters on every street, but the public is already everywhere. The first minutes of any disaster, the ferry sinking, the earthquake, are now always documented by the people living it, and historians will treasure that record forever. Some of the most consequential footage of this century came from a phone held by an ordinary person who happened to be standing in history's way. Interviewer: And the dangers? Everyone will say fake videos, deepfakes. Jack: Everyone says it, and everyone is looking in the wrong direction. Fabricated footage exists, but it's still rare and often clumsy. The workhorse of misinformation is far cheaper: genuine footage, honestly filmed, wearing a false label. A real explosion from one war, captioned as another. A real crowd from 2015, presented as yesterday. Nothing is faked except the caption, and that's precisely why millions fall for it. The image is true; the lie is in the context. Interviewer: So when a dramatic video lands in a newsroom, what actually happens now? Jack: Something that would have sounded absurd twenty years ago: the big newsrooms have built entire verification desks, teams whose only job is interrogating footage. And their methods are gloriously unglamorous. Where does the sun cast the shadows, and does that match the claimed time? Do the shopfronts match the street view? What does the weather archive say about rain in that city that afternoon? I've watched a video dismantled because the trees were in leaf in what was supposed to be November. Detective work, done with a map and a weather report. Interviewer: There's a fear in your profession that the crowd will simply replace the newsroom. Do you share it? Jack: I've read those obituaries for twenty years, and I don't believe them. The crowd is unbeatable at the first hour: the witness footage, the immediate account. But the fourteen-month investigation, the lawsuit survived, the source protected at real cost, the editor who takes the blame when it goes wrong, no crowd does that. What's actually emerged is a partnership: the public provides eyes, newsrooms provide discipline. Each half honest about what it can't do alone, that's the healthy version. Interviewer: You reserve your real anger, though, for the platforms. Why? Jack: Because everything we've discussed flows through their pipes, and the pipes are shaped for the wrong purpose. A platform's algorithm doesn't ask, is this true? It asks, will this keep people scrolling? And fury and fear keep people scrolling. So the careful correction reaches hundreds while the false alarm reaches millions, not by accident, but by design. I'm not asking platforms to become newspapers. I'm saying: when what you amplify is decided by emotional voltage, you are editing, and you should carry an editor's responsibility. Interviewer: Finally, Jack, someone listening wants to report on their own town. Your advice? Jack: They expect me to say buy a good camera, and I never do. My first word is always: safety. No footage is worth your body between a crowd and a police line; reporters train for years to judge those moments. Start smaller and duller than your ambitions, the planning meeting, the bus consultation, and learn the habit that makes you trustworthy: check it, then check it again, and when you get it wrong, correct it in public, loudly. Anyone who does that, I'll happily call a journalist, badge or no badge. Interviewer: Professor, thank you very much."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why does Jack dislike the term citizen journalism?",
+     "o": [
+      "It confuses witnessing with journalism",
+      "It insults professional reporters",
+      "It sounds old-fashioned"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Jack say the public gives news coverage?",
+     "o": [
+      "Better quality footage",
+      "Presence everywhere and speed",
+      "More balanced opinions"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "According to Jack, what is the main misinformation problem?",
+     "o": [
+      "Computer-generated fake videos",
+      "Real footage with false captions",
+      "Journalists inventing stories"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How do verification teams check a video?",
+     "o": [
+      "By comparing details like shadows and weather",
+      "By asking the person who filmed it",
+      "By using special software only"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Jack believe about the future of newsrooms?",
+     "o": [
+      "The crowd will replace them",
+      "They will work in partnership with the public",
+      "They will stop using witness footage"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Jack's criticism of the platforms?",
+     "o": [
+      "Their algorithms reward emotion over truth",
+      "They charge too much for advertising",
+      "They employ too few journalists"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What is Jack's first piece of advice for new reporters?",
+     "o": [
+      "Buy professional equipment",
+      "Cover dramatic events first",
+      "Put safety before any story"
+     ],
+     "c": 2
+    }
+   ]
+  }
+ ]
+}

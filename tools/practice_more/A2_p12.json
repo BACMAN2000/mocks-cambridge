@@ -1,0 +1,158 @@
+{
+  "title": "A2 Key — Reading and Writing (Practice 12)",
+  "note": "Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Northgate Library",
+          "text": "FREE COMPUTER LESSONS FOR BEGINNERS EVERY MONDAY AT 4 P.M. NO NEED TO BOOK — JUST COME TO THE FIRST FLOOR.",
+          "stem": "What does the notice say about the lessons?",
+          "options": ["You must book a place first.", "They cost a little money.", "People can just arrive without booking."],
+          "answer": 2
+        },
+        {
+          "kind": "message",
+          "header": "From: Zoe → To: Harry",
+          "text": "Harry, I left my phone charger at your house yesterday — it's the white one. Can you bring it to school tomorrow? My phone is nearly dead and Mum won't buy another charger!",
+          "stem": "What does Zoe want Harry to do?",
+          "options": ["Bring her charger to school.", "Buy her a new charger.", "Charge her phone at his house."],
+          "answer": 0
+        },
+        {
+          "kind": "email",
+          "from": "Techworld Shop",
+          "to": "Customers",
+          "subject": "Phone repairs",
+          "body": "Dear customer, our repair desk is moving to the back of the shop next week. Repairs will take two days instead of three because we will have more staff. Prices will stay the same.",
+          "stem": "What will be different about repairs next week?",
+          "options": ["They will cost more.", "They will be finished more quickly.", "They will take three days."],
+          "answer": 1
+        },
+        {
+          "kind": "note",
+          "header": "Note for Alfie",
+          "text": "Alfie — Your tablet is on the kitchen table. Grandma fixed the broken screen cover, so please be more careful with it this time! Don't use it before you finish your homework. — Mum",
+          "stem": "When can Alfie use his tablet?",
+          "options": ["Right now.", "When Grandma says he can.", "After his homework is done."],
+          "answer": 2
+        },
+        {
+          "kind": "sign",
+          "header": "Cinema Screen 2",
+          "text": "PLEASE SWITCH YOUR PHONE TO SILENT. CALLS MAY BE MADE IN THE ENTRANCE HALL ONLY.",
+          "stem": "Where can people make phone calls?",
+          "options": ["In their seats.", "In the entrance hall.", "Nowhere in the cinema."],
+          "answer": 1
+        },
+        {
+          "kind": "notice",
+          "header": "Hilltop School — Computer Room",
+          "text": "THE COMPUTER ROOM IS OPEN AT LUNCHTIME FOR HOMEWORK ONLY. STUDENTS WHO WANT TO PLAY GAMES SHOULD USE THE ROOM AFTER 3.30 P.M.",
+          "stem": "What can students do in the computer room at lunchtime?",
+          "options": ["Homework.", "Play games.", "Watch films."],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "Read about three young people and how they use technology. For each question, choose the correct person (A, B or C). The people may be chosen more than once.",
+      "sources": [
+        {
+          "label": "A",
+          "name": "Felix",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/25.jpg\" alt=\"Felix\" loading=\"lazy\">",
+          "text": "I make short videos about interesting places in my town — the old bridge, the market, the castle. My grandad often appears in them, telling stories about the past. I film and edit everything on my phone. Hundreds of people watch my videos now, and some of them leave really nice comments."
+        },
+        {
+          "label": "B",
+          "name": "Hana",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/79.jpg\" alt=\"Hana\" loading=\"lazy\">",
+          "text": "I draw pictures on my tablet with a special pen. I used to draw on paper, but on the tablet it's easy to fix a mistake — you just press a button. I never put my pictures online, because I'm a bit shy about them. Only my family sees them. My plan is to make my own comic book one day."
+        },
+        {
+          "label": "C",
+          "name": "George",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/55.jpg\" alt=\"George\" loading=\"lazy\">",
+          "text": "I love video games, but my parents only let me play for an hour a day. I usually play online with my cousin, who lives in Canada — it's the best way for us to spend time together, because we only meet in real life every two years. I saved my pocket money for six months to buy my headphones."
+        }
+      ],
+      "questions": [
+        {"stem": "Which person shares their work with many people?", "answer": "A"},
+        {"stem": "Which person keeps their work private?", "answer": "B"},
+        {"stem": "Which person uses technology to spend time with family far away?", "answer": "C"},
+        {"stem": "Which person bought something with money they saved?", "answer": "C"},
+        {"stem": "Which person changed from an old way of doing something to a new one?", "answer": "B"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the text about a family weekend without screens. Choose the correct answer A, B or C.",
+      "passage": "Maya is twelve and, like most of her friends, she loves her phone. She uses it to message her friends, watch videos and play games. Last month, her dad read an article about families who spend too much time looking at screens, and he had an idea: the whole family would spend one weekend without phones, tablets or television.\n\nMaya thought it was a terrible plan. What would she do all weekend? She was sure she would be bored. Her little brother didn't mind, but he is only five.\n\nOn Saturday morning, the family put all their devices in a box in the cupboard. Then they walked to the lake, where they had a picnic and played football. In the evening, they played card games, and Maya's dad taught her a game he played when he was young. Maya won three times.\n\nOn Sunday it rained, which was harder. But Maya found some old pens and spent the afternoon drawing, which she had not done for years. She was surprised how quickly the time passed.\n\nMaya was happy to get her phone back on Monday. But now the family has a new rule: no phones at the dinner table, ever. And Maya thinks that rule is fine.",
+      "questions": [
+        {"stem": "Whose idea was the weekend without screens?", "options": ["Maya's.", "Maya's dad's.", "Maya's brother's."], "answer": 1},
+        {"stem": "How did Maya feel about the plan at first?", "options": ["She was sure it would be boring.", "She thought it was a great idea.", "She didn't understand it."], "answer": 0},
+        {"stem": "What did Maya do on Saturday evening?", "options": ["She watched television.", "She went to the lake.", "She played card games with her family."], "answer": 2},
+        {"stem": "Why was Sunday more difficult?", "options": ["Maya's friends came to visit.", "The weather was bad.", "The family had to work."], "answer": 1},
+        {"stem": "What is the family's new rule?", "options": ["No phones during dinner.", "No phones at the weekend.", "Only one hour of television a day."], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 4",
+      "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+      "title": "The First Mobile Phones",
+      "body": "Today, almost everyone has a mobile phone, but fifty years ago things were very (19)____ . The first mobile phone call was made in 1973 by an engineer called Martin Cooper. His phone was as (20)____ as a brick, and its battery only worked for about half an hour. Early mobile phones were also very expensive, so (21)____ people could buy one. Over the years, phones became smaller, cheaper and much more (22)____ . Modern phones are really small computers: we use them to take photos, listen to music and (23)____ information on the internet. It is hard to (24)____ that the little phone in your pocket is more powerful than the huge computers of the past.",
+      "questions": [
+        {"options": ["another", "others", "different", "same"], "answer": 2},
+        {"options": ["big", "tall", "wide", "deep"], "answer": 0},
+        {"options": ["little", "any", "much", "few"], "answer": 3},
+        {"options": ["strong", "useful", "heavy", "slow"], "answer": 1},
+        {"options": ["watch", "make", "find", "hear"], "answer": 2},
+        {"options": ["believe", "think", "know", "hope"], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 5",
+      "instructions": "For each gap (25–30), write ONE word.",
+      "title": "A message about a new phone",
+      "body": "Hi Ellie,\n\nGuess what — I finally got a new phone (25)____ my birthday! It's blue, and the camera is much better (26)____ my old one.\n\nI'm still learning how (27)____ use it. Can you show me the app you use for your photos? You (28)____ so good at editing pictures!\n\nAre you free after school (29)____ Friday? We could take some photos in the park if the weather (30)____ nice.\n\nSee you tomorrow,\nGrace",
+      "questions": [
+        {"accept": ["for", "on"]},
+        {"accept": ["than"]},
+        {"accept": ["to"]},
+        {"accept": ["are"]},
+        {"accept": ["on", "this", "next"]},
+        {"accept": ["is", "stays", "looks"]}
+      ]
+    },
+    {
+      "type": "writing",
+      "part": "Part 6",
+      "prompts": [{
+        "kind": "email",
+        "instructions": "Your English friend Toni wants to buy a new phone. Write an email to Toni. In your email: say what phone you have / tell Toni one thing you like about it / ask one question about how Toni will use the phone.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    },
+    {
+      "type": "writing",
+      "part": "Part 7",
+      "prompts": [{
+        "kind": "story",
+        "instructions": "Write a story for your English class. Your story must begin with this sentence:\nWhen Jack turned on his computer, he saw a message from someone he did not know.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "B2 First — Writing (Practice 17)",
+  "durationMin": 80,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 140, "maxWords": 190,
+        "lead": "In your English class you have been talking about life in cities. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+        "stimulus": { "body": "\"Cities need more parks and green spaces, even if it means less space for new housing. Do you agree?\"\n\nNotes\n\nWrite about:\n1. health\n2. the need for homes\n3. ............... (your own idea)" },
+        "bullets": ["health", "the need for homes", "your own idea", "give reasons for your point of view"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+      "tasks": [
+        { "type": "review", "q": 2, "minWords": 140, "maxWords": 190,
+          "lead": "You see this announcement on an English-language website about your city.",
+          "stimulus": { "title": "Our city's best outdoor places", "body": "We are building a guide to the city's parks and green spaces, written by the people who use them. Write a review of a park you know well, describing what you can do there, saying when it is at its best and worst, and explaining who it is perfect for." },
+          "bullets": ["what you can do in the park", "when it is at its best and worst", "who it is perfect for"],
+          "write": "Write your review." },
+        { "type": "email", "q": 3, "minWords": 140, "maxWords": 190,
+          "lead": "You have received this email from your English-speaking friend Val.",
+          "stimulus": { "body": "From: Val\nSubject: Escaping the concrete\n\nI'll be in your city for a week in spring, and you know me — after two days of museums I'll be desperate for trees and fresh air! Where can I find a bit of nature without leaving the city? Could we organise a picnic somewhere? And is there anything green worth seeing that most visitors never find?\nHugs,\nVal" },
+          "bullets": ["where to find nature inside the city", "a plan for a picnic together", "a green place most visitors never find"],
+          "write": "Write your email." },
+        { "type": "article", "q": 4, "minWords": 140, "maxWords": 190,
+          "lead": "You see this announcement in an English-language community magazine.",
+          "stimulus": { "title": "A GARDEN IN THE CITY", "body": "Community gardens are appearing on rooftops, empty plots and even car parks. Write an article saying why you think young people should get involved in a community garden, describing what they could grow and do there, and explaining how such gardens change a neighbourhood." },
+          "bullets": ["why young people should get involved", "what they could grow and do", "how such gardens change a neighbourhood"],
+          "write": "Write your article." }
+      ]
+    }
+  ]
+}

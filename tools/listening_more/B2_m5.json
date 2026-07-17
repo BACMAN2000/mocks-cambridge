@@ -1,0 +1,345 @@
+{
+ "label": "B2 — Upper-Intermediate",
+ "cefr": "Cambridge First (FCE) · B2 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+ "audios": [
+  {
+   "id": "B2-P1",
+   "title": "Part 1 · Questions 1–8",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "In a record shop",
+    "A repair",
+    "Collecting advice",
+    "A family surprise",
+    "At a record fair",
+    "An announcement",
+    "A band's decision",
+    "A listening café"
+   ],
+   "scripts": [
+    "Question one. Woman: So you found that jazz album at last. The new reissue? The sound quality's meant to be superb. Man: They had the reissue, and you're right, it's cleaner. But I paid more for this original from 1961. Listen, you can hear the crackle, and someone's written their name on the sleeve. Sixty years of other people's evenings are in this record. A perfect copy just doesn't move me the same way.",
+    "Question two. Man: Hello, it's about my turntable, you were looking at why it keeps changing speed. Woman: Yes, I've found the fault. The good news is it's repairable, and it won't be terribly expensive, about forty pounds with labour. Man: That's a relief. Woman: The less good news is the part. It has to come from a specialist supplier in Japan, and shipping takes three weeks, I'm afraid. Man: Ah well. It's waited thirty years, it can wait three weeks.",
+    "Question three. Woman: I've got a bit of money saved and I want to start collecting records. Any advice? Man: People will tell you to hunt for rare pressings that go up in value, and to keep everything sealed in plastic, untouched. Ignore all that. Buy the music you actually love and play it to death. A collection you don't listen to is just expensive wallpaper. The value that matters isn't the resale price.",
+    "Question four. Man: I hear there's vinyl all over your house these days. Your collection from the old days? Woman: That's the strange part. My records went to a car boot sale twenty years ago, I thought I was done with all that. Then last Christmas my daughter, she's sixteen, asked for a turntable. Now she's the one dragging me round the record shops on Saturdays. I've started buying again because of her. My friends assume it was me who got her into it, but it was entirely the other way round.",
+    "Question five. Woman: Right, before we go into the fair, ground rules. Last time I spent my whole month's spare cash in an hour. Man: Me too, and I still haven't played half of them. Shall we say a limit? Woman: Twenty pounds each, and not a penny more, however tempting the find. Man: Agreed. And we hold each other to it this time. No emergency exceptions.",
+    "Question six. Man: An announcement for customers planning to join us for Record Store Day this Saturday. This year, camping overnight outside the shop will no longer be permitted, the council has been clear about that. Instead, numbered wristbands will be handed out at the door from eight in the morning, and entry will be in wristband order. The limited releases list is unchanged and is on our website now.",
+    "Question seven. Woman: Your band's new album is coming out on vinyl, isn't it? Bit old-fashioned for a young band, no? Man: That's what our label said at first, they only wanted streaming. And it's not nostalgia, none of us even owned a turntable when we started. The truth is our fans kept asking for it, at every single gig, so we listened. We did a first pressing of five hundred and it sold out in a weekend.",
+    "Question eight. Woman: Excuse me, I've heard you do listening evenings here, is that right? Waiter: We do, two different ones, actually. On Tuesdays our own collection is played start to finish, an album a night, this week it's all Motown. Woman: And the other? Waiter: Thursdays are bring-your-own. Customers queue up a side of whatever they've brought, and tell everyone why it matters to them. Woman: That's the one for me. There's a record of my father's I've been wanting people to hear for years. Thursday it is."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why did the man buy the original pressing?",
+     "o": [
+      "It has better sound quality",
+      "He values its history and character",
+      "It was cheaper than the reissue"
+     ],
+     "c": 1,
+     "audio": "M5/B2/B2-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the problem with repairing the turntable?",
+     "o": [
+      "The cost is very high",
+      "The part will take weeks to arrive",
+      "The fault cannot be fixed"
+     ],
+     "c": 1,
+     "audio": "M5/B2/B2-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the man advise the new collector to do?",
+     "o": [
+      "Buy records she loves and play them",
+      "Look for records that will gain value",
+      "Keep her records sealed and protected"
+     ],
+     "c": 0,
+     "audio": "M5/B2/B2-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why has the woman started buying records again?",
+     "o": [
+      "She found her old collection",
+      "Her daughter got her interested again",
+      "She wants to sell them for profit"
+     ],
+     "c": 1,
+     "audio": "M5/B2/B2-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What do the friends agree to do at the fair?",
+     "o": [
+      "Spend no more than twenty pounds each",
+      "Only buy records they will play",
+      "Leave after one hour"
+     ],
+     "c": 0,
+     "audio": "M5/B2/B2-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is changing about Record Store Day at the shop?",
+     "o": [
+      "The list of special releases",
+      "The way queuing is organised",
+      "The opening time of the shop"
+     ],
+     "c": 1,
+     "audio": "M5/B2/B2-P1-q6.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why is the band releasing their album on vinyl?",
+     "o": [
+      "The label suggested it",
+      "The band members are nostalgic",
+      "Their fans kept requesting it"
+     ],
+     "c": 2,
+     "audio": "M5/B2/B2-P1-q7.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Which evening will the woman attend at the café?",
+     "o": [
+      "The Tuesday album evening",
+      "The Thursday bring-your-own evening",
+      "Both evenings"
+     ],
+     "c": 1,
+     "audio": "M5/B2/B2-P1-q8.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B2-P2",
+   "title": "Part 2 · Questions 9–18",
+   "kind": "file",
+   "file": "M5/B2/B2-P2.mp3",
+   "intro": "You will hear a man called Oliver, who owns a vinyl record pressing plant, talking about his business. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Hello, I'm Oliver, and I make records, actual, physical, black vinyl records, in a business everyone told me was dead. Let me tell you how that came about. People assume I must have inherited the plant from some golden age of music. In fact I opened it myself in 2015, at a time when the big companies were still scrapping their pressing machines. Friends thought I'd lost my mind. The revival was already stirring, though, you could feel it in the record fairs, and I decided someone had to be ready to press what people wanted to buy. Finding a home for the plant was a story in itself. We needed high ceilings, strong floors and cheap rent, which in this city is a rare combination. In the end we took over a former textile factory, a beautiful brick building where they wove cloth for a hundred years. The old freight lifts still work, and we use them every day. The machines themselves are the heart of the operation, and here's the part visitors never believe: you cannot simply buy a new pressing machine, or you couldn't when we started. Ours are forty years old, rescued from a bankrupt plant in Germany and rebuilt screw by screw. They hiss and clank like steam engines, but properly cared for, they press beautifully. As for what we produce, at full capacity we press six thousand records a week. That sounds like a lot until you learn what the famous plants in Europe manage, but for an independent operation it keeps us respectable, and busy around the clock in the run-up to Christmas. Demand is honestly bigger than we can handle. At the worst point, bands were waiting four months between sending us their music and holding the finished record, and I hated that, a small band plans a tour around a release date, and delays can sink them. We've fought that wait down since, but it remains my biggest embarrassment. Who are our customers? People imagine we press for the stars. The occasional big name does come through, but most of our orders come from independent labels, small operations releasing five hundred copies of an unknown band, run on love and overdrafts. They were loyal to us at the start, and we stay loyal to them now, they always keep their place in the queue. Tastes have changed while we've been pressing, too. When we opened, coloured vinyl, red, gold, splattered like paint, was a novelty, one order in twenty. Today it makes up half of everything we press. The kids buying their first turntable want a record that looks as good as it sounds, and who am I to argue? Our biggest headache? Not orders, not electricity bills, spare parts. Nobody manufactures components for forty-year-old pressing machines, so when something snaps, we hunt through auctions, scrapyards and the back rooms of retired engineers across half of Europe. We've learned to machine some pieces ourselves, out of pure necessity. And that's why I care so much about training. Pressing vinyl is a craft, you judge it by ear, by eye, by the smell of the hot vinyl, and no manual captures that. We take on apprentices, and it takes two years before I'll let one run a machine alone through the night shift. When my generation retires, somebody must carry all this in their hands. One more thing about the future. The awkward truth of this trade is that vinyl is plastic, and our machines are hungry for energy. We can't fix all of that yet, but we're starting where we can: next year we're covering the factory roof with solar panels, which should supply a good third of our power. The old textile factory will make its own electricity. I like to think the weavers would approve. Thanks for listening."
+   ],
+   "gapTitle": "Pressing Records — Oliver's Plant",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Oliver opened the plant in: ____",
+     "accept": [
+      "2015",
+      "twenty fifteen"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The building was formerly a ____ factory",
+     "accept": [
+      "textile",
+      "cloth"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The pressing machines are ____ years old",
+     "accept": [
+      "40",
+      "forty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The plant presses ____ records a week",
+     "accept": [
+      "6,000",
+      "6000",
+      "six thousand"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "At the worst point, bands waited ____ months",
+     "accept": [
+      "4",
+      "four"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Most orders come from independent: ____",
+     "accept": [
+      "labels"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Coloured vinyl now makes up ____ of orders",
+     "accept": [
+      "half",
+      "a half",
+      "50%"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The biggest problem is finding spare: ____",
+     "accept": [
+      "parts"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Training an apprentice takes ____ years",
+     "accept": [
+      "2",
+      "two"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Next year the roof will be covered with solar: ____",
+     "accept": [
+      "panels"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2-P3",
+   "title": "Part 3 · Questions 19–23",
+   "kind": "file",
+   "file": "M5/B2/B2-P3.mp3",
+   "intro": "You will hear five people talking about why they collect vinyl records. For each speaker, choose from the list (A–H) the reason they give. Use each letter once. There are three extra letters you will not need.",
+   "bank": [
+    "the superior sound",
+    "the artwork and packaging",
+    "the ritual of listening",
+    "a collection inherited from family",
+    "the excitement of hunting for rarities",
+    "an investment for the future",
+    "supporting local record shops",
+    "memories of their youth"
+   ],
+   "scripts": [
+    "Speaker one. Woman: When my father died, the one thing I asked for was his record collection, four hundred albums, every sleeve annotated in his handwriting, the date he bought it, sometimes who he was with. Playing them is like visiting him. And it didn't stop there: I've carried on where he left off, adding records I know he'd have argued with me about. It's not really a collection, it's a conversation we're still having. Speaker two. Man: For me it's never been about owning the records, it's about finding them. Saturday mornings, up at six, first through the doors at the flea market, fingers black with dust by nine. Last spring, in a box of junk in a village hall, I found a single that collectors have been chasing for decades. My hands were actually shaking. I could order it all online in five minutes, of course, and it would mean absolutely nothing. Speaker three. Woman: People go on about how records sound warmer, and honestly, my ears can't always tell the difference. What I can't get from streaming is what happens before the music: sliding the disc from the sleeve, the little care it demands, lowering the needle, and then, this is the part that matters, sitting down and doing nothing else for twenty minutes. A record refuses to be background. It's the only time all week my phone stays in another room. Speaker four. Man: I trained as a graphic designer, so maybe it's inevitable, but I buy records the way other people buy art. A streaming thumbnail is a postage stamp; a gatefold sleeve is a poster, a booklet, sometimes a whole world. There are albums in my collection I've barely played, I'll admit it, but I could stare at the covers for hours. The music comes with the pictures, not the other way round. Speaker five. Woman: I'm twenty-two, so nobody can accuse me of chasing my youth, my childhood soundtrack was a streaming app. I still stream all week, it's how I find new music. But I've watched the shops where actual human beings recommend actual music start to vanish from the high street, and I decided my money should have an opinion. Every payday I buy one album, full price, over the counter, from the two shops left in town. If my generation doesn't keep those doors open, nobody will."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Speaker 1",
+     "c": "a collection inherited from family"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 2",
+     "c": "the excitement of hunting for rarities"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 3",
+     "c": "the ritual of listening"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 4",
+     "c": "the artwork and packaging"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 5",
+     "c": "supporting local record shops"
+    }
+   ]
+  },
+  {
+   "id": "B2-P4",
+   "title": "Part 4 · Questions 24–30",
+   "kind": "file",
+   "file": "M5/B2/B2-P4.mp3",
+   "intro": "You will hear an interview with a music journalist called Nora, who has written a book about the vinyl revival. For each question, choose the best answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Nora, your book charts how vinyl came back from the dead. Everyone has a theory, better sound, hipster fashion. What's really driving the revival? Nora: I spent three years interviewing buyers, and the honest answer embarrassed the audiophiles: it's not primarily about sound, and it's not fashion either, fashion fades in five years, this has grown for twenty. What people kept telling me, in different words, was about ownership. When your entire music life is a rented stream that can vanish with a subscription, holding an album you actually possess, that can't be deleted or changed, meets a need streaming never will. The record is an anchor. Interviewer: Who's actually buying? The assumption is men my age, reliving their teens. Nora: That was true in the first wave, and the industry planned around it, all those expensive box sets of seventies albums. Then the data started coming in, and it stunned everyone: the fastest-growing group of buyers is under twenty-five, and a huge share of them are buying current artists, not their parents' bands. Half of them, famously, don't even own a turntable when they buy their first record. They want the object, the artwork, the belonging. The industry is still catching up with that. Interviewer: Let's take the sound question head on. Does vinyl actually sound better? Nora: The most common question I get, and my answer annoys both camps. Sometimes, genuinely, and often not. A record made with care from a good master can be glorious. But plenty of modern vinyl is cut from the same compressed digital file as the stream, pressed in a hurry, and it sounds worse than your phone. The format guarantees nothing, the care taken does. What vinyl does reliably change is how you listen, and people mistake that attention for the format itself. Interviewer: The revival must be wonderful news for musicians, at least. Nora: I wish I could say yes, and for established acts it truly is, vinyl is real income in a streaming economy that pays them fractions of pennies. But my book has a chapter I found genuinely painful to write. There aren't enough pressing plants, and when capacity runs short, guess whose orders wait? A superstar's surprise repressing of a classic album can shove fifty small bands to the back of the queue, and a small band with no records to sell at the merch table on tour loses the income that keeps them on the road. The revival's benefits flow upward. That needs saying out loud. Interviewer: And the environmental question, vinyl is PVC, after all. Oil, energy, shipping. Nora: It's the industry's awkward secret, and I refused to leave it out of the book. Some plants are genuinely trying, recycled vinyl, biomass alternatives, solar power, and I profile them. But I have to be honest: progress is slower than the press releases suggest, and the industry as a whole would rather not discuss it. The one thing I push back on is singling vinyl out, streaming's server farms have a footprint too, it's just invisible. But no, the record business cannot call itself green yet. Not close. Interviewer: Your book spends a surprising amount of time inside record shops. Why do they matter so much? Nora: Because somewhere along the way they stopped being retailers and became something else. The shops that survived aren't really in the business of selling discs, they host listening nights, they premiere local albums, they're where the town's musicians find each other. More than one person told me their record shop was where they made every friend they have. When one closes, what the town loses isn't a shop. It's a meeting place, and there's no app for that. Interviewer: Finally, then, the future. Does the revival keep growing forever? Nora: No, and I say so in the last chapter, to my publisher's horror. The explosive growth is already easing, and that's fine. Vinyl isn't going to dethrone streaming, it's settling into what it should be: a permanent, passionate corner of how we love music, the way live theatre survived cinema. Smaller than the hype, but solid, and here for good. Extinction is off the table; so is world domination. Interviewer: Nora, thank you very much."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "According to Nora, what is the main reason people buy vinyl?",
+     "o": [
+      "The superior sound quality",
+      "The desire to truly own their music",
+      "The influence of fashion"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What has surprised the industry about vinyl buyers?",
+     "o": [
+      "Many are young people buying new artists",
+      "Most are middle-aged collectors",
+      "Most already own several turntables"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Nora say about vinyl's sound?",
+     "o": [
+      "It is always better than streaming",
+      "It depends on how the record was made",
+      "It is usually worse than streaming"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What problem does Nora describe for small bands?",
+     "o": [
+      "Their records are pushed back in the pressing queue",
+      "Fans no longer buy their records",
+      "Vinyl earns them less than streaming"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What is Nora's view of the industry's environmental efforts?",
+     "o": [
+      "Progress is real but too slow",
+      "The problem has mostly been solved",
+      "Vinyl is worse than every alternative"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Why does Nora think record shops matter?",
+     "o": [
+      "They sell records at fair prices",
+      "They have become community meeting places",
+      "They advise the big labels"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Nora predict for vinyl's future?",
+     "o": [
+      "It will keep growing and replace streaming",
+      "It will disappear within a decade",
+      "It will remain as a stable, smaller market"
+     ],
+     "c": 2
+    }
+   ]
+  }
+ ]
+}

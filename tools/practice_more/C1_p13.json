@@ -1,0 +1,192 @@
+{
+  "title": "C1 Advanced — Reading and Use of English (Practice 13)",
+  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "What makes an expert",
+      "body": "The notion that excellence is a gift, bestowed at birth on a fortunate few, has lately been (1)____ to sustained criticism. Studies of elite performers in music, sport and chess suggest that what (2)____ experts apart is not raw ability but accumulated practice — and practice of a very (3)____ kind. It is not enough to log the hours. Improvement comes from sessions designed to (4)____ performers to the very edge of their current ability, where failure is frequent and concentration total; mere repetition, by contrast, (5)____ little, however long it continues. Coaching matters too: feedback must be immediate if errors are not to become (6)____ . The theory has its critics, who (7)____ out that in some fields practice explains surprisingly little of the variation between performers, and that the studies tend to examine only those who survived the punishing early years of training. The debate ultimately (8)____ on a question with real consequences for education: how much of excellence is within anyone's reach, and how much is written in advance?",
+      "questions": [
+        { "options": ["treated", "submitted", "subjected", "surrendered"], "answer": 2 },
+        { "options": ["puts", "takes", "makes", "sets"], "answer": 3 },
+        { "options": ["particular", "peculiar", "individual", "typical"], "answer": 0 },
+        { "options": ["strain", "stretch", "extend", "expand"], "answer": 1 },
+        { "options": ["wins", "earns", "gains", "achieves"], "answer": 3 },
+        { "options": ["ingrained", "implanted", "inserted", "installed"], "answer": 0 },
+        { "options": ["speak", "point", "spell", "make"], "answer": 1 },
+        { "options": ["leans", "swings", "hinges", "balances"], "answer": 2 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The chess master's glance",
+      "body": "Show a chess master a position from a real game for five seconds, and she will reproduce it almost perfectly (9)____ memory. Show her a board on which the same pieces have been scattered at random, and she will do scarcely better than a beginner. The experiment, first carried (10)____ half a century ago, remains one of the most revealing in psychology, (11)____ it shows that expertise is not a matter of general mental power. The master's advantage lies not in remembering pieces but in perceiving patterns — thousands of them, laid (12)____ over years of play, (13)____ which a meaningful position can be grasped whole.\n\nThe finding extends well (14)____ chess. Radiologists, firefighters and air-traffic controllers all display the same trick: an apparently instant judgement that is in fact the fruit of long experience. What looks (15)____ intuition from the outside is, on the inside, recognition. The expert does not think faster than the rest of us. She has, in a very real sense, seen it all (16)____ .",
+      "questions": [
+        { "accept": ["from"] },
+        { "accept": ["out"] },
+        { "accept": ["because", "since", "as", "for"] },
+        { "accept": ["down"] },
+        { "accept": ["through", "by", "with"] },
+        { "accept": ["beyond", "outside", "past"] },
+        { "accept": ["like"] },
+        { "accept": ["before"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "The making of a master",
+      "rows": [
+        { "text": "Novices and experts differ less in speed than in perception, a distinction that emerges from any close (17)____ of the two at work.", "root": "COMPARE" },
+        { "text": "The hallmark of mastery is the (18)____ appearance of actions that once demanded total concentration.", "root": "EFFORT" },
+        { "text": "Mindless (19)____ , far from guaranteeing progress, can entrench bad habits beyond repair.", "root": "REPEAT" },
+        { "text": "The relentless (20)____ of top performers can shade into something self-destructive.", "root": "PERFECT" },
+        { "text": "Genuine (21)____ takes a decade to build yet can decay with alarming speed.", "root": "EXPERT" },
+        { "text": "Without deep reserves of (22)____ , nobody endures the years of difficult, unglamorous practice.", "root": "MOTIVATE" },
+        { "text": "Standards once dismissed as (23)____ are now routinely met by teenagers.", "root": "ATTAIN" },
+        { "text": "True (24)____ , the research suggests, is less a destination than a lifelong discipline.", "root": "MASTER" }
+      ],
+      "questions": [
+        { "root": "COMPARE", "accept": ["comparison"] },
+        { "root": "EFFORT", "accept": ["effortless"] },
+        { "root": "REPEAT", "accept": ["repetition"] },
+        { "root": "PERFECT", "accept": ["perfectionism"] },
+        { "root": "EXPERT", "accept": ["expertise"] },
+        { "root": "MOTIVATE", "accept": ["motivation"] },
+        { "root": "ATTAIN", "accept": ["unattainable"] },
+        { "root": "MASTER", "accept": ["mastery"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+      "questions": [
+        {
+          "before": "She practises the violin every day without exception.",
+          "keyword": "FAILS",
+          "after": "She ___ the violin every day.",
+          "accept": ["never fails to practise", "never fails to practice"]
+        },
+        {
+          "before": "Reaching the top requires years of dedication, whatever your talent.",
+          "keyword": "HOWEVER",
+          "after": "Years of dedication are required to reach the top, ___ may be.",
+          "accept": ["however talented you", "however gifted you"]
+        },
+        {
+          "before": "The coach insisted that the players repeat the drill.",
+          "keyword": "ON",
+          "after": "The coach ___ repeating the drill.",
+          "accept": ["insisted on the players", "insisted on them", "insisted on the players'"]
+        },
+        {
+          "before": "In the end, her early failures turned out to be valuable.",
+          "keyword": "PROVED",
+          "after": "Her early failures ___ valuable in the end.",
+          "accept": ["proved to be", "eventually proved to be"]
+        },
+        {
+          "before": "He became a grandmaster at a younger age than anyone before him.",
+          "keyword": "EVER",
+          "after": "Nobody ___ a grandmaster at such a young age before.",
+          "accept": ["had ever become"]
+        },
+        {
+          "before": "You can only appreciate the difficulty by trying it yourself.",
+          "keyword": "CAN",
+          "after": "Only by trying it yourself ___ the difficulty.",
+          "accept": ["can you appreciate", "can you fully appreciate"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "Where expertise ends\n\nWe defer to experts because, most of the time, deference works. The pilot lands the plane; the surgeon finds the artery; the chess master, shown a position for five seconds, sees at once what matters. Decades of research have mapped how such abilities are built — the years of structured practice, the vast library of remembered patterns — and the findings are robust. What the popular versions of this science rarely mention is its other half: an equally robust literature showing that in some fields, people with decades of experience and impeccable credentials judge scarcely better than novices, and sometimes worse than simple rules of thumb. The interesting question is not whether expertise is real. It is why it flourishes in some soils and not in others.\n\nThe most useful answer distinguishes between what one psychologist called kind and wicked learning environments. A kind environment offers three things: recurring patterns, prompt and honest feedback, and a stable relationship between action and outcome. Chess is the model case — the board hides nothing, the consequences of a move arrive within minutes, and a blunder punishes you in a currency impossible to misread. Firefighting, anaesthesia and weather forecasting are kinder than they first appear: harsh, but honest. In such fields, ten years of experience genuinely is ten years of accumulated, validated learning, and intuition deserves the name of skill.\n\nWicked environments withhold exactly these gifts. Consider the psychiatrist predicting which patients will relapse, the interviewer judging which candidate will flourish, the pundit forecasting the politics of a decade hence. Feedback, if it arrives at all, arrives years late, tangled with a hundred intervening causes, and is frequently misleading: the interviewer who rejects a candidate almost never learns how that candidate fared elsewhere, so every rejection quietly registers as a success. In such fields, experience does not accumulate into learning; it accumulates into confidence. The practitioner feels the years as deepening insight, while the accuracy curve stays flat. This is not stupidity. It is what any learning machine — human or otherwise — does when trained on corrupt data.\n\nThe distinction embarrasses our usual ways of choosing whom to trust. We award authority by seniority, title and fluency, all of which track time served rather than feedback quality. Worse, confidence itself is treated as a credential. Yet the research finds confidence and accuracy most tightly linked precisely in the kind environments where we need the signal least, and most divorced in the wicked ones, where the assured manner of a veteran may reflect nothing but a long, unbroken absence of correction. The most reliable forecasters studied in recent decades were not the grandest names; they were the ones who spoke in probabilities, revised readily, and treated their own past judgements as data to be audited rather than performances to be defended.\n\nNone of this licenses the fashionable sneer that experts know nothing — a conclusion both lazy and dangerous, as any patient operated on by a confident amateur would swiftly discover. The lesson is narrower and more practical: interrogate the environment before you defer to the practitioner. Ask whether the field offers repeating patterns, whether its practitioners hear promptly and unambiguously when they are wrong, and whether anyone has ever measured their accuracy. Where the answers are yes, seniority means something, and the veteran's hunch is compressed evidence. Where the answers are no, the twenty-year veteran and the two-year novice may be statistical twins, and the grey hair is measuring nothing but time.\n\nExpertise, in short, is not a property of impressive people. It is a property of the relationship between a mind and a world — and only some worlds are willing to teach.",
+      "questions": [
+        { "stem": "What does the writer find missing from popular accounts of expertise research?", "options": ["Any explanation of how practice builds skill.", "Recognition that chess masters rely on memory.", "The parallel finding that experience fails to improve judgement in some fields.", "Evidence that novices can outperform pilots and surgeons."], "answer": 2 },
+        { "stem": "What makes an environment 'kind', according to the second paragraph?", "options": ["It forgives mistakes without serious consequences.", "It requires little practice to master.", "It attracts unusually honest practitioners.", "It provides recurring patterns and prompt, reliable feedback."], "answer": 3 },
+        { "stem": "Why does the interviewer's experience fail to accumulate into learning?", "options": ["Interviewing requires no recognisable patterns.", "The outcomes of rejections are never observed, so errors go unregistered.", "Candidates deliberately conceal their weaknesses.", "Interviewers rarely stay in the profession for long."], "answer": 1 },
+        { "stem": "What point does the writer make about confidence in the fourth paragraph?", "options": ["It is least trustworthy precisely where we most need to rely on it.", "It is the best available indicator of accuracy.", "It can be increased through deliberate practice.", "It is rarer among senior practitioners than junior ones."], "answer": 0 },
+        { "stem": "What practical advice does the fifth paragraph offer?", "options": ["Trust amateurs over professionals in medical matters.", "Ignore probability-based forecasts as evasive.", "Assess the learning environment of a field before deferring to its experts.", "Prefer younger practitioners, whose training is more recent."], "answer": 2 },
+        { "stem": "Which statement best captures the writer's conclusion?", "options": ["Expertise is an illusion created by seniority.", "All fields teach their practitioners equally well in the long run.", "Impressive individuals carry their expertise from one field to another.", "Expertise depends on whether a field is capable of teaching those who work in it."], "answer": 3 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "Read four short opinion pieces (A–D) on the same topic: whether sustained practice can make anyone an expert, or whether innate talent sets the limit. Then answer the questions.",
+      "sources": [
+        { "label": "A", "text": "Follow the money of the talent myth and its function becomes obvious. If excellence is a lottery of birth, then the conservatoire's intake needs no explaining and the poverty of the losers is nobody's policy failure. The landmark studies of music academies found nothing so tidy: the star violinists were not marked out by early magic but by thousands of additional hours — hours that require instruments, teachers, quiet rooms and parents with time, all of which are bought. 'Talent' is too often the word we use for a head start we prefer not to itemise. Until every child has access to the conditions of practice, claims about natural limits are not science; they are alibi." },
+        { "label": "B", "text": "The practice-makes-perfect position quietly assumes that hours of training are an input independent of biology, and this is exactly what the twin studies refuse to grant. Identical twins resemble each other not only in aptitude but in how rewarding they find practice itself — drive, persistence, even the willingness to endure tedium show substantial heritability. The uncomfortable arithmetic is that practice explains perhaps a third of the variance in attainment, and genes help determine who accumulates the practice in the first place. This is no counsel of despair; environments matter enormously. But a theory that treats ten thousand hours as equally available to every nervous system has mistaken an interaction for a lever." },
+        { "label": "C", "text": "What strikes me, reading both camps, is how weak the evidentiary foundations are on either side. The celebrated practice studies are retrospective: they survey those already admitted to elite academies and count backwards, so everyone who practised diligently and failed has vanished from the sample before the counting starts. The heritability estimates, for their part, are drawn overwhelmingly from populations with unusually uniform access to training, which mechanically inflates the apparent share of the genes. Each side, in short, generalises from data structurally incapable of settling the question. My conclusion is not that the truth lies in the middle — that is a platitude, not a finding — but that the decisive longitudinal experiment has yet to be run, and both camps write as though it had been." },
+        { "label": "D", "text": "I have coached swimmers for thirty years, and I have never once needed to know the answer to this question. Whatever a given child's ceiling, no child I have met was anywhere near it; the practical constraints are always sleep, technique, boredom and bus timetables, never chromosomes. What the debate does do, in my daily experience, is damage: the girl who concludes from one lost race that she lacks the gift, and stops; the parents who read a magazine article and start shopping for their son's 'real' sport at nine. The ceiling, if it exists, is invisible from where any learner actually stands. Arguing about its height is a fine way to keep professors busy and a poor way to raise athletes." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which writer criticises the research methods of both sides in the debate?", "answer": "C" },
+        { "stem": "Which writer regards the entire controversy as irrelevant, and even harmful, to actual learners?", "answer": "D" },
+        { "stem": "Which writer cites evidence that the inclination to practise may itself be partly inherited?", "answer": "B" },
+        { "stem": "Which writer argues that belief in innate talent serves to excuse social inequality?", "answer": "A" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+      "passage": "The commander's hunch\n\nThe fire, as the crew remembered it afterwards, was nothing special: a kitchen blaze in a single-storey house, the kind a professional crew deals with before its coffee goes cold. The commander directed his men into the living room and began the attack. Then something happened for which he had no explanation. (41)____\n\nSeconds after the last man cleared the doorway, the living-room floor collapsed into the basement — a basement nobody had known existed, where the true fire had been burning all along. Asked later why he gave the order, the commander could only talk about a sixth sense. (42)____\n\nA research psychologist heard the story and made the commander walk through it again, minute by minute, resisting the word 'instinct' every time it was offered. (43)____\n\nNone of these details had reached the commander as conscious thought. Together they formed a pattern — and, crucially, the wrong pattern, one that failed to match the thousands of kitchen fires stored in his long memory. (44)____\n\nThe case became a cornerstone of what is now called naturalistic decision-making, a field built on studying experts not in laboratories but amid smoke, sirens and incomplete information. (45)____\n\nThat conclusion sits awkwardly with an older tradition of research, which had spent decades cataloguing the failures of intuitive judgement and recommending checklists and statistics in its place. (46)____ The two camps, after years of public quarrel, eventually co-authored a reconciliation whose central finding was disarmingly simple: intuition is trustworthy exactly to the degree that the environment that trained it was capable of teaching — a verdict that returns the argument, as ever, to the fire.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Its proponents had a point: in fields from personnel selection to stock-picking, seasoned professionals had been repeatedly outperformed by formulae that would fit on an index card.",
+          "Standing in the heat, he was seized by a wrongness he could not name, and ordered an immediate and total evacuation — a command so abrupt that his men assumed the radio had told him something it had not.",
+          "Later studies of nurses, pilots and soldiers confirmed the pattern: seasoned practitioners rarely compare options at all, but recognise a situation as typical and act, reserving deliberation for the moments when recognition fails.",
+          "The commander himself retired the following year, and later admitted he had never once read the studies his fire had inspired.",
+          "Under this patient interrogation, the mystery dissolved into detail: the fire had been too hot for its apparent size, yet strangely quiet; the flames had refused to respond to water as a kitchen fire should.",
+          "The researchers concluded that such professionals carry no special faculty, only libraries: the hunch was pattern recognition operating faster than speech.",
+          "Firefighting manuals of the period devoted whole chapters to equipment maintenance but barely a paragraph to decision-making under uncertainty.",
+          "He was not being modest; he genuinely believed, as many in his profession did, that some firefighters simply possessed a gift that could be neither taught nor examined."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing paragraph:", "answer": "B" },
+        { "stem": "Choose the missing paragraph:", "answer": "H" },
+        { "stem": "Choose the missing paragraph:", "answer": "E" },
+        { "stem": "Choose the missing paragraph:", "answer": "F" },
+        { "stem": "Choose the missing paragraph:", "answer": "C" },
+        { "stem": "Choose the missing paragraph:", "answer": "A" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 8",
+      "instructions": "You are going to read four short pieces (A–D) by people at the top of demanding professions, reflecting on their own expertise. Answer the questions by choosing the appropriate person.",
+      "sources": [
+        { "label": "A", "text": "Vera — simultaneous interpreter. People assume the difficulty is vocabulary, but vocabulary is the part any diligent student can buy with time. The real skill is triage under fire: the speaker is three clauses ahead of me, an untranslatable joke is arriving, and I must decide — now, and audibly — what to sacrifice. I learned my craft shadowing radio broadcasts in my kitchen, repeating speeches half a sentence behind, and I still do it daily, the way a pianist does scales; miss a week and I feel the lag like rust. What twenty years have really taught me is a strange humility about my own fluency: on the days I feel most brilliant, the recordings later show my worst omissions. I have stopped trusting the feeling of it going well. I trust the tape." },
+        { "label": "B", "text": "Iain — air-traffic controller. The public imagines our job as constant emergency, when in fact the whole profession is engineered to make emergencies rare and dull, and dullness is precisely what must be survived. My skills are perishable in a way outsiders find hard to credit: after two weeks' leave I am measurably slower, which is why the regulations march every returning controller through the simulator before we touch a live screen again — a humiliation I have come to respect deeply. What I notice after twenty years is that the picture assembles itself: I no longer see blips, I see intentions, aircraft that are about to want the same piece of sky in ninety seconds. But the moment traffic exceeds a certain density, I feel the pattern-sense dissolve, and then I fall back, gratefully and without shame, on the procedures. The procedures are what my experience is for; knowing when I have run out of it." },
+        { "label": "C", "text": "Beatriz — chess grandmaster. Journalists ask how many moves ahead I calculate, and are disappointed by the honest answer: usually fewer than my opponents, and far fewer than the computer that could beat us both before breakfast. I do not search the position; I recognise it. A configuration of pieces speaks, the way a face speaks, and three candidate moves propose themselves before I am aware of thinking — my work is auditing those proposals, because the position sometimes lies. Since the machines surpassed us, my profession has been an extended lesson in intellectual humility, and an instructive one: my generation now trains against engines whose choices we cannot always explain even after losing to them. Oddly, this has freed me. Nobody pays a grandmaster to be an oracle any more. They pay us to make the struggle intelligible — to translate between perfect play and human minds. Translation, it turns out, was the durable skill all along." },
+        { "label": "D", "text": "Okonkwo — consultant anaesthetist. My specialism is sometimes described, by people who mean it kindly, as hours of boredom punctuated by moments of terror, and the description is exactly wrong: the hours are not boring, they are quiet, and keeping them quiet is the expertise. I run continuous small hypotheses — a drift in a trace, a colour, a smell of the gas mixture — and act before anything registers as an event; the save that matters is the one nobody in the theatre ever knows occurred. This creates my profession's strange accounting problem: our finest work is invisible by definition, and so we log and audit near-misses obsessively, because they are the only receipts. Twice a year I rehearse catastrophes in the simulator with colleagues junior enough to correct me, and I make sure they see me being corrected. A department where seniors cannot be seen to err is not a safe department; it is a quiet one, and the two are opposites." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Vera", "Iain", "Beatriz", "Okonkwo"] },
+      "questions": [
+        { "stem": "Which person is required by rules to retrain after any significant absence?", "answer": "B" },
+        { "stem": "Which person says their profession's role has shifted towards making something comprehensible to others?", "answer": "C" },
+        { "stem": "Which person has learned to distrust their own sense of performing well?", "answer": "A" },
+        { "stem": "Which person argues that their best work necessarily goes unnoticed?", "answer": "D" },
+        { "stem": "Which person was surpassed at their craft by machines and describes gaining from it?", "answer": "C" },
+        { "stem": "Which person consciously switches to formal procedures when conditions overwhelm their intuition?", "answer": "B" },
+        { "stem": "Which person deliberately shows subordinates their own mistakes being corrected?", "answer": "D" },
+        { "stem": "Which person maintains their ability through a daily exercise resembling a musician's routine?", "answer": "A" },
+        { "stem": "Which person describes decisions arriving before conscious thought, which must then be checked?", "answer": "C" },
+        { "stem": "Which person emphasises choosing what to give up when perfection is impossible?", "answer": "A" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "title": "C1 Advanced — Reading and Use of English (Practice 9)",
+  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "Whose values should the machine obey?",
+      "body": "When an autonomous vehicle must choose between two harmful outcomes, whose values should (1)____ ? The question sounds like a seminar-room puzzle, yet engineers now confront it in earnest, and the answers they (2)____ at will be embedded in machines produced by the million. Some ethicists argue that we should simply encode the rules most people endorse; others (3)____ that majorities have often been wrong, and that popularity is no (4)____ of moral truth. Complicating matters further, such systems are (5)____ not by explicit rules but by patterns absorbed from oceans of data, and even their designers cannot always explain why a particular decision was (6)____ . To grant these systems authority over life-and-death choices, critics contend, is to (7)____ responsibility precisely where it matters most. Defenders reply that human judgement is hardly (8)____ to error, and that a machine which errs less often may be the more ethical option, however uncomfortable that conclusion feels.",
+      "questions": [
+        { "options": ["dominate", "overcome", "prevail", "conquer"], "answer": 2 },
+        { "options": ["arrive", "reach", "settle", "land"], "answer": 0 },
+        { "options": ["oppose", "refuse", "contradict", "counter"], "answer": 3 },
+        { "options": ["warranty", "guarantee", "certainty", "insurance"], "answer": 1 },
+        { "options": ["governed", "commanded", "ordered", "instructed"], "answer": 0 },
+        { "options": ["performed", "achieved", "reached", "conducted"], "answer": 2 },
+        { "options": ["resign", "abdicate", "depose", "vacate"], "answer": 1 },
+        { "options": ["resistant", "exempt", "invulnerable", "immune"], "answer": 3 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "Who is to blame when software errs?",
+      "body": "When a self-driving car injures a pedestrian, the search for someone to blame begins at (9)____ . Is it the programmer, the manufacturer, the owner — or nobody at (10)____ ? Our legal traditions assume that behind every harmful act stands a person who chose it, an assumption (11)____ which centuries of law have been built. Autonomous systems break that link. The engineers wrote the code, but they could hardly have foreseen every situation the vehicle (12)____ encounter, and the machine itself, however sophisticated, cannot meaningfully be punished.\n\nTempting (13)____ it may be to shrug and treat such harms as unfortunate accidents, doing so would leave victims (14)____ any remedy at all. Some scholars therefore propose treating advanced systems (15)____ though they were legal persons, much as corporations are. Others regard this as a dangerous fiction, insisting that responsibility must always be traced back to human hands, no (16)____ how long the chain of causation has become.",
+      "questions": [
+        { "accept": ["once"] },
+        { "accept": ["all"] },
+        { "accept": ["on", "upon"] },
+        { "accept": ["might", "would", "could", "may"] },
+        { "accept": ["as", "though"] },
+        { "accept": ["without"] },
+        { "accept": ["as"] },
+        { "accept": ["matter"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Regulating intelligent machines",
+      "rows": [
+        { "text": "There is understandable public unease when systems make decisions whose (17)____ cannot be demonstrated to anyone affected by them.", "root": "JUSTIFY" },
+        { "text": "Critics denounce as frankly (18)____ the practice of testing unproven systems on an unsuspecting public.", "root": "ETHIC" },
+        { "text": "Regulators must resist the seductive assumption that machines are (19)____ simply because they are consistent.", "root": "FALL" },
+        { "text": "Assigning (20)____ when an autonomous system causes harm remains a legal minefield.", "root": "LIABLE" },
+        { "text": "Deploying such tools without any independent oversight strikes many observers as morally (21)____ .", "root": "DEFEND" },
+        { "text": "The technology is (22)____ the most consequential of our era, which makes the regulatory vacuum all the more striking.", "root": "ARGUE" },
+        { "text": "Some insist that premature (23)____ by lawmakers would stifle innovation before its benefits are even clear.", "root": "INTERVENE" },
+        { "text": "Accusations of corporate (24)____ have accompanied every high-profile failure of these systems.", "root": "RESPONSIBLE" }
+      ],
+      "questions": [
+        { "root": "JUSTIFY", "accept": ["justification"] },
+        { "root": "ETHIC", "accept": ["unethical"] },
+        { "root": "FALL", "accept": ["infallible"] },
+        { "root": "LIABLE", "accept": ["liability"] },
+        { "root": "DEFEND", "accept": ["indefensible"] },
+        { "root": "ARGUE", "accept": ["arguably"] },
+        { "root": "INTERVENE", "accept": ["intervention"] },
+        { "root": "RESPONSIBLE", "accept": ["irresponsibility"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+      "questions": [
+        {
+          "before": "The company did not admit the flaw until journalists uncovered it.",
+          "keyword": "ONLY",
+          "after": "___ did the company admit the flaw.",
+          "accept": ["only when journalists uncovered it", "only after journalists uncovered it", "only once journalists uncovered it"]
+        },
+        {
+          "before": "Developers should have consulted ethicists much earlier, in my view.",
+          "keyword": "CONSULTED",
+          "after": "In my view, ethicists ___ much earlier.",
+          "accept": ["should have been consulted", "ought to have been consulted"]
+        },
+        {
+          "before": "The board approved the system even though they knew about its shortcomings.",
+          "keyword": "FACT",
+          "after": "The board approved the system ___ they knew about its shortcomings.",
+          "accept": ["despite the fact that", "in spite of the fact that"]
+        },
+        {
+          "before": "It was wrong of the firm to conceal the results, and the firm was well aware of that.",
+          "keyword": "BETTER",
+          "after": "The firm ___ conceal the results.",
+          "accept": ["knew better than to"]
+        },
+        {
+          "before": "There is no chance that regulators will approve the software this year.",
+          "keyword": "PROSPECT",
+          "after": "There is ___ approving the software this year.",
+          "accept": ["no prospect of regulators", "no prospect of the regulators", "no prospect whatsoever of regulators"]
+        },
+        {
+          "before": "People say the algorithm was tested on millions of users.",
+          "keyword": "SAID",
+          "after": "The algorithm is ___ tested on millions of users.",
+          "accept": ["said to have been"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The comfort of the clean pair of hands\n\nWe like difficult decisions to be made well, but we also like, rather more than we admit, not to be the ones making them. This second preference explains a great deal about the enthusiasm with which institutions of every kind are handing their hardest choices to automated systems. Call it moral outsourcing: the delegation of decisions that carry ethical weight — who receives a loan, an organ, a prison sentence, a job interview — to processes in which no identifiable person appears to decide anything at all. The appeal is not chiefly that the machine chooses better. It is that, when the machine chooses, nobody's hands are dirty.\n\nIt would be a mistake to treat this as an invention of the digital age. Bureaucracy got there first. The whole architecture of rules, forms and procedures that defines modern administration was designed, in part, to replace individual discretion with impersonal process — to ensure that outcomes flowed from the system rather than from anyone's whim. The algorithm is not a break with this tradition but its perfection: bureaucracy with the residue of human judgement finally boiled away. What the clerk's rulebook began, the model completes.\n\nThe difficulty is that the judgement never actually disappears; it merely changes address. Every automated system embodies choices — about what to measure, what to optimise, which errors to tolerate and which to treat as intolerable — and each of these choices is an ethical commitment wearing the costume of a technical specification. To decide that an algorithm allocating medical resources should maximise years of life saved, rather than treat every patient's claim as equal, is to take a substantive moral position, one that philosophers have contested for centuries. Yet such positions are routinely adopted in design meetings, described as engineering trade-offs, and never presented to the public as the moral decisions they are. The values are not eliminated. They are smuggled in.\n\nWhen harm results, the true cost of the arrangement becomes visible. The injured party looks for someone to answer for the outcome and finds a circle of parties each pointing at the next. The operators explain that they merely followed the system's output, as they were trained to do. The designers explain that no one could have anticipated this particular configuration of circumstances. The vendor points to the terms of the licence. The machine, which cannot be blamed, is nonetheless where the blame comes to rest, which is to say nowhere. Scholars have taken to calling this the responsibility gap, and it is not a loophole awaiting a clever legal patch; it is a structural feature of decision-making designed so that no one decides.\n\nThe standard rejoinder deserves to be taken seriously, because it is partly right. Human deciders, the argument runs, are hardly paragons: they are biased, inconsistent, swayed by hunger and mood, and their intuitions can be neither inspected nor audited. An algorithm's assumptions, by contrast, can at least in principle be examined, challenged and corrected. All of this is true, and it is a genuine advance. But it is an argument for building better instruments, not for vacating the seat of judgement. An audit can tell you what a system does; it cannot tell you what ought to have been done, and it cannot stand before the person harmed and answer for the choice.\n\nThe conclusion is not that such tools should be banned — that battle is lost, and deserved to be lost, for they do real good. It is that we should refuse the comfort they most temptingly offer: the clean pair of hands. Someone must own each consequential decision, by name, with the power to overrule the system and the obligation to explain. A society that loses the habit of answerability will not notice the loss immediately. It will notice, eventually, that when things go wrong there is no longer anyone to whom the question 'why?' can meaningfully be addressed.",
+      "questions": [
+        { "stem": "What, according to the first paragraph, chiefly makes 'moral outsourcing' attractive?", "options": ["Machines make objectively better decisions than people.", "It reduces the cost of institutional decision-making.", "It allows people to avoid personal responsibility for hard choices.", "It is increasingly demanded by regulators."], "answer": 2 },
+        { "stem": "How does the writer characterise the relationship between algorithms and bureaucracy?", "options": ["Algorithms are a more complete realisation of what bureaucracy already attempted.", "Algorithms and bureaucracy are fundamentally opposed traditions.", "Bureaucracy has largely resisted the arrival of algorithms.", "Algorithms were invented in order to dismantle bureaucracy."], "answer": 0 },
+        { "stem": "What does the writer mean by values being 'smuggled in'?", "options": ["Engineers deliberately conceal illegal features in their products.", "Users import their own prejudices when interpreting outputs.", "Companies hide the true cost of their systems from buyers.", "Choices about what a system optimises are moral positions disguised as technical ones."], "answer": 3 },
+        { "stem": "What is the 'responsibility gap' described in the fourth paragraph?", "options": ["The absence of any laws regulating new technology.", "A situation in which no party can plausibly be held answerable for harm.", "The measurable difference between machine and human error rates.", "The delay between a harm occurring and its being detected."], "answer": 1 },
+        { "stem": "How does the writer treat the argument that human decision-makers are deeply flawed?", "options": ["It is dismissed as self-serving industry propaganda.", "It is mentioned but never actually addressed.", "It is conceded to have real force before being qualified.", "It is presented as the article's own central claim."], "answer": 2 },
+        { "stem": "What conclusion does the writer finally reach?", "options": ["Tools may be used, but an identifiable person must remain answerable for decisions.", "Algorithmic decision-making should be prohibited in public institutions.", "Advanced systems should be granted a form of legal personhood.", "The problem will resolve itself as the technology matures."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "Read four short opinion pieces (A–D) on the same topic: whether artificial 'companion' programs, designed to offer friendship and emotional support, are good for the people who use them. Then answer the questions.",
+      "sources": [
+        { "label": "A", "text": "Every new medium of intimacy has been greeted with the same alarm. The novel was denounced for seducing young readers into imaginary attachments; the telephone was going to hollow out real conversation; and now artificial companions are accused of counterfeiting friendship. In each case the panic mistook a supplement for a substitute. The lonely elderly man who talks to a program each evening has not been robbed of a human friend he would otherwise have had; in most cases, that friend does not exist and was never coming. Comfort is comfort, and to sneer at its source is a luxury reserved for people who have never had to choose between artificial company and none at all." },
+        { "label": "B", "text": "What troubles me is not that these companions are fake but that they are frictionless. A friend, a real one, has moods and needs of their own; they interrupt, disappoint, disagree, and demand that we occasionally set our own preferences aside. That mutual inconvenience is not a bug in friendship — it is the mechanism by which we learn to be tolerable to other people. A companion engineered never to tire of us, never to need anything, never to push back except charmingly, is a training ground for exactly the wrong expectations. The danger is not that users will mistake the simulation for a person, but that they will start to find actual persons defective by comparison." },
+        { "label": "C", "text": "I find the philosophical hand-wringing about whether these relationships are 'real' rather beside the point. The urgent questions are commercial. These companions are not benevolent presences; they are products, run by companies whose revenue depends on maximising engagement and, increasingly, on subscription upgrades sold at moments of emotional dependence. When the entity that comforts you at three in the morning is also optimised to monetise your attachment to it, the relevant framework is not the philosophy of friendship but consumer protection. We regulate how casinos exploit compulsion; we have not begun to think about how to regulate the exploitation of loneliness." },
+        { "label": "D", "text": "The output of these systems can be soothing, and I do not doubt the testimony of users who feel helped. But care, in any sense worth the word, requires a carer — someone for whom your suffering matters, who could be disappointed in you, whose concern costs them something. A program can produce the sentences a caring person would produce, but there is no one home for whom anything matters, and this is not a technical limitation awaiting a fix; it is a difference in kind. To call what these systems offer 'friendship' is a category error, however sophisticated the performance. That said, a well-executed performance of care may still be better than silence, and I would not take it from anyone." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which writer argues that the commercial motives behind these programs matter more than debates about their authenticity?", "answer": "C" },
+        { "stem": "Which writer defends the technology by comparing its reception to that of earlier innovations?", "answer": "A" },
+        { "stem": "Which writer maintains that genuine care requires someone for whom the sufferer actually matters?", "answer": "D" },
+        { "stem": "Which writer, unlike Writer A, regards the demands real friends make on us as essential rather than as a defect?", "answer": "B" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+      "passage": "The experiment that asked everyone\n\nIn 2016, a small team of researchers launched a website with a deceptively simple premise. Visitors were shown a series of unavoidable accidents involving a driverless car and asked, in each case, who should be spared. (41)____\n\nThe scale of the response took the team completely by surprise. They had hoped for a few thousand participants, enough perhaps for a modest academic paper. (42)____\n\nWhen the results were analysed, some preferences proved to be near-universal. Respondents almost everywhere chose to spare the many over the few, and the young over the old. (43)____\n\nThese variations posed an awkward question for manufacturers hoping to sell identical vehicles across the globe. A car programmed with the moral instincts of one region might behave in ways another region found monstrous. (44)____\n\nOthers drew a more radical conclusion from the whole project: that surveying the public had been the wrong approach from the start. (45)____\n\nThe researchers themselves were careful to claim less for the experiment than either its admirers or its critics did. (46)____ On that modest reading, the website's true legacy is not a moral rulebook for machines but a mirror held up, at unprecedented scale, to ourselves.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Some engineers argued that the dilemma was overblown in any case, since a vehicle that simply braked hard and predictably would almost always do less harm than one attempting elaborate moral arithmetic at speed.",
+          "Instead, tens of millions of judgements poured in from over two hundred countries and territories, making it one of the largest studies of moral preferences ever conducted.",
+          "The insurance industry, sensing an opportunity, began drafting policies that priced this uncertainty directly into their premiums.",
+          "Ethics, these critics insisted, is not a popularity contest; aggregating millions of gut reactions tells us what people would do, not what anyone should do.",
+          "The scenarios were deliberately stark — swerve and sacrifice a passenger, or hold course and strike a pedestrian — variations on a dilemma philosophers had long debated as a purely hypothetical exercise.",
+          "Their aim, they insisted, had never been to hand carmakers a ready-made conscience, but simply to map how moral intuitions vary — knowledge a democracy might want before writing its rules.",
+          "Beyond that thin consensus, however, the data revealed striking cultural differences: the weight given to age, social status and law-breaking varied markedly from one part of the world to another.",
+          "Earlier attempts to crowdsource scientific work, such as the galaxy-classification projects of the previous decade, had faced no comparable ethical objections."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing paragraph:", "answer": "E" },
+        { "stem": "Choose the missing paragraph:", "answer": "B" },
+        { "stem": "Choose the missing paragraph:", "answer": "G" },
+        { "stem": "Choose the missing paragraph:", "answer": "A" },
+        { "stem": "Choose the missing paragraph:", "answer": "D" },
+        { "stem": "Choose the missing paragraph:", "answer": "F" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 8",
+      "instructions": "You are going to read four short pieces (A–D) by people whose work confronts the ethics of artificial intelligence. Answer the questions by choosing the appropriate person.",
+      "sources": [
+        { "label": "A", "text": "Naomi — ethics adviser at a technology firm. People assume my job is to say no, and that the engineers resent me, and neither is quite true. Most of the teams I work with genuinely want to do the right thing; what they lack is the vocabulary and the licence to slow down. My real battles are fought upstream, over product deadlines set before anyone asked whether the thing should exist at all. I have learned to pick those fights early or not at all, because objections raised after launch are treated as obstruction. The hardest part of the role is a quieter thing: I sign off on compromises weekly, and I sometimes lie awake wondering whether my presence lends legitimacy to decisions I merely softened rather than stopped." },
+        { "label": "B", "text": "Daniel — parole board member. Three years ago our board began receiving algorithmic risk scores alongside each case file, and I will admit my first reaction was relief — a number feels like solid ground when you are tired and the docket is long. It took me an embarrassingly long time to notice what the number was doing to my own reasoning: I had started reading the file looking for confirmation of the score rather than forming a view of my own. These days I force myself to write down my judgement before opening the assessment, and the two disagree more often than the vendors would have you believe. When they do, I go with my own — not out of vanity, but because I can be questioned by the prisoner, and the score cannot." },
+        { "label": "C", "text": "Amara — former content moderator, now a policy writer. For two years I was one of the humans behind the so-called automated cleanup of a major platform, reviewing the material the filters could not classify. The work rewired me in ways I am still undoing, and I have little patience for executives who describe the system as artificial intelligence while outsourcing its failures to people paid by the piece. What I carry from that time is not only the images but a conviction: every claim of full automation conceals a room full of people somewhere, and the further that room is from headquarters, the less anyone asks what the work does to them. I write policy now because the people still in those rooms cannot." },
+        { "label": "D", "text": "Kenji — developer of a hospital triage system. We built our tool to flag which emergency patients were deteriorating fastest, and by every statistical measure it works: detection is earlier, outcomes are better. What the metrics do not capture is what the tool has done to the ward's attention. Nurses now watch the patients the system highlights, which means, inevitably, watching the others less — and the system was trained on data from patients whose problems announce themselves in vital signs. The quiet deteriorations, the atypical presentations, are precisely the ones it was never good at seeing. I spend much of my time now on what I think of as the second product: teaching staff when not to believe us. It is a strange thing to build a machine and then tour the country warning people about it." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Naomi", "Daniel", "Amara", "Kenji"] },
+      "questions": [
+        { "stem": "Which person argues that claims of full automation always conceal hidden human labour?", "answer": "C" },
+        { "stem": "Which person fears that their involvement may serve to legitimise decisions they failed to prevent?", "answer": "A" },
+        { "stem": "Which person now spends time actively warning others about the limits of something they created?", "answer": "D" },
+        { "stem": "Which person deliberately records their own view before consulting the automated assessment?", "answer": "B" },
+        { "stem": "Which person says that objections voiced too late are dismissed as obstruction?", "answer": "A" },
+        { "stem": "Which person was personally damaged by work that others described as automated?", "answer": "C" },
+        { "stem": "Which person initially welcomed the technology as a support when fatigued?", "answer": "B" },
+        { "stem": "Which person notes that the system performs worst on exactly the cases that do not announce themselves?", "answer": "D" },
+        { "stem": "Which person has concluded that the crucial arguments must be won before a product is built?", "answer": "A" },
+        { "stem": "Which person acts on behalf of workers who are unable to speak for themselves?", "answer": "C" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+ "label": "C1 — Advanced",
+ "cefr": "Cambridge Advanced (CAE) · C1 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+ "audios": [
+  {
+   "id": "C1-P1",
+   "title": "Part 1 · Questions 1–6",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in three different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A festival crowd",
+    "A protest march",
+    "A stadium evacuation drill",
+    "A psychology seminar",
+    "A shopping-sale queue",
+    "A commuter platform"
+   ],
+   "scripts": [
+    "Question one. Man: Weren't you nervous in a crowd that size at the festival? Woman: Beforehand, yes. But once I was in it, the odd thing was how considerate everyone was, passing water forward, helping people who stumbled. I'd expected chaos and instead found this strange collective courtesy. It changed my whole assumption about big crowds.",
+    "Question two. Woman: How was the march? The news made it sound tense. Man: The coverage was misleading, frankly. Ninety-nine per cent of it was good-humoured, families, singing. There was one brief scuffle at the edge, and naturally that's the clip everyone saw. The reporting inverted the reality of the day completely.",
+    "Question three. Man: They ran an evacuation drill at the stadium yesterday. Woman: How did it go? Man: Smoother than anyone predicted, and the organisers were almost disappointed, because they'd wanted to expose the weak points. What it proved, though, was that clear signage matters far more than loud instructions. People follow arrows, not shouting.",
+    "Question four. Woman: Did the crowd psychology seminar live up to the hype? Man: In parts. The lecturer spent too long on famous disasters, which I'd read about already. But she made one point that genuinely reframed things for me: that panic is actually rare, and most crowd deaths come from physical crushing, not from people losing their heads. That distinction was worth the ticket.",
+    "Question five. Man: You queued overnight for the sale? Really? Woman: I did, and before you judge me, it wasn't about the bargains. It was oddly sociable, the whole line ended up chatting, sharing flasks of tea. I went for the discount and stayed for the company. I'd almost do it again just for that.",
+    "Question six. Woman: The platform was heaving this morning. Man: Terrifying, actually. Not because anyone panicked, but because it was so silent and dense. Everyone just kept shuffling forward towards the edge without a word, and there was no way to step back. That quiet, uncomplaining pressure was the frightening part."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What surprised the woman about the festival crowd?",
+     "o": [
+      "How aggressive people became",
+      "The considerate behaviour of strangers",
+      "How quickly it emptied"
+     ],
+     "c": 1,
+     "audio": "P7/C1/C1-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the man say about the news coverage of the march?",
+     "o": [
+      "It focused on a tiny unrepresentative incident",
+      "It exaggerated how peaceful it was",
+      "It ignored the event entirely"
+     ],
+     "c": 0,
+     "audio": "P7/C1/C1-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the evacuation drill demonstrate?",
+     "o": [
+      "That loud instructions work best",
+      "That clear signage matters more than shouting",
+      "That evacuations always fail"
+     ],
+     "c": 1,
+     "audio": "P7/C1/C1-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Which point from the seminar most struck the man?",
+     "o": [
+      "That panic is common in crowds",
+      "That most crowd deaths result from crushing, not panic",
+      "That disasters are unpredictable"
+     ],
+     "c": 1,
+     "audio": "P7/C1/C1-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why did the woman value the overnight queue?",
+     "o": [
+      "The size of the discount",
+      "The unexpected sense of company",
+      "The chance to be first"
+     ],
+     "c": 1,
+     "audio": "P7/C1/C1-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What frightened the man on the platform?",
+     "o": [
+      "People shouting and pushing",
+      "The silent, relentless pressure of the dense crowd",
+      "A sudden announcement"
+     ],
+     "c": 1,
+     "audio": "P7/C1/C1-P1-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "C1-P2",
+   "title": "Part 2 · Questions 7–14",
+   "kind": "file",
+   "file": "P7/C1/C1-P2.mp3",
+   "intro": "You will hear a social psychologist called Nora giving a talk about crowd psychology. For each question, complete the sentences with a word or short phrase.",
+   "scripts": [
+    "Hello, I'm Nora, and I research how people behave in crowds. I want to begin by demolishing the single most damaging idea in my field, an idea that still shapes films, headlines and even the design of buildings. It is the notion, inherited from a nineteenth-century writer called Le Bon, that a crowd is a kind of mindless beast, that ordinary people, once gathered, lose their reason and their morality and are swept along by contagion. This theory is elegant, influential, and almost entirely wrong. Decades of evidence show that people in crowds do not surrender their identity; on the contrary, they adopt a shared one. The most useful concept my colleagues have developed is what we call social identity, the sense that, for a while, the strangers around you are an us rather than a them. And here is the crucial finding for anyone responsible for safety: the stronger that shared identity, the more people help one another, not less. In genuine emergencies, the dominant response is not selfish stampede but spontaneous cooperation, strangers forming chains, guiding each other out. The word panic, in fact, is one I try never to use, because it wrongly implies that the danger comes from the crowd's state of mind. In the overwhelming majority of fatal incidents, the real killer is not fear at all but sheer physical density, the crushing force of too many bodies in too small a space. That reframing has enormous practical consequences. If you believe the crowd is the enemy, you design barriers to control it and you brief police to suppress it, and both of those responses tend to make matters worse. If instead you understand that a crowd is a community that wants to look after itself, you design spaces that let it do so, and you treat people as partners in their own safety. My final point concerns communication. In a crisis, people crave information above all, and denying it, keeping them in the dark to prevent alarm, is precisely the wrong instinct, because uncertainty is what actually erodes cooperation. Tell people the truth, treat them as capable adults, and the crowd will, more often than not, save itself."
+   ],
+   "gapTitle": "Crowd Psychology",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The damaging old idea, from a writer called Le Bon, treats a crowd as a mindless ____",
+     "accept": [
+      "beast",
+      "animal",
+      "mob"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Rather than losing identity, people in crowds adopt a ____ one",
+     "accept": [
+      "shared",
+      "collective",
+      "common"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The key concept Nora's colleagues use is called social ____",
+     "accept": [
+      "identity"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "A stronger shared identity makes people ____ one another more",
+     "accept": [
+      "help",
+      "assist"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "In most fatal incidents the real killer is physical ____, not fear",
+     "accept": [
+      "density",
+      "crushing",
+      "pressure"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Nora avoids the word ____ because it blames the crowd's state of mind",
+     "accept": [
+      "panic"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "She argues a crowd is really a ____ that wants to protect itself",
+     "accept": [
+      "community"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "In a crisis people crave ____ above all, so it should not be withheld",
+     "accept": [
+      "information"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1-P3",
+   "title": "Part 3 · Questions 15–20",
+   "kind": "file",
+   "file": "P7/C1/C1-P3.mp3",
+   "intro": "You will hear an interview with a crowd-safety consultant called Sam. For each question, choose the best answer (A, B, C or D).",
+   "scripts": [
+    "Interviewer: Sam, you advise on the safety of huge events. What's the commonest mistake organisers make? Sam: Overestimating the danger from the crowd and underestimating the danger from the layout. They pour money into security guards to control people who were never going to misbehave, while a lethal bottleneck at an exit goes unnoticed. The threat is almost always in the architecture, not the temperament. Interviewer: Do you rely on cameras and technology? Sam: They're useful, but I'm wary of over-trusting them. A screen can tell you a space is filling up; it can't tell you how the people feel, whether the mood is festive or fraying. For that you still need experienced human eyes on the ground. Technology supplements judgement; it doesn't replace it. Interviewer: You've clashed with clients over ticket sales. Why? Sam: Because the dangerous decisions are made months before anyone arrives, in a spreadsheet. If you sell more tickets than the flow of the venue can safely absorb, no amount of stewarding on the night can rescue you. I've walked away from contracts over exactly that. Interviewer: Is there a myth you're forever correcting? Sam: The stampede myth, absolutely. Clients picture a herd charging blindly, and want barriers to hold it back. But barriers, wrongly placed, are what turn a dense crowd into a fatal crush. Half my job is persuading people that their instinct to build walls is the very thing that kills. Interviewer: What's changed most in your career? Sam: The recognition, at long last, that the people in the crowd are an asset. For years we treated them as the hazard to be managed. Now the best thinking treats them as thousands of extra pairs of hands who, if informed, will manage themselves. Interviewer: And what still keeps you awake? Sam: Complacency after a good run. The most dangerous event is the one following ten uneventful years, because everyone's guard has dropped and the near-misses have been quietly forgotten. Interviewer: Sam, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What is the commonest mistake organisers make, according to Sam?",
+     "o": [
+      "Hiring too few security staff",
+      "Fearing the crowd while ignoring dangerous layout",
+      "Spending too little on cameras",
+      "Selling tickets too cheaply"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Sam's view of surveillance technology?",
+     "o": [
+      "It should replace human staff",
+      "It is useless in practice",
+      "It supports but cannot replace human judgement",
+      "It is too expensive to justify"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "Why has Sam walked away from contracts?",
+     "o": [
+      "Over the overselling of tickets beyond safe flow",
+      "Over disputes about his fee",
+      "Over the choice of security firm",
+      "Over the design of the stage"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Sam say about barriers?",
+     "o": [
+      "They are always necessary",
+      "Wrongly placed, they can cause fatal crushes",
+      "They should be removed entirely",
+      "They matter less than cameras"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is the biggest change in Sam's field?",
+     "o": [
+      "Better barriers",
+      "Cheaper technology",
+      "Treating the crowd as an asset rather than a hazard",
+      "Larger security teams"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What most worries Sam?",
+     "o": [
+      "Complacency after a long safe period",
+      "Rising ticket prices",
+      "A shortage of stewards",
+      "New kinds of events"
+     ],
+     "c": 0
+    }
+   ]
+  },
+  {
+   "id": "C1-P4",
+   "title": "Part 4 · Questions 21–30",
+   "kind": "file",
+   "file": "P7/C1/C1-P4.mp3",
+   "intro": "You will hear five people describing an experience in a large crowd. TASK ONE (21–25): choose what the crowd taught each speaker. TASK TWO (26–30): choose what most affected each speaker emotionally.",
+   "scripts": [
+    "Speaker one. Woman: I was caught in a packed square when a sudden downpour started, and I braced myself for a scramble for the exits. Instead, complete strangers linked arms to steady the elderly and shepherd children under cover. It taught me that people are far kinder under pressure than the films suggest. What stayed with me, though, was the lump in my throat at that unasked-for tenderness between people who'd never meet again. Speaker two. Man: At a football match the terrace grew so dense I couldn't move my arms, and I understood in my body, not just my head, that the peril in a crowd is the sheer weight of it, not anyone's temper. Nobody was angry; we were simply too many. What overwhelmed me afterwards was pure relief, the shaking, tearful relief of having got out at all. Speaker three. Woman: During a political rally the mood turned in an instant when a rumour rippled through, and I watched thousands of calm people become uneasy on the strength of a single false word. It taught me how fast information, true or not, shapes a crowd. And honestly what gripped me was fascination, the scientist in me thrilled to witness the very thing I'd only read about. Speaker four. Man: I was a steward at a concert where the exits jammed, and the lesson was brutally clear: the design of the place had doomed us long before anyone arrived, the flaw was in the plan, not the people. What I carried home was guilt, a nagging sense that I should somehow have foreseen it, though of course I couldn't have. Speaker five. Woman: Stuck on a heaving station platform, I noticed how desperately everyone strained for any scrap of news, and it struck me that what a frightened crowd needs above all is honest information. When at last an announcement came, the whole platform exhaled. The feeling that flooded me then was gratitude, absurdly, gratitude for a few plain words of truth."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the crowd taught the speaker",
+     "person": "Speaker 1",
+     "bank": [
+      "people are kinder under pressure than expected",
+      "the danger is density, not bad temper",
+      "rumours can transform a crowd's mood",
+      "poor design, not people, causes disasters",
+      "a frightened crowd craves honest information",
+      "crowds are inherently dangerous",
+      "individuals lose all self-control",
+      "authorities always overreact"
+     ],
+     "c": "people are kinder under pressure than expected"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the crowd taught the speaker",
+     "person": "Speaker 2",
+     "bank": [
+      "people are kinder under pressure than expected",
+      "the danger is density, not bad temper",
+      "rumours can transform a crowd's mood",
+      "poor design, not people, causes disasters",
+      "a frightened crowd craves honest information",
+      "crowds are inherently dangerous",
+      "individuals lose all self-control",
+      "authorities always overreact"
+     ],
+     "c": "the danger is density, not bad temper"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the crowd taught the speaker",
+     "person": "Speaker 3",
+     "bank": [
+      "people are kinder under pressure than expected",
+      "the danger is density, not bad temper",
+      "rumours can transform a crowd's mood",
+      "poor design, not people, causes disasters",
+      "a frightened crowd craves honest information",
+      "crowds are inherently dangerous",
+      "individuals lose all self-control",
+      "authorities always overreact"
+     ],
+     "c": "rumours can transform a crowd's mood"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the crowd taught the speaker",
+     "person": "Speaker 4",
+     "bank": [
+      "people are kinder under pressure than expected",
+      "the danger is density, not bad temper",
+      "rumours can transform a crowd's mood",
+      "poor design, not people, causes disasters",
+      "a frightened crowd craves honest information",
+      "crowds are inherently dangerous",
+      "individuals lose all self-control",
+      "authorities always overreact"
+     ],
+     "c": "poor design, not people, causes disasters"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what the crowd taught the speaker",
+     "person": "Speaker 5",
+     "bank": [
+      "people are kinder under pressure than expected",
+      "the danger is density, not bad temper",
+      "rumours can transform a crowd's mood",
+      "poor design, not people, causes disasters",
+      "a frightened crowd craves honest information",
+      "crowds are inherently dangerous",
+      "individuals lose all self-control",
+      "authorities always overreact"
+     ],
+     "c": "a frightened crowd craves honest information"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what most affected the speaker emotionally",
+     "person": "Speaker 1",
+     "bank": [
+      "moved by strangers' tenderness",
+      "overwhelming relief at escaping",
+      "fascination at seeing theory in action",
+      "guilt at not foreseeing the problem",
+      "gratitude for honest words",
+      "anger at the organisers",
+      "boredom with the delay",
+      "pride in staying calm"
+     ],
+     "c": "moved by strangers' tenderness"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what most affected the speaker emotionally",
+     "person": "Speaker 2",
+     "bank": [
+      "moved by strangers' tenderness",
+      "overwhelming relief at escaping",
+      "fascination at seeing theory in action",
+      "guilt at not foreseeing the problem",
+      "gratitude for honest words",
+      "anger at the organisers",
+      "boredom with the delay",
+      "pride in staying calm"
+     ],
+     "c": "overwhelming relief at escaping"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what most affected the speaker emotionally",
+     "person": "Speaker 3",
+     "bank": [
+      "moved by strangers' tenderness",
+      "overwhelming relief at escaping",
+      "fascination at seeing theory in action",
+      "guilt at not foreseeing the problem",
+      "gratitude for honest words",
+      "anger at the organisers",
+      "boredom with the delay",
+      "pride in staying calm"
+     ],
+     "c": "fascination at seeing theory in action"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what most affected the speaker emotionally",
+     "person": "Speaker 4",
+     "bank": [
+      "moved by strangers' tenderness",
+      "overwhelming relief at escaping",
+      "fascination at seeing theory in action",
+      "guilt at not foreseeing the problem",
+      "gratitude for honest words",
+      "anger at the organisers",
+      "boredom with the delay",
+      "pride in staying calm"
+     ],
+     "c": "guilt at not foreseeing the problem"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what most affected the speaker emotionally",
+     "person": "Speaker 5",
+     "bank": [
+      "moved by strangers' tenderness",
+      "overwhelming relief at escaping",
+      "fascination at seeing theory in action",
+      "guilt at not foreseeing the problem",
+      "gratitude for honest words",
+      "anger at the organisers",
+      "boredom with the delay",
+      "pride in staying calm"
+     ],
+     "c": "gratitude for honest words"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+{
+  "title": "C1 Advanced — Reading and Use of English (Practice 17)",
+  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The return of the amateur",
+      "body": "Science was once largely (1)____ out by amateurs: clergymen, schoolmistresses and country doctors who (2)____ their spare hours to beetles, comets and barometric pressure. The professionalisation of research in the twentieth century pushed such figures to the (3)____ , and the very word 'amateur' curdled into a mild insult. Recently, however, the tide has begun to (4)____ . Ordinary volunteers now (5)____ a genuine contribution to fields from astronomy to ornithology — classifying galaxies from kitchen tables, or (6)____ track of migrating birds with a diligence no funded project could afford. Professional scientists initially treated such data with (7)____ , assuming that the untrained eye must be an unreliable one. The record has argued otherwise: checked against expert benchmarks, volunteer observations hold up remarkably well, and large networks of watchers can (8)____ patterns that no individual laboratory could hope to see. The amateurs, it turns out, had never really left. Science had simply stopped counting them.",
+      "questions": [
+        { "options": ["taken", "carried", "brought", "worked"], "answer": 1 },
+        { "options": ["spent", "applied", "devoted", "occupied"], "answer": 2 },
+        { "options": ["edges", "borders", "outskirts", "margins"], "answer": 3 },
+        { "options": ["turn", "shift", "reverse", "swing"], "answer": 0 },
+        { "options": ["do", "give", "make", "offer"], "answer": 2 },
+        { "options": ["holding", "taking", "catching", "keeping"], "answer": 3 },
+        { "options": ["suspicion", "doubt", "disbelief", "uncertainty"], "answer": 0 },
+        { "options": ["notice", "detect", "perceive", "witness"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The comet hunters",
+      "body": "Every year, a handful of comets are discovered not by professional observatories but by amateurs — retired teachers and engineers who spend night (9)____ night sweeping the sky with modest telescopes. Their persistence defies economic logic: the odds of a find are tiny, the financial reward nil. What drives them, by their (10)____ account, is the possibility of being the first human being ever to see something.\n\nProfessional astronomy, oddly enough, depends (11)____ them. The great observatories are pointed at the depths of space, their schedules fixed years ahead; nobody is paid simply to watch the whole sky in (12)____ something turns up. The amateurs fill this gap, and when one of them reports a discovery, instruments worth hundreds of millions swing round to see (13)____ the newcomer has found.\n\nIt would be difficult to think of another field in (14)____ unpaid outsiders are woven so tightly into the professional fabric. The reason is partly historical: astronomy never quite lost the habit, once common to all the sciences, of treating curiosity as qualification (15)____ . Whatever the explanation, the arrangement works, and both sides know (16)____ well to disturb it.",
+      "questions": [
+        { "accept": ["after"] },
+        { "accept": ["own"] },
+        { "accept": ["on", "upon"] },
+        { "accept": ["case"] },
+        { "accept": ["what"] },
+        { "accept": ["which"] },
+        { "accept": ["enough"] },
+        { "accept": ["too"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Citizen science",
+      "rows": [
+        { "text": "Millions of (17)____ submitted by volunteers now feed directly into published research.", "root": "OBSERVE" },
+        { "text": "The (18)____ of science over the last century turned the laboratory into a closed world.", "root": "PROFESSION" },
+        { "text": "What volunteers offer is not expertise but inexhaustible (19)____ .", "root": "CURIOUS" },
+        { "text": "Repeated checks reveal that the (20)____ of amateur records rivals that of professionals.", "root": "ACCURATE" },
+        { "text": "Some journals now list volunteer (21)____ by name alongside the credentialed authors.", "root": "CONTRIBUTE" },
+        { "text": "Initial (22)____ within the universities has largely given way to enthusiasm.", "root": "SCEPTIC" },
+        { "text": "Several genuine (23)____ , including previously unknown planets, have come from home computers.", "root": "BREAK" },
+        { "text": "Enthusiasts speak of nothing less than the (24)____ of discovery itself.", "root": "DEMOCRACY" }
+      ],
+      "questions": [
+        { "root": "OBSERVE", "accept": ["observations"] },
+        { "root": "PROFESSION", "accept": ["professionalisation", "professionalization"] },
+        { "root": "CURIOUS", "accept": ["curiosity"] },
+        { "root": "ACCURATE", "accept": ["accuracy"] },
+        { "root": "CONTRIBUTE", "accept": ["contributors"] },
+        { "root": "SCEPTIC", "accept": ["scepticism", "skepticism"] },
+        { "root": "BREAK", "accept": ["breakthroughs"] },
+        { "root": "DEMOCRACY", "accept": ["democratisation", "democratization"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+      "questions": [
+        {
+          "before": "She taught herself astronomy by reading library books.",
+          "keyword": "OWN",
+          "after": "She learned astronomy ___ , by reading library books.",
+          "accept": ["on her own", "all on her own"]
+        },
+        {
+          "before": "The society welcomes members regardless of their qualifications.",
+          "keyword": "HOW",
+          "after": "The society welcomes members no matter ___ they have.",
+          "accept": ["how few qualifications", "how many qualifications"]
+        },
+        {
+          "before": "According to reports, the discovery was accidental.",
+          "keyword": "CHANCE",
+          "after": "The discovery is reported to ___ .",
+          "accept": ["have been made by chance", "have happened by chance", "have come about by chance", "have occurred by chance"]
+        },
+        {
+          "before": "Nobody took her findings seriously at first.",
+          "keyword": "NOTICE",
+          "after": "At first, nobody ___ her findings.",
+          "accept": ["took any notice of", "took notice of", "took much notice of"]
+        },
+        {
+          "before": "If he hadn't kept such careful records, the pattern would never have emerged.",
+          "keyword": "BUT",
+          "after": "The pattern would never have emerged ___ careful records.",
+          "accept": ["but for his", "but for those", "but for such"]
+        },
+        {
+          "before": "Membership of the club has doubled in the last five years.",
+          "keyword": "TWICE",
+          "after": "The club now has ___ members as five years ago.",
+          "accept": ["twice as many"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "In defence of the amateur\n\nThe word 'amateur' has travelled a long way downhill. It began as a term of respect — one who does a thing for love, from the Latin amare — and in the great age of Victorian science it described most of the people doing the discovering: the country parson with his beetle cabinet, the mill-owner's daughter charting sunspots, the postal clerk who taught himself enough mathematics to correspond with the Astronomer Royal. Somewhere in the twentieth century the word curdled. To call a piece of work amateurish is now to condemn it, and the transformation tracks, almost exactly, the professionalisation of knowledge: the migration of science into universities, the rise of the credential, and the quiet conversion of curiosity from a qualification into a hobby.\n\nThere were excellent reasons for the change. Modern science needed instruments no private income could buy, training no rectory library could provide, and above all a machinery of verification — peer review, replication, statistical standards — that the gentleman naturalist, answerable to nobody but his own enthusiasm, conspicuously lacked. The professionals were not wrong to build walls; error and fraud were real enemies, and the walls kept much of both outside. The cost of the walls took longer to notice. A public excluded from the making of knowledge slowly became a public that regarded knowledge as something made elsewhere, by others, on its behalf — a spectator public, whose relationship to science was reduced to applause or, latterly, suspicion.\n\nWhat has changed in the last two decades is that the walls have grown convenient doors, and the traffic through them has surprised everyone. The term of art is citizen science: networks in which volunteers classify galaxies, log the first flowering dates of hedgerow plants, fold proteins in online games, or run pollution sensors on windowsills. The scale is no longer trivial. The largest projects have processed data volumes that would have required centuries of postdoctoral labour, and the contributions are not confined to drudgery: volunteers have flagged anomalies that led to genuine discoveries — planets in improbable orbits, new classes of galaxy — precisely because untrained eyes, unburdened by expectation, notice what trained ones have learned to ignore.\n\nIt would be sentimental to leave the story there, and the movement's own rhetoric sometimes invites the sentimentality. 'Democratisation' is the favoured word, but a sceptic is entitled to ask what, exactly, has been democratised. In most projects the volunteers gather or sort; the questions are set above, the analysis happens elsewhere, and the papers appear under professional names with the crowd thanked in a footnote. That is not a partnership of equals; on an unkind reading it is the scientific equivalent of user-generated content — free labour, harvested politely. And the data problems are real: volunteers cluster where volunteers live, watch what is charismatic, and stop when it rains, so that the records require statistical correction the enthusiasts rarely hear about. Honesty about these limits would serve the movement better than the brochure language it prefers.\n\nYet the deepest effect of the new amateurism may lie where the sceptics are not looking: not in the data but in the participants. Follow-up studies find that volunteers do not merely learn facts; they change their relationship to the whole enterprise, becoming markedly harder to fool — more alert to the difference between evidence and assertion, more patient with uncertainty, less impressed by confident nonsense. In an era in which organised distrust of expertise has become a political industry, a few million people who have handled real data, and felt how carefully a claim must be earned, are not a sentimental asset. They are infrastructure — the civic kind, invisible until it is missing.\n\nThe professionals, in short, were right that science needs walls; the amateurs are right that it also needs doors, and the interesting arguments are now about the doors' width. What should no longer be arguable is the direction of travel. Knowledge held entirely by a priesthood was never safe — not from error, and not from the mob that eventually gathers outside any temple it is forbidden to enter.",
+      "questions": [
+        { "stem": "What does the writer say about the word 'amateur' in the first paragraph?", "options": ["It has always carried a note of condemnation.", "It was coined by Victorian scientists.", "Its decline in status mirrors the professionalisation of science.", "It originally referred only to the wealthy."], "answer": 2 },
+        { "stem": "According to the second paragraph, what was the unnoticed cost of professionalisation?", "options": ["The public came to see knowledge as something made by others, for them.", "Universities became too expensive for most students.", "Instruments became impossible for institutions to afford.", "Fraud increased within the walls of the profession."], "answer": 0 },
+        { "stem": "Why, according to the third paragraph, have volunteers made genuine discoveries?", "options": ["They have access to better instruments than professionals.", "Their eyes are not conditioned by professional expectations.", "They work longer hours than paid researchers.", "They concentrate on the most fashionable fields."], "answer": 1 },
+        { "stem": "What criticism does the fourth paragraph level at the rhetoric of 'democratisation'?", "options": ["The word is too difficult for the public to understand.", "Democracy has no place in scientific method.", "Most projects are secretly funded by corporations.", "Volunteers supply labour while control and credit remain with professionals."], "answer": 3 },
+        { "stem": "Where does the writer locate the 'deepest effect' of citizen science?", "options": ["In the unprecedented volumes of data collected.", "In the financial savings to research institutions.", "In the changed judgement of the participants themselves.", "In the discovery of new planets and galaxies."], "answer": 2 },
+        { "stem": "Which statement best captures the writer's conclusion?", "options": ["The walls around professional science should be demolished entirely.", "Science needs both its protective walls and functioning doors through them.", "Amateurs should be excluded from data collection in future.", "The dispute between amateurs and professionals cannot be resolved."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "Read four short opinion pieces (A–D) on the same topic: whether 'citizen science' represents genuine science or merely clever outsourcing. Then answer the questions.",
+      "sources": [
+        { "label": "A", "text": "The argument was settled, as far as I am concerned, by results. Planets have been found in configurations the algorithms were not tuned to see, because a schoolteacher thought a light curve looked odd. A new class of galaxy sits in the catalogues because volunteers kept flagging green blobs the professionals had dismissed as glitches. Whole continental bird migrations are now mapped at a resolution no funded programme ever approached. One can theorise endlessly about whether this 'counts' as science; meanwhile the discoveries pile up, peer-reviewed and cited, with volunteers' names increasingly on the papers. At some point scepticism stops being rigour and becomes a refusal to update. We are well past that point." },
+        { "label": "B", "text": "Let us describe the arrangement plainly. Universities receive grants; volunteers receive newsletters. The crowd sorts a million images, and the professorship that results is not shared a millionth part. I have no doubt the participants enjoy themselves — that is precisely what troubles me, since enjoyment is how unpaid labour is made respectable. We have been here before: the 'computers' who calculated orbits for observatories, the wives who ran their husbands' laboratories, thanked warmly in prefaces and omitted from title pages. Citizen science may yet become a partnership, and some projects edge that way. But until the crowd shares in authorship, direction and, yes, funding decisions, we should call the current model what it is: the oldest trick in science, scaled by broadband." },
+        { "label": "C", "text": "My reservations are neither romantic nor political; they are statistical. Volunteer records cluster around cities, sunny weekends and photogenic species — the moth goes unlogged while the butterfly is counted thrice — and enthusiasm surges with media coverage, then collapses, leaving artefacts in every time series. None of this is fatal: with careful design and honest correction, crowd data has produced findings I trust completely. What I cannot trust is the hype that skips the corrections. When a headline announces that a million observations 'prove' a decline, and the missing sampling caveats would fill a page, the damage lands on science as a whole, because the retraction is always quieter than the claim. The volunteers deserve better than to have their diligence spent by publicists." },
+        { "label": "D", "text": "Everyone in this debate audits the data; I audit the people, and the results there seem to me the real story. I have tracked cohorts of project volunteers for a decade, and the pattern is consistent: after a year of classifying or counting, they read claims differently — asking after sample sizes, hunting for the control group, distinguishing what a study showed from what its press release said. Several told me the change outlasted their participation and spread to how they judged news, medicine, even politics. Whether their galaxy classifications shaved months off a professional's workload strikes me as the least interesting question one could ask. A society's resistance to nonsense is not built in schools alone. It is built wherever people handle evidence with their own hands, and citizen science is currently the largest such workshop we possess." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which writer questions the statistical reliability of what volunteers produce?", "answer": "C" },
+        { "stem": "Which writer sees the enjoyment of participants as part of an unfair bargain?", "answer": "B" },
+        { "stem": "Which writer locates the movement's chief value in its effect on the volunteers themselves?", "answer": "D" },
+        { "stem": "Which writer regards accumulated discoveries as a sufficient answer to the sceptics?", "answer": "A" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+      "passage": "The supernova in the spare bedroom\n\nThe most productive supernova observatory in the southern hemisphere is not on a Chilean mountaintop. It is a corrugated shed behind a weatherboard house in regional Australia, and its entire staff is a retired minister named Robert Evans, who found his first exploding star through a garden telescope and went on to find more by eye than any human being in history. (41)____\n\nThe method sounds impossible, and professionals long assumed it was. (42)____\n\nWhat makes the feat stranger is that the search was, by any reasonable calculation, a poor use of a life's evenings. (43)____\n\nAsked to explain the persistence, Evans reached not for astronomy but for theology — patience, he suggested, was his denomination's one transferable skill. (44)____\n\nThe professionals eventually stopped marvelling and started measuring. (45)____\n\nAutomated sky surveys have since taken over the hunt, discovering in a night what Evans found in a decade, and he expressed no bitterness about being surpassed by machinery. (46)____ The shed is still there, and on clear nights, out of habit rather than hope, so is he.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "There was also, colleagues noted, a quieter explanation: a memory trained by decades of sermons held over a thousand galaxy fields, each compared, checkmark by checkmark, against the sky of the previous month.",
+          "Tested against photographic archives, his visual sweeps turned out to miss almost nothing: the man was, in effect, a walking reference catalogue, updated nightly.",
+          "Supernovae in our own galaxy are far rarer, appearing perhaps twice in a millennium.",
+          "His reply became mildly famous in astronomical circles: the surveys, he said, had taken over the finding, but they could never take over the looking.",
+          "A supernova bright enough for a backyard instrument appears in any given galaxy roughly once in three hundred years, so a rational observer would expect a lifetime of searching to yield precisely nothing.",
+          "The instrument itself cost less than a second-hand car, a fact he enjoyed mentioning to visitors from the great observatories.",
+          "Between 1981 and 2008 he logged more than forty confirmed discoveries, several of which became foundation stones for the studies that revealed the accelerating expansion of the universe.",
+          "Cognitive scientists who studied his technique found no trickery, only a memory for star fields so exact that a single new point of light, in any of them, announced itself like a stranger at a family dinner."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing paragraph:", "answer": "G" },
+        { "stem": "Choose the missing paragraph:", "answer": "B" },
+        { "stem": "Choose the missing paragraph:", "answer": "E" },
+        { "stem": "Choose the missing paragraph:", "answer": "A" },
+        { "stem": "Choose the missing paragraph:", "answer": "H" },
+        { "stem": "Choose the missing paragraph:", "answer": "D" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 8",
+      "instructions": "You are going to read four short pieces (A–D) by dedicated amateurs whose observations serve professional science. Answer the questions by choosing the appropriate person.",
+      "sources": [
+        { "label": "A", "text": "Edith — weather recorder. The rain gauge in my garden has been read every morning at nine o'clock since 1911 — by my grandfather, then my mother, then me, and lately, under supervision, by my granddaughter. Three world crises interrupted many things in this village; the readings were not among them. For most of a century the ledgers were simply a family habit, mildly eccentric, occasionally mocked. Then the climate scientists came calling, and it turned out that an unbroken hundred-year series from a single spot is something their satellites cannot conjure and their models cannot do without. I confess the attention changed how I hold the pencil. What I record now feels less like a hobby than a trust — though I still will not let anyone move the gauge, not one metre, whatever their instruments say about a better site. Move the gauge and you break the century. They know it, and have stopped asking." },
+        { "label": "B", "text": "Howard — fossil collector. The cliffs where I collect crumble a little further every winter, which gives my pastime its urgency: whatever the sea exposes in November it takes back by March, and a specimen not found in that window is not found late — it is destroyed. I have delivered to the county museum, over forty years, some nine thousand catalogued pieces, including three species that now bear versions of my name, a form of immortality I pretend to find amusing and do not. My relations with the professionals have not been uniformly warm. In the early years, a curator published two of my best finds without so much as a mention; the omission taught me to keep field notes so meticulous that no one could write me out of them again. The notes, ironically, are now praised as models of documentation and used to train students. Bitterness, properly ridden, turns out to be an excellent methodological instructor." },
+        { "label": "C", "text": "Sunita — moth recorder. Nobody romanticises moths, which is precisely why my records matter: the charismatic species have a thousand watchers, while the small brown engines of every food chain go uncounted. My trap runs in the garden every night of the year, and the counting — before work, in all weathers, drab species after drab species — is tedium itself; I say so freely, because the tedium is the value. Fashionable recording follows sunshine and headlines, surging and collapsing, and the statisticians quietly despair of it. A series like mine, unbroken and unglamorous, is the control against which the enthusiasm of others can be corrected. Twenty-two years in, my garden has documented a decline nobody wished to believe, and the paper that announced it — my name sits third among the authors, which took some negotiating — has been cited in parliamentary testimony. The moths remain unfashionable. The numbers no longer are." },
+        { "label": "D", "text": "Callum — satellite tracker. My equipment is a deckchair, a stopwatch heritage from my grandfather, and binoculars; my observatory is whichever field has the fewest streetlights. I time the passage of satellites — where they are against the stars, and precisely when — and send the figures to a small international network of similarly afflicted individuals. It sounds redundant in the age of radar, until you learn what governments decline to publish: the classified payloads appear in no public catalogue, and it is our timings, pooled and cross-checked, that keep the independent record of what is actually up there. Professional astronomers use our data to protect their long exposures; journalists have used it for purposes that earned the network some frosty official correspondence. I remain uncertain whether what we do is citizen science or citizen oversight, and I have stopped needing the distinction. The sky is public. Someone should keep the minutes." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Edith", "Howard", "Sunita", "Callum"] },
+      "questions": [
+        { "stem": "Which person insists that the dullness of their routine is exactly what makes it scientifically valuable?", "answer": "C" },
+        { "stem": "Which person refuses a change that experts recommend, in order to protect continuity?", "answer": "A" },
+        { "stem": "Which person's activities have attracted the displeasure of official bodies?", "answer": "D" },
+        { "stem": "Which person works against a deadline set by natural destruction?", "answer": "B" },
+        { "stem": "Which person maintains a practice inherited through several generations of one family?", "answer": "A" },
+        { "stem": "Which person had to negotiate to receive formal credit for their contribution?", "answer": "C" },
+        { "stem": "Which person turned an experience of being denied recognition into a lasting improvement in their methods?", "answer": "B" },
+        { "stem": "Which person questions which category their activity belongs to, and no longer minds?", "answer": "D" },
+        { "stem": "Which person describes their attitude to their task changing once its importance was recognised?", "answer": "A" },
+        { "stem": "Which person monitors what the conventionally attractive alternatives leave uncounted?", "answer": "C" }
+      ]
+    }
+  ]
+}

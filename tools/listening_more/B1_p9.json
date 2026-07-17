@@ -1,0 +1,241 @@
+{
+ "label": "B1 — Intermediate",
+ "cefr": "Cambridge PET · B1 official format",
+ "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+ "audios": [
+  {
+   "id": "B1-P1",
+   "title": "Part 1 · Questions 1–7",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+   "segments": [
+    "The first lesson",
+    "The class time",
+    "A cooking show",
+    "What to bring",
+    "The weather",
+    "Getting to class",
+    "What they baked"
+   ],
+   "scripts": [
+    "Question one. Girl: What are we cooking in the first lesson, do you know? Boy: I hoped it would be cakes, but the teacher said we're starting with something simple — pizza. Girl: Simple? Mine always burns!",
+    "Question two. Woman: Hello, this is the cookery school. Just to let you know the Tuesday class has moved from four o'clock to half past four. Man: Half past four? That's actually better for me — thank you for calling.",
+    "Question three. Boy: Where's the cooking demonstration on Saturday? At the market? Girl: No, the chef is doing it at the café on Mill Street. Boy: The café? Great, we can get a hot chocolate afterwards.",
+    "Question four. Teacher: Before Thursday's class, one important thing. Aprons and ingredients are provided, but you must each bring a notebook, because you'll be writing down every recipe we make.",
+    "Question five. Girl: Is the outdoor barbecue class still happening today? Man: Haven't you looked outside? It's been snowing for two hours! Girl: Oh no. Indoors again, then.",
+    "Question six. Boy: Does your mum drive you to the cookery course, Kate? Kate: She used to, but she works late now, so I take the bus. It stops right outside the college. Boy: That's handy.",
+    "Question seven. Mum: Something smells wonderful! What did you make in class today? Girl: We baked a lemon cake — and mine came out perfectly. The teacher even took a photo of it! Mum: Can I try some?"
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What will the class cook in the first lesson?",
+     "imgs": ["pizza", "cake", "sandwich"],
+     "c": 0,
+     "audio": "P9/B1/B1-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the Tuesday class start now?",
+     "imgs": ["clock400", "clock430", "clock700"],
+     "c": 1,
+     "audio": "P9/B1/B1-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where is the cooking demonstration on Saturday?",
+     "imgs": ["cafe", "library", "park"],
+     "c": 0,
+     "audio": "P9/B1/B1-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What must students bring to Thursday's class?",
+     "imgs": ["bag", "hat", "book"],
+     "c": 2,
+     "audio": "P9/B1/B1-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What is the weather like today?",
+     "imgs": ["sunny", "rainy", "snowy"],
+     "c": 2,
+     "audio": "P9/B1/B1-P1-q5.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How does Kate get to the cookery course now?",
+     "imgs": ["bus", "car", "bike"],
+     "c": 0,
+     "audio": "P9/B1/B1-P1-q6.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What did the girl make in class today?",
+     "imgs": ["cake", "sandwich", "pizza"],
+     "c": 0,
+     "audio": "P9/B1/B1-P1-q7.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P2",
+   "title": "Part 2 · Questions 8–13",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+   "segments": [
+    "Why he joined",
+    "A first lesson",
+    "A chef's advice",
+    "Worth the money",
+    "A favourite dish",
+    "A missed class"
+   ],
+   "scripts": [
+    "Question eight. You will hear a man talking about joining a cookery course. Man: My friends think I joined to save money on restaurants, and my wife jokes that I just like the aprons. The truth is my doctor told me to eat better, and you can't eat healthily if everything you cook comes out of a packet.",
+    "Question nine. You will hear a girl talking about her first cookery lesson. Girl: I was so nervous about cutting myself with those big knives, but that went fine. Then I put the onions in the pan, turned round to chat, and in thirty seconds they were completely black. The whole room smelled of smoke!",
+    "Question ten. You will hear a chef giving advice. Man: New cooks always ask me about expensive pans or secret ingredients. Forget all that. The one habit that will improve your cooking is simple: taste your food while you cook it, again and again. Most people only taste it at the table, when it's too late.",
+    "Question eleven. You will hear a woman talking about her cookery course. Woman: Forty pounds a month isn't cheap, and the college is a bit far from my house. But there are only six of us in the class, so the teacher watches everything you do and corrects you straight away. That's why it's worth every penny.",
+    "Question twelve. You will hear a boy talking about the dishes he has learned. Boy: We've made soup, which was fine, and last week a salad with about ten things in it. But the day we cooked curry was the best — I've already made it twice at home, and my dad asked for more, which never happens.",
+    "Question thirteen. You will hear a girl explaining why she missed a class. Girl: Everyone thought I was ill, because there's a cold going round. Actually I was completely fine — it was my cousin's wedding that day, and I wasn't going to miss that. I did feel sad about missing the bread lesson, though."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why did the man join the cookery course?",
+     "o": ["To save money", "To eat more healthily", "To impress his wife"],
+     "c": 1,
+     "audio": "P9/B1/B1-P2-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What went wrong in the girl's first lesson?",
+     "o": ["She cut her finger", "She dropped a pan", "She burned the onions"],
+     "c": 2,
+     "audio": "P9/B1/B1-P2-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the chef say new cooks should do?",
+     "o": ["Taste food while cooking", "Buy good pans", "Use special ingredients"],
+     "c": 0,
+     "audio": "P9/B1/B1-P2-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why does the woman think the course is worth the money?",
+     "o": ["It is near her house", "The groups are small", "The teacher is famous"],
+     "c": 1,
+     "audio": "P9/B1/B1-P2-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Which dish did the boy like making best?",
+     "o": ["The soup", "The salad", "The curry"],
+     "c": 2,
+     "audio": "P9/B1/B1-P2-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why did the girl miss the class?",
+     "o": ["She was ill", "She went to a wedding", "She forgot about it"],
+     "c": 1,
+     "audio": "P9/B1/B1-P2-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P3",
+   "title": "Part 3 · Questions 14–19",
+   "kind": "file",
+   "file": "P9/B1/B1-P3.mp3",
+   "intro": "You will hear a woman giving information about a cookery course for beginners. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Hello, everyone, and thank you for your interest in our beginners' cookery course. Here are the details. The course takes place on Sundays — we tried Saturdays last year, but the kitchen wasn't free. We meet in the college kitchen, on the ground floor next to the canteen. The course lasts six weeks, with one lesson of two hours every week. The full price is forty pounds, and that includes all the ingredients you'll use. We provide the equipment, but please bring your own apron — cooking can get messy! In the first lesson we'll make a simple vegetable soup, and by the last week you'll be cooking a complete three-course meal. Places are limited to twelve, so book soon."
+   ],
+   "gapTitle": "Beginners' Cookery Course",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Day: ____",
+     "accept": ["sunday", "sundays"]
+    },
+    {
+     "type": "gap",
+     "label": "Place: the college ____",
+     "accept": ["kitchen"]
+    },
+    {
+     "type": "gap",
+     "label": "The course lasts: ____ weeks",
+     "accept": ["6", "six"]
+    },
+    {
+     "type": "gap",
+     "label": "Price: £ ____",
+     "accept": ["40", "forty"]
+    },
+    {
+     "type": "gap",
+     "label": "Bring your own: ____",
+     "accept": ["apron"]
+    },
+    {
+     "type": "gap",
+     "label": "First lesson: vegetable ____",
+     "accept": ["soup"]
+    }
+   ]
+  },
+  {
+   "id": "B1-P4",
+   "title": "Part 4 · Questions 20–25",
+   "kind": "file",
+   "file": "P9/B1/B1-P4.mp3",
+   "intro": "You will hear an interview with a girl called Hannah, who took a cookery course and now sells her own cakes. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Today I'm with Hannah, who took a cookery course last year and now sells cakes at the weekend market. Hannah, why did you join the course? Hannah: People assume I've always loved cooking, but actually I couldn't even boil an egg. My mum works evenings, so I joined because somebody had to cook for my little brothers — it started as a job, not a hobby. Interviewer: When did it become fun? Hannah: About week three. We baked bread, and when I took mine out of the oven, the whole class went quiet and then clapped. That moment changed everything for me. Interviewer: What was the most difficult thing to learn? Hannah: Not the recipes — you can read those. It was timing: making three things be ready at the same moment. I still find that harder than any cake. Interviewer: How did the market stall start? Hannah: My neighbour tried my carrot cake and ordered one for her birthday. Then her friends started ordering, and my dad suggested the market. I sold out in two hours on my first day. Interviewer: What do you spend the money on? Hannah: Everyone thinks I'm saving for a car, but no — every pound goes towards a professional oven. Mine at home is tiny. Interviewer: And in five years? Hannah: I'd love to open a small tea room in town, with my brothers waiting the tables. They don't know that yet, though!"
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why did Hannah join the cookery course?",
+     "o": ["She had always loved cooking", "She needed to cook for her family", "She wanted to sell cakes"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "When did Hannah start to enjoy cooking?",
+     "o": ["When her bread was a success", "When she passed the course", "When she cooked her first meal"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Hannah still find difficult?",
+     "o": ["Reading recipes", "Baking cakes", "Getting the timing right"],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "How did Hannah start selling cakes?",
+     "o": ["Her dad ordered one", "A neighbour ordered one", "The market invited her"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Hannah saving her money for?",
+     "o": ["A car", "A market stall", "A professional oven"],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What would Hannah like to do in the future?",
+     "o": ["Open a tea room", "Teach cookery", "Work in a restaurant"],
+     "c": 0
+    }
+   ]
+  }
+ ]
+}

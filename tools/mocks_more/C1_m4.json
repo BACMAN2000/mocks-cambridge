@@ -1,0 +1,192 @@
+{
+  "title": "C1 Advanced — Reading and Use of English (MOCK 4)",
+  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The trouble with the genuine article",
+      "body": "Stand before a celebrated canvas in any major gallery and you may find that your reverence has been (1)____ misplaced: a surprising number of works on public display are later copies, studio replicas or outright fakes. Connoisseurs like to claim they can (2)____ a forgery at a glance, yet the historical record tells a humbler story, one in which experts have repeatedly been taken in by imitations that later scholarship (3)____ as clumsy. What unsettles us about such episodes is not the financial loss, which institutions can usually (4)____, but the suggestion that the aesthetic experience itself was somehow counterfeit. If a painting moved us before the attribution collapsed, on what (5)____ do we withdraw our admiration afterwards? Philosophers have (6)____ over the question for decades without arriving at a settled answer. Some maintain that knowledge of a work's origins is (7)____ to its meaning; others retort that any beauty which evaporates in the face of documentary evidence was never more than snobbery in (8)____ .",
+      "questions": [
+        { "options": ["keenly", "richly", "sadly", "fiercely"], "answer": 2 },
+        { "options": ["spot", "notice", "view", "trace"], "answer": 0 },
+        { "options": ["overruled", "disproved", "discarded", "dismissed"], "answer": 3 },
+        { "options": ["withstand", "absorb", "undergo", "resist"], "answer": 1 },
+        { "options": ["cause", "reason", "grounds", "motive"], "answer": 2 },
+        { "options": ["agonised", "wrestled", "grappled", "strained"], "answer": 0 },
+        { "options": ["attached", "integral", "inward", "affiliated"], "answer": 1 },
+        { "options": ["cover", "mask", "veil", "disguise"], "answer": 3 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The restorer's dilemma",
+      "body": "The restoration of an old painting is often imagined as a simple act of rescue, (9)____ in practice it confronts the restorer with a series of quietly philosophical choices. Every canvas ages: varnish yellows, pigments fade, and earlier repairs sit (10)____ layers of grime. To strip all this away is to reveal, (11)____ we are told, the work as its maker intended it.\n\nYet (12)____ it not the case that the artist knew the varnish would mellow? Some painters, far (13)____ resisting the effects of time, positively counted on them, mixing their colours with the patina of future centuries already in mind. Restorers must therefore decide (14)____ moment in an object's long life counts as the 'real' one — a question to (15)____ there is no neutral answer.\n\nHowever scrupulous the science, the finished result reflects a judgement about what the past ought to look like, and it is a judgement (16)____ which visitors are rarely made aware.",
+      "questions": [
+        { "accept": ["but", "yet"] },
+        { "accept": ["beneath", "under", "below"] },
+        { "accept": ["so", "as"] },
+        { "accept": ["is"] },
+        { "accept": ["from"] },
+        { "accept": ["which", "what"] },
+        { "accept": ["which"] },
+        { "accept": ["of"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "The market for the genuine",
+      "rows": [
+        { "text": "The art market's obsession with provenance has made (17)____ a commodity in its own right.", "root": "AUTHENTIC" },
+        { "text": "Even seasoned dealers concede that the best fakes are practically (18)____ from the genuine article.", "root": "DISTINGUISH" },
+        { "text": "One notorious forger developed an (19)____ knack for ageing canvas convincingly.", "root": "CANNY" },
+        { "text": "Attribution committees are notoriously (20)____ to reverse a verdict once it has been published.", "root": "WILL" },
+        { "text": "Scientific analysis has exposed the (21)____ of several certificates once considered decisive.", "root": "WORTH" },
+        { "text": "Critics accuse the auction houses of being (22)____ incurious about where their finest lots come from.", "root": "CONVENIENT" },
+        { "text": "The (23)____ of a signature proves very little, since signatures were the first thing forgers learned to copy.", "root": "PRESENT" },
+        { "text": "What collectors are really buying, sceptics argue, is not beauty but (24)____ — the reassurance of a documented past.", "root": "LEGITIMATE" }
+      ],
+      "questions": [
+        { "root": "AUTHENTIC", "accept": ["authenticity"] },
+        { "root": "DISTINGUISH", "accept": ["indistinguishable"] },
+        { "root": "CANNY", "accept": ["uncanny"] },
+        { "root": "WILL", "accept": ["unwilling"] },
+        { "root": "WORTH", "accept": ["worthlessness"] },
+        { "root": "CONVENIENT", "accept": ["conveniently"] },
+        { "root": "PRESENT", "accept": ["presence"] },
+        { "root": "LEGITIMATE", "accept": ["legitimacy"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+      "questions": [
+        {
+          "before": "Experts did not realise the painting was a fake until it was cleaned.",
+          "keyword": "ONLY",
+          "after": "___ was cleaned did experts realise it was a fake.",
+          "accept": ["only when the painting", "only once the painting", "only after the painting"]
+        },
+        {
+          "before": "People say the artist destroyed his early works himself.",
+          "keyword": "SAID",
+          "after": "The artist ___ his early works himself.",
+          "accept": ["is said to have destroyed"]
+        },
+        {
+          "before": "I would prefer you not to mention the price to anyone.",
+          "keyword": "RATHER",
+          "after": "I ___ the price to anyone.",
+          "accept": ["would rather you did not mention", "would rather you didn't mention"]
+        },
+        {
+          "before": "The gallery does not intend to return the sculpture.",
+          "keyword": "NO",
+          "after": "The gallery has ___ the sculpture.",
+          "accept": ["no intention of returning"]
+        },
+        {
+          "before": "It was wrong of the museum to ignore the scientist's warnings.",
+          "keyword": "SHOULD",
+          "after": "The museum ___ the scientist's warnings.",
+          "accept": ["should not have ignored", "shouldn't have ignored"]
+        },
+        {
+          "before": "The painting is beautiful regardless of who actually made it.",
+          "keyword": "MAKES",
+          "after": "Who actually painted it ___ its beauty.",
+          "accept": ["makes no difference to"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The forger's argument\n\nWhen a celebrated forger is finally unmasked, something curious happens to public opinion. The dealers he deceived are ridiculed, the experts who authenticated his work are quietly ruined — and the forger himself, more often than not, becomes a minor celebrity. He gives interviews from prison; his fakes, now valueless as Old Masters, acquire a market of their own precisely as fakes; there is talk of a film. The burglar and the embezzler enjoy no such indulgence. Our attitude to the forger is a knot of condemnation and admiration, and the knot is worth untying, because it reveals something awkward about what we actually believe art to be.\n\nThe forger's classic defence runs as follows: I deceived no one's eyes. The collectors who paid fortunes for my paintings received exactly what they saw — objects capable of giving the very pleasure they sought. If viewers stood in reverence before my 'seventeenth-century' canvas, their experience was real; only the label was false, and a label, surely, is not the painting. The defence is glib, and courts are right to reject it. But it is considerably harder to answer than most of its indignant critics assume, and the difficulty is instructive.\n\nThe standard rebuttal goes to the nature of artistic value. We do not respond to paintings as we respond to sunsets, as mere occasions of visual pleasure; we respond to them as performances — feats achieved by a particular person, against particular constraints, at a particular moment in the history of what was possible. To paint in the manner of a seventeenth-century master in the seventeenth century was one kind of achievement; to do so three hundred years later, with the benefit of hindsight, chemistry and photographs, is a different and lesser one. A forgery misrepresents not the image but the achievement the image embodies. On this account, our admiration was obtained by fraud, and its withdrawal is not snobbery but accuracy.\n\nI find this account largely persuasive, and yet we do not apply it with anything like consistency. The Roman marbles that fill our museums are copies of lost Greek bronzes, and we admire them without embarrassment. When a painting long attributed to a master is demoted to 'studio of', the object suffers a collapse in price but rarely in affection; visitors do not demand its removal from the walls. It seems that our outrage is reserved not for the mismatch between object and achievement but for the intention to deceive. What the forger injures, in other words, is not art. It is trust.\n\nThat conclusion is less comfortable than it sounds, because trust in the art world is a commodity with a price. The entire apparatus of attribution — the catalogues, the committees, the certificates — exists to protect a market in which scarcity is value, and the market's guardians pursue forgery with an energy they conspicuously fail to devote to flattering misattributions, which, after all, keep prices buoyant. A forger corrupts the currency; an optimistic attribution merely prints a little more of it. One is prosecuted, the other tolerated, and the difference in treatment owes more to whose interests are threatened than to any principle of aesthetics.\n\nNone of this amounts to a pardon. The forger is a deceiver, and deception has victims; the argument for punishing him is sound. But he is also, involuntarily, a philosopher. Each successful fake is a small experiment demonstrating how much of what we call aesthetic experience is faith in a story about origins — and how much of the art world's floor is built over that faith. We are right to convict the man. We are wrong to imagine that, once he is safely in prison, the questions he raised go with him.",
+      "questions": [
+        { "stem": "What does the writer find revealing in the first paragraph?", "options": ["The severity with which forgers are punished.", "The public's mixture of censure and admiration for forgers.", "The reluctance of dealers to admit they were deceived.", "The lack of media interest in forgery cases."], "answer": 1 },
+        { "stem": "What is the writer's view of the forger's 'classic defence'?", "options": ["It is easily refuted by anyone with expert knowledge.", "It rests on a misunderstanding of why people visit galleries.", "It was devised by lawyers rather than by forgers themselves.", "It is harder to counter than its critics generally admit."], "answer": 3 },
+        { "stem": "According to the third paragraph, what does a forgery misrepresent?", "options": ["The nature of the achievement that the painting embodies.", "The materials from which the painting was made.", "The emotions the painter intended to convey.", "The price the painting ought to command."], "answer": 0 },
+        { "stem": "The writer mentions Roman marbles in order to", "options": ["prove that copying was regarded as a crime in antiquity", "show that Greek bronzes were superior to later work", "demonstrate that our objection to copies is not applied consistently", "argue that museums should label copies more clearly"], "answer": 2 },
+        { "stem": "In the fifth paragraph, the writer accuses the art market's institutions of", "options": ["lacking the expertise to detect sophisticated fakes", "punishing forgers more harshly than the law permits", "exaggerating the number of forgeries in circulation", "pursuing deception selectively, according to their own interests"], "answer": 3 },
+        { "stem": "Which statement best summarises the writer's final position?", "options": ["Forgery merits punishment, but it also exposes uncomfortable truths that outlast the forger's conviction.", "Forgery is essentially harmless and should no longer be prosecuted.", "Forgery will soon be eliminated by advances in scientific analysis.", "Forgery is best understood as an offence against individual collectors only."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "Read four short opinion pieces (A–D) on the same topic: whether high-fidelity replicas of artworks can substitute for the originals. Then answer the questions.",
+      "sources": [
+        { "label": "A", "text": "Museums have taught us to genuflect before the original, but the reverence is learned, not innate. In carefully controlled comparisons, even specialists struggle to tell a first-rate facsimile from the object itself, and visitors' reported experiences are all but identical — until, that is, they are told which is which. What changes at that moment is not the object but the story, and it seems perverse to let a story do so much work. If perfect replicas can carry the aesthetic experience to towns that will never host a blockbuster loan, then insisting on the one 'true' object looks less like connoisseurship than like a form of relic-worship we ought to have outgrown." },
+        { "label": "B", "text": "The comparison with relics is intended as a reproach, but I accept it cheerfully, because it points at the truth. An original has passed through particular hands at particular moments; it was present. That unbroken physical thread back to its maker is not a sentimental extra — it is what we are contemplating, whether we know it or not. A facsimile, however exact, stands outside that history, and no scan can smuggle it in. The blind-test argument misses the point entirely: value was never supposed to be detectable by inspection alone, any more than the difference between a wedding ring and its copy is visible under a lens." },
+        { "label": "C", "text": "Both sides of this quarrel exhaust themselves on metaphysics when the operative question is curatorial ethics. Whether a replica 'equals' an original strikes me as undecidable and, happily, beside the point. What matters is candour: a gallery that displays a facsimile as a facsimile insults nobody and may serve conservation admirably, while one that blurs the distinction — however lofty its motives — is trading on a misunderstanding. Visitors are entitled to know what they are looking at; what they then feel about it is their own business. Frame the debate as one about labelling and trust, and most of its heat simply evaporates." },
+        { "label": "D", "text": "What the aesthetes on both sides overlook is where the originals actually are: concentrated in a few dozen institutions in a few wealthy capitals, many holding objects whose ownership is, to put it politely, contested. High-fidelity replication changes that arithmetic. A museum could return a disputed bronze and keep a copy indistinguishable to any visitor — for I share the view that, for the public if not the scholar, the encounter loses nothing — or send copies outward so that the encounter multiplies. The interesting question about facsimiles is not what they are but what they make possible; and what they make possible is a fairer map of art." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which writer shares Writer A's view that a well-made replica can offer an experience equal to that of the original?", "answer": "D" },
+        { "stem": "Which writer, unlike the other three, sees the issue chiefly as a matter of honest presentation to the public?", "answer": "C" },
+        { "stem": "Which writer takes a different view from all the others on whether an object's physical continuity with the past confers value?", "answer": "B" },
+        { "stem": "Which writer, like Writer D, believes replicas could help important works reach a wider public?", "answer": "A" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+      "passage": "A question of attribution\n\nIn a quiet provincial museum, among the landscapes and the cabinet clocks, there hangs a small portrait of a young man in a dark coat. For the better part of a century its label read 'circle of' a celebrated seventeenth-century master — polite curatorial shorthand for 'probably not by him'. Few visitors gave it a second glance. (41)____\n\nHer article, published the following spring, argued that the portrait was no imitation but an early original, painted before the master had settled into the manner the textbooks describe. The effect was immediate: attendance tripled, the postcard sold out, and the town began, cautiously, to dream. (42)____\n\nStung, the museum commissioned a full technical examination. The canvas, the ground layer and every pigment proved consistent with the master's documented practice; the X-rays even revealed a change of composition beneath the surface, of a kind copyists — who have a finished picture to follow — almost never make. (43)____\n\nThe distinction was largely lost on the public, and perhaps understandably so. By now the portrait had become the town's emblem, reproduced on buses and biscuit tins, and the museum's finances had come to depend on the queue that formed each morning before the doors opened. (44)____\n\nAfter two years of deliberation, the committee of experts convened to settle the matter delivered its finding: the portrait would henceforth be catalogued as 'attributed to' the master. (45)____\n\nThe picture still hangs where it always did, though behind glass now, and the visitors still come. (46)____ Whatever the final truth of the matter, the object itself has not altered by a single brushstroke. What has changed is the story we bring to it — and the uncomfortable discovery of just how much of what we call seeing is, in fact, believing.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "With so much now riding on the outcome — jobs, tourism, civic pride — even those charged with impartial judgement conceded privately that a negative verdict would be a difficult thing to deliver.",
+          "Within weeks, however, a dissenting voice emerged: a specialist on the master's workshop pointed out that the brushwork in the sitter's hands, always the hardest thing to fake or to teach, matched no securely documented example.",
+          "The identity of the young man in the dark coat has, incidentally, never been established, though local legend insists he was the son of a wool merchant.",
+          "The master himself, ironically, was famously careless about signatures, often leaving his own works unmarked while his assistants signed theirs freely.",
+          "That changed one wet Tuesday, when a visiting scholar, sheltering from the rain, stopped in front of the portrait and found she could not walk on: something in the handling of the light, she later wrote, 'insisted on being taken seriously'.",
+          "Among them, occasionally, is the scholar whose sharp eye began it all, and she confesses to mixed feelings about the commotion she set in motion.",
+          "The results were reported in triumph, yet specialists were quick to note their real significance: the analysis had shown only that the painting could be by the master, not that it was.",
+          "The formula was a masterpiece of diplomatic ambiguity, acknowledging the picture's quality while stopping conspicuously short of the full endorsement the museum had hoped for."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing paragraph:", "answer": "E" },
+        { "stem": "Choose the missing paragraph:", "answer": "B" },
+        { "stem": "Choose the missing paragraph:", "answer": "G" },
+        { "stem": "Choose the missing paragraph:", "answer": "A" },
+        { "stem": "Choose the missing paragraph:", "answer": "H" },
+        { "stem": "Choose the missing paragraph:", "answer": "F" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 8",
+      "instructions": "You are going to read four short pieces (A–D) by people whose work involves questions of authenticity in art. Answer the questions by choosing the appropriate person.",
+      "sources": [
+        { "label": "A", "text": "Isabel — paintings conservator. People imagine I return paintings to how they 'really' looked, but every intervention is an interpretation, and the honest ones among us admit it. My rule is that everything I do must be reversible by whoever comes after me. The strange thing about my craft is that I am at my best when nobody can tell I have been there at all; my proudest repairs are the invisible ones. What keeps me awake is a darker thought: if the public ever grasped quite how much repainting sits on the walls of the great galleries, I suspect their faith in what they are looking at would be badly shaken." },
+        { "label": "B", "text": "Jonas — forensic materials scientist. My laboratory can tell you with confidence that a picture is wrong — a pigment invented in 1921 has no business in a 'Rembrandt' — but no instrument on earth can certify that a picture is right. That asymmetry is the first thing I explain to every client, and the first thing sellers forget. It maddens me to see my carefully hedged reports boiled down to a single reassuring sentence in an auction catalogue, with every caveat quietly amputated. I take a certain mischievous pleasure in demolishing romantic attributions; I take none at all in watching my conclusions ignored whenever serious money is at stake." },
+        { "label": "C", "text": "Margarethe — auction house specialist. My entire livelihood rests on judgements I could not fully explain if you paid me: an eye trained over thirty years registers a wrong passage of paint before my conscious mind has caught up, and I have learned to trust that discomfort. Outsiders assume commercial pressure makes people in my position reckless. The truth is the opposite: one confidently wrong attribution would finish my career overnight, so self-interest makes me the most cautious person in the building. What I do resent is the lazy portrayal of my trade as a conspiracy of the complicit. We turn away far more pictures than we ever sell." },
+        { "label": "D", "text": "Rafael — licensed copyist. I paint declared copies, signed and documented as such, and I would defend the trade to anyone: you do not truly understand a painting until you have rebuilt it stroke by stroke, and no amount of looking substitutes for that. Twice in my career I have been approached to produce work whose intended use was obvious and ugly, and twice I have shown the visitor the door. It amuses me that my honest copies are, technically speaking, better made than several celebrated fakes now hanging in museums as curiosities. People call what I do unoriginal. I call it the deepest form of reading." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Isabel", "Jonas", "Margarethe", "Rafael"] },
+      "questions": [
+        { "stem": "Which person points out that their methods can rule a work out but never conclusively rule it in?", "answer": "B" },
+        { "stem": "Which person claims their activity yields an understanding of a painting unobtainable by observation alone?", "answer": "D" },
+        { "stem": "Which person suggests that the success of their work is measured by its going unnoticed?", "answer": "A" },
+        { "stem": "Which person maintains that self-interest makes them more careful rather than less?", "answer": "C" },
+        { "stem": "Which person reports having refused invitations to act dishonestly?", "answer": "D" },
+        { "stem": "Which person fears that fuller public knowledge of their profession's interventions would undermine confidence in galleries?", "answer": "A" },
+        { "stem": "Which person resents a common characterisation of their profession as dishonest?", "answer": "C" },
+        { "stem": "Which person complains that their conclusions are misrepresented for commercial ends?", "answer": "B" },
+        { "stem": "Which person notes with irony that openly imitative work can surpass deceptive work in quality?", "answer": "D" },
+        { "stem": "Which person describes relying on expertise they are unable to put into words?", "answer": "C" }
+      ]
+    }
+  ]
+}

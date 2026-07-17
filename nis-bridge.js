@@ -35,7 +35,9 @@
         student_id: u.data.user.id,
         skill: att.skill,
         level: att.level,
-        mock: ((att.examType && att.examType.indexOf('practice')===0) ? 'practice' : att.examType==='mock01' ? 'mock1' : (att.examType==='mock02' || (att.examType && /^mock0\d+$/.test(att.examType))) ? 'mock2' : 'mock1'),
+        mock: ((att.examType && att.examType.indexOf('practice')===0) ? 'practice'
+               : (att.examType && /^mock0?(\d+)$/.test(att.examType)) ? ('mock' + att.examType.match(/^mock0?(\d+)$/)[1])
+               : 'mock1'),
         score: (att.score!=null?att.score:null),
         total: (att.total!=null?att.total:null),
         percent: (pct!=null?pct:null),
@@ -66,10 +68,29 @@
       return !!(r && r.data && r.data.unlocked);
     }catch(e){ return false; }
   }
+  /* Returns true if PRACTICE TESTS are unlocked for the student's grade.
+     Unlike mocks, practices are OPEN BY DEFAULT (fail-open): standalone users,
+     missing rows and network errors all resolve to TRUE. A teacher/admin can
+     lock them per grade from the NIS Portal (practice_access.unlocked=false). */
+  async function practiceUnlocked(){
+    var c = client(); if(!c) return true;
+    try{
+      var u = await c.auth.getUser();
+      if(!u || !u.data || !u.data.user) return true;
+      var prof = await c.from('profiles').select('grade_id,role').eq('id',u.data.user.id).maybeSingle();
+      var p = prof && prof.data ? prof.data : null;
+      if(!p) return true;
+      if(p.role === 'admin' || p.role === 'teacher') return true;
+      if(!p.grade_id) return true;
+      var r = await c.from('practice_access').select('unlocked').eq('grade_id',p.grade_id).maybeSingle();
+      if(!r || !r.data) return true;           // sin fila ⇒ abierto (default)
+      return !!r.data.unlocked;
+    }catch(e){ return true; }
+  }
   async function signOut(){
     var c = client(); if(!c) return;
     try{ await c.auth.signOut(); }catch(e){}
     try{ localStorage.clear(); }catch(e){}
   }
-  window.NIS = { client: client, currentStudent: currentStudent, save: save, mocksUnlocked: mocksUnlocked, signOut: signOut };
+  window.NIS = { client: client, currentStudent: currentStudent, save: save, mocksUnlocked: mocksUnlocked, practiceUnlocked: practiceUnlocked, signOut: signOut };
 })();

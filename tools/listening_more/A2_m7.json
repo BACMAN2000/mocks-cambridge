@@ -1,0 +1,316 @@
+{
+ "label": "A2 — Elementary",
+ "cefr": "Cambridge KET · A2 official format",
+ "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+ "audios": [
+  {
+   "id": "A2-P1",
+   "title": "Part 1 · Questions 1–5",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+   "segments": [
+    "Opening time",
+    "Spending money",
+    "The fair forecast",
+    "Taking photos",
+    "Where to meet"
+   ],
+   "scripts": [
+    "Question one. Girl: The fair opens at eight, doesn't it? Boy: The gates open at half past eight, but the rides don't start till nine. Girl: Let's get there when the gates open — the queue gets huge.",
+    "Question two. Boy: Are you going to buy one of those big hats at the fair? Girl: I got one last year and never wore it. I'm saving my money for the cake stall. Boy: Grandma's lemon cakes — good choice!",
+    "Question three. Man: I hope it stays dry for the fair. Woman: The morning will be sunny, but they say rain in the evening. Man: Then we'll go early.",
+    "Question four. Mum: Take your camera to the fair, Lucy. Girl: The battery's dead, Mum. I'll just use my phone. Mum: Fine, but don't lose it on the big wheel!",
+    "Question five. Boy: Shall we meet at the café before the fair? Girl: It's closed for the holidays. Let's meet at the park gates — the fair's right there. Boy: Perfect, ten o'clock."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What time do the fair gates open?",
+     "imgs": [
+      "clock9",
+      "clock8",
+      "clock830"
+     ],
+     "c": 2,
+     "audio": "M7/A2/A2-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will the girl spend her money on?",
+     "imgs": [
+      "cake",
+      "ball",
+      "hat"
+     ],
+     "c": 0,
+     "audio": "M7/A2/A2-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will the weather be like in the morning?",
+     "imgs": [
+      "rainy",
+      "snowy",
+      "sunny"
+     ],
+     "c": 2,
+     "audio": "M7/A2/A2-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will Lucy use to take photos?",
+     "imgs": [
+      "camera",
+      "phone",
+      "book"
+     ],
+     "c": 1,
+     "audio": "M7/A2/A2-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where will they meet?",
+     "imgs": [
+      "park",
+      "cafe",
+      "library"
+     ],
+     "c": 0,
+     "audio": "M7/A2/A2-P1-q5.mp3"
+    }
+   ]
+  },
+  {
+   "id": "A2-P2",
+   "title": "Part 2 · Questions 6–10",
+   "kind": "file",
+   "file": "M7/A2/A2-P2.mp3",
+   "intro": "You will hear a teacher giving information about the school summer fair. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+   "scripts": [
+    "Listen to a teacher giving information about the school summer fair. Teacher: Just a few last things about Saturday's summer fair. Helpers should arrive at eight forty-five to set up their stalls — the fair itself opens to families at ten. This year the fair is on the school field, and the car park is being painted, so tell your parents to park on King Street. Tickets cost three pounds for adults, and children come in free. All the money from the fair will buy new books for the library. Oh — and the school band plays at midday, so don't miss them."
+   ],
+   "gapTitle": "School Summer Fair",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Helpers should arrive at: ____",
+     "accept": [
+      "8:45",
+      "8.45",
+      "845",
+      "eight forty-five",
+      "eight forty five",
+      "quarter to nine"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Parents should park on: ____ Street",
+     "accept": [
+      "king"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Adult ticket: £ ____",
+     "accept": [
+      "3",
+      "three"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The money will buy new ____ for the library",
+     "accept": [
+      "books"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The school band plays at: ____",
+     "accept": [
+      "12",
+      "twelve",
+      "midday",
+      "noon",
+      "12:00",
+      "12.00",
+      "12 o'clock",
+      "twelve o'clock"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2-P3",
+   "title": "Part 3 · Questions 11–15",
+   "kind": "file",
+   "file": "M7/A2/A2-P3.mp3",
+   "intro": "You will hear Lucy talking to her friend Ben about the summer fair. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Lucy: Ben, are you helping at the fair this year? Ben: Yes — I asked to do the football game, but they gave me the bottle stall, like last year. Lucy: At least you know how it works! I'm doing face painting with my sister. Ben: Didn't you do the cake stall last year? Lucy: That was my mum. She's not coming this time — she's got a wedding. Ben: Shame. Hey, shall we try the big wheel when we finish? Lucy: I went on it last year and felt sick! Let's do the hook-a-duck instead — you win a prize every time. Ben: OK. What time do we finish helping? Lucy: The stalls close at three, but we have to tidy up, so we'll be free at four. Ben: Right — hook-a-duck at four it is."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What will Ben do at the fair?",
+     "o": [
+      "The football game",
+      "The bottle stall",
+      "The cake stall"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What will Lucy do this year?",
+     "o": [
+      "Face painting",
+      "The cake stall",
+      "Selling tickets"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Why isn't Lucy's mum coming to the fair?",
+     "o": [
+      "She's going to a wedding",
+      "She's working",
+      "She feels ill"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Why doesn't Lucy want to go on the big wheel?",
+     "o": [
+      "It looks scary",
+      "It made her feel sick last year",
+      "It's too expensive"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What time will Lucy and Ben be free?",
+     "o": [
+      "At three o'clock",
+      "At four o'clock",
+      "At midday"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P4",
+   "title": "Part 4 · Questions 16–20",
+   "kind": "file",
+   "file": "M7/A2/A2-P4.mp3",
+   "intro": "You will hear a girl called Rosa talking about last year's summer fair. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Rosa: Last year I ran a stall at the summer fair for the first time — and I nearly didn't do it. My plan was to sell lemonade, but two days before the fair, my teacher told me another family had already booked a drinks stall. I almost gave up. Then my little brother said, why not sell biscuits shaped like animals? I thought nobody would buy them — I'm not even a great cook — but Mum helped me bake all Friday evening. Well, we sold every single biscuit before two o'clock, and people kept asking for the elephants especially. The drinks stall had lots left over at the end, by the way! I made forty pounds for the school. This year I'm making twice as many biscuits — and my brother wants half the money, the cheeky thing."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What did Rosa plan to sell at first?",
+     "o": [
+      "Lemonade",
+      "Biscuits",
+      "Cakes"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Whose idea were the animal biscuits?",
+     "o": [
+      "Her mum's",
+      "Her brother's",
+      "Her teacher's"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What happened at Rosa's stall?",
+     "o": [
+      "The biscuits sold out early",
+      "Lots of biscuits were left over",
+      "The stall opened late"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Which biscuits did people want most?",
+     "o": [
+      "The lions",
+      "The elephants",
+      "The ducks"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What will Rosa do this year?",
+     "o": [
+      "Sell drinks instead",
+      "Make twice as many biscuits",
+      "Share a stall with another family"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P5",
+   "title": "Part 5 · Questions 21–25",
+   "kind": "file",
+   "file": "M7/A2/A2-P5.mp3",
+   "intro": "You will hear a teacher telling helpers where to go at the summer fair. What will each person do? For each question, choose the correct answer.",
+   "bank": [
+    "the book stall",
+    "the plant stall",
+    "the lucky dip",
+    "the coconut game",
+    "the tea tent",
+    "the toy stall",
+    "the raffle"
+   ],
+   "scripts": [
+    "Teacher: Helpers, listen for your places, please — there are some changes from the list on the wall. Emma, you asked for the tea tent, but we need someone strong on the plant stall — those pots are heavy — so that's yours. Noah, you'll run the lucky dip; the little ones love it. Grace, the tea tent is yours after all — you did it so well last year. Marcus, the coconut game needs somebody with a loud voice, and I couldn't think of anyone better! And Hannah, you're on the raffle — remember, tickets are a pound each, and the top prize is a huge teddy bear from the toy shop."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Emma",
+     "c": "the plant stall"
+    },
+    {
+     "type": "match",
+     "person": "Noah",
+     "c": "the lucky dip"
+    },
+    {
+     "type": "match",
+     "person": "Grace",
+     "c": "the tea tent"
+    },
+    {
+     "type": "match",
+     "person": "Marcus",
+     "c": "the coconut game"
+    },
+    {
+     "type": "match",
+     "person": "Hannah",
+     "c": "the raffle"
+    }
+   ]
+  }
+ ]
+}

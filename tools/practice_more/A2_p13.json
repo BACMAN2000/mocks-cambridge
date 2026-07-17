@@ -1,0 +1,158 @@
+{
+  "title": "A2 Key — Reading and Writing (Practice 13)",
+  "note": "Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Park Road Health Centre",
+          "text": "THE CENTRE OPENS AT 8 A.M. IF YOU NEED A DOCTOR AT NIGHT, PLEASE PHONE 111.",
+          "stem": "What should people do if they need help at night?",
+          "options": ["Phone 111.", "Come to the centre at 8 a.m.", "Wait outside the centre."],
+          "answer": 0
+        },
+        {
+          "kind": "message",
+          "header": "From: Dad → To: Josh",
+          "text": "Josh, your dentist appointment has changed to 4.15 today because the dentist is busy this morning. I'll pick you up from school at 3.45, so wait for me at the gate — don't take the bus.",
+          "stem": "How will Josh get to the dentist?",
+          "options": ["By bus.", "His dad will drive him.", "He will walk with a friend."],
+          "answer": 1
+        },
+        {
+          "kind": "email",
+          "from": "Dr Lane's Surgery",
+          "to": "Patients",
+          "subject": "Flu injections",
+          "body": "Dear patient, we are giving flu injections every Saturday morning in October. The injection is free for children and for people over 65. Everyone else pays £12. Please wear clothes with short sleeves to your appointment.",
+          "stem": "Who can get the injection without paying?",
+          "options": ["Everyone in October.", "People who wear short sleeves.", "Children and people over 65."],
+          "answer": 2
+        },
+        {
+          "kind": "note",
+          "header": "Note for Sara",
+          "text": "Sara — Your cough medicine is on the shelf in the bathroom. Take one spoon after lunch and another after dinner. Don't take it before playing sport — it might make you sleepy. — Mum",
+          "stem": "When should Sara take the medicine?",
+          "options": ["After meals.", "Before playing sport.", "Only in the morning."],
+          "answer": 0
+        },
+        {
+          "kind": "sign",
+          "header": "City Hospital — Ward 6",
+          "text": "VISITING HOURS: 2 P.M. TO 7 P.M. NO MORE THAN TWO VISITORS FOR EACH PATIENT, PLEASE.",
+          "stem": "What does the sign say about visitors?",
+          "options": ["They can come at any time.", "They must be family members.", "Each patient can have two at most."],
+          "answer": 2
+        },
+        {
+          "kind": "notice",
+          "header": "Greenway Pool",
+          "text": "SWIMMING IS GREAT EXERCISE! ADULT CLASSES ARE FULL UNTIL MAY, BUT THERE ARE FREE PLACES IN THE TEEN CLASSES ON WEDNESDAYS.",
+          "stem": "Which classes have free places?",
+          "options": ["Adult classes in May.", "Teen classes on Wednesdays.", "Children's classes."],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "Read about three young people and their health. For each question, choose the correct person (A, B or C). The people may be chosen more than once.",
+      "sources": [
+        {
+          "label": "A",
+          "name": "Rosa",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/16.jpg\" alt=\"Rosa\" loading=\"lazy\">",
+          "text": "Last year I fell off my bike and broke my arm. I had to wear a plaster cast for six weeks, and the worst part was that I couldn't go swimming, which I really missed. My friends all wrote funny messages on the cast. Now I never ride anywhere without my helmet — even to the corner of my street."
+        },
+        {
+          "label": "B",
+          "name": "Tomas",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/36.jpg\" alt=\"Tomas\" loading=\"lazy\">",
+          "text": "I go to the dentist twice a year. I used to eat sweets every day and drink a lot of fizzy drinks, and I had two bad teeth before I was ten. My dentist showed me pictures of what sugar does, and that changed my mind. Now I drink water instead, and at my last visit my teeth were perfect."
+        },
+        {
+          "label": "C",
+          "name": "Lily",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/62.jpg\" alt=\"Lily\" loading=\"lazy\">",
+          "text": "Three months ago, my mum and I started running together before school, just twenty minutes around the park. I used to feel really tired in lessons, especially in the afternoon, but that has almost stopped. I also sleep much better now. Our plan is to run a five-kilometre race together in the summer."
+        }
+      ],
+      "questions": [
+        {"stem": "Which person had an accident?", "answer": "A"},
+        {"stem": "Which person changed what they eat and drink?", "answer": "B"},
+        {"stem": "Which person does exercise with a parent?", "answer": "C"},
+        {"stem": "Which person used to feel tired at school?", "answer": "C"},
+        {"stem": "Which person now uses something to keep them safe?", "answer": "A"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the text about a boy who hurt his ankle. Choose the correct answer A, B or C.",
+      "passage": "In the spring holidays, Harry went to a trampoline park with his cousins. He was having a great time until he landed badly and hurt his ankle. It hurt so much that he could not stand up, and his aunt drove him straight to the hospital.\n\nAt the hospital, a nurse took Harry to have a special photo of his ankle, called an X-ray. Harry was worried the photo would hurt, but he didn't feel anything at all. The doctor looked at the X-ray and told him the news: his ankle was broken.\n\nHarry had to wear a special boot for six weeks and walk with crutches. At first he thought it might be fun, but he soon changed his mind. He couldn't play football, and his arms ached from the crutches. His friends were kind, though — they carried his school bag between lessons.\n\nWhen the boot came off, Harry's ankle felt weak. A physiotherapist called Emma gave him some simple exercises to do every morning and evening. They were boring, but Harry did them, because he wanted to play football again.\n\nTwo months later, Harry scored a goal in his first match back. He still goes to trampoline parks — but he is a lot more careful now.",
+      "questions": [
+        {"stem": "How did Harry get to the hospital?", "options": ["By ambulance.", "His cousin carried him.", "His aunt took him by car."], "answer": 2},
+        {"stem": "How did Harry feel about the X-ray before he had it?", "options": ["Excited.", "Worried it would hurt.", "Bored."], "answer": 1},
+        {"stem": "How did Harry's friends help him?", "options": ["They carried his bag at school.", "They did his homework.", "They lent him their crutches."], "answer": 0},
+        {"stem": "Why did Harry do his exercises?", "options": ["The doctor phoned him every day.", "They were fun to do.", "He wanted to play football again."], "answer": 2},
+        {"stem": "What do we learn about Harry now?", "options": ["He never goes to trampoline parks.", "He is more careful than before.", "He has stopped playing football."], "answer": 1}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 4",
+      "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+      "title": "Why Do We Sleep?",
+      "body": "Everybody needs sleep, but have you ever (19)____ why? While you are asleep, your body is busy. It mends itself and (20)____ ready for the next day. Your brain is working too: scientists believe that sleep helps us to (21)____ the things we have learned. Children need (22)____ sleep than adults — about nine or ten hours every night. If you don't sleep (23)____ , you may feel tired and find it hard to think clearly at school. To sleep well, doctors say you should go to bed at the same time every night and (24)____ using your phone just before bed.",
+      "questions": [
+        {"options": ["thought", "wondered", "asked", "known"], "answer": 1},
+        {"options": ["makes", "does", "gets", "goes"], "answer": 2},
+        {"options": ["remember", "forget", "study", "teach"], "answer": 0},
+        {"options": ["much", "many", "most", "more"], "answer": 3},
+        {"options": ["good", "enough", "plenty", "lots"], "answer": 1},
+        {"options": ["finish", "end", "close", "stop"], "answer": 3}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 5",
+      "instructions": "For each gap (25–30), write ONE word.",
+      "title": "An email to a friend who is ill",
+      "body": "Hi Noah,\n\nI'm sorry to hear that you (25)____ ill. Our teacher told us you have to stay (26)____ home all week.\n\nDon't worry (27)____ the science homework — I will send you my notes tonight. There (28)____ a small test on Friday, but Mr Evans says you can do it next week.\n\nI hope you feel better (29)____ . Maybe I can visit you (30)____ the weekend if your mum says it's OK.\n\nGet well soon!\nCarlos",
+      "questions": [
+        {"accept": ["are", "feel"]},
+        {"accept": ["at"]},
+        {"accept": ["about"]},
+        {"accept": ["is"]},
+        {"accept": ["soon"]},
+        {"accept": ["at", "on", "this"]}
+      ]
+    },
+    {
+      "type": "writing",
+      "part": "Part 6",
+      "prompts": [{
+        "kind": "email",
+        "instructions": "Your English friend Dani was ill last week and could not come to school. Write an email to Dani. In your email: say you hope Dani is better / explain what the class did last week / ask one question about how Dani feels now.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    },
+    {
+      "type": "writing",
+      "part": "Part 7",
+      "prompts": [{
+        "kind": "story",
+        "instructions": "Write a story for your English class. Your story must begin with this sentence:\nWhen Tom woke up on the day of the big match, his throat hurt.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    }
+  ]
+}

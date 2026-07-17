@@ -1,0 +1,342 @@
+{
+ "label": "B2 — Upper-Intermediate",
+ "cefr": "Cambridge First (FCE) · B2 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+ "audios": [
+  {
+   "id": "B2-P1",
+   "title": "Part 1 · Questions 1–8",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A documentary",
+    "A planting day",
+    "Advice for walkers",
+    "A bird survey",
+    "Helping hedgehogs",
+    "An announcement",
+    "A school pond",
+    "A garden centre"
+   ],
+   "scripts": [
+    "Question one. Woman: That wildlife documentary last night was fascinating, wasn't it? Man: It really was. I always assumed hunting was the main danger for most animals these days, but apparently it's roads. They cut habitats into little islands, so animals can't reach food or find partners. I had no idea the effect was that serious.",
+    "Question two. Man: Hello, it's Tom from the conservation group, about Saturday's tree planting by the river. Woman: Don't tell me it's cancelled. Man: Not cancelled, no, and we've got plenty of volunteers and tools. But the forecast is for heavy storms all Saturday, so we're moving the whole thing to Sunday morning instead. Same place, nine o'clock. Woman: Sunday works for me, see you there.",
+    "Question three. Coach: Before we set off on today's walk, one important request. I know the paths are muddy, and I'm not worried about that, and picnics are absolutely fine at the top. But it's nesting season, so whatever else you do, keep your dogs on their leads the whole way round. Birds are raising chicks on the ground just beside the path.",
+    "Question four. Man: You did that bird survey in the end, then? Girl: I did, every Saturday morning for a month. I only signed up because my friend begged me to, and I expected standing still and counting birds to be deadly boring. Actually it was the opposite, the time flew by, and I've already put my name down for the winter one.",
+    "Question five. Woman: The wildlife group says hedgehogs can't move between gardens any more because of all the new fences. Man: I read that. Apparently all you need to do is cut a small hole at the bottom of the fence, about the size of your fist. Woman: Shall we do ours this weekend? I'll talk to the neighbours, if we all do it, the hedgehogs can cross the whole street.",
+    "Question six. Man: Attention, please, visitors to Fernwood Nature Reserve. The reserve itself remains fully open today, including all hides and trails. However, the main car park is closed for resurfacing. Drivers should park at the overflow area and enter on foot through the north gate, which adds about five minutes to your walk.",
+    "Question seven. Girl: Wasn't your school digging a big pond this term? Boy: That was the plan, and we'd raised all the money too. But when the diggers arrived, someone spotted a rare newt living in the ditch, a protected species. So now everything's on hold until a specialist moves them somewhere safe. Weirdly, finding the newt proves the pond's a brilliant idea.",
+    "Question eight. Woman: I'd like some wildflower seeds for the bees, please. Assistant: These two mixes are our most popular. This one needs full sun, and this one's for shady corners. Woman: Hmm, our garden faces south, there's sun on it all day long. Assistant: Then the sunny mix is the one you want. Sow it this month and you'll have flowers by July."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What surprised the man about the documentary?",
+     "o": [
+      "How much damage roads cause",
+      "How much hunting still happens",
+      "How few animals remain"
+     ],
+     "c": 0,
+     "audio": "P17/B2/B2-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why is Tom calling?",
+     "o": [
+      "To cancel the planting day",
+      "To change the day of the event",
+      "To ask for more volunteers"
+     ],
+     "c": 1,
+     "audio": "P17/B2/B2-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What must the walkers do?",
+     "o": [
+      "Stay away from the mud",
+      "Avoid having picnics",
+      "Keep their dogs on leads"
+     ],
+     "c": 2,
+     "audio": "P17/B2/B2-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How did the girl feel about the bird survey?",
+     "o": [
+      "It was as boring as she expected",
+      "She enjoyed it more than she expected",
+      "It took up too much of her time"
+     ],
+     "c": 1,
+     "audio": "P17/B2/B2-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What do they decide to do for the hedgehogs?",
+     "o": [
+      "Take down their fence",
+      "Make a hole in their fence",
+      "Put food out in the garden"
+     ],
+     "c": 1,
+     "audio": "P17/B2/B2-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is closed at the nature reserve today?",
+     "o": [
+      "The main car park",
+      "The north gate",
+      "The bird hides"
+     ],
+     "c": 0,
+     "audio": "P17/B2/B2-P1-q6.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why has the school pond project stopped?",
+     "o": [
+      "The money ran out",
+      "A protected animal was found",
+      "The weather was too wet"
+     ],
+     "c": 1,
+     "audio": "P17/B2/B2-P1-q7.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Which seeds will the woman buy?",
+     "o": [
+      "The mix for sunny gardens",
+      "The mix for shady gardens",
+      "A mix of both types"
+     ],
+     "c": 0,
+     "audio": "P17/B2/B2-P1-q8.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B2-P2",
+   "title": "Part 2 · Questions 9–18",
+   "kind": "file",
+   "file": "P17/B2/B2-P2.mp3",
+   "intro": "You will hear a man called Ethan, a conservation officer, talking about a wildlife corridor project. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Good evening, everyone. My name's Ethan, and I'm the conservation officer for the Greenway Project, which I've been asked to tell you about tonight. First, a little history. People sometimes assume the project started after that famous television programme about disappearing wildlife, but we were already at work well before that. The project actually began in 2018, with a small team and a very large map. Our aim sounds simple: to build a wildlife corridor, a safe, continuous route that connects two forests which have been separated for over a century by farmland and a busy motorway. Animals in one forest simply couldn't reach the other, and both populations were suffering because of it. The corridor is now complete, and it runs for fourteen kilometres, weaving between fields, along old hedgerows and across two rivers. When we planned it, we had one species in mind above all. Not deer, which people always guess, and not badgers either, but red squirrels, whose numbers in the northern forest had fallen dangerously low. The corridor gives them a way to mix with the healthier southern population. Creating it was an enormous effort. Along the route, our volunteers planted eight thousand trees, every single one by hand, mostly oak, hazel and rowan. Some of the volunteers were seven years old, some were eighty. But trees alone couldn't solve the biggest obstacle: the motorway. You can't ask a squirrel to use a zebra crossing! So the most expensive part of the project was a green bridge, a wide crossing covered in grass and bushes, built right over the traffic. It opened two years ago, and it works. How do we know it works? Because along the whole corridor we've installed cameras, which film the animals at night without disturbing them. The footage has been full of surprises. And here's my favourite fact of the whole project: we built the bridge for squirrels, but the first animals to cross it were actually badgers, a whole family of them, filmed on the very first night. The squirrels took another three months to trust it. People often ask who pays for all this. Almost all the funding came from a lottery grant, awarded four years ago, plus smaller donations from local businesses. And finally, we'd love you to visit. Schools can book a guided walk along the southern section, where you can see the bridge, the cameras and, if you're lucky, the squirrels themselves. Details are on the project website. Thank you."
+   ],
+   "gapTitle": "The Greenway Wildlife Corridor",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The project began in: ____",
+     "accept": [
+      "2018",
+      "twenty eighteen"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The corridor connects two: ____",
+     "accept": [
+      "forests"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Length of the corridor: ____ kilometres",
+     "accept": [
+      "14",
+      "fourteen"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The species it was designed for: red ____",
+     "accept": [
+      "squirrels",
+      "squirrel"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Volunteers planted ____ trees",
+     "accept": [
+      "8,000",
+      "8000",
+      "eight thousand"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "A green bridge was built over the: ____",
+     "accept": [
+      "motorway",
+      "traffic"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Animals are filmed at night by: ____",
+     "accept": [
+      "cameras"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The first animals to cross the bridge were: ____",
+     "accept": [
+      "badgers"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Most funding came from a ____ grant",
+     "accept": [
+      "lottery"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Schools can book a guided: ____",
+     "accept": [
+      "walk"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2-P3",
+   "title": "Part 3 · Questions 19–23",
+   "kind": "file",
+   "file": "P17/B2/B2-P3.mp3",
+   "intro": "You will hear five people talking about how they help wildlife where they live. For each speaker, choose from the list (A–H) what they do. Use each letter once. There are three extra letters you will not need.",
+   "bank": [
+    "leaving part of the garden wild",
+    "building homes for insects",
+    "recording animals for scientists",
+    "campaigning against a new road",
+    "feeding birds in winter",
+    "creating a pond",
+    "planting a hedge",
+    "organising litter picks"
+   ],
+   "scripts": [
+    "Speaker one. Man: My neighbours think I've got lazy, because one corner of my lawn hasn't seen the mower in two years. But that's the whole point. I just let that patch do whatever it wants, long grass, nettles, dandelions, the lot. It looks scruffy, and it's absolutely alive: grasshoppers, butterflies, and last summer, a family of slow-worms. Doing nothing turned out to be the most useful thing I've ever done. Speaker two. Woman: Every evening in summer I put a light trap in the garden, and in the morning I photograph the moths inside before letting them go. Then I upload everything to a national database that researchers use to track how species are moving as the climate changes. I'm not an expert, I just follow the instructions, but my little garden is now a dot on the scientists' maps, and I love that. Speaker three. Man: The best thing I ever did cost me a weekend and a spade. I dug a hole no bigger than a bathtub at the end of the garden, lined it, and let the rain fill it. Within a year there were dragonflies, water beetles, and then frogs, dozens of them. If you only have room for one thing, make it water. Nothing brings life in faster. Speaker four. Woman: There's a meadow on the edge of our town, full of orchids and skylarks, and the council wants to put a bypass straight through the middle of it. So for the past year I've been collecting signatures, speaking at meetings and writing to the papers. It eats up all my free time, and we may still lose. But somebody has to stand up and say: not here. Speaker five. Man: My grandchildren and I spent the spring drilling holes in blocks of wood and bundling up hollow bamboo canes. We've hung the results all over the garden, little wooden towers for solitary bees and ladybirds to nest in. The kids call it the bug hotel, and they check in on the guests every visit. It's teaching them more than any nature programme could."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Speaker 1",
+     "c": "leaving part of the garden wild"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 2",
+     "c": "recording animals for scientists"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 3",
+     "c": "creating a pond"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 4",
+     "c": "campaigning against a new road"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 5",
+     "c": "building homes for insects"
+    }
+   ]
+  },
+  {
+   "id": "B2-P4",
+   "title": "Part 4 · Questions 24–30",
+   "kind": "file",
+   "file": "P17/B2/B2-P4.mp3",
+   "intro": "You will hear an interview with a scientist called Clara, who studies wildlife corridors. For each question, choose the best answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Clara, let's start with the basics. What exactly is a wildlife corridor? Clara: Think of it as a green route between two natural areas. It's not a nature reserve, and it's certainly not a fenced enclosure, quite the opposite. It's simply a strip of connected habitat, a line of woodland, a hedgerow, even a chain of gardens, that lets animals travel safely between places that would otherwise be cut off from each other. Interviewer: Why does it matter so much if animal populations are cut off? Clara: Because small, isolated groups are fragile in a way people don't expect. It's not usually hunger that threatens them, or even predators. The real danger is that the same few animals breed with each other generation after generation, and the population slowly becomes unhealthy. One bad winter or one disease can then wipe them out. Corridors let newcomers arrive, and newcomers keep a population strong. Interviewer: When people picture corridors, they imagine those spectacular green bridges over motorways. Are they the answer? Clara: They're wonderful, and they work, but here's what surprises everyone: the most effective corridors in our research are ordinary hedgerows. A continuous, thick hedge between two woods moves more animals of more species than almost anything else, at a fraction of the cost. The humble hedge is the hero of this story, not the bridge. Interviewer: So are the big bridges a waste of money? Clara: Not a waste, no, where a motorway is the obstacle, sometimes a bridge is the only option. But a single bridge can cost millions, and my worry is that one glamorous project eats the whole budget. In many landscapes you'd help far more animals by building dozens of small, cheap crossings, tunnels for toads, ropes for dormice, gaps under fences. Lots of small is usually better than one big. Interviewer: What part can ordinary people play, if they only have a garden? Clara: A bigger part than they imagine. One wild garden is a refuge, but a street of connected gardens is a corridor. If every household lets hedgehogs pass, plants one native shrub and skips the pesticides, the whole street becomes a route through the town. The animals don't know where one garden ends and the next begins, and that's exactly the point. Interviewer: How do you actually know animals use these corridors? It sounds hard to prove. Clara: For years it was mostly educated guessing, camera traps show you an animal, but not where it came from. The turning point in our work came when we fitted deer with GPS collars. The maps they produced were astonishing: within weeks, the deer had found a new underpass and were using it almost every night. That kind of evidence has convinced councils that used to ignore us. Interviewer: And what's next for your research? Clara: Something on a much bigger scale. We're building a national map of wildlife corridors, and the exciting part is that volunteers are doing the mapping, walking their local hedgerows and streams and recording what's there. Thousands of people have signed up already. Interviewer: Clara, thank you very much."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How does Clara describe a wildlife corridor?",
+     "o": [
+      "A type of fenced reserve",
+      "A strip of habitat connecting natural areas",
+      "A large protected forest"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why are isolated animal populations in danger?",
+     "o": [
+      "They cannot find enough food",
+      "They are easier for predators to catch",
+      "They gradually become unhealthy"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "Which corridors does Clara's research show are most effective?",
+     "o": [
+      "Green bridges",
+      "Hedgerows",
+      "River banks"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Clara's concern about green bridges?",
+     "o": [
+      "They use up too much of the budget",
+      "Animals refuse to cross them",
+      "They take too long to build"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "According to Clara, gardens help wildlife most when they",
+     "o": [
+      "are kept very tidy",
+      "are connected along a street",
+      "contain feeding stations"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What changed Clara's research?",
+     "o": [
+      "Using camera traps",
+      "Fitting deer with GPS collars",
+      "Counting animals by hand"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Clara working on now?",
+     "o": [
+      "A national map made with volunteers",
+      "A new type of green bridge",
+      "A book about hedgerows"
+     ],
+     "c": 0
+    }
+   ]
+  }
+ ]
+}

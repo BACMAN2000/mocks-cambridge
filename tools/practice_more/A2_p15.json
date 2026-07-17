@@ -1,0 +1,158 @@
+{
+  "title": "A2 Key — Reading and Writing (Practice 15)",
+  "note": "Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Sunny Bowling Centre",
+          "text": "BIRTHDAY PARTIES: TWO GAMES, PIZZA AND A DRINK FOR £12 EACH. GROUPS OF TEN OR MORE GET ONE FREE PLACE.",
+          "stem": "What do big groups get?",
+          "options": ["Free pizza for everyone.", "An extra game.", "One place without paying."],
+          "answer": 2
+        },
+        {
+          "kind": "message",
+          "header": "From: Freya → To: Bea",
+          "text": "Bea, I'm making a surprise card for Nora's birthday from our whole class. Can you write something in it before Friday? It's in my locker — but don't say anything to Nora, or the surprise will be ruined!",
+          "stem": "What must Bea NOT do?",
+          "options": ["Tell Nora about the card.", "Write in the card.", "See Nora before Friday."],
+          "answer": 0
+        },
+        {
+          "kind": "email",
+          "from": "Mario's Party House",
+          "to": "Mrs Cole",
+          "subject": "Saturday's party",
+          "body": "Dear Mrs Cole, thank you for booking your son's party with us. Please arrive at 2 p.m., fifteen minutes before your guests. The party room is upstairs this time, not downstairs, because we are painting the ground floor.",
+          "stem": "Why is the party room different this time?",
+          "options": ["The upstairs room is bigger.", "The downstairs room is being painted.", "Another party booked it first."],
+          "answer": 1
+        },
+        {
+          "kind": "note",
+          "header": "Note for Leon",
+          "text": "Leon — Milo phoned about the sleepover tomorrow. His mum says please bring your sleeping bag and a pillow. You don't need to bring any food — they've got plenty. — Dad",
+          "stem": "What should Leon take to the sleepover?",
+          "options": ["Snacks for everyone.", "Just a pillow.", "A sleeping bag and a pillow."],
+          "answer": 2
+        },
+        {
+          "kind": "sign",
+          "header": "Community Hall",
+          "text": "THE HALL MUST BE CLEAN AND EMPTY BY 10 P.M. PLEASE PUT ALL RUBBISH IN THE BINS BEHIND THE BUILDING.",
+          "stem": "Where should people put their rubbish?",
+          "options": ["In the bins behind the hall.", "Inside the hall.", "They can leave it on the tables."],
+          "answer": 0
+        },
+        {
+          "kind": "notice",
+          "header": "Class 8 Noticeboard",
+          "text": "END-OF-YEAR PARTY: WE STILL NEED SOMEONE TO BRING MUSIC AND TWO PEOPLE TO HELP PUT UP DECORATIONS. TALK TO MR PRICE IF YOU CAN HELP.",
+          "stem": "Who should students talk to if they want to help?",
+          "options": ["The whole class.", "Mr Price.", "Two other students."],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "Read about three young people and their friends. For each question, choose the correct person (A, B or C). The people may be chosen more than once.",
+      "sources": [
+        {
+          "label": "A",
+          "name": "Nina",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/6.jpg\" alt=\"Nina\" loading=\"lazy\">",
+          "text": "My best friend Carla moved to Australia with her family last year. I was so sad when she left, but we video-call every Sunday, and we send each other real letters too — it's fun getting post! The best news is that my parents say I can visit her next summer. I'm already counting the days."
+        },
+        {
+          "label": "B",
+          "name": "Sami",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/92.jpg\" alt=\"Sami\" loading=\"lazy\">",
+          "text": "I joined my school in January, and at first I didn't know anybody. Then I went to the chess club one lunchtime, and everything changed. Now I have a great group of friends, and we play chess together every day. This year I've started teaching the younger kids how to play. Chess gave me all my friends!"
+        },
+        {
+          "label": "C",
+          "name": "Tara",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/29.jpg\" alt=\"Tara\" loading=\"lazy\">",
+          "text": "There are seven of us in my friend group, all from the same street. My friends call me 'the party planner' because I love organising things for us to do. Last month I planned a picnic in the park for my friend Amy's birthday, with games and a treasure hunt. Everyone said it was the best day ever."
+        }
+      ],
+      "questions": [
+        {"stem": "Which person was new at their school this year?", "answer": "B"},
+        {"stem": "Which person has a friend who lives in another country?", "answer": "A"},
+        {"stem": "Which person likes organising things for their friends?", "answer": "C"},
+        {"stem": "Which person teaches other people?", "answer": "B"},
+        {"stem": "Which person is planning a long trip?", "answer": "A"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the text about a surprise party. Choose the correct answer A, B or C.",
+      "passage": "When Dan's grandad turned seventy, Dan's family decided to have a surprise party for him. Grandad always said he didn't want any fuss, but Dan's mum was sure he would secretly love it.\n\nKeeping the secret was the hardest part for Dan. He nearly told Grandad twice, once when they were fishing and once on the phone. Each time, he had to quickly talk about something else.\n\nDan's job was the music. Grandad loves old rock songs, so Dan asked him lots of questions about his favourite bands — 'for a school project', he said. Then he made a playlist of all the songs Grandad talked about.\n\nOn the day of the party, Dan's uncle took Grandad out for lunch, and everyone else got the house ready. Thirty people hid in the garden, including Grandad's oldest friend Bill, who had travelled from Scotland. When Grandad walked in and everyone shouted 'Surprise!', he had to sit down — and then he laughed for a long time.\n\nGrandad said the best part wasn't the cake or the presents. It was hearing his favourite music and seeing Bill again after ten years. Dan felt very proud.",
+      "questions": [
+        {"stem": "Why was the surprise difficult for Dan?", "options": ["He didn't like keeping secrets from his mum.", "He nearly told Grandad twice.", "He forgot about the party."], "answer": 1},
+        {"stem": "How did Dan find out about Grandad's favourite music?", "options": ["He asked Grandad's friend Bill.", "He looked at Grandad's old records.", "He said he was asking for a school project."], "answer": 2},
+        {"stem": "What happened while Grandad was at lunch?", "options": ["The family prepared the house.", "Dan went fishing with his uncle.", "Dan made the playlist."], "answer": 0},
+        {"stem": "What did Grandad do when he saw everyone?", "options": ["He went back outside.", "He sat down and laughed.", "He turned off the music."], "answer": 1},
+        {"stem": "What did Grandad enjoy most?", "options": ["The music and seeing his old friend.", "The birthday cake.", "The presents."], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 4",
+      "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+      "title": "Birthdays Around the World",
+      "body": "People celebrate birthdays in different ways around the (19)____ . In many countries, the birthday child gets cards and presents, and friends come to a party. There is often a special cake with candles on (20)____ — one candle for each year. The child makes a secret wish and then tries to (21)____ out all the candles at once. In some places, friendly guests pull the child's ears for good (22)____ ! In other countries, the birthday person does not receive food — instead, they (23)____ sweet things to their friends and family. Whatever people do, birthdays are a day for feeling (24)____ .",
+      "questions": [
+        {"options": ["world", "earth", "countries", "place"], "answer": 0},
+        {"options": ["them", "one", "this", "top"], "answer": 3},
+        {"options": ["push", "blow", "throw", "breathe"], "answer": 1},
+        {"options": ["wish", "fun", "luck", "hope"], "answer": 2},
+        {"options": ["get", "take", "keep", "give"], "answer": 3},
+        {"options": ["alone", "special", "boring", "angry"], "answer": 1}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 5",
+      "instructions": "For each gap (25–30), write ONE word.",
+      "title": "A party invitation",
+      "body": "Hi Katie,\n\nI'm having a party (25)____ Saturday afternoon because my cousin Zoe is visiting. I'd love you (26)____ come and meet her.\n\nThe party starts at three o'clock (27)____ my house. We're going to play games in the garden, so wear (28)____ old!\n\nCan you tell me (29)____ Friday if you can come? My mum needs to know how (30)____ people to cook for.\n\nHope to see you there!\nAmber",
+      "questions": [
+        {"accept": ["on", "this", "next"]},
+        {"accept": ["to"]},
+        {"accept": ["at"]},
+        {"accept": ["something"]},
+        {"accept": ["by", "before"]},
+        {"accept": ["many"]}
+      ]
+    },
+    {
+      "type": "writing",
+      "part": "Part 6",
+      "prompts": [{
+        "kind": "email",
+        "instructions": "It is your English friend Kim's birthday soon. Write an email to Kim. In your email: ask what Kim is doing for their birthday / suggest something fun you could do together / say when you are free.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    },
+    {
+      "type": "writing",
+      "part": "Part 7",
+      "prompts": [{
+        "kind": "story",
+        "instructions": "Write a story for your English class. Your story must begin with this sentence:\nWhen Lucy arrived at the party, she saw that everyone was wearing the same costume.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    }
+  ]
+}

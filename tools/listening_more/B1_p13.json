@@ -1,0 +1,241 @@
+{
+ "label": "B1 — Intermediate",
+ "cefr": "Cambridge PET · B1 official format",
+ "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+ "audios": [
+  {
+   "id": "B1-P1",
+   "title": "Part 1 · Questions 1–7",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+   "segments": [
+    "A second-hand find",
+    "The club meeting",
+    "The photo walk",
+    "Winter photos",
+    "Carrying the camera",
+    "The club trip",
+    "A competition idea"
+   ],
+   "scripts": [
+    "Question one. Girl: Did you save up for a new phone in the end, Noah? Noah: I decided my phone takes good enough pictures already — so I bought a second-hand camera instead, a proper one. Girl: For the photography club? Nice!",
+    "Question two. Boy: Is the club still meeting at four o'clock today? Girl: Didn't you see the notice? It's moved to half past four, because of the staff meeting. Boy: Half past four. OK, I'll wait in the library.",
+    "Question three. Girl: Where's Saturday's photo walk? Along the river? Boy: That was last month. This time we're photographing the old trees in the park. Girl: Perfect — the leaves are turning gold.",
+    "Question four. Boy: I want wintry photos for the competition, but rain is so boring. Girl: You're in luck — look out of the window! It's really coming down. Boy: Snow! Grab your coat, we're going out right now.",
+    "Question five. Teacher: One rule before our trip: cameras are delicate, so don't just throw them in with your lunch. Carry your camera in a padded bag, on your front, where you can see it.",
+    "Question six. Girl: How are we getting to the harbour for the club trip? By train? Boy: The teacher's booked a bus — it can wait for us while we shoot, and a train can't. Girl: Makes sense.",
+    "Question seven. Boy: What are you photographing for the 'family treasures' competition, Ruby? Ruby: I thought about Mum's rings, but I've chosen my grandad's old guitar — the wood is worn where he played it for fifty years. Boy: That's a winner."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What did Noah buy?",
+     "imgs": ["camera", "phone", "guitar"],
+     "c": 0,
+     "audio": "P13/B1/B1-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the club meet today?",
+     "imgs": ["clock400", "clock430", "clock700"],
+     "c": 1,
+     "audio": "P13/B1/B1-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where is Saturday's photo walk?",
+     "imgs": ["park", "cafe", "library"],
+     "c": 0,
+     "audio": "P13/B1/B1-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What is the weather like now?",
+     "imgs": ["sunny", "rainy", "snowy"],
+     "c": 2,
+     "audio": "P13/B1/B1-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What should students carry their camera in?",
+     "imgs": ["bag", "hat", "umbrella"],
+     "c": 0,
+     "audio": "P13/B1/B1-P1-q5.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will the club travel to the harbour?",
+     "imgs": ["car", "bus", "bike"],
+     "c": 1,
+     "audio": "P13/B1/B1-P1-q6.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will Ruby photograph for the competition?",
+     "imgs": ["cake", "ball", "guitar"],
+     "c": 2,
+     "audio": "P13/B1/B1-P1-q7.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P2",
+   "title": "Part 2 · Questions 8–13",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+   "segments": [
+    "Joining the club",
+    "Phone or camera?",
+    "The exhibition",
+    "The competition theme",
+    "The best light",
+    "Printing photos"
+   ],
+   "scripts": [
+    "Question eight. You will hear a boy talking about joining the photography club. Boy: My mum kept saying I should join a club, any club, and I ignored her for a year. Then my friend Ethan showed me the photos he'd taken of a storm — they looked like posters from a shop. That did it. I signed up the next day.",
+    "Question nine. You will hear a girl talking about cameras. Girl: I nearly didn't join the club because I don't own a camera, just my phone. But the teacher told me half the club started that way — she says a phone is fine for learning, and what matters is your eye, not the equipment. So I stopped worrying.",
+    "Question ten. You will hear a man talking about the club's exhibition. Man: Last year we hung the photos in the school corridor, and only parents saw them. This year the town library has given us their entrance hall for a whole month, so everyone who walks in will see the students' work. It's a big step up.",
+    "Question eleven. You will hear a teacher announcing a competition. Teacher: Now, about the spring photo competition. Last term's theme was trees, and before that we did old buildings. This time the judges have chosen 'water' — so think rivers, rain, reflections, anything you like, as long as water is the star of the picture.",
+    "Question twelve. You will hear a woman giving advice about light. Woman: Beginners always shoot at midday, when the sun is high and the shadows are hard and ugly. Set your alarm instead. An hour after sunrise the light is soft and golden, and the streets are empty. Morning light will transform your pictures.",
+    "Question thirteen. You will hear a boy talking about printing photos. Boy: I wanted to print my photos at home, but a decent printer costs more than my camera did, and the ink is even worse. So I use the little shop near the station — twenty prints for two pounds, ready in an hour. It's not worth doing it any other way."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why did the boy join the photography club?",
+     "o": ["His mum chose it for him", "His friend's photos impressed him", "He saw an advert"],
+     "c": 1,
+     "audio": "P13/B1/B1-P2-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the teacher say about phones?",
+     "o": ["They are fine for learning", "They are not allowed", "They take poor photos"],
+     "c": 0,
+     "audio": "P13/B1/B1-P2-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Where will the exhibition be this year?",
+     "o": ["In the school corridor", "At the town library", "At the railway station"],
+     "c": 1,
+     "audio": "P13/B1/B1-P2-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the theme of the spring competition?",
+     "o": ["Trees", "Old buildings", "Water"],
+     "c": 2,
+     "audio": "P13/B1/B1-P2-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "When does the woman say photos look best?",
+     "o": ["In the early morning", "At midday", "At sunset"],
+     "c": 0,
+     "audio": "P13/B1/B1-P2-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Where does the boy print his photos?",
+     "o": ["At home", "At school", "At a shop"],
+     "c": 2,
+     "audio": "P13/B1/B1-P2-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P3",
+   "title": "Part 3 · Questions 14–19",
+   "kind": "file",
+   "file": "P13/B1/B1-P3.mp3",
+   "intro": "You will hear a student giving information about the school photography club. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Hi, everyone! I'm here to tell you about the photography club, because we're looking for new members this term. We meet every Tuesday after school — not Fridays any more, that changed this year. We're in room twelve, up on the second floor next to the art room. Membership costs ten pounds for the whole year, and that pays for printing and for materials on our photo walks. You don't need an expensive camera — phones are absolutely fine. Each month we photograph a different topic: this month it's animals, so bring pictures of your pets, or the ducks in the park, whatever you can find. And here's the exciting part: our club competition closes at the end of April, and the winning photo will be printed large and hung in the school library for everyone to see. Come and try a meeting — the first one is free!"
+   ],
+   "gapTitle": "School Photography Club",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The club meets every: ____",
+     "accept": ["tuesday", "tuesdays"]
+    },
+    {
+     "type": "gap",
+     "label": "Room number: ____",
+     "accept": ["12", "twelve"]
+    },
+    {
+     "type": "gap",
+     "label": "Membership for the year: £ ____",
+     "accept": ["10", "ten"]
+    },
+    {
+     "type": "gap",
+     "label": "This month's topic: ____",
+     "accept": ["animals"]
+    },
+    {
+     "type": "gap",
+     "label": "Competition closes at the end of: ____",
+     "accept": ["april"]
+    },
+    {
+     "type": "gap",
+     "label": "Winning photo hung in the school ____",
+     "accept": ["library"]
+    }
+   ]
+  },
+  {
+   "id": "B1-P4",
+   "title": "Part 4 · Questions 20–25",
+   "kind": "file",
+   "file": "P13/B1/B1-P4.mp3",
+   "intro": "You will hear an interview with a student called Olivia, who started her school's photography club. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Olivia, you started the photography club at your school two years ago. Why? Olivia: People think I must have been an expert with a fancy camera. Actually I'd just moved to the school and didn't know anyone. I thought: if I start a club about something I love, the right people will come to me. And they did. Interviewer: How many members are there now? Olivia: We started with four — me and three friends I begged to come. Now there are twenty-five, and we've had to move to a bigger room. The teachers keep asking what our secret is. Interviewer: What was the hardest part of starting the club? Olivia: Not finding members, in the end. The hard part was equipment — the school had no money for cameras. We solved it by asking families in town to donate old ones. We got eleven cameras in a month, some really good. Interviewer: What's been your best moment? Olivia: Our exhibition in the town library, without a doubt. Watching strangers stop and really look at our photos — one woman asked if she could buy Ethan's picture of the harbour. He nearly fainted. Interviewer: What do you actually do at meetings? Olivia: People imagine we sit and talk about cameras. Mostly we go out and shoot — the rule is: every meeting, everyone takes at least twenty photos, then we choose our best three together. Interviewer: And what's next for the club? Olivia: In the summer we're planning a whole photo weekend at the coast — two days photographing boats, birds and the sea. We're already saving up for it."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why did Olivia start the photography club?",
+     "o": ["She wanted to make friends", "She was an expert photographer", "A teacher asked her to"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How many members does the club have now?",
+     "o": ["Four", "Eleven", "Twenty-five"],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What was the hardest problem to solve?",
+     "o": ["Finding members", "Getting cameras", "Finding a room"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What was Olivia's best moment?",
+     "o": ["The exhibition at the library", "Buying new equipment", "Moving to a bigger room"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What do members mostly do at meetings?",
+     "o": ["Talk about cameras", "Go out and take photos", "Print their pictures"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is the club planning next?",
+     "o": ["A photo weekend at the coast", "A new exhibition", "A camera sale"],
+     "c": 0
+    }
+   ]
+  }
+ ]
+}

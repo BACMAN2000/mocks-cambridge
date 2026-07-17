@@ -1,0 +1,241 @@
+{
+ "label": "B1 — Intermediate",
+ "cefr": "Cambridge PET · B1 official format",
+ "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+ "audios": [
+  {
+   "id": "B1-P1",
+   "title": "Part 1 · Questions 1–7",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+   "segments": [
+    "Food for the trip",
+    "Getting to the campsite",
+    "Friday's weather",
+    "Leaving time",
+    "What to pack",
+    "Where to meet",
+    "A missing thing"
+   ],
+   "scripts": [
+    "Question one. Mum: I'm making food for your camping trip, Daniel. Pizza slices? Daniel: They'd be cold and horrible by lunchtime, Mum. Sandwiches are easier to carry. Mum: Sandwiches it is. Cheese and tomato? Daniel: Perfect.",
+    "Question two. Girl: Is your dad driving us to the campsite, Ben? Ben: He wanted to, but his car's full of equipment, so the school has booked a bus for everyone. Girl: Even better — we can all travel together.",
+    "Question three. Boy: Have you seen the forecast for Friday, Hannah? Hannah: Yes — sunny on Saturday and Sunday, but Friday evening there'll be rain while we put the tents up. Boy: Oh no. Let's pack the waterproofs at the top.",
+    "Question four. Coach: Listen, everyone. The bus was going to leave at eight, but the drivers asked us to avoid the morning traffic. So we now leave at half past seven. Boy: Half past seven! That's really early, Coach. Coach: Don't be late!",
+    "Question five. Girl: I've packed my torch and my boots, Dad. Anything else? Dad: It'll be cold at night, Clara. Have you got a warm hat? Clara: Not yet — it's still in my wardrobe. Dad: Go and get it now, before you forget.",
+    "Question six. Boy: Where do we meet on Friday, Ruby? At school? Ruby: No, the bus can't stop there — we're meeting at the park gates, across from the café. Boy: Park gates, half past seven. Got it.",
+    "Question seven. Woman: Sam, the bus is about to go. What's missing? Sam: My phone! I had it when we loaded the bags... Woman: Is that it in the front pocket of your bag? Sam: Oh! Yes. Sorry, Miss."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What food will Daniel take?",
+     "imgs": ["pizza", "sandwich", "cake"],
+     "c": 1,
+     "audio": "P17/B1/B1-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will the group get to the campsite?",
+     "imgs": ["car", "bike", "bus"],
+     "c": 2,
+     "audio": "P17/B1/B1-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will the weather be like on Friday evening?",
+     "imgs": ["sunny", "rainy", "snowy"],
+     "c": 1,
+     "audio": "P17/B1/B1-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time will the bus leave?",
+     "imgs": ["clock700", "clock730", "clock8"],
+     "c": 1,
+     "audio": "P17/B1/B1-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What does Dad tell Clara to pack?",
+     "imgs": ["hat", "umbrella", "ball"],
+     "c": 0,
+     "audio": "P17/B1/B1-P1-q5.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where will they meet on Friday?",
+     "imgs": ["park", "cafe", "library"],
+     "c": 0,
+     "audio": "P17/B1/B1-P1-q6.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What was Sam looking for?",
+     "imgs": ["keys", "phone", "camera"],
+     "c": 1,
+     "audio": "P17/B1/B1-P1-q7.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P2",
+   "title": "Part 2 · Questions 8–13",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+   "segments": [
+    "First time camping",
+    "The campsite rules",
+    "Cooking outdoors",
+    "Sounds at night",
+    "A problem with a tent",
+    "The best moment"
+   ],
+   "scripts": [
+    "You will hear a girl talking about her first camping trip. Girl: My friends kept saying I'd hate sleeping in a tent, and to be fair, the ground was hard and I woke up early. But waking up to birdsong instead of traffic? I understood immediately why people love it. I'm already planning the next trip.",
+    "You will hear a coach explaining the campsite rules. Coach: Right, three things to remember. You can play music, that's fine, but not after ten at night. Fires only in the metal fire boxes — never on the grass. And most importantly, nobody leaves the campsite alone, not even for five minutes. Always take a partner.",
+    "You will hear a boy talking about cooking on the trip. Boy: I was put in the cooking team by accident, because the lists got mixed up, and I was furious at first. But our pasta on Saturday night was honestly the best thing I've ever made, and everyone asked for more. Now I cook at home every week.",
+    "You will hear a girl talking about the first night. Girl: Around midnight we heard steps outside the tent — slow, heavy steps. Nobody dared to look out, and my friend nearly phoned her mum! In the morning the farmer told us his cows sometimes walk along the fence at night. We felt so silly.",
+    "You will hear a boy talking about a problem. Boy: The wind that night was unbelievable. Our tent was fine, actually — we'd put extra pegs in — but the food tent wasn't so lucky. It flew into the hedge, and we spent half the morning collecting bread and apples from the field. Luckily nothing was ruined.",
+    "You will hear a woman who leads camping trips. Woman: People assume the highlight is the big Saturday hike, and the views really are wonderful. But for me the magic moment is always the last evening, when the students who didn't know each other on Friday sit around the fire singing like old friends. That's why I keep doing this job."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What does the girl think about camping now?",
+     "o": ["She wants to go again", "She hated sleeping in a tent", "She prefers waking up at home"],
+     "c": 0,
+     "audio": "P17/B1/B1-P2-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the most important campsite rule?",
+     "o": ["No music after ten", "Never leave the site alone", "Only use the fire boxes"],
+     "c": 1,
+     "audio": "P17/B1/B1-P2-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How does the boy feel about cooking now?",
+     "o": ["He is still angry about the lists", "He enjoys it and does it at home", "He thinks pasta is too difficult"],
+     "c": 1,
+     "audio": "P17/B1/B1-P2-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What made the noise outside the tent?",
+     "o": ["A farmer walking past", "Another student", "Cows near the fence"],
+     "c": 2,
+     "audio": "P17/B1/B1-P2-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What happened in the wind?",
+     "o": ["The boy's tent blew away", "The food tent blew into a hedge", "The food was all ruined"],
+     "c": 1,
+     "audio": "P17/B1/B1-P2-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the woman's favourite part of the trips?",
+     "o": ["The Saturday hike", "The views from the hills", "The last evening by the fire"],
+     "c": 2,
+     "audio": "P17/B1/B1-P2-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P3",
+   "title": "Part 3 · Questions 14–19",
+   "kind": "file",
+   "file": "P17/B1/B1-P3.mp3",
+   "intro": "You will hear a teacher giving information about a school camping weekend. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Teacher: Good afternoon, everyone. Here are the final details for our camping weekend. We leave this Friday straight after lunch, and we're back on Sunday evening. The campsite is in the hills, right next to the lake, so there'll be swimming if the weather is kind. The whole weekend costs twenty-five pounds, which covers transport, food and the climbing activity on Saturday. You'll sleep in tents in groups of four, and you can choose your own groups — give me the names by Wednesday. The school provides the tents, but you must each bring a sleeping bag, a warm one, because the nights get cold by the water. And finally, if you take medicine of any kind, your parents need to write a note for the school office. Any questions?"
+   ],
+   "gapTitle": "School Camping Weekend",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The group leaves on: ____ after lunch",
+     "accept": ["friday"]
+    },
+    {
+     "type": "gap",
+     "label": "The campsite is next to the: ____",
+     "accept": ["lake"]
+    },
+    {
+     "type": "gap",
+     "label": "The weekend costs: £ ____",
+     "accept": ["25", "twenty-five", "twenty five"]
+    },
+    {
+     "type": "gap",
+     "label": "Students sleep in groups of: ____",
+     "accept": ["4", "four"]
+    },
+    {
+     "type": "gap",
+     "label": "Everyone must bring a: ____",
+     "accept": ["sleeping bag"]
+    },
+    {
+     "type": "gap",
+     "label": "For medicine, parents must write a: ____",
+     "accept": ["note"]
+    }
+   ]
+  },
+  {
+   "id": "B1-P4",
+   "title": "Part 4 · Questions 20–25",
+   "kind": "file",
+   "file": "P17/B1/B1-P4.mp3",
+   "intro": "You will hear an interview with a boy called Ethan about a camping weekend he organised with his friends. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Today I'm talking to Ethan, who organised a camping weekend entirely by himself — well, almost. Ethan, whose idea was it? Ethan: We'd all been talking about it for a year without doing anything. Then my cousin went camping with her class and wouldn't stop talking about it, and I thought — right, if she can do it, so can we. So I suppose I have her to thank. Interviewer: What was the hardest part of organising it? Ethan: I expected the hardest thing to be choosing the campsite, but that took one evening online. The real nightmare was agreeing on a date. Between football matches, family visits and music lessons, finding one free weekend for six people took almost a month. Interviewer: Did everything go to plan? Ethan: Mostly! Though on the first evening we discovered that nobody had packed the matches, so we couldn't light the fire. We had to eat our sausages cold. Interviewer: Oh no. How did the group react? Ethan: That's what I'm most proud of, actually. Nobody complained or blamed anyone. We just laughed about it and made the biggest breakfast in history the next morning, once we'd borrowed matches from our neighbours on the site. Interviewer: What did you learn from the weekend? Ethan: That a plan is only a starting point. I had every hour organised on paper, and we followed almost none of it — and those unplanned hours were the best ones. Interviewer: So, would you organise another trip? Ethan: Definitely, but a longer one. A weekend is too short — by the time you've stopped thinking about school, it's Sunday. Next summer we want to do a whole week."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What gave Ethan the idea for the trip?",
+     "o": ["A year of planning with friends", "His cousin's camping stories", "A school announcement"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What was hardest to organise?",
+     "o": ["Choosing the campsite", "Finding a date for everyone", "Booking the transport"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What went wrong on the first evening?",
+     "o": ["They had no matches for the fire", "They forgot the sausages", "They arrived too late to cook"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What is Ethan most proud of?",
+     "o": ["The big breakfast he cooked", "How calmly the group reacted", "Borrowing matches from neighbours"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What did Ethan learn from the weekend?",
+     "o": ["Plans should be followed exactly", "Every hour should be organised", "The unplanned moments can be the best"],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What would Ethan like to do next time?",
+     "o": ["Go camping for a whole week", "Choose a different campsite", "Invite more friends"],
+     "c": 0
+    }
+   ]
+  }
+ ]
+}

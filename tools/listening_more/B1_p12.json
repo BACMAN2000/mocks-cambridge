@@ -1,0 +1,241 @@
+{
+ "label": "B1 — Intermediate",
+ "cefr": "Cambridge PET · B1 official format",
+ "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+ "audios": [
+  {
+   "id": "B1-P1",
+   "title": "Part 1 · Questions 1–7",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+   "segments": [
+    "What to take",
+    "Opening time",
+    "Getting there",
+    "The outdoor pool",
+    "The centre café",
+    "Where it was built",
+    "Lost at the pool"
+   ],
+   "scripts": [
+    "Question one. Mum: Tom, don't forget your kit bag for the sports centre! Tom: The centre lends out all the balls and rackets, Mum, so I just need the bag with my trainers in. Mum: It's by the door.",
+    "Question two. Girl: What time does the new centre open in the morning? Boy: Seven o'clock — my sister swims before school. Girl: Seven! I thought it was half past. Boy: No, seven, every day.",
+    "Question three. Boy: Shall we take the bus to the sports centre on Saturday? Girl: Have you seen the new cycle path? It goes straight there through the trees. Let's ride! Boy: Go on then, if it's not raining.",
+    "Question four. Woman: Is the outdoor pool open today? Man: I'm afraid not — it's been raining since six this morning, so only the indoor pool is open. Woman: Typical! Indoor it is, then.",
+    "Question five. Boy: Can we get pizza at the centre café after training? Girl: They don't do hot food — only sandwiches and salads. Boy: Really? A sandwich then, I suppose. I'll be starving.",
+    "Question six. Man: So where exactly is the new sports centre? Woman: You know the big park on Mill Road? They built it right next to that, where the old car park was. Man: Oh, handy for a run afterwards!",
+    "Question seven. Girl: Why is Lily searching the changing room? Boy: She can't find her locker keys. Her phone and her towel were in that locker! Girl: Oh no. Let's help her look."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What does Tom need to take?",
+     "imgs": ["ball", "bag", "hat"],
+     "c": 1,
+     "audio": "P12/B1/B1-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the centre open?",
+     "imgs": ["clock700", "clock730", "clock8"],
+     "c": 0,
+     "audio": "P12/B1/B1-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will they go to the centre on Saturday?",
+     "imgs": ["bus", "bike", "car"],
+     "c": 1,
+     "audio": "P12/B1/B1-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What is the weather like today?",
+     "imgs": ["sunny", "rainy", "snowy"],
+     "c": 1,
+     "audio": "P12/B1/B1-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What can the boy eat at the centre café?",
+     "imgs": ["sandwich", "cake", "pizza"],
+     "c": 0,
+     "audio": "P12/B1/B1-P1-q5.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where was the sports centre built?",
+     "imgs": ["park", "library", "cafe"],
+     "c": 0,
+     "audio": "P12/B1/B1-P1-q6.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What has Lily lost?",
+     "imgs": ["keys", "phone", "umbrella"],
+     "c": 0,
+     "audio": "P12/B1/B1-P1-q7.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P2",
+   "title": "Part 2 · Questions 8–13",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+   "segments": [
+    "Choosing a class",
+    "Why she joined",
+    "The pool",
+    "Club night",
+    "A member's opinion",
+    "Student prices"
+   ],
+   "scripts": [
+    "Question eight. You will hear a boy talking about classes at the new sports centre. Boy: I went there to sign up for swimming, because all my friends were doing it, but the course was already full. The man at the desk suggested judo, and you know what? Three weeks later, I'm glad the swimming was full. Judo's brilliant.",
+    "Question nine. You will hear a woman talking about joining the sports centre. Woman: The pool is lovely, I admit, and the classes are cheaper than my old gym. But the real reason I joined is simple: it's two minutes from my office, so I can train at lunchtime and still have time to eat.",
+    "Question ten. You will hear a girl talking about the swimming pool. Girl: The pool itself is huge, and the water's warmer than at the old baths. But if you ask anyone my age what the best thing is, we'll all say the same: the giant slide. I went down it eleven times on Saturday.",
+    "Question eleven. You will hear an announcement about a club for teenagers. Coach: A reminder about our teen club night. It's every Friday from seven till nine, for ages thirteen to seventeen. Basketball, badminton, table tennis — you choose on the night. No need to book, just bring your membership card.",
+    "Question twelve. You will hear a woman giving her opinion of the centre. Woman: People complain that the changing rooms are small, and they're right, they are. But the staff are so friendly and everything is spotlessly clean, so overall I'd still say it's the best thing this town has built in years.",
+    "Question thirteen. You will hear a boy talking about prices at the centre. Boy: I thought I couldn't afford the gym there — the adult price is quite high. But it turns out that with a student card you pay half, and my school gives out the cards for free. Now I go twice a week."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why is the boy doing judo?",
+     "o": ["His friends chose it", "The swimming course was full", "He has always liked it"],
+     "c": 1,
+     "audio": "P12/B1/B1-P2-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why did the woman join the centre?",
+     "o": ["It is close to her work", "The classes are cheap", "The pool is lovely"],
+     "c": 0,
+     "audio": "P12/B1/B1-P2-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the girl like best about the pool?",
+     "o": ["The warm water", "Its size", "The slide"],
+     "c": 2,
+     "audio": "P12/B1/B1-P2-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What do teenagers need for club night?",
+     "o": ["A booking", "A membership card", "Their own equipment"],
+     "c": 1,
+     "audio": "P12/B1/B1-P2-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the woman think of the centre?",
+     "o": ["It is very good overall", "It is too small", "It is not clean enough"],
+     "c": 0,
+     "audio": "P12/B1/B1-P2-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why can the boy afford the gym now?",
+     "o": ["The prices went down", "He gets a student discount", "His school pays for it"],
+     "c": 1,
+     "audio": "P12/B1/B1-P2-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P3",
+   "title": "Part 3 · Questions 14–19",
+   "kind": "file",
+   "file": "P12/B1/B1-P3.mp3",
+   "intro": "You will hear an announcement about the opening of a new sports centre. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Great news for everyone in Westside — our new sports centre is almost ready! The centre opens in March, on the first Saturday of the month, and the opening day is a free family festival with games and competitions for all ages. Entry that day costs nothing, but places are limited, so you must book your free ticket on the centre's website. Inside you'll find a gym, four courts, a climbing wall and, best of all, a swimming pool twenty-five metres long with a learners' area. For young people there's a junior club, which will meet every Wednesday after school, run by qualified coaches. Membership for students costs fifteen pounds a month, and here's a special opening offer: show a student card at reception and your first lesson in any sport is free. See you in March!"
+   ],
+   "gapTitle": "Westside Sports Centre — Opening",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The centre opens in: ____",
+     "accept": ["march"]
+    },
+    {
+     "type": "gap",
+     "label": "Book free opening-day tickets on the: ____",
+     "accept": ["website"]
+    },
+    {
+     "type": "gap",
+     "label": "Pool length: ____ metres",
+     "accept": ["25", "twenty-five", "twenty five"]
+    },
+    {
+     "type": "gap",
+     "label": "Junior club meets on: ____",
+     "accept": ["wednesday", "wednesdays"]
+    },
+    {
+     "type": "gap",
+     "label": "Student membership: £ ____ a month",
+     "accept": ["15", "fifteen"]
+    },
+    {
+     "type": "gap",
+     "label": "First lesson free with a student ____",
+     "accept": ["card"]
+    }
+   ]
+  },
+  {
+   "id": "B1-P4",
+   "title": "Part 4 · Questions 20–25",
+   "kind": "file",
+   "file": "P12/B1/B1-P4.mp3",
+   "intro": "You will hear an interview with Sandy, the manager of the new sports centre. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Sandy, you're the manager of the new Westside Sports Centre. Why did the town build it? Sandy: People assume it was for the football clubs, but the real push came from doctors, believe it or not. They kept reporting that local teenagers were doing almost no exercise, and the town decided to change that. Interviewer: The centre's been open two months now. What's most popular? Sandy: We expected the pool to win easily. It's busy, sure — but the climbing wall has beaten everything. There's a queue for it every single evening, which none of us predicted. Interviewer: Has anything surprised you about the visitors? Sandy: Yes — the grandparents! We planned everything around young people, and now our busiest morning class is gentle exercise for over-sixties. I love that. Interviewer: Are there jobs at the centre for young people? Sandy: Absolutely. We train sixteen-year-olds as assistant coaches for the junior club, and we pay them — it's not volunteering. Four of them started last month. Interviewer: Any problems so far? Sandy: Parking, honestly. The building works well, but on Saturdays the car park is full by nine. We're adding bike shelters and talking to the bus company about extra buses. Interviewer: And your message to people who haven't visited yet? Sandy: Don't buy a membership straight away — come on a Friday evening first, try three different sports for free, and then decide what you love."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why was the sports centre built?",
+     "o": ["The football clubs asked for it", "Doctors were worried about teenagers", "The old centre closed down"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is the most popular part of the centre?",
+     "o": ["The pool", "The gym", "The climbing wall"],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What has surprised Sandy about the visitors?",
+     "o": ["How many older people come", "How few teenagers come", "How early they arrive"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Sandy say about jobs for young people?",
+     "o": ["They can volunteer only", "They are paid as assistant coaches", "They must be eighteen"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What problem does the centre have?",
+     "o": ["The building is too small", "There are not enough coaches", "The car park fills up"],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What does Sandy advise new visitors to do?",
+     "o": ["Try some sports before joining", "Buy a membership online", "Visit on a quiet morning"],
+     "c": 0
+    }
+   ]
+  }
+ ]
+}

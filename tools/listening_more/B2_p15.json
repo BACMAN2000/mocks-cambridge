@@ -1,0 +1,342 @@
+{
+ "label": "B2 — Upper-Intermediate",
+ "cefr": "Cambridge First (FCE) · B2 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+ "audios": [
+  {
+   "id": "B2-P1",
+   "title": "Part 1 · Questions 1–8",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A food app",
+    "A collection",
+    "Shopping advice",
+    "A zero-waste shop",
+    "Buying vegetables",
+    "An announcement",
+    "A school canteen",
+    "At the supermarket"
+   ],
+   "scripts": [
+    "Question one. Woman: Have you tried that app that sells leftover food from bakeries? Three pounds for a whole bag of pastries! Man: I use it all the time, and you can't argue with the price. The thing that puts me off slightly is that you get whatever they have left. Last week I ended up with six loaves of bread and nothing else.",
+    "Question two. Man: Good morning, it's Ben from the Riverside Café. You collect our unsold sandwiches for the shelter, don't you? Woman: That's right, we come at three every afternoon. Man: That's the thing. We've extended our opening hours, so there's nothing to collect at three any more. Could your driver come at seven in the evening instead? Woman: Let me check with him, but I'm sure that's fine.",
+    "Question three. Teacher: If your family throws away a lot of food, don't start by buying one of those expensive fridges that promises to keep things fresh for weeks. And freezing everything isn't the answer either, your freezer just fills up. The single most useful habit is to sit down and plan your meals for the week before you go anywhere near a shop.",
+    "Question four. Man: You've been working at that zero-waste shop for a while now. What's it like? Girl: Really eye-opening. I expected everyone to come in talking about the planet, and a few do. But honestly, most customers ask me how shopping this way will cut their bills. Saving money is what actually brings people through the door.",
+    "Question five. Woman: Shall we get the vegetables at the supermarket on the way home? Man: I'd rather stop at the farmers' market. They've started selling the odd-shaped carrots and tomatoes the supermarkets reject, at half the price. Woman: The wonky ones? They taste exactly the same. Go on then, the market it is.",
+    "Question six. Woman: A quick announcement about the community fridge, where anyone can leave or take free food. From Monday it will no longer be outside the railway station. You'll find it at the community centre on Mill Street instead. The opening hours haven't changed, it's still available from eight in the morning until eight at night.",
+    "Question seven. Girl: Your school won that award for cutting food waste, didn't it? What did you actually do? Boy: Everyone thinks it was the posters we put up, but people ignored those. What made the difference was the kitchen serving smaller portions, with free second helpings if you were still hungry. Hardly anything gets scraped into the bin now.",
+    "Question eight. Woman: Excuse me, I bought this yoghurt yesterday and I've just noticed the date on it was the day before. Should I throw it away? Assistant: Let me see. That's a best-before date, madam, not a use-by date. It simply means the quality is at its peak before then. It's perfectly safe to eat for a good while yet."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What does the man dislike about the food app?",
+     "o": [
+      "The prices are too high",
+      "You cannot choose what you receive",
+      "The bags are too small"
+     ],
+     "c": 1,
+     "audio": "P15/B2/B2-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why is Ben calling the charity?",
+     "o": [
+      "To change the collection time",
+      "To cancel the collections",
+      "To offer more food"
+     ],
+     "c": 0,
+     "audio": "P15/B2/B2-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the teacher say is the most useful habit?",
+     "o": [
+      "Buying a special fridge",
+      "Freezing leftover food",
+      "Planning meals before shopping"
+     ],
+     "c": 2,
+     "audio": "P15/B2/B2-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What has surprised the girl about the shop's customers?",
+     "o": [
+      "They mainly want to save money",
+      "They mainly care about the planet",
+      "They mainly buy very little"
+     ],
+     "c": 0,
+     "audio": "P15/B2/B2-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why do they decide to shop at the farmers' market?",
+     "o": [
+      "It is on their way home",
+      "The vegetables are cheaper there",
+      "The vegetables taste better there"
+     ],
+     "c": 1,
+     "audio": "P15/B2/B2-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is changing about the community fridge?",
+     "o": [
+      "Its location",
+      "Its opening hours",
+      "The food it accepts"
+     ],
+     "c": 0,
+     "audio": "P15/B2/B2-P1-q6.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How did the boy's school reduce food waste?",
+     "o": [
+      "By putting up posters",
+      "By serving smaller portions",
+      "By charging for wasted food"
+     ],
+     "c": 1,
+     "audio": "P15/B2/B2-P1-q7.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the assistant tell the woman about the yoghurt?",
+     "o": [
+      "She should throw it away",
+      "She can exchange it for a new one",
+      "It is still safe to eat"
+     ],
+     "c": 2,
+     "audio": "P15/B2/B2-P1-q8.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B2-P2",
+   "title": "Part 2 · Questions 9–18",
+   "kind": "file",
+   "file": "P15/B2/B2-P2.mp3",
+   "intro": "You will hear a man called Leo talking about the food waste startup he co-founded. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Hi, I'm Leo, and together with my sister I run a small startup that rescues food before it ends up in the bin. People sometimes think we've been around forever because the app is quite well known locally, but we only actually started the company in 2021, in the middle of all the chaos of that year. The idea didn't come from a business course or a news report, as people often guess. It came from working in a restaurant. Every night, at closing time, I had to carry perfectly good food out to the bins, and after a few months of that I couldn't stand it any more. Now, when you say food waste, everyone immediately pictures mountains of fruit and vegetables. In fact, what we rescue most is bread. Bakeries have to fill their shelves until the last minute of the day, so almost every one of them has leftovers every single evening. We began with just three shops on our street. Today we work with sixty shops across the city, from tiny bakeries to two big hotel kitchens. The way it works is simple. Instead of ordering specific items, customers reserve what we call a surprise bag through the app, and they only find out what's inside when they collect it. That mystery turned out to be half the fun, people film themselves opening the bags. And it's affordable: a typical bag costs four pounds, for food that would have sold for at least twelve. The app has grown faster than we ever dreamed. We celebrated our thousandth user with a cake, and now there are twenty thousand people signed up, which still feels unreal. It hasn't all been easy, though. Everyone assumes our biggest headache is convincing shops to join, but shops love the idea. Our real difficulty is transport, moving food across the city quickly while it's still fresh. That problem should get easier soon, because we're opening a small warehouse in September, right in the centre, which will act as a collection point. And if you'd like to be part of this, we're not asking for money. What we genuinely need is people who can sign up as volunteer drivers, even one evening a week. Every van on the road means another few hundred meals saved. Thanks for listening!"
+   ],
+   "gapTitle": "Rescuing Food — Leo's Startup",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The company started in: ____",
+     "accept": [
+      "2021",
+      "twenty twenty-one",
+      "twenty twenty one"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Leo got the idea while working in a: ____",
+     "accept": [
+      "restaurant"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The food they rescue most is: ____",
+     "accept": [
+      "bread"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Number of shops they work with: ____",
+     "accept": [
+      "60",
+      "sixty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Customers reserve a: ____ bag",
+     "accept": [
+      "surprise"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "A typical bag costs: ____ pounds",
+     "accept": [
+      "4",
+      "four"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Number of app users: ____",
+     "accept": [
+      "20,000",
+      "20000",
+      "twenty thousand"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Their biggest difficulty is: ____",
+     "accept": [
+      "transport"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "A warehouse opens in: ____",
+     "accept": [
+      "september"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "They need volunteer: ____",
+     "accept": [
+      "drivers"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2-P3",
+   "title": "Part 3 · Questions 19–23",
+   "kind": "file",
+   "file": "P15/B2/B2-P3.mp3",
+   "intro": "You will hear five people talking about why they try to reduce food waste. For each speaker, choose from the list (A–H) the reason they give. Use each letter once. There are three extra letters you will not need.",
+   "bank": [
+    "to save money",
+    "concern for the environment",
+    "the influence of their childhood",
+    "a documentary they watched",
+    "the demands of their job",
+    "to help their neighbours",
+    "a health scare",
+    "a school project"
+   ],
+   "scripts": [
+    "Speaker one. Man: My grandmother lived through very hard times, and in her kitchen nothing was ever thrown away. Yesterday's bread became today's pudding. I grew up watching that, and those habits simply became mine. It's not something I decided as an adult, it was planted in me long before I could cook. Speaker two. Woman: I never gave it a thought until one evening I sat down and watched a film about where our rubbish actually goes. There was this shot of a hillside made entirely of discarded food, and I couldn't look away. I changed how I shop that same week. A single evening of television did what years of newspaper articles hadn't. Speaker three. Man: I'm head chef at a hotel, and two years ago the owners introduced a policy: every kilo we throw away gets weighed and costs the kitchen points. So whether I like it or not, using every carrot top and chicken bone is simply part of my work now. Funnily enough, the habit has followed me home. Speaker four. Woman: There's an elderly couple next door who find it hard to get to the shops, and my allotment produces far more than my family can eat. So instead of letting the extra go soft in a drawer, I box it up and take it round to them. Knowing it's feeding someone two doors away is what keeps me organised about it. Speaker five. Man: I kept hearing that wasting food harms the planet, and I'm sure that's true, but I'll be honest about what changed me. I wrote down what we spent on groceries for a month and compared it with what went in the bin. Nearly a quarter of the money, straight in the rubbish. Seeing that number was like a bucket of cold water."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Speaker 1",
+     "c": "the influence of their childhood"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 2",
+     "c": "a documentary they watched"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 3",
+     "c": "the demands of their job"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 4",
+     "c": "to help their neighbours"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 5",
+     "c": "to save money"
+    }
+   ]
+  },
+  {
+   "id": "B2-P4",
+   "title": "Part 4 · Questions 24–30",
+   "kind": "file",
+   "file": "P15/B2/B2-P4.mp3",
+   "intro": "You will hear an interview with a woman called Elena, who founded a company that sells surplus food. For each question, choose the best answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Elena, your company delivers boxes of surplus food to thousands of homes. How did it all begin? Elena: With a skip, believe it or not. I was cycling home past the back of a supermarket and saw a container overflowing with cauliflowers, perfectly fresh ones. I stopped and counted over two hundred. I stood there thinking, someone grew these, watered them, transported them, and now they're rubbish. I couldn't let it go. Interviewer: What was the hardest part of getting started? Elena: Not the logistics, oddly enough, and not raising money either, investors liked the idea from the start. The wall I kept hitting was the supermarkets themselves. They were terrified that admitting they had surplus food would make them look wasteful and badly run. It took a year of meetings before one of them would even talk numbers. Interviewer: So what was the breakthrough? Elena: A hotel chain, funnily enough, not a supermarket at all. Their regional manager phoned us herself, and once her name was attached to the scheme, suddenly everyone wanted in. That one phone call probably saved the company. Interviewer: If you could change one thing about the food system, what would it be? Elena: The labelling laws, without question. Millions of people still confuse best-before dates with use-by dates and empty their fridges into the bin every Sunday night. Clearer labels would prevent more waste than a hundred companies like mine. Interviewer: What do people most often get wrong about surplus food? Elena: That it's somehow second-class, food that's on the turn. In reality, most of what we rescue was rejected before it ever reached a shelf, because a carrot was too bent or a box was the wrong size. The quality is identical to what's in the shops. Getting that message across is half my job. Interviewer: What advice would you give someone starting a similar business? Elena: Resist the temptation to be everywhere at once. We began with one shop, one van and one neighbourhood, and learned from every mistake while the mistakes were still small. The companies I've seen fail all tried to launch in ten cities in their first year. Interviewer: And what's next for you? Elena: Something I'm really excited about. From January we'll be working with schools, supplying their kitchens and running lessons about where food comes from. If children grow up thinking waste is strange, the next generation won't need companies like mine. Interviewer: Elena, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What gave Elena the idea for her company?",
+     "o": [
+      "A report she read",
+      "Vegetables thrown away by a supermarket",
+      "Her experience working in a shop"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What was her biggest difficulty at the start?",
+     "o": [
+      "Finding investors",
+      "Organising deliveries",
+      "Persuading supermarkets to cooperate"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What was the company's first breakthrough?",
+     "o": [
+      "A hotel chain joined the scheme",
+      "A supermarket signed a contract",
+      "A newspaper wrote about them"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What would Elena most like to change?",
+     "o": [
+      "Supermarket opening hours",
+      "Food labelling laws",
+      "The price of fresh food"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What misunderstanding about surplus food does Elena mention?",
+     "o": [
+      "That it is poor quality",
+      "That it is difficult to cook",
+      "That it is too expensive"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What advice does she give to new businesses?",
+     "o": [
+      "Launch in several cities at once",
+      "Start small and learn from mistakes",
+      "Spend heavily on advertising"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Elena's next plan?",
+     "o": [
+      "Opening her own shops",
+      "Working with schools",
+      "Expanding to other countries"
+     ],
+     "c": 1
+    }
+   ]
+  }
+ ]
+}

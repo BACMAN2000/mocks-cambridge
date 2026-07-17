@@ -1,0 +1,192 @@
+{
+  "title": "C1 Advanced — Reading and Use of English (Practice 11)",
+  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The merchants of attention",
+      "body": "Attention has become a commodity to be (1)____ , bought and sold, and the competition for it defines the economics of our age. Media of every kind compete (2)____ for a resource that, unlike almost any other, cannot be expanded: each hour (3)____ to one screen is an hour denied to every rival. The designers of the most successful platforms make no (4)____ of the fact that their products are engineered to be difficult to put down, with features (5)____ from the psychology of gambling — variable rewards, endless feeds, the small suspense of the notification. The consequences are visible everywhere. Our capacity to concentrate, once taken utterly for granted, is now (6)____ described as an endangered resource, and a small industry of retreats and apps has sprung up promising to help us (7)____ ourselves off the very devices that another industry perfected. Whether we can genuinely (8)____ back control of our own attention, or whether the auction has already closed, remains one of the more unsettling open questions of modern life.",
+      "questions": [
+        { "options": ["harvested", "gathered", "reaped", "picked"], "answer": 0 },
+        { "options": ["strongly", "heavily", "fiercely", "deeply"], "answer": 2 },
+        { "options": ["consumed", "devoted", "occupied", "engaged"], "answer": 1 },
+        { "options": ["mystery", "denial", "pretence", "secret"], "answer": 3 },
+        { "options": ["lifted", "removed", "borrowed", "withdrawn"], "answer": 2 },
+        { "options": ["routinely", "evenly", "directly", "closely"], "answer": 0 },
+        { "options": ["cure", "strip", "deprive", "wean"], "answer": 3 },
+        { "options": ["drag", "claw", "pull", "snatch"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The lost art of boredom",
+      "body": "There was a time, not so long ago, (9)____ boredom was simply a part of life. Waiting rooms, bus stops and queues obliged us to do nothing at all, whether we liked it (10)____ not. Those empty moments have now all (11)____ vanished: the instant a pause threatens, out comes the phone.\n\nOn the face of it, this looks like pure gain. Nobody, after all, enjoys being bored. Yet psychologists have begun to wonder whether something valuable was lost (12)____ the way. It is precisely when the mind is left to (13)____ own devices that it starts to wander, and wandering minds, the research suggests, are where unexpected ideas come (14)____ . Far from being wasted time, boredom may serve (15)____ a kind of incubator.\n\nIf so, the price of constant stimulation is higher than it appears, and it may be (16)____ our while, now and then, to stand in a queue with our hands in our pockets and let the mind drift where it pleases.",
+      "questions": [
+        { "accept": ["when"] },
+        { "accept": ["or"] },
+        { "accept": ["but"] },
+        { "accept": ["along"] },
+        { "accept": ["its"] },
+        { "accept": ["from"] },
+        { "accept": ["as"] },
+        { "accept": ["worth"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Paying attention",
+      "rows": [
+        { "text": "The modern workplace is an engine of perpetual (17)____ , with each notification tugging at what remains of our focus.", "root": "DISTRACT" },
+        { "text": "The most successful apps are deliberately engineered to be all but (18)____ .", "root": "RESIST" },
+        { "text": "Economists puzzle over stagnating (19)____ despite decades of heavy investment in workplace technology.", "root": "PRODUCT" },
+        { "text": "Some researchers argue that the damage goes far (20)____ than mere inconvenience.", "root": "DEEP" },
+        { "text": "Designers borrow (21)____ techniques from the casino industry with remarkably few qualms.", "root": "PERSUADE" },
+        { "text": "Growing public (22)____ of these tactics has slowly begun to change how people use their devices.", "root": "AWARE" },
+        { "text": "Workers report that (23)____ interruption leaves them mentally exhausted by mid-afternoon.", "root": "CONTINUE" },
+        { "text": "In an economy built on distraction, the capacity for sustained concentration may prove (24)____ .", "root": "VALUE" }
+      ],
+      "questions": [
+        { "root": "DISTRACT", "accept": ["distraction", "distractions"] },
+        { "root": "RESIST", "accept": ["irresistible"] },
+        { "root": "PRODUCT", "accept": ["productivity"] },
+        { "root": "DEEP", "accept": ["deeper"] },
+        { "root": "PERSUADE", "accept": ["persuasive"] },
+        { "root": "AWARE", "accept": ["awareness"] },
+        { "root": "CONTINUE", "accept": ["continual", "continuous"] },
+        { "root": "VALUE", "accept": ["invaluable"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+      "questions": [
+        {
+          "before": "Advertisers make every possible effort to capture even a moment of our attention.",
+          "keyword": "LENGTHS",
+          "after": "Advertisers go to ___ even a moment of our attention.",
+          "accept": ["great lengths to capture", "enormous lengths to capture", "extraordinary lengths to capture", "considerable lengths to capture"]
+        },
+        {
+          "before": "I found it hard to get used to working without my phone.",
+          "keyword": "DIFFICULTY",
+          "after": "I had ___ to working without my phone.",
+          "accept": ["difficulty getting used", "great difficulty getting used", "difficulty in getting used", "some difficulty getting used"]
+        },
+        {
+          "before": "The company denied that it had designed the app to be addictive.",
+          "keyword": "HAVING",
+          "after": "The company ___ the app to be addictive.",
+          "accept": ["denied having designed", "denied ever having designed"]
+        },
+        {
+          "before": "Concentrating is impossible when notifications keep arriving.",
+          "keyword": "IMPOSSIBLE",
+          "after": "Constant notifications make ___ concentrate.",
+          "accept": ["it impossible to"]
+        },
+        {
+          "before": "Publishers shortened their articles because attention spans were shrinking.",
+          "keyword": "RESPONSE",
+          "after": "Publishers shortened their articles ___ shrinking attention spans.",
+          "accept": ["in response to"]
+        },
+        {
+          "before": "I regret deleting my account, because now I miss the news.",
+          "keyword": "WISH",
+          "after": "I ___ deleted my account, because now I miss the news.",
+          "accept": ["wish i had not", "wish i hadn't", "wish i had never"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The poverty of attention\n\nHalf a century ago, an economist made an observation so simple that it took decades for its full force to be felt. In a world where information was becoming abundant, he noted, something else was necessarily becoming scarce: whatever it is that information consumes. And what information consumes is the attention of the people who receive it. A wealth of information, he concluded, creates a poverty of attention. At the time this read as an elegant aphorism. It now reads as the business plan of the world's largest companies.\n\nThe insight matters because it inverts the way we usually describe our situation. We speak of an information economy, as though information were the scarce good being competed over. But scarcity, not abundance, is what markets price, and information has never been cheaper or more oversupplied. The genuinely scarce commodity — finite, non-renewable hour by hour, and identical in rich and poor alike — is human attention. The great platforms of the digital age are not, whatever their founding myths say, in the information business. They are in the extraction business, and the resource they extract is us.\n\nOnce this is grasped, a number of otherwise puzzling features of modern media fall into place. Why is so much online content free? Because the content is not the product; it is the bait. The user's attention is the product, assembled into audiences and sold to advertisers in auctions conducted a thousand times a second. Why do platforms measure success in 'engagement' rather than satisfaction? Because the business does not require that you enjoy your time on the platform, or benefit from it, or remember it warmly; it requires only that the time be spent there rather than elsewhere. A design that leaves you vaguely dissatisfied but unable to look away is not a failure of the model. It is the model, working.\n\nThe standard defence is that nobody is coerced: users choose, moment by moment, to keep scrolling, and in a free society adults are entitled to spend their attention as foolishly as they spend their money. The analogy is revealing, but not in the way its proponents intend. We do not, in fact, allow money to be extracted by any means a clever engineer can devise; we have laws against pickpocketing, fraud and hidden fees precisely because consent obtained by exploiting psychological weakness is not treated as consent at all. The attention economy runs on techniques — intermittent rewards, manufactured social obligation, the deliberate suppression of stopping cues — whose entire purpose is to defeat the deliberate self rather than to serve it. To describe the resulting behaviour as free choice is to give the word more work than it can do.\n\nSome economists have begun to reach for an older vocabulary: that of pollution. A factory that poisons a river profits privately while spreading its costs across everyone downstream. An attention merchant, likewise, profits from fractured concentration while the costs — to family life, to workplace productivity, to the patient reading on which democratic citizenship quietly depends — are borne by society at large. The comparison suggests a familiar toolkit: measurement, disclosure, perhaps eventually the attention-economy equivalent of emissions standards. It also suggests the scale of the difficulty, for pollution took a century to regulate, and the polluters in this case own the channels through which any public debate must pass.\n\nNone of this implies that the technologies are worthless or the users dupes. It implies something more uncomfortable: that a market left to itself will keep converting our scarcest resource into other people's revenue, one glance at a time, and will call the process empowerment. The first step, as with any extraction economy, is to notice who is holding the shovel — and to stop mistaking the hole for a home.",
+      "questions": [
+        { "stem": "What point does the writer make with the economist's observation in the first paragraph?", "options": ["Information has become too expensive for ordinary consumers.", "Economists have consistently predicted the digital economy's development.", "Attention spans were already shrinking fifty years ago.", "Abundant information necessarily makes attention the scarce resource."], "answer": 3 },
+        { "stem": "Why does the writer object to the phrase 'information economy'?", "options": ["Information is too difficult to define precisely.", "Markets price what is scarce, and it is attention, not information, that is scarce.", "The digital economy produces very little genuine information.", "The phrase was invented by the platforms themselves."], "answer": 1 },
+        { "stem": "According to the third paragraph, why is engagement rather than satisfaction the key metric?", "options": ["Satisfaction is impossible to measure accurately.", "Engaged users recommend the platform to others.", "The business model needs time to be spent, not enjoyed.", "Advertisers insist on standardised measurements."], "answer": 2 },
+        { "stem": "How does the writer respond to the argument that users freely choose to keep scrolling?", "options": ["Consent obtained by exploiting psychological weakness should not count as genuine choice.", "Users are entitled to waste their time however they wish.", "Most users are unaware that platforms carry advertising.", "Scrolling is no more harmful than other pastimes."], "answer": 0 },
+        { "stem": "What is the purpose of the comparison with pollution in the fifth paragraph?", "options": ["To show that digital devices damage the physical environment.", "To argue that factories and platforms should pay identical taxes.", "To prove that regulation of the attention economy is impossible.", "To frame fractured attention as a private profit with socialised costs, suggesting regulatory remedies."], "answer": 3 },
+        { "stem": "Which best describes the writer's final position?", "options": ["The technologies are worthless and their users gullible.", "Markets will not correct the problem on their own, so it must first be clearly recognised.", "Empowerment of users has largely been achieved.", "The extraction of attention benefits society overall."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "Read four short opinion pieces (A–D) on the same topic: whether smartphones should be banned during the school day. Then answer the questions.",
+      "sources": [
+        { "label": "A", "text": "The evidence, for once, is refreshingly clear. Schools that have removed phones report gains in test scores, and — the finding that persuaded me — the largest gains accrue to the weakest pupils, the very children for whom school is the only place that can offer six protected hours of concentration. Objectors talk of teaching 'responsible use', which sounds admirable until you ask what it means in practice: expecting a fourteen-year-old to resist, by willpower alone, a device engineered by thousands of adults to be irresistible. We do not teach responsible use of cigarettes in the classroom. Some environments should simply be kept clear, and the case has now been made to any standard a policymaker could ask." },
+        { "label": "B", "text": "I distrust the tidy studies almost as much as I distrust the panic. A ban delivers, at best, a modest and temporary improvement in a measurable thing, while the unmeasurable costs walk out of the door unrecorded. The pupils I teach do not stop having phones at half past three; they step out into the same torrent, minus any adult who might help them navigate it. Worse, prohibition teaches precisely the wrong lesson — that attention is something an authority manages for you, rather than a capacity you must painfully build yourself. I would rather run a school where pupils learn, with support and honest discussion, to put the thing down of their own accord. That skill, unlike a locker policy, they get to keep." },
+        { "label": "C", "text": "What strikes me about this debate is how conveniently it locates the problem in children's pockets rather than in adult choices. The same parents demanding bans text their offspring during lessons; the same ministers deploring distraction have gutted the youth clubs, libraries and playing fields that once gave young people somewhere else to be. I will support a ban the day it arrives as part of something larger — investment in the alternatives, and some honest adult reflection on our own screen habits. Arriving alone, it is not a policy but a gesture: the cheapest possible way for the grown-up world to feel it has acted while changing nothing about the world it actually built." },
+        { "label": "D", "text": "Much of the argument treats the phone as a learning issue, which rather misses what a school is. It is the one institution where an entire generation, of every background, learns to share a physical space: to queue, to argue face to face, to be bored together and invent something out of it. Watch a phone-free playground for one break time and the point makes itself — the noise, the games, the sheer amount of eye contact. Whatever the effect on grades, and I am agnostic on that, the social case seems to me overwhelming. We are not defending mathematics from distraction; we are defending the last common room of childhood, and I can think of few things more worth defending." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which writer values schools chiefly as places where young people learn to live alongside one another?", "answer": "D" },
+        { "stem": "Which writer argues that a ban deprives pupils of the chance to develop self-control they will need later?", "answer": "B" },
+        { "stem": "Which writer would support a ban only if it were accompanied by wider social investment?", "answer": "C" },
+        { "stem": "Which writer regards the research findings as decisive grounds for action?", "answer": "A" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+      "passage": "Selling the morning\n\nThe business model that now governs the internet was invented almost two centuries ago, by a twenty-three-year-old printer with a failing newspaper and an idea his rivals considered vulgar beyond words. (41)____\n\nThe insight behind the penny paper was not about news at all; it was about arithmetic. Every other publisher priced the paper to cover its costs and make a margin on the sale. (42)____\n\nTo make the arithmetic work, however, the new paper needed what no respectable journal had ever sought: the largest possible crowd, of any class, assembled by any means. (43)____\n\nThe respectable press was scandalised, and said so at length. (44)____\n\nThe sermons changed nothing, because the model was unanswerable. Within a few years every city had its penny papers, and the publishers who had sneered were quietly cutting their prices. (45)____\n\nTwo centuries on, the descendants of the penny paper are apps rather than broadsheets, and the crowd is measured in billions rather than thousands. (46)____ He would only have asked, with professional admiration, how they managed to get the paper itself for free.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Newsboys, a further innovation, were recruited from the city's orphanages and paid by the copy sold.",
+          "Murder trials, shipwrecks, scandals in high places and outright hoaxes — including a celebrated series claiming that life had been observed on the moon — duly filled its columns, chosen not for importance but for the crowds they drew.",
+          "Nothing about the modern feed — the bait, the crowd, the advertiser waiting at the till — would have puzzled its inventor for a moment.",
+          "In 1833 he began selling his paper for a single cent, a price at which every copy sold at a loss, and prospered — a paradox his competitors took years to understand.",
+          "Rival editors denounced the penny press as a moral sewer, and one famously predicted that a public fed on sensation would soon be unable to digest anything else.",
+          "The telegraph, arriving a decade later, would transform the speed at which news could travel between cities.",
+          "He priced his to lose money on every copy, because the copy was no longer the product: the reader was, and the reader was sold, in bulk, to the advertisers who filled the back pages.",
+          "With them came the whole familiar apparatus: circulation wars, headlines engineered for maximum alarm, and the discovery that outrage sells more reliably than accuracy."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing paragraph:", "answer": "D" },
+        { "stem": "Choose the missing paragraph:", "answer": "G" },
+        { "stem": "Choose the missing paragraph:", "answer": "B" },
+        { "stem": "Choose the missing paragraph:", "answer": "E" },
+        { "stem": "Choose the missing paragraph:", "answer": "H" },
+        { "stem": "Choose the missing paragraph:", "answer": "C" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 8",
+      "instructions": "You are going to read four short pieces (A–D) by people whose working lives revolve around attention. Answer the questions by choosing the appropriate person.",
+      "sources": [
+        { "label": "A", "text": "Lena — novelist. I left the platforms four years ago, and I will not pretend it was principle; it was desperation. I had stopped being able to read — I, whose entire life had been built on reading — and would catch myself skimming even novels I loved, hunting for the point as though a paragraph were an email. Rebuilding took the better part of a year, and it felt physical, like recovering from an injury. What nobody warns you about is the professional cost: publishers now expect writers to be their own publicity departments, and my absence from the feeds has certainly cost me sales. I have made my peace with that trade. I got the long sentences back, mine and other people's, and no print run is worth what they were costing." },
+        { "label": "B", "text": "Marcus — former product designer at a social media firm. For six years my job title was politely vague, but my actual work was retention: making sure the session that should have lasted two minutes lasted twenty. I was good at it, and I want to be honest rather than theatrical about what that means — we were not villains twirling moustaches; we were kind, clever people optimising a number, and the number quietly contained other people's evenings. The moment I left came when I found myself unable to get off my own product, and recognised, in my thumb's little circular motion, a gesture I had helped design. I consult now for regulators, across the table from my old colleagues. They are still kind and clever, and the number has only grown." },
+        { "label": "C", "text": "Priya — primary school teacher. The children I teach have never known a quiet moment they did not have to fill, and it shows in ways the phone debate never mentions. It is not that they cannot concentrate — get them building or painting and an hour vanishes — it is that they cannot tolerate the ten seconds of nothing in which concentration begins. The pause before a hard question terrifies them; they experience not-knowing as a system failure rather than as the start of thinking. So that is what I teach now, alongside the reading and the sums: we sit with a problem for one whole minute before anyone may raise a hand. It sounds like nothing. In September it is agony for them. By July, that minute is the calmest in the school day, and, I suspect, the most useful thing I give them." },
+        { "label": "D", "text": "Tomás — advertising strategist. I will say what my industry's critics will not expect: most attention merchants are wasting their clients' money, and the crisis of my trade is not ethical but professional. We have become brilliant at interruption and abysmal at being worth interrupting for. The figures are humiliating if you read them honestly — of the thousands of messages a person is exposed to daily, they can recall perhaps three, and can rarely say who paid for those. The advertising that built brands people actually loved was patient; it assumed you had a mind, not just a thumb. I tell clients that the scarcest inventory is not the user's glance but the user's goodwill, and that every trick that captures the first spends a little of the second. Few believe me. The dashboard says otherwise, and the dashboard is a very persuasive colleague." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Lena", "Marcus", "Priya", "Tomás"] },
+      "questions": [
+        { "stem": "Which person recognised their own behaviour as something they had helped to create?", "answer": "B" },
+        { "stem": "Which person argues that their profession has become skilled at the wrong thing?", "answer": "D" },
+        { "stem": "Which person describes recovering a lost ability as a slow, almost physical process?", "answer": "A" },
+        { "stem": "Which person deliberately trains others to endure short periods of uncertainty?", "answer": "C" },
+        { "stem": "Which person claims that widely trusted measurements are misleading those who rely on them?", "answer": "D" },
+        { "stem": "Which person insists that the harm they were involved in was done by well-intentioned people?", "answer": "B" },
+        { "stem": "Which person accepts a continuing professional disadvantage as the price of a personal decision?", "answer": "A" },
+        { "stem": "Which person now advises the authorities who oversee their former industry?", "answer": "B" },
+        { "stem": "Which person distinguishes between the ability to concentrate and the ability to begin concentrating?", "answer": "C" },
+        { "stem": "Which person believes that capturing attention by force gradually destroys something more valuable?", "answer": "D" }
+      ]
+    }
+  ]
+}

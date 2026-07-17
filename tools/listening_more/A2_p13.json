@@ -1,0 +1,311 @@
+{
+ "label": "A2 — Elementary",
+ "cefr": "Cambridge KET · A2 official format",
+ "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+ "audios": [
+  {
+   "id": "A2-P1",
+   "title": "Part 1 · Questions 1–5",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+   "segments": [
+    "Going to work",
+    "A busy morning",
+    "The next bus",
+    "Lost on the bus",
+    "Walking to the station"
+   ],
+   "scripts": [
+    "Question one. Man: Do you still drive to work? Woman: Not any more — the traffic was terrible, so now I go by bike. Man: That's much healthier too.",
+    "Question two. Woman: Where are you off to, Ben? Boy: To the library first — my books are late. Then I'll meet Jack at the park. Woman: Have fun!",
+    "Question three. Girl: What time is the next bus to the town centre? Man: It leaves at half past seven. You've just missed the seven o'clock one. Girl: OK, I'll wait here.",
+    "Question four. Woman: You look worried — what's wrong? Man: I had my phone and my keys when I got off the bus, but my umbrella — I left it on the seat. Woman: Call the bus office; they keep lost things.",
+    "Question five. Boy: Shall we walk to the station? Girl: In this snow? Let's ask Dad for a lift. Boy: You're right — look how deep it is!"
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "How does the woman go to work now?",
+     "imgs": [
+      "car",
+      "bike",
+      "bus"
+     ],
+     "c": 1,
+     "audio": "P13/A2/A2-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where is Ben going first?",
+     "imgs": [
+      "library",
+      "park",
+      "cafe"
+     ],
+     "c": 0,
+     "audio": "P13/A2/A2-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the next bus leave?",
+     "imgs": [
+      "clock700",
+      "clock730",
+      "clock8"
+     ],
+     "c": 1,
+     "audio": "P13/A2/A2-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What did the man leave on the bus?",
+     "imgs": [
+      "phone",
+      "keys",
+      "umbrella"
+     ],
+     "c": 2,
+     "audio": "P13/A2/A2-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What is the weather like?",
+     "imgs": [
+      "rainy",
+      "snowy",
+      "sunny"
+     ],
+     "c": 1,
+     "audio": "P13/A2/A2-P1-q5.mp3"
+    }
+   ]
+  },
+  {
+   "id": "A2-P2",
+   "title": "Part 2 · Questions 6–10",
+   "kind": "file",
+   "file": "P13/A2/A2-P2.mp3",
+   "intro": "You will hear a man giving information about the town buses. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+   "scripts": [
+    "Listen to a man giving information about the town buses. Man: Good morning, this is your town travel news. From Monday, the number five bus will stop at the new hospital. Buses to the town centre leave every twenty minutes during the day. A single ticket for children costs one pound. And remember, children under five travel free. The last bus home leaves the centre at ten o'clock at night. Have a good journey!"
+   ],
+   "gapTitle": "Town Bus Information",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Number 5 bus: stops at the new ____",
+     "accept": [
+      "hospital"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Town centre buses: every ____ minutes",
+     "accept": [
+      "20",
+      "twenty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Child single ticket: £ ____",
+     "accept": [
+      "1",
+      "one"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Free travel: children under ____",
+     "accept": [
+      "5",
+      "five"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Last bus leaves the centre at: ____ at night",
+     "accept": [
+      "10",
+      "ten",
+      "10:00",
+      "10.00",
+      "10 o'clock",
+      "ten o'clock"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2-P3",
+   "title": "Part 3 · Questions 11–15",
+   "kind": "file",
+   "file": "P13/A2/A2-P3.mp3",
+   "intro": "You will hear Kate asking her friend Marcus how to get to the new sports centre. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Kate: Marcus, you know the town really well — how do I get to the new sports centre? Marcus: It's easy. You can take the number three bus from the market square. Kate: How long does that take? Marcus: About fifteen minutes. But if it's sunny, walk along the river — it takes twenty-five minutes and it's really pretty. Kate: Is there a bike path? Marcus: Yes, but it goes next to the busy main road, so I don't like it. Kate: I'll walk then. Is the centre near the bridge? Marcus: Yes — cross the bridge, and it's the big white building on your left. Kate: Thanks! I'm going tomorrow morning."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Which bus goes to the sports centre?",
+     "o": [
+      "Number three",
+      "Number five",
+      "Number thirteen"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How long is the walk along the river?",
+     "o": [
+      "Fifteen minutes",
+      "Twenty-five minutes",
+      "An hour"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why doesn't Marcus like the bike path?",
+     "o": [
+      "It's next to a busy road",
+      "It's too long",
+      "It's often wet"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How will Kate go to the sports centre?",
+     "o": [
+      "By bus",
+      "On foot",
+      "By bike"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Where is the sports centre?",
+     "o": [
+      "After the bridge, on the left",
+      "Before the bridge, on the right",
+      "Next to the market square"
+     ],
+     "c": 0
+    }
+   ]
+  },
+  {
+   "id": "A2-P4",
+   "title": "Part 4 · Questions 16–20",
+   "kind": "file",
+   "file": "P13/A2/A2-P4.mp3",
+   "intro": "You will hear a girl called Hannah talking about her journey to school. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Hannah: My journey to school changed this year. We moved house in the summer, and now school is five kilometres away, so I can't walk any more. First I tried the school bus, but it was always full and very noisy. Now I go by train — just two stops — and I read on the way. My mum was worried at first and travelled with me for the whole first week. The train is never late, but one morning I fell asleep and missed my stop! Now I set an alarm on my phone. My friends think the train is boring, but I love watching the river from the window."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why can't Hannah walk to school now?",
+     "o": [
+      "Her family moved house",
+      "She is often ill",
+      "The road is dangerous"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What was wrong with the school bus?",
+     "o": [
+      "It was full and noisy",
+      "It was often late",
+      "It was expensive"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Who travelled with Hannah in the first week?",
+     "o": [
+      "Her dad",
+      "Her mum",
+      "Her friend"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What happened one morning?",
+     "o": [
+      "Hannah missed her stop",
+      "Hannah lost her ticket",
+      "The train was late"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Hannah like about the train?",
+     "o": [
+      "Sleeping on the way",
+      "Watching the river",
+      "Talking to her friends"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P5",
+   "title": "Part 5 · Questions 21–25",
+   "kind": "file",
+   "file": "P13/A2/A2-P5.mp3",
+   "intro": "You will hear Sam talking about his classmates. How does each person get to school? For each question, choose the correct answer.",
+   "bank": [
+    "bus",
+    "bike",
+    "car",
+    "train",
+    "walking",
+    "scooter",
+    "taxi"
+   ],
+   "scripts": [
+    "Sam: Everyone in my class comes to school a different way. Emma takes the bus from her village — she's always the first one here. Leo comes by bike, even when it rains. Sofia's dad brings her in the car on his way to work. Ruby comes by train from the next town. And Jack loves walking — he says it wakes him up in the morning."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Emma",
+     "c": "bus"
+    },
+    {
+     "type": "match",
+     "person": "Leo",
+     "c": "bike"
+    },
+    {
+     "type": "match",
+     "person": "Sofia",
+     "c": "car"
+    },
+    {
+     "type": "match",
+     "person": "Ruby",
+     "c": "train"
+    },
+    {
+     "type": "match",
+     "person": "Jack",
+     "c": "walking"
+    }
+   ]
+  }
+ ]
+}

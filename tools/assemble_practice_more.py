@@ -9,7 +9,7 @@ import json, sys, os
 HERE = os.path.dirname(os.path.abspath(__file__))
 MORE = os.path.join(HERE, "practice_more")
 LEVELS = ["A2", "B1", "B2", "C1"]
-NUMS = [4, 5, 6, 7, 8]
+NUMS = list(range(4, 19))  # Practice 4..18
 
 
 def template_shape(level):
@@ -49,7 +49,7 @@ def main():
                 print(f"{flag} {lv}_p{n}: {len(shp)} parts, {scored} scored Qs (title={obj.get('title','?')[:48]})")
             tests.append(obj)
         result[lv] = {"Reading": tests}
-        print(f"  -> {lv}: {len(tests)}/5 tests, template scored={scored_expected}\n")
+        print(f"  -> {lv}: {len(tests)}/{len(NUMS)} tests, template scored={scored_expected}\n")
 
     if "--emit" in sys.argv and ok:
         js = "const PRACTICE_MORE = " + json.dumps(result, ensure_ascii=False, indent=0) + ";\n"

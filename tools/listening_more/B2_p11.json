@@ -1,0 +1,342 @@
+{
+ "label": "B2 — Upper-Intermediate",
+ "cefr": "Cambridge First (FCE) · B2 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+ "audios": [
+  {
+   "id": "B2-P1",
+   "title": "Part 1 · Questions 1–8",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A castle visit",
+    "A paint discovery",
+    "A guided tour",
+    "A staircase repair",
+    "A TV series",
+    "A garden discovery",
+    "A volunteer day",
+    "At an antiques shop"
+   ],
+   "scripts": [
+    "Question one. Man: Was the castle worth the trip? Woman: Mostly. The great hall was spectacular, and our guide really knew her stuff. I'd been looking forward to the view from the tower all week, though, and wouldn't you know it, it's shut for repairs until spring. We'll just have to go back.",
+    "Question two. Man: We always assumed these dining room walls were white, because that's how they looked in every old photograph. But when our restorers scraped back six layers of paint, they found the original colour underneath, a surprisingly bright green. Visitors are often quite shocked, but that's genuinely how the family lived.",
+    "Question three. Woman: Before we start the tour, photography is welcome everywhere in the house, so do take pictures. The one thing I must insist on is no flash, please. The strong light fades the two-hundred-year-old curtains and tapestries, and once those colours are gone, no restorer on earth can bring them back.",
+    "Question four. Girl: How do you even repair a four-hundred-year-old staircase? Man: Very slowly! The joinery is the easy part, honestly. The real struggle was finding oak to match, modern planks looked completely wrong next to the old wood. In the end a storm brought down a tree in the park here, and we used that. Same soil, same colour.",
+    "Question five. Woman: You never miss that restoration programme, do you? Man: Never. I couldn't care less about the presenter's jokes, or all that will-they-finish-in-time drama, that's obviously staged. What I love is watching the craftspeople work. Last week a plasterer rebuilt a ceiling rose entirely by hand. Skills like that are five hundred years old.",
+    "Question six. Man: Any news from the walled garden? Woman: You won't believe it. We were clearing forty years of brambles behind the greenhouse, expecting nothing but rubbish, and we uncovered a stone fountain, completely intact, with carved dolphins around the base. The head gardener has found a drawing of it in the archives from seventeen ninety.",
+    "Question seven. Girl: You actually volunteered at the manor house? Boy: Mum signed me up, and I was dreading it. Then they had me carrying crystal drops from the chandelier down a ladder, each one numbered, and washing them one by one. A hundred and eighty pieces! Sounds dull, but when it went back up and caught the light, I felt ridiculously proud.",
+    "Question eight. Woman: I'm restoring a nineteen twenties house, and I need six matching brass door handles. Assistant: I've only got four of that pattern at the moment. Woman: Oh, that's frustrating, so close! Assistant: Handles come in all the time. Leave me your number, and the moment a pair like this arrives, you'll be my first call."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What disappointed the woman about the castle?",
+     "o": [
+      "The quality of the guide",
+      "The closed tower",
+      "The length of the journey"
+     ],
+     "c": 1,
+     "audio": "P11/B2/B2-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the restorers discover?",
+     "o": [
+      "The walls were originally green",
+      "The photographs were fake",
+      "The paint was extremely old"
+     ],
+     "c": 0,
+     "audio": "P11/B2/B2-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What rule does the guide give?",
+     "o": [
+      "No photography in the house",
+      "No flash photography",
+      "No touching the fabrics"
+     ],
+     "c": 1,
+     "audio": "P11/B2/B2-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How did they find matching wood for the staircase?",
+     "o": [
+      "They used a tree from the grounds",
+      "They ordered special planks",
+      "They stained modern wood"
+     ],
+     "c": 0,
+     "audio": "P11/B2/B2-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the man enjoy about the programme?",
+     "o": [
+      "The presenter's humour",
+      "The race against time",
+      "The craftspeople's skills"
+     ],
+     "c": 2,
+     "audio": "P11/B2/B2-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the volunteers find in the garden?",
+     "o": [
+      "A stone fountain",
+      "Old garden tools",
+      "A hidden greenhouse"
+     ],
+     "c": 0,
+     "audio": "P11/B2/B2-P1-q6.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How does the boy feel about the volunteer day?",
+     "o": [
+      "He found it boring",
+      "He regrets going",
+      "He is proud of what he did"
+     ],
+     "c": 2,
+     "audio": "P11/B2/B2-P1-q7.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the woman do in the end?",
+     "o": [
+      "She buys the four handles",
+      "She leaves her phone number",
+      "She chooses a different pattern"
+     ],
+     "c": 1,
+     "audio": "P11/B2/B2-P1-q8.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B2-P2",
+   "title": "Part 2 · Questions 9–18",
+   "kind": "file",
+   "file": "P11/B2/B2-P2.mp3",
+   "intro": "You will hear a woman called Helena talking about the restoration of a historic house called Ashworth Hall. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Helena: Good afternoon, I'm Helena, and I've spent the last six years helping to bring Ashworth Hall back to life, so let me tell you its story. The house was built in seventeen sixty for a wool merchant and his enormous family, and in its day it was the finest home for miles around. But fortunes change, and before our charity stepped in, the hall stood completely empty for twenty years. Local children were convinced it was haunted, and looking at the broken windows, you could see why. People expect me to say vandals did the worst damage, but no. Our real enemy was water. A few missing tiles let the rain in, and year after year it quietly destroyed ceilings, floors and plasterwork. So fixing the roof came first, two whole years of work, and it needed eight thousand new tiles, every one made by hand at a workshop that still uses the original methods. My favourite moment came when we lifted the floorboards in the nursery. Hidden underneath, someone had tucked away a bundle of letters, written by the family's children during the Christmas holidays of eighteen ninety-five. Reading them aloud in that empty room, the house suddenly felt alive again. We've restored twelve rooms so far, and there's a big date coming: the library, with its two thousand rescued books, finally reopens in July. The smell of that room, all leather and beeswax, is worth the ticket on its own. Do come and visit us. Our volunteer guides are wonderful storytellers, and their tours last ninety minutes, though guests always say it feels like twenty. There's a full price list on our website, but here's a tip: entry is free on the first Sunday of every month, thanks to a generous local sponsor, and those days have a lovely festival feeling. When you need a rest, we serve tea and homemade cakes in the tearoom, which occupies the old stables, you can still see the horses' names painted above each stall. And every penny you spend helps the restoration, including everything from our little shop, where the star product is honey from the estate's own bees. They live in the orchard, and according to our gardener they are the hardest workers on the staff. There's at least a decade of work still ahead of us, the east wing is little more than a shell, but that's the beauty of a project like this. A house that took centuries to grow deserves patience. Come and see us, and become part of the story."
+   ],
+   "gapTitle": "Ashworth Hall — Restoration Project",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The house was built in: ____",
+     "accept": [
+      "1760",
+      "seventeen sixty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Before the project, the hall was empty for ____ years",
+     "accept": [
+      "20",
+      "twenty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The worst damage was caused by: ____",
+     "accept": [
+      "water",
+      "rain"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The roof needed ____ new tiles",
+     "accept": [
+      "8000",
+      "8,000",
+      "eight thousand"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Under the nursery floor they found old: ____",
+     "accept": [
+      "letters"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The library reopens in: ____",
+     "accept": [
+      "july"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Guided tours last ____ minutes",
+     "accept": [
+      "90",
+      "ninety"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Entry is free on the first ____ of every month",
+     "accept": [
+      "sunday"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The tearoom is in the old: ____",
+     "accept": [
+      "stables"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The shop's star product is: ____",
+     "accept": [
+      "honey"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2-P3",
+   "title": "Part 3 · Questions 19–23",
+   "kind": "file",
+   "file": "P11/B2/B2-P3.mp3",
+   "intro": "You will hear five people talking about why they volunteer at a historic house. For each speaker, choose from the list (A–H) the reason they give. Use each letter once. There are three extra letters you will not need.",
+   "bank": [
+    "to learn traditional skills",
+    "to be part of a team",
+    "because of family history",
+    "to fill free time after retiring",
+    "because they love old stories",
+    "to improve the local area",
+    "to get experience for their job",
+    "because a friend persuaded them"
+   ],
+   "scripts": [
+    "Speaker one. Woman: The first time I walked into the servants' corridor, I burst into tears, and the other volunteers must have thought I was mad. My grandmother worked in that house as a kitchen maid before the war, and I grew up on her stories about the bells and the frozen morning corridors. Polishing the same brass she once polished, I feel like I'm finishing something she started. Speaker two. Man: I fit kitchens for a living, all straight lines and machine-cut panels, and something was missing. At the hall, the master carpenter lets me work beside him, and he's teaching me to cut joints with tools most people only see in museums. Lime plaster, oak pegs, no screws anywhere. None of it helps my business, honestly, but these crafts nearly died out, and now I can pass them on. Speaker three. Woman: For me it's the archive room. I've read the letters, the servants' wage books, even the complaints about a dishonest butler in eighteen twelve. When I lead a tour, I don't recite dates, I tell people about the daughter who kept a fox as a pet, and watch their faces light up. A house is just walls, really. It's the tales inside that I've fallen for. Speaker four. Man: Forty years an accountant, and then one Friday it just stopped. My wife says I was unbearable within a fortnight, wandering round the kitchen reorganising her cupboards. The hall saved me, honestly. Tuesdays and Thursdays I'm on duty in the gatehouse, and my week has its shape back. It could have been the golf club, I suppose, but this happened to be nearer. Speaker five. Woman: I'll be honest, I'm not romantic about chandeliers and portraits. But that house is the first thing you see when you come over the bridge into town, and for years it stood there rotting, with weeds to the windows. What does that say to visitors, or to our kids? Since the gardens reopened, the cafés on the square are busier and people sound proud again. That's why I give it my Saturdays."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Speaker 1",
+     "c": "because of family history"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 2",
+     "c": "to learn traditional skills"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 3",
+     "c": "because they love old stories"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 4",
+     "c": "to fill free time after retiring"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 5",
+     "c": "to improve the local area"
+    }
+   ]
+  },
+  {
+   "id": "B2-P4",
+   "title": "Part 4 · Questions 24–30",
+   "kind": "file",
+   "file": "P11/B2/B2-P4.mp3",
+   "intro": "You will hear an interview with a man called Oliver, who works as a restoration architect. For each question, choose the best answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Oliver, you're one of the country's best-known restoration architects. Was this always the plan? Oliver: Not remotely. At university I dreamed of designing glass towers, the taller the better. Then one summer I took a holiday job with a crew repairing a village church roof. Up on that scaffolding, a carpenter twice my age showed me joints his grandfather had taught him, and by September the towers had lost me completely. Interviewer: When you take on a new building, where do you begin? Oliver: Everyone imagines I start with drawings, but the drawings come weeks later. The first thing I actually do is wait for bad weather. You learn more about an old house in one hour of heavy rain than in a month of sunshine: where the water goes, where it lingers, where it's been sneaking in for fifty years. Rain is the most honest surveyor there is. Interviewer: You've said that some restoration causes more harm than good. Oliver: Sadly yes, and usually with the best intentions. For decades, people patched old walls with hard modern cement. It looks tidy, but these buildings were designed to breathe, the moisture has to escape through the walls. Seal them up, and you trap the damp inside, and the building rots from within. Half my work is undoing yesterday's repairs. Interviewer: Some owners want new extensions on historic houses. Where do you stand? Oliver: I'm probably more radical than people expect. What I can't stand is imitation, a brand-new wing pretending to be two hundred years old, fooling nobody. If you must add, add honestly: glass, steel, clearly of our own century. A good building can hold several centuries at once without lying about any of them. Interviewer: What's the hardest part of your job? Oliver: The first meeting with new owners, when I tell them the truth about time. They arrive dreaming of two years, and I have to say seven, sometimes ten, and you watch their faces fall. But rushed restoration is just slow destruction, and the building has already waited two hundred years. Interviewer: And the most rewarding part? Oliver: Not the craftsmanship, surprisingly. It's the moment a building rejoins the town. Last year we finished a corn exchange that had been boarded up for thirty years. On opening night there was a choir, market stalls, children running everywhere, and an old lady told me she'd danced there in nineteen sixty. Buildings die of emptiness, not of age. Interviewer: So what's next? Oliver: A project I've been chasing for years: the old Victorian swimming baths in my own home town. Every sensible argument said turn the building into flats, but the council was brave, and in three years people will swim there again under the original iron roof. I learned to swim in that pool, so this one is personal. Interviewer: Oliver, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How did Oliver become interested in restoration?",
+     "o": [
+      "Through his university lectures",
+      "Through a summer job on a church roof",
+      "Through his grandfather"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Oliver do first with a new building?",
+     "o": [
+      "He watches it during heavy rain",
+      "He makes detailed drawings",
+      "He studies old photographs"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What problem does Oliver describe?",
+     "o": [
+      "Modern cement traps damp in old walls",
+      "Owners refuse to pay for repairs",
+      "Traditional materials are impossible to find"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Oliver think about new extensions?",
+     "o": [
+      "They should imitate the original style",
+      "They should look clearly modern",
+      "They should never be allowed"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Oliver find hardest?",
+     "o": [
+      "Telling owners how long the work will take",
+      "Finding skilled craftspeople",
+      "Working in bad weather"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Oliver find most rewarding?",
+     "o": [
+      "Perfect craftsmanship",
+      "Seeing buildings used by people again",
+      "Winning professional awards"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Oliver's next project?",
+     "o": [
+      "Restoring a corn exchange",
+      "Turning old baths into flats",
+      "Bringing a swimming pool back to life"
+     ],
+     "c": 2
+    }
+   ]
+  }
+ ]
+}

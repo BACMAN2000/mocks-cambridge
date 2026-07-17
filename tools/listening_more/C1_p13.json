@@ -1,0 +1,423 @@
+{
+ "label": "C1 — Advanced",
+ "cefr": "Cambridge Advanced (CAE) · C1 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+ "audios": [
+  {
+   "id": "C1-P1",
+   "title": "Part 1 · Questions 1–6",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in three different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A rare-book shop",
+    "An auction",
+    "A book fair",
+    "A collection talk",
+    "A restoration job",
+    "A buying decision"
+   ],
+   "scripts": [
+    "Question one. Woman: Did you find anything in that old bookshop? Man: I didn't buy a thing, and yet I could have stayed all afternoon. What drew me in wasn't the stock, honestly, it was the dealer, who talked me through how you date a binding from the stitching. I went in for a bargain and came out with an education instead.",
+    "Question two. Man: You went to the auction. Did you get the first edition? Woman: I was outbid, sadly. But here's what fascinated me: the copy that fetched the most wasn't the cleanest one. It was a scruffier volume with a poet's handwriting in the margins. The scribbles were worth more than the pristine pages. That told me everything about what collectors really prize.",
+    "Question three. Woman: How was the book fair? Man: Overwhelming, and a little dispiriting, if I'm honest. Every dealer seemed to be chasing the same handful of famous names, and prices were absurd. What lifted my spirits was one stall in the corner selling forgotten women writers cheaply, and I felt I'd found real treasure while everyone else fought over the obvious.",
+    "Question four. Man: What did you take from the talk on his collection? Woman: I'd assumed a great collection was about owning the rarest, most valuable items. He turned that on its head. For him it was about the story a group of books told together, how they connected. A collection, he said, should be an argument, not just a hoard. That stuck with me.",
+    "Question five. Woman: Is the restoration of that damaged volume finished? Man: Nearly, but it raised a real dilemma. I could make it look flawless, but the previous owner's repairs, clumsy as they are, are part of its history. In the end I've stabilised it without erasing those marks. A book that looks too perfect has had its past scrubbed away.",
+    "Question six. Man: You hesitated for ages over that little volume. Why buy it in the end? Woman: It wasn't rare and it wasn't beautiful. What decided me was a name inscribed on the flyleaf, a previous owner I could trace to a real person from two centuries ago. Holding a book that had passed through those particular hands, that was worth far more to me than condition."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What most drew the man into the bookshop?",
+     "o": [
+      "A bargain he found",
+      "The dealer's knowledge about bindings",
+      "The size of the stock"
+     ],
+     "c": 1,
+     "audio": "P13/C1/C1-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the auction teach the woman about collectors?",
+     "o": [
+      "They prize the cleanest copies",
+      "They value handwritten marginalia over pristine condition",
+      "They only care about first editions"
+     ],
+     "c": 1,
+     "audio": "P13/C1/C1-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What lifted the man's spirits at the book fair?",
+     "o": [
+      "Finding cheap, overlooked women writers",
+      "The high prices for famous names",
+      "Meeting other collectors"
+     ],
+     "c": 0,
+     "audio": "P13/C1/C1-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What was the speaker's view of a great collection?",
+     "o": [
+      "It should own the rarest items",
+      "It should tell a connected story, like an argument",
+      "It should be as large as possible"
+     ],
+     "c": 1,
+     "audio": "P13/C1/C1-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How did the man resolve the restoration dilemma?",
+     "o": [
+      "He made the book look flawless",
+      "He preserved the old repairs as part of its history",
+      "He refused to touch it"
+     ],
+     "c": 1,
+     "audio": "P13/C1/C1-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why did the woman finally buy the little volume?",
+     "o": [
+      "It was extremely rare",
+      "A traceable former owner inscribed inside",
+      "It was in perfect condition"
+     ],
+     "c": 1,
+     "audio": "P13/C1/C1-P1-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "C1-P2",
+   "title": "Part 2 · Questions 7–14",
+   "kind": "file",
+   "file": "P13/C1/C1-P2.mp3",
+   "intro": "You will hear an antiquarian bookseller called Clara giving a talk about the rare-book trade. For each question, complete the sentences with a word or short phrase.",
+   "scripts": [
+    "Hello, I'm Clara, and I deal in old and rare books, a trade that outsiders almost always misunderstand from the very first question they ask me, which is invariably how old a book has to be to be valuable. The honest answer is that age has surprisingly little to do with it. I can show you a worthless volume from the fifteen-hundreds and a modern paperback worth thousands; what matters is scarcity crossed with demand, not the calendar. The single most important factor in a book's value, though, is one most people have never heard of, and that is condition. A first edition in tatters may be worth a fraction of the same edition kept crisp, which is why collectors obsess over tiny flaws invisible to the rest of us. Almost as important, and this genuinely surprises newcomers, is a book's history of ownership, what we call its provenance. A perfectly ordinary novel can multiply in value if we can prove it once sat on a famous writer's shelf. Related to that are the marks readers leave, and here I must correct a stubborn myth: notes written in the margins, what we call marginalia, do not always ruin a book. If the annotator was significant, those scribbles can be the most precious thing about it. Now, the greatest threat to my trade is not, as people assume, the electronic book. Digital reading has, if anything, made the physical object more cherished, not less. The real danger is the fake, because as prices climb, so does the sophistication of the forger, and detecting them is a constant battle. My most valuable skill, in fact, is not knowing prices but authentication, being able to tell the genuine article from a clever imitation. And I'll end with the part of the job the public never sees and I love the most, which is not selling at all but the hunt, the detective work of tracking a long-lost volume through old catalogues and rumours until, occasionally, gloriously, it surfaces. A bookseller, I always say, is really an antiquarian detective who happens to take payment at the end."
+   ],
+   "gapTitle": "The Antiquarian Book Trade",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Clara says a book's value depends on scarcity crossed with ____, not its age",
+     "accept": [
+      "demand"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The single most important factor in a book's value is its ____",
+     "accept": [
+      "condition"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "A book's history of ownership is known as its ____",
+     "accept": [
+      "provenance"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Notes written in the margins are called ____",
+     "accept": [
+      "marginalia"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The greatest threat to the trade is not the electronic book but the ____",
+     "accept": [
+      "fake",
+      "fakes",
+      "forgery",
+      "forgeries"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Clara's most valuable skill is ____, telling genuine from imitation",
+     "accept": [
+      "authentication",
+      "authenticating"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The part of the job Clara loves most is the ____ for lost volumes",
+     "accept": [
+      "hunt",
+      "search",
+      "detective work"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Clara describes a bookseller as really an antiquarian ____",
+     "accept": [
+      "detective"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1-P3",
+   "title": "Part 3 · Questions 15–20",
+   "kind": "file",
+   "file": "P13/C1/C1-P3.mp3",
+   "intro": "You will hear an interview with a rare-book dealer called Leo. For each question, choose the best answer (A, B, C or D).",
+   "scripts": [
+    "Interviewer: Leo, is dealing in rare books a good way to make money? Leo: People imagine it's a road to riches, and I have to disappoint them. It's a labour of love with occasional windfalls, not a reliable income. If money were my aim, I'd have chosen almost any other trade. What keeps me in it is the objects themselves, not the profit. Interviewer: Has the internet been good or bad for you? Leo: Both, in equal and opposite ways. It's wonderful for finding a book anywhere on earth in seconds. But it has also stripped away the mystery that once let a knowledgeable dealer thrive. When any buyer can check a price instantly, the expertise I spent thirty years acquiring is worth rather less than it was. Interviewer: Do you resent that loss of expertise? Leo: I try not to, though I'd be lying if I said it didn't sting. What I've come to accept is that my real value was never the price knowledge anyway. It's judgement, the ability to look at two apparently identical copies and know, from a hundred tiny signs, which one matters. No website can do that yet. Interviewer: What's the commonest misconception customers bring? Leo: That a book must be old to be worth something. I spend half my life explaining that a battered volume from five centuries ago can be worthless while a pamphlet from the nineteen-sixties fetches a fortune. Rarity and demand rule everything; age is almost a distraction. Interviewer: Have you ever been fooled by a forgery? Leo: Once, early on, and it was the best lesson of my career. The humiliation taught me to trust nothing on first sight and to examine paper and ink like a detective. I'm almost grateful for that expensive mistake; it made me the dealer I am. Interviewer: What will happen to your trade in a digital age? Leo: I'm oddly optimistic. The more disposable everything becomes on a screen, the more people seem to crave an object with weight and history in their hands. Scarcity of the physical may be the very thing that saves us. Interviewer: Leo, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What does Leo say about making money in the trade?",
+     "o": [
+      "It is a reliable path to riches",
+      "It is a labour of love with only occasional windfalls",
+      "It is the easiest way he knows to earn",
+      "It requires no passion at all"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Leo's view of the internet's effect?",
+     "o": [
+      "It has been purely beneficial",
+      "It helps find books but has eroded the value of his expertise",
+      "It has ruined the trade entirely",
+      "It has had no real impact"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Leo now consider his real value?",
+     "o": [
+      "His knowledge of prices",
+      "His judgement in distinguishing near-identical copies",
+      "His large customer list",
+      "His speed at cataloguing"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What misconception does Leo most often correct?",
+     "o": [
+      "That old books must be valuable",
+      "That rare books are always expensive",
+      "That forgeries are easy to spot",
+      "That the trade is dying"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How does Leo regard the forgery that once fooled him?",
+     "o": [
+      "As a disaster he never recovered from",
+      "As a valuable lesson that shaped his career",
+      "As proof forgeries cannot be detected",
+      "As a minor and forgettable event"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why is Leo optimistic about the trade's future?",
+     "o": [
+      "Prices are certain to rise",
+      "Digital life makes people crave physical objects with history",
+      "Forgeries are disappearing",
+      "Young people are abandoning screens"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "C1-P4",
+   "title": "Part 4 · Questions 21–30",
+   "kind": "file",
+   "file": "P13/C1/C1-P4.mp3",
+   "intro": "You will hear five people involved in the antiquarian book world talking about their passion. TASK ONE (21–25): choose what first drew each speaker into old books. TASK TWO (26–30): choose what each speaker values most in a book.",
+   "scripts": [
+    "Speaker one. Woman: I fell into all this through my grandfather's library, honestly, a whole room I was allowed to explore as a child, and the smell of those pages is my earliest happy memory. What I prize above everything now is provenance, the thrill of holding a book and knowing whose hands it passed through, the human chain of owners behind it. That's the magic for me. Speaker two. Man: For me it began as pure investment, I'll be candid, I was looking for something scarce to put my money into and books seemed undervalued. The passion crept up on me later. And what I still care about most, perhaps unsurprisingly, is condition, that crispness, the absence of the smallest flaw, because to me a perfect copy is a small miracle of survival. Speaker three. Woman: I came to it as a bookbinder first, learning to repair and stitch, and I fell in love with the craft of the object before I ever cared about its contents. So what I treasure most is the binding itself, the physical artistry, the tooled leather and hand-sewn spine, the book as a made thing rather than merely a text. Speaker four. Man: Truthfully it was a single forged manuscript that hooked me, a scandal I read about as a student, and the detective side of authentication has obsessed me ever since. So the thing I value most is a book's genuineness, proving beyond doubt that an item is exactly what it claims to be, because in a world of clever fakes, certainty is everything. Speaker five. Woman: My way in was academic, a university thesis on forgotten writers that had me buried in old catalogues for years. And what I care about most isn't rarity or beauty at all, it's the marginalia, those scribbled notes a real reader left behind, because to me a book someone argued with in the margins is far more alive than a pristine one nobody ever touched."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what first drew the speaker into old books",
+     "person": "Speaker 1",
+     "bank": [
+      "a family library in childhood",
+      "seeing books as an investment",
+      "training as a bookbinder",
+      "fascination with a forgery scandal",
+      "academic research on writers",
+      "a gift from a friend",
+      "working in a library",
+      "a love of reading fiction"
+     ],
+     "c": "a family library in childhood"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what first drew the speaker into old books",
+     "person": "Speaker 2",
+     "bank": [
+      "a family library in childhood",
+      "seeing books as an investment",
+      "training as a bookbinder",
+      "fascination with a forgery scandal",
+      "academic research on writers",
+      "a gift from a friend",
+      "working in a library",
+      "a love of reading fiction"
+     ],
+     "c": "seeing books as an investment"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what first drew the speaker into old books",
+     "person": "Speaker 3",
+     "bank": [
+      "a family library in childhood",
+      "seeing books as an investment",
+      "training as a bookbinder",
+      "fascination with a forgery scandal",
+      "academic research on writers",
+      "a gift from a friend",
+      "working in a library",
+      "a love of reading fiction"
+     ],
+     "c": "training as a bookbinder"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what first drew the speaker into old books",
+     "person": "Speaker 4",
+     "bank": [
+      "a family library in childhood",
+      "seeing books as an investment",
+      "training as a bookbinder",
+      "fascination with a forgery scandal",
+      "academic research on writers",
+      "a gift from a friend",
+      "working in a library",
+      "a love of reading fiction"
+     ],
+     "c": "fascination with a forgery scandal"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what first drew the speaker into old books",
+     "person": "Speaker 5",
+     "bank": [
+      "a family library in childhood",
+      "seeing books as an investment",
+      "training as a bookbinder",
+      "fascination with a forgery scandal",
+      "academic research on writers",
+      "a gift from a friend",
+      "working in a library",
+      "a love of reading fiction"
+     ],
+     "c": "academic research on writers"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker values most in a book",
+     "person": "Speaker 1",
+     "bank": [
+      "its history of ownership",
+      "its pristine condition",
+      "the artistry of its binding",
+      "its proven genuineness",
+      "the notes readers left in the margins",
+      "its market value",
+      "its first-edition status",
+      "the beauty of its illustrations"
+     ],
+     "c": "its history of ownership"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker values most in a book",
+     "person": "Speaker 2",
+     "bank": [
+      "its history of ownership",
+      "its pristine condition",
+      "the artistry of its binding",
+      "its proven genuineness",
+      "the notes readers left in the margins",
+      "its market value",
+      "its first-edition status",
+      "the beauty of its illustrations"
+     ],
+     "c": "its pristine condition"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker values most in a book",
+     "person": "Speaker 3",
+     "bank": [
+      "its history of ownership",
+      "its pristine condition",
+      "the artistry of its binding",
+      "its proven genuineness",
+      "the notes readers left in the margins",
+      "its market value",
+      "its first-edition status",
+      "the beauty of its illustrations"
+     ],
+     "c": "the artistry of its binding"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker values most in a book",
+     "person": "Speaker 4",
+     "bank": [
+      "its history of ownership",
+      "its pristine condition",
+      "the artistry of its binding",
+      "its proven genuineness",
+      "the notes readers left in the margins",
+      "its market value",
+      "its first-edition status",
+      "the beauty of its illustrations"
+     ],
+     "c": "its proven genuineness"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the speaker values most in a book",
+     "person": "Speaker 5",
+     "bank": [
+      "its history of ownership",
+      "its pristine condition",
+      "the artistry of its binding",
+      "its proven genuineness",
+      "the notes readers left in the margins",
+      "its market value",
+      "its first-edition status",
+      "the beauty of its illustrations"
+     ],
+     "c": "the notes readers left in the margins"
+    }
+   ]
+  }
+ ]
+}

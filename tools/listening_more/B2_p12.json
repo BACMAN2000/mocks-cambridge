@@ -1,0 +1,342 @@
+{
+ "label": "B2 — Upper-Intermediate",
+ "cefr": "Cambridge First (FCE) · B2 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+ "audios": [
+  {
+   "id": "B2-P1",
+   "title": "Part 1 · Questions 1–8",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A tennis match",
+    "A team talk",
+    "A missed penalty",
+    "A running app",
+    "A swimming lesson",
+    "A sports report",
+    "A chess tournament",
+    "At a sports shop"
+   ],
+   "scripts": [
+    "Question one. Man: You were two games from victory, what on earth happened? Woman: Honestly? My legs were fine, and my serve was working beautifully. The problem was my head. I started imagining the trophy, planning what I'd say afterwards, and suddenly I couldn't hit a ball straight. She didn't beat me, I beat myself.",
+    "Question two. Coach: Listen, forget the goal we just let in, it's gone, and there's nothing we can do about it now. I don't want anyone replaying it in their head out there. The only thing that exists is the next five minutes. Win those, then the five after that. That's how we get back into this game.",
+    "Question three. Dad: I know it hurts, but listen to me. That striker you've got on your bedroom wall? He's missed more penalties than you've ever taken. What separates the great ones isn't never missing, it's that next Saturday they still want the ball. So, do you want the ball? Boy: Yeah. Yeah, I do.",
+    "Question four. Man: Still using that running app? Woman: Every day, but I've switched off the leaderboard. Comparing myself with strangers was turning every run into a failure. Now it only shows my own times from last month, and it turns out that beating yesterday's me is all the motivation I need.",
+    "Question five. Woman: How did you finally get Emma swimming in the deep end? Man: No tricks, really. We built a little routine together, three slow breaths on the steps, count to four, push off. Exactly the same every time. Once the routine felt bigger than the fear, she stopped thinking about the depth completely. Now I can't get her out of the pool.",
+    "Question six. Woman: In today's football news, City have announced their most unusual signing of the summer, and it's not a striker. The club has hired Dr Reeves, a sports psychologist who has worked with Olympic champions. The manager says that in a league this tight, the next improvements will come from the mind, not the training pitch.",
+    "Question seven. Girl: You've stopped falling apart in the last round, what changed? Boy: Sleep, basically. I used to stay up past midnight studying openings before big games, and by the final round my brain was soup. My coach made me swap that hour of study for an hour in bed, and I haven't collapsed in a final since.",
+    "Question eight. Assistant: These new ones have far better cushioning, most of our runners are switching over. Man: I'm sure they're wonderful, but I ran my best marathon in this exact model, and in my head they're part of the result. If that's silly, fine, I'm silly. Have you got them in a nine? Assistant: I'll check in the back for you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why did the woman lose the match?",
+     "o": [
+      "She lost her focus",
+      "She got tired",
+      "Her opponent got stronger"
+     ],
+     "c": 0,
+     "audio": "P12/B2/B2-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the coach tell the team to do?",
+     "o": [
+      "Defend more carefully",
+      "Think only about what comes next",
+      "Play more aggressively"
+     ],
+     "c": 1,
+     "audio": "P12/B2/B2-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the father's message?",
+     "o": [
+      "Missing is part of becoming great",
+      "His son should practise penalties more",
+      "The best players never miss"
+     ],
+     "c": 0,
+     "audio": "P12/B2/B2-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What now motivates the woman to run?",
+     "o": [
+      "Rewards from the app",
+      "Competing with strangers",
+      "Competing with her own past times"
+     ],
+     "c": 2,
+     "audio": "P12/B2/B2-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How did the teacher help Emma?",
+     "o": [
+      "By letting her use armbands",
+      "By practising a calming routine",
+      "By promising her a reward"
+     ],
+     "c": 1,
+     "audio": "P12/B2/B2-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What have City announced?",
+     "o": [
+      "A new striker",
+      "A new training ground",
+      "The signing of a sports psychologist"
+     ],
+     "c": 2,
+     "audio": "P12/B2/B2-P1-q6.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What helped the boy play better in finals?",
+     "o": [
+      "Studying more openings",
+      "Sleeping more before games",
+      "Playing faster in the last round"
+     ],
+     "c": 1,
+     "audio": "P12/B2/B2-P1-q7.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the man want to buy?",
+     "o": [
+      "The newest model",
+      "The cheapest pair available",
+      "The same model as before"
+     ],
+     "c": 2,
+     "audio": "P12/B2/B2-P1-q8.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B2-P2",
+   "title": "Part 2 · Questions 9–18",
+   "kind": "file",
+   "file": "P12/B2/B2-P2.mp3",
+   "intro": "You will hear a young swimmer called Ethan talking about the mental training programme at his sports academy. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Ethan: Hi, I'm Ethan, I'm seventeen, and I swim for the academy team. Tonight I've been asked to talk about something that has honestly changed my sport: our mental training programme. The academy started it in twenty nineteen, after a season when, according to our head coach, we kept losing finals we should have won. Not because we were slow, but because we panicked. Now mental training is on the timetable like everything else. We meet every Monday, straight after school and before we go anywhere near the pool, and each session lasts forty minutes. People imagine we lie on mats listening to whale music. It's nothing like that. It's practical, like learning a stroke, but for your head. The first skill everyone learns is breathing, one proper technique, with long slow out-breaths, that you can use on the starting blocks when your heart is hammering. It sounds too simple to matter, and then you try it in a real final and it's like someone turned the noise down. We each keep a diary as well. Two minutes after every training session: what went well, what we'd change. Mine was embarrassing to write at first, but now I'd be lost without it, because on bad days you can read last month's pages and see exactly how far you've come. Before big competitions we practise imagining the race, every detail of it, the smell of the chlorine, the cold block under your feet, the first fifteen metres. Before my first proper final, I had the strangest feeling that I'd already swum it, that's how real the rehearsal becomes. Some rules reach outside the pool too. The one everybody moans about: no phones for an hour before bed. Sleep is training, our coach says, and the data from our own squad proved her right, which was annoying and convincing at the same time. The programme is run by a former Olympic rower, which surprised us at first, wrong sport! But she says a final feels exactly the same whatever the water is doing. The habit of hers I use most is a single word. When something goes wrong, a bad turn, a slow start, you say 'next', out loud if you have to, and your attention moves forward instead of backwards. One word, honestly, and it works in maths exams too. Finally, this isn't only for us: there's a workshop for parents in February, because, let's be honest, some nerves start in the car on the way to the pool. My mum went last year. Car journeys are much quieter now!"
+   ],
+   "gapTitle": "Academy Mental Training Programme",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The programme started in: ____",
+     "accept": [
+      "2019",
+      "twenty nineteen"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Sessions take place every: ____",
+     "accept": [
+      "monday",
+      "mondays"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Each session lasts ____ minutes",
+     "accept": [
+      "40",
+      "forty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The first skill everyone learns: ____",
+     "accept": [
+      "breathing"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "After training, each athlete writes in a: ____",
+     "accept": [
+      "diary"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Before competitions, they practise imagining the: ____",
+     "accept": [
+      "race"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "No phones for an hour before: ____",
+     "accept": [
+      "bed",
+      "bedtime",
+      "sleep",
+      "sleeping"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The programme is run by a former Olympic: ____",
+     "accept": [
+      "rower"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "After a mistake, athletes say the word: ____",
+     "accept": [
+      "next"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The workshop for parents is in: ____",
+     "accept": [
+      "february"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2-P3",
+   "title": "Part 3 · Questions 19–23",
+   "kind": "file",
+   "file": "P12/B2/B2-P3.mp3",
+   "intro": "You will hear five athletes talking about how they deal with nerves before a competition. For each speaker, choose from the list (A–H) what they do. Use each letter once. There are three extra letters you will not need.",
+   "bank": [
+    "listening to music",
+    "talking to a teammate",
+    "following a fixed routine",
+    "doing breathing exercises",
+    "thinking about past successes",
+    "keeping away from the crowd",
+    "making jokes",
+    "writing down their worries"
+   ],
+   "scripts": [
+    "Speaker one. Man: An hour before kick-off, the headphones go on and the world goes away. It's the same playlist I've used for six years, eleven songs, always in the same order, and by the fourth track my shoulders have dropped. My teammates know not to talk to me once the headphones are on. It's not rudeness, it's how I arrive at the game calm. Speaker two. Woman: People laugh at me, but my competition morning never changes. Same breakfast, porridge and one banana, kit packed in the same order, warm-up starting exactly ninety minutes before my event, stretch by stretch, identical every time. I don't even like music before races. When every step is decided in advance, there's simply no room left for the nerves to move in. Speaker three. Man: Before a big fight, everyone wants to slap you on the back, wish you luck, ask how you're feeling. It's kind, and it drains me completely. So I've learned to disappear. There's always some quiet corridor or an empty changing room, and that's where you'll find me, alone with my thoughts. Ten minutes of nobody, and I walk out ready. Speaker four. Woman: My coach had me write a list, my ten best performances, with a line about how each one felt. It lives in my kit bag, and while the others are pacing around before we're called, I read it slowly. By the last line, my body remembers: you've done this before, and on your best days you were brilliant. Then I walk out tall. Speaker five. Man: Our dressing room before a final sounds like a comedy club, and I'm afraid I'm mostly responsible. Impressions of the coach, terrible puns about the other team's kit, anything for a laugh. Some people think I'm not taking it seriously, but it's the exact opposite. When the lads are laughing, the fear has nowhere to sit. We've never once played frightened."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Speaker 1",
+     "c": "listening to music"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 2",
+     "c": "following a fixed routine"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 3",
+     "c": "keeping away from the crowd"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 4",
+     "c": "thinking about past successes"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 5",
+     "c": "making jokes"
+    }
+   ]
+  },
+  {
+   "id": "B2-P4",
+   "title": "Part 4 · Questions 24–30",
+   "kind": "file",
+   "file": "P12/B2/B2-P4.mp3",
+   "intro": "You will hear an interview with a woman called Grace, who works as a sports psychologist. For each question, choose the best answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Grace, how does someone become a sports psychologist? Grace: In my case, by breaking an ankle. I was a gymnast, nothing special, but national level, and at nineteen I shattered my ankle landing a vault. The surgeons did their job perfectly, yet I kept failing to come back, and nobody could explain why. Eventually I understood: my ankle had healed and my mind hadn't. I switched my degree to psychology within the year. Interviewer: What do people get wrong about your job? Grace: They think I'm there to fix broken athletes, that seeing me means something is wrong with you. In reality I'm much more like a strength coach. Nobody says a sprinter must be weak because she trains her legs. Confidence, focus, recovering from mistakes, they're all trainable in exactly the same way, and the best in the world train them hardest. Interviewer: Athletes talk constantly about pressure. What do you tell them? Grace: That the racing heart and the butterflies are not the problem. Fear and excitement feel almost identical in the body, what differs is the story you attach to them. I've seen players change permanently after one small shift: from 'I have to' to 'I get to'. This isn't a threat, it's Saturday, it's the thing you loved when you were nine years old. Interviewer: And when things go wrong in the middle of a game? Grace: You need a reset, and it should be physical, because in that moment your thoughts can't be trusted. One goalkeeper I work with turns around, touches the left post once, and that gesture means 'new game'. The mistake is filed, not forgotten, filed. The worst thing an athlete can do is spend the next ten minutes replaying the last ten seconds. Interviewer: You also work with teenagers. What's different there? Grace: The weight of other people's hopes. Ask a young athlete what they're afraid of, and it's rarely losing. It's the car ride home, the silence, the disappointment on a parent's face. So half my work is really with the adults. My rule for parents is one question after a match: not 'did you win?', but 'did you enjoy it?'. That single change can give a child their sport back. Interviewer: After twenty years with champions, what still surprises people? Grace: That the doubt never disappears. I've sat with Olympic gold medallists the night before a final, and their three-in-the-morning thoughts sound exactly like yours or mine. Champions aren't people without doubt. They're people who have stopped being frightened of it. Interviewer: What's next for you? Grace: The group everyone forgets: referees. They make split-second decisions while thousands of people scream at them, they're never applauded, and they get almost no support. Next season we're starting the first proper mental skills programme for match officials, and honestly, it's long overdue. Interviewer: Grace, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How did Grace become a sports psychologist?",
+     "o": [
+      "Her own recovery from injury kept failing",
+      "A coach suggested the career",
+      "She could not qualify as a gymnast"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What do people misunderstand about her job?",
+     "o": [
+      "They think it is only for athletes with problems",
+      "They think it is easy work",
+      "They think it replaces normal coaching"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Grace say about nerves?",
+     "o": [
+      "They disappear with experience",
+      "What matters is how you interpret them",
+      "They must be eliminated before competing"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How does the goalkeeper deal with mistakes?",
+     "o": [
+      "He talks to a teammate",
+      "He uses a physical reset gesture",
+      "He asks to be substituted"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "According to Grace, young athletes most fear",
+     "o": [
+      "losing important matches",
+      "being dropped from the team",
+      "disappointing their parents"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What does Grace say about champions?",
+     "o": [
+      "They still experience doubt",
+      "They sleep badly before finals",
+      "They rarely need her help"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Who will Grace work with next?",
+     "o": [
+      "Olympic medallists",
+      "Referees",
+      "Young gymnasts"
+     ],
+     "c": 1
+    }
+   ]
+  }
+ ]
+}

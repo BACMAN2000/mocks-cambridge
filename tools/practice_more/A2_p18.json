@@ -1,0 +1,158 @@
+{
+  "title": "A2 Key — Reading and Writing (Practice 18)",
+  "note": "Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "The Olive Tree Restaurant",
+          "text": "WE ARE CLOSED FOR A FAMILY WEDDING ON SATURDAY 12TH. OPEN AGAIN SUNDAY AT MIDDAY. SORRY FOR ANY TROUBLE.",
+          "stem": "Why is the restaurant closed on Saturday?",
+          "options": ["The kitchen is being repaired.", "There is a family wedding.", "The owners are on holiday."],
+          "answer": 1
+        },
+        {
+          "kind": "message",
+          "header": "From: Marco → To: Lena",
+          "text": "Lena, I'm cooking dinner tonight for Mum's birthday. Can you get lemons and cream on your way home? I've got everything else. Don't be later than six — I need your help laying the table!",
+          "stem": "What does Marco want Lena to buy?",
+          "options": ["A birthday present.", "Everything for dinner.", "Lemons and cream."],
+          "answer": 2
+        },
+        {
+          "kind": "email",
+          "from": "Junior Chef Club",
+          "to": "Members",
+          "subject": "Next lesson",
+          "body": "Dear member, at next week's lesson we are making vegetable soup, so please bring a small sharp knife — ask a parent first! If you don't have one, tell us before Tuesday and we will lend you one. Aprons are provided as always.",
+          "stem": "What should members do if they have no knife?",
+          "options": ["Tell the club before Tuesday.", "Buy one before the lesson.", "Bring an apron instead."],
+          "answer": 0
+        },
+        {
+          "kind": "note",
+          "header": "Note for Robbie",
+          "text": "Robbie — Your dinner is in the fridge. Heat it in the microwave for two minutes, not longer, or the fish will go hard. There's fruit salad for dessert. Leave some for your sister! — Mum",
+          "stem": "What does Mum say about the fruit salad?",
+          "options": ["It is in the microwave.", "Robbie must share it.", "Robbie can eat all of it."],
+          "answer": 1
+        },
+        {
+          "kind": "sign",
+          "header": "Harbour Fish Restaurant",
+          "text": "LUNCH MENU: TWO COURSES FOR £9, MONDAY TO FRIDAY ONLY. CHILDREN UNDER FIVE EAT FREE ALL WEEK.",
+          "stem": "When can people get two courses for £9?",
+          "options": ["On weekdays.", "Every day.", "At weekends only."],
+          "answer": 0
+        },
+        {
+          "kind": "notice",
+          "header": "Hotel Bristol — Breakfast Room",
+          "text": "BREAKFAST IS SERVED FROM 7 TO 10. GUESTS WHO LEAVE EARLIER CAN ASK FOR A BREAKFAST BAG AT THE DESK THE NIGHT BEFORE.",
+          "stem": "What can guests do if they leave before 7?",
+          "options": ["Have breakfast in their room.", "Pay extra for an early breakfast.", "Order a breakfast bag the night before."],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "Read about three young people and eating out. For each question, choose the correct person (A, B or C). The people may be chosen more than once.",
+      "sources": [
+        {
+          "label": "A",
+          "name": "Bella",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/8.jpg\" alt=\"Bella\" loading=\"lazy\">",
+          "text": "My family has a pizza van, and every summer we travel to festivals all over the country to sell our pizzas. My job is taking the orders at the window. I love it because you meet people from everywhere — last summer I talked to visitors from Japan, Brazil and Iceland, all in one day!"
+        },
+        {
+          "label": "B",
+          "name": "Ryo",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/41.jpg\" alt=\"Ryo\" loading=\"lazy\">",
+          "text": "Once a month, my grandad takes me to the same little noodle restaurant near the station. We always order exactly the same dish — chicken noodle soup — because it's just perfect. The owner knows us now and says 'the usual?' when we walk in. Grandad pays, but I always get to choose the dessert."
+        },
+        {
+          "label": "C",
+          "name": "Martina",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/66.jpg\" alt=\"Martina\" loading=\"lazy\">",
+          "text": "I keep a little notebook, and every time my family eats at a restaurant, I write about it: what we ate, how friendly the waiters were, and a mark out of ten. I've written about nineteen restaurants so far. My dream is to write about food for a newspaper when I'm older."
+        }
+      ],
+      "questions": [
+        {"stem": "Which person always eats the same thing?", "answer": "B"},
+        {"stem": "Which person writes about the food they eat?", "answer": "C"},
+        {"stem": "Which person travels to different places in summer?", "answer": "A"},
+        {"stem": "Which person wants to write about food as a job?", "answer": "C"},
+        {"stem": "Which person visits the same place with an older relative?", "answer": "B"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the text about a school cooking competition. Choose the correct answer A, B or C.",
+      "passage": "Every year, Priya's school holds a cooking competition for students in her year. This year, the theme was 'a dish from your family', and the winner would get a cookery book signed by a famous TV chef.\n\nPriya knew at once what she would cook: her grandmother's dal, a dish made from lentils that Priya has eaten every week since she was small. Her grandmother agreed to teach her properly, and they practised together four times. The hardest part was getting the spices right — the first time, Priya added too much chilli, and her grandfather's eyes watered when he tried it!\n\nOn the day of the competition, ten students cooked their dishes in the school kitchen while three judges walked around asking questions. Priya stayed calm until her pan got too hot and some lentils stuck to the bottom. She remembered her grandmother's words: 'Don't rush. Taste as you go.' She added some water, lowered the heat, and saved her dish.\n\nPriya did not win — a boy called Stefan won with his grandfather's fish soup. But the judges gave Priya a special prize for the dish with the best story, because she told them all about her grandmother.\n\nThat evening, Priya's family ate the rest of the dal for dinner. Her grandmother said it was perfect — and that next year, they would start practising earlier.",
+      "questions": [
+        {"stem": "What could the winner of the competition get?", "options": ["A signed cookery book.", "Dinner with a TV chef.", "A new school kitchen."], "answer": 0},
+        {"stem": "What went wrong the first time Priya practised?", "options": ["She burned the lentils.", "The dish was too spicy.", "She forgot the spices."], "answer": 1},
+        {"stem": "What problem did Priya have during the competition?", "options": ["She dropped her pan.", "The judges asked difficult questions.", "Some food stuck to her pan."], "answer": 2},
+        {"stem": "Why did Priya get a special prize?", "options": ["Her dish tasted the best.", "She finished first.", "Her dish had the best story."], "answer": 2},
+        {"stem": "What did Priya's family do that evening?", "options": ["They ate the rest of Priya's dish.", "They went to a restaurant.", "They started practising for next year."], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 4",
+      "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+      "title": "Ice Cream",
+      "body": "Ice cream is one of the world's favourite desserts, and people have enjoyed icy sweets for over two thousand years. Long ago, rich people sent workers up mountains to (19)____ snow, which was then mixed with honey and fruit. Ice cream (20)____ we know it today first became popular in Italy and France. At first, only very rich families could (21)____ it, because ice was so expensive. Everything changed when machines made it (22)____ to keep food cold. Soon, ice cream was (23)____ everywhere — in shops, cafés and even at the beach. Today there are hundreds of flavours, (24)____ chocolate and vanilla are still the most popular.",
+      "questions": [
+        {"options": ["take", "carry", "collect", "pick"], "answer": 2},
+        {"options": ["as", "that", "which", "like"], "answer": 0},
+        {"options": ["cost", "sell", "pay", "buy"], "answer": 3},
+        {"options": ["hard", "easy", "difficult", "heavy"], "answer": 1},
+        {"options": ["sold", "bought", "paid", "grown"], "answer": 0},
+        {"options": ["so", "or", "because", "but"], "answer": 3}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 5",
+      "instructions": "For each gap (25–30), write ONE word.",
+      "title": "An email about a restaurant",
+      "body": "Hi Hana,\n\nLast night my family went to the new Italian restaurant (25)____ King Street. We went there to celebrate my mum's new job.\n\nI had pasta (26)____ tomato sauce, and my brother ate a pizza that was bigger (27)____ his head! For dessert we all shared (28)____ enormous chocolate cake.\n\nYou should ask your parents to take you. It's not expensive, and the waiters (29)____ really friendly.\n\nLet's go together (30)____ day after school!\nMina",
+      "questions": [
+        {"accept": ["on", "in"]},
+        {"accept": ["with"]},
+        {"accept": ["than"]},
+        {"accept": ["an"]},
+        {"accept": ["are", "were"]},
+        {"accept": ["one", "some"]}
+      ]
+    },
+    {
+      "type": "writing",
+      "part": "Part 6",
+      "prompts": [{
+        "kind": "email",
+        "instructions": "Your English friend Jo is coming to your house for dinner on Friday. Write an email to Jo. In your email: say what you are going to cook / ask if there is any food Jo doesn't eat / tell Jo what time to come.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    },
+    {
+      "type": "writing",
+      "part": "Part 7",
+      "prompts": [{
+        "kind": "story",
+        "instructions": "Write a story for your English class. Your story must begin with this sentence:\nWhen the waiter brought the bill, Dad's face suddenly changed.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    }
+  ]
+}

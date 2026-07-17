@@ -1,0 +1,30 @@
+{
+  "title": "B1 Preliminary — Writing (Practice 14)",
+  "durationMin": 45,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in about 100 words.",
+      "tasks": [{
+        "type": "email", "minWords": 100,
+        "lead": "Read this email from your English-speaking friend Nina and the notes you have made.",
+        "stimulus": { "head": "EMAIL", "title": "", "body": "From: Nina\nSubject: Free concert ticket!\n\nHi!\n\nMy sister bought two tickets for the big concert in the park next Saturday evening, but now she can't go — so I have a free ticket for you!\n\nDo you want to come? The concert starts at seven, but we should get there early. Where shall we meet?\n\nNina" },
+        "bullets": ["thank Nina and accept the ticket", "suggest where and when to meet", "say how you will get home after the concert", "ask one question about the concert"],
+        "write": "Write your email to Nina."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in about 100 words.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 100,
+          "lead": "You see this announcement in your school English-language magazine.",
+          "stimulus": { "title": "MUSIC IN MY LIFE", "body": "What kind of music do you listen to, and when do you listen to it? Write an article about the music you love and what it means to you. The best articles will be published next month." },
+          "bullets": ["what kind of music you like", "when and where you listen to it", "why music is important to you"],
+          "write": "Write your article." },
+        { "type": "story", "q": 3, "minWords": 100,
+          "lead": "Your English teacher has asked you to write a story.",
+          "startSentence": "Just before the band came on stage, Omar felt his phone vibrate in his pocket.",
+          "stimulus": { "title": "", "body": "Your story must begin with this sentence:\n\nJust before the band came on stage, Omar felt his phone vibrate in his pocket." },
+          "bullets": [],
+          "write": "Write your story." }
+      ]
+    }
+  ]
+}

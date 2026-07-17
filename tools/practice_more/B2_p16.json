@@ -1,0 +1,189 @@
+{
+  "title": "B2 First — Reading and Use of English (Practice 16)",
+  "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "Chasing the storm",
+      "body": "Every spring, a strange migration takes (1)____ across the plains of North America. Storm chasers drive hundreds of kilometres a day in the (2)____ of witnessing one of nature's most violent spectacles: the tornado. Some are scientists gathering data that cannot be collected any other way; others are simply tourists (3)____ for a thrill. The practice raises awkward questions, not (4)____ because convoys of amateur chasers can block the very roads that emergency services depend on. Forecasters, meanwhile, have made enormous (5)____ in predicting where the worst weather will strike. Warnings that once gave residents a few minutes now give them hours, and the difference is measured (6)____ lives saved. Yet the same decades have brought a worrying trend, as climate scientists warn that warmer oceans are likely to make the most destructive storms more (7)____ than they were in the past. Learning to live with wild weather, rather than simply cleaning up after it, may (8)____ out to be one of the defining skills of the coming century.",
+      "questions": [
+        { "options": ["part", "point", "place", "way"], "answer": 2 },
+        { "options": ["wish", "hope", "dream", "aim"], "answer": 1 },
+        { "options": ["watching", "seeking", "chasing", "looking"], "answer": 3 },
+        { "options": ["least", "last", "little", "less"], "answer": 0 },
+        { "options": ["steps", "leaps", "strides", "jumps"], "answer": 2 },
+        { "options": ["by", "in", "with", "on"], "answer": 1 },
+        { "options": ["usual", "regular", "constant", "frequent"], "answer": 3 },
+        { "options": ["turn", "come", "work", "find"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "Naming the storms",
+      "body": "Hurricanes and other great storms are given human names, a practice (9)____ began as a practical solution to a problem of communication. When several storms are active at (10)____ same time, forecasters need a quick way to tell one from another, and names proved far easier to remember (11)____ numbers or coordinates. Lists of names are prepared years in advance and reused every six years. There is, however, one exception (12)____ this rule. When a storm proves especially deadly or costly, its name is retired and never used (13)____, out of respect for those affected. Research has since revealed a stranger effect: people's behaviour can be influenced by the names (14)____. Some studies suggest that storms with gentle-sounding names are taken (15)____ seriously, and that residents in their path may therefore fail to prepare properly. A storm, (16)____ course, cannot know what it is called; the danger lies entirely in what we imagine the name to mean.",
+      "questions": [
+        { "accept": ["that", "which"] },
+        { "accept": ["the"] },
+        { "accept": ["than"] },
+        { "accept": ["to"] },
+        { "accept": ["again"] },
+        { "accept": ["themselves"] },
+        { "accept": ["less"] },
+        { "accept": ["of"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Understanding lightning",
+      "rows": [
+        { "text": "Lightning is among the most (17)____ of all", "root": "SPECTACLE" },
+        { "text": "natural phenomena, and one of the deadliest." },
+        { "text": "" },
+        { "text": "Each flash heats the air to an almost (18)____", "root": "BELIEVE" },
+        { "text": "temperature, hotter than the sun's surface." },
+        { "text": "" },
+        { "text": "Our ancestors, quite (19)____, saw the anger", "root": "UNDERSTAND" },
+        { "text": "of the gods in every thunderstorm." },
+        { "text": "" },
+        { "text": "Modern science offers a calmer (20)____ based", "root": "EXPLAIN" },
+        { "text": "on electrical charges inside storm clouds." },
+        { "text": "" },
+        { "text": "Even so, many people hold mistaken (21)____", "root": "ASSUME" },
+        { "text": "about how to stay safe when thunder sounds." },
+        { "text": "" },
+        { "text": "Sheltering under a tall tree, for instance, is" },
+        { "text": "positively (22)____ rather than protective.", "root": "DANGER" },
+        { "text": "" },
+        { "text": "A car, (23)____ enough, is one of the safest", "root": "ODD" },
+        { "text": "places to be, thanks to its metal shell." },
+        { "text": "" },
+        { "text": "With sensible (24)____, the risk of being struck", "root": "PREPARE" },
+        { "text": "remains vanishingly small." }
+      ],
+      "questions": [
+        { "root": "SPECTACLE", "accept": ["spectacular"] },
+        { "root": "BELIEVE", "accept": ["unbelievable"] },
+        { "root": "UNDERSTAND", "accept": ["understandably"] },
+        { "root": "EXPLAIN", "accept": ["explanation"] },
+        { "root": "ASSUME", "accept": ["assumptions"] },
+        { "root": "DANGER", "accept": ["dangerous"] },
+        { "root": "ODD", "accept": ["oddly"] },
+        { "root": "PREPARE", "accept": ["preparation", "preparations"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+      "questions": [
+        {
+          "before": "The storm was so violent that they had to postpone the match.",
+          "keyword": "PUT",
+          "after": "The storm was so violent that the match ___ off.",
+          "accept": ["had to be put"]
+        },
+        {
+          "before": "\"Stay indoors until the wind drops,\" the police told residents.",
+          "keyword": "WARNED",
+          "after": "The police ___ indoors until the wind dropped.",
+          "accept": ["warned residents to stay", "warned them to stay"]
+        },
+        {
+          "before": "This is the hottest summer the region has ever recorded.",
+          "keyword": "NEVER",
+          "after": "The region has ___ a hotter summer.",
+          "accept": ["never recorded"]
+        },
+        {
+          "before": "Scientists expect that storms will become stronger.",
+          "keyword": "ARE",
+          "after": "Storms ___ become stronger.",
+          "accept": ["are expected to"]
+        },
+        {
+          "before": "We couldn't go out because of the heavy snow.",
+          "keyword": "SO",
+          "after": "The snow was ___ we couldn't go out.",
+          "accept": ["so heavy that"]
+        },
+        {
+          "before": "I advise you to insure your house against floods.",
+          "keyword": "BETTER",
+          "after": "You ___ your house against floods.",
+          "accept": ["had better insure", "'d better insure"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "Whose fault is the weather?\n\nFor years, whenever a heatwave broke records or a flood drowned a region, journalists would ask scientists the obvious question — was this climate change? — and receive the same careful answer: no single weather event can be attributed to a changing climate. The reply was honest, and it was also deeply unsatisfying. The public was being told, in effect, that the most important question about a disaster was one science could not answer. That has now changed, thanks to one of the quietest revolutions in modern research: the science of attribution.\n\nThe method behind it is elegant. Researchers run detailed computer simulations of two planets. The first is the world as it is, with the atmosphere carrying all the extra greenhouse gases of the industrial age. The second is a counterfactual world — the Earth as it would have been had those emissions never happened. By running each version thousands of times and counting how often a given heatwave, storm or drought appears in each, scientists can calculate how much more likely, or more intense, human influence has made that specific event.\n\nThe results, produced within days of a disaster while public attention is still focused, can be striking. One European heatwave was found to have been made many times more likely by warming; some recent extremes, the studies concluded, would have been virtually impossible in the counterfactual world. Not every event tells the same story — occasionally the analysis finds little or no human fingerprint, and attribution scientists publish those results too, which is precisely why the field has earned trust.\n\nThe consequences reach well beyond meteorology. Attribution studies are now cited in courtrooms, where citizens and cities have begun suing governments and companies over climate damages; establishing that warming made a specific disaster measurably worse turns a vague grievance into a quantifiable claim. City planners use the same numbers to decide how high to build flood defences, and insurers use them to price the decades ahead. A percentage, it turns out, can be a powerful legal and political instrument.\n\nHonesty requires noting the limits. Attribution works best for large, slow phenomena — heatwaves above all, droughts and heavy rainfall with more caution. Small, chaotic events such as tornadoes remain largely beyond reach, and every study carries margins of uncertainty that headlines tend to shave off. The counterfactual planet is, after all, a simulation, not an observation, and its verdicts are probabilities rather than proofs.\n\nStill, the transformation is real. A question that once ended conversations — was it climate change? — now, for a growing class of events, has a numerical answer. The weather has not stopped being an act of nature. But science can increasingly say how much of an act of ours it has become, and that knowledge, uncomfortable as it is, is the beginning of responsibility.",
+      "questions": [
+        { "stem": "What answer did scientists traditionally give when asked if climate change caused a specific disaster?", "options": ["That every disaster was directly caused by warming.", "That journalists should not ask the question.", "That the climate was not changing at all.", "That no single event could be attributed to climate change."], "answer": 3 },
+        { "stem": "How does attribution science reach its conclusions?", "options": ["By interviewing survivors of disasters.", "By waiting several decades to observe trends.", "By comparing simulations of the real world with a world without industrial emissions.", "By measuring temperatures on other planets."], "answer": 2 },
+        { "stem": "Why, according to the writer, has the field earned trust?", "options": ["Because it also publishes results that find little or no human influence.", "Because its studies are never released to the public.", "Because it only studies events with dramatic results.", "Because it avoids using computer models."], "answer": 0 },
+        { "stem": "What effect have attribution studies had beyond science?", "options": ["They have ended all disagreement about climate policy.", "They have given courts, planners and insurers quantifiable evidence to work with.", "They have made flood defences unnecessary.", "They have replaced weather forecasting entirely."], "answer": 1 },
+        { "stem": "What limitation does the writer acknowledge?", "options": ["Attribution studies take decades to complete.", "Heatwaves are impossible to analyse.", "Small chaotic events like tornadoes remain largely beyond the method's reach.", "The results contain no uncertainty at all."], "answer": 2 },
+        { "stem": "Which statement best captures the writer's conclusion?", "options": ["A question that once had no answer can now often be answered with a number, and that knowledge brings responsibility.", "The weather is entirely an act of nature and always will be.", "Simulations have proved that emissions are harmless.", "Attribution science should be kept out of courtrooms."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+      "passage": "The village that moved uphill\n\nThe riverside village of Elmsford flooded four times in nine years, each time worse than the last. (37)____ What followed was one of the country's first organised retreats from a river.\n\nThe decision was anything but unanimous. (38)____ Meetings in the village hall ran past midnight, and neighbours who had never exchanged a hard word stopped greeting each other in the shop.\n\nIn the end, it was money that settled the argument. (39)____ A home that cannot be insured or sold, the last opponents slowly conceded, is not really owned at all; it is merely lived in until the next flood.\n\nThe new village stands two kilometres away and forty metres higher. (40)____ Some things, of course, could not make the journey, and on still summer evenings people walk down to look at the grass growing in the old streets.\n\nExperts now visit Elmsford and describe it as a model for the future. (41)____ The costs, both financial and human, multiply with every additional thousand residents.\n\nAsk the villagers themselves whether it was worth it, and most give a double answer. (42)____ Both things, they insist, are true at once — and anyone planning such a move should understand that from the very beginning.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "The planners tried to move more than buildings: the war memorial, the pub sign and even the cricket pitch were carried up the hill.",
+          "Some families had farmed the same waterside fields for two hundred years and swore they would sooner drown than leave.",
+          "They grieve for the place they left, and they sleep peacefully through storms that once kept the whole village awake.",
+          "The river, according to the oldest records, had never once burst its banks.",
+          "Insurers had quietly withdrawn from the floodplain, and no bank would grant a mortgage on an uninsurable house.",
+          "They are careful to add, however, that what worked for four hundred people cannot simply be scaled up to a coastal city.",
+          "As a result, house prices in the old village doubled within a year.",
+          "After the fourth flood, the residents stopped talking about better defences and began, hesitantly, to talk about leaving."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing sentence:", "answer": "H" },
+        { "stem": "Choose the missing sentence:", "answer": "B" },
+        { "stem": "Choose the missing sentence:", "answer": "E" },
+        { "stem": "Choose the missing sentence:", "answer": "A" },
+        { "stem": "Choose the missing sentence:", "answer": "F" },
+        { "stem": "Choose the missing sentence:", "answer": "C" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "Read about four people whose lives revolve around extreme weather. Then answer the questions. The same person may be chosen more than once.",
+      "sources": [
+        { "label": "A", "name": "Priya", "text": "I build the computer models that predict river flooding, which means that when the sirens sound in a valley town at two in the morning, they are sounding, in a sense, on my say-so. The technology has changed beyond recognition since I started: radar and satellite data now feed the models minute by minute, and forecasts that were once honest guesswork have become genuinely precise. But precision has a weight to it. When my model says a street will be underwater by dawn, real families carry their photographs upstairs because of a number I produced, and on the bad nights I lie awake running the calculations again in my head. People imagine forecasting is about machines. It is about machines right up until the moment your output becomes someone's evacuation, and after that it is about conscience." },
+        { "label": "B", "name": "Cal", "text": "I was nine when a tornado passed within a kilometre of my family's farm, close enough to fill the air with the roar of a train that was not there. My parents remember the terror; what I remember, guiltily, is the fascination, and I have been photographing storms ever since. People who see my pictures assume I am a thrill-seeker with a death wish, when the truth is embarrassingly dull: I plan escape routes before every chase, keep a full tank, and abandon more approaches than I attempt — other chasers actually tease me for my caution. What they do not tease me about is the footage. Every video I shoot goes, with its timestamps and coordinates, to a university research group that studies how these storms form, so the same clips that end up on magazine covers also end up as data." },
+        { "label": "C", "name": "Marisol", "text": "My job title says emergency coordinator; my real job is persuasion. The forecasts I receive are better than they have ever been — the science rarely lets us down now. What fails is the human step: convincing a busy, sceptical town to abandon a normal Tuesday because of a danger it cannot yet see. Order an evacuation and the storm turns aside, and I am the fool who cried wolf and cost everyone money; hesitate, and the consequences do not bear thinking about. I lose either way, and I accepted that long ago. What actually works is everything we do in the quiet months. I spend more time drinking coffee in church halls and school gyms than I do in the operations room, because when the wave comes, people do not follow official instructions. They follow people they already trust, and that trust cannot be built during the disaster; only before it." },
+        { "label": "D", "name": "Ben", "text": "My grandfather grew the same thirsty crop on this land for fifty years, and for a while I did too, until three failed harvests in a decade told me the rain I was farming for no longer existed. The turning point was a study trip to Australia, where farmers have been managing drought for generations. I came home with a notebook full of their methods — catching and storing every drop of winter rain, shading the soil with cover crops to slow evaporation — and I replaced our old variety with drought-tolerant grains developed for exactly these conditions. The neighbours watched over the fence for two years before the first of them copied me. I understand their hesitation; I hesitated too. But farming has always meant reading the sky honestly, and the sky here is telling us, plainly, that it has changed its mind." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Priya", "Cal", "Marisol", "Ben"] },
+      "questions": [
+        { "stem": "Which person's fascination began with a frightening childhood experience?", "answer": "B" },
+        { "stem": "Which person finds persuading people harder than the science of prediction?", "answer": "C" },
+        { "stem": "Which person feels the personal weight of decisions based on their calculations?", "answer": "A" },
+        { "stem": "Which person has changed what they produce because of the changing climate?", "answer": "D" },
+        { "stem": "Which person expects criticism whichever way events turn out?", "answer": "C" },
+        { "stem": "Which person insists they take fewer risks than people imagine?", "answer": "B" },
+        { "stem": "Which person applies methods learned in another part of the world?", "answer": "D" },
+        { "stem": "Which person says technology has transformed the accuracy of their work?", "answer": "A" },
+        { "stem": "Which person believes trust must be built before a disaster, not during it?", "answer": "C" },
+        { "stem": "Which person contributes their material to scientific research?", "answer": "B" }
+      ]
+    }
+  ]
+}

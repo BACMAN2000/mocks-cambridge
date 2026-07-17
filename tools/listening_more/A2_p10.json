@@ -1,0 +1,311 @@
+{
+ "label": "A2 — Elementary",
+ "cefr": "Cambridge KET · A2 official format",
+ "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+ "audios": [
+  {
+   "id": "A2-P1",
+   "title": "Part 1 · Questions 1–5",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+   "segments": [
+    "Dinner tonight",
+    "Where to eat",
+    "Cooking class",
+    "Going to the market",
+    "Something to buy"
+   ],
+   "scripts": [
+    "Question one. Boy: Are we making a cake tonight, Mum? Mum: Not tonight — we're making pizza. You can choose what to put on top. Boy: Yes! Cheese and tomatoes.",
+    "Question two. Man: Shall we have lunch in the park? Woman: It's too cold to sit outside. Let's go to that little café near the market. Man: Good idea.",
+    "Question three. Girl: Does the cooking class start at seven? Boy: It did last month, but now it starts at half past seven. Girl: Great, I won't have to run.",
+    "Question four. Boy: How are we getting to the food market, Mum? Mum: It's near, so let's go by bike. The car park there is always full. Boy: OK, I'll get my helmet.",
+    "Question five. Girl: I want to cook something new for Dad's birthday. Boy: Why don't you look on the internet? Girl: No, I'm going to buy that big recipe book from the bookshop. Boy: Good idea — it has pictures of everything."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What will they make tonight?",
+     "imgs": [
+      "cake",
+      "pizza",
+      "sandwich"
+     ],
+     "c": 1,
+     "audio": "P10/A2/A2-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where will they have lunch?",
+     "imgs": [
+      "park",
+      "cafe",
+      "library"
+     ],
+     "c": 1,
+     "audio": "P10/A2/A2-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the cooking class start now?",
+     "imgs": [
+      "clock700",
+      "clock730",
+      "clock8"
+     ],
+     "c": 1,
+     "audio": "P10/A2/A2-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will they go to the food market?",
+     "imgs": [
+      "car",
+      "bike",
+      "bus"
+     ],
+     "c": 1,
+     "audio": "P10/A2/A2-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What is the girl going to buy?",
+     "imgs": [
+      "book",
+      "bag",
+      "camera"
+     ],
+     "c": 0,
+     "audio": "P10/A2/A2-P1-q5.mp3"
+    }
+   ]
+  },
+  {
+   "id": "A2-P2",
+   "title": "Part 2 · Questions 6–10",
+   "kind": "file",
+   "file": "P10/A2/A2-P2.mp3",
+   "intro": "You will hear a man talking about a cooking competition for young people. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+   "scripts": [
+    "Listen to a man talking about a cooking competition. Man: Hello everyone, and welcome to the town cooking competition for young people. This year the competition is on Saturday the second of May. Every young cook must make a salad and a fruit dessert. You can use our kitchen, but please bring your own apron. Cooking starts at ten o'clock, and you have two hours. The winner gets fifty pounds and a photo in the town newspaper. Good luck!"
+   ],
+   "gapTitle": "Young Cooks Competition",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Date: Saturday the ____ of May",
+     "accept": [
+      "2nd",
+      "second",
+      "2"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Make: a salad and a fruit ____",
+     "accept": [
+      "dessert"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Bring: your own ____",
+     "accept": [
+      "apron"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Cooking starts at: ____ a.m.",
+     "accept": [
+      "10",
+      "ten",
+      "10:00",
+      "10.00",
+      "10 o'clock",
+      "ten o'clock"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The winner gets: £ ____",
+     "accept": [
+      "50",
+      "fifty"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2-P3",
+   "title": "Part 3 · Questions 11–15",
+   "kind": "file",
+   "file": "P10/A2/A2-P3.mp3",
+   "intro": "You will hear Max talking to his friend Rosa about a meal he cooked. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Rosa: Max, is it true that you cooked dinner for your whole family? Max: Yes, on Sunday! I made chicken with rice. Rosa: Wow. Was it hard? Max: The rice was easy, but I burned the first pan of chicken, so I had to start again. Rosa: Oh no! Did they like it in the end? Max: My sister said it was too salty, but my parents ate everything and asked for more. Rosa: Who taught you to cook? Max: My grandad. He was a cook in a hotel for thirty years. Rosa: Will you cook again? Max: Yes — next Sunday I'm trying fish."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What did Max cook on Sunday?",
+     "o": [
+      "Chicken with rice",
+      "Fish and chips",
+      "Pasta"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What went wrong while Max was cooking?",
+     "o": [
+      "He burned the chicken",
+      "He dropped the rice",
+      "He forgot the salt"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What did Max's sister think of the meal?",
+     "o": [
+      "It was too salty",
+      "It was delicious",
+      "It was cold"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Who taught Max to cook?",
+     "o": [
+      "His mum",
+      "His grandad",
+      "A TV programme"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What will Max cook next Sunday?",
+     "o": [
+      "Chicken again",
+      "Fish",
+      "A cake"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P4",
+   "title": "Part 4 · Questions 16–20",
+   "kind": "file",
+   "file": "P10/A2/A2-P4.mp3",
+   "intro": "You will hear a girl called Clara talking about baking with her dad. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Clara: My favourite day is Saturday, because that's baking day in our house. My dad and I make bread and sometimes little cakes. We get up at eight, before everyone else, and the kitchen smells wonderful all morning. Dad learned baking from his mother in Italy, a long time ago. My job is mixing — Dad still doesn't let me use the hot oven. Last week we made lemon cakes for my aunt's birthday, and everyone at the party wanted the recipe. Dad said no — it's a family secret! One day I want to have a little cake shop of my own."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "When is baking day in Clara's house?",
+     "o": [
+      "Saturday",
+      "Sunday",
+      "Every day"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What time do Clara and her dad get up?",
+     "o": [
+      "At seven",
+      "At eight",
+      "At nine"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Where did Dad learn to bake?",
+     "o": [
+      "In Italy",
+      "At a cooking school",
+      "From television"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What is Clara's job in the kitchen?",
+     "o": [
+      "Using the oven",
+      "Mixing",
+      "Washing up"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What did they make last week?",
+     "o": [
+      "Bread",
+      "Lemon cakes",
+      "A chocolate cake"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P5",
+   "title": "Part 5 · Questions 21–25",
+   "kind": "file",
+   "file": "P10/A2/A2-P5.mp3",
+   "intro": "You will hear Leo talking about a class picnic. What food is each person bringing? For each question, choose the correct answer.",
+   "bank": [
+    "salad",
+    "strawberries",
+    "bread",
+    "cheese",
+    "biscuits",
+    "chicken",
+    "apples"
+   ],
+   "scripts": [
+    "Leo: Our class picnic is on Friday, and everyone is bringing some food. Hannah is making a big salad with vegetables from her garden. Oliver is bringing strawberries — his family grows them. Mia's dad works at the bakery, so she's bringing fresh bread. Daniel is bringing cheese from the market. And Ruby is baking biscuits tonight with her mum."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Hannah",
+     "c": "salad"
+    },
+    {
+     "type": "match",
+     "person": "Oliver",
+     "c": "strawberries"
+    },
+    {
+     "type": "match",
+     "person": "Mia",
+     "c": "bread"
+    },
+    {
+     "type": "match",
+     "person": "Daniel",
+     "c": "cheese"
+    },
+    {
+     "type": "match",
+     "person": "Ruby",
+     "c": "biscuits"
+    }
+   ]
+  }
+ ]
+}

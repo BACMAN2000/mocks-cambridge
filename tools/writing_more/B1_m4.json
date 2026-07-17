@@ -1,0 +1,30 @@
+{
+  "title": "B1 Preliminary — Writing (MOCK 4)",
+  "durationMin": 45,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in about 100 words.",
+      "tasks": [{
+        "type": "email", "minWords": 100,
+        "lead": "Read this email from your English teacher, Mrs Ellis, and the notes you have made.",
+        "stimulus": { "head": "EMAIL", "title": "", "body": "From: Mrs Ellis\nSubject: International exchange — student from Ireland\n\nDear Class,\n\nAs part of our international exchange programme, a group of Irish students will spend two weeks at our school in October. Each of you will look after one visitor.\n\nYour exchange partner will stay with your family, come to lessons with you and join your free-time activities. To match you with the right student, I need to know a little about your home and your interests, and what you are planning to show your visitor.\n\nPlease reply this week.\n\nMrs Ellis" },
+        "bullets": ["describe your home and family for your visitor", "say what your main interests are", "suggest two things you will show your visitor in your town", "ask one question about the exchange programme"],
+        "write": "Write your email to Mrs Ellis."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in about 100 words.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 100,
+          "lead": "You see this announcement in an international English-language magazine for young people.",
+          "stimulus": { "title": "VISITING ANOTHER COUNTRY — WHAT SURPRISED YOU?", "body": "Travelling abroad, or meeting people from other countries, is full of surprises — the food, the customs, even the way people say hello! Write an article about something that surprised you about another country or culture, and what you learned from it. The best articles will be published next month." },
+          "bullets": ["which country or culture surprised you", "what exactly was different or surprising", "what you learned from the experience"],
+          "write": "Write your article." },
+        { "type": "story", "q": 3, "minWords": 100,
+          "lead": "Your English teacher has asked you to write a story.",
+          "startSentence": "At the airport, Sofia held up the sign with her exchange partner's name and waited nervously.",
+          "stimulus": { "title": "", "body": "Your story must begin with this sentence:\n\nAt the airport, Sofia held up the sign with her exchange partner's name and waited nervously." },
+          "bullets": [],
+          "write": "Write your story." }
+      ]
+    }
+  ]
+}

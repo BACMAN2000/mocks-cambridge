@@ -1,0 +1,181 @@
+{
+  "title": "B1 Preliminary — Reading (Practice 10)",
+  "note": "All six parts are auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Westgate Concert Hall",
+          "text": "TONIGHT'S PERFORMANCE WILL BEGIN AT 7.30 AS PLANNED.\nLATECOMERS WILL BE ASKED TO WAIT UNTIL THE FIRST INTERVAL BEFORE TAKING THEIR SEATS.",
+          "stem": "What does the notice say about people who arrive late?",
+          "options": ["They will not be allowed into the concert at all.", "They can only go to their seats at the interval.", "They should ask staff to find them new seats."],
+          "answer": 1
+        },
+        {
+          "kind": "message",
+          "header": "Text from Oscar to Lily",
+          "text": "Lily — band practice is still on tonight, but Mr Hale's room is being painted, so we're in the drama studio instead. Could you bring your keyboard? The school one is locked away and the caretaker's gone home. I'll help you carry it from the bus stop!",
+          "stem": "What does Oscar want Lily to do?",
+          "options": ["Come to practice earlier than usual.", "Ask the caretaker to open the music room.", "Bring her own instrument to the practice."],
+          "answer": 2
+        },
+        {
+          "kind": "email",
+          "from": "Melody Music School",
+          "to": "Guitar students",
+          "subject": "Summer concert",
+          "body": "Our end-of-year concert takes place on 12 July. Every student may invite two guests free of charge; extra tickets cost £4 each from the office. Please tell your teacher by Friday which piece you would like to perform, or one will be chosen for you.",
+          "stem": "What must students do by Friday?",
+          "options": ["Let their teacher know what they want to play.", "Buy their guest tickets from the office.", "Choose which teacher will play with them."],
+          "answer": 0
+        },
+        {
+          "kind": "sign",
+          "header": "Riverside Theatre — Backstage",
+          "text": "PERFORMERS MUST LEAVE COSTUMES ON THE RAIL AFTER EACH SHOW.\nPLEASE DO NOT TAKE ANY COSTUME HOME — REPAIRS AND WASHING ARE DONE HERE OVERNIGHT.",
+          "stem": "What does the sign tell performers?",
+          "options": ["To wash their costumes at home after the show.", "To return costumes to the rail when the show ends.", "To repair any damaged costumes themselves."],
+          "answer": 1
+        },
+        {
+          "kind": "note",
+          "header": "From Grandma",
+          "text": "Theo — your violin teacher phoned. You played so well at the festival that she wants you to enter the regional competition in May! The entry form is on the kitchen table. She needs it back, signed by a parent, at your lesson on Thursday — don't forget it like last time!",
+          "stem": "What does Theo have to take to his lesson?",
+          "options": ["The signed form for the competition.", "His prize from the festival.", "The money for the competition entry."],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "The five people below all want to see a live show. Read the descriptions of eight shows (A–H) and decide which show would be most suitable for each person. There are three shows you do not need to use.",
+      "sources": [
+        {
+          "label": "6",
+          "name": "Renata",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/68.jpg\" alt=\"Renata\" loading=\"lazy\">",
+          "text": "Renata loves musicals with big songs and colourful dancing, but she can only go out on weekday afternoons because she works every evening and weekend. She also wants somewhere she can get a cheap ticket."
+        },
+        {
+          "label": "7",
+          "name": "Stefan",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/93.jpg\" alt=\"Stefan\" loading=\"lazy\">",
+          "text": "Stefan plays drums in a band and wants to watch world-class musicians close up, in a small place rather than a huge hall. He is especially interested in jazz and does not mind paying extra for a good seat."
+        },
+        {
+          "label": "8",
+          "name": "Holly",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/23.jpg\" alt=\"Holly\" loading=\"lazy\">",
+          "text": "Holly wants to take her six-year-old twins to their first ever show. It needs to be short, funny and lively, with music the children can join in with. An afternoon performance would suit the family best."
+        },
+        {
+          "label": "9",
+          "name": "Dmitri",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/19.jpg\" alt=\"Dmitri\" loading=\"lazy\">",
+          "text": "Dmitri is studying classical music at college and has to review a full orchestra concert for his course. He wants to hear a famous symphony performed live, and he needs a printed programme to quote from in his essay."
+        },
+        {
+          "label": "10",
+          "name": "Agnes",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/86.jpg\" alt=\"Agnes\" loading=\"lazy\">",
+          "text": "Agnes enjoys discovering new singers before they become famous. She likes quiet, gentle music and wants a relaxed evening where she can sit with a coffee while she listens. Loud crowds give her a headache."
+        }
+      ],
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "City Philharmonic Evening: A full orchestra performs one of the world's best-loved symphonies in the grand hall. Every ticket includes a detailed printed programme with notes on the music and the composers.",
+          "The Blue Note Cellar: An intimate underground club seating just sixty people, hosting award-winning jazz trios from around the world. Front-row tables cost more but put you close enough to see every drumbeat.",
+          "Stadium Rock Spectacular: A huge open-air concert with three famous rock bands, giant screens and fireworks. Expect a loud, excited crowd of thousands standing all evening.",
+          "The Singing Pirate: A one-hour comedy musical for young children, full of silly songs the audience shouts along with. Performances daily at 2pm; children get a free flag to wave!",
+          "Broadway Dreams — Matinee Special: A spectacular musical packed with show-stopping songs and dazzling dance numbers. Tuesday and Thursday 3pm shows are half price, making it perfect for daytime visitors.",
+          "Café Acoustic Nights: Every Friday evening, our candle-lit café presents unknown singer-songwriters performing soft, gentle sets. Order a hot drink, sink into an armchair and enjoy the calm atmosphere.",
+          "Opera Under the Stars: A three-hour classic opera sung in Italian, performed outdoors at 8pm. Bring a cushion and a blanket; large screens translate the words into English.",
+          "Dance Fever Live: A high-energy street-dance competition with DJ music and audience voting. Standing tickets only, and the show regularly continues past midnight."
+        ]
+      },
+      "questions": [
+        {"stem": "Renata", "answer": "E"},
+        {"stem": "Stefan", "answer": "B"},
+        {"stem": "Holly", "answer": "D"},
+        {"stem": "Dmitri", "answer": "A"},
+        {"stem": "Agnes", "answer": "F"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the article about a young singer and choose the best answer A, B, C or D.",
+      "passage": "The girl who sang to empty chairs\n\nEvery Saturday for two years, Amara Diallo caught the early bus into town, set up a small speaker in the market square, and sang. \"At the beginning, nobody stopped,\" she remembers. \"I used to pretend the empty chairs outside the café were my audience. My brother said I was wasting my weekends, but singing in front of real people — even people who ignored me — taught me not to panic. You can't learn that in your bedroom.\"\n\nAmara had wanted singing lessons since she was ten, but they were expensive, and her family could not afford them. Instead, she studied videos of her favourite singers, copying the way they breathed and stood. She saved every coin that shoppers dropped into her guitar case. \"People think I was saving for a phone or clothes,\" she says. \"Actually, every cent went towards one hour a month with a proper singing teacher. That hour was gold. I wrote down everything she said and practised it for the next four weeks.\"\n\nHer luck changed one rainy morning when a local radio producer, hurrying through the square, stopped under a shop roof to keep dry. \"He stayed for three songs,\" Amara laughs. \"Then he walked over and asked if I'd like to sing live on his show. I thought he was joking. I actually asked to see his identity card!\"\n\nThe radio appearance led to bookings at festivals and, last month, a recording contract. Amara, now nineteen, still returns to the market square a few times a year. \"Some singers talk about the day someone discovered them. That's not how I see it,\" she says. \"By the time the producer heard me, I'd already done seven hundred hours of practice in that square. He didn't discover me. He just arrived when I was ready.\"",
+      "questions": [
+        {"stem": "What does Amara say she learned from performing in the market square?", "options": ["How to stay calm in front of people.", "How to attract a large audience.", "How to set up her speaker quickly.", "How to earn enough to live on."], "answer": 0},
+        {"stem": "What did Amara do with the money she collected?", "options": ["She saved it to buy a new phone.", "She gave it to her family.", "She paid for a monthly singing lesson.", "She bought videos of famous singers."], "answer": 2},
+        {"stem": "Why did the radio producer stop in the market square?", "options": ["He had heard about Amara from a friend.", "He wanted to interview street performers.", "He was waiting for a café to open.", "He was sheltering from the rain."], "answer": 3},
+        {"stem": "How did Amara react when the producer invited her onto his show?", "options": ["She accepted immediately with excitement.", "She did not believe he was serious at first.", "She refused because she felt unprepared.", "She asked her brother for advice."], "answer": 1},
+        {"stem": "What is Amara's opinion about being 'discovered'?", "options": ["It was the luckiest moment of her life.", "It could have happened years earlier.", "Her own preparation mattered more than luck.", "Radio producers rarely notice real talent."], "answer": 2}
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 4",
+      "instructions": "Read the article about a village orchestra. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+      "passage": "The orchestra that nearly disappeared\n\nThe village of Elmbrook has had its own orchestra for almost ninety years. Founded by a group of farmers and shopkeepers in the 1930s, it once gave concerts every month in the village hall. (16)____ Three years ago, only nine players remained, and the committee met to discuss closing the orchestra down for good.\n\nIt was saved by an unexpected suggestion. The youngest member, a trumpet player still at secondary school, proposed inviting complete beginners to join — something the orchestra had never allowed. (17)____ In the end, the older members agreed to try the idea for one year.\n\nThe response amazed everyone. Within six months, membership had grown from nine to forty-two. (18)____ Others were adults who had stopped playing decades ago and wanted to start again.\n\nOf course, the new orchestra had problems that the old one never faced. Rehearsals were slower, and the sound was sometimes far from perfect. (19)____ He rewrote many pieces so that difficult parts could be shared between strong and weak players.\n\nLast December, the rebuilt orchestra performed to a village hall so full that people stood at the back. (20)____ For a group that was nine players away from silence, that night felt like a new beginning rather than an ending.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Many of these newcomers were schoolchildren picking up an instrument for the first time.",
+          "The applause at the end lasted so long that the players performed the final piece twice.",
+          "But as older members retired and young people moved away, the numbers slowly fell.",
+          "The village hall itself was built by the same farmers a few years earlier.",
+          "The conductor solved this by changing the music itself.",
+          "Ticket prices had to be doubled to pay for the new instruments.",
+          "Several members argued strongly against it, fearing the quality of the music would suffer.",
+          "Most professional orchestras rehearse at least three times a week."
+        ]
+      },
+      "questions": [
+        {"stem": "Gap 16", "answer": "C"},
+        {"stem": "Gap 17", "answer": "G"},
+        {"stem": "Gap 18", "answer": "A"},
+        {"stem": "Gap 19", "answer": "E"},
+        {"stem": "Gap 20", "answer": "B"}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 5",
+      "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+      "title": "Why does music give us goosebumps?",
+      "body": "Have you ever felt a shiver run down your back while (21)____ to a favourite song? Scientists call this reaction 'musical chills', and about two thirds of people experience it. Researchers have discovered that when a song suddenly changes — for example, when a quiet verse (22)____ into a powerful chorus — the brain releases the same chemical that it produces when we eat delicious food. In other words, our brains treat a beautiful melody as a kind of (23)____. Interestingly, the effect is strongest when the change takes us by surprise, which may explain why a song can lose its magic after we have (24)____ it hundreds of times. Studies also show that people who feel chills most often tend to (25)____ music a central part of their daily lives. So next time a song makes the hair on your arms stand up, remember: it is not just emotion — it is your brain giving the music a (26)____ of approval.",
+      "questions": [
+        {"options": ["hearing", "listening", "attending", "following"], "answer": 1},
+        {"options": ["turns", "goes", "moves", "bursts"], "answer": 3},
+        {"options": ["gift", "present", "reward", "prize"], "answer": 2},
+        {"options": ["listened", "known", "heard", "learnt"], "answer": 2},
+        {"options": ["do", "have", "make", "take"], "answer": 2},
+        {"options": ["mark", "sign", "signal", "note"], "answer": 1}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 6",
+      "instructions": "For each gap (27–32), write ONE word.",
+      "title": "Message about a school concert",
+      "body": "Hi Nadia,\n\nI've got some exciting news! Our band has (27)____ chosen to play at the school concert next month. We're going to perform two songs, one of (28)____ I wrote myself!\n\nWe practise every Tuesday after school, but our guitarist is ill at the moment, so we may (29)____ to find someone else if he doesn't get better soon. You play really well — would you like to join us? It (30)____ be great to have you in the band.\n\nThe concert is on the last Friday (31)____ term, and tickets are free for students. Please say yes! We have been friends (32)____ primary school, and performing together would be so much fun.\n\nWrite back soon,\nMartin",
+      "questions": [
+        {"accept": ["been"]},
+        {"accept": ["which"]},
+        {"accept": ["have", "need"]},
+        {"accept": ["would", "will"]},
+        {"accept": ["of"]},
+        {"accept": ["since"]}
+      ]
+    }
+  ]
+}

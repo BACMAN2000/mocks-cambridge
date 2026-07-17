@@ -1,0 +1,420 @@
+{
+ "label": "C1 — Advanced",
+ "cefr": "Cambridge Advanced (CAE) · C1 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+ "audios": [
+  {
+   "id": "C1-P1",
+   "title": "Part 1 · Questions 1–6",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A trekking itinerary",
+    "A medical lecture",
+    "A research finding",
+    "A climbing trip",
+    "A customer complaint",
+    "A holiday decision"
+   ],
+   "scripts": [
+    "Question one. Man: Look, there's a direct flight that lands us at three and a half thousand metres, we'd save two whole days of buses. Woman: And spend three days with our heads in a vice, I've done this before. We take the road, we sleep a night at each stage, and we arrive slowly or not at all. I'm immovable on this one, book whatever you like around it.",
+    "Question two. Man: The lecture that stayed with me was on altitude sickness, mainly for one statistic. The audience was full of ultra-marathon runners, all quietly assuming their training protected them, and the speaker took visible pleasure in the data: fitness offers no protection whatsoever. The two groups climb the same mountain at the same risk. You could feel the room deflate.",
+    "Question three. Woman: We'd always assumed people born at high altitude simply carried more oxygen in their blood, and for Andean populations that's broadly the story. The Tibetan results refused to cooperate. Their oxygen levels are, if anything, lower, yet they outperform everyone. Whatever their adaptation is doing, it's happening somewhere we weren't looking, probably in the cells themselves.",
+    "Question four. Woman: So, was standing on the summit everything you'd imagined? Man: Honestly? The summit was cloud and wind and a photograph I don't remember posing for. What I keep returning to is a night at base camp, four of us from three countries crammed in the cook tent, no shared language to speak of, crying with laughter over a card game. I went for a mountain and came back thinking about a tent.",
+    "Question five. Man: A customer's demanding a refund. He says your itinerary wastes two days sitting in villages doing nothing. Woman: Those are the two days that get him up the mountain, and more to the point, back down it. I've buried enough of other companies' shortcuts to be entirely relaxed about this refund request. He can have his money back, but the rest days stay in every itinerary we sell. That's non-negotiable.",
+    "Question six. Man: So which Kilimanjaro package did you go for in the end, the five-day or the eight? Woman: Neither, almost, the five-day was half the price and I nearly clicked. Then I read the success rates buried in the small print: barely half the five-day clients summit, against nearly all on the eight. Cheaper per day, but you're paying for a holiday that statistically doesn't work. I've booked the eight."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What is the woman not prepared to compromise on?",
+     "o": [
+      "The cost of the flights",
+      "A gradual ascent with overnight stops",
+      "The choice of destination"
+     ],
+     "c": 1,
+     "audio": "P18/C1/C1-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why did the statistic impress the man at the lecture?",
+     "o": [
+      "It contradicted the audience's assumptions",
+      "It showed training reduces altitude sickness",
+      "It proved runners acclimatise faster"
+     ],
+     "c": 0,
+     "audio": "P18/C1/C1-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What puzzled the researchers about the Tibetan results?",
+     "o": [
+      "They matched the Andean pattern exactly",
+      "Their blood carried unusually high oxygen levels",
+      "Their advantage could not be explained by blood oxygen"
+     ],
+     "c": 2,
+     "audio": "P18/C1/C1-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the man remember most warmly about his trip?",
+     "o": [
+      "The moment of reaching the summit",
+      "An evening of companionship at base camp",
+      "Learning a new language"
+     ],
+     "c": 1,
+     "audio": "P18/C1/C1-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How does the woman respond to the customer's complaint?",
+     "o": [
+      "She refuses to give a refund",
+      "She agrees to shorten future itineraries",
+      "She will refund him but not change the itinerary"
+     ],
+     "c": 2,
+     "audio": "P18/C1/C1-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why did the woman choose the eight-day package?",
+     "o": [
+      "It was better value per day",
+      "The shorter trip rarely achieves its aim",
+      "The five-day option was fully booked"
+     ],
+     "c": 1,
+     "audio": "P18/C1/C1-P1-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "C1-P2",
+   "title": "Part 2 · Questions 7–14",
+   "kind": "file",
+   "file": "P18/C1/C1-P2.mp3",
+   "intro": "You will hear a doctor called Grace giving a talk about high-altitude medicine. For each question, complete the sentences with a word or short phrase.",
+   "scripts": [
+    "Good morning. I'm Grace, and I've spent twelve seasons as an expedition doctor, which means I've practised medicine in clinics where the waiting room is a glacier. Let me give you the essentials of a field that most doctors never meet. Altitude illness is a disease of ambition and haste, and it begins earlier than people think: from about two thousand five hundred metres, roughly the height of some ski resorts, a proportion of perfectly healthy visitors will develop headache, nausea and a particular leaden exhaustion. Notice that I said healthy. Who succumbs has almost nothing to do with age or fitness, which offends the athletic on every expedition I've ever joined. The body's response to thin air comes in two instalments. The immediate one, within minutes of arrival, is faster breathing, the quick fix, pulling in more air to compensate for the missing oxygen. The slower instalment takes weeks: the bone marrow steps up its output of red blood cells, the freight wagons of oxygen, and this is the true, durable acclimatisation. You cannot hurry it, you can only give it time, and every sound itinerary is simply time dressed up as a route map. Hence the oldest rule in the mountains, and I'd tattoo it on every trekker if I could: climb high, sleep low. Push upwards by day if you must, but bring your night's sleep back down, because it is the sleeping altitude, not the day's high point, that your body keeps accounts of. Most altitude illness is miserable rather than dangerous, but two rare forms kill, and both involve fluid where fluid should not be: in the severe cases, it leaks into the lungs, or, worse still, the brain. A trekker who becomes clumsy, confused or unable to walk in a straight line is not tired, they are dying, and everything else on the schedule has just become irrelevant. For all these severe cases there is exactly one cure, and it is not in any medicine bag: descent, immediate, even at night, even in storm, even carried. Drugs and bottled oxygen buy time; the mountain path downwards is the treatment. Where descent is impossible, we do carry one remarkable piece of kit: an inflatable pressure chamber, a sealed bag the patient lies inside while we pump it firm, which effectively teleports them a thousand five hundred metres downhill without moving an inch. I have watched it turn a semi-conscious climber back into a conversationalist in twenty minutes, and I still find it faintly miraculous. A final word on prediction, because everyone asks who should worry. Blood tests won't tell you, fitness certainly won't. The best predictor we have is simply your own history: bodies tend to repeat themselves at altitude, so what happened to you last time is the soundest forecast of next time. Respect the mountain's timetable rather than your own, and it will usually let you visit. Thank you."
+   ],
+   "gapTitle": "High-Altitude Medicine",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Altitude illness can begin from about ____ metres",
+     "accept": [
+      "2500",
+      "2,500",
+      "two thousand five hundred"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The body's immediate response is faster ____",
+     "accept": [
+      "breathing"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Durable acclimatisation comes from extra red blood ____",
+     "accept": [
+      "cells"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The oldest rule is: climb high, sleep ____",
+     "accept": [
+      "low"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "In severe cases, fluid leaks into the brain or the ____",
+     "accept": [
+      "lungs"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The only cure for severe cases is immediate ____",
+     "accept": [
+      "descent"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Where descent is impossible, doctors use an inflatable pressure ____",
+     "accept": [
+      "chamber",
+      "bag"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The best predictor of altitude illness is your own ____",
+     "accept": [
+      "history"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1-P3",
+   "title": "Part 3 · Questions 15–20",
+   "kind": "file",
+   "file": "P18/C1/C1-P3.mp3",
+   "intro": "You will hear an interview with an expedition doctor called Sara. For each question, choose the best answer (A, B, C or D).",
+   "scripts": [
+    "Interviewer: Sara, you've been the doctor on nine major Himalayan expeditions. Is the medicine up there very different from medicine at sea level? Sara: The drugs are the same, the arithmetic isn't. At home, a poor decision is corrected by an ambulance in eight minutes. At seven thousand metres, help is not coming, weather permitting is doing a lot of work in every plan, and so the entire discipline shifts from treatment to anticipation. I'm not really paid to cure people. I'm paid to see trouble two days before it introduces itself. Interviewer: You've written that your hardest conversations aren't medical at all. Sara: They're not. The genuinely hard ones are with climbers who are fit, lucid, and incubating something dangerous, and who have spent forty thousand pounds and three years of training getting there. When I say the word down, I'm not fighting their ignorance, they often know the physiology better than my students do. I'm fighting the sunk costs, the sponsors, the film crew, the version of themselves they've promised everyone at home. The mountain is the least of my opponents. Interviewer: Have you ever got it wrong? Sara: Both directions, and I'll own them. I've sent people down who'd probably have been fine, and carried the resentment in their eyes for years, that's the tolerable error. Once, early on, I let a man persuade me his headache was dehydration, because his logic was excellent and my flight home was booked. He survived, narrowly, and owes nothing to me. I keep his photograph in my kit bag. Not as guilt, exactly. As calibration. Interviewer: There's a romantic image of expedition medicine, the heroic rescue at dawn. Do you recognise it? Sara: I've lived it perhaps three times in twenty years, and each one represents a failure of everything I actually value. My proudest expeditions are the boring ones, the ones with no story, where the drama was extinguished a week early as a dose of paperwork: an itinerary redrawn, a rest day inserted, a climber quietly reassigned. Prevention is invisible, which is why it wins no medals, and why it's the entire job. Interviewer: The commercial expedition industry keeps growing. Does that worry you? Sara: Not in the way the newspapers assume. The reputable operators are, frankly, safer than the talented amateurs of my youth, their protocols would shame some hospitals. What keeps me awake is the bottom of the market, outfits selling summit dreams at prices that can only be achieved by deleting the safety margin. The clients can't tell the difference from a website. The mountain can. Interviewer: And after twenty years, what still draws you back? Sara: The clarity, I think. Down here, a hundred things matter a little. Up there, three things matter absolutely, and everyone around the stove knows what they are. I've never found that anywhere else, and I've stopped pretending I can do without it. Interviewer: Sara, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How does Sara describe her real role on expeditions?",
+     "o": [
+      "Treating illness more quickly than at home",
+      "Anticipating problems before they develop",
+      "Teaching climbers basic physiology",
+      "Coordinating mountain rescues"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What makes her conversations with sick climbers difficult?",
+     "o": [
+      "Their ignorance of the medical facts",
+      "Everything they have invested in the climb",
+      "Interference from film crews",
+      "Their distrust of her qualifications"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why does Sara keep the man's photograph?",
+     "o": [
+      "As a reminder that shapes her judgement",
+      "Out of lasting guilt about his death",
+      "Because he later thanked her",
+      "To show climbers the risks they run"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How does Sara regard dramatic rescues?",
+     "o": [
+      "As the highlights of her career",
+      "As evidence that prevention has failed",
+      "As inventions of the newspapers",
+      "As the part of the job she misses most"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What concerns Sara about the expedition industry?",
+     "o": [
+      "The growth of reputable operators",
+      "Amateurs leading their own expeditions",
+      "Cut-price companies eroding safety margins",
+      "Hospitals adopting expedition protocols"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What keeps drawing Sara back to the mountains?",
+     "o": [
+      "The chance of heroism",
+      "The simplicity of what matters there",
+      "The company of talented climbers",
+      "The escape from paperwork"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "C1-P4",
+   "title": "Part 4 · Questions 21–30",
+   "kind": "file",
+   "file": "P18/C1/C1-P4.mp3",
+   "intro": "You will hear five people describing experiences at high altitude. TASK ONE (21–25): choose the main problem each speaker faced. TASK TWO (26–30): choose the advice each speaker now gives.",
+   "scripts": [
+    "Speaker one. Olivia: I'd run three marathons that year, so when the itinerary said take four days to the high camp, I privately decided two would do, my body was a machine and machines don't need coddling. By the second night my head was splitting and I was gasping like a landed fish while the sedate retirees I'd overtaken strolled past me, entirely comfortable. A porter half my size carried my pack down. What I tell every gym-fit friend now is blunt: the mountain has never heard of your training plan. Your lungs at altitude are a lottery, and your medals don't buy tickets. Speaker two. Marcus: The headache started on day three and I filed it under dehydration, the clumsiness on day four I blamed on new boots. There was always a reasonable explanation, that's the trap, each symptom arrives with its own alibi. It was a Danish trekker, a nurse, who watched me miss my mouth with a spoon and quietly rearranged my next morning. Two days lower down, I was myself again, and appalled at the transcript of my own reasoning. Now I drill one thing into people: know the signs before you go, write them on your hand if you must, because at altitude the last instrument to notice the problem is your own brain. Speaker three. Nora: Our problem arrived at two in the morning at four thousand eight hundred metres, and it wasn't mine. My tent-mate, a stranger until that week, woke me with breathing I could only describe as a kettle coming to the boil. No guide within eight hours, no signal. What saved her was the little foil packet in the bottom of my bag, tablets my doctor cousin had pressed on me while I protested about the weight, and the steroid shot in the group first-aid kit that none of us had ever opened. We walked her down at dawn and she was in a café by Thursday. I've become the bore at every planning meeting since: the pills weigh forty grams. Pack them. Speaker four. Tom: Our permit window closed on the Friday, flights were Saturday, and you could feel that arithmetic pressing on every decision the group made all week. When the forecast turned, the sensible move was obvious, wait a day, summit in clear air, forfeit the flights. Instead we voted with our wallets and went up into the wind. Two frostbitten fingers between us and a summit photograph in cloud you couldn't identify as any mountain on earth. The route was never the danger. The calendar was. My advice has hardened into a rule: the day you can't afford to turn back is the day you shouldn't set out. Speaker five. Elena: I'd done my reading, but in the tea house a silver-bearded man who'd, quote, crossed this pass thirty times, held court every evening, and his confidence was a warm bath. The books said ascend three hundred metres a day, he said young people fuss too much, the books said the far side had no shelter, he said there was a hut, there is no hut. We spent a night out at altitude in a snow squall because I chose charisma over the guidebook's dull tables. We were lucky, merely frightened and frostnipped. What I preach now is simple: in the mountains, the more entertaining the advice, the harder you should check it. Certainty is a style, not a credential."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the main problem they faced",
+     "person": "Speaker 1",
+     "bank": [
+      "ascending faster than planned",
+      "explaining away early symptoms",
+      "a companion's sudden illness",
+      "pressure from a fixed schedule",
+      "trusting unreliable advice",
+      "faulty equipment",
+      "getting separated from the group",
+      "an unexpected storm on the summit"
+     ],
+     "c": "ascending faster than planned"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the main problem they faced",
+     "person": "Speaker 2",
+     "bank": [
+      "ascending faster than planned",
+      "explaining away early symptoms",
+      "a companion's sudden illness",
+      "pressure from a fixed schedule",
+      "trusting unreliable advice",
+      "faulty equipment",
+      "getting separated from the group",
+      "an unexpected storm on the summit"
+     ],
+     "c": "explaining away early symptoms"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the main problem they faced",
+     "person": "Speaker 3",
+     "bank": [
+      "ascending faster than planned",
+      "explaining away early symptoms",
+      "a companion's sudden illness",
+      "pressure from a fixed schedule",
+      "trusting unreliable advice",
+      "faulty equipment",
+      "getting separated from the group",
+      "an unexpected storm on the summit"
+     ],
+     "c": "a companion's sudden illness"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the main problem they faced",
+     "person": "Speaker 4",
+     "bank": [
+      "ascending faster than planned",
+      "explaining away early symptoms",
+      "a companion's sudden illness",
+      "pressure from a fixed schedule",
+      "trusting unreliable advice",
+      "faulty equipment",
+      "getting separated from the group",
+      "an unexpected storm on the summit"
+     ],
+     "c": "pressure from a fixed schedule"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the main problem they faced",
+     "person": "Speaker 5",
+     "bank": [
+      "ascending faster than planned",
+      "explaining away early symptoms",
+      "a companion's sudden illness",
+      "pressure from a fixed schedule",
+      "trusting unreliable advice",
+      "faulty equipment",
+      "getting separated from the group",
+      "an unexpected storm on the summit"
+     ],
+     "c": "trusting unreliable advice"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the advice they now give",
+     "person": "Speaker 1",
+     "bank": [
+      "do not rely on physical fitness",
+      "memorise the warning signs",
+      "carry emergency medication",
+      "be ready to abandon the attempt",
+      "verify advice however confident it sounds",
+      "never camp above the snow line",
+      "always hire a local guide",
+      "keep the group together at night"
+     ],
+     "c": "do not rely on physical fitness"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the advice they now give",
+     "person": "Speaker 2",
+     "bank": [
+      "do not rely on physical fitness",
+      "memorise the warning signs",
+      "carry emergency medication",
+      "be ready to abandon the attempt",
+      "verify advice however confident it sounds",
+      "never camp above the snow line",
+      "always hire a local guide",
+      "keep the group together at night"
+     ],
+     "c": "memorise the warning signs"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the advice they now give",
+     "person": "Speaker 3",
+     "bank": [
+      "do not rely on physical fitness",
+      "memorise the warning signs",
+      "carry emergency medication",
+      "be ready to abandon the attempt",
+      "verify advice however confident it sounds",
+      "never camp above the snow line",
+      "always hire a local guide",
+      "keep the group together at night"
+     ],
+     "c": "carry emergency medication"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the advice they now give",
+     "person": "Speaker 4",
+     "bank": [
+      "do not rely on physical fitness",
+      "memorise the warning signs",
+      "carry emergency medication",
+      "be ready to abandon the attempt",
+      "verify advice however confident it sounds",
+      "never camp above the snow line",
+      "always hire a local guide",
+      "keep the group together at night"
+     ],
+     "c": "be ready to abandon the attempt"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the advice they now give",
+     "person": "Speaker 5",
+     "bank": [
+      "do not rely on physical fitness",
+      "memorise the warning signs",
+      "carry emergency medication",
+      "be ready to abandon the attempt",
+      "verify advice however confident it sounds",
+      "never camp above the snow line",
+      "always hire a local guide",
+      "keep the group together at night"
+     ],
+     "c": "verify advice however confident it sounds"
+    }
+   ]
+  }
+ ]
+}

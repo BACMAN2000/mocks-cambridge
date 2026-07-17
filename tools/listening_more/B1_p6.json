@@ -1,0 +1,241 @@
+{
+ "label": "B1 — Intermediate",
+ "cefr": "Cambridge PET · B1 official format",
+ "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+ "audios": [
+  {
+   "id": "B1-P1",
+   "title": "Part 1 · Questions 1–7",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+   "segments": [
+    "Clothes for work",
+    "The interview time",
+    "Where to go",
+    "The weather",
+    "Getting to work",
+    "Lunch break",
+    "Something left behind"
+   ],
+   "scripts": [
+    "Question one. Sam: Do I need to buy a uniform for the café job, Mum? Mum: The manager said they'll give you a T-shirt, but you must wear their hat in the kitchen. Sam: A hat? I hope it looks OK!",
+    "Question two. Woman: Hello, this is the bookshop. Is that Daniel? Your interview was at four, but the manager has a meeting then. Could you come at half past four instead? Daniel: Half past four is fine, thank you.",
+    "Question three. Girl: Where's your interview, Leo? At the new café in the park? Leo: No, it's for the Saturday job at the library — the café one was last week. Girl: Good luck, then!",
+    "Question four. Man: You'll need your coat for the walk to work. Woman: Why? It was sunny an hour ago. Man: Well, it isn't now — it's pouring out there. Woman: Ugh, thanks for telling me.",
+    "Question five. Boy: Does your sister drive to her weekend job? Girl: Her car's being repaired, so this month she's taking the bus. Boy: That's a long ride, isn't it? Girl: Forty minutes each way.",
+    "Question six. Woman: What do you eat on your lunch break, Marcus? Marcus: There's a pizza place next door, but it's expensive, so I usually bring a sandwich from home. Woman: Very sensible.",
+    "Question seven. Girl: Dad phoned the restaurant where we had dinner. Boy: Why? Did he leave his phone there? Girl: No, his keys. They were under the table. Boy: Lucky someone found them!"
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What must Sam wear in the kitchen?",
+     "imgs": ["hat", "bag", "umbrella"],
+     "c": 0,
+     "audio": "P6/B1/B1-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time is Daniel's interview now?",
+     "imgs": ["clock400", "clock420", "clock430"],
+     "c": 2,
+     "audio": "P6/B1/B1-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where is Leo's interview?",
+     "imgs": ["cafe", "library", "park"],
+     "c": 1,
+     "audio": "P6/B1/B1-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What is the weather like now?",
+     "imgs": ["sunny", "rainy", "snowy"],
+     "c": 1,
+     "audio": "P6/B1/B1-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How is the girl's sister getting to work this month?",
+     "imgs": ["car", "bus", "bike"],
+     "c": 1,
+     "audio": "P6/B1/B1-P1-q5.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What does Marcus usually eat for lunch?",
+     "imgs": ["pizza", "sandwich", "cake"],
+     "c": 1,
+     "audio": "P6/B1/B1-P1-q6.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What did Dad leave at the restaurant?",
+     "imgs": ["book", "phone", "keys"],
+     "c": 2,
+     "audio": "P6/B1/B1-P1-q7.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P2",
+   "title": "Part 2 · Questions 8–13",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+   "segments": [
+    "A Saturday job",
+    "What employers want",
+    "A job advert",
+    "A first job",
+    "School and work",
+    "Leaving a job"
+   ],
+   "scripts": [
+    "Question eight. You will hear a girl talking about her Saturday job. Girl: The money's OK, I suppose, and I've learned how the till works, which is useful. But what I really love is chatting with the customers — some of them tell me the funniest stories.",
+    "Question nine. You will hear a shop owner talking about young workers. Man: People think I want experience, but honestly, I can teach anyone to serve customers in a week. What I can't teach is being on time. If someone arrives late for the interview, I don't give them the job.",
+    "Question ten. You will hear a boy talking about a job advert. Boy: My friend Jack said the sports shop needed weekend staff, and I also looked online but found nothing. Then, walking home, I saw the advert myself, right there in the shop window, so I went in and asked.",
+    "Question eleven. You will hear a woman talking about her first job. Woman: I worked at a bakery when I was sixteen. Carrying the trays was fine, and the customers were lovely. What I found really hard was getting up at five in the morning — I've never been an early bird.",
+    "Question twelve. You will hear a teacher giving advice about part-time work. Teacher: A job can teach you a lot, and I'm not against it. But during exam season your studies come first, so my advice is simple: work at weekends only, never on school nights.",
+    "Question thirteen. You will hear a girl explaining why she left her job. Girl: Everyone thinks I left the supermarket because of the pay, but the pay was fine. They wanted me to start working Sunday mornings, and that's when my football team trains. I wasn't going to give that up."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What does the girl like most about her job?",
+     "o": ["Talking to customers", "Earning money", "Learning to use the till"],
+     "c": 0,
+     "audio": "P6/B1/B1-P2-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the shop owner say is most important?",
+     "o": ["Having experience", "Being on time", "Serving customers well"],
+     "c": 1,
+     "audio": "P6/B1/B1-P2-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How did the boy find out about the job?",
+     "o": ["His friend told him", "He saw it online", "He saw it in the shop window"],
+     "c": 2,
+     "audio": "P6/B1/B1-P2-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the woman find difficult about her first job?",
+     "o": ["Carrying heavy trays", "Getting up early", "Dealing with customers"],
+     "c": 1,
+     "audio": "P6/B1/B1-P2-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the teacher advise students to do?",
+     "o": ["Work only at weekends", "Stop working before exams", "Find jobs at the school"],
+     "c": 0,
+     "audio": "P6/B1/B1-P2-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why did the girl leave her job at the supermarket?",
+     "o": ["The pay was too low", "The work clashed with her sport", "The journey was too long"],
+     "c": 1,
+     "audio": "P6/B1/B1-P2-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P3",
+   "title": "Part 3 · Questions 14–19",
+   "kind": "file",
+   "file": "P6/B1/B1-P3.mp3",
+   "intro": "You will hear a café manager giving information to new weekend staff. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Welcome to the Riverside Café, everyone, and congratulations on getting through your interviews. Let me give you the details you need. Your training day is this Saturday. Please arrive at ten o'clock — the café will still be closed then, so knock on the side door. The pay for weekend staff is six pounds an hour, and you'll be paid at the end of each month. About clothes: we'll give you a green apron, but underneath it you must wear a white shirt, so please bring one. You'll get a lunch break of thirty minutes, and staff eat free from the menu. Finally, everyone needs to hand in a signed contract. Please give it to the manager, Mr Cole — that's me! — before you leave today. See you Saturday."
+   ],
+   "gapTitle": "Riverside Café — New Weekend Staff",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Training day: this ____",
+     "accept": ["saturday"]
+    },
+    {
+     "type": "gap",
+     "label": "Arrive at: ____ o'clock",
+     "accept": ["10", "ten"]
+    },
+    {
+     "type": "gap",
+     "label": "Pay: £ ____ an hour",
+     "accept": ["6", "six"]
+    },
+    {
+     "type": "gap",
+     "label": "Wear a white ____ under the apron",
+     "accept": ["shirt"]
+    },
+    {
+     "type": "gap",
+     "label": "Lunch break: ____ minutes",
+     "accept": ["30", "thirty"]
+    },
+    {
+     "type": "gap",
+     "label": "Give the signed contract to: Mr ____",
+     "accept": ["cole"]
+    }
+   ]
+  },
+  {
+   "id": "B1-P4",
+   "title": "Part 4 · Questions 20–25",
+   "kind": "file",
+   "file": "P6/B1/B1-P4.mp3",
+   "intro": "You will hear an interview with a girl called Lucy about her part-time job at a bookshop. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Today I'm talking to Lucy, who has a part-time job at a bookshop. Lucy, how did you get the job? Lucy: I'd looked at adverts online for weeks and found nothing. Then my aunt, who buys a lot of books there, heard they needed weekend help and told me straight away. I applied the next day. Interviewer: What was the interview like? Lucy: I'd prepared answers about myself, but they hardly asked any of that. What surprised me was that they asked me to recommend a book to a customer, right there in the interview! Interviewer: What do you actually do at work? Lucy: People imagine I sit and read all day. Really, I spend most of my time putting returned books back on the correct shelves — it has to be done carefully. Interviewer: What's the hardest part? Lucy: Saturdays before Christmas! The queue never stops, and you have to stay friendly and calm even when you're tired. That's the real challenge. Interviewer: What has the job taught you? Lucy: I thought I'd just earn some money, but the big thing is confidence. I used to be shy, and now I can talk to anyone. Interviewer: And your plans? Lucy: I want to keep the job while I finish school, and one day I'd love to study literature at university."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How did Lucy find out about the job?",
+     "o": ["From an online advert", "From her aunt", "From a notice in the shop"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What surprised Lucy at the interview?",
+     "o": ["She had to recommend a book", "It was very short", "There were many questions about herself"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Lucy spend most of her time doing?",
+     "o": ["Reading new books", "Serving at the till", "Putting books back on shelves"],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What does Lucy find hardest about the job?",
+     "o": ["Staying friendly when it is busy", "Remembering where books go", "Working every Saturday"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What has the job given Lucy?",
+     "o": ["A love of reading", "More confidence", "Money for university"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Lucy want to do in the future?",
+     "o": ["Open her own bookshop", "Work full-time at the shop", "Study literature at university"],
+     "c": 2
+    }
+   ]
+  }
+ ]
+}

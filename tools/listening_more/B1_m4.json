@@ -1,0 +1,241 @@
+{
+ "label": "B1 — Intermediate",
+ "cefr": "Cambridge PET · B1 official format",
+ "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+ "audios": [
+  {
+   "id": "B1-P1",
+   "title": "Part 1 · Questions 1–7",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+   "segments": [
+    "Filming the invention",
+    "Going to the fair",
+    "The demonstration",
+    "Presentation time",
+    "Carrying the model",
+    "The inventors' club",
+    "Something to buy"
+   ],
+   "scripts": [
+    "Question one. Girl: How will you show the judges your invention working, Daniel? Will you demonstrate it live? Daniel: Too risky — if it breaks on the day, I've got nothing. I'm filming it tonight with my sister's camera, so I can play the video instead. Girl: Clever. Then nothing can go wrong.",
+    "Question two. Boy: Are you taking the bus to the science fair tomorrow, Sofia? Sofia: I was planning to, but my model won't survive a crowded bus. Dad's agreed to take me in the car — the model can lie flat in the back. Boy: Lucky you. See you there.",
+    "Question three. Man: Weren't you demonstrating your water collector outside this morning? Woman: That was the plan, but it's been pouring since seven, which proves the invention works, I suppose! We moved everything indoors instead. Man: At least the rain arrived on the right day.",
+    "Question four. Woman: Your presentation was at four o'clock, wasn't it, Leo? Leo: It was, but two schools dropped out, so everything's moved forward. I now present at twenty past four... no wait, sorry — that's when I set up. I actually speak at half past four. Woman: Half past four. I'll be in the front row.",
+    "Question five. Mum: How are you carrying that delicate thing to school, Clara? In a box? Clara: A box would be too heavy to hold all day, Mum. My teacher lent me a padded bag, the kind photographers use. It fits perfectly. Mum: Excellent — much safer than your arms.",
+    "Question six. Boy: Where does the young inventors' club meet these days, Kate? Still in the science room? Kate: They needed us out of there — it's used for exams this month. We're in the library now, in the room at the back. Boy: The library. I'll come on Thursday.",
+    "Question seven. Girl: You look annoyed, Max. What's wrong? Max: My battery died in the middle of testing, and the spare's dead too. I have to go and buy a new phone charger before the shops shut. Girl: Go now — you've got twenty minutes."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What will Daniel use to record his invention?",
+     "imgs": ["camera", "phone", "book"],
+     "c": 0,
+     "audio": "M4/B1/B1-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will Sofia get to the science fair?",
+     "imgs": ["bus", "car", "bike"],
+     "c": 1,
+     "audio": "M4/B1/B1-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What is the weather like this morning?",
+     "imgs": ["sunny", "snowy", "rainy"],
+     "c": 2,
+     "audio": "M4/B1/B1-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does Leo give his presentation?",
+     "imgs": ["clock400", "clock420", "clock430"],
+     "c": 2,
+     "audio": "M4/B1/B1-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will Clara carry her model to school?",
+     "imgs": ["bag", "umbrella", "hat"],
+     "c": 0,
+     "audio": "M4/B1/B1-P1-q5.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where does the inventors' club meet now?",
+     "imgs": ["park", "cafe", "library"],
+     "c": 2,
+     "audio": "M4/B1/B1-P1-q6.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What does Max need to buy?",
+     "imgs": ["keys", "phone", "camera"],
+     "c": 1,
+     "audio": "M4/B1/B1-P1-q7.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P2",
+   "title": "Part 2 · Questions 8–13",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+   "segments": [
+    "A first invention",
+    "Advice from a judge",
+    "A failed experiment",
+    "Working in a team",
+    "Materials",
+    "Presenting ideas"
+   ],
+   "scripts": [
+    "You will hear a girl talking about her first invention. Girl: Everyone assumes I built the automatic plant waterer because I love gardening. The embarrassing truth is the opposite — I kept killing my mum's plants whenever she travelled for work. I didn't invent it out of love for plants. I invented it out of guilt.",
+    "You will hear a competition judge giving advice. Man: Every year, students show me machines with impressive lights and motors, and every year I ask the same question: what problem does it solve? A simple invention that fixes a real, everyday annoyance will always beat a complicated machine that nobody actually needs. Start with the problem, not with the technology.",
+    "You will hear a boy talking about an experiment. Boy: My solar oven never once cooked anything — after four versions, the best it managed was slightly warm chocolate. So yes, as an oven it was a complete failure. But writing down why each version failed taught me more than any success has since. I still keep that notebook on my desk.",
+    "You will hear a girl talking about working with a partner. Girl: Working alone, I finish things quickly, and I admit I miss that. With Emma, every decision takes twice as long because she questions everything. But here's the thing — her annoying questions have caught three serious mistakes that I'd never have noticed alone. Slower, but better.",
+    "You will hear a man who teaches young inventors. Man: My students always want to start by buying new components online. I make them wait a month. First, we visit the recycling centre and take apart old printers and radios. Ninety per cent of what they need is already inside those machines — and taking things apart teaches you how to build.",
+    "You will hear a woman talking about presenting inventions. Woman: The students' machines this year were remarkable, honestly. What disappointed me was the talks. One girl had built a brilliant device but described it so quietly, staring at the floor, that the audience missed everything. An invention nobody understands might as well not exist. Presentation is half the invention."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why did the girl invent the plant waterer?",
+     "o": ["Because she loves gardening", "Because she kept killing plants", "Because her mum asked her to"],
+     "c": 1,
+     "audio": "M4/B1/B1-P2-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the judge say matters most?",
+     "o": ["Solving a real problem", "Using impressive technology", "Adding lights and motors"],
+     "c": 0,
+     "audio": "M4/B1/B1-P2-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How does the boy feel about his solar oven?",
+     "o": ["He learned a lot from its failure", "He is sad it never worked", "He thinks the fourth version was good"],
+     "c": 0,
+     "audio": "M4/B1/B1-P2-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the girl say about working with Emma?",
+     "o": ["It is faster than working alone", "Emma's questions prevent mistakes", "Emma makes too many mistakes"],
+     "c": 1,
+     "audio": "M4/B1/B1-P2-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the man make his students do first?",
+     "o": ["Buy new components online", "Wait a month before building", "Take apart old machines"],
+     "c": 2,
+     "audio": "M4/B1/B1-P2-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What disappointed the woman this year?",
+     "o": ["The quality of the machines", "The way students presented", "The size of the audience"],
+     "c": 1,
+     "audio": "M4/B1/B1-P2-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P3",
+   "title": "Part 3 · Questions 14–19",
+   "kind": "file",
+   "file": "M4/B1/B1-P3.mp3",
+   "intro": "You will hear a woman giving information about a Young Inventors Competition. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Woman: Good morning, everyone. Here's everything you need to know about this year's Young Inventors Competition. First, the deadline: all entry forms must reach us by the last day of March — we can't accept anything in April, so don't leave it late. Each school may send three inventions, chosen by its own science department, so speak to your teachers early. The final takes place at the university, where the judging happens in the sports hall — follow the signs from the main entrance. Now, an important rule about size: your invention must fit on the table you're given, so nothing wider than fifty centimetres, please. Bigger models will not be judged, however good they are. The winning student receives two hundred pounds for their school's science club, plus a day in a real engineering laboratory. And finally, every entry must include a poster explaining how the invention works — the judges read these before they see anything else. Good luck, everyone!"
+   ],
+   "gapTitle": "Young Inventors Competition",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Entry forms must arrive by the end of: ____",
+     "accept": ["march"]
+    },
+    {
+     "type": "gap",
+     "label": "Inventions allowed per school: ____",
+     "accept": ["3", "three"]
+    },
+    {
+     "type": "gap",
+     "label": "Judging takes place in the sports: ____",
+     "accept": ["hall"]
+    },
+    {
+     "type": "gap",
+     "label": "Maximum width: ____ centimetres",
+     "accept": ["50", "fifty"]
+    },
+    {
+     "type": "gap",
+     "label": "The winner receives: £ ____",
+     "accept": ["200", "two hundred"]
+    },
+    {
+     "type": "gap",
+     "label": "Every entry must include a: ____",
+     "accept": ["poster"]
+    }
+   ]
+  },
+  {
+   "id": "B1-P4",
+   "title": "Part 4 · Questions 20–25",
+   "kind": "file",
+   "file": "M4/B1/B1-P4.mp3",
+   "intro": "You will hear an interview with a boy called Hugo, a young inventor. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Interviewer: My guest today is Hugo, who at fifteen has already won a national prize for young inventors. Hugo, people call you a genius. Do you like that word? Hugo: Honestly, it makes me uncomfortable, because it suggests inventing is some magical talent. What I actually do is fail in an organised way — I keep records of every attempt, and slowly the failures point towards the answer. Anyone patient can do that. Interviewer: Tell us about your winning invention. Hugo: It's a door handle that people with weak hands can open easily. The idea didn't come from a laboratory — it came from watching my grandmother struggle with her kitchen door every morning while pretending everything was fine. She never asked for help. That silence was my starting point. Interviewer: Was there a moment you nearly gave up? Hugo: Several! The worst was two weeks before the competition, when a company announced a product that looked identical to mine. I was ready to throw everything away. Then my teacher made me actually study their design, and we realised it solved a completely different problem. That taught me to investigate before panicking. Interviewer: You give talks in primary schools now. Why? Hugo: Because of what I see there. Ask seven-year-olds to invent something and every hand goes up; ask fifteen-year-olds and they look at their shoes. Somewhere in between, we learn to be embarrassed about our ideas. I want to catch children before that happens. Interviewer: What about the money from the prize? Hugo: Everyone assumed I'd buy equipment, and my parents suggested saving it. In the end I spent most of it on materials for the school workshop, so younger students can build without asking their parents for money. Interviewer: And your ambition for the future? Hugo: People expect me to say a famous university or my own company. What I really want is simpler and harder: to see my grandmother's handle manufactured cheaply enough for anyone who needs one."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How does Hugo feel about being called a genius?",
+     "o": ["It makes him uncomfortable", "It makes him proud", "It makes him work harder"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Where did the idea for the door handle come from?",
+     "o": ["A laboratory experiment", "Watching his grandmother", "His grandmother's request"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why did Hugo nearly give up before the competition?",
+     "o": ["A similar-looking product appeared", "His teacher criticised his design", "His invention stopped working"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Why does Hugo visit primary schools?",
+     "o": ["To find young inventors for his team", "To encourage children before they lose confidence", "To teach them how to build machines"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What did Hugo do with the prize money?",
+     "o": ["He bought equipment for himself", "He saved it as his parents suggested", "He bought materials for the school workshop"],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What is Hugo's ambition?",
+     "o": ["To study at a famous university", "To start his own company", "To make his invention cheap for everyone"],
+     "c": 2
+    }
+   ]
+  }
+ ]
+}

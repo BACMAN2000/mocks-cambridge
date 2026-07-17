@@ -1,0 +1,419 @@
+{
+ "label": "C1 — Advanced",
+ "cefr": "Cambridge Advanced (CAE) · C1 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+ "audios": [
+  {
+   "id": "C1-P1",
+   "title": "Part 1 · Questions 1–6",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A team-building day",
+    "A lecture",
+    "A playground",
+    "A video game",
+    "An experiment",
+    "An evening class"
+   ],
+   "scripts": [
+    "Question one. Woman: I've planned the team-building day around a series of competitive games, with a trophy for the winners. Man: It's certainly ambitious. My worry is that the moment you attach a prize, people stop playing and start performing. The whole benefit of play comes from the stakes being low.",
+    "Question two. Man: How was that lecture on the philosophy of play? Woman: I went along expecting something fairly light, to be honest. What caught me off guard was the central claim, that play is essentially a rehearsal for uncertainty, a safe way of practising for situations we can't predict. I haven't stopped thinking about it.",
+    "Question three. Man: Have you seen what they've done to the playground? They stripped out the swings and slides and just left planks, crates and old tyres. There was uproar from parents at first, they thought it looked like a building site. But the supervisors say the children play for far longer now and squabble much less.",
+    "Question four. Woman: So is the new game worth buying? Man: The reviews go on about the graphics, and they are gorgeous. But that's not what makes it work. It's that failing costs you nothing, you're dropped straight back in to try again, so you experiment constantly instead of playing it safe.",
+    "Question five. Woman: When we raised the young rats without any opportunity to play, we assumed they'd simply turn out less sociable. Their social behaviour was actually close to normal. What suffered was something we hadn't thought to measure: faced with an unfamiliar situation, they froze, they simply couldn't improvise.",
+    "Question six. Woman: So did you sign up for the improvisation class in the end? Man: I did, though not for the reason people assume. I've no intention of ever performing. It's just that everything in my week has a target attached to it, and I miss doing something that isn't for anything."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What reservation does the man have about the team-building day?",
+     "o": [
+      "The games are too ambitious",
+      "The prize may undermine the point of playing",
+      "The stakes are too low to motivate people"
+     ],
+     "c": 1,
+     "audio": "P14/C1/C1-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How did the woman react to the lecture?",
+     "o": [
+      "She found it lighter than expected",
+      "She was unconvinced by its central claim",
+      "She was struck by an idea she had not anticipated"
+     ],
+     "c": 2,
+     "audio": "P14/C1/C1-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What point does the man make about the redesigned playground?",
+     "o": [
+      "The children's behaviour has improved",
+      "Parents have come to admire its appearance",
+      "It still needs proper equipment"
+     ],
+     "c": 0,
+     "audio": "P14/C1/C1-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "According to the man, what is the game's real strength?",
+     "o": [
+      "The quality of its graphics",
+      "The absence of any penalty for failure",
+      "The challenge of its safest strategies"
+     ],
+     "c": 1,
+     "audio": "P14/C1/C1-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What surprised the researchers about the play-deprived rats?",
+     "o": [
+      "They became noticeably less sociable",
+      "They struggled to cope with unfamiliar situations",
+      "They behaved entirely normally"
+     ],
+     "c": 1,
+     "audio": "P14/C1/C1-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why has the man joined the improvisation class?",
+     "o": [
+      "He hopes to perform eventually",
+      "He wants an activity with no purpose beyond itself",
+      "He wants to set himself a new target"
+     ],
+     "c": 1,
+     "audio": "P14/C1/C1-P1-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "C1-P2",
+   "title": "Part 2 · Questions 7–14",
+   "kind": "file",
+   "file": "P14/C1/C1-P2.mp3",
+   "intro": "You will hear a researcher called Clara giving a talk about the philosophy of play. For each question, complete the sentences with a word or short phrase.",
+   "scripts": [
+    "Good evening. I'm Clara, and although I now spend my days writing about the philosophy of play, my route here was an unusual one: I originally trained as a biologist, and it was watching juvenile crows dropping sticks onto ice, apparently for the sheer pleasure of it, that first made me question the tidy definitions in my textbooks. The more I looked, the clearer it became that play resists definition by activity. Digging a hole can be labour or delight; kicking a ball can be a career or a joy. Philosophers now largely agree that what defines play is not the activity itself but the attitude the player brings to it. That said, there is one feature that every genuine instance of play seems to share: it must be voluntary. The moment someone is compelled to join in, whatever is happening, it is no longer play, however playful it looks from the outside. This has awkward implications for schools and companies that timetable so-called fun. When we surveyed adults about when they felt most playful, the answers were revealing. Sport barely featured, and computer games came surprisingly low. The activity mentioned most often was, of all things, gardening, which respondents described as absorbing precisely because nothing important hangs on the outcome. The workplace findings were just as striking. In companies that genuinely tolerated playful experimentation, and I stress genuinely, we measured clear gains, not in speed or output, but specifically in problem-solving, with teams finding routes around obstacles that more disciplined groups simply didn't see. And yet I want to end with a warning. The greatest threat to play today is not screens, nor overprotective parents, but our compulsion to justify play in terms of productivity. The instant we praise play because it makes workers more efficient, we have quietly converted it into work. Play that must earn its keep is no longer play. The figures suggest we are already impoverished: once you strip out passive scrolling and background television, the average adult in our study experienced barely four hours of genuine play in an entire week, less than half an hour a day. My modest prescription is one I borrowed from a ninety-year-old chess hustler I interviewed in New York. For sixty years he has kept what he calls a play diary, a nightly note of the moments in the day when he did something purely for its own sake. Try it for a month. Most people discover two things: how rarely they truly play, and how easily, once they are paying attention, they can play more. Thank you."
+   ],
+   "gapTitle": "The Philosophy of Play",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Before turning to philosophy, Clara trained as a ____",
+     "accept": [
+      "biologist"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Play is defined not by the activity but by the player's ____",
+     "accept": [
+      "attitude"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "To count as play, an activity must be ____",
+     "accept": [
+      "voluntary"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The activity adults mentioned most often was ____",
+     "accept": [
+      "gardening"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Playful companies showed clear gains in ____",
+     "accept": [
+      "problem-solving",
+      "problem solving"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The greatest threat to play is justifying it in terms of ____",
+     "accept": [
+      "productivity"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Adults in the study averaged only ____ hours of genuine play a week",
+     "accept": [
+      "4",
+      "four"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Clara recommends keeping a play ____",
+     "accept": [
+      "diary"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1-P3",
+   "title": "Part 3 · Questions 15–20",
+   "kind": "file",
+   "file": "P14/C1/C1-P3.mp3",
+   "intro": "You will hear an interview with a philosopher called Daniel, who studies play. For each question, choose the best answer (A, B, C or D).",
+   "scripts": [
+    "Interviewer: Daniel, philosophy of play sounds like a contradiction, one so serious, the other anything but. Daniel: That's exactly the prejudice I spend my life dismantling. We treat seriousness as the default mode of anything important, but watch a child utterly absorbed in a game and you're looking at concentration that most adults can't sustain for five minutes. Play isn't the opposite of seriousness, it's the opposite of necessity. Interviewer: You've written that adults haven't stopped playing, they've just stopped admitting it. Daniel: We launder our play through respectable vocabulary. A man who spends every weekend perfecting his golf swing calls it exercise. A woman who reads three detective novels a week calls it relaxation. Neither will use the word play, because our culture reserves that word for children, and to be childlike is, supposedly, to be diminished. I find that linguistic cowardice rather sad. Interviewer: Some psychologists argue play evolved because it's useful, it trains skills. Doesn't that settle the matter? Daniel: It's a seductive theory and I don't dismiss the evidence. But notice what the argument does: it redeems play by making it secretly useful, which quietly concedes that useless things need redeeming. That's the concession I refuse to make. Even if play trained nothing at all, a life containing it would still be richer than a life without it. Interviewer: Is technology killing play, as we keep hearing? Daniel: I'm deeply suspicious of that narrative. Every generation announces that real play died just after its own childhood. Video games are frequently dazzling feats of playful imagination. What does trouble me, and it's a narrower point than the headlines suggest, is design that borrows the costume of play while removing the freedom, endless reward loops you can't walk away from. That isn't play, it's its taxidermy. Interviewer: You famously refuse to give policy recommendations. Why? Daniel: Because the instant a government issues guidelines on play, it becomes homework. I did once break my rule, I told a minister the single best thing he could do for children's play was to do nothing whatsoever, and I have never seen a man look so betrayed. Interviewer: Finally, do you practise what you preach? Daniel: Less than I'd like, which I suppose proves my point about adults. Though I will say my most cited paper began as a joke in a pub quiz, so my frivolity has at least been peer-reviewed. Interviewer: Daniel, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "According to Daniel, play is best understood as the opposite of",
+     "o": [
+      "seriousness",
+      "concentration",
+      "necessity",
+      "importance"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What does Daniel suggest about adults who play?",
+     "o": [
+      "They disguise their play with more acceptable labels",
+      "They have genuinely replaced play with exercise",
+      "They play less than any previous generation",
+      "They are embarrassed by children's games"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How does Daniel respond to the theory that play evolved to train skills?",
+     "o": [
+      "He rejects the evidence behind it",
+      "He accepts it settles the question",
+      "He objects to the assumption hidden within it",
+      "He finds it impossible to test"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What is Daniel's view of technology and play?",
+     "o": [
+      "Video games have destroyed genuine play",
+      "His concern is narrower than the popular alarm",
+      "Every generation plays better than the last",
+      "Reward loops are play at its most refined"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why does Daniel avoid giving policy advice on play?",
+     "o": [
+      "Ministers have repeatedly ignored him",
+      "Official endorsement would change play's nature",
+      "He believes governments should fund play instead",
+      "He once gave advice that proved harmful"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Daniel imply about himself at the end?",
+     "o": [
+      "He plays more than most academics",
+      "His own habits illustrate the problem he describes",
+      "His research is not taken seriously by colleagues",
+      "He regrets the joke that inspired his paper"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "C1-P4",
+   "title": "Part 4 · Questions 21–30",
+   "kind": "file",
+   "file": "P14/C1/C1-P4.mp3",
+   "intro": "You will hear five people talking about a playful activity they took up as adults. TASK ONE (21–25): choose why each speaker took up the activity. TASK TWO (26–30): choose what each speaker says the activity has changed for them.",
+   "scripts": [
+    "Speaker one. Anna: I took up pottery after two years of working flat out left me completely hollowed out, my doctor signed me off and frankly I'd forgotten what an evening was for. A friend dragged me to a class and I went back for the clay, not the company. What's changed is odd: at the wheel, things collapse constantly, and you just start again. I've stopped treating every mistake at work as a small death. Ruined pots taught me that, not any seminar. Speaker two. Tom: Table football, of all things. My daughter's school was raffling off an old table and the sight of it winded me, my grandfather had one in his garage and I spent every summer spinning those handles. I bought it on pure sentiment, I don't mind admitting. I expected a nostalgia trip. What I hadn't banked on was the league I ended up joining, and honestly, half my social life now comes from people I'd never otherwise have met, plumbers, professors, a retired referee. Speaker three. Grace: Stand-up comedy started as a dare. A colleague bet me a month of coffees I wouldn't survive an open-mic night, and I have never been able to walk away from a wager. I bombed, obviously. But I kept going back, and the strange dividend is that presentations at work no longer frighten me in the slightest. Once you've died on stage in front of forty strangers, a quarterly budget review holds no terrors. My boss has noticed, and I got the promotion I'd been circling for years. Speaker four. Leo: Skateboarding at forty-three raises eyebrows, I'm aware. My son begged for a board for his birthday and then refused to go to the park alone, so I bought a second one purely so he'd have an escort. That was the whole plan, chaperone duty. Two years on, the pair of us are out every Sunday morning, rain permitting, and we talk on those kerbs in a way we never managed across a dinner table. My wife says she'd pay for the bruises twice over. Speaker five. Ruby: When my youngest left for university the house went quiet in a way I wasn't prepared for, whole afternoons with nothing required of me. Jigsaw puzzles filled the gap, thousand-piece monsters of lighthouses and star maps. People assume it's about finishing, it isn't. I've become someone who can sit with a problem for an hour without needing it solved, and my daughter says I'm noticeably harder to irritate on the phone now, which from her is practically a medal."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — why they took up the activity",
+     "person": "Speaker 1",
+     "bank": [
+      "recovering from burnout",
+      "a wave of nostalgia",
+      "losing a bet with a colleague",
+      "accompanying their child",
+      "a sudden excess of free time",
+      "a doctor's direct order",
+      "wanting to meet new people",
+      "a lifelong ambition"
+     ],
+     "c": "recovering from burnout"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — why they took up the activity",
+     "person": "Speaker 2",
+     "bank": [
+      "recovering from burnout",
+      "a wave of nostalgia",
+      "losing a bet with a colleague",
+      "accompanying their child",
+      "a sudden excess of free time",
+      "a doctor's direct order",
+      "wanting to meet new people",
+      "a lifelong ambition"
+     ],
+     "c": "a wave of nostalgia"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — why they took up the activity",
+     "person": "Speaker 3",
+     "bank": [
+      "recovering from burnout",
+      "a wave of nostalgia",
+      "losing a bet with a colleague",
+      "accompanying their child",
+      "a sudden excess of free time",
+      "a doctor's direct order",
+      "wanting to meet new people",
+      "a lifelong ambition"
+     ],
+     "c": "losing a bet with a colleague"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — why they took up the activity",
+     "person": "Speaker 4",
+     "bank": [
+      "recovering from burnout",
+      "a wave of nostalgia",
+      "losing a bet with a colleague",
+      "accompanying their child",
+      "a sudden excess of free time",
+      "a doctor's direct order",
+      "wanting to meet new people",
+      "a lifelong ambition"
+     ],
+     "c": "accompanying their child"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — why they took up the activity",
+     "person": "Speaker 5",
+     "bank": [
+      "recovering from burnout",
+      "a wave of nostalgia",
+      "losing a bet with a colleague",
+      "accompanying their child",
+      "a sudden excess of free time",
+      "a doctor's direct order",
+      "wanting to meet new people",
+      "a lifelong ambition"
+     ],
+     "c": "a sudden excess of free time"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the activity has changed",
+     "person": "Speaker 1",
+     "bank": [
+      "their attitude to failure",
+      "the breadth of their social circle",
+      "their confidence in front of an audience",
+      "their relationship with a family member",
+      "their patience",
+      "their physical health",
+      "their career ambitions",
+      "their daily routine"
+     ],
+     "c": "their attitude to failure"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the activity has changed",
+     "person": "Speaker 2",
+     "bank": [
+      "their attitude to failure",
+      "the breadth of their social circle",
+      "their confidence in front of an audience",
+      "their relationship with a family member",
+      "their patience",
+      "their physical health",
+      "their career ambitions",
+      "their daily routine"
+     ],
+     "c": "the breadth of their social circle"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the activity has changed",
+     "person": "Speaker 3",
+     "bank": [
+      "their attitude to failure",
+      "the breadth of their social circle",
+      "their confidence in front of an audience",
+      "their relationship with a family member",
+      "their patience",
+      "their physical health",
+      "their career ambitions",
+      "their daily routine"
+     ],
+     "c": "their confidence in front of an audience"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the activity has changed",
+     "person": "Speaker 4",
+     "bank": [
+      "their attitude to failure",
+      "the breadth of their social circle",
+      "their confidence in front of an audience",
+      "their relationship with a family member",
+      "their patience",
+      "their physical health",
+      "their career ambitions",
+      "their daily routine"
+     ],
+     "c": "their relationship with a family member"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what the activity has changed",
+     "person": "Speaker 5",
+     "bank": [
+      "their attitude to failure",
+      "the breadth of their social circle",
+      "their confidence in front of an audience",
+      "their relationship with a family member",
+      "their patience",
+      "their physical health",
+      "their career ambitions",
+      "their daily routine"
+     ],
+     "c": "their patience"
+    }
+   ]
+  }
+ ]
+}

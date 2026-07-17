@@ -1,0 +1,34 @@
+{
+  "title": "B2 First — Writing (MOCK 6)",
+  "durationMin": 80,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 140, "maxWords": 190,
+        "lead": "In your English class you have been talking about success and failure. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+        "stimulus": { "body": "\"People learn more from failure than from success. Do you agree?\"\n\nNotes\n\nWrite about:\n1. motivation\n2. confidence\n3. ............... (your own idea)" },
+        "bullets": ["motivation", "confidence", "your own idea", "give reasons for your point of view"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+      "tasks": [
+        { "type": "letter", "q": 2, "minWords": 140, "maxWords": 190,
+          "lead": "You have received this letter from your English-speaking friend Sasha.",
+          "stimulus": { "body": "Bad news: I didn't make the team. After a whole year of training, I wasn't even close, apparently. Right now I feel like selling my kit and never going near a pitch again. You've had setbacks before — how did you get over them? Be honest: should I try again next season, or is it time to accept I'm just not good enough?\nSasha" },
+          "bullets": ["how you got over a setback of your own", "whether Sasha should try again next season", "reasons and encouragement for your advice"],
+          "write": "Write your letter in reply." },
+        { "type": "review", "q": 3, "minWords": 140, "maxWords": 190,
+          "lead": "You see this announcement on an English-language website about films and books.",
+          "stimulus": { "title": "Stories of glorious failure", "body": "The most inspiring stories are often about people who failed — sometimes repeatedly — before they got anywhere. Write a review of a film, documentary or book about a person whose failures were part of their story, describing it, and explaining what it taught you about not giving up." },
+          "bullets": ["describe the film, documentary or book", "the failures in the person's story", "what it taught you about not giving up"],
+          "write": "Write your review." },
+        { "type": "report", "q": 4, "minWords": 140, "maxWords": 190,
+          "lead": "Your head teacher wants to improve the way the school supports students after poor exam results and has asked you to write a report.",
+          "stimulus": { "title": "Report: supporting students after poor results", "body": "Describe how students at your school typically react when they receive poor results, explain what support the school currently offers, and recommend two changes that would help students treat failure as a chance to improve." },
+          "bullets": ["how students typically react to poor results", "the support the school currently offers", "two changes to help students learn from failure"],
+          "write": "Write your report." }
+      ]
+    }
+  ]
+}

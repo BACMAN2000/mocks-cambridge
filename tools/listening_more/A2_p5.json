@@ -1,0 +1,310 @@
+{
+ "label": "A2 — Elementary",
+ "cefr": "Cambridge KET · A2 official format",
+ "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+ "audios": [
+  {
+   "id": "A2-P1",
+   "title": "Part 1 · Questions 1–5",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+   "segments": [
+    "Saturday plans",
+    "Lunch at Grandma's",
+    "Sunday weather",
+    "Going to the lake",
+    "Leaving time"
+   ],
+   "scripts": [
+    "Question one. Girl: Dad, are we going to the café on Saturday? Dad: The café is closed this weekend, so we're going to the park instead. Girl: Great, I'll take my ball.",
+    "Question two. Boy: Mum, what's Grandma making for lunch on Sunday? Mum: She wanted to make pizza, but her oven is broken, so we're having sandwiches. Boy: I don't mind — I love her sandwiches.",
+    "Question three. Mum: Shall we have a picnic on Sunday? Dad: I checked the weather — it rained today, but tomorrow will be lovely and sunny. Mum: Perfect for a picnic then.",
+    "Question four. Girl: Are we driving to the lake, Dad? Dad: The car is at the garage this week, so we'll take the bus. Girl: OK, I'll get my bag.",
+    "Question five. Boy: What time are we leaving tomorrow morning? Mum: At half past eight. Not nine — Grandma is expecting us early. Boy: OK, I'll set my alarm."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "Where will the family go on Saturday?",
+     "imgs": [
+      "cafe",
+      "park",
+      "library"
+     ],
+     "c": 1,
+     "audio": "P5/A2/A2-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will they eat at Grandma's house?",
+     "imgs": [
+      "pizza",
+      "sandwich",
+      "cake"
+     ],
+     "c": 1,
+     "audio": "P5/A2/A2-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will the weather be like on Sunday?",
+     "imgs": [
+      "sunny",
+      "rainy",
+      "snowy"
+     ],
+     "c": 0,
+     "audio": "P5/A2/A2-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will they travel to the lake?",
+     "imgs": [
+      "car",
+      "bus",
+      "bike"
+     ],
+     "c": 1,
+     "audio": "P5/A2/A2-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time will they leave tomorrow?",
+     "imgs": [
+      "clock830",
+      "clock9",
+      "clock8"
+     ],
+     "c": 0,
+     "audio": "P5/A2/A2-P1-q5.mp3"
+    }
+   ]
+  },
+  {
+   "id": "A2-P2",
+   "title": "Part 2 · Questions 6–10",
+   "kind": "file",
+   "file": "P5/A2/A2-P2.mp3",
+   "intro": "You will hear a mum telling her family about their weekend plans. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+   "scripts": [
+    "Listen to a mum talking about the family's weekend plans. Mum: Listen everyone, here's the plan for Saturday. We're going to visit the castle near the river. Tickets cost six pounds for children. We'll leave home at ten o'clock, so please be ready. We're going by train, because parking there is very difficult. Bring a warm jacket, because it's always cold at the top of the castle. And afterwards we'll have dinner at Uncle Marcus's house."
+   ],
+   "gapTitle": "Saturday Family Trip",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Visit: the ____ near the river",
+     "accept": [
+      "castle"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Ticket for children: £ ____",
+     "accept": [
+      "6",
+      "six"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Leave home at: ____ a.m.",
+     "accept": [
+      "10",
+      "ten",
+      "10:00",
+      "10.00",
+      "10 o'clock",
+      "ten o'clock"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Travel by: ____",
+     "accept": [
+      "train",
+      "the train"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Bring: a warm ____",
+     "accept": [
+      "jacket"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2-P3",
+   "title": "Part 3 · Questions 11–15",
+   "kind": "file",
+   "file": "P5/A2/A2-P3.mp3",
+   "intro": "You will hear Sofia talking to her dad about the weekend. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Sofia: Dad, what are we doing this weekend? Dad: On Saturday morning we're cleaning the house — all of us. Sofia: Oh no. And after that? Dad: Then we'll go swimming at the new pool in the afternoon. Sofia: Can Grace come with us? Dad: Of course, if her parents say yes. Sofia: And what about Sunday? Dad: Grandpa is coming for lunch, so we'll cook something special together. Sofia: Can we make his favourite fish? Dad: Good idea. You can help me with it."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What will the family do on Saturday morning?",
+     "o": [
+      "Go swimming",
+      "Clean the house",
+      "Visit Grandpa"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "When will they go to the pool?",
+     "o": [
+      "Saturday afternoon",
+      "Saturday morning",
+      "Sunday afternoon"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Who does Sofia want to bring to the pool?",
+     "o": [
+      "Her cousin",
+      "Her friend Grace",
+      "Her teacher"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Who is coming for lunch on Sunday?",
+     "o": [
+      "Grandpa",
+      "Grandma",
+      "Uncle Leo"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What will Sofia and her dad cook?",
+     "o": [
+      "Pizza",
+      "Chicken",
+      "Fish"
+     ],
+     "c": 2
+    }
+   ]
+  },
+  {
+   "id": "A2-P4",
+   "title": "Part 4 · Questions 16–20",
+   "kind": "file",
+   "file": "P5/A2/A2-P4.mp3",
+   "intro": "You will hear a boy called Daniel talking about his weekend. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Daniel: Last weekend was brilliant. On Saturday morning my dad and I went fishing at the lake. We didn't catch anything at all, but I didn't mind, because we talked a lot. In the afternoon it started to rain, so we played board games at home with my little sister. She won every single game, which was funny. On Sunday my aunt visited us, and she brought a huge chocolate cake. In the evening I finished my homework — I always leave it late. On Monday I felt tired, but happy."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What did Daniel do on Saturday morning?",
+     "o": [
+      "He went fishing",
+      "He played football",
+      "He watched TV"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How many fish did they catch?",
+     "o": [
+      "A lot",
+      "Two",
+      "None"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "Why did they stay at home in the afternoon?",
+     "o": [
+      "It started to rain",
+      "They were tired",
+      "The lake closed"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Who won the board games?",
+     "o": [
+      "Daniel",
+      "His little sister",
+      "His dad"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What did Daniel's aunt bring?",
+     "o": [
+      "A pizza",
+      "A chocolate cake",
+      "A board game"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P5",
+   "title": "Part 5 · Questions 21–25",
+   "kind": "file",
+   "file": "P5/A2/A2-P5.mp3",
+   "intro": "You will hear a mum talking about a family lunch. What will each person do to help? For each question, choose the correct answer.",
+   "bank": [
+    "shopping",
+    "cooking",
+    "cleaning",
+    "flowers",
+    "music",
+    "photos",
+    "drinks"
+   ],
+   "scripts": [
+    "Mum: Everyone is helping with Grandma's birthday lunch on Sunday. Dad is doing the shopping on Saturday morning. Olivia is cooking the vegetables — she's getting really good in the kitchen. Max is cleaning the living room before everyone arrives. Aunt Rosa is bringing flowers from her garden. And little Hugo is choosing the music, because he loves doing that."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Dad",
+     "c": "shopping"
+    },
+    {
+     "type": "match",
+     "person": "Olivia",
+     "c": "cooking"
+    },
+    {
+     "type": "match",
+     "person": "Max",
+     "c": "cleaning"
+    },
+    {
+     "type": "match",
+     "person": "Rosa",
+     "c": "flowers"
+    },
+    {
+     "type": "match",
+     "person": "Hugo",
+     "c": "music"
+    }
+   ]
+  }
+ ]
+}

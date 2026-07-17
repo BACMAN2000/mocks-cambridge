@@ -1,0 +1,30 @@
+{
+  "title": "B1 Preliminary — Writing (MOCK 7)",
+  "durationMin": 45,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in about 100 words.",
+      "tasks": [{
+        "type": "email", "minWords": 100,
+        "lead": "Read this email from your history teacher, Ms Fontana, and the notes you have made.",
+        "stimulus": { "head": "EMAIL", "title": "", "body": "From: Ms Fontana\nSubject: Local history project — \"Our Town, Then and Now\"\n\nDear Class,\n\nThis term our class is starting a special project about the history of our town, called \"Our Town, Then and Now\". Working in pairs, you will choose one place in town — for example an old building, a street, or the market — and find out how it has changed over the last hundred years.\n\nYou can interview older people, look at old photographs, or visit the town archive. At the end of term, we will present everything in an exhibition for parents.\n\nPlease tell me which place you would like to study, who you will work with, and how you plan to find your information.\n\nMs Fontana" },
+        "bullets": ["say which place in town you would like to study and why", "say who you would like to work with", "explain how you plan to find information about the place", "ask one question about the exhibition"],
+        "write": "Write your email to Ms Fontana."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in about 100 words.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 100,
+          "lead": "You see this announcement in your school English-language magazine.",
+          "stimulus": { "title": "IF I COULD TRAVEL BACK IN TIME", "body": "Imagine you could visit your town one hundred years ago! What do you think you would see, and what would be most different from today? Write an article and tell us. The best articles will be published next month." },
+          "bullets": ["what your town was probably like one hundred years ago", "what would be most different from today", "whether you would prefer to live then or now, and why"],
+          "write": "Write your article." },
+        { "type": "story", "q": 3, "minWords": 100,
+          "lead": "Your English teacher has asked you to write a story.",
+          "startSentence": "The old photograph of the town square showed a building that nobody could remember.",
+          "stimulus": { "title": "", "body": "Your story must begin with this sentence:\n\nThe old photograph of the town square showed a building that nobody could remember." },
+          "bullets": [],
+          "write": "Write your story." }
+      ]
+    }
+  ]
+}

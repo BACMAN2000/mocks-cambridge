@@ -1,0 +1,30 @@
+{
+  "title": "B1 Preliminary — Writing (MOCK 6)",
+  "durationMin": 45,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in about 100 words.",
+      "tasks": [{
+        "type": "email", "minWords": 100,
+        "lead": "Read this email from your head teacher, Mr Aldana, and the notes you have made.",
+        "stimulus": { "head": "EMAIL", "title": "", "body": "From: Mr Aldana\nSubject: Technology-Free Week — your opinion, please\n\nDear Students,\n\nNext term the school is planning a Technology-Free Week. For five days there will be no phones, tablets or computers in lessons or during breaks — only books, paper and conversation!\n\nSome teachers think it will help students concentrate and talk to each other more. Others are worried it will make homework difficult.\n\nBefore we decide, I would like to hear your opinion. Do you think it is a good idea? What might be difficult? And what activities could we organise during the week instead of using screens?\n\nMr Aldana" },
+        "bullets": ["say whether you think Technology-Free Week is a good idea, and why", "explain one thing that might be difficult", "suggest two activities the school could organise during the week", "ask one question about the rules for the week"],
+        "write": "Write your email to Mr Aldana."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in about 100 words.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 100,
+          "lead": "You see this announcement in your school English-language magazine.",
+          "stimulus": { "title": "A DAY WITHOUT MY PHONE", "body": "Could you survive a whole day without your phone? What would you miss most — and what might you actually enjoy? Write an article telling us what a day without your phone would be like for you. The best articles will be published next month." },
+          "bullets": ["what you use your phone for every day", "what you would miss most without it", "what you might enjoy about a phone-free day"],
+          "write": "Write your article." },
+        { "type": "story", "q": 3, "minWords": 100,
+          "lead": "Your English teacher has asked you to write a story.",
+          "startSentence": "The moment Ruben switched off his phone for the week, the doorbell rang.",
+          "stimulus": { "title": "", "body": "Your story must begin with this sentence:\n\nThe moment Ruben switched off his phone for the week, the doorbell rang." },
+          "bullets": [],
+          "write": "Write your story." }
+      ]
+    }
+  ]
+}

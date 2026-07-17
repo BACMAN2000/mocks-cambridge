@@ -1,0 +1,423 @@
+{
+ "label": "C1 — Advanced",
+ "cefr": "Cambridge Advanced (CAE) · C1 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+ "audios": [
+  {
+   "id": "C1-P1",
+   "title": "Part 1 · Questions 1–6",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in three different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A restored wetland",
+    "A volunteer day",
+    "A reintroduced species",
+    "A tree-planting scheme",
+    "A river project",
+    "A field lecture"
+   ],
+   "scripts": [
+    "Question one. Man: Have you been down to the new wetland since they flooded it? Woman: I went last week. What struck me wasn't the birds, though there were plenty. It was the silence, or rather how quickly the reeds had colonised bare mud. In two seasons it looks as if it had always been there. Man: Nature moves faster than we give it credit for.",
+    "Question two. Woman: How was the volunteer day on the heath? Man: Exhausting, but oddly satisfying. We spent the whole morning pulling up invasive saplings by hand. I'd assumed we'd be planting things, so it felt counterintuitive to be removing growth. But the warden explained the heath only survives if you keep the birch in check.",
+    "Question three. Man: So the beavers have settled in, then. Woman: They have, and the effect is remarkable. Everyone talks about the dams, of course, but for me the real story is the pools they create upstream, which have brought back insects nobody had recorded here for decades. The dams are just the visible headline.",
+    "Question four. Woman: I hear the tree-planting scheme hit its million-tree target. Man: It did, and the press loved the number. Privately, though, the ecologists are uneasy. Planting a million saplings is easy; keeping them alive through three dry summers is the hard part, and nobody's funding the aftercare. The headline figure tells you almost nothing.",
+    "Question five. Man: They've taken the concrete out of the river, I noticed. Woman: Yes, they let it meander again. The flooding downstream has actually eased, which surprised the sceptics. When you give a river room to spread across its floodplain, it holds the water back instead of rushing it into the town. Counter-intuitive, but it works.",
+    "Question six. Woman: Did the field lecture change how you see the moor? Man: Completely. I'd always thought of it as wild, untouched nature. The lecturer pointed out that almost every feature, the bare peat, the lack of trees, was shaped by centuries of grazing and burning. What I took for wilderness is really a human artefact. That's stayed with me."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What most impressed the woman about the wetland?",
+     "o": [
+      "The variety of birds",
+      "How rapidly the vegetation had established",
+      "The peaceful atmosphere"
+     ],
+     "c": 1,
+     "audio": "P5/C1/C1-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why did the volunteer work feel counterintuitive to the man?",
+     "o": [
+      "They were removing plants rather than planting",
+      "The work was harder than expected",
+      "The warden gave unclear instructions"
+     ],
+     "c": 0,
+     "audio": "P5/C1/C1-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the woman find most significant about the beavers?",
+     "o": [
+      "The dams they build",
+      "The upstream pools reviving lost insects",
+      "How quickly they settled"
+     ],
+     "c": 1,
+     "audio": "P5/C1/C1-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What concerns the ecologists about the planting scheme?",
+     "o": [
+      "The lack of funding for keeping trees alive",
+      "That the target was missed",
+      "That the wrong species were planted"
+     ],
+     "c": 0,
+     "audio": "P5/C1/C1-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What was the surprising effect of restoring the river?",
+     "o": [
+      "It became more polluted",
+      "Downstream flooding decreased",
+      "The town lost its water supply"
+     ],
+     "c": 1,
+     "audio": "P5/C1/C1-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How did the lecture change the man's view of the moor?",
+     "o": [
+      "He realised it was shaped by human activity",
+      "He decided it was truly untouched",
+      "He concluded it should be left alone"
+     ],
+     "c": 0,
+     "audio": "P5/C1/C1-P1-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "C1-P2",
+   "title": "Part 2 · Questions 7–14",
+   "kind": "file",
+   "file": "P5/C1/C1-P2.mp3",
+   "intro": "You will hear a restoration ecologist called Grace giving a talk about repairing damaged habitats. For each question, complete the sentences with a word or short phrase.",
+   "scripts": [
+    "Hello, I'm Grace, and I spend my days trying to mend landscapes that people have broken. Let me start by clearing up a persistent confusion. Restoration is not the same as conservation. Conservation seeks to protect what already survives; restoration is the far more ambitious business of rebuilding what has been lost, and it forces you to answer an awkward question straight away: rebuild it to resemble which moment in the past? There is no single pristine original to copy, because every landscape has been changing for millennia. So the first thing I tell students is that our real goal is not a museum piece but a functioning system, one that can look after itself once we step back. We measure success, then, not by how pretty a site looks, but by whether it has recovered its capacity for self-sustainability. A common temptation is to plant intensively and declare victory, but I've learned to resist that. Very often the wisest intervention is simply to remove the obstacle that was suppressing recovery, whether that's a drainage pipe, a fence, or a herd of grazing deer, and then let natural processes do the heavy lifting. This lighter-touch philosophy is sometimes called passive restoration, and where conditions allow, it is both cheaper and more durable than replanting everything by hand. Now, the single organism I care about most is invisible to visitors, and that is the soil. You can plant a thousand trees, but if the underground fungal networks that feed their roots are absent, most will fail. Rebuilding that living soil takes patience, and it is why I distrust any project that promises quick results. Timescales, in fact, are the hardest lesson for funders to accept. A woodland that looks convincing in photographs may take a full century to develop the complexity of an ancient one. My final warning concerns the word natural itself. When we release a missing animal back into a habitat, the technical term is reintroduction, and it can transform a place, but only if the conditions that drove the species out in the first place have genuinely been fixed. Put the animal back into the same broken system and you have simply set it up to fail again. Repair the system first; the wildlife will follow."
+   ],
+   "gapTitle": "Restoration Ecology",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Unlike conservation, restoration tries to rebuild what has been ____",
+     "accept": [
+      "lost"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Grace says the true goal is not a museum piece but a ____ system",
+     "accept": [
+      "functioning",
+      "functional"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Success is measured by a site's recovered capacity for ____",
+     "accept": [
+      "self-sustainability",
+      "self sustainability",
+      "sustainability"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The lighter-touch approach of removing obstacles is called ____ restoration",
+     "accept": [
+      "passive"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The organism Grace cares about most, invisible to visitors, is the ____",
+     "accept": [
+      "soil"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Tree roots depend on underground ____ networks to feed them",
+     "accept": [
+      "fungal",
+      "fungus"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "A convincing woodland may take a full ____ to match an ancient one",
+     "accept": [
+      "century",
+      "100 years",
+      "hundred years"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Releasing a missing animal back into a habitat is called ____",
+     "accept": [
+      "reintroduction"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1-P3",
+   "title": "Part 3 · Questions 15–20",
+   "kind": "file",
+   "file": "P5/C1/C1-P3.mp3",
+   "intro": "You will hear an interview with a rewilding project manager called Leo. For each question, choose the best answer (A, B, C or D).",
+   "scripts": [
+    "Interviewer: Leo, rewilding has become a fashionable word. Does that help you? Interviewer: Or does it get in the way? Leo: A bit of both, honestly. The buzz brings us donations and volunteers, which we badly need. But it also brings a kind of magical thinking, the idea that you release a few big animals and stand back and watch paradise return. The reality is years of unglamorous fencing and paperwork. Interviewer: You've faced real opposition from local farmers. How do you handle that? Leo: I used to march in armed with ecology, all my graphs and species lists. That was a mistake. I've learned that you get nowhere until you've genuinely listened to people whose families have farmed that valley for generations. Their fear of losing control of the land is legitimate, and no amount of data answers it. Interviewer: Was there a moment the project could have collapsed? Leo: There was, and it wasn't a funding crisis, as people assume. It was a single dry summer when half our young trees died and the newspapers declared the whole thing a failure. Holding my nerve through that public knock was the hardest thing I've done. Interviewer: What's the biggest misconception about rewilding? Leo: That it means abandoning land completely, walking away and letting chaos reign. In truth we intervene constantly, at least in the early years. Rewilding isn't the absence of management; it's management aimed at eventually needing less of it. Interviewer: Do you measure success in numbers of species? Leo: Less and less. Counting species is seductive because it's tidy, but a rising list can hide a fragile system. I'm far more interested now in whether the processes are working, whether water, dung and decay are cycling as they should. Function over inventory. Interviewer: And your hope for the site in fifty years? Leo: Honestly, that nobody remembers my name. If the place is thriving without any of us fussing over it, then I've done my job properly. Interviewer: Leo, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What downside of rewilding's popularity does Leo identify?",
+     "o": [
+      "It attracts too many volunteers",
+      "It encourages unrealistic expectations",
+      "It reduces donations",
+      "It draws hostile media only"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What did Leo learn about dealing with local farmers?",
+     "o": [
+      "Data eventually wins them over",
+      "Their objections should be ignored",
+      "Listening to their concerns matters more than evidence",
+      "They will never be persuaded"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "What nearly ended the project?",
+     "o": [
+      "A collapse in funding",
+      "A dry summer and hostile press coverage",
+      "A dispute among staff",
+      "A change in the law"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What misconception about rewilding does Leo correct?",
+     "o": [
+      "That it involves no management at all",
+      "That it is expensive",
+      "That it harms farmland",
+      "That it happens quickly"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Why is Leo now less interested in counting species?",
+     "o": [
+      "The counts are too difficult",
+      "A long list can conceal a fragile system",
+      "Species numbers never change",
+      "Visitors find it boring"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is Leo's ultimate hope for the site?",
+     "o": [
+      "That it becomes famous",
+      "That it thrives without needing his involvement",
+      "That it earns a large profit",
+      "That it wins scientific awards"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "C1-P4",
+   "title": "Part 4 · Questions 21–30",
+   "kind": "file",
+   "file": "P5/C1/C1-P4.mp3",
+   "intro": "You will hear five people involved in habitat restoration projects. TASK ONE (21–25): choose what first drew each speaker to the work. TASK TWO (26–30): choose the main lesson each speaker has learned.",
+   "scripts": [
+    "Speaker one. Woman: I trained as a civil engineer, all straight lines and concrete, until a flood ruined my own street and I saw that our defences had made things worse. That failure pushed me towards working with rivers rather than against them. The lesson that's stayed with me is humility, honestly, that nature usually solves these problems more elegantly than any engineer, if we simply give it space. Speaker two. Man: For me it was grief, plain and simple. I inherited my grandfather's farm and found the hedgerows he'd loved were gone, the birdsong with them, and I wanted them back. What I've learned the hard way is patience, that the results you crave arrive on nature's timetable, not yours, and no amount of money buys speed. Speaker three. Woman: I came to it through protest, chaining myself to trees as a student, furious at what was being lost. Anger got me started, but it burned out fast. The biggest thing I've grasped since is that you achieve nothing without the neighbours on your side, that lasting change is built on relationships, not confrontation. Speaker four. Man: Truthfully, a job advert drew me in during a recession, I needed the wages and knew nothing about ecology. I fell for the work slowly. And the insight I keep returning to is how much lives underground, that the invisible soil life matters far more than the showy plants everyone photographs. Speaker five. Woman: A single documentary about a reintroduced predator changed the course of my life overnight. That sense of wonder is still my fuel. But the practical lesson I've absorbed is that you must fix the underlying conditions first, because putting a species back into a still-broken habitat only guarantees it will fail all over again."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what first drew the speaker to restoration work",
+     "person": "Speaker 1",
+     "bank": [
+      "witnessing the failure of engineered defences",
+      "grief at personal loss of nature",
+      "youthful environmental protest",
+      "needing a job during a recession",
+      "the wonder of a wildlife documentary",
+      "a university course",
+      "a childhood in the countryside",
+      "encouragement from a mentor"
+     ],
+     "c": "witnessing the failure of engineered defences"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what first drew the speaker to restoration work",
+     "person": "Speaker 2",
+     "bank": [
+      "witnessing the failure of engineered defences",
+      "grief at personal loss of nature",
+      "youthful environmental protest",
+      "needing a job during a recession",
+      "the wonder of a wildlife documentary",
+      "a university course",
+      "a childhood in the countryside",
+      "encouragement from a mentor"
+     ],
+     "c": "grief at personal loss of nature"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what first drew the speaker to restoration work",
+     "person": "Speaker 3",
+     "bank": [
+      "witnessing the failure of engineered defences",
+      "grief at personal loss of nature",
+      "youthful environmental protest",
+      "needing a job during a recession",
+      "the wonder of a wildlife documentary",
+      "a university course",
+      "a childhood in the countryside",
+      "encouragement from a mentor"
+     ],
+     "c": "youthful environmental protest"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what first drew the speaker to restoration work",
+     "person": "Speaker 4",
+     "bank": [
+      "witnessing the failure of engineered defences",
+      "grief at personal loss of nature",
+      "youthful environmental protest",
+      "needing a job during a recession",
+      "the wonder of a wildlife documentary",
+      "a university course",
+      "a childhood in the countryside",
+      "encouragement from a mentor"
+     ],
+     "c": "needing a job during a recession"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — what first drew the speaker to restoration work",
+     "person": "Speaker 5",
+     "bank": [
+      "witnessing the failure of engineered defences",
+      "grief at personal loss of nature",
+      "youthful environmental protest",
+      "needing a job during a recession",
+      "the wonder of a wildlife documentary",
+      "a university course",
+      "a childhood in the countryside",
+      "encouragement from a mentor"
+     ],
+     "c": "the wonder of a wildlife documentary"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the main lesson the speaker has learned",
+     "person": "Speaker 1",
+     "bank": [
+      "nature solves problems better if given space",
+      "results come slowly and cannot be rushed",
+      "lasting change depends on good relationships",
+      "the hidden soil matters most",
+      "underlying conditions must be fixed first",
+      "funding is the biggest obstacle",
+      "the public rarely understands the work",
+      "small projects are best"
+     ],
+     "c": "nature solves problems better if given space"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the main lesson the speaker has learned",
+     "person": "Speaker 2",
+     "bank": [
+      "nature solves problems better if given space",
+      "results come slowly and cannot be rushed",
+      "lasting change depends on good relationships",
+      "the hidden soil matters most",
+      "underlying conditions must be fixed first",
+      "funding is the biggest obstacle",
+      "the public rarely understands the work",
+      "small projects are best"
+     ],
+     "c": "results come slowly and cannot be rushed"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the main lesson the speaker has learned",
+     "person": "Speaker 3",
+     "bank": [
+      "nature solves problems better if given space",
+      "results come slowly and cannot be rushed",
+      "lasting change depends on good relationships",
+      "the hidden soil matters most",
+      "underlying conditions must be fixed first",
+      "funding is the biggest obstacle",
+      "the public rarely understands the work",
+      "small projects are best"
+     ],
+     "c": "lasting change depends on good relationships"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the main lesson the speaker has learned",
+     "person": "Speaker 4",
+     "bank": [
+      "nature solves problems better if given space",
+      "results come slowly and cannot be rushed",
+      "lasting change depends on good relationships",
+      "the hidden soil matters most",
+      "underlying conditions must be fixed first",
+      "funding is the biggest obstacle",
+      "the public rarely understands the work",
+      "small projects are best"
+     ],
+     "c": "the hidden soil matters most"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — the main lesson the speaker has learned",
+     "person": "Speaker 5",
+     "bank": [
+      "nature solves problems better if given space",
+      "results come slowly and cannot be rushed",
+      "lasting change depends on good relationships",
+      "the hidden soil matters most",
+      "underlying conditions must be fixed first",
+      "funding is the biggest obstacle",
+      "the public rarely understands the work",
+      "small projects are best"
+     ],
+     "c": "underlying conditions must be fixed first"
+    }
+   ]
+  }
+ ]
+}

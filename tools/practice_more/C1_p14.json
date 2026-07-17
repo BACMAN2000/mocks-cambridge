@@ -1,0 +1,192 @@
+{
+  "title": "C1 Advanced — Reading and Use of English (Practice 14)",
+  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The museum's dilemma",
+      "body": "Museums have long presented themselves as neutral (1)____ of the world's treasures, holding objects in trust for everyone and no one. That claim no longer goes (2)____ . Many of the most celebrated items in Western collections were (3)____ under circumstances that would today be described, without embarrassment, as looting, and demands for their return have grown steadily more (4)____ . The great institutions (5)____ that they preserve such objects for all humanity, that the world's cultures illuminate one another under a single roof, and that scattering the collections would (6)____ scholars of the chance to make exactly the comparisons on which understanding depends. Critics reply that these arguments (7)____ hollow when the objects in question were carried off at gunpoint, and that a stewardship nobody consented to is merely possession with better lighting. Some institutions have begun, however (8)____ , to return the most contested pieces — and have discovered, to their evident surprise, that giving an object back can create a partnership worth more than the object itself.",
+      "questions": [
+        { "options": ["carriers", "custodians", "holders", "porters"], "answer": 1 },
+        { "options": ["unchallenged", "unbeaten", "undefeated", "unbroken"], "answer": 0 },
+        { "options": ["derived", "assumed", "earned", "acquired"], "answer": 3 },
+        { "options": ["stressed", "emphatic", "insistent", "forceful"], "answer": 2 },
+        { "options": ["maintain", "support", "defend", "uphold"], "answer": 0 },
+        { "options": ["divest", "strip", "deprive", "cheat"], "answer": 2 },
+        { "options": ["beat", "fall", "strike", "ring"], "answer": 3 },
+        { "options": ["gradually", "grudgingly", "slowly", "narrowly"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "What is a museum for?",
+      "body": "Ask a hundred visitors what museums are (9)____ , and you will receive a hundred different answers: education, wonder, storage, even atonement. The institution has been reinvented so many times (10)____ its history that no single purpose can plausibly claim priority. The earliest collections were private, assembled less for study (11)____ for display: a cabinet of curiosities announced its owner's wealth and reach. Only in the eighteenth century did the idea take (12)____ that such treasures ought to belong to the public.\n\n(13)____ then, the public museum has carried a double burden. It must preserve its objects for ever, while making them available to crowds whose very breath endangers them. Every decision about lighting, glass and temperature is a compromise (14)____ access and preservation.\n\nToday a further question presses: preservation for (15)____ ? As nations request the return of objects removed in colonial times, museums can no longer behave as though their collections had simply fallen from the sky. However the disputes are resolved, the museum of the future will have to justify itself in ways its founders could never have imagined, (16)____ alone anticipated.",
+      "questions": [
+        { "accept": ["for"] },
+        { "accept": ["during", "in", "throughout", "over", "across"] },
+        { "accept": ["than"] },
+        { "accept": ["hold", "root"] },
+        { "accept": ["since"] },
+        { "accept": ["between"] },
+        { "accept": ["whom", "who"] },
+        { "accept": ["let"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Whose heritage?",
+      "rows": [
+        { "text": "Many great collections were assembled at the height of the (17)____ era, a fact their labels long omitted to mention.", "root": "COLONY" },
+        { "text": "Campaigners insist that the sculptures be returned to their (18)____ owners without further delay.", "root": "RIGHT" },
+        { "text": "Curators are now required to research the full history of every new (19)____ before it enters the collection.", "root": "ACQUIRE" },
+        { "text": "The (20)____ of looted works to their countries of origin was once unthinkable; it is becoming routine.", "root": "RESTORE" },
+        { "text": "Institutions that refuse even to discuss returns increasingly find themselves (21)____ isolated.", "root": "MORAL" },
+        { "text": "Legal (22)____ and moral entitlement, these disputes reveal, are very different things.", "root": "OWN" },
+        { "text": "Displays that once seemed neutral now strike many visitors as lacking in basic (23)____ .", "root": "SENSE" },
+        { "text": "The most promising agreements involve long-term (24)____ between museums and the communities from which the objects came.", "root": "PART" }
+      ],
+      "questions": [
+        { "root": "COLONY", "accept": ["colonial"] },
+        { "root": "RIGHT", "accept": ["rightful"] },
+        { "root": "ACQUIRE", "accept": ["acquisition"] },
+        { "root": "RESTORE", "accept": ["restoration"] },
+        { "root": "MORAL", "accept": ["morally"] },
+        { "root": "OWN", "accept": ["ownership"] },
+        { "root": "SENSE", "accept": ["sensitivity"] },
+        { "root": "PART", "accept": ["partnerships", "partnership"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+      "questions": [
+        {
+          "before": "After years of pressure, the museum finally agreed to demands to return the statues.",
+          "keyword": "GAVE",
+          "after": "After years of pressure, the museum finally ___ demands to return the statues.",
+          "accept": ["gave in to", "gave way to"]
+        },
+        {
+          "before": "Experts doubt whether the painting is genuine.",
+          "keyword": "AUTHENTICITY",
+          "after": "Experts have ___ the painting.",
+          "accept": ["doubts about the authenticity of", "doubts as to the authenticity of", "questioned the authenticity of"]
+        },
+        {
+          "before": "Visitors are not allowed to photograph the manuscripts under any circumstances.",
+          "keyword": "NO",
+          "after": "Under ___ allowed to photograph the manuscripts.",
+          "accept": ["no circumstances are visitors"]
+        },
+        {
+          "before": "The gallery attracted far fewer visitors than expected last year.",
+          "keyword": "FELL",
+          "after": "Visitor numbers at the gallery ___ expectations last year.",
+          "accept": ["fell far short of", "fell well short of", "fell short of"]
+        },
+        {
+          "before": "It was only when the documents surfaced that the truth emerged.",
+          "keyword": "LIGHT",
+          "after": "Not until the documents ___ did the truth emerge.",
+          "accept": ["came to light", "had come to light"]
+        },
+        {
+          "before": "The two governments are said to be close to reaching an agreement.",
+          "keyword": "VERGE",
+          "after": "The two governments are said to be ___ an agreement.",
+          "accept": ["on the verge of reaching", "on the verge of concluding", "on the verge of signing"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The universal museum and its discontents\n\nThe grandest defence of the great Western museums has a name of suitable grandeur: the idea of the universal museum. On this account, an institution that gathers the art of every civilisation under one roof is not a trophy cabinet but an argument — a standing demonstration that human cultures belong to a single story, best understood in one another's company. The Assyrian relief gains meaning from the Greek marble in the next gallery; the visitor leaves having seen not the achievements of nations but the achievement of humankind. It is a genuinely noble idea, which is precisely what makes its difficulties so instructive.\n\nThe first difficulty is historical, and it is not subtle. The universal collections were not assembled by a neutral humanity pooling its treasures; they were assembled by a handful of powers at the height of their military and commercial reach, on terms the source countries were rarely in a position to refuse. The universality, in other words, runs in one direction only. A citizen of Lagos or Athens who wishes to study their own heritage in its fullest surviving form must apply for a visa to do so. Defenders of the status quo speak warmly of works held 'in trust for all humanity', but a trust whose beneficiaries cannot reach the vault, and whose trustees appointed themselves, strains the vocabulary of trusteeship to its limits.\n\nThe second difficulty is that the argument proves too much. If juxtaposition is the supreme scholarly value, it is fair to ask why the juxtaposing must happen in London, Paris and Berlin rather than in Cairo or Benin City. The logic of the universal museum would be equally well served by universal museums elsewhere — better served, arguably, since the encyclopaedic story would then be told from more than one vantage point. That this version of universality is seldom proposed by its champions suggests that the argument, whatever its philosophical merits, has been doing a more parochial job: dignifying the results of a historical land-grab with the language of cosmopolitanism.\n\nAnd yet the sceptics of repatriation are not without serious points. Objects do accumulate histories after their removal: two centuries in a London gallery is now part of what a sculpture is, woven into the scholarship, the copies, the memories of generations of visitors. Some claimant states are recent political constructions with, at best, a complicated relationship to the ancient cultures whose heirs they declare themselves; and a world in which every object must return to its coordinates of origin would unweave collections — including collections in Cairo and Benin City — that have their own integrity. Restitution, pursued as a purity crusade, would end in a checkerboard of national inventories, which is one more way of forgetting that cultures have always traded, borrowed and moved.\n\nWhat the polarised debate obscures is how much ground lies between the vault and the checkerboard. The most interesting developments of recent years have been institutional inventions rather than verdicts: long-term renewable loans, shared custody agreements, jointly curated galleries, returns accompanied by training programmes and touring partnerships. Notably, several museums that made high-profile returns discovered that the gesture purchased something their lawyers had never valued: relationships. The bronzes went home, and in their place came loans, collaborations and a stream of exhibitions that no amount of legal defence could have generated. Ownership, these cases suggest, was never really the asset. Trust was.\n\nThe universal museum, then, need not be abandoned; it needs to be turned right side up. Universality was always a fine aspiration wrongly implemented — asserted as a reason to keep things, when it only ever made sense as a way of sharing them. A network of institutions lending generously across borders would be a universal museum in fact rather than in name. The buildings are ready. The idea, for the first time in its history, is being asked to live up to itself.",
+      "questions": [
+        { "stem": "What is the writer's attitude to the idea of the universal museum in the first paragraph?", "options": ["It is dismissed as mere propaganda.", "It is presented as genuinely noble, which makes its flaws worth examining.", "It is treated as too obscure to evaluate.", "It is accepted without reservation."], "answer": 1 },
+        { "stem": "What point does the writer make about 'trusteeship' in the second paragraph?", "options": ["A trust whose supposed beneficiaries cannot access it barely deserves the name.", "Museums should appoint independent trustees from source countries.", "Legal trusts are the best mechanism for resolving disputes.", "Most visitors are unaware of how collections were formed."], "answer": 0 },
+        { "stem": "Why does the writer say the universalist argument 'proves too much'?", "options": ["It relies on evidence that has been discredited.", "It would justify returning every object immediately.", "Its own logic would support building encyclopaedic collections outside Europe, which its champions never propose.", "It exaggerates the scholarly value of comparison."], "answer": 2 },
+        { "stem": "Which point does the writer concede to the sceptics of repatriation?", "options": ["Source countries lack the expertise to conserve returned objects.", "Legal ownership always outweighs moral claims.", "Returned objects are usually forgotten by the public.", "Objects acquire genuine new histories in the museums that have held them."], "answer": 3 },
+        { "stem": "What did museums that returned objects reportedly gain?", "options": ["Financial compensation from claimant governments.", "Relationships that generated loans and collaborations of lasting value.", "Exemption from further restitution claims.", "Increased ticket sales at home."], "answer": 1 },
+        { "stem": "What does the writer mean by turning the universal museum 'right side up'?", "options": ["Universality should be practised through sharing and lending rather than invoked to justify retention.", "The great museums should be closed and their buildings repurposed.", "Collections should be reorganised chronologically.", "Smaller museums should merge with larger ones."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "Read four short opinion pieces (A–D) on the same topic: whether ancient artefacts held in Western museums should be returned to their countries of origin. Then answer the questions.",
+      "sources": [
+        { "label": "A", "text": "The argument has been won everywhere except in the marble lobbies where it matters, and even there the walls are cracking. Look at what has actually happened where returns have been made: the manuscripts sent back to Ethiopia are more studied now than in a century of foreign storage; the bronzes returned to Nigeria anchor a new museum that has trained a generation of conservators; loans flow in both directions. Every catastrophe predicted by the retentionists — neglect, decay, disappearance — has failed to materialise, while the benefits nobody predicted keep arriving. Restitution is not an act of loss management. It is, on the evidence we now possess, an act of renewal for both parties, and the institutions still resisting are defending a position their own case studies have quietly demolished." },
+        { "label": "B", "text": "What unsettles me in the rhetoric of return is the word 'origin', pronounced as though art were a salmon with one river. The great objects are precisely the ones that transcend the circumstances of their making; they have spent centuries acquiring meanings in new company, and their presence in the world's crossroads cities is not an insult to their makers but a tribute. I notice, too, who is doing the claiming: not the vanished civilisations, which can want nothing, but modern governments for whom a recovered marble is a flag. To dismantle the great cosmopolitan collections in deference to present-day political identities would subordinate art's long history to the shortest of timescales — the electoral cycle — and future generations would not thank us." },
+        { "label": "C", "text": "I have sat in enough negotiations to distrust both sets of speeches. In the room, the breakthrough never comes from resolving the question of ownership; it comes from setting it aside. A renewable thirty-year loan, a shared gallery, a rotating custody agreement — these arrangements let one side say 'it is ours' and the other 'it is here', and the object meanwhile is seen, studied and honoured in both places. The purists on each wing despise these compromises, and I understand why: they are inelegant, provisional and philosophically unsatisfying. They are also the only mechanism that has ever actually moved contested objects anywhere. The perfect, in this field, has been the looter's best friend." },
+        { "label": "D", "text": "Before we speak of sending objects 'home', it is worth asking what home means across three millennia. The state now demanding the frieze is not the city that carved it; the modern border was drawn by the same empires that did the removing; and the population that lives there today may be as distant, culturally, from the makers as any museum-goer in the north. I say this not to defend the current arrangements — the manner of acquisition was in many cases indefensible, and that, rather than romantic genealogy, is the solid ground for return. My plea is merely for honest reasoning: objects should go back because they were wrongfully taken, a claim history can actually adjudicate, and not because of a mystical continuity between ancient makers and modern ministries that will not survive inspection." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which writer fears that returning objects would subordinate art to present-day political identities?", "answer": "B" },
+        { "stem": "Which writer cites the outcomes of actual returns as evidence for their position?", "answer": "A" },
+        { "stem": "Which writer questions the continuity between ancient makers and the modern states claiming their work?", "answer": "D" },
+        { "stem": "Which writer advocates practical arrangements that deliberately leave the question of ownership unresolved?", "answer": "C" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+      "passage": "The drum that would not stay silent\n\nIn a storeroom beneath a northern European museum, wrapped in acid-free tissue and catalogued as object 1899.46.112, lay a carved wooden drum that had not been played in a hundred and twenty years. (41)____\n\nFor most of the twentieth century, nobody asked. The drum surfaced briefly in a 1935 exhibition on 'primitive music', then returned to the dark, its file gathering the thin annotations of successive curators. (42)____\n\nThe letter that changed everything arrived not from a government but from a village. (43)____\n\nThe museum's first response followed the standard choreography: sympathy, followed by regret, followed by the citation of statutes that forbade disposal from the collection. (44)____\n\nWhat broke the deadlock was not law but a visit. The museum invited two elders to examine the drum; the elders, on seeing it, asked not for its removal but for permission to wake it — a ceremony, performed in the storeroom, that left the staff who witnessed it permanently altered. (45)____\n\nThe drum went home the following spring, on a legal instrument the lawyers had to half-invent: a permanent loan to a community trust, renewable each generation. (46)____ The label on the empty case may be the most honest text in the building: it tells visitors what stood there, how it came, and where it is now — and that its absence is the exhibit.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Several other museums held similar instruments, though few of comparable age or quality.",
+          "A junior researcher, set the task of preparing the file for digitisation, found she could not complete the provenance field and, unusually, refused to leave it blank.",
+          "It was written on behalf of the drum-maker's descendants, who knew the instrument from a single photograph and described, precisely and without rancour, the night in 1899 when soldiers had burned the compound where it hung.",
+          "In the months that followed, curators who had defended retention found themselves making the opposite argument in committee, using a word that had never appeared in their papers before: obligation.",
+          "The museum's annual report that year devoted three pages to visitor statistics and one paragraph to the affair.",
+          "Its acquisition entry was a masterpiece of the passive voice: 'obtained during the pacification of the interior' — five words in which an entire punitive expedition had been made to disappear.",
+          "In return, the village committed the drum to travel back for one season each decade, an arrangement the elders accepted with the observation that the drum had always been a great traveller — just never before by choice.",
+          "Successive directors declined to comment, citing the confidentiality of the negotiations then in progress."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing paragraph:", "answer": "F" },
+        { "stem": "Choose the missing paragraph:", "answer": "B" },
+        { "stem": "Choose the missing paragraph:", "answer": "C" },
+        { "stem": "Choose the missing paragraph:", "answer": "H" },
+        { "stem": "Choose the missing paragraph:", "answer": "D" },
+        { "stem": "Choose the missing paragraph:", "answer": "G" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 8",
+      "instructions": "You are going to read four short pieces (A–D) by people whose working lives are bound up with contested museum collections. Answer the questions by choosing the appropriate person.",
+      "sources": [
+        { "label": "A", "text": "Helene — provenance researcher. My job is to read collections against the grain: to take the serene catalogue entries and find out what actually happened. The archives are worse than the public imagines — 'collected', 'acquired', 'brought back' are words I have learned to translate, and the translation is usually uncomfortable. Colleagues sometimes accuse me of prosecuting the dead, which misses the point twice over: the dead are beyond my jurisdiction, and my findings as often clear an object as condemn it. Perhaps a third of the cases I close end with clean title confirmed, and those reports give me equal satisfaction, though they never make the newspapers. What I cannot abide is the unopened file. An institution that will not examine its own past has decided, in advance, that the answer would be unbearable — which tells you they already know it." },
+        { "label": "B", "text": "Kwame — director of a national museum in West Africa. Foreign journalists always ask whether we are ready to receive the bronzes, a question I have learned to hear as its own small colonialism — no one asked whether Berlin was ready when it took them. Still, I refuse the theatre of grievance, because it obscures what we are actually building: climate-controlled galleries, a conservation laboratory, and a training pipeline that has already sent our people to work in the museums that once employed only their objects. When the pieces come home — and they are coming, in twos and tens if not yet in hundreds — they will enter an institution, not a vacuum. My quarrel now is less with the old thefts than with the new caution: the loans offered for six months with two years of paperwork, the returns announced grandly and delivered glacially. We have the shelves. It is their nerve that needs conserving." },
+        { "label": "C", "text": "Margit — conservator of organic materials. I am the person who touches the objects, which gives me a strange neutrality in these wars: molecules have no politics. When a return is agreed, it is my report that says whether the piece can survive the journey, and I have signed papers that delayed repatriations everyone wanted, including me — a feather cloak that would not have survived the flight is no gift to anyone. What the debates ignore is how much of my craft has been changed by the claimants themselves. The communities we work with have taught me treatments and materials my training never mentioned, and some of what I once did routinely I now recognise as damage: sealing surfaces that were meant to breathe, stabilising objects that were made to be handled, feeding a drum's skin with the wrong oils for fifty years. The objects were not only taken from their makers. They were taken from their knowledge." },
+        { "label": "D", "text": "Stephen — trustee of a large encyclopaedic museum. I joined the board believing the retention case wholesale, and I am now the person my fellow trustees describe, not always fondly, as the convert. What changed me was not an argument but an accounting exercise: I asked for a list of everything we had lent to the African continent in fifty years, and the list fit on one page. Our universalism, I realised, was a doctrine we preached but did not practise; we were universal the way a locked library is public. I still believe in the encyclopaedic museum — passionately — but I now think its survival depends on becoming a net exporter of trust: long loans, shared shows, returns where the history demands it. At board meetings I am told we must not set precedents. I reply that we set precedents for a century and a half; we are merely being asked to set better ones." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Helene", "Kwame", "Margit", "Stephen"] },
+      "questions": [
+        { "stem": "Which person changed their position after examining their institution's own record?", "answer": "D" },
+        { "stem": "Which person insists that their findings vindicate objects as often as they condemn them?", "answer": "A" },
+        { "stem": "Which person has personally delayed returns they supported in principle?", "answer": "C" },
+        { "stem": "Which person objects to a question they are repeatedly asked, seeing a prejudice hidden in it?", "answer": "B" },
+        { "stem": "Which person condemns institutions that refuse to investigate their own history?", "answer": "A" },
+        { "stem": "Which person compares their institution's professed openness to a locked building?", "answer": "D" },
+        { "stem": "Which person is now more frustrated by present-day slowness than by historical wrongs?", "answer": "B" },
+        { "stem": "Which person learned from claimant communities that some standard professional practices cause harm?", "answer": "C" },
+        { "stem": "Which person describes translating misleading language in official records?", "answer": "A" },
+        { "stem": "Which person argues that their institution's future depends on lending generously?", "answer": "D" }
+      ]
+    }
+  ]
+}

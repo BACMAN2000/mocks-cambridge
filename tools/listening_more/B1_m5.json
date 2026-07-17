@@ -1,0 +1,241 @@
+{
+ "label": "B1 — Intermediate",
+ "cefr": "Cambridge PET · B1 official format",
+ "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+ "audios": [
+  {
+   "id": "B1-P1",
+   "title": "Part 1 · Questions 1–7",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+   "segments": [
+    "At the entrance",
+    "Travelling to the museum",
+    "The school trip",
+    "The tour begins",
+    "Lunch plans",
+    "After the visit",
+    "Lost and found"
+   ],
+   "scripts": [
+    "Question one. Assistant: Welcome to the museum. I'm afraid large items can't go into the galleries. Woman: My camera too? Assistant: Cameras and phones are fine — it's your rucksack that needs to stay here at the desk. You can collect it on the way out. Woman: Fair enough, here you are.",
+    "Question two. Boy: Are we cycling to the museum on Saturday, Anna? Anna: I checked the route — there's nowhere safe to leave bikes, and Dad needs the car. The number twelve stops right outside the entrance, though. Boy: The bus it is, then. What time?",
+    "Question three. Girl: Is the museum trip still happening, sir? It's been snowing all night. Teacher: I've just spoken to the coach company — the main roads are clear, so we're going ahead. Wear your boots, though. Girl: Brilliant! I thought you'd cancel it.",
+    "Question four. Woman: Excuse me, when does the guided tour start? I was told half past eight. Man: The morning tour used to start at half past eight, but so many people arrived late that we moved it. It now begins at nine o'clock, by the main stairs. Woman: Even better — time for a coffee first.",
+    "Question five. Boy: Shall we try the museum restaurant at lunchtime, Ruby? I hear the pizza's good. Ruby: Have you seen the prices? I've made us sandwiches — we can eat them in the garden and spend the money in the gift shop instead. Boy: You think of everything.",
+    "Question six. Girl: Where shall we wait for your mum after the visit, Leo? Leo: She said the café gets too crowded at closing time, so she'll pick us up by the park across the road. Girl: By the park. Let's not be late — she hates waiting.",
+    "Question seven. Man: Excuse me, has anyone handed in an umbrella? Black, with a wooden handle. Woman: Let me check... we've got keys, three phones... yes! A black umbrella, found in the Egyptian room this morning. Man: Wonderful. It was a present from my daughter."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What must the woman leave at the desk?",
+     "imgs": ["camera", "phone", "bag"],
+     "c": 2,
+     "audio": "M5/B1/B1-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will they travel to the museum?",
+     "imgs": ["bike", "bus", "car"],
+     "c": 1,
+     "audio": "M5/B1/B1-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What is the weather like today?",
+     "imgs": ["snowy", "rainy", "sunny"],
+     "c": 0,
+     "audio": "M5/B1/B1-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the tour begin now?",
+     "imgs": ["clock8", "clock830", "clock9"],
+     "c": 2,
+     "audio": "M5/B1/B1-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will they eat for lunch?",
+     "imgs": ["pizza", "sandwich", "cake"],
+     "c": 1,
+     "audio": "M5/B1/B1-P1-q5.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where will Leo's mum pick them up?",
+     "imgs": ["cafe", "library", "park"],
+     "c": 2,
+     "audio": "M5/B1/B1-P1-q6.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What has the man lost?",
+     "imgs": ["umbrella", "keys", "phone"],
+     "c": 0,
+     "audio": "M5/B1/B1-P1-q7.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P2",
+   "title": "Part 2 · Questions 8–13",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+   "segments": [
+    "A changed opinion",
+    "The guide's favourite",
+    "A special exhibition",
+    "Visiting with children",
+    "The audio guide",
+    "An unusual job"
+   ],
+   "scripts": [
+    "You will hear a boy talking about a museum visit. Boy: I only went because attendance was compulsory, and I planned to sit in the café the whole time, honestly. Then our guide started telling the story behind one small painting — a family who hid it during a war — and suddenly two hours had disappeared. I've been back twice since, by choice.",
+    "You will hear a museum guide talking about the collection. Woman: Visitors race past hundreds of objects to photograph our famous golden crown, and I understand why — it's spectacular. But my own favourite is a child's leather shoe, two thousand years old, in a quiet corner nearby. The crown shows how kings lived. That little shoe shows how everyone else did.",
+    "You will hear a man talking about a new exhibition. Man: The new sound exhibition is unlike anything we've done. There's almost nothing to look at — you sit in a darkened room and hear the city as it sounded three hundred years ago: horses, bells, street sellers. My advice? Don't read about it first. Just go in and close your eyes.",
+    "You will hear a mother talking about museum visits. Woman: I used to prepare our visits like military operations — lists of what the children must see. They were bored within minutes, every time. These days I let them lead me wherever they want, even if it's straight to the dinosaurs again. We see less, but they actually remember it.",
+    "You will hear a girl talking about the audio guide. Girl: Everyone recommended the audio guide, so I paid for it — and switched it off after three rooms. It wasn't bad, exactly, but the voice never stopped, and I couldn't hear myself think. It turns out I'd rather stand in silence in front of one thing I love than be told facts about fifty.",
+    "You will hear a man who works at the museum. Man: When people hear I work at the museum, they picture me guiding tours or studying old coins. Actually, I look after the building's climate — the temperature and the moisture in the air. Nobody notices my work, and that's exactly the point. If anyone noticed, something would already be damaged."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why did the boy's opinion change?",
+     "o": ["A guide's story caught his interest", "The café was closed", "He liked the famous paintings"],
+     "c": 0,
+     "audio": "M5/B1/B1-P2-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why does the guide prefer the shoe to the crown?",
+     "o": ["It is older than the crown", "It shows how ordinary people lived", "It is easier to photograph"],
+     "c": 1,
+     "audio": "M5/B1/B1-P2-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the man advise about the sound exhibition?",
+     "o": ["Read about it before going", "Experience it without preparation", "Look carefully at everything"],
+     "c": 1,
+     "audio": "M5/B1/B1-P2-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How does the mother organise visits now?",
+     "o": ["She makes lists of things to see", "She follows her children's choices", "She avoids the dinosaur rooms"],
+     "c": 1,
+     "audio": "M5/B1/B1-P2-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why did the girl stop using the audio guide?",
+     "o": ["It was too expensive", "The information was wrong", "She preferred to look in silence"],
+     "c": 2,
+     "audio": "M5/B1/B1-P2-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the man's job at the museum?",
+     "o": ["Guiding visitors on tours", "Studying the coin collection", "Controlling the air in the building"],
+     "c": 2,
+     "audio": "M5/B1/B1-P2-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P3",
+   "title": "Part 3 · Questions 14–19",
+   "kind": "file",
+   "file": "M5/B1/B1-P3.mp3",
+   "intro": "You will hear a museum guide welcoming a group at the start of a tour. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Man: Good morning, everyone, and welcome to the City Museum — my name's Marcus, and I'll be your guide today. Before we set off, some quick information. The museum opened in nineteen fifty-two, in what used to be a railway station, and you can still see the old platform under the glass floor in the main hall — do look down as we cross it. Our tour lasts ninety minutes, with a short rest halfway. A few rules, please. Photography is allowed almost everywhere, but not in the painting galleries — the flashes damage the colours, so cameras away in those rooms. Keep your ticket with you at all times, because you'll need to show it again when we enter the special exhibition upstairs. If anyone gets separated from the group, don't wander — just go to the clock in the entrance hall and wait; I'll come and find you. And finally, for the children: free activity sheets are available at the information desk, with a small prize when you complete one. Right — follow me, and mind the step."
+   ],
+   "gapTitle": "City Museum — Guided Tour",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The museum opened in: ____",
+     "accept": ["1952", "nineteen fifty-two", "nineteen fifty two"]
+    },
+    {
+     "type": "gap",
+     "label": "The building used to be a railway: ____",
+     "accept": ["station"]
+    },
+    {
+     "type": "gap",
+     "label": "The tour lasts: ____ minutes",
+     "accept": ["90", "ninety"]
+    },
+    {
+     "type": "gap",
+     "label": "No photography in the: ____ galleries",
+     "accept": ["painting", "paintings"]
+    },
+    {
+     "type": "gap",
+     "label": "If lost, wait by the: ____ in the entrance hall",
+     "accept": ["clock"]
+    },
+    {
+     "type": "gap",
+     "label": "Children's activity sheets: at the information ____",
+     "accept": ["desk"]
+    }
+   ]
+  },
+  {
+   "id": "B1-P4",
+   "title": "Part 4 · Questions 20–25",
+   "kind": "file",
+   "file": "M5/B1/B1-P4.mp3",
+   "intro": "You will hear an interview with a woman called Helena, who works as a museum guide. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Today I'm talking to Helena, who has been a guide at the City Museum for ten years. Helena, how did you become a guide? Helena: Not the way people imagine. I studied history, yes, but I actually joined the museum as a weekend ticket seller while I looked for what everyone called a proper job. One afternoon a guide fell ill, the manager pushed me in front of a tour group in a panic — and by the end of that hour I knew I'd found my profession. Interviewer: What makes a good tour, in your opinion? Helena: When I started, I thought it was knowledge, so I memorised hundreds of dates. I soon noticed visitors' eyes closing. A good tour isn't a spoken encyclopedia — it's choosing a handful of objects and making people care about the humans behind them. Now I'd rather tell one story well than list twenty facts. Interviewer: You mostly guide school groups now. Was that your choice? Helena: Completely, though my colleagues thought I was mad. Adults are polite even when they're bored, and that politeness tells you nothing. Children are honest — if you see boredom, you change course immediately; when their questions explode, you know you've succeeded. They've made me a far better guide. Interviewer: Is there a question from a child you still remember? Helena: A boy once asked me whether the people in the old photographs knew they were history. I stood there with no answer at all. I've thought about that question for years — it changed how I speak about every object in this building. Interviewer: What frustrates you about how people visit museums? Helena: The counting. Visitors rush to see everything, as if the museum were a list to finish, and they leave exhausted having really seen nothing. I'd love to lock the doors gently and say: you have two hours — choose five things. Interviewer: And after ten years, what keeps the job fresh? Helena: The collection never changes much, that's true. But every group walks in with different eyes, and through them I see the same golden crown, the same little shoe, completely new again. The visitors are my exhibition."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How did Helena become a guide?",
+     "o": ["She replaced a sick guide unexpectedly", "She applied after finishing history", "The manager saw her selling tickets well"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Helena now think makes a good tour?",
+     "o": ["Knowing hundreds of dates", "Making people care through stories", "Showing as many objects as possible"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why does Helena prefer guiding children?",
+     "o": ["Their honest reactions help her improve", "They are more polite than adults", "Her colleagues suggested it"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How did the boy's question affect Helena?",
+     "o": ["It changed the way she talks about objects", "It made her study photography", "She found the answer years later"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What frustrates Helena about visitors?",
+     "o": ["They try to see too much", "They spend too long on five things", "They leave before closing time"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What keeps the job interesting for Helena?",
+     "o": ["The collection changes constantly", "Each group sees the museum differently", "She discovers new objects every year"],
+     "c": 1
+    }
+   ]
+  }
+ ]
+}

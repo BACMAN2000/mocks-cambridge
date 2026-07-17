@@ -1,0 +1,192 @@
+{
+  "title": "C1 Advanced — Reading and Use of English (Practice 18)",
+  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "Lost and found in translation",
+      "body": "Every language, it is often said, (1)____ the world up differently. Each has words for which other tongues possess no exact (2)____ : a German term for the face a thing deserves to be slapped with, a Portuguese word for the presence of an absence. Such gaps are frequently (3)____ as evidence that speakers of different languages inhabit different worlds, sealed off from one another by vocabulary. Yet the conclusion does not necessarily (4)____ . A concept can be (5)____ perfectly well by a speaker whose language happens to lack a single word for it — otherwise the famous lists of untranslatable words could never be explained, as they invariably are, in a sentence of plain English. Translators (6)____ to this daily, rendering the supposedly unrenderable and being paid, though never enough, for the service. What is truly lost in translation is rarely meaning; more often it is (7)____ — the accumulated weight a word gathers from centuries of use, prayer and argument. That loss is real, and translators work to soften it with every trick of the (8)____ . The remarkable thing is not how much slips through their fingers, but how much, against all odds, arrives.",
+      "questions": [
+        { "options": ["cuts", "slices", "carves", "chops"], "answer": 2 },
+        { "options": ["counterpart", "equivalent", "parallel", "match"], "answer": 1 },
+        { "options": ["cited", "quoted", "named", "listed"], "answer": 0 },
+        { "options": ["ensue", "proceed", "result", "follow"], "answer": 3 },
+        { "options": ["grasped", "seized", "clutched", "gripped"], "answer": 0 },
+        { "options": ["confirm", "attest", "witness", "verify"], "answer": 1 },
+        { "options": ["vibration", "echo", "ring", "resonance"], "answer": 3 },
+        { "options": ["craft", "business", "trade", "profession"], "answer": 2 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "Borrowed words",
+      "body": "English is often praised for its enormous vocabulary, yet a surprising proportion of it was taken from (9)____ . Wave after wave of contact — Norse, Norman, Latin, and later the languages of trade and empire — left deposits that never washed away. So deep (10)____ the borrowing gone that English speakers can rarely tell (11)____ a word is native or imported.\n\nPurists have periodically tried to hold the door shut. In the sixteenth century, scholars campaigned against so-called inkhorn terms, foreign coinages they regarded (12)____ pretentious clutter. They might as well have legislated against the tide. Speakers kept (13)____ words they found useful, indifferent to their origins, and many of the coinages the purists mocked are now so ordinary that (14)____ would guess they were once controversial.\n\nThe traffic, it should be said, has never been one-way. English has exported vocabulary on a massive (15)____ , and other languages now conduct the same anxious debates about English loanwords that English once conducted about French. Languages, (16)____ borders, have never respected each other's.",
+      "questions": [
+        { "accept": ["elsewhere"] },
+        { "accept": ["has"] },
+        { "accept": ["whether", "if"] },
+        { "accept": ["as"] },
+        { "accept": ["borrowing", "adopting", "using", "importing"] },
+        { "accept": ["nobody", "few", "none"] },
+        { "accept": ["scale"] },
+        { "accept": ["unlike"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "The translator's art",
+      "rows": [
+        { "text": "Debates about translation still circle the old question of (17)____ to the original.", "root": "FAITH" },
+        { "text": "A rendering that follows the original (18)____ , word by word, often betrays it most completely.", "root": "LITERAL" },
+        { "text": "The (19)____ of tone and register are precisely what machine translation still misses.", "root": "SUBTLE" },
+        { "text": "Every version of a poem is, unavoidably, an act of (20)____ .", "root": "INTERPRET" },
+        { "text": "The profession has long suffered from a culture of (21)____ , with translators' names omitted from book covers.", "root": "VISIBLE" },
+        { "text": "Prose has its own (22)____ patterns, which a translator ignores at their peril.", "root": "RHYTHM" },
+        { "text": "Loanwords are the visible traces of centuries of (23)____ exchange.", "root": "CULTURE" },
+        { "text": "A great translation deserves to be judged as a creative (24)____ in its own right.", "root": "ACHIEVE" }
+      ],
+      "questions": [
+        { "root": "FAITH", "accept": ["faithfulness"] },
+        { "root": "LITERAL", "accept": ["literally"] },
+        { "root": "SUBTLE", "accept": ["subtleties"] },
+        { "root": "INTERPRET", "accept": ["interpretation"] },
+        { "root": "VISIBLE", "accept": ["invisibility"] },
+        { "root": "RHYTHM", "accept": ["rhythmic", "rhythmical"] },
+        { "root": "CULTURE", "accept": ["cultural"] },
+        { "root": "ACHIEVE", "accept": ["achievement"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+      "questions": [
+        {
+          "before": "The novel has been translated into more than forty languages.",
+          "keyword": "TRANSLATION",
+          "after": "The novel has appeared ___ more than forty languages.",
+          "accept": ["in translation in"]
+        },
+        {
+          "before": "However carefully you translate a joke, something is always lost.",
+          "keyword": "HOW",
+          "after": "No matter ___ translate a joke, something is always lost.",
+          "accept": ["how carefully you"]
+        },
+        {
+          "before": "It was such a difficult text that I had to read it twice.",
+          "keyword": "SO",
+          "after": "The text was ___ I had to read it twice.",
+          "accept": ["so difficult that", "so difficult a text that"]
+        },
+        {
+          "before": "People believe the interpreter learned all six languages as a child.",
+          "keyword": "TO",
+          "after": "The interpreter is believed ___ all six languages as a child.",
+          "accept": ["to have learned", "to have learnt"]
+        },
+        {
+          "before": "The publisher only credited the translator after readers complained.",
+          "keyword": "DID",
+          "after": "Only after readers complained ___ the translator.",
+          "accept": ["did the publisher credit"]
+        },
+        {
+          "before": "Learning a new language gets more difficult as you get older.",
+          "keyword": "THE",
+          "after": "The older you get, ___ it is to learn a new language.",
+          "accept": ["the more difficult"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The myth of the untranslatable\n\nThere is a genre of internet article that refuses to die, and its title is always some variation on 'Twenty Beautiful Words That Cannot Be Translated'. The list is reliably charming: a Japanese word for sunlight filtering through leaves, an Inuit word for the anticipation of a guest, a Welsh word for a homesickness aimed at a home that no longer exists. And beneath each item, without exception, sits a fluent English explanation of exactly what the word means. The genre, in other words, refutes itself in the act of existing. If the words were truly untranslatable, the lists could not be written; what the lists actually demonstrate is that translation is not a matter of swapping word for word, but of finding — sometimes in a phrase, sometimes in a paragraph — a path to the same place.\n\nThis is not pedantry, because the myth of the untranslatable does real work in the world, and not all of it is benign. In its soft form it is harmless romance, a way of savouring the pleasing strangeness of other tongues. In its harder form it underwrites a kind of mysticism about the boundaries between peoples: the claim that speakers of different languages are locked in different realities, that no outsider can ever really understand, that the gulf is metaphysical rather than practical. Linguists spent much of the last century testing the strong version of this idea — that language determines thought — and it failed the tests. What survives is something far more modest: language nudges attention, making some distinctions habitual and others effortful. Speakers of a language without a future tense still plan for the future; they merely mark it differently. The walls between languages turn out to be waist-high, easily seen over, climbed with effort.\n\nNone of this means that translation is easy, and here the myth performs its second disservice: by locating the difficulty in exotic single words, it hides where the difficulty actually lives. Words are the translator's smallest problem; dictionaries exist. What resists is everything the dictionary cannot hold. Sound, first: the fact that a line of poetry is also a piece of music, and that meaning and melody almost never survive the crossing together — a translator of verse is a man ordered to carry two watermelons in one hand. Then allusion: a phrase that touches, for its native readers, a scripture, a nursery rhyme and a scandal all at once, arrives in the new language touching nothing. Then register, the social skin of speech: the seven ways of saying 'you' in one language, collapsing into English's single blunt pronoun, taking a novel's whole architecture of intimacy and insult down with them. The untranslatable is real. It is simply not where the listicles put it.\n\nWhat should we conclude? Not that translation fails, but that it is a different activity from the one the public imagines. A translation is not a pane of glass through which the original is viewed; it is a performance of the original, as a pianist's evening is a performance of a score. Two honest translators will produce two different books from one source, exactly as two pianists produce two different evenings, and the difference is not error but interpretation. This is why great works are retranslated each generation while the originals stand still; the score is fixed, but the performing language moves, and each age needs the performance in its own acoustic. It is also why the translator's name belongs on the cover, a courtesy the publishing trade has begun, grudgingly and recently, to extend.\n\nThe listicles, then, have it precisely backwards. They invite us to marvel that languages keep secrets from one another, when the marvel runs the other way: that across every gulf of grammar and history, a mind writing in one tongue can be met, recognisably and movingly, by a mind reading in another. That meeting is never total. Neither is any meeting between two speakers of the same language. Untranslatability, examined closely, is just the human condition with a foreign accent — and translation, that daily, underpaid, quietly heroic trade, is the nearest thing we have to proof that the walls between us were never load-bearing.",
+      "questions": [
+        { "stem": "Why does the writer say the 'untranslatable words' genre 'refutes itself'?", "options": ["The words it lists are usually invented.", "Each supposedly untranslatable word is successfully explained in English.", "The lists repeat the same words year after year.", "Its authors rarely speak the languages concerned."], "answer": 1 },
+        { "stem": "What does the writer say about the idea that language determines thought?", "options": ["It has been conclusively proved by linguists.", "It applies only to languages without a future tense.", "It was never taken seriously by researchers.", "Only a weaker version — that language nudges attention — survived testing."], "answer": 3 },
+        { "stem": "According to the third paragraph, where does the real difficulty of translation lie?", "options": ["In rare words with no dictionary entry.", "In the translator's imperfect command of grammar.", "In features like sound, allusion and register that dictionaries cannot capture.", "In the excessive length of literary works."], "answer": 2 },
+        { "stem": "What is the point of the comparison between translators and pianists?", "options": ["A translation is an interpretation, so different versions can differ without being wrong.", "Translation requires the same manual dexterity as music.", "Translators should train as performers before writing.", "Musical works are easier to translate than literary ones."], "answer": 0 },
+        { "stem": "Why, according to the writer, are great works retranslated in each generation?", "options": ["Because copyright restrictions expire over time.", "Because earlier translators made too many errors.", "Because the original texts are periodically revised.", "Because the receiving language changes, and each age needs its own performance."], "answer": 3 },
+        { "stem": "Which best expresses the writer's final view of untranslatability?", "options": ["It is a version of the imperfect understanding present in all human communication.", "It proves that speakers of different languages inhabit separate realities.", "It will be eliminated by improved technology.", "It affects only poetry and sacred texts."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "Read four short opinion pieces (A–D) on the same topic: whether reading literature in translation is a second-best experience. Then answer the questions.",
+      "sources": [
+        { "label": "A", "text": "The anxiety would have puzzled every civilisation before ours. The Romans read the Greeks in Latin; the whole of medieval Europe read its scripture, philosophy and science in translation from Arabic, Hebrew and Greek, mostly without a moment's angst; the novel itself migrated across borders in versions of versions. World literature is not a collection of originals occasionally translated — it is, and has always been, a system of circulation in which translation is the bloodstream. To call the translated experience second-best is to declare that almost every reader in history, of almost every important book, was doing it wrong. At some point a definition that excludes nearly all the phenomena should suspect itself." },
+        { "label": "B", "text": "For prose that lives mainly in its story, I concede the loss is tolerable. But I translate poetry, and I will not pretend about my own trade: a poem is a machine made of one language's specific sounds, and the machine does not survive disassembly. What I build in the new language is a different machine that tries to do a similar thing to a different reader — sometimes it is even a fine machine — but the relation is cousinhood, not identity. The honest position is not that translation fails, but that it succeeds at something other than what its consumers believe they are getting. Read translated poetry, by all means. Only know that you are reading me nearly as much as you are reading her." },
+        { "label": "C", "text": "The question is unanswerable in general, because 'translation' names a range of performances as wide as acting. I have compared five versions of the same Russian novel line by line, and the gap between the best and the worst exceeded the gap between languages: one translator heard the book's irony and one embalmed it, and readers of those two versions have not read the same novel — though readers of the best version and the original very nearly have. Our debates would improve if we stopped asking whether translation is possible and started asking the question we apply to every other art: who did this one, and how well? That we mostly cannot name the translators of the books that formed us is the real scandal, and fixing it would do more for readers than any amount of theory." },
+        { "label": "D", "text": "I notice who makes this complaint. It is never the reader in a small language, for whom translation is the only door to almost everything; it is the possessor of a world language, or of an expensive education, sighing that the rest of us cannot truly know what we are missing. Perhaps not. But the choice before an actual reader is rarely 'original or translation'; it is 'translation or nothing', and the connoisseur's shudder quietly recommends nothing. I read my way out of a small town through a shelf of translated classics, every one of them, no doubt, leaking nuance at the seams. The leakage was invisible to me; the world that arrived was not. A purism that would have kept that shelf empty deserves a harsher name than good taste." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which writer argues that a translated poem is best understood as a related but different work?", "answer": "B" },
+        { "stem": "Which writer detects social privilege behind complaints about translation?", "answer": "D" },
+        { "stem": "Which writer maintains that the quality of the individual translator matters more than the fact of translation?", "answer": "C" },
+        { "stem": "Which writer appeals to the history of literature's circulation to dismiss the anxiety?", "answer": "A" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+      "passage": "Nine years, one book\n\nWhen Ana Sartania agreed to translate the celebrated comic novel 'The Registry' into Georgian, she estimated the work would take eighteen months. It took nine years, cost her two other commissions and, by her own account, one engagement, and made her — briefly, and to her lasting embarrassment — famous. (41)____\n\nThe difficulty was not the plot, which fits in a sentence: a provincial clerk invents a filing system so perfect that reality begins conforming to it. (42)____\n\nOrdinary novels permit the translator to compensate — a joke lost on one page repaid with interest on the next. This novel refused the arrangement. (43)____\n\nHer breakthrough, when it finally arrived, came from surrender rather than conquest. (44)____\n\nPurists attacked the liberty, as she had known they would. (45)____\n\nThe quarrel might have remained a footnote of Georgian letters had the author himself not been drawn in. (46)____ Sartania keeps the letter framed above her desk, she says, for the days when the next impossible book asks her why she thinks she has the right.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Georgian publishing, small as it is, supports a surprising number of working translators.",
+          "The gap on her shelf where the finished book now stands had faced her for so long, she admits, that she briefly considered leaving it empty.",
+          "One critic counted her departures from the original and published the total, seventy-one, as though an indictment required no further argument.",
+          "The trouble was the texture: the clerk narrates in the language of his own filing system, and every sentence bends bureaucratic officialese into accidental poetry — a music that depends entirely on what official language sounds like in the original.",
+          "His reply, printed in full by the offended journal, ran to one sentence: that he had written the system and she had written the music, and that of the two of them, she had had the harder job.",
+          "Rather than forcing Georgian to imitate another bureaucracy's cadences, she rebuilt the clerk's voice from the language of Soviet-era Georgian paperwork — a dialect her grandmother had spoken professionally for thirty years and mocked at home for forty.",
+          "Sales of the original, by contrast, had never been remarkable in any language.",
+          "She had refused, in nine years, to publish a single extract, on the grounds that the voice would either work whole or not at all."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing paragraph:", "answer": "D" },
+        { "stem": "Choose the missing paragraph:", "answer": "F" },
+        { "stem": "Choose the missing paragraph:", "answer": "B" },
+        { "stem": "Choose the missing paragraph:", "answer": "H" },
+        { "stem": "Choose the missing paragraph:", "answer": "C" },
+        { "stem": "Choose the missing paragraph:", "answer": "E" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 8",
+      "instructions": "You are going to read four short pieces (A–D) by people who work between languages. Answer the questions by choosing the appropriate person.",
+      "sources": [
+        { "label": "A", "text": "Milena — subtitler. My art is governed by a tyranny no other translator faces: the clock. Two lines, forty-two characters each, on screen for perhaps four seconds — into that box I must fit whatever was said, however torrential, and the box does not negotiate. So I have become a professional of sacrifice: I cut pleasantries, fuse sentences, and reduce a beloved character's verbal tics to a single recurring word chosen to do the work of ten. Viewers who know both languages write to me itemising everything I omitted, and they are always right and always missing the point: subtitling is not translation of speech, it is triage of speech, performed at reading pace. My proudest reviews are the ones that do not mention the subtitles at all. In my trade, praise is silence; being noticed is the failure." },
+        { "label": "B", "text": "Dr Osei — translator of an ancient chronicle. My author has been dead for nine centuries, which people assume makes him an undemanding client. The opposite is true: he cannot be asked what he meant, and an entire scholarly apparatus stands ready to contest every guess I make on his behalf. Three words in my manuscript occur nowhere else in the surviving literature of the language — no dictionary, no parallel text, nothing but context and conjecture — and my rendering of them will become, for a generation, what the chronicle 'says'. That is the burden peculiar to my corner of the trade: my errors will be footnoted, built upon, and repeated as fact. So I translate with the humility of a minute-taker for a meeting I did not attend, and I mark every conjecture as conjecture, to the visible irritation of my publisher, who would prefer the prose to flow. Flow, I tell him, is what the evidence does not license." },
+        { "label": "C", "text": "Farid — court interpreter. The oath I take says 'faithfully and accurately', and nobody in the room understands what that costs. When a frightened witness answers in fragments, I must render fragments — polish them into coherence and I have testified in his place, though the temptation to help is physical, like holding back a sneeze. I have interpreted for people whose stories I disbelieved and for people whose stories broke me, in the same week, with the same flat voice; my opinion is the one thing I am paid to leave outside. The loneliest moment of the work is technical: when a lawyer's question turns on a distinction my other language does not make, and I must interrupt the proceedings to explain that the trap they have built cannot be built in this witness's tongue. Both sides glare. The truth, in two languages, has no side." },
+        { "label": "D", "text": "Yuki — video game localiser. The purists call my work vandalism, and I understand why: I change jokes, rename characters, and once relocated an entire subplot from a hot-spring resort because the humour depended on etiquette my players would not recognise. My defence is that I am translating the experience, not the sentences — the original made its players laugh on Tuesday nights, and my version must do the same, which sometimes means abandoning every word to preserve the effect. The economics are brutal: whole games translated in weeks, under embargo, by teams who may not discuss their work for years — my name is in credits nobody reads, behind an alias, for projects I signed away the right to mention. At conventions I listen, professionally silent, while fans debate lines I wrote as though the author had written them. That silence is the strangest payment I know: proof of perfect success, experienced as perfect erasure." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Milena", "Dr Osei", "Farid", "Yuki"] },
+      "questions": [
+        { "stem": "Which person works under strict physical limits of space and time?", "answer": "A" },
+        { "stem": "Which person defends making sweeping changes in order to reproduce an effect?", "answer": "D" },
+        { "stem": "Which person fears that their guesses will harden into accepted fact?", "answer": "B" },
+        { "stem": "Which person must suppress the urge to improve what another has expressed?", "answer": "C" },
+        { "stem": "Which person is prevented by agreements from claiming their own work?", "answer": "D" },
+        { "stem": "Which person regards going unnoticed as the mark of success?", "answer": "A" },
+        { "stem": "Which person must sometimes halt proceedings to explain a structural difference between languages?", "answer": "C" },
+        { "stem": "Which person deliberately flags uncertainty in their finished work, against commercial pressure?", "answer": "B" },
+        { "stem": "Which person hears their own inventions attributed to someone else?", "answer": "D" },
+        { "stem": "Which person describes reducing a distinctive habit of speech to a single element?", "answer": "A" }
+      ]
+    }
+  ]
+}

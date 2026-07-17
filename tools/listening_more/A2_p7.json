@@ -1,0 +1,309 @@
+{
+ "label": "A2 — Elementary",
+ "cefr": "Cambridge KET · A2 official format",
+ "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+ "audios": [
+  {
+   "id": "A2-P1",
+   "title": "Part 1 · Questions 1–5",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+   "segments": [
+    "For tomorrow",
+    "The new teacher",
+    "Home time",
+    "Something lost",
+    "School lunch"
+   ],
+   "scripts": [
+    "Question one. Boy: Do we need our sports bags tomorrow? Girl: No, the teacher said we only need our history books for the museum worksheet. Boy: OK, thanks for telling me.",
+    "Question two. Girl: Look, there's the new teacher. Does he drive to school? Boy: No, he comes by bike every day, even in winter. Girl: Wow, that's a long way.",
+    "Question three. Boy: Does school finish at half past four today? Girl: No, we finish early — at four o'clock, because of the teachers' meeting. Boy: Brilliant!",
+    "Question four. Mum: You look worried. What's wrong? Girl: I can't find my keys. My phone was in my bag, but the keys aren't there. Mum: Maybe you left them in your classroom.",
+    "Question five. Boy: Is it sandwiches for lunch today? Girl: No, look at the menu — it's pizza day! Boy: Yes! My favourite."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What do the children need to take tomorrow?",
+     "imgs": [
+      "bag",
+      "book",
+      "camera"
+     ],
+     "c": 1,
+     "audio": "P7/A2/A2-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How does the new teacher come to school?",
+     "imgs": [
+      "car",
+      "bike",
+      "bus"
+     ],
+     "c": 1,
+     "audio": "P7/A2/A2-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does school finish today?",
+     "imgs": [
+      "clock430",
+      "clock400",
+      "clock420"
+     ],
+     "c": 1,
+     "audio": "P7/A2/A2-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What can't the girl find?",
+     "imgs": [
+      "phone",
+      "keys",
+      "umbrella"
+     ],
+     "c": 1,
+     "audio": "P7/A2/A2-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What is for lunch at school today?",
+     "imgs": [
+      "sandwich",
+      "pizza",
+      "cake"
+     ],
+     "c": 1,
+     "audio": "P7/A2/A2-P1-q5.mp3"
+    }
+   ]
+  },
+  {
+   "id": "A2-P2",
+   "title": "Part 2 · Questions 6–10",
+   "kind": "file",
+   "file": "P7/A2/A2-P2.mp3",
+   "intro": "You will hear a teacher telling students about sports day. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+   "scripts": [
+    "Listen to a teacher talking about sports day. Teacher: Good morning, everyone. Here is some important information about sports day. It will be on Thursday next week, not Friday as we said before. All races start at ten o'clock. Please wear your white sports shirt — not the blue one. Every runner will get a free bottle of water. Parents can watch from the field, and the school café will sell hot drinks for one pound."
+   ],
+   "gapTitle": "School Sports Day",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Day: next ____",
+     "accept": [
+      "thursday"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Races start at: ____ a.m.",
+     "accept": [
+      "10",
+      "ten",
+      "10:00",
+      "10.00",
+      "10 o'clock",
+      "ten o'clock"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Wear: a ____ sports shirt",
+     "accept": [
+      "white"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Free for every runner: a bottle of ____",
+     "accept": [
+      "water"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Hot drinks: £ ____",
+     "accept": [
+      "1",
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2-P3",
+   "title": "Part 3 · Questions 11–15",
+   "kind": "file",
+   "file": "P7/A2/A2-P3.mp3",
+   "intro": "You will hear Hannah talking to her friend Oliver about a school project. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Hannah: Oliver, have you started the science project yet? Oliver: Not yet. Do we have to work alone? Hannah: No, in pairs. Do you want to work with me? Oliver: Sure! What's your idea? Hannah: I wanted to do something about space, but Miss Kent said another pair already chose that, so let's do volcanoes. Oliver: Cool. When do we have to finish it? Hannah: We show it to the class in two weeks, on Friday. Oliver: OK. Shall we meet at the library after school on Monday? Hannah: I have my piano lesson on Monday. Let's say Wednesday. Oliver: Wednesday is fine."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How must the students do the project?",
+     "o": [
+      "Alone",
+      "In pairs",
+      "In big groups"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What will their project be about?",
+     "o": [
+      "Space",
+      "Volcanoes",
+      "Animals"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "When will they show the project to the class?",
+     "o": [
+      "Next Monday",
+      "In two weeks",
+      "Tomorrow"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Where will they meet to work?",
+     "o": [
+      "At the library",
+      "At Hannah's house",
+      "In the classroom"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Why can't Hannah meet on Monday?",
+     "o": [
+      "She has a piano lesson",
+      "She is visiting family",
+      "She is ill"
+     ],
+     "c": 0
+    }
+   ]
+  },
+  {
+   "id": "A2-P4",
+   "title": "Part 4 · Questions 16–20",
+   "kind": "file",
+   "file": "P7/A2/A2-P4.mp3",
+   "intro": "You will hear a boy called Ethan talking about his new school. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Ethan: I started at my new school in September. I was worried that nobody would talk to me, but on the first day a boy called Leo showed me around, and now he's my best friend. The building is much bigger than my old school, and I got lost twice in the first week! My favourite subject here is science, because we do experiments in every lesson. The homework is harder than before, but the teachers explain everything twice if you ask. Next term I want to join the school band, because I play the drums."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How did Ethan feel before his first day?",
+     "o": [
+      "Worried",
+      "Excited",
+      "Angry"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Who showed Ethan around the school?",
+     "o": [
+      "A teacher",
+      "A boy called Leo",
+      "His sister"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What happened in Ethan's first week?",
+     "o": [
+      "He got lost twice",
+      "He lost his bag",
+      "He was late every day"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Why does Ethan like science?",
+     "o": [
+      "The teacher is funny",
+      "They do experiments",
+      "It is easy"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Ethan want to do next term?",
+     "o": [
+      "Play football",
+      "Join the school band",
+      "Learn the guitar"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P5",
+   "title": "Part 5 · Questions 21–25",
+   "kind": "file",
+   "file": "P7/A2/A2-P5.mp3",
+   "intro": "You will hear Ben talking about his classmates. Which subject does each person like best? For each question, choose the correct answer.",
+   "bank": [
+    "maths",
+    "history",
+    "music",
+    "art",
+    "science",
+    "geography",
+    "sport"
+   ],
+   "scripts": [
+    "Ben: In my class everyone likes a different subject. Clara loves maths, because she's brilliant with numbers. Sam's favourite is history — he knows everything about castles. Lily likes music best; she sings in the school choir. Hugo enjoys art, and his pictures are all over the classroom walls. And Kate loves science, because of all the experiments."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Clara",
+     "c": "maths"
+    },
+    {
+     "type": "match",
+     "person": "Sam",
+     "c": "history"
+    },
+    {
+     "type": "match",
+     "person": "Lily",
+     "c": "music"
+    },
+    {
+     "type": "match",
+     "person": "Hugo",
+     "c": "art"
+    },
+    {
+     "type": "match",
+     "person": "Kate",
+     "c": "science"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+  "title": "B1 Preliminary — Reading (Practice 14)",
+  "note": "All six parts are auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Fairview Model Railway Club",
+          "text": "NEW MEMBERS' EVENING — THURSDAY 7PM.\nNO EXPERIENCE NEEDED. YOU DO NOT HAVE TO OWN A MODEL RAILWAY TO JOIN: CLUB EQUIPMENT IS AVAILABLE FOR EVERYONE TO USE.",
+          "stem": "What does the notice say about joining the club?",
+          "options": ["People without their own equipment are welcome.", "Members must bring their own model railway.", "Only experienced modellers may attend on Thursday."],
+          "answer": 0
+        },
+        {
+          "kind": "message",
+          "header": "Text from Ivan to Beth",
+          "text": "Beth — bad luck with the weather! The forecast says thunderstorms all Saturday, so we can't fly the kites at the beach. The club has booked the sports hall instead for an indoor building session — bring your new kite and we'll finish the tail design. Same time as usual.",
+          "stem": "What will happen on Saturday?",
+          "options": ["The club will fly kites at the beach as planned.", "Members will work on their kites indoors.", "The meeting will start at a different time."],
+          "answer": 1
+        },
+        {
+          "kind": "email",
+          "from": "Metal Detecting Monthly",
+          "to": "Competition entrants",
+          "subject": "Photo competition deadline",
+          "body": "Thank you for entering our 'Best Find of the Year' photo competition. Please note that entries sent after Friday 20th cannot be accepted, as judging begins that weekend. Winners will be told by email in early June and will appear in our July issue.",
+          "stem": "What is the last day to send an entry?",
+          "options": ["The weekend after the 20th.", "A day in early June.", "Friday the 20th."],
+          "answer": 2
+        },
+        {
+          "kind": "sign",
+          "header": "Hillcrest Climbing Centre — Bouldering Room",
+          "text": "THIS ROOM IS FOR EXPERIENCED CLIMBERS ONLY.\nBEGINNERS MUST FIRST COMPLETE THE ONE-HOUR SAFETY COURSE — BOOK AT RECEPTION.",
+          "stem": "What must beginners do before using the bouldering room?",
+          "options": ["Take a short safety course.", "Climb with an experienced partner.", "Pay an extra fee at reception."],
+          "answer": 0
+        },
+        {
+          "kind": "note",
+          "header": "From Leah",
+          "text": "Kasia — I borrowed your beekeeping gloves for tomorrow's hive check, hope that's OK! Mine have a hole in them and the shop can't get new ones until next week. I'll drop them back through your letterbox on Sunday evening. You're still coming to see the new queen bee, right?",
+          "stem": "Why has Leah taken Kasia's gloves?",
+          "options": ["She wants to compare them with her new pair.", "Her own gloves are damaged.", "She is returning them after borrowing them."],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "The five people below all want to start a new hobby. Read the descriptions of eight clubs (A–H) and decide which club would be most suitable for each person. There are three clubs you do not need to use.",
+      "sources": [
+        {
+          "label": "6",
+          "name": "Noor",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/79.jpg\" alt=\"Noor\" loading=\"lazy\">",
+          "text": "Noor spends all day at a computer and wants a hobby that uses her hands to make real, useful objects. She would love to learn from older, skilled people, and she wants to keep what she makes."
+        },
+        {
+          "label": "7",
+          "name": "Casper",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/3.jpg\" alt=\"Casper\" loading=\"lazy\">",
+          "text": "Casper loves the night sky and has just been given a telescope, but he has no idea how to use it properly. He wants to meet people who can teach him, and he is free most evenings after nine o'clock."
+        },
+        {
+          "label": "8",
+          "name": "Fern",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/91.jpg\" alt=\"Fern\" loading=\"lazy\">",
+          "text": "Fern wants an exciting outdoor hobby that gets her heart racing, but she injured her knee last year, so running and jumping are impossible. Something on the water would be perfect, and she is a strong swimmer."
+        },
+        {
+          "label": "9",
+          "name": "Milos",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/68.jpg\" alt=\"Milos\" loading=\"lazy\">",
+          "text": "Milos collects old coins and wants to meet other collectors to swap items and stories. He cannot travel far because he doesn't drive, so the group must meet in the town centre, close to the bus station."
+        },
+        {
+          "label": "10",
+          "name": "Abby",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/36.jpg\" alt=\"Abby\" loading=\"lazy\">",
+          "text": "Abby wants a creative hobby she can share with her nine-year-old daughter on Saturday mornings. It should be something they can do side by side, and it must not cost much, as she is saving for a holiday."
+        }
+      ],
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "White Water Kayak Club: Learn to paddle fast rivers in safe, modern kayaks. Full training given, and all members must pass a swimming test. Thrilling, splashy and kind to tired legs — your arms do all the work!",
+          "The Puzzle Society: We meet online every Wednesday to solve crosswords and logic puzzles against the clock. A webcam and quick fingers are all you need. Annual membership includes our puzzle magazine.",
+          "Starlight Astronomers: Friendly amateur astronomy group meeting on clear evenings from 9.30pm at the observatory on Beacon Hill. Beginners welcome — experienced members love helping newcomers set up their first telescope.",
+          "Trailblazers Running Crew: Off-road running group exploring forest paths every Sunday. Expect hills, mud and plenty of jumping over fallen trees. All speeds welcome, from joggers to racers.",
+          "Make It Together: Relaxed Saturday-morning craft sessions for adults and children working in pairs — painting, printing and simple pottery. Just £3 per family, all materials included. Take your creations home each week!",
+          "The Woodcraft Circle: Traditional woodworking workshop where retired carpenters teach you to carve spoons, bowls and small furniture. Everything you make is yours to take home. Tools provided; patience essential!",
+          "Peak Paragliding School: Learn to fly! Our qualified instructors take you from your first lesson to soaring alone above the hills. Students must be able to run downhill carrying heavy equipment.",
+          "Old Market Collectors' Corner: Collectors of coins, stamps and postcards meet upstairs at the Corn Exchange, two minutes' walk from the central bus station, every second Tuesday. Bring your collection — swapping and friendly bargaining encouraged."
+        ]
+      },
+      "questions": [
+        {"stem": "Noor", "answer": "F"},
+        {"stem": "Casper", "answer": "C"},
+        {"stem": "Fern", "answer": "A"},
+        {"stem": "Milos", "answer": "H"},
+        {"stem": "Abby", "answer": "E"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the article about an unusual hobby and choose the best answer A, B, C or D.",
+      "passage": "The man who collects sounds\n\nMost collectors fill shelves with stamps, coins or model cars. Erik Lundqvist's collection is invisible. For twelve years, he has travelled with a microphone, recording sounds that are starting to disappear from the world. \"It began completely by accident,\" he explains. \"I was recording my grandfather telling family stories, and in the background you could hear his old wall clock ticking. After he died, I listened again and realised the clock moved me more than my own voice introducing the recording. That tick was his kitchen, his whole world. I thought: nobody is saving these sounds.\"\n\nSince then, Erik has recorded hundreds of vanishing sounds: steam trains, typewriters, coins dropping into public telephones, the squeak of chalk on a school blackboard. He plans each trip carefully, sometimes writing to museums or factories months in advance for permission to record. \"People assume I just wander about with a microphone hoping for luck,\" he says. \"In reality, for every hour of sound in the collection, there are weeks of letters and research behind it.\"\n\nNot every sound is easy to capture. Erik once waited five days beside a rare seabird colony to record their dawn chorus, only for a fishing boat's engine to ruin the best moment. \"I could have deleted the recording,\" he says. \"Instead I kept it, boat and all. It tells the truth — that these birds now live with engines. The honest version turned out to be more interesting than the perfect one I wanted.\"\n\nErik's archive is now used by film-makers, museums and even doctors, who play familiar old sounds to elderly patients with memory problems. The sounds often unlock memories that photographs cannot reach. \"A nurse told me one gentleman hadn't spoken for weeks,\" Erik says quietly. \"They played my recording of a 1950s bicycle bell, and he began describing his paper round — the streets, the weather, everything. That is why I do this. Not for the past, actually. For the people still carrying it.\"",
+      "questions": [
+        {"stem": "How did Erik's hobby begin?", "options": ["A background sound in a family recording gave him the idea.", "His grandfather asked him to record the wall clock.", "He wanted to save recordings of his own voice.", "A museum invited him to record old machines."], "answer": 0},
+        {"stem": "What does Erik say about how he works?", "options": ["He prefers to find sounds by chance.", "He records mainly in his own city.", "He spends only a few hours on each sound.", "He prepares each recording trip in detail."], "answer": 3},
+        {"stem": "Why did Erik keep the recording spoiled by the fishing boat?", "options": ["He had no time to record the birds again.", "He felt it showed the birds' real situation.", "The engine sound was rarer than the birds.", "A museum had already paid for it."], "answer": 1},
+        {"stem": "What do we learn about the use of Erik's archive in hospitals?", "options": ["Doctors use it to test patients' hearing.", "Patients prefer photographs to the recordings.", "Old sounds can bring back patients' memories.", "Nurses play it to help patients sleep."], "answer": 2},
+        {"stem": "Why does Erik say he continues his hobby?", "options": ["To complete the world's largest sound archive.", "To supply film-makers with rare material.", "To preserve history for future scientists.", "To help living people connect with their memories."], "answer": 3}
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 4",
+      "instructions": "Read the article about extreme ironing. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+      "passage": "Ironing on a mountain top\n\nOf all the strange sports invented in the last thirty years, few sound as ridiculous as extreme ironing. The rules are simple: take an ironing board, an iron and a piece of clothing to a wild or dangerous place — and iron it. (16)____ Since then, shirts have been pressed underwater, on mountain peaks and even while hanging from cliffs.\n\nThe sport began, according to legend, when an English factory worker came home wanting to go rock climbing, but faced a pile of ironing instead. (17)____ His neighbours saw him, laughed, joined in — and a sport was born.\n\nSupporters insist that extreme ironing is harder than it looks. Carrying a full-sized ironing board up a mountain is genuinely exhausting. (18)____ Photographs are therefore essential, because judges cannot follow every competitor into caves or under the sea.\n\nThe sport reached its peak in 2002, when the first world championships were held in Germany. (19)____ Teams performed in forests, on car roofs and in a fast-flowing river.\n\nIs it a real sport or simply a joke that went too far? Even the participants cannot agree. (20)____ Perhaps that mixture of effort and silliness is exactly why, twenty years on, people are still climbing mountains with ironing boards on their backs.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Ironing boards must be at least one metre long to qualify.",
+          "Competitors must also prove that the clothing was actually ironed, with photographs as evidence.",
+          "He decided, brilliantly, to do both at once, carrying his board into the garden and up a tree.",
+          "The iron itself is usually cold, as electricity is rarely available on a cliff face.",
+          "Eighty competitors from ten countries took part, watched by curious journalists.",
+          "Most of them gave up the sport after suffering minor injuries.",
+          "The first official 'ironing expedition' took place on a rocky hillside in 1997.",
+          "One champion has described it as 'completely serious and completely stupid at the same time'."
+        ]
+      },
+      "questions": [
+        {"stem": "Gap 16", "answer": "G"},
+        {"stem": "Gap 17", "answer": "C"},
+        {"stem": "Gap 18", "answer": "B"},
+        {"stem": "Gap 19", "answer": "E"},
+        {"stem": "Gap 20", "answer": "H"}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 5",
+      "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+      "title": "The hobby of doing nothing",
+      "body": "In a world obsessed with being busy, a new hobby is quietly growing: birdwatching from your own window. Unlike traditional birdwatchers, who travel long distances (21)____ rare species, window-watchers simply sit still and record whatever visits their garden or balcony. The hobby costs almost nothing to (22)____ up — a notebook and perhaps a cheap pair of binoculars are enough. Scientists have become surprisingly interested in these stay-at-home observers. Every year, hundreds of thousands of them (23)____ part in national garden bird counts, and their notes help researchers follow changes in bird populations across whole countries. Fans of the hobby say its greatest gift is what it does to your (24)____ of time. Watching a feeder for an hour teaches a kind of patience that modern life rarely (25)____. As one enthusiast puts it: \"People think I am doing nothing. Actually, I am noticing everything.\" In the end, the slowest hobby of all may (26)____ out to be one of the most rewarding.",
+      "questions": [
+        {"options": ["looking", "searching", "seeking", "hunting"], "answer": 2},
+        {"options": ["put", "get", "set", "make"], "answer": 2},
+        {"options": ["make", "give", "have", "take"], "answer": 3},
+        {"options": ["sense", "feeling", "idea", "thought"], "answer": 0},
+        {"options": ["lets", "gives", "allows", "offers"], "answer": 3},
+        {"options": ["turn", "come", "find", "work"], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 6",
+      "instructions": "For each gap (27–32), write ONE word.",
+      "title": "Message about a new hobby",
+      "body": "Hi Ruben,\n\nRemember I told you I wanted a hobby that had nothing to do (27)____ screens? Well, I've found one — I've joined a juggling club!\n\nI went for the first time two weeks (28)____, and I'm already addicted. At the beginning I couldn't even throw two balls without dropping (29)____, but our teacher says everyone learns faster than they expect. He was right — I can now juggle three balls for almost a minute!\n\nThe club meets on Thursdays in the park, (30)____ there are usually about twenty of us. Some members can juggle with fire, but I'm (31)____ allowed to try that yet — you need at least a year of practice.\n\nWhy (32)____ you come along next week? I promise it's more fun than it sounds!\n\nCheers,\nDiego",
+      "questions": [
+        {"accept": ["with"]},
+        {"accept": ["ago"]},
+        {"accept": ["them", "one"]},
+        {"accept": ["and", "where"]},
+        {"accept": ["not"]},
+        {"accept": ["don't", "dont"]}
+      ]
+    }
+  ]
+}

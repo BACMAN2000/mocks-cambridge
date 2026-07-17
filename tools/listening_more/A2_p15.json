@@ -1,0 +1,308 @@
+{
+ "label": "A2 — Elementary",
+ "cefr": "Cambridge KET · A2 official format",
+ "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+ "audios": [
+  {
+   "id": "A2-P1",
+   "title": "Part 1 · Questions 1–5",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+   "segments": [
+    "At the clothes shop",
+    "Opening time",
+    "Going shopping",
+    "Cold weather",
+    "Left behind"
+   ],
+   "scripts": [
+    "Question one. Boy: Are you buying that bag, Kate? Girl: I like it, but it's too expensive. I'm going to get this hat instead. Boy: It looks great on you.",
+    "Question two. Man: Does the clothes shop open at eight? Woman: It used to, but now it opens at half past eight. Man: OK, let's have breakfast first.",
+    "Question three. Girl: Is your mum driving you to the shopping centre? Boy: She's busy, so I'm taking the bus. My bike has a flat tyre anyway. Girl: See you there.",
+    "Question four. Woman: Do you need your big coat today? Man: Look outside — it's snowing! Woman: Then yes, and take your scarf too.",
+    "Question five. Mum: Did you leave something at the clothes shop, Ben? Boy: Yes, my phone! I put it down when I tried on the jacket. Mum: Let's call the shop right now."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What will Kate buy?",
+     "imgs": [
+      "hat",
+      "bag",
+      "umbrella"
+     ],
+     "c": 0,
+     "audio": "P15/A2/A2-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the shop open now?",
+     "imgs": [
+      "clock8",
+      "clock830",
+      "clock9"
+     ],
+     "c": 1,
+     "audio": "P15/A2/A2-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How will the boy get to the shopping centre?",
+     "imgs": [
+      "car",
+      "bike",
+      "bus"
+     ],
+     "c": 2,
+     "audio": "P15/A2/A2-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What's the weather like today?",
+     "imgs": [
+      "snowy",
+      "rainy",
+      "sunny"
+     ],
+     "c": 0,
+     "audio": "P15/A2/A2-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What did Ben leave at the shop?",
+     "imgs": [
+      "keys",
+      "phone",
+      "umbrella"
+     ],
+     "c": 1,
+     "audio": "P15/A2/A2-P1-q5.mp3"
+    }
+   ]
+  },
+  {
+   "id": "A2-P2",
+   "title": "Part 2 · Questions 6–10",
+   "kind": "file",
+   "file": "P15/A2/A2-P2.mp3",
+   "intro": "You will hear a shop assistant talking about a sale. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+   "scripts": [
+    "Listen to a shop assistant talking about a winter sale. Assistant: Welcome to Fashion Corner! Our big winter sale starts on Friday. All jumpers cost ten pounds, and children's coats are half price. During the sale the shop opens at nine thirty, and we close at six. On the top floor you can find all our shoes and boots. And remember — if you spend more than twenty pounds, you get a free scarf!"
+   ],
+   "gapTitle": "Fashion Corner — Winter Sale",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Sale starts on: ____",
+     "accept": [
+      "friday"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "All jumpers cost: £ ____",
+     "accept": [
+      "10",
+      "ten"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Shop opens at: ____",
+     "accept": [
+      "9:30",
+      "9.30",
+      "930",
+      "nine thirty",
+      "half past nine"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Shoes and boots: on the ____ floor",
+     "accept": [
+      "top"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Free gift: a ____",
+     "accept": [
+      "scarf"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2-P3",
+   "title": "Part 3 · Questions 11–15",
+   "kind": "file",
+   "file": "P15/A2/A2-P3.mp3",
+   "intro": "You will hear Emma talking to her friend Hugo about clothes for the school party. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Emma: Hi Hugo, what are you wearing to the school party? Hugo: I wanted to wear my blue shirt, but it's too small now, so I'm wearing my new green one. Emma: Nice. I'm going shopping tomorrow for a dress. Hugo: Which shop? The one near the market is cheap. Emma: True, but it closed last month. I'm going to the shop next to the cinema. Hugo: Do you want some company? Emma: Sure! Let's meet at ten — no, wait, I'm having breakfast with my grandma, so eleven is better. Hugo: Fine. How will we get there? Emma: It's really close — we can walk."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What will Hugo wear to the party?",
+     "o": [
+      "His green shirt",
+      "His blue shirt",
+      "His black shirt"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "When is Emma going shopping?",
+     "o": [
+      "Today",
+      "Tomorrow",
+      "Next week"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Which shop will Emma go to?",
+     "o": [
+      "The shop near the market",
+      "The shop next to the cinema",
+      "The shop at the school"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What time will Emma and Hugo meet?",
+     "o": [
+      "At nine o'clock",
+      "At ten o'clock",
+      "At eleven o'clock"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "How will they get to the shop?",
+     "o": [
+      "On foot",
+      "By bus",
+      "By car"
+     ],
+     "c": 0
+    }
+   ]
+  },
+  {
+   "id": "A2-P4",
+   "title": "Part 4 · Questions 16–20",
+   "kind": "file",
+   "file": "P15/A2/A2-P4.mp3",
+   "intro": "You will hear a girl called Sofia talking about clothes. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Sofia: People say I think about clothes too much, but for me it's like art. My favourite thing is a red jacket that my grandmother made for me — shops sell nicer jackets, maybe, but this one is special. I get most of my ideas from street markets, not from magazines. Last year I started making my own T-shirts. I made ten, and I sold three of them to girls at school! When I'm older I don't want to be a model — I want to design clothes for a big company."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What is Sofia's favourite piece of clothing?",
+     "o": [
+      "A red jacket",
+      "A T-shirt",
+      "A dress"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Who made it for her?",
+     "o": [
+      "A shop",
+      "Her grandmother",
+      "Sofia herself"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Where does Sofia get her ideas?",
+     "o": [
+      "From street markets",
+      "From magazines",
+      "From television"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "How many T-shirts did Sofia sell?",
+     "o": [
+      "Ten",
+      "Three",
+      "Thirteen"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What job does Sofia want in the future?",
+     "o": [
+      "Model",
+      "Clothes designer",
+      "Shop assistant"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P5",
+   "title": "Part 5 · Questions 21–25",
+   "kind": "file",
+   "file": "P15/A2/A2-P5.mp3",
+   "intro": "You will hear Lily talking about a party. What did each person wear? For each question, choose the correct answer.",
+   "bank": [
+    "a hat",
+    "a red dress",
+    "a football shirt",
+    "black boots",
+    "a long coat",
+    "a white jumper",
+    "blue trousers"
+   ],
+   "scripts": [
+    "Lily: Everyone looked great at Anna's party. Tom came in his football shirt — he had a match earlier that day. Grace wore a lovely red dress that her mum made for her. Max wore a big hat, like a cowboy! Olivia had new black boots — everyone wanted to try them on. And Ethan wore a white jumper, which was a bad idea, because he dropped chocolate cake on it."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Tom",
+     "c": "a football shirt"
+    },
+    {
+     "type": "match",
+     "person": "Grace",
+     "c": "a red dress"
+    },
+    {
+     "type": "match",
+     "person": "Max",
+     "c": "a hat"
+    },
+    {
+     "type": "match",
+     "person": "Olivia",
+     "c": "black boots"
+    },
+    {
+     "type": "match",
+     "person": "Ethan",
+     "c": "a white jumper"
+    }
+   ]
+  }
+ ]
+}

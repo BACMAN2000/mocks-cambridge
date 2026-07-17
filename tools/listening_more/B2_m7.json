@@ -1,0 +1,343 @@
+{
+ "label": "B2 — Upper-Intermediate",
+ "cefr": "Cambridge First (FCE) · B2 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, multiple matching y entrevista.",
+ "audios": [
+  {
+   "id": "B2-P1",
+   "title": "Part 1 · Questions 1–8",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A new office",
+    "An extension",
+    "Renovation advice",
+    "A hospital stay",
+    "Choosing a flat",
+    "An announcement",
+    "A new school building",
+    "At the estate agent's"
+   ],
+   "scripts": [
+    "Question one. Man: So how's the new office? The photos look spectacular, all that glass. Woman: It's certainly bright, I'll give them that, my old desk was in a basement, so I appreciate the daylight. But they've put ninety of us on one open floor, and I can hear every phone call, every keyboard, every birthday cake announcement. By Friday I was doing my real work in the stairwell. Beautiful building, but I can't think in it.",
+    "Question two. Woman: Hello, it's about our planning application for the extension. We were expecting a decision last month. Man: Yes, I have your file here. I should explain what's holding things up. The materials are fine, and nobody has objected to the design itself. The issue raised by your neighbour concerns the height, at two storeys, the extension would block the light to her kitchen for most of the morning. If you can bring it down to a single storey, I'd expect approval within weeks. Woman: I see. We'll talk to our architect.",
+    "Question three. Man: We've saved for years to do up this house, and we want to start with a beautiful new kitchen. Woman: And you'll get one, but as your architect, let me give you the advice I give everyone: spend on the insulation first. It's invisible, nobody will admire it at dinner parties, but it decides whether this house is warm, quiet and cheap to run for the next forty years. The kitchen can be phase two. Man: That's not what I wanted to hear, but I suspect you're right.",
+    "Question four. Woman: Three weeks in hospital, you poor thing. I suppose the view of the car park didn't help. Man: Actually, I was lucky, my ward opened onto that little courtyard garden, and honestly, I think it did as much for me as the medicine. The days they wheeled us out among the plants, I slept better, ate better, needed less of everything. The man opposite, facing the corridor wall, you could see the difference in him. I'd never believed a window could matter so much.",
+    "Question five. Man: Right, decision time. The Elm Street flat is huge, that living room is twice the size of ours. Woman: It is, and I keep thinking about how dark it was, even at midday, with all the lights on. The smaller one felt alive, sun pouring in, and that little balcony where you could actually sit outside with a coffee. Man: We'd be giving up a lot of space. Woman: We'd use every metre of the small one, and dread coming home to the big one. I say light and the balcony win. Man: You're right. Let's make the offer.",
+    "Question six. Woman: Good afternoon, visitors. Please note a change regarding the exhibition Buildings That Heal, which explores how design affects our health. Due to remarkable demand, the exhibition will now remain open until the end of January, a full month longer than advertised. Please also note that school groups must now book their visits in advance, walk-in school visits are no longer possible. Individual visitors need no booking, as before.",
+    "Question seven. Man: You've had a term in the new school building now. Is the design studio as wonderful as they promised? Girl: The studio's great, all that equipment, but here's the odd thing, it's not where anyone actually wants to be. The architects made the main staircase really wide, with big steps at the side where you can sit, and that's become the heart of the school. Everyone meets there, does homework there, watches the world go by there. A staircase! Nobody predicted that.",
+    "Question eight. Woman: So, let's find you a flat. Most of my clients start with size, or being near the metro. Man: I work from home, so the commute barely matters, and I don't need much space. What I care about, and I've learned this the hard way, is quiet. My current place is beautiful, and it sits above a delivery yard that starts at five in the morning. I'll take fewer square metres on a silent street over a palace on a noisy one. Woman: Understood. That rules out my first three suggestions, let me think again."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What is the woman's complaint about her new office?",
+     "o": [
+      "The lack of daylight",
+      "The constant noise",
+      "The long stairs"
+     ],
+     "c": 1,
+     "audio": "M7/B2/B2-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is delaying the planning decision?",
+     "o": [
+      "The height of the extension",
+      "The building materials",
+      "The design's appearance"
+     ],
+     "c": 0,
+     "audio": "M7/B2/B2-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the architect advise the man to do first?",
+     "o": [
+      "Install a new kitchen",
+      "Improve the insulation",
+      "Repaint the whole house"
+     ],
+     "c": 1,
+     "audio": "M7/B2/B2-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What helped the man most in hospital?",
+     "o": [
+      "Access to the garden",
+      "The quiet ward",
+      "The modern equipment"
+     ],
+     "c": 0,
+     "audio": "M7/B2/B2-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why do they choose the smaller flat?",
+     "o": [
+      "It is cheaper",
+      "It is nearer their work",
+      "It is bright and has a balcony"
+     ],
+     "c": 2,
+     "audio": "M7/B2/B2-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What must school groups now do?",
+     "o": [
+      "Visit before the end of December",
+      "Book their visits in advance",
+      "Pay an entrance fee"
+     ],
+     "c": 1,
+     "audio": "M7/B2/B2-P1-q6.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Which part of the new school has become most popular?",
+     "o": [
+      "The design studio",
+      "The main staircase",
+      "The library"
+     ],
+     "c": 1,
+     "audio": "M7/B2/B2-P1-q7.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What matters most to the man looking for a flat?",
+     "o": [
+      "The size of the rooms",
+      "Being near the metro",
+      "Living somewhere quiet"
+     ],
+     "c": 2,
+     "audio": "M7/B2/B2-P1-q8.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B2-P2",
+   "title": "Part 2 · Questions 9–18",
+   "kind": "file",
+   "file": "M7/B2/B2-P2.mp3",
+   "intro": "You will hear an architect called Max talking about designing a healthy office building. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Good evening. I'm Max, and I'm an architect, but perhaps not the usual kind. My studio designs buildings around a single question: what does this place do to the health of the people inside it? Let me tell you about the project that taught us most. First, some background. People assume this wellbeing approach is brand new, something from the last few years of office fashion. In fact we founded the practice in 2010, when, I promise you, nobody wanted to hear about staircases and daylight, we were told repeatedly to stop talking nonsense and lower our fees. Our first big commission, oddly enough, wasn't an office at all. It was a library, a small public one, and it changed everything for us. We noticed that people stayed for hours in one particular corner, the one with the long windows and the oak shelves, and avoided the bright, plastic, striplit areas completely. The building was teaching us. People vote with their bodies, and we've been reading those votes ever since. So when a technology company asked us to design their new headquarters, we built everything around what we'd learned, starting with light. The rule we fought hardest for sounds simple: no desk more than seven metres from a window. Seven. The developers wanted deep floors, they're cheaper, but daylight at your desk regulates your body clock, your sleep, your mood. We won that argument, and it shaped the whole building. Then, greenery, and I don't mean a sad fern by the lift. The building contains over two hundred plants, real ones, climbing whole walls, hanging in the stairwells, chosen so something is always in leaf. People said it would look like a jungle. It does, slightly. Nobody has ever complained. The staircase was our sneakiest decision. In most offices the stairs are hidden behind a fire door, grey concrete, emergencies only, while the lifts sit gleaming in the lobby. We reversed it: our staircase is wide, wooden and full of light, placed right in the centre of the building, where you meet it before you ever find the lifts. People climb it without thinking, dozens of times a day, exercise smuggled into ordinary life. As for materials, we made one bet above all: wood, everywhere the regulations allowed, floors, ceilings, the great beams of the atrium. And this isn't just taste. Study after study finds that natural materials measurably calm us, pulse rates settle, stress hormones dip. People walk in and exhale. You can watch it happen. Of course, an open, sociable building has an enemy: noise. We love the buzz of people working together, but nobody can write a report in a carnival. So scattered through every floor there are small quiet rooms, properly soundproofed, no phones, no meetings, one person, one desk, silence. You book an hour when you need to think hard. They're the most reserved rooms in the building. The roof was the clients' favourite victory. The original plan sent the executives up there and gave everyone else a terrace at the back. We argued, and won again: the roof garden is open to all staff, every day, gardeners' beds, apple trees, benches facing the sunset. The chief executive queues for a bench like everyone else, and I'm told the queuing itself has been good for the company. Did any of it work? A year after the building opened, the company ran the numbers against their old headquarters. The result made every newspaper in the country: sick days had fallen by a quarter. A quarter. No vitamin programme, no gym memberships, just a building that stopped quietly making people worse. And what's next for us? The project I've wanted my whole career. We've been asked to take everything I've described tonight, the light, the wood, the gardens, the quiet, and design a hospital. If a building can keep healthy people well, imagine what it might do for people trying to heal. Ask me back in five years, I'll tell you how it went. Thank you."
+   ],
+   "gapTitle": "Designing a Healthy Building — Max's Project",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "Max founded his practice in: ____",
+     "accept": [
+      "2010",
+      "twenty ten"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The studio's first big project was a: ____",
+     "accept": [
+      "library"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "No desk is more than ____ metres from a window",
+     "accept": [
+      "7",
+      "seven"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The building contains over ____ plants",
+     "accept": [
+      "200",
+      "two hundred"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The wide wooden ____ is at the centre of the building",
+     "accept": [
+      "staircase",
+      "stairs"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The main natural material used is: ____",
+     "accept": [
+      "wood",
+      "timber"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "For concentration there are small ____ rooms",
+     "accept": [
+      "quiet"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The ____ garden is open to all staff",
+     "accept": [
+      "roof"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Sick days fell by a: ____",
+     "accept": [
+      "quarter",
+      "25%",
+      "fourth"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The studio's next project is a: ____",
+     "accept": [
+      "hospital"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2-P3",
+   "title": "Part 3 · Questions 19–23",
+   "kind": "file",
+   "file": "M7/B2/B2-P3.mp3",
+   "intro": "You will hear five people talking about how their home affects their wellbeing. For each speaker, choose from the list (A–H) what matters most to them. Use each letter once. There are three extra letters you will not need.",
+   "bank": [
+    "having access to a garden",
+    "living close to water",
+    "a separate space for working",
+    "plenty of natural light",
+    "living with fewer possessions",
+    "a sense of community with neighbours",
+    "quiet at night",
+    "a view of trees"
+   ],
+   "scripts": [
+    "Speaker one. Woman: I once spent two years in a flat that faced north, into the shadow of a taller building. It was spacious, it was cheap, and I was miserable in it without ever working out why, I just thought winter had got longer. Then I moved to a corner flat, nothing special, smaller actually, but the sun crosses it from breakfast to evening. The difference in me was almost frightening. I wake before the alarm now. Whatever I pay for these windows, it's the cheapest medicine I've ever bought. Speaker two. Man: When my company went remote, I spent a year working off the kitchen table, and my job slowly leaked into everything, emails over dinner, spreadsheets in bed. What saved me wasn't a bigger flat, it was converting the box room, barely bigger than a wardrobe, into an office with a door. That door is the whole point. At six o'clock I close it, and my job stays behind it. My wife says she got her husband back. The room is tiny; the effect is enormous. Speaker three. Woman: Our building is nothing to look at, nineteen-sixties brick, but the architects did one clever thing: every front door opens onto a shared courtyard, so you can't get home without passing your neighbours. In ten years there, I've been fed when I was ill, my parcels have never once been stolen, and my daughter has nine unofficial grandparents. My sister lives in a beautiful new tower where nobody knows anybody. She has granite worktops; I have people. I win. Speaker four. Man: Two years ago you couldn't see my floor for stuff, boxes of cables, clothes I never wore, three broken printers I meant to fix. I cleared it all out one furious weekend, and the strangest thing happened: my head went quiet. I hadn't realised that every object in that flat was shouting a little task at me, sort me, fix me, feel guilty about me. Now the room is half empty, and people call it bare. Let them. My mind finally has somewhere to sit down. Speaker five. Woman: My old bedroom was above a bar, and I stopped noticing the noise, or so I told myself, while I grew greyer and angrier every month on five broken hours a night. The new flat overlooks nothing at all, a plain back street where the loudest event is a cat. The first week, the silence actually kept me awake, imagine that. Now I sleep eight hours and wake up the same person all day. Friends ask about the area, the shops, the nightlife. I tell them: I moved here for the nothing. The nothing is everything."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Speaker 1",
+     "c": "plenty of natural light"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 2",
+     "c": "a separate space for working"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 3",
+     "c": "a sense of community with neighbours"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 4",
+     "c": "living with fewer possessions"
+    },
+    {
+     "type": "match",
+     "person": "Speaker 5",
+     "c": "quiet at night"
+    }
+   ]
+  },
+  {
+   "id": "B2-P4",
+   "title": "Part 4 · Questions 24–30",
+   "kind": "file",
+   "file": "M7/B2/B2-P4.mp3",
+   "intro": "You will hear an interview with a woman called Rosa, a professor who researches how buildings affect our health. For each question, choose the best answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Rosa, you've spent twenty years measuring what buildings do to us. Where is the evidence strongest? Rosa: If I could only keep one finding from my whole field, it would be daylight. The evidence there is overwhelming and beautifully consistent: the amount of natural light you get, especially in the morning, sets your body clock, and your body clock runs your sleep, your mood, your alertness, even how your medication works. We've measured it in offices, schools, care homes, same story everywhere. Fresh air matters, colour matters a little, but light is the headline, and it isn't close. Interviewer: You often tell a story about hospital windows. Rosa: The famous study, yes, and it deserves its fame. Patients recovering from the same operation, in the same ward, differed in one thing only: half looked out at trees, half at a brick wall. The tree-view patients went home sooner and asked for noticeably less pain relief. When I first read that as a student, I assumed it was too neat to be true. It's been repeated, in different forms, again and again. A window is not decoration. In a hospital, a window is part of the treatment. Interviewer: Let's make enemies. Open-plan offices, the design of our age. What does the research say? Rosa: The sales pitch, you'll remember, was collaboration, tear down the walls and ideas will flow. Well, researchers tracked workers before and after the walls came down, with sensors, not questionnaires, and found the opposite: face-to-face conversation fell, dramatically, while messaging rose. People in open offices retreat behind headphones, they whisper, they book meeting rooms to have ordinary conversations. We built offices for interaction and got silence with extra noise in it. The evidence is in, and the buildings keep going up anyway, because the true argument was always cheaper floor space. Interviewer: You've moved from measuring buildings to arguing about housing policy. Why? Rosa: Because I kept measuring the same thing: the flats making people ill were the small, dark, converted ones, and no amount of good design advice helps if the law allows homes like that to exist at all. So I now spend my unfashionable energy on minimum standards, on space, on ceiling heights, on a legal right to daylight. Style is a luxury debate; adequacy is a health debate. A country's building regulations do more for public health than any wellness industry, and we treat them as plumbing. They're medicine. Interviewer: Most people listening can't move house or rewrite regulations. What actually works on a normal budget? Rosa: More than people think, and I say this as the enemy of wellness nonsense. Move your desk or your armchair to the window, that's free, and it's the single best intervention I know. Paint the dark room a pale colour, light bounces, it genuinely changes the light you receive. Get plants, the effect is small but real, and warm-toned bulbs for the evening. None of this needs a landlord's permission or an architect's fee. The building you have contains a better home; most people have just arranged it wrong. Interviewer: And beyond the front door? You've been working with city planners lately. Rosa: Because the biggest health machine you live in isn't your flat, it's your street. Here's the comparison I use with mayors: a street where walking is the easy, pleasant, obvious choice does more for a population's health than any number of gyms, because it exercises everyone, every day, without a single decision being made. Gyms serve the motivated; streets serve everybody. Design the city so the healthy option is the lazy option, and the statistics move on their own. Interviewer: So what's next for your research? Rosa: The sense everyone forgets: hearing. We've learned to talk about light; we still treat noise as a mere annoyance, when the data says chronic noise, traffic, flight paths, thin walls, raises stress hormones and blood pressure while we sleep, while we're not even aware of it. My new project follows a thousand households across the city with sound meters and health checks. I expect noise to turn out to be where light was twenty years ago: the huge, obvious factor nobody was measuring. Interviewer: Professor, thank you very much."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "According to Rosa, which factor has the strongest evidence behind it?",
+     "o": [
+      "Fresh air",
+      "Natural light",
+      "The colours of rooms"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What did the hospital study show?",
+     "o": [
+      "Patients with tree views recovered faster",
+      "Larger wards helped recovery",
+      "Patients preferred rooms with balconies"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What did research find about open-plan offices?",
+     "o": [
+      "People talked to each other less",
+      "People collaborated more",
+      "People took more sick days"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Why does Rosa now focus on housing policy?",
+     "o": [
+      "Regulations affect health more than design advice",
+      "Architects refuse to listen to research",
+      "Modern flats are too expensive"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What cheap improvement does Rosa most recommend?",
+     "o": [
+      "Buying an air purifier",
+      "Moving furniture nearer the window",
+      "Installing thicker carpets"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "Why does Rosa say streets matter more than gyms?",
+     "o": [
+      "They make everyone exercise without deciding to",
+      "They are cheaper for councils to build",
+      "They encourage people to join sports clubs"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What will Rosa's next research project study?",
+     "o": [
+      "The effects of noise on health",
+      "The design of new hospitals",
+      "The lighting of city streets"
+     ],
+     "c": 0
+    }
+   ]
+  }
+ ]
+}

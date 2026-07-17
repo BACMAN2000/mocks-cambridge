@@ -1,0 +1,189 @@
+{
+  "title": "B2 First — Reading and Use of English (MOCK 6)",
+  "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "More than a game",
+      "body": "Professional sport likes to present itself as a simple contest of skill, but behind the scenes it has (1)____ into one of the world's biggest industries. Television companies (2)____ enormous sums for the right to broadcast matches, and clubs that once (3)____ on ticket sales now earn far more from sponsorship and merchandise. A star player is no longer merely an athlete but a brand, whose image alone can (4)____ millions in a single year. Critics complain that all this money has (5)____ the game of its innocence, with loyal supporters priced out of stadiums their grandparents helped to fill. Defenders (6)____ out that professionalism has raised standards beyond recognition, and that nobody is forced to buy a ticket. Whatever one's view, there is no (7)____ back: sport and business are now so tightly (8)____ that neither could easily survive without the other.",
+      "questions": [
+        { "options": ["risen", "grown", "lifted", "advanced"], "answer": 1 },
+        { "options": ["spend", "fund", "pay", "afford"], "answer": 2 },
+        { "options": ["relied", "insisted", "trusted", "held"], "answer": 0 },
+        { "options": ["win", "gain", "reach", "earn"], "answer": 3 },
+        { "options": ["stolen", "robbed", "removed", "emptied"], "answer": 1 },
+        { "options": ["speak", "talk", "tell", "point"], "answer": 3 },
+        { "options": ["stepping", "heading", "turning", "backing"], "answer": 2 },
+        { "options": ["linked", "attached", "related", "combined"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The price of a shirt",
+      "body": "Walk into any stadium and you will see thousands of fans wearing the same shirt (9)____ the players on the pitch. Replica kits are now such big business that some clubs change their design every single year, (10)____ though the shirts themselves cost only a few pounds to produce. Fans grumble about the prices, but most pay (11)____ anyway, because wearing the shirt is a way (12)____ showing which side you belong to. The names printed across the front tell their own story. A century ago, shirts carried (13)____ at all except the club's colours; today that space is sold to sponsors for sums that would once have paid for the entire team. Clubs defend the practice by pointing out that the money allows them to buy better players, and that success on the pitch is, in the (14)____, what supporters really want. Perhaps so. But older fans may be forgiven (15)____ feeling that something has quietly been lost — that a shirt which once stood only for a town and its people now stands for whichever company happens to have made the (16)____ recent offer.",
+      "questions": [
+        { "accept": ["as"] },
+        { "accept": ["even"] },
+        { "accept": ["up"] },
+        { "accept": ["of"] },
+        { "accept": ["nothing"] },
+        { "accept": ["end"] },
+        { "accept": ["for"] },
+        { "accept": ["most"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "A short career",
+      "rows": [
+        { "text": "A (17)____ footballer's career is surprisingly short,", "root": "PROFESSION" },
+        { "text": "with most retiring before the age of thirty-five." },
+        { "text": "" },
+        { "text": "The (18)____ between the highest and lowest paid", "root": "DIFFER" },
+        { "text": "players has never been greater than it is today." },
+        { "text": "" },
+        { "text": "Only a tiny (19)____ of young hopefuls ever", "root": "MINOR" },
+        { "text": "sign a professional contract of any kind." },
+        { "text": "" },
+        { "text": "Clubs now employ (20)____ to support players", "root": "PSYCHOLOGY" },
+        { "text": "whose careers end sooner than they had hoped." },
+        { "text": "" },
+        { "text": "Sponsorship deals can prove more (21)____ than", "root": "PROFIT" },
+        { "text": "wages, at least for the most famous names." },
+        { "text": "" },
+        { "text": "Many speak of the (22)____ they felt when injury", "root": "SECURE" },
+        { "text": "threatened to end their careers overnight." },
+        { "text": "" },
+        { "text": "Some make a (23)____ return to sport as coaches", "root": "SUCCEED" },
+        { "text": "or television commentators after retiring." },
+        { "text": "" },
+        { "text": "Others discover, to their (24)____, that the skills", "root": "ASTONISH" },
+        { "text": "of a dressing room transfer well to business." }
+      ],
+      "questions": [
+        { "root": "PROFESSION", "accept": ["professional"] },
+        { "root": "DIFFER", "accept": ["difference"] },
+        { "root": "MINOR", "accept": ["minority"] },
+        { "root": "PSYCHOLOGY", "accept": ["psychologists"] },
+        { "root": "PROFIT", "accept": ["profitable"] },
+        { "root": "SECURE", "accept": ["insecurity"] },
+        { "root": "SUCCEED", "accept": ["successful"] },
+        { "root": "ASTONISH", "accept": ["astonishment"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+      "questions": [
+        {
+          "before": "The club's debts are so large that it may not survive.",
+          "keyword": "SUCH",
+          "after": "The club has ___ that it may not survive.",
+          "accept": ["such large debts"]
+        },
+        {
+          "before": "The manager regrets selling the team's best player.",
+          "keyword": "WISHES",
+          "after": "The manager ___ the team's best player.",
+          "accept": ["wishes he had not sold", "wishes he hadn't sold", "wishes she had not sold", "wishes she hadn't sold", "wishes they had not sold", "wishes they hadn't sold"]
+        },
+        {
+          "before": "It isn't necessary to buy tickets in advance.",
+          "keyword": "NEED",
+          "after": "You ___ tickets in advance.",
+          "accept": ["do not need to buy", "don't need to buy", "need not buy"]
+        },
+        {
+          "before": "A local company paid for the new stadium.",
+          "keyword": "WHO",
+          "after": "It was a local company ___ the new stadium.",
+          "accept": ["who paid for"]
+        },
+        {
+          "before": "The final had hardly started when the rain began.",
+          "keyword": "NO",
+          "after": "___ started than the rain began.",
+          "accept": ["no sooner had the final"]
+        },
+        {
+          "before": "'Did you sign the contract yesterday?' the reporter asked the player.",
+          "keyword": "HAD",
+          "after": "The reporter asked the player whether ___ the contract the day before.",
+          "accept": ["he had signed", "she had signed", "they had signed"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "Selling uncertainty\n\nEvery industry sells something, and it is worth asking what, exactly, professional sport sells. Not athletic excellence alone: the record books are full of brilliant performances that nobody paid to watch. What fills stadiums and sells television subscriptions is something more fragile — the fact that nobody, not even the participants, knows what is about to happen. Sport's product, at bottom, is uncertainty.\n\nThis creates a peculiar problem, because everything else about modern sport's business model works to destroy that very product. Broadcast revenue flows overwhelmingly to the clubs that are already successful; success buys the best players, which brings more success, which brings more revenue. Season after season, the same handful of names contest the same trophies, and in several major leagues the eventual champion can be predicted before a ball is kicked with embarrassing reliability. The industry, in short, is quietly eating its own product.\n\nIts defenders offer a robust reply. The standard of play, they point out, has never been higher; stadiums are safer and fuller than a generation ago; and the money that critics find so distasteful pays for academies, women's teams and medical care that the supposedly golden past never provided. They add, with some justice, that the past was less romantic than we remember it: small clubs went bankrupt in the old days too, and dominance by a wealthy few is as old as organised sport itself.\n\nAll of this is true, and none of it answers the point. A league in which the outcome is known is a theatre performing the same play nightly to a shrinking audience. Tellingly, the leagues most admired by business analysts are those that deliberately interfere with pure market logic — sharing television money equally, capping wage bills, giving the weakest teams first choice of new talent. Such arrangements would strike many European club owners as socialism; American sports franchises, the most profitable on Earth, regard them simply as protecting the product.\n\nThe lesson is uncomfortable but clear. Sport is indeed a business, but a business of a strange kind: one whose central asset is competitive balance, and which therefore prospers only when its members are prevented from pursuing their individual interests to the limit. Every club that hoards success is, in the long run, burning the very uncertainty it hopes to sell. The wisest people in the business of sport have grasped that the goose and the golden egg are the same bird.",
+      "questions": [
+        { "stem": "According to the writer, what is sport's real 'product'?", "options": ["Athletic excellence.", "Exercise for spectators.", "Television subscriptions.", "The fact that nobody knows the outcome in advance."], "answer": 3 },
+        { "stem": "What 'peculiar problem' does the writer describe in the second paragraph?", "options": ["Players are paid too little to perform well.", "The way money flows makes results predictable, destroying what sport sells.", "Broadcasters refuse to show the smaller clubs.", "Stadiums are too small to meet demand."], "answer": 1 },
+        { "stem": "Which point do sport's defenders make about the past?", "options": ["It also saw bankruptcies and domination by a wealthy few.", "Standards of play were higher then.", "Academies were better funded then.", "Television money was shared more fairly then."], "answer": 0 },
+        { "stem": "Why does the writer mention American sports franchises?", "options": ["To show they are less profitable than European clubs.", "To criticise their wage levels.", "To show that deliberately limiting market logic can protect sport's product.", "To argue they should copy European methods."], "answer": 2 },
+        { "stem": "What does the writer mean by 'a theatre performing the same play nightly to a shrinking audience'?", "options": ["Theatres compete with sport for spectators.", "Sports grounds should also stage plays.", "Audiences prefer familiar outcomes.", "A predictable league will gradually lose its appeal."], "answer": 3 },
+        { "stem": "Which statement best sums up the writer's conclusion?", "options": ["Sport should stop being a business altogether.", "Sport prospers as a business only when competitive balance is protected.", "Clubs should pursue their own interests to the limit.", "Uncertainty no longer matters to modern fans."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+      "passage": "The town that bought its football club\n\nWhen the accountants finally opened the books at Weldmarsh Town, a club with a century of history and four thousand loyal supporters, they found debts so large that the figures were at first assumed to be a misprint. (37)____ The owner, a property developer who had promised the fans 'a new era', had gone, and so had most of the money.\n\nWhat happened next has been studied by business schools ever since. Instead of waiting for another wealthy saviour, the supporters decided to buy the club themselves. (38)____ Pensioners gave twenty pounds, local firms gave hundreds, and a retired postman famously handed over his coin collection.\n\nThe new structure was unlike anything the league had seen. Every member, however much they had paid, received exactly one vote. (39)____ Ticket prices, the club badge, even the colour of the away shirt were settled by a show of hands.\n\nSceptics predicted chaos, and cheerfully forecast relegation within a season. (40)____ Careful budgets, it turned out, could do much of the work of rich owners, provided nobody demanded instant glory.\n\nThere have been costs, and the members do not hide them. (41)____ Star players are sold when the price is right, and the manager must make do with what remains.\n\nYet ask the supporters whether they would return to the old model and the answer is unanimous. (42)____ The club may never win the biggest prizes, they say, but it can never again be taken away from them — and that, in the end, was the prize that mattered.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "The developer was widely praised for his careful management of the club's finances.",
+          "It emerged that the club had been borrowing for years simply to pay each month's wages.",
+          "Ambition, in the short term, has had to give way to caution.",
+          "No decision of any importance could be taken without putting it to the membership.",
+          "Ownership, they discovered, changes the way even defeat feels.",
+          "Within six weeks, an appeal had raised more money than anyone had dared to suggest.",
+          "Most of the supporters soon lost interest and the club was sold to another businessman.",
+          "Instead, the club finished higher in its first supporter-owned season than it had for a decade."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing sentence:", "answer": "B" },
+        { "stem": "Choose the missing sentence:", "answer": "F" },
+        { "stem": "Choose the missing sentence:", "answer": "D" },
+        { "stem": "Choose the missing sentence:", "answer": "H" },
+        { "stem": "Choose the missing sentence:", "answer": "C" },
+        { "stem": "Choose the missing sentence:", "answer": "E" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "Read about four people who work in the business of sport. Then answer the questions. The same person may be chosen more than once.",
+      "sources": [
+        { "label": "A", "name": "Rosa", "text": "Say the word 'agent' at any gathering of football supporters and watch the room turn cold. We are blamed for greedy wages, for unsettling players, for everything except the weather, and I have stopped arguing about it at dinner parties. What I actually do, most weeks, is read contracts — I qualified as a lawyer before I ever entered sport — and stop eighteen-year-olds from signing away their image rights, their freedom of movement and, occasionally, most of their future income. The clubs employ teams of experienced negotiators; without someone like me, a teenager sits across the table from them alone. I have read what those deals looked like in the days before players had proper representation, and nobody who has seen them could honestly wish those days back. If defending young people well makes my profession unpopular, that is a price I have decided I can live with." },
+        { "label": "B", "name": "Dev", "text": "Running a club this size is a permanent exercise in saying no. Every summer the supporters demand new signings, and every summer I sell our best player instead, and then read what they think of me on the forums. I understand the anger, but the arithmetic is not optional: our entire annual budget is smaller than some clubs' monthly wage bill. What I refuse to do is borrow against tomorrow. We are one of the very few clubs at this level that owes nobody a penny, and I am prouder of that than of any cup run, because I have seen what happens to towns whose clubs gamble and lose. And that is the point people miss: this club is not really about trophies. It is the one place where the whole town still stands together every fortnight, and my real job is making sure that place still exists in fifty years' time." },
+        { "label": "C", "name": "Karolina", "text": "I competed internationally for nine years, and for nine years the equipment I used was designed, quite obviously, for somebody else's body. I finished my career with a drawer full of medals and a long list of complaints, and the company grew directly out of that list. The investors I first approached were sceptical — several told me, in nearly identical words, that the market I was describing did not exist — and it took two years to raise the money we needed. Sport, it turns out, is a better preparation for business than any qualification I could have bought. An athlete fails publicly, every single week, and learns to treat failure as information; my competitors take setbacks personally, while I simply take notes. We now sell in thirty countries — including, I am pleased to say, to some of the doubters." },
+        { "label": "D", "name": "Miguel", "text": "I began as a sports journalist and crossed, as my old colleagues put it, to the dark side: I now negotiate broadcast rights. I will admit freely what everyone suspects — television money has bent the game out of shape. Kick-off times are chosen for viewers on other continents, and the supporter who has attended for forty years finds the fixture moved to lunchtime on a working day, with three days' notice, for an audience ten thousand miles away. I do not pretend that is fair on them. But I have also sat in the negotiations that kept smaller sports alive. Swimming, badminton, women's leagues that now fill arenas — none of it would exist at professional level without the rights money involved. When people tell me television is ruining sport, I ask them which sports they would like to watch disappear instead." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Rosa", "Dev", "Karolina", "Miguel"] },
+      "questions": [
+        { "stem": "Which person defends a profession that is widely criticised?", "answer": "A" },
+        { "stem": "Which person is proud that their organisation owes no money?", "answer": "B" },
+        { "stem": "Which person started a business after being frustrated by existing products?", "answer": "C" },
+        { "stem": "Which person admits that television has made life harder for loyal supporters?", "answer": "D" },
+        { "stem": "Which person believes an athlete's experience of failure is an advantage in business?", "answer": "C" },
+        { "stem": "Which person accepts criticism from fans for decisions taken to survive financially?", "answer": "B" },
+        { "stem": "Which person claims their job protects young people from signing damaging agreements?", "answer": "A" },
+        { "stem": "Which person argues that some sports would not survive without broadcast money?", "answer": "D" },
+        { "stem": "Which person values their club's role in the community above winning trophies?", "answer": "B" },
+        { "stem": "Which person was doubted by the people whose money they needed?", "answer": "C" }
+      ]
+    }
+  ]
+}

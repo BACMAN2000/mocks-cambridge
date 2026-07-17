@@ -1,0 +1,181 @@
+{
+  "title": "B1 Preliminary — Reading (Practice 9)",
+  "note": "All six parts are auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Greenfield Supermarket — Staff Room",
+          "text": "ALL WEEKEND STAFF MUST CHECK THE NEW ROTA BEFORE FRIDAY.\nANYONE WHO CANNOT WORK THEIR SHIFT SHOULD SPEAK TO MRS COLE IN PERSON — DO NOT SIMPLY SWAP WITH A COLLEAGUE.",
+          "stem": "What must staff do if they are unable to work a shift?",
+          "options": ["Arrange a swap with another member of staff.", "Write their name on the rota before Friday.", "Tell Mrs Cole about it themselves."],
+          "answer": 2
+        },
+        {
+          "kind": "message",
+          "header": "Text from Paula to Ryan",
+          "text": "Ryan — the café called about your interview tomorrow. The manager has to leave at midday now, so they've moved it from 2pm to 10.30. Take your ID and, if you still have it, that certificate from your food hygiene course — she asked about it twice!",
+          "stem": "Why is Paula writing to Ryan?",
+          "options": ["To pass on new arrangements for his interview.", "To tell him the café has cancelled his interview.", "To remind him to book a food hygiene course."],
+          "answer": 0
+        },
+        {
+          "kind": "email",
+          "from": "Harbourside Cinema",
+          "to": "Part-time applicants",
+          "subject": "Saturday jobs",
+          "body": "Thank you for applying for weekend work at the cinema. As we received so many applications, we will only contact those invited to a trial shift. If you have not heard from us within two weeks, unfortunately your application has not been successful this time.",
+          "stem": "What does the email tell applicants?",
+          "options": ["Everyone will be given a trial shift at the cinema.", "No reply after two weeks means they have not got the job.", "They should contact the cinema again in two weeks."],
+          "answer": 1
+        },
+        {
+          "kind": "sign",
+          "header": "Bellini's Restaurant — Kitchen Entrance",
+          "text": "KITCHEN STAFF ONLY BEYOND THIS POINT.\nWAITERS COLLECTING ORDERS SHOULD WAIT AT THE SERVING HATCH AND MUST NOT ENTER THE COOKING AREA.",
+          "stem": "What does the sign tell waiters?",
+          "options": ["They should pick up food at the hatch instead of going in.", "They may enter the kitchen when it is not busy.", "They must help kitchen staff carry the orders."],
+          "answer": 0
+        },
+        {
+          "kind": "note",
+          "header": "From Dad",
+          "text": "Milly — Mr Osman from the garden centre rang about your Saturday job. He says you left your payment details form on the counter last week, so you haven't been paid yet. Fill it in tonight and hand it to him tomorrow morning, or the money won't go in until next month.",
+          "stem": "What does Milly need to do?",
+          "options": ["Collect her wages from the counter tomorrow.", "Phone Mr Osman about her missing money.", "Complete a form and give it to Mr Osman."],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "The five young people below are looking for a part-time job. Read the descriptions of eight jobs (A–H) and decide which job would be most suitable for each person. There are three jobs you do not need to use.",
+      "sources": [
+        {
+          "label": "6",
+          "name": "Tomas",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/46.jpg\" alt=\"Tomas\" loading=\"lazy\">",
+          "text": "Tomas loves being outdoors and does not mind hard physical work in any weather. He would rather earn a little less than spend his weekends inside a building. He has no experience of dealing with customers and would prefer to avoid it."
+        },
+        {
+          "label": "7",
+          "name": "Sara",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/62.jpg\" alt=\"Sara\" loading=\"lazy\">",
+          "text": "Sara is studying for important exams, so she can only work on Sunday mornings. She is patient and calm, and she enjoyed helping younger pupils with their reading at school. She would like a job where she can use that experience."
+        },
+        {
+          "label": "8",
+          "name": "Marek",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/81.jpg\" alt=\"Marek\" loading=\"lazy\">",
+          "text": "Marek wants to work in a busy place where he can talk to lots of different people, because he is trying to improve his spoken English. Evening work suits him best, as he plays football every Saturday and Sunday afternoon."
+        },
+        {
+          "label": "9",
+          "name": "Lucia",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/17.jpg\" alt=\"Lucia\" loading=\"lazy\">",
+          "text": "Lucia adores animals and is saving to train as a vet. She wants a weekend job where she can care for animals directly, not just sell things for them. She lives in a village and cannot travel far."
+        },
+        {
+          "label": "10",
+          "name": "Ben",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/12.jpg\" alt=\"Ben\" loading=\"lazy\">",
+          "text": "Ben is very keen on cycling and knows how to repair bikes, as he fixes his own and his friends'. He would love a job where he can use these practical skills and learn more from someone experienced."
+        }
+      ],
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Riverside Grill: Our restaurant needs waiters for Friday and Saturday evenings. The dining room is always full, so you will be constantly chatting to customers from all over the world. Good spoken English is useful but perfect English is not expected.",
+          "Pet Supplies Superstore: Help customers choose food and toys for their pets at our large town-centre shop. The work is mainly at the tills and involves no contact with animals themselves. Saturday and Sunday shifts available.",
+          "Hillside Farm: We need a strong, reliable helper for outdoor jobs — moving fences, clearing paths and loading the trailer, whatever the weather. The pay is basic but the fresh air is free! No customer service involved.",
+          "Spoke and Wheel: Our small bicycle workshop is looking for a weekend assistant to help repair and prepare bikes for sale. The owner, a former racing mechanic, will teach you everything as you work. Some experience with basic repairs needed.",
+          "Star Cleaning Services: Early-morning office cleaning, Monday to Friday, before school or college. Quiet, independent work with no customers around. A good choice for someone who likes starting the day early.",
+          "Sunday Story Club: Our library runs a reading club for children aged six to nine every Sunday from 9 to 12. We need a helper to listen to the children read and encourage them. Ideal for a patient student who is busy the rest of the weekend.",
+          "Willow Stables: Small riding school on the edge of the village seeks a weekend helper to feed the ponies, clean the stables and get the animals ready for lessons. Hard work, but you will be hands-on with the horses all day.",
+          "Games Zone: Sell computer games and accessories in our lively shopping-centre store. Full training given. You must be available all day Saturday and Sunday, including the busy afternoon period."
+        ]
+      },
+      "questions": [
+        {"stem": "Tomas", "answer": "C"},
+        {"stem": "Sara", "answer": "F"},
+        {"stem": "Marek", "answer": "A"},
+        {"stem": "Lucia", "answer": "G"},
+        {"stem": "Ben", "answer": "D"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the article about a teenager's first job and choose the best answer A, B, C or D.",
+      "passage": "My summer in the ice-cream van\n\nWhen Jack Turner was sixteen, his uncle Ray offered him a summer job in his ice-cream van, driving between beaches along the coast. \"I said yes straight away,\" Jack remembers. \"Not because I was interested in ice cream, to be honest — I imagined myself relaxing by the sea all day and being paid for it. I found out on the first morning how wrong I was.\"\n\nThe work began at eight, long before the beaches filled up. Jack had to wash the van, load boxes of cones and check the freezers, and by eleven there was often a queue of thirty people stretching across the sand. \"The eight-hour days didn't bother me, and I didn't even mind cleaning the machines,\" he says. \"What I really struggled with was doing sums in my head. With a long queue watching you, giving the right change felt like an exam every two minutes. Uncle Ray never shouted, though. He just told me to slow down, because customers wait happily for a friendly face.\"\n\nAs the weeks passed, Jack surprised himself. He learned the regular customers' orders by heart, invented a game for counting change quickly, and even persuaded his uncle to try a new flavour — lemon and mint — which sold out in a weekend. \"Ray had been selling the same six flavours for twenty years,\" Jack laughs. \"He said nobody would buy it. Now it's the most popular thing in the van.\"\n\nJack is now studying business at college, and he believes the van taught him more than any classroom could. \"People think a summer job is just about earning money. Mine showed me that I actually enjoy working with people, which I never expected. My friends spent those weeks sleeping until midday. I'm not saying they were wrong — but I wouldn't swap my summer for theirs.\"",
+      "questions": [
+        {"stem": "Why did Jack accept the job in the ice-cream van?", "options": ["He had always wanted to work with his uncle.", "He thought it would be an easy way to earn money by the sea.", "He was very interested in how ice cream is made.", "He wanted experience for his business course."], "answer": 1},
+        {"stem": "What did Jack find most difficult about the job?", "options": ["Working for eight hours a day.", "Cleaning the ice-cream machines.", "Dealing with his uncle's temper.", "Calculating change while people watched."], "answer": 3},
+        {"stem": "How did Uncle Ray react to Jack's problems?", "options": ["He advised Jack to take his time.", "He moved Jack to a different task.", "He complained about slow service.", "He reduced Jack's working hours."], "answer": 0},
+        {"stem": "What does Jack say about the lemon and mint flavour?", "options": ["It was his uncle's secret recipe.", "It took a long time to become popular.", "His uncle doubted it would sell.", "It was one of six original flavours."], "answer": 2},
+        {"stem": "What did the summer job teach Jack about himself?", "options": ["That he prefers sleeping late like his friends.", "That he likes working with people.", "That he should study harder at college.", "That earning money is what matters most."], "answer": 1}
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 4",
+      "instructions": "Read the article about young people and part-time work. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+      "passage": "Should teenagers have part-time jobs?\n\nIn many countries, it is completely normal for teenagers to spend a few hours a week working in a shop, a café or a neighbour's garden. (16)____ In others, it is almost unknown, and parents expect their children to concentrate on nothing but school.\n\nSupporters of part-time work say that it teaches skills no classroom can offer. A young person with a Saturday job learns to arrive on time, follow instructions and stay polite even with difficult customers. (17)____ Earning it, they argue, teaches its value far better than simply receiving it.\n\nHowever, teachers often see another side. Some students arrive on Monday morning exhausted after working all weekend. (18)____ When that happens, the benefits of the job quickly disappear.\n\nResearch suggests the answer lies in balance. Studies have found that students who work a small number of hours each week often do just as well at school as those who do not work at all. (19)____ Beyond that point, marks begin to fall and stress begins to rise.\n\nSo what should families do? Experts advise parents to talk to their teenagers about why they want a job, and to agree clear limits from the start. (20)____ A part-time job can be a wonderful preparation for adult life — as long as it stays part-time.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "They also suggest reviewing the arrangement each term, in case schoolwork starts to suffer.",
+          "There is also the question of money, which many teenagers otherwise get from their parents.",
+          "Shops are usually forbidden from employing anyone under this age.",
+          "The same research warns, however, that this only remains true up to about ten hours.",
+          "In fact, most of them would prefer to spend the money on clothes and games.",
+          "In some places, more than half of all sixteen-year-olds have some kind of paid work.",
+          "Employers say that teenagers are usually more reliable than adult workers.",
+          "A few even fall asleep at their desks or stop handing in homework completely."
+        ]
+      },
+      "questions": [
+        {"stem": "Gap 16", "answer": "F"},
+        {"stem": "Gap 17", "answer": "B"},
+        {"stem": "Gap 18", "answer": "H"},
+        {"stem": "Gap 19", "answer": "D"},
+        {"stem": "Gap 20", "answer": "A"}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 5",
+      "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+      "title": "The world's strangest office",
+      "body": "Most people imagine an office as a room full of desks and computers, but for some workers the (21)____ is very different. Lighthouse keepers, forest rangers and scientists at the South Pole all do their jobs in places that most of us will never (22)____. One research station in Antarctica, for example, is home to a small team who (23)____ six months of the year in almost total darkness. They cannot leave, whatever happens, because planes are unable to land in the extreme cold. Before they go, every member of the team has to (24)____ a series of medical tests, and they are trained to repair machines, cook meals and even treat injuries. Surprisingly, many of them return year after year. They say that the silence, the stars and the strong friendships (25)____ up for the difficult conditions. For them, at least, it is worth being so far from home — even if their journey to work is the longest in the (26)____.",
+      "questions": [
+        {"options": ["fact", "point", "reality", "truth"], "answer": 2},
+        {"options": ["visit", "arrive", "travel", "attend"], "answer": 0},
+        {"options": ["pass", "stay", "keep", "spend"], "answer": 3},
+        {"options": ["make", "take", "give", "put"], "answer": 1},
+        {"options": ["make", "take", "get", "bring"], "answer": 0},
+        {"options": ["earth", "globe", "world", "planet"], "answer": 2}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 6",
+      "instructions": "For each gap (27–32), write ONE word.",
+      "title": "Email about a new job",
+      "body": "Hi Carmen,\n\nGuess what — I got the job at the bookshop! I start (27)____ Saturday, so this weekend will be my first day. I'm excited but also a bit nervous, (28)____ I have never worked in a shop before.\n\nThe manager seems really kind. She told me that if I work hard, she (29)____ give me more hours in the summer holidays. The best thing is that staff are allowed (30)____ borrow books for free!\n\nI'll be earning my own money at last, so I won't have to ask my parents every time I want to go (31)____. Why don't you come and visit me at the shop? It's (32)____ far from your house — only ten minutes on foot.\n\nLove,\nElisa",
+      "questions": [
+        {"accept": ["on", "this", "next"]},
+        {"accept": ["because", "as", "since"]},
+        {"accept": ["will", "might", "may", "could", "would"]},
+        {"accept": ["to"]},
+        {"accept": ["out", "shopping", "somewhere"]},
+        {"accept": ["not"]}
+      ]
+    }
+  ]
+}

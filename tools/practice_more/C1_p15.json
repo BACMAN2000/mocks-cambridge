@@ -1,0 +1,192 @@
+{
+  "title": "C1 Advanced — Reading and Use of English (Practice 15)",
+  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The office strikes back",
+      "body": "Predictions about the future of work have a poor track (1)____ . Within living memory the office was declared obsolete at least twice, only for reports of its death to prove greatly (2)____ . The pandemic years appeared to settle the matter for good, yet workers have drifted back, and hybrid arrangements have (3)____ as the awkward compromise nobody designed and nearly everybody tolerates. The balance of power, however, has shifted: employers who (4)____ a full return to desks now risk losing their most mobile staff to rivals with fewer opinions about furniture. Meanwhile, the deeper transformation may (5)____ elsewhere. Tasks long thought immune to automation — drafting contracts, reading scans, writing tolerable prose — are now being (6)____ out by software, and this time it is professional work in the line of advance. Commentators (7)____ divided on whether new occupations will replace the old ones, as they always have before. History (8)____ a note of caution to pessimists: every previous wave of mechanisation ended with more people in work, not fewer. Whether that pattern is a law or merely a streak is the question of the decade.",
+      "questions": [
+        { "options": ["record", "history", "report", "account"], "answer": 0 },
+        { "options": ["inflated", "overblown", "magnified", "exaggerated"], "answer": 3 },
+        { "options": ["appeared", "emerged", "arisen", "surfaced"], "answer": 1 },
+        { "options": ["order", "direct", "mandate", "instruct"], "answer": 2 },
+        { "options": ["stand", "lie", "sit", "rest"], "answer": 1 },
+        { "options": ["worked", "acted", "brought", "carried"], "answer": 3 },
+        { "options": ["stand", "keep", "remain", "stay"], "answer": 2 },
+        { "options": ["sounds", "rings", "calls", "speaks"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The four-day week",
+      "body": "Trials of the four-day working week keep producing results that sound too good (9)____ be true: output steady or better, sick leave falling and resignations rare. Sceptics point out that companies volunteering for such experiments are hardly typical — firms already in trouble do not put (10)____ hands up. Even (11)____ , the consistency of the findings across countries and industries is difficult to dismiss.\n\nThe explanation may be that much of the conventional working week was never productive in the first (12)____ . Meetings expand to fill the time available; so does the appearance of being busy. Compress the week, and the padding is the first thing to (13)____ . Employees, for their part, guard their reclaimed day fiercely, and many say they would refuse a pay rise (14)____ exchange for giving it up.\n\nWhether the model can spread from offices to hospitals, schools and factories is another matter entirely. It is one thing to trim meetings; it is quite (15)____ to staff a ward. The four-day week may prove less a universal entitlement than a privilege of those (16)____ work was flexible to begin with.",
+      "questions": [
+        { "accept": ["to"] },
+        { "accept": ["their"] },
+        { "accept": ["so"] },
+        { "accept": ["place"] },
+        { "accept": ["go", "disappear", "vanish"] },
+        { "accept": ["in"] },
+        { "accept": ["another"] },
+        { "accept": ["whose"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "Working futures",
+      "rows": [
+        { "text": "For many people, flexibility has arrived hand in hand with chronic (17)____ .", "root": "SECURE" },
+        { "text": "Workers are urged to maintain their (18)____ through a lifetime of retraining.", "root": "EMPLOY" },
+        { "text": "Skills acquired at twenty may be thoroughly (19)____ by thirty-five.", "root": "DATE" },
+        { "text": "Much (20)____ work, ironically, may prove easier to automate than skilled manual labour.", "root": "MANAGE" },
+        { "text": "Remote workers frequently report a creeping sense of (21)____ .", "root": "ISOLATE" },
+        { "text": "Surveys consistently find that job (22)____ depends more on autonomy than on salary.", "root": "SATISFY" },
+        { "text": "For younger employees, flexible hours are increasingly (23)____ .", "root": "NEGOTIATE" },
+        { "text": "In an unpredictable labour market, (24)____ may be the only durable skill of all.", "root": "ADAPT" }
+      ],
+      "questions": [
+        { "root": "SECURE", "accept": ["insecurity"] },
+        { "root": "EMPLOY", "accept": ["employability"] },
+        { "root": "DATE", "accept": ["outdated"] },
+        { "root": "MANAGE", "accept": ["managerial"] },
+        { "root": "ISOLATE", "accept": ["isolation"] },
+        { "root": "SATISFY", "accept": ["satisfaction"] },
+        { "root": "NEGOTIATE", "accept": ["non-negotiable", "nonnegotiable"] },
+        { "root": "ADAPT", "accept": ["adaptability"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
+      "questions": [
+        {
+          "before": "Applicants must have three years' experience to be considered for the post.",
+          "keyword": "WITHOUT",
+          "after": "Applicants ___ experience will not be considered for the post.",
+          "accept": ["without three years'", "without three years of", "without three years"]
+        },
+        {
+          "before": "The firm let staff work from home so that they would not resign.",
+          "keyword": "STOP",
+          "after": "The firm let staff work from home to ___ resigning.",
+          "accept": ["stop them from", "stop staff from", "stop people from"]
+        },
+        {
+          "before": "My commute used to take two hours a day, but now it doesn't.",
+          "keyword": "LONGER",
+          "after": "My commute ___ two hours a day.",
+          "accept": ["no longer takes"]
+        },
+        {
+          "before": "The management would rather we raised problems immediately.",
+          "keyword": "SOONER",
+          "after": "The management would ___ problems immediately.",
+          "accept": ["sooner we raised"]
+        },
+        {
+          "before": "Automation is likely to affect clerical jobs most severely.",
+          "keyword": "LIKELY",
+          "after": "It is clerical jobs that are ___ affected by automation.",
+          "accept": ["most likely to be", "the most likely to be"]
+        },
+        {
+          "before": "She took the job because the hours were flexible.",
+          "keyword": "ACCOUNT",
+          "after": "She took the job on ___ flexible hours.",
+          "accept": ["account of its", "account of the"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The end of the career\n\nThe anxious question of our moment — will the machines take the jobs? — may turn out to be the wrong one. Jobs, in the sense of tasks people are paid to do, show every sign of surviving; there is no shortage of things the world needs done. What is quietly disappearing is something more particular and, for those who built their lives on it, more precious: the career. By this I mean the institution, barely a century old, in which a person trained once, joined an occupation in their twenties, ascended a legible ladder within it, and retired from roughly the trade they had entered — an arc so standard that we still ask children what they want to 'be', as though a working life were a single noun.\n\nIt is worth remembering how exceptional that arrangement was. For most of history, most people assembled their livelihoods rather than pursued them: the household combined farming with weaving, carting, brewing and whatever the season offered. The single-employer career was a creature of a specific industrial moment — one that needed masses of workers in one place, valued firm-specific experience, and bought loyalty with pensions and progression. As those conditions dissolve, work is in some ways reverting to its older, patchwork pattern. The novelty of the 'portfolio worker' juggling clients and gigs would have been perfectly familiar to an eighteenth-century villager; what she would have found strange is the loneliness of it.\n\nThe champions of the new flexibility are not wrong about its attractions. Autonomy is real; so is escape from the petty tyrannies of the office, and survey after survey finds independent workers reporting higher engagement than their salaried counterparts. But the brochure omits the accounting. The old career bundled income together with insurance against sickness, structured training, predictable ageing and a ready-made answer to the question of who one is. Unbundle it, and each of these must now be secured privately, by individuals wildly unequal in their capacity to do so. What is marketed as freedom is, among other things, a massive transfer of risk — from institutions with actuaries onto households with credit cards — and the transfer has been executed without anyone much voting on it.\n\nThe subtler loss is narrative. Careers told a story: sacrifices now were investments in a legible later, and the shape gave meaning to drudgery no gig can redeem. It is fashionable to mock the corporation man's loyalty, but he possessed something his grandchildren conspicuously lack — the reasonable expectation that effort compounds. Work without accumulation, each engagement beginning at zero, is experienced less as variety than as erosion; the psychological literature on gig workers reads, in places, like the literature on gamblers, and for the same structural reason: reward has been decoupled from history.\n\nWhat follows? Not, I think, nostalgia. The old career was also a cage, and it was never offered to everyone — its securities were rationed by class, sex and geography, a fact its eulogists forget. The task is to disentangle what the career did from the form in which it did it: to rebuild portable versions of the bundle — benefits attached to the person rather than the post, training that any engagement pays into, pensions that follow the worker across a lifetime of employers — so that flexibility stops being a euphemism for exposure. Some countries have begun; most are still pretending the twentieth-century settlement will grow back.\n\nIt will not. The career, as an institution, is going the way of the guild it once replaced. The question that matters is not how to preserve it but what, this time, we will build to do its work — and whether we build it before or after a generation discovers, at sixty, that flexibility was the name of the risk they were carrying all along.",
+      "questions": [
+        { "stem": "What distinction does the writer draw in the first paragraph?", "options": ["Between manual and professional occupations.", "Between training and experience.", "Between well-paid and poorly paid jobs.", "Between work itself, which will survive, and the career as an institution, which is disappearing."], "answer": 3 },
+        { "stem": "Why does the writer describe pre-industrial work in the second paragraph?", "options": ["To argue that living standards have always been precarious.", "To show that farming once dominated employment.", "To show that today's patchwork of gigs resembles a much older pattern of working life.", "To prove that the modern career began in the eighteenth century."], "answer": 2 },
+        { "stem": "What does the writer mean by a 'massive transfer of risk'?", "options": ["Protections once provided by employers must now be secured by individuals themselves.", "Companies now face greater competition than before.", "Investors have moved their money into technology firms.", "Governments have taken over responsibility for pensions."], "answer": 0 },
+        { "stem": "What 'subtler loss' does the fourth paragraph identify?", "options": ["The decline of workplace friendships.", "The loss of a narrative in which present effort accumulates towards a meaningful future.", "The disappearance of long-service financial rewards.", "The reduction in leisure time available to gig workers."], "answer": 1 },
+        { "stem": "What is the writer's attitude to the traditional career in the fifth paragraph?", "options": ["Unqualified admiration for its securities.", "Regret that it cannot be restored exactly as it was.", "Indifference, since its disappearance affects few people.", "Recognition that it was also restrictive and unfairly distributed."], "answer": 3 },
+        { "stem": "What does the writer argue should be done?", "options": ["Workers should be discouraged from freelance arrangements.", "Employers should be required to offer lifetime contracts.", "The career's protective functions should be rebuilt in portable forms attached to the person.", "The twentieth-century employment settlement should be reinstated."], "answer": 2 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "Read four short opinion pieces (A–D) on the same topic: whether the prospect of widespread automation justifies introducing a universal basic income. Then answer the questions.",
+      "sources": [
+        { "label": "A", "text": "We no longer need to speculate; we have data. In the pilot schemes now completed on three continents, the recipients of unconditional payments did not retreat to their sofas — employment barely moved, while measures of health, schooling and trust improved with almost monotonous regularity. Most strikingly, the payments changed how people could say no: to exploitative shifts, to violent households, to work that consumed the hours needed for retraining. That power of refusal is what a floor under existence means, and it is precisely what our current safety nets, with their queues and interrogations, are designed to withhold. The objections that remain are theological, not empirical. The experiments have reported. We should have the nerve to read them." },
+        { "label": "B", "text": "The evidence I cannot get past points the other way. Every study we possess of communities that lost work wholesale — mining towns, mill towns, the regions hollowed out by offshoring — records the same sequence: the money problem was survivable; the meaning problem was not. Structure, standing, the discipline of being needed at a set hour by people who notice your absence: these turn out to be load-bearing, and a monthly transfer replaces none of them. I would sooner see the state become an employer of last resort — there is no shortage of care to give and coastlines to defend — than see it pension off whole populations into comfortable superfluity. A cheque is not a role. We are creatures who need roles." },
+        { "label": "C", "text": "Before we redesign civilisation, may I ask what happened to the last five deadlines for the end of work? The automated warehouse was to have emptied the labour market by 1980; the computer by 2000; the robot by 2020. Each time, tasks changed, occupations churned, and employment, after painful transitions, grew. The economists' postmortems agree on why: technology substitutes for particular tasks, not for the general human capacity to be useful, and demand for that capacity keeps finding new outlets. I do not rule out that this wave differs. But a permanent, expensive institution founded on a prediction with this track record is poor engineering. Fund rapid retraining, cushion transitions generously — and keep our nerve about forecasts that have been wrong at every previous asking." },
+        { "label": "D", "text": "I have read a hundred essays for and against, and almost none tells me the three things that would decide my vote: the level, the funding, and what it replaces. A basic income set at subsistence, financed by broad taxation, supplementing existing services, is one policy; the same slogan set higher, funded by dismantling healthcare and housing support, is a profoundly different and darker one — and both march under the same banner in these debates. The pilots, for all their interest, cannot settle this, because a trial replaces nothing and taxes no one. My plea is not for or against; it is for the argument to descend from the slogan to the spreadsheet, where the actual policy lives. Until then, both camps are debating a phrase." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Writer A", "Writer B", "Writer C", "Writer D"] },
+      "questions": [
+        { "stem": "Which writer argues that the debate cannot be resolved until the policy's practical details are specified?", "answer": "D" },
+        { "stem": "Which writer doubts that automation will in fact produce the crisis the policy is meant to address?", "answer": "C" },
+        { "stem": "Which writer supports the proposal chiefly on the basis of experimental results?", "answer": "A" },
+        { "stem": "Which writer believes guaranteed income cannot replace what work provides beyond money?", "answer": "B" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "In the article below there are SIX gaps (41–46). Choose the best paragraph (A–H) from the bank for each gap. There are two extra paragraphs.",
+      "passage": "What happened to the typists\n\nIn 1970, the largest room in almost every great office building was the typing pool, and the sound of it — hundreds of machines in imperfect unison — was simply what work sounded like. Within twenty-five years the rooms were gone, the occupation had all but vanished, and hardly anyone had noticed it go. (41)____\n\nThe women of the pools — and they were, overwhelmingly, women — were not unskilled, whatever the pay grades implied. (42)____\n\nThe first word processors arrived in the mid-1970s, and the office planners drew the obvious conclusion: fewer keystrokes per document meant fewer typists per floor. (43)____\n\nFor a while, the forecasts seemed simply wrong. The machines spread and yet the pools grew, because cheaper documents meant more documents, a pattern economists had seen before in other trades. (44)____\n\nWhat finally emptied the rooms was not a better typewriter but a redistribution of the task itself. When the terminal landed on every desk, the executive who had once dictated began, grudgingly and badly at first, to type — and an occupation did not so much die as dissolve into everyone else's job description. (45)____\n\nThe episode repays study now, as software begins to draft the documents themselves. The lesson of the pools is not that prediction is impossible but that it fixates on the wrong quantity. (46)____ The typists could have told them that, had anyone thought to ask.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "A first-class typist carried in her hands a precision that took years to build, and in her head the unwritten manual of the institution: its formats, its hierarchies, and which director's grammar required silent correction.",
+          "Their union, one of the first to organise office workers, fought the reclassification for a decade before accepting defeat.",
+          "The pools also enforced a discipline that later offices would abandon: documents went out clean or not at all.",
+          "Trade journals of the period duly predicted the disappearance of the typist within a decade — a forecast that proved right about the direction and wrong about the mechanism.",
+          "It is worth pausing on that silence, because we are promised, almost weekly, that some occupation or other is about to disappear, and the typing pool is one of the few cases where the promise was actually kept.",
+          "Machines rarely delete work outright; they move it, hiding it inside other jobs, and the headcount of an occupation can fall to zero while the hours of the task barely change.",
+          "By 1985 some pools were larger than they had been in 1970, and a few managers concluded, comfortably, that the whole scare had been another false alarm.",
+          "Similar rooms full of human 'computers' had performed calculation by hand until the 1960s, when the electronic kind took their name along with their work."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing paragraph:", "answer": "E" },
+        { "stem": "Choose the missing paragraph:", "answer": "A" },
+        { "stem": "Choose the missing paragraph:", "answer": "D" },
+        { "stem": "Choose the missing paragraph:", "answer": "G" },
+        { "stem": "Choose the missing paragraph:", "answer": "B" },
+        { "stem": "Choose the missing paragraph:", "answer": "F" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 8",
+      "instructions": "You are going to read four short pieces (A–D) by people navigating the changing world of work. Answer the questions by choosing the appropriate person.",
+      "sources": [
+        { "label": "A", "text": "Dario — bicycle courier on delivery apps. People pity me at dinner parties, which is interesting, because half of them hate jobs they cannot leave and I have never once dreaded a Monday. Let me be exact about the bargain, since nobody else is: the freedom is real — I ride when I choose, answer to no one's meeting, and the city at six in the morning is mine — and so is the arithmetic, which prices my labour to the minute with no floor under a slow week. What changed things for me was treating the apps as customers rather than employers: I run three at once, track my own numbers, and drop whichever pays worst that month. The riders who suffer are the ones who give one app the loyalty it would never return. My knees will not do this for ever, and I bank accordingly. That, not the algorithm, is the deadline I ride against." },
+        { "label": "B", "text": "Ingrid — former print machinist, now a wind-turbine technician. When the plant closed I was forty-eight, and the retraining brochure, with its photograph of smiling young men on a turbine, felt like an insult aimed personally at me. I enrolled out of spite as much as hope. The course nearly broke me — not the physical part, the classroom part, sitting in rows again after thirty years of being the one who knew things. What nobody tells you about starting over is the humiliation of competence lost: I had been the machinist the apprentices queued to ask, and suddenly I was the one asking. Three years on, the work is good and the sea from a nacelle at dawn is better than anything the plant ever showed me. But I resent, still, how nearly I didn't go, and how many of my old crew wouldn't — not from laziness, but because no one designs retraining for people grieving the self they were." },
+        { "label": "C", "text": "Sam — founder of a fully remote software company. We have forty staff in eleven countries and no office, and I will defend the model against all comers — with one confession I make more quietly. The defence: we hire talent no office firm can reach, our people structure their own days, and the documents-first culture forced on us by distance turns out to produce better decisions than any meeting room. The confession: the office was doing invisible work I have spent five years building machinery to replace. Juniors learn by overhearing, and nobody overhears anything at home; so we now fly the whole company together twice a year, pair every newcomer with a mentor they call daily, and I write down, laboriously, the context a corridor once transmitted free. Remote is not the absence of an office. It is the office rebuilt deliberately, and most firms that fail at it skipped the rebuilding." },
+        { "label": "D", "text": "Priti — union organiser among warehouse and platform workers. The hardest part of my job is not the companies; it is the story the workers have already swallowed before I arrive — that they are entrepreneurs, one clever month from freedom, and that solidarity is for employees, which they are told they are not. I organise people whose supervisor is an app and whose colleagues are strangers timed against each other, and the old tools assume a canteen where you can talk. So we improvise: the group chat is the new canteen, and our biggest win last year began with two hundred drivers comparing screenshots and discovering the app quoted each of them a different rate for the same job. Transparency, it turns out, is a demand the algorithm finds harder to absorb than a pay claim. The work is slow. But every generation was told organising was impossible right up until it happened." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Dario", "Ingrid", "Sam", "Priti"] },
+      "questions": [
+        { "stem": "Which person protects themselves by refusing to depend on a single source of work?", "answer": "A" },
+        { "stem": "Which person admits that their model had to painstakingly recreate something it had discarded?", "answer": "C" },
+        { "stem": "Which person found the emotional experience of being a beginner again hardest to bear?", "answer": "B" },
+        { "stem": "Which person must first overcome workers' own beliefs about what they are?", "answer": "D" },
+        { "stem": "Which person deliberately documents knowledge that was once passed on informally?", "answer": "C" },
+        { "stem": "Which person is planning around the physical limits of their working life?", "answer": "A" },
+        { "stem": "Which person describes a success achieved when workers shared information with one another?", "answer": "D" },
+        { "stem": "Which person criticises how programmes for people changing occupation are designed?", "answer": "B" },
+        { "stem": "Which person concedes a serious drawback of an arrangement they publicly champion?", "answer": "C" },
+        { "stem": "Which person rejects the sympathy that others direct at their situation?", "answer": "A" }
+      ]
+    }
+  ]
+}

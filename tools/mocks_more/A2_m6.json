@@ -1,0 +1,158 @@
+{
+  "title": "A2 Key — Reading and Writing (MOCK 6)",
+  "note": "Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Petsville Animal Shop",
+          "text": "FREE TALK THIS FRIDAY AT 5 P.M.: 'YOUR FIRST RABBIT'. PLACES ARE LIMITED, SO PLEASE PUT YOUR NAME ON THE LIST AT THE DESK.",
+          "stem": "How can people get a place at the talk?",
+          "options": ["By paying at the desk on Friday.", "By arriving early at 5 p.m.", "By writing their name on a list."],
+          "answer": 2
+        },
+        {
+          "kind": "message",
+          "header": "From: Ben → To: Lily",
+          "text": "Lily, we're back from holiday tomorrow evening, so you only need to feed the cat in the morning. Leave the key under the flowerpot as usual. Thanks so much — we've bought you a little present!",
+          "stem": "What does Ben want Lily to do tomorrow?",
+          "options": ["Feed the cat in the morning and the evening.", "Give the cat food one more time.", "Buy a little present for the cat."],
+          "answer": 1
+        },
+        {
+          "kind": "email",
+          "from": "Dr Green, Town Vet",
+          "to": "Mrs Park",
+          "subject": "Charlie",
+          "body": "Dear Mrs Park, thank you for bringing Charlie in today. His leg is getting better, but he must not run or jump for another week. Keep him inside the house, and give him one tablet with his dinner every evening. Bring him back next Monday for a last check.",
+          "stem": "What must Mrs Park do this week?",
+          "options": ["Keep Charlie indoors and give him his tablets.", "Take Charlie for a run every evening.", "Visit the vet with Charlie every day."],
+          "answer": 0
+        },
+        {
+          "kind": "note",
+          "header": "Note for Sam",
+          "text": "Sam — I've cleaned the fish tank, so please don't feed the fish again today; I already did it. You can feed them tomorrow before school instead. — Grandpa",
+          "stem": "Why has Grandpa written this note?",
+          "options": ["To ask Sam to clean the fish tank.", "To remind Sam to feed the fish today.", "To stop Sam giving the fish more food."],
+          "answer": 2
+        },
+        {
+          "kind": "sign",
+          "header": "Oakwood Park",
+          "text": "DOGS ARE WELCOME BUT MUST BE KEPT ON A LEAD NEAR THE CHILDREN'S PLAYGROUND AND THE LAKE. PLEASE PUT ALL DOG WASTE IN THE RED BINS.",
+          "stem": "Where must dogs be on a lead?",
+          "options": ["Everywhere in the park.", "Close to the playground and the lake.", "Only next to the red bins."],
+          "answer": 1
+        },
+        {
+          "kind": "notice",
+          "header": "Missing — Grey Parrot",
+          "text": "OUR PARROT COCO FLEW OUT OF A WINDOW ON MONDAY. SHE IS GREY WITH A RED TAIL AND CAN SAY 'HELLO'. IF YOU SEE HER, PLEASE DON'T TRY TO CATCH HER — PHONE 07700 900123.",
+          "stem": "What should someone do if they see Coco?",
+          "options": ["Call the owner's phone number.", "Try to catch her carefully.", "Say 'hello' to her and wait."],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "Read about three young people and their pets. For each question, choose the correct person (A, B or C). The people may be chosen more than once.",
+      "sources": [
+        {
+          "label": "A",
+          "name": "Hana",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/8.jpg\" alt=\"Hana\" loading=\"lazy\">",
+          "text": "I have a tortoise called Rocky. He belonged to my grandmother first, and she gave him to me when I turned ten. He is over forty years old — older than my mum! He's easy to look after, because he mostly eats leaves from the garden. The only boring part is winter, when he sleeps for months and I have nothing to do."
+        },
+        {
+          "label": "B",
+          "name": "Diego",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/63.jpg\" alt=\"Diego\" loading=\"lazy\">",
+          "text": "My dog Luna is only one year old, so she's still learning. She once chewed my new trainers, and my dad wasn't happy at all! I walk her twice a day, even when it's raining hard. On Tuesday evenings we go to a training class together in the village hall, and she is getting better every week."
+        },
+        {
+          "label": "C",
+          "name": "Grace",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/90.jpg\" alt=\"Grace\" loading=\"lazy\">",
+          "text": "I keep two pet rats, Salt and Pepper. My friends think that's strange, but rats are clever and very clean. I've taught them to run to me when I clap my hands. My mum didn't want them in the house at the beginning, but now she often watches them play and says they are sweet."
+        }
+      ],
+      "questions": [
+        {"stem": "Which person goes to classes with their pet?", "answer": "B"},
+        {"stem": "Which person's parent has changed their opinion about the pet?", "answer": "C"},
+        {"stem": "Which person has a pet that is older than one of their parents?", "answer": "A"},
+        {"stem": "Which person got their pet from a member of their family?", "answer": "A"},
+        {"stem": "Which person has taught their pet to come when it hears a sound?", "answer": "C"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the text about a boy who looked after a wild animal. Choose the correct answer A, B or C.",
+      "passage": "One cold evening last October, Oscar heard a strange noise in the garden. Under a pile of leaves, he found a baby hedgehog. It was tiny and very thin. Oscar wanted to bring it into the warm kitchen at once, but his mother said they should ring the vet first to ask what to do.\n\nThe vet explained that the hedgehog was too small to sleep through the winter outside, and that without help it would probably die. She said the family could look after it until spring, but they must remember it was a wild animal, not a pet. She told Oscar to weigh it once a week, and to feed it dog food — never bread or milk, which are bad for hedgehogs.\n\nOscar made the hedgehog a warm box in the garage and called it Conker. Every evening after homework, he gave it food and fresh water. Once a week he weighed it and wrote the number in a little notebook. His sister wanted to hold Conker, but Oscar only let her watch, because the vet had said the animal needed quiet.\n\nBy March, Conker was fat and healthy. One warm evening, the family carried the box to the bottom of the garden and opened it. Conker walked slowly out and disappeared under the fence. Oscar felt sad and happy at the same time. Now he leaves a bowl of water in the garden every night — just in case Conker comes back to visit.",
+      "questions": [
+        {"stem": "What did Oscar's mother say when he found the hedgehog?", "options": ["Put it back under the leaves.", "Phone the vet before doing anything.", "Bring it into the kitchen quickly."], "answer": 1},
+        {"stem": "What did the vet tell the family?", "options": ["The hedgehog needed help to live through the winter.", "The hedgehog would make a lovely pet.", "They should give the hedgehog bread and milk."], "answer": 0},
+        {"stem": "What did Oscar do every evening?", "options": ["He weighed Conker and wrote the number down.", "He let his sister hold Conker.", "He gave Conker food and fresh water."], "answer": 2},
+        {"stem": "Why couldn't Oscar's sister hold Conker?", "options": ["She was too afraid to touch him.", "The vet had said the animal needed quiet.", "Oscar wanted to keep Conker for himself."], "answer": 1},
+        {"stem": "How did Oscar feel when Conker left?", "options": ["Only sad about it.", "Angry with his family.", "Sad and happy at the same time."], "answer": 2}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 4",
+      "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+      "title": "Choosing the right pet",
+      "body": "Before you get a pet, you should think (19)____ about which animal is right for you. Dogs are great fun, (20)____ they need a walk every day, even in bad weather. Cats are easier, because they are happy to spend time (21)____ their own. If your home is small, a bird or some fish (22)____ be a better choice. Remember that pets cost money: they all need food, and sometimes a visit to the vet (23)____ well. A pet is not a toy — it is a friend (24)____ may live with you for many years.",
+      "questions": [
+        {"options": ["careful", "carefully", "care", "caring"], "answer": 1},
+        {"options": ["but", "because", "or", "if"], "answer": 0},
+        {"options": ["by", "on", "at", "for"], "answer": 1},
+        {"options": ["must", "should", "need", "might"], "answer": 3},
+        {"options": ["so", "too", "as", "also"], "answer": 2},
+        {"options": ["who", "what", "that", "where"], "answer": 2}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 5",
+      "instructions": "For each gap (25–30), write ONE word.",
+      "title": "A thank-you letter about a kitten",
+      "body": "Hi Uncle Joe,\n\nThank you so much (25)____ the beautiful kitten! We have decided to call (26)____ Milly. She sleeps on my bed every night.\n\nMilly is very funny. Yesterday she climbed (27)____ the big tree in our garden and could not get down. Dad had to use a ladder!\n\n(28)____ are you coming to visit us again? Milly would love to meet you. Please come (29)____ soon as you can.\n\nThank you again. You are (30)____ kindest uncle in the world!\n\nLove,\nPoppy",
+      "questions": [
+        {"accept": ["for"]},
+        {"accept": ["her", "it"]},
+        {"accept": ["up", "into"]},
+        {"accept": ["when"]},
+        {"accept": ["as"]},
+        {"accept": ["the"]}
+      ]
+    },
+    {
+      "type": "writing",
+      "part": "Part 6",
+      "prompts": [{
+        "kind": "email",
+        "instructions": "Your English friend Robin is going to get a pet soon. Write an email to Robin. In your email: say which pet you think Robin should get / explain why it is a good pet / ask when Robin will get it.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    },
+    {
+      "type": "writing",
+      "part": "Part 7",
+      "prompts": [{
+        "kind": "story",
+        "instructions": "Write a story for your English class. Your story must begin with this sentence:\nWhen Leo opened the kitchen door, his dog was not there.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    }
+  ]
+}

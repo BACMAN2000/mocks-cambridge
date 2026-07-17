@@ -1,0 +1,189 @@
+{
+  "title": "B2 First — Reading and Use of English (Practice 17)",
+  "note": "Parts 1–7 are auto-scored. Counts on the longest sections are slightly trimmed for length; task types are authentic.",
+  "parts": [
+    {
+      "type": "clozeMC",
+      "part": "Part 1",
+      "instructions": "Read the text and decide which answer (A, B, C or D) best fits each gap.",
+      "title": "The game inside the head",
+      "body": "Ask any professional athlete what separates winners from the rest at the highest (1)____, and few will talk about muscles. Physical differences at the top of any sport are now so small that contests are frequently (2)____ in the mind. Under extreme pressure, even vastly experienced players can (3)____ victim to the phenomenon known as choking, in which skills practised for decades suddenly break (4)____ at the very moment they are needed most. Sports psychologists teach athletes to (5)____ with this pressure through fixed routines, controlled breathing and careful habits of thought. Visualisation, in which a performance is rehearsed repeatedly in the imagination before it happens, has proved genuinely effective, (6)____ the mockery it attracted when it was first introduced. Confidence itself, the research suggests, is less a personality trait (7)____ a skill, one that can be built through training like any other. Champions, it turns out, are not born fearless. They simply learn, through long practice, to perform in (8)____ of their fear.",
+      "questions": [
+        { "options": ["degree", "stage", "grade", "level"], "answer": 3 },
+        { "options": ["decided", "solved", "chosen", "concluded"], "answer": 0 },
+        { "options": ["drop", "go", "fall", "turn"], "answer": 2 },
+        { "options": ["off", "down", "out", "away"], "answer": 1 },
+        { "options": ["cope", "manage", "handle", "face"], "answer": 0 },
+        { "options": ["although", "however", "besides", "despite"], "answer": 3 },
+        { "options": ["as", "than", "but", "like"], "answer": 1 },
+        { "options": ["view", "case", "spite", "front"], "answer": 2 }
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 2",
+      "instructions": "Read the text and think of ONE word which best fits each gap.",
+      "title": "The mystery of home advantage",
+      "body": "Ask sports fans why teams win more often at home and most will point confidently to the crowd. The truth turns (9)____ to be more complicated. Home advantage exists in almost every sport, but it has been shrinking for decades, (10)____ suggests that some of its causes are gradually disappearing. Travel is one: a century ago, away teams arrived exhausted after long journeys, whereas today they fly in comfort. Familiarity is another, since players know every corner of their own ground. But the most surprising factor may (11)____ been the referees. When researchers studied matches played, in exceptional circumstances, inside completely empty stadiums, they found that officials awarded far (12)____ decisions against the home side than usual. It seems that, (13)____ realising it, referees are influenced by the roar of the crowd. None of this means supporters are wasting their time. Many players say they would (14)____ play in front of a full home crowd than an empty stand, and describe the silence of a deserted stadium (15)____ deeply unsettling. The advantage is real; it is simply not as large, (16)____ as simple, as the fans like to believe.",
+      "questions": [
+        { "accept": ["out"] },
+        { "accept": ["which"] },
+        { "accept": ["have"] },
+        { "accept": ["fewer"] },
+        { "accept": ["without"] },
+        { "accept": ["rather", "sooner"] },
+        { "accept": ["as"] },
+        { "accept": ["or", "nor"] }
+      ]
+    },
+    {
+      "type": "wordform",
+      "part": "Part 3",
+      "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
+      "title": "The making of a champion",
+      "rows": [
+        { "text": "Talent alone offers no (17)____ of sporting", "root": "CERTAIN" },
+        { "text": "success, as coaches never tire of repeating." },
+        { "text": "" },
+        { "text": "Psychologists who study young athletes stress" },
+        { "text": "the (18)____ of how failure is handled.", "root": "IMPORTANT" },
+        { "text": "" },
+        { "text": "Some promising players react to defeat with such" },
+        { "text": "(19)____ that they abandon the sport entirely.", "root": "DISAPPOINT" },
+        { "text": "" },
+        { "text": "Others treat losing as (20)____ feedback and", "root": "VALUE" },
+        { "text": "return to training measurably stronger." },
+        { "text": "" },
+        { "text": "This quality, often called mental (21)____, can", "root": "TOUGH" },
+        { "text": "be developed like any muscle." },
+        { "text": "" },
+        { "text": "Coaches now receive special (22)____ in building", "root": "INSTRUCT" },
+        { "text": "confidence as well as fitness." },
+        { "text": "" },
+        { "text": "Pushy parents, sadly, are often deeply (23)____,", "root": "HELP" },
+        { "text": "criticising children for every lost point." },
+        { "text": "" },
+        { "text": "The (24)____ of sport, at its best, lies in learning", "root": "ENJOY" },
+        { "text": "to love the game beyond the result." }
+      ],
+      "questions": [
+        { "root": "CERTAIN", "accept": ["certainty"] },
+        { "root": "IMPORTANT", "accept": ["importance"] },
+        { "root": "DISAPPOINT", "accept": ["disappointment"] },
+        { "root": "VALUE", "accept": ["valuable"] },
+        { "root": "TOUGH", "accept": ["toughness"] },
+        { "root": "INSTRUCT", "accept": ["instruction"] },
+        { "root": "HELP", "accept": ["unhelpful"] },
+        { "root": "ENJOY", "accept": ["enjoyment"] }
+      ]
+    },
+    {
+      "type": "transform",
+      "part": "Part 4",
+      "instructions": "For each question, complete the second sentence so that it has a similar meaning to the first, using the word given. Write between TWO and FIVE words, including the word given.",
+      "questions": [
+        {
+          "before": "\"I didn't touch the ball with my hand,\" said the striker.",
+          "keyword": "DENIED",
+          "after": "The striker ___ the ball with his hand.",
+          "accept": ["denied touching", "denied having touched", "denied that he had touched"]
+        },
+        {
+          "before": "The coach made the players train twice a day.",
+          "keyword": "WERE",
+          "after": "The players ___ twice a day.",
+          "accept": ["were made to train"]
+        },
+        {
+          "before": "Our team hasn't won a match since March.",
+          "keyword": "TIME",
+          "after": "The ___ won a match was in March.",
+          "accept": ["last time our team", "last time the team"]
+        },
+        {
+          "before": "It's not worth arguing with the referee.",
+          "keyword": "POINT",
+          "after": "There is ___ with the referee.",
+          "accept": ["no point in arguing", "no point arguing"]
+        },
+        {
+          "before": "If she trains hard, she has a chance of qualifying.",
+          "keyword": "PROVIDED",
+          "after": "She has a chance of qualifying ___ hard.",
+          "accept": ["provided she trains", "provided that she trains"]
+        },
+        {
+          "before": "The match will probably be cancelled.",
+          "keyword": "LIKELY",
+          "after": "The match ___ cancelled.",
+          "accept": ["is likely to be"]
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 5",
+      "instructions": "Read the text and choose the best answer (A, B, C or D) for each question.",
+      "passage": "The anatomy of choking\n\nEvery sports fan has witnessed it, usually through their fingers. A champion who has performed a skill flawlessly ten thousand times — a short putt, a free throw, a simple serve — arrives at the decisive moment of a career and, inexplicably, cannot do it. Commentators reach for words like tragedy; players themselves rarely talk about it at all. Psychologists call it choking, and after decades of research they can now describe, in surprising detail, what is actually going wrong.\n\nThe explanation is stranger than simple nerves. A skill practised for years becomes automatic, stored in the brain in a form that no longer requires step-by-step supervision; the expert's hands, in a real sense, know the movement better than the expert does. Pressure undoes this arrangement. Desperate not to fail, the performer starts consciously monitoring actions that normally run by themselves — checking the grip, steering the elbow, thinking through a movement that was never designed to be thought through. The supervision itself is the sabotage. It is as if a passenger, terrified of a crash, grabbed the wheel from a perfectly competent driver.\n\nThe theory makes a curious prediction: paying close attention to technique should harm experts while helping beginners, whose skills are not yet automatic. Experiments confirm exactly this. Novice golfers putt better when asked to focus on their movements; skilled golfers putt dramatically worse. The same instruction is medicine at one end of expertise and poison at the other — which explains why well-meaning advice to 'concentrate on your technique' is precisely the worst thing to shout at a struggling professional.\n\nThe remedies that work all share one logic: keep the conscious mind busy elsewhere. Pre-shot routines — the same bounce of the ball, the same breath, the same count — give the anxious mind a harmless script to follow while the automatic system does its work. Some athletes sing quietly to themselves; others fix their eyes on a single external target, a technique borrowed from studies of elite performers whose gaze, at the critical moment, is strikingly still. What unites these tricks is humility: the recognition that at the highest level, the thinking mind's job is to prepare everything beforehand and then, at the moment itself, to step aside.\n\nFor years, athletes hid all of this. To consult a sports psychologist was to admit weakness, and many champions did so only in secret, if at all. That stigma has largely collapsed. Most professional teams now employ psychologists as routinely as physiotherapists, and players discuss pressure in interviews with a frankness that would have been unthinkable a generation ago. The change reflects a broader conclusion that the research has made unavoidable: the mind is not a mysterious extra in sport but a trainable part of the athlete, and the hours spent preparing it deserve the same seriousness as the hours spent in the gym. The final frontier of performance, it turns out, was never in the muscles.",
+      "questions": [
+        { "stem": "What is 'choking', as described in the first paragraph?", "options": ["A breathing difficulty common in endurance sport.", "The sudden failure of a well-practised skill at a decisive moment.", "A tactic used to unsettle opponents.", "A word commentators use for any defeat."], "answer": 1 },
+        { "stem": "According to the second paragraph, what actually goes wrong under pressure?", "options": ["The performer stops caring about the result.", "The muscles become physically weaker.", "The performer forgets the rules of the game.", "The performer starts consciously supervising movements that normally run automatically."], "answer": 3 },
+        { "stem": "What 'curious prediction' do the experiments confirm?", "options": ["That golf is harder than other sports.", "That beginners and experts respond identically to instructions.", "That focusing on technique helps beginners but harms experts.", "That novices cannot improve with practice."], "answer": 2 },
+        { "stem": "What logic unites the remedies described in the fourth paragraph?", "options": ["They keep the conscious mind occupied so the automatic skill can run undisturbed.", "They increase the performer's anxiety deliberately.", "They replace old techniques with new ones mid-competition.", "They require the athlete to analyse each movement in detail."], "answer": 0 },
+        { "stem": "What does the writer say about attitudes to sports psychology?", "options": ["Teams still refuse to employ psychologists.", "Players remain too embarrassed to discuss pressure.", "Consulting a psychologist is now grounds for exclusion.", "The old stigma has largely disappeared, and psychologists are now standard in professional teams."], "answer": 3 },
+        { "stem": "Which statement best reflects the writer's conclusion?", "options": ["Muscles matter more than minds in modern sport.", "The mind is a trainable part of the athlete and deserves the same seriousness as physical preparation.", "Choking is untreatable and career-ending.", "Only secret consultations with psychologists are effective."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 6",
+      "instructions": "In the article below there are SIX gaps (37–42). Choose the best sentence (A–H) from the bank to fill each gap. There are two extra sentences.",
+      "passage": "Learning to lose\n\nEvery Saturday morning, on pitches and courts across the country, thousands of children discover what it feels like to be beaten. (37)____ It is a bigger claim than it sounds, and the evidence behind it is growing.\n\nPsychologists who study youth sport describe two broad lessons a child can absorb from defeat. A child praised only for winning learns, quietly, that results are what earn approval. (38)____ Children in this second group stay in sport longer, take on harder challenges and, intriguingly, tend to win more in the end.\n\nThe car journey home turns out to be a critical scene in this drama. (39)____ Not the final whistle, not the missed shot, but the quiet seat beside an adult who is replaying every mistake aloud.\n\nWhat should adults say instead? The advice that has emerged from years of research is almost embarrassingly simple. (40)____ No analysis, no lecture, no lessons to be learned before the seatbelt is even fastened — just that.\n\nClubs are beginning to take the science seriously. (41)____ A few have gone further, posting gentle reminders on the touchline that the children are playing, and the adults are only watching.\n\nNone of this means competition should be drained out of children's sport. (42)____ The real lesson is subtler: children learn to compete fiercely and lose well only when the adults around them can manage to do the same.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Surveys of young players find it is the part of a losing day they dread most.",
+          "Some now run short courses for parents before they run trials for the children.",
+          "How the adults around them respond to those defeats, researchers say, shapes far more than a sporting career.",
+          "The phrase children most want to hear, studies suggest, is simply: 'I love watching you play.'",
+          "This explains why most children give up sport before their eighth birthday.",
+          "Professional athletes, of course, never experience defeat once their childhood is over.",
+          "A child praised for effort and improvement, by contrast, learns that a setback is information rather than a verdict.",
+          "Trying hard to win matters; it is what gives the game its meaning."
+        ]
+      },
+      "questions": [
+        { "stem": "Choose the missing sentence:", "answer": "C" },
+        { "stem": "Choose the missing sentence:", "answer": "G" },
+        { "stem": "Choose the missing sentence:", "answer": "A" },
+        { "stem": "Choose the missing sentence:", "answer": "D" },
+        { "stem": "Choose the missing sentence:", "answer": "B" },
+        { "stem": "Choose the missing sentence:", "answer": "H" }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 7",
+      "instructions": "Read about four athletes and the mental side of their sport. Then answer the questions. The same person may be chosen more than once.",
+      "sources": [
+        { "label": "A", "name": "Dana", "text": "For two seasons, my serve abandoned me whenever it mattered. In practice it was a weapon; at match point it belonged to a nervous stranger, and I lost finals I had dominated for two sets. What took me longest was not fixing the problem but admitting I needed help — in my sporting family, seeing a psychologist felt like confessing something shameful, and I cancelled my first appointment twice before I finally walked in. The routine we built together sounds absurdly small: two bounces of the ball, one long breath out, eyes to the back fence, then serve. Identical, every single time, whether it is a practice game or a championship. That little ritual gives my racing mind a rail to run on. I have lost finals since, but I have never again lost myself in one." },
+        { "label": "B", "name": "Oliver", "text": "Goalkeepers are supposed to dread penalty shoot-outs; I look forward to them, which team-mates find slightly disturbing. While they turn away, unable to watch, I am doing my favourite part of the job. The confidence is not bravado — it is homework. I keep files on every penalty-taker in the league: run-up length, hip angle, where they look, where they went last time and the time before that. The night before a cup match, I am at my laptop like a student before an exam. People say a shoot-out is a lottery, and I find the phrase lazy. It is a lottery for the unprepared. When I dive the right way and the crowd thinks I guessed, I let them think it. A guess that took six hours of video is entitled to look like luck." },
+        { "label": "C", "name": "Keiko", "text": "Gymnastics rewards perfectionists, then quietly destroys them. By nineteen, I could not celebrate a routine that scored well if a single landing had moved; I replayed errors at night, trained through injuries I hid from my coaches, and called it dedication. The truth arrived as exhaustion so deep I could not lift my arms, and a doctor who used the word burnout without softening it. I did the unthinkable: I stopped completely. For fourteen months I did not enter a gym, and for the first few of them I did not know who I was. When I finally returned, it was on new terms. I compete now against one person — yesterday's version of me — and a clean routine is a gift, not a debt paid. My scores, by the way, are better. That still makes me laugh." },
+        { "label": "D", "name": "Sipho", "text": "A marathon is too big to think about, so I never run one. I run to the next bridge, then to the blue roof I can see beyond it, then to the drinks station — forty small races, each with its own little victory line. The commentary in my head is constant and, I admit, out loud by the final stretch; spectators have heard me telling myself, firmly, that my legs are fresh, which at kilometre thirty-eight is a magnificent lie. But the race is truly run twice. In the weeks before, I go over the course in my mind every night: I feel the third hill, rehearse the wind off the river, practise the moment when everything hurts and I answer it. By race morning, nothing the road shows me is new. Pain has an imagination, and mine is better trained." }
+      ],
+      "bank": { "labels": ["A", "B", "C", "D"], "texts": ["Dana", "Oliver", "Keiko", "Sipho"] },
+      "questions": [
+        { "stem": "Which person's results were nearly ruined by nerves at decisive moments?", "answer": "A" },
+        { "stem": "Which person divides their event into smaller sections in their mind?", "answer": "D" },
+        { "stem": "Which person took a complete break from their sport?", "answer": "C" },
+        { "stem": "Which person prepares by studying opponents' habits in detail?", "answer": "B" },
+        { "stem": "Which person talks to themselves during competition?", "answer": "D" },
+        { "stem": "Which person now performs a fixed sequence of actions before key moments?", "answer": "A" },
+        { "stem": "Which person enjoys the situations other players dread?", "answer": "B" },
+        { "stem": "Which person believes the pursuit of perfection damaged their health?", "answer": "C" },
+        { "stem": "Which person mentally rehearses an event many times before it happens?", "answer": "D" },
+        { "stem": "Which person was reluctant to seek professional help?", "answer": "A" }
+      ]
+    }
+  ]
+}

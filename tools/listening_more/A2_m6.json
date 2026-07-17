@@ -1,0 +1,307 @@
+{
+ "label": "A2 — Elementary",
+ "cefr": "Cambridge KET · A2 official format",
+ "blurb": "5 partes, 25 preguntas: imágenes, completar, opción múltiple y emparejar.",
+ "audios": [
+  {
+   "id": "A2-P1",
+   "title": "Part 1 · Questions 1–5",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
+   "segments": [
+    "A new course",
+    "The class time",
+    "The drawing club",
+    "Getting to dance class",
+    "Kite weather"
+   ],
+   "scripts": [
+    "Question one. Boy: You're always busy these days, Nora. Girl: I've started a photography course! I wanted to do guitar lessons, but the class was full. Boy: Then show me your pictures!",
+    "Question two. Mum: Isn't your cooking class at four? Boy: They moved it — now it starts at twenty past four, because the teacher comes from another school. Mum: What a strange time!",
+    "Question three. Girl: Does the drawing club still meet at the library? Boy: Only in winter. Now that it's warm, we draw in the park, near the lake. Girl: Can I come along?",
+    "Question four. Boy: Does your mum drive you to dance class? Girl: She used to. Now I cycle — it's only ten minutes, and I'm never stuck in traffic. Boy: Very sporty!",
+    "Question five. Man: Are you flying your kite this afternoon? Woman: There's no wind at all, and look at that rain starting. Man: A board games afternoon, then."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "What is Nora's new hobby?",
+     "imgs": [
+      "guitar",
+      "camera",
+      "book"
+     ],
+     "c": 1,
+     "audio": "M6/A2/A2-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time does the cooking class start now?",
+     "imgs": [
+      "clock400",
+      "clock430",
+      "clock420"
+     ],
+     "c": 2,
+     "audio": "M6/A2/A2-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where does the drawing club meet now?",
+     "imgs": [
+      "library",
+      "cafe",
+      "park"
+     ],
+     "c": 2,
+     "audio": "M6/A2/A2-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "How does the girl get to dance class now?",
+     "imgs": [
+      "bike",
+      "bus",
+      "car"
+     ],
+     "c": 0,
+     "audio": "M6/A2/A2-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What is the weather like now?",
+     "imgs": [
+      "sunny",
+      "rainy",
+      "snowy"
+     ],
+     "c": 1,
+     "audio": "M6/A2/A2-P1-q5.mp3"
+    }
+   ]
+  },
+  {
+   "id": "A2-P2",
+   "title": "Part 2 · Questions 6–10",
+   "kind": "file",
+   "file": "M6/A2/A2-P2.mp3",
+   "intro": "You will hear a man telling students about a photography club. For each question, write the correct answer in the gap. Write one word or a number or a date or a time.",
+   "scripts": [
+    "Listen to a man talking about a new photography club. Man: Welcome to Snap, the new photography club! We meet twice a week, but new members should come on Wednesdays, when we teach the basics. The club is in room twenty-one, above the gym — not in the art room, that was last year. It costs twelve pounds a term, and that includes printing your ten best photos. You don't need an expensive camera — a phone is fine to start with. Next month we're taking pictures at the old bridge, so bring good shoes for walking."
+   ],
+   "gapTitle": "Snap — Photography Club",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "New members should come on: ____",
+     "accept": [
+      "wednesday",
+      "wednesdays"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Room number: ____",
+     "accept": [
+      "21",
+      "twenty-one",
+      "twenty one"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Cost each term: £ ____",
+     "accept": [
+      "12",
+      "twelve"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "To start, you can use a: ____",
+     "accept": [
+      "phone"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Next month: photos at the old ____",
+     "accept": [
+      "bridge"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2-P3",
+   "title": "Part 3 · Questions 11–15",
+   "kind": "file",
+   "file": "M6/A2/A2-P3.mp3",
+   "intro": "You will hear Sofia talking to her friend Daniel about her new hobby. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Sofia: Guess what, Daniel — I've joined a climbing club! Daniel: Climbing? I thought you were doing judo this year. Sofia: I tried judo for a month, but I kept hurting my wrist, so I stopped. Daniel: Isn't climbing scary? Sofia: I thought it would be, but you're on a rope the whole time, so it's actually fine. The hardest part is my arms hurting the next day! Daniel: Ha! Where's the club? Sofia: In the big sports centre — you know, next to the swimming pool. Daniel: Is it expensive? Sofia: Twenty pounds a month, but shoes are free for beginners. My brother paid forty at his old club, and his shoes cost extra. Daniel: Could I try it? Sofia: Sure — come on Tuesday. Beginners can only start then, not at the weekend."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why did Sofia stop doing judo?",
+     "o": [
+      "She kept hurting her wrist",
+      "She found it boring",
+      "The club closed"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What does Sofia say about climbing?",
+     "o": [
+      "It's very scary",
+      "It's safer than she expected",
+      "It's easy for everyone"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What is the hardest part for Sofia?",
+     "o": [
+      "Being high up",
+      "Her arms hurting afterwards",
+      "Paying for the club"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How much does Sofia pay each month?",
+     "o": [
+      "Twenty pounds",
+      "Forty pounds",
+      "Twelve pounds"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "When can Daniel start climbing?",
+     "o": [
+      "At the weekend",
+      "On Tuesday",
+      "Next month"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "A2-P4",
+   "title": "Part 4 · Questions 16–20",
+   "kind": "file",
+   "file": "M6/A2/A2-P4.mp3",
+   "intro": "You will hear a boy called Max talking about his new hobby. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Max: My new hobby started by accident. In the spring, my aunt gave Mum a box of old bread recipes, and one rainy Sunday I tried one — just because I was bored. The first loaf was terrible, hard as a stone! My sister still laughs about it. But I kept trying, and by the fifth or sixth loaf, it was actually good. Now I bake every Saturday morning. Dad says the flour costs more than bread from the shop, and he's probably right — but shop bread doesn't make the whole house smell wonderful, does it? Last week our neighbour asked me to bake two loaves for her daughter's party. She wanted to pay me, but I said no — she lends me her big oven, so we're even."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Why did Max first try baking?",
+     "o": [
+      "He was bored one rainy day",
+      "His aunt taught him",
+      "He wanted to save money"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What was Max's first loaf like?",
+     "o": [
+      "Surprisingly good",
+      "Very hard",
+      "Too small"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "When does Max bake now?",
+     "o": [
+      "Every Sunday",
+      "Every Saturday morning",
+      "Every rainy day"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Max's dad say about the hobby?",
+     "o": [
+      "It costs more than buying bread",
+      "The bread smells wonderful",
+      "Max should sell his bread"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Why didn't Max take the neighbour's money?",
+     "o": [
+      "She lets him use her oven",
+      "The bread was a birthday present",
+      "His dad told him not to"
+     ],
+     "c": 0
+    }
+   ]
+  },
+  {
+   "id": "A2-P5",
+   "title": "Part 5 · Questions 21–25",
+   "kind": "file",
+   "file": "M6/A2/A2-P5.mp3",
+   "intro": "You will hear Anna telling her mum about her friends' new hobbies. What hobby has each person started? For each question, choose the correct answer.",
+   "bank": [
+    "fishing",
+    "painting",
+    "cooking",
+    "running",
+    "chess",
+    "dancing",
+    "gardening"
+   ],
+   "scripts": [
+    "Anna: All my friends have started something new this year, Mum. Ethan goes running before school — even in the rain, can you believe it? Ruby wanted to do dancing with me, but the class was full, so she chose chess, and now she's really good at it. Jack has started cooking; he made us noodles on Friday. Clara spends every weekend gardening with her grandad — she's growing tomatoes. And Sam took up painting; he did a picture of the sea that looks just like a photograph."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "person": "Ethan",
+     "c": "running"
+    },
+    {
+     "type": "match",
+     "person": "Ruby",
+     "c": "chess"
+    },
+    {
+     "type": "match",
+     "person": "Jack",
+     "c": "cooking"
+    },
+    {
+     "type": "match",
+     "person": "Clara",
+     "c": "gardening"
+    },
+    {
+     "type": "match",
+     "person": "Sam",
+     "c": "painting"
+    }
+   ]
+  }
+ ]
+}

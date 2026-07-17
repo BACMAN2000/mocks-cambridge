@@ -1,0 +1,158 @@
+{
+  "title": "A2 Key — Reading and Writing (Practice 17)",
+  "note": "Parts 1–5 are auto-scored. Parts 6–7 (Writing) are practice tasks and not auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Number 14 Bus",
+          "text": "FROM MONDAY, THE NUMBER 14 BUS WILL NOT STOP AT THE MUSEUM BECAUSE OF ROADWORKS. PLEASE USE THE STOP AT KING STREET INSTEAD.",
+          "stem": "What should passengers for the museum do?",
+          "options": ["Get off at King Street.", "Take a different bus.", "Wait until the roadworks finish."],
+          "answer": 0
+        },
+        {
+          "kind": "message",
+          "header": "From: Ola → To: Jamie",
+          "text": "Jamie, don't cycle to my house today — the bridge is closed and you'd have to go the long way round. Get the number 6 bus from the library instead. It stops right outside my street.",
+          "stem": "How should Jamie travel to Ola's house?",
+          "options": ["By bike over the bridge.", "The long way round by bike.", "By bus from the library."],
+          "answer": 2
+        },
+        {
+          "kind": "email",
+          "from": "Central Station",
+          "to": "Passengers",
+          "subject": "Weekend trains",
+          "body": "Dear passenger, on Saturday and Sunday, trains to the airport will leave from platform 9 instead of platform 2. Trains will run every 20 minutes as usual. Please allow extra time to walk to the platform, as it is at the far end of the station.",
+          "stem": "What is different this weekend?",
+          "options": ["Trains will run less often.", "Airport trains leave from another platform.", "The station is closed."],
+          "answer": 1
+        },
+        {
+          "kind": "note",
+          "header": "Note for Kirsty",
+          "text": "Kirsty — Your bike is ready at the repair shop. It cost less than we thought — £15, not £20. Can you collect it before 5 today? They're closed tomorrow. Money is on the hall table. — Dad",
+          "stem": "Why must Kirsty go to the shop today?",
+          "options": ["It will not be open tomorrow.", "The price will go up.", "Dad needs the bike tonight."],
+          "answer": 0
+        },
+        {
+          "kind": "sign",
+          "header": "Market Square Car Park",
+          "text": "FULL. PLEASE USE THE RIVERSIDE CAR PARK, FIVE MINUTES AWAY. FREE BUS TO THE TOWN CENTRE EVERY 10 MINUTES.",
+          "stem": "What does the sign tell drivers?",
+          "options": ["They must pay for the bus.", "They should park at Riverside.", "The town centre is closed to cars."],
+          "answer": 1
+        },
+        {
+          "kind": "notice",
+          "header": "Town Hall",
+          "text": "OUR TOWN IS 500 YEARS OLD THIS SUMMER! THERE WILL BE A STREET PARTY ON 3 JULY. MAIN STREET WILL BE CLOSED TO ALL TRAFFIC FROM 8 A.M. UNTIL MIDNIGHT.",
+          "stem": "What will happen on 3 July?",
+          "options": ["The town hall will close.", "A new street will open.", "Cars will not be allowed on Main Street."],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "Read about three young people and how they travel to school. For each question, choose the correct person (A, B or C). The people may be chosen more than once.",
+      "sources": [
+        {
+          "label": "A",
+          "name": "Iris",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/20.jpg\" alt=\"Iris\" loading=\"lazy\">",
+          "text": "I take the train to school — just two stops, about fifteen minutes. I usually do my homework on the way, so I have more free time in the evening. Once I fell asleep and travelled three stations too far! I had to phone my mum from a town I'd never seen before. She still laughs about it."
+        },
+        {
+          "label": "B",
+          "name": "Pavel",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/64.jpg\" alt=\"Pavel\" loading=\"lazy\">",
+          "text": "I walk to school with two friends from my street — it takes about twenty minutes. On the way, we pick up Little Max, who is seven and lives next door, because his mum leaves early for work. Walking means I don't spend my bus money, so I use it to buy comics at the weekend instead."
+        },
+        {
+          "label": "C",
+          "name": "Nora",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/86.jpg\" alt=\"Nora\" loading=\"lazy\">",
+          "text": "My school is in another village, so my dad drives me every morning. We leave really early, at seven o'clock, and I listen to podcasts in the car. I would love to cycle instead — it's only six kilometres — but the road between the villages is too narrow and dangerous for bikes."
+        }
+      ],
+      "questions": [
+        {"stem": "Which person once travelled too far?", "answer": "A"},
+        {"stem": "Which person saves money by not taking the bus?", "answer": "B"},
+        {"stem": "Which person would prefer a different way to travel?", "answer": "C"},
+        {"stem": "Which person does schoolwork while travelling?", "answer": "A"},
+        {"stem": "Which person helps someone younger on the way to school?", "answer": "B"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the text about a boy's first bus trip to town without an adult. Choose the correct answer A, B or C.",
+      "passage": "Ade is twelve, and until last month, he had never been to the town centre without an adult. Then, one Saturday, his mum said he could go by bus to the sports shop to spend his birthday money — as long as his friend Kofi went with him.\n\nThe boys planned everything the night before. They checked the bus times, and Ade's mum showed them where to get off. She also gave Ade some advice: keep your money in your front pocket, and if you have a problem, ask someone who works in a shop.\n\nThe journey went well until the bus stopped at a road they didn't know. There were roadworks on the usual road, and the bus had to go a different way. For a minute, the boys were worried. Then Kofi saw the clock tower of the town hall through the window, and they knew the next stop was theirs.\n\nAt the sports shop, Ade tried on four pairs of football boots before choosing some white ones. They even had enough money left for a burger before the bus home.\n\nAde's mum was waiting at the bus stop, trying to look relaxed. Ade says the trip made him feel very grown up — and next time, he wants to go without her waiting for him!",
+      "questions": [
+        {"stem": "What did Ade's mum say he could do?", "options": ["Go to town alone.", "Spend her money at the sports shop.", "Go to town if Kofi went too."], "answer": 2},
+        {"stem": "What advice did Ade's mum give him?", "options": ["Keep his money in his front pocket.", "Phone her from the bus.", "Only speak to the bus driver."], "answer": 0},
+        {"stem": "Why did the bus go a different way?", "options": ["The driver was new.", "There were roadworks.", "The boys took the wrong bus."], "answer": 1},
+        {"stem": "How did the boys know where to get off?", "options": ["The driver told them.", "Ade's mum sent a message.", "Kofi saw the town hall clock tower."], "answer": 2},
+        {"stem": "How did Ade feel after the trip?", "options": ["Grown up.", "Worried.", "Tired."], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 4",
+      "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+      "title": "The London Underground",
+      "body": "The London Underground is the oldest underground railway in the world. It (19)____ in 1863, when the trains still used steam. Today, Londoners call it 'the Tube' (20)____ of the round shape of its tunnels. The Tube has eleven lines, and each line has its own (21)____ , like the red Central line and the green District line. About five million journeys are (22)____ on the Tube every day. The trains can be very crowded in the morning, when people are (23)____ their way to work. The famous Tube map does not show the real distances between stations — but it is easy to read, (24)____ millions of people use it happily.",
+      "questions": [
+        {"options": ["created", "opened", "made", "grew"], "answer": 1},
+        {"options": ["instead", "kind", "think", "because"], "answer": 3},
+        {"options": ["colour", "paint", "sign", "picture"], "answer": 0},
+        {"options": ["done", "gone", "made", "given"], "answer": 2},
+        {"options": ["in", "at", "by", "on"], "answer": 3},
+        {"options": ["so", "because", "if", "until"], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 5",
+      "instructions": "For each gap (25–30), write ONE word.",
+      "title": "A message about meeting in town",
+      "body": "Hi Omar,\n\nAre you still coming to town (25)____ Saturday? I thought we could meet outside the new burger place (26)____ Station Road.\n\nMy bus arrives (27)____ 10.30, so let's meet at 10.45. If you get there first, please wait (28)____ me by the door.\n\nAfter lunch we could walk (29)____ the river to the skate park. It only takes about ten (30)____ .\n\nText me back!\nLeo",
+      "questions": [
+        {"accept": ["on", "this", "next"]},
+        {"accept": ["on", "in"]},
+        {"accept": ["at", "around", "about", "by"]},
+        {"accept": ["for"]},
+        {"accept": ["along", "by", "beside", "near"]},
+        {"accept": ["minutes"]}
+      ]
+    },
+    {
+      "type": "writing",
+      "part": "Part 6",
+      "prompts": [{
+        "kind": "email",
+        "instructions": "Your English friend Sasha is coming to your town for the first time. Write an email to Sasha. In your email: say which place in your town Sasha must visit / explain how to get there / ask one question about Sasha's journey.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    },
+    {
+      "type": "writing",
+      "part": "Part 7",
+      "prompts": [{
+        "kind": "story",
+        "instructions": "Write a story for your English class. Your story must begin with this sentence:\nWhen the bus stopped, Paul realised he was in the wrong part of town.\nWrite 35–45 words.",
+        "minWords": 35,
+        "maxWords": 45
+      }]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "B1 Preliminary — Writing (Practice 13)",
+  "durationMin": 45,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in about 100 words.",
+      "tasks": [{
+        "type": "email", "minWords": 100,
+        "lead": "Read this email from your English-speaking friend Jack and the notes you have made.",
+        "stimulus": { "head": "EMAIL", "title": "", "body": "From: Jack\nSubject: Museum visit on Saturday?\n\nHi!\n\nThere's a new exhibition at the city museum about dinosaurs, and I really want to see it. Would you like to come with me on Saturday?\n\nWe could go in the morning or the afternoon — which is better for you? And how should we get there?\n\nJack" },
+        "bullets": ["accept Jack's invitation", "say whether morning or afternoon is better for you, and why", "suggest how to get to the museum", "suggest something to do after the museum"],
+        "write": "Write your email to Jack."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in about 100 words.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 100,
+          "lead": "You see this announcement in your school English-language magazine.",
+          "stimulus": { "title": "LEARNING OUTSIDE THE CLASSROOM", "body": "Museums, zoos, science centres — some of the best lessons happen outside school! Write an article about an interesting place you have visited with your school or family and what you learned there. The best articles will be published next month." },
+          "bullets": ["which place you visited", "what you saw and did there", "what you learned from the visit"],
+          "write": "Write your article." },
+        { "type": "story", "q": 3, "minWords": 100,
+          "lead": "Your English teacher has asked you to write a story.",
+          "startSentence": "The museum was about to close when Rosa noticed the small door behind the statue.",
+          "stimulus": { "title": "", "body": "Your story must begin with this sentence:\n\nThe museum was about to close when Rosa noticed the small door behind the statue." },
+          "bullets": [],
+          "write": "Write your story." }
+      ]
+    }
+  ]
+}

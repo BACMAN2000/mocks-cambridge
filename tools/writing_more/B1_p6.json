@@ -1,0 +1,30 @@
+{
+  "title": "B1 Preliminary — Writing (Practice 6)",
+  "durationMin": 45,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in about 100 words.",
+      "tasks": [{
+        "type": "email", "minWords": 100,
+        "lead": "Read this email from your English-speaking friend Tom and the notes you have made.",
+        "stimulus": { "head": "EMAIL", "title": "", "body": "From: Tom\nSubject: Can I borrow your camera?\n\nHi!\n\nMy cousin is getting married next weekend and I'd love to take some good photos, but my camera is broken. Could I possibly borrow yours?\n\nI promise I'll be really careful with it. When could I collect it, and is there anything I should know about using it?\n\nThanks a lot!\nTom" },
+        "bullets": ["agree to lend Tom your camera", "say when he can collect it", "explain one thing he should be careful about", "ask Tom to show you the photos afterwards"],
+        "write": "Write your email to Tom."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in about 100 words.",
+      "tasks": [
+        { "type": "article", "q": 2, "minWords": 100,
+          "lead": "You see this announcement in your school English-language magazine.",
+          "stimulus": { "title": "SOMETHING I COULDN'T LIVE WITHOUT", "body": "Is there one object you use every day that is really important to you? Write an article describing it and explaining why it matters so much. The best articles will be published next month." },
+          "bullets": ["which object is important to you", "how you use it every day", "why you couldn't live without it"],
+          "write": "Write your article." },
+        { "type": "story", "q": 3, "minWords": 100,
+          "lead": "Your English teacher has asked you to write a story.",
+          "startSentence": "Anna promised to return the book the next day, but things did not go as planned.",
+          "stimulus": { "title": "", "body": "Your story must begin with this sentence:\n\nAnna promised to return the book the next day, but things did not go as planned." },
+          "bullets": [],
+          "write": "Write your story." }
+      ]
+    }
+  ]
+}

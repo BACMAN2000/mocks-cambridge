@@ -1,0 +1,34 @@
+{
+  "title": "C1 Advanced — Writing (Practice 17)",
+  "durationMin": 90,
+  "parts": [
+    { "name": "Part 1", "compulsory": true, "instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [{
+        "type": "essay", "minWords": 220, "maxWords": 260,
+        "lead": "Your class has attended a panel discussion about how a city's budget for public art should be used. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea deserves priority, giving reasons to support your opinion.",
+        "stimulus": { "title": "How should a city's budget for public art be used?", "body": "• commissioning murals by local artists in every district\n• installing major sculptures in central public spaces\n• funding free street performances and festivals\n\nSome opinions expressed in the discussion:\n\"A mural turns a wall people avoid into a place they photograph.\"\n\"One landmark sculpture can put a city on the map.\"\n\"Art you can walk past is fine; art that stops you is better.\"" },
+        "bullets": ["discuss two of the ideas", "explain which deserves priority", "give reasons to support your opinion"],
+        "write": "Write your essay."
+      }]
+    },
+    { "name": "Part 2", "choose": true, "instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+      "tasks": [
+        { "type": "review", "q": 2, "minWords": 220, "maxWords": 260,
+          "lead": "An English-language arts magazine has invited reviews of public art.",
+          "stimulus": { "title": "Art outside the gallery", "body": "Review a piece of public art or a street art trail in a place you know. Describe the work and its setting, assess how people actually respond to it in daily life, and say whether public money was well spent on it." },
+          "bullets": ["the work and its setting", "how people actually respond to it", "whether public money was well spent"],
+          "write": "Write your review." },
+        { "type": "proposal", "q": 3, "minWords": 220, "maxWords": 260,
+          "lead": "Your neighbourhood has been offered funding for one community art project, and residents have been invited to submit proposals.",
+          "stimulus": { "title": "Proposal: a mural for the underpass", "body": "Write a proposal for a community mural in a neglected part of your neighbourhood. Describe the location and why it needs the project, explain how residents of all ages would help create the mural, and address the concern that it will simply be vandalised." },
+          "bullets": ["the location and why it needs the project", "how residents would help create the mural", "how you would answer the vandalism concern"],
+          "write": "Write your proposal." },
+        { "type": "email", "q": 4, "minWords": 220, "maxWords": 260,
+          "lead": "You have received this email from your English-speaking friend Casey.",
+          "stimulus": { "body": "From: Casey\nSubject: Arts festival trip\n\nI've just seen that your city's street arts festival is on in June, and I'm thinking of flying over for it - my first proper trip abroad on my own, by the way!\n\nIs the festival really as good as the videos make it look? Which parts should I not miss, and is there anything about visiting during the festival - crowds, prices, booking things - that I should plan for?\n\nCasey" },
+          "bullets": ["whether the festival lives up to its reputation", "which parts Casey should not miss", "what to plan for when visiting during the festival"],
+          "write": "Write your email in reply." }
+      ]
+    }
+  ]
+}

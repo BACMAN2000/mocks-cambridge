@@ -1,0 +1,241 @@
+{
+ "label": "B1 — Intermediate",
+ "cefr": "Cambridge PET · B1 official format",
+ "blurb": "4 partes, 25 preguntas: imágenes, opción múltiple, completar y entrevista.",
+ "audios": [
+  {
+   "id": "B1-P1",
+   "title": "Part 1 · Questions 1–7",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
+   "segments": [
+    "How they will travel",
+    "What to wear",
+    "The first day's weather",
+    "A snack for the ride",
+    "Where to meet",
+    "The starting time",
+    "Something left at home"
+   ],
+   "scripts": [
+    "Question one. Girl: Are we putting the bikes in the car and driving to the coast first? Dad: No need — the cycle path starts at the end of our street. We're cycling the whole way! Girl: All sixty kilometres? Wow.",
+    "Question two. Mum: Have you packed for the cycling trip, Jack? Jack: Nearly. You said to take my umbrella, right? Mum: On a bike? No! I said your sun hat — it'll be hot on the open road. Jack: Oh! Good point.",
+    "Question three. Boy: Ready for tomorrow? Girl: Yes, but I've just seen the forecast. Sunshine from Tuesday, but for the first day — rain, I'm afraid. Boy: Then we'll need our waterproofs from the start.",
+    "Question four. Girl: Shall I pack pizza slices for the ride? Dad: They'd get squashed in the bags. I've made cheese sandwiches — they survive anything. Girl: True. And chocolate? Dad: Obviously!",
+    "Question five. Boy: Where does the cycling club meet on Sunday? At the park? Girl: Not this time. We're starting from the café by the bridge — they open early for us. Boy: Breakfast first, then. Perfect.",
+    "Question six. Man: We're leaving at eight, everyone! Woman: Actually, the forecast says heavy rain until half past. Let's start at nine instead. Man: Fine — nine o'clock, and not a minute later!",
+    "Question seven. Girl: Dad, you're very quiet. What's wrong? Dad: I wanted to photograph the whole route... and my camera is sitting on the kitchen table at home. Girl: Oh no! Well, we've got our phones."
+   ],
+   "questions": [
+    {
+     "type": "pic",
+     "q": "How will the family travel to the coast?",
+     "imgs": ["car", "bus", "bike"],
+     "c": 2,
+     "audio": "P10/B1/B1-P1-q1.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What should Jack pack for the trip?",
+     "imgs": ["hat", "umbrella", "bag"],
+     "c": 0,
+     "audio": "P10/B1/B1-P1-q2.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What will the weather be like on the first day?",
+     "imgs": ["sunny", "rainy", "snowy"],
+     "c": 1,
+     "audio": "P10/B1/B1-P1-q3.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What food will they take on the ride?",
+     "imgs": ["sandwich", "pizza", "cake"],
+     "c": 0,
+     "audio": "P10/B1/B1-P1-q4.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "Where will the cycling club meet on Sunday?",
+     "imgs": ["park", "cafe", "library"],
+     "c": 1,
+     "audio": "P10/B1/B1-P1-q5.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What time will they start?",
+     "imgs": ["clock8", "clock830", "clock9"],
+     "c": 2,
+     "audio": "P10/B1/B1-P1-q6.mp3"
+    },
+    {
+     "type": "pic",
+     "q": "What did Dad leave at home?",
+     "imgs": ["phone", "keys", "camera"],
+     "c": 2,
+     "audio": "P10/B1/B1-P1-q7.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P2",
+   "title": "Part 2 · Questions 8–13",
+   "kind": "file",
+   "paged": true,
+   "intro": "For each question, choose the correct answer (A, B or C). You will hear six short recordings.",
+   "segments": [
+    "The hardest day",
+    "Choosing a route",
+    "The best moment",
+    "Before you go",
+    "A delay",
+    "How far each day"
+   ],
+   "scripts": [
+    "Question eight. You will hear a girl talking about a cycling holiday. Girl: People warned me about the last day, because it's the longest. But honestly, that one was flat and easy. Day two nearly finished me — hill after hill after hill. I had to push my bike up the last one.",
+    "Question nine. You will hear a man talking about choosing a cycling route. Man: The mountain route has the most exciting paths, no question, and the forest route has the best campsites. But we had my eight-year-old with us, so we picked the coast path — it's completely flat, and the sea views kept her happy for hours.",
+    "Question ten. You will hear a boy talking about his cycling trip. Boy: The riding itself was great, and the little villages were pretty. But the thing I'll never forget was swimming in a mountain lake at sunset after a long hot day. The water was freezing and it was absolutely perfect.",
+    "Question eleven. You will hear a woman giving advice about cycling holidays. Woman: Everyone spends weeks choosing panniers and gloves and fancy clothing. Fine — but the thing that actually ruins holidays is simpler: brakes. Have a mechanic check them before you leave. A holiday in the mountains is not the place to discover they don't work.",
+    "Question twelve. You will hear a boy explaining why his trip started late. Boy: We were all packed on Friday, and the weather was fine. Then my dad took his bike out of the garage and the gears were broken, so the shop had to repair them, and we finally left on Sunday morning instead.",
+    "Question thirteen. You will hear a girl talking about her cycling club's holiday. Girl: My mum thought we'd ride fifty kilometres a day, and got quite worried. Actually the plan is thirty a day — the leader says twenty would be too little to reach the coast in a week, and fifty is only for racing clubs."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Which day of the trip did the girl find hardest?",
+     "o": ["The first day", "Day two", "The last day"],
+     "c": 1,
+     "audio": "P10/B1/B1-P2-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why did the man choose the coast path?",
+     "o": ["It was flat for his daughter", "It had the best campsites", "It was the most exciting"],
+     "c": 0,
+     "audio": "P10/B1/B1-P2-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What will the boy remember most from the trip?",
+     "o": ["The pretty villages", "The cycling itself", "Swimming in a lake"],
+     "c": 2,
+     "audio": "P10/B1/B1-P2-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What does the woman say cyclists should do before a holiday?",
+     "o": ["Buy good clothing", "Have their brakes checked", "Plan shorter routes"],
+     "c": 1,
+     "audio": "P10/B1/B1-P2-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why did the boy's trip start late?",
+     "o": ["The weather was bad", "A bike needed repairing", "They packed too slowly"],
+     "c": 1,
+     "audio": "P10/B1/B1-P2-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How far will the club ride each day?",
+     "o": ["20 kilometres", "30 kilometres", "50 kilometres"],
+     "c": 1,
+     "audio": "P10/B1/B1-P2-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "B1-P3",
+   "title": "Part 3 · Questions 14–19",
+   "kind": "file",
+   "file": "P10/B1/B1-P3.mp3",
+   "intro": "You will hear a man giving information about a cycling club's summer holiday. For each question, write the correct answer in the gap. Write one or two words, or a number, a date or a time.",
+   "scripts": [
+    "Good evening, everyone. Here's what you need to know about the club's summer cycling holiday. The trip lasts five days, from Monday to Friday in the first week of August. We'll set off from the railway station at nine on Monday morning — not from the clubhouse, because the station is right on the cycle path. Each day we'll ride about twenty-five miles, with plenty of stops, so it's fine for everyone who did the spring rides. At night we're staying at campsites — all four are booked, and they all have hot showers, I promise! The cost is ninety pounds, which covers camping and breakfasts; you'll buy your other meals on the way. Two rules: your bike must be checked at the shop before we go, and everybody — no exceptions — must bring a helmet. Questions? Come and see me afterwards."
+   ],
+   "gapTitle": "Summer Cycling Holiday",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The trip lasts: ____ days",
+     "accept": ["5", "five"]
+    },
+    {
+     "type": "gap",
+     "label": "Start from: the railway ____",
+     "accept": ["station"]
+    },
+    {
+     "type": "gap",
+     "label": "Distance each day: ____ miles",
+     "accept": ["25", "twenty-five", "twenty five"]
+    },
+    {
+     "type": "gap",
+     "label": "Sleep at: ____",
+     "accept": ["campsites", "campsite", "a campsite"]
+    },
+    {
+     "type": "gap",
+     "label": "Cost: £ ____",
+     "accept": ["90", "ninety"]
+    },
+    {
+     "type": "gap",
+     "label": "Everybody must bring a ____",
+     "accept": ["helmet"]
+    }
+   ]
+  },
+  {
+   "id": "B1-P4",
+   "title": "Part 4 · Questions 20–25",
+   "kind": "file",
+   "file": "P10/B1/B1-P4.mp3",
+   "intro": "You will hear an interview with a girl called Clara about a cycling holiday she went on with her family. For each question, choose the correct answer (A, B or C).",
+   "scripts": [
+    "Interviewer: Clara, you've just cycled across Scotland with your family. Whose idea was that? Clara: Everyone assumes it was my dad, because he cycles to work. Actually it was my grandmother! She did the same route forty years ago and kept telling us stories about it, so we decided to follow her old map. Interviewer: How did you prepare? Clara: We didn't go to a gym or anything. Every Sunday for three months we just rode a bit further than the week before. By the end, forty kilometres felt normal. Interviewer: What was the biggest problem on the trip? Clara: People expect me to say the rain, but we were lucky with the weather. The real problem was punctures — we had seven in one week! By Friday I could change a tyre in ten minutes. Interviewer: What was the best moment? Clara: Reaching the sea on the last day, definitely. My grandmother was waiting for us on the beach with a photo of herself in the same spot, forty years before. Everybody cried a bit. Interviewer: Did the trip change anything for you? Clara: Yes — I used to ask for a lift everywhere. Now I cycle to school every day, even in winter. Interviewer: And next summer? Clara: We want to do a route in the mountains — and this time my grandmother says she's coming with us, on an electric bike!"
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Whose idea was the cycling holiday?",
+     "o": ["Clara's dad's", "Clara's grandmother's", "Clara's own"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How did the family prepare for the trip?",
+     "o": ["They trained at a gym", "They rode further each Sunday", "They followed a training plan"],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What was the biggest problem during the trip?",
+     "o": ["Punctures", "The rain", "Getting lost"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What was the best moment for Clara?",
+     "o": ["Changing a tyre quickly", "Cycling in the mountains", "Arriving at the sea"],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "How has Clara changed since the trip?",
+     "o": ["She cycles to school every day", "She asks for lifts more often", "She repairs bikes for friends"],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "What will be different about next summer's trip?",
+     "o": ["They will go without Dad", "Grandmother will join them", "They will ride electric bikes"],
+     "c": 1
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,424 @@
+{
+ "label": "C1 — Advanced",
+ "cefr": "Cambridge Advanced (CAE) · C1 official format",
+ "blurb": "4 partes, 30 preguntas: opción múltiple, completar, entrevista y multiple matching (2 tareas).",
+ "audios": [
+  {
+   "id": "C1-P1",
+   "title": "Part 1 · Questions 1–6",
+   "kind": "file",
+   "paged": true,
+   "intro": "You will hear people talking in different situations. For each question, choose the best answer (A, B or C).",
+   "segments": [
+    "A concert venue",
+    "A violinist's career",
+    "A concert programme",
+    "A concert app",
+    "Audience research",
+    "A dress code"
+   ],
+   "scripts": [
+    "Question one. Man: So, a symphony in a multi-storey car park. Was I right to drag you along? Woman: I'll admit I came prepared to be irritated, it sounded like a stunt dreamt up by a marketing department. And then the brass came in under that concrete roof and I actually caught my breath. I'd book again tomorrow, and I never thought I'd say that.",
+    "Question two. Woman: You're really leaving the orchestra? The freelance world is brutal, and the pay's hardly better. Man: If anything it's worse, and my accountant has said so at length. But after eleven years of playing whatever lands on the stand, I want to choose the music myself, the repertoire, the colleagues, the halls. Control, ultimately. That's worth more to me than the pension.",
+    "Question three. Woman: You've put the brand-new commission in the middle of the programme, between the two famous symphonies. Was that deliberate? Man: Entirely. Open with it, and half the audience arrives late on purpose. End with it, and they slip out early for their trains. Tuck it in the middle and they actually listen, and you know what? They usually like it. You just have to remove the exits.",
+    "Question four. Man: The orchestra's new app streams the programme notes to your phone during the performance, bar by bar. Clever, surely? Woman: Technically it's very slick, I'll give them that. But a screen glowing in every lap, each listener reading about the music instead of surrendering to it? We'd be training people to document the experience rather than have it. That worries me more than empty seats do.",
+    "Question five. Woman: We interviewed five hundred people who'd never once attended a classical concert, expecting ticket prices to top the list of reasons. Price came a distant third. The overwhelming barrier was etiquette, the terror of clapping in the wrong place, wearing the wrong thing, of being silently judged by people who know the rules. They weren't priced out. They felt uninvited.",
+    "Question six. Man: So where did the board land on abolishing white tie? Woman: On a compromise, predictably. Formal dress stays for the main evening series, the subscribers genuinely love the theatre of it. But for the new daytime and family concerts, the players will wear whatever they like. I'd have gone further, personally, but half a revolution is still movement."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "How did the woman's opinion of the car park concert change?",
+     "o": [
+      "She expected a gimmick but was won over",
+      "She enjoyed it less than she had hoped",
+      "She admired the marketing more than the music"
+     ],
+     "c": 0,
+     "audio": "P16/C1/C1-P1-q1.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why is the man leaving the orchestra?",
+     "o": [
+      "Freelance work pays better",
+      "He wants artistic control over his work",
+      "He has fallen out with colleagues"
+     ],
+     "c": 1,
+     "audio": "P16/C1/C1-P1-q2.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "Why has the man placed the new piece in the middle of the programme?",
+     "o": [
+      "It suits the orchestra's rehearsal schedule",
+      "The famous symphonies are too long to separate",
+      "It prevents the audience from avoiding it"
+     ],
+     "c": 2,
+     "audio": "P16/C1/C1-P1-q3.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What is the woman's objection to the concert app?",
+     "o": [
+      "Its technology is unreliable",
+      "It would come between listeners and the music",
+      "It will not attract new audiences"
+     ],
+     "c": 1,
+     "audio": "P16/C1/C1-P1-q4.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "What did the research identify as the main barrier to attending concerts?",
+     "o": [
+      "The cost of tickets",
+      "Anxiety about unwritten rules",
+      "Lack of interest in the music"
+     ],
+     "c": 1,
+     "audio": "P16/C1/C1-P1-q5.mp3"
+    },
+    {
+     "type": "mc",
+     "q": "How does the woman feel about the board's decision on dress?",
+     "o": [
+      "It goes further than she wanted",
+      "It is a step in the right direction",
+      "It will disappoint the subscribers"
+     ],
+     "c": 1,
+     "audio": "P16/C1/C1-P1-q6.mp3"
+    }
+   ]
+  },
+  {
+   "id": "C1-P2",
+   "title": "Part 2 · Questions 7–14",
+   "kind": "file",
+   "file": "P16/C1/C1-P2.mp3",
+   "intro": "You will hear an orchestra manager called Olivia giving a talk about how orchestras are changing. For each question, complete the sentences with a word or short phrase.",
+   "scripts": [
+    "Hello, I'm Olivia, and I manage a symphony orchestra, which these days means managing a reinvention. Let me start with the fact that concentrated our minds. Five years ago we analysed our subscriber list and found the average age of our regular audience was sixty. Nothing wrong with sixty, but an institution whose audience ages one year every year is an institution with an expiry date, and pretending otherwise felt like negligence. So we began experimenting, carefully, because our musicians are rightly protective of standards. The first experiment was the simplest and remains my favourite: the lunchtime series. These concerts last exactly forty-five minutes, no interval, one substantial work, and you can be back at your desk by two. They now sell out faster than anything else we do, and a third of those tickets go to people who had never heard the orchestra live before. Price mattered too, but in a targeted way: for anyone under thirty, every seat in the hall, including the front row of the stalls, costs ten pounds. The scheme loses money on paper and makes money in reality, because this year's ten-pound student is the subscriber of twenty years' time. We also changed the atmosphere on stage. Concerts in the new series are no longer introduced by printed notes nobody reads in the dark; instead, before each work, one of the players stands up and speaks about it for two minutes, why it's hard, why they love it, what to listen for. Audiences consistently rate those spoken introductions as the single thing that most changed how they listened. Then there is the digital hall. We resisted streaming for years, fearing empty seats, but the pandemic removed the luxury of hesitation. Our channel now reaches listeners in ninety countries, and the data tells us something wonderful: the town where online viewing is highest is our own, which suggests streaming feeds attendance rather than replacing it. Our education work has also grown up. We no longer parachute a string quartet into a school for a single feel-good afternoon; instead each player is attached to the same school for three whole years, so the children see the same faces from their first lesson to their leavers' concert. Continuity, not novelty, is what changes lives. And through all of this, one thing has not moved an inch: the core of what we sell. Whatever the venue, the dress, the price or the platform, the product is ninety musicians playing difficult music superbly, and every experiment is tested against a single question: does it protect that, or dilute it? The day the answer is dilute, we stop. Thank you."
+   ],
+   "gapTitle": "Orchestras in the 21st Century",
+   "questions": [
+    {
+     "type": "gap",
+     "label": "The average age of regular subscribers was found to be ____",
+     "accept": [
+      "60",
+      "sixty"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The lunchtime concerts last exactly ____ minutes",
+     "accept": [
+      "45",
+      "forty-five",
+      "forty five"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "For anyone under thirty, every seat costs ____ pounds",
+     "accept": [
+      "10",
+      "ten"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Before each work, one of the players stands up and ____ about it",
+     "accept": [
+      "speaks",
+      "talks"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "The orchestra's streaming channel reaches ____ countries",
+     "accept": [
+      "90",
+      "ninety"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Online viewing is highest in the orchestra's own ____",
+     "accept": [
+      "town"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Each player stays with the same school for ____ years",
+     "accept": [
+      "3",
+      "three"
+     ]
+    },
+    {
+     "type": "gap",
+     "label": "Every experiment must protect, not dilute, the core ____",
+     "accept": [
+      "product"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1-P3",
+   "title": "Part 3 · Questions 15–20",
+   "kind": "file",
+   "file": "P16/C1/C1-P3.mp3",
+   "intro": "You will hear an interview with a conductor called Emma about the future of orchestras. For each question, choose the best answer (A, B, C or D).",
+   "scripts": [
+    "Interviewer: Emma, you conduct one of Europe's oldest orchestras, yet you have a reputation as a moderniser. Do those sit comfortably together? Emma: More comfortably than the headlines suggest. I'd argue tradition and innovation aren't opponents, they're colleagues who bicker. Every so-called tradition in our concert hall, the dimmed lights, the silence between movements, was itself a scandalous innovation once. What I resist is treating habits as holy relics simply because nobody remembers adopting them. Interviewer: You've been criticised for programming so much new music. One reviewer wrote that you treat audiences as students. Emma: I read that review, and I confess it stung for a day. But look at what actually happens: our new-music concerts now outsell some of the warhorse programmes. The audience the critics claim to defend keeps voting with its feet, in my favour. I've stopped arguing with reviewers and started counting tickets. Interviewer: Is there any innovation you've tried and regretted? Emma: Oh, several, and I think it's important to say so. We once projected film footage during a symphony, and it flattened the music into a soundtrack, the images made everyone's imagination redundant. I cancelled it after two performances, and the letters thanking me outnumbered the complaints. Failing in public occasionally is the tax you pay for experimenting honestly. Interviewer: Some say the orchestra as an institution is simply too expensive to survive. Emma: I hear that argument every budget season, and I notice it's never applied to football stadiums or opera houses in the same breath. An orchestra is expensive the way a library is expensive: catastrophically, if you measure only this quarter, and cheaply, if you measure a century. My job is to keep making the century argument to people paid to think in quarters. Interviewer: What actually fills seats, in your experience? Emma: Not gimmicks, and I say that as someone accused of loving them. What fills seats is the rumour of intensity. When a performance genuinely burns, people tell each other, and no algorithm on earth sells tickets like a shaken friend does. Our whole strategy is to be worth talking about at breakfast. Interviewer: And the orchestra in fifty years, what does it look like? Emma: I genuinely don't know, and I've made my peace with that. My responsibility isn't to predict the future, it's to hand over an orchestra still capable of surprising people. If I manage that, my successors can argue about the rest, and I hope they do it loudly. Interviewer: Emma, thank you."
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "What is Emma's view of concert-hall traditions?",
+     "o": [
+      "They should be preserved as they are",
+      "They were once innovations themselves",
+      "They are what audiences value most",
+      "They are impossible to change now"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "How does Emma answer the criticism of her programming?",
+     "o": [
+      "By pointing to ticket sales",
+      "By promising to programme fewer new works",
+      "By dismissing the reviewer's expertise",
+      "By admitting audiences dislike new music"
+     ],
+     "c": 0
+    },
+    {
+     "type": "mc",
+     "q": "Why did Emma cancel the film projection experiment?",
+     "o": [
+      "The complaints outnumbered the thanks",
+      "It was too expensive to continue",
+      "It reduced the music to an accompaniment",
+      "The musicians refused to perform"
+     ],
+     "c": 2
+    },
+    {
+     "type": "mc",
+     "q": "How does Emma respond to the argument that orchestras are too expensive?",
+     "o": [
+      "She accepts cuts are inevitable",
+      "She says the calculation depends on the timescale used",
+      "She compares orchestras favourably with libraries' costs",
+      "She believes stadiums should be funded instead"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "According to Emma, what genuinely attracts audiences?",
+     "o": [
+      "Clever marketing algorithms",
+      "Word of mouth about powerful performances",
+      "Familiar programmes",
+      "Novel concert formats"
+     ],
+     "c": 1
+    },
+    {
+     "type": "mc",
+     "q": "What does Emma see as her responsibility to the future?",
+     "o": [
+      "To predict how concerts will change",
+      "To leave behind an institution that can still surprise",
+      "To settle the arguments of her successors",
+      "To protect the orchestra from further change"
+     ],
+     "c": 1
+    }
+   ]
+  },
+  {
+   "id": "C1-P4",
+   "title": "Part 4 · Questions 21–30",
+   "kind": "file",
+   "file": "P16/C1/C1-P4.mp3",
+   "intro": "You will hear five orchestral musicians talking about how their profession is changing. TASK ONE (21–25): choose the change each speaker most welcomes. TASK TWO (26–30): choose what each speaker is concerned about.",
+   "scripts": [
+    "Speaker one. Daniel: For me the revelation has been getting out of the hall, we've played a disused steelworks, a night shelter, even a ferry terminal at dawn, and each time the music lands differently, on people who'd never buy a ticket to the marble-and-gilt version. I'm evangelical about it now. My one nagging worry is quality. In a warehouse you can't always hear across the ensemble, the tuning drifts, and I'd hate for adventurous to slide into approximate. If we go to these places, we owe them our best playing, not our leftovers. Speaker two. Lucy: The project that changed me was recording with a folk trio, then a jazz quartet, then producers half my age making electronic music. My cello has learned accents I never knew it had, and I refuse to apologise for any of it. What does trouble me, quietly, is what's being squeezed out. Our library of symphonic parts, the bowings marked by players fifty years dead, the apprenticeship of sitting beside a veteran, all that transmission takes rehearsal time nobody budgets for anymore. You can love new rooms and still grieve for the furniture. Speaker three. Sam: The best change? We're finally allowed to open our mouths. I introduce pieces from the platform now, take questions after concerts, and the distance between stage and stalls just dissolves, people listen differently once a human being has talked to them. But I watch the marketing department carefully. There's a version of all this that's pure pantomime, a gimmick per concert, innovation as a press release, change performed for funders rather than made for listeners. The day the talking matters more than the playing, we've swapped one kind of emptiness for another. Speaker four. Nora: What I cherish is that living composers are back at the centre of the season, not quarantined in a festival week. Premieres, workshops, a composer at rehearsal changing a passage overnight because of something we found together, that's the tradition at its healthiest, that's what Beethoven's players had. My fear is blunter, it's the contracts. Every bold season makes the accountants nervous, and each time the budget tightens, another retiring colleague simply isn't replaced. You can't premiere anything with an orchestra that's quietly evaporating chair by chair. Speaker five. Ethan: I was the one who argued loudest for the cameras, and I'd argue again: our concerts now reach a farmer in Chile and a hospital ward in Oslo the same evening, and that still catches in my throat. The reach is real and I'll defend it anywhere. What I can't defend is what the schedule is doing to the youngest players. Every concert filmed, every rehearsal streamable, masterclasses at midnight for another time zone, the twenty-five-year-olds are permanently on duty and permanently visible, and I see the exhaustion behind their professionalism. We built the reach. We forgot to build the rest."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the change they most welcome",
+     "person": "Speaker 1",
+     "bank": [
+      "performing in unconventional venues",
+      "collaborating across musical genres",
+      "speaking directly to audiences",
+      "the renewed role of living composers",
+      "broadcasting concerts worldwide",
+      "relaxed concerts for families",
+      "abandoning formal dress",
+      "shorter concert formats"
+     ],
+     "c": "performing in unconventional venues"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the change they most welcome",
+     "person": "Speaker 2",
+     "bank": [
+      "performing in unconventional venues",
+      "collaborating across musical genres",
+      "speaking directly to audiences",
+      "the renewed role of living composers",
+      "broadcasting concerts worldwide",
+      "relaxed concerts for families",
+      "abandoning formal dress",
+      "shorter concert formats"
+     ],
+     "c": "collaborating across musical genres"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the change they most welcome",
+     "person": "Speaker 3",
+     "bank": [
+      "performing in unconventional venues",
+      "collaborating across musical genres",
+      "speaking directly to audiences",
+      "the renewed role of living composers",
+      "broadcasting concerts worldwide",
+      "relaxed concerts for families",
+      "abandoning formal dress",
+      "shorter concert formats"
+     ],
+     "c": "speaking directly to audiences"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the change they most welcome",
+     "person": "Speaker 4",
+     "bank": [
+      "performing in unconventional venues",
+      "collaborating across musical genres",
+      "speaking directly to audiences",
+      "the renewed role of living composers",
+      "broadcasting concerts worldwide",
+      "relaxed concerts for families",
+      "abandoning formal dress",
+      "shorter concert formats"
+     ],
+     "c": "the renewed role of living composers"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 1 — the change they most welcome",
+     "person": "Speaker 5",
+     "bank": [
+      "performing in unconventional venues",
+      "collaborating across musical genres",
+      "speaking directly to audiences",
+      "the renewed role of living composers",
+      "broadcasting concerts worldwide",
+      "relaxed concerts for families",
+      "abandoning formal dress",
+      "shorter concert formats"
+     ],
+     "c": "broadcasting concerts worldwide"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what concerns them",
+     "person": "Speaker 1",
+     "bank": [
+      "a decline in performance standards",
+      "the loss of inherited knowledge",
+      "innovation becoming a hollow display",
+      "the shrinking number of permanent posts",
+      "exhaustion among younger players",
+      "audiences losing concentration",
+      "the cost of new technology",
+      "rivalry between orchestras"
+     ],
+     "c": "a decline in performance standards"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what concerns them",
+     "person": "Speaker 2",
+     "bank": [
+      "a decline in performance standards",
+      "the loss of inherited knowledge",
+      "innovation becoming a hollow display",
+      "the shrinking number of permanent posts",
+      "exhaustion among younger players",
+      "audiences losing concentration",
+      "the cost of new technology",
+      "rivalry between orchestras"
+     ],
+     "c": "the loss of inherited knowledge"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what concerns them",
+     "person": "Speaker 3",
+     "bank": [
+      "a decline in performance standards",
+      "the loss of inherited knowledge",
+      "innovation becoming a hollow display",
+      "the shrinking number of permanent posts",
+      "exhaustion among younger players",
+      "audiences losing concentration",
+      "the cost of new technology",
+      "rivalry between orchestras"
+     ],
+     "c": "innovation becoming a hollow display"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what concerns them",
+     "person": "Speaker 4",
+     "bank": [
+      "a decline in performance standards",
+      "the loss of inherited knowledge",
+      "innovation becoming a hollow display",
+      "the shrinking number of permanent posts",
+      "exhaustion among younger players",
+      "audiences losing concentration",
+      "the cost of new technology",
+      "rivalry between orchestras"
+     ],
+     "c": "the shrinking number of permanent posts"
+    },
+    {
+     "type": "match",
+     "taskLabel": "Task 2 — what concerns them",
+     "person": "Speaker 5",
+     "bank": [
+      "a decline in performance standards",
+      "the loss of inherited knowledge",
+      "innovation becoming a hollow display",
+      "the shrinking number of permanent posts",
+      "exhaustion among younger players",
+      "audiences losing concentration",
+      "the cost of new technology",
+      "rivalry between orchestras"
+     ],
+     "c": "exhaustion among younger players"
+    }
+   ]
+  }
+ ]
+}

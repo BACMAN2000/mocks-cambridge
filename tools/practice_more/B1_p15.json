@@ -1,0 +1,181 @@
+{
+  "title": "B1 Preliminary — Reading (Practice 15)",
+  "note": "All six parts are auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Eastport Ferry Terminal",
+          "text": "DUE TO HIGH WINDS, THE 14.00 FERRY TO GULL ISLAND IS CANCELLED.\nTICKET HOLDERS MAY TRAVEL ON THE 17.30 SAILING OR EXCHANGE THEIR TICKET AT THE OFFICE FOR ANY SAILING THIS WEEK.",
+          "stem": "What can passengers with tickets for the 14.00 ferry do?",
+          "options": ["Get their money back at the office.", "Use their ticket later today or another day this week.", "Only travel on the 17.30 sailing."],
+          "answer": 1
+        },
+        {
+          "kind": "message",
+          "header": "Text from Farida to Josh",
+          "text": "Josh — nightmare! Our coach broke down outside Ashby, and the next one is full, so we won't reach the airport in time for check-in. Mum's found a train that gets us there by 6 — can you look online and see which platform the airport train leaves from at Ashby? My phone's nearly dead.",
+          "stem": "What does Farida ask Josh to do?",
+          "options": ["Book train tickets to the airport for them.", "Meet them at the station in Ashby.", "Find out some train information for her."],
+          "answer": 2
+        },
+        {
+          "kind": "email",
+          "from": "Skyline Airways",
+          "to": "Passengers on flight SK407",
+          "subject": "Your delayed baggage",
+          "body": "We are sorry that some baggage from flight SK407 did not arrive with you. It will be delivered to your address within 48 hours at no cost. If you need to buy essential items before then, keep your receipts and claim the money back using the form on our website.",
+          "stem": "What should passengers do if they buy essential items?",
+          "options": ["Save the receipts so they can be repaid.", "Send the items back within 48 hours.", "Collect the money at the airport."],
+          "answer": 0
+        },
+        {
+          "kind": "sign",
+          "header": "Mountain Refuge Hut — Trail 7",
+          "text": "THIS HUT IS ALWAYS OPEN FOR WALKERS IN BAD WEATHER.\nFIREWOOD IS FOR EMERGENCIES ONLY. IF YOU USE THE HUT, PLEASE SIGN THE BOOK SO RESCUE TEAMS KNOW WHO HAS PASSED THROUGH.",
+          "stem": "Why should walkers write their names in the book?",
+          "options": ["To book a bed in the hut for the night.", "To show they have paid for the firewood.", "So that rescuers can know who has been there."],
+          "answer": 2
+        },
+        {
+          "kind": "note",
+          "header": "From Aunt Sylvia",
+          "text": "Karl — your passport has arrived at last, it's on the shelf by the radio. Before anything else, check every detail on the photo page carefully. When Nina's came, they had spelled her surname wrong and it took six weeks to fix — you don't have six weeks before your trip!",
+          "stem": "What does Aunt Sylvia tell Karl to do?",
+          "options": ["Renew his passport six weeks before travelling.", "Make sure the information in his passport is correct.", "Collect his passport from the office like Nina did."],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "The five people below are planning an adventure trip. Read the descriptions of eight trips (A–H) and decide which trip would be most suitable for each person. There are three trips you do not need to use.",
+      "sources": [
+        {
+          "label": "6",
+          "name": "Astrid",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/26.jpg\" alt=\"Astrid\" loading=\"lazy\">",
+          "text": "Astrid dreams of seeing the northern lights, but she hates being cold for long periods. She wants a comfortable base to return to each evening, with warm food and a proper bed rather than a tent."
+        },
+        {
+          "label": "7",
+          "name": "Piotr",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/44.jpg\" alt=\"Piotr\" loading=\"lazy\">",
+          "text": "Piotr wants to test himself by travelling under his own power for a week, sleeping in a different place every night. He is an experienced cyclist but has never travelled with luggage before, so he would like a guide with the group."
+        },
+        {
+          "label": "8",
+          "name": "Yasmin",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/54.jpg\" alt=\"Yasmin\" loading=\"lazy\">",
+          "text": "Yasmin loves history and wants to travel slowly through several countries, watching the landscape change from a comfortable seat. She gets seasick on boats and dislikes flying, and she wants to meet fellow travellers on the way."
+        },
+        {
+          "label": "9",
+          "name": "Callum",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/16.jpg\" alt=\"Callum\" loading=\"lazy\">",
+          "text": "Callum wants a real desert experience — sand dunes, camp fires and sleeping under the stars. He has asthma, so the trip must move at a gentle walking pace, and animals must carry the heavy bags."
+        },
+        {
+          "label": "10",
+          "name": "Dana",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/2.jpg\" alt=\"Dana\" loading=\"lazy\">",
+          "text": "Dana is a confident sailor who wants to learn something new on the ocean, working as part of a crew. She would love to help with scientific work during the voyage, and she doesn't mind hard physical jobs or sharing a small cabin."
+        }
+      ],
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Jungle Survival Course: Ten days deep in the rainforest learning to build shelters, find water and cook over a fire. Very demanding — participants must pass a fitness test and carry all their own equipment.",
+          "Ocean Research Voyage: Join the crew of a tall sailing ship for three weeks, helping scientists count whales and test seawater. Everyone shares the sailing work, day and night watches included. Bunks are small but spirits are high!",
+          "Sahara Camel Caravan: Walk beside our gentle camels from oasis to oasis as they carry the baggage. Days follow a relaxed rhythm, evenings mean mint tea and stories around the fire, and nights are spent on blankets beneath thousands of stars.",
+          "Coast-to-Coast Cycle Challenge: A fully guided seven-day ride across the country, staying at a new guesthouse each night. A support van carries spares, and our leader plans every stage — you just pedal!",
+          "Polar Ice Marathon: Run 42 kilometres across the frozen sea at minus twenty degrees. For extremely fit athletes only; competitors camp on the ice for three nights.",
+          "Grand Railway Journey: Cross five countries in fourteen days aboard classic trains, with expert talks on the castles, battlefields and cities you pass. Evenings are spent in the dining carriage, where friendships form quickly over dinner.",
+          "Island Kayak Camping: Paddle between wild islands, carrying your tent and food in your kayak. Some open-sea crossings are challenging in bad weather. Basic camping skills required.",
+          "Aurora Lodge Week: Watch the northern lights from our cosy log lodge, where a hot dinner and a warm bed wait after each evening excursion. Short trips out by heated snow-coach mean you are never outside for more than an hour."
+        ]
+      },
+      "questions": [
+        {"stem": "Astrid", "answer": "H"},
+        {"stem": "Piotr", "answer": "D"},
+        {"stem": "Yasmin", "answer": "F"},
+        {"stem": "Callum", "answer": "C"},
+        {"stem": "Dana", "answer": "B"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the article about a journey that went wrong and choose the best answer A, B, C or D.",
+      "passage": "The wrong bus to the right place\n\nLast summer, nineteen-year-old Tariq Aziz set off on his first solo trip abroad, planning to spend two weeks photographing famous buildings in the capital. His adventure began badly. At the airport bus station, tired after a night flight and unable to read the local alphabet, he boarded what he believed was the express bus to the city centre. \"I even showed the driver my hotel booking,\" Tariq remembers. \"He nodded, so I relaxed and fell asleep. Looking back, I think he nodded at everything.\"\n\nTariq woke three hours later in a small mountain town that appeared in none of his guidebooks. The last bus back had already left, his phone had no signal, and the town's only hotel was closed for a wedding. \"Standing in that square, I felt pure panic,\" he admits. \"I knew nobody, and I couldn't even pronounce the town's name. Then an old man selling melons started laughing at my face — not unkindly — and that laugh somehow broke the fear. I thought: well, this is now an adventure.\"\n\nThe melon seller, whose grandson spoke some English, took Tariq home for dinner. The family refused all payment, gave him a bed, and spent the evening teaching him card games. The next morning, half the street came out to wave as he boarded the bus. \"In the capital, I would have photographed a hundred buildings and spoken to no one,\" he says. \"In that town, I took maybe ten photos, but I still message the grandson every week. We're planning to travel together next year.\"\n\nTariq did eventually reach the capital and complete his photography project — although he says the pictures no longer feel like the point of the trip. His advice to nervous first-time travellers is simple: prepare well, but stay flexible. \"Book your first night's bed, learn ten words of the language, and keep some cash hidden in your sock,\" he says. \"Then, when your plans fall apart — and one day they will — try to treat it as the beginning of the story, not the end of the world.\"",
+      "questions": [
+        {"stem": "How did Tariq end up on the wrong bus?", "options": ["The driver told him it went to the city centre.", "His hotel had given him the wrong directions.", "He could not understand the signs and made a mistake.", "The express bus had been cancelled that morning."], "answer": 2},
+        {"stem": "What changed Tariq's feelings in the town square?", "options": ["He found a hotel that was still open.", "An old man's friendly laughter calmed him.", "His phone finally found a signal.", "He remembered the town from a guidebook."], "answer": 1},
+        {"stem": "What does Tariq suggest about his stay with the family?", "options": ["He paid them generously for the bed and food.", "He found it difficult to communicate all evening.", "He left early to avoid disturbing the wedding.", "It gave him a lasting friendship."], "answer": 3},
+        {"stem": "How does Tariq now feel about his photography project?", "options": ["It matters less to him than what happened on the way.", "It failed because he lost three days of his trip.", "It was the best part of his two weeks abroad.", "It would have been better in the mountain town."], "answer": 0},
+        {"stem": "What advice does Tariq give new travellers?", "options": ["Avoid travelling alone the first time.", "Plan every single day before leaving home.", "Prepare the basics but accept surprises.", "Always carry a camera to record problems."], "answer": 2}
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 4",
+      "instructions": "Read the article about a round-the-world walk. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+      "passage": "Walking around the world\n\nIn an age of budget flights and high-speed trains, a small number of travellers still choose the oldest and slowest transport of all: their own feet. Around a dozen people have officially walked around the world. (16)____ The rules of that organisation are strict: walkers must cross four continents and cover at least 26,000 kilometres on foot.\n\nA world walk takes years, and the greatest problems are rarely the ones people expect. (17)____ Far more dangerous, walkers report, are ordinary roads without pavements, where lorries pass within centimetres.\n\nThere is also the challenge of what to carry. Most world walkers push a small cart containing a tent, water, food and spare shoes. (18)____ One famous walker went through fifty-three pairs before reaching home.\n\nWhy do they do it? Many begin after a personal crisis — an illness, a lost job — hoping the road will give them time to think. (19)____ Villagers invite them in, truck drivers stop with water, and children walk beside them for kilometres.\n\nComing home can be the hardest part of all. After years of moving every day, an armchair can feel like a prison. (20)____ Perhaps, for a world walker, the journey never entirely ends.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Their journeys are checked and recorded by an international club of long-distance walkers.",
+          "Several have written successful books about their experiences.",
+          "The shoes matter most: a serious walker wears out a pair every two months.",
+          "Almost all of them say the same thing afterwards: within months, they are planning the next long walk.",
+          "Strangers, they say, turn out to be endlessly kind — and this, not scenery, is what they remember.",
+          "Most begin their journey in spring, when the roads are dry.",
+          "Wild animals, for example, almost never trouble them.",
+          "Crossing oceans is permitted by boat or plane, as long as the walking continues on the other side."
+        ]
+      },
+      "questions": [
+        {"stem": "Gap 16", "answer": "A"},
+        {"stem": "Gap 17", "answer": "G"},
+        {"stem": "Gap 18", "answer": "C"},
+        {"stem": "Gap 19", "answer": "E"},
+        {"stem": "Gap 20", "answer": "D"}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 5",
+      "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+      "title": "Lost luggage: where does it go?",
+      "body": "Every year, airlines around the world (21)____ to deliver millions of suitcases to the right airport at the right time. Most missing bags are only delayed and reach their owners within a day or two. But what happens to the small number that are never (22)____? The answer is stranger than you might think. After about three months of searching, unclaimed suitcases in some countries are sold to special shops, which open them and sell whatever is (23)____. One famous store in the United States receives thousands of items a day, from cameras and wedding dresses to a full suit of armour. Travel experts say a few simple habits can (24)____ your bag from joining this lost army. Remove old flight labels, put your name and phone number both outside and inside the case, and (25)____ a photo of it before you fly. And if your suitcase does disappear, report it before leaving the airport — passengers who wait until they get home have a much (26)____ chance of seeing their belongings again.",
+      "questions": [
+        {"options": ["miss", "lose", "drop", "fail"], "answer": 3},
+        {"options": ["found", "arrived", "appeared", "discovered"], "answer": 0},
+        {"options": ["there", "in", "inside", "within"], "answer": 2},
+        {"options": ["avoid", "stop", "block", "escape"], "answer": 1},
+        {"options": ["make", "take", "do", "catch"], "answer": 1},
+        {"options": ["worse", "poorer", "smaller", "shorter"], "answer": 2}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 6",
+      "instructions": "For each gap (27–32), write ONE word.",
+      "title": "Email about a holiday disaster",
+      "body": "Hi Selin,\n\nWe're finally at the beach house — but what a journey! You won't believe (27)____ happened to us yesterday.\n\nFirst, our train was cancelled, so we had to wait two hours (28)____ the next one. Then, when we arrived at the station, Dad realised he had left the car keys at home! Mum wanted to go back, but it would (29)____ taken all day. Luckily, the house owner is a really kind woman (30)____ let us in with her spare key.\n\nThe funny thing is, after all that stress, this place is perfect. The sea is only fifty metres (31)____ the house, and we swam before breakfast this morning.\n\nI'll send photos tonight (32)____ the Wi-Fi works. Wish you were here!\n\nLove,\nEmre",
+      "questions": [
+        {"accept": ["what"]},
+        {"accept": ["for"]},
+        {"accept": ["have"]},
+        {"accept": ["who", "that"]},
+        {"accept": ["from"]},
+        {"accept": ["if", "when", "once"]}
+      ]
+    }
+  ]
+}

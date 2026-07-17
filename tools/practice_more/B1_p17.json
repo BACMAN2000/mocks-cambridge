@@ -1,0 +1,181 @@
+{
+  "title": "B1 Preliminary — Reading (Practice 17)",
+  "note": "All six parts are auto-scored.",
+  "parts": [
+    {
+      "type": "mc",
+      "part": "Part 1",
+      "instructions": "For each question, look at the text and choose the correct answer A, B or C.",
+      "questions": [
+        {
+          "kind": "notice",
+          "header": "Valley Road Swimming Pool",
+          "text": "THE MAIN POOL IS RESERVED FOR SWIMMING CLUB TRAINING UNTIL 8AM ON WEEKDAYS.\nEARLY SWIMMERS ARE WELCOME TO USE THE SMALL POOL FROM 6.30AM.",
+          "stem": "What does the notice tell people who swim early on weekdays?",
+          "options": ["They can use the small pool before 8am.", "They must join the swimming club to swim early.", "The pool does not open until 8am."],
+          "answer": 0
+        },
+        {
+          "kind": "message",
+          "header": "Text from Coach Barnes to Femi",
+          "text": "Femi — great news: you're in the team for Saturday's athletics meeting! One thing — you're down for the 200m, not the 100m as usual. Dayo's injured and you're our fastest option over the longer distance. Extra training Thursday at 5 to practise your start. Can you make it?",
+          "stem": "What has changed for Femi?",
+          "options": ["His training day has moved to Saturday.", "He is no longer in the team for the meeting.", "He will run a different race from normal."],
+          "answer": 2
+        },
+        {
+          "kind": "email",
+          "from": "Northern Trail Run",
+          "to": "All runners",
+          "subject": "Race pack collection",
+          "body": "Race packs with your number and timing chip will NOT be posted this year. Collect yours from the sports centre on Friday between 4pm and 8pm, or on race morning from 7am — but be warned, morning queues are long and the race will not wait for you.",
+          "stem": "Why does the organiser suggest collecting packs on Friday?",
+          "options": ["The sports centre is closed on race morning.", "Collecting on the morning may take a long time.", "Packs collected on Friday include a free gift."],
+          "answer": 1
+        },
+        {
+          "kind": "sign",
+          "header": "Rockfield Tennis Club",
+          "text": "COURTS MAY BE BOOKED UP TO 7 DAYS AHEAD ON OUR APP.\nIF YOU CANNOT PLAY, PLEASE CANCEL AT LEAST 2 HOURS BEFORE — MEMBERS WHO MISS 3 BOOKINGS WITHOUT CANCELLING LOSE APP ACCESS FOR A MONTH.",
+          "stem": "What happens to members who repeatedly miss bookings?",
+          "options": ["They cannot book courts on the app for a month.", "They must pay for the missed bookings.", "They lose their club membership."],
+          "answer": 0
+        },
+        {
+          "kind": "note",
+          "header": "From Mum",
+          "text": "Sasha — your judo kit is washed and on your bed. Don't forget your medical form for the grading tomorrow — it's signed, on the fridge under the magnet. Dad will drive you at 8, but he has a meeting at 10, so ask Coach Ito if someone can bring you home. Good luck, champion!",
+          "stem": "What does Sasha need to arrange?",
+          "options": ["Someone to sign her medical form.", "A different time for tomorrow's grading.", "A way to get home after the grading."],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 2",
+      "instructions": "The five people below all want to take up a new sport. Read the descriptions of eight sports clubs (A–H) and decide which club would be most suitable for each person. There are three clubs you do not need to use.",
+      "sources": [
+        {
+          "label": "6",
+          "name": "Imogen",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/71.jpg\" alt=\"Imogen\" loading=\"lazy\">",
+          "text": "Imogen spends her working day making decisions and wants a sport that empties her mind completely. She would like something calm, done outdoors on water, and she prefers exercising alone rather than in a team. Early mornings suit her best."
+        },
+        {
+          "label": "7",
+          "name": "Bram",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/33.jpg\" alt=\"Bram\" loading=\"lazy\">",
+          "text": "Bram used to play football but had to stop after several knee injuries. His doctor recommends sport that avoids running and jumping, but Bram misses being part of a team and wants to compete against other clubs."
+        },
+        {
+          "label": "8",
+          "name": "Keira",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/88.jpg\" alt=\"Keira\" loading=\"lazy\">",
+          "text": "Keira wants to get stronger and more confident, and she thinks learning to defend herself would be useful too. She would prefer a sport where women train together, taught by a female instructor."
+        },
+        {
+          "label": "9",
+          "name": "Turner",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/men/97.jpg\" alt=\"Turner\" loading=\"lazy\">",
+          "text": "Turner is seventy-one and has not done any sport for years. His doctor says he should start gently, and Turner wants something sociable in the fresh air where speed does not matter. He would love to make new friends his own age."
+        },
+        {
+          "label": "10",
+          "name": "Zofia",
+          "avatar": "<img src=\"https://randomuser.me/api/portraits/women/20.jpg\" alt=\"Zofia\" loading=\"lazy\">",
+          "text": "Zofia is a thrill-seeker who wants a winter sport she can learn fast. She has good balance from years of skateboarding, and she is saving for a mountain trip with friends in February, so she needs lessons before then."
+        }
+      ],
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "Harbour Rowing Club: Our competitive rowing teams train seated, pushing with the legs but with no impact on the joints — many members joined after injuries ended other sports. We race against clubs across the region every month.",
+          "Summit Runners: Hill-running group for experienced athletes. Expect steep climbs, fast descents and mud. Knees of steel required! Races most weekends through autumn and winter.",
+          "Ice Diamonds: Figure-skating classes for all ages, focusing on grace, spins and jumps. Most students train for at least three years before their first competition.",
+          "Dawn Paddle: Peaceful stand-up paddleboarding sessions on the lake at sunrise. Each paddler glides at their own pace — no teams, no racing, just water, birdsong and a clear head before the day begins.",
+          "Silver Strollers Golf: Relaxed golf mornings especially for older beginners. Play as slowly as you like, borrow clubs for free, and stay for coffee and cake in the clubhouse afterwards — most members say the friendships matter more than the scores!",
+          "Typhoon Water Polo: Fast, physical team sport in the pool. Strong swimmers only — matches involve constant sprint swimming and plenty of jumping for the ball.",
+          "Snowline School: Intensive snowboarding courses on our indoor slope, running October to January. Students with board-sport experience typically manage real mountain runs after just six lessons. Perfect preparation for a winter holiday!",
+          "Phoenix Women's Boxing: Strength, fitness and self-defence classes for women, led by our head coach Marta, a former national champion. Beginners welcome; many members say the confidence they gain matters more than the muscles."
+        ]
+      },
+      "questions": [
+        {"stem": "Imogen", "answer": "D"},
+        {"stem": "Bram", "answer": "A"},
+        {"stem": "Keira", "answer": "H"},
+        {"stem": "Turner", "answer": "E"},
+        {"stem": "Zofia", "answer": "G"}
+      ]
+    },
+    {
+      "type": "mc",
+      "part": "Part 3",
+      "instructions": "Read the article about a swimmer and choose the best answer A, B, C or D.",
+      "passage": "Learning to swim at thirty-nine\n\nUntil last year, Dario Fontana had a secret he kept even from close friends: he could not swim. \"Growing up, we lived nowhere near water, and by the time it mattered, I was too embarrassed to admit it,\" he explains. \"I became an expert at excuses. At beach holidays I was always 'not in the mood'. When my daughter was invited to pool parties, my wife took her. I told myself it didn't matter. Then one day my daughter asked me to watch her dive, and I realised I couldn't even stand in the deep end to applaud her. That evening I booked lessons — and I was more nervous making that phone call than I had ever been in any job interview.\"\n\nDario joined an adult beginners' class with seven other students aged between twenty-five and seventy. \"I expected to be surrounded by teenagers, which had been my nightmare,\" he says. \"Instead, there was a grandmother who wanted to swim with her grandchildren, a taxi driver, a chef. On the first evening, our teacher said something I'll never forget: 'Nobody here is behind. You are all exactly on time.' Half of us were nearly in tears.\"\n\nProgress was slower than Dario had hoped. It took him five weeks just to put his face in the water calmly, and several classmates learned to float long before he did. \"I'm competitive, and that was hard,\" he admits. \"I wanted to be the best student, and I was one of the slowest. The pool taught me to measure myself against last week's Dario, not against the person in the next lane. Honestly, that lesson has been useful far beyond swimming.\"\n\nFourteen months later, Dario swims a kilometre twice a week, and last month, on holiday, he finally watched his daughter dive — from the water beside her. \"People assume the happy ending is that I swim now,\" he says. \"That's not quite it. The real ending is that my daughter watched me learn something difficult. She saw me fail for weeks and keep going. I couldn't have taught her that with a speech.\"",
+      "questions": [
+        {"stem": "What finally made Dario decide to learn to swim?", "options": ["A doctor advised him to exercise more.", "His wife discovered his secret.", "He nearly had an accident at a pool party.", "He could not join in an important moment with his daughter."], "answer": 3},
+        {"stem": "How did Dario feel when he met his classmates?", "options": ["Embarrassed to be the oldest student.", "Disappointed by the size of the class.", "Relieved they were adults like him.", "Worried they would learn faster than him."], "answer": 2},
+        {"stem": "What did Dario find difficult about his progress?", "options": ["Others in the class improved more quickly than he did.", "His teacher paid him too little attention.", "The lessons were too short to learn anything.", "He could not attend classes every week."], "answer": 0},
+        {"stem": "What did Dario learn from his time at the pool?", "options": ["Competition always brings out his best.", "To compare himself with his own past progress.", "That swimming is mainly about confidence.", "To avoid measuring progress at all."], "answer": 1},
+        {"stem": "What does Dario think is the 'real ending' of his story?", "options": ["Swimming a kilometre twice a week.", "Diving together with his daughter on holiday.", "Showing his daughter what persistence looks like.", "Finally telling his friends his secret."], "answer": 2}
+      ]
+    },
+    {
+      "type": "match",
+      "part": "Part 4",
+      "instructions": "Read the article about a special football team. Five sentences have been removed. Choose the best sentence (A–H) from the list to fill each gap (16–20). There are three sentences you do not need to use.",
+      "passage": "The team at the end of the world\n\nOn a windswept island in the North Atlantic, four hundred kilometres from the nearest city, stands what may be the world's loneliest football pitch. The island of Grimsvik has just 470 inhabitants, one shop, one harbour — and a football team with a hundred-year history. (16)____ Despite this, the club has never once failed to complete a season.\n\nSimply getting to away matches is an expedition. The team travels by fishing boat to the mainland, then by bus through the mountains. (17)____ When that happens, the players sleep in the sports hall of whichever town they are visiting.\n\nFinding eleven players on a small island is a constant struggle. The current squad includes three fishermen, two teachers, the harbour master and a fifteen-year-old goalkeeper. (18)____ He flies home from university every second weekend during the season.\n\nWhy does such a small community fight so hard to keep a football team? The club's chairwoman, herself a former player, has a simple answer. (19)____ Young islanders who move away, she explains, still follow every result, and many time their summer visits to match the home games.\n\nLast year, against all expectations, Grimsvik won promotion to the third division. (20)____ Whether they win or lose there, nobody on the island doubts that the team will keep sailing to its matches for another hundred years.",
+      "bank": {
+        "labels": ["A", "B", "C", "D", "E", "F", "G", "H"],
+        "texts": [
+          "In bad weather, the journey can take two full days.",
+          "The pitch itself was built by volunteers on the only flat land available.",
+          "Ticket prices, however, remain the lowest in the entire league.",
+          "The islanders celebrated with a party that lasted until the boats went out at dawn.",
+          "The team, she says, is the thread that ties the island's scattered children to home.",
+          "Its players have always been ordinary islanders rather than professionals.",
+          "The captain, a doctor's son, studies on the mainland.",
+          "Football was first brought to the island by a visiting ship's crew."
+        ]
+      },
+      "questions": [
+        {"stem": "Gap 16", "answer": "F"},
+        {"stem": "Gap 17", "answer": "A"},
+        {"stem": "Gap 18", "answer": "G"},
+        {"stem": "Gap 19", "answer": "C"},
+        {"stem": "Gap 20", "answer": "E"}
+      ]
+    },
+    {
+      "type": "clozeMC",
+      "part": "Part 5",
+      "instructions": "For each gap (21–26), choose the best word A, B, C or D.",
+      "title": "Why warming up matters",
+      "body": "Ask any coach what athletes should do before sport, and the answer will be the same: warm up. Yet surveys show that many amateur players (21)____ this advice completely, jumping straight into a match from the changing room. Sports scientists compare a cold body to a cold car engine: it will move, but it performs badly and is easily (22)____. A proper warm-up gently raises the heart rate and sends blood to the muscles, preparing them for sudden (23)____. Studies of thousands of footballers have found that teams following a structured warm-up programme suffer up to a third (24)____ injuries than teams that skip it. Experts recommend spending at least ten minutes on light running and stretching, adding practice movements from your own sport at the (25)____. The message is clear: those boring ten minutes before the game may be the most valuable training you ever do — and they cost (26)____ at all.",
+      "questions": [
+        {"options": ["miss", "refuse", "ignore", "forget"], "answer": 2},
+        {"options": ["hurt", "damaged", "broken", "injured"], "answer": 1},
+        {"options": ["effort", "attempt", "force", "trial"], "answer": 0},
+        {"options": ["less", "smaller", "lower", "fewer"], "answer": 3},
+        {"options": ["finish", "end", "close", "last"], "answer": 1},
+        {"options": ["nothing", "none", "anything", "nowhere"], "answer": 0}
+      ]
+    },
+    {
+      "type": "clozeOpen",
+      "part": "Part 6",
+      "instructions": "For each gap (27–32), write ONE word.",
+      "title": "Message about a charity run",
+      "body": "Hi Otto,\n\nI've decided to do something crazy — I've signed up for the charity mountain run (27)____ September — twenty-eight kilometres! I've never run so far in my life, so I need to start training seriously.\n\nMy plan is to run three times a week and go to the gym on Tuesdays. My sister has promised to train with me, (28)____ makes it much easier to stay motivated. We have already been running twice this week, and my legs hurt (29)____ much that I could hardly climb the stairs this morning!\n\nThe run is for a children's hospital, so I'm hoping to raise at (30)____ 300 euros. Would you like to give something? Even a few euros (31)____ help.\n\nAnd here's an idea — why don't you run it (32)____ me? Think about it!\n\nTalk soon,\nGreta",
+      "questions": [
+        {"accept": ["in"]},
+        {"accept": ["which"]},
+        {"accept": ["so"]},
+        {"accept": ["least"]},
+        {"accept": ["would", "will", "can", "could"]},
+        {"accept": ["with"]}
+      ]
+    }
+  ]
+}
