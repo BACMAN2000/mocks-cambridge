@@ -73,8 +73,11 @@ def jobs_for(path):
     return jobs
 
 def select_files(argv):
-    names = [a for a in argv if not a.startswith("--")]
-    level = argv[argv.index("--level")+1] if "--level" in argv else None
+    level = None; skip = set()
+    if "--level" in argv:
+        i = argv.index("--level")
+        if i+1 < len(argv): level = argv[i+1]; skip.add(i+1)
+    names = [a for i, a in enumerate(argv) if not a.startswith("--") and i not in skip]
     files = sorted(glob.glob(os.path.join(MORE, "*.json")))
     files = [f for f in files if not os.path.basename(f).startswith("_")]
     if names:
