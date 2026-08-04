@@ -31569,6 +31569,26 @@ function currentQuiz(){
   return state.examType==='mock03'?QUIZ6:state.examType==='mock02'?QUIZ2:state.examType==='practice'?QUIZ3:state.examType==='practice2'?QUIZ4:state.examType==='practice3'?QUIZ5:QUIZ;
 }
 
+/* Prefijos de mp3/<prefijo>/ cuyo audio EXISTE de verdad en el repo.
+   Las prácticas 4-18 y los MOCK 4-7 se inyectaron con sus preguntas pero SIN generar
+   el audio, así que sus tarjetas se ocultan mientras estén mudas: si no, el alumno
+   entra, no oye nada y gasta el intento. Al generar p.ej. mp3/P8, añade 'P8' aquí y
+   la tarjeta reaparece sola — no hay que tocar nada más. */
+const AUDIO_READY = ['A2','B1','B2','C1','P','P2','P3','P4','P5','P6','P7'];
+
+/* Devuelve [{t,n}] de LISTEN_MORE[nivel][kind] que sí tienen audio.
+   CONSERVA el número original (n = índice+4) a propósito: currentQuiz() busca el test
+   por su posición en el array (practice[n-4]), así que si filtráramos y renumeráramos,
+   "Práctica 9" abriría el examen equivocado. */
+function moreWithAudio(kind){
+  const bank = (typeof LISTEN_MORE!=='undefined' && LISTEN_MORE[state.level])
+    ? (LISTEN_MORE[state.level][kind] || []) : [];
+  return bank.map((t,i)=>({t:t, n:i+4})).filter(function(o){
+    const m = /"(?:audio|file)"\s*:\s*"([^"\/]+)\//.exec(JSON.stringify(o.t||{}));
+    return !m || AUDIO_READY.indexOf(m[1]) >= 0;   // sin mp3 (solo TTS) -> se muestra
+  });
+}
+
 /* ============================================================
    ANTI-CHEAT — ported from reading-quiz.html. Detects tab/window
    switches (visibilitychange), blocks browser translate + right-click,
@@ -31838,11 +31858,11 @@ function viewExamPick(){
         <p style="color:#475569;margin:0 0 4px;line-height:1.55">A third complete ${examName}-format listening mock — brand-new recordings and tasks, same authentic Cambridge structure and difficulty.</p>
         <button id="m3" style="${cardBtn}">Start MOCK 3 &rarr;</button>
       </div>`:''}
-      ${((typeof LISTEN_MORE!=='undefined' && LISTEN_MORE[state.level]) ? LISTEN_MORE[state.level].mocks : []).map((t,i)=>`
+      ${moreWithAudio('mocks').map(o=>`
       <div style="${cardCss}">
-        <h2 style="margin:0 0 8px;font-size:1.4rem;color:#2d5a8d">📝 MOCK ${i+4}</h2>
+        <h2 style="margin:0 0 8px;font-size:1.4rem;color:#2d5a8d">📝 MOCK ${o.n}</h2>
         <p style="color:#475569;margin:0 0 4px;line-height:1.55">A complete ${examName}-format listening mock — fresh recordings and tasks, same authentic Cambridge structure and difficulty.</p>
-        <button id="mMore${i+4}" style="${cardBtn}">Start MOCK ${i+4} &rarr;</button>
+        <button id="mMore${o.n}" style="${cardBtn}">Start MOCK ${o.n} &rarr;</button>
       </div>`).join('')}
 
       <div class="signin-actions" style="margin-top:8px"><a class="secondary2" id="epBack">&larr; Back</a></div>
@@ -31851,8 +31871,8 @@ function viewExamPick(){
   $("#m1").onclick = ()=> start('mock01');
   $("#m2").onclick = ()=> start('mock02');
   if(QUIZ6 && QUIZ6[state.level]) $("#m3").onclick = ()=> start('mock03');
-  ((typeof LISTEN_MORE!=='undefined' && LISTEN_MORE[state.level]) ? LISTEN_MORE[state.level].mocks : []).forEach((t,i)=>{
-    const b=$("#mMore"+(i+4)); if(b) b.onclick=()=> start('mock0'+(i+4));
+  moreWithAudio('mocks').forEach(o=>{
+    const b=$("#mMore"+o.n); if(b) b.onclick=()=> start('mock0'+o.n);
   });
   $("#epBack").onclick = ()=> viewCategory();
 }
@@ -31890,11 +31910,11 @@ function viewPracticePick(){
         <p style="color:#475569;margin:0 0 4px;line-height:1.55">A third practice — new recordings and tasks, same format and difficulty.</p>
         <button id="p3" style="${cardBtn}">Start Práctica 3 &rarr;</button>
       </div>`:''}
-      ${((typeof LISTEN_MORE!=='undefined' && LISTEN_MORE[state.level]) ? LISTEN_MORE[state.level].practice : []).map((t,i)=>`
+      ${moreWithAudio('practice').map(o=>`
       <div style="${cardCss}">
-        <h2 style="margin:0 0 8px;font-size:1.4rem;color:#2d5a8d">📘 Práctica ${i+4}</h2>
+        <h2 style="margin:0 0 8px;font-size:1.4rem;color:#2d5a8d">📘 Práctica ${o.n}</h2>
         <p style="color:#475569;margin:0 0 4px;line-height:1.55">A practice listening test — fresh recordings and tasks, same authentic Cambridge format and difficulty.</p>
-        <button id="pMore${i+4}" style="${cardBtn}">Start Práctica ${i+4} &rarr;</button>
+        <button id="pMore${o.n}" style="${cardBtn}">Start Práctica ${o.n} &rarr;</button>
       </div>`).join('')}
 
       <div class="signin-actions" style="margin-top:8px"><a class="secondary2" id="ppBack">&larr; Back</a></div>
@@ -31903,8 +31923,8 @@ function viewPracticePick(){
   $("#p1").onclick = ()=> start('practice');
   if(has2) $("#p2").onclick = ()=> start('practice2');
   if(has3) $("#p3").onclick = ()=> start('practice3');
-  ((typeof LISTEN_MORE!=='undefined' && LISTEN_MORE[state.level]) ? LISTEN_MORE[state.level].practice : []).forEach((t,i)=>{
-    const b=$("#pMore"+(i+4)); if(b) b.onclick=()=> start('practice'+(i+4));
+  moreWithAudio('practice').forEach(o=>{
+    const b=$("#pMore"+o.n); if(b) b.onclick=()=> start('practice'+o.n);
   });
   $("#ppBack").onclick = ()=> viewCategory();
 }
@@ -32430,7 +32450,7 @@ function viewResult(payload){
         <div class="res-card"><h2>Detailed question review</h2>${detailHTML}</div>
       </div>
       <div class="row" style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap">
-        <a class="btn" style="text-decoration:none" href="https://bacman2000.github.io/nis-portal/">🏫 Volver al Portal → siguiente destreza</a>
+        <a class="btn" style="text-decoration:none" href="/">🏫 Volver al Portal → siguiente destreza</a>
         <button class="btn secondary" id="lAgain">Try another level</button>
         <a class="btn secondary" style="text-decoration:none" href="quizzes.html">All quizzes ↗</a>
       </div>

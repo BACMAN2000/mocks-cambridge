@@ -13,3 +13,6 @@ A2 Level.txt
 .env.*
 elevenlabs*.txt
 *secret*
+*apikey*
+*api_key*
+*api-key*

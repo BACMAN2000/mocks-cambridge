@@ -65,8 +65,8 @@
 <header>
   <a class="logo" href="quizzes.html"><img src="nordic-logo-h.svg" alt="Nordic International School of Lima"></a>
   <div class="sub">MOCKS CAMBRIDGE · Mocks &amp; Practice Tests · A2 / B1 / B2 / C1</div>
-  <a class="me-btn" href="../nis-portal/?me=1">📊 Mi progreso</a>
-  <a class="me-btn" style="background:#2d5a8d" href="../nis-portal/">🏫 Portal NIS</a>
+  <a class="me-btn" href="/?me=1">📊 Mi progreso</a>
+  <a class="me-btn" style="background:#2d5a8d" href="/">🏫 Portal NIS</a>
   <button class="me-btn" style="background:#9b2c2c;border:none;cursor:pointer;font:inherit" onclick="window._signout()">🚪 Cerrar sesión</button>
 </header>
 <main>
@@ -143,7 +143,10 @@
       Object.keys(sessionStorage).forEach(function(k){ if(k.indexOf('sb-')===0 || k.toLowerCase().indexOf('supabase')>=0) sessionStorage.removeItem(k); });
     }catch(e){}
     // Land on the portal; ?logout=1 makes it force a sign-out and show login.
-    window.location.href = '../nis-portal/?logout=1';
+    // Ruta absoluta desde la raíz: el portal se sirve en / de nis.cohasset.pe
+    // (antes '../nis-portal/', que solo valía cuando ambos repos eran carpetas
+    // hermanas en GitHub Pages y aquí daría 404).
+    window.location.href = '/?logout=1';
   };
 </script>
 </body>
