@@ -42462,6 +42462,22 @@ function renderStim(q){
   return '';
 }
 
+/* Sustituye los marcadores (N)____ del texto POR POSICIÓN, no por número.
+   Los (N) los escribió una persona siguiendo la numeración del examen real de
+   Cambridge, y a veces no coincide con la que calcula el motor (que va sumando
+   preguntas). Ejemplos reales: C1 Practice 1 Parte 6 trae 41–46 cuando al motor
+   le tocan 37–42, y el Reading A2 de Practice 4–18 / Mock 4–7 trae 19–24 donde
+   toca 17–22. Buscando el literal `(startNum+i)____` esos huecos NO se casaban:
+   se quedaban como texto plano, sin campo, y el alumno no podía responderlos.
+   Ahora el i-ésimo marcador que aparezca es la pregunta i, se imprima el número
+   que se imprima, y se etiqueta con el número que le toca en el examen.
+   Devuelve `filled` para que quien llame ponga un campo aparte a las preguntas
+   que se hayan quedado sin marcador (nunca una pregunta sin dónde responder). */
+function fillGapMarkers(text, count, build){
+  let n = 0;
+  const html = String(text).replace(/\(\d+\)____/g, m => (n < count) ? build(n++) : m);
+  return { html:html, filled:n };
+}
 function renderPart(p, idx, startNum, twoCol, paged){
   const head = `<div class="parthead">${p.part}</div>`;
   // Instructions are shown once in the .inspera-instruction subheading, so we
@@ -42519,6 +42535,7 @@ function renderPart(p, idx, startNum, twoCol, paged){
     // dropdown shows their names. Otherwise (B1 people→A–H options, or gapped text)
     // the dropdown shows the LETTER and the option texts are listed in a box.
     const peopleAreOptions = hasSources && p.bank && p.bank.labels && p.bank.labels.length === p.sources.length;
+    let gapsFilled = 0;   // huecos realmente sustituidos en el texto (ver fillGapMarkers)
     const opts = (p.bank ? p.bank.labels : []).map((l,i)=>{
       const display = peopleAreOptions ? (p.bank.texts[i] || l) : l;
       return `<option value="${l}">${display}</option>`;
@@ -42534,15 +42551,13 @@ function renderPart(p, idx, startNum, twoCol, paged){
 
     if(isGappedText){
       // Embed inline dropdowns in the passage at each (N)____ marker
-      let passageHtml = p.passage;
-      p.questions.forEach((q,i)=>{
+      const g = fillGapMarkers(p.passage, p.questions.length, (i)=>{
         const num = startNum + i;
-        const placeholder = `(${num})____`;
         const qidStr = qid(idx,i);
-        const sel = `<select class="gapped-select" name="${qidStr}" onchange="this.classList.toggle('answered', !!this.value); if(window._updateProgress) window._updateProgress();"><option value="">${num}</option>${opts}</select>`;
-        passageHtml = passageHtml.split(placeholder).join(sel);
+        return `<select class="gapped-select" name="${qidStr}" onchange="this.classList.toggle('answered', !!this.value); if(window._updateProgress) window._updateProgress();"><option value="">${num}</option>${opts}</select>`;
       });
-      left += `<div class="passage">${passageHtml}</div>`;
+      gapsFilled = g.filled;
+      left += `<div class="passage">${g.html}</div>`;
     } else {
       if(p.passage){ left += `<div class="passage">${p.passage}</div>`; }
       if(p.sources && p.sources.length){
@@ -42567,14 +42582,14 @@ function renderPart(p, idx, startNum, twoCol, paged){
       right += `</ul></div>`;
     }
 
-    // For non-gapped match parts, render separate numbered dropdowns
-    if(!isGappedText){
-      p.questions.forEach((q,i)=>{
-        const num = startNum + i;
-        right += `<div class="q"><div class="stem">${num}. ${q.stem||''}</div>
-          <select name="${qid(idx,i)}"><option value="">— choose —</option>${opts}</select>
-        </div>`;
-      });
+    // For non-gapped match parts, render separate numbered dropdowns. En los
+    // gapped, sólo para las preguntas que se hayan quedado sin hueco en el texto
+    // (texto con menos marcadores que preguntas): así ninguna queda sin campo.
+    for(let i = (isGappedText ? gapsFilled : 0); i < p.questions.length; i++){
+      const num = startNum + i;
+      right += `<div class="q"><div class="stem">${num}. ${p.questions[i].stem||''}</div>
+        <select name="${qid(idx,i)}"><option value="">— choose —</option>${opts}</select>
+      </div>`;
     }
 
     if(twoCol){
@@ -42594,28 +42609,35 @@ function renderPart(p, idx, startNum, twoCol, paged){
     }
     // Inspera-style inline cloze: small numbered pill that opens a popup of options.
     if(p.type === 'clozeMC' && p.body){
-      let bodyHtml = p.body;
-      p.questions.forEach((q,i)=>{
+      const g = fillGapMarkers(p.body, p.questions.length, (i)=>{
         const num = startNum + i;
-        const placeholder = `(${num})____`;
         const qidStr = qid(idx,i);
-        const optsJson = JSON.stringify(q.options).replace(/"/g,'&quot;');
-        const btn = `<button type="button" class="gap-pill" data-options="${optsJson}" data-num="${num}" onclick="window._showGap(this, '${qidStr}')">${num}</button><input type="hidden" name="${qidStr}" value="">`;
-        bodyHtml = bodyHtml.split(placeholder).join(btn);
+        const optsJson = JSON.stringify(p.questions[i].options).replace(/"/g,'&quot;');
+        return `<button type="button" class="gap-pill" data-options="${optsJson}" data-num="${num}" onclick="window._showGap(this, '${qidStr}')">${num}</button><input type="hidden" name="${qidStr}" value="">`;
       });
-      body += `<div class="passage">${bodyHtml}</div>`;
+      body += `<div class="passage">${g.html}</div>`;
+      for(let i = g.filled; i < p.questions.length; i++){   // sin hueco en el texto: opciones aparte
+        const num = startNum + i;
+        body += `<div class="q"><div class="stem">${num}.</div>`;
+        (p.questions[i].options||[]).forEach((o,j)=>{
+          body += `<label class="opt"><input type="radio" name="${qid(idx,i)}" value="${j}"> ${String.fromCharCode(65+j)}) ${o}</label>`;
+        });
+        body += `</div>`;
+      }
       return `<div class="partbox">${head}${instr}${body}</div>`;
     }
     // Inspera-style inline open cloze: text inputs embedded in the text
     if(p.type === 'clozeOpen' && p.body){
-      let bodyHtml = p.body;
-      p.questions.forEach((q,i)=>{
+      const g = fillGapMarkers(p.body, p.questions.length, (i)=>{
         const num = startNum + i;
-        const placeholder = `(${num})____`;
-        const inp = `<input class="cloze-input" type="text" name="${qid(idx,i)}" autocomplete="off" oninput="if(window._updateProgress) window._updateProgress();">`;
-        bodyHtml = bodyHtml.split(placeholder).join('('+num+') '+inp);
+        return '('+num+') <input class="cloze-input" type="text" name="'+qid(idx,i)+'" autocomplete="off" oninput="if(window._updateProgress) window._updateProgress();">';
       });
-      body += `<div class="passage">${bodyHtml}</div>`;
+      body += `<div class="passage">${g.html}</div>`;
+      for(let i = g.filled; i < p.questions.length; i++){   // sin hueco en el texto: campo aparte
+        const num = startNum + i;
+        body += `<div class="q"><div class="stem">${num}.</div>
+          <input class="gapinput" type="text" name="${qid(idx,i)}" autocomplete="off"></div>`;
+      }
       return `<div class="partbox">${head}${instr}${body}</div>`;
     }
     if(p.type === 'wordform' && p.rows){
