@@ -1,4 +1,4 @@
 {
-  "version": "2026-08-20-acoff2",
+  "version": "2026-08-20-m2fix",
   "note": "Bump this value on every deploy so students auto-load the latest version. Format: YYYY-MM-DD-N."
 }
