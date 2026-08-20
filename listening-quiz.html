@@ -273,6 +273,7 @@
    ======================================================================== */
 const CONFIG = {
   AUDIO_BASE: "./mp3/",                // for B2 / C1 mp3 files
+  AUDIO_V: "m2fix",                    // cache-buster appended to every mp3 URL — bump when any mp3 is REgenerated (CDN caches audio for 7 days)
   APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbzwn09Be0ZfKxGpwgkjLdp7nIs7awq8h7SVKkMlWN4EjekkOFqpLmnChzGHN_bB6kN-/exec",
   TEACHER_EMAIL: "pbaca@nordic-school.edu.pe",
   CLASS_LABEL: "NIS English 2026"
@@ -31951,7 +31952,7 @@ function viewQuiz(){
     const info = pInfo[i];
     const range = info.count>1 ? `${info.start}–${info.start+info.count-1}` : `${info.start}`;
     const playerBlock = a.paged ? ''
-      : `<div class="ins-player">${(a.kind==='tts') ? renderTTSPlayer(a) : `<audio controls preload="none" src="${CONFIG.AUDIO_BASE}${a.file}"></audio>`}</div>`;
+      : `<div class="ins-player">${(a.kind==='tts') ? renderTTSPlayer(a) : `<audio controls preload="none" src="${CONFIG.AUDIO_BASE}${a.file}?v=${CONFIG.AUDIO_V}"></audio>`}</div>`;
     return `<section class="ins-pane${i===0?' active':''}" data-part="${i}">
       <div class="ins-instr"><strong>Questions ${range}</strong><p>${a.intro||''}</p></div>
       ${playerBlock}
@@ -32187,7 +32188,7 @@ function renderQuestions(audio, container){
         <select class="matchsel" data-key="${key}"><option value="">— elige —</option>${bank.map(b=>`<option value="${b}">${b}</option>`).join("")}</select>`;
     }
     if(audio.paged && q.audio){
-      el.innerHTML = `<div class="q-audio"><audio controls preload="none" src="${CONFIG.AUDIO_BASE}${q.audio}"></audio></div>` + el.innerHTML;
+      el.innerHTML = `<div class="q-audio"><audio controls preload="none" src="${CONFIG.AUDIO_BASE}${q.audio}?v=${CONFIG.AUDIO_V}"></audio></div>` + el.innerHTML;
     }
     container.appendChild(el);
   });
