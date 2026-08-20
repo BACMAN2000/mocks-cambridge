@@ -61,11 +61,14 @@
      Block the long-press callout (Translate / Look Up / Copy) and selection
      on the prompt/instructions — the desktop `contextmenu` block does NOT fire
      on iOS Safari long-press. The answer textarea stays fully editable. */
+  /* DESACTIVADO (2026-08-20) junto con el kill switch AC_DISABLED — quitar
+     los comentarios para reactivar:
   .shell{-webkit-touch-callout:none; -webkit-user-select:none; user-select:none}
   .shell input,
   .shell textarea,
   .shell select,
   .shell [contenteditable]{-webkit-touch-callout:default; -webkit-user-select:text; user-select:text}
+  */
   .hdr{display:flex;align-items:center;gap:16px;padding:12px 20px;border-bottom:1px solid var(--line);background:#fff}
   .hdr .brand img{height:34px;width:auto}
   .hdr .cand{font-size:.9rem;color:var(--muted)}

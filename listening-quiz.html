@@ -96,11 +96,14 @@
      selection on exam content — the desktop `contextmenu` block does NOT
      fire on iOS Safari long-press, so this CSS is the iPad equivalent.
      Answer fields stay fully selectable/editable so typing still works. */
+  /* DESACTIVADO (2026-08-20) junto con el kill switch AC_DISABLED — quitar
+     los comentarios para reactivar:
   body.exam-mode .ins-shell{-webkit-touch-callout:none; -webkit-user-select:none; user-select:none}
   body.exam-mode .ins-shell input,
   body.exam-mode .ins-shell textarea,
   body.exam-mode .ins-shell select,
   body.exam-mode .ins-shell [contenteditable]{-webkit-touch-callout:default; -webkit-user-select:text; user-select:text}
+  */
   .ins-hdr{display:flex; align-items:center; gap:16px; padding:10px 20px; border-bottom:1px solid #cbd5e1; background:#fff; flex-shrink:0}
   .ins-hdr .ins-brand img{height:32px; width:auto; display:block}
   .ins-hdr .ins-cand{font-size:.9rem; color:#64748b}
