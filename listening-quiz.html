@@ -31597,6 +31597,10 @@ function moreWithAudio(kind){
    never blocks a new exam. window.blur is intentionally NOT used —
    native dialogs (confirm) steal focus and would fire false positives.
 ============================================================ */
+/* KILL SWITCH (2026-08-20): anticheat desactivado mientras se revisa su
+   eficacia — falsos positivos estaban expulsando alumnos de los mocks.
+   Para reactivarlo, poner en false. */
+const AC_DISABLED = true;
 let _AC_on = false;
 let _AC_n  = 0;   // cumulative tab/window-switch counter
 let _AC_trans = 0;   // cumulative translation-detected counter
@@ -31605,6 +31609,7 @@ let _acTransActive = false;   // edge-trigger guard: true while translation is a
 
 function acStart(){
   acStop();                  // always tear down any previous session first
+  if(AC_DISABLED) return;
   _AC_on = true;
   _AC_n  = 0;
   state._tabSwitches = 0;

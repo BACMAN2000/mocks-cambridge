@@ -42071,6 +42071,10 @@ function speak(text){
    con un margen de 3s para no contar el confirm() de Submit/Quit ni
    micro-parpadeos. Bloquea copiar/pegar/clic-derecho y traductor.
    acStart() reinicia las vidas en cada examen (por intento). ========= */
+/* KILL SWITCH (2026-08-20): anticheat desactivado mientras se revisa su
+   eficacia — falsos positivos estaban expulsando alumnos de los mocks.
+   Para reactivarlo, poner en false. */
+const AC_DISABLED = true;
 let _AC_on = false;
 let _AC_n  = 0;            // contador de salidas en este examen
 const _AC_MAX = 3;
@@ -42080,6 +42084,7 @@ const _AC_ACT = 'mock-reading', _AC_LABEL = 'MOCK · Reading & UoE';
 
 function acStart(){
   acStop();                  // always tear down any previous session first
+  if(AC_DISABLED) return;
   _AC_on = true; _AC_n = 0; _AC_away = false; state._tabSwitches = 0;
 
   const sh = document.querySelector('.inspera-shell');
