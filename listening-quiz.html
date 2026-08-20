@@ -273,7 +273,7 @@
    ======================================================================== */
 const CONFIG = {
   AUDIO_BASE: "./mp3/",                // for B2 / C1 mp3 files
-  AUDIO_V: "m2fix",                    // cache-buster appended to every mp3 URL — bump when any mp3 is REgenerated (CDN caches audio for 7 days)
+  AUDIO_V: "m3fix",                    // cache-buster appended to every mp3 URL — bump when any mp3 is REgenerated (CDN caches audio for 7 days)
   APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbzwn09Be0ZfKxGpwgkjLdp7nIs7awq8h7SVKkMlWN4EjekkOFqpLmnChzGHN_bB6kN-/exec",
   TEACHER_EMAIL: "pbaca@nordic-school.edu.pe",
   CLASS_LABEL: "NIS English 2026"
@@ -4553,24 +4553,24 @@ const QUIZ6 = {
       {
         id: "B1-P1", title: "Part 1 · Questions 1–7", kind: "file", paged: true,
         intro: "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
-        segments: ["A weekend plan","An object","Getting to work","Tomorrow's weather","Choice of drink","Meeting time","Lost property"],
+        segments: ["A weekend plan","An object","Getting to work","Tomorrow's weather","Lunch plans","Meeting time","Lost property"],
         scripts: [
           "Question one. Boy: Tennis Sunday? Girl: My racket's at my cousin's. Let's just walk in the park — I need fresh air. Boy: Fair enough.",
           "Question two. Woman: You're carrying so much. Man: Camera, book for the train. But I forgot my umbrella, which is what I'll need by the look of those clouds. Woman: Borrow mine.",
           "Question three. Man: Driving in tomorrow? Woman: Traffic's awful. I usually cycle, but my knee's playing up, so I'll just take the bus and read. Man: Sensible.",
           "Question four. Girl: I was going to wear my new dress tomorrow. Boy: I wouldn't. The forecast keeps changing, but now it's heavy rain all afternoon. Girl: Right, jeans and boots then.",
-          "Question five. Waiter: A coffee? Woman: I've had three already. A tea would be nice. Actually, just water please. Waiter: Of course.",
+          "Question five. Man: Shall we get a pizza for lunch? Woman: The pizza place is closed on Mondays. Let's try that new café on the corner instead. Man: Good idea. Do I need my umbrella? Woman: No, it's lovely out — see you at the café.",
           "Question six. Man: What time did we say? Woman: First seven, then Anna pushed it back, and now Tom can't make eight, so we're meeting at nine. Man: Very organised.",
-          "Question seven. Mum: What have you lost? Boy: My phone. I had it on the bus. Mum: Try calling it. Boy: I can't, I haven't got it. Oh — it's in my coat pocket."
+          "Question seven. Mum: What have you lost? Boy: My phone. My keys are here, and my bag's by the door, but my phone's gone. Mum: Try calling it from mine. Boy: Oh — it was in my coat pocket. Phew."
         ],
         questions: [
           {type:"pic", q:"What do they decide to do on Sunday?", imgs:["ball","park","sandwich"], c:1, audio:"M3/B1/B1-P1-q1.mp3"},
           {type:"pic", q:"What has the man forgotten?", imgs:["camera","book","umbrella"], c:2, audio:"M3/B1/B1-P1-q2.mp3"},
           {type:"pic", q:"How will the woman travel to work tomorrow?", imgs:["car","bike","bus"], c:2, audio:"M3/B1/B1-P1-q3.mp3"},
           {type:"pic", q:"What will the weather be like tomorrow afternoon?", imgs:["sunny","rainy","snowy"], c:1, audio:"M3/B1/B1-P1-q4.mp3"},
-          {type:"pic", q:"What does the woman finally order?", imgs:["cafe","pizza","umbrella"], c:0, audio:"M3/B1/B1-P1-q5.mp3"},
+          {type:"pic", q:"Where will they have lunch?", imgs:["cafe","pizza","umbrella"], c:0, audio:"M3/B1/B1-P1-q5.mp3"},
           {type:"pic", q:"What time will they now meet?", imgs:["clock700","clock8","clock9"], c:2, audio:"M3/B1/B1-P1-q6.mp3"},
-          {type:"pic", q:"Where was the boy's phone?", imgs:["bag","phone","keys"], c:1, audio:"M3/B1/B1-P1-q7.mp3"}
+          {type:"pic", q:"What has the boy lost?", imgs:["bag","phone","keys"], c:1, audio:"M3/B1/B1-P1-q7.mp3"}
         ]
       },
       {
