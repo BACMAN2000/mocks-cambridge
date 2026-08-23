@@ -96,11 +96,14 @@
      selection on exam content — the desktop `contextmenu` block does NOT
      fire on iOS Safari long-press, so this CSS is the iPad equivalent.
      Answer fields stay fully selectable/editable so typing still works. */
+  /* DESACTIVADO (2026-08-20) junto con el kill switch AC_DISABLED — quitar
+     los comentarios para reactivar:
   body.exam-mode .ins-shell{-webkit-touch-callout:none; -webkit-user-select:none; user-select:none}
   body.exam-mode .ins-shell input,
   body.exam-mode .ins-shell textarea,
   body.exam-mode .ins-shell select,
   body.exam-mode .ins-shell [contenteditable]{-webkit-touch-callout:default; -webkit-user-select:text; user-select:text}
+  */
   .ins-hdr{display:flex; align-items:center; gap:16px; padding:10px 20px; border-bottom:1px solid #cbd5e1; background:#fff; flex-shrink:0}
   .ins-hdr .ins-brand img{height:32px; width:auto; display:block}
   .ins-hdr .ins-cand{font-size:.9rem; color:#64748b}
@@ -270,6 +273,7 @@
    ======================================================================== */
 const CONFIG = {
   AUDIO_BASE: "./mp3/",                // for B2 / C1 mp3 files
+  AUDIO_V: "m3fix",                    // cache-buster appended to every mp3 URL — bump when any mp3 is REgenerated (CDN caches audio for 7 days)
   APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbzwn09Be0ZfKxGpwgkjLdp7nIs7awq8h7SVKkMlWN4EjekkOFqpLmnChzGHN_bB6kN-/exec",
   TEACHER_EMAIL: "pbaca@nordic-school.edu.pe",
   CLASS_LABEL: "NIS English 2026"
@@ -1746,16 +1750,16 @@ const QUIZ2 = {
       {
         id: "A2-P1", title: "Part 1 · Questions 1–5", kind: "file", paged: true,
         intro: "For each question, choose the correct answer (A, B or C). You will hear five short conversations. Use the arrow ▶ or the numbers below to move to the next conversation.",
-        segments: ["A pet","Getting to the park","Breakfast","The weather tomorrow","The bus time"],
+        segments: ["A birthday present","Getting to the park","Breakfast","The weather tomorrow","The bus time"],
         scripts: [
-          "Question one. Girl: Did you get a new pet? Boy: Yes! I really wanted a dog, but our flat is too small, so we got a cat instead. She's lovely.",
-          "Question two. Boy: How are we getting to the park? Girl: We could take the bus, but it's such a nice day. Let's walk. Boy: OK, walking sounds good.",
-          "Question three. Mum: What would you like for breakfast? Boy: Could I have toast, please? Mum: We've run out of bread. How about some fruit? Boy: OK, a banana then.",
-          "Question four. Girl: Shall we have the picnic tomorrow? Boy: The forecast says it'll be windy all day. Girl: Then let's wait until Sunday, it'll be sunny.",
+          "Question one. Girl: Did you get anything nice for your birthday? Boy: My uncle wanted to buy me a book, but the bookshop was closed, so he gave me a new football. Girl: Lucky you! Better than another birthday cake. Boy: Ha, definitely.",
+          "Question two. Boy: How are we getting to the park? Girl: Dad can't take us in the car today, and my bike has a flat tyre, so let's take the bus. Boy: OK, the bus stops right by the park gates.",
+          "Question three. Mum: What would you like for breakfast? Boy: Is there any pizza left from last night? Mum: For breakfast? No! And you're not having chocolate cake either. I'll make you a cheese sandwich. Boy: OK, thanks Mum.",
+          "Question four. Girl: Shall we have the picnic tomorrow? Boy: The forecast says it's going to rain all day. Girl: Rain? But it's so sunny today! Boy: I know. Well, at least it isn't going to snow.",
           "Question five. Man: When's the next bus? Woman: There was one at four, but we missed it. The next is at half past four. Man: OK, twenty minutes to wait."
         ],
         questions: [
-          {type:"pic", q:"What pet did the boy get?", imgs:["book","ball","cake"], c:1, audio:"M2/A2/A2-P1-q1.mp3"},
+          {type:"pic", q:"What did the boy get for his birthday?", imgs:["book","ball","cake"], c:1, audio:"M2/A2/A2-P1-q1.mp3"},
           {type:"pic", q:"How will they get to the park?", imgs:["bus","bike","car"], c:0, audio:"M2/A2/A2-P1-q2.mp3"},
           {type:"pic", q:"What will the boy have for breakfast?", imgs:["sandwich","pizza","cake"], c:0, audio:"M2/A2/A2-P1-q3.mp3"},
           {type:"pic", q:"What will the weather be like tomorrow?", imgs:["sunny","rainy","snowy"], c:1, audio:"M2/A2/A2-P1-q4.mp3"},
@@ -1832,13 +1836,13 @@ const QUIZ2 = {
       {
         id: "B1-P1", title: "Part 1 · Questions 1–7", kind: "file", paged: true,
         intro: "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
-        segments: ["Weekend plan","A gift","Getting home","The weather","At the café","Film time","A lost item"],
+        segments: ["Weekend plan","A gift","Getting home","The weather","Ready for the beach","Film time","A lost item"],
         scripts: [
-          "Question one. Girl: Shall we go cycling on Saturday? Boy: I'd love to, but my bike's broken. Could we go for a swim instead? Girl: Good idea, the pool it is.",
-          "Question two. Boy: What did you buy your dad? Girl: I was going to get him a book, but he reads everything online now, so I got him a nice mug. Boy: He'll like that.",
+          "Question one. Girl: Shall we go cycling on Saturday? Boy: I'd love to, but my bike's broken. Why don't we play football in the park instead? Girl: OK! And what if it rains? Boy: Bring your umbrella, but we're playing anyway.",
+          "Question two. Boy: What did you buy your dad? Girl: I was going to get him a book, but he reads everything online now, so I bought him a smart bag for work. Boy: Nice — much better than baking him a cake. Girl: Much easier, too.",
           "Question three. Woman: How are you getting home tonight? Man: I usually take the train, but it's not running, so my sister's picking me up by car. Woman: Lucky you.",
           "Question four. Girl: Should I take my umbrella? Boy: It's sunny now, but they say it'll snow later. Girl: Snow? In October? Then I'll wear my big coat.",
-          "Question five. Man: Are you having a coffee? Woman: I'd love one, but I had three already today. I'll just have some water, thanks.",
+          "Question five. Man: Have you got everything for the beach? Woman: I've packed the sandwiches and the beach ball, but I can't believe it — I've forgotten my umbrella. Man: Never mind, we can buy one there.",
           "Question six. Boy: What time's the film? Girl: I thought it was at seven, but actually it starts at half past seven. Boy: Great, more time to eat first.",
           "Question seven. Mum: You look worried. Boy: I can't find my keys. Mum: Did you check your jacket? Boy: Oh — here they are, in my bag. Phew."
         ],
@@ -1847,7 +1851,7 @@ const QUIZ2 = {
           {type:"pic", q:"What did the girl buy her dad?", imgs:["book","bag","cake"], c:1, audio:"M2/B1/B1-P1-q2.mp3"},
           {type:"pic", q:"How will the man get home?", imgs:["bus","car","bike"], c:1, audio:"M2/B1/B1-P1-q3.mp3"},
           {type:"pic", q:"What will the weather be like later?", imgs:["sunny","rainy","snowy"], c:2, audio:"M2/B1/B1-P1-q4.mp3"},
-          {type:"pic", q:"What will the woman have?", imgs:["sandwich","umbrella","ball"], c:1, audio:"M2/B1/B1-P1-q5.mp3"},
+          {type:"pic", q:"What has the woman forgotten?", imgs:["sandwich","umbrella","ball"], c:1, audio:"M2/B1/B1-P1-q5.mp3"},
           {type:"pic", q:"What time does the film start?", imgs:["clock700","clock730","clock8"], c:1, audio:"M2/B1/B1-P1-q6.mp3"},
           {type:"pic", q:"Where were the boy's keys?", imgs:["bag","phone","keys"], c:0, audio:"M2/B1/B1-P1-q7.mp3"}
         ]
@@ -4549,24 +4553,24 @@ const QUIZ6 = {
       {
         id: "B1-P1", title: "Part 1 · Questions 1–7", kind: "file", paged: true,
         intro: "For each question, choose the correct answer (A, B or C). You will hear seven short recordings. Use the arrow ▶ or the numbers below to move on.",
-        segments: ["A weekend plan","An object","Getting to work","Tomorrow's weather","Choice of drink","Meeting time","Lost property"],
+        segments: ["A weekend plan","An object","Getting to work","Tomorrow's weather","Lunch plans","Meeting time","Lost property"],
         scripts: [
           "Question one. Boy: Tennis Sunday? Girl: My racket's at my cousin's. Let's just walk in the park — I need fresh air. Boy: Fair enough.",
           "Question two. Woman: You're carrying so much. Man: Camera, book for the train. But I forgot my umbrella, which is what I'll need by the look of those clouds. Woman: Borrow mine.",
           "Question three. Man: Driving in tomorrow? Woman: Traffic's awful. I usually cycle, but my knee's playing up, so I'll just take the bus and read. Man: Sensible.",
           "Question four. Girl: I was going to wear my new dress tomorrow. Boy: I wouldn't. The forecast keeps changing, but now it's heavy rain all afternoon. Girl: Right, jeans and boots then.",
-          "Question five. Waiter: A coffee? Woman: I've had three already. A tea would be nice. Actually, just water please. Waiter: Of course.",
+          "Question five. Man: Shall we get a pizza for lunch? Woman: The pizza place is closed on Mondays. Let's try that new café on the corner instead. Man: Good idea. Do I need my umbrella? Woman: No, it's lovely out — see you at the café.",
           "Question six. Man: What time did we say? Woman: First seven, then Anna pushed it back, and now Tom can't make eight, so we're meeting at nine. Man: Very organised.",
-          "Question seven. Mum: What have you lost? Boy: My phone. I had it on the bus. Mum: Try calling it. Boy: I can't, I haven't got it. Oh — it's in my coat pocket."
+          "Question seven. Mum: What have you lost? Boy: My phone. My keys are here, and my bag's by the door, but my phone's gone. Mum: Try calling it from mine. Boy: Oh — it was in my coat pocket. Phew."
         ],
         questions: [
           {type:"pic", q:"What do they decide to do on Sunday?", imgs:["ball","park","sandwich"], c:1, audio:"M3/B1/B1-P1-q1.mp3"},
           {type:"pic", q:"What has the man forgotten?", imgs:["camera","book","umbrella"], c:2, audio:"M3/B1/B1-P1-q2.mp3"},
           {type:"pic", q:"How will the woman travel to work tomorrow?", imgs:["car","bike","bus"], c:2, audio:"M3/B1/B1-P1-q3.mp3"},
           {type:"pic", q:"What will the weather be like tomorrow afternoon?", imgs:["sunny","rainy","snowy"], c:1, audio:"M3/B1/B1-P1-q4.mp3"},
-          {type:"pic", q:"What does the woman finally order?", imgs:["cafe","pizza","umbrella"], c:0, audio:"M3/B1/B1-P1-q5.mp3"},
+          {type:"pic", q:"Where will they have lunch?", imgs:["cafe","pizza","umbrella"], c:0, audio:"M3/B1/B1-P1-q5.mp3"},
           {type:"pic", q:"What time will they now meet?", imgs:["clock700","clock8","clock9"], c:2, audio:"M3/B1/B1-P1-q6.mp3"},
-          {type:"pic", q:"Where was the boy's phone?", imgs:["bag","phone","keys"], c:1, audio:"M3/B1/B1-P1-q7.mp3"}
+          {type:"pic", q:"What has the boy lost?", imgs:["bag","phone","keys"], c:1, audio:"M3/B1/B1-P1-q7.mp3"}
         ]
       },
       {
@@ -31569,6 +31573,26 @@ function currentQuiz(){
   return state.examType==='mock03'?QUIZ6:state.examType==='mock02'?QUIZ2:state.examType==='practice'?QUIZ3:state.examType==='practice2'?QUIZ4:state.examType==='practice3'?QUIZ5:QUIZ;
 }
 
+/* Prefijos de mp3/<prefijo>/ cuyo audio EXISTE de verdad en el repo.
+   Las prácticas 4-18 y los MOCK 4-7 se inyectaron con sus preguntas pero SIN generar
+   el audio, así que sus tarjetas se ocultan mientras estén mudas: si no, el alumno
+   entra, no oye nada y gasta el intento. Al generar p.ej. mp3/P8, añade 'P8' aquí y
+   la tarjeta reaparece sola — no hay que tocar nada más. */
+const AUDIO_READY = ['A2','B1','B2','C1','P','P2','P3','P4','P5','P6','P7'];
+
+/* Devuelve [{t,n}] de LISTEN_MORE[nivel][kind] que sí tienen audio.
+   CONSERVA el número original (n = índice+4) a propósito: currentQuiz() busca el test
+   por su posición en el array (practice[n-4]), así que si filtráramos y renumeráramos,
+   "Práctica 9" abriría el examen equivocado. */
+function moreWithAudio(kind){
+  const bank = (typeof LISTEN_MORE!=='undefined' && LISTEN_MORE[state.level])
+    ? (LISTEN_MORE[state.level][kind] || []) : [];
+  return bank.map((t,i)=>({t:t, n:i+4})).filter(function(o){
+    const m = /"(?:audio|file)"\s*:\s*"([^"\/]+)\//.exec(JSON.stringify(o.t||{}));
+    return !m || AUDIO_READY.indexOf(m[1]) >= 0;   // sin mp3 (solo TTS) -> se muestra
+  });
+}
+
 /* ============================================================
    ANTI-CHEAT — ported from reading-quiz.html. Detects tab/window
    switches (visibilitychange), blocks browser translate + right-click,
@@ -31577,6 +31601,10 @@ function currentQuiz(){
    never blocks a new exam. window.blur is intentionally NOT used —
    native dialogs (confirm) steal focus and would fire false positives.
 ============================================================ */
+/* KILL SWITCH (2026-08-20): anticheat desactivado mientras se revisa su
+   eficacia — falsos positivos estaban expulsando alumnos de los mocks.
+   Para reactivarlo, poner en false. */
+const AC_DISABLED = true;
 let _AC_on = false;
 let _AC_n  = 0;   // cumulative tab/window-switch counter
 let _AC_trans = 0;   // cumulative translation-detected counter
@@ -31585,6 +31613,7 @@ let _acTransActive = false;   // edge-trigger guard: true while translation is a
 
 function acStart(){
   acStop();                  // always tear down any previous session first
+  if(AC_DISABLED) return;
   _AC_on = true;
   _AC_n  = 0;
   state._tabSwitches = 0;
@@ -31838,11 +31867,11 @@ function viewExamPick(){
         <p style="color:#475569;margin:0 0 4px;line-height:1.55">A third complete ${examName}-format listening mock — brand-new recordings and tasks, same authentic Cambridge structure and difficulty.</p>
         <button id="m3" style="${cardBtn}">Start MOCK 3 &rarr;</button>
       </div>`:''}
-      ${((typeof LISTEN_MORE!=='undefined' && LISTEN_MORE[state.level]) ? LISTEN_MORE[state.level].mocks : []).map((t,i)=>`
+      ${moreWithAudio('mocks').map(o=>`
       <div style="${cardCss}">
-        <h2 style="margin:0 0 8px;font-size:1.4rem;color:#2d5a8d">📝 MOCK ${i+4}</h2>
+        <h2 style="margin:0 0 8px;font-size:1.4rem;color:#2d5a8d">📝 MOCK ${o.n}</h2>
         <p style="color:#475569;margin:0 0 4px;line-height:1.55">A complete ${examName}-format listening mock — fresh recordings and tasks, same authentic Cambridge structure and difficulty.</p>
-        <button id="mMore${i+4}" style="${cardBtn}">Start MOCK ${i+4} &rarr;</button>
+        <button id="mMore${o.n}" style="${cardBtn}">Start MOCK ${o.n} &rarr;</button>
       </div>`).join('')}
 
       <div class="signin-actions" style="margin-top:8px"><a class="secondary2" id="epBack">&larr; Back</a></div>
@@ -31851,8 +31880,8 @@ function viewExamPick(){
   $("#m1").onclick = ()=> start('mock01');
   $("#m2").onclick = ()=> start('mock02');
   if(QUIZ6 && QUIZ6[state.level]) $("#m3").onclick = ()=> start('mock03');
-  ((typeof LISTEN_MORE!=='undefined' && LISTEN_MORE[state.level]) ? LISTEN_MORE[state.level].mocks : []).forEach((t,i)=>{
-    const b=$("#mMore"+(i+4)); if(b) b.onclick=()=> start('mock0'+(i+4));
+  moreWithAudio('mocks').forEach(o=>{
+    const b=$("#mMore"+o.n); if(b) b.onclick=()=> start('mock0'+o.n);
   });
   $("#epBack").onclick = ()=> viewCategory();
 }
@@ -31890,11 +31919,11 @@ function viewPracticePick(){
         <p style="color:#475569;margin:0 0 4px;line-height:1.55">A third practice — new recordings and tasks, same format and difficulty.</p>
         <button id="p3" style="${cardBtn}">Start Práctica 3 &rarr;</button>
       </div>`:''}
-      ${((typeof LISTEN_MORE!=='undefined' && LISTEN_MORE[state.level]) ? LISTEN_MORE[state.level].practice : []).map((t,i)=>`
+      ${moreWithAudio('practice').map(o=>`
       <div style="${cardCss}">
-        <h2 style="margin:0 0 8px;font-size:1.4rem;color:#2d5a8d">📘 Práctica ${i+4}</h2>
+        <h2 style="margin:0 0 8px;font-size:1.4rem;color:#2d5a8d">📘 Práctica ${o.n}</h2>
         <p style="color:#475569;margin:0 0 4px;line-height:1.55">A practice listening test — fresh recordings and tasks, same authentic Cambridge format and difficulty.</p>
-        <button id="pMore${i+4}" style="${cardBtn}">Start Práctica ${i+4} &rarr;</button>
+        <button id="pMore${o.n}" style="${cardBtn}">Start Práctica ${o.n} &rarr;</button>
       </div>`).join('')}
 
       <div class="signin-actions" style="margin-top:8px"><a class="secondary2" id="ppBack">&larr; Back</a></div>
@@ -31903,8 +31932,8 @@ function viewPracticePick(){
   $("#p1").onclick = ()=> start('practice');
   if(has2) $("#p2").onclick = ()=> start('practice2');
   if(has3) $("#p3").onclick = ()=> start('practice3');
-  ((typeof LISTEN_MORE!=='undefined' && LISTEN_MORE[state.level]) ? LISTEN_MORE[state.level].practice : []).forEach((t,i)=>{
-    const b=$("#pMore"+(i+4)); if(b) b.onclick=()=> start('practice'+(i+4));
+  moreWithAudio('practice').forEach(o=>{
+    const b=$("#pMore"+o.n); if(b) b.onclick=()=> start('practice'+o.n);
   });
   $("#ppBack").onclick = ()=> viewCategory();
 }
@@ -31923,7 +31952,7 @@ function viewQuiz(){
     const info = pInfo[i];
     const range = info.count>1 ? `${info.start}–${info.start+info.count-1}` : `${info.start}`;
     const playerBlock = a.paged ? ''
-      : `<div class="ins-player">${(a.kind==='tts') ? renderTTSPlayer(a) : `<audio controls preload="none" src="${CONFIG.AUDIO_BASE}${a.file}"></audio>`}</div>`;
+      : `<div class="ins-player">${(a.kind==='tts') ? renderTTSPlayer(a) : `<audio controls preload="none" src="${CONFIG.AUDIO_BASE}${a.file}?v=${CONFIG.AUDIO_V}"></audio>`}</div>`;
     return `<section class="ins-pane${i===0?' active':''}" data-part="${i}">
       <div class="ins-instr"><strong>Questions ${range}</strong><p>${a.intro||''}</p></div>
       ${playerBlock}
@@ -32159,7 +32188,7 @@ function renderQuestions(audio, container){
         <select class="matchsel" data-key="${key}"><option value="">— elige —</option>${bank.map(b=>`<option value="${b}">${b}</option>`).join("")}</select>`;
     }
     if(audio.paged && q.audio){
-      el.innerHTML = `<div class="q-audio"><audio controls preload="none" src="${CONFIG.AUDIO_BASE}${q.audio}"></audio></div>` + el.innerHTML;
+      el.innerHTML = `<div class="q-audio"><audio controls preload="none" src="${CONFIG.AUDIO_BASE}${q.audio}?v=${CONFIG.AUDIO_V}"></audio></div>` + el.innerHTML;
     }
     container.appendChild(el);
   });
@@ -32430,7 +32459,7 @@ function viewResult(payload){
         <div class="res-card"><h2>Detailed question review</h2>${detailHTML}</div>
       </div>
       <div class="row" style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap">
-        <a class="btn" style="text-decoration:none" href="https://bacman2000.github.io/nis-portal/">🏫 Volver al Portal → siguiente destreza</a>
+        <a class="btn" style="text-decoration:none" href="/">🏫 Volver al Portal → siguiente destreza</a>
         <button class="btn secondary" id="lAgain">Try another level</button>
         <a class="btn secondary" style="text-decoration:none" href="quizzes.html">All quizzes ↗</a>
       </div>
