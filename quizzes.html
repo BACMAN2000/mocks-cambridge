@@ -81,6 +81,7 @@ if(/\.github\.io$/i.test(location.hostname)){
   <h1>MOCKS CAMBRIDGE</h1>
   <p class="lead">Exámenes en formato Cambridge oficial por destreza y nivel (A2 · B1 · B2 · C1). Elige una sección — entras directo con tu sesión del Portal NIS.</p>
 
+  <!-- nis-only:start (el sync de cohasset.pe recorta este bloque: su portal ya tiene sección YLE propia) -->
   <h2 style="font-size:18px;margin:6px 0 2px">🧭 YLE — Young Learners (Primaria)</h2>
   <p style="color:#475569;font-size:13px;margin:0 0 12px">Curso <b>Fun for Nordic</b> de preparación Cambridge Young Learners: unidades interactivas con audio, crucigramas y tareas de examen. Abierto para primaria.</p>
   <div class="grid">
@@ -94,8 +95,9 @@ if(/\.github\.io$/i.test(location.hostname)){
       </div>
     </div>
   </div>
+  <!-- nis-only:end -->
 
-  <h2 style="font-size:18px;margin:22px 0 2px">📝 MOCKS — exámenes oficiales</h2>
+  <h2 id="mocks" style="font-size:18px;margin:22px 0 2px">📝 MOCKS — exámenes oficiales</h2>
   <p style="color:#475569;font-size:13px;margin:0 0 12px">Simulacros completos con mayor dificultad. <b>Bloqueados por defecto</b>: coordinación los habilita por grado cuando se programan.</p>
   <div class="grid">
     <div class="card">
@@ -123,7 +125,7 @@ if(/\.github\.io$/i.test(location.hostname)){
     </div>
   </div>
 
-  <h2 style="font-size:18px;margin:22px 0 2px">🎯 PRACTICE TESTS — práctica</h2>
+  <h2 id="practice" style="font-size:18px;margin:22px 0 2px">🎯 PRACTICE TESTS — práctica</h2>
   <p style="color:#475569;font-size:13px;margin:0 0 12px">Tests de práctica en el mismo formato Cambridge, auto-corregidos. <b>Abiertos por defecto</b>; tu profesor puede reservarlos por grado para usarlos en clase.</p>
   <div class="grid">
     <div class="card">
