@@ -2,6 +2,14 @@
 <html lang="en" translate="no">
 <head>
 <meta charset="UTF-8">
+<script>
+/* Los alumnos no deben ver github.io en la barra (y alli los intentos no se
+   guardan por el localStorage de otro origen): si esta copia se abre desde
+   GitHub Pages, salta a nis.cohasset.pe conservando ruta, query y hash. */
+if(/\.github\.io$/i.test(location.hostname)){
+  location.replace('https://nis.cohasset.pe'+location.pathname+location.search+location.hash);
+}
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Auto-version: always load the latest deployed version without the student
      having to clear the browser cache. On load we read version.json (never
