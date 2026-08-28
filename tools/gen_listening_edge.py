@@ -123,7 +123,12 @@ def destino_de(nombre_json):
     El nivel va DENTRO de la carpeta del test, que es como lo pide el HTML
     y como estan los que ya se publicaron. Sin el, los mp3 caen un nivel
     mas arriba, el generador los da por hechos y en vivo son 404: se
-    perdieron 836 asi."""
+    perdieron 836 asi.
+
+    OJO con mp3/A2, B1, B2 y C1: esas cuatro NO son tests sino el audio
+    del propio nivel, y van planas (mp3/A2/A2-P1-q1.mp3). Esta funcion no
+    las toca porque solo la llaman los archivos de test, pero cualquier
+    script que reordene mp3/ tiene que dejarlas donde estan."""
     m = re.match(r"([A-C][12])_([pm])(\d+)\.json$", nombre_json)
     if not m:
         return None, None
