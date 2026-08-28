@@ -31583,10 +31583,13 @@ function currentQuiz(){
 
 /* Prefijos de mp3/<prefijo>/ cuyo audio EXISTE de verdad en el repo.
    Las prácticas 4-18 y los MOCK 4-7 se inyectaron con sus preguntas pero SIN generar
-   el audio, así que sus tarjetas se ocultan mientras estén mudas: si no, el alumno
-   entra, no oye nada y gasta el intento. Al generar p.ej. mp3/P8, añade 'P8' aquí y
-   la tarjeta reaparece sola — no hay que tocar nada más. */
-const AUDIO_READY = ['A2','B1','B2','C1','P','P2','P3','P4','P5','P6','P7'];
+   el audio, así que sus tarjetas se ocultaban mientras estaban mudas: si no, el alumno
+   entra, no oye nada y gasta el intento. Desde el 27-ago-2026 están TODAS grabadas
+   (836 mp3, Edge TTS), así que la lista las incluye a todas. Al añadir un test nuevo,
+   pon aquí su prefijo cuando mp3/<prefijo>/<nivel>/ esté completo — y no antes. */
+const AUDIO_READY = ['A2','B1','B2','C1','P','P2','P3','P4','P5','P6','P7',
+                     'P8','P9','P10','P11','P12','P13','P14','P15','P16','P17','P18',
+                     'M2','M3','M4','M5','M6','M7'];
 
 /* Devuelve [{t,n}] de LISTEN_MORE[nivel][kind] que sí tienen audio.
    CONSERVA el número original (n = índice+4) a propósito: currentQuiz() busca el test
