@@ -83,6 +83,10 @@
           "text": "I keep two pet rats, Salt and Pepper. My friends think that's strange, but rats are clever and very clean. I've taught them to run to me when I clap my hands. My mum didn't want them in the house at the beginning, but now she often watches them play and says they are sweet."
         }
       ],
+      "bank": {
+        "labels": ["A", "B", "C"],
+        "texts": ["Hana", "Diego", "Grace"]
+      },
       "questions": [
         {"stem": "Which person goes to classes with their pet?", "answer": "B"},
         {"stem": "Which person's parent has changed their opinion about the pet?", "answer": "C"},

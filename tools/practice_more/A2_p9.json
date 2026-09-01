@@ -83,6 +83,10 @@
           "text": "I play the piano. I never had a teacher — I learned everything from an app on my tablet, a little bit every day. I mostly play quiet, classical pieces. My grandparents live far away, so I play for them on video calls. One day I want to write my own songs instead of only playing other people's."
         }
       ],
+      "bank": {
+        "labels": ["A", "B", "C"],
+        "texts": ["Elena", "Marcus", "Aya"]
+      },
       "questions": [
         {"stem": "Which person learned to play using an app?", "answer": "C"},
         {"stem": "Which person's group won a prize?", "answer": "B"},

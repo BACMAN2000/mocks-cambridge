@@ -83,6 +83,10 @@
           "text": "My parents own a small restaurant, and I help them there on Saturday evenings. I usually carry plates and clean tables rather than cook. It can be very busy and tiring, but my parents pay me a little money. I'm saving it to buy a new bike."
         }
       ],
+      "bank": {
+        "labels": ["A", "B", "C"],
+        "texts": ["Amir", "Lucia", "Theo"]
+      },
       "questions": [
         {"stem": "Which person learned to cook from the internet?", "answer": "A"},
         {"stem": "Which person cooks with an older relative?", "answer": "B"},

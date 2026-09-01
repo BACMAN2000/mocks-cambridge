@@ -83,6 +83,10 @@
           "text": "I keep two rabbits in our garden. My grandfather and I built their wooden house together last spring — it took us three weekends. I grow carrots for them next to the fence. Once, the rabbits dug a hole and escaped into the neighbour's garden. It took the whole family an hour to catch them!"
         }
       ],
+      "bank": {
+        "labels": ["A", "B", "C"],
+        "texts": ["Priya", "Nathan", "Elsa"]
+      },
       "questions": [
         {"stem": "Which person cannot keep a pet at home?", "answer": "B"},
         {"stem": "Which person's animal makes sounds like a person?", "answer": "A"},

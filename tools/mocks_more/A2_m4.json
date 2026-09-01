@@ -83,6 +83,10 @@
           "text": "I went to Lisbon with my class and stayed in the home of a local family. Their food was new to me and I wasn't sure about it at first, but by the end of the week I loved it. I missed my parents for the first day or two. I took hundreds of photos, and one of them won a competition at school when we got home."
         }
       ],
+      "bank": {
+        "labels": ["A", "B", "C"],
+        "texts": ["Nadia", "Oliver", "Kenji"]
+      },
       "questions": [
         {"stem": "Which person travelled by plane for the first time?", "answer": "B"},
         {"stem": "Which person wrote about the trip every day?", "answer": "A"},

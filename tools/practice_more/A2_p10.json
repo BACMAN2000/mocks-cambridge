@@ -83,6 +83,10 @@
           "text": "On Sundays, my dad and I have a little table at the market where we sell my old toys and comics. I use the money for football stickers. My favourite part is talking to the customers — you meet all kinds of people at a market. When I grow up, I would like to have a real shop of my own."
         }
       ],
+      "bank": {
+        "labels": ["A", "B", "C"],
+        "texts": ["Daniel", "Keiko", "Omar"]
+      },
       "questions": [
         {"stem": "Which person earns money by helping at home?", "answer": "A"},
         {"stem": "Which person would like to have a shop in the future?", "answer": "C"},

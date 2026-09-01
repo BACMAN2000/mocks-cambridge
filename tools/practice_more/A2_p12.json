@@ -83,6 +83,10 @@
           "text": "I love video games, but my parents only let me play for an hour a day. I usually play online with my cousin, who lives in Canada — it's the best way for us to spend time together, because we only meet in real life every two years. I saved my pocket money for six months to buy my headphones."
         }
       ],
+      "bank": {
+        "labels": ["A", "B", "C"],
+        "texts": ["Felix", "Hana", "George"]
+      },
       "questions": [
         {"stem": "Which person shares their work with many people?", "answer": "A"},
         {"stem": "Which person keeps their work private?", "answer": "B"},

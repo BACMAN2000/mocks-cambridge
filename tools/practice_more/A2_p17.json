@@ -83,6 +83,10 @@
           "text": "My school is in another village, so my dad drives me every morning. We leave really early, at seven o'clock, and I listen to podcasts in the car. I would love to cycle instead — it's only six kilometres — but the road between the villages is too narrow and dangerous for bikes."
         }
       ],
+      "bank": {
+        "labels": ["A", "B", "C"],
+        "texts": ["Iris", "Pavel", "Nora"]
+      },
       "questions": [
         {"stem": "Which person once travelled too far?", "answer": "A"},
         {"stem": "Which person saves money by not taking the bus?", "answer": "B"},

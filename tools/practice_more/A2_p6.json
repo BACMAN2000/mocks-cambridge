@@ -83,6 +83,10 @@
           "text": "I spent two weeks with my grandparents in a small village by the sea. There wasn't much to do, so at first I was a bit bored. But I learned to fish with my grandfather and made friends with some local children. In the end, I didn't want to leave."
         }
       ],
+      "bank": {
+        "labels": ["A", "B", "C"],
+        "texts": ["Ravi", "Chloe", "Marco"]
+      },
       "questions": [
         {"stem": "Which person slept in a tent on holiday?", "answer": "A"},
         {"stem": "Which person enjoyed visiting museums?", "answer": "B"},

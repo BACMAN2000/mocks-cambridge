@@ -83,6 +83,10 @@
           "text": "I walk dogs for people in my street after school. It started last year when my neighbour broke her leg and couldn't take her dog out, and soon other people asked me too. I love animals, so it's perfect, though rainy days are hard work. Every pound I earn pays for my horse-riding lessons on Sundays."
         }
       ],
+      "bank": {
+        "labels": ["A", "B", "C"],
+        "texts": ["Priya", "Marco", "Amy"]
+      },
       "questions": [
         {"stem": "Which person started their job because someone was hurt?", "answer": "C"},
         {"stem": "Which person finds it hard to get up early?", "answer": "A"},

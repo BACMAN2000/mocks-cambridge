@@ -83,6 +83,10 @@
           "text": "Three months ago, my mum and I started running together before school, just twenty minutes around the park. I used to feel really tired in lessons, especially in the afternoon, but that has almost stopped. I also sleep much better now. Our plan is to run a five-kilometre race together in the summer."
         }
       ],
+      "bank": {
+        "labels": ["A", "B", "C"],
+        "texts": ["Rosa", "Tomas", "Lily"]
+      },
       "questions": [
         {"stem": "Which person had an accident?", "answer": "A"},
         {"stem": "Which person changed what they eat and drink?", "answer": "B"},

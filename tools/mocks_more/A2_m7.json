@@ -83,6 +83,10 @@
           "text": "The best day of my year is our town's summer festival. I play the drum in the band that walks at the front of the parade, and we practise every week for months before the big day. Last year it rained all afternoon, but nobody went home! A photo of me with my drum was in the local newspaper."
         }
       ],
+      "bank": {
+        "labels": ["A", "B", "C"],
+        "texts": ["Mateo", "Yuki", "Ella"]
+      },
       "questions": [
         {"stem": "Which person met relatives for the first time at the celebration?", "answer": "A"},
         {"stem": "Which person prepares for the celebration for months?", "answer": "C"},

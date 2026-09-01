@@ -83,6 +83,10 @@
           "text": "There are seven of us in my friend group, all from the same street. My friends call me 'the party planner' because I love organising things for us to do. Last month I planned a picnic in the park for my friend Amy's birthday, with games and a treasure hunt. Everyone said it was the best day ever."
         }
       ],
+      "bank": {
+        "labels": ["A", "B", "C"],
+        "texts": ["Nina", "Sami", "Tara"]
+      },
       "questions": [
         {"stem": "Which person was new at their school this year?", "answer": "B"},
         {"stem": "Which person has a friend who lives in another country?", "answer": "A"},

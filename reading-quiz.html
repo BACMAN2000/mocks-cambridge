@@ -42380,6 +42380,19 @@ window._showGap = function(btn, qidStr){
 
 /* Build a unique input id per (partIdx, qIdx, optional sub) */
 function qid(p,q,extra){ return `p${p}q${q}${extra?('_'+extra):''}`; }
+/* El banco de opciones de una parte "match". Algunos tests generados (A2 Part 2
+   de Practice 4-18 y MOCK 4-7) traen las personas en `sources` pero sin `bank`,
+   y el desplegable salia vacio: el alumno no podia responder esa parte. Cuando
+   falta, se deriva de las propias sources (label -> nombre), que es exactamente
+   la forma que usan los examenes escritos a mano. */
+function bankOf(p){
+  if(p.bank && p.bank.labels && p.bank.labels.length) return p.bank;
+  if(p.sources && p.sources.length){
+    return { labels: p.sources.map(s=>s.label),
+             texts:  p.sources.map(s=>s.name || s.label) };
+  }
+  return null;
+}
 
 /* ---------------- Part renderers ---------------- */
 function escAttr(s){ return JSON.stringify(s).replace(/"/g,'&quot;'); }
@@ -42547,10 +42560,11 @@ function renderPart(p, idx, startNum, twoCol, paged){
     // "People are options" (A2 style): the sources ARE the answer choices, so the
     // dropdown shows their names. Otherwise (B1 people→A–H options, or gapped text)
     // the dropdown shows the LETTER and the option texts are listed in a box.
-    const peopleAreOptions = hasSources && p.bank && p.bank.labels && p.bank.labels.length === p.sources.length;
+    const bank = bankOf(p);
+    const peopleAreOptions = hasSources && bank && bank.labels.length === p.sources.length;
     let gapsFilled = 0;   // huecos realmente sustituidos en el texto (ver fillGapMarkers)
-    const opts = (p.bank ? p.bank.labels : []).map((l,i)=>{
-      const display = peopleAreOptions ? (p.bank.texts[i] || l) : l;
+    const opts = (bank ? bank.labels : []).map((l,i)=>{
+      const display = peopleAreOptions ? (bank.texts[i] || l) : l;
       return `<option value="${l}">${display}</option>`;
     }).join('');
 
@@ -42587,10 +42601,10 @@ function renderPart(p, idx, startNum, twoCol, paged){
     // Show the "Options" bank box for gapped text AND for B1-style people→A–H
     // tasks (distinct option bank). Hidden only when the sources themselves are
     // the options (A2 style), where it would be redundant.
-    if(p.bank && p.bank.labels && (!hasSources || !peopleAreOptions)){
+    if(bank && (!hasSources || !peopleAreOptions)){
       right += `<div class="bank"><strong>Options:</strong><ul>`;
-      p.bank.labels.forEach((l,i)=>{
-        right += `<li><strong>${l}</strong> — ${p.bank.texts[i]}</li>`;
+      bank.labels.forEach((l,i)=>{
+        right += `<li><strong>${l}</strong> — ${bank.texts[i]}</li>`;
       });
       right += `</ul></div>`;
     }
@@ -42875,7 +42889,8 @@ function scoreExam(ex){
         ok = user === q.answer;
         // For people-matching parts, show the name instead of the bare letter
         const hasSources = p.sources && p.sources.length;
-        const nameOf = (L)=>{ if(hasSources && p.bank){ const k=p.bank.labels.indexOf(L); if(k>=0) return p.bank.texts[k]; } return L; };
+        const _bank = bankOf(p);
+        const nameOf = (L)=>{ if(hasSources && _bank){ const k=_bank.labels.indexOf(L); if(k>=0) return _bank.texts[k]; } return L; };
         correctAns = nameOf(q.answer);
         user = user ? nameOf(user) : '<em>no answer</em>';
       } else if(p.type === 'clozeOpen' || p.type === 'wordform' || p.type === 'transform'){

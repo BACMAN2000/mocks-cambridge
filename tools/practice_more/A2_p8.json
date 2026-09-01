@@ -83,6 +83,10 @@
           "text": "My hobby is watching birds. I go to the lake near my house with a notebook and write down every kind of bird I see. I have to be very quiet and patient, or the birds fly away. Last month I saw a bird that is very rare in our area, and I was really excited."
         }
       ],
+      "bank": {
+        "labels": ["A", "B", "C"],
+        "texts": ["Omar", "Lily", "Sam"]
+      },
       "questions": [
         {"stem": "Which person collects eggs?", "answer": "A"},
         {"stem": "Which person helps animals without being paid?", "answer": "B"},

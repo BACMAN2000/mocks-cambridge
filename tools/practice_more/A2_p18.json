@@ -83,6 +83,10 @@
           "text": "I keep a little notebook, and every time my family eats at a restaurant, I write about it: what we ate, how friendly the waiters were, and a mark out of ten. I've written about nineteen restaurants so far. My dream is to write about food for a newspaper when I'm older."
         }
       ],
+      "bank": {
+        "labels": ["A", "B", "C"],
+        "texts": ["Bella", "Ryo", "Martina"]
+      },
       "questions": [
         {"stem": "Which person always eats the same thing?", "answer": "B"},
         {"stem": "Which person writes about the food they eat?", "answer": "C"},

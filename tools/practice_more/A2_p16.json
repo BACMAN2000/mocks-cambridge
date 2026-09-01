@@ -83,6 +83,10 @@
           "text": "I love autumn most of all. When the leaves turn red and gold, I take my camera to the forest and walk for hours taking photos. My birthday is in October too, so that makes autumn even more special. I also like wearing warm jumpers again after the hot summer."
         }
       ],
+      "bank": {
+        "labels": ["A", "B", "C"],
+        "texts": ["Astrid", "Mateo", "Yuki"]
+      },
       "questions": [
         {"stem": "Which person likes taking photos?", "answer": "C"},
         {"stem": "Which person does a sport on ice?", "answer": "A"},

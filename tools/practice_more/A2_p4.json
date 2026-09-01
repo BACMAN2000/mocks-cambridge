@@ -83,6 +83,10 @@
           "text": "I cycle to school every day, about five kilometres each way. I don't do it for exercise, really — it's just faster than the bus! In winter it can be very cold in the mornings, which I don't enjoy. My big dream is to cycle all the way around my country when I am older."
         }
       ],
+      "bank": {
+        "labels": ["A", "B", "C"],
+        "texts": ["Marta", "Leo", "Sofia"]
+      },
       "questions": [
         {"stem": "Which person started their sport because of health advice?", "answer": "A"},
         {"stem": "Which person does their sport with a family member?", "answer": "B"},

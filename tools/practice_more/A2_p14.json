@@ -83,6 +83,10 @@
           "text": "I don't watch many films — I prefer television programmes about space and nature. I love learning new facts and telling them to my class. Last month, my teacher asked me to give a short talk about planets, because I know so much about them. I was nervous, but everyone clapped at the end."
         }
       ],
+      "bank": {
+        "labels": ["A", "B", "C"],
+        "texts": ["Diego", "Alice", "Ken"]
+      },
       "questions": [
         {"stem": "Which person creates their own films?", "answer": "B"},
         {"stem": "Which person watches films with their family every week?", "answer": "A"},

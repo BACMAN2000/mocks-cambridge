@@ -83,6 +83,10 @@
           "text": "I draw pictures on a tablet using a special pen. I used to draw on paper, but I prefer doing it on a screen because I can fix my mistakes easily. I share my drawings with an online group of other young artists, and we give each other advice. It's a friendly place."
         }
       ],
+      "bank": {
+        "labels": ["A", "B", "C"],
+        "texts": ["Ines", "Diego", "Nadia"]
+      },
       "questions": [
         {"stem": "Which person taught themselves a skill from online videos?", "answer": "A"},
         {"stem": "Which person was given equipment by a relative?", "answer": "B"},
