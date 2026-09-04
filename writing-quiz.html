@@ -5282,10 +5282,72 @@ function fmtStim(s){
   h+=esc(s.body);
   return `<div class="stim">${h}</div>`;
 }
+/* ---------------- red de seguridad de la redaccion ----------------
+   Un Writing dura entre 45 y 90 minutos y hasta ahora NO se guardaba nada
+   hasta pulsar Submit: las dos redacciones vivian solo en el DOM. Una
+   recarga, un cierre por error, la tablet sin bateria o el navegador
+   descartando la pestana de fondo se llevaban la hora y media entera.
+   Ahora cada tecla deja copia en este equipo y, al reabrir el mismo examen,
+   se ofrece continuarlo. El reloj sigue donde estaba: se calcula desde la
+   hora de inicio, asi que recargar no regala minutos. */
+const BOR_KEY='nisw_writing_borrador_v1';
+
+function borradorActual(){
+  const cajas={};
+  document.querySelectorAll('textarea.box').forEach(t=>{ cajas[t.name]=t.value; });
+  return {level:state.level, examType:state.examType, startTime:state.startTime,
+          part2Choice:state.part2Choice, view:state.view, cajas:cajas, at:Date.now()};
+}
+function guardaBorrador(){
+  try{ localStorage.setItem(BOR_KEY, JSON.stringify(borradorActual())); }catch(e){}
+}
+function borraBorrador(){ try{ localStorage.removeItem(BOR_KEY); }catch(e){} }
+function borradorConTexto(b){
+  return !!(b && b.cajas && Object.keys(b.cajas).some(k=>(b.cajas[k]||'').trim()));
+}
+
+/* Solo se ofrece continuar el MISMO examen y del mismo dia: el borrador de la
+   semana pasada no puede aparecerse en mitad de otro mock. */
+function continuar(){
+  let b=null;
+  try{ b=JSON.parse(localStorage.getItem(BOR_KEY)||'null'); }catch(e){ b=null; }
+  if(!borradorConTexto(b)) return null;
+  if(b.level!==state.level || b.examType!==state.examType) return null;
+  if(!b.at || (Date.now()-b.at) > 12*3600*1000){ borraBorrador(); return null; }
+  const cuando=new Date(b.at).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+  if(!confirm('You have an unfinished attempt at this exam.'
+              +'\n\nLast saved: '+cuando
+              +'\n\nOK = carry on where you left off (the clock keeps running).'
+              +'\nCancel = start again from a blank page.')){
+    borraBorrador(); return null;
+  }
+  /* La eleccion de Part 2 se decide ANTES de pintar: va dibujada dentro de
+     cada panel, no encima. */
+  if(typeof b.part2Choice==='number') state.part2Choice=b.part2Choice;
+  if(b.startTime) state.startTime=b.startTime;
+  return b;
+}
+function reponBorrador(b){
+  Object.keys(b.cajas||{}).forEach(n=>{
+    const t=document.querySelector('textarea.box[name="'+n+'"]');
+    if(t && b.cajas[n]){ t.value=b.cajas[n]; wcUpdate(t); }
+  });
+}
+
+/* El aviso al salir vivia dentro del anticheat, apagado desde el 2026-08-20:
+   hoy nadie frena al alumno que recarga en mitad del examen. Este si, y solo
+   mientras haya un examen abierto con algo escrito dentro. */
+window.addEventListener('beforeunload', e=>{
+  if(!document.querySelector('textarea.box')) return;
+  if(!borradorConTexto(borradorActual())) return;
+  e.preventDefault(); e.returnValue='';
+});
+
 function wcUpdate(el){
   const wrap=el.closest('.write-wrap'); const c=wrap&&wrap.querySelector('.wc');
   if(c){const w=el.value.trim()?el.value.trim().split(/\s+/).length:0; c.textContent='Words: '+w;}
   syncFooter();
+  guardaBorrador();
 }
 function boxHtml(name){return `<div class="write-wrap"><textarea class="box" name="${name}" placeholder="Write your answer here." oninput="wcUpdate(this)"></textarea><div class="wc">Words: 0</div></div>`;}
 
@@ -5474,7 +5536,8 @@ const render={
   },
   exam(){
     const ex=exam();
-    state.view=0; state.part2Choice=null;
+    state.view=0; state.part2Choice=null; state.startTime=null;
+    const _bor=continuar();
     let panes=''; for(let v=0;v<viewCount();v++) panes+=taskPaneHtml(v);
     app.className='';
     app.innerHTML=`<div class="shell">
@@ -5495,11 +5558,13 @@ const render={
       document.querySelector('.main').scrollTo({top:0}); syncFooter(); };
     window._nav=(d)=>window._goView(state.view+d);
     window._choose=(opt,val)=>{ state.part2Choice = (val==='yes')?opt:(state.part2Choice===opt?null:state.part2Choice);
-      const ps=document.getElementById('pickState'); if(ps){const on=state.part2Choice===opt; ps.textContent=on?'✓ Yes — this one will be marked':'Not selected yet'; ps.classList.toggle('on',on);} syncFooter(); };
+      const ps=document.getElementById('pickState'); if(ps){const on=state.part2Choice===opt; ps.textContent=on?'✓ Yes — this one will be marked':'Not selected yet'; ps.classList.toggle('on',on);} syncFooter(); guardaBorrador(); };
     document.getElementById('submit').onclick=finalize;
-    document.getElementById('quit').onclick=()=>{ if(confirm('Exit without submitting? Your answers will be lost.')){stopTimer();acStop();go('level');} };
+    document.getElementById('quit').onclick=()=>{ if(confirm('Exit without submitting? Your answers will be lost.')){stopTimer();acStop();borraBorrador();go('level');} };
+    if(_bor){ reponBorrador(_bor); }
     syncFooter();
-    state.startTime=Date.now();
+    state.startTime=state.startTime||Date.now();
+    guardaBorrador();
     startTimer(ex.durationMin);
     acStart();   // ← activate anti-cheat (translate block, tab-switch detection, etc.)
   },
@@ -5566,6 +5631,7 @@ function finalize(){
   const t2=ex.parts[1].tasks[opt]; const text2=(document.querySelector(`[name="p2_${opt}"]`)||{}).value||'';
   tasks.push({label:'Part 2 (Q'+t2.q+') — '+capit(t2.type),taskType:t2.type,text:text2,wordCount:wc(text2)});
   state.answers={tasks,part2Chosen:t2.q};
+  borraBorrador();
   go('result');
 }
 function capit(s){return s?s.charAt(0).toUpperCase()+s.slice(1):s;}
@@ -5707,10 +5773,11 @@ function _acShowWarn(kind){
 
 /* timer */
 function startTimer(min){
-  let remaining=min*60; const el=document.getElementById('timer');
-  const tick=()=>{ const m=Math.floor(Math.abs(remaining)/60), s=Math.abs(remaining)%60;
-    if(el){ el.textContent=(remaining<0?'+':'')+String(m).padStart(2,'0')+':'+String(s).padStart(2,'0'); el.classList.toggle('over',remaining<0); }
-    remaining--; };
+  const el=document.getElementById('timer');
+  const tick=()=>{ const t0=state.startTime||Date.now();
+    const remaining=min*60-Math.floor((Date.now()-t0)/1000);
+    const m=Math.floor(Math.abs(remaining)/60), s=Math.abs(remaining)%60;
+    if(el){ el.textContent=(remaining<0?'+':'')+String(m).padStart(2,'0')+':'+String(s).padStart(2,'0'); el.classList.toggle('over',remaining<0); } };
   tick(); timerId=setInterval(tick,1000);
 }
 function stopTimer(){ if(timerId){clearInterval(timerId);timerId=null;} }
