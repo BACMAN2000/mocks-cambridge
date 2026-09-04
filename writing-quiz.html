@@ -146,6 +146,7 @@ if(/\.github\.io$/i.test(location.hostname)){
 </style>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="nis-bridge.js"></script>
+<script src="writing-rubric.js?v=1"></script>
 </head>
 <body>
 <div id="app" class="app"></div>
@@ -5345,11 +5346,28 @@ window.addEventListener('beforeunload', e=>{
 
 function wcUpdate(el){
   const wrap=el.closest('.write-wrap'); const c=wrap&&wrap.querySelector('.wc');
-  if(c){const w=el.value.trim()?el.value.trim().split(/\s+/).length:0; c.textContent='Words: '+w;}
+  if(c){const w=el.value.trim()?el.value.trim().split(/\s+/).length:0;
+        c.textContent=wcTexto(w);
+        if(window.NIS_RUBRICA && state.level) c.className='wc '+NIS_RUBRICA.estadoLongitud(w,state.level).clase;}
   syncFooter();
   guardaBorrador();
 }
-function boxHtml(name){return `<div class="write-wrap"><textarea class="box" name="${name}" placeholder="Write your answer here." oninput="wcUpdate(this)"></textarea><div class="wc">Words: 0</div></div>`;}
+/* La extension esperada y los criterios salen de writing-rubric.js, que es
+   la unica fuente: los datos de cada examen traen su propia cifra heredada
+   del examen oficial y ya no manda. Si el modulo no cargase, la pagina sigue
+   funcionando con lo que diga el examen. */
+function conObjetivo(t){
+  return (window.NIS_RUBRICA && state.level) ? NIS_RUBRICA.conObjetivo(t, state.level) : t;
+}
+function rubricaHtml(){
+  return (window.NIS_RUBRICA && state.level) ? NIS_RUBRICA.html(state.level) : '';
+}
+function wcTexto(n){
+  if(!window.NIS_RUBRICA || !state.level) return 'Words: ' + n;
+  const e = NIS_RUBRICA.estadoLongitud(n, state.level);
+  return 'Words: ' + n + (e.texto ? ' \u00b7 ' + e.texto : '');
+}
+function boxHtml(name){return `<div class="write-wrap"><textarea class="box" name="${name}" placeholder="Write your answer here." oninput="wcUpdate(this)"></textarea><div class="wc">${wcTexto(0)}</div></div>`;}
 
 function taskPaneHtml(v){
   const {part,opt,task}=viewToTask(v);
@@ -5363,7 +5381,7 @@ function taskPaneHtml(v){
       <select onchange="window._choose(${opt}, this.value)"><option value="no"${on?'':' selected'}>Undecided</option><option value="yes"${on?' selected':''}>Yes, answer this</option></select></div>`;
   }
   return `<div class="pane${v===state.view?' active':''}" data-view="${v}">
-    <div class="instr"><strong>${qlabel}</strong><p>${esc(exam().parts[part].instructions)}</p></div>
+    <div class="instr"><strong>${qlabel}</strong><p>${esc(conObjetivo(exam().parts[part].instructions))}</p></div>
     ${chooser}
     <div class="two-col">
       <div class="left">
@@ -5374,6 +5392,7 @@ function taskPaneHtml(v){
       </div>
       <div class="right">${boxHtml(name)}</div>
     </div>
+    ${rubricaHtml()}
   </div>`;
 }
 
