@@ -46,6 +46,32 @@ function saca(src, n) {
 
 const norm = s => String(s == null ? '' : s).trim().toLowerCase();
 
+/* ---------- donde cae la respuesta correcta ----------
+   La opcion multiple guarda la clave como NUMERO (answer:1, o c:1 en el
+   listening) y el emparejamiento como LETRA (answer:"B"). Esta comprobacion
+   solo miraba las letras, asi que el emparejamiento salia repartido de libro y
+   la opcion multiple acumulaba el 57% de las claves en la B sin que nadie lo
+   viera (auditoria del 6-sep-2026). Cuenta las dos formas. */
+const LETRAS = 'ABCDEFGH';
+function letraClave(q) {
+  const ops = q.options || q.o || q.imgs;
+  const clave = q.answer !== undefined ? q.answer : q.c;
+  if (typeof clave === 'number' && Array.isArray(ops) && clave >= 0 && clave < ops.length) return LETRAS[clave];
+  if (typeof clave === 'string' && /^[A-H]$/i.test(clave.trim())) return clave.trim().toUpperCase();
+  return null;   // hueco abierto, key word transformation, emparejar por texto…
+}
+const repartoGlobal = {};
+function revisaReparto(banco, donde, preguntas) {
+  const claves = preguntas.map(letraClave).filter(Boolean);
+  if (claves.length < 4) return;
+  const cuenta = {};
+  claves.forEach(l => { cuenta[l] = (cuenta[l] || 0) + 1; repartoGlobal[l] = (repartoGlobal[l] || 0) + 1; });
+  const [letra, n] = Object.entries(cuenta).sort((a, b) => b[1] - a[1])[0];
+  const pct = n / claves.length;
+  if (n === claves.length) apunta(GRAVE, banco, donde, `las ${n} respuestas son «${letra}»`);
+  else if (pct >= 0.6 && claves.length >= 5) apunta(MEDIO, banco, donde, `${n} de ${claves.length} respuestas son «${letra}» (${Math.round(pct * 100)}%)`);
+}
+
 function revisaPregunta(banco, donde, q, qi) {
   const n = `q${qi + 1}`;
   const ops = q.options || q.o || q.imgs;
@@ -93,8 +119,7 @@ function revisaTest(banco, etiqueta, test) {
     const cuerpo = p.body || p.passage || p.text || '';
     const huecos = [...String(cuerpo).matchAll(/\((\d+)\)\s*_{2,}/g)].length;
     if (huecos && huecos !== preguntas.length) apunta(GRAVE, banco, donde, `${huecos} huecos en el texto y ${preguntas.length} respuestas`);
-    const claves = preguntas.map(q => q.answer).filter(x => typeof x === 'string' && /^[A-Za-z]$/.test(x));
-    if (claves.length >= 4 && new Set(claves).size === 1) apunta(MEDIO, banco, donde, `todas las respuestas son «${claves[0]}»`);
+    revisaReparto(banco, donde, preguntas);
   });
 }
 
@@ -122,6 +147,7 @@ function revisaListening(banco, etiqueta, nodo) {
         if (!alguna) apunta(MEDIO, banco, donde, `q${qi + 1}: el guion no dice ninguna forma de «${String(q.accept[0]).slice(0, 30)}»`);
       }
     });
+    revisaReparto(banco, donde, preguntas);
   });
 }
 
@@ -153,3 +179,15 @@ MEDIO.slice(0, 25).forEach(x => console.log('   • ' + x));
 if (MEDIO.length > 25) console.log(`   … y ${MEDIO.length - 25} mas`);
 console.log(`\n--- audio: ${mp3Pedidos.size} grabaciones pedidas, ${mp3Faltan.size} sin archivo`);
 [...mp3Faltan].slice(0, 15).forEach(x => console.log('   ✗ mp3/' + x));
+
+/* Reparto de la clave en el conjunto. Con las claves bien repartidas ronda el
+   33% por letra en las de tres opciones y el 25% en las de cuatro; un pico muy
+   por encima significa que el alumno puede acertar por la posicion. */
+const totalClaves = Object.values(repartoGlobal).reduce((a, b) => a + b, 0);
+if (totalClaves) {
+  const linea = Object.keys(repartoGlobal).sort()
+    .map(l => `${l} ${repartoGlobal[l]} (${Math.round(100 * repartoGlobal[l] / totalClaves)}%)`).join('   ');
+  const pico = Math.max(...Object.values(repartoGlobal)) / totalClaves;
+  console.log(`\n--- donde cae la respuesta correcta (${totalClaves} preguntas)\n   ${linea}`);
+  if (pico >= 0.38) console.log(`   ✗ una sola letra se lleva el ${Math.round(pico * 100)}%: reparte con  node tools/rebalance_keys.js --escribe reading-quiz.html listening-quiz.html`);
+}

@@ -42,7 +42,7 @@
       "instructions": "For each gap, use the word in CAPITALS on the right of that line to form a word that fits the space.",
       "title": "Bringing back the bees",
       "rows": [
-        { "text": "Across the world, the steep (17)____ in bee", "root": "DECLINE" },
+        { "text": "Across the world, bee numbers are (17)____ steeply, and", "root": "DECLINE" },
         { "text": "numbers has alarmed farmers and scientists alike." },
         { "text": "" },
         { "text": "Bees are responsible for the (18)____ of a huge", "root": "POLLINATE" },
@@ -58,7 +58,7 @@
         { "text": "(21)____ contribution simply by planting flowers.", "root": "MEAN" },
         { "text": "" },
         { "text": "Even a small city balcony can become a valuable", "root": "" },
-        { "text": "(22)____ for these hard-working insects.", "root": "REFUGE" },
+        { "text": "(22)____ shelter for these hard-working insects.", "root": "PROTECT" },
         { "text": "" },
         { "text": "Conservationists stress the (23)____ of acting", "root": "URGENT" },
         { "text": "before the losses become impossible to reverse." },
@@ -67,12 +67,12 @@
         { "text": "decline could still be slowed or even halted." }
       ],
       "questions": [
-        { "root": "DECLINE", "accept": ["decline"] },
+        { "root": "DECLINE", "accept": ["declining"] },
         { "root": "POLLINATE", "accept": ["pollination"] },
         { "root": "APPEAR", "accept": ["disappearance"] },
         { "root": "CARE", "accept": ["careless"] },
         { "root": "MEAN", "accept": ["meaningful"] },
-        { "root": "REFUGE", "accept": ["refuge"] },
+        { "root": "PROTECT", "accept": ["protective"] },
         { "root": "URGENT", "accept": ["urgency"] },
         { "root": "COLLECT", "accept": ["collective"] }
       ]

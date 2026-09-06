@@ -48,7 +48,7 @@
         { "text": "Restoring a wetland or a forest turns out to be far from (20)____ ; small interventions can trigger consequences no one foresaw.", "root": "PREDICT" },
         { "text": "There is now widespread (21)____ that local knowledge, long ignored, may be the most valuable resource of all.", "root": "RECOGNISE" },
         { "text": "Well-meaning schemes have sometimes done real harm through the sheer (22)____ of their planners.", "root": "SIGHT" },
-        { "text": "The most successful projects tend to treat human needs and wild nature as (23)____ rather than opposed.", "root": "COMPATIBLE" },
+        { "text": "The most successful projects tend to treat human needs and wild nature as (23)____ rather than opposed.", "root": "COMPATIBILITY" },
         { "text": "This shift represents nothing less than a (24)____ of what conservation is actually for.", "root": "THINK" }
       ],
       "questions": [
@@ -58,7 +58,7 @@
         { "root": "PREDICT", "accept": ["predictable"] },
         { "root": "RECOGNISE", "accept": ["recognition"] },
         { "root": "SIGHT", "accept": ["shortsightedness", "short-sightedness"] },
-        { "root": "COMPATIBLE", "accept": ["compatible"] },
+        { "root": "COMPATIBILITY", "accept": ["compatible"] },
         { "root": "THINK", "accept": ["rethinking", "rethink"] }
       ]
     },

@@ -46,7 +46,7 @@
         { "text": "can master a musical instrument." },
         { "text": "" },
         { "text": "In fact, adults often make surprisingly rapid", "root": "" },
-        { "text": "(18)____ once they overcome their nerves.", "root": "PROGRESS" },
+        { "text": "(18)____ once they overcome their nerves.", "root": "PROGRESSION" },
         { "text": "" },
         { "text": "What holds them back is usually not a lack of", "root": "" },
         { "text": "talent but a fear of looking (19)____.", "root": "FOOL" },
@@ -68,7 +68,7 @@
       ],
       "questions": [
         { "root": "BELIEVE", "accept": ["belief"] },
-        { "root": "PROGRESS", "accept": ["progress"] },
+        { "root": "PROGRESSION", "accept": ["progress"] },
         { "root": "FOOL", "accept": ["foolish"] },
         { "root": "WILLING", "accept": ["willingness"] },
         { "root": "REPEAT", "accept": ["repeated"] },

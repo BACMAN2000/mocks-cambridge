@@ -88,8 +88,8 @@
         {
           "before": "The therapist suggested that he keep a diary of his moods.",
           "keyword": "KEEPING",
-          "after": "The therapist ___ a diary of his moods.",
-          "accept": ["suggested keeping", "recommended keeping"]
+          "after": "The therapist ___ of his moods.",
+          "accept": ["suggested keeping a diary","recommended keeping a diary"]
         },
         {
           "before": "People often underestimate how strongly emotion shapes memory.",

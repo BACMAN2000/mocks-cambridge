@@ -70,8 +70,8 @@
         {
           "before": "He didn't apologise, which surprised everyone.",
           "keyword": "FAILURE",
-          "after": "His ___ apologise surprised everyone.",
-          "accept": ["failure to"]
+          "after": "___ apologise surprised everyone.",
+          "accept": ["his failure to"]
         },
         {
           "before": "You can borrow the car as long as you fill it with petrol.",
