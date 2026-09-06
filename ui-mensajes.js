@@ -256,6 +256,13 @@
   window.NISUI = NISUI;
   window.guardaIntento = NISUI.guardaIntento;
 
+  /* Puente para el codigo compartido por las dos webs y para las paginas que
+     puedan cargarse sin este modulo: usa el sistema que haya y cae al del
+     navegador. Aqui NISUI existe, asi que devuelve el aviso de la plataforma. */
+  if (!window._preguntaUI) {
+    window._preguntaUI = function (m, op) { return NISUI.pregunta(m, op); };
+  }
+
   /* Los alert() que quedan repartidos por la app salen ya con este formato.
      Se guarda el nativo por si hiciera falta depurar. */
   window._alertNativo = window.alert;
