@@ -12,7 +12,11 @@
           "header": "Willow Park",
           "text": "PLEASE DO NOT FEED THE DUCKS BREAD. IT IS BAD FOR THEM. YOU CAN BUY SPECIAL BIRD FOOD AT THE CAFÉ.",
           "stem": "What does the notice tell visitors?",
-          "options": ["The ducks are dangerous.", "Bread is not good for the ducks.", "The café is closed."],
+          "options": [
+            "The ducks are dangerous.",
+            "Bread is not good for the ducks.",
+            "The café is closed."
+          ],
           "answer": 1
         },
         {
@@ -20,7 +24,11 @@
           "header": "From: Jake → To: Ruby",
           "text": "Ruby, I can't walk the dog this afternoon because football practice has moved to today. Could you take him to the park after school? His lead is behind the kitchen door. I'll do your turn tomorrow!",
           "stem": "What does Jake ask Ruby to do?",
-          "options": ["Take the dog to the park.", "Come to football practice.", "Buy a new lead."],
+          "options": [
+            "Take the dog to the park.",
+            "Come to football practice.",
+            "Buy a new lead."
+          ],
           "answer": 0
         },
         {
@@ -30,7 +38,11 @@
           "subject": "Baby elephant",
           "body": "Dear member, our elephant Maya has had a baby! You can see the baby elephant from Tuesday, but only between 10 a.m. and midday, because he still sleeps a lot. Please book your visit on our website first, as we expect many visitors.",
           "stem": "What should members do before visiting?",
-          "options": ["Arrive after midday.", "Bring food for the elephant.", "Book on the website."],
+          "options": [
+            "Arrive after midday.",
+            "Bring food for the elephant.",
+            "Book on the website."
+          ],
           "answer": 2
         },
         {
@@ -38,7 +50,11 @@
           "header": "Note for Milly",
           "text": "Milly — Please water the plants in the garden tonight, but not the ones inside the house — I did those this morning. Also, remember to close the greenhouse door so the cat doesn't get in. — Dad",
           "stem": "Which plants does Milly need to water?",
-          "options": ["The plants inside the house.", "The plants in the garden.", "All of the plants."],
+          "options": [
+            "The plants inside the house.",
+            "The plants in the garden.",
+            "All of the plants."
+          ],
           "answer": 1
         },
         {
@@ -46,7 +62,11 @@
           "header": "Pine Forest Walking Trail",
           "text": "STAY ON THE PATH AT ALL TIMES. DOGS ARE WELCOME BUT MUST BE KEPT ON A LEAD.",
           "stem": "What does the sign say about dogs?",
-          "options": ["They must stay on a lead.", "They are not allowed in the forest.", "They can run free on the path."],
+          "options": [
+            "They must stay on a lead.",
+            "They are not allowed in the forest.",
+            "They can run free on the path."
+          ],
           "answer": 0
         },
         {
@@ -54,7 +74,11 @@
           "header": "Greenhill Wildlife Club",
           "text": "OUR SATURDAY BIRD-WATCHING TRIP IS NOW FULL. THERE ARE STILL PLACES ON THE SUNDAY TRIP — WRITE YOUR NAME ON THE LIST BELOW.",
           "stem": "How can people join the Sunday trip?",
-          "options": ["By phoning the club.", "By paying at the door.", "By writing their name on the list."],
+          "options": [
+            "By phoning the club.",
+            "By paying at the door.",
+            "By writing their name on the list."
+          ],
           "answer": 2
         }
       ]
@@ -84,15 +108,38 @@
         }
       ],
       "bank": {
-        "labels": ["A", "B", "C"],
-        "texts": ["Priya", "Nathan", "Elsa"]
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "texts": [
+          "Priya",
+          "Nathan",
+          "Elsa"
+        ]
       },
       "questions": [
-        {"stem": "Which person cannot keep a pet at home?", "answer": "B"},
-        {"stem": "Which person's animal makes sounds like a person?", "answer": "A"},
-        {"stem": "Which person made a home for their animals?", "answer": "C"},
-        {"stem": "Which person wants to work with animals in the future?", "answer": "B"},
-        {"stem": "Which person got their pet from someone who moved house?", "answer": "A"}
+        {
+          "stem": "Which person cannot keep a pet at home?",
+          "answer": "B"
+        },
+        {
+          "stem": "Which person's animal makes sounds like a person?",
+          "answer": "A"
+        },
+        {
+          "stem": "Which person made a home for their animals?",
+          "answer": "C"
+        },
+        {
+          "stem": "Which person wants to work with animals in the future?",
+          "answer": "B"
+        },
+        {
+          "stem": "Which person got their pet from someone who moved house?",
+          "answer": "A"
+        }
       ]
     },
     {
@@ -101,26 +148,108 @@
       "instructions": "Read the text about a boy who found a hedgehog. Choose the correct answer A, B or C.",
       "passage": "Last autumn, Oliver was playing in his garden when he found a small hedgehog under some leaves. It was not moving much, and Oliver thought it looked too thin. He called his mum, and together they put the hedgehog in a box with an old towel.\n\nOliver's mum phoned a wildlife hospital in the next town. The lady there said the hedgehog was too small to sleep through the winter safely, and asked them to bring it in. She explained that young hedgehogs need to be fat enough before the cold weather comes.\n\nAt the hospital, Oliver saw many other animals — birds, foxes and even a baby deer. A helper showed him how they feed the smallest animals every few hours, even at night. Oliver thought it must be very hard work.\n\nThe hospital kept the hedgehog all winter. In spring, they phoned Oliver's family with good news: the hedgehog was now big and healthy. Oliver was allowed to let it go in his garden, in the same place where he found it.\n\nNow Oliver leaves water in the garden for hedgehogs every night, and he has asked for a wildlife camera for his birthday so he can watch them.",
       "questions": [
-        {"stem": "Why was Oliver worried about the hedgehog?", "options": ["It looked too thin.", "It was making a strange noise.", "A cat was trying to catch it."], "answer": 0},
-        {"stem": "Why did the hedgehog need to go to the hospital?", "options": ["It had a broken leg.", "It was too old to live outside.", "It was too small to sleep safely through winter."], "answer": 2},
-        {"stem": "What did Oliver learn at the hospital?", "options": ["Foxes are dangerous animals.", "The smallest animals are fed every few hours.", "The hospital only helps hedgehogs."], "answer": 1},
-        {"stem": "What happened in spring?", "options": ["Oliver let the hedgehog go in his garden.", "The hedgehog stayed at the hospital forever.", "Oliver's family got a pet hedgehog."], "answer": 0},
-        {"stem": "What does Oliver want for his birthday?", "options": ["A baby deer.", "A book about hedgehogs.", "A wildlife camera."], "answer": 2}
+        {
+          "stem": "Why was Oliver worried about the hedgehog?",
+          "options": [
+            "It looked too thin.",
+            "It was making a strange noise.",
+            "A cat was trying to catch it."
+          ],
+          "answer": 0
+        },
+        {
+          "stem": "Why did the hedgehog need to go to the hospital?",
+          "options": [
+            "It had a broken leg.",
+            "It was too old to live outside.",
+            "It was too small to sleep safely through winter."
+          ],
+          "answer": 2
+        },
+        {
+          "stem": "What did Oliver learn at the hospital?",
+          "options": [
+            "Foxes are dangerous animals.",
+            "The smallest animals are fed every few hours.",
+            "The hospital only helps hedgehogs."
+          ],
+          "answer": 1
+        },
+        {
+          "stem": "What happened in spring?",
+          "options": [
+            "Oliver let the hedgehog go in his garden.",
+            "The hedgehog stayed at the hospital forever.",
+            "Oliver's family got a pet hedgehog."
+          ],
+          "answer": 0
+        },
+        {
+          "stem": "What does Oliver want for his birthday?",
+          "options": [
+            "A baby deer.",
+            "A book about hedgehogs.",
+            "A wildlife camera."
+          ],
+          "answer": 2
+        }
       ]
     },
     {
       "type": "clozeMC",
       "part": "Part 4",
-      "instructions": "For each gap (19–24), choose the best word A, B, C or D.",
+      "instructions": "For each gap (19–24), choose the best word A, B or C.",
       "title": "Penguins",
       "body": "Penguins are birds, but they cannot fly. Instead, they are wonderful swimmers and can (19)____ fish deep under the water. Most penguins live in cold places in the south of the world, (20)____ some kinds live in warmer countries too. A penguin's black and white feathers help to (21)____ it safe: from above, its dark back is hard to see in the dark water, and from below, its white front looks like the bright sky. Penguin parents work as a (22)____ to look after their egg. While one parent keeps the egg warm, the (23)____ goes to the sea to find food. Many people think penguins are funny because of the way they (24)____ on land.",
       "questions": [
-        {"options": ["find", "look", "search", "catch"], "answer": 3},
-        {"options": ["so", "but", "because", "if"], "answer": 1},
-        {"options": ["keep", "stay", "hold", "save"], "answer": 0},
-        {"options": ["group", "pair", "team", "family"], "answer": 2},
-        {"options": ["another", "second", "one", "other"], "answer": 3},
-        {"options": ["run", "walk", "jump", "dance"], "answer": 1}
+        {
+          "options": [
+            "find",
+            "look",
+            "catch"
+          ],
+          "answer": 2
+        },
+        {
+          "options": [
+            "so",
+            "but",
+            "because"
+          ],
+          "answer": 1
+        },
+        {
+          "options": [
+            "keep",
+            "stay",
+            "hold"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "group",
+            "pair",
+            "team"
+          ],
+          "answer": 2
+        },
+        {
+          "options": [
+            "another",
+            "second",
+            "other"
+          ],
+          "answer": 2
+        },
+        {
+          "options": [
+            "run",
+            "walk",
+            "jump"
+          ],
+          "answer": 1
+        }
       ]
     },
     {
@@ -130,33 +259,64 @@
       "title": "An email about a trip to a farm",
       "body": "Hi Grandpa,\n\nYesterday my class went (25)____ a trip to a farm. It was (26)____ best school trip ever!\n\nWe saw cows, sheep and horses. I (27)____ allowed to give milk to a baby lamb from a bottle. It drank everything (28)____ one minute!\n\nThe farmer told (29)____ that the lambs were only two weeks old. I took lots of photos, so I can show you (30)____ you visit us next month.\n\nLove,\nDaisy",
       "questions": [
-        {"accept": ["on"]},
-        {"accept": ["the"]},
-        {"accept": ["was"]},
-        {"accept": ["in", "within"]},
-        {"accept": ["us", "me"]},
-        {"accept": ["when", "if"]}
+        {
+          "accept": [
+            "on"
+          ]
+        },
+        {
+          "accept": [
+            "the"
+          ]
+        },
+        {
+          "accept": [
+            "was"
+          ]
+        },
+        {
+          "accept": [
+            "in",
+            "within"
+          ]
+        },
+        {
+          "accept": [
+            "us",
+            "me"
+          ]
+        },
+        {
+          "accept": [
+            "when",
+            "if"
+          ]
+        }
       ]
     },
     {
       "type": "writing",
       "part": "Part 6",
-      "prompts": [{
-        "kind": "email",
-        "instructions": "Your English friend Robin wants to get a pet. Write an email to Robin. In your email: suggest one animal Robin could get / say why it is a good pet / ask one question about Robin's home.\nWrite 35–45 words.",
-        "minWords": 35,
-        "maxWords": 45
-      }]
+      "prompts": [
+        {
+          "kind": "email",
+          "instructions": "Your English friend Robin wants to get a pet. Write an email to Robin. In your email: suggest one animal Robin could get / say why it is a good pet / ask one question about Robin's home.\nWrite 35–45 words.",
+          "minWords": 35,
+          "maxWords": 45
+        }
+      ]
     },
     {
       "type": "writing",
       "part": "Part 7",
-      "prompts": [{
-        "kind": "story",
-        "instructions": "Write a story for your English class. Your story must begin with this sentence:\nOne morning, Ben looked out of the window and saw a strange animal in the garden.\nWrite 35–45 words.",
-        "minWords": 35,
-        "maxWords": 45
-      }]
+      "prompts": [
+        {
+          "kind": "story",
+          "instructions": "Write a story for your English class. Your story must begin with this sentence:\nOne morning, Ben looked out of the window and saw a strange animal in the garden.\nWrite 35–45 words.",
+          "minWords": 35,
+          "maxWords": 45
+        }
+      ]
     }
   ]
 }
