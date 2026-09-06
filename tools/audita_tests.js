@@ -169,6 +169,45 @@ for (const b of ['QUIZ', 'QUIZ2', 'QUIZ3', 'QUIZ4', 'QUIZ5', 'QUIZ6', 'LISTEN_MO
   const o = saca(ls, b); if (o) recorre(b, o, '', revisaListening);
 }
 
+/* ---------- estructura contra el formato oficial ----------
+   Reading/UoE: A2 Key 7 partes (6,7,5,6,6 + 2 de writing) · B1 Preliminary 6
+   (5,5,5,5,6,6) · B2 First 7 (8,8,8,6,6,6,10) · C1 Advanced 8 (8,8,8,6,6,4,6,10).
+   Listening: A2 5 partes de 5 · B1 (7,6,6,6) · B2 (8,10,5,7) · C1 (6,8,6,10). */
+const OFICIAL = {
+  A2: { lectura: [6, 7, 5, 6, 6], escucha: [5, 5, 5, 5, 5] },
+  B1: { lectura: [5, 5, 5, 5, 6, 6], escucha: [7, 6, 6, 6] },
+  B2: { lectura: [8, 8, 8, 6, 6, 6, 10], escucha: [8, 10, 5, 7] },
+  C1: { lectura: [8, 8, 8, 6, 6, 4, 6, 10], escucha: [6, 8, 6, 10] },
+};
+/* el nivel se sabe por la clave del objeto (A2/B1/B2/C1), no por la ruta */
+function repasaEstructura(banco, obj, nivel, paper) {
+  if (!obj || typeof obj !== 'object') return;
+  if (Array.isArray(obj)) return obj.forEach((x, i) => repasaEstructura(banco, x, nivel, paper + '[' + (i + 1) + ']'));
+  if (obj.parts || obj.audios) {
+    if (!nivel || !OFICIAL[nivel]) return;
+    const escucha = /listening/i.test(paper) || !!obj.audios;
+    const esperadas = escucha ? OFICIAL[nivel].escucha : OFICIAL[nivel].lectura;
+    const bloques = (obj.audios || obj.parts || []).filter(p => (p.questions || []).length);
+    const donde = `${nivel} ${paper}`.trim();
+    if (bloques.length !== esperadas.length)
+      apunta(MEDIO, banco, donde, `${bloques.length} partes con preguntas y el examen tiene ${esperadas.length}`);
+    bloques.forEach((p, i) => {
+      const n = (p.questions || []).length;
+      if (esperadas[i] !== undefined && n !== esperadas[i])
+        apunta(MEDIO, banco, donde + ' ' + (p.part || p.id || 'p' + (i + 1)), `${n} preguntas y el examen pide ${esperadas[i]}`);
+    });
+    return;
+  }
+  for (const [k, v] of Object.entries(obj))
+    repasaEstructura(banco, v, /^(A2|B1|B2|C1)$/.test(k) ? k : nivel, /^(A2|B1|B2|C1)$/.test(k) ? paper : (paper ? paper + '/' + k : k));
+}
+for (const b of ['EXAMS', 'PRACTICE2', 'PRACTICE3', 'MOCK01', 'MOCK02', 'MOCK03', 'MOCKS_MORE', 'PRACTICE_MORE']) {
+  const o = saca(rd, b); if (o) repasaEstructura(b, o, null, '');
+}
+for (const b of ['QUIZ', 'QUIZ2', 'QUIZ3', 'QUIZ4', 'QUIZ5', 'QUIZ6', 'LISTEN_MORE']) {
+  const o = saca(ls, b); if (o) repasaEstructura(b, o, null, 'Listening');
+}
+
 console.log('='.repeat(78));
 console.log('MOCKS Y PRACTICE TESTS — ' + BASE);
 console.log(`\n--- preguntas rotas: ${GRAVE.length}`);
