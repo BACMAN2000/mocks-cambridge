@@ -139,6 +139,14 @@
         {
           "stem": "Which person felt very nervous the first time they performed?",
           "answer": "B"
+        },
+        {
+          "stem": "Which person hopes to form a group with school friends?",
+          "answer": "A"
+        },
+        {
+          "stem": "Which person travels to other places to take part in contests?",
+          "answer": "B"
         }
       ]
     },

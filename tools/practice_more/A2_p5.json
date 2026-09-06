@@ -139,6 +139,14 @@
         {
           "stem": "Which person mostly cleans and carries things instead of cooking?",
           "answer": "C"
+        },
+        {
+          "stem": "Which person does not want cooking to be their job?",
+          "answer": "A"
+        },
+        {
+          "stem": "Which person is saving money for something to ride?",
+          "answer": "C"
         }
       ]
     },

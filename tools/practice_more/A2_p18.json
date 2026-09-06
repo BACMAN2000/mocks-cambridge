@@ -139,6 +139,14 @@
         {
           "stem": "Which person visits the same place with an older relative?",
           "answer": "B"
+        },
+        {
+          "stem": "Which person meets people from many different countries?",
+          "answer": "A"
+        },
+        {
+          "stem": "Which person is allowed to choose the dessert?",
+          "answer": "B"
         }
       ]
     },

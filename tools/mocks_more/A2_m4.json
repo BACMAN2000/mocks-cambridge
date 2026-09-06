@@ -139,6 +139,14 @@
         {
           "stem": "Which person would like to visit the same city again?",
           "answer": "A"
+        },
+        {
+          "stem": "Which person practised speaking a foreign language?",
+          "answer": "B"
+        },
+        {
+          "stem": "Which person took a photograph that won a prize?",
+          "answer": "C"
         }
       ]
     },

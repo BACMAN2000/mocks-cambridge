@@ -139,6 +139,14 @@
         {
           "stem": "Which person hopes to have their own business one day?",
           "answer": "B"
+        },
+        {
+          "stem": "Which person is saving money to buy a piece of technology?",
+          "answer": "A"
+        },
+        {
+          "stem": "Which person finds their job harder when the weather is bad?",
+          "answer": "C"
         }
       ]
     },

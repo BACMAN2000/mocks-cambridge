@@ -139,6 +139,14 @@
         {
           "stem": "Which person enjoys meeting the people who buy things?",
           "answer": "C"
+        },
+        {
+          "stem": "Which person looks for the cheapest price before buying?",
+          "answer": "A"
+        },
+        {
+          "stem": "Which person thinks their way of shopping is good for the environment?",
+          "answer": "B"
         }
       ]
     },

@@ -139,6 +139,14 @@
         {
           "stem": "Which person is planning a long trip?",
           "answer": "A"
+        },
+        {
+          "stem": "Which person sometimes sends letters by post?",
+          "answer": "A"
+        },
+        {
+          "stem": "Which person organised a celebration for a friend's birthday?",
+          "answer": "C"
         }
       ]
     },

@@ -139,6 +139,14 @@
         {
           "stem": "Which person has taught their pet to come when it hears a sound?",
           "answer": "C"
+        },
+        {
+          "stem": "Which person's pet once damaged something?",
+          "answer": "B"
+        },
+        {
+          "stem": "Which person finds their pet boring at one time of year?",
+          "answer": "A"
         }
       ]
     },

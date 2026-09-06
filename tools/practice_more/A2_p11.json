@@ -139,6 +139,14 @@
         {
           "stem": "Which person got their pet from someone who moved house?",
           "answer": "A"
+        },
+        {
+          "stem": "Which person grows food for their animals?",
+          "answer": "C"
+        },
+        {
+          "stem": "Which person spends time with animals that do not belong to them?",
+          "answer": "B"
         }
       ]
     },

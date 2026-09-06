@@ -139,6 +139,14 @@
         {
           "stem": "Which person has to get up early?",
           "answer": "A"
+        },
+        {
+          "stem": "Which person once saw an unusual animal?",
+          "answer": "C"
+        },
+        {
+          "stem": "Which person finds one job unpleasant in hot weather?",
+          "answer": "A"
         }
       ]
     },

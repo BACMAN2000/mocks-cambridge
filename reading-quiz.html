@@ -1960,8 +1960,8 @@ B2:{
         questions:[
           {before:"I last saw Daniel three months ago.",
            keyword:"SINCE",
-           after:"I ___ three months.",
-           accept:["have not seen daniel for","haven't seen daniel for","have not seen daniel in","haven't seen daniel in"]},
+           after:"I ___ three months ago.",
+           accept:["have not seen daniel since","haven't seen daniel since"]},
           {before:"\"You should book the tickets early,\" she told us.",
            keyword:"ADVISED",
            after:"She ___ the tickets early.",
@@ -2609,9 +2609,9 @@ B2:{
         title:"The science of first impressions",
         rows:[
           {text:"We form an opinion of a stranger with remarkable"},
-          {text:"(17)____, often within a fraction of a second.", root:"SPEED"},
+          {text:"(17)____, often within a fraction of a second.", root:"SPEEDY"},
           {text:""},
-          {text:"This (18)____ judgement is based mostly on the", root:"INSTANT"},
+          {text:"This (18)____ judgement is based mostly on the", root:"INSTANTLY"},
           {text:"face, before a single word is spoken."},
           {text:""},
           {text:"Such snap judgements are, unsurprisingly,"},
@@ -2626,20 +2626,20 @@ B2:{
           {text:"The (22)____ news is that we can learn to", root:"ENCOURAGE"},
           {text:"question our own first impressions."},
           {text:""},
-          {text:"Doing so requires a (23)____ effort to look for", root:"CONSCIOUS"},
+          {text:"Doing so requires a (23)____ effort to look for", root:"CONSCIOUSNESS"},
           {text:"evidence that contradicts them."},
           {text:""},
           {text:"With practice, this becomes a genuinely"},
           {text:"(24)____ habit in both work and friendship.", root:"VALUE"}
         ],
         questions:[
-          {root:"SPEED",      accept:["speed"]},
-          {root:"INSTANT",    accept:["instant","instantaneous"]},
+          {root:"SPEEDY",      accept:["speed"]},
+          {root:"INSTANTLY",    accept:["instantaneous"]},
           {root:"RELY",       accept:["unreliable"]},
           {root:"RESIST",     accept:["resistant"]},
           {root:"COMBINE",    accept:["combination"]},
           {root:"ENCOURAGE",  accept:["encouraging"]},
-          {root:"CONSCIOUS",  accept:["conscious"]},
+          {root:"CONSCIOUSNESS",  accept:["conscious"]},
           {root:"VALUE",      accept:["valuable"]}
         ]
       },
@@ -2803,7 +2803,7 @@ C1:{
           {text:"Yet psychologists have gathered (18)____", root:"CONVINCE"},
           {text:"evidence that writing by hand aids memory."},
           {text:""},
-          {text:"The slower, more (19)____ movement of the pen", root:"DELIBERATE"},
+          {text:"The slower, more (19)____ movement of the pen", root:"DELIBERATELY"},
           {text:"forces the brain to process information more deeply."},
           {text:""},
           {text:"This may explain the apparent (20)____ of", root:"SUPERIOR"},
@@ -2824,7 +2824,7 @@ C1:{
         questions:[
           {root:"PERSIST",   accept:["persistence"]},
           {root:"CONVINCE",  accept:["convincing"]},
-          {root:"DELIBERATE",accept:["deliberate"]},
+          {root:"DELIBERATELY",accept:["deliberate"]},
           {root:"SUPERIOR",  accept:["superiority"]},
           {root:"NOTICE",    accept:["noticeable"]},
           {root:"COMPEL",    accept:["compelling"]},
@@ -3849,7 +3849,7 @@ const MOCK01 = {
 },
 {
 "text": "An interviewer's (20)____ reaction to a candidate",
-"root": "INITIAL"
+"root": "INITIALLY"
 },
 {
 "text": "can colour the entire conversation that follows."
@@ -3870,7 +3870,7 @@ const MOCK01 = {
 },
 {
 "text": "The good news is that becoming (22)____ of the",
-"root": "AWARE"
+"root": "AWARENESS"
 },
 {
 "text": "effect can reduce its grip on our decisions."
@@ -3916,10 +3916,8 @@ const MOCK01 = {
 ]
 },
 {
-"root": "INITIAL",
-"accept": [
-"initial"
-]
+"root": "INITIALLY",
+"accept": ["initial"]
 },
 {
 "root": "JUST",
@@ -3929,10 +3927,8 @@ const MOCK01 = {
 ]
 },
 {
-"root": "AWARE",
-"accept": [
-"aware"
-]
+"root": "AWARENESS",
+"accept": ["aware"]
 },
 {
 "root": "INSTINCT",
@@ -5708,7 +5704,7 @@ const MOCK02 = {
 },
 {
 "text": "Many firms have since adopted a more (22)____ model,",
-"root": "FLEXIBLE"
+"root": "FLEXIBILITY"
 },
 {
 "text": "mixing days at home with days in the office."
@@ -5769,10 +5765,8 @@ const MOCK02 = {
 ]
 },
 {
-"root": "FLEXIBLE",
-"accept": [
-"flexible"
-]
+"root": "FLEXIBILITY",
+"accept": ["flexible"]
 },
 {
 "root": "COLLABORATE",
@@ -7451,7 +7445,7 @@ const MOCK03 = {
      },
      {
       "text": "(17)____ willingness of online shoppers to trust",
-      "root": "EXTRAORDINARY"
+      "root": "ORDINARY"
      },
      {
       "text": "reviews written by people they have never met."
@@ -7464,7 +7458,7 @@ const MOCK03 = {
      },
      {
       "text": "more (18)____ on a buyer than long expert analysis.",
-      "root": "INFLUENCE"
+      "root": "INFLUENTIAL"
      },
      {
       "text": ""
@@ -7529,16 +7523,12 @@ const MOCK03 = {
     ],
     "questions": [
      {
-      "root": "EXTRAORDINARY",
-      "accept": [
-       "extraordinary"
-      ]
+      "root": "ORDINARY",
+      "accept": ["extraordinary"]
      },
      {
-      "root": "INFLUENCE",
-      "accept": [
-       "influence"
-      ]
+      "root": "INFLUENTIAL",
+      "accept": ["influence"]
      },
      {
       "root": "RATIONAL",
@@ -8066,7 +8056,7 @@ const MOCK03 = {
      },
      {
       "text": "What seems beyond (24)____ is that attention, far from being unlimited,",
-      "root": "DISPUTE"
+      "root": "INDISPUTABLE"
      },
      {
       "text": "behaves more like a depletable resource."
@@ -8117,10 +8107,8 @@ const MOCK03 = {
       ]
      },
      {
-      "root": "DISPUTE",
-      "accept": [
-       "dispute"
-      ]
+      "root": "INDISPUTABLE",
+      "accept": ["dispute"]
      }
     ]
    },
@@ -20611,7 +20599,7 @@ const PRACTICE_MORE = {
 },
 {
 "text": "(18)____ once they overcome their nerves.",
-"root": "PROGRESS"
+"root": "PROGRESSION"
 },
 {
 "text": ""
@@ -20684,10 +20672,8 @@ const PRACTICE_MORE = {
 ]
 },
 {
-"root": "PROGRESS",
-"accept": [
-"progress"
-]
+"root": "PROGRESSION",
+"accept": ["progress"]
 },
 {
 "root": "FOOL",
@@ -27573,7 +27559,7 @@ const PRACTICE_MORE = {
 },
 {
 "text": "The most successful projects tend to treat human needs and wild nature as (23)____ rather than opposed.",
-"root": "COMPATIBLE"
+"root": "COMPATIBILITY"
 },
 {
 "text": "This shift represents nothing less than a (24)____ of what conservation is actually for.",
@@ -27620,10 +27606,8 @@ const PRACTICE_MORE = {
 ]
 },
 {
-"root": "COMPATIBLE",
-"accept": [
-"compatible"
-]
+"root": "COMPATIBILITY",
+"accept": ["compatible"]
 },
 {
 "root": "THINK",

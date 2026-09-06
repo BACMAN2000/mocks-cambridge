@@ -139,6 +139,14 @@
         {
           "stem": "Which person learned a new skill during the holiday?",
           "answer": "C"
+        },
+        {
+          "stem": "Which person went to see a performance?",
+          "answer": "B"
+        },
+        {
+          "stem": "Which person saw wild animals?",
+          "answer": "A"
         }
       ]
     },

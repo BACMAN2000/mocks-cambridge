@@ -139,6 +139,14 @@
         {
           "stem": "Which person hopes to make a very long journey by bike one day?",
           "answer": "C"
+        },
+        {
+          "stem": "Which person does a sport that is expensive?",
+          "answer": "B"
+        },
+        {
+          "stem": "Which person dislikes how cold the changing rooms are?",
+          "answer": "A"
         }
       ]
     },

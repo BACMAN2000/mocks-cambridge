@@ -139,6 +139,14 @@
         {
           "stem": "Which person says there is one thing they don't like about their favourite season?",
           "answer": "A"
+        },
+        {
+          "stem": "Which person goes swimming every day of their holiday?",
+          "answer": "B"
+        },
+        {
+          "stem": "Which person likes wearing warmer clothes again?",
+          "answer": "C"
         }
       ]
     },

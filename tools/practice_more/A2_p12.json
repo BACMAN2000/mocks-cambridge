@@ -139,6 +139,14 @@
         {
           "stem": "Which person changed from an old way of doing something to a new one?",
           "answer": "B"
+        },
+        {
+          "stem": "Which person receives kind messages about their work?",
+          "answer": "A"
+        },
+        {
+          "stem": "Which person wants to make a book of their own one day?",
+          "answer": "B"
         }
       ]
     },

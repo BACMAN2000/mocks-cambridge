@@ -139,6 +139,14 @@
         {
           "stem": "Which person wore clothes that were not comfortable?",
           "answer": "A"
+        },
+        {
+          "stem": "Which person appeared in a newspaper?",
+          "answer": "C"
+        },
+        {
+          "stem": "Which person danced very late into the night?",
+          "answer": "A"
         }
       ]
     },

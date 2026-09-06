@@ -139,6 +139,14 @@
         {
           "stem": "Which person helps someone younger on the way to school?",
           "answer": "B"
+        },
+        {
+          "stem": "Which person listens to something while travelling?",
+          "answer": "C"
+        },
+        {
+          "stem": "Which person walks to school with other people?",
+          "answer": "B"
         }
       ]
     },

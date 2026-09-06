@@ -128,6 +128,14 @@
           {
             "stem": "Which person hopes their job will help with a future business?",
             "answer": "C"
+          },
+          {
+            "stem": "Which person enjoys talking to customers?",
+            "answer": "A"
+          },
+          {
+            "stem": "Which person finds their job harder in wet weather?",
+            "answer": "B"
           }
         ]
       },
@@ -440,6 +448,14 @@
           {
             "stem": "Which person already has a plan for next year's competition?",
             "answer": "C"
+          },
+          {
+            "stem": "Which person took their picture when the place was almost empty?",
+            "answer": "A"
+          },
+          {
+            "stem": "Which person wants to buy better equipment after the competition?",
+            "answer": "B"
           }
         ]
       },

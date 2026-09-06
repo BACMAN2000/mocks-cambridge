@@ -26,6 +26,11 @@ for f in banks():
                 for i,q in enumerate(pt.get("questions",[])):
                     if len(q.get("options",[]))!=3:
                         warns.append(f"{base} {pt.get('part')} Q{i+1}: A2 clozeMC has {len(q.get('options',[]))} options (KET=3)")
+            # A2 Reading Part 2 (matching) must have 7 questions (official KET)
+            if lv.startswith("A2") and typ=="match":
+                nq=len(pt.get("questions",[]))
+                if nq!=7:
+                    warns.append(f"{base} {pt.get('part')}: A2 match has {nq} questions (KET Part 2 = 7)")
             # C1 KWT must not test B2 grammar
             if lv.startswith("C1") and typ=="transform":
                 for i,q in enumerate(pt.get("questions",[])):

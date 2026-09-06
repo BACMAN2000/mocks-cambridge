@@ -139,6 +139,14 @@
         {
           "stem": "Which person shares their work with an online group of artists?",
           "answer": "C"
+        },
+        {
+          "stem": "Which person's work has been seen by a lot of people?",
+          "answer": "A"
+        },
+        {
+          "stem": "Which person continues even when things do not work?",
+          "answer": "B"
         }
       ]
     },

@@ -139,6 +139,14 @@
         {
           "stem": "Which person now uses something to keep them safe?",
           "answer": "A"
+        },
+        {
+          "stem": "Which person's teeth were in good condition at their last check-up?",
+          "answer": "B"
+        },
+        {
+          "stem": "Which person could not do a water sport for several weeks?",
+          "answer": "A"
         }
       ]
     },
