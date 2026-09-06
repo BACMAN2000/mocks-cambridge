@@ -145,6 +145,7 @@ if(/\.github\.io$/i.test(location.hostname)){
   a.link{color:var(--accent);text-decoration:none;font-weight:600}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="ui-mensajes.js"></script>
 <script src="nis-bridge.js"></script>
 <script src="writing-rubric.js?v=1"></script>
 </head>
@@ -5309,17 +5310,14 @@ function borradorConTexto(b){
 
 /* Solo se ofrece continuar el MISMO examen y del mismo dia: el borrador de la
    semana pasada no puede aparecerse en mitad de otro mock. */
-function continuar(){
+async function continuar(){
   let b=null;
   try{ b=JSON.parse(localStorage.getItem(BOR_KEY)||'null'); }catch(e){ b=null; }
   if(!borradorConTexto(b)) return null;
   if(b.level!==state.level || b.examType!==state.examType) return null;
   if(!b.at || (Date.now()-b.at) > 12*3600*1000){ borraBorrador(); return null; }
   const cuando=new Date(b.at).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
-  if(!confirm('You have an unfinished attempt at this exam.'
-              +'\n\nLast saved: '+cuando
-              +'\n\nOK = carry on where you left off (the clock keeps running).'
-              +'\nCancel = start again from a blank page.')){
+  if(!await NISUI.pregunta('Last saved at '+cuando+'.\n\nYou can carry on where you left off (the clock keeps running) or start again with a blank page.', {titulo:'You have an unfinished attempt', si:'Carry on where I left off', no:'Start again', icono:'✍️', tono:'info'})){
     borraBorrador(); return null;
   }
   /* La eleccion de Part 2 se decide ANTES de pintar: va dibujada dentro de
@@ -5553,10 +5551,10 @@ const render={
 
       <p style="margin-top:8px"><a class="link" onclick="go('category')" style="cursor:pointer">&larr; Back</a></p>`;
   },
-  exam(){
+  async exam(){
     const ex=exam();
     state.view=0; state.part2Choice=null; state.startTime=null;
-    const _bor=continuar();
+    const _bor=await continuar();
     let panes=''; for(let v=0;v<viewCount();v++) panes+=taskPaneHtml(v);
     app.className='';
     app.innerHTML=`<div class="shell">
@@ -5579,7 +5577,7 @@ const render={
     window._choose=(opt,val)=>{ state.part2Choice = (val==='yes')?opt:(state.part2Choice===opt?null:state.part2Choice);
       const ps=document.getElementById('pickState'); if(ps){const on=state.part2Choice===opt; ps.textContent=on?'✓ Yes — this one will be marked':'Not selected yet'; ps.classList.toggle('on',on);} syncFooter(); guardaBorrador(); };
     document.getElementById('submit').onclick=finalize;
-    document.getElementById('quit').onclick=()=>{ if(confirm('Exit without submitting? Your answers will be lost.')){stopTimer();acStop();borraBorrador();go('level');} };
+    document.getElementById('quit').onclick=async ()=>{ if(await NISUI.pregunta('If you leave now you will lose everything you have written and the exam will not be submitted.', {titulo:'Leave without submitting?', si:'Leave and lose it', no:'Back to the exam', tono:'mal', peligro:true})){stopTimer();acStop();borraBorrador();go('level');} };
     if(_bor){ reponBorrador(_bor); }
     syncFooter();
     state.startTime=state.startTime||Date.now();
@@ -5609,7 +5607,7 @@ const render={
         <div class="card" style="text-align:center;border-left:4px solid var(--good)">
           <div style="font-size:2.2rem">✓</div>
           <h2 style="margin:4px 0">Writing submitted</h2>
-          <p style="color:var(--muted);margin:0">Writing is <strong>not auto-scored</strong> — your teacher will read it and give you a mark by hand. Status: <strong>Pendiente de calificación del profesor</strong>. Below is a copy of what you wrote.</p>
+          <p style="color:var(--muted);margin:0">Writing is <strong>not auto-scored</strong> — your teacher will read it and give you a mark by hand. Status: <strong>Awaiting your teacher's marking</strong>. Below is a copy of what you wrote.</p>
         </div>
         <div class="card">
           <h2>Your answers</h2>
@@ -5620,7 +5618,7 @@ const render={
         </div>
       </div>
       <div class="row">
-        <a class="btn" style="text-decoration:none" href="/">🏫 Volver al Portal NIS</a>
+        <a class="btn" style="text-decoration:none" href="/">🏫 Back to the Portal</a>
         <button class="btn ghost" onclick="go('level')">Change level</button>
         <a class="link" style="align-self:center" href="quizzes.html">All quizzes ↗</a>
       </div>`;
@@ -5632,8 +5630,8 @@ const render={
   }
 };
 
-function finalize(){
-  if(!confirm('Submit your writing and finish? Your answers will be sent to your teacher to mark.')) return;
+async function finalize(){
+  if(!await NISUI.pregunta('You are about to submit your writing and you will not be able to change it. Your teacher will mark it.', {titulo:'Submit your writing?', si:'Yes, submit', no:'Keep writing', icono:'✍️', tono:'info'})) return;
   stopTimer();
   acStop();
   const ex=exam();
@@ -5659,11 +5657,13 @@ function postResult(r,silent){
   const st=document.getElementById('sendStatus');
   if(!silent&&st){st.style.display='block';st.textContent='Sending…';}
   // Writing is NOT auto-graded: store/send with no score — the teacher grades it.
-  try{ if(window.NIS) window.NIS.save({skill:'Writing', level:state.level, examType:state.examType, score:null, total:null, percent:null, answers:(r&&r.tasks)||null}); }catch(e){}
+  /* Se espera al guardado y se avisa; antes un fallo pasaba callado. */
+  if(!silent) guardaIntento({skill:'Writing', level:state.level, examType:state.examType, score:null, total:null, percent:null, answers:(r&&r.tasks)||null}, 'Your teacher will mark it.');
+  else { try{ if(window.NIS) window.NIS.save({skill:'Writing', level:state.level, examType:state.examType, score:null, total:null, percent:null, answers:(r&&r.tasks)||null}); }catch(e){} }
   if(!CONFIG.webhookUrl){ if(st&&!silent){st.textContent='⚠ No webhook configured — use Download PDF.';} return; }
   const payload={timestamp:new Date().toISOString(),name:state.name,firstName:(state.name||'').split(' ')[0],email:state.email,grade:state.grade,
     skill:'Writing',level:state.level,levelName:LEVEL_NAMES[state.level]||'',examTitle:exam().title,
-    score:null,total:null,percent:null,verdict:'Pendiente de calificación del profesor',writingEvaluation:r.tasks,
+    score:null,total:null,percent:null,verdict:'Awaiting the teacher\'s marking',writingEvaluation:r.tasks,
     tabSwitches:state._tabSwitches||0,
     translateHits:state._translateHits||0,
     teacherEmail:CONFIG.teacherEmail,schoolName:CONFIG.schoolName};
@@ -5803,8 +5803,8 @@ function stopTimer(){ if(timerId){clearInterval(timerId);timerId=null;} }
 
 window._pickLevel=(l)=>{ state.level=l; go('category'); };
 window._pickExam=(t)=>{ state.examType=t; go('exam'); };
-window._mockLocked=()=>{ alert('🔒 Los MOCKS están bloqueados.\n\nTu profesor los habilitará desde el Portal NIS cuando estés listo para rendirlos.'); };
-window._practiceLocked=()=>{ alert('🔒 Los PRACTICE TESTS están bloqueados en este momento.\n\nTu profesor los reservó para usarlos en clase; los desbloqueará desde el Portal NIS.'); };
+window._mockLocked=()=>{ alert('🔒 The mocks are locked.\n\nYour teacher will open them from the Portal when you are ready to sit them.'); };
+window._practiceLocked=()=>{ alert('🔒 Practice tests are locked right now.\n\nYour teacher has kept them for class and will unlock them from the Portal.'); };
 
 /* Auto-skip sign-in when logged into Portal NIS (shared session) → go to level. */
 (async function(){

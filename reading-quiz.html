@@ -372,6 +372,7 @@ if(/\.github\.io$/i.test(location.hostname)){
   #acOverlay{position:fixed!important;inset:0!important;z-index:99999!important}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="ui-mensajes.js"></script>
 <script src="nis-bridge.js"></script>
 <script src="config.js"></script>
 <!-- EXAM_VOCAB: vocabulario del examen, del lexico propio -->
@@ -425,9 +426,9 @@ window.examVocabHtml = function(fuente, max){
            (ip ? '<span class="ev-ipa">' + ip + '</span>' : '') +
            '<div class="ev-def">' + e.d + '</div></div>' + boton + '</div>';
   }).join('');
-  var mas = orden.length > tope ? '<p class="ev-more">y ' + (orden.length - tope) + ' mas de este examen</p>' : '';
+  var mas = orden.length > tope ? '<p class="ev-more">and ' + (orden.length - tope) + ' more from this exam</p>' : '';
   return '<div class="card ev-card"><h2>Vocabulary from this exam</h2>' +
-    '<p class="ev-sub">Palabras de este examen que se ensenan en tus cursos. Toca el altavoz para oirlas.</p>' +
+    '<p class="ev-sub">Words from this exam that you study in your courses. Tap the speaker to hear them.</p>' +
     '<div class="ev-list">' + filas + '</div>' + mas + '</div>';
 };
 document.addEventListener('click', function(ev){
@@ -42804,9 +42805,11 @@ function _acStrike(secs){
 function _acAutoSubmit(){
   const btn = document.getElementById('submitBtn');
   if(!btn){ return; }
-  _AC_force = true;
+  /* _AC_force saltaba el confirm() nativo; NISUI_AUTO_SI hace lo propio con el
+     aviso de la plataforma, que es asincrono — de ahi el margen mas amplio. */
+  _AC_force = true; window.NISUI_AUTO_SI = true;
   try{ btn.click(); }catch(e){}
-  setTimeout(()=>{ _AC_force = false; }, 80);
+  setTimeout(()=>{ _AC_force = false; window.NISUI_AUTO_SI = false; }, 400);
 }
 
 /* Reporte al docente: incidente en BD + correo (sin nota C — el docente decide). */
@@ -42836,14 +42839,14 @@ function _acShowWarn(kind){
   let icon, title, msg, showBtn = true;
   if(kind==='locked'){
     icon='⛔'; showBtn=false;
-    title='Examen entregado';
-    msg='Saliste del examen demasiadas veces. Para proteger la honestidad, tu examen se <strong>entregó automáticamente</strong> con lo que habías respondido. Tu <strong>docente fue notificado</strong> y revisará el caso.';
+    title='Exam submitted';
+    msg='You left the exam too many times. To keep the exam fair, it was <strong>submitted automatically</strong> with the answers you had given. Your <strong>teacher has been notified</strong> and will look into it.';
   } else if(kind==='reported'){
-    icon='🚩'; title='Reportado a tu docente';
-    msg='Saliste de nuevo. Esto fue <strong style="color:#fca5a5">reportado a tu docente</strong>. Te queda <strong>1 vida</strong>: la próxima salida <strong>entregará tu examen automáticamente</strong>.';
+    icon='🚩'; title='Reported to your teacher';
+    msg='You left again. This was <strong style="color:#fca5a5">reported to your teacher</strong>. You have <strong>1 life</strong> left: leaving again will <strong>submit your exam automatically</strong>.';
   } else {
-    icon='⚠️'; title='Saliste del examen';
-    msg='Te quedan <strong>'+left+' vidas</strong>. No cambies de pestaña, ventana ni app durante el examen. La próxima salida será <strong>reportada a tu docente</strong>.';
+    icon='⚠️'; title='You left the exam';
+    msg='You have <strong>'+left+' lives</strong> left. Do not switch tab, window or app during the exam. Leaving again will be <strong>reported to your teacher</strong>.';
   }
   const ov = document.createElement('div');
   ov.id = 'acOverlay';
@@ -42859,8 +42862,8 @@ function _acShowWarn(kind){
     (showBtn
       ? '<button onclick="document.getElementById(\'acOverlay\').remove()" ' +
         'style="background:#4987c6;color:#fff;border:none;padding:14px 36px;border-radius:10px;' +
-               'font-size:1rem;font-weight:700;cursor:pointer;font-family:inherit">Volver al examen</button>'
-      : '<div style="color:#94a3b8;font-size:.9rem;max-width:420px;line-height:1.6">Si crees que es un error, habla con tu docente.</div>');
+               'font-size:1rem;font-weight:700;cursor:pointer;font-family:inherit">Back to the exam</button>'
+      : '<div style="color:#94a3b8;font-size:.9rem;max-width:420px;line-height:1.6">If you think this is a mistake, talk to your teacher.</div>');
   document.body.appendChild(ov);
 }
 
@@ -43698,12 +43701,12 @@ const render = {
     const pBtn=document.getElementById('catPractice');
     if(pBtn && hasPractice){
       if(pUnlocked) pBtn.onclick=()=>go('practicePick');
-      else pBtn.onclick=()=>{ alert('🔒 Los PRACTICE TESTS están bloqueados en este momento.\n\nTu profesor los reservó para usarlos en clase; los desbloqueará desde el Portal NIS.'); };
+      else pBtn.onclick=()=>{ alert('🔒 Practice tests are locked right now.\n\nYour teacher has kept them for class and will unlock them from the Portal.'); };
     }
     const mBtn=document.getElementById('catMocks');
     if(mBtn){
       if(unlocked) mBtn.onclick=()=>go('examPick');
-      else mBtn.onclick=()=>{ alert('🔒 Los MOCKS están bloqueados.\n\nTu profesor los habilitará desde el Portal NIS cuando estés listo para rendirlos.'); };
+      else mBtn.onclick=()=>{ alert('🔒 The mocks are locked.\n\nYour teacher will open them from the Portal when you are ready to sit them.'); };
     }
   },
 
@@ -44030,16 +44033,16 @@ const render = {
       });
     };
 
-    const finalize = ()=>{
-      if(!confirm('Submit your answers and finish the exam?')) return;
+    const finalize = async ()=>{
+      if(!await NISUI.pregunta('You are about to submit your exam and see your result. You will not be able to change your answers.', {titulo:'Submit your exam?', si:'Yes, submit', no:'Keep answering', icono:'📩', tono:'info'})) return;
       stopTimer(); stopTTS(); acStop();
       const result = scoreExam(ex);
       state.answers = result;
       go('result');
     };
     document.getElementById('submitBtn').onclick = finalize;
-    document.getElementById('quitBtn').onclick = ()=>{
-      if(!confirm('Exit without submitting? Your answers will be lost.')) return;
+    document.getElementById('quitBtn').onclick = async ()=>{
+      if(!await NISUI.pregunta('If you leave now you will lose all your answers and the exam will not be submitted.', {titulo:'Leave without submitting?', si:'Leave and lose them', no:'Back to the exam', tono:'mal', peligro:true})) return;
       stopTimer(); stopTTS(); acStop(); go('category');
     };
 
@@ -44241,7 +44244,7 @@ const render = {
       </div>
 
       <div class="row">
-        <a class="btn" style="text-decoration:none" href="/">🏫 Volver al Portal → siguiente destreza</a>
+        <a class="btn" style="text-decoration:none" href="/">🏫 Back to the Portal → next paper</a>
         <button class="ghost" onclick="go('category')">Try another exam</button>
         <button class="ghost" onclick="go('level')">Change level</button>
         <a class="link" style="align-self:center;margin-left:6px" href="quizzes.html">All quizzes &nearr;</a>
@@ -44275,7 +44278,10 @@ const render = {
       teacherEmail: CONFIG.teacherEmail,
       schoolName: CONFIG.schoolName
     };
-    try{ if(window.NIS) window.NIS.save({skill:payload.skill, level:payload.level, examType:payload.examType, score:payload.score, total:payload.total, percent:payload.percent, duration_min:payload.durationMinutes, breakdown:{parts:payload.parts, detail:payload.detail}, answers:payload.writingAnswers||null}); }catch(e){}
+    /* Se espera al guardado y se le dice al alumno como fue: antes se lanzaba
+       sin await en un try/catch vacio y un fallo pasaba callado. */
+    guardaIntento({skill:payload.skill, level:payload.level, examType:payload.examType, score:payload.score, total:payload.total, percent:payload.percent, duration_min:payload.durationMinutes, breakdown:{parts:payload.parts, detail:payload.detail}, answers:payload.writingAnswers||null},
+                  payload.score + '/' + payload.total + ' · ' + payload.percent + '%');
     sendResultToWebhook(payload).then(res=>{
       const st = document.getElementById('sendStatus');
       if(!st) return;
