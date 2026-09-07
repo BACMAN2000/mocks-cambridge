@@ -24,12 +24,12 @@
           "header": "From: Dad → To: Kim",
           "text": "Kim, our flight home is delayed by two hours, so we'll land at nine, not seven. Don't wait at the airport — please get a taxi home and we'll pay you back. See you soon!",
           "stem": "What does Dad want Kim to do?",
-          "options": [
+          "options": ["Take a taxi home instead of waiting.",
+            
             "Meet them at the airport at seven.",
-            "Take a taxi home instead of waiting.",
             "Book a later flight for them."
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "kind": "email",
@@ -40,22 +40,22 @@
           "stem": "What can guests who leave early do?",
           "options": [
             "Eat breakfast after 9.30 a.m.",
-            "Ask for a breakfast box the night before.",
             "Have breakfast in their room every day."
-          ],
-          "answer": 1
+          ,
+            "Ask for a breakfast box the night before."],
+          "answer": 2
         },
         {
           "kind": "note",
           "header": "Note for Lea",
           "text": "Lea — I've packed the suitcases, but I couldn't find your sun hat. Please look for it before we leave and put it in the small bag by the door. — Mum",
           "stem": "What does Mum ask Lea to do?",
-          "options": [
+          "options": ["Find her sun hat and pack it.",
+            
             "Pack all the suitcases.",
-            "Find her sun hat and pack it.",
             "Wait by the door."
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "kind": "sign",
@@ -76,10 +76,10 @@
           "stem": "What does the notice tell visitors?",
           "options": [
             "There is only one tour each day.",
-            "Tours are given at different times in two languages.",
             "The castle is closed in the afternoon."
-          ],
-          "answer": 1
+          ,
+            "Tours are given at different times in two languages."],
+          "answer": 2
         }
       ]
     },
@@ -169,10 +169,10 @@
           "stem": "What problem did Daniel have at the airport?",
           "options": [
             "He lost his passport.",
-            "He had left his phone at home.",
             "He missed the plane."
-          ],
-          "answer": 1
+          ,
+            "He had left his phone at home."],
+          "answer": 2
         },
         {
           "stem": "How did Daniel take photos on the trip?",
@@ -196,10 +196,10 @@
           "stem": "What did Daniel want to do after the trip?",
           "options": [
             "Learn to fly a plane.",
-            "Travel more in the future.",
             "Move to France."
-          ],
-          "answer": 1
+          ,
+            "Travel more in the future."],
+          "answer": 2
         }
       ]
     },
@@ -211,28 +211,28 @@
       "body": "The bicycle is one of the most useful machines ever invented. The first bicycles were built about two hundred years ago, but they looked nothing (19)____ the bikes we ride today. Those early bikes had no pedals, so people had to push (20)____ feet along the ground to move. As the years passed, inventors made the bicycle safer and (21)____ to ride. Soon, cycling became a popular way for ordinary people (22)____ travel from place to place. Bicycles were cheap, so many people (23)____ afford to buy one. Today, the bicycle is still loved all over the world, and it is much better for the environment (24)____ a car.",
       "questions": [
         {
-          "options": [
+          "options": ["as",
+            
             "like",
-            "as",
             "near"
-          ],
-          "answer": 0
-        },
-        {
-          "options": [
-            "them",
-            "their",
-            "they"
           ],
           "answer": 1
         },
         {
           "options": [
+            "them",
+            "they"
+          ,
+            "their"],
+          "answer": 2
+        },
+        {
+          "options": ["easy",
+            
             "easier",
-            "easy",
             "easily"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "options": [

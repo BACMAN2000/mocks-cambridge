@@ -25,12 +25,12 @@
             "header": "From: Leon → To: Grandma",
             "text": "Hi Grandma, I can't come to your house at three as planned — my bus is running late. I should arrive by four instead. Please don't start cooking until I text you. See you soon!",
             "stem": "Why has Leon sent this message?",
-            "options": [
+            "options": ["To tell his grandma he will be late.",
+              
               "To say he will not visit today.",
-              "To tell his grandma he will be late.",
               "To ask his grandma to cook earlier."
             ],
-            "answer": 1
+            "answer": 0
           },
           {
             "kind": "email",
@@ -65,22 +65,22 @@
             "stem": "What must drivers do?",
             "options": [
               "Pay when they arrive at the car park.",
-              "Pay before going back to their car.",
               "Show their ticket at the exit gate."
-            ],
-            "answer": 1
+            ,
+              "Pay before going back to their car."],
+            "answer": 2
           },
           {
             "kind": "notice",
             "header": "Community Recycling Centre",
             "text": "GLASS AND PAPER ONLY IN THESE BINS. PLEASE TAKE GARDEN WASTE TO THE GREEN AREA AT THE BACK.",
             "stem": "What does this notice tell visitors?",
-            "options": [
+            "options": ["Garden waste must be left somewhere else.",
+              
               "All types of rubbish go in these bins.",
-              "Garden waste must be left somewhere else.",
               "Glass is not allowed at this centre."
             ],
-            "answer": 1
+            "answer": 0
           }
         ]
       },
@@ -156,39 +156,39 @@
           },
           {
             "stem": "What problem did Maya have at first?",
-            "options": [
+            "options": ["She could not connect the sensor to her computer.",
+              
               "She could not afford any equipment.",
-              "She could not connect the sensor to her computer.",
               "She could not find anywhere to put the station."
             ],
-            "answer": 1
+            "answer": 0
           },
           {
             "stem": "What surprised Maya about her measurements?",
-            "options": [
+            "options": ["It rained more than the forecasts said.",
+              
               "Her garden was colder than the city figures.",
-              "It rained more than the forecasts said.",
               "The wind was much stronger than expected."
             ],
-            "answer": 0
+            "answer": 1
           },
           {
             "stem": "How do Maya's neighbours use her information?",
             "options": [
               "To decide when to water their plants.",
-              "To know when frost might harm their plants.",
               "To plan when to cut the grass."
-            ],
-            "answer": 1
+            ,
+              "To know when frost might harm their plants."],
+            "answer": 2
           },
           {
             "stem": "What does Maya hope to do in the future?",
             "options": [
               "Sell weather equipment online.",
-              "Become a weather scientist.",
               "Teach science at her school."
-            ],
-            "answer": 1
+            ,
+              "Become a weather scientist."],
+            "answer": 2
           }
         ]
       },
@@ -200,20 +200,20 @@
         "body": "Chocolate comes from the seeds of the cacao tree, which (19)____ in hot, wet countries near the equator. People in Central America were the first to (20)____ it, more than three thousand years ago. At that time, chocolate was not sweet at all; instead, it was a bitter drink. It only (21)____ popular in Europe much later, after explorers brought the seeds back across the sea. For a long time, chocolate was so expensive that (22)____ rich people could afford it. Today, factories produce huge (23)____ of chocolate every year, and it is enjoyed almost (24)____ in the world.",
         "questions": [
           {
-            "options": [
+            "options": ["lives",
+              
               "grows",
-              "lives",
               "stays"
             ],
-            "answer": 0
+            "answer": 1
           },
           {
-            "options": [
+            "options": ["use",
+              
               "cook",
-              "use",
               "do"
             ],
-            "answer": 1
+            "answer": 0
           },
           {
             "options": [
@@ -333,12 +333,12 @@
             "header": "Town Museum — Café",
             "text": "THE CAFÉ IS NOW OPEN ON THE FIRST FLOOR. ENTRY TO THE MUSEUM IS FREE, BUT THE SPECIAL DINOSAUR EXHIBITION COSTS £5.",
             "stem": "What does the notice tell visitors?",
-            "options": [
+            "options": ["There is a charge for one special exhibition.",
+              
               "Everyone must pay to enter the museum.",
-              "There is a charge for one special exhibition.",
               "The café is closed at the moment."
             ],
-            "answer": 1
+            "answer": 0
           },
           {
             "kind": "message",
@@ -361,10 +361,10 @@
             "stem": "Why has City Bikes sent this email?",
             "options": [
               "To tell members the price has gone up.",
-              "To remind members to update their app.",
               "To say the bikes will no longer be available."
-            ],
-            "answer": 1
+            ,
+              "To remind members to update their app."],
+            "answer": 2
           },
           {
             "kind": "note",
@@ -383,12 +383,12 @@
             "header": "National Park — Lake Path",
             "text": "DO NOT FEED THE BIRDS. BREAD MAKES THEM ILL. YOU MAY TAKE PHOTOGRAPHS, BUT PLEASE STAY BEHIND THE FENCE.",
             "stem": "What does the sign ask visitors not to do?",
-            "options": [
+            "options": ["Give food to the birds.",
+              
               "Take photographs of the birds.",
-              "Give food to the birds.",
               "Walk along the lake path."
             ],
-            "answer": 1
+            "answer": 0
           },
           {
             "kind": "notice",
@@ -397,10 +397,10 @@
             "stem": "What is new at the library?",
             "options": [
               "Students can keep books for longer.",
-              "Students can take out more books than before.",
               "Students must pay to borrow books."
-            ],
-            "answer": 1
+            ,
+              "Students can take out more books than before."],
+            "answer": 2
           }
         ]
       },
@@ -467,30 +467,30 @@
         "questions": [
           {
             "stem": "What is special about Bruno?",
-            "options": [
+            "options": ["He can find people buried in the snow.",
+              
               "He can fly in the rescue helicopter.",
-              "He can find people buried in the snow.",
               "He is the largest dog on the team."
             ],
-            "answer": 1
+            "answer": 0
           },
           {
             "stem": "What problem did Bruno have when he was young?",
-            "options": [
+            "options": ["He did not like the cold.",
+              
               "He was afraid of the helicopter's noise.",
-              "He did not like the cold.",
               "He could not run fast enough."
             ],
-            "answer": 0
+            "answer": 1
           },
           {
             "stem": "How did Paolo help Bruno improve?",
             "options": [
               "He took Bruno to a special school.",
-              "He rewarded Bruno for being brave.",
               "He let other dogs train with Bruno."
-            ],
-            "answer": 1
+            ,
+              "He rewarded Bruno for being brave."],
+            "answer": 2
           },
           {
             "stem": "Why was the rescue last winter difficult?",
@@ -503,12 +503,12 @@
           },
           {
             "stem": "What does Paolo think is most important?",
-            "options": [
-              "That Bruno is famous in the town.",
+            "options": ["That Bruno helps to save lives."
+            ,
               "That children enjoy meeting Bruno.",
-              "That Bruno helps to save lives."
-            ],
-            "answer": 2
+              
+              "That Bruno is famous in the town."],
+            "answer": 0
           }
         ]
       },
@@ -520,20 +520,20 @@
         "body": "Tea is one of the most popular drinks in the world, but few people know how it was first (19)____ . According to an old story, a Chinese emperor was boiling water when some leaves from a nearby bush (20)____ into his pot by accident. He decided to taste the drink and (21)____ that he liked it very much. For hundreds of years, tea remained a drink that (22)____ people in Asia knew about. Later, traders carried it to Europe, where it quickly became (23)____ . Today, people grow tea in many warm countries, and millions of cups are (24)____ every single day.",
         "questions": [
           {
-            "options": [
-              "discovered",
+            "options": ["built"
+            ,
               "invented",
-              "built"
-            ],
-            "answer": 0
+              
+              "discovered"],
+            "answer": 2
           },
           {
-            "options": [
+            "options": ["fell",
+              
               "dropped",
-              "fell",
               "put"
             ],
-            "answer": 1
+            "answer": 0
           },
           {
             "options": [
@@ -544,12 +544,12 @@
             "answer": 2
           },
           {
-            "options": [
+            "options": ["just",
+              
               "only",
-              "just",
               "alone"
             ],
-            "answer": 0
+            "answer": 1
           },
           {
             "options": [

@@ -12,12 +12,12 @@
           "header": "The Corner Restaurant",
           "text": "OUR KITCHEN CLOSES AT 9 P.M., BUT YOU CAN STILL ORDER DRINKS AND DESSERTS UNTIL 10 P.M.",
           "stem": "What does the notice tell customers?",
-          "options": [
+          "options": ["You can order sweets after the kitchen closes.",
+            
             "The restaurant closes completely at 9 p.m.",
-            "You can order sweets after the kitchen closes.",
             "No drinks are served after 9 p.m."
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "kind": "message",
@@ -40,46 +40,46 @@
           "stem": "What must students bring to the class?",
           "options": [
             "All the ingredients for the bread.",
-            "An apron and a container.",
             "Their own small oven."
-          ],
-          "answer": 1
+          ,
+            "An apron and a container."],
+          "answer": 2
         },
         {
           "kind": "note",
           "header": "Note from Grandma",
           "text": "Sam — I've made soup for your lunch. It's in the blue pot. Please heat it slowly and don't let it boil, or it won't taste as nice. — Grandma",
           "stem": "What does Grandma tell Sam about the soup?",
-          "options": [
+          "options": ["He must eat it cold.",
+            
             "He should not let it boil.",
-            "He must eat it cold.",
             "He needs to add more water."
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "kind": "sign",
           "header": "Bluebird Café",
           "text": "PLEASE ORDER AND PAY AT THE COUNTER. WE WILL BRING YOUR FOOD TO YOUR TABLE.",
           "stem": "What should customers do?",
-          "options": [
+          "options": ["Order and pay at the counter.",
+            
             "Wait at their table to order.",
-            "Order and pay at the counter.",
             "Collect their food themselves."
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "kind": "notice",
           "header": "Old Town Market",
           "text": "FRESH FISH IS ONLY SOLD ON FRIDAYS AND SATURDAYS. FRUIT AND VEGETABLES ARE AVAILABLE EVERY DAY.",
           "stem": "What does the notice tell shoppers?",
-          "options": [
+          "options": ["Fish is only available on two days.",
+            
             "Fish is sold every day.",
-            "Fish is only available on two days.",
             "Fruit is sold only at weekends."
           ],
-          "answer": 1
+          "answer": 0
         }
       ]
     },
@@ -167,12 +167,12 @@
         },
         {
           "stem": "What mistake did Nadia make at the start?",
-          "options": [
-            "She gave the plants too much water.",
+          "options": ["She planted the seeds too late."
+          ,
             "She forgot to buy any pots.",
-            "She planted the seeds too late."
-          ],
-          "answer": 0
+            
+            "She gave the plants too much water."],
+          "answer": 2
         },
         {
           "stem": "Why was Nadia's father pleased?",
@@ -187,10 +187,10 @@
           "stem": "What does Nadia do for her neighbours?",
           "options": [
             "She cooks meals for them.",
-            "She helps them grow food on their balconies.",
             "She sells them plants."
-          ],
-          "answer": 1
+          ,
+            "She helps them grow food on their balconies."],
+          "answer": 2
         },
         {
           "stem": "What does Nadia hope for in the future?",
@@ -227,12 +227,12 @@
           "answer": 1
         },
         {
-          "options": [
-            "used",
+          "options": ["taken"
+          ,
             "eaten",
-            "taken"
-          ],
-          "answer": 0
+            
+            "used"],
+          "answer": 2
         },
         {
           "options": [
@@ -243,20 +243,20 @@
           "answer": 1
         },
         {
-          "options": [
-            "thing",
+          "options": ["job"
+          ,
             "help",
-            "job"
-          ],
-          "answer": 2
+            
+            "thing"],
+          "answer": 0
         },
         {
-          "options": [
-            "fewer",
+          "options": ["lower"
+          ,
             "less",
-            "lower"
-          ],
-          "answer": 0
+            
+            "fewer"],
+          "answer": 2
         }
       ]
     },

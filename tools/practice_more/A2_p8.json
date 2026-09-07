@@ -14,10 +14,10 @@
           "stem": "What does the notice warn visitors about?",
           "options": [
             "The plants are not real.",
-            "Some plants can hurt your skin.",
             "The garden is closed today."
-          ],
-          "answer": 1
+          ,
+            "Some plants can hurt your skin."],
+          "answer": 2
         },
         {
           "kind": "message",
@@ -40,22 +40,22 @@
           "stem": "What are members NOT allowed to do?",
           "options": [
             "Take photographs of flowers.",
-            "Pick the wild flowers.",
             "Wear strong shoes."
-          ],
-          "answer": 1
+          ,
+            "Pick the wild flowers."],
+          "answer": 2
         },
         {
           "kind": "note",
           "header": "Note for Dad",
           "text": "Dad — the cat hasn't eaten her food today and seems very quiet. I think we should take her to the vet. Can you call them when you get home? — Mia",
           "stem": "What does Mia want Dad to do?",
-          "options": [
+          "options": ["Phone the vet.",
+            
             "Feed the cat more food.",
-            "Phone the vet.",
             "Take the cat outside."
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "kind": "sign",
@@ -74,12 +74,12 @@
           "header": "Sandy Cove Beach",
           "text": "PLEASE TAKE YOUR RUBBISH HOME WITH YOU. RUBBISH ON THE BEACH CAN HARM SEA ANIMALS.",
           "stem": "Why does the notice ask people to take their rubbish home?",
-          "options": [
+          "options": ["Rubbish can harm sea animals.",
+            
             "The bins are full.",
-            "Rubbish can harm sea animals.",
             "The beach is closing soon."
           ],
-          "answer": 1
+          "answer": 0
         }
       ]
     },
@@ -160,10 +160,10 @@
           "stem": "Why did Hannah want to plant trees?",
           "options": [
             "Her school gave her the task.",
-            "Her street had no trees.",
             "She wanted to sell the fruit."
-          ],
-          "answer": 1
+          ,
+            "Her street had no trees."],
+          "answer": 2
         },
         {
           "stem": "What did Hannah do first?",
@@ -176,30 +176,30 @@
         },
         {
           "stem": "How did Hannah feel while she waited for an answer?",
-          "options": [
-            "She thought they had forgotten her.",
+          "options": ["She decided to give up completely."
+          ,
             "She was sure they would say yes.",
-            "She decided to give up completely."
-          ],
-          "answer": 0
+            
+            "She thought they had forgotten her."],
+          "answer": 2
         },
         {
           "stem": "What was the tree-planting day like?",
-          "options": [
+          "options": ["Hard work but happy.",
+            
             "Easy and quick.",
-            "Hard work but happy.",
             "Sunny and warm."
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "stem": "What is Hannah doing now?",
-          "options": [
+          "options": ["Cutting down the old trees.",
+            
             "Helping other streets to plant trees.",
-            "Cutting down the old trees.",
             "Studying trees at university."
           ],
-          "answer": 0
+          "answer": 1
         }
       ]
     },
@@ -219,12 +219,12 @@
           "answer": 0
         },
         {
-          "options": [
+          "options": ["for",
+            
             "by",
-            "for",
             "as"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "options": [
@@ -235,28 +235,28 @@
           "answer": 1
         },
         {
-          "options": [
+          "options": ["away",
+            
             "off",
-            "away",
             "out"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "options": [
             "which",
-            "where",
             "when"
-          ],
-          "answer": 1
+          ,
+            "where"],
+          "answer": 2
         },
         {
-          "options": [
+          "options": ["are",
+            
             "will",
-            "are",
             "do"
           ],
-          "answer": 0
+          "answer": 1
         }
       ]
     },
