@@ -42945,16 +42945,29 @@ function motivational(firstName, pct, level){
 /* ---- Send result to Apps Script (optional). Returns a Promise. ---- */
 async function sendResultToWebhook(payload){
   if(!CONFIG.webhookUrl) return {skipped:true};
+  /* En modo cors se puede leer lo que responde el script; en no-cors la
+     respuesta era opaca y un fallo del servidor pasaba por exito. El helper
+     reintenta a ciegas si CORS fallara, y entonces avisa de que el envio no
+     se pudo confirmar. */
+  if (typeof enviaWebhook === 'function') {
+    const r = await enviaWebhook(CONFIG.webhookUrl, payload);
+    if (r.ok) return {sent:true, sinConfirmar: !!r.sinConfirmar};
+    return {sent:false, error: r.motivo};
+  }
+  const cab = {'Content-Type': 'text/plain;charset=utf-8'};
+  const cuerpo = JSON.stringify(payload);
   try {
-    await fetch(CONFIG.webhookUrl, {
-      method: 'POST',
-      mode: 'no-cors',
-      headers: {'Content-Type': 'text/plain;charset=utf-8'},
-      body: JSON.stringify(payload)
-    });
+    const r = await fetch(CONFIG.webhookUrl, {method:'POST', headers:cab, body:cuerpo});
+    if(!r.ok) return {sent:false, error:'el servidor respondio ' + r.status};
+    let j = null;
+    try { j = JSON.parse(await r.text()); } catch(_) {}
+    if(j && j.ok === false) return {sent:false, error: j.error || 'el servidor lo rechazo'};
     return {sent:true};
   } catch(err){
-    return {sent:false, error: err.message};
+    /* Sin reintento en no-cors: resuelve siempre, asi que daria por enviado lo
+       que no salio, y si el fallo fue de CORS el POST ya llego y se mandaria
+       dos veces. */
+    return {sent:false, error:'no se pudo contactar con el servidor'};
   }
 }
 
@@ -44292,7 +44305,9 @@ const render = {
       } else if(res.sent){
         st.style.display = 'block';
         st.classList.remove('err');
-        st.textContent = '✓ Result sent. Check your email shortly for your PDF report.';
+        st.textContent = res.sinConfirmar
+          ? '✓ Result sent, but we could not confirm it. Download the PDF just in case.'
+          : '✓ Result sent. Check your email shortly for your PDF report.';
       } else {
         st.style.display = 'block';
         st.classList.add('err');

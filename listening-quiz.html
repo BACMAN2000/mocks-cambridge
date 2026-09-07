@@ -32443,14 +32443,27 @@ async function onSubmit(){
                 payload.score + '/' + payload.total);
 }
 
-/* POST result to the Apps Script (no-cors). The script saves it to the Sheet and
-   emails the teacher AND the student. Returns a promise (resolves even on no-cors). */
+/* POST del resultado al Apps Script, que lo escribe en la hoja y manda los
+   correos. Iba en no-cors, con la respuesta opaca: un fallo del script pasaba
+   por exito. Ahora se lee lo que contesta ({ok:true} o {ok:false,error}); si
+   CORS fallara se reintenta a ciegas y se marca sinConfirmar. */
 function sendResultToWebhook(payload){
   if(!CONFIG.APPS_SCRIPT_URL || CONFIG.APPS_SCRIPT_URL.startsWith("PEGA_AQUI")) return Promise.resolve({skipped:true});
-  return fetch(CONFIG.APPS_SCRIPT_URL, {
-    method:"POST", mode:"no-cors", headers:{"Content-Type":"text/plain;charset=utf-8"},
-    body: JSON.stringify(payload)
-  }).then(()=>({ok:true})).catch(()=>({ok:false}));
+  if(typeof enviaWebhook === 'function'){
+    return enviaWebhook(CONFIG.APPS_SCRIPT_URL, payload)
+      .then(r => ({ok:r.ok, motivo:r.motivo, sinConfirmar:!!r.sinConfirmar}));
+  }
+  const cab = {"Content-Type":"text/plain;charset=utf-8"}, cuerpo = JSON.stringify(payload);
+  return fetch(CONFIG.APPS_SCRIPT_URL, {method:"POST", headers:cab, body:cuerpo})
+    .then(r => r.text().then(t => {
+      let j = null; try { j = JSON.parse(t); } catch(_) {}
+      if(!r.ok) return {ok:false, motivo:'el servidor respondio ' + r.status};
+      if(j && j.ok === false) return {ok:false, motivo: j.error || 'el servidor lo rechazo'};
+      return {ok:true};
+    }))
+    /* Sin reintento en no-cors: resuelve siempre y daria por enviado lo que no
+       salio; y si el fallo fue de CORS el POST ya llego. */
+    .catch(() => ({ok:false, motivo:'no se pudo contactar con el servidor'}));
 }
 
 function downloadResultPDF(filename){
@@ -32553,12 +32566,16 @@ function viewResult(payload){
   st.style.display='block'; st.textContent='Sending your result…';
   sendResultToWebhook(payload).then(res=>{
     if(res.skipped){ st.classList.add('err'); st.textContent='⚠ No webhook configured — use ⬇ Download PDF.'; }
+    else if(res.ok === false){ st.classList.add('err'); st.textContent='⚠ Could not send your result — ' + (res.motivo || 'try again') + '. Use ⬇ Download PDF.'; }
+    else if(res.sinConfirmar){ st.classList.remove('err'); st.textContent='✓ Result sent, but we could not confirm it. Download the PDF just in case.'; }
     else { st.classList.remove('err'); st.textContent='✓ Result sent. Check your email shortly for your report.'; }
   });
   document.getElementById('lSendEmail').onclick = async ()=>{
     const b=document.getElementById('lSendEmail'); b.disabled=true; b.textContent='Sending…';
     const res=await sendResultToWebhook(payload); b.disabled=false; b.textContent='📧 Send to my email';
     if(res.skipped){ st.classList.add('err'); st.textContent='⚠ No webhook configured.'; }
+    else if(res.ok === false){ st.classList.add('err'); st.textContent='⚠ Could not send — ' + (res.motivo || 'try again') + '.'; }
+    else if(res.sinConfirmar){ st.classList.remove('err'); st.textContent='✓ Sent, but we could not confirm it. Download the PDF just in case.'; }
     else { st.classList.remove('err'); st.textContent='✓ Sent. Check your email shortly.'; }
   };
 }
