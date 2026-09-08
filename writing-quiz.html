@@ -5625,7 +5625,8 @@ const render={
     window._pdf=()=>{ const el=document.getElementById('pdfTarget'); if(!window.html2pdf){ alert('PDF library still loading, try again in a moment.'); return; }
       html2pdf().set({margin:8,filename:`NIS-Writing-${state.level}-${(state.name||'').replace(/\s+/g,'_')}.pdf`,image:{type:'jpeg',quality:0.95},html2canvas:{scale:2,useCORS:true,scrollY:0},jsPDF:{unit:'mm',format:'a4',orientation:'portrait'},pagebreak:{mode:['css','legacy']}}).from(el).save(); };
     const sb=document.getElementById('sendEmail'); if(sb) sb.onclick=()=>postResult(r,false);
-    // fire-and-forget webhook
+    /* Ya no es fire-and-forget: postResult espera el guardado y avisa si
+       falla. El comentario decia justo lo que habia que arreglar. */
     postResult(r,true);
   }
 };
