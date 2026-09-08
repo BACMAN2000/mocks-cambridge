@@ -5658,8 +5658,13 @@ function postResult(r,silent){
   if(!silent&&st){st.style.display='block';st.textContent='Sending…';}
   // Writing is NOT auto-graded: store/send with no score — the teacher grades it.
   /* Se espera al guardado y se avisa; antes un fallo pasaba callado. */
-  if(!silent) guardaIntento({skill:'Writing', level:state.level, examType:state.examType, score:null, total:null, percent:null, answers:(r&&r.tasks)||null}, 'Your teacher will mark it.');
-  else { try{ if(window.NIS) window.NIS.save({skill:'Writing', level:state.level, examType:state.examType, score:null, total:null, percent:null, answers:(r&&r.tasks)||null}); }catch(e){} }
+  /* Las dos ramas guardan igual. La automatica --la que corre siempre al
+     llegar al resultado-- lanzaba NIS.save() sin esperar y dentro de un
+     try/catch vacio: si fallaba, el alumno se quedaba con su texto escrito,
+     sin entregar y sin que nada se lo dijera. Es el mismo fallo que se
+     corrigio el 6-sep-2026 en Reading y Listening; este archivo se quedo
+     fuera de aquella pasada. */
+  guardaIntento({skill:'Writing', level:state.level, examType:state.examType, score:null, total:null, percent:null, answers:(r&&r.tasks)||null}, 'Your teacher will mark it.');
   if(!CONFIG.webhookUrl){ if(st&&!silent){st.textContent='⚠ No webhook configured — use Download PDF.';} return; }
   const payload={timestamp:new Date().toISOString(),name:state.name,firstName:(state.name||'').split(' ')[0],email:state.email,grade:state.grade,
     skill:'Writing',level:state.level,levelName:LEVEL_NAMES[state.level]||'',examTitle:exam().title,
@@ -5667,9 +5672,26 @@ function postResult(r,silent){
     tabSwitches:state._tabSwitches||0,
     translateHits:state._translateHits||0,
     teacherEmail:CONFIG.teacherEmail,schoolName:CONFIG.schoolName};
-  fetch(CONFIG.webhookUrl,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(payload)})
-    .then(()=>{if(st&&!silent){st.textContent='✓ Sent. Your teacher has received your report.';}})
-    .catch(()=>{if(st&&!silent){st.textContent='⚠ Could not send. Use Download PDF instead.';}});
+  /* Iba en no-cors: la respuesta es opaca, asi que el «✓ Sent» se escribia
+     igual cuando el script del servidor habia rechazado la entrega. Ahora se
+     lee lo que contesta. Mismo camino que Reading y Listening. */
+  const pon = t => { if(st && !silent) st.textContent = t; };
+  if (typeof enviaWebhook === 'function') {
+    enviaWebhook(CONFIG.webhookUrl, payload).then(res => {
+      if (res.ok) pon(res.sinConfirmar
+        ? '✓ Sent, but we could not confirm it. Keep the PDF just in case.'
+        : '✓ Sent. Your teacher has received your report.');
+      else pon('⚠ Could not send (' + (res.motivo || 'unknown error') + '). Use Download PDF instead.');
+    });
+    return;
+  }
+  /* Sin reintento en no-cors: resuelve siempre, asi que daria por enviado lo
+     que no salio, y si el fallo fue de CORS el POST ya llego y se mandaria
+     dos veces. */
+  fetch(CONFIG.webhookUrl,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(payload)})
+    .then(res => pon(res.ok ? '✓ Sent. Your teacher has received your report.'
+                            : '⚠ The server answered ' + res.status + '. Use Download PDF instead.'))
+    .catch(()=> pon('⚠ Could not send. Use Download PDF instead.'));
 }
 
 /* ============================================================
