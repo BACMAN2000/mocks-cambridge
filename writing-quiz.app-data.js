@@ -1,0 +1,5697 @@
+/* Marca y datos del sitio (17-sep-2026): cada web define window.MOCKS_SITE
+   ANTES de cargar este archivo (nis: config.js · cohasset: coh-bridge.js).
+   Así este archivo es idéntico en las tres copias del motor y se sincroniza
+   copiándolo, sin transformaciones. Ver tools/mocks/sincroniza.py. */
+var MSITE = Object.assign({
+  teacherEmail: '', schoolName: '', classLabel: 'English 2026', portalName: 'the Portal',
+  logo: '', logoAlt: '', emailExample: 'name.surname@school.edu',
+  accent: '#4987c6', accent2: '#2d5a8d', webhookUrl: ''
+}, window.MOCKS_SITE || {});
+const CONFIG = {
+  webhookUrl: 'https://script.google.com/macros/s/AKfycbzwn09Be0ZfKxGpwgkjLdp7nIs7awq8h7SVKkMlWN4EjekkOFqpLmnChzGHN_bB6kN-/exec',
+  teacherEmail: MSITE.teacherEmail,
+  schoolName: MSITE.schoolName
+};
+const LEVEL_NAMES = { B1:'Preliminary (PET)', B2:'First (FCE)', C1:'Advanced (CAE)' };
+
+/* ================= WRITING TASKS (B1 · B2 · C1) ================= */
+const WRITING = {
+  B1:{
+    title:'B1 Preliminary — Writing (MOCK 1)', durationMin:45,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in about 100 words.',
+        tasks:[{
+          type:'email', minWords:100,
+          lead:'Read this email from your English teacher, Mr Reed, and the notes you have made.',
+          stimulus:{head:'EMAIL', title:'', body:'From: Mr Reed\nSubject: Class visit to the Science Museum\n\nDear Class,\n\nOur class is going to visit the new Science Museum next month. There are two special activities: a space show or a robotics workshop. Which would you prefer, and why?\n\nWe also need a few students to help organise the trip. Could you help?\n\nMr Reed'},
+          bullets:['say which activity you prefer (space show or robotics) and why','offer to help Mr Reed organise the trip','suggest what the class should bring','ask one question about the visit'],
+          write:'Write your email to Mr Reed.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in about 100 words.',
+        tasks:[
+          { type:'article', q:2, minWords:100, lead:'You see this announcement in your school English-language magazine.',
+            stimulus:{title:'A PLACE EVERY VISITOR SHOULD SEE', body:'If a visitor came to your town for just one day, where would you take them? Write an article describing the place and explaining why it is special. The best articles will be published next month.'},
+            bullets:['the place you would take a visitor','why it is special','what the visitor could do there'], write:'Write your article.' },
+          { type:'story', q:3, minWords:100, lead:'Your English teacher has asked you to write a story.', startSentence:'When the lights suddenly went out, Sara knew exactly what to do.',
+            stimulus:{title:'', body:'Your story must begin with this sentence:\n\nWhen the lights suddenly went out, Sara knew exactly what to do.'},
+            bullets:[], write:'Write your story.' }
+        ]
+      }
+    ]
+  },
+  B2:{
+    title:'B2 First — Writing (MOCK 1)', durationMin:80,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write 140-190 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:140, maxWords:190,
+          lead:'In your English class you have been talking about education. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.',
+          stimulus:{body:'"Schools should teach practical life skills as well as academic subjects. Do you agree?"\n\nNotes\n\nWrite about:\n1. managing money\n2. cooking and health\n3. ............... (your own idea)'},
+          bullets:['managing money','cooking and health','your own idea','give reasons for your point of view'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write 140-190 words in an appropriate style.',
+        tasks:[
+          { type:'review', q:2, minWords:140, maxWords:190, lead:'You see this announcement on an English-language website about apps.',
+            stimulus:{title:'App reviews wanted', body:'Have you used an app that genuinely changed a daily habit of yours? Write a review describing the app, explaining how it changed your habit, and saying whether you would recommend it to other students. The best reviews will be published.'},
+            bullets:['describe the app','how it changed a habit of yours','whether you recommend it'], write:'Write your review.' },
+          { type:'report', q:3, minWords:140, maxWords:190, lead:'Your school director has asked you to write a report about the school library.',
+            stimulus:{title:'Report: improving the school library', body:'Describe how students currently use the library, suggest two improvements that would make it more useful, and explain which improvement should come first.'},
+            bullets:['how students use the library now','two improvements','which should come first, and why'], write:'Write your report.' },
+          { type:'email', q:4, minWords:140, maxWords:190, lead:'You have received this email from your English-speaking friend Robin.',
+            stimulus:{body:'From: Robin\nSubject: Learning your language\n\nI have decided to learn your language before I visit you next year! The problem is I do not know how to start. Could you tell me the best way to begin, and which mistakes I should try to avoid? And how long do you think it will take me to manage a simple conversation?\nThanks,\nRobin'},
+            bullets:['the best way to begin','mistakes to avoid','how long it might take'], write:'Write your email.' }
+        ]
+      }
+    ]
+  },
+  C1:{
+    title:'C1 Advanced — Writing (MOCK 1)', durationMin:90,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in 220-260 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:220, maxWords:260,
+          lead:'Your class has taken part in a seminar about how a school could reduce its impact on the environment. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would have the greatest impact, giving reasons to support your opinion.',
+          stimulus:{title:'How could a school reduce its impact on the environment?', body:'• cutting energy use in buildings\n• reducing food waste in the canteen\n• encouraging students to travel sustainably\n\nSome opinions expressed in the seminar:\n"Heating an old building wastes a fortune."\n"So much canteen food simply goes in the bin."\n"If it is not easy and cheap, students will still come by car."'},
+          bullets:['discuss two of the ideas','explain which would have the greatest impact','give reasons to support your opinion'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in 220-260 words in an appropriate style.',
+        tasks:[
+          { type:'proposal', q:2, minWords:220, maxWords:260, lead:'The committee of your local sports centre has invited proposals from members.',
+            stimulus:{title:'Proposal: making the sports centre more welcoming', body:'Write a proposal suggesting how the sports centre could attract more teenagers. Describe the current situation, recommend two specific changes, and explain how these changes would benefit both the teenagers and the centre.'},
+            bullets:['the current situation','two specific changes','the benefits for teenagers and the centre'], write:'Write your proposal.' },
+          { type:'review', q:3, minWords:220, maxWords:260, lead:'An online magazine has invited reviews of documentaries.',
+            stimulus:{title:'Documentary reviews wanted', body:'Send us a review of a documentary that taught you something you did not expect. Describe the documentary, explain what surprised you, and assess how successfully it presented its subject to a general audience.'},
+            bullets:['describe the documentary','what surprised you','how well it presented its subject'], write:'Write your review.' },
+          { type:'letter', q:4, minWords:220, maxWords:260, lead:'You have received this letter from an English-speaking friend, Sam.',
+            stimulus:{body:'I have been offered the chance to spend a year studying in your country, but I cannot decide whether to take it. Part of me is excited, but part of me is worried about being so far from home.\n\nYou know me well, so I would really value your honest advice: should I go? And what should I do to prepare?\n\nBest wishes,\nSam'},
+            bullets:['your honest advice on whether to go','reasons for your advice','how Sam could prepare'], write:'Write your letter in reply.' }
+        ]
+      }
+    ]
+  }
+};
+
+/* ================= WRITING — MOCK 2 (fresh, harder prompts) ================= */
+const WRITING2 = {
+  B1:{
+    title:'B1 Preliminary — Writing (MOCK 2)', durationMin:45,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in about 100 words.',
+        tasks:[{
+          type:'email', minWords:100,
+          lead:'Read this email from your English-speaking friend Sam and the notes you have made.',
+          stimulus:{head:'EMAIL', title:'', body:'From: Sam\nSubject: Visiting your town\n\nHi!\n\nGreat news — I’m coming to your town for a few days next month! I’ve never been before and I’m really excited.\n\nWhere should I stay, do you think? And what’s the one place I really shouldn’t miss?\n\nIs there anything I should bring for the weather at that time of year?\n\nSam'},
+          bullets:['recommend where Sam should stay and why','say which one place Sam shouldn’t miss','tell Sam what to bring for the weather','ask Sam one question about the visit'],
+          write:'Write your email to Sam.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in about 100 words.',
+        tasks:[
+          { type:'article', q:2, minWords:100, lead:'You see this announcement in your school’s English-language magazine.',
+            stimulus:{title:'THE BEST WAY TO LEARN SOMETHING NEW', body:'How do you prefer to learn a new skill — from a teacher, from friends, or on your own with the internet?\n\nWrite an article telling us how you like to learn and why. The best articles will be published next month.'},
+            bullets:['how you prefer to learn new things','why this way works well for you','an example of something you learned this way'], write:'Write your article.' },
+          { type:'story', q:3, minWords:100, lead:'Your English teacher has asked you to write a story.', startSentence:'As soon as Daniel opened the door, he knew something was different.',
+            stimulus:{title:'', body:'Your story must begin with this sentence:\n\nAs soon as Daniel opened the door, he knew something was different.'},
+            bullets:[], write:'Write your story.' }
+        ]
+      }
+    ]
+  },
+  B2:{
+    title:'B2 First — Writing (MOCK 2)', durationMin:80,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write 140–190 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:140, maxWords:190,
+          lead:'In your English class you have been talking about technology and free time. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.',
+          stimulus:{body:'“Young people today spend too much of their free time looking at screens. Is this really a problem?”\n\nNotes\n\nWrite about:\n1. health\n2. friendships\n3. ............... (your own idea)'},
+          bullets:['health','friendships','your own idea','give reasons for your point of view'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write 140–190 words in an appropriate style.',
+        tasks:[
+          { type:'review', q:2, minWords:140, maxWords:190, lead:'You see this announcement on a travel website.',
+            stimulus:{title:'Tell us about a disappointment', body:'Write a review of a place you had high expectations of but which let you down. Describe the place, explain why it fell short of what you expected, and say whether you would still recommend it to certain kinds of traveller.\n\nThe best reviews will appear on our site.'},
+            bullets:['describe the place and what you expected','explain why it disappointed you','say whether you would still recommend it, and to whom'], write:'Write your review.' },
+          { type:'report', q:3, minWords:140, maxWords:190, lead:'Your college principal has asked you to write a report about the college canteen.',
+            stimulus:{title:'Report: the college canteen', body:'Describe the main problems students have with the canteen at the moment, evaluate two possible improvements, and make a recommendation. Remember to consider both the cost and what students actually want.'},
+            bullets:['the main problems with the canteen now','two possible improvements','your recommendation, with reasons'], write:'Write your report.' },
+          { type:'article', q:4, minWords:140, maxWords:190, lead:'You see this announcement in a magazine for teenagers.',
+            stimulus:{title:'Can social media ever be a good thing?', body:'Lots of people complain about social media. But can spending time on it ever be good for you? Write an article arguing that it can — as long as certain conditions are met. We will publish the most convincing articles.'},
+            bullets:['ways social media can be good for you','the conditions that make it positive','a final opinion'], write:'Write your article.' }
+        ]
+      }
+    ]
+  },
+  C1:{
+    title:'C1 Advanced — Writing (MOCK 2)', durationMin:90,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in 220–260 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:220, maxWords:260,
+          lead:'Your class has listened to a discussion about how a town could encourage more young people to read for pleasure. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would be more effective, giving reasons to support your opinion.',
+          stimulus:{title:'How could a town encourage young people to read for pleasure?', body:'• better-funded public libraries\n• reading events with popular authors\n• free e-books for students\n\nSome opinions expressed in the discussion:\n“Teenagers won’t go to a library that feels old-fashioned.”\n“Meeting a real author can change how you feel about books.”\n“Everyone already has a phone — put the books on it.”'},
+          bullets:['discuss two of the ideas','explain which would be more effective','give reasons to support your opinion'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in 220–260 words in an appropriate style.',
+        tasks:[
+          { type:'proposal', q:2, minWords:220, maxWords:260, lead:'Your city council has some unused funds and has invited proposals from residents.',
+            stimulus:{title:'Proposal: a community arts hub', body:'Write a proposal arguing that a derelict building in your area should be turned into a community arts hub. Outline the benefits for the community, anticipate one likely objection to the plan, and explain how that objection could be overcome.'},
+            bullets:['the benefits of the arts hub','one likely objection','how the objection could be overcome'], write:'Write your proposal.' },
+          { type:'review', q:3, minWords:220, maxWords:260, lead:'An English-language student journal has invited reviews of influential non-fiction books.',
+            stimulus:{title:'A book that changed how you think', body:'Review a non-fiction book that changed the way you think about a topic. Assess not only its strengths but also the parts of its argument you found least convincing, and say who would benefit most from reading it.'},
+            bullets:['the book and how it changed your thinking','its strengths and its weakest points','who would benefit most from reading it'], write:'Write your review.' },
+          { type:'report', q:4, minWords:220, maxWords:260, lead:'Your employer is considering moving permanently to remote working and has asked staff for reports.',
+            stimulus:{title:'Report: remote working', body:'Write a report assessing the likely impact of permanent remote working on both productivity and team cohesion, drawing on what you have observed, and recommend a hybrid model with clear conditions.'},
+            bullets:['impact on productivity','impact on team cohesion','your recommended hybrid model, with conditions'], write:'Write your report.' }
+        ]
+      }
+    ]
+  }
+};
+
+/* ================= WRITING — PRACTICE (warm-up, same format) ================= */
+const WRITING3 = {
+  B1:{
+    title:'B1 Preliminary — Writing (Practice)', durationMin:45,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in about 100 words.',
+        tasks:[{
+          type:'email', minWords:100,
+          lead:'Read this email from your English teacher, Ms Allen, and the notes you have made.',
+          stimulus:{head:'EMAIL', title:'', body:'From: Ms Allen\nSubject: Class trip to the zoo\n\nHi everyone,\n\nWe are planning a class trip to the city zoo next Friday. Would you prefer to go in the morning or the afternoon?\n\nWhat should everyone bring with them? And could you help me check the tickets?\n\nMs Allen'},
+          bullets:['say whether you prefer morning or afternoon and why','suggest what everyone should bring','offer to help with the tickets','ask one question about the trip'],
+          write:'Write your email to Ms Allen.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in about 100 words.',
+        tasks:[
+          { type:'article', q:2, minWords:100, lead:'You see this announcement in your school English-language magazine.',
+            stimulus:{title:'MY FAVOURITE HOBBY', body:'Tell us about a hobby you really enjoy: what it is, how you started it, and why you like it. The best articles will be published.'},
+            bullets:['what your hobby is','how you started it','why you enjoy it'], write:'Write your article.' },
+          { type:'story', q:3, minWords:100, lead:'Your English teacher has asked you to write a story.', startSentence:'It was the best day of the whole holiday.',
+            stimulus:{title:'', body:'Your story must begin with this sentence:\n\nIt was the best day of the whole holiday.'},
+            bullets:[], write:'Write your story.' }
+        ]
+      }
+    ]
+  },
+  B2:{
+    title:'B2 First — Writing (Practice)', durationMin:80,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write 140-190 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:140, maxWords:190,
+          lead:'In your English class you have been talking about where people live. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.',
+          stimulus:{body:'"Is it better to live in a city or in the countryside?"\n\nNotes\n\nWrite about:\n1. jobs and study\n2. free time\n3. ............... (your own idea)'},
+          bullets:['jobs and study','free time','your own idea','give reasons for your point of view'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write 140-190 words in an appropriate style.',
+        tasks:[
+          { type:'review', q:2, minWords:140, maxWords:190, lead:'You see this announcement in a food magazine.',
+            stimulus:{title:'Restaurant reviews wanted', body:'Write a review of a restaurant or café you have visited recently. Describe the food and the atmosphere, and say whether you would recommend it.'},
+            bullets:['describe the food','describe the atmosphere','whether you recommend it'], write:'Write your review.' },
+          { type:'article', q:3, minWords:140, maxWords:190, lead:'You see this announcement on an English-language website.',
+            stimulus:{title:'A person I admire', body:'Tell us about a person you admire. Who are they, what have they done, and why do you admire them? We will publish the best articles.'},
+            bullets:['who the person is','what they have done','why you admire them'], write:'Write your article.' },
+          { type:'email', q:4, minWords:140, maxWords:190, lead:'You have received this email from your English-speaking friend Alex.',
+            stimulus:{body:'From: Alex\nSubject: Your school\n\nI am writing a project about schools in different countries. Could you tell me what a normal school day is like for you, what subjects you enjoy, and what you would change about your school?\nThanks!\nAlex'},
+            bullets:['a normal school day','subjects you enjoy','what you would change'], write:'Write your email.' }
+        ]
+      }
+    ]
+  },
+  C1:{
+    title:'C1 Advanced — Writing (Practice)', durationMin:90,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in 220-260 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:220, maxWords:260,
+          lead:'Your class has discussed how a school could spend a one-off budget to improve student life. You have made the notes below. Write an essay discussing two of the options in your notes. You should explain which would benefit students most, giving reasons to support your opinion.',
+          stimulus:{title:'How should the school spend a one-off budget?', body:'• a better library\n• new sports facilities\n• modern technology in classrooms\n\nSome opinions expressed in the discussion:\n"Students need a calm place to read and study."\n"Sport keeps everyone healthy and motivated."\n"Technology prepares students for the real world."'},
+          bullets:['discuss two of the options','explain which benefits students most','give reasons to support your opinion'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in 220-260 words in an appropriate style.',
+        tasks:[
+          { type:'proposal', q:2, minWords:220, maxWords:260, lead:'Your school is asking students for proposals to improve the cafeteria.',
+            stimulus:{title:'Proposal: improving the cafeteria', body:'Write a proposal suggesting how the school cafeteria could be improved. Describe the current problems, recommend two changes, and explain how they would benefit students.'},
+            bullets:['current problems','two recommended changes','the benefits for students'], write:'Write your proposal.' },
+          { type:'report', q:3, minWords:220, maxWords:260, lead:'The head of school has asked for a report on a club or activity you belong to.',
+            stimulus:{title:'Report: a school club', body:'Write a report describing a club or activity you take part in. Explain what the club does, evaluate how well it is working, and recommend one improvement.'},
+            bullets:['what the club does','how well it is working','one recommended improvement'], write:'Write your report.' },
+          { type:'letter', q:4, minWords:220, maxWords:260, lead:'You have received this letter from an English-speaking friend, Robin.',
+            stimulus:{body:'My family is moving to a new city next month and I am quite nervous about starting at a new school. You have changed schools before, so I would really value your advice: how can I make friends quickly, and how should I prepare?\n\nBest wishes,\nRobin'},
+            bullets:['advice on making friends quickly','how to prepare for a new school','reasons for your advice'], write:'Write your letter in reply.' }
+        ]
+      }
+    ]
+  }
+};
+
+/* ================= WRITING — PRACTICE 2 (warm-up, same format) ================= */
+const WRITING4 = {
+  B1:{
+    title:'B1 Preliminary — Writing (Practice 2)', durationMin:45,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in about 100 words.',
+        tasks:[{
+          type:'email', minWords:100,
+          lead:'Read this email from your English teacher, Mr Davis, and the notes you have made.',
+          stimulus:{head:'EMAIL', title:'', body:'From: Mr Davis\nSubject: Charity book sale\n\nHi everyone,\n\nOur class is going to run a book sale to raise money for charity. Should we hold it during break time or after school?\n\nCould you bring in some books from home? And would you like to help on the day?\n\nMr Davis'},
+          bullets:['say whether you prefer break time or after school and why','tell Mr Davis what books you can bring','offer to help on the day of the sale','ask one question about the book sale'],
+          write:'Write your email to Mr Davis.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in about 100 words.',
+        tasks:[
+          { type:'article', q:2, minWords:100, lead:'You see this announcement in your school English-language magazine.',
+            stimulus:{title:'A MEAL I LOVE', body:'Tell us about a meal you really enjoy eating: what it is, who you usually eat it with, and why it is special to you. The best articles will be published.'},
+            bullets:['what the meal is','who you usually eat it with','why it is special to you'], write:'Write your article.' },
+          { type:'story', q:3, minWords:100, lead:'Your English teacher has asked you to write a story.', startSentence:'Tom looked at the strange box on the doorstep and wondered who had left it.',
+            stimulus:{title:'', body:'Your story must begin with this sentence:\n\nTom looked at the strange box on the doorstep and wondered who had left it.'},
+            bullets:[], write:'Write your story.' }
+        ]
+      }
+    ]
+  },
+  B2:{
+    title:'B2 First — Writing (Practice 2)', durationMin:80,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write 140-190 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:140, maxWords:190,
+          lead:'In your English class you have been talking about travel. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.',
+          stimulus:{body:'"Is it better to travel abroad or to explore your own country?"\n\nNotes\n\nWrite about:\n1. cost\n2. learning about other cultures\n3. ............... (your own idea)'},
+          bullets:['cost','learning about other cultures','your own idea','give reasons for your point of view'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write 140-190 words in an appropriate style.',
+        tasks:[
+          { type:'review', q:2, minWords:140, maxWords:190, lead:'You see this announcement on an English-language website about books.',
+            stimulus:{title:'Book reviews wanted', body:'Write a review of a book you have read recently. Describe what the book is about, explain what you liked and disliked about it, and say what kind of reader would enjoy it.'},
+            bullets:['what the book is about','what you liked and disliked','what kind of reader would enjoy it'], write:'Write your review.' },
+          { type:'article', q:3, minWords:140, maxWords:190, lead:'You see this announcement in a magazine for young people.',
+            stimulus:{title:'A skill worth learning', body:'What is one skill you think every young person should learn? Write an article describing the skill, explaining why it is useful, and suggesting how someone could start learning it. We will publish the best articles.'},
+            bullets:['the skill and what it involves','why it is useful','how someone could start learning it'], write:'Write your article.' },
+          { type:'email', q:4, minWords:140, maxWords:190, lead:'You have received this email from your English-speaking friend Jordan.',
+            stimulus:{body:'From: Jordan\nSubject: Part-time job\n\nI am thinking about getting my first part-time job at the weekends, but I am not sure it is a good idea while I am still studying. What do you think? What kind of job would suit me, and how could I balance it with my schoolwork?\nThanks!\nJordan'},
+            bullets:['whether getting a job is a good idea','what kind of job would suit Jordan','how to balance work and study'], write:'Write your email.' }
+        ]
+      }
+    ]
+  },
+  C1:{
+    title:'C1 Advanced — Writing (Practice 2)', durationMin:90,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in 220-260 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:220, maxWords:260,
+          lead:'Your class has discussed how a city could make daily life healthier for its residents. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would have the greatest effect, giving reasons to support your opinion.',
+          stimulus:{title:'How could a city make daily life healthier?', body:'• creating more parks and green spaces\n• building safe cycle lanes\n• offering free sports classes\n\nSome opinions expressed in the discussion:\n"People relax more when they can see trees and grass."\n"Nobody cycles if they fear the traffic."\n"Free classes only help those who already want to exercise."'},
+          bullets:['discuss two of the ideas','explain which would have the greatest effect','give reasons to support your opinion'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in 220-260 words in an appropriate style.',
+        tasks:[
+          { type:'proposal', q:2, minWords:220, maxWords:260, lead:'Your college principal has invited proposals from students about study spaces.',
+            stimulus:{title:'Proposal: better study spaces', body:'Write a proposal suggesting how the college could provide better places for students to study. Describe the current situation, recommend two specific improvements, and explain how these would help students succeed.'},
+            bullets:['the current situation','two specific improvements','how these would help students succeed'], write:'Write your proposal.' },
+          { type:'review', q:3, minWords:220, maxWords:260, lead:'An online culture magazine has invited reviews of live events.',
+            stimulus:{title:'Live event reviews wanted', body:'Send us a review of a live event you attended — a concert, a play or a sports match. Describe the event, explain what made it memorable, and assess whether it was worth the time and money.'},
+            bullets:['describe the event','what made it memorable','whether it was worth the time and money'], write:'Write your review.' },
+          { type:'letter', q:4, minWords:220, maxWords:260, lead:'You have received this letter from an English-speaking friend, Charlie.',
+            stimulus:{body:'I have been thinking about taking a year off after school before I start university, but my parents are not sure it is a good idea. You always give sensible advice, so I would really like to know what you think: should I take a gap year, and what should I do with the time?\n\nBest wishes,\nCharlie'},
+            bullets:['your honest advice on whether to take a gap year','reasons for your advice','suggestions for how to spend the time'], write:'Write your letter in reply.' }
+        ]
+      }
+    ]
+  }
+};
+
+/* ================= WRITING — PRACTICE 3 (warm-up, same format) ================= */
+const WRITING5 = {
+  B1:{
+    title:'B1 Preliminary — Writing (Practice 3)', durationMin:45,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in about 100 words.',
+        tasks:[{
+          type:'email', minWords:100,
+          lead:'Read this email from your English-speaking friend Robin, and the notes you have made.',
+          stimulus:{head:'EMAIL', title:'', body:'From: Robin\nSubject: My birthday party\n\nHi!\n\nI am having a birthday party next Saturday and I would love you to come! Should I have it at home or in the park, do you think?\n\nWhat sort of food should I get? And could you help me plan some games?\n\nRobin'},
+          bullets:['say whether the party should be at home or in the park and why','suggest what food Robin should get','offer to help plan some games','ask one question about the party'],
+          write:'Write your email to Robin.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in about 100 words.',
+        tasks:[
+          { type:'article', q:2, minWords:100, lead:'You see this announcement in your school English-language magazine.',
+            stimulus:{title:'A PLACE I LOVE TO RELAX', body:'Where do you go when you want to relax? Write an article describing the place, explaining what you do there, and saying why it makes you feel calm. The best articles will be published.'},
+            bullets:['where the place is','what you do there','why it makes you feel calm'], write:'Write your article.' },
+          { type:'story', q:3, minWords:100, lead:'Your English teacher has asked you to write a story.', startSentence:'Maria had been waiting all week for this moment.',
+            stimulus:{title:'', body:'Your story must begin with this sentence:\n\nMaria had been waiting all week for this moment.'},
+            bullets:[], write:'Write your story.' }
+        ]
+      }
+    ]
+  },
+  B2:{
+    title:'B2 First — Writing (Practice 3)', durationMin:80,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write 140-190 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:140, maxWords:190,
+          lead:'In your English class you have been talking about sport. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.',
+          stimulus:{body:'"Should sport be a compulsory subject at school?"\n\nNotes\n\nWrite about:\n1. health\n2. teamwork\n3. ............... (your own idea)'},
+          bullets:['health','teamwork','your own idea','give reasons for your point of view'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write 140-190 words in an appropriate style.',
+        tasks:[
+          { type:'review', q:2, minWords:140, maxWords:190, lead:'You see this announcement on an English-language entertainment website.',
+            stimulus:{title:'Film reviews wanted', body:'Write a review of a film you have seen recently. Describe what the film is about, explain what you thought of the acting and the story, and say whether you would recommend it.'},
+            bullets:['what the film is about','your opinion of the acting and story','whether you recommend it'], write:'Write your review.' },
+          { type:'report', q:3, minWords:140, maxWords:190, lead:'Your school director has asked you to write a report about after-school clubs.',
+            stimulus:{title:'Report: after-school clubs', body:'Describe which after-school clubs students currently enjoy, suggest one new club that students would like, and explain why it would be popular.'},
+            bullets:['which clubs students currently enjoy','one new club students would like','why it would be popular'], write:'Write your report.' },
+          { type:'article', q:4, minWords:140, maxWords:190, lead:'You see this announcement in a magazine for teenagers.',
+            stimulus:{title:'The best advice I ever received', body:'What is the best piece of advice anyone has ever given you? Write an article describing the advice, explaining who gave it to you, and saying how it has helped you. We will publish the best articles.'},
+            bullets:['the advice and who gave it to you','why it was good advice','how it has helped you'], write:'Write your article.' }
+        ]
+      }
+    ]
+  },
+  C1:{
+    title:'C1 Advanced — Writing (Practice 3)', durationMin:90,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in 220-260 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:220, maxWords:260,
+          lead:'Your class has discussed how a school could better prepare students for life after they leave. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would be most valuable, giving reasons to support your opinion.',
+          stimulus:{title:'How could a school better prepare students for life after school?', body:'• teaching financial skills\n• offering work experience\n• developing communication skills\n\nSome opinions expressed in the discussion:\n"Too many young people leave school not knowing how to budget."\n"A few weeks in a real workplace teaches more than a textbook."\n"You cannot get far in any career if you cannot express yourself."'},
+          bullets:['discuss two of the ideas','explain which would be most valuable','give reasons to support your opinion'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in 220-260 words in an appropriate style.',
+        tasks:[
+          { type:'proposal', q:2, minWords:220, maxWords:260, lead:'Your town council has invited proposals from residents about public transport.',
+            stimulus:{title:'Proposal: improving public transport', body:'Write a proposal suggesting how public transport in your town could be improved. Describe the current problems, recommend two specific changes, and explain how these would benefit residents.'},
+            bullets:['the current problems','two specific changes','how these would benefit residents'], write:'Write your proposal.' },
+          { type:'review', q:3, minWords:220, maxWords:260, lead:'An English-language technology magazine has invited reviews of useful websites.',
+            stimulus:{title:'Website reviews wanted', body:'Send us a review of a website or online service you find genuinely useful. Describe what it offers, explain how it has helped you, and assess whether it would be worthwhile for other users.'},
+            bullets:['what the website offers','how it has helped you','whether it would be worthwhile for others'], write:'Write your review.' },
+          { type:'letter', q:4, minWords:220, maxWords:260, lead:'You have received this letter from an English-speaking friend, Alex.',
+            stimulus:{body:'I have been asked to give a short speech at my older brother’s wedding, and honestly I am terrified of speaking in public! You seem so confident in front of people, so I would really value your advice: how can I calm my nerves, and how should I prepare so that it goes well?\n\nBest wishes,\nAlex'},
+            bullets:['advice on calming nerves','how to prepare the speech','reasons for your advice'], write:'Write your letter in reply.' }
+        ]
+      }
+    ]
+  }
+};
+
+/* ================= WRITING — MOCK 3 (fresh, harder prompts) ================= */
+const WRITING6 = {
+  B1:{
+    title:'B1 Preliminary — Writing (MOCK 3)', durationMin:45,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in about 100 words.',
+        tasks:[{
+          type:'email', minWords:100,
+          lead:'Read this email from your English-speaking friend Jordan, and the notes you have made.',
+          stimulus:{head:'EMAIL', title:'', body:'From: Jordan\nSubject: My summer project — your opinion\n\nHi!\n\nMy school is asking every student to choose a personal summer project: either learning a new skill on our own, or volunteering with a local organisation in our city. I really cannot decide and your opinion matters to me.\n\nWhich one do you think is more useful for someone our age? And what would you choose if you were me? Should we be doing both, even?\n\nWrite soon!\nJordan'},
+          bullets:['say which project you think is more useful and why','explain what you would choose if you were Jordan','say whether you think Jordan should try to do both','ask Jordan one question about the project'],
+          write:'Write your email to Jordan.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in about 100 words.',
+        tasks:[
+          { type:'article', q:2, minWords:100, lead:'You see this announcement in your school English-language magazine.',
+            stimulus:{title:'A DECISION I AM PROUD OF', body:'Think about a decision you have made that you are now really proud of. Write an article telling us what the decision was, why it was difficult at the time, and how it changed something in your life. The best articles will be published next month.'},
+            bullets:['what the decision was','why it was difficult at the time','how it changed something in your life'], write:'Write your article.' },
+          { type:'story', q:3, minWords:100, lead:'Your English teacher has asked you to write a story.', startSentence:'Lucas picked up the old phone and immediately wished he had not answered it.',
+            stimulus:{title:'', body:'Your story must begin with this sentence:\n\nLucas picked up the old phone and immediately wished he had not answered it.'},
+            bullets:[], write:'Write your story.' }
+        ]
+      }
+    ]
+  },
+  B2:{
+    title:'B2 First — Writing (MOCK 3)', durationMin:80,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write 140-190 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:140, maxWords:190,
+          lead:'In your English class you have been talking about success and ambition. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.',
+          stimulus:{body:'"Modern life pushes young people to be successful too early. Is this a serious problem?"\n\nNotes\n\nWrite about:\n1. mental wellbeing\n2. choosing the wrong path\n3. ............... (your own idea)'},
+          bullets:['mental wellbeing','choosing the wrong path','your own idea','give reasons for your point of view'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write 140-190 words in an appropriate style.',
+        tasks:[
+          { type:'review', q:2, minWords:140, maxWords:190, lead:'You see this announcement on an English-language podcast website.',
+            stimulus:{title:'Podcast reviews wanted', body:'Have you listened to a podcast series that genuinely made you rethink something you used to believe? Write a review describing the series, explaining what changed your mind, and saying whether other listeners your age would find it equally challenging.'},
+            bullets:['describe the podcast series','what changed your mind','whether other young listeners would find it equally challenging'], write:'Write your review.' },
+          { type:'report', q:3, minWords:140, maxWords:190, lead:'The director of your local community centre has asked you to write a report on its weekend programme for teenagers.',
+            stimulus:{title:'Report: the weekend programme for teenagers', body:'Describe what the programme currently offers and how teenagers respond to it, identify the two biggest weaknesses, and recommend one realistic change the centre could make without spending much money.'},
+            bullets:['what the programme offers and how teenagers respond','the two biggest weaknesses','one realistic, low-cost change'], write:'Write your report.' },
+          { type:'email', q:4, minWords:140, maxWords:190, lead:'You have received this email from your English-speaking friend Casey.',
+            stimulus:{body:'From: Casey\nSubject: Quitting my hobby?\n\nI have been doing the same hobby seriously for five years, and lately I have completely lost interest in it. My parents say I will regret it if I stop, but going to practice every week feels like a chore now. You always give honest advice, so what do you think — should I really quit, or is there a way to fall in love with it again?\nThanks,\nCasey'},
+            bullets:['your honest opinion on whether Casey should quit','a way Casey could fall in love with the hobby again','how Casey could talk to the parents about this'], write:'Write your email.' }
+        ]
+      }
+    ]
+  },
+  C1:{
+    title:'C1 Advanced — Writing (MOCK 3)', durationMin:90,
+    parts:[
+      { name:'Part 1', compulsory:true, instructions:'You must answer this question. Write your answer in 220-260 words in an appropriate style.',
+        tasks:[{
+          type:'essay', minWords:220, maxWords:260,
+          lead:'Your class has taken part in a panel discussion about how a city could better support its young people during the difficult years between school and stable work. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would make the greatest long-term difference, giving reasons to support your opinion.',
+          stimulus:{title:'How could a city better support young people moving from school to work?', body:'• subsidised housing for under-25s\n• free mental-health services for school leavers\n• paid mentoring schemes with local employers\n\nSome opinions expressed in the panel:\n"Without somewhere affordable to live, no other support really matters."\n"Most of the young people who drop out do not need money — they need to talk to someone."\n"A real adult who believes in you is worth more than any government course."'},
+          bullets:['discuss two of the ideas','explain which would make the greatest long-term difference','give reasons to support your opinion'], write:'Write your essay.'
+        }]
+      },
+      { name:'Part 2', choose:true, instructions:'Answer one of these questions. Write your answer in 220-260 words in an appropriate style.',
+        tasks:[
+          { type:'proposal', q:2, minWords:220, maxWords:260, lead:'The board of an international school has invited proposals from senior students.',
+            stimulus:{title:'Proposal: rethinking how we assess students', body:'Write a proposal arguing that the school should reduce its reliance on traditional written exams in favour of one alternative form of assessment. Explain the limitations of the current system, justify your preferred alternative, and address one major concern that staff and parents are likely to raise.'},
+            bullets:['the limitations of the current exam-based system','your preferred alternative form of assessment, justified','one major concern from staff or parents and how it could be addressed'], write:'Write your proposal.' },
+          { type:'review', q:3, minWords:220, maxWords:260, lead:'An English-language cultural magazine has invited reviews of unforgettable live performances.',
+            stimulus:{title:'A live performance that stayed with you', body:'Send us a review of a concert, play or other live performance that you still think about long after it ended. Describe what made the experience exceptional, identify one element that did not quite work, and assess what kind of audience would gain the most from a similar performance.'},
+            bullets:['what made the experience exceptional','one element that did not quite work','what kind of audience would gain the most from a similar performance'], write:'Write your review.' },
+          { type:'report', q:4, minWords:220, maxWords:260, lead:'The director of a non-profit organisation you volunteer with has asked you to write a report.',
+            stimulus:{title:'Report: how the organisation communicates with the public', body:'Write a report evaluating how the organisation currently presents itself online and in person, comparing the impression it gives with the work it actually does, and recommending two specific changes that would help it reach a wider, younger audience.'},
+            bullets:['how the organisation currently presents itself online and in person','how this compares with the work it actually does','two specific changes to reach a wider, younger audience'], write:'Write your report.' }
+        ]
+      }
+    ]
+  }
+};
+
+/* ================= Writing rubric (offline auto-assessment) ================= */
+function scoreWriting(opts){
+  const text=(opts.text||'').trim();
+  const minWords=opts.minWords||100, maxWords=opts.maxWords||0;
+  const bullets=opts.bulletItems||[];
+  if(!text){
+    return {band:0,max:5,wordCount:0,criteria:[
+      {name:'Content',score:0,max:5,note:'No answer was written.'},
+      {name:'Organisation',score:0,max:5,note:'—'},
+      {name:'Language',score:0,max:5,note:'—'}
+    ],feedback:'No response was written, so this task scores zero.'};
+  }
+  const words=text.split(/\s+/).filter(Boolean), wc=words.length;
+  const sentences=Math.max(1,(text.match(/[.!?]+/g)||[]).length);
+  const lower=words.map(w=>w.toLowerCase().replace(/[^a-z']/g,'')).filter(Boolean);
+  const variety=wc?new Set(lower).size/wc:0;
+  const connList=['and','then','but','because','so','after','before','when','while','first','next','finally','also','however','although','therefore','moreover','despite','whereas'];
+  const conns=connList.filter(c=>lower.includes(c)).length;
+  // Content
+  let content,contentNote;
+  if(bullets.length){
+    let covered=0;
+    bullets.forEach(it=>{const keys=it.toLowerCase().split(/\s+/).filter(w=>w.length>3); if(keys.some(k=>text.toLowerCase().includes(k))) covered++;});
+    content=Math.max(1,Math.round((covered/bullets.length)*5));
+    contentNote=`Addressed about ${covered} of ${bullets.length} required points.`;
+  } else {
+    const ok=wc>=minWords; content=ok?(sentences>=4?5:4):(wc>=minWords*0.6?3:2);
+    contentNote=ok?'Develops the task fully.':'Shorter than expected — develop the ideas further.';
+  }
+  // Organisation
+  let organisation=2; if(sentences>=3)organisation++; if(conns>=2)organisation++; if(sentences>=4&&conns>=3)organisation=5; organisation=Math.min(5,organisation);
+  // Language
+  let language=2; if(wc>=minWords)language++; if(variety>=0.55)language++;
+  const capStart=/^[A-Z"'“]/.test(text), endsPunc=/[.!?]["'”]?\s*$/.test(text);
+  if(capStart&&endsPunc)language++; language=Math.min(5,language);
+  const band=Math.round((content+organisation+language)/3);
+  const fb=[];
+  const tooLong=maxWords&&wc>maxWords*1.25;
+  if(wc<minWords)fb.push(`Aim for at least ${minWords} words (you wrote ${wc}).`);
+  else if(tooLong)fb.push(`Your answer is long (${wc} words); the target is about ${minWords}–${maxWords}. Be more concise.`);
+  if(bullets.length&&content<5)fb.push('Make sure every required point is clearly covered.');
+  if(conns<3)fb.push('Use more linking words (because, although, however, therefore) to connect ideas.');
+  if(!capStart||!endsPunc)fb.push('Check capital letters and full stops.');
+  if(!fb.length)fb.push('Well done — a clear, complete and well-organised answer.');
+  return {band,max:5,wordCount:wc,criteria:[
+    {name:'Content',score:content,max:5,note:contentNote},
+    {name:'Organisation',score:organisation,max:5,note:`${sentences} sentence(s), ${conns} linking word(s).`},
+    {name:'Language',score:language,max:5,note:`${wc} words; vocabulary variety ${Math.round(variety*100)}%.`}
+  ],feedback:fb.join(' ')};
+}
+
+/* ================= App ================= */
+const app=document.getElementById('app');
+/* === Writing tests extra (B1/B2/C1 x Practice 4-18 + MOCK 4-7), inyectado desde tools/writing_more === */
+const WRITING_MORE = {
+"B1": {
+"practice": [
+{
+"title": "B1 Preliminary — Writing (Practice 4)",
+"durationMin": 45,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "email",
+"minWords": 100,
+"lead": "Read this email from your English teacher, Ms Carter, and the notes you have made.",
+"stimulus": {
+"head": "EMAIL",
+"title": "",
+"body": "From: Ms Carter\nSubject: New school clubs\n\nDear Class,\n\nNext term the school is starting some new clubs on Wednesday afternoons: a film club, a chess club and a drama club. Which club would you like to join, and why?\n\nWe also need ideas for one more club. What do you suggest?\n\nMs Carter"
+},
+"bullets": [
+"say which club you would like to join and why",
+"suggest an idea for one more club",
+"explain why other students would enjoy your idea",
+"ask one question about the clubs"
+],
+"write": "Write your email to Ms Carter."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 100,
+"lead": "You see this announcement in your school English-language magazine.",
+"stimulus": {
+"title": "MY FAVOURITE HOBBY",
+"body": "What do you love doing in your free time? Write an article about your favourite hobby, telling us how you started and why you enjoy it so much. The best articles will be published next month."
+},
+"bullets": [
+"what your favourite hobby is",
+"how you started doing it",
+"why you enjoy it"
+],
+"write": "Write your article."
+},
+{
+"type": "story",
+"q": 3,
+"minWords": 100,
+"lead": "Your English teacher has asked you to write a story.",
+"startSentence": "When Marco checked his bag, he saw that something was missing.",
+"stimulus": {
+"title": "",
+"body": "Your story must begin with this sentence:\n\nWhen Marco checked his bag, he saw that something was missing."
+},
+"bullets": [],
+"write": "Write your story."
+}
+]
+}
+]
+},
+{
+"title": "B1 Preliminary — Writing (Practice 5)",
+"durationMin": 45,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "email",
+"minWords": 100,
+"lead": "Read this email from your English-speaking friend Lucy and the notes you have made.",
+"stimulus": {
+"head": "EMAIL",
+"title": "",
+"body": "From: Lucy\nSubject: Your town festival\n\nHi!\n\nI saw some photos of the festival in your town last year — it looked amazing! I'd love to come this year.\n\nWhen exactly is it, and what happens there? Also, what's the best thing to eat at the festival?\n\nWrite soon!\nLucy"
+},
+"bullets": [
+"tell Lucy when the festival is",
+"describe what happens at the festival",
+"recommend something to eat there",
+"invite Lucy to stay at your house"
+],
+"write": "Write your email to Lucy."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 100,
+"lead": "You see this announcement in your school English-language magazine.",
+"stimulus": {
+"title": "A CELEBRATION TO REMEMBER",
+"body": "Which celebration or special day do you enjoy most every year? Write an article describing it and explaining why it is important to you. The best articles will be published next month."
+},
+"bullets": [
+"which celebration you enjoy most",
+"what you and your family or friends do",
+"why it is important to you"
+],
+"write": "Write your article."
+},
+{
+"type": "story",
+"q": 3,
+"minWords": 100,
+"lead": "Your English teacher has asked you to write a story.",
+"startSentence": "The music in the town square suddenly stopped, and everyone looked up.",
+"stimulus": {
+"title": "",
+"body": "Your story must begin with this sentence:\n\nThe music in the town square suddenly stopped, and everyone looked up."
+},
+"bullets": [],
+"write": "Write your story."
+}
+]
+}
+]
+},
+{
+"title": "B1 Preliminary — Writing (Practice 6)",
+"durationMin": 45,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "email",
+"minWords": 100,
+"lead": "Read this email from your English-speaking friend Tom and the notes you have made.",
+"stimulus": {
+"head": "EMAIL",
+"title": "",
+"body": "From: Tom\nSubject: Can I borrow your camera?\n\nHi!\n\nMy cousin is getting married next weekend and I'd love to take some good photos, but my camera is broken. Could I possibly borrow yours?\n\nI promise I'll be really careful with it. When could I collect it, and is there anything I should know about using it?\n\nThanks a lot!\nTom"
+},
+"bullets": [
+"agree to lend Tom your camera",
+"say when he can collect it",
+"explain one thing he should be careful about",
+"ask Tom to show you the photos afterwards"
+],
+"write": "Write your email to Tom."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 100,
+"lead": "You see this announcement in your school English-language magazine.",
+"stimulus": {
+"title": "SOMETHING I COULDN'T LIVE WITHOUT",
+"body": "Is there one object you use every day that is really important to you? Write an article describing it and explaining why it matters so much. The best articles will be published next month."
+},
+"bullets": [
+"which object is important to you",
+"how you use it every day",
+"why you couldn't live without it"
+],
+"write": "Write your article."
+},
+{
+"type": "story",
+"q": 3,
+"minWords": 100,
+"lead": "Your English teacher has asked you to write a story.",
+"startSentence": "Anna promised to return the book the next day, but things did not go as planned.",
+"stimulus": {
+"title": "",
+"body": "Your story must begin with this sentence:\n\nAnna promised to return the book the next day, but things did not go as planned."
+},
+"bullets": [],
+"write": "Write your story."
+}
+]
+}
+]
+},
+{
+"title": "B1 Preliminary — Writing (Practice 7)",
+"durationMin": 45,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "email",
+"minWords": 100,
+"lead": "Read this email from your English-speaking friend Emma and the notes you have made.",
+"stimulus": {
+"head": "EMAIL",
+"title": "",
+"body": "From: Emma\nSubject: Weekend trip!\n\nHi!\n\nMy family and I are planning a weekend trip at the end of the month, and my parents said I can invite you! We can't decide between the mountains and the beach — which would you prefer?\n\nWe'll leave on Saturday morning. Is that OK for you?\n\nEmma"
+},
+"bullets": [
+"thank Emma for the invitation and accept",
+"say whether you prefer the mountains or the beach, and why",
+"confirm that Saturday morning is fine for you",
+"ask what you should bring on the trip"
+],
+"write": "Write your email to Emma."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 100,
+"lead": "You see this announcement in your school English-language magazine.",
+"stimulus": {
+"title": "MY BEST DAY OUT EVER",
+"body": "Think about the best trip or day out you have ever had. Where did you go, and what made it so special? Write an article telling us all about it. The best articles will be published next month."
+},
+"bullets": [
+"where you went and who you were with",
+"what you did there",
+"why it was so special"
+],
+"write": "Write your article."
+},
+{
+"type": "story",
+"q": 3,
+"minWords": 100,
+"lead": "Your English teacher has asked you to write a story.",
+"startSentence": "Halfway up the mountain, Ben realised they had taken the wrong path.",
+"stimulus": {
+"title": "",
+"body": "Your story must begin with this sentence:\n\nHalfway up the mountain, Ben realised they had taken the wrong path."
+},
+"bullets": [],
+"write": "Write your story."
+}
+]
+}
+]
+},
+{
+"title": "B1 Preliminary — Writing (Practice 8)",
+"durationMin": 45,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "email",
+"minWords": 100,
+"lead": "Read this email from your English teacher, Mr Novak, and the notes you have made.",
+"stimulus": {
+"head": "EMAIL",
+"title": "",
+"body": "From: Mr Novak\nSubject: New student arriving on Monday\n\nDear Class,\n\nA new student called Alex is joining our class on Monday. Alex has just moved here from another country and doesn't know anyone yet.\n\nI'm looking for a volunteer to help Alex during the first week. Would you like to do this? Tell me how you could help.\n\nMr Novak"
+},
+"bullets": [
+"offer to help Alex during the first week",
+"say how you could help at school",
+"suggest an activity to do with Alex after school",
+"ask one question about Alex"
+],
+"write": "Write your email to Mr Novak."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 100,
+"lead": "You see this announcement in your school English-language magazine.",
+"stimulus": {
+"title": "HOW TO MAKE NEW FRIENDS",
+"body": "Starting at a new school or club can be difficult. What is the best way to make new friends? Write an article giving your advice. The best articles will be published next month."
+},
+"bullets": [
+"why making new friends can be difficult",
+"your best advice for making friends",
+"an example from your own experience"
+],
+"write": "Write your article."
+},
+{
+"type": "story",
+"q": 3,
+"minWords": 100,
+"lead": "Your English teacher has asked you to write a story.",
+"startSentence": "On her first day at the new school, Nadia sat down next to a girl with a friendly smile.",
+"stimulus": {
+"title": "",
+"body": "Your story must begin with this sentence:\n\nOn her first day at the new school, Nadia sat down next to a girl with a friendly smile."
+},
+"bullets": [],
+"write": "Write your story."
+}
+]
+}
+]
+},
+{
+"title": "B1 Preliminary — Writing (Practice 9)",
+"durationMin": 45,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "email",
+"minWords": 100,
+"lead": "Read this email from Mrs Silva, the organiser of your school sports day, and the notes you have made.",
+"stimulus": {
+"head": "EMAIL",
+"title": "",
+"body": "From: Mrs Silva\nSubject: School Sports Day — next Friday\n\nDear Students,\n\nOur Sports Day is next Friday! You can take part in running, football, basketball or volleyball. Which event would you like to enter?\n\nWe also need some students to help serve drinks and put up posters. Can you help with anything?\n\nMrs Silva"
+},
+"bullets": [
+"say which event you would like to enter and why",
+"offer to help with drinks or posters",
+"suggest a way to make Sports Day more fun",
+"ask one question about the day"
+],
+"write": "Write your email to Mrs Silva."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 100,
+"lead": "You see this announcement in your school English-language magazine.",
+"stimulus": {
+"title": "THE SPORT I LOVE WATCHING",
+"body": "Some people love playing sport, but watching it can be just as exciting! Which sport do you most enjoy watching, and why? Write an article and tell us. The best articles will be published next month."
+},
+"bullets": [
+"which sport you enjoy watching",
+"where and how you usually watch it",
+"why it is so exciting"
+],
+"write": "Write your article."
+},
+{
+"type": "story",
+"q": 3,
+"minWords": 100,
+"lead": "Your English teacher has asked you to write a story.",
+"startSentence": "With one minute left in the match, Leo finally got his chance.",
+"stimulus": {
+"title": "",
+"body": "Your story must begin with this sentence:\n\nWith one minute left in the match, Leo finally got his chance."
+},
+"bullets": [],
+"write": "Write your story."
+}
+]
+}
+]
+},
+{
+"title": "B1 Preliminary — Writing (Practice 10)",
+"durationMin": 45,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "email",
+"minWords": 100,
+"lead": "Read this email from your English-speaking friend Marta and the notes you have made.",
+"stimulus": {
+"head": "EMAIL",
+"title": "",
+"body": "From: Marta\nSubject: Cooking competition — let's enter together!\n\nHi!\n\nGuess what — the community centre is holding a cooking competition for teenagers next month, and teams of two can enter! Shall we enter together?\n\nWe have to cook one main dish. What do you think we should make? And when can we practise?\n\nMarta"
+},
+"bullets": [
+"agree to enter the competition with Marta",
+"suggest a dish you could cook together and why",
+"say when you are free to practise",
+"ask one question about the competition"
+],
+"write": "Write your email to Marta."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 100,
+"lead": "You see this announcement in your school English-language magazine.",
+"stimulus": {
+"title": "A DISH FROM MY COUNTRY",
+"body": "Every country has a special dish that everyone should try. Write an article about a traditional dish from your country, describing it and explaining why visitors should taste it. The best articles will be published next month."
+},
+"bullets": [
+"which traditional dish you have chosen",
+"what it is made of and when people eat it",
+"why visitors should try it"
+],
+"write": "Write your article."
+},
+{
+"type": "story",
+"q": 3,
+"minWords": 100,
+"lead": "Your English teacher has asked you to write a story.",
+"startSentence": "The kitchen was full of smoke, but Carla refused to give up.",
+"stimulus": {
+"title": "",
+"body": "Your story must begin with this sentence:\n\nThe kitchen was full of smoke, but Carla refused to give up."
+},
+"bullets": [],
+"write": "Write your story."
+}
+]
+}
+]
+},
+{
+"title": "B1 Preliminary — Writing (Practice 11)",
+"durationMin": 45,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "email",
+"minWords": 100,
+"lead": "Read this email from Mr Okafor, the school librarian, and the notes you have made.",
+"stimulus": {
+"head": "EMAIL",
+"title": "",
+"body": "From: Mr Okafor\nSubject: Library reading project\n\nDear Students,\n\nThe library is starting a reading project next term. Each student will recommend one book for other students to read and will make a poster about it.\n\nWhich book would you like to recommend, and why? We also need helpers to organise the book display. Are you interested?\n\nMr Okafor"
+},
+"bullets": [
+"say which book you would recommend and why",
+"describe what you would put on your poster",
+"offer to help with the book display",
+"ask one question about the project"
+],
+"write": "Write your email to Mr Okafor."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 100,
+"lead": "You see this announcement in your school English-language magazine.",
+"stimulus": {
+"title": "PAPER BOOKS OR E-BOOKS?",
+"body": "Some people love the feel of a real book, while others prefer reading on a screen. Which do you prefer, and why? Write an article and tell us. The best articles will be published next month."
+},
+"bullets": [
+"whether you prefer paper books or e-books",
+"the reasons for your choice",
+"what you are reading at the moment"
+],
+"write": "Write your article."
+},
+{
+"type": "story",
+"q": 3,
+"minWords": 100,
+"lead": "Your English teacher has asked you to write a story.",
+"startSentence": "Inside the old library book, Tariq found a letter written fifty years ago.",
+"stimulus": {
+"title": "",
+"body": "Your story must begin with this sentence:\n\nInside the old library book, Tariq found a letter written fifty years ago."
+},
+"bullets": [],
+"write": "Write your story."
+}
+]
+}
+]
+},
+{
+"title": "B1 Preliminary — Writing (Practice 12)",
+"durationMin": 45,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "email",
+"minWords": 100,
+"lead": "Read this email from your English teacher, Ms Duval, and the notes you have made.",
+"stimulus": {
+"head": "EMAIL",
+"title": "",
+"body": "From: Ms Duval\nSubject: Our new class blog\n\nDear Class,\n\nGreat news — our class is going to start a blog in English! We will post about school life, hobbies and local news.\n\nI need to know what you would like to write about. I'm also looking for two students to take photos for the blog. Would you like to be one of them?\n\nMs Duval"
+},
+"bullets": [
+"say what topic you would like to write about and why",
+"offer to take photos for the blog",
+"suggest a name for the blog",
+"ask one question about how the blog will work"
+],
+"write": "Write your email to Ms Duval."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 100,
+"lead": "You see this announcement in your school English-language magazine.",
+"stimulus": {
+"title": "MY LIFE ONLINE",
+"body": "How do you use the internet in your daily life — for homework, games, videos or chatting with friends? Write an article about what you do online and what you enjoy most. The best articles will be published next month."
+},
+"bullets": [
+"what you usually do online",
+"what you enjoy most and why",
+"one thing you would like to change about how you use the internet"
+],
+"write": "Write your article."
+},
+{
+"type": "story",
+"q": 3,
+"minWords": 100,
+"lead": "Your English teacher has asked you to write a story.",
+"startSentence": "When Elif turned on her computer that morning, there was a message she did not expect.",
+"stimulus": {
+"title": "",
+"body": "Your story must begin with this sentence:\n\nWhen Elif turned on her computer that morning, there was a message she did not expect."
+},
+"bullets": [],
+"write": "Write your story."
+}
+]
+}
+]
+},
+{
+"title": "B1 Preliminary — Writing (Practice 13)",
+"durationMin": 45,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "email",
+"minWords": 100,
+"lead": "Read this email from your English-speaking friend Jack and the notes you have made.",
+"stimulus": {
+"head": "EMAIL",
+"title": "",
+"body": "From: Jack\nSubject: Museum visit on Saturday?\n\nHi!\n\nThere's a new exhibition at the city museum about dinosaurs, and I really want to see it. Would you like to come with me on Saturday?\n\nWe could go in the morning or the afternoon — which is better for you? And how should we get there?\n\nJack"
+},
+"bullets": [
+"accept Jack's invitation",
+"say whether morning or afternoon is better for you, and why",
+"suggest how to get to the museum",
+"suggest something to do after the museum"
+],
+"write": "Write your email to Jack."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 100,
+"lead": "You see this announcement in your school English-language magazine.",
+"stimulus": {
+"title": "LEARNING OUTSIDE THE CLASSROOM",
+"body": "Museums, zoos, science centres — some of the best lessons happen outside school! Write an article about an interesting place you have visited with your school or family and what you learned there. The best articles will be published next month."
+},
+"bullets": [
+"which place you visited",
+"what you saw and did there",
+"what you learned from the visit"
+],
+"write": "Write your article."
+},
+{
+"type": "story",
+"q": 3,
+"minWords": 100,
+"lead": "Your English teacher has asked you to write a story.",
+"startSentence": "The museum was about to close when Rosa noticed the small door behind the statue.",
+"stimulus": {
+"title": "",
+"body": "Your story must begin with this sentence:\n\nThe museum was about to close when Rosa noticed the small door behind the statue."
+},
+"bullets": [],
+"write": "Write your story."
+}
+]
+}
+]
+},
+{
+"title": "B1 Preliminary — Writing (Practice 14)",
+"durationMin": 45,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "email",
+"minWords": 100,
+"lead": "Read this email from your English-speaking friend Nina and the notes you have made.",
+"stimulus": {
+"head": "EMAIL",
+"title": "",
+"body": "From: Nina\nSubject: Free concert ticket!\n\nHi!\n\nMy sister bought two tickets for the big concert in the park next Saturday evening, but now she can't go — so I have a free ticket for you!\n\nDo you want to come? The concert starts at seven, but we should get there early. Where shall we meet?\n\nNina"
+},
+"bullets": [
+"thank Nina and accept the ticket",
+"suggest where and when to meet",
+"say how you will get home after the concert",
+"ask one question about the concert"
+],
+"write": "Write your email to Nina."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 100,
+"lead": "You see this announcement in your school English-language magazine.",
+"stimulus": {
+"title": "MUSIC IN MY LIFE",
+"body": "What kind of music do you listen to, and when do you listen to it? Write an article about the music you love and what it means to you. The best articles will be published next month."
+},
+"bullets": [
+"what kind of music you like",
+"when and where you listen to it",
+"why music is important to you"
+],
+"write": "Write your article."
+},
+{
+"type": "story",
+"q": 3,
+"minWords": 100,
+"lead": "Your English teacher has asked you to write a story.",
+"startSentence": "Just before the band came on stage, Omar felt his phone vibrate in his pocket.",
+"stimulus": {
+"title": "",
+"body": "Your story must begin with this sentence:\n\nJust before the band came on stage, Omar felt his phone vibrate in his pocket."
+},
+"bullets": [],
+"write": "Write your story."
+}
+]
+}
+]
+},
+{
+"title": "B1 Preliminary — Writing (Practice 15)",
+"durationMin": 45,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "email",
+"minWords": 100,
+"lead": "Read this email from your neighbour, Mrs Green, and the notes you have made.",
+"stimulus": {
+"head": "EMAIL",
+"title": "",
+"body": "From: Mrs Green\nSubject: A small favour\n\nHello,\n\nI hope you are well. I'm going to visit my daughter next week, and I'll be away from Monday to Friday.\n\nWould you be able to water my plants and feed my cat, Biscuit, while I'm away? Of course, I'll bring you back something nice!\n\nMrs Green"
+},
+"bullets": [
+"agree to help Mrs Green",
+"ask what Biscuit eats and how often",
+"ask where she keeps the key",
+"wish her a good trip"
+],
+"write": "Write your email to Mrs Green."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 100,
+"lead": "You see this announcement in your school English-language magazine.",
+"stimulus": {
+"title": "SMALL THINGS THAT HELP OTHERS",
+"body": "You don't have to be a superhero to help people! Write an article about the small ways young people can help their neighbours and community. The best articles will be published next month."
+},
+"bullets": [
+"ways young people can help their neighbours",
+"a time when you helped someone",
+"how helping others makes you feel"
+],
+"write": "Write your article."
+},
+{
+"type": "story",
+"q": 3,
+"minWords": 100,
+"lead": "Your English teacher has asked you to write a story.",
+"startSentence": "When Petra heard a strange noise from the house next door, she decided to find out what it was.",
+"stimulus": {
+"title": "",
+"body": "Your story must begin with this sentence:\n\nWhen Petra heard a strange noise from the house next door, she decided to find out what it was."
+},
+"bullets": [],
+"write": "Write your story."
+}
+]
+}
+]
+},
+{
+"title": "B1 Preliminary — Writing (Practice 16)",
+"durationMin": 45,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "email",
+"minWords": 100,
+"lead": "Read this email from your English teacher, Mr Petrov, and the notes you have made.",
+"stimulus": {
+"head": "EMAIL",
+"title": "",
+"body": "From: Mr Petrov\nSubject: School photography contest\n\nDear Class,\n\nOur school is holding a photography contest! The theme is \"My Town\", and you can enter one photo each. The winning photos will be shown at the school entrance.\n\nWould you like to take part? Tell me what kind of photo you are planning to take. We also need a name for the exhibition — any ideas?\n\nMr Petrov"
+},
+"bullets": [
+"say you would like to take part",
+"describe the photo you are planning to take",
+"suggest a name for the exhibition",
+"ask one question about the contest rules"
+],
+"write": "Write your email to Mr Petrov."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 100,
+"lead": "You see this announcement in your school English-language magazine.",
+"stimulus": {
+"title": "A PHOTO I WILL NEVER DELETE",
+"body": "We all have hundreds of photos on our phones, but some are more special than others. Write an article about one photo you will never delete, describing it and explaining why it matters to you. The best articles will be published next month."
+},
+"bullets": [
+"what the photo shows",
+"when and where it was taken",
+"why you will never delete it"
+],
+"write": "Write your article."
+},
+{
+"type": "story",
+"q": 3,
+"minWords": 100,
+"lead": "Your English teacher has asked you to write a story.",
+"startSentence": "When Ivan looked at the photo more carefully, he saw something strange in the background.",
+"stimulus": {
+"title": "",
+"body": "Your story must begin with this sentence:\n\nWhen Ivan looked at the photo more carefully, he saw something strange in the background."
+},
+"bullets": [],
+"write": "Write your story."
+}
+]
+}
+]
+},
+{
+"title": "B1 Preliminary — Writing (Practice 17)",
+"durationMin": 45,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "email",
+"minWords": 100,
+"lead": "Read this email from your English-speaking friend Chris and the notes you have made.",
+"stimulus": {
+"head": "EMAIL",
+"title": "",
+"body": "From: Chris\nSubject: We're moving house!\n\nHi!\n\nBig news — my family is moving to a new house on the other side of town next Saturday! There are so many boxes everywhere, and my parents say we need all the help we can get.\n\nCould you come and help us carry things? Afterwards we're ordering pizza for everyone!\n\nChris"
+},
+"bullets": [
+"agree to help Chris on Saturday",
+"say what time you can arrive",
+"suggest bringing something useful for the move",
+"ask one question about the new house"
+],
+"write": "Write your email to Chris."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 100,
+"lead": "You see this announcement in your school English-language magazine.",
+"stimulus": {
+"title": "MY DREAM HOME",
+"body": "If you could live anywhere — a flat in a big city, a house by the sea, a farm in the countryside — what would your dream home be like? Write an article and tell us. The best articles will be published next month."
+},
+"bullets": [
+"where your dream home would be",
+"what it would look like inside and outside",
+"why you would love living there"
+],
+"write": "Write your article."
+},
+{
+"type": "story",
+"q": 3,
+"minWords": 100,
+"lead": "Your English teacher has asked you to write a story.",
+"startSentence": "In the empty new house, Maya opened the last box and started to laugh.",
+"stimulus": {
+"title": "",
+"body": "Your story must begin with this sentence:\n\nIn the empty new house, Maya opened the last box and started to laugh."
+},
+"bullets": [],
+"write": "Write your story."
+}
+]
+}
+]
+},
+{
+"title": "B1 Preliminary — Writing (Practice 18)",
+"durationMin": 45,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "email",
+"minWords": 100,
+"lead": "Read this email from your science teacher, Ms Romero, and the notes you have made.",
+"stimulus": {
+"head": "EMAIL",
+"title": "",
+"body": "From: Ms Romero\nSubject: A garden for our school\n\nDear Class,\n\nThe school has given us a small piece of land behind the gym to create a school garden! We can grow vegetables, flowers or both.\n\nWhat do you think we should grow, and why? We will work on the garden after school — which day suits you best?\n\nMs Romero"
+},
+"bullets": [
+"say what the class should grow and why",
+"say which day after school suits you best",
+"offer to bring something useful for the garden",
+"suggest what to do with the vegetables or flowers later"
+],
+"write": "Write your email to Ms Romero."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 100,
+"lead": "You see this announcement in your school English-language magazine.",
+"stimulus": {
+"title": "WHY GREEN SPACES MATTER",
+"body": "Parks, gardens and trees make our towns better places to live. Write an article about your favourite green space and why places like this are important. The best articles will be published next month."
+},
+"bullets": [
+"your favourite park or green space",
+"what you do there",
+"why green spaces are important for everyone"
+],
+"write": "Write your article."
+},
+{
+"type": "story",
+"q": 3,
+"minWords": 100,
+"lead": "Your English teacher has asked you to write a story.",
+"startSentence": "Under the oldest tree in the garden, Hana's dog began to dig faster and faster.",
+"stimulus": {
+"title": "",
+"body": "Your story must begin with this sentence:\n\nUnder the oldest tree in the garden, Hana's dog began to dig faster and faster."
+},
+"bullets": [],
+"write": "Write your story."
+}
+]
+}
+]
+}
+],
+"mocks": [
+{
+"title": "B1 Preliminary — Writing (MOCK 4)",
+"durationMin": 45,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "email",
+"minWords": 100,
+"lead": "Read this email from your English teacher, Mrs Ellis, and the notes you have made.",
+"stimulus": {
+"head": "EMAIL",
+"title": "",
+"body": "From: Mrs Ellis\nSubject: International exchange — student from Ireland\n\nDear Class,\n\nAs part of our international exchange programme, a group of Irish students will spend two weeks at our school in October. Each of you will look after one visitor.\n\nYour exchange partner will stay with your family, come to lessons with you and join your free-time activities. To match you with the right student, I need to know a little about your home and your interests, and what you are planning to show your visitor.\n\nPlease reply this week.\n\nMrs Ellis"
+},
+"bullets": [
+"describe your home and family for your visitor",
+"say what your main interests are",
+"suggest two things you will show your visitor in your town",
+"ask one question about the exchange programme"
+],
+"write": "Write your email to Mrs Ellis."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 100,
+"lead": "You see this announcement in an international English-language magazine for young people.",
+"stimulus": {
+"title": "VISITING ANOTHER COUNTRY — WHAT SURPRISED YOU?",
+"body": "Travelling abroad, or meeting people from other countries, is full of surprises — the food, the customs, even the way people say hello! Write an article about something that surprised you about another country or culture, and what you learned from it. The best articles will be published next month."
+},
+"bullets": [
+"which country or culture surprised you",
+"what exactly was different or surprising",
+"what you learned from the experience"
+],
+"write": "Write your article."
+},
+{
+"type": "story",
+"q": 3,
+"minWords": 100,
+"lead": "Your English teacher has asked you to write a story.",
+"startSentence": "At the airport, Sofia held up the sign with her exchange partner's name and waited nervously.",
+"stimulus": {
+"title": "",
+"body": "Your story must begin with this sentence:\n\nAt the airport, Sofia held up the sign with her exchange partner's name and waited nervously."
+},
+"bullets": [],
+"write": "Write your story."
+}
+]
+}
+]
+},
+{
+"title": "B1 Preliminary — Writing (MOCK 5)",
+"durationMin": 45,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "email",
+"minWords": 100,
+"lead": "Read this email from Daniel, the president of your school students' club, and the notes you have made.",
+"stimulus": {
+"head": "EMAIL",
+"title": "",
+"body": "From: Daniel\nSubject: Charity event — we need your help!\n\nHi everyone,\n\nThe students' club has decided to organise a charity event to raise money for the children's hospital. We are choosing between three ideas: a second-hand book sale, a talent show, or a sponsored walk in the park.\n\nWe need to decide quickly because the event will be on the last Saturday of next month. Which idea do you think is best? And what job could you do on the day — selling tickets, making posters, or something else?\n\nEvery helper counts!\n\nDaniel"
+},
+"bullets": [
+"say which of the three ideas you think is best and why",
+"say what job you could do on the day",
+"suggest a way to tell more people about the event",
+"ask one question about the event"
+],
+"write": "Write your email to Daniel."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 100,
+"lead": "You see this announcement in your school English-language magazine.",
+"stimulus": {
+"title": "YOUNG PEOPLE CAN CHANGE THE WORLD",
+"body": "You don't need to be rich or famous to make a difference. All over the world, young people are helping others in big and small ways. Write an article about how teenagers can make a difference in their community, and give an example. The best articles will be published next month."
+},
+"bullets": [
+"ways teenagers can make a difference",
+"an example of a person or project you admire",
+"why it is important for young people to get involved"
+],
+"write": "Write your article."
+},
+{
+"type": "story",
+"q": 3,
+"minWords": 100,
+"lead": "Your English teacher has asked you to write a story.",
+"startSentence": "By lunchtime we had only collected ten euros, and I was starting to worry.",
+"stimulus": {
+"title": "",
+"body": "Your story must begin with this sentence:\n\nBy lunchtime we had only collected ten euros, and I was starting to worry."
+},
+"bullets": [],
+"write": "Write your story."
+}
+]
+}
+]
+},
+{
+"title": "B1 Preliminary — Writing (MOCK 6)",
+"durationMin": 45,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "email",
+"minWords": 100,
+"lead": "Read this email from your head teacher, Mr Aldana, and the notes you have made.",
+"stimulus": {
+"head": "EMAIL",
+"title": "",
+"body": "From: Mr Aldana\nSubject: Technology-Free Week — your opinion, please\n\nDear Students,\n\nNext term the school is planning a Technology-Free Week. For five days there will be no phones, tablets or computers in lessons or during breaks — only books, paper and conversation!\n\nSome teachers think it will help students concentrate and talk to each other more. Others are worried it will make homework difficult.\n\nBefore we decide, I would like to hear your opinion. Do you think it is a good idea? What might be difficult? And what activities could we organise during the week instead of using screens?\n\nMr Aldana"
+},
+"bullets": [
+"say whether you think Technology-Free Week is a good idea, and why",
+"explain one thing that might be difficult",
+"suggest two activities the school could organise during the week",
+"ask one question about the rules for the week"
+],
+"write": "Write your email to Mr Aldana."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 100,
+"lead": "You see this announcement in your school English-language magazine.",
+"stimulus": {
+"title": "A DAY WITHOUT MY PHONE",
+"body": "Could you survive a whole day without your phone? What would you miss most — and what might you actually enjoy? Write an article telling us what a day without your phone would be like for you. The best articles will be published next month."
+},
+"bullets": [
+"what you use your phone for every day",
+"what you would miss most without it",
+"what you might enjoy about a phone-free day"
+],
+"write": "Write your article."
+},
+{
+"type": "story",
+"q": 3,
+"minWords": 100,
+"lead": "Your English teacher has asked you to write a story.",
+"startSentence": "The moment Ruben switched off his phone for the week, the doorbell rang.",
+"stimulus": {
+"title": "",
+"body": "Your story must begin with this sentence:\n\nThe moment Ruben switched off his phone for the week, the doorbell rang."
+},
+"bullets": [],
+"write": "Write your story."
+}
+]
+}
+]
+},
+{
+"title": "B1 Preliminary — Writing (MOCK 7)",
+"durationMin": 45,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "email",
+"minWords": 100,
+"lead": "Read this email from your history teacher, Ms Fontana, and the notes you have made.",
+"stimulus": {
+"head": "EMAIL",
+"title": "",
+"body": "From: Ms Fontana\nSubject: Local history project — \"Our Town, Then and Now\"\n\nDear Class,\n\nThis term our class is starting a special project about the history of our town, called \"Our Town, Then and Now\". Working in pairs, you will choose one place in town — for example an old building, a street, or the market — and find out how it has changed over the last hundred years.\n\nYou can interview older people, look at old photographs, or visit the town archive. At the end of term, we will present everything in an exhibition for parents.\n\nPlease tell me which place you would like to study, who you will work with, and how you plan to find your information.\n\nMs Fontana"
+},
+"bullets": [
+"say which place in town you would like to study and why",
+"say who you would like to work with",
+"explain how you plan to find information about the place",
+"ask one question about the exhibition"
+],
+"write": "Write your email to Ms Fontana."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in about 100 words.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 100,
+"lead": "You see this announcement in your school English-language magazine.",
+"stimulus": {
+"title": "IF I COULD TRAVEL BACK IN TIME",
+"body": "Imagine you could visit your town one hundred years ago! What do you think you would see, and what would be most different from today? Write an article and tell us. The best articles will be published next month."
+},
+"bullets": [
+"what your town was probably like one hundred years ago",
+"what would be most different from today",
+"whether you would prefer to live then or now, and why"
+],
+"write": "Write your article."
+},
+{
+"type": "story",
+"q": 3,
+"minWords": 100,
+"lead": "Your English teacher has asked you to write a story.",
+"startSentence": "The old photograph of the town square showed a building that nobody could remember.",
+"stimulus": {
+"title": "",
+"body": "Your story must begin with this sentence:\n\nThe old photograph of the town square showed a building that nobody could remember."
+},
+"bullets": [],
+"write": "Write your story."
+}
+]
+}
+]
+}
+]
+},
+"B2": {
+"practice": [
+{
+"title": "B2 First — Writing (Practice 4)",
+"durationMin": 80,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 140,
+"maxWords": 190,
+"lead": "In your English class you have been talking about protecting the environment. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+"stimulus": {
+"body": "\"Every family could do far more to protect the environment at home. Do you agree?\"\n\nNotes\n\nWrite about:\n1. saving energy\n2. reducing rubbish\n3. ............... (your own idea)"
+},
+"bullets": [
+"saving energy",
+"reducing rubbish",
+"your own idea",
+"give reasons for your point of view"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement in an English-language magazine for teenagers.",
+"stimulus": {
+"title": "GREEN AT HOME",
+"body": "Has your family changed anything at home to help the environment? Write an article describing one change your family has made, explaining how difficult it was, and saying whether you think other families should copy it. The best articles will be published next month."
+},
+"bullets": [
+"one change your family has made at home",
+"how difficult the change was",
+"whether other families should copy it"
+],
+"write": "Write your article."
+},
+{
+"type": "review",
+"q": 3,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement on an English-language website about everyday products.",
+"stimulus": {
+"title": "Eco-product reviews wanted",
+"body": "Have you bought something that promised to be good for the planet, such as a reusable bottle, a solar charger or refillable stationery? Write a review describing the product, saying how well it works in daily life, and explaining whether it is really better than the ordinary alternative."
+},
+"bullets": [
+"describe the product",
+"how well it works in daily life",
+"whether it is better than the ordinary alternative"
+],
+"write": "Write your review."
+},
+{
+"type": "email",
+"q": 4,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You have received this email from your English-speaking friend Alex.",
+"stimulus": {
+"body": "From: Alex\nSubject: Greener flat\n\nMy flatmates and I have decided to make our student flat more environmentally friendly, but we don't really know where to start. You're good at this kind of thing — what should we change first? Are there any ideas that sound good but don't actually work? And how can I persuade my laziest flatmate to join in?\nThanks,\nAlex"
+},
+"bullets": [
+"what they should change first",
+"an idea that does not really work",
+"how to persuade the lazy flatmate"
+],
+"write": "Write your email."
+}
+]
+}
+]
+},
+{
+"title": "B2 First — Writing (Practice 5)",
+"durationMin": 80,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 140,
+"maxWords": 190,
+"lead": "In your English class you have been talking about work and money. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+"stimulus": {
+"body": "\"It is a good idea for teenagers to have a part-time job while they are still at school. Do you agree?\"\n\nNotes\n\nWrite about:\n1. money\n2. schoolwork\n3. ............... (your own idea)"
+},
+"bullets": [
+"money",
+"schoolwork",
+"your own idea",
+"give reasons for your point of view"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "report",
+"q": 2,
+"minWords": 140,
+"maxWords": 190,
+"lead": "The principal of your college wants to help students find part-time work and has asked you to write a report.",
+"stimulus": {
+"title": "Report: part-time work for students",
+"body": "Describe the kinds of part-time work available to students in your area, explain the main problems students have when looking for a job, and suggest one way the college could help."
+},
+"bullets": [
+"the kinds of part-time work available locally",
+"the main problems students face when job-hunting",
+"one way the college could help"
+],
+"write": "Write your report."
+},
+{
+"type": "letter",
+"q": 3,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You have received this letter from your English-speaking friend Jamie.",
+"stimulus": {
+"body": "Guess what — I've just been offered my first ever weekend job, in a busy café! I'm excited but also quite nervous, because I've never worked anywhere before. You've had a job for a while now, haven't you? What's the hardest thing about working while studying? And is there anything I should definitely do in my first week?\nWrite soon,\nJamie"
+},
+"bullets": [
+"how you feel about Jamie's news",
+"the hardest thing about working while studying",
+"advice for Jamie's first week"
+],
+"write": "Write your letter in reply."
+},
+{
+"type": "article",
+"q": 4,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement in an English-language magazine for young people.",
+"stimulus": {
+"title": "MY FIRST TIME EARNING MONEY",
+"body": "Whether it was babysitting, selling old games online or washing cars, everyone remembers the first time they earned their own money. Write an article telling us what you did, what surprised you about it, and what the experience taught you. We will publish the most interesting articles."
+},
+"bullets": [
+"what you did to earn money",
+"what surprised you",
+"what the experience taught you"
+],
+"write": "Write your article."
+}
+]
+}
+]
+},
+{
+"title": "B2 First — Writing (Practice 6)",
+"durationMin": 80,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 140,
+"maxWords": 190,
+"lead": "In your English class you have been talking about transport in cities. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+"stimulus": {
+"body": "\"The best way to reduce traffic in cities is to make public transport free for everyone. Do you agree?\"\n\nNotes\n\nWrite about:\n1. cost\n2. convenience\n3. ............... (your own idea)"
+},
+"bullets": [
+"cost",
+"convenience",
+"your own idea",
+"give reasons for your point of view"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "review",
+"q": 2,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement on an English-language website for travellers.",
+"stimulus": {
+"title": "Rate your local transport",
+"body": "We want honest reviews of buses, trains, trams and metro lines from the people who actually use them. Write a review of a service you use regularly, describing a typical journey, mentioning what is good and bad about it, and saying whether a visitor to your area should use it."
+},
+"bullets": [
+"describe a typical journey",
+"what is good and bad about the service",
+"whether a visitor should use it"
+],
+"write": "Write your review."
+},
+{
+"type": "report",
+"q": 3,
+"minWords": 140,
+"maxWords": 190,
+"lead": "Your town council is reviewing local bus services and has asked students at your school to write reports.",
+"stimulus": {
+"title": "Report: how students travel to school",
+"body": "Describe how students at your school usually travel to school, explain why many of them do not use the bus, and recommend two changes that would encourage more students to travel by bus."
+},
+"bullets": [
+"how students usually travel to school",
+"why many do not use the bus",
+"two changes to encourage bus travel"
+],
+"write": "Write your report."
+},
+{
+"type": "email",
+"q": 4,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You have received this email from your English-speaking friend Chris.",
+"stimulus": {
+"body": "From: Chris\nSubject: Getting around\n\nI've booked my visit at last! One thing, though — I won't have a car, and I'll be staying quite far from the centre. How easy is it to get around your town without driving? What's the cheapest way for me to travel every day, and is there anything I should watch out for, like strikes or crowded times?\nSee you soon,\nChris"
+},
+"bullets": [
+"how easy it is to get around without a car",
+"the cheapest way to travel every day",
+"something Chris should watch out for"
+],
+"write": "Write your email."
+}
+]
+}
+]
+},
+{
+"title": "B2 First — Writing (Practice 7)",
+"durationMin": 80,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 140,
+"maxWords": 190,
+"lead": "In your English class you have been talking about families and technology. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+"stimulus": {
+"body": "\"Parents should limit the amount of time their teenage children spend on their phones. Do you agree?\"\n\nNotes\n\nWrite about:\n1. sleep\n2. schoolwork\n3. ............... (your own idea)"
+},
+"bullets": [
+"sleep",
+"schoolwork",
+"your own idea",
+"give reasons for your point of view"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement in an English-language magazine for young people.",
+"stimulus": {
+"title": "A DAY WITHOUT MY PHONE",
+"body": "Could you survive a whole day without your phone? Perhaps you have already tried! Write an article describing what a phone-free day would be like (or was like) for you, explaining the most difficult moment, and saying what you learned about your own habits."
+},
+"bullets": [
+"what a phone-free day would be like or was like",
+"the most difficult moment",
+"what you learned about your habits"
+],
+"write": "Write your article."
+},
+{
+"type": "letter",
+"q": 3,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You have received this letter from your English-speaking friend Dana.",
+"stimulus": {
+"body": "My parents have suddenly decided I spend too long on my phone, and now they want to set a daily limit. I think it's completely unfair — I use it for homework too! We keep arguing about it. What do you think? Are they right? And how can I get them to trust me a bit more?\nLove,\nDana"
+},
+"bullets": [
+"whether you think Dana's parents are right",
+"reasons for your opinion",
+"how Dana could win her parents' trust"
+],
+"write": "Write your letter in reply."
+},
+{
+"type": "review",
+"q": 4,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement on an English-language entertainment website.",
+"stimulus": {
+"title": "Worth the watch?",
+"body": "Streaming series can swallow hours of our free time. Write a review of a series you have watched recently, describing what it is about, saying what kept you watching (or nearly made you stop), and explaining whether it deserves so many hours of a viewer's life."
+},
+"bullets": [
+"what the series is about",
+"what kept you watching or nearly made you stop",
+"whether it deserves the viewer's time"
+],
+"write": "Write your review."
+}
+]
+}
+]
+},
+{
+"title": "B2 First — Writing (Practice 8)",
+"durationMin": 80,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 140,
+"maxWords": 190,
+"lead": "In your English class you have been talking about learning languages. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+"stimulus": {
+"body": "\"Every student should learn at least one foreign language at school. Do you agree?\"\n\nNotes\n\nWrite about:\n1. future jobs\n2. understanding other cultures\n3. ............... (your own idea)"
+},
+"bullets": [
+"future jobs",
+"understanding other cultures",
+"your own idea",
+"give reasons for your point of view"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "email",
+"q": 2,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You have received this email from your English-speaking friend Nicky.",
+"stimulus": {
+"body": "From: Nicky\nSubject: Which language?\n\nNext year at school I have to choose a new language, and I can't decide between Spanish, French and Mandarin. You're so good at languages — which one would you pick, and why? Also, be honest: how much work is it really, outside class? I don't want any nasty surprises!\nThanks,\nNicky"
+},
+"bullets": [
+"which language Nicky should choose, and why",
+"how much work it involves outside class",
+"some encouragement for Nicky"
+],
+"write": "Write your email."
+},
+{
+"type": "report",
+"q": 3,
+"minWords": 140,
+"maxWords": 190,
+"lead": "The director of your language school wants students to get more speaking practice and has asked you to write a report.",
+"stimulus": {
+"title": "Report: more speaking practice",
+"body": "Describe the opportunities students currently have to speak the language they are learning, suggest two new activities that would give them more practice, and explain which activity the school should introduce first."
+},
+"bullets": [
+"current opportunities to practise speaking",
+"two new activities",
+"which activity should come first, and why"
+],
+"write": "Write your report."
+},
+{
+"type": "article",
+"q": 4,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement on an English-language website for students.",
+"stimulus": {
+"title": "AN APP OR A CLASSROOM?",
+"body": "Millions of people now learn languages on their phones instead of in a classroom. Which works better? Write an article comparing the two ways of learning, using your own experience, and saying which you would recommend to a complete beginner."
+},
+"bullets": [
+"learning with an app compared with a classroom",
+"your own experience",
+"your recommendation for a complete beginner"
+],
+"write": "Write your article."
+}
+]
+}
+]
+},
+{
+"title": "B2 First — Writing (Practice 9)",
+"durationMin": 80,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 140,
+"maxWords": 190,
+"lead": "In your English class you have been talking about food and health. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+"stimulus": {
+"body": "\"Schools should stop selling unhealthy snacks and sugary drinks. Do you agree?\"\n\nNotes\n\nWrite about:\n1. students' health\n2. freedom to choose\n3. ............... (your own idea)"
+},
+"bullets": [
+"students' health",
+"freedom to choose",
+"your own idea",
+"give reasons for your point of view"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "review",
+"q": 2,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement on an English-language website about food.",
+"stimulus": {
+"title": "Cheap, quick and healthy?",
+"body": "Students always say healthy food is too expensive or too slow. Prove them wrong! Write a review of a café, market stall or restaurant near your school where students can eat well, describing the food, the prices and the atmosphere, and saying who would enjoy it most."
+},
+"bullets": [
+"the food and the prices",
+"the atmosphere",
+"who would enjoy it most"
+],
+"write": "Write your review."
+},
+{
+"type": "letter",
+"q": 3,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You have received this letter from your English-speaking friend Ellie.",
+"stimulus": {
+"body": "University is great, but I'm living away from home for the first time and I have to cook for myself. So far I've mostly eaten pasta and toast! You cook quite a lot, don't you? What easy meals should I learn first? And how do you avoid wasting food and money when you shop?\nMiss you,\nEllie"
+},
+"bullets": [
+"easy meals Ellie should learn first",
+"how to avoid wasting food and money",
+"some encouragement about cooking"
+],
+"write": "Write your letter in reply."
+},
+{
+"type": "report",
+"q": 4,
+"minWords": 140,
+"maxWords": 190,
+"lead": "Your school principal is thinking about opening a breakfast club and has asked you to write a report.",
+"stimulus": {
+"title": "Report: a school breakfast club",
+"body": "Describe what students at your school usually eat before lessons, explain how this affects their morning classes, and say whether you would recommend opening a breakfast club, giving reasons."
+},
+"bullets": [
+"what students usually eat before lessons",
+"how this affects morning classes",
+"your recommendation about the breakfast club"
+],
+"write": "Write your report."
+}
+]
+}
+]
+},
+{
+"title": "B2 First — Writing (Practice 10)",
+"durationMin": 80,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 140,
+"maxWords": 190,
+"lead": "In your English class you have been talking about tourism. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+"stimulus": {
+"body": "\"Attracting more tourists would be good for your region. Do you agree?\"\n\nNotes\n\nWrite about:\n1. jobs\n2. the environment\n3. ............... (your own idea)"
+},
+"bullets": [
+"jobs",
+"the environment",
+"your own idea",
+"give reasons for your point of view"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement in an international English-language travel magazine.",
+"stimulus": {
+"title": "THE PLACE THE GUIDEBOOKS MISS",
+"body": "Every region has a special place that tourists walk straight past. Write an article about a place in your region that deserves more visitors, describing what makes it special, and explaining why the guidebooks ignore it. The best articles will be published."
+},
+"bullets": [
+"a place in your region that deserves more visitors",
+"what makes it special",
+"why the guidebooks ignore it"
+],
+"write": "Write your article."
+},
+{
+"type": "email",
+"q": 3,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You have received this email from your English-speaking friend Toni.",
+"stimulus": {
+"body": "From: Toni\nSubject: Planning my trip!\n\nI'm finally coming to visit your region — I just need to choose the dates. When is the best time of year to come? I'd love to see the famous sights, but I'd also like to do something most tourists don't do. Oh, and what should I pack? I always bring the wrong clothes!\nCan't wait,\nToni"
+},
+"bullets": [
+"the best time of year to visit",
+"something most tourists don't do",
+"what Toni should pack"
+],
+"write": "Write your email."
+},
+{
+"type": "review",
+"q": 4,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement on an English-language travel website.",
+"stimulus": {
+"title": "Attraction reviews from locals",
+"body": "Tourists read reviews written by other tourists — but locals know the truth! Write a review of a well-known attraction in your region, describing what visitors can see and do there, mentioning anything that is overrated, and giving one tip only a local would know."
+},
+"bullets": [
+"what visitors can see and do",
+"anything that is overrated",
+"a tip only a local would know"
+],
+"write": "Write your review."
+}
+]
+}
+]
+},
+{
+"title": "B2 First — Writing (Practice 11)",
+"durationMin": 80,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 140,
+"maxWords": 190,
+"lead": "In your English class you have been talking about friendship. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+"stimulus": {
+"body": "\"Friendships made online can be just as strong as friendships made face to face. Do you agree?\"\n\nNotes\n\nWrite about:\n1. trust\n2. shared activities\n3. ............... (your own idea)"
+},
+"bullets": [
+"trust",
+"shared activities",
+"your own idea",
+"give reasons for your point of view"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "letter",
+"q": 2,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You have received this letter from your English-speaking friend Lee.",
+"stimulus": {
+"body": "Big news — my family is moving to another town this summer, so I'll be starting at a completely new school in September. Honestly, I'm terrified about making friends all over again. You changed schools two years ago, didn't you? How did you meet people? Is there anything you wish you had done differently?\nBest,\nLee"
+},
+"bullets": [
+"how you met people at your new school",
+"something you wish you had done differently",
+"advice to help Lee feel less worried"
+],
+"write": "Write your letter in reply."
+},
+{
+"type": "report",
+"q": 3,
+"minWords": 140,
+"maxWords": 190,
+"lead": "The student welfare officer at your college wants to help new students make friends and has asked you to write a report.",
+"stimulus": {
+"title": "Report: helping new students meet people",
+"body": "Describe how students at your college usually socialise, explain why new students can find it hard to join in, and suggest two activities the college could organise to help them."
+},
+"bullets": [
+"how students usually socialise",
+"why new students find it hard to join in",
+"two activities the college could organise"
+],
+"write": "Write your report."
+},
+{
+"type": "article",
+"q": 4,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement in an English-language magazine for young people.",
+"stimulus": {
+"title": "A FRIEND I HAVE NEVER MET",
+"body": "Do you have a good friend you only know online — through gaming, fan communities or social media? Write an article describing how the friendship began, what you do together despite the distance, and whether you would like to meet in real life one day."
+},
+"bullets": [
+"how the online friendship began",
+"what you do together despite the distance",
+"whether you would like to meet in real life"
+],
+"write": "Write your article."
+}
+]
+}
+]
+},
+{
+"title": "B2 First — Writing (Practice 12)",
+"durationMin": 80,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 140,
+"maxWords": 190,
+"lead": "In your English class you have been talking about school rules. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+"stimulus": {
+"body": "\"All schools should require their students to wear a uniform. Do you agree?\"\n\nNotes\n\nWrite about:\n1. cost for families\n2. equality between students\n3. ............... (your own idea)"
+},
+"bullets": [
+"cost for families",
+"equality between students",
+"your own idea",
+"give reasons for your point of view"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "review",
+"q": 2,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement on an English-language website for teenagers.",
+"stimulus": {
+"title": "Online clothes shops — the truth",
+"body": "Teenagers buy more and more clothes online, but the photos don't always match what arrives in the post! Write a review of an online clothes shop you have used, describing what you ordered, how well the shop handled delivery and returns, and whether you would order from it again."
+},
+"bullets": [
+"what you ordered",
+"how the shop handled delivery and returns",
+"whether you would order again"
+],
+"write": "Write your review."
+},
+{
+"type": "email",
+"q": 3,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You have received this email from your English-speaking friend Jo.",
+"stimulus": {
+"body": "From: Jo\nSubject: Uniform?!\n\nDisaster — my new school has a uniform, and I've never worn one in my life! Your school has one, doesn't it? What's it actually like, wearing the same thing every day? Is there anything good about it at all? And how do people still manage to look different from each other?\nHelp!\nJo"
+},
+"bullets": [
+"what wearing a uniform is really like",
+"anything good about it",
+"how students still manage to look different"
+],
+"write": "Write your email."
+},
+{
+"type": "report",
+"q": 4,
+"minWords": 140,
+"maxWords": 190,
+"lead": "Your school's student council is discussing the uniform rules and has asked you to write a report for the school management.",
+"stimulus": {
+"title": "Report: student opinion on the uniform rules",
+"body": "Describe what students think about the current uniform rules, identify the rule that causes most complaints, and recommend one change, explaining how it would benefit both students and the school."
+},
+"bullets": [
+"what students think about the current rules",
+"the rule that causes most complaints",
+"one recommended change, with its benefits"
+],
+"write": "Write your report."
+}
+]
+}
+]
+},
+{
+"title": "B2 First — Writing (Practice 13)",
+"durationMin": 80,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 140,
+"maxWords": 190,
+"lead": "In your English class you have been talking about sport in the community. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+"stimulus": {
+"body": "\"Towns should spend more public money on sports facilities for young people. Do you agree?\"\n\nNotes\n\nWrite about:\n1. health\n2. other things the money could pay for\n3. ............... (your own idea)"
+},
+"bullets": [
+"health",
+"other things the money could pay for",
+"your own idea",
+"give reasons for your point of view"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement in an English-language magazine for young people.",
+"stimulus": {
+"title": "THE SPORT EVERYONE SHOULD TRY",
+"body": "Football and basketball get all the attention — but what about the sports nobody talks about? Write an article about a sport you think more people should try, describing what it involves, explaining why you enjoy it, and saying how a beginner could get started."
+},
+"bullets": [
+"what the sport involves",
+"why you enjoy it",
+"how a beginner could get started"
+],
+"write": "Write your article."
+},
+{
+"type": "letter",
+"q": 3,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You have received this letter from your English-speaking friend Morgan.",
+"stimulus": {
+"body": "I've decided I really need to do more exercise, but here's my problem: I hate gyms, and the idea of joining a sports club full of strangers makes me want to hide! You do loads of sport — how did you get started? Is there anything I could do that doesn't involve being watched by other people, at least at first?\nYours,\nMorgan"
+},
+"bullets": [
+"how you got started in sport",
+"activities Morgan could do without feeling watched",
+"encouragement to take the first step"
+],
+"write": "Write your letter in reply."
+},
+{
+"type": "email",
+"q": 4,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You have received this email from your English-speaking friend Andrea, who may come to study at your school.",
+"stimulus": {
+"body": "From: Andrea\nSubject: Sport at your school\n\nMy family might move to your city next year, which means I could end up at your school! Sport is a big deal for me — I train several times a week. What are the sports facilities like at your school? Which teams or clubs could I join? And are the coaches any good?\nThanks a lot,\nAndrea"
+},
+"bullets": [
+"what the sports facilities are like",
+"teams or clubs Andrea could join",
+"your opinion of the coaches"
+],
+"write": "Write your email."
+}
+]
+}
+]
+},
+{
+"title": "B2 First — Writing (Practice 14)",
+"durationMin": 80,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 140,
+"maxWords": 190,
+"lead": "In your English class you have been talking about reading. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+"stimulus": {
+"body": "\"Reading a printed book is better than reading on a screen. Do you agree?\"\n\nNotes\n\nWrite about:\n1. concentration\n2. cost\n3. ............... (your own idea)"
+},
+"bullets": [
+"concentration",
+"cost",
+"your own idea",
+"give reasons for your point of view"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "review",
+"q": 2,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement in your school's English-language magazine.",
+"stimulus": {
+"title": "The book you couldn't put down",
+"body": "We are looking for reviews of books that kept readers up past midnight! Write a review of a book you found impossible to put down, describing what it is about without spoiling the ending, explaining what made it so gripping, and saying who should read it next."
+},
+"bullets": [
+"what the book is about (no spoilers!)",
+"what made it so gripping",
+"who should read it next"
+],
+"write": "Write your review."
+},
+{
+"type": "article",
+"q": 3,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement on an English-language website for teenagers.",
+"stimulus": {
+"title": "HOW I FIND TIME TO READ",
+"body": "Between school, sport and social media, who still has time for books? You do — and we want to know your secret. Write an article explaining when and where you manage to read, what almost stops you, and one trick that helps you read more."
+},
+"bullets": [
+"when and where you manage to read",
+"what almost stops you",
+"one trick that helps you read more"
+],
+"write": "Write your article."
+},
+{
+"type": "report",
+"q": 4,
+"minWords": 140,
+"maxWords": 190,
+"lead": "Your school librarian wants to encourage reading for pleasure and has asked you to write a report.",
+"stimulus": {
+"title": "Report: reading for pleasure at our school",
+"body": "Describe how much students at your school read outside their studies, explain the main reasons many read so little, and suggest two ways the library could encourage reading for pleasure."
+},
+"bullets": [
+"how much students read outside their studies",
+"why many read so little",
+"two ways the library could encourage reading"
+],
+"write": "Write your report."
+}
+]
+}
+]
+},
+{
+"title": "B2 First — Writing (Practice 15)",
+"durationMin": 80,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 140,
+"maxWords": 190,
+"lead": "In your English class you have been talking about helping others. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+"stimulus": {
+"body": "\"All students should do some volunteer work before they finish school. Do you agree?\"\n\nNotes\n\nWrite about:\n1. learning new skills\n2. time for studying\n3. ............... (your own idea)"
+},
+"bullets": [
+"learning new skills",
+"time for studying",
+"your own idea",
+"give reasons for your point of view"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "email",
+"q": 2,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You have received this email from your English-speaking friend Charlie.",
+"stimulus": {
+"body": "From: Charlie\nSubject: Free summer!\n\nMy summer plans fell through, so suddenly I have six free weeks — and I'm thinking of volunteering for the first time. You volunteered last year, didn't you? How did you choose what to do? Was it actually worth it? And is there anything nobody warns you about before you start?\nCheers,\nCharlie"
+},
+"bullets": [
+"how you chose your volunteer work",
+"whether it was worth it",
+"something nobody warns you about"
+],
+"write": "Write your email."
+},
+{
+"type": "letter",
+"q": 3,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement on an international summer camp's noticeboard.",
+"stimulus": {
+"title": "Volunteers wanted!",
+"body": "Camp Aurora is looking for young volunteers to help run activities for children aged 8-12 this July. No experience needed — just energy and responsibility. Write a letter to the organiser, Ms Grant, explaining why you would like to volunteer, what makes you suitable, and which activities you could help with."
+},
+"bullets": [
+"why you would like to volunteer",
+"what makes you suitable",
+"which activities you could help with"
+],
+"write": "Write your letter to Ms Grant."
+},
+{
+"type": "review",
+"q": 4,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement on an English-language website for young people.",
+"stimulus": {
+"title": "Volunteering websites — do they work?",
+"body": "There are lots of websites and apps that promise to match young people with volunteering projects. Write a review of one you have used, describing how it works, saying how easy it was to find a real project through it, and explaining whether you would recommend it to a friend."
+},
+"bullets": [
+"how the website or app works",
+"how easy it was to find a real project",
+"whether you would recommend it"
+],
+"write": "Write your review."
+}
+]
+}
+]
+},
+{
+"title": "B2 First — Writing (Practice 16)",
+"durationMin": 80,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 140,
+"maxWords": 190,
+"lead": "In your English class you have been talking about advertising. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+"stimulus": {
+"body": "\"Advertising aimed at teenagers should be more strictly controlled. Do you agree?\"\n\nNotes\n\nWrite about:\n1. social media\n2. spending money\n3. ............... (your own idea)"
+},
+"bullets": [
+"social media",
+"spending money",
+"your own idea",
+"give reasons for your point of view"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "report",
+"q": 2,
+"minWords": 140,
+"maxWords": 190,
+"lead": "Your media studies teacher is preparing a lesson on advertising and has asked you to write a report.",
+"stimulus": {
+"title": "Report: the advertising students see every day",
+"body": "Describe where students at your school see most advertising during a normal day, explain which kinds of advert influence them most, and suggest one thing the school could teach students to help them judge adverts more critically."
+},
+"bullets": [
+"where students see most advertising",
+"which adverts influence them most",
+"one thing the school could teach students"
+],
+"write": "Write your report."
+},
+{
+"type": "article",
+"q": 3,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement in an English-language magazine for young people.",
+"stimulus": {
+"title": "AN ADVERT I ACTUALLY ENJOYED",
+"body": "We usually skip adverts as fast as we can — but occasionally one makes us laugh, think or even cry. Write an article about an advert you genuinely enjoyed, describing it, explaining why it worked on you, and saying whether a good advert can ever be a piece of art."
+},
+"bullets": [
+"describe the advert",
+"why it worked on you",
+"whether a good advert can be a piece of art"
+],
+"write": "Write your article."
+},
+{
+"type": "letter",
+"q": 4,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You have received this letter from your English-speaking friend Kim.",
+"stimulus": {
+"body": "I need to confess something: I keep buying things that influencers recommend, and half of them turn out to be rubbish. Last month I wasted all my birthday money on a jacket that looked amazing online and awful on me. Why do I keep falling for it? How do you decide what's worth buying? Please share your wisdom!\nKim"
+},
+"bullets": [
+"why people fall for influencer recommendations",
+"how you decide what is worth buying",
+"advice to help Kim spend more wisely"
+],
+"write": "Write your letter in reply."
+}
+]
+}
+]
+},
+{
+"title": "B2 First — Writing (Practice 17)",
+"durationMin": 80,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 140,
+"maxWords": 190,
+"lead": "In your English class you have been talking about life in cities. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+"stimulus": {
+"body": "\"Cities need more parks and green spaces, even if it means less space for new housing. Do you agree?\"\n\nNotes\n\nWrite about:\n1. health\n2. the need for homes\n3. ............... (your own idea)"
+},
+"bullets": [
+"health",
+"the need for homes",
+"your own idea",
+"give reasons for your point of view"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "review",
+"q": 2,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement on an English-language website about your city.",
+"stimulus": {
+"title": "Our city's best outdoor places",
+"body": "We are building a guide to the city's parks and green spaces, written by the people who use them. Write a review of a park you know well, describing what you can do there, saying when it is at its best and worst, and explaining who it is perfect for."
+},
+"bullets": [
+"what you can do in the park",
+"when it is at its best and worst",
+"who it is perfect for"
+],
+"write": "Write your review."
+},
+{
+"type": "email",
+"q": 3,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You have received this email from your English-speaking friend Val.",
+"stimulus": {
+"body": "From: Val\nSubject: Escaping the concrete\n\nI'll be in your city for a week in spring, and you know me — after two days of museums I'll be desperate for trees and fresh air! Where can I find a bit of nature without leaving the city? Could we organise a picnic somewhere? And is there anything green worth seeing that most visitors never find?\nHugs,\nVal"
+},
+"bullets": [
+"where to find nature inside the city",
+"a plan for a picnic together",
+"a green place most visitors never find"
+],
+"write": "Write your email."
+},
+{
+"type": "article",
+"q": 4,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement in an English-language community magazine.",
+"stimulus": {
+"title": "A GARDEN IN THE CITY",
+"body": "Community gardens are appearing on rooftops, empty plots and even car parks. Write an article saying why you think young people should get involved in a community garden, describing what they could grow and do there, and explaining how such gardens change a neighbourhood."
+},
+"bullets": [
+"why young people should get involved",
+"what they could grow and do",
+"how such gardens change a neighbourhood"
+],
+"write": "Write your article."
+}
+]
+}
+]
+},
+{
+"title": "B2 First — Writing (Practice 18)",
+"durationMin": 80,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 140,
+"maxWords": 190,
+"lead": "In your English class you have been talking about how schools test their students. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+"stimulus": {
+"body": "\"Final exams are the fairest way to judge what a student has learned. Do you agree?\"\n\nNotes\n\nWrite about:\n1. stress\n2. equal conditions for everyone\n3. ............... (your own idea)"
+},
+"bullets": [
+"stress",
+"equal conditions for everyone",
+"your own idea",
+"give reasons for your point of view"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "letter",
+"q": 2,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You have received this letter from your English-speaking friend Nat.",
+"stimulus": {
+"body": "My final exams start in six weeks and I'm already panicking. Every time I sit down to revise, I end up staring at my notes without taking anything in. You always seem so calm before exams — what's your secret? How do you organise your revision? And what do you do the night before a big exam?\nWish me luck,\nNat"
+},
+"bullets": [
+"how you organise your revision",
+"how you stay calm",
+"what to do the night before an exam"
+],
+"write": "Write your letter in reply."
+},
+{
+"type": "report",
+"q": 3,
+"minWords": 140,
+"maxWords": 190,
+"lead": "Your school principal is considering replacing some final exams with project work and has asked you to write a report.",
+"stimulus": {
+"title": "Report: exams or project work?",
+"body": "Describe how students at your school feel about final exams, explain the advantages and disadvantages of replacing some of them with project work, and make a recommendation to the principal."
+},
+"bullets": [
+"how students feel about final exams",
+"advantages and disadvantages of project work",
+"your recommendation, with reasons"
+],
+"write": "Write your report."
+},
+{
+"type": "review",
+"q": 4,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement on an English-language website for students.",
+"stimulus": {
+"title": "Revision tools — reviewed by you",
+"body": "Flashcard apps, video channels, study planners — students are surrounded by revision tools that promise better grades. Write a review of one you have used, describing how it works, saying how it affected your results, and explaining who would benefit from it most."
+},
+"bullets": [
+"how the revision tool works",
+"how it affected your results",
+"who would benefit from it most"
+],
+"write": "Write your review."
+}
+]
+}
+]
+}
+],
+"mocks": [
+{
+"title": "B2 First — Writing (MOCK 4)",
+"durationMin": 80,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 140,
+"maxWords": 190,
+"lead": "In your English class you have been talking about how culture is becoming more global. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+"stimulus": {
+"body": "\"Because of the internet, young people all over the world are becoming more and more similar. Is this a good thing?\"\n\nNotes\n\nWrite about:\n1. music and fashion\n2. local traditions\n3. ............... (your own idea)"
+},
+"bullets": [
+"music and fashion",
+"local traditions",
+"your own idea",
+"give reasons for your point of view"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement in an international English-language magazine.",
+"stimulus": {
+"title": "THE WORLD ON MY STREET",
+"body": "Global culture is no longer something you travel to find — it comes to you. Write an article describing the international influences you notice in your own town, explaining which ones have improved daily life, and saying whether anything important is being lost."
+},
+"bullets": [
+"international influences in your own town",
+"which ones have improved daily life",
+"whether anything important is being lost"
+],
+"write": "Write your article."
+},
+{
+"type": "review",
+"q": 3,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement on an English-language film website.",
+"stimulus": {
+"title": "Stories that crossed borders",
+"body": "Some films and series made in one country become worldwide hits. Write a review of a film or series from a country other than your own, describing what it shows about the culture it comes from, and explaining why you think it succeeded with audiences everywhere."
+},
+"bullets": [
+"describe the film or series",
+"what it shows about its culture",
+"why it succeeded with audiences everywhere"
+],
+"write": "Write your review."
+},
+{
+"type": "report",
+"q": 4,
+"minWords": 140,
+"maxWords": 190,
+"lead": "The international officer at your college wants local and international students to mix more and has asked you to write a report.",
+"stimulus": {
+"title": "Report: bringing local and international students together",
+"body": "Describe how much local and international students at your college currently mix, explain the main barriers that keep the two groups apart, and suggest two events or activities that would bring them together."
+},
+"bullets": [
+"how much the two groups currently mix",
+"the main barriers between them",
+"two events or activities to bring them together"
+],
+"write": "Write your report."
+}
+]
+}
+]
+},
+{
+"title": "B2 First — Writing (MOCK 5)",
+"durationMin": 80,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 140,
+"maxWords": 190,
+"lead": "In your English class you have been talking about artificial intelligence. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+"stimulus": {
+"body": "\"Artificial intelligence tools now do many everyday tasks for us. Does this really make our lives better?\"\n\nNotes\n\nWrite about:\n1. saving time\n2. skills we might lose\n3. ............... (your own idea)"
+},
+"bullets": [
+"saving time",
+"skills we might lose",
+"your own idea",
+"give reasons for your point of view"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "email",
+"q": 2,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You have received this email from your English-speaking friend Jules.",
+"stimulus": {
+"body": "From: Jules\nSubject: AI and homework\n\nSettle an argument for me. Half my class says using AI tools for homework is basically cheating; the other half uses them for everything and says I'm falling behind. You use this stuff sensibly, I think — where do you draw the line? What do you actually use AI for, and what would you never use it for?\nConfused,\nJules"
+},
+"bullets": [
+"where you draw the line with AI and homework",
+"what you actually use AI for",
+"what you would never use it for, and why"
+],
+"write": "Write your email."
+},
+{
+"type": "article",
+"q": 3,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement in an English-language magazine for young people.",
+"stimulus": {
+"title": "A JOB MACHINES WILL NEVER DO",
+"body": "Every week we hear about another job that artificial intelligence might take over. But surely some jobs will always need a human being? Write an article about one job you believe machines will never truly do, explaining what makes it impossible to automate, and saying what this tells us about people."
+},
+"bullets": [
+"one job machines will never truly do",
+"what makes it impossible to automate",
+"what this tells us about people"
+],
+"write": "Write your article."
+},
+{
+"type": "review",
+"q": 4,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement on an English-language technology website.",
+"stimulus": {
+"title": "AI apps — hype or help?",
+"body": "From photo editors to language tutors, apps powered by artificial intelligence promise to transform our lives. Write a review of one AI-powered app you have used, describing what it does well, being honest about its limits and mistakes, and saying whether it lives up to the hype."
+},
+"bullets": [
+"what the app does well",
+"its limits and mistakes",
+"whether it lives up to the hype"
+],
+"write": "Write your review."
+}
+]
+}
+]
+},
+{
+"title": "B2 First — Writing (MOCK 6)",
+"durationMin": 80,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 140,
+"maxWords": 190,
+"lead": "In your English class you have been talking about success and failure. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+"stimulus": {
+"body": "\"People learn more from failure than from success. Do you agree?\"\n\nNotes\n\nWrite about:\n1. motivation\n2. confidence\n3. ............... (your own idea)"
+},
+"bullets": [
+"motivation",
+"confidence",
+"your own idea",
+"give reasons for your point of view"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "letter",
+"q": 2,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You have received this letter from your English-speaking friend Sasha.",
+"stimulus": {
+"body": "Bad news: I didn't make the team. After a whole year of training, I wasn't even close, apparently. Right now I feel like selling my kit and never going near a pitch again. You've had setbacks before — how did you get over them? Be honest: should I try again next season, or is it time to accept I'm just not good enough?\nSasha"
+},
+"bullets": [
+"how you got over a setback of your own",
+"whether Sasha should try again next season",
+"reasons and encouragement for your advice"
+],
+"write": "Write your letter in reply."
+},
+{
+"type": "review",
+"q": 3,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement on an English-language website about films and books.",
+"stimulus": {
+"title": "Stories of glorious failure",
+"body": "The most inspiring stories are often about people who failed — sometimes repeatedly — before they got anywhere. Write a review of a film, documentary or book about a person whose failures were part of their story, describing it, and explaining what it taught you about not giving up."
+},
+"bullets": [
+"describe the film, documentary or book",
+"the failures in the person's story",
+"what it taught you about not giving up"
+],
+"write": "Write your review."
+},
+{
+"type": "report",
+"q": 4,
+"minWords": 140,
+"maxWords": 190,
+"lead": "Your head teacher wants to improve the way the school supports students after poor exam results and has asked you to write a report.",
+"stimulus": {
+"title": "Report: supporting students after poor results",
+"body": "Describe how students at your school typically react when they receive poor results, explain what support the school currently offers, and recommend two changes that would help students treat failure as a chance to improve."
+},
+"bullets": [
+"how students typically react to poor results",
+"the support the school currently offers",
+"two changes to help students learn from failure"
+],
+"write": "Write your report."
+}
+]
+}
+]
+},
+{
+"title": "B2 First — Writing (MOCK 7)",
+"durationMin": 80,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 140,
+"maxWords": 190,
+"lead": "In your English class you have been talking about how cities change. Now your English teacher has asked you to write an essay. Write an essay using all the notes and giving reasons for your point of view.",
+"stimulus": {
+"body": "\"Historic buildings should be protected, even when a city urgently needs land for new development. Do you agree?\"\n\nNotes\n\nWrite about:\n1. a city's identity\n2. the cost of protecting old buildings\n3. ............... (your own idea)"
+},
+"bullets": [
+"a city's identity",
+"the cost of protecting old buildings",
+"your own idea",
+"give reasons for your point of view"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write 140-190 words in an appropriate style.",
+"tasks": [
+{
+"type": "article",
+"q": 2,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You see this announcement in an English-language magazine about history and travel.",
+"stimulus": {
+"title": "A PLACE WORTH SAVING",
+"body": "All over the world, historic places are disappearing under new roads, offices and apartments. Write an article about a historic place near you that you believe must be saved, describing it, explaining what would be lost if it disappeared, and suggesting how it could be given a future."
+},
+"bullets": [
+"describe the historic place",
+"what would be lost if it disappeared",
+"how it could be given a future"
+],
+"write": "Write your article."
+},
+{
+"type": "email",
+"q": 3,
+"minWords": 140,
+"maxWords": 190,
+"lead": "You have received this email from your English-speaking friend Andy.",
+"stimulus": {
+"body": "From: Andy\nSubject: Is it true about the old market?\n\nI read online that the old market in your town might be knocked down to build a shopping centre — surely not?! I have such good memories of that place from my visit. What's actually happening? How do people in the town feel about it? And what do YOU think should be done?\nWrite back soon,\nAndy"
+},
+"bullets": [
+"what is actually happening to the old market",
+"how people in the town feel",
+"what you think should be done"
+],
+"write": "Write your email."
+},
+{
+"type": "report",
+"q": 4,
+"minWords": 140,
+"maxWords": 190,
+"lead": "Your town council has invited young residents to write reports about the future of a historic building in the town centre.",
+"stimulus": {
+"title": "Report: a new life for an old building",
+"body": "Describe the current condition of a historic building in your town centre and how it is used, suggest a new use that would attract young people, and explain how this use would benefit the whole town."
+},
+"bullets": [
+"the building's current condition and use",
+"a new use that would attract young people",
+"how this would benefit the whole town"
+],
+"write": "Write your report."
+}
+]
+}
+]
+}
+]
+},
+"C1": {
+"practice": [
+{
+"title": "C1 Advanced — Writing (Practice 4)",
+"durationMin": 90,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your class has attended a seminar about how employers could improve their employees' work-life balance. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would be more effective, giving reasons to support your opinion.",
+"stimulus": {
+"title": "How could employers improve their employees' work-life balance?",
+"body": "• allowing genuinely flexible working hours\n• guaranteeing a 'right to disconnect' outside working hours\n• offering wellbeing support such as counselling and exercise facilities\n\nSome opinions expressed in the seminar:\n\"Flexibility is meaningless if your manager still expects you at every meeting.\"\n\"One late-night email from the boss undoes a week of good intentions.\"\n\"A free gym membership does not fix a workload that never ends.\""
+},
+"bullets": [
+"discuss two of the ideas",
+"explain which would be more effective",
+"give reasons to support your opinion"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "proposal",
+"q": 2,
+"minWords": 220,
+"maxWords": 260,
+"lead": "The directors of the company where you work have invited staff to submit proposals on flexible working.",
+"stimulus": {
+"title": "Proposal: a flexible working scheme",
+"body": "Write a proposal recommending a flexible working scheme for your company. Describe the problems the current fixed timetable causes for staff, outline how your scheme would operate, and explain why it would benefit the company as well as its employees."
+},
+"bullets": [
+"the problems caused by the current timetable",
+"how your scheme would operate",
+"the benefits for both staff and the company"
+],
+"write": "Write your proposal."
+},
+{
+"type": "report",
+"q": 3,
+"minWords": 220,
+"maxWords": 260,
+"lead": "The manager of the organisation where you work part-time is concerned about staff regularly working late, and has asked you to write a report.",
+"stimulus": {
+"title": "Report: the culture of working late",
+"body": "Write a report describing how widespread late working has become in your workplace, analysing its effects on staff performance and morale, and recommending two practical measures the manager should introduce."
+},
+"bullets": [
+"how widespread late working has become",
+"its effects on performance and morale",
+"two practical measures you recommend"
+],
+"write": "Write your report."
+},
+{
+"type": "letter",
+"q": 4,
+"minWords": 220,
+"maxWords": 260,
+"lead": "You have received this letter from an English-speaking friend, Alex.",
+"stimulus": {
+"body": "I've been offered a promotion, but everyone in that team seems to work evenings and weekends. The salary is much better, and saying no might look like I lack ambition. But honestly, I love having time for my music and my friends.\n\nYou always give me sensible advice - what do you think I should do?\n\nBest wishes,\nAlex"
+},
+"bullets": [
+"your honest advice on whether to accept the promotion",
+"reasons for your advice",
+"how Alex could protect their free time if they accept"
+],
+"write": "Write your letter in reply."
+}
+]
+}
+]
+},
+{
+"title": "C1 Advanced — Writing (Practice 5)",
+"durationMin": 90,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your class has attended a panel discussion about how museums could remain relevant in the twenty-first century. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea is more important, giving reasons to support your opinion.",
+"stimulus": {
+"title": "How could museums remain relevant in the twenty-first century?",
+"body": "• using interactive and digital technology in exhibitions\n• involving local communities in deciding what is displayed\n• making entry free for everyone\n\nSome opinions expressed in the discussion:\n\"Glass cases and long labels belong to another century.\"\n\"A museum that ignores the people around it deserves to be empty.\"\n\"Charging for entry tells half the city the museum is not for them.\""
+},
+"bullets": [
+"discuss two of the ideas",
+"explain which is more important",
+"give reasons to support your opinion"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "proposal",
+"q": 2,
+"minWords": 220,
+"maxWords": 260,
+"lead": "The director of your local museum has invited proposals from young visitors.",
+"stimulus": {
+"title": "Proposal: attracting visitors under 25",
+"body": "Write a proposal suggesting how the museum could attract more visitors under the age of 25. Explain why young people currently stay away, recommend two specific initiatives, and describe how the museum could measure whether they are working."
+},
+"bullets": [
+"why young people currently stay away",
+"two specific initiatives",
+"how the museum could measure success"
+],
+"write": "Write your proposal."
+},
+{
+"type": "review",
+"q": 3,
+"minWords": 220,
+"maxWords": 260,
+"lead": "An English-language culture website has invited reviews of exhibitions.",
+"stimulus": {
+"title": "Exhibition reviews wanted",
+"body": "Send us a review of an exhibition you have visited recently. Describe what the exhibition set out to do, evaluate how imaginatively it presented its subject, and say whether it justified the time and money a visitor would spend on it."
+},
+"bullets": [
+"what the exhibition set out to do",
+"how imaginatively it presented its subject",
+"whether it justified the time and money"
+],
+"write": "Write your review."
+},
+{
+"type": "email",
+"q": 4,
+"minWords": 220,
+"maxWords": 260,
+"lead": "You have received this email from your English-speaking friend Jordan.",
+"stimulus": {
+"body": "From: Jordan\nSubject: Culture trip\n\nI'm finally visiting your country in the spring, and I want to spend a couple of days on museums and galleries - but I refuse to trudge round somewhere boring out of a sense of duty!\n\nWhich places would genuinely be worth my time, and is there anything overrated I should skip? Also, any tricks for avoiding the crowds?\n\nThanks,\nJordan"
+},
+"bullets": [
+"which museums or galleries are genuinely worth visiting, and why",
+"anything overrated Jordan could skip",
+"advice on avoiding the crowds"
+],
+"write": "Write your email in reply."
+}
+]
+}
+]
+},
+{
+"title": "C1 Advanced — Writing (Practice 6)",
+"durationMin": 90,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your class has attended a seminar about how schools could improve students' media literacy. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would be more effective, giving reasons to support your opinion.",
+"stimulus": {
+"title": "How could schools improve students' media literacy?",
+"body": "• teaching a dedicated course on evaluating online information\n• building source-checking into every school subject\n• inviting working journalists to explain how news is made\n\nSome opinions expressed in the seminar:\n\"One weekly lesson cannot compete with six hours a day of scrolling.\"\n\"Checking sources should be as automatic as checking spelling.\"\n\"Until you see how a story is put together, you can't see how one is taken apart.\""
+},
+"bullets": [
+"discuss two of the ideas",
+"explain which would be more effective",
+"give reasons to support your opinion"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "report",
+"q": 2,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your college principal wants to understand how students get their news, and has asked you to write a report based on a survey of your classmates.",
+"stimulus": {
+"title": "Report: how students follow the news",
+"body": "Write a report summarising where students currently get their news and how much they trust it, identifying the main risks in these habits, and recommending how the college could respond."
+},
+"bullets": [
+"where students get their news and how much they trust it",
+"the main risks in these habits",
+"your recommendations for the college"
+],
+"write": "Write your report."
+},
+{
+"type": "review",
+"q": 3,
+"minWords": 220,
+"maxWords": 260,
+"lead": "An English-language student magazine has invited reviews of documentaries about the media.",
+"stimulus": {
+"title": "Documentaries about the media",
+"body": "Review a documentary that examines how the media or social media influence what people believe. Describe its central argument, assess how fairly it treated the subject, and say how watching it changed your own online habits, if at all."
+},
+"bullets": [
+"the documentary's central argument",
+"how fairly it treated the subject",
+"whether it changed your own habits"
+],
+"write": "Write your review."
+},
+{
+"type": "proposal",
+"q": 4,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your students' union has funding for one awareness campaign this year and has invited proposals.",
+"stimulus": {
+"title": "Proposal: a campaign against misinformation",
+"body": "Write a proposal for a campus campaign helping students recognise misinformation. Explain why the campaign is needed now, describe the activities it would involve, and explain why it deserves the funding more than other possible campaigns."
+},
+"bullets": [
+"why the campaign is needed now",
+"the activities it would involve",
+"why it deserves the funding"
+],
+"write": "Write your proposal."
+}
+]
+}
+]
+},
+{
+"title": "C1 Advanced — Writing (Practice 7)",
+"durationMin": 90,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your class has attended a seminar about how a city centre could be made more pleasant to live in. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would make the greater difference, giving reasons to support your opinion.",
+"stimulus": {
+"title": "How could a city centre be made more pleasant to live in?",
+"body": "• closing central streets to private cars\n• creating more parks and green spaces\n• mixing housing, shops and offices in the same areas\n\nSome opinions expressed in the seminar:\n\"Remove the traffic and the city suddenly has a voice you can hear.\"\n\"People do not linger on concrete; they linger under trees.\"\n\"A district that empties at six in the evening is not really a city.\""
+},
+"bullets": [
+"discuss two of the ideas",
+"explain which would make the greater difference",
+"give reasons to support your opinion"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "proposal",
+"q": 2,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your city council is planning to redesign a neglected central square and has invited proposals from residents.",
+"stimulus": {
+"title": "Proposal: redesigning the main square",
+"body": "Write a proposal for the redesign of the square. Describe what makes the square unwelcoming at present, recommend the key features the new design should include, and explain how the redesigned square would change the way residents use the city centre."
+},
+"bullets": [
+"what makes the square unwelcoming now",
+"the key features the new design should include",
+"how the redesign would change residents' habits"
+],
+"write": "Write your proposal."
+},
+{
+"type": "report",
+"q": 3,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your local council is reviewing its cycling infrastructure and has asked residents' groups for reports. You have agreed to write one.",
+"stimulus": {
+"title": "Report: cycling in the city",
+"body": "Write a report assessing how safe and practical cycling currently is in your city, identifying the main barriers that stop more people from cycling, and recommending the improvements the council should prioritise."
+},
+"bullets": [
+"how safe and practical cycling is now",
+"the main barriers stopping people",
+"the improvements the council should prioritise"
+],
+"write": "Write your report."
+},
+{
+"type": "letter",
+"q": 4,
+"minWords": 220,
+"maxWords": 260,
+"lead": "You have received this letter from an English-speaking friend, Robin.",
+"stimulus": {
+"body": "Big decision time! I've got a job offer in a huge capital city and another in a small town near the mountains. The city job pays more and sounds exciting, but everyone tells me I'd spend my life commuting. The town is beautiful but I'm worried I'd be bored within a year.\n\nYou've lived in both kinds of place - what would you do in my position?\n\nBest wishes,\nRobin"
+},
+"bullets": [
+"your advice on which offer Robin should accept",
+"the realities of daily life in each place",
+"reasons to support your advice"
+],
+"write": "Write your letter in reply."
+}
+]
+}
+]
+},
+{
+"title": "C1 Advanced — Writing (Practice 8)",
+"durationMin": 90,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your class has attended a seminar about how adults could be encouraged to keep learning throughout their lives. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would be more effective, giving reasons to support your opinion.",
+"stimulus": {
+"title": "How could adults be encouraged to keep learning throughout their lives?",
+"body": "• requiring employers to fund training time for staff\n• offering free evening classes in community centres\n• recognising short online courses with official qualifications\n\nSome opinions expressed in the seminar:\n\"Nobody studies after a ten-hour shift unless the boss gives them the hours.\"\n\"The classes exist - people just never hear about them.\"\n\"A certificate no employer recognises is just a nice email.\""
+},
+"bullets": [
+"discuss two of the ideas",
+"explain which would be more effective",
+"give reasons to support your opinion"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "review",
+"q": 2,
+"minWords": 220,
+"maxWords": 260,
+"lead": "An English-language education website has invited reviews of online courses.",
+"stimulus": {
+"title": "Online course reviews wanted",
+"body": "Review an online course you have completed. Describe what the course promised and how it was taught, evaluate whether it delivered real skills rather than just videos to watch, and say what kind of learner it would suit best."
+},
+"bullets": [
+"what the course promised and how it was taught",
+"whether it delivered real skills",
+"what kind of learner it would suit"
+],
+"write": "Write your review."
+},
+{
+"type": "proposal",
+"q": 3,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your town council wants to promote adult learning and has invited proposals for a weekend learning festival.",
+"stimulus": {
+"title": "Proposal: a community learning festival",
+"body": "Write a proposal for a weekend festival at which local people teach each other skills. Describe how the festival would be organised, explain how you would persuade adults who have not studied for years to take part, and outline the longer-term benefits for the town."
+},
+"bullets": [
+"how the festival would be organised",
+"how you would attract reluctant learners",
+"the longer-term benefits for the town"
+],
+"write": "Write your proposal."
+},
+{
+"type": "email",
+"q": 4,
+"minWords": 220,
+"maxWords": 260,
+"lead": "You have received this email from your English-speaking friend Chris.",
+"stimulus": {
+"body": "From: Chris\nSubject: Too old to start again?\n\nI've finally admitted that I can't stand my job, and I'm seriously thinking about retraining as a graphic designer. The catch: it means studying for two years while working part-time, and part of me thinks I'm too old to go back to being a student.\n\nYou changed direction yourself, didn't you? Be honest with me - is it worth it, and how did you cope?\n\nChris"
+},
+"bullets": [
+"your honest opinion on whether Chris should retrain",
+"how Chris could cope with studying while working",
+"encouragement based on your own or others' experience"
+],
+"write": "Write your email in reply."
+}
+]
+}
+]
+},
+{
+"title": "C1 Advanced — Writing (Practice 9)",
+"durationMin": 90,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your class has attended a panel discussion about how a region's limited budget for cultural heritage should be spent. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea deserves priority, giving reasons to support your opinion.",
+"stimulus": {
+"title": "How should a region's cultural heritage budget be spent?",
+"body": "• restoring historic buildings and monuments\n• digitising archives, recordings and photographs\n• supporting people who practise traditional crafts and music\n\nSome opinions expressed in the discussion:\n\"Once the roof falls in, no database will bring the building back.\"\n\"Paper burns and tape decays - digitise first, argue later.\"\n\"Heritage is not stone; it is the last weaver still willing to teach.\""
+},
+"bullets": [
+"discuss two of the ideas",
+"explain which deserves priority",
+"give reasons to support your opinion"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "proposal",
+"q": 2,
+"minWords": 220,
+"maxWords": 260,
+"lead": "A historic cinema in your town is threatened with demolition. The council has invited proposals on its future.",
+"stimulus": {
+"title": "Proposal: saving the Grand Cinema",
+"body": "Write a proposal arguing that the cinema should be saved and given a new role in the town. Explain why the building matters, describe the new use you recommend, and explain how the project could pay for itself over time."
+},
+"bullets": [
+"why the building matters to the town",
+"the new use you recommend",
+"how the project could pay for itself"
+],
+"write": "Write your proposal."
+},
+{
+"type": "report",
+"q": 3,
+"minWords": 220,
+"maxWords": 260,
+"lead": "The trust that manages a heritage site near your town has asked visitors for reports on their experience.",
+"stimulus": {
+"title": "Report: the visitor experience",
+"body": "Write a report on a recent visit to the site. Describe the strengths and weaknesses of the current visitor experience, explain which types of visitor are best and worst served, and recommend two improvements the trust should make."
+},
+"bullets": [
+"the strengths and weaknesses of the visit",
+"which visitors are best and worst served",
+"two improvements you recommend"
+],
+"write": "Write your report."
+},
+{
+"type": "letter",
+"q": 4,
+"minWords": 220,
+"maxWords": 260,
+"lead": "You have received this letter from an English-speaking friend, Dana.",
+"stimulus": {
+"body": "I'm writing an article about how young people feel about the traditions of their region - festivals, food, music, all of it. Some people my age here say tradition is a burden; others say losing it would be like losing a language.\n\nCould you tell me about one tradition from your area, whether young people still care about it, and whether you think it will survive another generation?\n\nThanks so much,\nDana"
+},
+"bullets": [
+"describe one tradition from your area",
+"whether young people still care about it",
+"whether you think it will survive, and why"
+],
+"write": "Write your letter in reply."
+}
+]
+}
+]
+},
+{
+"title": "C1 Advanced — Writing (Practice 10)",
+"durationMin": 90,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your class has attended a seminar about what employers should prioritise when their staff work from home. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea is more important, giving reasons to support your opinion.",
+"stimulus": {
+"title": "What should employers prioritise when staff work from home?",
+"body": "• keeping communication between colleagues strong\n• protecting employees' mental health and boundaries\n• judging staff on results rather than hours online\n\nSome opinions expressed in the seminar:\n\"Ideas used to be born at the coffee machine; now there is no coffee machine.\"\n\"When your bedroom is your office, the working day never really ends.\"\n\"Watching who is 'online' is surveillance, not management.\""
+},
+"bullets": [
+"discuss two of the ideas",
+"explain which is more important",
+"give reasons to support your opinion"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "report",
+"q": 2,
+"minWords": 220,
+"maxWords": 260,
+"lead": "The company where you work has just completed a six-month trial of hybrid working, and the management has asked staff representatives for reports. You have agreed to write one.",
+"stimulus": {
+"title": "Report: the hybrid working trial",
+"body": "Write a report evaluating the trial. Describe how staff responded to hybrid working, identify what worked well and what caused problems, and recommend whether the arrangement should be made permanent, and on what conditions."
+},
+"bullets": [
+"how staff responded to the trial",
+"what worked well and what caused problems",
+"your recommendation, with conditions"
+],
+"write": "Write your report."
+},
+{
+"type": "review",
+"q": 3,
+"minWords": 220,
+"maxWords": 260,
+"lead": "An English-language technology magazine has invited reviews of tools for remote workers.",
+"stimulus": {
+"title": "Remote working tools",
+"body": "Review an app, platform or workspace that is supposed to make remote working easier. Describe what it offers, assess how far it solves the real problems of working away from an office, and say whether it is worth what it costs."
+},
+"bullets": [
+"what it offers",
+"how far it solves the real problems of remote work",
+"whether it is worth the cost"
+],
+"write": "Write your review."
+},
+{
+"type": "email",
+"q": 4,
+"minWords": 220,
+"maxWords": 260,
+"lead": "You have received this email from your English-speaking friend Nadia.",
+"stimulus": {
+"body": "From: Nadia\nSubject: Fully remote job offer\n\nI've been offered a completely remote job with a company on the other side of the world. Better pay, no commute, and I could even travel while working. But I've never worked from home for more than a day or two, and I keep hearing people say it gets lonely.\n\nYou've done this for a while now - what is it actually like? Should I take it, and how would I make it work?\n\nNadia"
+},
+"bullets": [
+"what remote working is really like, good and bad",
+"your advice on whether Nadia should accept",
+"practical suggestions for making it work"
+],
+"write": "Write your email in reply."
+}
+]
+}
+]
+},
+{
+"title": "C1 Advanced — Writing (Practice 11)",
+"durationMin": 90,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your class has attended a seminar about which areas of scientific research most deserve public funding. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which area deserves priority, giving reasons to support your opinion.",
+"stimulus": {
+"title": "Which areas of scientific research most deserve public funding?",
+"body": "• research into preventing and curing disease\n• research into clean energy and the climate\n• the exploration of space\n\nSome opinions expressed in the seminar:\n\"Every other achievement means little to someone who is seriously ill.\"\n\"There is no point curing patients on a planet that is burning.\"\n\"The technologies we use every day began as 'useless' space research.\""
+},
+"bullets": [
+"discuss two of the ideas",
+"explain which deserves priority",
+"give reasons to support your opinion"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "proposal",
+"q": 2,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your city council wants to bring science to the public and has invited proposals for a science festival.",
+"stimulus": {
+"title": "Proposal: a city science festival",
+"body": "Write a proposal for a weekend science festival aimed at people who would never normally attend a science event. Describe the activities you recommend, explain how you would reach audiences beyond schools and universities, and outline what the city would gain."
+},
+"bullets": [
+"the activities you recommend",
+"how you would reach new audiences",
+"what the city would gain"
+],
+"write": "Write your proposal."
+},
+{
+"type": "review",
+"q": 3,
+"minWords": 220,
+"maxWords": 260,
+"lead": "An English-language student journal has invited reviews of popular science books.",
+"stimulus": {
+"title": "Popular science reviews wanted",
+"body": "Review a popular science book you have read. Describe the questions it tackles, assess how well it explains difficult ideas to non-specialists without distorting them, and say who should read it."
+},
+"bullets": [
+"the questions the book tackles",
+"how well it explains difficult ideas without distorting them",
+"who should read it"
+],
+"write": "Write your review."
+},
+{
+"type": "report",
+"q": 4,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your college principal has noticed falling attendance at the college science club and has asked you to write a report.",
+"stimulus": {
+"title": "Report: the college science club",
+"body": "Write a report explaining why participation in the science club has declined, describing what students say they would want from it, and recommending how the club should change to win members back."
+},
+"bullets": [
+"why participation has declined",
+"what students say they want",
+"how the club should change"
+],
+"write": "Write your report."
+}
+]
+}
+]
+},
+{
+"title": "C1 Advanced — Writing (Practice 12)",
+"durationMin": 90,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your class has attended a panel discussion about the main benefits the sharing economy brings to a city. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which benefit is more significant, giving reasons to support your opinion.",
+"stimulus": {
+"title": "What are the main benefits of the sharing economy for a city?",
+"body": "• cheaper access to cars, tools and accommodation\n• less waste, because fewer things are bought and thrown away\n• flexible income for people who rent out what they own\n\nSome opinions expressed in the discussion:\n\"Why buy a drill you will use twice a year?\"\n\"Sharing one car properly takes ten others off the road.\"\n\"For some families, renting out a spare room is what pays the bills.\""
+},
+"bullets": [
+"discuss two of the ideas",
+"explain which benefit is more significant",
+"give reasons to support your opinion"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "review",
+"q": 2,
+"minWords": 220,
+"maxWords": 260,
+"lead": "An English-language consumer website has invited reviews of sharing-economy services.",
+"stimulus": {
+"title": "Sharing-economy reviews wanted",
+"body": "Review a sharing or rental service you have used, such as car-sharing, bike hire or holiday accommodation. Describe how the service works in practice, evaluate how it compares with owning or with traditional alternatives, and warn readers about anything that surprised you."
+},
+"bullets": [
+"how the service works in practice",
+"how it compares with owning or traditional alternatives",
+"anything that surprised you"
+],
+"write": "Write your review."
+},
+{
+"type": "proposal",
+"q": 3,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your neighbourhood association has a small budget for community projects and has invited proposals.",
+"stimulus": {
+"title": "Proposal: a community tool and equipment library",
+"body": "Write a proposal for a library from which residents could borrow tools, camping gear and other rarely used equipment. Explain how it would be set up and run, how residents would be persuaded to trust and use it, and why it deserves the association's budget."
+},
+"bullets": [
+"how the library would be set up and run",
+"how residents would be persuaded to use it",
+"why it deserves the budget"
+],
+"write": "Write your proposal."
+},
+{
+"type": "letter",
+"q": 4,
+"minWords": 220,
+"maxWords": 260,
+"lead": "You have received this letter from an English-speaking friend, Marta.",
+"stimulus": {
+"body": "I've moved into a flat with a spare room, and everyone keeps telling me to rent it out to tourists - apparently I could cover half my rent that way. It's tempting, but the idea of strangers in my home every weekend makes me nervous, and my neighbours already complain about noise in the building.\n\nYou're always sensible about these things. What would you do?\n\nLove,\nMarta"
+},
+"bullets": [
+"your advice on whether Marta should rent out the room",
+"the advantages and risks she should weigh up",
+"an alternative she could consider"
+],
+"write": "Write your letter in reply."
+}
+]
+}
+]
+},
+{
+"title": "C1 Advanced — Writing (Practice 13)",
+"durationMin": 90,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your class has attended a seminar about where a government's sports budget would be best spent. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would bring the greater benefit to the country, giving reasons to support your opinion.",
+"stimulus": {
+"title": "Where would a government's sports budget be best spent?",
+"body": "• funding elite athletes to win international medals\n• building everyday facilities such as pools and pitches\n• improving physical education in schools\n\nSome opinions expressed in the seminar:\n\"One gold medal does more for national pride than a hundred new pitches.\"\n\"Medals inspire people for a week; a local pool changes their whole life.\"\n\"If children learn to hate sport at school, no stadium will win them back.\""
+},
+"bullets": [
+"discuss two of the ideas",
+"explain which would bring the greater benefit",
+"give reasons to support your opinion"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "report",
+"q": 2,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your town council is deciding how to spend its sports budget and has asked residents' groups for reports on local facilities.",
+"stimulus": {
+"title": "Report: sports facilities in the town",
+"body": "Write a report describing which sports facilities residents currently use and which they avoid, explaining the main reasons for their choices, and recommending where the council's money would make the biggest difference."
+},
+"bullets": [
+"which facilities residents use and avoid",
+"the main reasons for their choices",
+"where the money would make the biggest difference"
+],
+"write": "Write your report."
+},
+{
+"type": "review",
+"q": 3,
+"minWords": 220,
+"maxWords": 260,
+"lead": "An English-language sports website has invited reviews of sports documentaries.",
+"stimulus": {
+"title": "Sports documentary reviews",
+"body": "Review a documentary about a sportsperson, team or sporting event. Describe the story it tells, assess whether it offers real insight or simply celebrates its subject, and say whether someone with no interest in sport would still enjoy it."
+},
+"bullets": [
+"the story the documentary tells",
+"whether it offers real insight or just celebration",
+"whether non-sports fans would enjoy it"
+],
+"write": "Write your review."
+},
+{
+"type": "email",
+"q": 4,
+"minWords": 220,
+"maxWords": 260,
+"lead": "You have received this email from your English-speaking friend Leo.",
+"stimulus": {
+"body": "From: Leo\nSubject: Coming for the championships!\n\nGuess what - I've got tickets for the international championships being held in your country next year! I'll be there for a week, but I only have tickets for two days of events.\n\nWhat's the atmosphere likely to be like? How should I plan the days around the sport, and is there anything about how your country celebrates these occasions that I should know about before I arrive?\n\nLeo"
+},
+"bullets": [
+"what the atmosphere will be like",
+"how Leo should plan the non-sport days",
+"what Leo should know about how your country celebrates"
+],
+"write": "Write your email in reply."
+}
+]
+}
+]
+},
+{
+"title": "C1 Advanced — Writing (Practice 14)",
+"durationMin": 90,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your class has attended a seminar about how people's privacy could best be protected in the digital age. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would be more effective, giving reasons to support your opinion.",
+"stimulus": {
+"title": "How could people's privacy best be protected in the digital age?",
+"body": "• stricter laws limiting what companies can collect\n• teaching people to manage their own data\n• requiring apps to protect privacy by default\n\nSome opinions expressed in the seminar:\n\"You cannot expect individuals to out-think a thousand engineers.\"\n\"Most people click 'accept' without reading a single word.\"\n\"The safest setting is the one nobody has to find.\""
+},
+"bullets": [
+"discuss two of the ideas",
+"explain which would be more effective",
+"give reasons to support your opinion"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "proposal",
+"q": 2,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your college is planning a welfare week and has invited proposals for events from students.",
+"stimulus": {
+"title": "Proposal: a digital privacy workshop",
+"body": "Write a proposal for a workshop teaching students to protect their personal information online. Explain why students need it, describe what the workshop would cover and how it would be run, and suggest how the college could encourage students to attend."
+},
+"bullets": [
+"why students need the workshop",
+"what it would cover and how it would run",
+"how to encourage students to attend"
+],
+"write": "Write your proposal."
+},
+{
+"type": "review",
+"q": 3,
+"minWords": 220,
+"maxWords": 260,
+"lead": "An English-language technology magazine has invited reviews of privacy-focused apps and services.",
+"stimulus": {
+"title": "Privacy tools under review",
+"body": "Review an app, browser or service that promises to protect its users' privacy. Describe what it claims to do, evaluate how well it works in daily use and what you sacrifice by using it, and say whether the trade-off is worth it."
+},
+"bullets": [
+"what it claims to do",
+"how it performs in daily use and what you sacrifice",
+"whether the trade-off is worth it"
+],
+"write": "Write your review."
+},
+{
+"type": "letter",
+"q": 4,
+"minWords": 220,
+"maxWords": 260,
+"lead": "You have received this letter from an English-speaking friend, Priya.",
+"stimulus": {
+"body": "Something unsettling happened this week: I mentioned a product in a private chat, and an hour later adverts for it were everywhere. Now I keep wondering how much of my life is being watched. Part of me wants to delete every account I have, but my work and half my friendships live online.\n\nYou seem to manage this better than I do. How worried should I really be, and what would you actually change?\n\nPriya"
+},
+"bullets": [
+"how worried Priya should really be",
+"practical changes you would recommend",
+"why deleting everything is or is not the answer"
+],
+"write": "Write your letter in reply."
+}
+]
+}
+]
+},
+{
+"title": "C1 Advanced — Writing (Practice 15)",
+"durationMin": 90,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your class has attended a seminar about how universities could open their doors to a wider range of students. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would be more effective, giving reasons to support your opinion.",
+"stimulus": {
+"title": "How could universities open their doors to a wider range of students?",
+"body": "• offering more full scholarships to low-income students\n• sending students and lecturers into schools in disadvantaged areas\n• creating part-time and online routes to a full degree\n\nSome opinions expressed in the seminar:\n\"Talent is spread evenly; money is not.\"\n\"You cannot apply to a place you have never imagined yourself in.\"\n\"Plenty of capable people simply cannot stop working for three years.\""
+},
+"bullets": [
+"discuss two of the ideas",
+"explain which would be more effective",
+"give reasons to support your opinion"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "letter",
+"q": 2,
+"minWords": 220,
+"maxWords": 260,
+"lead": "You have received this letter from an English-speaking friend, Sami.",
+"stimulus": {
+"body": "Decision time: I've been accepted by a good university, but I've also been offered a paid apprenticeship at an engineering firm. My parents are pushing hard for university; the firm says I'll be qualified and debt-free in four years. Everyone has an opinion except me!\n\nYou know what I'm like - which path do you honestly think suits me better, and why?\n\nSami"
+},
+"bullets": [
+"your honest advice on which path suits Sami",
+"the strengths and drawbacks of each option",
+"how Sami could deal with their parents' expectations"
+],
+"write": "Write your letter in reply."
+},
+{
+"type": "report",
+"q": 3,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your college runs a mentoring programme in which older students help school pupils prepare for higher education. The coordinator has asked you to write a report on it.",
+"stimulus": {
+"title": "Report: the mentoring programme",
+"body": "Write a report evaluating the programme's first year. Describe what the mentors actually did, assess the effect on the pupils and on the mentors themselves, and recommend two changes for next year."
+},
+"bullets": [
+"what the mentors actually did",
+"the effect on pupils and mentors",
+"two changes for next year"
+],
+"write": "Write your report."
+},
+{
+"type": "proposal",
+"q": 4,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your university wants more applications from students whose families have never attended university, and has invited proposals from current students.",
+"stimulus": {
+"title": "Proposal: rethinking the open day",
+"body": "Write a proposal for redesigning the university open day so that it genuinely welcomes first-generation applicants. Identify what puts such visitors off at present, describe the changes you recommend, and explain how current students could be involved."
+},
+"bullets": [
+"what puts first-generation visitors off now",
+"the changes you recommend",
+"how current students could be involved"
+],
+"write": "Write your proposal."
+}
+]
+}
+]
+},
+{
+"title": "C1 Advanced — Writing (Practice 16)",
+"durationMin": 90,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your class has attended a seminar about how a community could make the food it eats more sustainable. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would make the greater difference, giving reasons to support your opinion.",
+"stimulus": {
+"title": "How could a community make the food it eats more sustainable?",
+"body": "• supporting local farmers and food markets\n• encouraging people to eat less meat\n• cutting the amount of food that is wasted\n\nSome opinions expressed in the seminar:\n\"Food that travels three thousand kilometres cannot call itself fresh.\"\n\"Nobody wants a lecture at dinner - give people dishes worth choosing.\"\n\"We grow enough food already; we just throw a third of it away.\""
+},
+"bullets": [
+"discuss two of the ideas",
+"explain which would make the greater difference",
+"give reasons to support your opinion"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "proposal",
+"q": 2,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your town council has offered an unused piece of land to residents and invited proposals for its use.",
+"stimulus": {
+"title": "Proposal: a community food garden",
+"body": "Write a proposal for turning the land into a community food garden. Describe how the garden would be organised and maintained, explain how it would involve people of different ages and backgrounds, and outline the benefits beyond the food itself."
+},
+"bullets": [
+"how the garden would be organised and maintained",
+"how it would involve different residents",
+"the benefits beyond the food itself"
+],
+"write": "Write your proposal."
+},
+{
+"type": "report",
+"q": 3,
+"minWords": 220,
+"maxWords": 260,
+"lead": "The director of your college has asked for a report on food waste in the college canteen.",
+"stimulus": {
+"title": "Report: food waste in the canteen",
+"body": "Write a report describing where and why food is wasted in the canteen, evaluating two possible ways of reducing the waste, and recommending which the college should adopt first."
+},
+"bullets": [
+"where and why food is wasted",
+"two possible ways of reducing it",
+"which the college should adopt first, and why"
+],
+"write": "Write your report."
+},
+{
+"type": "review",
+"q": 4,
+"minWords": 220,
+"maxWords": 260,
+"lead": "An English-language food website has invited reviews of restaurants that claim to be sustainable.",
+"stimulus": {
+"title": "How green is your dinner?",
+"body": "Review a restaurant or café that promotes itself as sustainable or locally sourced. Describe the food and the experience, assess whether its environmental claims seem genuine or merely good marketing, and say whether you would go back."
+},
+"bullets": [
+"the food and the experience",
+"whether its claims seem genuine or just marketing",
+"whether you would go back"
+],
+"write": "Write your review."
+}
+]
+}
+]
+},
+{
+"title": "C1 Advanced — Writing (Practice 17)",
+"durationMin": 90,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your class has attended a panel discussion about how a city's budget for public art should be used. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea deserves priority, giving reasons to support your opinion.",
+"stimulus": {
+"title": "How should a city's budget for public art be used?",
+"body": "• commissioning murals by local artists in every district\n• installing major sculptures in central public spaces\n• funding free street performances and festivals\n\nSome opinions expressed in the discussion:\n\"A mural turns a wall people avoid into a place they photograph.\"\n\"One landmark sculpture can put a city on the map.\"\n\"Art you can walk past is fine; art that stops you is better.\""
+},
+"bullets": [
+"discuss two of the ideas",
+"explain which deserves priority",
+"give reasons to support your opinion"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "review",
+"q": 2,
+"minWords": 220,
+"maxWords": 260,
+"lead": "An English-language arts magazine has invited reviews of public art.",
+"stimulus": {
+"title": "Art outside the gallery",
+"body": "Review a piece of public art or a street art trail in a place you know. Describe the work and its setting, assess how people actually respond to it in daily life, and say whether public money was well spent on it."
+},
+"bullets": [
+"the work and its setting",
+"how people actually respond to it",
+"whether public money was well spent"
+],
+"write": "Write your review."
+},
+{
+"type": "proposal",
+"q": 3,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your neighbourhood has been offered funding for one community art project, and residents have been invited to submit proposals.",
+"stimulus": {
+"title": "Proposal: a mural for the underpass",
+"body": "Write a proposal for a community mural in a neglected part of your neighbourhood. Describe the location and why it needs the project, explain how residents of all ages would help create the mural, and address the concern that it will simply be vandalised."
+},
+"bullets": [
+"the location and why it needs the project",
+"how residents would help create the mural",
+"how you would answer the vandalism concern"
+],
+"write": "Write your proposal."
+},
+{
+"type": "email",
+"q": 4,
+"minWords": 220,
+"maxWords": 260,
+"lead": "You have received this email from your English-speaking friend Casey.",
+"stimulus": {
+"body": "From: Casey\nSubject: Arts festival trip\n\nI've just seen that your city's street arts festival is on in June, and I'm thinking of flying over for it - my first proper trip abroad on my own, by the way!\n\nIs the festival really as good as the videos make it look? Which parts should I not miss, and is there anything about visiting during the festival - crowds, prices, booking things - that I should plan for?\n\nCasey"
+},
+"bullets": [
+"whether the festival lives up to its reputation",
+"which parts Casey should not miss",
+"what to plan for when visiting during the festival"
+],
+"write": "Write your email in reply."
+}
+]
+}
+]
+},
+{
+"title": "C1 Advanced — Writing (Practice 18)",
+"durationMin": 90,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your class has attended a seminar about how the connections between older and younger generations could be strengthened. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would be more effective, giving reasons to support your opinion.",
+"stimulus": {
+"title": "How could connections between older and younger generations be strengthened?",
+"body": "• creating community spaces shared by all ages\n• mentoring schemes pairing older adults with young people\n• young volunteers teaching older people digital skills\n\nSome opinions expressed in the seminar:\n\"We built separate buildings for the young and the old, then wondered why they never meet.\"\n\"An hour a week with someone who has lived a life is worth a shelf of self-help books.\"\n\"Teach your grandmother to video-call and you give her back her family.\""
+},
+"bullets": [
+"discuss two of the ideas",
+"explain which would be more effective",
+"give reasons to support your opinion"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "proposal",
+"q": 2,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your local community centre has invited proposals for new regular activities.",
+"stimulus": {
+"title": "Proposal: an intergenerational skills exchange",
+"body": "Write a proposal for a weekly session at which older and younger residents teach each other skills. Describe how the sessions would work, explain how you would attract both age groups and keep them coming back, and outline the benefits for the community."
+},
+"bullets": [
+"how the sessions would work",
+"how you would attract both age groups",
+"the benefits for the community"
+],
+"write": "Write your proposal."
+},
+{
+"type": "report",
+"q": 3,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your college runs a scheme in which students visit elderly residents at a local care home. The scheme's organiser has asked you to write a report on it.",
+"stimulus": {
+"title": "Report: the visiting scheme",
+"body": "Write a report evaluating the visiting scheme. Describe how the visits work in practice, assess what residents and students each gain from them, and recommend how the scheme could involve more students without losing its personal character."
+},
+"bullets": [
+"how the visits work in practice",
+"what residents and students each gain",
+"how to involve more students without losing the personal character"
+],
+"write": "Write your report."
+},
+{
+"type": "letter",
+"q": 4,
+"minWords": 220,
+"maxWords": 260,
+"lead": "You have received this letter from an English-speaking friend, Noor.",
+"stimulus": {
+"body": "My grandfather is coming to live with us next month. I love him dearly, but I'm 22, and I'll be sharing a home with someone who thinks dinner is at six and music should be quiet. My friends say my social life is over.\n\nYou lived with your grandparents for a while, didn't you? How did you make it work - and honestly, what did it give you that surprised you?\n\nNoor"
+},
+"bullets": [
+"your advice on making the arrangement work",
+"how Noor could keep a social life",
+"what living with a grandparent can unexpectedly give you"
+],
+"write": "Write your letter in reply."
+}
+]
+}
+]
+}
+],
+"mocks": [
+{
+"title": "C1 Advanced — Writing (MOCK 4)",
+"durationMin": 90,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your class has attended a seminar about how people could regain control of their attention in a world of constant digital distraction. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would be more effective, giving reasons to support your opinion.",
+"stimulus": {
+"title": "How could people regain control of their attention?",
+"body": "• regulating the design features that make apps addictive\n• teaching attention management as a core skill in schools\n• changing the culture that expects everyone to be constantly available\n\nSome opinions expressed in the seminar:\n\"These apps are engineered by experts to be irresistible - willpower is not a fair fight.\"\n\"We teach children to read but not to decide what deserves their attention.\"\n\"The real tyranny is the reply that is expected within five minutes.\""
+},
+"bullets": [
+"discuss two of the ideas",
+"explain which would be more effective",
+"give reasons to support your opinion"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "proposal",
+"q": 2,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your college principal has invited proposals from students on improving concentration and wellbeing on campus.",
+"stimulus": {
+"title": "Proposal: phone-free zones on campus",
+"body": "Write a proposal recommending that certain areas of the college become phone-free. Identify which areas you would choose and why, explain how the policy could be introduced without feeling like a punishment, and anticipate the strongest objection students will raise, showing how you would answer it."
+},
+"bullets": [
+"which areas you would choose and why",
+"how to introduce the policy without it feeling like a punishment",
+"the strongest objection and your answer to it"
+],
+"write": "Write your proposal."
+},
+{
+"type": "review",
+"q": 3,
+"minWords": 220,
+"maxWords": 260,
+"lead": "An English-language magazine has invited reviews of books or documentaries about technology and the mind.",
+"stimulus": {
+"title": "The battle for your attention",
+"body": "Review a book or documentary that examines how digital technology competes for human attention. Summarise its central claims, evaluate how convincingly it supports them, and assess whether its advice survives contact with real life."
+},
+"bullets": [
+"its central claims",
+"how convincingly it supports them",
+"whether its advice works in real life"
+],
+"write": "Write your review."
+},
+{
+"type": "report",
+"q": 4,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your student council is concerned about how screen use affects students' study and sleep, and has asked you to write a report based on a survey of your year group.",
+"stimulus": {
+"title": "Report: screens, study and sleep",
+"body": "Write a report presenting what the survey revealed about students' screen habits, analysing the effects students themselves report on their study and sleep, and recommending realistic steps the council should take - avoiding measures students would simply ignore."
+},
+"bullets": [
+"what the survey revealed about screen habits",
+"the effects on study and sleep",
+"realistic steps the council should take"
+],
+"write": "Write your report."
+}
+]
+}
+]
+},
+{
+"title": "C1 Advanced — Writing (MOCK 5)",
+"durationMin": 90,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your class has attended a panel discussion about the areas of life in which a willingness to take risks benefits society most. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain in which area risk-taking is more valuable, giving reasons to support your opinion.",
+"stimulus": {
+"title": "In which areas does risk-taking benefit society most?",
+"body": "• entrepreneurs starting new businesses\n• scientists pursuing unproven ideas\n• individuals making bold personal choices, such as changing career or country\n\nSome opinions expressed in the discussion:\n\"Every job in this town exists because somebody once gambled their savings.\"\n\"The experiments that fail teach us more than the ones that merely confirm.\"\n\"A society of people too frightened to change their own lives will never change anything else.\""
+},
+"bullets": [
+"discuss two of the ideas",
+"explain in which area risk-taking is more valuable",
+"give reasons to support your opinion"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "letter",
+"q": 2,
+"minWords": 220,
+"maxWords": 260,
+"lead": "You have received this letter from an English-speaking friend, Elin.",
+"stimulus": {
+"body": "I'm about to do something either brave or very stupid: leave my secure job to join two friends launching a start-up. No salary for at least a year, a real chance it fails - but if I say no, I think I'll wonder about it for the rest of my life.\n\nMy family think I've lost my mind. You're the most level-headed person I know: tell me honestly what you think, and don't spare my feelings.\n\nElin"
+},
+"bullets": [
+"your honest opinion of Elin's plan",
+"the risks Elin may be underestimating or overestimating",
+"what Elin should do to protect themselves if they go ahead"
+],
+"write": "Write your letter in reply."
+},
+{
+"type": "report",
+"q": 3,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your college introduced an outdoor adventure programme last year, including climbing and wilderness expeditions. The principal, who is worried about safety, has asked you to write a report.",
+"stimulus": {
+"title": "Report: the outdoor adventure programme",
+"body": "Write a report assessing the programme's first year. Describe what students have gained from activities involving managed risk, address the safety concerns honestly, and recommend whether the programme should continue, and in what form."
+},
+"bullets": [
+"what students have gained from managed risk",
+"an honest assessment of the safety concerns",
+"your recommendation on the programme's future"
+],
+"write": "Write your report."
+},
+{
+"type": "review",
+"q": 4,
+"minWords": 220,
+"maxWords": 260,
+"lead": "An English-language magazine has invited reviews of films and books about people who took extraordinary risks.",
+"stimulus": {
+"title": "Lives on the edge",
+"body": "Review a film, documentary or book about a person who risked everything - an explorer, athlete, artist or founder. Describe how their story is told, consider whether the work glamorises risk or examines its true costs, and say what an ordinary, cautious viewer can take from it."
+},
+"bullets": [
+"how the person's story is told",
+"whether it glamorises risk or examines its costs",
+"what a cautious viewer can take from it"
+],
+"write": "Write your review."
+}
+]
+}
+]
+},
+{
+"title": "C1 Advanced — Writing (MOCK 6)",
+"durationMin": 90,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your class has attended a seminar about how people could be encouraged to buy fewer things and value them more. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would be more effective, giving reasons to support your opinion.",
+"stimulus": {
+"title": "How could people be encouraged to buy fewer things and value them more?",
+"body": "• making repair cheaper and easier than replacement\n• requiring advertising to be honest about how products are made and how long they last\n• making second-hand goods fashionable rather than second-best\n\nSome opinions expressed in the seminar:\n\"We threw away the repair shops, then wondered why we throw away everything else.\"\n\"An advert may not lie outright, but it is never in the business of telling the truth.\"\n\"The moment vintage became stylish, a million wardrobes stopped being rubbish.\""
+},
+"bullets": [
+"discuss two of the ideas",
+"explain which would be more effective",
+"give reasons to support your opinion"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "review",
+"q": 2,
+"minWords": 220,
+"maxWords": 260,
+"lead": "An English-language lifestyle website has invited reviews of second-hand shopping experiences.",
+"stimulus": {
+"title": "Second-hand, first-rate?",
+"body": "Review a second-hand shop, market or resale app you have used. Describe what it offers and what finding something good there actually involves, compare the experience with buying new, and say honestly who it will and will not suit."
+},
+"bullets": [
+"what it offers and what finding something good involves",
+"how the experience compares with buying new",
+"who it will and will not suit"
+],
+"write": "Write your review."
+},
+{
+"type": "proposal",
+"q": 3,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your town council has invited proposals for projects to reduce household waste.",
+"stimulus": {
+"title": "Proposal: a monthly repair café",
+"body": "Write a proposal for a monthly event at which volunteers help residents repair clothes, furniture and electronics instead of discarding them. Explain how the café would be staffed and equipped, how you would persuade people that repaired goods are not inferior, and what the town would gain beyond less waste."
+},
+"bullets": [
+"how the café would be staffed and equipped",
+"how you would change attitudes to repaired goods",
+"what the town would gain beyond less waste"
+],
+"write": "Write your proposal."
+},
+{
+"type": "email",
+"q": 4,
+"minWords": 220,
+"maxWords": 260,
+"lead": "You have received this email from your English-speaking friend Toni.",
+"stimulus": {
+"body": "From: Toni\nSubject: Dream job... I think?\n\nI've been offered a job managing social media influencers for a big fashion brand. Great salary, exciting industry - but the work is basically getting people to present adverts as if they were honest personal recommendations. A year ago I wrote my dissertation criticising exactly this!\n\nAm I overthinking it? You always see these things clearly - what would you do?\n\nToni"
+},
+"bullets": [
+"whether Toni is overthinking the ethical problem",
+"your honest advice on taking the job",
+"how Toni could act on their principles, whichever choice they make"
+],
+"write": "Write your email in reply."
+}
+]
+}
+]
+},
+{
+"title": "C1 Advanced — Writing (MOCK 7)",
+"durationMin": 90,
+"parts": [
+{
+"name": "Part 1",
+"compulsory": true,
+"instructions": "You must answer this question. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "essay",
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your class has attended a seminar about how people could be protected from manipulative techniques of persuasion. You have made the notes below. Write an essay discussing two of the ideas in your notes. You should explain which idea would be more effective, giving reasons to support your opinion.",
+"stimulus": {
+"title": "How could people be protected from manipulative persuasion?",
+"body": "• banning design tricks that push users into choices they would not otherwise make\n• teaching the techniques of persuasion openly in schools\n• requiring all targeted political and commercial messages to declare who paid for them\n\nSome opinions expressed in the seminar:\n\"A cancellation button hidden behind five screens is not design; it is a trap.\"\n\"Show a child how the magician does the trick and the spell is broken for life.\"\n\"I don't mind being persuaded - I mind not knowing who is doing the persuading.\""
+},
+"bullets": [
+"discuss two of the ideas",
+"explain which would be more effective",
+"give reasons to support your opinion"
+],
+"write": "Write your essay."
+}
+]
+},
+{
+"name": "Part 2",
+"choose": true,
+"instructions": "Answer one of these questions. Write your answer in 220-260 words in an appropriate style.",
+"tasks": [
+{
+"type": "report",
+"q": 2,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your students' union is reviewing its policy on advertising and sponsorship on campus, and has asked you to write a report.",
+"stimulus": {
+"title": "Report: advertising on campus",
+"body": "Write a report describing the forms advertising and sponsorship currently take on campus, assessing which practices students find acceptable and which they consider intrusive or manipulative, and recommending the rules the union should adopt."
+},
+"bullets": [
+"the forms advertising currently takes on campus",
+"which practices students find acceptable and which manipulative",
+"the rules the union should adopt"
+],
+"write": "Write your report."
+},
+{
+"type": "proposal",
+"q": 3,
+"minWords": 220,
+"maxWords": 260,
+"lead": "Your college is redesigning its curriculum and has invited proposals from students for one new compulsory module.",
+"stimulus": {
+"title": "Proposal: a module on the art of persuasion",
+"body": "Write a proposal for a compulsory module in which students study how persuasion works - in advertising, politics and everyday life - and practise using it responsibly themselves. Explain why every student needs this module, describe what it would involve, and answer the objection that it would take time away from academic subjects."
+},
+"bullets": [
+"why every student needs the module",
+"what the module would involve",
+"your answer to the objection about lost academic time"
+],
+"write": "Write your proposal."
+},
+{
+"type": "letter",
+"q": 4,
+"minWords": 220,
+"maxWords": 260,
+"lead": "You have received this letter from an English-speaking friend, Gabriel.",
+"stimulus": {
+"body": "I need a second conscience. My marketing job is going brilliantly, but this week I was asked to design a campaign using every psychological trick in the book - fake countdown timers, 'only 2 left!' warnings, the lot. My boss calls it standard practice. It works, and nobody is technically lied to. So why do I feel grubby about it?\n\nIs there actually a line here, and have I crossed it? What would you do in my place?\n\nGabriel"
+},
+"bullets": [
+"whether there is a real ethical line, and where you think it lies",
+"your view on Gabriel's specific situation",
+"practical advice on what Gabriel should do next"
+],
+"write": "Write your letter in reply."
+}
+]
+}
+]
+}
+]
+}
+};
+
+const state={name:'',grade:'',email:'',level:'',examType:'mock01',view:0,part2Choice:null,startTime:null,_tabSwitches:0,_translateHits:0};
+let timerId=null;
+
+/* Touch devices (iPad, tablets, phones, touchscreen laptops): tapping a field
+   opens the on-screen keyboard natively; scroll it into view so the keyboard
+   does not hide it. */
+(function(){
+  const isTouch=('ontouchstart' in window)||(navigator.maxTouchPoints>0);
+  if(!isTouch) return;
+  document.addEventListener('focusin',function(e){
+    const t=e.target;
+    if(t && /^(TEXTAREA|INPUT)$/.test(t.tagName) && t.type!=='hidden'){
+      setTimeout(function(){ try{ t.scrollIntoView({block:'center',behavior:'smooth'}); }catch(_){} },300);
+    }
+  });
+})();
+
+function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function go(screen){render[screen]();}
+
+/* views: flat list — index 0 = Part 1; 1..N = Part 2 option 0..N-1 */
+function exam(){
+  const t=state.examType;
+  /* Extra tests live in WRITING_MORE[level] = {practice:[P4..], mocks:[M4..]} (guarded if absent). */
+  const _m=/^mock0?(\d+)$/.exec(t||''), _p=/^practice(\d+)$/.exec(t||'');
+  if(typeof WRITING_MORE!=='undefined' && WRITING_MORE[state.level]){
+    if(_m && parseInt(_m[1],10)>=4){ const x=WRITING_MORE[state.level].mocks[parseInt(_m[1],10)-4]; if(x) return x; }
+    if(_p && parseInt(_p[1],10)>=4){ const x=WRITING_MORE[state.level].practice[parseInt(_p[1],10)-4]; if(x) return x; }
+  }
+  const set=(t==='mock02'?WRITING2:t==='mock03'?WRITING6:t==='practice'?WRITING3:t==='practice2'?WRITING4:t==='practice3'?WRITING5:WRITING);
+  return (set&&set[state.level])?set[state.level]:WRITING[state.level];
+}
+function viewCount(){const ex=exam();return 1+ex.parts[1].tasks.length;}
+function viewToTask(v){const ex=exam(); if(v===0) return {part:0,opt:0,task:ex.parts[0].tasks[0]}; return {part:1,opt:v-1,task:ex.parts[1].tasks[v-1]};}
+
+function fmtStim(s){
+  if(!s) return '';
+  let h='';
+  if(s.head) h+=`<div class="stim-head">${esc(s.head)}</div>`;
+  if(s.title) h+=`<div class="stim-title">${esc(s.title)}</div>`;
+  h+=esc(s.body);
+  return `<div class="stim">${h}</div>`;
+}
+/* ---------------- red de seguridad de la redaccion ----------------
+   Un Writing dura entre 45 y 90 minutos y hasta ahora NO se guardaba nada
+   hasta pulsar Submit: las dos redacciones vivian solo en el DOM. Una
+   recarga, un cierre por error, la tablet sin bateria o el navegador
+   descartando la pestana de fondo se llevaban la hora y media entera.
+   Ahora cada tecla deja copia en este equipo y, al reabrir el mismo examen,
+   se ofrece continuarlo. El reloj sigue donde estaba: se calcula desde la
+   hora de inicio, asi que recargar no regala minutos. */
+const BOR_KEY='nisw_writing_borrador_v1';
+
+function borradorActual(){
+  const cajas={};
+  document.querySelectorAll('textarea.box').forEach(t=>{ cajas[t.name]=t.value; });
+  return {level:state.level, examType:state.examType, startTime:state.startTime,
+          part2Choice:state.part2Choice, view:state.view, cajas:cajas, at:Date.now()};
+}
+function guardaBorrador(){
+  try{ localStorage.setItem(BOR_KEY, JSON.stringify(borradorActual())); }catch(e){}
+}
+function borraBorrador(){ try{ localStorage.removeItem(BOR_KEY); }catch(e){} }
+function borradorConTexto(b){
+  return !!(b && b.cajas && Object.keys(b.cajas).some(k=>(b.cajas[k]||'').trim()));
+}
+
+/* Solo se ofrece continuar el MISMO examen y del mismo dia: el borrador de la
+   semana pasada no puede aparecerse en mitad de otro mock. */
+async function continuar(){
+  let b=null;
+  try{ b=JSON.parse(localStorage.getItem(BOR_KEY)||'null'); }catch(e){ b=null; }
+  if(!borradorConTexto(b)) return null;
+  if(b.level!==state.level || b.examType!==state.examType) return null;
+  if(!b.at || (Date.now()-b.at) > 12*3600*1000){ borraBorrador(); return null; }
+  const cuando=new Date(b.at).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+  if(!await NISUI.pregunta('Last saved at '+cuando+'.\n\nYou can carry on where you left off (the clock keeps running) or start again with a blank page.', {titulo:'You have an unfinished attempt', si:'Carry on where I left off', no:'Start again', icono:'✍️', tono:'info'})){
+    borraBorrador(); return null;
+  }
+  /* La eleccion de Part 2 se decide ANTES de pintar: va dibujada dentro de
+     cada panel, no encima. */
+  if(typeof b.part2Choice==='number') state.part2Choice=b.part2Choice;
+  if(b.startTime) state.startTime=b.startTime;
+  return b;
+}
+function reponBorrador(b){
+  Object.keys(b.cajas||{}).forEach(n=>{
+    const t=document.querySelector('textarea.box[name="'+n+'"]');
+    if(t && b.cajas[n]){ t.value=b.cajas[n]; wcUpdate(t); }
+  });
+}
+
+/* El aviso al salir vivia dentro del anticheat, apagado desde el 2026-08-20:
+   hoy nadie frena al alumno que recarga en mitad del examen. Este si, y solo
+   mientras haya un examen abierto con algo escrito dentro. */
+window.addEventListener('beforeunload', e=>{
+  if(!document.querySelector('textarea.box')) return;
+  if(!borradorConTexto(borradorActual())) return;
+  e.preventDefault(); e.returnValue='';
+});
+
+function wcUpdate(el){
+  const wrap=el.closest('.write-wrap'); const c=wrap&&wrap.querySelector('.wc');
+  if(c){const w=el.value.trim()?el.value.trim().split(/\s+/).length:0;
+        c.textContent=wcTexto(w);
+        if(window.NIS_RUBRICA && state.level) c.className='wc '+NIS_RUBRICA.estadoLongitud(w,state.level).clase;}
+  syncFooter();
+  guardaBorrador();
+}
+/* La extension esperada y los criterios salen de writing-rubric.js, que es
+   la unica fuente: los datos de cada examen traen su propia cifra heredada
+   del examen oficial y ya no manda. Si el modulo no cargase, la pagina sigue
+   funcionando con lo que diga el examen. */
+function conObjetivo(t){
+  return (window.NIS_RUBRICA && state.level) ? NIS_RUBRICA.conObjetivo(t, state.level) : t;
+}
+function rubricaHtml(){
+  return (window.NIS_RUBRICA && state.level) ? NIS_RUBRICA.html(state.level) : '';
+}
+function wcTexto(n){
+  if(!window.NIS_RUBRICA || !state.level) return 'Words: ' + n;
+  const e = NIS_RUBRICA.estadoLongitud(n, state.level);
+  return 'Words: ' + n + (e.texto ? ' \u00b7 ' + e.texto : '');
+}
+function boxHtml(name){return `<div class="write-wrap"><textarea class="box" name="${name}" placeholder="Write your answer here." oninput="wcUpdate(this)"></textarea><div class="wc">${wcTexto(0)}</div></div>`;}
+
+function taskPaneHtml(v){
+  const {part,opt,task}=viewToTask(v);
+  const name = part===0 ? 'p1' : 'p2_'+opt;
+  const qlabel = part===0 ? 'Question 1' : 'Question '+task.q;
+  const bullets = task.bullets&&task.bullets.length ? `<div class="notes-title">In your answer:</div><ul>${task.bullets.map(b=>`<li>${esc(b)}</li>`).join('')}</ul>` : '';
+  let chooser='';
+  if(part===1){
+    const on = state.part2Choice===opt;
+    chooser = `<div class="choose">Answering this question? <span class="pick ${on?'on':''}" id="pickState">${on?'✓ Yes — this one will be marked':'Not selected yet'}</span>
+      <select onchange="window._choose(${opt}, this.value)"><option value="no"${on?'':' selected'}>Undecided</option><option value="yes"${on?' selected':''}>Yes, answer this</option></select></div>`;
+  }
+  return `<div class="pane${v===state.view?' active':''}" data-view="${v}">
+    <div class="instr"><strong>${qlabel}</strong><p>${esc(conObjetivo(exam().parts[part].instructions))}</p></div>
+    ${chooser}
+    <div class="two-col">
+      <div class="left">
+        <p class="task-lead">${esc(task.lead)}</p>
+        ${fmtStim(task.stimulus)}
+        ${bullets}
+        <p class="write-it">${esc(task.write)}</p>
+      </div>
+      <div class="right">${boxHtml(name)}</div>
+    </div>
+    ${rubricaHtml()}
+  </div>`;
+}
+
+function footerHtml(){
+  const ex=exam();
+  const p2opts=ex.parts[1].tasks.map((t,i)=>`<button class="onum" id="onum-${i}" onclick="event.stopPropagation();window._goView(${i+1})">${t.q}</button>`).join('');
+  return `<div class="ftr">
+    <div class="tabs">
+      <div class="tab" id="tab-0" onclick="window._goView(0)"><div class="tn">Part 1</div><div class="ts" id="ts-0">0 of 1</div><div class="opts"></div></div>
+      <div class="tab" id="tab-1" onclick="window._goView(1)"><div class="tn">Part 2</div><div class="ts" id="ts-1">0 of 1</div><div class="opts">${p2opts}</div></div>
+    </div>
+    <div class="arrows">
+      <button id="prev" onclick="window._nav(-1)">◀</button>
+      <button id="next" onclick="window._nav(1)">▶</button>
+    </div>
+  </div>`;
+}
+
+function syncFooter(){
+  const ex=exam();
+  // Part 1 progress
+  const t1=document.querySelector('[name="p1"]'); const p1w=t1&&t1.value.trim()?t1.value.trim().split(/\s+/).length:0;
+  const ts0=document.getElementById('ts-0'); if(ts0) ts0.textContent=p1w?'written':'0 of 1';
+  // Part 2 selection
+  const ts1=document.getElementById('ts-1'); if(ts1) ts1.textContent=(state.part2Choice!=null)?'1 of 1':'0 of 1';
+  ex.parts[1].tasks.forEach((t,i)=>{
+    const ta=document.querySelector(`[name="p2_${i}"]`); const has=ta&&ta.value.trim();
+    const b=document.getElementById('onum-'+i); if(b){ b.classList.toggle('done',!!has); b.classList.toggle('cur',i===(state.view-1)); }
+  });
+  // active tab
+  const cur=viewToTask(state.view);
+  document.getElementById('tab-0').classList.toggle('active',cur.part===0);
+  document.getElementById('tab-1').classList.toggle('active',cur.part===1);
+  const pv=document.getElementById('prev'), nx=document.getElementById('next');
+  if(pv) pv.disabled=(state.view===0); if(nx) nx.disabled=(state.view===viewCount()-1);
+}
+
+const render={
+  welcome(){
+    stopTimer();
+    app.className='app';
+    app.innerHTML=`<div class="hero">
+      <img src="${MSITE.logo}" alt="${MSITE.schoolName}">
+      <h1>MOCKS CAMBRIDGE — Writing</h1>
+      <p class="sub">Two writing mocks (MOCK 1 &amp; MOCK 2), Cambridge format — B1 · B2 · C1</p>
+      <div class="field"><label>Full name</label><input id="nm" placeholder="e.g. Ana López"></div>
+      <div class="field"><label>Grade / Class</label><input id="gr" placeholder="e.g. G9"></div>
+      <div class="field"><label>Email (optional — to receive your report)</label><input id="em" type="email" placeholder="you@example.com"></div>
+      <button class="btn" id="go" style="margin-top:8px">Continue →</button>
+      <p style="margin-top:14px"><a class="link" href="quizzes.html">← Back to all quizzes</a></p>
+    </div>`;
+    document.getElementById('go').onclick=()=>{
+      const n=document.getElementById('nm').value.trim();
+      if(!n){alert('Please enter your name.');return;}
+      state.name=n; state.grade=document.getElementById('gr').value.trim(); state.email=document.getElementById('em').value.trim();
+      go('level');
+    };
+  },
+  level(){
+    stopTimer();
+    app.className='app';
+    app.innerHTML=`<div class="hero">
+      <img src="${MSITE.logo}" alt="${MSITE.logoAlt}">
+      <h1>Choose your level</h1>
+      <p class="sub">Writing is assessed for B1, B2 and C1.</p>
+      <div class="levels">
+        ${['B1','B2','C1'].map(l=>`<div class="level-card" onclick="window._pickLevel('${l}')"><div class="lv">${l}</div><div class="nm">${LEVEL_NAMES[l]}</div></div>`).join('')}
+      </div>
+      <p style="margin-top:16px"><a class="link" onclick="go('welcome')" style="cursor:pointer">← Back</a></p>
+    </div>`;
+  },
+  async category(){
+    stopTimer();
+    app.className='app';
+    const examName={B1:'B1 Preliminary',B2:'B2 First',C1:'C1 Advanced'}[state.level]||state.level;
+    let unlocked=false, pUnlocked=true;
+    try{ if(window.NIS && window.NIS.mocksUnlocked) unlocked=await window.NIS.mocksUnlocked(); }catch(e){}
+    try{ if(window.NIS && window.NIS.practiceUnlocked) pUnlocked=await window.NIS.practiceUnlocked(); }catch(e){}
+    /* Portal NIS: ?branch=practice|mocks salta directo a esa sección (solo la primera vez). */
+    try{
+      const _br = new URLSearchParams(location.search).get('branch');
+      if(_br && !window._branchUsed){
+        window._branchUsed = true;
+        if(_br==='practice' && pUnlocked) return go('practicePick');
+        if(_br==='mocks' && unlocked) return go('examPick');
+      }
+    }catch(e){}
+    app.innerHTML=`
+      <div style="color:var(--muted);font-size:.9rem;margin-bottom:6px">MOCKS CAMBRIDGE &rsaquo; Writing &rsaquo; ${state.level} &rsaquo; Choose</div>
+      <h1 style="margin:0 0 6px;font-size:1.7rem">${state.level} Writing</h1>
+      <p style="color:var(--muted);max-width:760px;margin:0 0 16px">${examName}. Choose what you want to take today.</p>
+
+      <div class="card" style="${pUnlocked?'cursor:pointer':'opacity:.65'}" onclick="${pUnlocked?"go('practicePick')":'window._practiceLocked()'}">
+        <h2>${pUnlocked?'📘':'🔒'} PRACTICE TESTS</h2>
+        <p style="color:var(--muted);margin:0">${pUnlocked?'A warm-up writing test in the authentic Cambridge format. Part 1 compulsory + Part 2 (choose one). Sent to your teacher to mark.':'<b>🔒 Locked.</b> Your teacher has reserved the practice tests for class.'}</p>
+      </div>
+
+      <div class="card" style="${unlocked?'cursor:pointer':'opacity:.65'}" onclick="${unlocked?"go('examPick')":'window._mockLocked()'}">
+        <h2>${unlocked?'📝':'🔒'} MOCKS</h2>
+        <p style="color:var(--muted);margin:0">${unlocked?'Full writing mocks — harder, official Cambridge structure.':'<b>🔒 Locked.</b> Your teacher will unlock the mocks from ${MSITE.portalName}.'}</p>
+      </div>
+
+      <p style="margin-top:8px"><a class="link" onclick="go('level')" style="cursor:pointer">&larr; Back to levels</a></p>`;
+  },
+  practicePick(){
+    stopTimer();
+    app.className='app';
+    const examName={B1:'B1 Preliminary',B2:'B2 First',C1:'C1 Advanced'}[state.level]||state.level;
+    const cardBtn="margin-top:8px";
+    const card=(emoji,n,desc,type)=>`
+      <div class="card">
+        <h2>${emoji} Práctica ${n}</h2>
+        <p style="color:var(--muted);margin:0 0 4px">${desc}</p>
+        <button class="btn" style="${cardBtn}" onclick="window._pickExam('${type}')">Empezar Práctica ${n} &rarr;</button>
+      </div>`;
+    app.innerHTML=`
+      <div style="color:var(--muted);font-size:.9rem;margin-bottom:6px">MOCKS CAMBRIDGE &rsaquo; Writing &rsaquo; ${state.level} &rsaquo; Practice</div>
+      <h1 style="margin:0 0 6px;font-size:1.7rem">${state.level} Writing — choose a practice</h1>
+      <p style="color:var(--muted);max-width:760px;margin:0 0 16px">${examName}. Three warm-up writing tests — same authentic Cambridge format. Part 1 is compulsory; choose one task in Part 2. Your writing is sent to your teacher to mark.</p>
+      ${card('📘',1,'Warm-up writing test in the authentic Cambridge format.','practice')}
+      ${WRITING4[state.level]?card('📘',2,'A second warm-up writing test — fresh prompts, same format and difficulty.','practice2'):''}
+      ${WRITING5[state.level]?card('📘',3,'A third warm-up writing test — fresh prompts, same format and difficulty.','practice3'):''}
+      ${((typeof WRITING_MORE!=='undefined' && WRITING_MORE[state.level]) ? WRITING_MORE[state.level].practice : []).map((t,i)=>card('📘',i+4,'A warm-up writing test — fresh prompts, same authentic Cambridge format and difficulty.','practice'+(i+4))).join('')}
+      <p style="margin-top:8px"><a class="link" onclick="go('category')" style="cursor:pointer">&larr; Back</a></p>`;
+  },
+  examPick(){
+    stopTimer();
+    app.className='app';
+    const examName={B1:'B1 Preliminary',B2:'B2 First',C1:'C1 Advanced'}[state.level]||state.level;
+    const cardBtn="margin-top:8px";
+    app.innerHTML=`
+      <div style="color:var(--muted);font-size:.9rem;margin-bottom:6px">MOCKS CAMBRIDGE &rsaquo; Writing &rsaquo; ${state.level} &rsaquo; Mocks</div>
+      <h1 style="margin:0 0 6px;font-size:1.7rem">${state.level} Writing — choose a mock</h1>
+      <p style="color:var(--muted);max-width:760px;margin:0 0 16px">${examName}. Two full writing mocks — same authentic Cambridge format. Part 1 is compulsory; choose one task in Part 2. Your writing is sent to your teacher to mark.</p>
+
+      <div class="card">
+        <h2>📝 MOCK 1</h2>
+        <p style="color:var(--muted);margin:0 0 4px">A complete ${examName}-format writing mock, written to mirror the official paper and pitched at the harder end of the level. Part 1 (compulsory) + Part 2 (choose one of three).</p>
+        <button class="btn" style="${cardBtn}" onclick="window._pickExam('mock01')">Start MOCK 1 &rarr;</button>
+      </div>
+
+      <div class="card">
+        <h2>📝 MOCK 2</h2>
+        <p style="color:var(--muted);margin:0 0 4px">A second complete ${examName}-format writing mock — fresh prompts and tasks, same authentic Cambridge structure and difficulty.</p>
+        <button class="btn" style="${cardBtn}" onclick="window._pickExam('mock02')">Start MOCK 2 &rarr;</button>
+      </div>
+
+      ${WRITING6[state.level]?`<div class="card">
+        <h2>📝 MOCK 3</h2>
+        <p style="color:var(--muted);margin:0 0 4px">A third complete ${examName}-format writing mock — pitched at the upper end of the level, with fresh prompts and the same authentic Cambridge structure.</p>
+        <button class="btn" style="${cardBtn}" onclick="window._pickExam('mock03')">Start MOCK 3 &rarr;</button>
+      </div>`:''}
+      ${((typeof WRITING_MORE!=='undefined' && WRITING_MORE[state.level]) ? WRITING_MORE[state.level].mocks : []).map((t,i)=>`<div class="card">
+        <h2>📝 MOCK ${i+4}</h2>
+        <p style="color:var(--muted);margin:0 0 4px">A complete ${examName}-format writing mock — fresh prompts, same authentic Cambridge structure and difficulty.</p>
+        <button class="btn" style="${cardBtn}" onclick="window._pickExam('mock0${i+4}')">Start MOCK ${i+4} &rarr;</button>
+      </div>`).join('')}
+
+      <p style="margin-top:8px"><a class="link" onclick="go('category')" style="cursor:pointer">&larr; Back</a></p>`;
+  },
+  async exam(){
+    const ex=exam();
+    state.view=0; state.part2Choice=null; state.startTime=null;
+    const _bor=await continuar();
+    let panes=''; for(let v=0;v<viewCount();v++) panes+=taskPaneHtml(v);
+    app.className='';
+    app.innerHTML=`<div class="shell">
+      <div class="hdr">
+        <a class="brand" href="quizzes.html"><img src="${MSITE.logo}" alt="${MSITE.logoAlt}"></a>
+        <div class="cand">Candidate: <strong>${esc(state.name)}</strong> · ${esc(state.grade)}</div>
+        <div class="right">
+          <div class="timer" id="timer">00:00</div>
+          <button id="quit">Exit</button>
+          <button class="fin" id="submit">Submit ✓</button>
+        </div>
+      </div>
+      <div class="main"><h2 style="margin:0 0 6px">${ex.title}</h2>${panes}</div>
+      ${footerHtml()}
+    </div>`;
+    window._goView=(v)=>{ v=Math.max(0,Math.min(viewCount()-1,v)); state.view=v;
+      document.querySelectorAll('.pane').forEach(p=>p.classList.toggle('active',+p.dataset.view===v));
+      document.querySelector('.main').scrollTo({top:0}); syncFooter(); };
+    window._nav=(d)=>window._goView(state.view+d);
+    window._choose=(opt,val)=>{ state.part2Choice = (val==='yes')?opt:(state.part2Choice===opt?null:state.part2Choice);
+      const ps=document.getElementById('pickState'); if(ps){const on=state.part2Choice===opt; ps.textContent=on?'✓ Yes — this one will be marked':'Not selected yet'; ps.classList.toggle('on',on);} syncFooter(); guardaBorrador(); };
+    document.getElementById('submit').onclick=finalize;
+    document.getElementById('quit').onclick=async ()=>{ if(await NISUI.pregunta('If you leave now you will lose everything you have written and the exam will not be submitted.', {titulo:'Leave without submitting?', si:'Leave and lose it', no:'Back to the exam', tono:'mal', peligro:true})){stopTimer();acStop();borraBorrador();go('level');} };
+    if(_bor){ reponBorrador(_bor); }
+    syncFooter();
+    state.startTime=state.startTime||Date.now();
+    guardaBorrador();
+    startTimer(ex.durationMin);
+    acStart();   // ← activate anti-cheat (translate block, tab-switch detection, etc.)
+  },
+  result(){
+    stopTimer();
+    const r=state.answers; const ex=exam();
+    app.className='app';
+    app.innerHTML=`
+      <div class="topbar"><img src="${MSITE.logo}" alt="${MSITE.logoAlt}"><div><h1 style="margin:0;font-size:1.4rem">Writing submitted</h1><div style="color:var(--muted)">${ex.title}</div></div></div>
+      <div class="pdf-actions">
+        <button class="btn" onclick="window._pdf()">⬇ Download PDF</button>
+        <button class="btn" id="sendEmail">📧 Send to my email</button>
+      </div>
+      <div id="sendStatus" style="display:none;margin-bottom:8px;font-size:.9rem"></div>
+      <div id="pdfTarget">
+        <div style="text-align:center;padding:8px 0 12px;border-bottom:2px solid var(--accent);margin-bottom:12px"><img src="${MSITE.logo}" style="height:46px"><div style="color:var(--muted);font-size:.8rem;letter-spacing:1px;margin-top:3px">CAMBRIDGE-FORMAT WRITING REPORT</div></div>
+        <div class="card"><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:.9rem">
+          <div><b>Student:</b> ${esc(state.name)}</div><div><b>Grade:</b> ${esc(state.grade)}</div>
+          <div><b>Level:</b> ${state.level} · ${LEVEL_NAMES[state.level]}</div><div><b>Date:</b> ${new Date().toLocaleString()}</div>
+          <div style="grid-column:1/-1;${(state._tabSwitches||0)>0?'background:var(--amber50);border-radius:8px;padding:4px 6px':''}"><b>Tab / window switches:</b> <span style="${(state._tabSwitches||0)>0?'color:#b45309;font-weight:700':'color:#16a34a'}">${state._tabSwitches||0} ${(state._tabSwitches||0)===0?'✓ (none detected)':'⚠ detected'}</span></div>
+          <div style="grid-column:1/-1;${(state._translateHits||0)>0?'background:var(--amber50);border-radius:8px;padding:4px 6px':''}"><b>Translation attempts:</b> <span style="${(state._translateHits||0)>0?'color:#b45309;font-weight:700':'color:#16a34a'}">${state._translateHits||0} ${(state._translateHits||0)===0?'✓ (none detected)':'⚠ detected'}</span></div>
+        </div></div>
+        <div class="card" style="text-align:center;border-left:4px solid var(--good)">
+          <div style="font-size:2.2rem">✓</div>
+          <h2 style="margin:4px 0">Writing submitted</h2>
+          <p style="color:var(--muted);margin:0">Writing is <strong>not auto-scored</strong> — your teacher will read it and give you a mark by hand. Status: <strong>Awaiting your teacher's marking</strong>. Below is a copy of what you wrote.</p>
+        </div>
+        <div class="card">
+          <h2>Your answers</h2>
+          ${r.tasks.map(t=>`<div style="border:1px solid #e2e8f0;border-radius:10px;padding:14px;margin-bottom:14px">
+            <div style="display:flex;justify-content:space-between;align-items:center"><strong>${t.label}</strong><span style="color:var(--muted);font-size:.85rem">${t.wordCount} words</span></div>
+            <div class="answer">${t.text?esc(t.text):'<em>No response written.</em>'}</div>
+          </div>`).join('')}
+        </div>
+      </div>
+      <div class="row">
+        <a class="btn" style="text-decoration:none" href="/">🏫 Back to ${MSITE.portalName}</a>
+        <button class="btn ghost" onclick="go('level')">Change level</button>
+        <a class="link" style="align-self:center" href="quizzes.html">All quizzes ↗</a>
+      </div>`;
+    window._pdf=()=>{ const el=document.getElementById('pdfTarget'); if(!window.html2pdf){ alert('PDF library still loading, try again in a moment.'); return; }
+      html2pdf().set({margin:8,filename:`NIS-Writing-${state.level}-${(state.name||'').replace(/\s+/g,'_')}.pdf`,image:{type:'jpeg',quality:0.95},html2canvas:{scale:2,useCORS:true,scrollY:0},jsPDF:{unit:'mm',format:'a4',orientation:'portrait'},pagebreak:{mode:['css','legacy']}}).from(el).save(); };
+    const sb=document.getElementById('sendEmail'); if(sb) sb.onclick=()=>postResult(r,false);
+    /* Ya no es fire-and-forget: postResult espera el guardado y avisa si
+       falla. El comentario decia justo lo que habia que arreglar. */
+    postResult(r,true);
+  }
+};
+
+async function finalize(){
+  if(!await NISUI.pregunta('You are about to submit your writing and you will not be able to change it. Your teacher will mark it.', {titulo:'Submit your writing?', si:'Yes, submit', no:'Keep writing', icono:'✍️', tono:'info'})) return;
+  stopTimer();
+  acStop();
+  const ex=exam();
+  const wc=s=>{ s=(s||'').trim(); return s? s.split(/\s+/).length : 0; };
+  const tasks=[];
+  // Writing is NOT auto-graded — the teacher marks it. We only capture the text.
+  const t1=ex.parts[0].tasks[0]; const text1=(document.querySelector('[name="p1"]')||{}).value||'';
+  tasks.push({label:'Part 1 — '+capit(t1.type),taskType:t1.type,text:text1,wordCount:wc(text1)});
+  // Part 2 (chosen)
+  let opt=state.part2Choice;
+  if(opt==null){ // fall back to the option with most words
+    let best=-1,bestW=-1; ex.parts[1].tasks.forEach((t,i)=>{const ta=document.querySelector(`[name="p2_${i}"]`);const w=ta&&ta.value.trim()?ta.value.trim().split(/\s+/).length:0; if(w>bestW){bestW=w;best=i;}}); opt=best>=0?best:0;
+  }
+  const t2=ex.parts[1].tasks[opt]; const text2=(document.querySelector(`[name="p2_${opt}"]`)||{}).value||'';
+  tasks.push({label:'Part 2 (Q'+t2.q+') — '+capit(t2.type),taskType:t2.type,text:text2,wordCount:wc(text2)});
+  state.answers={tasks,part2Chosen:t2.q};
+  borraBorrador();
+  go('result');
+}
+function capit(s){return s?s.charAt(0).toUpperCase()+s.slice(1):s;}
+
+function postResult(r,silent){
+  const st=document.getElementById('sendStatus');
+  if(!silent&&st){st.style.display='block';st.textContent='Sending…';}
+  // Writing is NOT auto-graded: store/send with no score — the teacher grades it.
+  /* Se espera al guardado y se avisa. Antes se lanzaba sin await dentro de un
+     try/catch vacio: un fallo dejaba al alumno creyendo que habia entregado. */
+  /* Las dos ramas guardan igual. La automatica --la que corre siempre al
+     llegar al resultado-- lanzaba NIS.save() sin esperar y dentro de un
+     try/catch vacio: si fallaba, el alumno se quedaba con su texto escrito,
+     sin entregar y sin que nada se lo dijera. Es el mismo fallo que se
+     corrigio el 6-sep-2026 en Reading y Listening; este archivo se quedo
+     fuera de aquella pasada. */
+  guardaIntento({skill:'Writing', level:state.level, examType:state.examType, score:null, total:null, percent:null, answers:(r&&r.tasks)||null}, 'Your teacher will mark it.');
+  if(!CONFIG.webhookUrl){ if(st&&!silent){st.textContent='⚠ No webhook configured — use Download PDF.';} return; }
+  const payload={timestamp:new Date().toISOString(),name:state.name,firstName:(state.name||'').split(' ')[0],email:state.email,grade:state.grade,
+    skill:'Writing',level:state.level,levelName:LEVEL_NAMES[state.level]||'',examTitle:exam().title,
+    score:null,total:null,percent:null,verdict:'Awaiting your teacher\'s marking',writingEvaluation:r.tasks,
+    tabSwitches:state._tabSwitches||0,
+    translateHits:state._translateHits||0,
+    teacherEmail:CONFIG.teacherEmail,schoolName:CONFIG.schoolName};
+  /* Iba en no-cors: la respuesta es opaca, asi que el «✓ Sent» se escribia
+     igual cuando el script del servidor habia rechazado la entrega. Ahora se
+     lee lo que contesta. Mismo camino que Reading y Listening. */
+  const pon = t => { if(st && !silent) st.textContent = t; };
+  if (typeof enviaWebhook === 'function') {
+    enviaWebhook(CONFIG.webhookUrl, payload).then(res => {
+      if (res.ok) pon(res.sinConfirmar
+        ? '✓ Sent, but we could not confirm it. Keep the PDF just in case.'
+        : '✓ Sent. Your teacher has received your report.');
+      else pon('⚠ Could not send (' + (res.motivo || 'unknown error') + '). Use Download PDF instead.');
+    });
+    return;
+  }
+  /* Sin reintento en no-cors: resuelve siempre, asi que daria por enviado lo
+     que no salio, y si el fallo fue de CORS el POST ya llego y se mandaria
+     dos veces. */
+  fetch(CONFIG.webhookUrl,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(payload)})
+    .then(res => pon(res.ok ? '✓ Sent. Your teacher has received your report.'
+                            : '⚠ The server answered ' + res.status + '. Use Download PDF instead.'))
+    .catch(()=> pon('⚠ Could not send. Use Download PDF instead.'));
+}
+
+/* ============================================================
+   ANTI-CHEAT — ported from reading-quiz.html. Detects tab/window
+   switches (visibilitychange), blocks browser translate + right-click,
+   and warns on page leave. acStart() is safe to call repeatedly: it
+   tears down any previous session before re-attaching. window.blur is
+   intentionally NOT used — native dialogs (confirm) steal focus and
+   would fire false positives. Answer textareas are exempt from the
+   right-click block so the on-screen keyboard callout still works.
+============================================================ */
+/* KILL SWITCH (2026-08-20): anticheat desactivado mientras se revisa su
+   eficacia — falsos positivos estaban expulsando alumnos de los mocks.
+   Para reactivarlo, poner en false. */
+const AC_DISABLED = true;
+let _AC_on = false;
+let _AC_n  = 0;   // cumulative tab/window-switch counter
+let _AC_trans = 0;   // cumulative translation-detected counter
+let _acTransObs = null;
+let _acTransActive = false;   // edge-trigger guard: true while translation is active
+
+function acStart(){
+  acStop();                  // always tear down any previous session first
+  if(AC_DISABLED) return;
+  _AC_on = true;
+  _AC_n  = 0;
+  state._tabSwitches = 0;
+  const sh = document.querySelector('.shell');
+  if(sh){ sh.setAttribute('translate','no'); sh.classList.add('notranslate'); }
+  document.addEventListener('visibilitychange', _acOnVis,  true);
+  window.addEventListener  ('beforeunload',     _acOnLeave);
+  document.addEventListener('contextmenu',      _acOnMenu, true);
+  /* Translation watchdog — see _acTransCheck. Observe ONLY the <html>
+     class/lang (what Google Translate sets) — NOT childList/subtree, or the
+     overlay's own insertion would re-trigger the observer in a loop. */
+  _AC_trans = 0; _acTransActive = false; state._translateHits = 0;
+  try{ _acTransObs = new MutationObserver(_acTransCheck);
+       _acTransObs.observe(document.documentElement, {attributes:true, attributeFilter:['class','lang']});
+       _acTransCheck(); }catch(_){}
+}
+
+function acStop(){
+  _AC_on = false;
+  document.removeEventListener('visibilitychange', _acOnVis,  true);
+  window.removeEventListener  ('beforeunload',     _acOnLeave);
+  document.removeEventListener('contextmenu',      _acOnMenu, true);
+  if(_acTransObs){ try{ _acTransObs.disconnect(); }catch(_){} _acTransObs = null; }
+  const ov = document.getElementById('acOverlay');
+  if(ov) ov.remove();
+  const sh = document.querySelector('.shell');
+  if(sh) sh.classList.remove('notranslate');
+}
+
+/* ① visibilitychange — fires only when the tab is truly hidden */
+function _acOnVis(){
+  if(!_AC_on) return;
+  if(document.hidden){ _AC_n++; state._tabSwitches = _AC_n; _acShowWarn('tab'); }
+}
+/* ② page-leave warning */
+function _acOnLeave(e){ e.preventDefault(); e.returnValue = ''; }
+/* ③ disable right-click on exam content (removes "Translate to…" menu).
+   Answer fields are exempt so the on-screen keyboard callout still works. */
+function _acOnMenu(e){
+  if(e.target.closest('input,textarea,select')) return;
+  if(e.target.closest('.shell')){ e.preventDefault(); }
+}
+
+/* ④ Translation watchdog — detects in-page browser translation.
+   Google Translate (Chrome/Edge) marks <html class="translated-*"> and
+   injects a .goog-te-banner-frame. Safari/Firefox page-translate is a
+   browser-level feature a page cannot fully block, but `notranslate` plus
+   the long-press/right-click blocks already neutralise the common paths.
+   This catches the Chrome/Edge case, warns the student, and records it. */
+function _acTransCheck(){
+  if(!_AC_on) return;
+  const h = document.documentElement;
+  const translated = /(^|\s)translated-(ltr|rtl)/.test(h.className) ||
+                     !!document.querySelector('.goog-te-banner-frame');
+  if(translated && !_acTransActive){
+    _acTransActive = true;   // edge: count once per activation
+    _AC_trans++; state._translateHits = _AC_trans; _acShowWarn('translate');
+  } else if(!translated){
+    _acTransActive = false;  // translation turned off — re-arm for next time
+  }
+}
+
+/* Warning overlay (kind: 'tab' = left the page, 'translate' = translation detected) */
+function _acShowWarn(kind){
+  const isT = kind === 'translate';
+  const old = document.getElementById('acOverlay');
+  if(old) old.remove();
+  const ov = document.createElement('div');
+  ov.id = 'acOverlay';
+  ov.style.cssText =
+    'position:fixed;inset:0;background:rgba(10,15,30,.96);z-index:99999;' +
+    'display:flex;flex-direction:column;align-items:center;justify-content:center;' +
+    'color:#fff;font-family:"Montserrat","Segoe UI",sans-serif;text-align:center;padding:32px';
+  ov.innerHTML =
+    '<div style="font-size:3.5rem;margin-bottom:16px">' + (isT?'🌐':'🚨') + '</div>' +
+    '<h2 style="font-size:1.55rem;margin:0 0 12px;font-weight:800">' +
+      (isT ? 'Translation Is Not Allowed' : 'You Left the Exam Page') + '</h2>' +
+    '<p style="max-width:460px;line-height:1.7;color:#cbd5e1;margin:0 0 8px;font-size:1rem">' +
+      (isT ? 'Page translation has been <strong style="color:#f59e0b">detected and recorded</strong>. Turn off your browser’s translate feature to continue.'
+           : 'Leaving the exam page has been <strong style="color:#f59e0b">detected and recorded</strong>. Your teacher will see the number of times this happened.') +
+    '</p>' +
+    '<p style="color:#94a3b8;font-size:.9rem;max-width:420px;margin:0 0 16px;line-height:1.6">' +
+      'Do not switch tabs, open other apps, or use browser translate during the exam.' +
+    '</p>' +
+    '<div style="background:#7c2d12;border:2px solid #f59e0b;border-radius:10px;' +
+      'padding:12px 28px;font-size:1.15rem;font-weight:800;color:#fef3c7;margin-bottom:20px">' +
+      (isT ? '⚠ Translation attempts: ' + _AC_trans : '⚠ Exits recorded this session: ' + _AC_n) +
+    '</div>' +
+    '<button onclick="document.getElementById(\'acOverlay\').remove()" ' +
+      'style="background:'+MSITE.accent+';color:#fff;border:none;padding:14px 36px;border-radius:10px;' +
+             'font-size:1rem;font-weight:700;cursor:pointer;font-family:inherit">' +
+      'Return to Exam' +
+    '</button>';
+  document.body.appendChild(ov);
+}
+
+/* timer */
+function startTimer(min){
+  const el=document.getElementById('timer');
+  const tick=()=>{ const t0=state.startTime||Date.now();
+    const remaining=min*60-Math.floor((Date.now()-t0)/1000);
+    const m=Math.floor(Math.abs(remaining)/60), s=Math.abs(remaining)%60;
+    if(el){ el.textContent=(remaining<0?'+':'')+String(m).padStart(2,'0')+':'+String(s).padStart(2,'0'); el.classList.toggle('over',remaining<0); } };
+  tick(); timerId=setInterval(tick,1000);
+}
+function stopTimer(){ if(timerId){clearInterval(timerId);timerId=null;} }
+
+window._pickLevel=(l)=>{ state.level=l; go('category'); };
+window._pickExam=(t)=>{ state.examType=t; go('exam'); };
+window._mockLocked=()=>{ NISUI.avisa('🔒 The mocks are locked.\n\nYour teacher will open them from '+MSITE.portalName+' when you are ready to sit them.', {titulo:'Locked'}); };
+window._practiceLocked=()=>{ NISUI.avisa('🔒 Practice tests are locked right now.\n\nYour teacher has kept them for class and will unlock them from '+MSITE.portalName+'.', {titulo:'Locked'}); };
+
+/* Auto-skip sign-in when logged into Portal NIS (shared session) → go to level. */
+(async function(){
+  try{
+    if(window.NIS){
+      const s = await window.NIS.currentStudent();
+      if(s){ state.name = s.full_name || ''; state.grade = s.grade || ''; state.email = s.email || ''; go('level'); return; }
+    }
+  }catch(e){}
+  go('welcome');
+})();

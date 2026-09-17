@@ -110,6 +110,9 @@
         (op.titulo ? '<div class="nisui-t">' + esc(op.titulo) + '</div>' : '') +
         '<div class="nisui-m">' + esc(op.mensaje) + '</div>' +
         (op.detalle ? '<div class="nisui-det">' + esc(op.detalle) + '</div>' : '') +
+        (op.campo ? '<input class="nisui-in" type="' + (op.campo.tipo || 'text') + '" value="' + esc(op.campo.valor == null ? '' : String(op.campo.valor)) + '"' +
+          (op.campo.min != null ? ' min="' + op.campo.min + '"' : '') + (op.campo.max != null ? ' max="' + op.campo.max + '"' : '') +
+          ' style="width:100%;box-sizing:border-box;margin:10px 0 2px;padding:9px 11px;border:1px solid var(--line,#cbd5e1);border-radius:9px;font:inherit;background:var(--card,#fff);color:var(--ink,#1e2433)">' : '') +
         '<div class="nisui-btns">' + botones + '</div>' +
       '</div>';
     document.body.appendChild(ov);
@@ -122,8 +125,10 @@
         if (abierto === ov) abierto = null;
         resolve(v);
       }
+      var campo = ov.querySelector('.nisui-in');
+      function valorDe(b) { var v = op.botones[+b.dataset.i].valor; return (campo && v === true) ? campo.value : v; }
       ov.querySelectorAll('.nisui-b').forEach(function (b) {
-        b.addEventListener('click', function () { acaba(op.botones[+b.dataset.i].valor); });
+        b.addEventListener('click', function () { acaba(valorDe(b)); });
       });
       function tecla(e) {
         if (e.key === 'Escape' && op.escapa !== false) { e.preventDefault(); acaba(op.valorEscape); }
@@ -131,11 +136,12 @@
           // Enter confirma solo si el foco no esta ya en un boton concreto
           if (document.activeElement && document.activeElement.classList.contains('nisui-b')) return;
           e.preventDefault();
-          acaba(op.botones[op.botones.length - 1].valor);
+          var ult = op.botones[op.botones.length - 1].valor;
+          acaba((campo && ult === true) ? campo.value : ult);
         }
       }
       document.addEventListener('keydown', tecla, true);
-      var foco = ov.querySelector('.nisui-b:last-child');
+      var foco = campo || ov.querySelector('.nisui-b:last-child');
       if (foco) setTimeout(function () { foco.focus(); }, 30);
     });
   }
@@ -156,7 +162,7 @@
         icono: op.icono,
         detalle: op.detalle,
         valorEscape: undefined,
-        botones: [{ texto: op.cerrar || 'Entendido', valor: undefined }]
+        botones: [{ texto: op.cerrar || 'Got it', valor: undefined }]
       });
     },
 
@@ -171,15 +177,37 @@
       var p = parte(mensaje);
       return pinta({
         mensaje: op.titulo ? mensaje : p.cuerpo,
-        titulo: op.titulo || p.titulo || '¿Confirmas?',
+        titulo: op.titulo || p.titulo || 'Are you sure?',
         tono: op.tono || 'ojo',
         icono: op.icono,
         detalle: op.detalle,
         escapa: true,
         valorEscape: false,
         botones: [
-          { texto: op.no || 'Cancelar', valor: false, clase: 'ghost' },
-          { texto: op.si || 'Continuar', valor: true, clase: op.peligro ? 'peligro' : '' }
+          { texto: op.no || 'Cancel', valor: false, clase: 'ghost' },
+          { texto: op.si || 'Continue', valor: true, clase: op.peligro ? 'peligro' : '' }
+        ]
+      });
+    },
+
+    /* El prompt() del portal: un campo de texto y dos botones. Devuelve el
+       texto escrito o null si se cancela (igual que el nativo, pero con la
+       cara del portal y sin bloquear la pestaña). */
+    pide: function (mensaje, op) {
+      op = op || {};
+      var p = parte(mensaje);
+      return pinta({
+        mensaje: op.titulo ? mensaje : p.cuerpo,
+        titulo: op.titulo || p.titulo || '',
+        tono: op.tono || 'info',
+        icono: op.icono,
+        detalle: op.detalle,
+        campo: { valor: op.valor, tipo: op.tipo, min: op.min, max: op.max },
+        escapa: true,
+        valorEscape: null,
+        botones: [
+          { texto: op.no || 'Cancel', valor: null, clase: 'ghost' },
+          { texto: op.si || 'OK', valor: true }
         ]
       });
     },

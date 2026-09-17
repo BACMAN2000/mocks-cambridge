@@ -94,3 +94,30 @@
   }
   window.NIS = { client: client, currentStudent: currentStudent, save: save, mocksUnlocked: mocksUnlocked, practiceUnlocked: practiceUnlocked, signOut: signOut };
 })();
+
+/* ===== Volver a donde se venia =====
+   El portal enlaza a estas apps con ?back=./#ruta (contando desde su raiz).
+   Aqui, una carpeta mas abajo, eso es ../#ruta. Se recuerda en sessionStorage
+   para que el "Back" de las tres apps y el "NIS Portal" del indice devuelvan
+   al alumno a la vista de la que salio (Practice, Mocks, Cambridge...) y no al
+   inicio del portal, que le obligaba a rehacer todo el camino. */
+(function(){
+  var CLAVE = 'mocks-back';
+  function seguro(u){ return !!u && !/^[a-z][a-z0-9+.\-]*:/i.test(u) && u.slice(0,2) !== '//'; }
+  var back = null;
+  try{
+    var q = new URLSearchParams(location.search).get('back');
+    if(seguro(q)){
+      back = q.slice(0,2) === './' ? '../' + q.slice(2) : (q.charAt(0) === '#' ? '../' + q : q);
+      sessionStorage.setItem(CLAVE, back);
+    } else back = sessionStorage.getItem(CLAVE);
+  }catch(_){ back = null; }
+  if(!seguro(back)) return;
+  function arregla(){
+    var as = document.querySelectorAll('a[href="/"], a[href="./"], a[href="../"], a[href="index.html"]');
+    for(var i=0;i<as.length;i++){ if(as[i].getAttribute('data-back-ok')) continue; as[i].setAttribute('href', back); as[i].setAttribute('data-back-ok','1'); }
+  }
+  function listo(){ arregla(); try{ new MutationObserver(arregla).observe(document.body, {childList:true, subtree:true}); }catch(_){ } }
+  if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', listo); else listo();
+  window.NIS_MOCKS_BACK = back;
+})();

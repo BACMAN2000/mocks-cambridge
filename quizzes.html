@@ -1,6 +1,7 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" translate="no">
 <head>
+<meta name="google" content="notranslate">
 <meta charset="utf-8">
 <script>
 /* Los alumnos no deben ver github.io en la barra (y alli los intentos no se
@@ -32,42 +33,45 @@ if(/\.github\.io$/i.test(location.hostname)){
 })();
 </script>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="../vendor/fonts/montserrat-68a53b.css" rel="stylesheet">
+<link rel="preload" href="../fonts/GothamBook.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../nis-fonts.css?v=fd196882">
+<script>try{var t=localStorage.getItem("nis-tema");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<link rel="stylesheet" href="../nis-tokens.css?v=b3bffd5c">
 <style>
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
-  body{font:15px/1.55 "Montserrat",system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-    color:#0f172a; background:linear-gradient(180deg,#d1d2ea 0%,#f8fafc 60%,#fff 100%); min-height:100vh}
-  header{background:#fff; color:#0f172a; padding:12px 22px; display:flex; align-items:center; gap:10px; flex-wrap:wrap;
-    box-shadow:0 4px 16px rgba(15,23,42,.06); position:sticky; top:0; z-index:10; border-bottom:1px solid #e2e8f0}
+  body{font:15px/1.55 'Gotham',"Montserrat",system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink); background:linear-gradient(180deg,var(--lila) 0%,var(--bg) 60%,var(--card) 100%); min-height:100vh}
+  header{background:var(--card); color:var(--ink); padding:12px 22px; display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+    box-shadow:0 4px 16px rgba(15,23,42,.06); position:sticky; top:0; z-index:10; border-bottom:1px solid var(--line)}
   header .logo img{display:block; height:38px; width:auto}
-  header .sub{color:#636465; font-size:13px; margin-left:auto; font-weight:600}
+  header .sub{color:var(--muted); font-size:13px; margin-left:auto; font-weight:600}
   @media (max-width:560px){ header .sub{display:none} header .me-btn{margin-left:0} }
-  header .me-btn{margin-left:14px; text-decoration:none; background:#4987c6; color:#fff;
+  header .me-btn{margin-left:14px; text-decoration:none; background:#2f5f93; color:var(--card);
     font-weight:700; font-size:13px; padding:8px 14px; border-radius:9px; white-space:nowrap}
   header .me-btn:hover{filter:brightness(.95)}
   main{max-width:880px; margin:0 auto; padding:18px}
   h1{font-size:22px; margin:0 0 6px}
-  p.lead{color:#475569; margin:0 0 18px}
+  p.lead{color:var(--muted); margin:0 0 18px}
   .grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px}
-  .card{background:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:22px;
+  .card{background:var(--card); border:1px solid var(--line); border-radius:16px; padding:22px;
     box-shadow:0 8px 24px rgba(15,23,42,.08); text-align:center}
   .card h2{font-size:20px; margin:0 0 4px}
-  .card .desc{color:#475569; font-size:13px; margin:0 0 14px; min-height:38px}
-  .qr{width:210px; height:210px; border:1px solid #e2e8f0; border-radius:12px; padding:8px; background:#fff}
+  .card .desc{color:var(--muted); font-size:13px; margin:0 0 14px; min-height:38px}
+  .qr{width:210px; height:210px; border:1px solid var(--line); border-radius:12px; padding:8px; background:var(--card)}
   .btn{display:inline-block; margin-top:14px; text-decoration:none; border-radius:10px;
-    padding:12px 20px; font-weight:700; background:#4987c6; color:#fff;
+    padding:12px 20px; font-weight:700; background:#2f5f93; color:var(--card);
     box-shadow:0 8px 24px rgba(15,23,42,.08); font-family:"Montserrat",sans-serif}
   .btn:hover{filter:brightness(.95)}
   .btn.read{background:#2d5a8d}
   .btn.write{background:#16a34a}
-  .url{display:block; margin-top:8px; font-size:12px; color:#64748b; word-break:break-all}
-  .footer{color:#475569; font-size:12px; text-align:center; padding:22px 0 32px}
-  .tip{background:#fef9c3; border:1px solid #fde68a; padding:12px 14px; border-radius:12px;
-    color:#92400e; font-size:13px; margin:18px 0}
+  .url{display:block; margin-top:8px; font-size:12px; color:var(--muted); word-break:break-all}
+  .footer{color:var(--muted); font-size:12px; text-align:center; padding:22px 0 32px}
+  .tip{background:var(--amber50); border:1px solid #fde68a; padding:12px 14px; border-radius:12px;
+    color:var(--sand-txt); font-size:13px; margin:18px 0}
 </style>
+<script src="config.js?v=5924addc"></script>
 </head>
 <body>
 <header>
@@ -83,7 +87,7 @@ if(/\.github\.io$/i.test(location.hostname)){
 
   <!-- nis-only:start (el sync de cohasset.pe recorta este bloque: su portal ya tiene sección YLE propia) -->
   <h2 style="font-size:18px;margin:6px 0 2px">🧭 YLE — Young Learners (Primary)</h2>
-  <p style="color:#475569;font-size:13px;margin:0 0 12px"><b>Fun for Nordic</b>, our Cambridge Young Learners course: interactive units with audio, crosswords and exam tasks. Open to primary.</p>
+  <p style="color:var(--muted);font-size:13px;margin:0 0 12px"><b>Fun for Nordic</b>, our Cambridge Young Learners course: interactive units with audio, crosswords and exam tasks. Open to primary.</p>
   <div class="grid">
     <div class="card" style="border-top:5px solid #3b6fb5">
       <h2>🧭 Fun for Nordic — YLE</h2>
@@ -98,7 +102,7 @@ if(/\.github\.io$/i.test(location.hostname)){
   <!-- nis-only:end -->
 
   <h2 id="mocks" style="font-size:18px;margin:22px 0 2px">📝 MOCKS — full exams</h2>
-  <p style="color:#475569;font-size:13px;margin:0 0 12px">Full mock exams, harder than the practice tests. <b>Locked by default</b>: coordination opens them by grade when they are scheduled.</p>
+  <p style="color:var(--muted);font-size:13px;margin:0 0 12px">Full mock exams, harder than the practice tests. <b>Locked by default</b>: coordination opens them by grade when they are scheduled.</p>
   <div class="grid">
     <div class="card">
       <h2>📖 Reading &amp; Use of English</h2>
@@ -121,12 +125,12 @@ if(/\.github\.io$/i.test(location.hostname)){
     <div class="card" style="opacity:.8">
       <h2>🗣️ Speaking</h2>
       <div class="desc">Cambridge-style interview with an examiner, by level.</div>
-      <span class="btn" style="background:#94a3b8;cursor:default">Coming soon</span>
+      <span class="btn" style="background:#5c6879;cursor:default">Coming soon</span>
     </div>
   </div>
 
   <h2 id="practice" style="font-size:18px;margin:22px 0 2px">🎯 PRACTICE TESTS</h2>
-  <p style="color:#475569;font-size:13px;margin:0 0 12px">Practice tests in the same Cambridge format, marked automatically. <b>Open by default</b>; your teacher can hold them back by grade to use them in class.</p>
+  <p style="color:var(--muted);font-size:13px;margin:0 0 12px">Practice tests in the same Cambridge format, marked automatically. <b>Open by default</b>; your teacher can hold them back by grade to use them in class.</p>
   <div class="grid">
     <div class="card">
       <h2>📖 Reading &amp; Use of English</h2>
@@ -154,7 +158,7 @@ if(/\.github\.io$/i.test(location.hostname)){
   <div class="footer">MOCKS CAMBRIDGE · NIS English · 2026</div>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4"></script>
-<script src="nis-bridge.js"></script>
+<script src="nis-bridge.js?v=fd10d229"></script>
 <script>
   window._signout = async function(){
     // Try a clean Supabase sign-out if the bridge is loaded…
@@ -173,5 +177,8 @@ if(/\.github\.io$/i.test(location.hostname)){
     window.location.href = '/?logout=1';
   };
 </script>
+<script src="../nis-presence.js?v=684f7b00" defer></script>
+<script src="../nis-i18n.js?v=503537a8" defer></script>
+<script src="../nis-tema.js?v=78420634" defer></script>
 </body>
 </html>
