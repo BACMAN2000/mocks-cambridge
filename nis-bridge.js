@@ -184,7 +184,9 @@
       + '<div style="max-width:52ch;opacity:.85">The timer keeps running. Go back to full screen to continue. Every exit is recorded for your teacher (' + _fsExits + ' so far).</div>'
       + '<button type="button" id="nisFsBack" style="margin-top:6px;background:#fff;color:#244c77;border:none;border-radius:10px;padding:12px 22px;font-weight:800;font-size:1rem;cursor:pointer;font-family:inherit">⛶ Return to full screen and continue</button>';
     document.body.appendChild(v);
-    document.getElementById('nisFsBack').onclick = function(){ enterFs(); setTimeout(function(){ if(isFs() || !fsSupported()) v.remove(); }, 400); };
+    // Si el navegador no concede la pantalla completa, el aviso se quita igual:
+    // la salida ya quedo contada y un alumno atrapado seria peor que un alumno sin pantalla completa.
+    document.getElementById('nisFsBack').onclick = function(){ enterFs(); setTimeout(function(){ v.remove(); }, 600); };
   }
   function onFsChange(){ if(!_examOn || _examDone) return; if(!isFs()){ _fsExits++; pausa(); } else { var pz = document.getElementById('nisFsPause'); if(pz) pz.remove(); } }
   document.addEventListener('fullscreenchange', onFsChange);
