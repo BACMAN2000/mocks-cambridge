@@ -121,3 +121,197 @@
   if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', listo); else listo();
   window.NIS_MOCKS_BACK = back;
 })();
+
+/* ===== MOCK MODE (18-sep-2026) =====
+   Con ?official=1 en la URL (asi abre el portal la tarjeta del mock) la RUTA
+   es cerrada: un velo tapa el motor hasta que el examen arranca solo (nivel y
+   mock los confirman las tablas mock_individual / mock_official + mock_access,
+   la URL solo trae una pista), y toda salida —Exit, «Back to the Portal»,
+   «Change level», el logo, «All quizzes»— vuelve al portal, nunca a las
+   tarjetas de nivel/categoria/mocks del motor. Ese dia el candado solo deja
+   pasar ese mock en ese nivel. Ademas, el alumno ya no ve la tarjeta MOCKS
+   bloqueada del motor ni la seccion MOCKS de quizzes.html: son del staff.
+   NOTA: los tres motores declaran `const state` (lexico global, NO propiedad
+   de window): se resuelve por identificador en el momento de la llamada. */
+(function(){
+  var LEVELS = ['A2','B1','B2','C1'];
+  var LEVEL_NAMES = { A2:'A2 Key', B1:'B1 Preliminary', B2:'B2 First', C1:'C1 Advanced' };
+  function qs(k){ try{ return new URLSearchParams(location.search).get(k); }catch(e){ return null; } }
+  var OFFICIAL_URL = qs('official') === '1';
+  function page(){
+    return /listening-quiz/.test(location.pathname) ? 'Listening'
+         : /writing-quiz/.test(location.pathname) ? 'Writing'
+         : /reading-quiz/.test(location.pathname) ? 'Reading' : '';
+  }
+  function S(){ try{ return (typeof state !== 'undefined') ? state : (window.state || null); }catch(e){ return window.state || null; } }
+  function backToPortal(){ window.location.href = window.NIS_MOCKS_BACK || '../'; }
+  window.nisBackToPortal = backToPortal;
+
+  /* ---- el velo ---- */
+  function veil(texto, boton){
+    if(boton) window.__nisVeilFinal = true;   // mensaje final: que el «Preparing…» tardio no lo pise
+    var v = document.getElementById('nisOfficialVeil');
+    if(!v){
+      v = document.createElement('div'); v.id = 'nisOfficialVeil';
+      v.style.cssText = 'position:fixed;inset:0;z-index:2147483000;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;'
+        + 'background:linear-gradient(135deg,#244c77,#4987c6 55%,#6d4fc2);color:#fff;font-family:"DM Sans",Montserrat,system-ui,sans-serif;text-align:center;padding:24px';
+      (document.body || document.documentElement).appendChild(v);
+    }
+    v.innerHTML = '<div style="width:46px;height:46px;border:4px solid rgba(255,255,255,.35);border-top-color:#fff;border-radius:50%;animation:nisVeilSpin .8s linear infinite' + (boton ? ';display:none' : '') + '"></div>'
+      + '<div style="font-weight:800;font-size:1.25rem">' + texto + '</div>'
+      + (boton ? '<button type="button" onclick="nisBackToPortal()" style="margin-top:6px;background:#fff;color:#244c77;border:none;border-radius:10px;padding:11px 20px;font-weight:800;font-size:.95rem;cursor:pointer;font-family:inherit">🏫 Back to the Portal</button>' : '')
+      + '<style>@keyframes nisVeilSpin{to{transform:rotate(360deg)}}</style>';
+    return v;
+  }
+  function unveil(){ var v = document.getElementById('nisOfficialVeil'); if(v) v.remove(); }
+  if(OFFICIAL_URL){
+    if(document.body) veil('Preparing your mock…'); else document.addEventListener('DOMContentLoaded', function(){ if(!window.__nisOfficialStarted && !window.__nisVeilFinal) veil('Preparing your mock…'); });
+  }
+
+  /* ---- que le toca hoy al alumno ---- */
+  var _off = null, _offPromise = null, _role = '';
+  async function resolveOfficial(){
+    var c = window.NIS && NIS.client(); if(!c) return null;
+    try{
+      var u = await c.auth.getUser(); if(!u || !u.data || !u.data.user) return null;
+      var uid = u.data.user.id;
+      var prof = (await c.from('profiles').select('role,grade_id,cefr_level').eq('id',uid).maybeSingle()).data;
+      if(!prof) return null;
+      _role = prof.role || '';
+      if(prof.role !== 'student') return null;
+      var mode = null, mock = null, fijo = null;
+      var ind = (await c.from('mock_individual').select('mock,level').eq('student_id',uid).maybeSingle()).data;
+      if(ind && ind.mock){ mode = 'individual'; mock = ind.mock; fijo = ind.level || null; }
+      else {
+        var off = (await c.from('mock_official').select('mock').eq('id',1).maybeSingle()).data;
+        var acc = prof.grade_id != null ? (await c.from('mock_access').select('unlocked').eq('grade_id',prof.grade_id).maybeSingle()).data : null;
+        if(off && off.mock && acc && acc.unlocked){ mode = 'official'; mock = off.mock; }
+      }
+      if(!mode) return null;
+      var cefr = String(prof.cefr_level || '').toUpperCase();
+      var levels = fijo ? [fijo] : (LEVELS.indexOf(cefr) >= 0 ? [cefr] : LEVELS.slice());
+      var hint = (qs('level') || '').toUpperCase();
+      var level = levels.length === 1 ? levels[0] : (levels.indexOf(hint) >= 0 ? hint : null);
+      return { mode: mode, mock: mock, examType: 'mock0' + mock, level: level, levels: levels };
+    }catch(e){ return null; }
+  }
+  function official(){ if(!_offPromise) _offPromise = resolveOfficial().then(function(o){ _off = o; applyStudentCss(); return o; }); return _offPromise; }
+  window.NIS.official = official;
+
+  /* Mock mode manda sobre los candados de siempre: el mock si, la practica no. */
+  var _mu = NIS.mocksUnlocked, _pu = NIS.practiceUnlocked, _cs = NIS.currentStudent;
+  NIS.mocksUnlocked = async function(){ var o = await official(); return o ? true : _mu.apply(this, arguments); };
+  NIS.practiceUnlocked = async function(){ var o = await official(); return o ? false : _pu.apply(this, arguments); };
+  /* El motor llama a currentStudent() y acto seguido a go('level'): con
+     ?official=1 se espera aqui a saber el mock y se arranca justo despues. */
+  NIS.currentStudent = async function(){
+    var s = await _cs.apply(this, arguments);
+    if(OFFICIAL_URL && !window.__nisOfficialStarted){
+      try{
+        var o = await official();
+        if(o) setTimeout(startOfficial, 0);
+        else setTimeout(function(){ veil('You have no mock active today.', true); }, 0);
+      }catch(e){ setTimeout(function(){ veil('Could not check your mock. Go back to the Portal and try again.', true); }, 0); }
+    }
+    return s;
+  };
+
+  function startOfficial(){
+    if(window.__nisOfficialStarted) return;
+    var o = _off; if(!o) return;
+    var pg = page();
+    if(!o.level){ veil('Choose your level on the Portal first.', true); return; }
+    if((o.level === 'A2' && pg === 'Writing') || !pg){ veil('Your mock has no ' + pg + ' paper.', true); return; }
+    var st = S(); if(!st){ setTimeout(startOfficial, 200); return; }
+    window.__nisOfficialStarted = true;
+    lockExits();
+    st.level = o.level;
+    if(pg === 'Reading'){
+      st.skill = 'Reading'; st.examType = o.examType; st.answers = {}; st._tabSwitches = 0;
+      if(typeof window.go === 'function') window.go('exam');
+    } else if(pg === 'Writing'){
+      if(typeof window._pickExam === 'function') window._pickExam(o.examType);
+      else { st.examType = o.examType; if(typeof window.go === 'function') window.go('exam'); }
+    } else if(pg === 'Listening'){
+      st.examType = o.examType; st.startTime = Date.now(); st.answers = {}; st.seqOrder = {};
+      if(typeof window.viewQuiz === 'function') window.viewQuiz();
+    }
+    setTimeout(unveil, 150);
+  }
+
+  /* ---- el candado por test (solo en mock mode): ese mock, en ese nivel ---- */
+  function allowedSync(examType){
+    if(!_off) return true;
+    var st = S();
+    return examType === _off.examType && (!st || !st.level || st.level === _off.level);
+  }
+  function lockMsg(){
+    var m = _off ? ('🔒 Today you only sit your ' + (_off.mode === 'individual' ? 'individual mock' : 'official mock') + ': ' + (_off.level ? LEVEL_NAMES[_off.level] + ' · ' : '') + 'MOCK ' + _off.mock + '.') : '🔒 Locked.';
+    if(window.NISUI && NISUI.avisa) NISUI.avisa(m, {titulo:'Mock mode'}); else alert(m);
+  }
+  function wrapGates(){
+    if(typeof window.go === 'function' && !window.go.__nisGate){
+      var _go = window.go;
+      var w = function(s){ var st = S(); if(s === 'exam' && st && st.examType && !allowedSync(st.examType)){ lockMsg(); return; } return _go.apply(this, arguments); };
+      w.__nisGate = true; window.go = w;
+    }
+    if(typeof window.viewQuiz === 'function' && !window.viewQuiz.__nisGate){
+      var _vq = window.viewQuiz;
+      var wv = function(){ var st = S(); if(st && st.examType && !allowedSync(st.examType)){ lockMsg(); return; } return _vq.apply(this, arguments); };
+      wv.__nisGate = true; window.viewQuiz = wv;
+    }
+  }
+
+  /* ---- la salida, una sola: al portal ---- */
+  var EXIT_SCREENS = { level:1, category:1, examPick:1, practicePick:1, welcome:1, login:1, skill:1 };
+  function lockExits(){
+    if(window.__nisExitsLocked) return;
+    window.__nisExitsLocked = true;
+    var css = document.createElement('style');
+    css.textContent = 'button.ghost[onclick="go(\'category\')"],button.ghost[onclick="go(\'level\')"],button.btn.ghost[onclick="go(\'level\')"],'
+      + '#lAgain,a.link[href="quizzes.html"],a.btn.secondary[href="quizzes.html"],a.link[href="listening-quiz.html"]{display:none!important}'
+      + 'a.brand{pointer-events:none}';
+    document.head.appendChild(css);
+    document.addEventListener('click', function(ev){
+      var a = ev.target && ev.target.closest ? ev.target.closest('a[href]') : null;
+      if(!a || a.target === '_blank') return;
+      var h = a.getAttribute('href') || '';
+      if(h === '/' || h === './' || h === '../' || /^(\.\.\/)?#/.test(h) || /^(\.\.\/)?(quizzes|reading-quiz|listening-quiz|writing-quiz)\.html/.test(h)){
+        ev.preventDefault(); ev.stopPropagation(); backToPortal();
+      }
+    }, true);
+    if(typeof window.go === 'function' && !window.go.__nisExit){
+      var _go2 = window.go;
+      var w2 = function(s){ if(EXIT_SCREENS[s]){ backToPortal(); return; } return _go2.apply(this, arguments); };
+      w2.__nisExit = true; w2.__nisGate = _go2.__nisGate; window.go = w2;
+    }
+    ['viewLevelSelect','viewCategory','viewExamPick','viewPracticePick','viewWelcome'].forEach(function(fn){
+      if(typeof window[fn] === 'function' && !window[fn].__nisExit){ var w3 = function(){ backToPortal(); }; w3.__nisExit = true; window[fn] = w3; }
+    });
+    if(typeof window._pickLevel === 'function') window._pickLevel = function(){ backToPortal(); };
+  }
+
+  /* ---- lo que el alumno no debe ver: la tarjeta MOCKS bloqueada del motor
+     (reading/listening: #catMocks con opacity inline cuando esta cerrada;
+     writing: la card cuyo onclick es _mockLocked) y la seccion MOCKS de
+     quizzes.html. En mock mode se esconde la de PRACTICE, que ese dia es la
+     cerrada. ---- */
+  function applyStudentCss(){
+    var staff = _role === 'admin' || _role === 'teacher';
+    var css = '';
+    if(!staff){
+      css += '#catMocks[style*="opacity"],.card[onclick="window._mockLocked()"]{display:none!important}';
+      if(_off) css += '#catPractice[style*="opacity"],.card[onclick="window._practiceLocked()"]{display:none!important}';
+    }
+    var el = document.getElementById('nisStudentCss');
+    if(!el){ el = document.createElement('style'); el.id = 'nisStudentCss'; document.head.appendChild(el); }
+    el.textContent = css;
+    var sec = document.getElementById('mocksSection'); if(sec) sec.hidden = !(staff || _off);
+    var pr = document.getElementById('practiceSection'); if(pr && _off) pr.hidden = true;
+    var ban = document.getElementById('officialBanner');
+    if(ban && _off){ ban.hidden = false; ban.textContent = '🎓 Today you sit your ' + (_off.mode === 'individual' ? 'individual' : 'official') + ' mock: ' + (_off.level ? LEVEL_NAMES[_off.level] + ' · ' : '') + 'MOCK ' + _off.mock + '. It is the only thing open.'; }
+  }
+  function boot(){ wrapGates(); official(); }
+  if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
+  setTimeout(wrapGates, 400); setTimeout(wrapGates, 1500);
+})();

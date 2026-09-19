@@ -101,8 +101,15 @@ if(/\.github\.io$/i.test(location.hostname)){
   </div>
   <!-- nis-only:end -->
 
+  <!-- Aviso del dia del mock (lo rellena nis-bridge.js cuando aplica). -->
+  <div class="tip" id="officialBanner" hidden></div>
+  <!-- MOCKS: oculto para el alumno desde el 18-sep-2026. Ya no ve la tarjeta
+       bloqueada: el dia del mock llega a su examen desde la tarjeta de su
+       portada en el portal (mock mode). nis-bridge.js lo muestra al staff
+       (vista previa) y al alumno solo ese dia. -->
+  <section id="mocksSection" hidden>
   <h2 id="mocks" style="font-size:18px;margin:22px 0 2px">📝 MOCKS — full exams</h2>
-  <p style="color:var(--muted);font-size:13px;margin:0 0 12px">Full mock exams, harder than the practice tests. <b>Locked by default</b>: coordination opens them by grade when they are scheduled.</p>
+  <p style="color:var(--muted);font-size:13px;margin:0 0 12px">Full mock exams, harder than the practice tests. Students sit them only on the <b>mock day</b> the admin sets from the Portal (mock number + grade).</p>
   <div class="grid">
     <div class="card">
       <h2>📖 Reading &amp; Use of English</h2>
@@ -128,7 +135,9 @@ if(/\.github\.io$/i.test(location.hostname)){
       <span class="btn" style="background:#5c6879;cursor:default">Coming soon</span>
     </div>
   </div>
+  </section>
 
+  <section id="practiceSection">
   <h2 id="practice" style="font-size:18px;margin:22px 0 2px">🎯 PRACTICE TESTS</h2>
   <p style="color:var(--muted);font-size:13px;margin:0 0 12px">Practice tests in the same Cambridge format, marked automatically. <b>Open by default</b>; your teacher can hold them back by grade to use them in class.</p>
   <div class="grid">
@@ -150,15 +159,16 @@ if(/\.github\.io$/i.test(location.hostname)){
       <a class="btn write" href="writing-quiz.html?branch=practice">Open Writing Practice</a>
     </div>
   </div>
+  </section>
 
   <div class="tip">
-    💡 Students sign in from the <b>NIS Portal</b> with their email and password. <b>Practice Tests</b> are for practice (your teacher can hold them back by grade); <b>Mocks</b> are the full exams and only an admin opens them when they are scheduled. Results are saved automatically.
+    💡 Students sign in from the <b>NIS Portal</b> with their email and password. <b>Practice Tests</b> are for practice (your teacher can hold them back by grade); the <b>official Mock</b> appears on your Portal home page on the day the admin sets it, and that day it is the only thing open. Results are saved automatically.
   </div>
 
   <div class="footer">MOCKS CAMBRIDGE · NIS English · 2026</div>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4"></script>
-<script src="nis-bridge.js?v=fd10d229"></script>
+<script src="nis-bridge.js?v=e3958317"></script>
 <script>
   window._signout = async function(){
     // Try a clean Supabase sign-out if the bridge is loaded…
