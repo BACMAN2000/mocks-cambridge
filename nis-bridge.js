@@ -213,7 +213,19 @@
     // la salida ya quedo contada y un alumno atrapado seria peor que un alumno sin pantalla completa.
     document.getElementById('nisFsBack').onclick = function(){ enterFs(); setTimeout(function(){ v.remove(); }, 600); };
   }
-  function onFsChange(){ if(!_examOn || _examDone || !fsSupported()) return; if(!isFs()){ _fsExits++; pausa(); } else { var pz = document.getElementById('nisFsPause'); if(pz) pz.remove(); } }
+  var _pausaTimer = null;
+  function onFsChange(){
+    if(!_examOn || _examDone || !fsSupported()) return;
+    if(!isFs()){
+      // Con carencia: una salida momentanea (el navegador recoloca, un foco)
+      // no es «se fue del examen». Solo si sigue fuera 1,5 s despues.
+      if(_pausaTimer) return;
+      _pausaTimer = setTimeout(function(){ _pausaTimer = null; if(_examOn && !_examDone && !isFs()){ _fsExits++; pausa(); } }, 1500);
+    } else {
+      if(_pausaTimer){ clearTimeout(_pausaTimer); _pausaTimer = null; }
+      var pz = document.getElementById('nisFsPause'); if(pz) pz.remove();
+    }
+  }
   document.addEventListener('fullscreenchange', onFsChange);
   document.addEventListener('webkitfullscreenchange', onFsChange);
   document.addEventListener('visibilitychange', function(){ if(_examOn && !_examDone && document.hidden) _tabSwitches++; });
@@ -227,6 +239,7 @@
   };
   /* El velo de arranque: un boton, porque la pantalla completa exige un gesto. */
   function veilStart(o){
+    window.__nisVeilFinal = true;   // que el «Preparing…» de DOMContentLoaded no pise el boton si llega despues (conexion rapida)
     var pg = page();
     var v = veil('', false);
     v.innerHTML = '<div style="font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);padding:5px 12px;border-radius:999px">🎓 ' + (o.mode === 'individual' ? 'Mock individual' : 'Mock oficial') + '</div>'
@@ -234,6 +247,7 @@
       + '<div style="font-size:1.05rem;opacity:.95">' + pg + '</div>'
       + '<div style="max-width:52ch;opacity:.85;font-size:.95rem">' + (fsSupported() ? 'The exam opens in full screen. Stay in it until you submit: leaving it pauses the exam and is recorded for your teacher.' : (IOS ? 'Stay in the exam until you submit: leaving the app is recorded for your teacher. For full screen on iPad, open the Portal from its Home Screen icon.' : 'Stay on this page until you submit: leaving it is recorded for your teacher.')) + '</div>'
       + '<button type="button" id="nisFsStart" style="margin-top:8px;background:#fff;color:#244c77;-webkit-text-fill-color:#244c77;-webkit-appearance:none;appearance:none;border:none;border-radius:12px;padding:14px 26px;font-weight:800;font-size:1.05rem;cursor:pointer;font-family:inherit">▶ ' + (fsSupported() ? 'Start in full screen' : 'Start') + '</button>'
+      + '<div style="position:absolute;bottom:10px;right:14px;font-size:.7rem;opacity:.55">v ' + (qs('v') || '?') + (IOS ? ' · iPad' : '') + '</div>'
       + '<style>@keyframes nisVeilSpin{to{transform:rotate(360deg)}}</style>';
     document.getElementById('nisFsStart').onclick = function(){ enterFs(); startOfficial(); };
   }
