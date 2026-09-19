@@ -131,6 +131,14 @@
    tarjetas de nivel/categoria/mocks del motor. Ese dia el candado solo deja
    pasar ese mock en ese nivel. Ademas, el alumno ya no ve la tarjeta MOCKS
    bloqueada del motor ni la seccion MOCKS de quizzes.html: son del staff.
+   PANTALLA COMPLETA (19-sep-2026): el examen arranca desde un boton del velo
+   (hace falta un gesto del alumno) y entra en pantalla completa; en Chrome/
+   Edge de escritorio ademas se bloquean Esc, Alt+Tab y la tecla Windows
+   (Keyboard Lock). Si el alumno sale de pantalla completa, un aviso tapa el
+   examen hasta que vuelve; cada salida y cada cambio de pestaña se cuenta y
+   viaja en breakdown.mock_mode del intento. Ninguna web puede IMPEDIR
+   minimizar o cambiar de app: eso es Acceso Guiado (iPad) o Chrome en modo
+   kiosco. En iPhone no hay pantalla completa: el examen arranca igual.
    NOTA: los tres motores declaran `const state` (lexico global, NO propiedad
    de window): se resuelve por identificador en el momento de la llamada. */
 (function(){
@@ -144,8 +152,64 @@
          : /reading-quiz/.test(location.pathname) ? 'Reading' : '';
   }
   function S(){ try{ return (typeof state !== 'undefined') ? state : (window.state || null); }catch(e){ return window.state || null; } }
-  function backToPortal(){ window.location.href = window.NIS_MOCKS_BACK || '../'; }
+  function backToPortal(){ exitFs(); window.location.href = window.NIS_MOCKS_BACK || '../'; }
   window.nisBackToPortal = backToPortal;
+
+  /* ---- pantalla completa ---- */
+  var FS_EL = document.documentElement;
+  var _fsExits = 0, _tabSwitches = 0, _examOn = false, _examDone = false, _kbLock = false;
+  function fsSupported(){ return !!(FS_EL.requestFullscreen || FS_EL.webkitRequestFullscreen); }
+  function isFs(){ return !!(document.fullscreenElement || document.webkitFullscreenElement); }
+  function enterFs(){
+    try{
+      var r = FS_EL.requestFullscreen ? FS_EL.requestFullscreen({ navigationUI:'hide' }) : (FS_EL.webkitRequestFullscreen ? FS_EL.webkitRequestFullscreen() : null);
+      if(r && r.catch) r.catch(function(){});
+    }catch(e){}
+    // Chrome/Edge de escritorio: captura Esc, Alt+Tab y la tecla Windows mientras dure la pantalla completa.
+    try{ if(navigator.keyboard && navigator.keyboard.lock){ navigator.keyboard.lock().then(function(){ _kbLock = true; }).catch(function(){}); } }catch(e){}
+  }
+  function exitFs(){
+    try{ if(navigator.keyboard && navigator.keyboard.unlock) navigator.keyboard.unlock(); }catch(e){}
+    try{ if(isFs()){ if(document.exitFullscreen) document.exitFullscreen(); else if(document.webkitExitFullscreen) document.webkitExitFullscreen(); } }catch(e){}
+  }
+  function examFinished(){ if(_examDone) return; _examDone = true; _examOn = false; var pz = document.getElementById('nisFsPause'); if(pz) pz.remove(); exitFs(); }
+  /* Se salio de pantalla completa con el examen en marcha: se tapa hasta que vuelva. */
+  function pausa(){
+    if(document.getElementById('nisFsPause')) return;
+    var v = document.createElement('div'); v.id = 'nisFsPause';
+    v.style.cssText = 'position:fixed;inset:0;z-index:2147483001;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;'
+      + 'background:rgba(15,23,42,.96);color:#fff;font-family:"DM Sans",Montserrat,system-ui,sans-serif;text-align:center;padding:24px';
+    v.innerHTML = '<div style="font-size:2.4rem">⏸️</div>'
+      + '<div style="font-weight:800;font-size:1.3rem">You left full screen — the exam is paused</div>'
+      + '<div style="max-width:52ch;opacity:.85">The timer keeps running. Go back to full screen to continue. Every exit is recorded for your teacher (' + _fsExits + ' so far).</div>'
+      + '<button type="button" id="nisFsBack" style="margin-top:6px;background:#fff;color:#244c77;border:none;border-radius:10px;padding:12px 22px;font-weight:800;font-size:1rem;cursor:pointer;font-family:inherit">⛶ Return to full screen and continue</button>';
+    document.body.appendChild(v);
+    document.getElementById('nisFsBack').onclick = function(){ enterFs(); setTimeout(function(){ if(isFs() || !fsSupported()) v.remove(); }, 400); };
+  }
+  function onFsChange(){ if(!_examOn || _examDone) return; if(!isFs()){ _fsExits++; pausa(); } else { var pz = document.getElementById('nisFsPause'); if(pz) pz.remove(); } }
+  document.addEventListener('fullscreenchange', onFsChange);
+  document.addEventListener('webkitfullscreenchange', onFsChange);
+  document.addEventListener('visibilitychange', function(){ if(_examOn && !_examDone && document.hidden) _tabSwitches++; });
+  /* Lo que el alumno hizo con la pantalla viaja con el intento (breakdown.mock_mode). */
+  var _save = NIS.save;
+  NIS.save = function(att){
+    if(_off && att){
+      att.breakdown = Object.assign({}, att.breakdown || {}, { mock_mode: { mode:_off.mode, fullscreen_exits:_fsExits, tab_switches:_tabSwitches, fullscreen_supported:fsSupported(), keyboard_lock:_kbLock } });
+    }
+    return _save.apply(this, arguments);
+  };
+  /* El velo de arranque: un boton, porque la pantalla completa exige un gesto. */
+  function veilStart(o){
+    var pg = page();
+    var v = veil('', false);
+    v.innerHTML = '<div style="font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);padding:5px 12px;border-radius:999px">🎓 ' + (o.mode === 'individual' ? 'Mock individual' : 'Mock oficial') + '</div>'
+      + '<div style="font-weight:800;font-size:1.7rem">' + (o.level ? LEVEL_NAMES[o.level] + ' · ' : '') + 'MOCK ' + o.mock + '</div>'
+      + '<div style="font-size:1.05rem;opacity:.95">' + pg + '</div>'
+      + '<div style="max-width:52ch;opacity:.85;font-size:.95rem">' + (fsSupported() ? 'The exam opens in full screen. Stay in it until you submit: leaving it pauses the exam and is recorded for your teacher.' : 'Stay on this page until you submit: leaving it is recorded for your teacher.') + '</div>'
+      + '<button type="button" id="nisFsStart" style="margin-top:8px;background:#fff;color:#244c77;border:none;border-radius:12px;padding:14px 26px;font-weight:800;font-size:1.05rem;cursor:pointer;font-family:inherit">▶ ' + (fsSupported() ? 'Start in full screen' : 'Start') + '</button>'
+      + '<style>@keyframes nisVeilSpin{to{transform:rotate(360deg)}}</style>';
+    document.getElementById('nisFsStart').onclick = function(){ enterFs(); startOfficial(); };
+  }
 
   /* ---- el velo ---- */
   function veil(texto, boton){
@@ -209,7 +273,7 @@
     if(OFFICIAL_URL && !window.__nisOfficialStarted){
       try{
         var o = await official();
-        if(o) setTimeout(startOfficial, 0);
+        if(o) setTimeout(function(){ if(!o.level){ veil('Choose your level on the Portal first.', true); return; } veilStart(o); }, 0);
         else setTimeout(function(){ veil('You have no mock active today.', true); }, 0);
       }catch(e){ setTimeout(function(){ veil('Could not check your mock. Go back to the Portal and try again.', true); }, 0); }
     }
@@ -224,6 +288,7 @@
     if((o.level === 'A2' && pg === 'Writing') || !pg){ veil('Your mock has no ' + pg + ' paper.', true); return; }
     var st = S(); if(!st){ setTimeout(startOfficial, 200); return; }
     window.__nisOfficialStarted = true;
+    _examOn = true;
     lockExits();
     st.level = o.level;
     if(pg === 'Reading'){
@@ -282,13 +347,16 @@
     }, true);
     if(typeof window.go === 'function' && !window.go.__nisExit){
       var _go2 = window.go;
-      var w2 = function(s){ if(EXIT_SCREENS[s]){ backToPortal(); return; } return _go2.apply(this, arguments); };
+      var w2 = function(s){ if(EXIT_SCREENS[s]){ backToPortal(); return; } if(s === 'result') examFinished(); return _go2.apply(this, arguments); };
       w2.__nisExit = true; w2.__nisGate = _go2.__nisGate; window.go = w2;
     }
     ['viewLevelSelect','viewCategory','viewExamPick','viewPracticePick','viewWelcome'].forEach(function(fn){
       if(typeof window[fn] === 'function' && !window[fn].__nisExit){ var w3 = function(){ backToPortal(); }; w3.__nisExit = true; window[fn] = w3; }
     });
     if(typeof window._pickLevel === 'function') window._pickLevel = function(){ backToPortal(); };
+    if(typeof window.viewResult === 'function' && !window.viewResult.__nisExit){
+      var _vr = window.viewResult; var w4 = function(){ examFinished(); return _vr.apply(this, arguments); }; w4.__nisExit = true; window.viewResult = w4;
+    }
   }
 
   /* ---- lo que el alumno no debe ver: la tarjeta MOCKS bloqueada del motor
