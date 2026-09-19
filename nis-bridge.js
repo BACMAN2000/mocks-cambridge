@@ -256,6 +256,14 @@
       if(!mode) return null;
       var cefr = String(prof.cefr_level || '').toUpperCase();
       var levels = fijo ? [fijo] : (LEVELS.indexOf(cefr) >= 0 ? [cefr] : LEVELS.slice());
+      // Si ya entrego un paper de este mock hoy, el nivel es ese: no se cambia
+      // de nivel a mitad de mock aunque la URL traiga otro.
+      if(levels.length > 1){
+        var hoy = new Date(Date.now() - 5*3600e3).toISOString().slice(0,10) + 'T05:00:00.000Z';
+        var hechos = (await c.from('exam_attempts').select('level').eq('student_id', uid).eq('mock', 'mock' + mock).gte('submitted_at', hoy)).data || [];
+        var ya = hechos.map(function(a){ return String(a.level || '').toUpperCase(); }).filter(function(l){ return levels.indexOf(l) >= 0; })[0];
+        if(ya) levels = [ya];
+      }
       var hint = (qs('level') || '').toUpperCase();
       var level = levels.length === 1 ? levels[0] : (levels.indexOf(hint) >= 0 ? hint : null);
       return { mode: mode, mock: mock, examType: 'mock0' + mock, level: level, levels: levels };
