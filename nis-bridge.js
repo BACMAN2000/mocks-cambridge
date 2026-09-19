@@ -160,11 +160,29 @@
   var _fsExits = 0, _tabSwitches = 0, _examOn = false, _examDone = false, _kbLock = false;
   function fsSupported(){ return !!(FS_EL.requestFullscreen || FS_EL.webkitRequestFullscreen); }
   function isFs(){ return !!(document.fullscreenElement || document.webkitFullscreenElement); }
+  var _fsError = '';
+  function fsPide(el){
+    if(el.requestFullscreen) return el.requestFullscreen({ navigationUI:'hide' });
+    if(el.webkitRequestFullscreen){ el.webkitRequestFullscreen(); return Promise.resolve(); }
+    return Promise.reject(new Error('no API'));
+  }
   function enterFs(){
-    try{
-      var r = FS_EL.requestFullscreen ? FS_EL.requestFullscreen({ navigationUI:'hide' }) : (FS_EL.webkitRequestFullscreen ? FS_EL.webkitRequestFullscreen() : null);
-      if(r && r.catch) r.catch(function(){});
-    }catch(e){}
+    _fsError = '';
+    // Primero el <body>; si falla, el <html>. En el iPad hay WebKits que no
+    // aceptan la raiz. Y se dice por que no entro, para poder diagnosticarlo
+    // desde el propio aparato (19-sep-2026: «no se ve pantalla completa»).
+    var p;
+    try{ p = fsPide(document.body); }catch(e){ p = Promise.reject(e); }
+    p.catch(function(e1){
+      var q; try{ q = fsPide(FS_EL); }catch(e){ q = Promise.reject(e); }
+      return q.catch(function(e2){ _fsError = (e2 && (e2.name + ': ' + e2.message)) || String(e2); });
+    }).then(function(){
+      setTimeout(function(){
+        if(isFs() || !fsSupported()) return;
+        var m = 'Full screen not available here' + (_fsError ? ' (' + _fsError + ')' : '') + ' · ' + navigator.userAgent.replace(/^Mozilla\/5\.0 /, '').slice(0, 90);
+        if(window.NISUI && NISUI.aviso) NISUI.aviso(m, 'warn', 9000);
+      }, 800);
+    });
     // Chrome/Edge de escritorio: captura Esc, Alt+Tab y la tecla Windows mientras dure la pantalla completa.
     try{ if(navigator.keyboard && navigator.keyboard.lock){ navigator.keyboard.lock().then(function(){ _kbLock = true; }).catch(function(){}); } }catch(e){}
   }
@@ -196,7 +214,7 @@
   var _save = NIS.save;
   NIS.save = function(att){
     if(_off && att){
-      att.breakdown = Object.assign({}, att.breakdown || {}, { mock_mode: { mode:_off.mode, fullscreen_exits:_fsExits, tab_switches:_tabSwitches, fullscreen_supported:fsSupported(), keyboard_lock:_kbLock } });
+      att.breakdown = Object.assign({}, att.breakdown || {}, { mock_mode: { mode:_off.mode, fullscreen_exits:_fsExits, tab_switches:_tabSwitches, fullscreen_supported:fsSupported(), fullscreen_error:_fsError || null, keyboard_lock:_kbLock, ua:navigator.userAgent.slice(0,120) } });
     }
     return _save.apply(this, arguments);
   };
