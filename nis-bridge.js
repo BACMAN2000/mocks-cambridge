@@ -182,7 +182,7 @@
     v.innerHTML = '<div style="font-size:2.4rem">⏸️</div>'
       + '<div style="font-weight:800;font-size:1.3rem">You left full screen — the exam is paused</div>'
       + '<div style="max-width:52ch;opacity:.85">The timer keeps running. Go back to full screen to continue. Every exit is recorded for your teacher (' + _fsExits + ' so far).</div>'
-      + '<button type="button" id="nisFsBack" style="margin-top:6px;background:#fff;color:#244c77;border:none;border-radius:10px;padding:12px 22px;font-weight:800;font-size:1rem;cursor:pointer;font-family:inherit">⛶ Return to full screen and continue</button>';
+      + '<button type="button" id="nisFsBack" style="margin-top:6px;background:#fff;color:#244c77;-webkit-text-fill-color:#244c77;-webkit-appearance:none;appearance:none;border:none;border-radius:10px;padding:12px 22px;font-weight:800;font-size:1rem;cursor:pointer;font-family:inherit">⛶ Return to full screen and continue</button>';
     document.body.appendChild(v);
     // Si el navegador no concede la pantalla completa, el aviso se quita igual:
     // la salida ya quedo contada y un alumno atrapado seria peor que un alumno sin pantalla completa.
@@ -208,7 +208,7 @@
       + '<div style="font-weight:800;font-size:1.7rem">' + (o.level ? LEVEL_NAMES[o.level] + ' · ' : '') + 'MOCK ' + o.mock + '</div>'
       + '<div style="font-size:1.05rem;opacity:.95">' + pg + '</div>'
       + '<div style="max-width:52ch;opacity:.85;font-size:.95rem">' + (fsSupported() ? 'The exam opens in full screen. Stay in it until you submit: leaving it pauses the exam and is recorded for your teacher.' : 'Stay on this page until you submit: leaving it is recorded for your teacher.') + '</div>'
-      + '<button type="button" id="nisFsStart" style="margin-top:8px;background:#fff;color:#244c77;border:none;border-radius:12px;padding:14px 26px;font-weight:800;font-size:1.05rem;cursor:pointer;font-family:inherit">▶ ' + (fsSupported() ? 'Start in full screen' : 'Start') + '</button>'
+      + '<button type="button" id="nisFsStart" style="margin-top:8px;background:#fff;color:#244c77;-webkit-text-fill-color:#244c77;-webkit-appearance:none;appearance:none;border:none;border-radius:12px;padding:14px 26px;font-weight:800;font-size:1.05rem;cursor:pointer;font-family:inherit">▶ ' + (fsSupported() ? 'Start in full screen' : 'Start') + '</button>'
       + '<style>@keyframes nisVeilSpin{to{transform:rotate(360deg)}}</style>';
     document.getElementById('nisFsStart').onclick = function(){ enterFs(); startOfficial(); };
   }
@@ -225,7 +225,7 @@
     }
     v.innerHTML = '<div style="width:46px;height:46px;border:4px solid rgba(255,255,255,.35);border-top-color:#fff;border-radius:50%;animation:nisVeilSpin .8s linear infinite' + (boton ? ';display:none' : '') + '"></div>'
       + '<div style="font-weight:800;font-size:1.25rem">' + texto + '</div>'
-      + (boton ? '<button type="button" onclick="nisBackToPortal()" style="margin-top:6px;background:#fff;color:#244c77;border:none;border-radius:10px;padding:11px 20px;font-weight:800;font-size:.95rem;cursor:pointer;font-family:inherit">🏫 Back to the Portal</button>' : '')
+      + (boton ? '<button type="button" onclick="nisBackToPortal()" style="margin-top:6px;background:#fff;color:#244c77;-webkit-text-fill-color:#244c77;-webkit-appearance:none;appearance:none;border:none;border-radius:10px;padding:11px 20px;font-weight:800;font-size:.95rem;cursor:pointer;font-family:inherit">🏫 Back to the Portal</button>' : '')
       + '<style>@keyframes nisVeilSpin{to{transform:rotate(360deg)}}</style>';
     return v;
   }
