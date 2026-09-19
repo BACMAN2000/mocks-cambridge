@@ -158,7 +158,13 @@
   /* ---- pantalla completa ---- */
   var FS_EL = document.documentElement;
   var _fsExits = 0, _tabSwitches = 0, _examOn = false, _examDone = false, _kbLock = false;
-  function fsSupported(){ return !!(FS_EL.requestFullscreen || FS_EL.webkitRequestFullscreen); }
+  // En iPad/iPhone NO se usa la Fullscreen API: Safari sale de pantalla
+  // completa en cuanto un campo recibe el foco (el motor enfoca la pregunta al
+  // pulsar su numero o las flechas, y el Writing es un textarea), asi que el
+  // aviso de pausa saltaba a cada toque (19-sep-2026). Ahi la pantalla
+  // completa es la web app en la pantalla de inicio + Acceso Guiado.
+  var IOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  function fsSupported(){ return !IOS && !!(FS_EL.requestFullscreen || FS_EL.webkitRequestFullscreen); }
   function isFs(){ return !!(document.fullscreenElement || document.webkitFullscreenElement); }
   var _fsError = '';
   function fsPide(el){
@@ -168,6 +174,7 @@
   }
   function enterFs(){
     _fsError = '';
+    if(!fsSupported()) return;
     // Primero el <body>; si falla, el <html>. En el iPad hay WebKits que no
     // aceptan la raiz. Y se dice por que no entro, para poder diagnosticarlo
     // desde el propio aparato (19-sep-2026: «no se ve pantalla completa»).
@@ -206,7 +213,7 @@
     // la salida ya quedo contada y un alumno atrapado seria peor que un alumno sin pantalla completa.
     document.getElementById('nisFsBack').onclick = function(){ enterFs(); setTimeout(function(){ v.remove(); }, 600); };
   }
-  function onFsChange(){ if(!_examOn || _examDone) return; if(!isFs()){ _fsExits++; pausa(); } else { var pz = document.getElementById('nisFsPause'); if(pz) pz.remove(); } }
+  function onFsChange(){ if(!_examOn || _examDone || !fsSupported()) return; if(!isFs()){ _fsExits++; pausa(); } else { var pz = document.getElementById('nisFsPause'); if(pz) pz.remove(); } }
   document.addEventListener('fullscreenchange', onFsChange);
   document.addEventListener('webkitfullscreenchange', onFsChange);
   document.addEventListener('visibilitychange', function(){ if(_examOn && !_examDone && document.hidden) _tabSwitches++; });
@@ -225,7 +232,7 @@
     v.innerHTML = '<div style="font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);padding:5px 12px;border-radius:999px">🎓 ' + (o.mode === 'individual' ? 'Mock individual' : 'Mock oficial') + '</div>'
       + '<div style="font-weight:800;font-size:1.7rem">' + (o.level ? LEVEL_NAMES[o.level] + ' · ' : '') + 'MOCK ' + o.mock + '</div>'
       + '<div style="font-size:1.05rem;opacity:.95">' + pg + '</div>'
-      + '<div style="max-width:52ch;opacity:.85;font-size:.95rem">' + (fsSupported() ? 'The exam opens in full screen. Stay in it until you submit: leaving it pauses the exam and is recorded for your teacher.' : 'Stay on this page until you submit: leaving it is recorded for your teacher.') + '</div>'
+      + '<div style="max-width:52ch;opacity:.85;font-size:.95rem">' + (fsSupported() ? 'The exam opens in full screen. Stay in it until you submit: leaving it pauses the exam and is recorded for your teacher.' : (IOS ? 'Stay in the exam until you submit: leaving the app is recorded for your teacher. For full screen on iPad, open the Portal from its Home Screen icon.' : 'Stay on this page until you submit: leaving it is recorded for your teacher.')) + '</div>'
       + '<button type="button" id="nisFsStart" style="margin-top:8px;background:#fff;color:#244c77;-webkit-text-fill-color:#244c77;-webkit-appearance:none;appearance:none;border:none;border-radius:12px;padding:14px 26px;font-weight:800;font-size:1.05rem;cursor:pointer;font-family:inherit">▶ ' + (fsSupported() ? 'Start in full screen' : 'Start') + '</button>'
       + '<style>@keyframes nisVeilSpin{to{transform:rotate(360deg)}}</style>';
     document.getElementById('nisFsStart').onclick = function(){ enterFs(); startOfficial(); };
