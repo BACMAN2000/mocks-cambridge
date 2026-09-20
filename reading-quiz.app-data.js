@@ -6541,10 +6541,10 @@ const MOCK03 = {
       "body": "Hi everyone, because of the regional match on Sunday, training this Saturday will start at 8 a.m., not 10 as usual. Please eat a good breakfast first. The session will finish at the normal time of 11.30.",
       "stem": "What is the coach telling the players?",
       "options": [
-       "Training will be cancelled this Saturday."
-      ,
+       "Training will be cancelled this Saturday.",
        "Training will finish later than usual.",
-       "Training will begin two hours earlier than usual."],
+       "Training will begin two hours earlier than usual."
+      ],
       "answer": 2
      },
      {
@@ -6629,17 +6629,16 @@ const MOCK03 = {
      {
       "stem": "Which person liked the fact that they could eat what they prepared?",
       "answer": "B"
+     },
+     {
+      "stem": "Which person's club taught them to be careful about safety?",
+      "answer": "C"
+     },
+     {
+      "stem": "Which person showed what they had done to their families?",
+      "answer": "A"
      }
-    ,
-{
-"stem": "Which person's club taught them to be careful about safety?",
-"answer": "C"
-},
-{
-"stem": "Which person showed what they had done to their families?",
-"answer": "A"
-}
-],
+    ],
     "bank": {
      "labels": [
       "A",
@@ -6671,19 +6670,19 @@ const MOCK03 = {
      {
       "stem": "What did his parents think of the idea at first?",
       "options": [
-       "They were too busy to help."
-      ,
+       "They were too busy to help.",
        "They wanted Marcel to charge more for the books.",
-       "They thought it would not work."],
+       "They thought it would not work."
+      ],
       "answer": 2
      },
      {
       "stem": "What does Marcel do with the money he earns?",
       "options": [
        "He saves it to buy a real shop.",
-       "He gives it to his sister."
-      ,
-       "He uses it to get more books from charity shops."],
+       "He gives it to his sister.",
+       "He uses it to get more books from charity shops."
+      ],
       "answer": 2
      },
      {
@@ -6711,7 +6710,7 @@ const MOCK03 = {
     "part": "Part 4",
     "instructions": "For each gap (19–24), choose the best word A, B or C.",
     "title": "The history of the pencil",
-    "body": "The simple pencil that we use today has a longer history than most people (17)____. In the sixteenth century, farmers in northern England (18)____ a strange black material on the ground after a storm. They soon discovered that this material — graphite — was perfect for (19)____ marks on paper and could easily be wiped away again. Because pure graphite was soft and (20)____ to hold, it was wrapped in string or pieces of wood. Later, a Frenchman (21)____ how to mix graphite with clay to make the inside harder, which is the method still used today. Pencils are now found (22)____ every school and office in the world.",
+    "body": "The simple pencil that we use today has a longer history than most people (19)____. In the sixteenth century, farmers in northern England (20)____ a strange black material on the ground after a storm. They soon discovered that this material — graphite — was perfect for (21)____ marks on paper and could easily be wiped away again. Because pure graphite was soft and (22)____ to hold, it was wrapped in string or pieces of wood. Later, a Frenchman (23)____ how to mix graphite with clay to make the inside harder, which is the method still used today. Pencils are now found (24)____ every school and office in the world.",
     "questions": [
      {
       "options": [
@@ -6732,33 +6731,33 @@ const MOCK03 = {
      {
       "options": [
        "doing",
-       "making"
-      ,
-       "putting"],
+       "making",
+       "putting"
+      ],
       "answer": 1
      },
      {
       "options": [
        "tired",
-       "difficult"
-      ,
-       "weak"],
+       "difficult",
+       "weak"
+      ],
       "answer": 1
      },
      {
       "options": [
-       "discovered"
-      ,
+       "discovered",
        "studied",
-       "showed"],
+       "showed"
+      ],
       "answer": 0
      },
      {
       "options": [
-       "by"
-      ,
-       "at",
-       "in"],
+       "by",
+       "on",
+       "in"
+      ],
       "answer": 2
      }
     ]
@@ -6768,7 +6767,7 @@ const MOCK03 = {
     "part": "Part 5",
     "instructions": "For each gap (25–30), write ONE word.",
     "title": "Email to a cousin",
-    "body": "Dear Lucia,\n\nThanks (23)____ your last email — it was great to read it! I'm writing (24)____ you from my new bedroom. We moved to a different flat last weekend, and (25)____ is much bigger than the old one.\n\nMy new school is only ten minutes (26)____ foot, which is much better than before. I (27)____ already made one friend in my class. Her name is Mia and she loves reading, just like me.\n\nMum says you (28)____ come and visit us in the summer. I really hope you can!\n\nLots of love,\nElsa",
+    "body": "Dear Lucia,\n\nThanks (25)____ your last email — it was great to read it! I'm writing (26)____ you from my new bedroom. We moved to a different flat last weekend, and (27)____ is much bigger than the old one.\n\nMy new school is only ten minutes (28)____ foot, which is much better than before. I (29)____ already made one friend in my class. Her name is Mia and she loves reading, just like me.\n\nMum says you (30)____ come and visit us in the summer. I really hope you can!\n\nLots of love,\nElsa",
     "questions": [
      {
       "accept": [
@@ -6814,9 +6813,8 @@ const MOCK03 = {
     "prompts": [
      {
       "kind": "email",
-      "instructions": "Your English friend Sam has invited you to spend a weekend at his/her house. Write an email to Sam. In your email: thank Sam for the invitation / say what time you will arrive on Saturday / ask one question about the weekend.\nWrite 35–45 words.",
-      "minWords": 35,
-      "maxWords": 45
+      "instructions": "Your English friend Sam has invited you to spend a weekend at his/her house. Write an email to Sam. In your email: thank Sam for the invitation / say what time you will arrive on Saturday / ask one question about the weekend.\nWrite 25 words or more.",
+      "minWords": 25
      }
     ]
    },
@@ -6876,9 +6874,9 @@ const MOCK03 = {
       "stem": "What does the email tell junior members?",
       "options": [
        "Late entries will be considered if the player attends regularly.",
-       "Players who missed three sessions can still enter but cannot win."
-      ,
-       "Even regular players cannot enter after the closing date."],
+       "Players who missed three sessions can still enter but cannot win.",
+       "Even regular players cannot enter after the closing date."
+      ],
       "answer": 2
      },
      {
@@ -6888,9 +6886,9 @@ const MOCK03 = {
       "stem": "What is the main purpose of this notice?",
       "options": [
        "To warn walkers that the path is permanently closed.",
-       "To explain why some sections have been recently rebuilt."
-      ,
-       "To advise walkers to plan ahead and stop if conditions get worse."],
+       "To explain why some sections have been recently rebuilt.",
+       "To advise walkers to plan ahead and stop if conditions get worse."
+      ],
       "answer": 2
      },
      {
@@ -6998,10 +6996,10 @@ const MOCK03 = {
       "stem": "What does Itzel suggest about her early time looking after the plot?",
       "options": [
        "She was determined to make money from it from the start.",
-       "She was waiting for the teacher to praise her efforts."
-      ,
+       "She was waiting for the teacher to praise her efforts.",
        "She found the work too hard without help from classmates.",
-       "She enjoyed it as a private and peaceful part of her day."],
+       "She enjoyed it as a private and peaceful part of her day."
+      ],
       "answer": 3
      },
      {
@@ -7009,9 +7007,9 @@ const MOCK03 = {
       "options": [
        "Itzel had been planning to open one for some time.",
        "Her geography teacher set it up as a class project.",
-       "A local newspaper offered to advertise the produce."
-      ,
-       "Repeated requests from passing neighbours led the head teacher to suggest it."],
+       "A local newspaper offered to advertise the produce.",
+       "Repeated requests from passing neighbours led the head teacher to suggest it."
+      ],
       "answer": 3
      },
      {
@@ -7134,9 +7132,9 @@ const MOCK03 = {
       "options": [
        "supposes",
        "thinks",
-       "tells"
-      ,
-       "suggests"],
+       "tells",
+       "suggests"
+      ],
       "answer": 3
      },
      {
@@ -7178,7 +7176,8 @@ const MOCK03 = {
      },
      {
       "accept": [
-       "at"
+       "at",
+       "in"
       ]
      },
      {
@@ -7189,7 +7188,8 @@ const MOCK03 = {
      {
       "accept": [
        "bring",
-       "take"
+       "take",
+       "carry"
       ]
      },
      {
@@ -7223,11 +7223,11 @@ const MOCK03 = {
      },
      {
       "options": [
-       "elbows"
-      ,
+       "elbows",
        "shoulders",
        "voices",
-       "eyebrows"],
+       "eyebrows"
+      ],
       "answer": 3
      },
      {
@@ -7241,11 +7241,11 @@ const MOCK03 = {
      },
      {
       "options": [
-       "saved"
-      ,
+       "saved",
        "filed",
        "stored",
-       "logged"],
+       "logged"
+      ],
       "answer": 3
      },
      {
@@ -7280,7 +7280,7 @@ const MOCK03 = {
        "trade",
        "shift",
        "swap",
-       "switch"
+       "turn"
       ],
       "answer": 1
      }
@@ -7295,7 +7295,8 @@ const MOCK03 = {
     "questions": [
      {
       "accept": [
-       "was"
+       "was",
+       "remained"
       ]
      },
      {
@@ -7429,11 +7430,15 @@ const MOCK03 = {
     "questions": [
      {
       "root": "ORDINARY",
-      "accept": ["extraordinary"]
+      "accept": [
+       "extraordinary"
+      ]
      },
      {
       "root": "INFLUENTIAL",
-      "accept": ["influence"]
+      "accept": [
+       "influence"
+      ]
      },
      {
       "root": "RATIONAL",
@@ -7458,13 +7463,15 @@ const MOCK03 = {
       "root": "FAIL",
       "accept": [
        "failsafe",
-       "fail-safe"
+       "fail-safe",
+       "unfailing"
       ]
      },
      {
       "root": "CHECK",
       "accept": [
-       "checks"
+       "checks",
+       "checking"
       ]
      },
      {
@@ -7507,7 +7514,7 @@ const MOCK03 = {
       ]
      },
      {
-      "before": "The town has changed so much that I hardly recognised it.",
+      "before": "It was such a big change that I hardly recognised the town.",
       "keyword": "MUCH",
       "after": "The town has changed ___ I hardly recognised it.",
       "accept": [
@@ -7553,10 +7560,10 @@ const MOCK03 = {
       "stem": "Why does the writer refer to the marshmallow experiment?",
       "options": [
        "To prove that children today refuse to wait for anything.",
-       "To question the value of long-running studies."
-      ,
+       "To question the value of long-running studies.",
        "To argue that sweets damage children's behaviour.",
-       "To show that delaying small rewards is linked to many later outcomes."],
+       "To show that delaying small rewards is linked to many later outcomes."
+      ],
       "answer": 3
      },
      {
@@ -7583,10 +7590,10 @@ const MOCK03 = {
       "stem": "What does the writer suggest about patience in the final paragraph?",
       "options": [
        "It is something we are born with and cannot change.",
-       "It has now disappeared completely from modern life."
-      ,
+       "It has now disappeared completely from modern life.",
        "It can only be restored by grand life-changing decisions.",
-       "It is a small skill that needs regular, unspectacular practice."],
+       "It is a small skill that needs regular, unspectacular practice."
+      ],
       "answer": 3
      },
      {
@@ -7742,7 +7749,7 @@ const MOCK03 = {
  },
  "C1": {
   "title": "C1 Advanced — Reading and Use of English (MOCK 3)",
-  "note": "Parts 1–8 are auto-scored. Counts on the longest sections are slightly trimmed; task types are authentic.",
+  "note": "Estructura verificada 2026-09-20: 56 preguntas (8/8/8/6/6/4/6/10), audio 30/30.",
   "parts": [
    {
     "type": "clozeMC",
@@ -7753,11 +7760,11 @@ const MOCK03 = {
     "questions": [
      {
       "options": [
-       "started",
-       "arrived",
-       "launched"
-      ,
-       "dawned"],
+       "landed",
+       "blossomed",
+       "launched",
+       "dawned"
+      ],
       "answer": 3
      },
      {
@@ -7789,19 +7796,19 @@ const MOCK03 = {
      },
      {
       "options": [
-       "outsets"
-      ,
+       "outsets",
        "outputs",
        "outlooks",
-       "outcomes"],
+       "outcomes"
+      ],
       "answer": 3
      },
      {
       "options": [
        "generate",
-       "produce",
+       "manufacture",
        "originate",
-       "yield"
+       "supply"
       ],
       "answer": 0
      },
@@ -7839,8 +7846,7 @@ const MOCK03 = {
      },
      {
       "accept": [
-       "whomever",
-       "whoever"
+       "which"
       ]
      },
      {
@@ -7859,12 +7865,14 @@ const MOCK03 = {
      },
      {
       "accept": [
-       "without"
+       "without",
+       "never"
       ]
      },
      {
       "accept": [
-       "the"
+       "the",
+       "one"
       ]
      },
      {
@@ -7996,7 +8004,8 @@ const MOCK03 = {
       "root": "CEASE",
       "accept": [
        "incessant",
-       "unceasing"
+       "unceasing",
+       "ceaseless"
       ]
      },
      {
@@ -8013,7 +8022,9 @@ const MOCK03 = {
      },
      {
       "root": "INDISPUTABLE",
-      "accept": ["dispute"]
+      "accept": [
+       "dispute"
+      ]
      }
     ]
    },
@@ -8118,10 +8129,10 @@ const MOCK03 = {
       "stem": "What does the writer say about urging people simply to put their phones down?",
       "options": [
        "It tends to be the most effective single measure.",
-       "It is more easily accepted by older adults."
-      ,
+       "It is more easily accepted by older adults.",
        "It works only if reinforced by financial penalties.",
-       "It is largely ineffective and can be counterproductive."],
+       "It is largely ineffective and can be counterproductive."
+      ],
       "answer": 3
      },
      {
