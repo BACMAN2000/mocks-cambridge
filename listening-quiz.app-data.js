@@ -32741,6 +32741,43 @@ function viewPracticePick(){
 }
 
 /* ---------- VIEW: Quiz ---------- */
+/* Temporizador del Listening (21-sep-2026, pedido de Paolo: todas las pantallas
+   con temporizador). Igual que en Reading: cuenta hacia atras, al llegar a cero
+   se pone en rojo y sigue contando de mas; NUNCA entrega solo. Parte de
+   state.startTime (lo fija el bridge o el boton de inicio), asi que sobrevive
+   a un repintado. 40 min en los cuatro niveles: la franja del colegio es
+   08:40-09:20 y el alumno maneja el audio (cada parte dos veces); Cambridge da
+   'approx. 30' para A2/B1 y 'approx. 40' para B2/C1. El CSS va inyectado desde
+   aqui para que las tres copias del motor (NIS, cohasset.pe, standalone) lo
+   pinten igual sin tocar cada HTML. */
+const LISTEN_DURATIONS = { A2:40, B1:40, B2:40, C1:40 };
+let lTimerId = null;
+function lTimerCss(){
+  if(document.getElementById('lTimerCss')) return;
+  const st = document.createElement('style'); st.id = 'lTimerCss';
+  st.textContent = '.ins-timer{font-family:Consolas,"Segoe UI Mono",monospace;font-size:1.05rem;font-weight:800;color:var(--ink,#1f2937);background:#e9e4f7;padding:6px 14px;border-radius:8px;letter-spacing:2px;min-width:90px;text-align:center}'
+    + '.ins-timer.t-warn{background:#fef3c7}.ins-timer.t-danger{background:#fee2e2;animation:lTimerPulse 1s infinite}'
+    + '.ins-timer.t-over{color:#fff;background:#b91c1c;animation:lTimerPulse 1.2s infinite}'
+    + '@keyframes lTimerPulse{0%,100%{opacity:1}50%{opacity:.55}}';
+  document.head.appendChild(st);
+}
+function startListenTimer(minutes){
+  stopListenTimer();
+  const el = document.getElementById('timer'); if(!el) return;
+  const t0 = state.startTime || (state.startTime = Date.now());
+  function paint(){
+    const remaining = minutes*60 - Math.floor((Date.now()-t0)/1000);
+    const over = remaining < 0, abs = Math.abs(remaining);
+    const m = Math.floor(abs/60), sec = abs%60;
+    el.textContent = (over?'+':'') + String(m).padStart(2,'0') + ':' + String(sec).padStart(2,'0');
+    el.classList.toggle('t-warn', !over && remaining <= 5*60 && remaining > 60);
+    el.classList.toggle('t-danger', !over && remaining <= 60 && remaining > 0);
+    el.classList.toggle('t-over', over);
+  }
+  paint(); lTimerId = setInterval(paint, 1000);
+}
+function stopListenTimer(){ if(lTimerId){ clearInterval(lTimerId); lTimerId = null; } }
+
 function viewQuiz(){
   const lev = currentQuiz()[state.level];
   document.body.classList.remove('signin-mode','result-mode');
@@ -32778,6 +32815,7 @@ function viewQuiz(){
         <div class="ins-cand">Candidate: <strong>${state.name}</strong> · ${state.klass}</div>
         <div class="ins-right">
           <span class="ins-audio">🔊 Listening</span>
+          <span class="ins-timer" id="timer" title="Time for this paper">--:--</span>
           <button id="insExit">Exit</button>
           <button class="ins-fin" id="insSubmit">Submit ✓</button>
         </div>
@@ -32831,10 +32869,11 @@ function viewQuiz(){
   $('#lnext').onclick=()=>window._lNav(1);
   window._lGoView(0, false);
 
-  $('#insExit').onclick=async ()=>{ if(await NISUI.pregunta('If you leave now you will lose all your answers and the exam will not be submitted.', {titulo:'Leave without submitting?', si:'Leave and lose them', no:'Back to the exam', tono:'mal', peligro:true})){ try{TTS.stop();}catch(e){} acStop(); document.body.classList.remove('exam-mode'); viewWelcome(); } };
+  $('#insExit').onclick=async ()=>{ if(await NISUI.pregunta('If you leave now you will lose all your answers and the exam will not be submitted.', {titulo:'Leave without submitting?', si:'Leave and lose them', no:'Back to the exam', tono:'mal', peligro:true})){ try{TTS.stop();}catch(e){} acStop(); stopListenTimer(); document.body.classList.remove('exam-mode'); viewWelcome(); } };
   $('#insSubmit').onclick=onSubmit;
 
   updateProgress();
+  lTimerCss(); startListenTimer(LISTEN_DURATIONS[state.level] || 40);
   acStart();   // ← activate anti-cheat (translate block, tab-switch detection, etc.)
 }
 
@@ -33142,6 +33181,7 @@ async function onSubmit(){
   }
   TTS.stop();
   acStop();
+  stopListenTimer();
   const score = computeScore();
   const elapsedMin = Math.round((Date.now()-state.startTime)/60000);
   const payload = {
