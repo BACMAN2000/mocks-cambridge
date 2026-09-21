@@ -242,8 +242,8 @@
     window.__nisVeilFinal = true;   // que el «Preparing…» de DOMContentLoaded no pise el boton si llega despues (conexion rapida)
     var pg = page();
     var v = veil('', false);
-    v.innerHTML = '<div style="font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);padding:5px 12px;border-radius:999px">🎓 ' + (o.mode === 'individual' ? 'Mock individual' : 'Mock oficial') + '</div>'
-      + '<div style="font-weight:800;font-size:1.7rem">' + (o.level ? LEVEL_NAMES[o.level] + ' · ' : '') + 'MOCK ' + o.mock + '</div>'
+    v.innerHTML = '<div style="font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);padding:5px 12px;border-radius:999px">🎓 ' + (o.mode === 'individual' ? 'Individual mock' : 'Official mock') + '</div>'
+      + '<div style="font-weight:800;font-size:1.7rem">' + (o.level ? LEVEL_NAMES[o.level] + ' · ' : '') + mockLabel(o) + '</div>'
       + '<div style="font-size:1.05rem;opacity:.95">' + pg + '</div>'
       + '<div style="max-width:52ch;opacity:.85;font-size:.95rem">' + (fsSupported() ? 'The exam opens in full screen. Stay in it until you submit: leaving it pauses the exam and is recorded for your teacher.' : (IOS ? 'Stay in the exam until you submit: leaving the app is recorded for your teacher. For full screen on iPad, open the Portal from its Home Screen icon.' : 'Stay on this page until you submit: leaving it is recorded for your teacher.')) + '</div>'
       + '<button type="button" id="nisFsStart" style="margin-top:8px;background:#fff;color:#244c77;-webkit-text-fill-color:#244c77;-webkit-appearance:none;appearance:none;border:none;border-radius:12px;padding:14px 26px;font-weight:800;font-size:1.05rem;cursor:pointer;font-family:inherit">▶ ' + (fsSupported() ? 'Start in full screen' : 'Start') + '</button>'
@@ -284,13 +284,13 @@
       if(!prof) return null;
       _role = prof.role || '';
       if(prof.role !== 'student') return null;
-      var mode = null, mock = null, fijo = null;
+      var mode = null, mock = null, fijo = null, shown = null;
       var ind = (await c.from('mock_individual').select('mock,level').eq('student_id',uid).maybeSingle()).data;
-      if(ind && ind.mock){ mode = 'individual'; mock = ind.mock; fijo = ind.level || null; }
+      if(ind && ind.mock){ mode = 'individual'; mock = ind.mock; shown = mock; fijo = ind.level || null; }
       else {
-        var off = (await c.from('mock_official').select('mock').eq('id',1).maybeSingle()).data;
+        var off = (await c.from('mock_official').select('mock,shown_as').eq('id',1).maybeSingle()).data;
         var acc = prof.grade_id != null ? (await c.from('mock_access').select('unlocked').eq('grade_id',prof.grade_id).maybeSingle()).data : null;
-        if(off && off.mock && acc && acc.unlocked){ mode = 'official'; mock = off.mock; }
+        if(off && off.mock && acc && acc.unlocked){ mode = 'official'; mock = off.mock; shown = off.shown_as || mock; }
       }
       if(!mode) return null;
       var cefr = String(prof.cefr_level || '').toUpperCase();
@@ -305,9 +305,13 @@
       }
       var hint = (qs('level') || '').toUpperCase();
       var level = levels.length === 1 ? levels[0] : (levels.indexOf(hint) >= 0 ? hint : null);
-      return { mode: mode, mock: mock, examType: 'mock0' + mock, level: level, levels: levels };
+      return { mode: mode, mock: mock, shown: shown, examType: 'mock0' + mock, level: level, levels: levels };
     }catch(e){ return null; }
   }
+  /* Lo que lee el alumno: OFFICIAL MOCK n con n = mock_official.shown_as (el
+     ordinal del colegio, no el numero del banco: 21-sep-2026 se rinde el MOCK 3
+     del banco y es su segundo mock). El motor sigue con examType mock0N. */
+  function mockLabel(o){ return (o.mode === 'individual' ? 'INDIVIDUAL MOCK ' : 'OFFICIAL MOCK ') + (o.shown || o.mock); }
   function official(){ if(!_offPromise) _offPromise = resolveOfficial().then(function(o){ _off = o; applyStudentCss(); return o; }); return _offPromise; }
   window.NIS.official = official;
 
@@ -360,7 +364,7 @@
     return examType === _off.examType && (!st || !st.level || st.level === _off.level);
   }
   function lockMsg(){
-    var m = _off ? ('🔒 Today you only sit your ' + (_off.mode === 'individual' ? 'individual mock' : 'official mock') + ': ' + (_off.level ? LEVEL_NAMES[_off.level] + ' · ' : '') + 'MOCK ' + _off.mock + '.') : '🔒 Locked.';
+    var m = _off ? ('🔒 Today you only sit your ' + (_off.mode === 'individual' ? 'individual mock' : 'official mock') + ': ' + (_off.level ? LEVEL_NAMES[_off.level] + ' · ' : '') + mockLabel(_off) + '.') : '🔒 Locked.';
     if(window.NISUI && NISUI.avisa) NISUI.avisa(m, {titulo:'Mock mode'}); else alert(m);
   }
   function wrapGates(){
@@ -426,7 +430,7 @@
     var sec = document.getElementById('mocksSection'); if(sec) sec.hidden = !(staff || _off);
     var pr = document.getElementById('practiceSection'); if(pr && _off) pr.hidden = true;
     var ban = document.getElementById('officialBanner');
-    if(ban && _off){ ban.hidden = false; ban.textContent = '🎓 Today you sit your ' + (_off.mode === 'individual' ? 'individual' : 'official') + ' mock: ' + (_off.level ? LEVEL_NAMES[_off.level] + ' · ' : '') + 'MOCK ' + _off.mock + '. It is the only thing open.'; }
+    if(ban && _off){ ban.hidden = false; ban.textContent = '🎓 Today you sit your ' + (_off.mode === 'individual' ? 'individual' : 'official') + ' mock: ' + (_off.level ? LEVEL_NAMES[_off.level] + ' · ' : '') + mockLabel(_off) + '. It is the only thing open.'; }
   }
   function boot(){ wrapGates(); official(); }
   if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
