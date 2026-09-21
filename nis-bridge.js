@@ -201,7 +201,7 @@
   /* Se salio de pantalla completa con el examen en marcha: se tapa hasta que vuelva. */
   function pausa(){
     if(document.getElementById('nisFsPause')) return;
-    var v = document.createElement('div'); v.id = 'nisFsPause';
+    var v = document.createElement('div'); v.id = 'nisFsPause'; v.setAttribute('data-i18n', 'off');
     v.style.cssText = 'position:fixed;inset:0;z-index:2147483001;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;'
       + 'background:rgba(15,23,42,.96);color:#fff;font-family:"DM Sans",Montserrat,system-ui,sans-serif;text-align:center;padding:24px';
     v.innerHTML = '<div style="font-size:2.4rem">⏸️</div>'
@@ -258,6 +258,7 @@
     var v = document.getElementById('nisOfficialVeil');
     if(!v){
       v = document.createElement('div'); v.id = 'nisOfficialVeil';
+      v.setAttribute('data-i18n', 'off');   // las instrucciones del mock van en ingles aunque el alumno tenga el portal en espanol
       v.style.cssText = 'position:fixed;inset:0;z-index:2147483000;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;'
         + 'background:linear-gradient(135deg,#244c77,#4987c6 55%,#6d4fc2);color:#fff;font-family:"DM Sans",Montserrat,system-ui,sans-serif;text-align:center;padding:24px';
       (document.body || document.documentElement).appendChild(v);
@@ -430,7 +431,7 @@
     var sec = document.getElementById('mocksSection'); if(sec) sec.hidden = !(staff || _off);
     var pr = document.getElementById('practiceSection'); if(pr && _off) pr.hidden = true;
     var ban = document.getElementById('officialBanner');
-    if(ban && _off){ ban.hidden = false; ban.textContent = '🎓 Today you sit your ' + (_off.mode === 'individual' ? 'individual' : 'official') + ' mock: ' + (_off.level ? LEVEL_NAMES[_off.level] + ' · ' : '') + mockLabel(_off) + '. It is the only thing open.'; }
+    if(ban && _off){ ban.hidden = false; ban.setAttribute('data-i18n', 'off'); ban.textContent = '🎓 Today you sit your ' + (_off.mode === 'individual' ? 'individual' : 'official') + ' mock: ' + (_off.level ? LEVEL_NAMES[_off.level] + ' · ' : '') + mockLabel(_off) + '. It is the only thing open.'; }
   }
   function boot(){ wrapGates(); official(); }
   if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
