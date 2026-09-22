@@ -158,6 +158,7 @@
   /* ---- pantalla completa ---- */
   var FS_EL = document.documentElement;
   var _fsExits = 0, _tabSwitches = 0, _examOn = false, _examDone = false, _kbLock = false;
+  var _uid = null;
   // En iPad/iPhone NO se usa la Fullscreen API: Safari sale de pantalla
   // completa en cuanto un campo recibe el foco (el motor enfoca la pregunta al
   // pulsar su numero o las flechas, y el Writing es un textarea), asi que el
@@ -236,9 +237,82 @@
   function _saveDone(res){
     if(res && res.skipped){ _saveState = 'error'; _saveWhy = 'not signed in to the Portal'; }
     else if(res && res.error){ _saveState = 'error'; _saveWhy = (res.error.message || String(res.error)); }
-    else { _saveState = 'saved'; _saveWhy = ''; }
+    else { _saveState = 'saved'; _saveWhy = ''; clearDraft(); }
     paintDone();
   }
+
+  /* ===== AUTOGUARDADO del borrador (22-sep-2026) =====
+     Solo en mock mode (draftKey() da null si no hay _off/_uid: cero efecto en
+     practice ni en el resto del portal). Cada respuesta que el alumno teclea o
+     marca dentro de #app se guarda en localStorage (por alumno, papel, nivel y
+     examType) para que un cierre de pestaña, un refresh o un cuelgue del
+     navegador no le borre lo avanzado. Al arrancar el paper se restaura si hay
+     un borrador de ESE mismo mock; al guardarse de verdad el intento
+     (_saveDone → 'saved') se borra. Pedido tras perder el Reading de una
+     alumna que estuvo 34 min sin que quedara nada en exam_attempts. */
+  function draftKey(){
+    if(!_off || !_uid) return null;
+    var pg = page(); if(!pg) return null;
+    return 'nisMockDraft:' + _uid + ':' + pg + ':' + _off.level + ':' + _off.examType;
+  }
+  function draftRoot(){ return document.getElementById('app') || document; }
+  function snapshotAnswers(){
+    var data = {};
+    try{
+      draftRoot().querySelectorAll('input[name], select[name], textarea[name]').forEach(function(el){
+        var n = el.name; if(!n) return;
+        if(el.type === 'radio'){ if(el.checked) data[n] = el.value; }
+        else if(el.type === 'checkbox'){ data[n] = el.checked; }
+        else { data[n] = el.value; }
+      });
+    }catch(e){}
+    return data;
+  }
+  function saveDraftNow(){
+    var k = draftKey(); if(!k) return;
+    try{ localStorage.setItem(k, JSON.stringify({ t: Date.now(), data: snapshotAnswers() })); }catch(e){}
+  }
+  function clearDraft(){
+    var k = draftKey(); if(!k) return;
+    try{ localStorage.removeItem(k); }catch(e){}
+  }
+  var _draftTimer = null;
+  function scheduleDraftSave(){
+    if(!_examOn || _examDone || !_off) return;
+    if(_draftTimer) return;
+    _draftTimer = setTimeout(function(){ _draftTimer = null; saveDraftNow(); }, 1200);
+  }
+  function restoreDraft(){
+    var k = draftKey(); if(!k) return;
+    var raw; try{ raw = localStorage.getItem(k); }catch(e){ return; }
+    if(!raw) return;
+    var saved; try{ saved = JSON.parse(raw); }catch(e){ return; }
+    if(!saved || !saved.data) return;
+    var restored = 0;
+    try{
+      Object.keys(saved.data).forEach(function(n){
+        var v = saved.data[n], esc; try{ esc = CSS.escape(n); }catch(e){ esc = n; }
+        if(typeof v === 'boolean'){
+          var cb = draftRoot().querySelector('input[type="checkbox"][name="'+esc+'"]');
+          if(cb){ cb.checked = v; cb.dispatchEvent(new Event('change',{bubbles:true})); restored++; }
+        } else {
+          var radios = draftRoot().querySelectorAll('input[type="radio"][name="'+esc+'"]');
+          if(radios.length){
+            radios.forEach(function(r){ r.checked = (r.value === v); });
+            var checked = draftRoot().querySelector('input[type="radio"][name="'+esc+'"]:checked');
+            if(checked){ checked.dispatchEvent(new Event('change',{bubbles:true})); restored++; }
+          } else {
+            var el = draftRoot().querySelector('[name="'+esc+'"]');
+            if(el && 'value' in el && v){ el.value = v; el.dispatchEvent(new Event('input',{bubbles:true})); el.dispatchEvent(new Event('change',{bubbles:true})); restored++; }
+          }
+        }
+      });
+    }catch(e){}
+    if(restored && window.NISUI && NISUI.aviso) NISUI.aviso('Your previous answers on this paper were restored.', 'info', 6000);
+  }
+  document.addEventListener('input', function(){ scheduleDraftSave(); }, true);
+  document.addEventListener('change', function(){ scheduleDraftSave(); }, true);
+  setInterval(function(){ if(_examOn && !_examDone) saveDraftNow(); }, 10000);
   NIS.save = function(att){
     if(_off && att){
       att.breakdown = Object.assign({}, att.breakdown || {}, { mock_mode: { mode:_off.mode, fullscreen_exits:_fsExits, tab_switches:_tabSwitches, fullscreen_supported:fsSupported(), fullscreen_error:_fsError || null, keyboard_lock:_kbLock, ua:navigator.userAgent.slice(0,120) } });
@@ -375,6 +449,7 @@
      ?official=1 se espera aqui a saber el mock y se arranca justo despues. */
   NIS.currentStudent = async function(){
     var s = await _cs.apply(this, arguments);
+    if(s && s.uid) _uid = s.uid;
     if(OFFICIAL_URL && !window.__nisOfficialStarted){
       try{
         var o = await official();
@@ -408,6 +483,7 @@
       if(typeof window.viewQuiz === 'function') window.viewQuiz();
     }
     setTimeout(unveil, 150);
+    setTimeout(restoreDraft, 700);
   }
 
   /* ---- el candado por test (solo en mock mode): ese mock, en ese nivel ---- */
