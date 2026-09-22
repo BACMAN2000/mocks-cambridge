@@ -229,14 +229,65 @@
   document.addEventListener('fullscreenchange', onFsChange);
   document.addEventListener('webkitfullscreenchange', onFsChange);
   document.addEventListener('visibilitychange', function(){ if(_examOn && !_examDone && document.hidden) _tabSwitches++; });
-  /* Lo que el alumno hizo con la pantalla viaja con el intento (breakdown.mock_mode). */
-  var _save = NIS.save;
+  /* Lo que el alumno hizo con la pantalla viaja con el intento (breakdown.mock_mode).
+     Y en mock mode el guardado se sigue desde aqui (_saveState) para que el velo
+     de «entregado» diga la verdad: guardado, o NO guardado y por que. */
+  var _save = NIS.save, _saveState = 'saving', _saveWhy = '', _lastAtt = null;
+  function _saveDone(res){
+    if(res && res.skipped){ _saveState = 'error'; _saveWhy = 'not signed in to the Portal'; }
+    else if(res && res.error){ _saveState = 'error'; _saveWhy = (res.error.message || String(res.error)); }
+    else { _saveState = 'saved'; _saveWhy = ''; }
+    paintDone();
+  }
   NIS.save = function(att){
     if(_off && att){
       att.breakdown = Object.assign({}, att.breakdown || {}, { mock_mode: { mode:_off.mode, fullscreen_exits:_fsExits, tab_switches:_tabSwitches, fullscreen_supported:fsSupported(), fullscreen_error:_fsError || null, keyboard_lock:_kbLock, ua:navigator.userAgent.slice(0,120) } });
+      _lastAtt = att; _saveState = 'saving'; paintDone();
+      return Promise.resolve().then(function(){ return _save.call(NIS, att); })
+        .then(function(res){ _saveDone(res); return res; }, function(e){ _saveDone({error:e}); return {error:e}; });
     }
     return _save.apply(this, arguments);
   };
+  window.nisSaveAgain = function(){ if(_lastAtt) NIS.save(_lastAtt); };
+
+  /* ===== ENTREGADO, SIN RESULTADO (21-sep-2026) =====
+     En mock mode el alumno no ve su puntaje ni recibe correo al entregar: los
+     resultados salen en UN solo informe cuando los profesores terminan de
+     corregir los Writings (pedido de Paolo para el Official Mock 2). El motor
+     sigue pintando su pantalla de resultado (ahi es donde guarda el intento),
+     pero un velo la tapa con «entregado» + el estado del guardado, y los dos
+     envios al Apps Script (que manda correo al alumno) se anulan. */
+  function quietWebhooks(){
+    var nunca = function(){ return new Promise(function(){}); };   // no resuelve: el motor no escribe «✓ sent» ni «⚠ error»
+    try{ window.sendResultToWebhook = nunca; }catch(e){}
+    try{ window.enviaWebhook = nunca; }catch(e){}
+  }
+  var _doneShown = false;
+  function paintDone(){
+    if(!_doneShown) return;
+    var st = document.getElementById('nisDoneStatus'); if(!st) return;
+    if(_saveState === 'saved'){
+      st.innerHTML = '<div style="font-weight:800;color:#bbf7d0">✓ Saved to your account.</div><div style="opacity:.9;margin-top:4px">Your teachers will mark it. You will receive one report with all your results.</div>';
+    } else if(_saveState === 'error'){
+      st.innerHTML = '<div style="font-weight:800;color:#fecaca">⚠ NOT saved: ' + String(_saveWhy).replace(/</g,'&lt;') + '</div>'
+        + '<div style="opacity:.9;margin-top:4px">Raise your hand and tell the invigilator. Do not close this page.</div>'
+        + '<button type="button" onclick="nisSaveAgain()" style="margin-top:10px;background:#fff;color:#244c77;-webkit-text-fill-color:#244c77;-webkit-appearance:none;appearance:none;border:none;border-radius:10px;padding:10px 18px;font-weight:800;font-size:.95rem;cursor:pointer;font-family:inherit">↻ Try to save again</button>';
+    } else {
+      st.innerHTML = '<div style="opacity:.9">Saving to your account…</div>';
+    }
+  }
+  function doneVeil(){
+    if(!_off) return;
+    _doneShown = true;
+    var v = veil('', false);
+    v.innerHTML = '<div style="font-size:3rem">✅</div>'
+      + '<div style="font-weight:800;font-size:1.7rem">Paper submitted</div>'
+      + '<div style="font-size:1.05rem;opacity:.95">' + page() + ' · ' + (_off.level ? LEVEL_NAMES[_off.level] + ' · ' : '') + mockLabel(_off) + '</div>'
+      + '<div id="nisDoneStatus" style="max-width:52ch;font-size:.98rem;margin-top:4px"></div>'
+      + '<button type="button" onclick="nisBackToPortal()" style="margin-top:10px;background:#fff;color:#244c77;-webkit-text-fill-color:#244c77;-webkit-appearance:none;appearance:none;border:none;border-radius:12px;padding:14px 26px;font-weight:800;font-size:1.05rem;cursor:pointer;font-family:inherit">🏫 Back to the Portal</button>'
+      + '<style>@keyframes nisVeilSpin{to{transform:rotate(360deg)}}</style>';
+    paintDone();
+  }
   /* El velo de arranque: un boton, porque la pantalla completa exige un gesto. */
   function veilStart(o){
     window.__nisVeilFinal = true;   // que el «Preparing…» de DOMContentLoaded no pise el boton si llega despues (conexion rapida)
@@ -343,6 +394,7 @@
     var st = S(); if(!st){ setTimeout(startOfficial, 200); return; }
     window.__nisOfficialStarted = true;
     _examOn = true;
+    quietWebhooks();
     lockExits();
     st.level = o.level;
     if(pg === 'Reading'){
@@ -389,6 +441,7 @@
     var css = document.createElement('style');
     css.textContent = 'button.ghost[onclick="go(\'category\')"],button.ghost[onclick="go(\'level\')"],button.btn.ghost[onclick="go(\'level\')"],'
       + '#lAgain,a.link[href="quizzes.html"],a.btn.secondary[href="quizzes.html"],a.link[href="listening-quiz.html"]{display:none!important}'
+      + '#sendStatus,#lSendStatus,#sendEmailBtn,#lSendEmail,#sendEmail{display:none!important}'
       + 'a.brand{pointer-events:none}';
     document.head.appendChild(css);
     document.addEventListener('click', function(ev){
@@ -401,7 +454,9 @@
     }, true);
     if(typeof window.go === 'function' && !window.go.__nisExit){
       var _go2 = window.go;
-      var w2 = function(s){ if(EXIT_SCREENS[s]){ backToPortal(); return; } if(s === 'result') examFinished(); return _go2.apply(this, arguments); };
+      // 'result': el motor pinta su pantalla de resultado (y ahi guarda el intento);
+      // acto seguido se tapa con el velo de «entregado». Ver doneVeil().
+      var w2 = function(s){ if(EXIT_SCREENS[s]){ backToPortal(); return; } if(s === 'result') examFinished(); var r = _go2.apply(this, arguments); if(s === 'result') doneVeil(); return r; };
       w2.__nisExit = true; w2.__nisGate = _go2.__nisGate; window.go = w2;
     }
     ['viewLevelSelect','viewCategory','viewExamPick','viewPracticePick','viewWelcome'].forEach(function(fn){
@@ -409,7 +464,7 @@
     });
     if(typeof window._pickLevel === 'function') window._pickLevel = function(){ backToPortal(); };
     if(typeof window.viewResult === 'function' && !window.viewResult.__nisExit){
-      var _vr = window.viewResult; var w4 = function(){ examFinished(); return _vr.apply(this, arguments); }; w4.__nisExit = true; window.viewResult = w4;
+      var _vr = window.viewResult; var w4 = function(){ examFinished(); var r = _vr.apply(this, arguments); doneVeil(); return r; }; w4.__nisExit = true; window.viewResult = w4;
     }
   }
 
