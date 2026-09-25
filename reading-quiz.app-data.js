@@ -42630,6 +42630,13 @@ function qid(p,q,extra){ return `p${p}q${q}${extra?('_'+extra):''}`; }
    necesitan va inyectado desde aqui (ensureDigitalCss) porque el HTML de
    cada web lleva su propia piel y el motor es el unico archivo compartido.
 ============================================================ */
+/* Mock mode (examen oficial): lo señala el bridge de cada web (NIS: __nisOfficialStarted,
+   cohasset.pe: __cohOfficialStarted) o ?official=1 en la URL. En mock mode Highlight y
+   Notes no se ofrecen: el examen digital de Cambridge no los tiene y el alumno no debe
+   acostumbrarse a apoyarse en ellos. En practice siguen. */
+function inMockMode(){
+  return !!(window.__nisOfficialStarted || window.__cohOfficialStarted || /[?&]official=1(?:&|$)/.test(location.search));
+}
 function ensureDigitalCss(){
   if(document.getElementById('nisDigitalCss')) return;
   const st = document.createElement('style'); st.id = 'nisDigitalCss';
@@ -43539,8 +43546,8 @@ const render = {
               <span class="fs-label" id="fsLabel">100%</span>
               <button type="button" onclick="window._fontSize(1)">A+</button>
             </div>
-            <button type="button" class="tool-btn" data-tool="highlight" onclick="window._toggleHighlight()" title="Highlight text in the passage">🖍 Highlight</button>
-            <button type="button" class="tool-btn" data-tool="notes" onclick="window._toggleNotes()" title="Open notes panel">📝 Notes</button>
+            ${inMockMode() ? '' : `<button type="button" class="tool-btn" data-tool="highlight" onclick="window._toggleHighlight()" title="Highlight text in the passage">🖍 Highlight</button>
+            <button type="button" class="tool-btn" data-tool="notes" onclick="window._toggleNotes()" title="Open notes panel">📝 Notes</button>`}
             <button type="button" class="tool-btn" data-tool="flag" id="flagBtn" onclick="window._toggleFlag()" title="Flag this question to come back to it later">⚐ Flag question 1</button>
           </div>
           <div class="right">
