@@ -5222,6 +5222,65 @@ function wcTexto(n){
 }
 function boxHtml(name){return `<div class="write-wrap"><textarea class="box" name="${name}" placeholder="Write your answer here." oninput="wcUpdate(this)"></textarea><div class="wc">${wcTexto(0)}</div></div>`;}
 
+/* ============================================================
+   EXAMEN DIGITAL (25-sep-2026), igual que en Reading y Listening: consigna
+   con el texto del examen digital de Cambridge («Write 140–190 words in an
+   appropriate style.»), bandera por tarea, pagina de entrega y divisor
+   arrastrable entre la tarea y el cuadro. CSS inyectado desde aqui.
+============================================================ */
+function wDigitalCss(){
+  if(document.getElementById('wDigitalCss')) return;
+  const st = document.createElement('style'); st.id = 'wDigitalCss';
+  st.textContent = `
+  .shell .hdr button.wflag.active{background:var(--amber50,#fef3c7);border-color:var(--gold,#d97706);color:var(--ink)}
+  .shell .onum{position:relative}
+  .shell .onum.flagged::after,.shell .tab .tn .tflag{color:var(--gold,#d97706)}
+  .shell .onum.flagged::after{content:'';position:absolute;top:-1px;right:-1px;border:5px solid transparent;border-top-color:var(--gold,#d97706);border-right-color:var(--gold,#d97706);border-radius:0 5px 0 0}
+  .shell .q-flag{display:inline-flex;align-items:center;gap:4px;margin-top:8px;background:transparent;border:1px solid var(--line);border-radius:6px;padding:4px 10px;font-size:.78rem;font-weight:600;color:var(--muted);cursor:pointer}
+  .shell .q-flag:hover{border-color:var(--gold,#d97706);color:var(--ink)}
+  .shell .q-flag.on{background:var(--amber50,#fef3c7);border-color:var(--gold,#d97706);color:var(--ink)}
+  .shell .two-col.has-divider{grid-template-columns:minmax(0,var(--split,50%)) 14px minmax(0,1fr)}
+  .shell .two-col.has-divider > .left{border-right:none}
+  .shell .two-col > .col-divider{cursor:col-resize;background:var(--bg);border-left:1px solid var(--line);border-right:1px solid var(--line);display:flex;align-items:center;justify-content:center;color:var(--muted);user-select:none;-webkit-user-select:none;touch-action:none;font-size:.8rem;outline:none}
+  .shell .two-col > .col-divider:hover,.shell .two-col > .col-divider:focus,.shell .two-col > .col-divider.dragging{background:var(--line);color:var(--ink)}
+  .shell .two-col > .col-divider span{pointer-events:none}
+  @media(max-width:820px){.shell .two-col > .col-divider{display:none}.shell .two-col.has-divider{grid-template-columns:1fr}}
+  .shell .main-inner.sp-hidden{display:none}
+  .shell .submit-page{max-width:900px;margin:0 auto;padding:10px 0 30px}
+  .shell .submit-page h2{font-size:1.3rem;margin:6px 0 8px;color:var(--ink);font-weight:700}
+  .shell .submit-page .submit-summary{color:var(--muted);margin:0 0 14px;font-size:.95rem;line-height:1.5}
+  .shell .submit-page .submit-summary strong{color:var(--ink)}
+  .shell .submit-page .submit-warn{background:var(--amber50,#fef3c7);border:1px solid var(--gold,#d97706);color:var(--ink);border-radius:8px;padding:10px 14px;margin:0 0 14px;font-size:.92rem}
+  .shell .submit-table{width:100%;border-collapse:separate;border-spacing:0;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:.92rem}
+  .shell .submit-table th,.shell .submit-table td{padding:10px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;color:var(--ink)}
+  .shell .submit-table th{background:var(--bg);color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.03em}
+  .shell .submit-table tr:last-child td{border-bottom:none}
+  .shell .submit-table td.sp-part{font-weight:700;white-space:nowrap}
+  .shell .submit-table .sp-ok{color:var(--muted)}
+  .shell .sp-num{display:inline-flex;align-items:center;justify-content:center;min-width:28px;height:28px;padding:0 8px;border:1px solid var(--line);border-radius:5px;background:var(--bg);color:var(--ink);font-size:.8rem;font-weight:600;cursor:pointer;margin:2px 3px 2px 0;position:relative;font-family:inherit}
+  .shell .sp-num:hover{border-color:var(--accent);color:var(--accent)}
+  .shell .sp-num.flagged::after{content:'';position:absolute;top:-1px;right:-1px;border:5px solid transparent;border-top-color:var(--gold,#d97706);border-right-color:var(--gold,#d97706);border-radius:0 5px 0 0}
+  .shell .submit-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:16px;flex-wrap:wrap}
+  .shell .submit-actions button{border-radius:8px;padding:10px 18px;font-weight:700;cursor:pointer;font-family:inherit;font-size:.92rem}
+  .shell .submit-actions .sp-back{background:var(--card);color:var(--muted);border:1px solid var(--line)}
+  .shell .submit-actions .sp-back:hover{border-color:#94a3b8;color:var(--ink)}
+  .shell .submit-actions .sp-final{background:var(--accent);color:var(--card);border:1px solid var(--accent)}
+  .shell .submit-actions .sp-final:hover{filter:brightness(0.95)}
+  `;
+  document.head.appendChild(st);
+}
+/* «Write your answer in 140-190 words in an appropriate style.» → «Write
+   140–190 words in an appropriate style.» (texto del examen digital). */
+function wDigitalInstr(t){
+  return String(t||'')
+    .replace(/Write your answer in\s+(about\s+)?/i, (m, ab)=> 'Write ' + (ab ? 'about ' : ''))
+    .replace(/(\d+)\s*-\s*(\d+)\s*words/g, '$1–$2 words');
+}
+function wQuestionLabel(v){
+  const {part, task} = viewToTask(v);
+  return part===0 ? 'Question 1' : 'Question ' + task.q;
+}
+
 function taskPaneHtml(v){
   const {part,opt,task}=viewToTask(v);
   const name = part===0 ? 'p1' : 'p2_'+opt;
@@ -5234,7 +5293,7 @@ function taskPaneHtml(v){
       <select onchange="window._choose(${opt}, this.value)"><option value="no"${on?'':' selected'}>Undecided</option><option value="yes"${on?' selected':''}>Yes, answer this</option></select></div>`;
   }
   return `<div class="pane${v===state.view?' active':''}" data-view="${v}">
-    <div class="instr"><strong>${qlabel}</strong><p>${esc(conObjetivo(exam().parts[part].instructions))}</p></div>
+    <div class="instr"><strong>${qlabel}</strong><p>${esc(wDigitalInstr(conObjetivo(exam().parts[part].instructions)))}</p></div>
     ${chooser}
     <div class="two-col">
       <div class="left">
@@ -5281,6 +5340,7 @@ function syncFooter(){
   document.getElementById('tab-1').classList.toggle('active',cur.part===1);
   const pv=document.getElementById('prev'), nx=document.getElementById('next');
   if(pv) pv.disabled=(state.view===0); if(nx) nx.disabled=(state.view===viewCount()-1);
+  if(window._wPaintFlags) window._wPaintFlags();
 }
 
 const render={
@@ -5409,6 +5469,8 @@ const render={
   async exam(){
     const ex=exam();
     state.view=0; state.part2Choice=null; state.startTime=null;
+    state.flags={}; state.submitOpen=false;
+    wDigitalCss();
     const _bor=await continuar();
     let panes=''; for(let v=0;v<viewCount();v++) panes+=taskPaneHtml(v);
     app.className='';
@@ -5417,21 +5479,92 @@ const render={
         <a class="brand" href="quizzes.html"><img src="${MSITE.logo}" alt="${MSITE.logoAlt}"></a>
         <div class="cand">Candidate: <strong>${esc(state.name)}</strong> · ${esc(state.grade)}</div>
         <div class="right">
+          <button type="button" class="wflag" id="wFlagBtn" title="Flag this question to come back to it later" onclick="window._wToggleFlag()">⚐ Flag question 1</button>
           <div class="timer" id="timer">00:00</div>
           <button id="quit">Exit</button>
           <button class="fin" id="submit">Submit ✓</button>
         </div>
       </div>
-      <div class="main"><h2 style="margin:0 0 6px">${ex.title}</h2>${panes}</div>
+      <div class="main"><div class="main-inner"><h2 style="margin:0 0 6px">${ex.title}</h2>${panes}</div><div class="submit-page" id="wSubmitPage" hidden></div></div>
       ${footerHtml()}
     </div>`;
-    window._goView=(v)=>{ v=Math.max(0,Math.min(viewCount()-1,v)); state.view=v;
+    // ---- Divisor arrastrable entre la tarea y el cuadro (como en el examen digital) ----
+    document.querySelectorAll('.shell .two-col').forEach(box=>{
+      const left = box.querySelector(':scope > .left'), right = box.querySelector(':scope > .right');
+      if(!left || !right || box.querySelector(':scope > .col-divider')) return;
+      const d = document.createElement('div');
+      d.className='col-divider'; d.title='Drag to resize'; d.tabIndex=0; d.setAttribute('role','separator'); d.setAttribute('aria-orientation','vertical');
+      d.innerHTML='<span>↔</span>';
+      box.insertBefore(d, right); box.classList.add('has-divider');
+      const setSplit=(pct)=>{ pct=Math.max(25,Math.min(75,pct)); state.splitPct=pct; document.querySelectorAll('.shell .two-col.has-divider').forEach(b=>b.style.setProperty('--split', pct+'%')); };
+      setSplit(state.splitPct||50);
+      d.addEventListener('pointerdown', (e)=>{
+        e.preventDefault(); try{ d.setPointerCapture(e.pointerId); }catch(_){}
+        d.classList.add('dragging'); const r=box.getBoundingClientRect();
+        const move=(ev)=>{ setSplit((ev.clientX-r.left)/r.width*100); };
+        const up=()=>{ d.classList.remove('dragging'); d.removeEventListener('pointermove',move); d.removeEventListener('pointerup',up); d.removeEventListener('pointercancel',up); };
+        d.addEventListener('pointermove',move); d.addEventListener('pointerup',up); d.addEventListener('pointercancel',up);
+      });
+      d.addEventListener('keydown', (e)=>{ if(e.key==='ArrowLeft'){ setSplit((state.splitPct||50)-5); e.preventDefault(); } if(e.key==='ArrowRight'){ setSplit((state.splitPct||50)+5); e.preventDefault(); } });
+    });
+    // ---- Bandera bajo cada cuadro de escritura ----
+    for(let v=0; v<viewCount(); v++){
+      const pane=document.querySelector('.pane[data-view="'+v+'"]'); const wrap=pane && pane.querySelector('.write-wrap');
+      if(!wrap || wrap.querySelector(':scope > .q-flag')) continue;
+      const b=document.createElement('button'); b.type='button'; b.className='q-flag'; b.dataset.view=String(v);
+      b.setAttribute('aria-pressed','false'); b.textContent='⚐ Flag '+wQuestionLabel(v).toLowerCase();
+      b.addEventListener('click', (e)=>{ e.stopPropagation(); window._wToggleFlag(v); });
+      wrap.appendChild(b);
+    }
+    window._wPaintFlags=()=>{
+      const tb=document.getElementById('wFlagBtn');
+      if(tb){ const on=!!state.flags[state.view]; tb.classList.toggle('active',on); tb.setAttribute('aria-pressed',on?'true':'false'); tb.textContent=(on?'⚑ Unflag ':'⚐ Flag ')+wQuestionLabel(state.view).toLowerCase(); }
+      document.querySelectorAll('.shell .q-flag').forEach(btn=>{ const on=!!state.flags[+btn.dataset.view]; btn.classList.toggle('on',on); btn.setAttribute('aria-pressed',on?'true':'false'); btn.textContent=(on?'⚑ Flagged ':'⚐ Flag ')+wQuestionLabel(+btn.dataset.view).toLowerCase(); });
+      const t0=document.querySelector('#tab-0 .tn'); if(t0){ let m=t0.querySelector('.tflag'); if(state.flags[0]){ if(!m){ m=document.createElement('span'); m.className='tflag'; m.textContent=' ⚑'; t0.appendChild(m); } } else if(m) m.remove(); }
+      exam().parts[1].tasks.forEach((t,i)=>{ const b=document.getElementById('onum-'+i); if(b) b.classList.toggle('flagged', !!state.flags[i+1]); });
+    };
+    window._wToggleFlag=(v)=>{ if(v==null) v=state.view; if(state.flags[v]) delete state.flags[v]; else state.flags[v]=true; window._wPaintFlags(); };
+    // ---- Pagina de entrega ----
+    window._wOpenSubmit=()=>{
+      const page=document.getElementById('wSubmitPage'), inner=document.querySelector('.main-inner'); if(!page||!inner) return;
+      const wc=s=>{ s=(s||'').trim(); return s? s.split(/\s+/).length : 0; };
+      const t1=document.querySelector('[name="p1"]'); const w1=wc(t1&&t1.value);
+      const problems=[]; let flagged=0;
+      const flagBtn=(v,label)=>`<button type="button" class="sp-num flagged" onclick="window._goView(${v})">${label}</button>`;
+      let rows=`<tr><td class="sp-part">Part 1</td><td>${w1?`Question 1 · ${w1} words`:'<span class="sp-ok">not written</span>'}</td><td>${w1?'<span class="sp-ok">—</span>':`<button type="button" class="sp-num${state.flags[0]?' flagged':''}" onclick="window._goView(0)">Question 1</button>`}</td><td>${state.flags[0]?(flagged++,flagBtn(0,'Question 1')):'<span class="sp-ok">—</span>'}</td></tr>`;
+      if(!w1) problems.push('<strong>Part 1</strong> is not written');
+      const tasks=exam().parts[1].tasks; const ch=state.part2Choice;
+      let p2='', p2miss='', p2flag='';
+      if(ch!=null){ const ta=document.querySelector(`[name="p2_${ch}"]`); const w=wc(ta&&ta.value); p2=`Question ${tasks[ch].q} · ${w} words`; if(!w){ p2miss=`<button type="button" class="sp-num${state.flags[ch+1]?' flagged':''}" onclick="window._goView(${ch+1})">Question ${tasks[ch].q}</button>`; problems.push(`<strong>Question ${tasks[ch].q}</strong> is chosen but not written`); } }
+      else { const written=tasks.map((t,i)=>{ const ta=document.querySelector(`[name="p2_${i}"]`); return wc(ta&&ta.value)?i:-1; }).filter(i=>i>=0);
+        p2=`<span class="sp-ok">no question chosen${written.length?` (text in ${written.map(i=>'Question '+tasks[i].q).join(', ')})`:''}</span>`;
+        p2miss=tasks.map((t,i)=>`<button type="button" class="sp-num${state.flags[i+1]?' flagged':''}" onclick="window._goView(${i+1})">Question ${t.q}</button>`).join('');
+        problems.push('<strong>Part 2</strong>: choose the question you are answering'); }
+      tasks.forEach((t,i)=>{ if(state.flags[i+1]){ flagged++; p2flag+=flagBtn(i+1,'Question '+t.q); } });
+      rows+=`<tr><td class="sp-part">Part 2</td><td>${p2}</td><td>${p2miss||'<span class="sp-ok">—</span>'}</td><td>${p2flag||'<span class="sp-ok">—</span>'}</td></tr>`;
+      if(flagged) problems.push(`<strong>${flagged}</strong> flagged`);
+      const warn=problems.length?`<div class="submit-warn">⚠ ${problems.join(' · ')}. Click a question to go back to it.</div>`:'';
+      page.innerHTML=`
+        <h2>Submission page</h2>
+        <p class="submit-summary">Check what you have written, then press <strong>Submit test</strong>. You will not be able to change your writing after that.</p>
+        ${warn}
+        <table class="submit-table"><thead><tr><th>Part</th><th>Written</th><th>Not answered</th><th>Flagged</th></tr></thead><tbody>${rows}</tbody></table>
+        <div class="submit-actions">
+          <button type="button" class="sp-back" onclick="window._wCloseSubmit()">← Back to the test</button>
+          <button type="button" class="sp-final" id="wSubmitFinal">Submit test ✓</button>
+        </div>`;
+      inner.classList.add('sp-hidden'); page.hidden=false; state.submitOpen=true;
+      const m=document.querySelector('.main'); if(m) m.scrollTo({top:0});
+      document.getElementById('wSubmitFinal').onclick=finalize;
+    };
+    window._wCloseSubmit=()=>{ const page=document.getElementById('wSubmitPage'), inner=document.querySelector('.main-inner'); if(page) page.hidden=true; if(inner) inner.classList.remove('sp-hidden'); state.submitOpen=false; };
+    window._goView=(v)=>{ if(state.submitOpen && window._wCloseSubmit) window._wCloseSubmit(); v=Math.max(0,Math.min(viewCount()-1,v)); state.view=v;
       document.querySelectorAll('.pane').forEach(p=>p.classList.toggle('active',+p.dataset.view===v));
-      document.querySelector('.main').scrollTo({top:0}); syncFooter(); };
+      document.querySelector('.main').scrollTo({top:0}); syncFooter(); if(window._wPaintFlags) window._wPaintFlags(); };
     window._nav=(d)=>window._goView(state.view+d);
     window._choose=(opt,val)=>{ state.part2Choice = (val==='yes')?opt:(state.part2Choice===opt?null:state.part2Choice);
       const ps=document.getElementById('pickState'); if(ps){const on=state.part2Choice===opt; ps.textContent=on?'✓ Yes — this one will be marked':'Not selected yet'; ps.classList.toggle('on',on);} syncFooter(); guardaBorrador(); };
-    document.getElementById('submit').onclick=finalize;
+    document.getElementById('submit').onclick=window._wOpenSubmit;
     document.getElementById('quit').onclick=async ()=>{ if(await NISUI.pregunta('If you leave now you will lose everything you have written and the exam will not be submitted.', {titulo:'Leave without submitting?', si:'Leave and lose it', no:'Back to the exam', tono:'mal', peligro:true})){stopTimer();acStop();borraBorrador();go('level');} };
     if(_bor){ reponBorrador(_bor); }
     syncFooter();

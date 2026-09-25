@@ -32778,6 +32778,73 @@ function startListenTimer(minutes){
 }
 function stopListenTimer(){ if(lTimerId){ clearInterval(lTimerId); lTimerId = null; } }
 
+/* ============================================================
+   EXAMEN DIGITAL (25-sep-2026), igual que en el Reading: consigna con el
+   texto del examen digital de Cambridge, bandera por pregunta y pagina de
+   entrega. CSS inyectado desde aqui: el motor es lo unico compartido.
+============================================================ */
+function lDigitalCss(){
+  if(document.getElementById('lDigitalCss')) return;
+  const st = document.createElement('style'); st.id = 'lDigitalCss';
+  st.textContent = `
+  .ins-shell .lqn{position:relative}
+  .ins-shell .lqn.flagged::after{content:'';position:absolute;top:-1px;right:-1px;border:5px solid transparent;border-top-color:var(--gold,#d97706);border-right-color:var(--gold,#d97706);border-radius:0 5px 0 0}
+  .ins-hdr button.ins-flag.active{background:var(--amber50,#fef3c7);border-color:var(--gold,#d97706);color:var(--ink)}
+  .ins-shell .q-flag{display:inline-flex;align-items:center;gap:4px;margin-top:8px;background:transparent;border:1px solid var(--line);border-radius:6px;padding:4px 10px;font:600 .78rem "Montserrat","Segoe UI",system-ui,sans-serif;color:var(--muted);cursor:pointer}
+  .ins-shell .q-flag:hover{border-color:var(--gold,#d97706);color:var(--ink)}
+  .ins-shell .q-flag.on{background:var(--amber50,#fef3c7);border-color:var(--gold,#d97706);color:var(--ink)}
+  .ins-shell .ins-inner.sp-hidden{display:none}
+  .ins-shell .submit-page{max-width:900px;margin:0 auto;padding:10px 0 30px;font-family:"Montserrat","Segoe UI",system-ui,sans-serif}
+  .ins-shell .submit-page h2{font-size:1.3rem;margin:6px 0 8px;color:var(--ink);font-weight:700}
+  .ins-shell .submit-page .submit-summary{color:var(--muted);margin:0 0 14px;font-size:.95rem;line-height:1.5}
+  .ins-shell .submit-page .submit-summary strong{color:var(--ink)}
+  .ins-shell .submit-page .submit-warn{background:var(--amber50,#fef3c7);border:1px solid var(--gold,#d97706);color:var(--ink);border-radius:8px;padding:10px 14px;margin:0 0 14px;font-size:.92rem}
+  .ins-shell .submit-table{width:100%;border-collapse:separate;border-spacing:0;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:.92rem}
+  .ins-shell .submit-table th,.ins-shell .submit-table td{padding:10px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;color:var(--ink)}
+  .ins-shell .submit-table th{background:var(--card);color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.03em}
+  .ins-shell .submit-table tr:last-child td{border-bottom:none}
+  .ins-shell .submit-table td.sp-part{font-weight:700;white-space:nowrap}
+  .ins-shell .submit-table .sp-ok{color:var(--muted)}
+  .ins-shell .sp-num{width:28px;height:28px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:5px;background:var(--card);color:var(--ink);font-size:.8rem;font-weight:600;cursor:pointer;margin:2px 3px 2px 0;position:relative;font-family:inherit}
+  .ins-shell .sp-num:hover{border-color:#4987c6;color:var(--blue,#2f5f93)}
+  .ins-shell .sp-num.flagged::after{content:'';position:absolute;top:-1px;right:-1px;border:5px solid transparent;border-top-color:var(--gold,#d97706);border-right-color:var(--gold,#d97706);border-radius:0 5px 0 0}
+  .ins-shell .submit-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:16px;flex-wrap:wrap}
+  .ins-shell .submit-actions button{border-radius:8px;padding:10px 18px;font-weight:700;cursor:pointer;font-family:inherit;font-size:.92rem}
+  .ins-shell .submit-actions .sp-back{background:var(--card);color:var(--muted);border:1px solid var(--line)}
+  .ins-shell .submit-actions .sp-back:hover{border-color:#94a3b8;color:var(--ink)}
+  .ins-shell .submit-actions .sp-final{background:#2f5f93;color:#fff;border:1px solid #2f5f93}
+  .ins-shell .submit-actions .sp-final:hover{filter:brightness(0.95)}
+  `;
+  document.head.appendChild(st);
+}
+
+/* La consigna de cada parte con el texto del examen digital: primero la
+   frase «You will hear…», luego «For each question, choose the correct
+   answer.» sin letras (A, B or C); la frase de ayuda sobre la flecha ▶ sale
+   (el examen digital no la lleva) y «For each speaker, choose from the list
+   (A–H)…» se convierte en la formula del digital con el numero de sobrantes. */
+function lDigitalIntro(a){
+  let t = (a.intro || '').trim();
+  if(!t) return '';
+  const nQ = (a.questions || []).length;
+  const bank = a.bank || ((a.questions||[]).find(q=>q.bank) || {}).bank || [];
+  t = t.replace(/\s*\((?:A,\s*B(?:,\s*C)?(?:\s*or\s*[A-D])?|A[–-][A-H])\)/g, '');
+  t = t.replace(/choose the best answer/gi, 'choose the correct answer');
+  let sents = t.replace(/([.!?])\s+(?=[A-Z])/g, '$1').split('').map(s=>s.trim()).filter(Boolean);   // sin lookbehind: Safari viejo
+  sents = sents.filter(s=>!/^Use the (arrow|numbers)/i.test(s));
+  const idx = sents.findIndex(s=>/^For each speaker,? choose from the list/i.test(s));
+  if(idx >= 0){
+    const extra = Math.max(0, bank.length - nQ);
+    const NUM = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight'];
+    let tail = 'For each question, choose the correct answer. Use each answer only once.';
+    if(extra > 0) tail += ` There ${extra===1?'is':'are'} ${NUM[extra]||extra} extra answer${extra===1?'':'s'} which you do not need to use.`;
+    sents = sents.slice(0, idx).concat([tail]);
+  }
+  const hear = sents.filter(s=>/^You will hear/i.test(s));
+  const rest = sents.filter(s=>!/^You will hear/i.test(s));
+  return hear.concat(rest).join(' ');
+}
+
 function viewQuiz(){
   const lev = currentQuiz()[state.level];
   document.body.classList.remove('signin-mode','result-mode');
@@ -32786,6 +32853,8 @@ function viewQuiz(){
   let counter = 1;
   const pInfo = lev.audios.map(a=>{ const o={start:counter, count:a.questions.length}; counter += a.questions.length; return o; });
   state.curPart = 0;
+  state.flags = {}; state.submitOpen = false; state.curKey = null;
+  lDigitalCss();
 
   const paneHTML = lev.audios.map((a,i)=>{
     const info = pInfo[i];
@@ -32793,7 +32862,7 @@ function viewQuiz(){
     const playerBlock = a.paged ? ''
       : `<div class="ins-player">${(a.kind==='tts') ? renderTTSPlayer(a) : `<audio controls preload="none" src="${CONFIG.AUDIO_BASE}${a.file}?v=${CONFIG.AUDIO_V}"></audio>`}</div>`;
     return `<section class="ins-pane${i===0?' active':''}" data-part="${i}">
-      <div class="ins-instr"><strong>Questions ${range}</strong><p>${a.intro||''}</p></div>
+      <div class="ins-instr"><strong>Questions ${range}</strong><p>${lDigitalIntro(a)}</p></div>
       ${playerBlock}
       <div class="ins-content" id="qs-${a.id}"></div>
     </section>`;
@@ -32815,6 +32884,7 @@ function viewQuiz(){
         <div class="ins-cand">Candidate: <strong>${state.name}</strong> · ${state.klass}</div>
         <div class="ins-right">
           <span class="ins-audio">🔊 Listening</span>
+          <button type="button" class="ins-flag" id="lFlagBtn" title="Flag this question to come back to it later" onclick="window._lToggleFlag()">⚐ Flag question 1</button>
           <span class="ins-timer" id="timer" title="Time for this paper">--:--</span>
           <button id="insExit">Exit</button>
           <button class="ins-fin" id="insSubmit">Submit ✓</button>
@@ -32823,7 +32893,9 @@ function viewQuiz(){
       <main class="ins-main"><div class="ins-inner">
         <div class="ins-title"><h1>${lev.label} — Listening</h1></div>
         ${paneHTML}
-      </div></main>
+      </div>
+        <div class="submit-page" id="lSubmitPage" hidden></div>
+      </main>
       <footer class="ins-ftr">
         <div class="ins-tabs">${tabsHTML}</div>
         <div class="ins-arrows"><button id="lprev">◀</button><button id="lnext">▶</button></div>
@@ -32831,6 +32903,18 @@ function viewQuiz(){
     </div>`;
 
   lev.audios.forEach(a=>{ if(a.kind==='tts') bindTTSPlayer(a); renderQuestions(a, $(`#qs-${a.id}`)); });
+  // Bandera junto a cada pregunta (como «Flag question N» del examen digital)
+  lev.audios.forEach((a,pi)=>{
+    a.questions.forEach((q,qi)=>{
+      const key = `${a.id}__${qi}`;
+      const el = document.getElementById('lq_'+key); if(!el || el.querySelector(':scope > .q-flag')) return;
+      const b = document.createElement('button');
+      b.type='button'; b.className='q-flag'; b.dataset.key=key; b.dataset.num=String(pInfo[pi].start+qi);
+      b.setAttribute('aria-pressed','false'); b.textContent='⚐ Flag question '+b.dataset.num;
+      b.addEventListener('click', (e)=>{ e.stopPropagation(); window._lToggleFlag(key); });
+      el.appendChild(b);
+    });
+  });
 
   // Views: paged parts expose one view per question; other parts one view each.
   const views = [];
@@ -32839,6 +32923,7 @@ function viewQuiz(){
   function pauseAllAudio(){ document.querySelectorAll('.ins-shell audio').forEach(a=>{ try{a.pause();}catch(e){} }); try{ TTS.stop(); }catch(e){} }
 
   window._lGoView = function(vi, autoplay){
+    if(state.submitOpen && window._lCloseSubmit) window._lCloseSubmit();
     const n = views.length; vi = Math.max(0, Math.min(n-1, vi)); state.curView = vi;
     const v = views[vi], part = v.part;
     document.querySelectorAll('.ins-pane').forEach((p,k)=>p.classList.toggle('active', k===part));
@@ -32854,6 +32939,8 @@ function viewQuiz(){
     }
     const pv=$('#lprev'), nx=$('#lnext'); if(pv) pv.disabled=(vi===0); if(nx) nx.disabled=(vi===n-1);
     const m=document.querySelector('.ins-main'); if(m) m.scrollTo({top:0});
+    state.curKey = lev.audios[part].id + '__' + (lev.audios[part].paged ? v.q : 0);
+    if(window._lPaintFlagBtn) window._lPaintFlagBtn();
   };
   window._lGoPart = function(i){ window._lGoView(views.findIndex(v=>v.part===i), false); };
   window._lGoQ = function(part, local){
@@ -32861,6 +32948,7 @@ function viewQuiz(){
     window._lGoView(views.findIndex(v=>v.part===part), false);
     document.querySelectorAll('.lqn.cur').forEach(b=>b.classList.remove('cur'));
     const btn=document.getElementById('lqn-'+part+'-'+local); if(btn) btn.classList.add('cur');
+    state.curKey = lev.audios[part].id + '__' + local; if(window._lPaintFlagBtn) window._lPaintFlagBtn();
     const a=lev.audios[part]; const el=document.getElementById('lq_'+a.id+'__'+local);
     if(el){ el.scrollIntoView({behavior:'smooth',block:'center'}); el.classList.remove('q-flash'); void el.offsetWidth; el.classList.add('q-flash'); setTimeout(()=>el.classList.remove('q-flash'),1200); }
   };
@@ -32870,7 +32958,77 @@ function viewQuiz(){
   window._lGoView(0, false);
 
   $('#insExit').onclick=async ()=>{ if(await NISUI.pregunta('If you leave now you will lose all your answers and the exam will not be submitted.', {titulo:'Leave without submitting?', si:'Leave and lose them', no:'Back to the exam', tono:'mal', peligro:true})){ try{TTS.stop();}catch(e){} acStop(); stopListenTimer(); document.body.classList.remove('exam-mode'); viewWelcome(); } };
-  $('#insSubmit').onclick=onSubmit;
+  // ---- Banderas ----
+  const keyNum = (key)=>{ for(let pi=0;pi<lev.audios.length;pi++){ const a=lev.audios[pi]; if(key.startsWith(a.id+'__')){ const qi=+key.slice(a.id.length+2); return {pi, qi, num:pInfo[pi].start+qi}; } } return null; };
+  window._lPaintFlagBtn = function(){
+    const tb = document.getElementById('lFlagBtn'); if(!tb) return;
+    const k = state.curKey; const on = !!(k && state.flags[k]); const kn = k ? keyNum(k) : null;
+    tb.classList.toggle('active', on); tb.setAttribute('aria-pressed', on?'true':'false');
+    tb.textContent = (on ? '⚑ Unflag question ' : '⚐ Flag question ') + (kn ? kn.num : '');
+  };
+  window._lPaintFlags = function(){
+    lev.audios.forEach((a,pi)=>a.questions.forEach((q,qi)=>{
+      const on = !!state.flags[`${a.id}__${qi}`];
+      const b = document.getElementById('lqn-'+pi+'-'+qi); if(b) b.classList.toggle('flagged', on);
+    }));
+    document.querySelectorAll('.ins-shell .q-flag').forEach(btn=>{
+      const on = !!state.flags[btn.dataset.key];
+      btn.classList.toggle('on', on); btn.setAttribute('aria-pressed', on?'true':'false');
+      btn.textContent = (on ? '⚑ Flagged question ' : '⚐ Flag question ') + btn.dataset.num;
+    });
+    window._lPaintFlagBtn();
+  };
+  window._lToggleFlag = function(key){
+    key = key || state.curKey; if(!key) return;
+    if(state.flags[key]) delete state.flags[key]; else state.flags[key] = true;
+    window._lPaintFlags();
+  };
+  // Al tocar una pregunta, esa pasa a ser la actual (para el boton de la cabecera)
+  document.querySelector('.ins-shell').addEventListener('focusin', (e)=>{
+    const q = e.target && e.target.closest && e.target.closest('.q'); if(!q || !q.id || !q.id.startsWith('lq_')) return;
+    state.curKey = q.id.slice(3); window._lPaintFlagBtn();
+  });
+  // ---- Pagina de entrega ----
+  const isDone = (a, q, qi)=>{ const v = state.answers[`${a.id}__${qi}`]; return (q.type==='seq') ? !!(v && Object.values(v).some(x=>x!=null)) : (v!==undefined && v!==''); };
+  window._lOpenSubmit = function(){
+    updateProgress();
+    const page = document.getElementById('lSubmitPage'), inner = document.querySelector('.ins-inner'); if(!page || !inner) return;
+    pauseAllAudio();
+    let rows='', answered=0, missing=0, flagged=0;
+    lev.audios.forEach((a,pi)=>{
+      let done=0, miss='', flg='';
+      a.questions.forEach((q,qi)=>{
+        const ok = isDone(a,q,qi), fl = !!state.flags[`${a.id}__${qi}`], num = pInfo[pi].start+qi;
+        if(ok) done++; else miss += `<button type="button" class="sp-num${fl?' flagged':''}" onclick="window._lGoQ(${pi},${qi})" title="Go to question ${num}">${num}</button>`;
+        if(fl){ flagged++; flg += `<button type="button" class="sp-num flagged" onclick="window._lGoQ(${pi},${qi})" title="Go to question ${num}">${num}</button>`; }
+      });
+      answered += done; missing += a.questions.length - done;
+      rows += `<tr><td class="sp-part">Part ${pi+1}</td><td>${done} of ${a.questions.length}</td><td>${miss||'<span class="sp-ok">—</span>'}</td><td>${flg||'<span class="sp-ok">—</span>'}</td></tr>`;
+    });
+    let warn='';
+    if(missing || flagged){
+      const bits=[]; if(missing) bits.push(`<strong>${missing}</strong> question${missing===1?'':'s'} not answered`); if(flagged) bits.push(`<strong>${flagged}</strong> flagged`);
+      warn = `<div class="submit-warn">⚠ You still have ${bits.join(' and ')}. Click a number to go back to that question.</div>`;
+    }
+    page.innerHTML = `
+      <h2>Submission page</h2>
+      <p class="submit-summary">You have attempted <strong>${answered} of ${answered+missing}</strong> questions. Check the table, then press <strong>Submit test</strong>. You will not be able to change your answers after that.</p>
+      ${warn}
+      <table class="submit-table"><thead><tr><th>Part</th><th>Attempted</th><th>Not answered</th><th>Flagged</th></tr></thead><tbody>${rows}</tbody></table>
+      <div class="submit-actions">
+        <button type="button" class="sp-back" onclick="window._lCloseSubmit()">← Back to the test</button>
+        <button type="button" class="sp-final" id="lSubmitFinal">Submit test ✓</button>
+      </div>`;
+    inner.classList.add('sp-hidden'); page.hidden = false; state.submitOpen = true;
+    const m=document.querySelector('.ins-main'); if(m) m.scrollTo({top:0});
+    document.getElementById('lSubmitFinal').onclick = onSubmit;
+  };
+  window._lCloseSubmit = function(){
+    const page = document.getElementById('lSubmitPage'), inner = document.querySelector('.ins-inner');
+    if(page) page.hidden = true; if(inner) inner.classList.remove('sp-hidden'); state.submitOpen = false;
+  };
+  $('#insSubmit').onclick=window._lOpenSubmit;
+  window._lPaintFlags();
 
   updateProgress();
   lTimerCss(); startListenTimer(LISTEN_DURATIONS[state.level] || 40);
@@ -33096,7 +33254,7 @@ function updateProgress(){
       const key=`${a.id}__${qi}`; const v=state.answers[key];
       const ans = (q.type==="seq") ? !!(v && Object.values(v).some(x=>x!=null)) : (v!==undefined && v!=="");
       if(ans) done++;
-      const b=document.getElementById('lqn-'+pi+'-'+qi); if(b) b.classList.toggle('done', !!ans);
+      const b=document.getElementById('lqn-'+pi+'-'+qi); if(b){ b.classList.toggle('done', !!ans); b.classList.toggle('flagged', !!(state.flags && state.flags[key])); }
     });
     const p=document.getElementById('lprog-'+pi); if(p) p.textContent = done+' of '+a.questions.length;
   });
