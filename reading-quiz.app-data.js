@@ -42623,6 +42623,102 @@ function qid(p,q,extra){ return `p${p}q${q}${extra?('_'+extra):''}`; }
    y el desplegable salia vacio: el alumno no podia responder esa parte. Cuando
    falta, se deriva de las propias sources (label -> nombre), que es exactamente
    la forma que usan los examenes escritos a mano. */
+/* ============================================================
+   EXAMEN DIGITAL (25-sep-2026). Tres cosas copiadas del sample digital
+   oficial de Cambridge (Inspera): la consigna con el texto del examen
+   digital, la bandera por pregunta y la pagina de entrega. El CSS que
+   necesitan va inyectado desde aqui (ensureDigitalCss) porque el HTML de
+   cada web lleva su propia piel y el motor es el unico archivo compartido.
+============================================================ */
+function ensureDigitalCss(){
+  if(document.getElementById('nisDigitalCss')) return;
+  const st = document.createElement('style'); st.id = 'nisDigitalCss';
+  st.textContent = `
+  .inspera-shell .qnum{position:relative}
+  .inspera-shell .qnum.flagged::after{content:'';position:absolute;top:-1px;right:-1px;border:5px solid transparent;border-top-color:var(--gold,#d97706);border-right-color:var(--gold,#d97706);border-radius:0 5px 0 0}
+  .inspera-shell .q-flag{display:inline-flex;align-items:center;gap:4px;margin-top:8px;background:transparent;border:1px solid var(--line);border-radius:6px;padding:4px 10px;font:600 .78rem "Montserrat","Segoe UI",system-ui,sans-serif;color:var(--muted);cursor:pointer}
+  .inspera-shell .q-flag:hover{border-color:var(--gold,#d97706);color:var(--ink)}
+  .inspera-shell .q-flag.on{background:var(--amber50,#fef3c7);border-color:var(--gold,#d97706);color:var(--ink)}
+  .inspera-shell .inspera-content.two-col.has-divider{grid-template-columns:minmax(0,var(--split,50%)) 14px minmax(0,1fr)}
+  .inspera-shell .inspera-content.two-col.has-divider > .col-left{border-right:none}
+  .inspera-shell .inspera-content.two-col > .col-divider{cursor:col-resize;background:var(--bg);border-left:1px solid var(--line);border-right:1px solid var(--line);display:flex;align-items:center;justify-content:center;color:var(--muted);user-select:none;-webkit-user-select:none;touch-action:none;font-size:.8rem;outline:none}
+  .inspera-shell .inspera-content.two-col > .col-divider:hover,.inspera-shell .inspera-content.two-col > .col-divider:focus,.inspera-shell .inspera-content.two-col > .col-divider.dragging{background:var(--line);color:var(--ink)}
+  .inspera-shell .inspera-content.two-col > .col-divider span{display:inline-block;line-height:1;pointer-events:none}
+  @media(max-width:780px){.inspera-shell .inspera-content.two-col > .col-divider{display:none}}
+  .inspera-shell .inspera-main-inner.sp-hidden{display:none}
+  .inspera-shell .submit-page{max-width:900px;margin:0 auto;padding:10px 0 30px;font-family:"Montserrat","Segoe UI",system-ui,sans-serif}
+  .inspera-shell .submit-page h2{font-size:1.3rem;margin:6px 0 8px;color:var(--ink);font-weight:700}
+  .inspera-shell .submit-page .submit-summary{color:var(--muted);margin:0 0 14px;font-size:.95rem;line-height:1.5}
+  .inspera-shell .submit-page .submit-summary strong{color:var(--ink)}
+  .inspera-shell .submit-page .submit-warn{background:var(--amber50,#fef3c7);border:1px solid var(--gold,#d97706);color:var(--ink);border-radius:8px;padding:10px 14px;margin:0 0 14px;font-size:.92rem}
+  .inspera-shell .submit-table{width:100%;border-collapse:separate;border-spacing:0;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:.92rem}
+  .inspera-shell .submit-table th,.inspera-shell .submit-table td{padding:10px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;color:var(--ink)}
+  .inspera-shell .submit-table th{background:var(--bg);color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.03em}
+  .inspera-shell .submit-table tr:last-child td{border-bottom:none}
+  .inspera-shell .submit-table td.sp-part{font-weight:700;white-space:nowrap}
+  .inspera-shell .submit-table .sp-ok{color:var(--muted)}
+  .inspera-shell .sp-num{width:28px;height:28px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:5px;background:var(--bg);color:var(--ink);font-size:.8rem;font-weight:600;cursor:pointer;margin:2px 3px 2px 0;position:relative;font-family:inherit}
+  .inspera-shell .sp-num:hover{border-color:#4987c6;color:var(--blue,#2f5f93)}
+  .inspera-shell .sp-num.flagged::after{content:'';position:absolute;top:-1px;right:-1px;border:5px solid transparent;border-top-color:var(--gold,#d97706);border-right-color:var(--gold,#d97706);border-radius:0 5px 0 0}
+  .inspera-shell .submit-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:16px;flex-wrap:wrap}
+  .inspera-shell .submit-actions button{border-radius:8px;padding:10px 18px;font-weight:700;cursor:pointer;font-family:inherit;font-size:.92rem}
+  .inspera-shell .submit-actions .sp-back{background:var(--card);color:var(--muted);border:1px solid var(--line)}
+  .inspera-shell .submit-actions .sp-back:hover{border-color:#94a3b8;color:var(--ink)}
+  .inspera-shell .submit-actions .sp-final{background:#2f5f93;color:#fff;border:1px solid #2f5f93}
+  .inspera-shell .submit-actions .sp-final:hover{filter:brightness(0.95)}
+  `;
+  document.head.appendChild(st);
+}
+
+/* La consigna con el texto del examen digital de Cambridge. Las de los bancos
+   traen la redaccion del examen en papel («choose the correct answer A, B or
+   C», «Choose the best paragraph (A–H) from the bank»); el digital dice lo
+   mismo con otras palabras y sin letras. Se conserva el preambulo que
+   describe el texto («Read the article about a young chef») cuando lo hay. */
+function digitalInstruction(p){
+  const orig = (p.instructions || '').trim();
+  const t = p.type;
+  const n = (p.questions || []).length;
+  const NUM = ['', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
+  const num = (k) => NUM[k] || String(k);
+  // Preambulo: lo que va antes de «(and/then) choose…», «For each…», «Answer…».
+  const preamble = () => {
+    const m = orig.match(/^((?:Read|You are going to read)\b[^.]*?)(?=\s*(?:,|\.|\b(?:and|then)\s+(?:then\s+)?(?:choose|answer|decide|think|complete|say|find)\b|\bfor each\b|\banswer\b|\bchoose\b|\bdecide\b|\bthink\b))/i);
+    if(!m) return '';
+    let s = m[1].trim().replace(/[,.]$/, '');
+    if(/^read the (text|article|passage|extract|story|email|review|report)$/i.test(s)) s += ' below';
+    return s + '. ';
+  };
+  if(t === 'mc'){
+    return (p.passage ? (preamble() || 'Read the text below. ') : '') + 'For each question, choose the correct answer.';
+  }
+  if(t === 'match'){
+    const gapped = p.passage && /\(\d+\)____/.test(p.passage);
+    const bank = bankOf(p);
+    if(gapped){
+      const unit = /paragraph/i.test(orig) ? 'paragraph' : 'sentence';
+      const extra = bank ? Math.max(0, bank.labels.length - n) : 0;
+      let s = `${num(n)} ${unit}s have been removed from the text below. For each question, choose the correct answer.`;
+      if(extra > 0) s += ` There ${extra === 1 ? 'is' : 'are'} ${num(extra).toLowerCase()} extra ${unit}${extra === 1 ? '' : 's'} which you do not need to use.`;
+      return s;
+    }
+    if(/more than once/i.test(orig)){
+      const unit = /paragraph/i.test(orig) ? 'paragraph' : /section/i.test(orig) ? 'section' : /review/i.test(orig) ? 'review' : /extract/i.test(orig) ? 'extract' : /person|people|adults|athletes|craftspeople|friends|photographers/i.test(orig) ? 'person' : 'answer';
+      const pre = preamble() || 'Read the text below. ';
+      return `${pre}For each question, choose the correct ${unit}. Each ${unit} may be chosen more than once.`;
+    }
+    return 'For each question, choose the correct answer.';
+  }
+  if(t === 'clozeMC')   return 'For each question, choose the correct answer for each gap.';
+  if(t === 'clozeOpen') return 'For each question, write the correct answer. Write one word for each gap.';
+  if(t === 'wordform')  return 'For each question, use the word in CAPITALS on the right to form a word that fits in the gap.';
+  if(t === 'transform'){
+    const c1 = /three and six/i.test(orig);
+    return `For each question, complete the second sentence so that it means the same as the first. Do not change the word given. You must use between ${c1 ? 'three and six' : 'two and five'} words, including the word given.`;
+  }
+  return orig;
+}
+
 function bankOf(p){
   if(p.bank && p.bank.labels && p.bank.labels.length) return p.bank;
   if(p.sources && p.sources.length){
@@ -43418,6 +43514,9 @@ const render = {
     const dur = (DURATIONS[state.level] && DURATIONS[state.level][state.skill]) || 45;
     const label = examTypeLabel();
     state.currentPart = 0;
+    state.flags = {};          // preguntas marcadas con bandera (qid -> true)
+    state.submitOpen = false;  // pagina de entrega abierta
+    ensureDigitalCss();
 
     // Precompute per-part starting question number and length
     const partInfo = [];
@@ -43442,6 +43541,7 @@ const render = {
             </div>
             <button type="button" class="tool-btn" data-tool="highlight" onclick="window._toggleHighlight()" title="Highlight text in the passage">🖍 Highlight</button>
             <button type="button" class="tool-btn" data-tool="notes" onclick="window._toggleNotes()" title="Open notes panel">📝 Notes</button>
+            <button type="button" class="tool-btn" data-tool="flag" id="flagBtn" onclick="window._toggleFlag()" title="Flag this question to come back to it later">⚐ Flag question 1</button>
           </div>
           <div class="right">
             <div class="timer" id="timer">00:00</div>
@@ -43476,7 +43576,7 @@ const render = {
       const paged = isPaged(p);
       // For writing parts the full task lives in the body, so the subheading
       // shows only a short "Write N words" note (extracted from the task text).
-      let subInstr = p.instructions || '';
+      let subInstr = digitalInstruction(p);
       if(p.type === 'writing'){
         const taskTxt = writingTaskOf(p);
         const wc = taskTxt.match(/(\d+(?:\s*[–-]\s*\d+)?)\s*words?(\s*or more)?/i);
@@ -43493,7 +43593,9 @@ const render = {
       </section>`;
     });
 
-    html += `</div></main>
+    html += `</div>
+          <div class="submit-page" id="submitPage" hidden></div>
+        </main>
 
         <footer class="inspera-footer">
           <div class="part-tabs">`;
@@ -43520,6 +43622,50 @@ const render = {
       </div>`;
 
     app.innerHTML = html;
+    // ---- Divisor arrastrable entre texto y preguntas (como en el examen digital) ----
+    document.querySelectorAll('.inspera-content.two-col').forEach(box=>{
+      const left = box.querySelector(':scope > .col-left'), right = box.querySelector(':scope > .col-right');
+      if(!left || !right || box.querySelector(':scope > .col-divider')) return;
+      const d = document.createElement('div');
+      d.className = 'col-divider'; d.title = 'Drag to resize'; d.tabIndex = 0; d.setAttribute('role','separator'); d.setAttribute('aria-orientation','vertical');
+      d.innerHTML = '<span>↔</span>';
+      box.insertBefore(d, right);
+      box.classList.add('has-divider');
+      const setSplit = (pct)=>{ pct = Math.max(25, Math.min(75, pct)); state.splitPct = pct; box.style.setProperty('--split', pct + '%'); };
+      setSplit(state.splitPct || 50);
+      d.addEventListener('pointerdown', (e)=>{
+        e.preventDefault();
+        try{ d.setPointerCapture(e.pointerId); }catch(_){}
+        d.classList.add('dragging');
+        const r = box.getBoundingClientRect();
+        const move = (ev)=>{ setSplit((ev.clientX - r.left) / r.width * 100); };
+        const up = ()=>{ d.classList.remove('dragging'); d.removeEventListener('pointermove', move); d.removeEventListener('pointerup', up); d.removeEventListener('pointercancel', up); };
+        d.addEventListener('pointermove', move); d.addEventListener('pointerup', up); d.addEventListener('pointercancel', up);
+      });
+      d.addEventListener('keydown', (e)=>{
+        if(e.key === 'ArrowLeft'){ setSplit((state.splitPct || 50) - 5); e.preventDefault(); }
+        if(e.key === 'ArrowRight'){ setSplit((state.splitPct || 50) + 5); e.preventDefault(); }
+      });
+    });
+    // ---- Bandera junto a cada pregunta que tiene bloque propio (.q o cuadro de escritura).
+    //      Los huecos en linea (cloze, word formation) no tienen bloque: para ellos esta el
+    //      boton «Flag question N» de la barra, que actua sobre la pregunta actual. ----
+    ex.parts.forEach((p,i)=>{
+      const items = (p.type === 'writing') ? p.prompts : p.questions;
+      items.forEach((q,j)=>{
+        const name = qid(i,j);
+        const el = document.querySelector(`[name="${name}"]`);
+        if(!el) return;
+        const block = el.closest('.q') || el.closest('.writing-wrap');
+        if(!block || block.querySelector(':scope > .q-flag')) return;
+        const b = document.createElement('button');
+        b.type = 'button'; b.className = 'q-flag'; b.dataset.name = name; b.dataset.num = String(partInfo[i].startNum + j);
+        b.setAttribute('aria-pressed', 'false');
+        b.textContent = '⚐ Flag question ' + b.dataset.num;
+        b.addEventListener('click', (e)=>{ e.stopPropagation(); window._toggleFlag(name); });
+        block.appendChild(b);
+      });
+    });
 
     // ---- Global question navigation model ----
     // Total questions and helpers to convert between a global 0-based index and (part, local).
@@ -43567,9 +43713,89 @@ const render = {
       if(btn) btn.classList.add('current');
       const pb = document.getElementById('prevBtn'); if(pb) pb.disabled = (state.currentQ === 0);
       const nb = document.getElementById('nextBtn'); if(nb) nb.disabled = (state.currentQ === totalQ - 1);
+      if(window._paintFlagBtn) window._paintFlagBtn();
+    };
+    // ---- Banderas ----
+    window._paintFlagBtn = function(){
+      const tb = document.getElementById('flagBtn'); if(!tb) return;
+      const cur = decode(state.currentQ);
+      const on = !!state.flags[qid(cur.part, cur.local)];
+      tb.classList.toggle('active', on);
+      tb.setAttribute('aria-pressed', on ? 'true' : 'false');
+      tb.textContent = (on ? '⚑ Unflag question ' : '⚐ Flag question ') + (state.currentQ + 1);
+    };
+    window._paintFlags = function(){
+      ex.parts.forEach((p,i)=>{
+        const items = (p.type === 'writing') ? p.prompts : p.questions;
+        items.forEach((q,j)=>{
+          const on = !!state.flags[qid(i,j)];
+          const b = document.getElementById(`qn-${i}-${j}`); if(b) b.classList.toggle('flagged', on);
+        });
+      });
+      document.querySelectorAll('.q-flag').forEach(btn=>{
+        const on = !!state.flags[btn.dataset.name];
+        btn.classList.toggle('on', on);
+        btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+        btn.textContent = (on ? '⚑ Flagged question ' : '⚐ Flag question ') + btn.dataset.num;
+      });
+      window._paintFlagBtn();
+    };
+    window._toggleFlag = function(name){
+      if(!name){ const cur = decode(state.currentQ); name = qid(cur.part, cur.local); }
+      if(state.flags[name]) delete state.flags[name]; else state.flags[name] = true;
+      window._paintFlags();
+    };
+    // ---- Pagina de entrega: que falta y que esta marcado, por parte, antes de enviar ----
+    window._openSubmitPage = function(){
+      window._updateProgress();
+      const page = document.getElementById('submitPage'); const inner = document.querySelector('.inspera-main-inner');
+      if(!page || !inner) return;
+      let rows = '', answered = 0, missing = 0, flagged = 0;
+      ex.parts.forEach((p,i)=>{
+        const items = (p.type === 'writing') ? p.prompts : p.questions;
+        let done = 0, miss = '', flg = '';
+        items.forEach((q,j)=>{
+          const b = document.getElementById(`qn-${i}-${j}`);
+          const isDone = !!(b && b.classList.contains('answered'));
+          const isFlag = !!state.flags[qid(i,j)];
+          const num = partInfo[i].startNum + j;
+          if(isDone) done++; else miss += `<button type="button" class="sp-num${isFlag ? ' flagged' : ''}" onclick="window._goToQuestion(${i},${j})" title="Go to question ${num}">${num}</button>`;
+          if(isFlag){ flagged++; flg += `<button type="button" class="sp-num flagged" onclick="window._goToQuestion(${i},${j})" title="Go to question ${num}">${num}</button>`; }
+        });
+        answered += done; missing += items.length - done;
+        rows += `<tr><td class="sp-part">Part ${i+1}</td><td>${done} of ${items.length}</td><td>${miss || '<span class="sp-ok">—</span>'}</td><td>${flg || '<span class="sp-ok">—</span>'}</td></tr>`;
+      });
+      const total = answered + missing;
+      let warn = '';
+      if(missing || flagged){
+        const bits = [];
+        if(missing) bits.push(`<strong>${missing}</strong> question${missing === 1 ? '' : 's'} not answered`);
+        if(flagged) bits.push(`<strong>${flagged}</strong> flagged`);
+        warn = `<div class="submit-warn">⚠ You still have ${bits.join(' and ')}. Click a number to go back to that question.</div>`;
+      }
+      page.innerHTML = `
+        <h2>Submission page</h2>
+        <p class="submit-summary">You have attempted <strong>${answered} of ${total}</strong> questions. Check the table, then press <strong>Submit test</strong>. You will not be able to change your answers after that.</p>
+        ${warn}
+        <table class="submit-table">
+          <thead><tr><th>Part</th><th>Attempted</th><th>Not answered</th><th>Flagged</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+        <div class="submit-actions">
+          <button type="button" class="sp-back" onclick="window._closeSubmitPage()">← Back to the test</button>
+          <button type="button" class="sp-final" id="submitFinalBtn">Submit test ✓</button>
+        </div>`;
+      inner.classList.add('sp-hidden'); page.hidden = false; state.submitOpen = true;
+      const main = document.querySelector('.inspera-main'); if(main) main.scrollTo({top:0});
+      document.getElementById('submitFinalBtn').onclick = finalize;
+    };
+    window._closeSubmitPage = function(){
+      const page = document.getElementById('submitPage'); const inner = document.querySelector('.inspera-main-inner');
+      if(page) page.hidden = true; if(inner) inner.classList.remove('sp-hidden'); state.submitOpen = false;
     };
     // Jump straight to a question — used by the footer numbers, the part names, and the arrows
     window._goToQuestion = function(part, q){
+      if(state.submitOpen) window._closeSubmitPage();
       state.currentQ = globalOf(part, q);
       window._showPart(part);
       window._applyPaged();
@@ -43627,6 +43853,7 @@ const render = {
       });
     };
 
+    // Paso final: lo llama el boton «Submit test» de la pagina de entrega
     const finalize = async ()=>{
       if(!await NISUI.pregunta('You are about to submit your exam and see your result. You will not be able to change your answers.', {
         titulo:'Submit your exam?', si:'Yes, submit', no:'Keep answering', icono:'📩', tono:'info'
@@ -43636,7 +43863,7 @@ const render = {
       state.answers = result;
       go('result');
     };
-    document.getElementById('submitBtn').onclick = finalize;
+    document.getElementById('submitBtn').onclick = window._openSubmitPage;
     document.getElementById('quitBtn').onclick = async ()=>{
       if(!await NISUI.pregunta('If you leave now you will lose all your answers and the exam will not be submitted.', {
         titulo:'Leave without submitting?', si:'Leave and lose them', no:'Back to the exam', tono:'mal', peligro:true
@@ -43662,6 +43889,7 @@ const render = {
     window._applyPaged();
     window._syncCurrent();
     window._updateProgress();
+    window._paintFlags();
 
     state.startTime = Date.now();
     acStart();   // ← activate anti-cheat (translate block, tab detection, etc.)

@@ -279,7 +279,8 @@ if(/\.github\.io$/i.test(location.hostname)){
     .card{padding:14px}
   }
 </style>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<!-- Version FIJADA (22-sep-2026): "@2" a secas resolvia a 2.117, que usa sintaxis ES2021 (||=) y Safari <= 13 / iOS 13 no la parsea: sin cliente, sin sesion, sin mock mode ni guardado. El resto del portal ya iba con 2.45.4. -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4"></script>
 <script src="ui-mensajes.js"></script>
 <script src="nis-bridge.js?v=66b5e126"></script>
 <!-- EXAM_VOCAB: vocabulario del examen, del lexico propio -->

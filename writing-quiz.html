@@ -160,7 +160,8 @@ if(/\.github\.io$/i.test(location.hostname)){
 :focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid var(--accent);outline-offset:1px}
 </style>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<!-- Version FIJADA (22-sep-2026): "@2" a secas resolvia a 2.117, que usa sintaxis ES2021 (||=) y Safari <= 13 / iOS 13 no la parsea: sin cliente, sin sesion, sin mock mode ni guardado. El resto del portal ya iba con 2.45.4. -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4"></script>
 <script src="ui-mensajes.js"></script>
 <script src="nis-bridge.js?v=66b5e126"></script>
 <script src="writing-rubric.js?v=0fd555b9"></script>
