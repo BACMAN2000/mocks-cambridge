@@ -27146,21 +27146,19 @@ const PRACTICE_MORE = {
 ]
 },
 {
-"before": "It is possible that the data was corrupted during the transfer.",
-"keyword": "HAVE",
-"after": "The data ___ during the transfer.",
+"before": "The company improved its profits, but its customer service suffered as a result.",
+"keyword": "EXPENSE",
+"after": "The company improved its profits ___ its customer service.",
 "accept": [
-"may have been corrupted",
-"might have been corrupted",
-"could have been corrupted"
+"at the expense of"
 ]
 },
 {
-"before": "Nobody could have foreseen how quickly the technology would spread.",
-"keyword": "ANTICIPATED",
-"after": "The speed at which the technology spread ___ .",
+"before": "The researchers were very close to a breakthrough when the funding ran out.",
+"keyword": "VERGE",
+"after": "The researchers ___ a breakthrough when the funding ran out.",
 "accept": [
-"could not have been anticipated"
+"were on the verge of"
 ]
 }
 ]
@@ -28119,7 +28117,7 @@ const PRACTICE_MORE = {
 },
 {
 "text": "The tendency to judge a whole character from a single trait is one of the mind's most (19)____ shortcuts.",
-"root": "PERSIST"
+"root": "DECEIVE"
 },
 {
 "text": "Advertisers exploit this (20)____ ruthlessly, knowing that an attractive face lends credibility to almost any claim.",
@@ -28130,8 +28128,8 @@ const PRACTICE_MORE = {
 "root": "COUNTER"
 },
 {
-"text": "Even trained interviewers, who ought to know better, prove surprisingly (22)____ to its influence.",
-"root": "SENSE"
+"text": "Even trained interviewers, who ought to know better, show a surprising (22)____ to its influence.",
+"root": "VULNERABLE"
 },
 {
 "text": "Overcoming it requires a deliberate and frankly (23)____ effort to suspend one's initial verdict.",
@@ -28156,9 +28154,9 @@ const PRACTICE_MORE = {
 ]
 },
 {
-"root": "PERSIST",
+"root": "DECEIVE",
 "accept": [
-"persistent"
+"deceptive"
 ]
 },
 {
@@ -28174,9 +28172,9 @@ const PRACTICE_MORE = {
 ]
 },
 {
-"root": "SENSE",
+"root": "VULNERABLE",
 "accept": [
-"sensitive"
+"vulnerability"
 ]
 },
 {
@@ -28199,11 +28197,11 @@ const PRACTICE_MORE = {
 "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
 "questions": [
 {
-"before": "She regretted not having asked for help sooner.",
-"keyword": "WISHED",
-"after": "She ___ for help sooner.",
+"before": "He suddenly realised that he had been avoiding the subject for years.",
+"keyword": "DAWNED",
+"after": "It suddenly ___ that he had been avoiding the subject for years.",
 "accept": [
-"wished she had asked"
+"dawned on him"
 ]
 },
 {
@@ -28223,10 +28221,12 @@ const PRACTICE_MORE = {
 ]
 },
 {
-"before": "The therapist suggested that he keep a diary of his moods.",
-"keyword": "KEEPING",
-"after": "The therapist ___ of his moods.",
-"accept": ["suggested keeping a diary","recommended keeping a diary"]
+"before": "She would not have recovered so quickly without her therapist's support.",
+"keyword": "HAD",
+"after": "___ her therapist's support, she would not have recovered so quickly.",
+"accept": [
+"had it not been for"
+]
 },
 {
 "before": "People often underestimate how strongly emotion shapes memory.",
@@ -28653,8 +28653,8 @@ const PRACTICE_MORE = {
 "root": "BENEFIT"
 },
 {
-"text": "Researchers have documented a clear (18)____ between time spent outdoors and reduced anxiety.",
-"root": "RELATE"
+"text": "Researchers have documented an (18)____ link between time spent outdoors and reduced anxiety.",
+"root": "DISPUTE"
 },
 {
 "text": "Unfortunately, green space is often distributed with striking (19)____ across a single city.",
@@ -28673,8 +28673,8 @@ const PRACTICE_MORE = {
 "root": "ADAPT"
 },
 {
-"text": "The (23)____ of trees along a street can lower the temperature noticeably on a hot day.",
-"root": "ABUNDANT"
+"text": "An (23)____ line of trees along a street can lower the temperature noticeably on a hot day.",
+"root": "INTERRUPT"
 },
 {
 "text": "Once lost, mature trees are effectively (24)____ , taking decades to replace.",
@@ -28689,9 +28689,10 @@ const PRACTICE_MORE = {
 ]
 },
 {
-"root": "RELATE",
+"root": "DISPUTE",
 "accept": [
-"relationship"
+"indisputable",
+"undisputed"
 ]
 },
 {
@@ -28719,9 +28720,9 @@ const PRACTICE_MORE = {
 ]
 },
 {
-"root": "ABUNDANT",
+"root": "INTERRUPT",
 "accept": [
-"abundance"
+"uninterrupted"
 ]
 },
 {
@@ -28738,11 +28739,11 @@ const PRACTICE_MORE = {
 "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Write between THREE and SIX words, including the word given.",
 "questions": [
 {
-"before": "I'm certain it was Marcus who took the keys.",
-"keyword": "MUST",
-"after": "Marcus ___ the keys.",
+"before": "He made enormous efforts to keep the project secret.",
+"keyword": "LENGTHS",
+"after": "He ___ keep the project secret.",
 "accept": [
-"must have taken"
+"went to great lengths to"
 ]
 },
 {
@@ -28754,11 +28755,11 @@ const PRACTICE_MORE = {
 ]
 },
 {
-"before": "People say the castle is over 800 years old.",
-"keyword": "SAID",
-"after": "The castle ___ over 800 years old.",
+"before": "As far as I know, the castle has never been restored.",
+"keyword": "BEST",
+"after": "___ my knowledge, the castle has never been restored.",
 "accept": [
-"is said to be"
+"to the best of"
 ]
 },
 {
@@ -29195,7 +29196,7 @@ const PRACTICE_MORE = {
 },
 {
 "text": "Yet many adults feel strangely (18)____ in the kitchen, convinced they have no talent for it.",
-"root": "HELP"
+"root": "COMFORT"
 },
 {
 "text": "This self-doubt is almost always (19)____ , since cooking is a skill like any other.",
@@ -29214,8 +29215,8 @@ const PRACTICE_MORE = {
 "root": "GENEROUS"
 },
 {
-"text": "Shop-bought meals may be convenient, but they rarely match the (23)____ of home cooking.",
-"root": "FRESH"
+"text": "Shop-bought meals may be convenient, but they are rarely as (23)____ as home cooking.",
+"root": "PALATE"
 },
 {
 "text": "Above all, the (24)____ to feed yourself well is one of the most useful a person can have.",
@@ -29230,9 +29231,9 @@ const PRACTICE_MORE = {
 ]
 },
 {
-"root": "HELP",
+"root": "COMFORT",
 "accept": [
-"helpless"
+"uncomfortable"
 ]
 },
 {
@@ -29260,9 +29261,9 @@ const PRACTICE_MORE = {
 ]
 },
 {
-"root": "FRESH",
+"root": "PALATE",
 "accept": [
-"freshness"
+"palatable"
 ]
 },
 {
@@ -30301,12 +30302,12 @@ const PRACTICE_MORE = {
 "root": "MAINTAIN"
 },
 {
-"text": "Coexistence with nature requires a certain (23)____ of untidiness that municipal tradition finds difficult.",
-"root": "TOLERATE"
+"text": "Coexistence with nature requires a certain (23)____ to accept untidiness that municipal tradition finds difficult.",
+"root": "WILL"
 },
 {
-"text": "The (24)____ of insect life recovers with remarkable speed once rigid mowing regimes are relaxed.",
-"root": "DIVERSE"
+"text": "The long-term (24)____ of such habitats depends on rigid mowing regimes being relaxed.",
+"root": "SUSTAIN"
 }
 ],
 "questions": [
@@ -30348,16 +30349,15 @@ const PRACTICE_MORE = {
 ]
 },
 {
-"root": "TOLERATE",
+"root": "WILL",
 "accept": [
-"tolerance",
-"toleration"
+"willingness"
 ]
 },
 {
-"root": "DIVERSE",
+"root": "SUSTAIN",
 "accept": [
-"diversity"
+"sustainability"
 ]
 }
 ]
@@ -30837,16 +30837,16 @@ const PRACTICE_MORE = {
 "root": "PRODUCT"
 },
 {
-"text": "Some researchers argue that the damage goes far (20)____ than mere inconvenience.",
-"root": "DEEP"
+"text": "Some researchers argue that the (20)____ of the damage goes far beyond mere inconvenience.",
+"root": "SEVERE"
 },
 {
 "text": "Designers borrow (21)____ techniques from the casino industry with remarkably few qualms.",
-"root": "PERSUADE"
+"root": "SCRUPLE"
 },
 {
 "text": "Growing public (22)____ of these tactics has slowly begun to change how people use their devices.",
-"root": "AWARE"
+"root": "TOLERATE"
 },
 {
 "text": "Workers report that (23)____ interruption leaves them mentally exhausted by mid-afternoon.",
@@ -30878,21 +30878,21 @@ const PRACTICE_MORE = {
 ]
 },
 {
-"root": "DEEP",
+"root": "SEVERE",
 "accept": [
-"deeper"
+"severity"
 ]
 },
 {
-"root": "PERSUADE",
+"root": "SCRUPLE",
 "accept": [
-"persuasive"
+"unscrupulous"
 ]
 },
 {
-"root": "AWARE",
+"root": "TOLERATE",
 "accept": [
-"awareness"
+"intolerance"
 ]
 },
 {
@@ -32477,11 +32477,11 @@ const PRACTICE_MORE = {
 "rows": [
 {
 "text": "Many great collections were assembled at the height of the (17)____ era, a fact their labels long omitted to mention.",
-"root": "COLONY"
+"root": "EMPIRE"
 },
 {
-"text": "Campaigners insist that the sculptures be returned to their (18)____ owners without further delay.",
-"root": "RIGHT"
+"text": "Campaigners insist that the sculptures be returned to their (18)____ homelands without further delay.",
+"root": "ANCESTOR"
 },
 {
 "text": "Curators are now required to research the full history of every new (19)____ before it enters the collection.",
@@ -32493,7 +32493,7 @@ const PRACTICE_MORE = {
 },
 {
 "text": "Institutions that refuse even to discuss returns increasingly find themselves (21)____ isolated.",
-"root": "MORAL"
+"root": "DIPLOMAT"
 },
 {
 "text": "Legal (22)____ and moral entitlement, these disputes reveal, are very different things.",
@@ -32510,15 +32510,16 @@ const PRACTICE_MORE = {
 ],
 "questions": [
 {
-"root": "COLONY",
+"root": "EMPIRE",
 "accept": [
-"colonial"
+"imperial",
+"imperialist"
 ]
 },
 {
-"root": "RIGHT",
+"root": "ANCESTOR",
 "accept": [
-"rightful"
+"ancestral"
 ]
 },
 {
@@ -32534,9 +32535,9 @@ const PRACTICE_MORE = {
 ]
 },
 {
-"root": "MORAL",
+"root": "DIPLOMAT",
 "accept": [
-"morally"
+"diplomatically"
 ]
 },
 {
@@ -33586,8 +33587,8 @@ const PRACTICE_MORE = {
 "root": "SLEEP"
 },
 {
-"text": "Regulators long treated noise as an (20)____ rather than a genuine hazard.",
-"root": "ANNOY"
+"text": "Regulators long treated noise as a (20)____ rather than a genuine hazard.",
+"root": "TRIVIAL"
 },
 {
 "text": "The (21)____ roar of the trading floor was once worn as a badge of vitality.",
@@ -33626,9 +33627,9 @@ const PRACTICE_MORE = {
 ]
 },
 {
-"root": "ANNOY",
+"root": "TRIVIAL",
 "accept": [
-"annoyance"
+"triviality"
 ]
 },
 {
@@ -40278,20 +40279,19 @@ const MOCKS_MORE = {
 ]
 },
 {
-"before": "People say the artist destroyed his early works himself.",
-"keyword": "SAID",
-"after": "The artist ___ his early works himself.",
+"before": "The curator was very annoyed by the suggestion that the painting might be a copy.",
+"keyword": "EXCEPTION",
+"after": "The curator ___ the suggestion that the painting might be a copy.",
 "accept": [
-"is said to have destroyed"
+"took exception to"
 ]
 },
 {
-"before": "I would prefer you not to mention the price to anyone.",
-"keyword": "RATHER",
-"after": "I ___ the price to anyone.",
+"before": "The exhibition would have been cancelled if the sponsors had not intervened.",
+"keyword": "BUT",
+"after": "___ of the sponsors, the exhibition would have been cancelled.",
 "accept": [
-"would rather you did not mention",
-"would rather you didn't mention"
+"but for the intervention"
 ]
 },
 {
@@ -41908,16 +41908,11 @@ const MOCKS_MORE = {
 ]
 },
 {
-"before": "The researcher regretted speaking to the press so soon.",
-"keyword": "WISHED",
-"after": "The researcher ___ to the press so soon.",
+"before": "Several researchers resigned shortly after the disputed study was published.",
+"keyword": "WAKE",
+"after": "Several researchers resigned ___ the disputed study.",
 "accept": [
-"wished she had not spoken",
-"wished he had not spoken",
-"wished they had not spoken",
-"wished she hadn't spoken",
-"wished he hadn't spoken",
-"wished they hadn't spoken"
+"in the wake of"
 ]
 },
 {
@@ -41947,11 +41942,12 @@ const MOCKS_MORE = {
 ]
 },
 {
-"before": "The lecture was so complicated that hardly anyone understood it.",
-"keyword": "SUCH",
-"after": "It was ___ lecture that hardly anyone understood it.",
+"before": "Nobody was surprised by the failure of the experiment.",
+"keyword": "SURPRISE",
+"after": "The failure of the experiment ___ to anybody.",
 "accept": [
-"such a complicated"
+"came as no surprise",
+"was no surprise"
 ]
 }
 ]
