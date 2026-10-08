@@ -5655,9 +5655,9 @@ const LISTEN_MORE = {
 "q": "Where is Lucy going after class?",
 "imgs": [
 "park",
-"cafe"
-,
-"library"],
+"cafe",
+"library"
+],
 "c": 2,
 "audio": "P4/A2/A2-P1-q2.mp3"
 },
@@ -5665,10 +5665,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What time does art club start this term?",
 "imgs": [
-"clock430"
-,
+"clock430",
 "clock420",
-"clock400"],
+"clock400"
+],
 "c": 0,
 "audio": "P4/A2/A2-P1-q3.mp3"
 },
@@ -5688,9 +5688,9 @@ const LISTEN_MORE = {
 "q": "What will they eat after chess club?",
 "imgs": [
 "sandwich",
-"cake"
-,
-"pizza"],
+"cake",
+"pizza"
+],
 "c": 2,
 "audio": "P4/A2/A2-P1-q5.mp3"
 }
@@ -5785,10 +5785,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why is Ben's mum happy?",
 "o": [
-"Ben's marks are better"
-,
+"Ben's marks are better",
 "The club is near their house",
-"Ben can help with dinner"],
+"Ben can help with dinner"
+],
 "c": 2
 },
 {
@@ -5827,10 +5827,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Who gave Lucy her guitar?",
 "o": [
-"Her brother"
-,
+"Her brother",
 "Her teacher",
-"Her grandmother"],
+"Her grandmother"
+],
 "c": 2
 },
 {
@@ -5848,9 +5848,9 @@ const LISTEN_MORE = {
 "q": "When are Lucy's lessons?",
 "o": [
 "Every Monday",
-"At the weekend"
-,
-"Every Wednesday"],
+"At the weekend",
+"Every Wednesday"
+],
 "c": 2
 },
 {
@@ -5975,10 +5975,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What will the weather be like on Sunday?",
 "imgs": [
-"snowy"
-,
+"snowy",
 "rainy",
-"sunny"],
+"sunny"
+],
 "c": 2,
 "audio": "P5/A2/A2-P1-q3.mp3"
 },
@@ -5987,9 +5987,9 @@ const LISTEN_MORE = {
 "q": "How will they travel to the lake?",
 "imgs": [
 "car",
-"bike"
-,
-"bus"],
+"bike",
+"bus"
+],
 "c": 2,
 "audio": "P5/A2/A2-P1-q4.mp3"
 },
@@ -6096,9 +6096,9 @@ const LISTEN_MORE = {
 "q": "Who does Sofia want to bring to the pool?",
 "o": [
 "Her cousin",
-"Her teacher"
-,
-"Her friend Grace"],
+"Her teacher",
+"Her friend Grace"
+],
 "c": 2
 },
 {
@@ -6116,9 +6116,9 @@ const LISTEN_MORE = {
 "q": "What will Sofia and her dad cook?",
 "o": [
 "Pizza",
-"Fish"
-,
-"Chicken"],
+"Fish",
+"Chicken"
+],
 "c": 1
 }
 ]
@@ -6137,20 +6137,20 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What did Daniel do on Saturday morning?",
 "o": [
-"He watched TV"
-,
+"He watched TV",
 "He played football",
-"He went fishing"],
+"He went fishing"
+],
 "c": 2
 },
 {
 "type": "mc",
 "q": "How many fish did they catch?",
 "o": [
-"None"
-,
+"None",
 "Two",
-"A lot"],
+"A lot"
+],
 "c": 0
 },
 {
@@ -6168,9 +6168,9 @@ const LISTEN_MORE = {
 "q": "Who won the board games?",
 "o": [
 "Daniel",
-"His dad"
-,
-"His little sister"],
+"His dad",
+"His little sister"
+],
 "c": 2
 },
 {
@@ -6275,9 +6275,9 @@ const LISTEN_MORE = {
 "q": "Where will they meet?",
 "imgs": [
 "library",
-"park"
-,
-"cafe"],
+"park",
+"cafe"
+],
 "c": 2,
 "audio": "P6/A2/A2-P1-q2.mp3"
 },
@@ -6297,9 +6297,9 @@ const LISTEN_MORE = {
 "q": "What did the man leave in the shoe shop?",
 "imgs": [
 "keys",
-"umbrella"
-,
-"phone"],
+"umbrella",
+"phone"
+],
 "c": 1,
 "audio": "P6/A2/A2-P1-q4.mp3"
 },
@@ -6388,10 +6388,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why is Sam at the shopping centre?",
 "o": [
-"To buy a book"
-,
+"To buy a book",
 "To meet his dad",
-"To buy a present"],
+"To buy a present"
+],
 "c": 2
 },
 {
@@ -6399,9 +6399,9 @@ const LISTEN_MORE = {
 "q": "When is Sam's dad's birthday?",
 "o": [
 "Today",
-"On Sunday"
-,
-"On Saturday"],
+"On Sunday",
+"On Saturday"
+],
 "c": 1
 },
 {
@@ -6409,9 +6409,9 @@ const LISTEN_MORE = {
 "q": "What is Sam going to buy?",
 "o": [
 "A book",
-"A camera"
-,
-"A coffee cup"],
+"A camera",
+"A coffee cup"
+],
 "c": 2
 },
 {
@@ -6429,9 +6429,9 @@ const LISTEN_MORE = {
 "q": "Where will they have a juice?",
 "o": [
 "At the big café",
-"At Sam's house"
-,
-"At the small café"],
+"At Sam's house",
+"At the small café"
+],
 "c": 2
 }
 ]
@@ -6599,9 +6599,9 @@ const LISTEN_MORE = {
 "q": "What time does school finish today?",
 "imgs": [
 "clock430",
-"clock420"
-,
-"clock400"],
+"clock420",
+"clock400"
+],
 "c": 2,
 "audio": "P7/A2/A2-P1-q3.mp3"
 },
@@ -6698,9 +6698,9 @@ const LISTEN_MORE = {
 "q": "How must the students do the project?",
 "o": [
 "Alone",
-"In big groups"
-,
-"In pairs"],
+"In big groups",
+"In pairs"
+],
 "c": 2
 },
 {
@@ -6708,9 +6708,9 @@ const LISTEN_MORE = {
 "q": "What will their project be about?",
 "o": [
 "Space",
-"Animals"
-,
-"Volcanoes"],
+"Animals",
+"Volcanoes"
+],
 "c": 2
 },
 {
@@ -6737,10 +6737,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why can't Hannah meet on Monday?",
 "o": [
-"She is ill"
-,
+"She is ill",
 "She is visiting family",
-"She has a piano lesson"],
+"She has a piano lesson"
+],
 "c": 2
 }
 ]
@@ -6779,10 +6779,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What happened in Ethan's first week?",
 "o": [
-"He was late every day"
-,
+"He was late every day",
 "He lost his bag",
-"He got lost twice"],
+"He got lost twice"
+],
 "c": 2
 },
 {
@@ -6886,9 +6886,9 @@ const LISTEN_MORE = {
 "q": "How will the family travel to the seaside?",
 "imgs": [
 "car",
-"bike"
-,
-"bus"],
+"bike",
+"bus"
+],
 "c": 2,
 "audio": "P8/A2/A2-P1-q1.mp3"
 },
@@ -6930,9 +6930,9 @@ const LISTEN_MORE = {
 "q": "What time does the boat trip leave?",
 "imgs": [
 "clock830",
-"clock8"
-,
-"clock9"],
+"clock8",
+"clock9"
+],
 "c": 2,
 "audio": "P8/A2/A2-P1-q5.mp3"
 }
@@ -7015,10 +7015,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why didn't Ruby swim one day?",
 "o": [
-"The water was cold"
-,
+"The water was cold",
 "She was ill",
-"It was too windy"],
+"It was too windy"
+],
 "c": 2
 },
 {
@@ -7046,9 +7046,9 @@ const LISTEN_MORE = {
 "q": "Who took photos of the dolphins?",
 "o": [
 "Ruby",
-"Nobody"
-,
-"Ruby's dad"],
+"Nobody",
+"Ruby's dad"
+],
 "c": 2
 }
 ]
@@ -7108,9 +7108,9 @@ const LISTEN_MORE = {
 "q": "What didn't Hugo like?",
 "o": [
 "Falling in the water",
-"Getting up early"
-,
-"The taste of the sea water"],
+"Getting up early",
+"The taste of the sea water"
+],
 "c": 2
 }
 ]
@@ -7193,10 +7193,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "Where did the girl see the rabbits?",
 "imgs": [
-"library"
-,
+"library",
 "cafe",
-"park"],
+"park"
+],
 "c": 2,
 "audio": "P9/A2/A2-P1-q1.mp3"
 },
@@ -7216,9 +7216,9 @@ const LISTEN_MORE = {
 "q": "What is the weather like now?",
 "imgs": [
 "sunny",
-"snowy"
-,
-"rainy"],
+"snowy",
+"rainy"
+],
 "c": 1,
 "audio": "P9/A2/A2-P1-q3.mp3"
 },
@@ -7314,10 +7314,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why didn't Lily get a dog?",
 "o": [
-"Her mum doesn't like them"
-,
+"Her mum doesn't like them",
 "Dogs are too expensive",
-"Her flat is too small"],
+"Her flat is too small"
+],
 "c": 2
 },
 {
@@ -7345,9 +7345,9 @@ const LISTEN_MORE = {
 "q": "What does the hamster do in the evening?",
 "o": [
 "He sleeps",
-"He eats biscuits"
-,
-"He runs in his wheel"],
+"He eats biscuits",
+"He runs in his wheel"
+],
 "c": 2
 },
 {
@@ -7387,9 +7387,9 @@ const LISTEN_MORE = {
 "q": "Who invited Elena to help there?",
 "o": [
 "Her teacher",
-"Her cousin"
-,
-"Her neighbour"],
+"Her cousin",
+"Her neighbour"
+],
 "c": 2
 },
 {
@@ -7397,9 +7397,9 @@ const LISTEN_MORE = {
 "q": "What is Elena's job?",
 "o": [
 "Walking the big dogs",
-"Cleaning the office"
-,
-"Brushing dogs and filling water bowls"],
+"Cleaning the office",
+"Brushing dogs and filling water bowls"
+],
 "c": 2
 },
 {
@@ -7416,10 +7416,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does Elena want to be when she's older?",
 "o": [
-"A vet"
-,
+"A vet",
 "A dog trainer",
-"A teacher"],
+"A teacher"
+],
 "c": 0
 }
 ]
@@ -7503,9 +7503,9 @@ const LISTEN_MORE = {
 "q": "What will they make tonight?",
 "imgs": [
 "cake",
-"sandwich"
-,
-"pizza"],
+"sandwich",
+"pizza"
+],
 "c": 2,
 "audio": "P10/A2/A2-P1-q1.mp3"
 },
@@ -7625,10 +7625,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What did Max cook on Sunday?",
 "o": [
-"Pasta"
-,
+"Pasta",
 "Fish and chips",
-"Chicken with rice"],
+"Chicken with rice"
+],
 "c": 2
 },
 {
@@ -7645,10 +7645,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What did Max's sister think of the meal?",
 "o": [
-"It was cold"
-,
+"It was cold",
 "It was delicious",
-"It was too salty"],
+"It was too salty"
+],
 "c": 2
 },
 {
@@ -7698,19 +7698,19 @@ const LISTEN_MORE = {
 "q": "What time do Clara and her dad get up?",
 "o": [
 "At seven",
-"At nine"
-,
-"At eight"],
+"At nine",
+"At eight"
+],
 "c": 2
 },
 {
 "type": "mc",
 "q": "Where did Dad learn to bake?",
 "o": [
-"From television"
-,
+"From television",
 "At a cooking school",
-"In Italy"],
+"In Italy"
+],
 "c": 2
 },
 {
@@ -7836,9 +7836,9 @@ const LISTEN_MORE = {
 "q": "What time is Max's swimming race?",
 "imgs": [
 "clock400",
-"clock430"
-,
-"clock420"],
+"clock430",
+"clock420"
+],
 "c": 2,
 "audio": "P11/A2/A2-P1-q3.mp3"
 },
@@ -7934,10 +7934,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Where is the tennis club?",
 "o": [
-"In the park"
-,
+"In the park",
 "Next to the school",
-"Behind the swimming pool"],
+"Behind the swimming pool"
+],
 "c": 2
 },
 {
@@ -7965,9 +7965,9 @@ const LISTEN_MORE = {
 "q": "When are the beginners' lessons?",
 "o": [
 "Mondays at five",
-"Saturdays at ten"
-,
-"Wednesdays at five"],
+"Saturdays at ten",
+"Wednesdays at five"
+],
 "c": 2
 },
 {
@@ -7996,10 +7996,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why did Oliver start running?",
 "o": [
-"He wanted to win races"
-,
+"He wanted to win races",
 "His friends were runners",
-"His doctor said he needed exercise"],
+"His doctor said he needed exercise"
+],
 "c": 2
 },
 {
@@ -8017,9 +8017,9 @@ const LISTEN_MORE = {
 "q": "How often does Oliver run now?",
 "o": [
 "Every day",
-"Once a week"
-,
-"Three times a week"],
+"Once a week",
+"Three times a week"
+],
 "c": 2
 },
 {
@@ -8123,9 +8123,9 @@ const LISTEN_MORE = {
 "q": "What will the girl give Kate?",
 "imgs": [
 "hat",
-"bag"
-,
-"book"],
+"bag",
+"book"
+],
 "c": 2,
 "audio": "P12/A2/A2-P1-q1.mp3"
 },
@@ -8156,9 +8156,9 @@ const LISTEN_MORE = {
 "q": "What did Grandpa give the boy?",
 "imgs": [
 "phone",
-"guitar"
-,
-"camera"],
+"guitar",
+"camera"
+],
 "c": 2,
 "audio": "P12/A2/A2-P1-q4.mp3"
 },
@@ -8166,10 +8166,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What food will there be at Emma's party?",
 "imgs": [
-"cake"
-,
+"cake",
 "sandwich",
-"pizza"],
+"pizza"
+],
 "c": 0,
 "audio": "P12/A2/A2-P1-q5.mp3"
 }
@@ -8268,10 +8268,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why won't they buy a T-shirt?",
 "o": [
-"Mia doesn't like T-shirts"
-,
+"Mia doesn't like T-shirts",
 "It's too expensive",
-"Mia's sister is giving her clothes"],
+"Mia's sister is giving her clothes"
+],
 "c": 2
 },
 {
@@ -8310,10 +8310,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What did Sam think was happening on his birthday?",
 "o": [
-"A trip"
-,
+"A trip",
 "A big party",
-"A small dinner at home"],
+"A small dinner at home"
+],
 "c": 2
 },
 {
@@ -8340,10 +8340,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What was the best present?",
 "o": [
-"A game"
-,
+"A game",
 "A phone",
-"A bike"],
+"A bike"
+],
 "c": 2
 },
 {
@@ -8447,10 +8447,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "Where is Ben going first?",
 "imgs": [
-"cafe"
-,
+"cafe",
 "park",
-"library"],
+"library"
+],
 "c": 2,
 "audio": "P13/A2/A2-P1-q2.mp3"
 },
@@ -8590,19 +8590,19 @@ const LISTEN_MORE = {
 "q": "How will Kate go to the sports centre?",
 "o": [
 "By bus",
-"By bike"
-,
-"On foot"],
+"By bike",
+"On foot"
+],
 "c": 2
 },
 {
 "type": "mc",
 "q": "Where is the sports centre?",
 "o": [
-"Next to the market square"
-,
+"Next to the market square",
 "Before the bridge, on the right",
-"After the bridge, on the left"],
+"After the bridge, on the left"
+],
 "c": 2
 }
 ]
@@ -8651,10 +8651,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What happened one morning?",
 "o": [
-"The train was late"
-,
+"The train was late",
 "Hannah lost her ticket",
-"Hannah missed her stop"],
+"Hannah missed her stop"
+],
 "c": 2
 },
 {
@@ -8792,9 +8792,9 @@ const LISTEN_MORE = {
 "q": "What time does the library close today?",
 "imgs": [
 "clock430",
-"clock730"
-,
-"clock700"],
+"clock730",
+"clock700"
+],
 "c": 2,
 "audio": "P14/A2/A2-P1-q5.mp3"
 }
@@ -8876,9 +8876,9 @@ const LISTEN_MORE = {
 "q": "When did Lucy visit the library?",
 "o": [
 "On Monday",
-"On Saturday"
-,
-"On Wednesday"],
+"On Saturday",
+"On Wednesday"
+],
 "c": 2
 },
 {
@@ -8938,9 +8938,9 @@ const LISTEN_MORE = {
 "q": "When does Grace usually read?",
 "o": [
 "In the morning",
-"After school"
-,
-"At night"],
+"After school",
+"At night"
+],
 "c": 2
 },
 {
@@ -8948,9 +8948,9 @@ const LISTEN_MORE = {
 "q": "What kind of stories does Grace choose?",
 "o": [
 "Sports stories",
-"Animal stories"
-,
-"Adventure stories"],
+"Animal stories",
+"Adventure stories"
+],
 "c": 2
 },
 {
@@ -9173,10 +9173,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What will Hugo wear to the party?",
 "o": [
-"His black shirt"
-,
+"His black shirt",
 "His blue shirt",
-"His green shirt"],
+"His green shirt"
+],
 "c": 2
 },
 {
@@ -9213,10 +9213,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "How will they get to the shop?",
 "o": [
-"By car"
-,
+"By car",
 "By bus",
-"On foot"],
+"On foot"
+],
 "c": 2
 }
 ]
@@ -9255,10 +9255,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Where does Sofia get her ideas?",
 "o": [
-"From television"
-,
+"From television",
 "From magazines",
-"From street markets"],
+"From street markets"
+],
 "c": 2
 },
 {
@@ -9384,9 +9384,9 @@ const LISTEN_MORE = {
 "q": "What will Jack take with him?",
 "imgs": [
 "umbrella",
-"bag"
-,
-"hat"],
+"bag",
+"hat"
+],
 "c": 2,
 "audio": "P16/A2/A2-P1-q3.mp3"
 },
@@ -9394,10 +9394,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What time does the radio say the rain will stop today?",
 "imgs": [
-"clock700"
-,
+"clock700",
 "clock430",
-"clock400"],
+"clock400"
+],
 "c": 2,
 "audio": "P16/A2/A2-P1-q4.mp3"
 },
@@ -9502,10 +9502,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "How will they travel to the lake?",
 "o": [
-"By bus"
-,
+"By bus",
 "By bike",
-"By car"],
+"By car"
+],
 "c": 2
 },
 {
@@ -9544,10 +9544,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What did the weather report say?",
 "o": [
-"Storms every night"
-,
+"Storms every night",
 "Rain on Saturday",
-"Sunny all weekend"],
+"Sunny all weekend"
+],
 "c": 2
 },
 {
@@ -9575,9 +9575,9 @@ const LISTEN_MORE = {
 "q": "What was the best moment of the trip?",
 "o": [
 "Fixing the tent",
-"Making a fire"
-,
-"Swimming in the river"],
+"Making a fire",
+"Swimming in the river"
+],
 "c": 2
 },
 {
@@ -9693,9 +9693,9 @@ const LISTEN_MORE = {
 "q": "Where is the school concert this year?",
 "imgs": [
 "park",
-"cafe"
-,
-"library"],
+"cafe",
+"library"
+],
 "c": 1,
 "audio": "P17/A2/A2-P1-q3.mp3"
 },
@@ -9788,19 +9788,19 @@ const LISTEN_MORE = {
 "q": "When will Ruby and Max practise?",
 "o": [
 "On Thursday",
-"Next week"
-,
-"On Wednesday"],
+"Next week",
+"On Wednesday"
+],
 "c": 2
 },
 {
 "type": "mc",
 "q": "Why can't they practise on Thursday?",
 "o": [
-"The house is too small"
-,
+"The house is too small",
 "Max has a lesson",
-"Max's mum works at home that day"],
+"Max's mum works at home that day"
+],
 "c": 2
 },
 {
@@ -9860,19 +9860,19 @@ const LISTEN_MORE = {
 "q": "How long does Ethan practise now?",
 "o": [
 "Ten minutes a day",
-"An hour a day"
-,
-"Half an hour a day"],
+"An hour a day",
+"Half an hour a day"
+],
 "c": 2
 },
 {
 "type": "mc",
 "q": "Who loves listening to Ethan play?",
 "o": [
-"His best friend"
-,
+"His best friend",
 "His sister",
-"His grandad"],
+"His grandad"
+],
 "c": 2
 },
 {
@@ -9998,9 +9998,9 @@ const LISTEN_MORE = {
 "q": "What will Lucy use to take photos?",
 "imgs": [
 "phone",
-"book"
-,
-"camera"],
+"book",
+"camera"
+],
 "c": 2,
 "audio": "P18/A2/A2-P1-q3.mp3"
 },
@@ -10129,9 +10129,9 @@ const LISTEN_MORE = {
 "q": "What will they see first?",
 "o": [
 "The penguins",
-"The monkeys"
-,
-"The elephants"],
+"The monkeys",
+"The elephants"
+],
 "c": 2
 },
 {
@@ -10161,9 +10161,9 @@ const LISTEN_MORE = {
 "q": "What time did the family leave?",
 "o": [
 "At seven o'clock",
-"At nine o'clock"
-,
-"At eight o'clock"],
+"At nine o'clock",
+"At eight o'clock"
+],
 "c": 2
 },
 {
@@ -10190,10 +10190,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What did Hannah think of the walk?",
 "o": [
-"Too easy"
-,
+"Too easy",
 "Boring",
-"Hard but beautiful"],
+"Hard but beautiful"
+],
 "c": 2
 },
 {
@@ -10255,6 +10255,4258 @@ const LISTEN_MORE = {
 ]
 }
 ]
+},
+{
+"label": "A2 — Practice · Exam Booster Key Test 1 audio · TG",
+"cefr": "Cambridge A2 Key · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 5, plus an original Part 4.",
+"audios": [
+{
+"id": "A2-P1",
+"title": "Part 1 · Questions 1–5",
+"kind": "file",
+"file": "TG/ebk-t1/p1.mp3",
+"intro": "You will hear five short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a man asking the way. Where should he turn left?",
+"o": [
+"Outside the bank",
+"Next to the cafe",
+"After the museum"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a man in a restaurant. What does he decide to have with his pizza?",
+"o": [
+"Some garlic bread",
+"Some salad",
+"Some soup"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear someone buying cinema tickets. How much do the two tickets cost altogether?",
+"o": [
+"£11.50",
+"£13.25",
+"£15.00"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear two friends. What do they decide to do this afternoon?",
+"o": [
+"Visit a museum",
+"Go to the beach",
+"Go swimming"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a woman phoning a dentist. On which day will she go?",
+"o": [
+"The 13th",
+"The 14th",
+"The 12th"
+],
+"c": 2
+}
+]
+},
+{
+"id": "A2-P2",
+"title": "Part 2 · Questions 6–10",
+"kind": "file",
+"file": "TG/ebk-t1/p4.mp3",
+"intro": "You will hear a conversation. For each question, write the correct answer in the gap.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Date of birth: 1 December ____",
+"accept": [
+"1993",
+"nineteen ninety-three"
+]
+},
+{
+"type": "gap",
+"label": "Number of people sleeping on the boat: ____",
+"accept": [
+"3",
+"three"
+]
+},
+{
+"type": "gap",
+"label": "Number of small dogs the customer has: ____",
+"accept": [
+"2",
+"two"
+]
+},
+{
+"type": "gap",
+"label": "Boat needed from 23 August to ____ August",
+"accept": [
+"31",
+"31st",
+"thirty-first",
+"thirty one"
+]
+},
+{
+"type": "gap",
+"label": "Telephone number: ____",
+"accept": [
+"212456938",
+"212 456 938",
+"212-456-938"
+]
+}
+],
+"gapTitle": "Booking a boat"
+},
+{
+"id": "A2-P3",
+"title": "Part 3 · Questions 11–15",
+"kind": "file",
+"file": "TG/ebk-t1/p3.mp3",
+"intro": "You will hear a conversation. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Which instrument is Martin learning in his classes?",
+"o": [
+"The piano",
+"The guitar",
+"The drums"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "On which day will Martin have his class next term?",
+"o": [
+"Tuesday",
+"Friday",
+"Thursday"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How long does Martin practise in his room each day?",
+"o": [
+"Up to two hours",
+"Three hours",
+"Half an hour"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Where will the music festival take place this year?",
+"o": [
+"At the music school",
+"Inside the shopping centre",
+"In a park"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What time will Martin's band start playing?",
+"o": [
+"7.45",
+"6.15",
+"7.15"
+],
+"c": 0
+}
+]
+},
+{
+"id": "A2-P4",
+"title": "Part 4 · Questions 16–20",
+"kind": "file",
+"file": "TG/ebk-t1/p0.mp3",
+"intro": "You will hear five short recordings. You will hear each recording twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear a man in a watch shop. What can the woman NOT do?",
+"o": [
+"Change the battery",
+"Repair the strap",
+"Sell him a new strap"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two students talking about a school talk. What will the girl talk about?",
+"o": [
+"Skateboarding",
+"Stamps",
+"Countries"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a woman talking to a group. Who is she?",
+"o": [
+"A tour guide",
+"A teacher",
+"A waitress"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking. Why can't the girl go today?",
+"o": [
+"She has a music lesson.",
+"She has to do homework.",
+"She doesn't like computer games."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a message from a gym. What is changing?",
+"o": [
+"The price of tickets",
+"The student discount",
+"The opening times"
+],
+"c": 2
+}
+]
+},
+{
+"id": "A2-P5",
+"title": "Part 5 · Questions 21–25",
+"kind": "file",
+"file": "TG/ebk-t1/p2.mp3",
+"intro": "You will hear a conversation. Match each person to the correct item. There are three extra options.",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Sarah",
+"c": "Sandwiches"
+},
+{
+"type": "match",
+"person": "Mike",
+"c": "Ice cream"
+},
+{
+"type": "match",
+"person": "Margaret",
+"c": "Cakes"
+},
+{
+"type": "match",
+"person": "Andrea",
+"c": "Fruit"
+},
+{
+"type": "match",
+"person": "Eric",
+"c": "Cola"
+}
+],
+"bank": [
+"Sandwiches",
+"Ice cream",
+"Cakes",
+"Fruit",
+"Cola",
+"Crisps",
+"Water",
+"Biscuits"
+]
+}
+]
+},
+{
+"label": "A2 — Practice · Exam Booster Key Test 2 audio · TG",
+"cefr": "Cambridge A2 Key · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 5, plus an original Part 4.",
+"audios": [
+{
+"id": "A2-P1",
+"title": "Part 1 · Questions 1–5",
+"kind": "file",
+"file": "TG/ebk-t2/p1.mp3",
+"intro": "You will hear five short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear two people talking about a bus. Which bus goes to the supermarket?",
+"o": [
+"Bus 13",
+"Bus 33",
+"Bus 30"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a boy and his mother. What time does the shop close today?",
+"o": [
+"At half past five",
+"At a quarter past six",
+"At six o'clock"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear two friends choosing a t-shirt. How much does the t-shirt they buy cost?",
+"o": [
+"£8",
+"£10",
+"£12"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a customer in a bookshop. What time does it open on Saturday?",
+"o": [
+"9.30",
+"8 o'clock",
+"10 o'clock"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear two friends talking about shopping. What did Graham buy?",
+"o": [
+"A camera",
+"A magazine",
+"A mobile phone"
+],
+"c": 1
+}
+]
+},
+{
+"id": "A2-P2",
+"title": "Part 2 · Questions 6–10",
+"kind": "file",
+"file": "TG/ebk-t2/p4.mp3",
+"intro": "You will hear a conversation. For each question, write the correct answer in the gap.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The nearest chemist is in ____ Street.",
+"accept": [
+"park"
+]
+},
+{
+"type": "gap",
+"label": "A taxi to the chemist costs about ____ euros.",
+"accept": [
+"13",
+"thirteen"
+]
+},
+{
+"type": "gap",
+"label": "The appointment is at ____ o'clock tomorrow.",
+"accept": [
+"9",
+"nine"
+]
+},
+{
+"type": "gap",
+"label": "The doctor's name is Dr ____.",
+"accept": [
+"moore"
+]
+},
+{
+"type": "gap",
+"label": "Hospital phone number: ____",
+"accept": [
+"567582",
+"567 582"
+]
+}
+],
+"gapTitle": "Advice from a medical centre"
+},
+{
+"id": "A2-P3",
+"title": "Part 3 · Questions 11–15",
+"kind": "file",
+"file": "TG/ebk-t2/p3.mp3",
+"intro": "You will hear a conversation. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Why is Lisa tired today?",
+"o": [
+"She was reading online.",
+"She was texting friends.",
+"She was packing for a trip."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Where did Lisa buy her laptop?",
+"o": [
+"On Park Avenue",
+"On the high street",
+"On Bridge Street"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How heavy is Lisa's new laptop?",
+"o": [
+"1 kilogram",
+"1.5 kilograms",
+"3 kilograms"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How much did Lisa pay for it?",
+"o": [
+"£849",
+"£579",
+"£699"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What is Lisa going to do before using it at university?",
+"o": [
+"Start her course",
+"Help improve a website",
+"Sell her old computer"
+],
+"c": 1
+}
+]
+},
+{
+"id": "A2-P4",
+"title": "Part 4 · Questions 16–20",
+"kind": "file",
+"file": "TG/ebk-t2/p0.mp3",
+"intro": "You will hear five short recordings. You will hear each recording twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear a boy talking about his new school. How does he feel about it?",
+"o": [
+"He is unhappy.",
+"He is happy.",
+"He is frightened."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about trainers. Why will they go to the other shop?",
+"o": [
+"It has more colours.",
+"It is cheaper.",
+"It is nearer."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a news report. What is the main news?",
+"o": [
+"A sports game ended.",
+"Many schools will be closed.",
+"The south is cold."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a woman asking a man for help. What must he do?",
+"o": [
+"Take care of her cat",
+"Clean her house",
+"Look after her plants"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a boy talking about his brother's band. What does his mother think of the music?",
+"o": [
+"It is wonderful.",
+"It is quiet.",
+"It is terrible."
+],
+"c": 2
+}
+]
+},
+{
+"id": "A2-P5",
+"title": "Part 5 · Questions 21–25",
+"kind": "file",
+"file": "TG/ebk-t2/p2.mp3",
+"intro": "You will hear a conversation. Match each person to the correct item. There are three extra options.",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "The chemist's",
+"c": "Shampoo"
+},
+{
+"type": "match",
+"person": "Fashion World",
+"c": "Trainers"
+},
+{
+"type": "match",
+"person": "The bookshop",
+"c": "Cake"
+},
+{
+"type": "match",
+"person": "The sports shop",
+"c": "Football socks"
+},
+{
+"type": "match",
+"person": "The market",
+"c": "Flowers"
+}
+],
+"bank": [
+"Shampoo",
+"Trainers",
+"Cake",
+"Football socks",
+"Flowers",
+"A diary",
+"A towel",
+"A bag"
+]
+}
+]
+},
+{
+"label": "A2 — Practice · Exam Booster Key Test 3 audio · TG",
+"cefr": "Cambridge A2 Key · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 5, plus an original Part 4.",
+"audios": [
+{
+"id": "A2-P1",
+"title": "Part 1 · Questions 1–5",
+"kind": "file",
+"file": "TG/ebk-t3/p1.mp3",
+"intro": "You will hear five short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear two students. Which subject does Harry like best?",
+"o": [
+"Maths",
+"Geography",
+"Chemistry"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a teacher and a girl. Where does the girl leave the dictionary?",
+"o": [
+"On the bookshelf",
+"On a table by the door",
+"Under her desk"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear two friends. What does the boy lend the girl?",
+"o": [
+"A ruler",
+"A pencil case",
+"An English book"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear two friends. What time does the TV programme start?",
+"o": [
+"5.45",
+"6.15",
+"5.30"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a student talking about university. Where are his classes?",
+"o": [
+"In a library",
+"In the main university building",
+"In a hospital"
+],
+"c": 1
+}
+]
+},
+{
+"id": "A2-P2",
+"title": "Part 2 · Questions 6–10",
+"kind": "file",
+"file": "TG/ebk-t3/p4.mp3",
+"intro": "You will hear a conversation. For each question, write the correct answer in the gap.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The photography classes are on ____ this term.",
+"accept": [
+"wednesday",
+"wednesdays"
+]
+},
+{
+"type": "gap",
+"label": "The evening course costs £____",
+"accept": [
+"75",
+"seventy-five",
+"seventy five"
+]
+},
+{
+"type": "gap",
+"label": "The college is closed in ____",
+"accept": [
+"august"
+]
+},
+{
+"type": "gap",
+"label": "The college is at 59 ____ Street.",
+"accept": [
+"bracknell"
+]
+},
+{
+"type": "gap",
+"label": "The teacher's name is ____",
+"accept": [
+"bob"
+]
+}
+],
+"gapTitle": "Photography classes"
+},
+{
+"id": "A2-P3",
+"title": "Part 3 · Questions 11–15",
+"kind": "file",
+"file": "TG/ebk-t3/p3.mp3",
+"intro": "You will hear a conversation. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Where is the cat's food?",
+"o": [
+"On the kitchen table",
+"In the cupboard",
+"On the floor by the door"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "For how long will Susan need to go to James's house?",
+"o": [
+"One week",
+"Two weeks",
+"Three weeks"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Which place will James visit first?",
+"o": [
+"Miami",
+"New York",
+"Paris"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How long will James's journey home take?",
+"o": [
+"Eight and a half hours",
+"Over sixteen hours",
+"Five hours"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Susan ask James to send her?",
+"o": [
+"A postcard",
+"A text message",
+"A present"
+],
+"c": 0
+}
+]
+},
+{
+"id": "A2-P4",
+"title": "Part 4 · Questions 16–20",
+"kind": "file",
+"file": "TG/ebk-t3/p0.mp3",
+"intro": "You will hear five short recordings. You will hear each recording twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two people talking about a trip. What went wrong?",
+"o": [
+"He fell on the mountain.",
+"He lost some photos.",
+"He missed the train."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a girl talking to her friend. What will she buy?",
+"o": [
+"A green coat",
+"A blue coat",
+"A black coat"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear an announcement in a library. What is the announcement about?",
+"o": [
+"New books for teachers",
+"A change to the closing time",
+"A meeting for students"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two students talking about an exam. How will the girl help the boy?",
+"o": [
+"She will lend him her notes.",
+"She will do his homework.",
+"She will teach him history."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a message about a pizza. What is the problem?",
+"o": [
+"The order is wrong.",
+"The pizza is cold.",
+"The delivery will be late."
+],
+"c": 2
+}
+]
+},
+{
+"id": "A2-P5",
+"title": "Part 5 · Questions 21–25",
+"kind": "file",
+"file": "TG/ebk-t3/p2.mp3",
+"intro": "You will hear a conversation. Match each person to the correct item. There are three extra options.",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Chris",
+"c": "Windsurfing"
+},
+{
+"type": "match",
+"person": "Gina",
+"c": "Swimming"
+},
+{
+"type": "match",
+"person": "Tom",
+"c": "Tennis"
+},
+{
+"type": "match",
+"person": "Emma",
+"c": "Horse riding"
+},
+{
+"type": "match",
+"person": "Harry",
+"c": "Basketball"
+}
+],
+"bank": [
+"Windsurfing",
+"Swimming",
+"Tennis",
+"Horse riding",
+"Basketball",
+"Golf",
+"Football",
+"Sailing"
+]
+}
+]
+},
+{
+"label": "A2 — Practice · KET Test 1 audio · TG",
+"cefr": "Cambridge A2 Key · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 5, plus an original Part 4.",
+"audios": [
+{
+"id": "A2-P1",
+"title": "Part 1 · Questions 1–5",
+"kind": "file",
+"file": "TG/ket-t1/p1.mp3",
+"intro": "You will hear five short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How much did the woman pay for her dress?",
+"o": [
+"£70",
+"£35",
+"£45"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Where does the woman live?",
+"o": [
+"In a flat",
+"In a house",
+"In a hostel"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What did the man get for Christmas?",
+"o": [
+"A sweater",
+"A scarf",
+"Some trousers"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What is the weather like now?",
+"o": [
+"Snowy",
+"Warm and sunny",
+"Cold but sunny"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What is the boy's favourite subject?",
+"o": [
+"Music",
+"Geography",
+"Art"
+],
+"c": 1
+}
+]
+},
+{
+"id": "A2-P2",
+"title": "Part 2 · Questions 6–10",
+"kind": "file",
+"file": "TG/ket-t1/p4.mp3",
+"intro": "You will hear a conversation. Listen and complete each gap with one word or a number. A woman asks a stranger how to find a place.",
+"gapTitle": "Finding the library",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The woman wants to borrow a ____ book.",
+"accept": [
+"history"
+]
+},
+{
+"type": "gap",
+"label": "She must walk past the ____ until she reaches the traffic lights.",
+"accept": [
+"post office",
+"postoffice"
+]
+},
+{
+"type": "gap",
+"label": "At the traffic lights she must turn ____.",
+"accept": [
+"right"
+]
+},
+{
+"type": "gap",
+"label": "The library is on ____ Street.",
+"accept": [
+"blackstone"
+]
+},
+{
+"type": "gap",
+"label": "It is a ____-minute walk.",
+"accept": [
+"five",
+"5"
+]
+}
+]
+},
+{
+"id": "A2-P3",
+"title": "Part 3 · Questions 11–15",
+"kind": "file",
+"file": "TG/ket-t1/p3.mp3",
+"intro": "You will hear a conversation. For each question, choose the correct answer. Two friends are talking about going shopping.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What are the speakers going to on Saturday?",
+"o": [
+"A party",
+"A wedding",
+"A concert"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why might one girl buy a skirt instead of a dress?",
+"o": [
+"The dress is too big.",
+"The dress is the wrong colour.",
+"The dress costs too much."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Which clothes does one of the girls already have plenty of?",
+"o": [
+"Trousers",
+"Skirts",
+"Shoes"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does the shop called Sonic sell?",
+"o": [
+"Shoes and bags",
+"Skirts and dresses",
+"Jeans and tops"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What else does one girl want to buy?",
+"o": [
+"A black top",
+"A pair of jeans",
+"Some shoes"
+],
+"c": 2
+}
+]
+},
+{
+"id": "A2-P4",
+"title": "Part 4 · Questions 16–20",
+"kind": "file",
+"file": "TG/ket-t1/p0.mp3",
+"intro": "You will hear five short recordings. You will hear each recording twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear a girl talking to her friend about a new café. What does she like about it?",
+"o": [
+"The coffee",
+"The prices",
+"The view"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a teacher leaving a message for parents. Why is he calling?",
+"o": [
+"To change the time the bus leaves",
+"To say the trip is cancelled",
+"To ask parents for money"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a woman asking a man about a swimming pool. When will she go?",
+"o": [
+"On Saturday",
+"On Sunday morning",
+"On Wednesday evening"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two students talking. What is the boy's problem?",
+"o": [
+"He has forgotten his bag.",
+"He has lost his phone.",
+"He is late for lunch."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a woman leaving a message for a friend. What does she want to do?",
+"o": [
+"Change the day of the party",
+"Have lunch with him on Monday",
+"Visit her grandmother with him"
+],
+"c": 1
+}
+]
+},
+{
+"id": "A2-P5",
+"title": "Part 5 · Questions 21–25",
+"kind": "file",
+"file": "TG/ket-t1/p2.mp3",
+"intro": "You will hear a boy talking to a friend about the pets that people have. Which pet does each person have? For each question, choose the correct letter from the list.",
+"bank": [
+"a rabbit",
+"a goldfish",
+"two hamsters",
+"a cat",
+"a horse",
+"a dog",
+"a parrot",
+"a snake"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Josh",
+"c": "a rabbit"
+},
+{
+"type": "match",
+"person": "Amy",
+"c": "a goldfish"
+},
+{
+"type": "match",
+"person": "Tom",
+"c": "two hamsters"
+},
+{
+"type": "match",
+"person": "Jacob",
+"c": "a cat"
+},
+{
+"type": "match",
+"person": "Claire",
+"c": "a horse"
+}
+]
+}
+]
+},
+{
+"label": "A2 — Practice · KET Test 2 audio · TG",
+"cefr": "Cambridge A2 Key · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 5, plus an original Part 4.",
+"audios": [
+{
+"id": "A2-P1",
+"title": "Part 1 · Questions 1–5",
+"kind": "file",
+"file": "TG/ket-t2/p1.mp3",
+"intro": "You will hear five short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Which man is the woman's brother?",
+"o": [
+"The man with a beard and glasses",
+"The man with glasses and no beard",
+"The man with a beard and no glasses"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How many pets does David have now?",
+"o": [
+"Three",
+"Four",
+"Five"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What is the couple's flight number?",
+"o": [
+"BA 4728",
+"BA 4328",
+"BA 4782"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does the woman order?",
+"o": [
+"Hot dog and chips",
+"A hamburger",
+"Chips only"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Which shirt will the man wear?",
+"o": [
+"One with stripes and short sleeves",
+"One with stripes and long sleeves",
+"One with long sleeves and no stripes"
+],
+"c": 2
+}
+]
+},
+{
+"id": "A2-P2",
+"title": "Part 2 · Questions 6–10",
+"kind": "file",
+"file": "TG/ket-t2/p4.mp3",
+"intro": "You will hear a conversation. Listen and complete each gap with one word or a number. A woman talks to a shop assistant.",
+"gapTitle": "Buying a dress",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The woman likes the ____ dress in the window.",
+"accept": [
+"blue"
+]
+},
+{
+"type": "gap",
+"label": "The dress costs £____.",
+"accept": [
+"45",
+"forty-five",
+"forty five"
+]
+},
+{
+"type": "gap",
+"label": "The woman wants it for her sister's ____.",
+"accept": [
+"wedding"
+]
+},
+{
+"type": "gap",
+"label": "The woman needs size ____.",
+"accept": [
+"10",
+"ten"
+]
+},
+{
+"type": "gap",
+"label": "The new dress will arrive next ____.",
+"accept": [
+"tuesday"
+]
+}
+]
+},
+{
+"id": "A2-P3",
+"title": "Part 3 · Questions 11–15",
+"kind": "file",
+"file": "TG/ket-t2/p3.mp3",
+"intro": "You will hear a conversation. For each question, choose the correct answer. A girl phones a dance school.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Which class does Eleanor choose?",
+"o": [
+"Beginner Tap",
+"Intermediate Ballet",
+"Advanced Salsa"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Which day will she go?",
+"o": [
+"Monday",
+"Tuesday",
+"Friday"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What time do the lessons begin?",
+"o": [
+"6.00 pm",
+"7.30 pm",
+"6.30 pm"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How much does one lesson cost?",
+"o": [
+"£2.50",
+"£5.00",
+"£2.00"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How long does each lesson last?",
+"o": [
+"One hour",
+"Ninety minutes",
+"Two hours"
+],
+"c": 1
+}
+]
+},
+{
+"id": "A2-P4",
+"title": "Part 4 · Questions 16–20",
+"kind": "file",
+"file": "TG/ket-t2/p0.mp3",
+"intro": "You will hear five short recordings. You will hear each recording twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear a man buying tickets for a football match. Which seats does he buy?",
+"o": [
+"The cheap seats",
+"Seats in the middle",
+"Seats behind the goal"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a girl talking to her father. What does he say about maths?",
+"o": [
+"He thinks it is easy.",
+"He is not good at it.",
+"He wants to teach her."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a woman on the radio. What is she talking about?",
+"o": [
+"The weather",
+"A sports event",
+"The news on Sunday"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about their new neighbours. What does the girl think of them?",
+"o": [
+"They are too noisy.",
+"They are rather unfriendly.",
+"They are nice."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a man speaking in a museum. Why is he speaking?",
+"o": [
+"To tell visitors what to do",
+"To sell some toys",
+"To ask people to leave"
+],
+"c": 0
+}
+]
+},
+{
+"id": "A2-P5",
+"title": "Part 5 · Questions 21–25",
+"kind": "file",
+"file": "TG/ket-t2/p2.mp3",
+"intro": "You will hear a girl talking to a friend about Christmas presents. What present will each person get? For each question, choose the correct letter from the list.",
+"bank": [
+"a computer game",
+"a doll",
+"some chocolate",
+"a toy car",
+"a sweater",
+"a teddy bear",
+"a book",
+"a scarf"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Thomas",
+"c": "a computer game"
+},
+{
+"type": "match",
+"person": "Anna",
+"c": "a doll"
+},
+{
+"type": "match",
+"person": "Jimmy",
+"c": "a toy car"
+},
+{
+"type": "match",
+"person": "Mark",
+"c": "a sweater"
+},
+{
+"type": "match",
+"person": "Gemma",
+"c": "a teddy bear"
+}
+]
+}
+]
+},
+{
+"label": "A2 — Practice · KET Test 3 audio · TG",
+"cefr": "Cambridge A2 Key · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 5, plus an original Part 4.",
+"audios": [
+{
+"id": "A2-P1",
+"title": "Part 1 · Questions 1–5",
+"kind": "file",
+"file": "TG/ket-t3/p1.mp3",
+"intro": "You will hear five short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What will they have for dinner?",
+"o": [
+"Pizza",
+"Spaghetti",
+"Fish and chips"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What will the man probably do tonight?",
+"o": [
+"Play football",
+"Go to the cinema",
+"Go to the theatre"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How will they travel to the airport?",
+"o": [
+"By train",
+"By bus",
+"By car"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What will the woman wear?",
+"o": [
+"Her coat",
+"Her anorak",
+"Her denim jacket"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What time should the bus have arrived?",
+"o": [
+"12.15",
+"12.45",
+"1.45"
+],
+"c": 1
+}
+]
+},
+{
+"id": "A2-P2",
+"title": "Part 2 · Questions 6–10",
+"kind": "file",
+"file": "TG/ket-t3/p4.mp3",
+"intro": "You will hear a conversation. Listen and complete each gap with one word or a number. A woman talks to a man at a car rental office.",
+"gapTitle": "Renting a car",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The woman wants to rent a car for next ____.",
+"accept": [
+"weekend"
+]
+},
+{
+"type": "gap",
+"label": "She wants a car with four ____.",
+"accept": [
+"doors"
+]
+},
+{
+"type": "gap",
+"label": "Two days cost £____.",
+"accept": [
+"60",
+"sixty"
+]
+},
+{
+"type": "gap",
+"label": "She will collect the car on ____.",
+"accept": [
+"friday"
+]
+},
+{
+"type": "gap",
+"label": "She must bring it back before ____ pm on Sunday.",
+"accept": [
+"7",
+"seven",
+"7pm",
+"7 pm",
+"7.00"
+]
+}
+]
+},
+{
+"id": "A2-P3",
+"title": "Part 3 · Questions 11–15",
+"kind": "file",
+"file": "TG/ket-t3/p3.mp3",
+"intro": "You will hear a conversation. For each question, choose the correct answer. Two friends are talking about films.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What did Laura think of the film they saw last night?",
+"o": [
+"It was a bit scary.",
+"It was very funny.",
+"It was boring."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What kind of film did John expect it to be?",
+"o": [
+"A romantic film",
+"A horror film",
+"A comedy"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What kind of film does Laura want to see next week?",
+"o": [
+"A thriller",
+"A romantic one",
+"A horror film"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How does John feel about romantic films?",
+"o": [
+"He has never seen one.",
+"He enjoys them.",
+"He can't stand them."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does John say about the new thriller?",
+"o": [
+"It will make people laugh.",
+"It will be full of excitement.",
+"It will be a love story."
+],
+"c": 1
+}
+]
+},
+{
+"id": "A2-P4",
+"title": "Part 4 · Questions 16–20",
+"kind": "file",
+"file": "TG/ket-t3/p0.mp3",
+"intro": "You will hear five short recordings. You will hear each recording twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two students talking about the garden club. What will they do today?",
+"o": [
+"Plant some vegetables",
+"Plant some flowers",
+"Clean the gate"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a woman at a police station. What does she want?",
+"o": [
+"To find her dog",
+"To buy a pet",
+"To report a bad accident"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a message from a doctor's office. What does the man want the woman to do?",
+"o": [
+"Visit the doctor on Tuesday",
+"Come at half past three",
+"Phone the office"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a girl showing photos to a friend. What did she learn on holiday?",
+"o": [
+"To swim",
+"To surf",
+"To sail"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a girl talking about her school chess club. What is new about it?",
+"o": [
+"The place and day",
+"The teacher",
+"The rules"
+],
+"c": 0
+}
+]
+},
+{
+"id": "A2-P5",
+"title": "Part 5 · Questions 21–25",
+"kind": "file",
+"file": "TG/ket-t3/p2.mp3",
+"intro": "You will hear a boy talking to a friend about the musical instruments his friends play. Which instrument does each person play? For each question, choose the correct letter from the list.",
+"bank": [
+"drums",
+"piano",
+"guitar",
+"saxophone",
+"recorder",
+"trumpet",
+"violin",
+"flute"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "James",
+"c": "drums"
+},
+{
+"type": "match",
+"person": "Katie",
+"c": "piano"
+},
+{
+"type": "match",
+"person": "Mark",
+"c": "guitar"
+},
+{
+"type": "match",
+"person": "Dave",
+"c": "saxophone"
+},
+{
+"type": "match",
+"person": "Emma",
+"c": "recorder"
+}
+]
+}
+]
+},
+{
+"label": "A2 — Practice · KET Test 4 audio · TG",
+"cefr": "Cambridge A2 Key · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 5, plus an original Part 4.",
+"audios": [
+{
+"id": "A2-P1",
+"title": "Part 1 · Questions 1–5",
+"kind": "file",
+"file": "TG/ket-t4/p1.mp3",
+"intro": "You will hear five short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How long did the woman's journey last?",
+"o": [
+"Two hours",
+"Four hours",
+"Two and a half hours"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What did the man buy for Dave's birthday?",
+"o": [
+"A CD",
+"A video player",
+"A book"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Where will they go this afternoon?",
+"o": [
+"To the cinema",
+"To the swimming pool",
+"To the park"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Which day will they have dinner out?",
+"o": [
+"Friday",
+"Tuesday",
+"Thursday"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How much does the man pay for his ticket?",
+"o": [
+"£180",
+"£104",
+"£140"
+],
+"c": 1
+}
+]
+},
+{
+"id": "A2-P2",
+"title": "Part 2 · Questions 6–10",
+"kind": "file",
+"file": "TG/ket-t4/p4.mp3",
+"intro": "You will hear a conversation. Listen and complete each gap with one word or a number. A woman asks about a flight.",
+"gapTitle": "Booking a flight",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The woman wants to fly to ____.",
+"accept": [
+"madrid"
+]
+},
+{
+"type": "gap",
+"label": "She would like to travel on a ____.",
+"accept": [
+"tuesday"
+]
+},
+{
+"type": "gap",
+"label": "The flight leaves at ____ pm.",
+"accept": [
+"12.30",
+"12:30",
+"1230",
+"12.30pm",
+"half past twelve"
+]
+},
+{
+"type": "gap",
+"label": "A return ticket costs £____.",
+"accept": [
+"240",
+"two hundred and forty"
+]
+},
+{
+"type": "gap",
+"label": "The telephone number is 01210 ____ 431.",
+"accept": [
+"828",
+"8 2 8",
+"eight two eight"
+]
+}
+]
+},
+{
+"id": "A2-P3",
+"title": "Part 3 · Questions 11–15",
+"kind": "file",
+"file": "TG/ket-t4/p3.mp3",
+"intro": "You will hear a conversation. For each question, choose the correct answer. Two friends are talking about buying a CD.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What is Robert shopping for?",
+"o": [
+"A game",
+"A book",
+"A CD"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How does Jake feel about the CD he bought for himself?",
+"o": [
+"He listens to it a lot.",
+"He thinks it is boring.",
+"He gave it away."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Where is the shop?",
+"o": [
+"Next to a big shop",
+"Opposite a cinema",
+"Near the station"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How much did the CD cost in the sale?",
+"o": [
+"£12",
+"£9",
+"£10"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What extra thing came with the CD?",
+"o": [
+"A bag",
+"A free poster",
+"A T-shirt"
+],
+"c": 1
+}
+]
+},
+{
+"id": "A2-P4",
+"title": "Part 4 · Questions 16–20",
+"kind": "file",
+"file": "TG/ket-t4/p0.mp3",
+"intro": "You will hear five short recordings. You will hear each recording twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two friends talking about a puppy. What is the problem with the puppy?",
+"o": [
+"He eats too much.",
+"He wakes people at night.",
+"He is ill."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a woman at a cooking class. What will the students make?",
+"o": [
+"A cake",
+"A salad",
+"A soup"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a teacher speaking at school. What does he say about Friday?",
+"o": [
+"The sports day will happen then.",
+"The school will be closed.",
+"The parents will play."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two students talking about their teacher. What does the girl not like?",
+"o": [
+"The homework",
+"The games",
+"The lessons"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a woman leaving a message for her son. What does she want him to bring?",
+"o": [
+"Some milk",
+"Some bread",
+"Her wallet"
+],
+"c": 2
+}
+]
+},
+{
+"id": "A2-P5",
+"title": "Part 5 · Questions 21–25",
+"kind": "file",
+"file": "TG/ket-t4/p2.mp3",
+"intro": "You will hear a girl talking to a friend about what each person ate at a restaurant. What did each person have? For each question, choose the correct letter from the list.",
+"bank": [
+"salad",
+"steak and chips",
+"pasta",
+"pizza",
+"fish pie",
+"a hamburger and chips",
+"soup",
+"chicken"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Katie",
+"c": "salad"
+},
+{
+"type": "match",
+"person": "Mark",
+"c": "steak and chips"
+},
+{
+"type": "match",
+"person": "Mike",
+"c": "pasta"
+},
+{
+"type": "match",
+"person": "Georgina",
+"c": "fish pie"
+},
+{
+"type": "match",
+"person": "Rebecca",
+"c": "a hamburger and chips"
+}
+]
+}
+]
+},
+{
+"label": "A2 — Practice · KET Test 5 audio · TG",
+"cefr": "Cambridge A2 Key · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 5, plus an original Part 4.",
+"audios": [
+{
+"id": "A2-P1",
+"title": "Part 1 · Questions 1–5",
+"kind": "file",
+"file": "TG/ket-t5/p1.mp3",
+"intro": "You will hear five short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Where is the woman's family going on holiday?",
+"o": [
+"To Spain",
+"To Italy",
+"To a Greek island"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What time is Mary's appointment with the doctor?",
+"o": [
+"11.20",
+"11.30",
+"12.30"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Which jewellery box does Emma like?",
+"o": [
+"A small round box",
+"A small square box",
+"A large round box"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How far away is the nearest public library?",
+"o": [
+"About 3 kilometres",
+"About 18 kilometres",
+"About 8 kilometres"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "On which day will it rain?",
+"o": [
+"Friday",
+"Saturday",
+"Monday"
+],
+"c": 1
+}
+]
+},
+{
+"id": "A2-P2",
+"title": "Part 2 · Questions 6–10",
+"kind": "file",
+"file": "TG/ket-t5/p4.mp3",
+"intro": "You will hear a conversation. Listen and complete each gap with one word or a number. A woman asks about a bus.",
+"gapTitle": "Bus to Newcastle",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The woman wants to travel on ____.",
+"accept": [
+"friday"
+]
+},
+{
+"type": "gap",
+"label": "She will take bus number ____.",
+"accept": [
+"c12",
+"c 12",
+"c-12"
+]
+},
+{
+"type": "gap",
+"label": "The bus arrives in Newcastle at ____ pm.",
+"accept": [
+"5",
+"5pm",
+"5 pm",
+"5.00",
+"five"
+]
+},
+{
+"type": "gap",
+"label": "A single ticket costs £____.",
+"accept": [
+"28",
+"twenty-eight",
+"twenty eight"
+]
+},
+{
+"type": "gap",
+"label": "The travel centre is at 24 ____ Street.",
+"accept": [
+"martin"
+]
+}
+]
+},
+{
+"id": "A2-P3",
+"title": "Part 3 · Questions 11–15",
+"kind": "file",
+"file": "TG/ket-t5/p3.mp3",
+"intro": "You will hear a conversation. For each question, choose the correct answer. A boy tells a friend about a book.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What is Karl doing at the moment?",
+"o": [
+"Finishing a book",
+"Looking for a book",
+"Buying a book"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What is the name of Karl's book?",
+"o": [
+"The Lost Island",
+"The Lost City",
+"The Future City"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What was the book Sandra read about?",
+"o": [
+"Life in the past",
+"Life in a city",
+"Life in the future"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "When is Karl taking the book back?",
+"o": [
+"Tomorrow morning",
+"This afternoon",
+"Next week"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What will Sandra do next week?",
+"o": [
+"Return a book to the library",
+"Buy the same book",
+"Borrow the same book"
+],
+"c": 2
+}
+]
+},
+{
+"id": "A2-P4",
+"title": "Part 4 · Questions 16–20",
+"kind": "file",
+"file": "TG/ket-t5/p0.mp3",
+"intro": "You will hear five short recordings. You will hear each recording twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear a boy talking about a birthday cake. Who is it for?",
+"o": [
+"His sister",
+"His friend",
+"His mother"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a woman talking about a school club. What does she say about it?",
+"o": [
+"It costs a lot of money.",
+"Students can use its materials.",
+"It meets on Fridays."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a man at the hairdresser's. What does he want?",
+"o": [
+"A coffee with sugar",
+"A very short haircut",
+"A little off the back"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two students talking about a bike. Why does the boy like it?",
+"o": [
+"It is faster than the bus.",
+"It was cheap.",
+"It is his grandfather's."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a radio advertisement. What is it for?",
+"o": [
+"A radio station",
+"A computer shop",
+"A weekend course"
+],
+"c": 1
+}
+]
+},
+{
+"id": "A2-P5",
+"title": "Part 5 · Questions 21–25",
+"kind": "file",
+"file": "TG/ket-t5/p2.mp3",
+"intro": "You will hear a boy talking to a friend about a school sports day. What did each person do? For each question, choose the correct letter from the list.",
+"bank": [
+"swimming",
+"tennis",
+"football",
+"high jump",
+"table tennis",
+"volleyball",
+"the 100-metre race",
+"the 1000-metre race"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Susan",
+"c": "swimming"
+},
+{
+"type": "match",
+"person": "Jenny",
+"c": "tennis"
+},
+{
+"type": "match",
+"person": "Peter",
+"c": "football"
+},
+{
+"type": "match",
+"person": "Sam",
+"c": "high jump"
+},
+{
+"type": "match",
+"person": "Amy",
+"c": "table tennis"
+}
+]
+}
+]
+},
+{
+"label": "A2 — Practice · KET Test 6 audio · TG",
+"cefr": "Cambridge A2 Key · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 5, plus an original Part 4.",
+"audios": [
+{
+"id": "A2-P1",
+"title": "Part 1 · Questions 1–5",
+"kind": "file",
+"file": "TG/ket-t6/p1.mp3",
+"intro": "You will hear five short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Where did Gary go on holiday?",
+"o": [
+"Paris",
+"Pisa",
+"London"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What kind of book is Maria reading now?",
+"o": [
+"A book about trains",
+"A fairy tale",
+"A cookery book"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What did Sarah buy for Michael?",
+"o": [
+"Sunglasses",
+"A scarf",
+"Gloves"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What is Matthew's mother cooking for dinner?",
+"o": [
+"Soup",
+"Pasta",
+"Chicken"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What is broken in the kitchen?",
+"o": [
+"The sink",
+"The washing machine",
+"The fridge"
+],
+"c": 2
+}
+]
+},
+{
+"id": "A2-P2",
+"title": "Part 2 · Questions 6–10",
+"kind": "file",
+"file": "TG/ket-t6/p4.mp3",
+"intro": "You will hear a conversation. Listen and complete each gap with one word or a number. A teacher gives his class their homework.",
+"gapTitle": "Homework",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The story is on page ____ of the English book.",
+"accept": [
+"81",
+"eighty-one",
+"eighty one"
+]
+},
+{
+"type": "gap",
+"label": "The students must write ____ pages.",
+"accept": [
+"two",
+"2"
+]
+},
+{
+"type": "gap",
+"label": "They must hand in the homework on ____.",
+"accept": [
+"thursday"
+]
+},
+{
+"type": "gap",
+"label": "For geography they read about ____ Mountain.",
+"accept": [
+"twain"
+]
+},
+{
+"type": "gap",
+"label": "They must bring their ____ to art class.",
+"accept": [
+"paint brushes",
+"paintbrushes",
+"brushes",
+"paint brush"
+]
+}
+]
+},
+{
+"id": "A2-P3",
+"title": "Part 3 · Questions 11–15",
+"kind": "file",
+"file": "TG/ket-t6/p3.mp3",
+"intro": "You will hear a conversation. For each question, choose the correct answer. Two friends are talking about a concert.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What kind of music does the band play?",
+"o": [
+"Jazz",
+"Modern rock",
+"Old-style rock"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What time does the show finish?",
+"o": [
+"9.00",
+"10.30",
+"11.00"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Where is the show?",
+"o": [
+"At the music centre",
+"In Bell Street",
+"At a cafe"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How much is a ticket with a student discount?",
+"o": [
+"£12",
+"£4",
+"£8"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What kind of place is Seagulls?",
+"o": [
+"An expensive restaurant",
+"A small cafe",
+"A fast-food shop"
+],
+"c": 1
+}
+]
+},
+{
+"id": "A2-P4",
+"title": "Part 4 · Questions 16–20",
+"kind": "file",
+"file": "TG/ket-t6/p0.mp3",
+"intro": "You will hear five short recordings. You will hear each recording twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear a man and a woman talking. What will the woman do on Sunday?",
+"o": [
+"Play tennis",
+"Rest at home",
+"Go to a restaurant"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear an announcement in a supermarket. What does the woman want?",
+"o": [
+"A car to be moved",
+"A driver to buy fruit",
+"A delivery to arrive"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a boy talking about his weekend job. What does he say about it?",
+"o": [
+"It is boring.",
+"It starts very early.",
+"It is badly paid."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a man booking a table at a restaurant. What time will they eat?",
+"o": [
+"At six",
+"At half past seven",
+"At nine"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a girl talking to her mother. How does the girl feel?",
+"o": [
+"Afraid",
+"Angry",
+"Bored"
+],
+"c": 0
+}
+]
+},
+{
+"id": "A2-P5",
+"title": "Part 5 · Questions 21–25",
+"kind": "file",
+"file": "TG/ket-t6/p2.mp3",
+"intro": "You will hear a girl talking to her father about her week. What is she doing each day? For each question, choose the correct letter from the list.",
+"bank": [
+"going to a dance lesson",
+"studying at the library",
+"going to the park",
+"seeing a film",
+"going shopping",
+"visiting the zoo",
+"going swimming",
+"visiting a friend"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Monday",
+"c": "going to a dance lesson"
+},
+{
+"type": "match",
+"person": "Tuesday",
+"c": "studying at the library"
+},
+{
+"type": "match",
+"person": "Wednesday",
+"c": "going to the park"
+},
+{
+"type": "match",
+"person": "Thursday",
+"c": "seeing a film"
+},
+{
+"type": "match",
+"person": "Friday",
+"c": "going shopping"
+}
+]
+}
+]
+},
+{
+"label": "A2 — Practice · Key for Schools Trainer 1 Test 1 audio · TG",
+"cefr": "Cambridge A2 Key for Schools · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1 to 5.",
+"audios": [
+{
+"id": "A2-P1",
+"title": "Part 1 · Questions 1–5",
+"kind": "file",
+"file": "TG/ktr-t1/p1.mp3",
+"intro": "You will hear five short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What is the girl going to do this afternoon?",
+"o": [
+"Buy a skateboard",
+"Watch a film with friends",
+"Eat cakes in a café"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Which is the boy's new desk?",
+"o": [
+"A desk with four drawers",
+"A desk with shelves only",
+"A desk with two drawers and three shelves"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How will the two friends get to their tennis class?",
+"o": [
+"On foot",
+"By bike",
+"By bus"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Which woman is Laura's new English teacher?",
+"o": [
+"The one with long dark hair",
+"The one with short dark hair and glasses",
+"The one with fair hair"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What might Harry do if it rains on Saturday?",
+"o": [
+"Go running",
+"Play badminton",
+"Play volleyball"
+],
+"c": 2
+}
+]
+},
+{
+"id": "A2-P2",
+"title": "Part 2 · Questions 6–10",
+"kind": "file",
+"file": "TG/ktr-t1/p2.mp3",
+"intro": "You will hear a teacher telling students about a new club. Listen and complete each gap with one word or a number.",
+"gapTitle": "School music club",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The club begins on ____ September.",
+"accept": [
+"15",
+"15th",
+"fifteen",
+"fifteenth"
+]
+},
+{
+"type": "gap",
+"label": "Classes are on ____ after school.",
+"accept": [
+"thursday",
+"thursdays"
+]
+},
+{
+"type": "gap",
+"label": "The club finishes at ____ o'clock.",
+"accept": [
+"5",
+"five"
+]
+},
+{
+"type": "gap",
+"label": "The new teacher's name is Mr ____.",
+"accept": [
+"taylor"
+]
+},
+{
+"type": "gap",
+"label": "The club meets in the ____.",
+"accept": [
+"library"
+]
+}
+]
+},
+{
+"id": "A2-P3",
+"title": "Part 3 · Questions 11–15",
+"kind": "file",
+"file": "TG/ktr-t1/p3.mp3",
+"intro": "You will hear a boy and a girl talking about a computer game. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How did the boy find out about the game?",
+"o": [
+"He saw an advertisement.",
+"His mother told him about it.",
+"A school friend recommended it."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why is it his favourite game?",
+"o": [
+"It is new.",
+"It is difficult.",
+"It is funny."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Who does he want to play it with?",
+"o": [
+"His brother",
+"His cousin",
+"His grandfather"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How long did he play on Friday?",
+"o": [
+"One hour",
+"Forty-five minutes",
+"Ninety minutes"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Which part of the game does he enjoy most?",
+"o": [
+"Crossing the rivers",
+"Building a hut",
+"Looking for food"
+],
+"c": 2
+}
+]
+},
+{
+"id": "A2-P4",
+"title": "Part 4 · Questions 16–20",
+"kind": "file",
+"file": "TG/ktr-t1/p4.mp3",
+"intro": "You will hear five short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two friends talking about shopping. What do they decide to buy now?",
+"o": [
+"Some snacks",
+"A school book",
+"A pair of gloves"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a teacher talking to a student called Lynn. Why was Lynn away from school yesterday?",
+"o": [
+"She was feeling ill.",
+"She was playing in a match.",
+"Her journey home was late."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a boy talking about surfing. How did he learn to surf?",
+"o": [
+"By going to classes",
+"By following advice on the internet",
+"By trying with his friends"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a girl talking about her day at school. Which lesson did she like best?",
+"o": [
+"Learning about the oceans",
+"Reading a novel",
+"Studying insects"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two brothers talking about last night. Why did they both sleep badly?",
+"o": [
+"Their dad was packing the car.",
+"Their room was too hot.",
+"Their mum was playing music."
+],
+"c": 1
+}
+]
+},
+{
+"id": "A2-P5",
+"title": "Part 5 · Questions 21–25",
+"kind": "file",
+"file": "TG/ktr-t1/p5.mp3",
+"intro": "You will hear a girl talking to her mother about what her friends want to do in the future. What job does each person want to do? For each question, choose the correct answer.",
+"bank": [
+"Pilot",
+"Dentist",
+"Tour guide",
+"Car mechanic",
+"Journalist",
+"Actor",
+"Sports coach",
+"Hospital receptionist"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Tyler",
+"c": "Dentist"
+},
+{
+"type": "match",
+"person": "Ava",
+"c": "Tour guide"
+},
+{
+"type": "match",
+"person": "Mark",
+"c": "Car mechanic"
+},
+{
+"type": "match",
+"person": "Victoria",
+"c": "Journalist"
+},
+{
+"type": "match",
+"person": "Bobby",
+"c": "Actor"
+}
+]
+}
+]
+},
+{
+"label": "A2 — Practice · Key for Schools Trainer 1 Test 2 audio · TG",
+"cefr": "Cambridge A2 Key for Schools · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1 to 5.",
+"audios": [
+{
+"id": "A2-P1",
+"title": "Part 1 · Questions 1–5",
+"kind": "file",
+"file": "TG/ktr-t2/p1.mp3",
+"intro": "You will hear five short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What will they have for lunch?",
+"o": [
+"Pasta",
+"A salad",
+"Pizza from last night"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Who are Emily's new neighbours?",
+"o": [
+"A family with two boys",
+"A family with two girls",
+"An old lady on her own"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What is Oscar doing when Isabelle phones?",
+"o": [
+"Eating dinner",
+"Painting his walls",
+"Moving furniture"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why did Nisha miss the party?",
+"o": [
+"She was ill.",
+"She was travelling home.",
+"She was cooking for her aunt."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Where was Oliver's phone?",
+"o": [
+"On the desk",
+"On the sofa",
+"On the kitchen table"
+],
+"c": 0
+}
+]
+},
+{
+"id": "A2-P2",
+"title": "Part 2 · Questions 6–10",
+"kind": "file",
+"file": "TG/ktr-t2/p2.mp3",
+"intro": "You will hear a woman telling a group of children about their day at an animal park. Listen and complete each gap with one word or a number.",
+"gapTitle": "A day at the animal park",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "In the drawing activity, the children will draw a ____.",
+"accept": [
+"tiger"
+]
+},
+{
+"type": "gap",
+"label": "They will give the animals their water at ____.",
+"accept": [
+"10.45",
+"10:45",
+"a quarter to eleven",
+"quarter to eleven"
+]
+},
+{
+"type": "gap",
+"label": "The baby lion's name is ____.",
+"accept": [
+"sohatu"
+]
+},
+{
+"type": "gap",
+"label": "The oldest dolphin is ____ years old.",
+"accept": [
+"37",
+"thirty-seven",
+"thirty seven"
+]
+},
+{
+"type": "gap",
+"label": "At the end of the day, each child gets a ____.",
+"accept": [
+"poster"
+]
+}
+]
+},
+{
+"id": "A2-P3",
+"title": "Part 3 · Questions 11–15",
+"kind": "file",
+"file": "TG/ktr-t2/p3.mp3",
+"intro": "You will hear a girl called Jasmine talking to her aunt about a camping trip. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Where did they go swimming?",
+"o": [
+"In the lake",
+"In the sea",
+"In the river"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How did Jasmine feel about sleeping in a tent?",
+"o": [
+"She found it boring.",
+"She was afraid all weekend.",
+"She came to enjoy it."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What did Jasmine like cooking best?",
+"o": [
+"An omelette",
+"Steak",
+"Pasta"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What did the campsite not have?",
+"o": [
+"A shop",
+"A swimming pool",
+"Showers"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Which activity did Jasmine like best?",
+"o": [
+"Cycling",
+"Running in the forest",
+"Fishing"
+],
+"c": 2
+}
+]
+},
+{
+"id": "A2-P4",
+"title": "Part 4 · Questions 16–20",
+"kind": "file",
+"file": "TG/ktr-t2/p4.mp3",
+"intro": "You will hear five short recordings. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear a girl called Teresa talking to her friend. Who is Teresa waiting for?",
+"o": [
+"Her aunt",
+"Her brother",
+"The sports coach"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a boy phoning his mother. Why is he phoning her?",
+"o": [
+"To say he is ill",
+"To ask if he can go to a friend's house",
+"To ask what is for dinner"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about a new café. How will they find out where it is?",
+"o": [
+"By asking Sophia",
+"By looking online",
+"By reading a notice"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a girl and her dad talking about a boat tour. Why do they decide to go today?",
+"o": [
+"The weather is sunny.",
+"Her uncle will be on the boat.",
+"The tickets are cheaper."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a boy called Hugo talking to his teacher. What must Hugo do first?",
+"o": [
+"Take books to the library",
+"Show younger students how to upload work",
+"Carry boxes to the computer room"
+],
+"c": 2
+}
+]
+},
+{
+"id": "A2-P5",
+"title": "Part 5 · Questions 21–25",
+"kind": "file",
+"file": "TG/ktr-t2/p5.mp3",
+"intro": "You will hear a girl talking to her mother about her friends' hobbies. What is each person's hobby? For each question, choose the correct answer.",
+"bank": [
+"Watching horror films",
+"Playing in a band",
+"Learning languages",
+"Diving",
+"Acting in plays",
+"Having an art exhibition",
+"Building model planes",
+"Climbing mountains"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Hannah",
+"c": "Playing in a band"
+},
+{
+"type": "match",
+"person": "Christopher",
+"c": "Learning languages"
+},
+{
+"type": "match",
+"person": "Samantha",
+"c": "Diving"
+},
+{
+"type": "match",
+"person": "Andrew",
+"c": "Acting in plays"
+},
+{
+"type": "match",
+"person": "Grace",
+"c": "Having an art exhibition"
+}
+]
+}
+]
+},
+{
+"label": "A2 — Practice · Key for Schools Trainer 1 Test 3 audio · TG",
+"cefr": "Cambridge A2 Key for Schools · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1 to 5.",
+"audios": [
+{
+"id": "A2-P1",
+"title": "Part 1 · Questions 1–5",
+"kind": "file",
+"file": "TG/ktr-t3/p1.mp3",
+"intro": "You will hear five short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What time does the nature programme start?",
+"o": [
+"Ten past seven",
+"Half past seven",
+"Half past six"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Who is Diana talking to on her mobile?",
+"o": [
+"Her aunt",
+"A friend",
+"Her project partner"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Where will Henry put his mum's watch?",
+"o": [
+"Next to the cooker",
+"On the sofa",
+"Beside her bed"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why is the girl tired?",
+"o": [
+"She played tennis.",
+"She walked home.",
+"She tidied her room."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What will the weather be like on Sunday?",
+"o": [
+"Cloudy but warm",
+"Rainy and cool",
+"Sunny and hot"
+],
+"c": 0
+}
+]
+},
+{
+"id": "A2-P2",
+"title": "Part 2 · Questions 6–10",
+"kind": "file",
+"file": "TG/ktr-t3/p2.mp3",
+"intro": "You will hear a boy phoning a friend about a football match. Listen and complete each gap with one word or a number.",
+"gapTitle": "Going to the football match",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The match is at the ____ stadium.",
+"accept": [
+"bridge"
+]
+},
+{
+"type": "gap",
+"label": "He asks his friend to come to his house at ____.",
+"accept": [
+"2.30",
+"2:30",
+"half past two",
+"half past 2",
+"14:30"
+]
+},
+{
+"type": "gap",
+"label": "They will travel by bus number ____.",
+"accept": [
+"395",
+"three nine five",
+"three hundred and ninety-five"
+]
+},
+{
+"type": "gap",
+"label": "He is going to wear his ____ coat.",
+"accept": [
+"red"
+]
+},
+{
+"type": "gap",
+"label": "His friend should bring a ____ to eat.",
+"accept": [
+"snack",
+"snacks"
+]
+}
+]
+},
+{
+"id": "A2-P3",
+"title": "Part 3 · Questions 11–15",
+"kind": "file",
+"file": "TG/ktr-t3/p3.mp3",
+"intro": "You will hear two friends, Hitomi and Freddy, talking about a visit to a castle. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Who did Hitomi go to the castle with?",
+"o": [
+"Her class",
+"Her family",
+"Some neighbours"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What was the weather like on Saturday?",
+"o": [
+"Cold and windy",
+"Rainy",
+"Sunny"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What did Freddy like best when he visited?",
+"o": [
+"The dining room",
+"The rooms upstairs",
+"The yellow bedroom"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why did Hitomi go to the castle?",
+"o": [
+"To take photographs",
+"To meet her teacher",
+"To find out about birds"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What can people do at the castle next week?",
+"o": [
+"Take part in a race",
+"Look at old cars",
+"Join a painting course"
+],
+"c": 0
+}
+]
+},
+{
+"id": "A2-P4",
+"title": "Part 4 · Questions 16–20",
+"kind": "file",
+"file": "TG/ktr-t3/p4.mp3",
+"intro": "You will hear five short recordings. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear a girl talking about a video. Which part didn't she understand?",
+"o": [
+"The opening section about where animals live",
+"The section after that",
+"The final section"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about a concert. Why did one of them dislike it?",
+"o": [
+"The musicians had not practised enough.",
+"The instruments were strange.",
+"The music was too loud."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a boy talking to his dad about going to the city centre. What does the boy want to do before they leave?",
+"o": [
+"Buy a newspaper",
+"Finish watching a match",
+"Call his mum"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a teacher talking to his class. What is he telling his students?",
+"o": [
+"They will go to the park to take photographs.",
+"They will start a new project in the classroom.",
+"They will finish school early today."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a boy talking about his sister Emma. What job does her husband do?",
+"o": [
+"He is an artist.",
+"He owns a restaurant.",
+"He is a tour guide."
+],
+"c": 2
+}
+]
+},
+{
+"id": "A2-P5",
+"title": "Part 5 · Questions 21–25",
+"kind": "file",
+"file": "TG/ktr-t3/p5.mp3",
+"intro": "You will hear a girl talking to her uncle about her old school. What was wrong with each place? For each question, choose the correct answer.",
+"bank": [
+"Too far from the other rooms",
+"Too noisy",
+"Dirty and cold",
+"Out of date equipment",
+"Too slow",
+"Too small",
+"Too crowded",
+"Too dark"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "The cafeteria",
+"c": "Too noisy"
+},
+{
+"type": "match",
+"person": "The library",
+"c": "Dirty and cold"
+},
+{
+"type": "match",
+"person": "The classrooms",
+"c": "Out of date equipment"
+},
+{
+"type": "match",
+"person": "The lifts",
+"c": "Too slow"
+},
+{
+"type": "match",
+"person": "The school office",
+"c": "Too small"
+}
+]
+}
+]
+},
+{
+"label": "A2 — Practice · Key for Schools Trainer 1 Test 4 audio · TG",
+"cefr": "Cambridge A2 Key for Schools · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1 to 5.",
+"audios": [
+{
+"id": "A2-P1",
+"title": "Part 1 · Questions 1–5",
+"kind": "file",
+"file": "TG/ktr-t4/p1.mp3",
+"intro": "You will hear five short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How much did the boy's football shirt cost?",
+"o": [
+"£11.75",
+"£20.50",
+"£35"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What did Sophie enjoy doing most at the weekend?",
+"o": [
+"Playing volleyball",
+"Swimming",
+"Fishing"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Where did Paul stay on holiday this year?",
+"o": [
+"In a tent",
+"On a boat",
+"In a hotel"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Which subject will they study first today?",
+"o": [
+"Chemistry",
+"Maths",
+"Geography"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why was Tina late for school today?",
+"o": [
+"She woke up late.",
+"The bus was full.",
+"The traffic was bad."
+],
+"c": 1
+}
+]
+},
+{
+"id": "A2-P2",
+"title": "Part 2 · Questions 6–10",
+"kind": "file",
+"file": "TG/ktr-t4/p2.mp3",
+"intro": "You will hear a woman telling her daughter about a dance competition. Listen and complete each gap with one word or a number.",
+"gapTitle": "Dance competition",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The competition is for children between 13 and ____.",
+"accept": [
+"15",
+"fifteen"
+]
+},
+{
+"type": "gap",
+"label": "The competition is on the ____ of August.",
+"accept": [
+"4",
+"4th",
+"fourth"
+]
+},
+{
+"type": "gap",
+"label": "Entries must arrive by the ____ of July.",
+"accept": [
+"12",
+"12th",
+"twelve",
+"twelfth"
+]
+},
+{
+"type": "gap",
+"label": "To enter, Rosie must send a ____.",
+"accept": [
+"video"
+]
+},
+{
+"type": "gap",
+"label": "The competition will be held at the ____ opposite the park.",
+"accept": [
+"college"
+]
+}
+]
+},
+{
+"id": "A2-P3",
+"title": "Part 3 · Questions 11–15",
+"kind": "file",
+"file": "TG/ktr-t4/p3.mp3",
+"intro": "You will hear two friends, Tommy and Olga, talking about a class party. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "When is the class party?",
+"o": [
+"28 June",
+"25 June",
+"1 July"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What will Olga wear to the party?",
+"o": [
+"Black jeans and a black T-shirt",
+"Blue shorts and a black T-shirt",
+"Blue shorts and a blue T-shirt"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What is Olga worried about?",
+"o": [
+"Singing in front of everyone",
+"Playing the guitar",
+"Cleaning up afterwards"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why will Olga arrive late?",
+"o": [
+"She must tidy the room.",
+"She is playing in a tennis match.",
+"She will miss the bus."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How will Olga get to the party?",
+"o": [
+"By car with her mum",
+"By bus",
+"On foot"
+],
+"c": 0
+}
+]
+},
+{
+"id": "A2-P4",
+"title": "Part 4 · Questions 16–20",
+"kind": "file",
+"file": "TG/ktr-t4/p4.mp3",
+"intro": "You will hear five short recordings. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two classmates talking together. How did the girl come to school today?",
+"o": [
+"By underground train",
+"By car",
+"On foot"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a girl talking to a man who works at a museum. What has the girl lost?",
+"o": [
+"Her backpack",
+"Her jacket",
+"A box with her school papers"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a boy talking about learning French. How did he improve his French?",
+"o": [
+"By writing to French children",
+"By watching films",
+"By going on a school trip"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a girl talking to her aunt about her hobbies. Which hobby does the girl like doing now?",
+"o": [
+"Collecting toy dinosaurs",
+"Taking photos at the zoo",
+"Looking after horses"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a head teacher talking to the whole school. What can students find next to the library?",
+"o": [
+"A place to buy lunch",
+"Instruments to borrow",
+"A volleyball court"
+],
+"c": 0
+}
+]
+},
+{
+"id": "A2-P5",
+"title": "Part 5 · Questions 21–25",
+"kind": "file",
+"file": "TG/ktr-t4/p5.mp3",
+"intro": "You will hear two friends talking about the presents one of them bought on a trip around Europe. What did they buy in each country? For each question, choose the correct answer.",
+"bank": [
+"Kite",
+"Photo album",
+"Calendar",
+"Dictionary",
+"Mug",
+"Bag",
+"Postcard",
+"Guidebook"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Poland",
+"c": "Photo album"
+},
+{
+"type": "match",
+"person": "Switzerland",
+"c": "Calendar"
+},
+{
+"type": "match",
+"person": "Italy",
+"c": "Dictionary"
+},
+{
+"type": "match",
+"person": "Spain",
+"c": "Mug"
+},
+{
+"type": "match",
+"person": "Portugal",
+"c": "Bag"
+}
+]
+}
+]
+},
+{
+"label": "A2 — Practice · Key for Schools Trainer 1 Test 5 audio · TG",
+"cefr": "Cambridge A2 Key for Schools · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1 to 5.",
+"audios": [
+{
+"id": "A2-P1",
+"title": "Part 1 · Questions 1–5",
+"kind": "file",
+"file": "TG/ktr-t5/p1.mp3",
+"intro": "You will hear five short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How will Luciana invite her friends to her party?",
+"o": [
+"By email",
+"By phone",
+"By post"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Charlie want to borrow from his brother?",
+"o": [
+"Some trainers",
+"Some jeans",
+"Some sunglasses"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How will Carol get to her dance class?",
+"o": [
+"By car with her dad",
+"On foot",
+"By bus"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Which film do they decide to watch first?",
+"o": [
+"One about climbing a mountain",
+"One about a dance competition",
+"One about life in the future"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Which T-shirt does the girl like best?",
+"o": [
+"The one with a surfboard",
+"The one with an island",
+"The one with a dolphin"
+],
+"c": 2
+}
+]
+},
+{
+"id": "A2-P2",
+"title": "Part 2 · Questions 6–10",
+"kind": "file",
+"file": "TG/ktr-t5/p2.mp3",
+"intro": "You will hear a boy leaving a phone message for a classmate about their English homework. Listen and complete each gap with one word or a number.",
+"gapTitle": "English homework",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The homework is to write a story about a ____.",
+"accept": [
+"journey"
+]
+},
+{
+"type": "gap",
+"label": "The story must be ____ words long.",
+"accept": [
+"250",
+"two hundred and fifty",
+"two hundred fifty"
+]
+},
+{
+"type": "gap",
+"label": "The students must include a ____ in their story.",
+"accept": [
+"photo",
+"photograph",
+"picture"
+]
+},
+{
+"type": "gap",
+"label": "The website for ideas is www.____.com.",
+"accept": [
+"colatra"
+]
+},
+{
+"type": "gap",
+"label": "The homework must be handed in on the ____ of May.",
+"accept": [
+"22",
+"22nd",
+"twenty-second",
+"twenty second"
+]
+}
+]
+},
+{
+"id": "A2-P3",
+"title": "Part 3 · Questions 11–15",
+"kind": "file",
+"file": "TG/ktr-t5/p3.mp3",
+"intro": "You will hear a customer asking a shop assistant for help to buy a skateboard. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What kind of skateboard does the customer want?",
+"o": [
+"A wooden one",
+"A plastic one",
+"A metal one"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What colour wheels does the customer choose?",
+"o": [
+"Purple",
+"Yellow",
+"Grey"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How wide should the skateboard be?",
+"o": [
+"16 centimetres",
+"18 centimetres",
+"20 centimetres"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What is the free gift this month?",
+"o": [
+"A pair of gloves",
+"A scarf",
+"A backpack"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "When will the customer come back to the shop?",
+"o": [
+"On Wednesday",
+"On Friday",
+"On Saturday"
+],
+"c": 1
+}
+]
+},
+{
+"id": "A2-P4",
+"title": "Part 4 · Questions 16–20",
+"kind": "file",
+"file": "TG/ktr-t5/p4.mp3",
+"intro": "You will hear five short recordings. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two friends talking about healthy food. Why are they talking about it?",
+"o": [
+"A doctor visited their class.",
+"They are cooking lunch.",
+"They watched a cooking video."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a boy talking about his history project. Who gave him some information about it?",
+"o": [
+"His neighbour",
+"His teacher",
+"A museum guide"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a girl talking about her birthday. What is she getting?",
+"o": [
+"A skateboard",
+"Some gloves",
+"A swimsuit"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a teacher talking about a problem. Where is the problem?",
+"o": [
+"In the canteen",
+"In the sports hall",
+"In the library"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a brother and sister talking about their pet rabbit. What don't they like about it?",
+"o": [
+"Hair on the floor",
+"The noise it makes",
+"Feeding it every day"
+],
+"c": 0
+}
+]
+},
+{
+"id": "A2-P5",
+"title": "Part 5 · Questions 21–25",
+"kind": "file",
+"file": "TG/ktr-t5/p5.mp3",
+"intro": "You will hear two friends talking about what one of them is doing this week. What is she doing on each day? For each question, choose the correct answer.",
+"bank": [
+"Going to a birthday party",
+"Paying for a school trip",
+"Working on a project at home",
+"Helping a neighbour in her garden",
+"Cooking a meal",
+"Going to the library",
+"Playing tennis",
+"Shopping for a neighbour"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Monday",
+"c": "Going to a birthday party"
+},
+{
+"type": "match",
+"person": "Tuesday",
+"c": "Paying for a school trip"
+},
+{
+"type": "match",
+"person": "Wednesday",
+"c": "Working on a project at home"
+},
+{
+"type": "match",
+"person": "Thursday",
+"c": "Helping a neighbour in her garden"
+},
+{
+"type": "match",
+"person": "Friday",
+"c": "Cooking a meal"
+}
+]
+}
+]
+},
+{
+"label": "A2 — Practice · Key for Schools Trainer 1 Test 6 audio · TG",
+"cefr": "Cambridge A2 Key for Schools · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1 to 5.",
+"audios": [
+{
+"id": "A2-P1",
+"title": "Part 1 · Questions 1–5",
+"kind": "file",
+"file": "TG/ktr-t6/p1.mp3",
+"intro": "You will hear five short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How did Carrie hurt her leg?",
+"o": [
+"She fell off her bike.",
+"She fell on the stairs.",
+"She ran in a race."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Which backpack has the boy bought?",
+"o": [
+"Two small pockets, no picture",
+"One big pocket and a star",
+"Two small pockets and a star"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Where will Daisy have her birthday party?",
+"o": [
+"At the sports club",
+"In her garden",
+"At a restaurant"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What job does Dylan's dad do now?",
+"o": [
+"Doctor",
+"Office worker",
+"Ambulance driver"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What did they both do yesterday?",
+"o": [
+"Sailing",
+"Surfing",
+"Playing volleyball"
+],
+"c": 1
+}
+]
+},
+{
+"id": "A2-P2",
+"title": "Part 2 · Questions 6–10",
+"kind": "file",
+"file": "TG/ktr-t6/p2.mp3",
+"intro": "You will hear a teacher telling students about a class trip. Listen and complete each gap with one word or a number.",
+"gapTitle": "Class trip to a castle",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The trip costs £____ for each student.",
+"accept": [
+"5.60",
+"5.6",
+"£5.60",
+"5 pounds 60",
+"five pounds sixty"
+]
+},
+{
+"type": "gap",
+"label": "The trip is on a ____.",
+"accept": [
+"saturday"
+]
+},
+{
+"type": "gap",
+"label": "Students must be at school by ____.",
+"accept": [
+"8.50",
+"8:50",
+"eight fifty",
+"ten to nine"
+]
+},
+{
+"type": "gap",
+"label": "Students should bring a ____.",
+"accept": [
+"camera"
+]
+},
+{
+"type": "gap",
+"label": "The exhibition they will see is called ____.",
+"accept": [
+"modana"
+]
+}
+]
+},
+{
+"id": "A2-P3",
+"title": "Part 3 · Questions 11–15",
+"kind": "file",
+"file": "TG/ktr-t6/p3.mp3",
+"intro": "You will hear two friends, Nadia and Tom, talking about starting at a new school. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Why will Nadia cycle to school?",
+"o": [
+"The school is far away.",
+"She has heavy books to carry.",
+"The bus is expensive."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does one of the friends say about the uniform trousers?",
+"o": [
+"They are boring.",
+"They are too big.",
+"They are fantastic."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How many students are there at the new school?",
+"o": [
+"475",
+"800",
+"1,055"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Which subject is new for them?",
+"o": [
+"Chemistry",
+"Maths",
+"Biology"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What will happen in the second week?",
+"o": [
+"They will meet all their teachers.",
+"They will learn how to use the library.",
+"They will choose their subjects."
+],
+"c": 1
+}
+]
+},
+{
+"id": "A2-P4",
+"title": "Part 4 · Questions 16–20",
+"kind": "file",
+"file": "TG/ktr-t6/p4.mp3",
+"intro": "You will hear five short recordings. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear a teacher talking about a trip. What has changed?",
+"o": [
+"The price",
+"The meeting time",
+"The day"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two students talking about a problem. Where is the boy's phone?",
+"o": [
+"In his bag",
+"In a teacher's drawer",
+"At home"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a boy talking about buying some boots. Why did he buy them?",
+"o": [
+"They are comfortable.",
+"They look like a singer's boots.",
+"His mum liked the colour."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a girl talking about playing tennis. How does she feel after playing?",
+"o": [
+"Tired",
+"Hungry",
+"Angry"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about a new teacher. What do they like about him?",
+"o": [
+"He is friendly and helpful.",
+"He looks like a footballer.",
+"He got good grades at school."
+],
+"c": 0
+}
+]
+},
+{
+"id": "A2-P5",
+"title": "Part 5 · Questions 21–25",
+"kind": "file",
+"file": "TG/ktr-t6/p5.mp3",
+"intro": "You will hear two friends talking about books. What does the girl say about each book? For each question, choose the correct answer.",
+"bank": [
+"Useful for a school project",
+"Read too quickly",
+"Very funny",
+"Difficult words",
+"Very sad",
+"Best at the beginning",
+"Frightening",
+"Boring"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Crunch",
+"c": "Read too quickly"
+},
+{
+"type": "match",
+"person": "My Island",
+"c": "Very funny"
+},
+{
+"type": "match",
+"person": "Dangerous Animals",
+"c": "Difficult words"
+},
+{
+"type": "match",
+"person": "The Invitation",
+"c": "Very sad"
+},
+{
+"type": "match",
+"person": "Skating Star",
+"c": "Best at the beginning"
+}
+]
+}
+]
 }
 ],
 "mocks": [
@@ -10288,10 +14540,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What time do the races start?",
 "imgs": [
-"clock9"
-,
+"clock9",
 "clock830",
-"clock8"],
+"clock8"
+],
 "c": 0,
 "audio": "M4/A2/A2-P1-q1.mp3"
 },
@@ -10428,9 +14680,9 @@ const LISTEN_MORE = {
 "q": "Who will come to watch Marcus?",
 "o": [
 "His mum and dad",
-"His grandma and grandad"
-,
-"His mum and grandma"],
+"His grandma and grandad",
+"His mum and grandma"
+],
 "c": 2
 },
 {
@@ -10469,10 +14721,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "How did Oliver feel before last year's sports day?",
 "o": [
-"A little nervous"
-,
+"A little nervous",
 "Very excited",
-"Not excited"],
+"Not excited"
+],
 "c": 2
 },
 {
@@ -10490,9 +14742,9 @@ const LISTEN_MORE = {
 "q": "What does Oliver say about his running in the race?",
 "o": [
 "It was faster than usual",
-"It was slower because he was scared"
-,
-"It was the same as always"],
+"It was slower because he was scared",
+"It was the same as always"
+],
 "c": 2
 },
 {
@@ -10618,9 +14870,9 @@ const LISTEN_MORE = {
 "q": "What time is dinner at Grandad's house?",
 "imgs": [
 "clock700",
-"clock8"
-,
-"clock730"],
+"clock8",
+"clock730"
+],
 "c": 2,
 "audio": "M5/A2/A2-P1-q3.mp3"
 },
@@ -10629,9 +14881,9 @@ const LISTEN_MORE = {
 "q": "What will the weather be like at the farm this weekend?",
 "imgs": [
 "snowy",
-"sunny"
-,
-"rainy"],
+"sunny",
+"rainy"
+],
 "c": 2,
 "audio": "M5/A2/A2-P1-q4.mp3"
 },
@@ -10746,10 +14998,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What has Leo's grandfather bought for him?",
 "o": [
-"A jar of jam"
-,
+"A jar of jam",
 "Some warm clothes",
-"A fishing rod"],
+"A fishing rod"
+],
 "c": 2
 },
 {
@@ -10818,10 +15070,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does Elena say about her phone?",
 "o": [
-"She broke it at the beach"
-,
+"She broke it at the beach",
 "She phones her friends every day",
-"She hardly uses it at her grandparents' house"],
+"She hardly uses it at her grandparents' house"
+],
 "c": 2
 }
 ]
@@ -10916,9 +15168,9 @@ const LISTEN_MORE = {
 "q": "What time does the cooking class start now?",
 "imgs": [
 "clock400",
-"clock420"
-,
-"clock430"],
+"clock420",
+"clock430"
+],
 "c": 1,
 "audio": "M6/A2/A2-P1-q2.mp3"
 },
@@ -10949,9 +15201,9 @@ const LISTEN_MORE = {
 "q": "What is the weather like now?",
 "imgs": [
 "sunny",
-"snowy"
-,
-"rainy"],
+"snowy",
+"rainy"
+],
 "c": 2,
 "audio": "M6/A2/A2-P1-q5.mp3"
 }
@@ -11053,10 +15305,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "How much does Sofia pay each month?",
 "o": [
-"Twelve pounds"
-,
+"Twelve pounds",
 "Forty pounds",
-"Twenty pounds"],
+"Twenty pounds"
+],
 "c": 2
 },
 {
@@ -11085,10 +15337,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why did Max first try baking?",
 "o": [
-"He wanted to save money"
-,
+"He wanted to save money",
 "His aunt taught him",
-"He was bored one rainy day"],
+"He was bored one rainy day"
+],
 "c": 2
 },
 {
@@ -11125,10 +15377,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why didn't Max take the neighbour's money?",
 "o": [
-"His dad told him not to"
-,
+"His dad told him not to",
 "The bread was a birthday present",
-"She lets him use her oven"],
+"She lets him use her oven"
+],
 "c": 2
 }
 ]
@@ -11212,9 +15464,9 @@ const LISTEN_MORE = {
 "q": "What time do the fair gates open?",
 "imgs": [
 "clock9",
-"clock830"
-,
-"clock8"],
+"clock830",
+"clock8"
+],
 "c": 1,
 "audio": "M7/A2/A2-P1-q1.mp3"
 },
@@ -11340,9 +15592,9 @@ const LISTEN_MORE = {
 "q": "What will Ben do at the fair?",
 "o": [
 "The football game",
-"The cake stall"
-,
-"The bottle stall"],
+"The cake stall",
+"The bottle stall"
+],
 "c": 2
 },
 {
@@ -11370,9 +15622,9 @@ const LISTEN_MORE = {
 "q": "Why doesn't Lucy want to go on the big wheel?",
 "o": [
 "It looks scary",
-"It's too expensive"
-,
-"It made her feel sick last year"],
+"It's too expensive",
+"It made her feel sick last year"
+],
 "c": 2
 },
 {
@@ -11380,9 +15632,9 @@ const LISTEN_MORE = {
 "q": "What time will Lucy and Ben be free?",
 "o": [
 "At three o'clock",
-"At midday"
-,
-"At four o'clock"],
+"At midday",
+"At four o'clock"
+],
 "c": 2
 }
 ]
@@ -11442,9 +15694,9 @@ const LISTEN_MORE = {
 "q": "What will Rosa do this year?",
 "o": [
 "Sell drinks instead",
-"Share a stall with another family"
-,
-"Make twice as many biscuits"],
+"Share a stall with another family",
+"Make twice as many biscuits"
+],
 "c": 2
 }
 ]
@@ -11535,10 +15787,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What will Anna take to the party?",
 "imgs": [
-"cake"
-,
+"cake",
 "pizza",
-"sandwich"],
+"sandwich"
+],
 "c": 0,
 "audio": "P4/B1/B1-P1-q1.mp3"
 },
@@ -11557,10 +15809,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What is the weather like now?",
 "imgs": [
-"snowy"
-,
+"snowy",
 "rainy",
-"sunny"],
+"sunny"
+],
 "c": 2,
 "audio": "P4/B1/B1-P1-q3.mp3"
 },
@@ -11638,9 +15890,9 @@ const LISTEN_MORE = {
 "q": "Why did the girl join the chess club?",
 "o": [
 "Her brother invited her",
-"She saw an advertisement"
-,
-"Her best friend joined"],
+"She saw an advertisement",
+"Her best friend joined"
+],
 "c": 2,
 "audio": "P4/B1/B1-P2-q1.mp3"
 },
@@ -11648,10 +15900,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does the man like best about the programme?",
 "o": [
-"The listeners' calls"
-,
+"The listeners' calls",
 "The interviews",
-"The music"],
+"The music"
+],
 "c": 0,
 "audio": "P4/B1/B1-P2-q2.mp3"
 },
@@ -11823,9 +16075,9 @@ const LISTEN_MORE = {
 "q": "What does Ben hope to do next?",
 "o": [
 "Teach younger climbers",
-"Climb abroad"
-,
-"Reach a competition final"],
+"Climb abroad",
+"Reach a competition final"
+],
 "c": 2
 }
 ]
@@ -11889,9 +16141,9 @@ const LISTEN_MORE = {
 "q": "What will the weather be like tomorrow?",
 "imgs": [
 "sunny",
-"snowy"
-,
-"rainy"],
+"snowy",
+"rainy"
+],
 "c": 1,
 "audio": "P5/B1/B1-P1-q3.mp3"
 },
@@ -11910,10 +16162,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "Where will the class meet on Friday?",
 "imgs": [
-"library"
-,
+"library",
 "cafe",
-"park"],
+"park"
+],
 "c": 2,
 "audio": "P5/B1/B1-P1-q5.mp3"
 },
@@ -11921,10 +16173,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What time does the market open on Tuesdays?",
 "imgs": [
-"clock9"
-,
+"clock9",
 "clock830",
-"clock8"],
+"clock8"
+],
 "c": 0,
 "audio": "P5/B1/B1-P1-q6.mp3"
 },
@@ -11968,10 +16220,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What did the girl enjoy most about last year's trip?",
 "o": [
-"The picnic"
-,
+"The picnic",
 "The museum",
-"The castle"],
+"The castle"
+],
 "c": 2,
 "audio": "P5/B1/B1-P2-q1.mp3"
 },
@@ -11980,9 +16232,9 @@ const LISTEN_MORE = {
 "q": "Where will the boy's class go on their trip?",
 "o": [
 "The zoo",
-"The beach"
-,
-"The science museum"],
+"The beach",
+"The science museum"
+],
 "c": 2,
 "audio": "P5/B1/B1-P2-q2.mp3"
 },
@@ -12023,10 +16275,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What will students make after the trip?",
 "o": [
-"A poster"
-,
+"A poster",
 "A video",
-"An essay"],
+"An essay"
+],
 "c": 0,
 "audio": "P5/B1/B1-P2-q6.mp3"
 }
@@ -12108,9 +16360,9 @@ const LISTEN_MORE = {
 "q": "Why did the class choose to visit the mine?",
 "o": [
 "The teacher chose it",
-"It was the cheapest option"
-,
-"They had studied mining at school"],
+"It was the cheapest option",
+"They had studied mining at school"
+],
 "c": 2
 },
 {
@@ -12118,9 +16370,9 @@ const LISTEN_MORE = {
 "q": "What was the hardest part of planning the trip?",
 "o": [
 "Finding a free date",
-"Keeping the price low"
-,
-"Choosing the place"],
+"Keeping the price low",
+"Choosing the place"
+],
 "c": 1
 },
 {
@@ -12138,9 +16390,9 @@ const LISTEN_MORE = {
 "q": "What did the students enjoy most?",
 "o": [
 "The underground train",
-"The gift shop"
-,
-"Trying on miners' equipment"],
+"The gift shop",
+"Trying on miners' equipment"
+],
 "c": 2
 },
 {
@@ -12212,10 +16464,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What time is Daniel's interview now?",
 "imgs": [
-"clock430"
-,
+"clock430",
 "clock420",
-"clock400"],
+"clock400"
+],
 "c": 0,
 "audio": "P6/B1/B1-P1-q2.mp3"
 },
@@ -12235,9 +16487,9 @@ const LISTEN_MORE = {
 "q": "What is the weather like now?",
 "imgs": [
 "sunny",
-"snowy"
-,
-"rainy"],
+"snowy",
+"rainy"
+],
 "c": 2,
 "audio": "P6/B1/B1-P1-q4.mp3"
 },
@@ -12315,9 +16567,9 @@ const LISTEN_MORE = {
 "q": "What does the shop owner say is most important?",
 "o": [
 "Having experience",
-"Serving customers well"
-,
-"Being on time"],
+"Serving customers well",
+"Being on time"
+],
 "c": 2,
 "audio": "P6/B1/B1-P2-q2.mp3"
 },
@@ -12326,9 +16578,9 @@ const LISTEN_MORE = {
 "q": "How did the boy find out about the job?",
 "o": [
 "His friend told him",
-"He saw it in the shop window"
-,
-"He saw it online"],
+"He saw it in the shop window",
+"He saw it online"
+],
 "c": 1,
 "audio": "P6/B1/B1-P2-q3.mp3"
 },
@@ -12440,9 +16692,9 @@ const LISTEN_MORE = {
 "q": "How did Lucy find out about the job?",
 "o": [
 "From an online advert",
-"From a notice in the shop"
-,
-"From her aunt"],
+"From a notice in the shop",
+"From her aunt"
+],
 "c": 2
 },
 {
@@ -12599,10 +16851,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What has Ruby lost?",
 "imgs": [
-"keys"
-,
+"keys",
 "phone",
-"hat"],
+"hat"
+],
 "c": 2,
 "audio": "P7/B1/B1-P1-q7.mp3"
 }
@@ -12647,9 +16899,9 @@ const LISTEN_MORE = {
 "q": "What does the man advise people to do?",
 "o": [
 "Buy tickets at the gate",
-"Book on the website"
-,
-"Wait until May"],
+"Book on the website",
+"Wait until May"
+],
 "c": 1,
 "audio": "P7/B1/B1-P2-q2.mp3"
 },
@@ -12657,10 +16909,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What did the boy do as a volunteer?",
 "o": [
-"He served food"
-,
+"He served food",
 "He worked backstage",
-"He helped with parking"],
+"He helped with parking"
+],
 "c": 2,
 "audio": "P7/B1/B1-P2-q3.mp3"
 },
@@ -12668,10 +16920,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What did the woman dislike about camping?",
 "o": [
-"The noise at night"
-,
+"The noise at night",
 "The dirty showers",
-"Sleeping in a tent"],
+"Sleeping in a tent"
+],
 "c": 0,
 "audio": "P7/B1/B1-P2-q4.mp3"
 },
@@ -12679,10 +16931,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What has changed about tonight's concert?",
 "o": [
-"The band"
-,
+"The band",
 "The time",
-"The place"],
+"The place"
+],
 "c": 2,
 "audio": "P7/B1/B1-P2-q5.mp3"
 },
@@ -12821,9 +17073,9 @@ const LISTEN_MORE = {
 "q": "What does Elena want to do after the festival?",
 "o": [
 "Go on tour",
-"Start a band"
-,
-"Record an album"],
+"Start a band",
+"Record an album"
+],
 "c": 2
 }
 ]
@@ -12876,9 +17128,9 @@ const LISTEN_MORE = {
 "q": "How does Hugo get to school?",
 "imgs": [
 "bus",
-"car"
-,
-"bike"],
+"car",
+"bike"
+],
 "c": 1,
 "audio": "P8/B1/B1-P1-q2.mp3"
 },
@@ -12886,10 +17138,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What has the weather been like?",
 "imgs": [
-"snowy"
-,
+"snowy",
 "rainy",
-"sunny"],
+"sunny"
+],
 "c": 2,
 "audio": "P8/B1/B1-P1-q3.mp3"
 },
@@ -12909,9 +17161,9 @@ const LISTEN_MORE = {
 "q": "What time does school start in England?",
 "imgs": [
 "clock8",
-"clock9"
-,
-"clock830"],
+"clock9",
+"clock830"
+],
 "c": 2,
 "audio": "P8/B1/B1-P1-q5.mp3"
 },
@@ -12919,10 +17171,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What did the boy forget to pack?",
 "imgs": [
-"umbrella"
-,
+"umbrella",
 "phone",
-"keys"],
+"keys"
+],
 "c": 0,
 "audio": "P8/B1/B1-P1-q6.mp3"
 },
@@ -12930,10 +17182,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What did the boy make with his host family?",
 "imgs": [
-"cake"
-,
+"cake",
 "sandwich",
-"pizza"],
+"pizza"
+],
 "c": 2,
 "audio": "P8/B1/B1-P1-q7.mp3"
 }
@@ -12978,9 +17230,9 @@ const LISTEN_MORE = {
 "q": "What does the girl find strangest about the school?",
 "o": [
 "The long school day",
-"Students don't wear uniforms"
-,
-"The size of the classes"],
+"Students don't wear uniforms",
+"The size of the classes"
+],
 "c": 1,
 "audio": "P8/B1/B1-P2-q2.mp3"
 },
@@ -12988,10 +17240,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What did the family do on the guest's first evening?",
 "o": [
-"They visited the town"
-,
+"They visited the town",
 "They went to a restaurant",
-"They looked at photos together"],
+"They looked at photos together"
+],
 "c": 2,
 "audio": "P8/B1/B1-P2-q3.mp3"
 },
@@ -13010,10 +17262,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What should exchange students bring to the party?",
 "o": [
-"Food from their country"
-,
+"Food from their country",
 "Music",
-"Drinks"],
+"Drinks"
+],
 "c": 0,
 "audio": "P8/B1/B1-P2-q5.mp3"
 },
@@ -13111,20 +17363,20 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What was Hugo's favourite moment of the week?",
 "o": [
-"Playing sport at school"
-,
+"Playing sport at school",
 "Visiting the city",
-"Cooking with the host family"],
+"Cooking with the host family"
+],
 "c": 2
 },
 {
 "type": "mc",
 "q": "What amazed Hugo about the school?",
 "o": [
-"The short school day"
-,
+"The short school day",
 "The size of the classes",
-"The different subjects"],
+"The different subjects"
+],
 "c": 0
 },
 {
@@ -13132,9 +17384,9 @@ const LISTEN_MORE = {
 "q": "What did Hugo do when he couldn't find the right words?",
 "o": [
 "He used a dictionary",
-"He asked his teacher"
-,
-"He drew pictures"],
+"He asked his teacher",
+"He drew pictures"
+],
 "c": 2
 },
 {
@@ -13152,9 +17404,9 @@ const LISTEN_MORE = {
 "q": "What advice does Hugo give exchange students?",
 "o": [
 "Message friends at home every day",
-"Spend evenings with the host family"
-,
-"Take lots of photos"],
+"Spend evenings with the host family",
+"Take lots of photos"
+],
 "c": 1
 }
 ]
@@ -13207,9 +17459,9 @@ const LISTEN_MORE = {
 "q": "What time does the Tuesday class start now?",
 "imgs": [
 "clock400",
-"clock700"
-,
-"clock430"],
+"clock700",
+"clock430"
+],
 "c": 2,
 "audio": "P9/B1/B1-P1-q2.mp3"
 },
@@ -13229,9 +17481,9 @@ const LISTEN_MORE = {
 "q": "What must students bring to Thursday's class?",
 "imgs": [
 "bag",
-"book"
-,
-"hat"],
+"book",
+"hat"
+],
 "c": 1,
 "audio": "P9/B1/B1-P1-q4.mp3"
 },
@@ -13250,10 +17502,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "How does Kate get to the cookery course now?",
 "imgs": [
-"bike"
-,
+"bike",
 "car",
-"bus"],
+"bus"
+],
 "c": 2,
 "audio": "P9/B1/B1-P1-q6.mp3"
 },
@@ -13341,10 +17593,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Which dish did the boy like making best?",
 "o": [
-"The curry"
-,
+"The curry",
 "The salad",
-"The soup"],
+"The soup"
+],
 "c": 0,
 "audio": "P9/B1/B1-P2-q5.mp3"
 },
@@ -13434,29 +17686,29 @@ const LISTEN_MORE = {
 "q": "Why did Hannah join the cookery course?",
 "o": [
 "She had always loved cooking",
-"She wanted to sell cakes"
-,
-"She needed to cook for her family"],
+"She wanted to sell cakes",
+"She needed to cook for her family"
+],
 "c": 2
 },
 {
 "type": "mc",
 "q": "When did Hannah start to enjoy cooking?",
 "o": [
-"When she cooked her first meal"
-,
+"When she cooked her first meal",
 "When she passed the course",
-"When her bread was a success"],
+"When her bread was a success"
+],
 "c": 2
 },
 {
 "type": "mc",
 "q": "What does Hannah still find difficult?",
 "o": [
-"Getting the timing right"
-,
+"Getting the timing right",
 "Baking cakes",
-"Reading recipes"],
+"Reading recipes"
+],
 "c": 0
 },
 {
@@ -13473,20 +17725,20 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What is Hannah saving her money for?",
 "o": [
-"A professional oven"
-,
+"A professional oven",
 "A market stall",
-"A car"],
+"A car"
+],
 "c": 0
 },
 {
 "type": "mc",
 "q": "What would Hannah like to do in the future?",
 "o": [
-"Work in a restaurant"
-,
+"Work in a restaurant",
 "Teach cookery",
-"Open a tea room"],
+"Open a tea room"
+],
 "c": 2
 }
 ]
@@ -13528,9 +17780,9 @@ const LISTEN_MORE = {
 "q": "How will the family travel to the coast?",
 "imgs": [
 "car",
-"bike"
-,
-"bus"],
+"bike",
+"bus"
+],
 "c": 1,
 "audio": "P10/B1/B1-P1-q1.mp3"
 },
@@ -13538,10 +17790,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What should Jack pack for the trip?",
 "imgs": [
-"bag"
-,
+"bag",
 "umbrella",
-"hat"],
+"hat"
+],
 "c": 2,
 "audio": "P10/B1/B1-P1-q2.mp3"
 },
@@ -13583,9 +17835,9 @@ const LISTEN_MORE = {
 "q": "What time will they start?",
 "imgs": [
 "clock8",
-"clock9"
-,
-"clock830"],
+"clock9",
+"clock830"
+],
 "c": 1,
 "audio": "P10/B1/B1-P1-q6.mp3"
 },
@@ -13663,9 +17915,9 @@ const LISTEN_MORE = {
 "q": "What does the woman say cyclists should do before a holiday?",
 "o": [
 "Buy good clothing",
-"Plan shorter routes"
-,
-"Have their brakes checked"],
+"Plan shorter routes",
+"Have their brakes checked"
+],
 "c": 2,
 "audio": "P10/B1/B1-P2-q4.mp3"
 },
@@ -13779,9 +18031,9 @@ const LISTEN_MORE = {
 "q": "How did the family prepare for the trip?",
 "o": [
 "They trained at a gym",
-"They followed a training plan"
-,
-"They rode further each Sunday"],
+"They followed a training plan",
+"They rode further each Sunday"
+],
 "c": 2
 },
 {
@@ -13799,9 +18051,9 @@ const LISTEN_MORE = {
 "q": "What was the best moment for Clara?",
 "o": [
 "Changing a tyre quickly",
-"Arriving at the sea"
-,
-"Cycling in the mountains"],
+"Arriving at the sea",
+"Cycling in the mountains"
+],
 "c": 1
 },
 {
@@ -13895,10 +18147,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What will the weather be like tomorrow?",
 "imgs": [
-"snowy"
-,
+"snowy",
 "rainy",
-"sunny"],
+"sunny"
+],
 "c": 2,
 "audio": "P11/B1/B1-P1-q4.mp3"
 },
@@ -13917,10 +18169,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What will the parents' club sell at the fair?",
 "imgs": [
-"sandwich"
-,
+"sandwich",
 "pizza",
-"cake"],
+"cake"
+],
 "c": 2,
 "audio": "P11/B1/B1-P1-q6.mp3"
 },
@@ -13976,9 +18228,9 @@ const LISTEN_MORE = {
 "q": "Why do the boys work well as a team?",
 "o": [
 "They are best friends",
-"They have different skills"
-,
-"They both love building"],
+"They have different skills",
+"They both love building"
+],
 "c": 1,
 "audio": "P11/B1/B1-P2-q2.mp3"
 },
@@ -13986,10 +18238,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does the teacher say impresses the judges most?",
 "o": [
-"A long report"
-,
+"A long report",
 "A big model",
-"A clear explanation"],
+"A clear explanation"
+],
 "c": 2,
 "audio": "P11/B1/B1-P2-q3.mp3"
 },
@@ -14100,19 +18352,19 @@ const LISTEN_MORE = {
 "q": "Where did Nora get the idea for her project?",
 "o": [
 "From a science book",
-"From a teacher"
-,
-"From a camping trip"],
+"From a teacher",
+"From a camping trip"
+],
 "c": 2
 },
 {
 "type": "mc",
 "q": "Which part of the project took longest?",
 "o": [
-"Testing the filter"
-,
+"Testing the filter",
 "Writing the report",
-"Building the filter"],
+"Building the filter"
+],
 "c": 0
 },
 {
@@ -14139,20 +18391,20 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What did Nora buy with the prize money?",
 "o": [
-"A new filter"
-,
+"A new filter",
 "A camera",
-"A microscope"],
+"A microscope"
+],
 "c": 2
 },
 {
 "type": "mc",
 "q": "What will Nora do at this year's fair?",
 "o": [
-"Be one of the judges"
-,
+"Be one of the judges",
 "Sell programmes",
-"Compete with a new project"],
+"Compete with a new project"
+],
 "c": 0
 }
 ]
@@ -14194,9 +18446,9 @@ const LISTEN_MORE = {
 "q": "What does Tom need to take?",
 "imgs": [
 "ball",
-"hat"
-,
-"bag"],
+"hat",
+"bag"
+],
 "c": 2,
 "audio": "P12/B1/B1-P1-q1.mp3"
 },
@@ -14237,10 +18489,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What can the boy eat at the centre café?",
 "imgs": [
-"pizza"
-,
+"pizza",
 "cake",
-"sandwich"],
+"sandwich"
+],
 "c": 2,
 "audio": "P12/B1/B1-P1-q5.mp3"
 },
@@ -14259,10 +18511,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What has Lily lost?",
 "imgs": [
-"umbrella"
-,
+"umbrella",
 "phone",
-"keys"],
+"keys"
+],
 "c": 2,
 "audio": "P12/B1/B1-P1-q7.mp3"
 }
@@ -14317,10 +18569,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does the girl like best about the pool?",
 "o": [
-"The slide"
-,
+"The slide",
 "Its size",
-"The warm water"],
+"The warm water"
+],
 "c": 0,
 "audio": "P12/B1/B1-P2-q3.mp3"
 },
@@ -14329,9 +18581,9 @@ const LISTEN_MORE = {
 "q": "What do teenagers need for club night?",
 "o": [
 "A booking",
-"Their own equipment"
-,
-"A membership card"],
+"Their own equipment",
+"A membership card"
+],
 "c": 2,
 "audio": "P12/B1/B1-P2-q4.mp3"
 },
@@ -14433,19 +18685,19 @@ const LISTEN_MORE = {
 "q": "Why was the sports centre built?",
 "o": [
 "The football clubs asked for it",
-"The old centre closed down"
-,
-"Doctors were worried about teenagers"],
+"The old centre closed down",
+"Doctors were worried about teenagers"
+],
 "c": 2
 },
 {
 "type": "mc",
 "q": "What is the most popular part of the centre?",
 "o": [
-"The climbing wall"
-,
+"The climbing wall",
 "The gym",
-"The pool"],
+"The pool"
+],
 "c": 0
 },
 {
@@ -14482,10 +18734,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does Sandy advise new visitors to do?",
 "o": [
-"Visit on a quiet morning"
-,
+"Visit on a quiet morning",
 "Buy a membership online",
-"Try some sports before joining"],
+"Try some sports before joining"
+],
 "c": 2
 }
 ]
@@ -14683,10 +18935,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Where does the boy print his photos?",
 "o": [
-"At a shop"
-,
+"At a shop",
 "At school",
-"At home"],
+"At home"
+],
 "c": 0,
 "audio": "P13/B1/B1-P2-q6.mp3"
 }
@@ -14764,20 +19016,20 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why did Olivia start the photography club?",
 "o": [
-"A teacher asked her to"
-,
+"A teacher asked her to",
 "She was an expert photographer",
-"She wanted to make friends"],
+"She wanted to make friends"
+],
 "c": 2
 },
 {
 "type": "mc",
 "q": "How many members does the club have now?",
 "o": [
-"Twenty-five"
-,
+"Twenty-five",
 "Eleven",
-"Four"],
+"Four"
+],
 "c": 0
 },
 {
@@ -14785,9 +19037,9 @@ const LISTEN_MORE = {
 "q": "What was the hardest problem to solve?",
 "o": [
 "Finding members",
-"Finding a room"
-,
-"Getting cameras"],
+"Finding a room",
+"Getting cameras"
+],
 "c": 2
 },
 {
@@ -14859,9 +19111,9 @@ const LISTEN_MORE = {
 "q": "What will Lucy take to the shelter?",
 "imgs": [
 "cake",
-"book"
-,
-"ball"],
+"book",
+"ball"
+],
 "c": 2,
 "audio": "P14/B1/B1-P1-q1.mp3"
 },
@@ -14869,10 +19121,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "How will Ben get to the shelter on Saturday?",
 "imgs": [
-"bike"
-,
+"bike",
 "car",
-"bus"],
+"bus"
+],
 "c": 0,
 "audio": "P14/B1/B1-P1-q2.mp3"
 },
@@ -14891,10 +19143,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What time is the volunteer meeting today?",
 "imgs": [
-"clock730"
-,
+"clock730",
 "clock430",
-"clock400"],
+"clock400"
+],
 "c": 2,
 "audio": "P14/B1/B1-P1-q4.mp3"
 },
@@ -14924,10 +19176,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What is Leo looking for?",
 "imgs": [
-"umbrella"
-,
+"umbrella",
 "phone",
-"keys"],
+"keys"
+],
 "c": 2,
 "audio": "P14/B1/B1-P1-q7.mp3"
 }
@@ -14972,9 +19224,9 @@ const LISTEN_MORE = {
 "q": "What help does the shelter need most?",
 "o": [
 "Dog walking at weekends",
-"Cleaning in the evenings"
-,
-"Feeding animals on weekday mornings"],
+"Cleaning in the evenings",
+"Feeding animals on weekday mornings"
+],
 "c": 2,
 "audio": "P14/B1/B1-P2-q2.mp3"
 },
@@ -15117,9 +19369,9 @@ const LISTEN_MORE = {
 "q": "What does Grace find hardest?",
 "o": [
 "The cleaning",
-"Talking to visitors"
-,
-"Saying goodbye to adopted animals"],
+"Talking to visitors",
+"Saying goodbye to adopted animals"
+],
 "c": 2
 },
 {
@@ -15147,9 +19399,9 @@ const LISTEN_MORE = {
 "q": "What does Grace want to do in the future?",
 "o": [
 "Become a vet",
-"Open her own shelter"
-,
-"Work in animal protection"],
+"Open her own shelter",
+"Work in animal protection"
+],
 "c": 2
 }
 ]
@@ -15234,10 +19486,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What will they eat after the rehearsal?",
 "imgs": [
-"pizza"
-,
+"pizza",
 "sandwich",
-"cake"],
+"cake"
+],
 "c": 0,
 "audio": "P15/B1/B1-P1-q5.mp3"
 },
@@ -15245,10 +19497,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "Where will they practise the street scene?",
 "imgs": [
-"library"
-,
+"library",
 "cafe",
-"park"],
+"park"
+],
 "c": 2,
 "audio": "P15/B1/B1-P1-q6.mp3"
 },
@@ -15304,9 +19556,9 @@ const LISTEN_MORE = {
 "q": "What does the teacher want the actors to do?",
 "o": [
 "Speak more loudly by shouting",
-"Learn their lines better"
-,
-"Slow down and project their voices"],
+"Learn their lines better",
+"Slow down and project their voices"
+],
 "c": 2,
 "audio": "P15/B1/B1-P2-q2.mp3"
 },
@@ -15314,10 +19566,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "When does the boy feel nervous?",
 "o": [
-"After saying his first line"
-,
+"After saying his first line",
 "During rehearsals",
-"Just before going on stage"],
+"Just before going on stage"
+],
 "c": 2,
 "audio": "P15/B1/B1-P2-q3.mp3"
 },
@@ -15348,9 +19600,9 @@ const LISTEN_MORE = {
 "q": "What does the girl like most about the workshop?",
 "o": [
 "Performing on stage",
-"Drinking hot chocolate at home"
-,
-"Sharing ideas after rehearsal"],
+"Drinking hot chocolate at home",
+"Sharing ideas after rehearsal"
+],
 "c": 2,
 "audio": "P15/B1/B1-P2-q6.mp3"
 }
@@ -15468,9 +19720,9 @@ const LISTEN_MORE = {
 "q": "What does Lily enjoy most about theatre?",
 "o": [
 "Hearing the applause",
-"Performing the final show"
-,
-"The rehearsals with the group"],
+"Performing the final show",
+"The rehearsals with the group"
+],
 "c": 2
 },
 {
@@ -15478,9 +19730,9 @@ const LISTEN_MORE = {
 "q": "What does Lily want to do next year?",
 "o": [
 "Act in a bigger theatre",
-"Direct a show"
-,
-"Write her own play"],
+"Direct a show",
+"Write her own play"
+],
 "c": 1
 }
 ]
@@ -15544,9 +19796,9 @@ const LISTEN_MORE = {
 "q": "What is the weather like in Montreal in January?",
 "imgs": [
 "rainy",
-"snowy"
-,
-"sunny"],
+"snowy",
+"sunny"
+],
 "c": 1,
 "audio": "P16/B1/B1-P1-q3.mp3"
 },
@@ -15566,9 +19818,9 @@ const LISTEN_MORE = {
 "q": "What will Ruby give her host family?",
 "imgs": [
 "cake",
-"camera"
-,
-"book"],
+"camera",
+"book"
+],
 "c": 2,
 "audio": "P16/B1/B1-P1-q5.mp3"
 },
@@ -15576,10 +19828,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "Where do new students meet on the first morning?",
 "imgs": [
-"park"
-,
+"park",
 "cafe",
-"library"],
+"library"
+],
 "c": 2,
 "audio": "P16/B1/B1-P1-q6.mp3"
 },
@@ -15588,9 +19840,9 @@ const LISTEN_MORE = {
 "q": "What has the man lost at the airport?",
 "imgs": [
 "phone",
-"bag"
-,
-"keys"],
+"bag",
+"keys"
+],
 "c": 1,
 "audio": "P16/B1/B1-P1-q7.mp3"
 }
@@ -15667,10 +19919,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does the girl say about her new school?",
 "o": [
-"It is easier than her old school"
-,
+"It is easier than her old school",
 "It starts earlier",
-"It gives more homework"],
+"It gives more homework"
+],
 "c": 2,
 "audio": "P16/B1/B1-P2-q5.mp3"
 },
@@ -15678,10 +19930,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What is the man's main advice?",
 "o": [
-"Accept every invitation at first"
-,
+"Accept every invitation at first",
 "Download useful apps",
-"Buy a good dictionary"],
+"Buy a good dictionary"
+],
 "c": 0,
 "audio": "P16/B1/B1-P2-q6.mp3"
 }
@@ -15771,9 +20023,9 @@ const LISTEN_MORE = {
 "q": "When was the most difficult time for Elena?",
 "o": [
 "During the first week",
-"At the very end of her stay"
-,
-"After about two months"],
+"At the very end of her stay",
+"After about two months"
+],
 "c": 2
 },
 {
@@ -15801,9 +20053,9 @@ const LISTEN_MORE = {
 "q": "What does Elena miss most now?",
 "o": [
 "The famous sights",
-"Her host family's cooking"
-,
-"The film club evenings"],
+"Her host family's cooking",
+"The film club evenings"
+],
 "c": 2
 },
 {
@@ -15811,9 +20063,9 @@ const LISTEN_MORE = {
 "q": "What is Elena's advice to other students?",
 "o": [
 "Copy what worked for others",
-"Learn from your own experiences"
-,
-"Avoid making mistakes"],
+"Learn from your own experiences",
+"Avoid making mistakes"
+],
 "c": 1
 }
 ]
@@ -15866,9 +20118,9 @@ const LISTEN_MORE = {
 "q": "How will the group get to the campsite?",
 "imgs": [
 "car",
-"bus"
-,
-"bike"],
+"bus",
+"bike"
+],
 "c": 1,
 "audio": "P17/B1/B1-P1-q2.mp3"
 },
@@ -15888,9 +20140,9 @@ const LISTEN_MORE = {
 "q": "What time will the bus leave?",
 "imgs": [
 "clock700",
-"clock8"
-,
-"clock730"],
+"clock8",
+"clock730"
+],
 "c": 2,
 "audio": "P17/B1/B1-P1-q4.mp3"
 },
@@ -15921,9 +20173,9 @@ const LISTEN_MORE = {
 "q": "What was Sam looking for?",
 "imgs": [
 "keys",
-"camera"
-,
-"phone"],
+"camera",
+"phone"
+],
 "c": 2,
 "audio": "P17/B1/B1-P1-q7.mp3"
 }
@@ -15968,9 +20220,9 @@ const LISTEN_MORE = {
 "q": "What is the most important campsite rule?",
 "o": [
 "No music after ten",
-"Only use the fire boxes"
-,
-"Never leave the site alone"],
+"Only use the fire boxes",
+"Never leave the site alone"
+],
 "c": 2,
 "audio": "P17/B1/B1-P2-q2.mp3"
 },
@@ -15989,10 +20241,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What made the noise outside the tent?",
 "o": [
-"Cows near the fence"
-,
+"Cows near the fence",
 "Another student",
-"A farmer walking past"],
+"A farmer walking past"
+],
 "c": 0,
 "audio": "P17/B1/B1-P2-q4.mp3"
 },
@@ -16103,9 +20355,9 @@ const LISTEN_MORE = {
 "q": "What was hardest to organise?",
 "o": [
 "Choosing the campsite",
-"Booking the transport"
-,
-"Finding a date for everyone"],
+"Booking the transport",
+"Finding a date for everyone"
+],
 "c": 2
 },
 {
@@ -16123,9 +20375,9 @@ const LISTEN_MORE = {
 "q": "What is Ethan most proud of?",
 "o": [
 "The big breakfast he cooked",
-"Borrowing matches from neighbours"
-,
-"How calmly the group reacted"],
+"Borrowing matches from neighbours",
+"How calmly the group reacted"
+],
 "c": 2
 },
 {
@@ -16133,9 +20385,9 @@ const LISTEN_MORE = {
 "q": "What did Ethan learn from the weekend?",
 "o": [
 "Plans should be followed exactly",
-"The unplanned moments can be the best"
-,
-"Every hour should be organised"],
+"The unplanned moments can be the best",
+"Every hour should be organised"
+],
 "c": 1
 },
 {
@@ -16198,9 +20450,9 @@ const LISTEN_MORE = {
 "q": "How is the singer coming to the studio?",
 "imgs": [
 "car",
-"bike"
-,
-"bus"],
+"bike",
+"bus"
+],
 "c": 1,
 "audio": "P18/B1/B1-P1-q2.mp3"
 },
@@ -16209,9 +20461,9 @@ const LISTEN_MORE = {
 "q": "What will the weather be like tomorrow?",
 "imgs": [
 "rainy",
-"snowy"
-,
-"sunny"],
+"snowy",
+"sunny"
+],
 "c": 2,
 "audio": "P18/B1/B1-P1-q3.mp3"
 },
@@ -16220,9 +20472,9 @@ const LISTEN_MORE = {
 "q": "What time does the show start today?",
 "imgs": [
 "clock400",
-"clock700"
-,
-"clock430"],
+"clock700",
+"clock430"
+],
 "c": 2,
 "audio": "P18/B1/B1-P1-q4.mp3"
 },
@@ -16230,10 +20482,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What is this month's quiz prize?",
 "imgs": [
-"camera"
-,
+"camera",
 "guitar",
-"book"],
+"book"
+],
 "c": 0,
 "audio": "P18/B1/B1-P1-q5.mp3"
 },
@@ -16253,9 +20505,9 @@ const LISTEN_MORE = {
 "q": "What did the girl leave in the studio?",
 "imgs": [
 "keys",
-"umbrella"
-,
-"bag"],
+"umbrella",
+"bag"
+],
 "c": 1,
 "audio": "P18/B1/B1-P1-q7.mp3"
 }
@@ -16289,9 +20541,9 @@ const LISTEN_MORE = {
 "q": "When did the girl start to sound natural?",
 "o": [
 "When she read her notes",
-"Before the show began"
-,
-"After she lost her notes"],
+"Before the show began",
+"After she lost her notes"
+],
 "c": 2,
 "audio": "P18/B1/B1-P2-q1.mp3"
 },
@@ -16321,10 +20573,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What advice improved the girl's interviews?",
 "o": [
-"Read the answers carefully"
-,
+"Read the answers carefully",
 "Write every question down",
-"Prepare fewer questions and listen"],
+"Prepare fewer questions and listen"
+],
 "c": 2,
 "audio": "P18/B1/B1-P2-q4.mp3"
 },
@@ -16436,9 +20688,9 @@ const LISTEN_MORE = {
 "q": "What was the biggest challenge at first?",
 "o": [
 "Repairing the old equipment",
-"Finding helpers for the station"
-,
-"Getting students to speak on air"],
+"Finding helpers for the station",
+"Getting students to speak on air"
+],
 "c": 2
 },
 {
@@ -16465,10 +20717,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "How have Ruby's plans changed?",
 "o": [
-"She wants to leave the station"
-,
+"She wants to leave the station",
 "She has decided to study music",
-"She now wants to study journalism"],
+"She now wants to study journalism"
+],
 "c": 2
 },
 {
@@ -16480,6 +20732,6222 @@ const LISTEN_MORE = {
 "Building a sound museum room"
 ],
 "c": 1
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · Exam Booster Preliminary Test 1 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/ebp-t1/p1.mp3",
+"intro": "You will hear seven short recordings. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear two friends talking about a new sports centre. What did the man do there yesterday?",
+"o": [
+"He had a diving lesson.",
+"He used the gym equipment.",
+"He ran on the outdoor track."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear two people talking about sport. Which sport is Julie planning to compete in?",
+"o": [
+"Playing in a baseball tournament",
+"Joining a football team",
+"Taking part in a water sport event"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear two friends planning a run. Where will they run this evening?",
+"o": [
+"Through the streets",
+"Along the river",
+"In the woods near college"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear two people talking about winter sports. Which sport was Max good at when he was a teenager?",
+"o": [
+"Skiing",
+"Snowboarding",
+"Ice hockey"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a girl phoning a sports centre. What has she lost?",
+"o": [
+"One of her shoes",
+"Her racket",
+"Her backpack"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a man leaving a message. Which instructor is he going to meet today?",
+"o": [
+"The sailing instructor",
+"The football coach",
+"The golf coach"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear an announcement at a sports centre. What will open soon?",
+"o": [
+"A climbing wall",
+"A basketball court",
+"An outdoor athletics area"
+],
+"c": 0
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/ebp-t1/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear a brother and sister talking about a present for their mother. What do they decide to buy?",
+"o": [
+"a scarf",
+"some garden gloves",
+"a cookery book"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a woman speaking to her neighbour. Why is she speaking to him?",
+"o": [
+"to complain about some noise",
+"to ask him for some help",
+"to invite him to a party"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a boy talking to his father about cooking dinner. How does the boy feel?",
+"o": [
+"bored",
+"angry",
+"worried"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two students talking about a school trip. What do they both like?",
+"o": [
+"the old pots",
+"the guide",
+"the lunch"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a girl phoning a shop. What does she want the shop to do?",
+"o": [
+"give her a new case",
+"change her phone number",
+"mend her phone"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two people talking about a weekend job. What does the man think about the idea?",
+"o": [
+"It will be too tiring.",
+"It is a good idea.",
+"It will not pay enough."
+],
+"c": 1
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/ebp-t1/p3.mp3",
+"intro": "You will hear a radio programme reviewing new films. For each question, write the correct answer in the gap.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The film Jungle Fever is a cartoon about a family of ____.",
+"accept": [
+"tigers",
+"tiger"
+]
+},
+{
+"type": "gap",
+"label": "In his new film, Steve Wills plays a ____.",
+"accept": [
+"chef",
+"cook"
+]
+},
+{
+"type": "gap",
+"label": "The man in the comedy Swim is ____ years old.",
+"accept": [
+"20",
+"twenty"
+]
+},
+{
+"type": "gap",
+"label": "To enter the competition, answer ____ questions online.",
+"accept": [
+"10",
+"ten"
+]
+},
+{
+"type": "gap",
+"label": "The prize this month is tickets for a ____.",
+"accept": [
+"restaurant",
+"restaurants"
+]
+},
+{
+"type": "gap",
+"label": "The competition closes on January ____.",
+"accept": [
+"28",
+"28th",
+"twenty-eighth",
+"twenty eighth",
+"twenty-eight"
+]
+}
+],
+"gapTitle": "Film review programme"
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/ebp-t1/p2.mp3",
+"intro": "You will hear an interview with an actress. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What made Brittany interested in acting?",
+"o": [
+"Imitating TV characters at home",
+"Being in a school production",
+"Meeting more experienced actors"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How did Brittany feel about her first professional theatre role?",
+"o": [
+"Worried about speaking with an accent",
+"Calm because of her training",
+"Embarrassed about forgetting her lines"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why did Brittany start working in television?",
+"o": [
+"She wanted to earn more money",
+"She was tired of theatre",
+"She wanted to develop new skills"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How does she feel about filming the same scene several times?",
+"o": [
+"She finds it pointless",
+"She accepts that it is necessary",
+"She finds it hard to be told what to do"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What gives Brittany the most excitement?",
+"o": [
+"Finding out what her next part is",
+"Watching her new series with her family",
+"Going to events with other actors"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Brittany say she will never get used to?",
+"o": [
+"Being recognised in public",
+"Taking long breaks",
+"Starting work very early"
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · Exam Booster Preliminary Test 2 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/ebp-t2/p1.mp3",
+"intro": "You will hear seven short recordings. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a girl talking to her father about a flight to Brussels. What time will it leave?",
+"o": [
+"11.57 p.m.",
+"12.05 a.m.",
+"12.02 a.m."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a man talking about flying. What does he enjoy most?",
+"o": [
+"Arriving",
+"Taking off",
+"Being in the air"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a woman talking about holiday plans. Where will Maggie's family stay this year?",
+"o": [
+"At a campsite",
+"In a hotel",
+"In a cottage"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a couple on their way to the airport. What has the woman left behind?",
+"o": [
+"Some books",
+"Her passport",
+"Her tickets"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear the captain of a plane. What will the weather be like when they arrive?",
+"o": [
+"Clear",
+"Windy",
+"Rainy"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear someone talking about a ferry journey. What does the speaker need to take back to the shop?",
+"o": [
+"A tablet",
+"A travel bag",
+"Some papers"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear an announcement. Where can people park for free?",
+"o": [
+"Outside the main entrance",
+"In front of the station",
+"In the car park next to the station"
+],
+"c": 2
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/ebp-t2/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear a girl talking to her mother. What is the girl asking permission to do?",
+"o": [
+"go to a party",
+"stay at a friend's house",
+"visit her grandfather"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a man talking to a boy on a train. Why does the man feel nervous?",
+"o": [
+"He might miss his stop.",
+"He has to speak to an audience.",
+"He is meeting new people."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about a competition. How does the girl feel about the result?",
+"o": [
+"a little unhappy but generous",
+"extremely angry",
+"completely surprised"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a woman in a cafe. What does she order to eat?",
+"o": [
+"soup",
+"a salad",
+"pasta"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a boy talking to his teacher. What is the boy's purpose?",
+"o": [
+"to find out about missed work",
+"to explain a project idea",
+"to ask for a new date"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two colleagues talking about travel to work. What does the woman decide?",
+"o": [
+"to take the bus every day",
+"to ride a bike",
+"to walk by the river"
+],
+"c": 1
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/ebp-t2/p3.mp3",
+"intro": "You will hear a training manager talking to new shop staff. For each question, write the correct answer in the gap.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The stockroom is on the ____ floor.",
+"accept": [
+"top"
+]
+},
+{
+"type": "gap",
+"label": "Part-time staff have their rest day on ____.",
+"accept": [
+"thursday",
+"thursdays"
+]
+},
+{
+"type": "gap",
+"label": "Staff who live near a bus route can use a free ____ service.",
+"accept": [
+"bus"
+]
+},
+{
+"type": "gap",
+"label": "Staff can get a ____ % discount on some items.",
+"accept": [
+"25",
+"twenty-five",
+"twenty five"
+]
+},
+{
+"type": "gap",
+"label": "Staff cannot get a discount on ____.",
+"accept": [
+"food"
+]
+},
+{
+"type": "gap",
+"label": "On the first day, staff pick up their ID card at the ____.",
+"accept": [
+"office"
+]
+}
+],
+"gapTitle": "Shop assistants' training session"
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/ebp-t2/p2.mp3",
+"intro": "You will hear an interview with a businesswoman. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Why did Carla change the way she works?",
+"o": [
+"She felt stressed in her job",
+"She wanted to earn more",
+"She wanted to spend more time at home"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Carla say about her salary?",
+"o": [
+"She doesn't mind earning less",
+"She misses her old salary",
+"She earns more than before"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How has Carla's exercise routine changed?",
+"o": [
+"She exercises for longer",
+"She exercises at a different time",
+"She does a different sport"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What has been the effect of the change in Carla's diet?",
+"o": [
+"She has lost weight",
+"She sleeps for longer",
+"She feels more energetic"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Carla do with her sisters now?",
+"o": [
+"Go to the cinema every week",
+"Watch films at her house",
+"Swim at an outdoor pool"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Carla suggest to save time?",
+"o": [
+"Wearing similar clothes every day",
+"Making lists of jobs",
+"Checking messages on the bus"
+],
+"c": 0
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · Exam Booster Preliminary Test 3 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/ebp-t3/p1.mp3",
+"intro": "You will hear seven short recordings. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a girl talking to her father about photos. Which photo does she like best?",
+"o": [
+"A high waterfall",
+"Sam climbing on the rocks",
+"The cliffs seen from the beach"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a guide in a National Park. Where does she tell people not to go?",
+"o": [
+"Through the river",
+"Down to the bridge",
+"Into the caves"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear two friends talking about a college course. What has the woman studied this week?",
+"o": [
+"Deserts",
+"Seaside plants",
+"Beaches"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear two people talking about swimming. Where does Tim usually swim?",
+"o": [
+"In an indoor pool",
+"In a lake",
+"In a river"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear two students after a lecture. What did they enjoy learning about today?",
+"o": [
+"Farming",
+"Cliffs and bays",
+"The rainforest"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a girl talking about a trip to Iceland. How did her family travel around?",
+"o": [
+"By bus with a guide",
+"On foot",
+"In a hired car"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear two friends talking about a TV programme. What did it teach them about?",
+"o": [
+"Clouds",
+"Wind",
+"Rain and snow"
+],
+"c": 1
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/ebp-t3/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two friends talking about a coat. What does the girl think of it now?",
+"o": [
+"She likes it a lot.",
+"She wishes it were blue.",
+"She thinks it is too big."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a boss talking to a young worker. What does the boss want him to do?",
+"o": [
+"buy a new bicycle",
+"arrive on time",
+"work extra hours"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about Friday evening. What will the boy do?",
+"o": [
+"go straight to the concert",
+"miss football practice completely",
+"ask to leave practice early"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a man talking about his new job. What does he find hard?",
+"o": [
+"meeting colleagues",
+"using the computer programs",
+"getting to the office"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a girl talking to her father about a camp. What is the father's worry?",
+"o": [
+"the weather",
+"the cost of the food",
+"the sailing lessons"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a boy talking to his aunt about the guitar. What does she suggest?",
+"o": [
+"practising with his brother",
+"buying a better guitar",
+"having lessons"
+],
+"c": 2
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/ebp-t3/p3.mp3",
+"intro": "You will hear a talk about an exercise class. For each question, write the correct answer in the gap.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Extreme Boot Camp classes are held on a ____ over a river.",
+"accept": [
+"bridge"
+]
+},
+{
+"type": "gap",
+"label": "The class meets at ____ a.m. every weekday.",
+"accept": [
+"6.30",
+"6:30",
+"6 30",
+"six thirty",
+"half past six",
+"6.30am"
+]
+},
+{
+"type": "gap",
+"label": "The class begins with ____ to warm up.",
+"accept": [
+"jogging",
+"jog",
+"a jog",
+"running"
+]
+},
+{
+"type": "gap",
+"label": "Everyone must wear ____ to the class.",
+"accept": [
+"trainers"
+]
+},
+{
+"type": "gap",
+"label": "Registration day is on the ____ of September.",
+"accept": [
+"17",
+"17th",
+"seventeenth",
+"seventeen"
+]
+},
+{
+"type": "gap",
+"label": "The surname of the person who runs it is ____.",
+"accept": [
+"shawes"
+]
+}
+],
+"gapTitle": "Extreme Boot Camp"
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/ebp-t3/p2.mp3",
+"intro": "You will hear an interview with an architect. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What does Scott say about living in the capsule?",
+"o": [
+"He found ways to fit everything into a small room",
+"It felt like living in a prison",
+"He could hear his neighbours"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What did Scott find out about the upside-down house?",
+"o": [
+"It was in a popular tourist area",
+"Its rooms were arranged strangely",
+"It was easy to look after"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What was the problem with the container home in London?",
+"o": [
+"It was too small for him",
+"He couldn't hear the TV when it rained",
+"It was far from the city centre"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Scott like most about cities?",
+"o": [
+"The restaurants and shops",
+"Having peace and quiet",
+"Seeing how different people live"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Scott find difficult about his water building?",
+"o": [
+"Matching its colour to the water",
+"Making it float",
+"Finding enough space"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why would Scott like to design a railway station?",
+"o": [
+"To impress people",
+"To make something big that is useful and beautiful",
+"To improve train services"
+],
+"c": 1
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · PET 2 Test 1 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/pet2-t1/p1.mp3",
+"intro": "You will hear seven short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Where will the two girls meet?",
+"o": [
+"Near the park gates",
+"Close to some water",
+"Outside the park café"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Which office chair does the man want?",
+"o": [
+"Low back, with arms",
+"Tall back, without arms",
+"Tall back, with arms"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What did one girl forget when listing what they need?",
+"o": [
+"Eggs",
+"Milk",
+"Butter"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How was the mirror broken?",
+"o": [
+"It fell off the wall",
+"Hit by a ball",
+"Knocked over while cleaning"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What is Sarah's mother doing?",
+"o": [
+"Cooking dinner",
+"Getting dressed",
+"Cleaning plates and cups"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What luggage is the man taking on holiday?",
+"o": [
+"Two cases and an overnight bag",
+"Three suitcases",
+"Only two cases"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Which photograph does the man like?",
+"o": [
+"The speaker alone on the sand",
+"Everyone standing on high ground",
+"The group having a picnic"
+],
+"c": 1
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/pet2-t1/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two friends talking about a film they saw. What did the girl like most about it?",
+"o": [
+"The special effects",
+"The music",
+"The story"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a man talking to a friend about joining a gym. What is he worried about?",
+"o": [
+"Giving up after a short time",
+"The cost of membership",
+"The distance from his home"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a boy talking to his mother about a phone. What does his mother decide?",
+"o": [
+"To buy him a phone for his birthday",
+"To refuse because he plays too many games",
+"To share the cost with him"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a girl talking to her teacher. Why is she talking to the teacher?",
+"o": [
+"To complain about too much homework",
+"To ask for more time for her work",
+"To say she wants to leave the swimming team"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about a party. What finally persuades the girl to go?",
+"o": [
+"Knowing that the whole class is invited",
+"Being told that Tom likes her",
+"The offer to share a present"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a man and a woman talking about cycling to work. What does the woman like best about it?",
+"o": [
+"Saving money",
+"Keeping fit",
+"Avoiding busy roads"
+],
+"c": 0
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/pet2-t1/p3.mp3",
+"intro": "You will hear a talk. For each question, write the missing information in the gap. Write one word or a number.",
+"gapTitle": "Mike Davis, a teenager from Hereford",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Mike is really interested in ____ .",
+"accept": [
+"science"
+]
+},
+{
+"type": "gap",
+"label": "Mike has run for his school team in the ____ metres.",
+"accept": [
+"800",
+"eight hundred"
+]
+},
+{
+"type": "gap",
+"label": "His uncle's farm has ____ cows.",
+"accept": [
+"50",
+"fifty"
+]
+},
+{
+"type": "gap",
+"label": "Mike helps with the milking every ____ .",
+"accept": [
+"saturday",
+"saturdays"
+]
+},
+{
+"type": "gap",
+"label": "Last summer Mike painted the cow shed ____ .",
+"accept": [
+"white"
+]
+},
+{
+"type": "gap",
+"label": "His uncle says he can drive the tractor when he is ____ .",
+"accept": [
+"15",
+"fifteen"
+]
+}
+]
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/pet2-t1/p2.mp3",
+"intro": "You will hear a longer recording. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What is this week's competition prize?",
+"o": [
+"Theatre tickets",
+"Classical music on CD",
+"Concert seats"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Where did the composer spend most of his life?",
+"o": [
+"Italy",
+"France",
+"Spain"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Where is the play with the same title usually performed?",
+"o": [
+"Outdoors",
+"In a small hall",
+"On television"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How did the first audience react to the music?",
+"o": [
+"Many left before the end",
+"They asked for it to be played again",
+"They were silent from the start"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Where will the advert appear next month?",
+"o": [
+"On the radio",
+"In cinemas",
+"On buses"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What must a listener tell the programme to win?",
+"o": [
+"The product in the advert",
+"Where the play is performed",
+"The music's title and who wrote it"
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · PET 2 Test 2 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/pet2-t2/p1.mp3",
+"intro": "You will hear seven short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Where will they meet Jane?",
+"o": [
+"Inside the restaurant, at a table",
+"Outside the restaurant",
+"At her home"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What present will they buy for Chris?",
+"o": [
+"Music he can listen to",
+"Something to wear",
+"Something to read about sport"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Mr Jones look like?",
+"o": [
+"Around forty, with big ears and spectacles",
+"Around forty, with small ears and spectacles",
+"Elderly, with big ears and spectacles"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why won't he plant the tree by the front door?",
+"o": [
+"It would grow too large for the space",
+"It would block the light",
+"The ground is too hard"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What fruit will the man buy?",
+"o": [
+"Grapes",
+"Bananas",
+"Oranges"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Which is Gary's room?",
+"o": [
+"Corner window on the floor below the top",
+"Middle window on the top floor",
+"Middle window one floor below the top"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How many people will travel in the hired car?",
+"o": [
+"Four",
+"Five",
+"Six"
+],
+"c": 1
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/pet2-t2/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two friends talking before an exam. What does the girl advise the boy to do?",
+"o": [
+"Stop studying regularly for a rest",
+"Study for longer",
+"Ask the teacher for help"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a couple talking about a neighbour's dog. What do they agree to do?",
+"o": [
+"Visit her at once",
+"Leave a note for the neighbour",
+"Telephone the hospital"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a girl talking to her father about cooking. How does the girl feel?",
+"o": [
+"Worried she will make a mistake",
+"Annoyed that he offered help",
+"Sure she will do it well"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two students talking about a teacher. What does the girl think of Mr Clarke?",
+"o": [
+"His lessons are interesting",
+"He gives too much homework",
+"He is funnier than Mrs Taylor"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two people planning to see a film. Why does the man agree to go?",
+"o": [
+"He prefers the big screen",
+"He wants to eat popcorn",
+"The tickets will be cheaper on another day"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two teenagers talking about a job. What is the girl's main reason for working?",
+"o": [
+"To save for something she wants",
+"To meet new people",
+"To help her parents"
+],
+"c": 0
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/pet2-t2/p3.mp3",
+"intro": "You will hear a talk. For each question, write the missing information in the gap. Write one word or a number.",
+"gapTitle": "Language study fair",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The fair takes place from the 17th to the 19th of ____ .",
+"accept": [
+"march"
+]
+},
+{
+"type": "gap",
+"label": "More than ____ companies that make study materials will be there.",
+"accept": [
+"350",
+"three hundred and fifty",
+"three hundred fifty"
+]
+},
+{
+"type": "gap",
+"label": "Visitors can see the latest ____ for people who study at home.",
+"accept": [
+"furniture"
+]
+},
+{
+"type": "gap",
+"label": "On Saturday the fair closes at ____ .",
+"accept": [
+"4",
+"four",
+"4pm",
+"4 o'clock",
+"4.00",
+"4:00"
+]
+},
+{
+"type": "gap",
+"label": "Full-time ____ pay a lower price for a ticket.",
+"accept": [
+"students",
+"student"
+]
+},
+{
+"type": "gap",
+"label": "An all-day parking space costs ____ per vehicle.",
+"accept": [
+"£2.50",
+"2.50",
+"£2.5",
+"2.5",
+"2 pounds 50"
+]
+}
+]
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/pet2-t2/p2.mp3",
+"intro": "You will hear a longer recording. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "When does the arts festival end?",
+"o": [
+"19 May",
+"28 May",
+"23 May"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What can classical music fans hear on 23 May?",
+"o": [
+"String quartet",
+"Steel band",
+"Opera singers"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What is free at the lunchtime concerts?",
+"o": [
+"Wine",
+"Sandwiches",
+"Soft drinks"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How long is the guided walk?",
+"o": [
+"About an hour",
+"Two and a half hours",
+"Nearly three hours"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does the ticket for the piano concert include?",
+"o": [
+"Dinner afterwards",
+"Festival programme",
+"Hot drink and a snack"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How can people book by telephone?",
+"o": [
+"By credit card only",
+"By cheque only",
+"Either cash or card"
+],
+"c": 0
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · PET 2 Test 3 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/pet2-t3/p1.mp3",
+"intro": "You will hear seven short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How does the woman say to get to the station?",
+"o": [
+"Turn right at the first road",
+"Take the second road on the right",
+"Go left past the second road"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Where is the calculator?",
+"o": [
+"Beside the lamp",
+"Inside a drawer",
+"On top of some books"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Who is standing next to Helen?",
+"o": [
+"Her brother",
+"Her husband",
+"Her neighbour"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Which building did the lightning hit?",
+"o": [
+"The hotel",
+"The factory",
+"The church"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does the woman want to buy?",
+"o": [
+"Boots",
+"Skirt",
+"Flat shoes"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Which photo will the woman send to her mother?",
+"o": [
+"Children in the back garden",
+"Her husband by the front door",
+"The house at night"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What facility does the man's hotel have?",
+"o": [
+"Outdoor swimming pool",
+"Indoor spa",
+"Tennis courts"
+],
+"c": 0
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/pet2-t3/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear a boy and a man talking about a football match. What does the man think about the team?",
+"o": [
+"They will get better",
+"They need a new coach",
+"They need better defenders"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two people talking about a flat. What does the man dislike about it?",
+"o": [
+"It is too noisy",
+"It is far from the shops",
+"It is expensive"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about a book. How does the boy feel about it now?",
+"o": [
+"Bored by the story",
+"Disappointed with the beginning",
+"Keen to find out what happens"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a man at the hairdresser's. Why is he in a hurry?",
+"o": [
+"He has to go to an interview",
+"He has a train to catch",
+"He is late for work"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about a TV show. What do they disagree about?",
+"o": [
+"What time it starts",
+"Who should win",
+"Who they will watch it with"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a man advising a girl who plays the guitar. What does he suggest?",
+"o": [
+"Taking more lessons",
+"Learning easier songs",
+"Practising for a short time each day"
+],
+"c": 2
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/pet2-t3/p3.mp3",
+"intro": "You will hear a talk. For each question, write the missing information in the gap. Write one word or a number.",
+"gapTitle": "Miss Brownlow's interview: her time abroad",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "She first planned to stay abroad for only ____ months.",
+"accept": [
+"6",
+"six"
+]
+},
+{
+"type": "gap",
+"label": "In her first job she looked after ____ children.",
+"accept": [
+"3",
+"three"
+]
+},
+{
+"type": "gap",
+"label": "Her second job was as a receptionist in a ____ .",
+"accept": [
+"hotel"
+]
+},
+{
+"type": "gap",
+"label": "In the bakery she had to get up at ____ o'clock.",
+"accept": [
+"4",
+"four"
+]
+},
+{
+"type": "gap",
+"label": "She finished work at the bakery at ____ in the afternoon.",
+"accept": [
+"2",
+"two",
+"2pm",
+"2 o'clock"
+]
+},
+{
+"type": "gap",
+"label": "Later she worked in the ____ department of a bank.",
+"accept": [
+"foreign"
+]
+}
+]
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/pet2-t3/p2.mp3",
+"intro": "You will hear a longer recording. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What is required to join the camp?",
+"o": [
+"Studying at university",
+"Having a job",
+"Speaking another language besides your own"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Who will you share a tent with?",
+"o": [
+"Friends from home",
+"People from different countries",
+"Family members"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Who does the cooking at the camp?",
+"o": [
+"All campers share the work",
+"Paid cooks",
+"Only the organisers"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What must campers bring with them?",
+"o": [
+"Tent",
+"Cooking pots",
+"Pillow and cutlery"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What are campers expected to do for entertainment?",
+"o": [
+"Watch a show",
+"Sing, dance or play music",
+"Run a competition"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "When must campers pay the cost?",
+"o": [
+"Before they arrive",
+"When they arrive",
+"At the end of the week"
+],
+"c": 0
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · PET 2 Test 4 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/pet2-t4/p1.mp3",
+"intro": "You will hear seven short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Where are the woman's glasses?",
+"o": [
+"In the lounge",
+"At her workplace",
+"On her face"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What happened to the man's car?",
+"o": [
+"Someone scratched it",
+"Someone covered one side with paint",
+"Someone broke a window"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Which item did the girl leave at home?",
+"o": [
+"The toothpaste",
+"The toothbrush",
+"The towel"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What did Sally buy?",
+"o": [
+"Shoes and a skirt",
+"Jeans and a skirt",
+"Jeans and a t-shirt"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Where are the man and his grandmother?",
+"o": [
+"In a car",
+"At a railway station",
+"At her house"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What would John like to be?",
+"o": [
+"Being a teacher",
+"Being a doctor",
+"Being a footballer"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Which pianist are the two people talking about?",
+"o": [
+"Tall, with long hair",
+"Short, with a beard",
+"Tall, with a beard"
+],
+"c": 2
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/pet2-t4/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two people in a restaurant. Why does the man change his order?",
+"o": [
+"He cannot eat cheese",
+"He does not like mushrooms",
+"He is in a hurry"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about volunteering. How does the girl feel about it?",
+"o": [
+"Afraid of the animals",
+"Pleased to be useful",
+"Worried about the work"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a mother and her son. What does the mother want him to do?",
+"o": [
+"Stop seeing his friends",
+"Delete his photos",
+"Use his phone less at dinner"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two people at a bus stop. How does the woman feel?",
+"o": [
+"Worried about being late",
+"Angry with the driver",
+"Tired of walking"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two students talking about a project. What does the girl suggest?",
+"o": [
+"A topic about plants",
+"A topic about batteries",
+"A topic about rubbish"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a couple planning their holiday. What do they decide?",
+"o": [
+"To go to the mountains in August",
+"To go to the beach in September",
+"To stay at home"
+],
+"c": 1
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/pet2-t4/p3.mp3",
+"intro": "You will hear a man talking about a writer's life. For each question, fill in the missing information in the numbered space.",
+"gapTitle": "Tania Perry's life",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Tania Perry was born in London in ____.",
+"accept": [
+"1948"
+]
+},
+{
+"type": "gap",
+"label": "Her family settled in Manchester in ____.",
+"accept": [
+"1956"
+]
+},
+{
+"type": "gap",
+"label": "At school she started writing ____.",
+"accept": [
+"short stories",
+"stories"
+]
+},
+{
+"type": "gap",
+"label": "After leaving school she worked as a ____.",
+"accept": [
+"waitress"
+]
+},
+{
+"type": "gap",
+"label": "Her husband works as a film ____.",
+"accept": [
+"director"
+]
+},
+{
+"type": "gap",
+"label": "She has ____ plays in print.",
+"accept": [
+"24",
+"twenty-four",
+"twenty four"
+]
+}
+]
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/pet2-t4/p2.mp3",
+"intro": "You will hear a talk given to visitors to a fashion museum. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Until the 1900s, who could follow fashion?",
+"o": [
+"Only wealthy people",
+"Most young people",
+"Everyone who lived in cities"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How were rich people's clothes made in the past?",
+"o": [
+"In factories in large numbers",
+"By hand to suit each customer",
+"From light materials"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What was special about Coco Chanel's clothes?",
+"o": [
+"They were made for sport",
+"They were very expensive",
+"They did not fit closely to the body"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why could more people follow fashion in the 1920s?",
+"o": [
+"Clothes became cheaper",
+"Skirts got shorter",
+"Chanel opened more shops"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What did Christian Dior do in 1947?",
+"o": [
+"He made shorter skirts",
+"He made skirts longer again",
+"He designed sports clothes"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What will the visitors see in the exhibition?",
+"o": [
+"Clothes from the 1960s",
+"Clothes by Coco Chanel",
+"Clothes people may wear in fifty years' time"
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · PET 4 Test 1 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1 and 3 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/pet4-t1/p1.mp3",
+"intro": "You will hear seven short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Which activity will the family do this year?",
+"o": [
+"Riding bikes",
+"Hiking in the hills",
+"Water sports"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Which is the woman's house?",
+"o": [
+"The one that looks different from the rest",
+"The one with blossom on a tree by the gate",
+"The one with flowers along the fence"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why will drivers have problems this morning?",
+"o": [
+"Fog on the roads",
+"Rain in the morning",
+"Work on a bridge"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What time will Robin leave the house?",
+"o": [
+"6.00",
+"6.30",
+"7.15"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What did Simon do this morning?",
+"o": [
+"Washed the dishes",
+"Put the shopping away",
+"Paid someone who came to the house"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What hasn't the girl packed yet?",
+"o": [
+"Toothpaste",
+"Soap",
+"Towel"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What has the woman just bought?",
+"o": [
+"Something for her head",
+"Jacket",
+"Handbag"
+],
+"c": 0
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/pet4-t1/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two friends talking about a school club. What is the boy interested in doing?",
+"o": [
+"Helping behind the stage",
+"Acting in a play",
+"Directing the club"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a woman talking about her neighbours. What does she plan to do?",
+"o": [
+"Call the police",
+"Move to another flat",
+"Ask them to be quieter"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a boy talking to a teacher about the school uniform. What does the teacher suggest?",
+"o": [
+"Writing to the headteacher",
+"Talking about it at a meeting",
+"Wearing different shoes"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about a dog. Why does the girl walk it?",
+"o": [
+"She needs the money",
+"Her parents asked her to",
+"She would like a dog of her own"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two people talking about an art class. How does the woman feel?",
+"o": [
+"Relaxed after the lesson",
+"Proud of her picture",
+"Unhappy with the teacher"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about a concert. What does the girl promise to do?",
+"o": [
+"Buy her own ticket",
+"Find out if she can change her work",
+"Ask another friend to go"
+],
+"c": 1
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/pet4-t1/p3.mp3",
+"intro": "You will hear a radio announcer talking about a science museum. For each question, fill in the missing information in the numbered space.",
+"gapTitle": "Science World",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The electricity workshop takes place on Monday ____.",
+"accept": [
+"afternoon"
+]
+},
+{
+"type": "gap",
+"label": "You can do experiments with water on ____ morning.",
+"accept": [
+"wednesday"
+]
+},
+{
+"type": "gap",
+"label": "The Saturday evening talk is about ____.",
+"accept": [
+"space travel",
+"space"
+]
+},
+{
+"type": "gap",
+"label": "An adult ticket to Science World costs ____.",
+"accept": [
+"3",
+"three",
+"£3",
+"3 pounds",
+"three pounds"
+]
+},
+{
+"type": "gap",
+"label": "To book tickets, phone ____.",
+"accept": [
+"28431",
+"2-8-4-3-1",
+"2843-1",
+"2843 1"
+]
+},
+{
+"type": "gap",
+"label": "The Newton Cafe is next to the ____.",
+"accept": [
+"beach"
+]
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · PET 4 Test 2 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/pet4-t2/p1.mp3",
+"intro": "You will hear seven short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How much does the man pay for his ticket?",
+"o": [
+"£12.50",
+"£15",
+"£16.50"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What will they eat with the chips?",
+"o": [
+"Fish",
+"Eggs",
+"Sausages"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why was the man late home?",
+"o": [
+"The motorway was closed",
+"He missed the bus",
+"There was a train strike"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What was the weather like on John's holiday?",
+"o": [
+"Rainy all week",
+"Sunny and warm",
+"Chilly and overcast"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What time was the woman's appointment?",
+"o": [
+"9.00",
+"10.10",
+"10.30"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What did the woman buy at the duty free shop?",
+"o": [
+"Perfume and a scarf",
+"Perfume and a Walkman",
+"Scarf and chocolates"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Where are the man and the woman?",
+"o": [
+"At a football match",
+"At a lecture",
+"At the cinema"
+],
+"c": 1
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/pet4-t2/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two friends talking about football. How does the girl feel?",
+"o": [
+"Angry with the coach",
+"Afraid of the next match",
+"Guilty about a mistake"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two people talking about a language exchange. What does the woman like about it?",
+"o": [
+"It is easy",
+"It doesn't cost anything",
+"It is only half an hour"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a girl and a boy talking about an umbrella. What does the boy do?",
+"o": [
+"Lends her his",
+"Looks for hers",
+"Walks her to school"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a woman talking about something she bought. What is her problem?",
+"o": [
+"It was very expensive",
+"It arrived late",
+"It is the wrong size"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about a race. Why won't the boy give up?",
+"o": [
+"He wants to beat his brother",
+"He is raising money for charity",
+"He hopes to win a prize"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two colleagues talking about a manager. What is the woman's opinion?",
+"o": [
+"She doesn't like the changes",
+"She thinks the manager is unkind",
+"She enjoys the meetings"
+],
+"c": 0
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/pet4-t2/p3.mp3",
+"intro": "You will hear a radio programme about a city. For each question, fill in the missing information in the numbered space.",
+"gapTitle": "A weekend in Glasgow",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Glasgow is the ____ largest city in Britain.",
+"accept": [
+"third",
+"3rd"
+]
+},
+{
+"type": "gap",
+"label": "Tour buses leave from George ____.",
+"accept": [
+"square"
+]
+},
+{
+"type": "gap",
+"label": "A ticket for the tour bus costs ____.",
+"accept": [
+"5",
+"five",
+"£5",
+"5 pounds",
+"five pounds"
+]
+},
+{
+"type": "gap",
+"label": "The Welcome Centre is on St Vincent ____.",
+"accept": [
+"place"
+]
+},
+{
+"type": "gap",
+"label": "The cathedral is famous for its beautiful ____.",
+"accept": [
+"windows"
+]
+},
+{
+"type": "gap",
+"label": "Visitors can have a ____ in the Botanic Gardens.",
+"accept": [
+"picnic"
+]
+}
+]
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/pet4-t2/p2.mp3",
+"intro": "You will hear a woman called Sarah talking about her painting. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How much of the week does Sarah spend on her painting?",
+"o": [
+"Every evening",
+"Three days a week",
+"Four days a week"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why doesn't Sarah give up her job?",
+"o": [
+"She earns more in her job than from pictures",
+"She sells enough pictures to live on",
+"She wants to teach art"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What stops Sarah from going to art college?",
+"o": [
+"Her work hours",
+"Her rent and car costs",
+"Her art teacher's advice"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "When did Sarah's interest in art begin?",
+"o": [
+"As a young child",
+"At secondary school",
+"At evening classes"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Sarah like about painting holidays?",
+"o": [
+"They are cheaper than normal holidays",
+"The weather is always sunny",
+"She learns from the other people there"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Where does Sarah most enjoy painting?",
+"o": [
+"Morocco",
+"Spain",
+"Scotland"
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · PET 4 Test 3 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/pet4-t3/p1.mp3",
+"intro": "You will hear seven short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What must the speaker buy at the shop?",
+"o": [
+"Toothpaste",
+"Travel sickness pills",
+"Sunglasses"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Where is the mark on the dress now?",
+"o": [
+"On the sleeve",
+"On the collar",
+"At the front, below the button"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "When will Jane meet them?",
+"o": [
+"8.00",
+"8.15",
+"8.45"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Which morning activity is for beginners?",
+"o": [
+"Swimming lessons",
+"Volleyball practice",
+"Sailing practice"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Which painting does the woman decide to buy?",
+"o": [
+"The boat",
+"The horses",
+"The flowers"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What is the man selling?",
+"o": [
+"Washing machine",
+"Dishwasher",
+"Shower"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What is the weather forecast for tomorrow?",
+"o": [
+"Sunny with showers",
+"Dry but cloudy",
+"Mild and windy"
+],
+"c": 1
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/pet4-t3/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear a girl talking about her driving test. What does she find difficult?",
+"o": [
+"Parking",
+"Roundabouts",
+"Driving at night"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a boy talking to his mother. Why doesn't he want to go to swimming lessons?",
+"o": [
+"He is afraid of the water",
+"He thinks the teacher is too strict",
+"His friends don't go any more"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two students talking about a school play. What is the boy doing?",
+"o": [
+"Making the clothes",
+"Playing the king",
+"Painting the scenery"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two people talking about gardening. What does the man offer to do?",
+"o": [
+"Lend her a book",
+"Introduce her to an expert",
+"Help her dig"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about university. What does the girl decide?",
+"o": [
+"To choose the better course",
+"To stay near her family",
+"To wait a year"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a man talking to a boy about a video game. What do they agree?",
+"o": [
+"That the boy will sell the game",
+"That the boy will play with friends",
+"Time limits for playing"
+],
+"c": 2
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/pet4-t3/p3.mp3",
+"intro": "You will hear a teacher talking about a camping trip. For each question, fill in the missing information in the numbered space.",
+"gapTitle": "Camping trip",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The coach will set off at ____ on Monday morning.",
+"accept": [
+"7.45",
+"7:45",
+"quarter to eight",
+"a quarter to eight"
+]
+},
+{
+"type": "gap",
+"label": "Students must bring a ____ because tents and food are provided.",
+"accept": [
+"sleeping bag"
+]
+},
+{
+"type": "gap",
+"label": "If the weather is good, they can use the outdoor ____.",
+"accept": [
+"pool",
+"swimming pool"
+]
+},
+{
+"type": "gap",
+"label": "Students should bring about ____ pounds a day.",
+"accept": [
+"5",
+"five",
+"£5"
+]
+},
+{
+"type": "gap",
+"label": "The nearest town is ____ miles from the campsite.",
+"accept": [
+"8",
+"eight"
+]
+},
+{
+"type": "gap",
+"label": "The bus stops outside the ____ in the village.",
+"accept": [
+"post office"
+]
+}
+]
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/pet4-t3/p2.mp3",
+"intro": "You will hear a radio programme about new books. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What does the reviewer say about My Life?",
+"o": [
+"Readers may not follow it without knowing his other books",
+"It is too short",
+"It is about his childhood"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why does John's family leave the countryside?",
+"o": [
+"His mother changes her job",
+"His father's work takes the family away",
+"He wants to study in the city"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Who is the photography book best for?",
+"o": [
+"Professional photographers",
+"People choosing a new camera",
+"People who are new to taking photographs"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How does the reviewer feel about Cooking for One?",
+"o": [
+"She has learnt to make a variety of dishes",
+"She finds the recipes too difficult",
+"She prefers books on Italian food"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Holidays in Europe describe?",
+"o": [
+"Famous tourist places",
+"Quiet places away from the crowds",
+"Cheap hotels"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What is the reviewer's criticism of Holidays in Europe?",
+"o": [
+"The writing is boring",
+"It costs too much",
+"The maps are hard to read because of their size"
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · PET 4 Test 4 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/pet4-t4/p1.mp3",
+"intro": "You will hear seven short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Where will the speaker who is meeting Sarah go first?",
+"o": [
+"The restaurant",
+"The market",
+"The cinema"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What can festival visitors see every day?",
+"o": [
+"Irish concerts",
+"Plays and films",
+"An art exhibition"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What will the boy who collects models get from New York?",
+"o": [
+"Toy taxi",
+"Baseball cap",
+"Sports car"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Which appointment does the woman choose?",
+"o": [
+"Friday 10.00",
+"Saturday 9.30",
+"Saturday 12.00"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Where is the TV guide?",
+"o": [
+"On top of the TV",
+"Next to the chair",
+"Under a cushion"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does the man decide to take Tracy?",
+"o": [
+"Music",
+"Flowers",
+"Something to read"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Which sport has the man just started?",
+"o": [
+"Horse riding",
+"Windsurfing",
+"Swimming"
+],
+"c": 0
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/pet4-t4/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two friends talking about tennis. Why is the boy interested in going?",
+"o": [
+"His racket is new",
+"He wants to meet Anna",
+"He can try a lesson for free"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two people talking about exam results. How does the woman feel about German?",
+"o": [
+"Not very bothered",
+"Extremely angry",
+"Very surprised"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a girl talking about her grandmother's visit. What is the girl's attitude to it?",
+"o": [
+"She accepts it because of the cakes",
+"She is looking forward to sharing",
+"She is angry with her mother"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two people talking about a race. What will the woman do?",
+"o": [
+"Run with him",
+"Give some money",
+"Come to watch"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about a job. What did the boy think of his first day?",
+"o": [
+"He enjoyed it despite being tired",
+"He found it boring",
+"He was unhappy with the money"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a man buying tickets. What does he do in the end?",
+"o": [
+"Chooses a different film",
+"Leaves without tickets",
+"Accepts seats he doesn't prefer"
+],
+"c": 2
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/pet4-t4/p3.mp3",
+"intro": "You will hear a woman talking on the radio about a food exhibition. For each question, fill in the missing information in the numbered space.",
+"gapTitle": "The Good Food Show",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "There are more than ____ stands at the show.",
+"accept": [
+"300",
+"three hundred"
+]
+},
+{
+"type": "gap",
+"label": "Jane Adams's latest book is about making ____.",
+"accept": [
+"cakes"
+]
+},
+{
+"type": "gap",
+"label": "A person from the central ____ talks about buying fish.",
+"accept": [
+"market"
+]
+},
+{
+"type": "gap",
+"label": "A cook talks about desserts in the theatre at ____ every day.",
+"accept": [
+"2",
+"2 o'clock",
+"two",
+"two o'clock",
+"2pm",
+"2.00",
+"2:00",
+"14.00"
+]
+},
+{
+"type": "gap",
+"label": "The speaker liked the food from ____ best.",
+"accept": [
+"canada"
+]
+},
+{
+"type": "gap",
+"label": "The show finishes on 23rd ____.",
+"accept": [
+"march"
+]
+}
+]
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/pet4-t4/p2.mp3",
+"intro": "You will hear a man called John talking about the travel programmes he makes for television. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What kind of television programmes does John make?",
+"o": [
+"Long, difficult journeys",
+"Relaxing beach holidays",
+"Cookery programmes"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why does John want to change the kind of programmes he makes?",
+"o": [
+"He is not in good health",
+"Long journeys make him very tired",
+"His family has complained"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What might his next series be about?",
+"o": [
+"The Pacific Ocean",
+"Borneo",
+"Places in Europe"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does John hope his programmes will do?",
+"o": [
+"Make people want to travel",
+"Warn people about dangers",
+"Teach people languages"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What frightened John while he was filming in Borneo?",
+"o": [
+"He fell ill himself",
+"He was far away when his wife was ill",
+"His children were alone"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What would John like to try writing?",
+"o": [
+"Poems",
+"Novels",
+"Newspaper pieces"
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · PET 5 Test 1 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/pet5-t1/p1.mp3",
+"intro": "You will hear seven short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What did the storm damage?",
+"o": [
+"The roof of Anna's house",
+"An upstairs window",
+"Anna's car"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What will the man take to his boss's dinner?",
+"o": [
+"Chocolates",
+"Flowers",
+"Plants"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Where did the woman leave her jacket?",
+"o": [
+"In a taxi",
+"At a hotel",
+"On a flight"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Which holiday activity costs extra?",
+"o": [
+"Windsurfing",
+"Golf",
+"Horse riding"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why do they not choose the castle postcard?",
+"o": [
+"The picture is not attractive",
+"It shows a place where they are not staying",
+"It is too expensive"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What kind of exhibition will they see?",
+"o": [
+"Clothes",
+"Sculpture",
+"Photography"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What will the boy do first?",
+"o": [
+"Help his friend with a bike",
+"Take books back",
+"Play tennis"
+],
+"c": 1
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/pet5-t1/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two friends talking about basketball. Why was the boy chosen?",
+"o": [
+"He is tall",
+"He is the fastest",
+"He has played for years"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a woman talking to a babysitter. What must the girl not do?",
+"o": [
+"Give the children sweets",
+"Let them stay up late",
+"Open the door to visitors"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a boy talking to a teacher. What does the teacher suggest?",
+"o": [
+"Visiting a castle",
+"Reading a long book",
+"Studying where he lives"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a boy talking about his job. What does he say about his manager?",
+"o": [
+"He shouts at customers",
+"He is often in a bad mood",
+"He pays little money"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a man and a woman looking for something. Where were the keys?",
+"o": [
+"In a coat",
+"In the car",
+"Next to some food"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two students talking about a trip. What does the boy most want to do there?",
+"o": [
+"See a museum",
+"Go shopping",
+"Visit a park"
+],
+"c": 0
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/pet5-t1/p3.mp3",
+"intro": "You will hear a talk. For each question, write the missing information in the gap. Write one word or a number.",
+"gapTitle": "Stephen Mills and the tiger tour to India",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Stephen Mills works as an ____ .",
+"accept": [
+"artist"
+]
+},
+{
+"type": "gap",
+"label": "The group leaves London on ____ November.",
+"accept": [
+"6",
+"6th",
+"sixth"
+]
+},
+{
+"type": "gap",
+"label": "They will spend ____ days in the wildlife park.",
+"accept": [
+"10",
+"ten"
+]
+},
+{
+"type": "gap",
+"label": "There are ____ people in the group.",
+"accept": [
+"18",
+"eighteen"
+]
+},
+{
+"type": "gap",
+"label": "In the north of the park, visitors travel in an open ____ .",
+"accept": [
+"truck"
+]
+},
+{
+"type": "gap",
+"label": "The plane home leaves at ____ in the afternoon.",
+"accept": [
+"2",
+"two",
+"2pm",
+"2 o'clock"
+]
+}
+]
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/pet5-t1/p2.mp3",
+"intro": "You will hear a longer recording. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How long has Britta lived in Berlin?",
+"o": [
+"About twenty years",
+"About six years",
+"About four years"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why did Britta move to Berlin?",
+"o": [
+"Her employer relocated",
+"She was offered a promotion",
+"Her friends lived there"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Britta dislike about Berlin?",
+"o": [
+"The price of renting",
+"The sound of vehicles in the morning",
+"The size of the city"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does she say about her flat?",
+"o": [
+"It is large",
+"It is in a new building",
+"It is in a central area"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How does Britta usually get around the city?",
+"o": [
+"By tram",
+"By bicycle",
+"On foot"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does her nephew like best about their outings?",
+"o": [
+"The café",
+"The park",
+"The gallery"
+],
+"c": 0
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · PET 5 Test 2 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/pet5-t2/p1.mp3",
+"intro": "You will hear seven short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Which sport will the woman learn on holiday?",
+"o": [
+"Water skiing",
+"Windsurfing",
+"Diving"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does the girl's pen friend look like now?",
+"o": [
+"Short and curly",
+"Long and curly",
+"Short and straight"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Which animals did the children see at the zoo?",
+"o": [
+"Lions and horses",
+"Horses and monkeys",
+"Tigers and birds"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Which programme is on first?",
+"o": [
+"The tennis final",
+"The news",
+"The concert"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does the boy decide to buy for his grandmother?",
+"o": [
+"T-shirt",
+"Perfume",
+"Wooden box"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What time is the man's appointment?",
+"o": [
+"6.35",
+"6.15",
+"6.50"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What has the woman lost?",
+"o": [
+"Purse",
+"Pen",
+"Mobile phone"
+],
+"c": 0
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/pet5-t2/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two friends talking about dancing. What does the girl say about the class?",
+"o": [
+"It is too easy",
+"It is too slow",
+"It is hard but enjoyable"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two people talking about an app. What effect has it had on the man?",
+"o": [
+"He sleeps better",
+"He walks more",
+"He eats less"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about a neighbour's garden. What is the boy's attitude to it?",
+"o": [
+"He admires it",
+"He is jealous",
+"He thinks it is boring"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two travellers at an airport. What does the man decide to do?",
+"o": [
+"Complain to the airline",
+"Contact the hotel",
+"Buy a book"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a girl talking about voluntary work. Why does she want to do it?",
+"o": [
+"To gain experience",
+"To earn money",
+"To travel abroad"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a man and a girl talking about a book. What does the girl like about it?",
+"o": [
+"It is short",
+"It is very funny",
+"It makes her feel part of the story"
+],
+"c": 2
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/pet5-t2/p3.mp3",
+"intro": "You will hear a man telling a group of students about a trip to the theatre. For each question, fill in the missing information in the numbered space.",
+"gapTitle": "Trip to Staunton Theatre",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The students meet by the ____ gate of the school.",
+"accept": [
+"back"
+]
+},
+{
+"type": "gap",
+"label": "The play starts at ____.",
+"accept": [
+"7.30",
+"7:30",
+"seven thirty",
+"half past seven"
+]
+},
+{
+"type": "gap",
+"label": "Students can collect a copy of the play from the school ____.",
+"accept": [
+"secretary"
+]
+},
+{
+"type": "gap",
+"label": "Each student pays ____ for a theatre ticket.",
+"accept": [
+"15.75",
+"£15.75",
+"15.75 pounds"
+]
+},
+{
+"type": "gap",
+"label": "The coach costs ____.",
+"accept": [
+"3.50",
+"£3.50",
+"3.50 pounds"
+]
+},
+{
+"type": "gap",
+"label": "Students who go home by bus can get off at the ____.",
+"accept": [
+"bus station"
+]
+}
+]
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/pet5-t2/p2.mp3",
+"intro": "You will hear a man called Frank talking on the radio about looking for ships that sank long ago. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Why was Frank's first ship easy to find?",
+"o": [
+"It was lying uncovered on the seabed",
+"It was close to the shore",
+"Fishermen showed him the place"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why does Frank often reach wrecks before professional divers?",
+"o": [
+"He dives more often than they do",
+"He has modern equipment",
+"He is a better swimmer"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What happened to the Sea Bird?",
+"o": [
+"It caught fire",
+"It was too old",
+"It hit rocks in strong wind"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Frank's wife think about his collection?",
+"o": [
+"He has too many objects at home",
+"She enjoys looking at the objects",
+"He should hide them"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What did Frank do with some of his objects?",
+"o": [
+"He sold them to antique shops",
+"He gave some to museums",
+"He threw some away"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What advice does Frank give to new divers?",
+"o": [
+"Teach yourself to dive",
+"Go on a diving holiday first",
+"Take a course at a diving club"
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · PET 5 Test 3 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/pet5-t3/p1.mp3",
+"intro": "You will hear seven short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What is the weather forecast for tomorrow?",
+"o": [
+"Snow",
+"Rain",
+"Sunshine"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What will they buy at the supermarket?",
+"o": [
+"Cake",
+"Biscuits",
+"Ice cream"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Which t-shirt does the woman buy?",
+"o": [
+"Dark, with short sleeves and a round neck",
+"White, with long sleeves",
+"Dark, with short sleeves and a V-neck"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What will the girl take with her on holiday?",
+"o": [
+"Suitcase",
+"Sports bag",
+"Rucksack"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Which exercise is the teacher describing?",
+"o": [
+"Sitting against a wall with bent knees",
+"Standing on one leg",
+"Lying on the floor with raised legs"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What time will the train to London leave?",
+"o": [
+"4.30",
+"4.45",
+"4.50"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Which sport will the boy do soon at the centre?",
+"o": [
+"Windsurfing",
+"Diving",
+"Sailing"
+],
+"c": 2
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/pet5-t3/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two friends talking about a film they saw. What did the boy think of the film?",
+"o": [
+"The actors were disappointing.",
+"It lasted too long.",
+"The music was too sad."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a mother talking to her son at home. How is the boy feeling?",
+"o": [
+"nervous about an exam",
+"angry with his teacher",
+"tired after studying"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two people at a concert hall. Why is the woman apologising?",
+"o": [
+"She has lost her ticket.",
+"She has arrived late.",
+"She has come on the wrong day."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two students talking about school activities. What does the boy advise the girl to do?",
+"o": [
+"Ask the teacher for help.",
+"Keep going to basketball.",
+"Join the choir."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two colleagues talking about a party. What does the man say about the restaurant?",
+"o": [
+"He thinks it is too expensive.",
+"He dislikes Italian food.",
+"He would prefer a cooler place."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a boy talking to his father. What does the father decide?",
+"o": [
+"To let his son take the new camera.",
+"To buy his son a camera.",
+"To keep the new camera at home."
+],
+"c": 0
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/pet5-t3/p3.mp3",
+"intro": "You will hear a telephone message about a business studies course. For each question, fill in the missing information in the numbered space.",
+"gapTitle": "Business studies course at Green Hill College",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The business studies course finishes on 7th ____.",
+"accept": [
+"july"
+]
+},
+{
+"type": "gap",
+"label": "Students cannot use ____ in the classroom.",
+"accept": [
+"mobile phones",
+"phones",
+"mobiles",
+"mobile phone"
+]
+},
+{
+"type": "gap",
+"label": "The visitors' car park is beside the main ____.",
+"accept": [
+"entrance"
+]
+},
+{
+"type": "gap",
+"label": "Turn right after the Science and Technology ____.",
+"accept": [
+"centre",
+"center"
+]
+},
+{
+"type": "gap",
+"label": "Students can take Italian or ____ classes.",
+"accept": [
+"spanish"
+]
+},
+{
+"type": "gap",
+"label": "For more information, call Sonia ____.",
+"accept": [
+"ashleigh"
+]
+}
+]
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/pet5-t3/p2.mp3",
+"intro": "You will hear an interview with a woman called Rachel, who puts on shows for children. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Why did Rachel stop working as an artist?",
+"o": [
+"She wanted to teach art",
+"She was busy looking after her children",
+"She lost interest in painting"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How did Rachel start performing for other children?",
+"o": [
+"Her husband suggested using the dolls at a party",
+"The school asked her",
+"She put an advert in a newspaper"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Who performs in the shows with Rachel?",
+"o": [
+"Her husband",
+"Her neighbour",
+"Her daughters"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What went wrong once?",
+"o": [
+"The children were frightened by a story",
+"The dolls broke during a show",
+"The parents complained"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Rachel do now before a new show?",
+"o": [
+"She asks parents to read the stories",
+"She avoids stories about animals",
+"She tries new ideas out on children"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why does Rachel think the shows are popular?",
+"o": [
+"They are cheap",
+"They are very short",
+"She enjoys them herself"
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · PET 5 Test 4 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/pet5-t4/p1.mp3",
+"intro": "You will hear seven short conversations. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Which of Miranda's things will Lucy be able to use?",
+"o": [
+"Racket",
+"Shoes",
+"Balls"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What can't the woman find?",
+"o": [
+"Hammer",
+"Scissors",
+"Paintbrush"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Which ring has the woman lost?",
+"o": [
+"Round green stone on a plain band",
+"Square green stone with small stones round it",
+"Square blue stone on its own"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What time did the girl arrive?",
+"o": [
+"6.05",
+"6.45",
+"7.00"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What will be on television at ten o'clock this evening?",
+"o": [
+"Football",
+"Programme about the sea",
+"Rock concert"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Where will the party be?",
+"o": [
+"The nightclub",
+"Maria's flat",
+"The outdoor concert"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What did the man buy?",
+"o": [
+"Orange juice and grapes",
+"Grapes and strawberries",
+"Orange juice and strawberries"
+],
+"c": 2
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/pet5-t4/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two neighbours talking about a gym. What does the man like most about the gym?",
+"o": [
+"the friendly people",
+"the beginners' class",
+"the instructor"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a girl and her brother at home. Where was the girl's phone?",
+"o": [
+"in her coat",
+"under her bed",
+"in the kitchen"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a manager talking to a new employee. What is the woman worried about?",
+"o": [
+"speaking to customers",
+"using the computer system",
+"working long hours"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about a weekend. What will the girl probably do on Saturday?",
+"o": [
+"Miss the party completely.",
+"Go to see her aunt.",
+"Visit her grandmother and go to the party."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a teacher talking to a student. What does the teacher want Daniel to do?",
+"o": [
+"Add local examples.",
+"Start a new essay.",
+"Stop playing football."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a brother and sister talking about dinner. Why does the boy complain?",
+"o": [
+"He dislikes fish completely.",
+"He is bored of the same food.",
+"He wants to cook dinner."
+],
+"c": 1
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/pet5-t4/p3.mp3",
+"intro": "You will hear a woman talking about flights in a hot air balloon. For each question, fill in the missing information in the numbered space.",
+"gapTitle": "Hot air balloon flights",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Children under ____ must go with an adult.",
+"accept": [
+"12",
+"twelve"
+]
+},
+{
+"type": "gap",
+"label": "All passengers must be ____.",
+"accept": [
+"fit"
+]
+},
+{
+"type": "gap",
+"label": "If there is too much ____, the flight is cancelled.",
+"accept": [
+"cloud",
+"clouds"
+]
+},
+{
+"type": "gap",
+"label": "Passengers should wear ____ on their feet.",
+"accept": [
+"boots"
+]
+},
+{
+"type": "gap",
+"label": "A ____ takes passengers back to the airfield.",
+"accept": [
+"minibus",
+"mini bus",
+"mini-bus"
+]
+},
+{
+"type": "gap",
+"label": "The last flights of the year are in ____.",
+"accept": [
+"october"
+]
+}
+]
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/pet5-t4/p2.mp3",
+"intro": "You will hear a man called Paul talking about a trip across Africa with a team of scientists. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Why did Paul choose his route across Africa?",
+"o": [
+"The area would soon change",
+"The roads were good",
+"It was the shortest way"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why did the team move so slowly?",
+"o": [
+"They carried very heavy loads",
+"The forest was very thick",
+"They were often ill"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How did Paul feel about the wild animals?",
+"o": [
+"They frightened him",
+"They attacked the camp",
+"He enjoyed watching them"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What made Paul angry?",
+"o": [
+"Some people ate too much of the food",
+"The food went bad",
+"The guide got lost"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How was the sick man helped?",
+"o": [
+"The guide carried him",
+"Someone in a boat took him to a doctor",
+"The team waited until he recovered"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why did Paul refuse to go to Australia?",
+"o": [
+"He did not enjoy Africa",
+"His family asked him not to go",
+"He has things to do at home"
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · PET 6 Test 1 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/pet6-t1/p1.mp3",
+"intro": "You will hear seven short recordings. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Where will the two friends meet?",
+"o": [
+"At the café on the corner",
+"Outside the cinema",
+"At the bus stop"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What has the girl forgotten to bring?",
+"o": [
+"Something to write with",
+"Her homework",
+"Her house keys"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Which programme will be on at nine o'clock tonight?",
+"o": [
+"Chinese cooking",
+"Ski jumping",
+"Sea animals in Florida"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How is the man going to reserve tickets?",
+"o": [
+"By ringing the theatre",
+"By filling in a form in a magazine",
+"By using the internet"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What will the man do this winter?",
+"o": [
+"Carry on in his present job",
+"Take a job in a shop",
+"Look for work overseas"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How does the man want the woman to help him?",
+"o": [
+"By cleaning a window for him",
+"By driving him to collect something",
+"By lending him a ladder"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Which house did the woman stay in?",
+"o": [
+"The one with balconies but no pool",
+"The one with a big garden by the sea",
+"The one with balconies and a swimming pool"
+],
+"c": 1
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/pet6-t1/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear a woman talking to a shop assistant. What does the woman want?",
+"o": [
+"a refund",
+"a longer receipt",
+"a different copy of the book"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two students talking about their future. What is the boy thinking of doing?",
+"o": [
+"studying law",
+"studying design",
+"getting a job"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two adults talking about driving. How does the woman feel after the conversation?",
+"o": [
+"relieved",
+"embarrassed",
+"annoyed"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two friends outside a café. Why do they decide to go into the café?",
+"o": [
+"It is cheap and has internet.",
+"It serves their favourite food.",
+"It is quiet and empty."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a man asking a woman for directions. What will the man probably do?",
+"o": [
+"wait for a bus",
+"walk to the museum",
+"take a taxi"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a student talking to her teacher. How does the teacher make Emma feel better?",
+"o": [
+"He gives her extra homework.",
+"He says the question is easy.",
+"He says other students found the question hard."
+],
+"c": 2
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/pet6-t1/p3.mp3",
+"intro": "You will hear a person talking. For each question, write the missing information in the gap. Write one word or a number.",
+"gapTitle": "Historic places to visit",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The caves are open every day from April until ____.",
+"accept": [
+"october"
+]
+},
+{
+"type": "gap",
+"label": "In August, a special evening tour of the caves is lit only by ____.",
+"accept": [
+"candlelight",
+"candles",
+"candle light"
+]
+},
+{
+"type": "gap",
+"label": "Salter House was built in the year ____.",
+"accept": [
+"1765"
+]
+},
+{
+"type": "gap",
+"label": "Visitors should not miss the ____ where Aunt Dorothy prepared big meals.",
+"accept": [
+"kitchen"
+]
+},
+{
+"type": "gap",
+"label": "A trip by old ____ takes visitors to the fishing village.",
+"accept": [
+"tram"
+]
+},
+{
+"type": "gap",
+"label": "In the factory you can watch how ____ were made long ago.",
+"accept": [
+"sweets"
+]
+}
+]
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/pet6-t1/p2.mp3",
+"intro": "You will hear a radio interview with a news reporter. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What does Angela enjoy most about her work?",
+"o": [
+"Being present while important events develop",
+"Not knowing where she will go next",
+"Visiting dangerous places"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What did Angela bring home from Hong Kong?",
+"o": [
+"Some furniture",
+"Rugs for the floor",
+"Paintings"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Angela do at the start of her working day?",
+"o": [
+"She goes to the studio",
+"She calls her office to get her instructions",
+"She presents the news on television"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How did Angela meet her boyfriend?",
+"o": [
+"Her sister brought them together",
+"They studied at the same university",
+"They were both living in Hong Kong"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How does Angela feel about cooking?",
+"o": [
+"She is not confident about it",
+"She finds it relaxing",
+"She does it while she is travelling"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How does Angela relax?",
+"o": [
+"By visiting her sister",
+"By going out on the water",
+"By cooking a meal"
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · PET 6 Test 2 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/pet6-t2/p1.mp3",
+"intro": "You will hear seven short recordings. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Where can the foreign language dictionaries be found?",
+"o": [
+"Beyond the row of computers",
+"Next to the armchairs",
+"Beside the windows"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Which dress will the woman wear tomorrow night?",
+"o": [
+"The one with white flowers",
+"The long one with a wide belt",
+"The one with long sleeves"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does the man do for a living now?",
+"o": [
+"He teaches a subject",
+"He sells his paintings",
+"He works in his father's business"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Which calendar will the boy buy for his mother?",
+"o": [
+"The one showing sailing vessels",
+"The one with wild animals",
+"The one with mountain views"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What time is the writer expected to arrive at the bookshop?",
+"o": [
+"Quarter to two",
+"Quarter past two",
+"Half past three"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What did the woman leave in the restaurant?",
+"o": [
+"Her car keys",
+"Her purse",
+"Her bag"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Where is the boy's bicycle now?",
+"o": [
+"On the opposite side of the road",
+"Under the tree on the pavement",
+"Next to his father's car"
+],
+"c": 0
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/pet6-t2/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two friends talking about a sport. Why is the girl unsure about going?",
+"o": [
+"She has no equipment.",
+"She might hurt herself.",
+"She is too busy."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two parents talking about a teacher. What do they like most about Mr Lopez?",
+"o": [
+"his cooking",
+"his strictness",
+"his sense of humour"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a woman talking to her boss. What does the boss ask her to do before she leaves?",
+"o": [
+"finish a report",
+"phone the dentist",
+"work on Monday"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two teenagers talking about a sports centre. What is the girl's problem with the sports centre?",
+"o": [
+"It is too crowded.",
+"The prices are high.",
+"Getting there is difficult."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about a pet. What does the woman think of the man's plan?",
+"o": [
+"It is too expensive.",
+"It is a good idea.",
+"It is a big risk."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two friends having lunch. Who gave the boy the recipe?",
+"o": [
+"his grandfather",
+"his mother",
+"a chef"
+],
+"c": 0
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/pet6-t2/p3.mp3",
+"intro": "You will hear a person talking. For each question, write the missing information in the gap. Write one word or a number.",
+"gapTitle": "Singing for Beginners",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Nowadays the teacher sometimes sings in ____ clubs.",
+"accept": [
+"jazz"
+]
+},
+{
+"type": "gap",
+"label": "The teacher never takes more than ____ students on a course.",
+"accept": [
+"ten",
+"10"
+]
+},
+{
+"type": "gap",
+"label": "Students learn about ____ songs during the three days.",
+"accept": [
+"20",
+"twenty"
+]
+},
+{
+"type": "gap",
+"label": "The songs are classical, modern and ____ ones.",
+"accept": [
+"pop"
+]
+},
+{
+"type": "gap",
+"label": "The ____ served at lunch are very good.",
+"accept": [
+"salads",
+"salad"
+]
+},
+{
+"type": "gap",
+"label": "The next course begins on 24th ____.",
+"accept": [
+"september"
+]
+}
+]
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/pet6-t2/p2.mp3",
+"intro": "You will hear a radio interview with a man who lives in a town called Swanton. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Where is most of Swanton built?",
+"o": [
+"Beside a river",
+"On top of a hill",
+"Around a lake"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Jack like best about living in Swanton?",
+"o": [
+"The woodland animals",
+"The chance to go climbing",
+"The busy port"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What is the area around Swanton famous for?",
+"o": [
+"Music festival in the next town",
+"Its football team",
+"The new arts centre"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What is Jack most unhappy about?",
+"o": [
+"The shortage of fish",
+"The lack of birds in the woodland",
+"The dirty water in the river"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Jack say about Swanton in the past?",
+"o": [
+"People knew those living near them",
+"It was more exciting",
+"There were more companies"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What has recently increased the number of visitors?",
+"o": [
+"The new shopping complex",
+"The university",
+"The improved airport"
+],
+"c": 1
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · PET 6 Test 3 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/pet6-t3/p1.mp3",
+"intro": "You will hear seven short recordings. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What regular exercise does David do at the moment?",
+"o": [
+"Playing tennis",
+"Doing lengths in a pool",
+"Going to the gym"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why is Emma phoning Susie?",
+"o": [
+"To ask her to help prepare for a school celebration",
+"To invite her to a party",
+"To borrow some paint"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Which kind of T-shirt did the boy choose?",
+"o": [
+"The one with geometric designs",
+"The one with a boat picture",
+"The one with a slogan"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What frightened the man on his holiday?",
+"o": [
+"The elephants",
+"The small flying creatures",
+"The big cats"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Where is the man phoning from?",
+"o": [
+"Farmhouse near the bar",
+"His client's home",
+"The bar by the bridge"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How did the woman spend her last holiday?",
+"o": [
+"Resting by the swimming pool",
+"Climbing in the mountains",
+"Watching television at home"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Where is the girl's purse?",
+"o": [
+"On the kitchen table",
+"In her bag",
+"Under the sofa"
+],
+"c": 2
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/pet6-t3/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two friends talking about a flat. What is the man's problem?",
+"o": [
+"a noisy neighbour",
+"a tiny kitchen",
+"a long journey to work"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about music. What does the girl suggest?",
+"o": [
+"having extra lessons",
+"playing with other people",
+"taking a holiday from music"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two people looking at a photograph. What impresses the man most?",
+"o": [
+"The weather was lovely.",
+"The wedding was in Scotland.",
+"The woman's sister made her dress."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two students talking about a trip. How does the boy feel at the end?",
+"o": [
+"unhappy",
+"excited",
+"bored"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two colleagues at a meeting. Why is the woman worried?",
+"o": [
+"She has already ordered some posters.",
+"She has lost an important document.",
+"She was late for the introductions."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about a library. Why was the girl told off by the librarian?",
+"o": [
+"She was eating.",
+"She was late.",
+"She was making noise."
+],
+"c": 2
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/pet6-t3/p3.mp3",
+"intro": "You will hear a person talking. For each question, write the missing information in the gap. Write one word or a number.",
+"gapTitle": "College trip to Birmingham",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The trip to the championships is on the 15th of ____.",
+"accept": [
+"march"
+]
+},
+{
+"type": "gap",
+"label": "Teams from ____ different countries will take part.",
+"accept": [
+"140",
+"one hundred and forty",
+"a hundred and forty"
+]
+},
+{
+"type": "gap",
+"label": "The stadium has room for ____ spectators.",
+"accept": [
+"17000",
+"17,000",
+"seventeen thousand"
+]
+},
+{
+"type": "gap",
+"label": "This time the group will travel to Birmingham by ____.",
+"accept": [
+"train"
+]
+},
+{
+"type": "gap",
+"label": "Everyone must bring an ____ card.",
+"accept": [
+"identity",
+"id"
+]
+},
+{
+"type": "gap",
+"label": "To read more on the internet, look in the index for the word ____.",
+"accept": [
+"birinfo"
+]
+}
+]
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/pet6-t3/p2.mp3",
+"intro": "You will hear a radio interview with a young ballet dancer. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How old was Elena when she started ballet lessons?",
+"o": [
+"Nine",
+"Seven",
+"Eleven"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What did living in the United States teach Elena?",
+"o": [
+"To make friends easily",
+"To manage on her own",
+"To learn languages quickly"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How did Elena first get to know the story of Cinderella?",
+"o": [
+"It was read to her as a child",
+"She saw it performed",
+"She heard the music"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Elena like doing in her free time?",
+"o": [
+"Looking round London as a tourist",
+"Trying on new clothes with friends",
+"Going to nightclubs"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Elena sometimes give to her fans?",
+"o": [
+"Flowers she has been given",
+"Free tickets",
+"Photographs of herself"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Elena find most satisfying about her career?",
+"o": [
+"Earning a living from something she loves",
+"Meeting an important politician",
+"Dancing abroad as a guest"
+],
+"c": 1
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · PET 6 Test 4 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/pet6-t4/p1.mp3",
+"intro": "You will hear seven short recordings. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What did the thieves steal?",
+"o": [
+"The CD player",
+"An old piece of furniture",
+"The television set"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What present will the couple take for the family?",
+"o": [
+"Tough drinking glasses",
+"Flowers",
+"DVD"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What will the woman eat tonight?",
+"o": [
+"Sandwiches brought to her room",
+"Burger and chips in the bar",
+"Pizza from the place opposite"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How much will the girl's train ticket cost?",
+"o": [
+"£9.40",
+"£10.45",
+"£12.65"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does the girl's grandmother do now?",
+"o": [
+"She teaches children",
+"She cleans offices",
+"She serves in a restaurant"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Which button has the boy lost?",
+"o": [
+"The one at the neck",
+"The one on the pocket",
+"The one on the sleeve"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What are the two people going to do once the floor has been washed?",
+"o": [
+"Sweep the floor",
+"Paint the walls",
+"Clean the windows"
+],
+"c": 2
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/pet6-t4/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two people talking about a plan. What does the woman say about her family?",
+"o": [
+"They will travel with her.",
+"They gave her money.",
+"They have accepted her plan."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about a football match. What does the boy think about the goalkeeper?",
+"o": [
+"He should not be criticised.",
+"He is the best player.",
+"He should leave the team."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two people talking about a present. What does the man suggest?",
+"o": [
+"kitchen equipment",
+"a cooking class",
+"a meal in a restaurant"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a boy talking to his father. Why doesn't the boy want to go to the dentist?",
+"o": [
+"He dislikes the sound of the drill.",
+"He has no pain.",
+"He wants an ice cream."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a brother and sister talking about homework. What advice does the boy give?",
+"o": [
+"Copy from the internet.",
+"Choose an easier subject.",
+"Write using her own words."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a man phoning a restaurant. Why doesn't the man book a table?",
+"o": [
+"The restaurant is too expensive.",
+"The times offered don't suit his group.",
+"The restaurant is closed on Saturday."
+],
+"c": 1
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/pet6-t4/p3.mp3",
+"intro": "You will hear a person talking. For each question, write the missing information in the gap. Write one word or a number.",
+"gapTitle": "Cycling holiday in Northumberland",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "More ____ are open to visitors here than in any other part of the country.",
+"accept": [
+"castles",
+"castle"
+]
+},
+{
+"type": "gap",
+"label": "The speaker advises going in the ____, when it is easier to find a room.",
+"accept": [
+"spring"
+]
+},
+{
+"type": "gap",
+"label": "Hiring a bicycle for one week costs ____ pounds.",
+"accept": [
+"35",
+"£35",
+"thirty-five",
+"thirty five"
+]
+},
+{
+"type": "gap",
+"label": "You get your deposit of ____ pounds back when you return the bicycle.",
+"accept": [
+"50",
+"£50",
+"fifty"
+]
+},
+{
+"type": "gap",
+"label": "Every August there is an international ____ festival.",
+"accept": [
+"music"
+]
+},
+{
+"type": "gap",
+"label": "The National Park offers guided walks, photography and ____ watching.",
+"accept": [
+"bird",
+"birds"
+]
+}
+]
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/pet6-t4/p2.mp3",
+"intro": "You will hear a television weather forecaster talking about her job. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How long has Sarah been in charge of the weather department?",
+"o": [
+"Two years",
+"Five years",
+"Seven years"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Sarah say about working at night?",
+"o": [
+"She would rather do it than start very early",
+"It is the only shift she does",
+"It makes her feel tired"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why does Sarah not feel nervous before a forecast?",
+"o": [
+"She reads them from a screen",
+"She always remembers what to say",
+"She has a long time to learn her words"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Sarah hope to do this year?",
+"o": [
+"Qualify as a pilot",
+"Take part in a marathon again",
+"Beat her husband at tennis"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What is Sarah's husband enjoying at the moment?",
+"o": [
+"Redecorating their home",
+"Flying long distances",
+"Playing sport with her"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What happened to Sarah in an Indian village?",
+"o": [
+"She received a letter about her smile",
+"An old man took her to be photographed with his relatives",
+"Someone proposed marriage in a letter"
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · PET 7 Test 1 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/pet7-t1/p1.mp3",
+"intro": "You will hear seven short recordings. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How will the two people book their flights?",
+"o": [
+"By visiting a travel agent in person",
+"By phoning a travel agent",
+"Through the internet"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What did the girl leave at home?",
+"o": [
+"Something to wash her hair with",
+"Her toothpaste",
+"Her hairbrush"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What will the man and woman do on Sunday?",
+"o": [
+"Clean the flat",
+"Spend the day by the sea",
+"Stay in and watch DVDs"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Which blouse does the girl decide to buy?",
+"o": [
+"The one with a collar and long sleeves",
+"The one with short sleeves and no collar",
+"The one with a collar and no sleeves"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "On which day is the girl having her party?",
+"o": [
+"Thursday",
+"Friday",
+"Saturday"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Where will the motorcycle race end?",
+"o": [
+"On top of the hill at Castle Square",
+"In the square by the town hall",
+"Outside the stadium"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What will be mended next?",
+"o": [
+"The football",
+"The bicycle tyre",
+"The window"
+],
+"c": 1
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/pet7-t1/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two students talking about a project. Why does the boy want to start soon?",
+"o": [
+"The topic is difficult.",
+"His experiment takes time.",
+"He is going away."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two colleagues talking about a problem. What does the woman offer to do?",
+"o": [
+"help him find a new home",
+"speak to the landlord",
+"lend him some money"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about shoes. What does the girl think of the trainers?",
+"o": [
+"They are uncomfortable.",
+"They are too expensive.",
+"They are unusual but suit him."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two people talking about a lecture. What will the woman do?",
+"o": [
+"lend him her notes",
+"tell him about the sea",
+"send him a recording"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a girl talking to her mother. What does the mother decide?",
+"o": [
+"They will watch the film later.",
+"The girl may stay up.",
+"The girl must cancel swimming."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two teenagers talking about work. Why is the boy unhappy?",
+"o": [
+"The pay is low.",
+"The job is physically tiring.",
+"The manager is rude."
+],
+"c": 1
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/pet7-t1/p3.mp3",
+"intro": "You will hear a person talking. For each question, write the missing information in the gap. Write one word or a number.",
+"gapTitle": "Film at the Science Museum",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The new cinema is inside the ____ Museum.",
+"accept": [
+"science"
+]
+},
+{
+"type": "gap",
+"label": "The last showing of the film starts at ____ o'clock.",
+"accept": [
+"5",
+"five"
+]
+},
+{
+"type": "gap",
+"label": "In the basement, children can make pictures on the ____.",
+"accept": [
+"computers",
+"computer"
+]
+},
+{
+"type": "gap",
+"label": "On the first floor there is a working ____ engine.",
+"accept": [
+"steam"
+]
+},
+{
+"type": "gap",
+"label": "Normally a ticket for the film costs £____.",
+"accept": [
+"3.25",
+"£3.25"
+]
+},
+{
+"type": "gap",
+"label": "To get free tickets, email the programme by midday on ____.",
+"accept": [
+"friday"
+]
+}
+]
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/pet7-t1/p2.mp3",
+"intro": "You will hear a radio interview with a man who has written a book about Argentina. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Why did Robin decide to write a book?",
+"o": [
+"He wanted to tell others about his experiences",
+"He works as a tour guide",
+"He needed to practise his Spanish"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What was the weather like on Robin's last visit?",
+"o": [
+"Cloudy in the afternoons",
+"Cold early in the day but bright later",
+"Warm from the early morning"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Which item did Robin leave behind because of its size?",
+"o": [
+"Wooden chair",
+"Painting of the countryside",
+"Record collection"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How did Robin feel when he watched the dancers?",
+"o": [
+"He wanted to take part",
+"He was glad he had stopped lessons",
+"He decided to start classes again"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What did the hotel owner do for Robin?",
+"o": [
+"Showed him the forest on foot",
+"Took him on a boat trip",
+"Drove him to the village"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why does Robin like the mountain near Buenos Aires?",
+"o": [
+"It was calm and silent",
+"The views were clear",
+"He saw lots of wildlife"
+],
+"c": 1
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · PET 7 Test 2 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/pet7-t2/p1.mp3",
+"intro": "You will hear seven short recordings. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What has the boy lost?",
+"o": [
+"Something to take photos with",
+"His map",
+"His money"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What time does the race begin?",
+"o": [
+"3.15",
+"2.30",
+"1.45"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Which musical instrument does the boy play now?",
+"o": [
+"Percussion",
+"Piano",
+"Trumpet"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What will the weather be like tomorrow afternoon?",
+"o": [
+"Cloudy and wet",
+"Windy and bright",
+"Warm and sunny"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What is James Wilson's book about?",
+"o": [
+"Photography",
+"Computers",
+"Cooking"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Which part of the man's body hurts him now?",
+"o": [
+"His shoulders",
+"His legs",
+"His back"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "When was the man's Spanish useful?",
+"o": [
+"At a friend's party",
+"When he went shopping",
+"In a restaurant"
+],
+"c": 2
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/pet7-t2/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear a woman and a man talking about a hairstyle. What does the man really think?",
+"o": [
+"He is not sure about the style.",
+"He thinks it looks awful.",
+"He loves it."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear a girl talking to her father. What does the father promise to do?",
+"o": [
+"Book a holiday in Italy.",
+"Go camping next summer.",
+"Think about her idea."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear a boy talking to his teacher. How does the teacher react?",
+"o": [
+"She is very angry.",
+"She trusts him this time.",
+"She sends him home."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear a couple arriving at a restaurant. Where do they decide to sit?",
+"o": [
+"near a window inside",
+"under a tree outdoors",
+"in the sun"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about a party. Why is the girl annoyed with Lucy?",
+"o": [
+"She wasn't invited.",
+"She cancelled the party.",
+"She revealed a secret."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two travellers talking. Why does the man choose the bus?",
+"o": [
+"It is cheaper.",
+"It is quicker.",
+"It is more comfortable."
+],
+"c": 0
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/pet7-t2/p3.mp3",
+"intro": "You will hear a person talking. For each question, write the missing information in the gap. Write one word or a number.",
+"gapTitle": "Summer courses at Highbury College",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Each course lasts ____ weeks.",
+"accept": [
+"4",
+"four"
+]
+},
+{
+"type": "gap",
+"label": "The literature course is about ____ century writers and poets.",
+"accept": [
+"20th",
+"20",
+"twentieth"
+]
+},
+{
+"type": "gap",
+"label": "All the courses begin on 14th ____.",
+"accept": [
+"june"
+]
+},
+{
+"type": "gap",
+"label": "Classes finish at ____ every day.",
+"accept": [
+"3.30",
+"3:30",
+"half past three",
+"half past 3"
+]
+},
+{
+"type": "gap",
+"label": "The full price of each course is ____ pounds.",
+"accept": [
+"425",
+"£425"
+]
+},
+{
+"type": "gap",
+"label": "Students sleep in ____ rooms at the college hall.",
+"accept": [
+"shared"
+]
+}
+]
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/pet7-t2/p2.mp3",
+"intro": "You will hear a radio interview with the owner of an adventure travel company. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How did Harry first become interested in adventure travel?",
+"o": [
+"By hearing about his father's earlier journeys",
+"By reading adventure books",
+"By working for an insurance company"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why did Harry start his company?",
+"o": [
+"He wanted others to see places he had discovered",
+"He wanted to earn a lot of money",
+"He needed a job after his twenties"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Who gave Harry the idea for the company's name?",
+"o": [
+"Friend who is an author",
+"Customer of his company",
+"His wife"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Harry say about the places his company visits?",
+"o": [
+"Hardly anyone lives in them",
+"Local people's lives are changed by visitors",
+"The company leaves its rubbish behind"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How does Harry deal with danger?",
+"o": [
+"He concentrates on what he has to do",
+"He avoids it",
+"He enjoys the excitement"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Harry say about the castle in India?",
+"o": [
+"It is visited by many tourists",
+"Few people have heard of it",
+"It stands next to a river"
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B1 — Practice · PET 7 Test 3 audio · TG",
+"cefr": "Cambridge B1 Preliminary · digital format",
+"blurb": "Authentic exam recordings for Parts 1, 3 and 4 plus an original Part 2.",
+"audios": [
+{
+"id": "B1-P1",
+"title": "Part 1 · Questions 1–7",
+"kind": "file",
+"file": "TG/pet7-t3/p1.mp3",
+"intro": "You will hear seven short recordings. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Which present will Maria receive?",
+"o": [
+"Something for her bedroom floor",
+"Book of short stories",
+"Leather suitcase"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Where will the tourists go last?",
+"o": [
+"The gardens",
+"Boat ride on the river",
+"The castle"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How much does the man pay for postage?",
+"o": [
+"£18.50",
+"£7.50",
+"£15.50"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Where in the theatre did the woman leave her gloves?",
+"o": [
+"At the refreshment bar",
+"At her seat",
+"With her coat"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Which dress does the woman like best?",
+"o": [
+"The one with dots",
+"The white one",
+"The one with flowers"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What is the television programme about?",
+"o": [
+"Animals near the South Pole",
+"Elephants in Africa",
+"Difficult sea journey"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Which vehicle does Steve intend to buy?",
+"o": [
+"Van for his work",
+"Four-door car",
+"His sports car"
+],
+"c": 2
+}
+]
+},
+{
+"id": "B1-P2",
+"title": "Part 2 · Questions 8–13",
+"kind": "file",
+"file": "TG/pet7-t3/p0.mp3",
+"intro": "You will hear six short conversations. You will hear each conversation twice. For each question, choose the correct answer.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You will hear two students talking about exams. What does the boy suggest?",
+"o": [
+"using a library",
+"asking her brother to stop",
+"studying at his house"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You will hear two people talking in an office. What is the woman's problem?",
+"o": [
+"She has no computer.",
+"She can't print her report.",
+"She is late for a meeting."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about books. How does the boy feel about his book?",
+"o": [
+"more interested than before",
+"bored all the way through",
+"ready to give up"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two strangers in a park. What does the woman do?",
+"o": [
+"Asks for directions.",
+"Offers the man something.",
+"Thanks him and leaves."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You will hear two friends talking about a quiz. Who helped the team with the music questions?",
+"o": [
+"Tom",
+"the girl",
+"the teacher"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You will hear two people choosing a jacket. Why does the woman choose the blue jacket?",
+"o": [
+"It is cheaper.",
+"It is warmer.",
+"It matches her other clothes."
+],
+"c": 2
+}
+]
+},
+{
+"id": "B1-P3",
+"title": "Part 3 · Questions 14–19",
+"kind": "file",
+"file": "TG/pet7-t3/p3.mp3",
+"intro": "You will hear a person talking. For each question, write the missing information in the gap. Write one word or a number.",
+"gapTitle": "Central Museum information",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The museum building was completed in ____.",
+"accept": [
+"1889"
+]
+},
+{
+"type": "gap",
+"label": "The gardens still have their original design from ____.",
+"accept": [
+"1921"
+]
+},
+{
+"type": "gap",
+"label": "The museum has a permanent ____ art exhibition.",
+"accept": [
+"japanese"
+]
+},
+{
+"type": "gap",
+"label": "Admission includes a free pre-recorded ____ guide.",
+"accept": [
+"audio"
+]
+},
+{
+"type": "gap",
+"label": "Visitors who come by car can park at the ____ next door.",
+"accept": [
+"hotel"
+]
+},
+{
+"type": "gap",
+"label": "Buses leave the railway station every ____ minutes.",
+"accept": [
+"10",
+"ten"
+]
+}
+]
+},
+{
+"id": "B1-P4",
+"title": "Part 4 · Questions 20–25",
+"kind": "file",
+"file": "TG/pet7-t3/p2.mp3",
+"intro": "You will hear a radio interview with a woman who once worked in a cake shop. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Why did Linda want a job?",
+"o": [
+"To have some money of her own",
+"To pay her college fees",
+"To get professional training"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Linda say about her first boss?",
+"o": [
+"He never got angry when things went wrong",
+"He paid her very well",
+"He trained her carefully"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What was difficult for Linda in her first week?",
+"o": [
+"Making sandwiches",
+"Not eating the cakes",
+"Keeping the shop clean"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What did Linda learn from making sandwiches?",
+"o": [
+"To use plenty of filling",
+"How to bake bread",
+"How to decorate cakes"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What surprised Linda about the full-time assistants?",
+"o": [
+"They used calculators for difficult sums",
+"They could not make cakes",
+"They treated her like a child"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "When did Linda enjoy the day most?",
+"o": [
+"When customers were planning weddings",
+"At lunchtime, when the shop was busy",
+"First thing, when the bread was baking"
+],
+"c": 2
 }
 ]
 }
@@ -16533,9 +27001,9 @@ const LISTEN_MORE = {
 "q": "How will Sofia get to the science fair?",
 "imgs": [
 "bus",
-"bike"
-,
-"car"],
+"bike",
+"car"
+],
 "c": 2,
 "audio": "M4/B1/B1-P1-q2.mp3"
 },
@@ -16543,10 +27011,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What is the weather like this morning?",
 "imgs": [
-"rainy"
-,
+"rainy",
 "snowy",
-"sunny"],
+"sunny"
+],
 "c": 0,
 "audio": "M4/B1/B1-P1-q3.mp3"
 },
@@ -16577,9 +27045,9 @@ const LISTEN_MORE = {
 "q": "Where does the inventors' club meet now?",
 "imgs": [
 "park",
-"library"
-,
-"cafe"],
+"library",
+"cafe"
+],
 "c": 1,
 "audio": "M4/B1/B1-P1-q6.mp3"
 },
@@ -16624,9 +27092,9 @@ const LISTEN_MORE = {
 "q": "Why did the girl invent the plant waterer?",
 "o": [
 "Because she loves gardening",
-"Because her mum asked her to"
-,
-"Because she kept killing plants"],
+"Because her mum asked her to",
+"Because she kept killing plants"
+],
 "c": 2,
 "audio": "M4/B1/B1-P2-q1.mp3"
 },
@@ -16657,9 +27125,9 @@ const LISTEN_MORE = {
 "q": "What does the girl say about working with Emma?",
 "o": [
 "It is faster than working alone",
-"Emma makes too many mistakes"
-,
-"Emma's questions prevent mistakes"],
+"Emma makes too many mistakes",
+"Emma's questions prevent mistakes"
+],
 "c": 2,
 "audio": "M4/B1/B1-P2-q4.mp3"
 },
@@ -16779,10 +27247,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why did Hugo nearly give up before the competition?",
 "o": [
-"His invention stopped working"
-,
+"His invention stopped working",
 "His teacher criticised his design",
-"A similar-looking product appeared"],
+"A similar-looking product appeared"
+],
 "c": 2
 },
 {
@@ -16800,9 +27268,9 @@ const LISTEN_MORE = {
 "q": "What did Hugo do with the prize money?",
 "o": [
 "He bought equipment for himself",
-"He bought materials for the school workshop"
-,
-"He saved it as his parents suggested"],
+"He bought materials for the school workshop",
+"He saved it as his parents suggested"
+],
 "c": 1
 },
 {
@@ -16853,10 +27321,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What must the woman leave at the desk?",
 "imgs": [
-"bag"
-,
+"bag",
 "phone",
-"camera"],
+"camera"
+],
 "c": 0,
 "audio": "M5/B1/B1-P1-q1.mp3"
 },
@@ -16865,9 +27333,9 @@ const LISTEN_MORE = {
 "q": "How will they travel to the museum?",
 "imgs": [
 "bike",
-"car"
-,
-"bus"],
+"car",
+"bus"
+],
 "c": 2,
 "audio": "M5/B1/B1-P1-q2.mp3"
 },
@@ -16887,9 +27355,9 @@ const LISTEN_MORE = {
 "q": "What time does the tour begin now?",
 "imgs": [
 "clock8",
-"clock9"
-,
-"clock830"],
+"clock9",
+"clock830"
+],
 "c": 1,
 "audio": "M5/B1/B1-P1-q4.mp3"
 },
@@ -16898,9 +27366,9 @@ const LISTEN_MORE = {
 "q": "What will they eat for lunch?",
 "imgs": [
 "pizza",
-"cake"
-,
-"sandwich"],
+"cake",
+"sandwich"
+],
 "c": 2,
 "audio": "M5/B1/B1-P1-q5.mp3"
 },
@@ -16908,10 +27376,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "Where will Leo's mum pick them up?",
 "imgs": [
-"park"
-,
+"park",
 "library",
-"cafe"],
+"cafe"
+],
 "c": 0,
 "audio": "M5/B1/B1-P1-q6.mp3"
 },
@@ -16978,9 +27446,9 @@ const LISTEN_MORE = {
 "q": "What does the man advise about the sound exhibition?",
 "o": [
 "Read about it before going",
-"Look carefully at everything"
-,
-"Experience it without preparation"],
+"Look carefully at everything",
+"Experience it without preparation"
+],
 "c": 2,
 "audio": "M5/B1/B1-P2-q3.mp3"
 },
@@ -16989,9 +27457,9 @@ const LISTEN_MORE = {
 "q": "How does the mother organise visits now?",
 "o": [
 "She makes lists of things to see",
-"She avoids the dinosaur rooms"
-,
-"She follows her children's choices"],
+"She avoids the dinosaur rooms",
+"She follows her children's choices"
+],
 "c": 2,
 "audio": "M5/B1/B1-P2-q4.mp3"
 },
@@ -17000,9 +27468,9 @@ const LISTEN_MORE = {
 "q": "Why did the girl stop using the audio guide?",
 "o": [
 "It was too expensive",
-"She preferred to look in silence"
-,
-"The information was wrong"],
+"She preferred to look in silence",
+"The information was wrong"
+],
 "c": 1,
 "audio": "M5/B1/B1-P2-q5.mp3"
 },
@@ -17010,10 +27478,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What is the man's job at the museum?",
 "o": [
-"Controlling the air in the building"
-,
+"Controlling the air in the building",
 "Studying the coin collection",
-"Guiding visitors on tours"],
+"Guiding visitors on tours"
+],
 "c": 0,
 "audio": "M5/B1/B1-P2-q6.mp3"
 }
@@ -17103,9 +27571,9 @@ const LISTEN_MORE = {
 "q": "What does Helena now think makes a good tour?",
 "o": [
 "Knowing hundreds of dates",
-"Showing as many objects as possible"
-,
-"Making people care through stories"],
+"Showing as many objects as possible",
+"Making people care through stories"
+],
 "c": 2
 },
 {
@@ -17122,10 +27590,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "How did the boy's question affect Helena?",
 "o": [
-"She found the answer years later"
-,
+"She found the answer years later",
 "It made her study photography",
-"It changed the way she talks about objects"],
+"It changed the way she talks about objects"
+],
 "c": 2
 },
 {
@@ -17197,10 +27665,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "How will Sara get to the start?",
 "imgs": [
-"bike"
-,
+"bike",
 "car",
-"bus"],
+"bus"
+],
 "c": 0,
 "audio": "M6/B1/B1-P1-q2.mp3"
 },
@@ -17209,9 +27677,9 @@ const LISTEN_MORE = {
 "q": "What will the weather be like on Sunday?",
 "imgs": [
 "rainy",
-"snowy"
-,
-"sunny"],
+"snowy",
+"sunny"
+],
 "c": 2,
 "audio": "M6/B1/B1-P1-q3.mp3"
 },
@@ -17230,10 +27698,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What will be sold at the finish-line stall?",
 "imgs": [
-"cake"
-,
+"cake",
 "pizza",
-"sandwich"],
+"sandwich"
+],
 "c": 0,
 "audio": "M6/B1/B1-P1-q5.mp3"
 },
@@ -17242,9 +27710,9 @@ const LISTEN_MORE = {
 "q": "Where does the middle of the route go now?",
 "imgs": [
 "library",
-"cafe"
-,
-"park"],
+"cafe",
+"park"
+],
 "c": 2,
 "audio": "M6/B1/B1-P1-q6.mp3"
 },
@@ -17253,9 +27721,9 @@ const LISTEN_MORE = {
 "q": "What has Tom lost?",
 "imgs": [
 "phone",
-"umbrella"
-,
-"keys"],
+"umbrella",
+"keys"
+],
 "c": 2,
 "audio": "M6/B1/B1-P1-q7.mp3"
 }
@@ -17300,9 +27768,9 @@ const LISTEN_MORE = {
 "q": "What is the coach's main advice?",
 "o": [
 "Buy the right shoes",
-"Begin the race slowly"
-,
-"Eat well before racing"],
+"Begin the race slowly",
+"Eat well before racing"
+],
 "c": 1,
 "audio": "M6/B1/B1-P2-q2.mp3"
 },
@@ -17321,10 +27789,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does the assistant say about registration?",
 "o": [
-"It reopens on Friday"
-,
+"It reopens on Friday",
 "It is possible on race day",
-"It closes on Thursday night"],
+"It closes on Thursday night"
+],
 "c": 2,
 "audio": "M6/B1/B1-P2-q4.mp3"
 },
@@ -17333,9 +27801,9 @@ const LISTEN_MORE = {
 "q": "What does the girl remember most about last year?",
 "o": [
 "Her brother nearly beating her",
-"A runner helping a man who stumbled"
-,
-"Walking the last kilometre"],
+"A runner helping a man who stumbled",
+"Walking the last kilometre"
+],
 "c": 1,
 "audio": "M6/B1/B1-P2-q5.mp3"
 },
@@ -17438,9 +27906,9 @@ const LISTEN_MORE = {
 "q": "What takes most of Olivia's time?",
 "o": [
 "Measuring the route",
-"Training the volunteers"
-,
-"Getting permissions and paperwork"],
+"Training the volunteers",
+"Getting permissions and paperwork"
+],
 "c": 2
 },
 {
@@ -17448,9 +27916,9 @@ const LISTEN_MORE = {
 "q": "How was the flood problem solved in year three?",
 "o": [
 "The race was moved to another day",
-"The council repaired the route in time"
-,
-"A young volunteer planned a new route"],
+"The council repaired the route in time",
+"A young volunteer planned a new route"
+],
 "c": 2
 },
 {
@@ -17468,9 +27936,9 @@ const LISTEN_MORE = {
 "q": "Which moment means most to Olivia?",
 "o": [
 "The noisy start of the race",
-"The last walkers being cheered"
-,
-"The winners crossing the line"],
+"The last walkers being cheered",
+"The winners crossing the line"
+],
 "c": 1
 },
 {
@@ -17543,10 +28011,10 @@ const LISTEN_MORE = {
 "type": "pic",
 "q": "What was the weather like when they filmed in April?",
 "imgs": [
-"snowy"
-,
+"snowy",
 "sunny",
-"rainy"],
+"rainy"
+],
 "c": 0,
 "audio": "M7/B1/B1-P1-q3.mp3"
 },
@@ -17566,9 +28034,9 @@ const LISTEN_MORE = {
 "q": "What did the crew eat on the mountain?",
 "imgs": [
 "pizza",
-"cake"
-,
-"sandwich"],
+"cake",
+"sandwich"
+],
 "c": 2,
 "audio": "M7/B1/B1-P1-q5.mp3"
 },
@@ -17577,9 +28045,9 @@ const LISTEN_MORE = {
 "q": "Where was the scientist interviewed?",
 "imgs": [
 "library",
-"park"
-,
-"cafe"],
+"park",
+"cafe"
+],
 "c": 1,
 "audio": "M7/B1/B1-P1-q6.mp3"
 },
@@ -17623,10 +28091,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does the storm filmmaker say about her job?",
 "o": [
-"It is the most dangerous job she knows"
-,
+"It is the most dangerous job she knows",
 "It means driving into storms",
-"It requires care more than bravery"],
+"It requires care more than bravery"
+],
 "c": 2,
 "audio": "M7/B1/B1-P2-q1.mp3"
 },
@@ -17645,10 +28113,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "How did the boy feel after watching?",
 "o": [
-"Sorry for choosing the programme"
-,
+"Sorry for choosing the programme",
 "Bored by the maps and graphs",
-"Keen to see the next part"],
+"Keen to see the next part"
+],
 "c": 2,
 "audio": "M7/B1/B1-P2-q3.mp3"
 },
@@ -17759,9 +28227,9 @@ const LISTEN_MORE = {
 "q": "Why did Hugo start making weather films?",
 "o": [
 "He survived a hurricane as a child",
-"A grandmother asked him to film the sky"
-,
-"He filmed a woman watching a storm"],
+"A grandmother asked him to film the sky",
+"He filmed a woman watching a storm"
+],
 "c": 2
 },
 {
@@ -17779,9 +28247,9 @@ const LISTEN_MORE = {
 "q": "What does Hugo say about the lightning scene?",
 "o": [
 "It looked closer than it was",
-"The scientist filmed it for the crew"
-,
-"Safety mattered more than any shot"],
+"The scientist filmed it for the crew",
+"Safety mattered more than any shot"
+],
 "c": 2
 },
 {
@@ -17799,9 +28267,9 @@ const LISTEN_MORE = {
 "q": "What does Hugo want audiences to do?",
 "o": [
 "Learn the important facts",
-"Start watching the sky themselves"
-,
-"Feel afraid of extreme weather"],
+"Start watching the sky themselves",
+"Feel afraid of extreme weather"
+],
 "c": 1
 },
 {
@@ -17809,9 +28277,9 @@ const LISTEN_MORE = {
 "q": "What will Hugo's next film be about?",
 "o": [
 "Hurricanes and tornadoes",
-"A disaster epic"
-,
-"Fog"],
+"A disaster epic",
+"Fog"
+],
 "c": 2
 }
 ]
@@ -17858,10 +28326,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What impressed the woman about the rooftop garden?",
 "o": [
-"The variety of vegetables"
-,
+"The variety of vegetables",
 "The view of the city",
-"Its size"],
+"Its size"
+],
 "c": 0,
 "audio": "P4/B2/B2-P1-q1.mp3"
 },
@@ -17881,9 +28349,9 @@ const LISTEN_MORE = {
 "q": "What has changed about the radio programme?",
 "o": [
 "The time",
-"The presenter"
-,
-"The topic"],
+"The presenter",
+"The topic"
+],
 "c": 2,
 "audio": "P4/B2/B2-P1-q3.mp3"
 },
@@ -17924,10 +28392,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What will the students grow first?",
 "o": [
-"Potatoes"
-,
+"Potatoes",
 "Herbs",
-"Flowers"],
+"Flowers"
+],
 "c": 0,
 "audio": "P4/B2/B2-P1-q7.mp3"
 },
@@ -17936,9 +28404,9 @@ const LISTEN_MORE = {
 "q": "What does the woman want at the garden centre?",
 "o": [
 "To exchange the plant",
-"Her money back"
-,
-"Advice on caring for the plant"],
+"Her money back",
+"Advice on caring for the plant"
+],
 "c": 2,
 "audio": "P4/B2/B2-P1-q8.mp3"
 }
@@ -18115,10 +28583,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "According to Elena, the biggest challenge for new gardens is",
 "o": [
-"keeping a site long term"
-,
+"keeping a site long term",
 "preventing vandalism",
-"finding enough money"],
+"finding enough money"
+],
 "c": 0
 },
 {
@@ -18126,9 +28594,9 @@ const LISTEN_MORE = {
 "q": "What does Elena say about food grown in cities?",
 "o": [
 "It could replace farms one day",
-"It is cheaper than supermarket food"
-,
-"It changes people's attitude to food"],
+"It is cheaper than supermarket food",
+"It changes people's attitude to food"
+],
 "c": 2
 },
 {
@@ -18146,9 +28614,9 @@ const LISTEN_MORE = {
 "q": "What is Elena proudest of?",
 "o": [
 "The awards her organisation has won",
-"The programme for schools"
-,
-"The number of gardens created"],
+"The programme for schools",
+"The number of gardens created"
+],
 "c": 1
 },
 {
@@ -18156,9 +28624,9 @@ const LISTEN_MORE = {
 "q": "What will Elena do next?",
 "o": [
 "Write a book",
-"Open projects abroad"
-,
-"Create gardens at hospitals"],
+"Open projects abroad",
+"Create gardens at hospitals"
+],
 "c": 2
 }
 ]
@@ -18201,10 +28669,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What did the man admire about the film?",
 "o": [
-"The way it was drawn"
-,
+"The way it was drawn",
 "The music",
-"The story"],
+"The story"
+],
 "c": 0,
 "audio": "P5/B2/B2-P1-q1.mp3"
 },
@@ -18234,10 +28702,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What is the man's problem?",
 "o": [
-"He has already missed his deadline"
-,
+"He has already missed his deadline",
 "He has lost his work",
-"The program stops working"],
+"The program stops working"
+],
 "c": 2,
 "audio": "P5/B2/B2-P1-q4.mp3"
 },
@@ -18448,20 +28916,20 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does Leo say about his first job?",
 "o": [
-"It made him well known quickly"
-,
+"It made him well known quickly",
 "It was more creative than he expected",
-"It taught him a great deal"],
+"It taught him a great deal"
+],
 "c": 2
 },
 {
 "type": "mc",
 "q": "According to Leo, the most important skill for an animator is",
 "o": [
-"observing people carefully"
-,
+"observing people carefully",
 "knowing the latest software",
-"drawing well"],
+"drawing well"
+],
 "c": 0
 },
 {
@@ -18469,9 +28937,9 @@ const LISTEN_MORE = {
 "q": "What does Leo think about new technology?",
 "o": [
 "It has made animation worse",
-"It has not changed what really matters"
-,
-"It makes stories more interesting"],
+"It has not changed what really matters",
+"It makes stories more interesting"
+],
 "c": 1
 },
 {
@@ -18479,9 +28947,9 @@ const LISTEN_MORE = {
 "q": "What does Leo find hardest as a director?",
 "o": [
 "Learning new tools",
-"Meeting tight deadlines"
-,
-"Giving bad news to artists"],
+"Meeting tight deadlines",
+"Giving bad news to artists"
+],
 "c": 2
 },
 {
@@ -18545,9 +29013,9 @@ const LISTEN_MORE = {
 "q": "How does the woman feel about kayaking now?",
 "o": [
 "She regrets going",
-"She still finds it frightening"
-,
-"She wants to do it again"],
+"She still finds it frightening",
+"She wants to do it again"
+],
 "c": 2,
 "audio": "P6/B2/B2-P1-q1.mp3"
 },
@@ -18555,10 +29023,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What has changed about the man's climbing course?",
 "o": [
-"The date"
-,
+"The date",
 "The price",
-"The instructor"],
+"The instructor"
+],
 "c": 0,
 "audio": "P6/B2/B2-P1-q2.mp3"
 },
@@ -18566,10 +29034,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does the coach tell the group to do?",
 "o": [
-"Stay inside the raft"
-,
+"Stay inside the raft",
 "Check their life jackets",
-"Hold on to the paddle"],
+"Hold on to the paddle"
+],
 "c": 2,
 "audio": "P6/B2/B2-P1-q3.mp3"
 },
@@ -18589,9 +29057,9 @@ const LISTEN_MORE = {
 "q": "What must zip line riders do?",
 "o": [
 "Bring their own helmet",
-"Weigh at least forty kilos"
-,
-"Be under sixty years old"],
+"Weigh at least forty kilos",
+"Be under sixty years old"
+],
 "c": 1,
 "audio": "P6/B2/B2-P1-q5.mp3"
 },
@@ -18789,10 +29257,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does Kate say about accidents?",
 "o": [
-"They usually happen while climbing"
-,
+"They usually happen while climbing",
 "They are becoming more common",
-"They mostly happen during simple moments"],
+"They mostly happen during simple moments"
+],
 "c": 2
 },
 {
@@ -18820,9 +29288,9 @@ const LISTEN_MORE = {
 "q": "What quality does Kate most want in a guide?",
 "o": [
 "Climbing skill",
-"Patience"
-,
-"Physical fitness"],
+"Patience",
+"Physical fitness"
+],
 "c": 1
 },
 {
@@ -18839,10 +29307,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What is the company doing next?",
 "o": [
-"Opening a second centre"
-,
+"Opening a second centre",
 "Buying new equipment",
-"Running trips for wheelchair users"],
+"Running trips for wheelchair users"
+],
 "c": 2
 }
 ]
@@ -18897,9 +29365,9 @@ const LISTEN_MORE = {
 "q": "What did the man dislike about the restaurant?",
 "o": [
 "The slow service",
-"The noisy room"
-,
-"The spiciness of the food"],
+"The noisy room",
+"The spiciness of the food"
+],
 "c": 2,
 "audio": "P7/B2/B2-P1-q2.mp3"
 },
@@ -18929,10 +29397,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What did the study find?",
 "o": [
-"Classical music led to dearer purchases"
-,
+"Classical music led to dearer purchases",
 "Pop music made people spend more",
-"Music had no effect on shoppers"],
+"Music had no effect on shoppers"
+],
 "c": 0,
 "audio": "P7/B2/B2-P1-q5.mp3"
 },
@@ -18941,9 +29409,9 @@ const LISTEN_MORE = {
 "q": "What went wrong with the cake?",
 "o": [
 "It did not rise",
-"The boy confused two ingredients"
-,
-"It was burnt"],
+"The boy confused two ingredients",
+"It was burnt"
+],
 "c": 1,
 "audio": "P7/B2/B2-P1-q6.mp3"
 },
@@ -18951,10 +29419,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What did the woman learn from the podcast?",
 "o": [
-"Chefs rarely cook vegetables well"
-,
+"Chefs rarely cook vegetables well",
 "Coffee is unhealthy for children",
-"Some children are more sensitive to bitter tastes"],
+"Some children are more sensitive to bitter tastes"
+],
 "c": 2,
 "audio": "P7/B2/B2-P1-q7.mp3"
 },
@@ -19133,10 +29601,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What did the colour experiment show?",
 "o": [
-"People refused oddly coloured drinks"
-,
+"People refused oddly coloured drinks",
 "Yellow drinks were more refreshing",
-"Red drinks were rated sweeter"],
+"Red drinks were rated sweeter"
+],
 "c": 2
 },
 {
@@ -19154,19 +29622,19 @@ const LISTEN_MORE = {
 "q": "What does Daniel say about the tongue map?",
 "o": [
 "It is roughly correct",
-"It is completely false"
-,
-"It only applies to children"],
+"It is completely false",
+"It only applies to children"
+],
 "c": 1
 },
 {
 "type": "mc",
 "q": "What genuinely surprised Daniel in his research?",
 "o": [
-"How quickly crisps lose freshness"
-,
+"How quickly crisps lose freshness",
 "The effect of temperature on flavour",
-"The effect of sound on taste"],
+"The effect of sound on taste"
+],
 "c": 2
 },
 {
@@ -19174,9 +29642,9 @@ const LISTEN_MORE = {
 "q": "What advice does Daniel give?",
 "o": [
 "Eat more slowly",
-"Use more herbs and spices"
-,
-"Avoid screens while eating"],
+"Use more herbs and spices",
+"Avoid screens while eating"
+],
 "c": 2
 },
 {
@@ -19240,10 +29708,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does the charity shop need most?",
 "o": [
-"Men's shoes"
-,
+"Men's shoes",
 "More clothes",
-"Children's toys"],
+"Children's toys"
+],
 "c": 0,
 "audio": "P8/B2/B2-P1-q2.mp3"
 },
@@ -19262,10 +29730,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What surprised the man about the repair café?",
 "o": [
-"The volunteers worked very fast"
-,
+"The volunteers worked very fast",
 "The repair was completely free",
-"He was taught to do the repair himself"],
+"He was taught to do the repair himself"
+],
 "c": 2,
 "audio": "P8/B2/B2-P1-q4.mp3"
 },
@@ -19284,10 +29752,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What is the problem with the coat?",
 "o": [
-"The buyer has not paid"
-,
+"The buyer has not paid",
 "It was damaged in the post",
-"The colour looked different in the photos"],
+"The colour looked different in the photos"
+],
 "c": 2,
 "audio": "P8/B2/B2-P1-q6.mp3"
 },
@@ -19296,9 +29764,9 @@ const LISTEN_MORE = {
 "q": "What shocked the boy most in the documentary?",
 "o": [
 "Rivers polluted by factories",
-"New clothes being destroyed"
-,
-"Workers' low wages"],
+"New clothes being destroyed",
+"Workers' low wages"
+],
 "c": 1,
 "audio": "P8/B2/B2-P1-q7.mp3"
 },
@@ -19307,9 +29775,9 @@ const LISTEN_MORE = {
 "q": "What does the woman agree to do?",
 "o": [
 "Pay eight pounds for the dress",
-"Leave without buying"
-,
-"Buy the dress and a scarf"],
+"Leave without buying",
+"Buy the dress and a scarf"
+],
 "c": 2,
 "audio": "P8/B2/B2-P1-q8.mp3"
 }
@@ -19484,10 +29952,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "According to Ruby, the industry's biggest challenge is",
 "o": [
-"competition from big brands"
-,
+"competition from big brands",
 "rising postage costs",
-"the poor quality of new clothes"],
+"the poor quality of new clothes"
+],
 "c": 2
 },
 {
@@ -19515,9 +29983,9 @@ const LISTEN_MORE = {
 "q": "What practical tip does Ruby give?",
 "o": [
 "Trust the size on the label",
-"Shop early in the morning"
-,
-"Check the measurements"],
+"Shop early in the morning",
+"Check the measurements"
+],
 "c": 2
 },
 {
@@ -19525,9 +29993,9 @@ const LISTEN_MORE = {
 "q": "What is Ruby planning next?",
 "o": [
 "A new city-centre shop",
-"A school for repairing clothes"
-,
-"A vintage fashion show"],
+"A school for repairing clothes",
+"A vintage fashion show"
+],
 "c": 1
 }
 ]
@@ -19592,10 +30060,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What is the good news in the report?",
 "o": [
-"A new aquarium has opened"
-,
+"A new aquarium has opened",
 "Divers found an old shipwreck",
-"Seahorses have returned to the bay"],
+"Seahorses have returned to the bay"
+],
 "c": 2,
 "audio": "P9/B2/B2-P1-q3.mp3"
 },
@@ -19614,10 +30082,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does the speaker ask students to do?",
 "o": [
-"Avoid releasing balloons"
-,
+"Avoid releasing balloons",
 "Stop eating jellyfish",
-"Join a beach clean"],
+"Join a beach clean"
+],
 "c": 0,
 "audio": "P9/B2/B2-P1-q5.mp3"
 },
@@ -19842,10 +30310,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Which problems worry Marcus most?",
 "o": [
-"Damage caused by tourism"
-,
+"Damage caused by tourism",
 "Plastic on beaches",
-"Threats that cannot be seen"],
+"Threats that cannot be seen"
+],
 "c": 2
 },
 {
@@ -19853,9 +30321,9 @@ const LISTEN_MORE = {
 "q": "What frustrates Marcus about media coverage?",
 "o": [
 "It exaggerates the dangers",
-"It ignores less attractive species"
-,
-"It blames the wrong people"],
+"It ignores less attractive species",
+"It blames the wrong people"
+],
 "c": 1
 },
 {
@@ -19873,9 +30341,9 @@ const LISTEN_MORE = {
 "q": "What will Marcus do next?",
 "o": [
 "Help design quieter ships",
-"Write a book about plankton"
-,
-"Join an expedition to the Arctic"],
+"Write a book about plankton",
+"Join an expedition to the Arctic"
+],
 "c": 2
 }
 ]
@@ -19930,9 +30398,9 @@ const LISTEN_MORE = {
 "q": "Why must they record the episode again?",
 "o": [
 "The microphones failed",
-"There was noise from next door"
-,
-"The guest performed badly"],
+"There was noise from next door",
+"The guest performed badly"
+],
 "c": 1,
 "audio": "P10/B2/B2-P1-q2.mp3"
 },
@@ -19940,10 +30408,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does the girl say about podcasts?",
 "o": [
-"They distract her too much"
-,
+"They distract her too much",
 "She misses her music",
-"They make her run further"],
+"They make her run further"
+],
 "c": 2,
 "audio": "P10/B2/B2-P1-q3.mp3"
 },
@@ -19962,10 +30430,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why is the company choosing podcast advertising?",
 "o": [
-"Radio audiences are shrinking"
-,
+"Radio audiences are shrinking",
 "Podcast adverts cost less",
-"Listeners trust the hosts"],
+"Listeners trust the hosts"
+],
 "c": 2,
 "audio": "P10/B2/B2-P1-q5.mp3"
 },
@@ -19973,10 +30441,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What surprised the girl at the live show?",
 "o": [
-"How much work each episode takes"
-,
+"How much work each episode takes",
 "The hosts arguing on stage",
-"The size of the theatre"],
+"The size of the theatre"
+],
 "c": 0,
 "audio": "P10/B2/B2-P1-q6.mp3"
 },
@@ -19996,9 +30464,9 @@ const LISTEN_MORE = {
 "q": "What does the boy decide to buy?",
 "o": [
 "The professional microphone",
-"Nothing for now"
-,
-"The cheaper microphone"],
+"Nothing for now",
+"The cheaper microphone"
+],
 "c": 2,
 "audio": "P10/B2/B2-P1-q8.mp3"
 }
@@ -20189,9 +30657,9 @@ const LISTEN_MORE = {
 "q": "What does Hannah say about the competition?",
 "o": [
 "There are too many shows to succeed",
-"Only talented people survive"
-,
-"Most podcasts stop very quickly"],
+"Only talented people survive",
+"Most podcasts stop very quickly"
+],
 "c": 2
 },
 {
@@ -20208,10 +30676,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does Hannah predict for podcasting?",
 "o": [
-"Small, specific shows are the future"
-,
+"Small, specific shows are the future",
 "Video will replace audio",
-"Celebrity shows will dominate"],
+"Celebrity shows will dominate"
+],
 "c": 0
 },
 {
@@ -20265,9 +30733,9 @@ const LISTEN_MORE = {
 "q": "What disappointed the woman about the castle?",
 "o": [
 "The quality of the guide",
-"The length of the journey"
-,
-"The closed tower"],
+"The length of the journey",
+"The closed tower"
+],
 "c": 2,
 "audio": "P11/B2/B2-P1-q1.mp3"
 },
@@ -20275,10 +30743,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What did the restorers discover?",
 "o": [
-"The paint was extremely old"
-,
+"The paint was extremely old",
 "The photographs were fake",
-"The walls were originally green"],
+"The walls were originally green"
+],
 "c": 2,
 "audio": "P11/B2/B2-P1-q2.mp3"
 },
@@ -20330,10 +30798,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "How does the boy feel about the volunteer day?",
 "o": [
-"He is proud of what he did"
-,
+"He is proud of what he did",
 "He regrets going",
-"He found it boring"],
+"He found it boring"
+],
 "c": 0,
 "audio": "P11/B2/B2-P1-q7.mp3"
 },
@@ -20510,10 +30978,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does Oliver do first with a new building?",
 "o": [
-"He studies old photographs"
-,
+"He studies old photographs",
 "He makes detailed drawings",
-"He watches it during heavy rain"],
+"He watches it during heavy rain"
+],
 "c": 2
 },
 {
@@ -20540,10 +31008,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does Oliver find hardest?",
 "o": [
-"Working in bad weather"
-,
+"Working in bad weather",
 "Finding skilled craftspeople",
-"Telling owners how long the work will take"],
+"Telling owners how long the work will take"
+],
 "c": 2
 },
 {
@@ -20551,19 +31019,19 @@ const LISTEN_MORE = {
 "q": "What does Oliver find most rewarding?",
 "o": [
 "Perfect craftsmanship",
-"Winning professional awards"
-,
-"Seeing buildings used by people again"],
+"Winning professional awards",
+"Seeing buildings used by people again"
+],
 "c": 2
 },
 {
 "type": "mc",
 "q": "What is Oliver's next project?",
 "o": [
-"Bringing a swimming pool back to life"
-,
+"Bringing a swimming pool back to life",
 "Turning old baths into flats",
-"Restoring a corn exchange"],
+"Restoring a corn exchange"
+],
 "c": 0
 }
 ]
@@ -20618,9 +31086,9 @@ const LISTEN_MORE = {
 "q": "What does the coach tell the team to do?",
 "o": [
 "Defend more carefully",
-"Play more aggressively"
-,
-"Think only about what comes next"],
+"Play more aggressively",
+"Think only about what comes next"
+],
 "c": 2,
 "audio": "P12/B2/B2-P1-q2.mp3"
 },
@@ -20639,10 +31107,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What now motivates the woman to run?",
 "o": [
-"Competing with her own past times"
-,
+"Competing with her own past times",
 "Competing with strangers",
-"Rewards from the app"],
+"Rewards from the app"
+],
 "c": 0,
 "audio": "P12/B2/B2-P1-q4.mp3"
 },
@@ -20662,9 +31130,9 @@ const LISTEN_MORE = {
 "q": "What have City announced?",
 "o": [
 "A new striker",
-"The signing of a sports psychologist"
-,
-"A new training ground"],
+"The signing of a sports psychologist",
+"A new training ground"
+],
 "c": 1,
 "audio": "P12/B2/B2-P1-q6.mp3"
 },
@@ -20673,9 +31141,9 @@ const LISTEN_MORE = {
 "q": "What helped the boy play better in finals?",
 "o": [
 "Studying more openings",
-"Playing faster in the last round"
-,
-"Sleeping more before games"],
+"Playing faster in the last round",
+"Sleeping more before games"
+],
 "c": 2,
 "audio": "P12/B2/B2-P1-q7.mp3"
 },
@@ -20683,10 +31151,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does the man want to buy?",
 "o": [
-"The same model as before"
-,
+"The same model as before",
 "The cheapest pair available",
-"The newest model"],
+"The newest model"
+],
 "c": 0,
 "audio": "P12/B2/B2-P1-q8.mp3"
 }
@@ -20852,10 +31320,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What do people misunderstand about her job?",
 "o": [
-"They think it replaces normal coaching"
-,
+"They think it replaces normal coaching",
 "They think it is easy work",
-"They think it is only for athletes with problems"],
+"They think it is only for athletes with problems"
+],
 "c": 2
 },
 {
@@ -20873,19 +31341,19 @@ const LISTEN_MORE = {
 "q": "How does the goalkeeper deal with mistakes?",
 "o": [
 "He talks to a teammate",
-"He asks to be substituted"
-,
-"He uses a physical reset gesture"],
+"He asks to be substituted",
+"He uses a physical reset gesture"
+],
 "c": 2
 },
 {
 "type": "mc",
 "q": "According to Grace, young athletes most fear",
 "o": [
-"disappointing their parents"
-,
+"disappointing their parents",
 "being dropped from the team",
-"losing important matches"],
+"losing important matches"
+],
 "c": 0
 },
 {
@@ -20903,9 +31371,9 @@ const LISTEN_MORE = {
 "q": "Who will Grace work with next?",
 "o": [
 "Olympic medallists",
-"Young gymnasts"
-,
-"Referees"],
+"Young gymnasts",
+"Referees"
+],
 "c": 2
 }
 ]
@@ -20971,9 +31439,9 @@ const LISTEN_MORE = {
 "q": "What has changed about the Milan service?",
 "o": [
 "The departure time",
-"The destination"
-,
-"The platform"],
+"The destination",
+"The platform"
+],
 "c": 2,
 "audio": "P13/B2/B2-P1-q3.mp3"
 },
@@ -20981,10 +31449,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why does the man prefer the train?",
 "o": [
-"It causes less pollution"
-,
+"It causes less pollution",
 "The children enjoy trains",
-"It is cheaper than flying"],
+"It is cheaper than flying"
+],
 "c": 0,
 "audio": "P13/B2/B2-P1-q4.mp3"
 },
@@ -21004,9 +31472,9 @@ const LISTEN_MORE = {
 "q": "Why was the boy late?",
 "o": [
 "He missed the night train",
-"He overslept in his cabin"
-,
-"His train was delayed by a signal problem"],
+"He overslept in his cabin",
+"His train was delayed by a signal problem"
+],
 "c": 2,
 "audio": "P13/B2/B2-P1-q6.mp3"
 },
@@ -21015,9 +31483,9 @@ const LISTEN_MORE = {
 "q": "Why does the woman trust the vlogger?",
 "o": [
 "Her cheap travel tips",
-"Her honesty about problems"
-,
-"Her beautiful filming"],
+"Her honesty about problems",
+"Her beautiful filming"
+],
 "c": 1,
 "audio": "P13/B2/B2-P1-q7.mp3"
 },
@@ -21190,10 +31658,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "How did Hugo discover night trains?",
 "o": [
-"A friend recommended a route"
-,
+"A friend recommended a route",
 "A magazine sent him on assignment",
-"A cancelled flight forced him onto one"],
+"A cancelled flight forced him onto one"
+],
 "c": 2
 },
 {
@@ -21231,19 +31699,19 @@ const LISTEN_MORE = {
 "q": "Which route is Hugo's favourite?",
 "o": [
 "A famous Alpine line",
-"A route along the coast"
-,
-"A little-known Balkan train"],
+"A route along the coast",
+"A little-known Balkan train"
+],
 "c": 2
 },
 {
 "type": "mc",
 "q": "What does Hugo think about sharing compartments?",
 "o": [
-"It is the best part of the journey"
-,
+"It is the best part of the journey",
 "It should always be optional",
-"It puts many people off"],
+"It puts many people off"
+],
 "c": 0
 },
 {
@@ -21296,10 +31764,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What did the man dislike about the play?",
 "o": [
-"How long it lasted"
-,
+"How long it lasted",
 "The design of the set",
-"The main actor's performance"],
+"The main actor's performance"
+],
 "c": 2,
 "audio": "P14/B2/B2-P1-q1.mp3"
 },
@@ -21319,9 +31787,9 @@ const LISTEN_MORE = {
 "q": "What does the director tell the actors to do?",
 "o": [
 "Speak more loudly",
-"Learn their lines better"
-,
-"Speak more slowly"],
+"Learn their lines better",
+"Speak more slowly"
+],
 "c": 2,
 "audio": "P14/B2/B2-P1-q3.mp3"
 },
@@ -21341,9 +31809,9 @@ const LISTEN_MORE = {
 "q": "Where will the group rehearse next week?",
 "o": [
 "In the gym hall",
-"In the library"
-,
-"In the community centre"],
+"In the library",
+"In the community centre"
+],
 "c": 1,
 "audio": "P14/B2/B2-P1-q5.mp3"
 },
@@ -21351,10 +31819,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What has changed about this evening's performance?",
 "o": [
-"The interval arrangements"
-,
+"The interval arrangements",
 "The venue",
-"The starting time"],
+"The starting time"
+],
 "c": 2,
 "audio": "P14/B2/B2-P1-q6.mp3"
 },
@@ -21362,10 +31830,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why did the boy leave the play?",
 "o": [
-"Rehearsals clashed with his sport"
-,
+"Rehearsals clashed with his sport",
 "He was falling behind at school",
-"He was nervous about performing"],
+"He was nervous about performing"
+],
 "c": 0,
 "audio": "P14/B2/B2-P1-q7.mp3"
 },
@@ -21374,9 +31842,9 @@ const LISTEN_MORE = {
 "q": "What does the woman want to do at the shop?",
 "o": [
 "Buy a dress",
-"Return a dress"
-,
-"Hire a dress"],
+"Return a dress",
+"Hire a dress"
+],
 "c": 2,
 "audio": "P14/B2/B2-P1-q8.mp3"
 }
@@ -21545,9 +32013,9 @@ const LISTEN_MORE = {
 "q": "What was his biggest problem at the start?",
 "o": [
 "A lack of money",
-"Attracting an audience"
-,
-"Finding enough actors"],
+"Attracting an audience",
+"Finding enough actors"
+],
 "c": 1
 },
 {
@@ -21555,9 +32023,9 @@ const LISTEN_MORE = {
 "q": "How are plays chosen now?",
 "o": [
 "The director decides alone",
-"A committee of experts decides"
-,
-"The members vote"],
+"A committee of experts decides",
+"The members vote"
+],
 "c": 2
 },
 {
@@ -21584,10 +32052,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "How is the theatre mainly funded today?",
 "o": [
-"By local businesses"
-,
+"By local businesses",
 "By ticket sales",
-"By a council grant"],
+"By a council grant"
+],
 "c": 0
 },
 {
@@ -21595,9 +32063,9 @@ const LISTEN_MORE = {
 "q": "What is Marcus planning to do next?",
 "o": [
 "Take his shows on tour",
-"Start a group for teenagers"
-,
-"Move to a larger building"],
+"Start a group for teenagers",
+"Move to a larger building"
+],
 "c": 1
 }
 ]
@@ -21641,9 +32109,9 @@ const LISTEN_MORE = {
 "q": "What does the man dislike about the food app?",
 "o": [
 "The prices are too high",
-"The bags are too small"
-,
-"You cannot choose what you receive"],
+"The bags are too small",
+"You cannot choose what you receive"
+],
 "c": 2,
 "audio": "P15/B2/B2-P1-q1.mp3"
 },
@@ -21651,10 +32119,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why is Ben calling the charity?",
 "o": [
-"To offer more food"
-,
+"To offer more food",
 "To cancel the collections",
-"To change the collection time"],
+"To change the collection time"
+],
 "c": 2,
 "audio": "P15/B2/B2-P1-q2.mp3"
 },
@@ -21663,9 +32131,9 @@ const LISTEN_MORE = {
 "q": "What does the teacher say is the most useful habit?",
 "o": [
 "Buying a special fridge",
-"Planning meals before shopping"
-,
-"Freezing leftover food"],
+"Planning meals before shopping",
+"Freezing leftover food"
+],
 "c": 1,
 "audio": "P15/B2/B2-P1-q3.mp3"
 },
@@ -21707,9 +32175,9 @@ const LISTEN_MORE = {
 "q": "How did the boy's school reduce food waste?",
 "o": [
 "By putting up posters",
-"By charging for wasted food"
-,
-"By serving smaller portions"],
+"By charging for wasted food",
+"By serving smaller portions"
+],
 "c": 2,
 "audio": "P15/B2/B2-P1-q7.mp3"
 },
@@ -21717,10 +32185,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does the assistant tell the woman about the yoghurt?",
 "o": [
-"It is still safe to eat"
-,
+"It is still safe to eat",
 "She can exchange it for a new one",
-"She should throw it away"],
+"She should throw it away"
+],
 "c": 0,
 "audio": "P15/B2/B2-P1-q8.mp3"
 }
@@ -21907,9 +32375,9 @@ const LISTEN_MORE = {
 "q": "What would Elena most like to change?",
 "o": [
 "Supermarket opening hours",
-"The price of fresh food"
-,
-"Food labelling laws"],
+"The price of fresh food",
+"Food labelling laws"
+],
 "c": 2
 },
 {
@@ -21927,9 +32395,9 @@ const LISTEN_MORE = {
 "q": "What advice does she give to new businesses?",
 "o": [
 "Launch in several cities at once",
-"Spend heavily on advertising"
-,
-"Start small and learn from mistakes"],
+"Spend heavily on advertising",
+"Start small and learn from mistakes"
+],
 "c": 2
 },
 {
@@ -22004,10 +32472,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does the teacher recommend?",
 "o": [
-"Practising for two hours daily"
-,
+"Practising for two hours daily",
 "One long session at weekends",
-"Practising a little every day"],
+"Practising a little every day"
+],
 "c": 2,
 "audio": "P16/B2/B2-P1-q3.mp3"
 },
@@ -22016,9 +32484,9 @@ const LISTEN_MORE = {
 "q": "What is the problem with the woman's cello?",
 "o": [
 "It needs repairing",
-"Its case is damaged"
-,
-"It sounds poor"],
+"Its case is damaged",
+"It sounds poor"
+],
 "c": 1,
 "audio": "P16/B2/B2-P1-q4.mp3"
 },
@@ -22037,10 +32505,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What has changed about the open day?",
 "o": [
-"It has been cancelled"
-,
+"It has been cancelled",
 "It has moved to Sunday",
-"It will happen online"],
+"It will happen online"
+],
 "c": 2,
 "audio": "P16/B2/B2-P1-q6.mp3"
 },
@@ -22059,10 +32527,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does the man want to do with his saxophone?",
 "o": [
-"Have it repaired"
-,
+"Have it repaired",
 "Sell it",
-"Exchange it for a new one"],
+"Exchange it for a new one"
+],
 "c": 0,
 "audio": "P16/B2/B2-P1-q8.mp3"
 }
@@ -22221,9 +32689,9 @@ const LISTEN_MORE = {
 "q": "According to Daniel, what is the main obstacle for adult learners?",
 "o": [
 "A lack of free time",
-"Less flexible fingers"
-,
-"Fear of making mistakes"],
+"Less flexible fingers",
+"Fear of making mistakes"
+],
 "c": 2
 },
 {
@@ -22240,20 +32708,20 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does Daniel say about age and learning?",
 "o": [
-"Only some adults can still learn"
-,
+"Only some adults can still learn",
 "Progress stops after a certain age",
-"The brain can learn new skills at any age"],
+"The brain can learn new skills at any age"
+],
 "c": 2
 },
 {
 "type": "mc",
 "q": "Which instrument does Daniel recommend for beginners?",
 "o": [
-"The one whose sound they love"
-,
+"The one whose sound they love",
 "The cheapest one available",
-"The easiest one to play"],
+"The easiest one to play"
+],
 "c": 0
 },
 {
@@ -22326,10 +32794,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What surprised the man about the documentary?",
 "o": [
-"How few animals remain"
-,
+"How few animals remain",
 "How much hunting still happens",
-"How much damage roads cause"],
+"How much damage roads cause"
+],
 "c": 2,
 "audio": "P17/B2/B2-P1-q1.mp3"
 },
@@ -22381,10 +32849,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What is closed at the nature reserve today?",
 "o": [
-"The bird hides"
-,
+"The bird hides",
 "The north gate",
-"The main car park"],
+"The main car park"
+],
 "c": 2,
 "audio": "P17/B2/B2-P1-q6.mp3"
 },
@@ -22563,9 +33031,9 @@ const LISTEN_MORE = {
 "q": "How does Clara describe a wildlife corridor?",
 "o": [
 "A type of fenced reserve",
-"A large protected forest"
-,
-"A strip of habitat connecting natural areas"],
+"A large protected forest",
+"A strip of habitat connecting natural areas"
+],
 "c": 2
 },
 {
@@ -22573,9 +33041,9 @@ const LISTEN_MORE = {
 "q": "Why are isolated animal populations in danger?",
 "o": [
 "They cannot find enough food",
-"They gradually become unhealthy"
-,
-"They are easier for predators to catch"],
+"They gradually become unhealthy",
+"They are easier for predators to catch"
+],
 "c": 1
 },
 {
@@ -22592,10 +33060,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What is Clara's concern about green bridges?",
 "o": [
-"They take too long to build"
-,
+"They take too long to build",
 "Animals refuse to cross them",
-"They use up too much of the budget"],
+"They use up too much of the budget"
+],
 "c": 2
 },
 {
@@ -22613,9 +33081,9 @@ const LISTEN_MORE = {
 "q": "What changed Clara's research?",
 "o": [
 "Using camera traps",
-"Counting animals by hand"
-,
-"Fitting deer with GPS collars"],
+"Counting animals by hand",
+"Fitting deer with GPS collars"
+],
 "c": 2
 },
 {
@@ -22680,9 +33148,9 @@ const LISTEN_MORE = {
 "q": "Why does Sara want to change the time of the interview?",
 "o": [
 "The mayor is busy at two",
-"She has another interview first"
-,
-"Her train has been cancelled"],
+"She has another interview first",
+"Her train has been cancelled"
+],
 "c": 2,
 "audio": "P18/B2/B2-P1-q2.mp3"
 },
@@ -22690,10 +33158,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does the teacher say is essential?",
 "o": [
-"Researching the person first"
-,
+"Researching the person first",
 "Dressing smartly",
-"Using good equipment"],
+"Using good equipment"
+],
 "c": 0,
 "audio": "P18/B2/B2-P1-q3.mp3"
 },
@@ -22735,9 +33203,9 @@ const LISTEN_MORE = {
 "q": "What went wrong with the boy's interview?",
 "o": [
 "The batteries ran out",
-"The head teacher gave short answers"
-,
-"He forgot to press record"],
+"The head teacher gave short answers",
+"He forgot to press record"
+],
 "c": 2,
 "audio": "P18/B2/B2-P1-q7.mp3"
 },
@@ -22746,9 +33214,9 @@ const LISTEN_MORE = {
 "q": "What does the man want to know about the job?",
 "o": [
 "The salary",
-"The training offered"
-,
-"The holidays"],
+"The training offered",
+"The holidays"
+],
 "c": 1,
 "audio": "P18/B2/B2-P1-q8.mp3"
 }
@@ -22913,10 +33381,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What mistake do beginners make?",
 "o": [
-"They ask questions that are too personal"
-,
+"They ask questions that are too personal",
 "They forget their questions",
-"They follow their list of questions too strictly"],
+"They follow their list of questions too strictly"
+],
 "c": 2
 },
 {
@@ -22924,9 +33392,9 @@ const LISTEN_MORE = {
 "q": "Why does Hugo recommend staying silent after an answer?",
 "o": [
 "It gives the interviewer time to think",
-"People often add something unplanned"
-,
-"It shows respect for the guest"],
+"People often add something unplanned",
+"It shows respect for the guest"
+],
 "c": 1
 },
 {
@@ -22934,9 +33402,9 @@ const LISTEN_MORE = {
 "q": "What is Hugo's rule for interviewing people who have suffered?",
 "o": [
 "Keep the interview very short",
-"Avoid difficult questions completely"
-,
-"Tell them the topics in advance"],
+"Avoid difficult questions completely",
+"Tell them the topics in advance"
+],
 "c": 2
 },
 {
@@ -22954,9 +33422,9 @@ const LISTEN_MORE = {
 "q": "Who does Hugo prefer to interview?",
 "o": [
 "Famous people",
-"Ordinary people"
-,
-"Politicians"],
+"Ordinary people",
+"Politicians"
+],
 "c": 1
 },
 {
@@ -22964,10 +33432,8229 @@ const LISTEN_MORE = {
 "q": "What does Hugo advise young people to do?",
 "o": [
 "Apply for journalism courses",
-"Watch famous interviewers online"
-,
-"Interview their own relatives"],
+"Watch famous interviewers online",
+"Interview their own relatives"
+],
 "c": 2
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · Exam Booster First Test 1 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/ebf-t1/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For questions 1–8, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a woman telling her son about her favourite teacher. What does she remember about his lessons?",
+"o": [
+"He often made the class laugh.",
+"He made past events feel real to her.",
+"He acted out scenes from history."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a girl talking about maths. What does she like most about the subject?",
+"o": [
+"Answers are clearly right or wrong.",
+"It is easy for her to do well.",
+"It is useful in everyday situations."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a man talking about a subject he missed at school. How does he feel about it now?",
+"o": [
+"He regrets that he could not become an artist.",
+"He thinks science was a better choice for him.",
+"He wishes he had learnt painting skills earlier."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear two students talking about a sports class. What do they both think about it?",
+"o": [
+"It gave them a fresh way of thinking about sport.",
+"It will help them to become professional athletes.",
+"It was less well prepared than other classes."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a girl talking about her brother. How does he feel about starting university?",
+"o": [
+"He is unwilling to leave home.",
+"He doubts that he is clever enough.",
+"He is uneasy about meeting new people."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a student speaking to his teacher. Why does he want to talk to her?",
+"o": [
+"To ask if he can choose a different topic.",
+"To request more time for the task.",
+"To complain that the research is too hard."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a teacher talking to her class. What will the students do in their lessons for now?",
+"o": [
+"Carry out chemistry experiments in the hall.",
+"Go over theory and sort out problems.",
+"Have their classes outdoors."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear two friends discussing foreign languages. What do they agree about?",
+"o": [
+"English is enough for travelling abroad.",
+"Gestures are a good way to communicate.",
+"Studying a language teaches you about other cultures."
+],
+"c": 2
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/ebf-t1/p2.mp3",
+"intro": "You will hear a girl called Lydia giving a talk about a school project on healthy eating. For questions 9–18, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Lydia's project is part of a school campaign about health and ____.",
+"accept": [
+"fitness"
+]
+},
+{
+"type": "gap",
+"label": "Lydia says that the body is like a machine and food is its ____.",
+"accept": [
+"fuel"
+]
+},
+{
+"type": "gap",
+"label": "The diagram showing what to eat has the shape of a ____.",
+"accept": [
+"triangle"
+]
+},
+{
+"type": "gap",
+"label": "Foods such as ____ and bread belong in the bottom layer.",
+"accept": [
+"potatoes",
+"potato"
+]
+},
+{
+"type": "gap",
+"label": "We are advised to eat ____ portions of fruit and vegetables daily.",
+"accept": [
+"five",
+"5"
+]
+},
+{
+"type": "gap",
+"label": "Fruit and vegetables give us a useful supply of ____.",
+"accept": [
+"fibre",
+"fiber"
+]
+},
+{
+"type": "gap",
+"label": "Vitamin A in carrots helps to keep our ____ healthy.",
+"accept": [
+"eyesight",
+"eyes",
+"sight",
+"vision"
+]
+},
+{
+"type": "gap",
+"label": "The body makes vitamin D with the help of ____.",
+"accept": [
+"sunlight",
+"sun",
+"the sun",
+"sunshine"
+]
+},
+{
+"type": "gap",
+"label": "Dark chocolate is a source of ____, which is good for the blood.",
+"accept": [
+"iron"
+]
+},
+{
+"type": "gap",
+"label": "We should not drink more than one glass of ____ a day.",
+"accept": [
+"juice",
+"fruit juice"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/ebf-t1/p3.mp3",
+"intro": "You will hear five people talking about shopping for clothes. For questions 19–23, choose from the list (A–H) what each speaker enjoys about shopping for clothes. There are three extra options which you do not need to use.",
+"scripts": [],
+"bank": [
+"finding cheap copies of expensive fashion",
+"wearing unusual clothes just for fun",
+"getting a discount from the shop staff",
+"choosing presents for family members",
+"buying classic items when they are reduced",
+"keeping up with the latest trends",
+"noticing how shops show their products",
+"ordering clothes without going to a shop"
+],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "choosing presents for family members"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "finding cheap copies of expensive fashion"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "wearing unusual clothes just for fun"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "noticing how shops show their products"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "buying classic items when they are reduced"
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/ebf-t1/p4.mp3",
+"intro": "You will hear an interview with a travel writer called Anna Bryant, who is talking about visiting other countries. For questions 24–30, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How does Anna prefer to find out how people behave in a country?",
+"o": [
+"By reading a guide book",
+"By eating in a place run by people from that country",
+"By taking a course in the local language"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How does Anna now feel about not speaking the local language?",
+"o": [
+"It no longer worries her much.",
+"She avoids places where she cannot speak it.",
+"She finds that gestures rarely work."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Anna advise a nervous guest to do?",
+"o": [
+"Copy the way the hosts behave",
+"Ask other people for advice beforehand",
+"Tell the hosts how they feel"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Anna say about the mistake she made with the gift?",
+"o": [
+"Her host was upset about it.",
+"She had misunderstood some advice.",
+"She had ignored advice she was given."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What helped Anna cope with culture shock?",
+"o": [
+"Doing as many new things as possible",
+"Making friends as quickly as she could",
+"Keeping to her usual daily habits"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What did Anna learn from watching the lantern festival?",
+"o": [
+"That she should have taken photographs",
+"That preparation cannot prevent surprises",
+"That she ought to have made a lantern"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Anna say about her book?",
+"o": [
+"She is unsure what it should contain.",
+"She has nearly finished writing it.",
+"She has shown it to friends for comments."
+],
+"c": 0
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · Exam Booster First Test 2 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/ebf-t2/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For questions 1–8, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear an announcement about a local band. What can listeners do at the band's monthly workshops?",
+"o": [
+"Join the group as new members",
+"Learn to play some of the band's music",
+"See the band perform for the first time"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a young woman talking about an article on hobbies. How does she feel about it?",
+"o": [
+"It has given her ideas for new interests.",
+"It has made her want to do more exercise.",
+"It has made her less worried about gaming."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear two friends talking about their free time. What do they agree about?",
+"o": [
+"People need some time when they do nothing.",
+"It is best to try as many hobbies as possible.",
+"Sport gives you more energy than relaxing."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a boy talking about diving. What does he enjoy most about it?",
+"o": [
+"Watching other divers at work",
+"Climbing up to the highest board",
+"The satisfaction of getting a dive just right"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a man talking about going hiking. Why has he joined a walking group?",
+"o": [
+"To get to know the area better",
+"To try to overcome a fear",
+"To get fit for the summer"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a man talking about making furniture. Why does he enjoy it?",
+"o": [
+"It makes up for his dull working life.",
+"It gives him extra storage at home.",
+"It brings in some extra money."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a review of a film. What would the reviewer have liked more of?",
+"o": [
+"A simpler plot",
+"A different leading actor",
+"Shots of natural scenery"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear two friends talking about posting photos online. What does the second speaker say is needed for positive comments?",
+"o": [
+"A strange effect added with an app",
+"A photo that is well composed and lit",
+"Pictures posted every day"
+],
+"c": 1
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/ebf-t2/p2.mp3",
+"intro": "You will hear a young woman called Jenny Smithe talking about her job as an events organiser. For questions 9–18, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Of all the events she organises, Jenny likes ____ best.",
+"accept": [
+"festivals",
+"festival",
+"a festival"
+]
+},
+{
+"type": "gap",
+"label": "Her current street fair is taking place in the ____ quarter of town.",
+"accept": [
+"jewellery",
+"jewelry"
+]
+},
+{
+"type": "gap",
+"label": "Jenny admits that she feels ____ about organising her first street fair.",
+"accept": [
+"nervous"
+]
+},
+{
+"type": "gap",
+"label": "To keep track of jobs and deadlines, Jenny writes a ____ list.",
+"accept": [
+"to-do",
+"to do",
+"todo"
+]
+},
+{
+"type": "gap",
+"label": "At the start of a job, Jenny talks things over with the ____.",
+"accept": [
+"client",
+"the client"
+]
+},
+{
+"type": "gap",
+"label": "Suppliers can provide everything from food to ____.",
+"accept": [
+"music"
+]
+},
+{
+"type": "gap",
+"label": "Jenny says that seeing people enjoy themselves matters more to her than the ____ she makes.",
+"accept": [
+"income",
+"money"
+]
+},
+{
+"type": "gap",
+"label": "At college, Jenny studied ____.",
+"accept": [
+"tourism"
+]
+},
+{
+"type": "gap",
+"label": "On the morning of one event, the ____ was found to be leaking at the hall.",
+"accept": [
+"roof"
+]
+},
+{
+"type": "gap",
+"label": "To gain experience, Jenny worked in a ____.",
+"accept": [
+"hotel"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/ebf-t2/p3.mp3",
+"intro": "You will hear five people talking about houses they used to live in. For questions 19–23, choose from the list (A–H) the main disadvantage of each speaker's previous house. There are three extra options which you do not need to use.",
+"scripts": [],
+"bank": [
+"The rooms led into one another.",
+"The place always needed repair work.",
+"Poorly fitting windows let the cold in.",
+"It was a long way from friends.",
+"The neighbours caused arguments.",
+"The surroundings were noisy.",
+"There was too little space.",
+"There was nothing interesting to see from the windows."
+],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "The rooms led into one another."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "The place always needed repair work."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "Poorly fitting windows let the cold in."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "It was a long way from friends."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "The neighbours caused arguments."
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/ebf-t2/p4.mp3",
+"intro": "You will hear an interview with a boy called Liam Banks, who helped to organise a local clean-up day. For questions 24–30, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Why did Liam get involved in the clean-up day?",
+"o": [
+"He was asked to by the local council.",
+"He believed that everyone shares responsibility for their area.",
+"He had to do it for a school project."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How did Liam find volunteers?",
+"o": [
+"By speaking to local people one by one",
+"By providing all the cleaning equipment",
+"By having posters put up"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How did Liam feel when the day began?",
+"o": [
+"Proud of how much people cared",
+"Worried that too few people would come",
+"Annoyed that no reporters had come"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What annoyed Liam while he was clearing the pond?",
+"o": [
+"The weeds that were harming other plants",
+"The danger to the ducks and fish",
+"The fact that people had not used the bins"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Liam regret about the day?",
+"o": [
+"Some volunteers left early.",
+"There were no drinks or snacks for the helpers.",
+"Few people turned up to help."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How does Liam feel about what he has achieved?",
+"o": [
+"Pleased that the problem has been solved",
+"Convinced that much more still needs doing",
+"Tired of trying to persuade others"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Liam suggest ordinary people could do?",
+"o": [
+"Spend more of their free time on clean-up events",
+"Read more articles about the environment",
+"Make small changes to their daily habits"
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · Exam Booster First Test 3 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/ebf-t3/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For questions 1–8, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a teacher talking to her class about a walking programme. What is her main point?",
+"o": [
+"Students should go to the Sports Centre regularly.",
+"Staying active can be part of normal daily routine.",
+"The student with the most steps will get a prize."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear two friends talking about their ski classes. What do they both find difficult?",
+"o": [
+"Getting up again after a fall",
+"Feeling tired by the end of a lesson",
+"Turning in the right way"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear an instructor talking to an athletics class. What does she believe about the long jump record?",
+"o": [
+"Someone in the group is able to beat it.",
+"It is too old to be worth challenging.",
+"She set it herself some years ago."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a girl talking about lessons on healthy living. What will she do about what she eats before gymnastics?",
+"o": [
+"Eat more pasta and potatoes",
+"Carry on as she does now",
+"Cut down on foods that give energy"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a student talking to his sports teacher. What does he want to do?",
+"o": [
+"Take part in races outside school",
+"Find a friend to train with",
+"Use more machines at the gym"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear two friends talking about a TV programme about sleep. What does the second speaker think of it?",
+"o": [
+"It was full of surprising facts.",
+"It was too long to hold her interest.",
+"It was a useful reminder of things to do."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear an expert talking about being healthy. What does she say many people still do not understand?",
+"o": [
+"How much exercise they need",
+"What a good diet really involves",
+"Why free time with family matters"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a fitness expert talking about warming up. What does she advise?",
+"o": [
+"Keep warming up until your heart is beating faster.",
+"Skip the warm-up before gym sessions.",
+"Only warm up if you have plenty of time."
+],
+"c": 0
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/ebf-t3/p2.mp3",
+"intro": "You will hear a boy called Jake Castle giving a class presentation about hedgehogs. For questions 9–18, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "A hedgehog is similar in size to a small ____.",
+"accept": [
+"rabbit"
+]
+},
+{
+"type": "gap",
+"label": "Hedgehog numbers are falling as fast as those of the ____.",
+"accept": [
+"tiger",
+"tigers"
+]
+},
+{
+"type": "gap",
+"label": "Hedgehogs live in the countryside and in ____.",
+"accept": [
+"woodland",
+"woodlands"
+]
+},
+{
+"type": "gap",
+"label": "One hedgehog can eat more than ____ small animals in a night.",
+"accept": [
+"100",
+"one hundred",
+"a hundred",
+"hundred"
+]
+},
+{
+"type": "gap",
+"label": "A favourite food of hedgehogs is ____.",
+"accept": [
+"worms",
+"worm"
+]
+},
+{
+"type": "gap",
+"label": "For the Hedgehog Highway, people make ____ in the fences between gardens.",
+"accept": [
+"holes",
+"hole",
+"gaps"
+]
+},
+{
+"type": "gap",
+"label": "To make a winter home, leaves can be piled up with ____ in a quiet corner.",
+"accept": [
+"branches",
+"sticks",
+"branch"
+]
+},
+{
+"type": "gap",
+"label": "Because their eyesight is poor, hedgehogs may fall into ponds or ____.",
+"accept": [
+"drains",
+"drain"
+]
+},
+{
+"type": "gap",
+"label": "Jake put small stacks of ____ by the pond so hedgehogs can climb out.",
+"accept": [
+"stones",
+"stone"
+]
+},
+{
+"type": "gap",
+"label": "Hedgehogs should be offered food that is normally given to ____.",
+"accept": [
+"pets",
+"pet"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/ebf-t3/p3.mp3",
+"intro": "You will hear five people talking about places they stayed in on holiday. For questions 19–23, choose from the list (A–H) each speaker's first impression of the accommodation. There are three extra options which you do not need to use.",
+"scripts": [],
+"bank": [
+"It was better than it looked in the pictures.",
+"It was much bigger than they had expected.",
+"It was exactly what they had been looking for.",
+"Where it stood made a strong impression.",
+"It was extremely quiet.",
+"It was far too noisy.",
+"The staff were unfriendly.",
+"It was hard to find."
+],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "Where it stood made a strong impression."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "It was much bigger than they had expected."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "It was better than it looked in the pictures."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "It was exactly what they had been looking for."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "It was extremely quiet."
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/ebf-t3/p4.mp3",
+"intro": "You will hear an interview with a springboard diver called Max Hart, who is talking about his sport. For questions 24–30, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Why did Max take up diving?",
+"o": [
+"He thought he would have a better chance of competing in it.",
+"His coach advised him to change sports.",
+"He had grown too tall for gymnastics."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How did Max feel before his first competition?",
+"o": [
+"Nervous because of the more experienced divers",
+"Relaxed because he did not expect to win",
+"Upset about the size of the audience"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Max say about armstand dives?",
+"o": [
+"He has given them up completely.",
+"He still finds the balance very hard.",
+"He is good enough at them to keep doing them."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What worried Max about the dive he had to change?",
+"o": [
+"Remembering the new routine",
+"One body position he finds hard",
+"Having too little time to practise"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Max say about his training sessions?",
+"o": [
+"They are fun because he works with classmates.",
+"It is hard to see any improvement.",
+"There is no time for chatting."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Max hope to do next?",
+"o": [
+"Try more difficult dives",
+"Compete at the Olympics",
+"Start diving with a partner"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Max like best about diving?",
+"o": [
+"Winning competitions",
+"The atmosphere just before a dive",
+"Knowing his sporting career will be long"
+],
+"c": 1
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE 1 Test 1 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1,2,3,4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fce1-t1/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a restaurant manager talking about his job. What does he do himself each morning?",
+"o": [
+"He prepares the lunch dishes alongside his cooks.",
+"He cleans the pots and pans before dinner.",
+"He inspects the new supplies and plans what will be served."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a woman talking about a reference book. What does she say it is NOT useful for?",
+"o": [
+"Looking up what happened on a particular birthday.",
+"Completing a course assignment for school.",
+"Reading for pleasure in spare moments."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear the writer of a television soap opera talking about next week's programme. What is Jason's reaction to events?",
+"o": [
+"He will refuse to accept a decision that has been made.",
+"He will leave home after a family argument.",
+"He will reveal a secret to his family."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a man talking on the radio about his work. Which group does he say makes up most of the people he helps?",
+"o": [
+"Families with young children.",
+"Elderly people who are travelling alone.",
+"Air travellers carrying heavy bags."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a woman talking about how she keeps fit. How does she compare line dancing with the exercise she did before?",
+"o": [
+"It takes up more of her week.",
+"It is less physically demanding.",
+"It is a less interesting way to exercise."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You overhear a conversation in a restaurant. What does the woman say about the prices?",
+"o": [
+"They are lower than she had feared.",
+"They have stopped her coming earlier.",
+"They are too high for the quality offered."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You turn on the radio and hear a man talking about how he works. What does he say about it?",
+"o": [
+"He needs special equipment before he can start.",
+"He rarely changes more than small details of his first idea.",
+"He prefers to work in a busy, noisy place."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You overhear a student phoning her parents. Why is she sharing a room with two other girls?",
+"o": [
+"She wanted to save money.",
+"A friend asked her to.",
+"There are not enough places available."
+],
+"c": 2
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fce1-t1/p2.mp3",
+"intro": "You will hear a person talking about a topic. For each question, complete the sentence with a word or short phrase (one to three words).",
+"gapTitle": "Complete the sentences",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Elizabeth first saw information about volunteering on a poster at the ____ .",
+"accept": [
+"dentist",
+"dentist's",
+"dentists"
+]
+},
+{
+"type": "gap",
+"label": "Before leaving, she went on a training weekend in ____ .",
+"accept": [
+"london"
+]
+},
+{
+"type": "gap",
+"label": "She had a university degree in ____ .",
+"accept": [
+"economics"
+]
+},
+{
+"type": "gap",
+"label": "She was sent to teach local farmers about the ____ of their produce.",
+"accept": [
+"marketing"
+]
+},
+{
+"type": "gap",
+"label": "She travelled out with ____ other volunteers.",
+"accept": [
+"15",
+"fifteen"
+]
+},
+{
+"type": "gap",
+"label": "The course at the training centre lasted only ____ weeks.",
+"accept": [
+"three",
+"3"
+]
+},
+{
+"type": "gap",
+"label": "Her working area covered ____ square kilometres.",
+"accept": [
+"1,200",
+"1200",
+"1 200",
+"one thousand two hundred"
+]
+},
+{
+"type": "gap",
+"label": "For short local journeys she used a ____ .",
+"accept": [
+"motorbike",
+"motorcycle"
+]
+},
+{
+"type": "gap",
+"label": "On her return to England she found the ____ overwhelming.",
+"accept": [
+"supermarkets",
+"supermarket"
+]
+},
+{
+"type": "gap",
+"label": "She now spends more time on her favourite hobby, ____ .",
+"accept": [
+"gardening"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fce1-t1/p3.mp3",
+"intro": "You will hear five different people talking on the same subject. Choose the statement that each speaker agrees with. There are three statements you do not need to use.",
+"scripts": [],
+"bank": [
+"A good boss knows more about the job than the staff do.",
+"A good boss is born with a strong personality.",
+"A good boss lets the team take the key decisions.",
+"A good boss needs a university degree in management.",
+"A good boss gives regular comments on how you are doing.",
+"Staff who ask for feedback are admired by colleagues.",
+"A good boss gets people working together as a group.",
+"Some bosses put in fewer hours than their staff."
+],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "A good boss knows more about the job than the staff do."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "A good boss lets the team take the key decisions."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "A good boss gives regular comments on how you are doing."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "A good boss gets people working together as a group."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "Some bosses put in fewer hours than their staff."
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fce1-t1/p4.mp3",
+"intro": "You will hear an interview. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Why did Trina not tell everyone at school about her work at first?",
+"o": [
+"She wanted to see whether the records did well.",
+"She was afraid her friends would be jealous.",
+"Her teachers had asked her to keep it quiet."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What effect did being in the USA have on her songwriting?",
+"o": [
+"She wrote mainly about missing her family.",
+"Meeting new people gave her ideas to write about.",
+"She stopped writing and only recorded other songs."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Trina think about living a long way from London?",
+"o": [
+"It makes it very hard to find a band to play with.",
+"It means a band must move to a big city to succeed.",
+"It does not stop a band from being noticed."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does she say about David Pearson?",
+"o": [
+"She had admired him since she was a child.",
+"He was a friendly person to work with.",
+"He had asked for her to join his band."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why did she have to return to the USA after filming the television series?",
+"o": [
+"There were technical problems with the filming.",
+"She had forgotten some of her lines.",
+"The story of the series was rewritten."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why have her records not been on sale in Britain?",
+"o": [
+"They were not successful enough there.",
+"The company thought British people would not like her style.",
+"The company did not sell its records there."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Trina expect to do in the near future?",
+"o": [
+"Turn professional straight away.",
+"Carry on at school in England.",
+"Go to college to study music."
+],
+"c": 1
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE 1 Test 2 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1,2,3.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fce1-t2/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You overhear a woman talking to her husband on the phone about their son's school project. What will Jimmy have to do first?",
+"o": [
+"Write the project out by hand.",
+"Borrow a laptop from a friend.",
+"Ask his school for more time."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a man phoning a radio programme about a traffic scheme. What does he think a woman who complained should have done?",
+"o": [
+"Chosen a different route.",
+"Travelled by public transport.",
+"Gone shopping at another time."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a woman talking about her house. What has made life there easier for her?",
+"o": [
+"Moving to a smaller place.",
+"Cutting down the size of the garden.",
+"Getting weekly help with the garden."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You overhear two people discussing a friend called Mark. Where was Mark born?",
+"o": [
+"Italy.",
+"The United States.",
+"France."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a man talking about a childhood holiday. How did he feel about the rowing boat?",
+"o": [
+"He agreed with his father that it was slow.",
+"He wished it had been fitted with a motor.",
+"He enjoyed using it in spite of its age."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear the start of a radio programme about a group called Thump. What is the group about to do?",
+"o": [
+"Make a tour of the USA for the first time.",
+"Set up a fifth separate group.",
+"Move from the street to the theatre stage."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a man being interviewed about a new flat agency. Where did part of his idea come from?",
+"o": [
+"A friend's advice.",
+"A similar service in Australia.",
+"A television report."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You switch on the radio in the middle of a programme. What is Mr Harmon being asked to name?",
+"o": [
+"A play.",
+"An actor.",
+"A theatre."
+],
+"c": 0
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fce1-t2/p2.mp3",
+"intro": "You will hear a person talking about a topic. For each question, complete the sentence with a word or short phrase (one to three words).",
+"gapTitle": "Complete the sentences",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The National Museum holds about ____ events a year.",
+"accept": [
+"five",
+"5"
+]
+},
+{
+"type": "gap",
+"label": "This year's exhibition shows work by art students from a local ____ .",
+"accept": [
+"college"
+]
+},
+{
+"type": "gap",
+"label": "The exhibits range from curtains to ____ .",
+"accept": [
+"glasswork",
+"glass work",
+"glass"
+]
+},
+{
+"type": "gap",
+"label": "There are nearly ____ works on display.",
+"accept": [
+"2,000",
+"2000",
+"two thousand",
+"2 000"
+]
+},
+{
+"type": "gap",
+"label": "The most expensive items cost ____ .",
+"accept": [
+"£2,000",
+"2,000",
+"2000",
+"£2000",
+"2,000 pounds",
+"two thousand pounds"
+]
+},
+{
+"type": "gap",
+"label": "In the play, two young people hear a noise like a ____ being fired.",
+"accept": [
+"gun"
+]
+},
+{
+"type": "gap",
+"label": "The first person they ask about the noise is a ____ .",
+"accept": [
+"waiter"
+]
+},
+{
+"type": "gap",
+"label": "The playwright's last work before he moved on to writing for ____ .",
+"accept": [
+"films",
+"film"
+]
+},
+{
+"type": "gap",
+"label": "Peter Field used to be a manager in a ____ company.",
+"accept": [
+"computer"
+]
+},
+{
+"type": "gap",
+"label": "Peter's real passion is collecting old ____ .",
+"accept": [
+"maps",
+"map"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fce1-t2/p3.mp3",
+"intro": "You will hear five different people talking on the same subject. Choose the statement that each speaker agrees with. There are three statements you do not need to use.",
+"scripts": [],
+"bank": [
+"I get my work done early in the morning.",
+"I find studying outdoors helps me concentrate.",
+"I use music to shut out other sounds.",
+"I do my best work in a library.",
+"I like to work lying down.",
+"I like having music on while I work.",
+"I found that sharing my room with a friend helped.",
+"I wait until the house is quiet before I start."
+],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "I get my work done early in the morning."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "I use music to shut out other sounds."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "I like to work lying down."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "I found that sharing my room with a friend helped."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "I wait until the house is quiet before I start."
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE 1 Test 3 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1,2,3,4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fce1-t3/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear information about a country on a travel programme. What does the speaker think is a pity?",
+"o": [
+"That the mountain scenery is hard to reach.",
+"That most people stay in the capital in summer.",
+"That the capital has so few swimming pools."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear part of a radio programme about chewing gum. What does the speaker say about how it is made today?",
+"o": [
+"Its basic ingredient is now rubber.",
+"Artificial substitutes are widely used.",
+"Most of it is produced in Central America."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a man phoning a radio programme. How did he deal with losing his job?",
+"o": [
+"He used a skill from his old job in a new way.",
+"He spent a long time feeling sorry for himself.",
+"He retrained to work in banking."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a woman on the radio talking about buying a painting for the first time. What does she advise buyers to do first?",
+"o": [
+"Work out how much the painting may be worth later.",
+"Measure the space where it will hang.",
+"Learn what kind of art they like by looking at a lot of it."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a man being interviewed on the radio. What did he do after university?",
+"o": [
+"He did scientific work abroad.",
+"He became a professional painter.",
+"He taught science at a school."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a woman describing her working day. What does she do soon after she arrives at work?",
+"o": [
+"See her first patients.",
+"Spend time with a trainee.",
+"Deal with paperwork."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a man talking about teaching beginners to surf. What does he say affects how well beginners do?",
+"o": [
+"Their age.",
+"Their sex.",
+"Their attitude."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear an interview with a crime novelist. What does he say would make a detective look foolish?",
+"o": [
+"Inventing evidence.",
+"Taking too long to solve a case.",
+"Working without a partner."
+],
+"c": 1
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fce1-t3/p2.mp3",
+"intro": "You will hear a person talking about a topic. For each question, complete the sentence with a word or short phrase (one to three words).",
+"gapTitle": "Complete the sentences",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "At college he studied ____ rather than art or architecture.",
+"accept": [
+"woodwork",
+"wood work"
+]
+},
+{
+"type": "gap",
+"label": "He thinks his job has a lot in common with that of a ____ .",
+"accept": [
+"detective"
+]
+},
+{
+"type": "gap",
+"label": "His toughest commission came from a client in ____ .",
+"accept": [
+"ireland"
+]
+},
+{
+"type": "gap",
+"label": "For that job he had only a few old ____ to work from.",
+"accept": [
+"photos",
+"photographs",
+"photo",
+"photographs"
+]
+},
+{
+"type": "gap",
+"label": "The model he enjoyed making most was of a ____ .",
+"accept": [
+"theatre",
+"theater"
+]
+},
+{
+"type": "gap",
+"label": "Most of his models are sent to Japan or ____ .",
+"accept": [
+"canada"
+]
+},
+{
+"type": "gap",
+"label": "He advises lighting models with ____ light placed above them.",
+"accept": [
+"electric",
+"electrical"
+]
+},
+{
+"type": "gap",
+"label": "The model of Marnie House is ____ centimetres high.",
+"accept": [
+"140",
+"one hundred and forty",
+"a hundred and forty"
+]
+},
+{
+"type": "gap",
+"label": "Making all 150 ____ tested his patience.",
+"accept": [
+"windows"
+]
+},
+{
+"type": "gap",
+"label": "To make the model look old he washed it with ____ .",
+"accept": [
+"watercolour",
+"watercolor",
+"water colour"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fce1-t3/p3.mp3",
+"intro": "You will hear five different people talking on the same subject. Choose the statement that each speaker agrees with. There are three statements you do not need to use.",
+"scripts": [],
+"bank": [
+"The owners understood children because they had some of their own.",
+"The hotel was noisy at night.",
+"Sports equipment was lent to guests at no cost.",
+"The food was poor for the price.",
+"Smaller children were not charged for.",
+"Apart from swimming, there was little for the children to do.",
+"Teenagers were not well provided for.",
+"The guests were mostly older couples."
+],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "The owners understood children because they had some of their own."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "Sports equipment was lent to guests at no cost."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "Smaller children were not charged for."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "Apart from swimming, there was little for the children to do."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "Teenagers were not well provided for."
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fce1-t3/p4.mp3",
+"intro": "You will hear an interview. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Why has Alice not found a sponsor?",
+"o": [
+"Companies want something that gives them more exposure.",
+"Her training costs are too low to need one.",
+"Nobody has asked on her behalf."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "When does Alice find training hardest?",
+"o": [
+"At weekends.",
+"On cold winter mornings.",
+"Just before an important match."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Alice say about her school work?",
+"o": [
+"It is already suffering.",
+"She values it more than tennis.",
+"Tennis would come first if she had to choose."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How does Alice react when she loses a match?",
+"o": [
+"She tells herself that taking part is what matters.",
+"She feels it is unfair to play older opponents.",
+"She studies her play with Bruce and becomes more determined."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What impresses Bruce most about Alice as a player?",
+"o": [
+"She makes it look easy.",
+"She is extremely fit.",
+"She never loses concentration."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How does Alice feel about a career as a professional?",
+"o": [
+"She plans to turn professional as soon as possible.",
+"She is not sure she would want the lifestyle.",
+"She believes the glamour would make it easy."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Bruce say about Alice's character?",
+"o": [
+"She often argues with him.",
+"She sees her friends outside tennis a lot.",
+"She does not stay angry for long."
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE 1 Test 4 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1,2,3,4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fce1-t4/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a woman talking about women's football. What does she say can inspire young girls to take up the sport?",
+"o": [
+"The chance to earn a lot of money.",
+"The chance to play in international tournaments.",
+"The fact that their friends already play."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a man on the radio talking about a bag for walking trips. What extra has been added to the bag?",
+"o": [
+"A rain cover that can be taken off.",
+"An inside pocket for a flask and keys.",
+"Larger pockets on the sides."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a man discussing a cartoon film about dinosaurs. What does he say about the noises the animals make?",
+"o": [
+"They sound very lifelike.",
+"They are too loud for the cinema.",
+"They do not match the animals' size."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You overhear a couple talking about keeping fit. What does the woman say happens to many people who join a gym?",
+"o": [
+"They lose interest after a short time.",
+"They end up fitter than they wanted to be.",
+"They are injured within a few weeks."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a woman on the phone to a friend. What does she suggest her friend might do on the way?",
+"o": [
+"Buy some food for the evening.",
+"Get some money from the bank.",
+"Ring her again from a shop."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a student talking about a meeting with his tutor. What does he hope the form he was given will lead to?",
+"o": [
+"Payment of his course fees for six months.",
+"More time to hand in his assignments.",
+"A new part-time job."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a man talking about learning to paint landscapes. What surprised him about painting outdoors?",
+"o": [
+"How tiring it was.",
+"How much he disliked being watched.",
+"How much passers-by admired his work."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a man on the radio talking about asking for help. What does he say about people who ask for help?",
+"o": [
+"They have often failed before.",
+"They are admitting a weakness.",
+"They tend to be the most successful."
+],
+"c": 2
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fce1-t4/p2.mp3",
+"intro": "You will hear a person talking about a topic. For each question, complete the sentence with a word or short phrase (one to three words).",
+"gapTitle": "Complete the sentences",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "As a child, Richard wanted to become a ____ .",
+"accept": [
+"composer"
+]
+},
+{
+"type": "gap",
+"label": "He started making organs about ____ years ago.",
+"accept": [
+"five",
+"5"
+]
+},
+{
+"type": "gap",
+"label": "An organ sells for about ____ .",
+"accept": [
+"£9,500",
+"9,500",
+"9500",
+"£9500",
+"9,500 pounds"
+]
+},
+{
+"type": "gap",
+"label": "Building one takes about three months, working ____ hours a week.",
+"accept": [
+"70",
+"seventy"
+]
+},
+{
+"type": "gap",
+"label": "Most of his customers live ____ .",
+"accept": [
+"overseas",
+"abroad"
+]
+},
+{
+"type": "gap",
+"label": "The most profitable part of his business is ____ old organs.",
+"accept": [
+"mending",
+"repairing",
+"repair",
+"mending organs"
+]
+},
+{
+"type": "gap",
+"label": "Most of the parts he uses come from France or ____ .",
+"accept": [
+"germany"
+]
+},
+{
+"type": "gap",
+"label": "His new workshop is about ____ miles away.",
+"accept": [
+"100",
+"one hundred",
+"a hundred"
+]
+},
+{
+"type": "gap",
+"label": "In return for the free workshop he will work 40 days a year as a museum ____ .",
+"accept": [
+"attendant"
+]
+},
+{
+"type": "gap",
+"label": "The workshop must be ____ so that the instruments do not get damaged.",
+"accept": [
+"dry"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fce1-t4/p3.mp3",
+"intro": "You will hear five different people talking on the same subject. Choose the statement that each speaker agrees with. There are three statements you do not need to use.",
+"scripts": [],
+"bank": [
+"Rough ground gave me back trouble.",
+"A fall made me stop.",
+"The support team let me down.",
+"The hills were more than I could manage.",
+"I gave up because I was not fit enough.",
+"A muscle injury ended my race.",
+"A line of slow traffic cost me a good result.",
+"My bike failed me when I felt well prepared."
+],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "Rough ground gave me back trouble."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "The support team let me down."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "I gave up because I was not fit enough."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "A line of slow traffic cost me a good result."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "My bike failed me when I felt well prepared."
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fce1-t4/p4.mp3",
+"intro": "You will hear an interview. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What helped Tanya in her first television job?",
+"o": [
+"Using an earpiece to hear the producer.",
+"Her experience of acting on stage at college.",
+"A course in presenting that she had taken."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What did Tanya admire about her programme editor?",
+"o": [
+"His understanding of what children enjoy.",
+"His knowledge of wildlife.",
+"His sense of humour."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What happened to Tanya after the parachute jump?",
+"o": [
+"Her parachute failed to open properly.",
+"Her boss was furious with her.",
+"She injured herself on the way back to the car."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What was Tanya's attitude to Maddie's music when Maddie was little?",
+"o": [
+"She had to encourage her to take up an instrument.",
+"She expected her to become a star.",
+"She wanted her to give it up."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How does Tanya feel when she watches Maddie sing to a crowd?",
+"o": [
+"Worried about how the audience will react.",
+"Aware that other people share her admiration.",
+"Surprised that Maddie is so confident."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why does Maddie sometimes find modelling difficult?",
+"o": [
+"The work is physically exhausting.",
+"She is not offered enough jobs.",
+"The agency says she does not look right for some jobs."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Tanya say about being recognised in public?",
+"o": [
+"She wishes it happened more often.",
+"It stops her from shopping in peace.",
+"It makes her feel important."
+],
+"c": 1
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE 2 Test 1 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1,2,3,4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fce2-t1/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear part of a radio play. What is the woman worried about?",
+"o": [
+"Missing her bus home.",
+"Not getting her pension.",
+"Losing her bag."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You overhear the beginning of a lecture. What point does the lecturer make with the story of the trumpet player?",
+"o": [
+"Musicians suffer more injuries than sports people.",
+"Patients often describe their symptoms inaccurately.",
+"The cause of a pain can be far from where it hurts."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You overhear a conversation in a college. What will be ready for new students next September?",
+"o": [
+"The canteen.",
+"A new sports centre.",
+"The main staircase."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a woman on the radio talking about a cookbook she was given as a child. What was special about it?",
+"o": [
+"It read as if her grandmother were speaking.",
+"It was full of expensive recipes.",
+"It had photographs of every finished dish."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a man talking about meeting a famous footballer. What happened when they shook hands?",
+"o": [
+"He forgot the footballer's name.",
+"He started to argue about a match.",
+"He could not think of anything to say."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a woman talking on the phone. Why can she now help with the conference?",
+"o": [
+"Another person has cancelled.",
+"She had made a mistake in her diary.",
+"The conference has been moved."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You overhear an extract from a radio play. Why has Sophie come to the surgery?",
+"o": [
+"Her father told her to.",
+"Her school sent her.",
+"A friend suggested it."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a man telling a story about a strange thing that happened in the mountains. What had Margaret actually heard?",
+"o": [
+"A telephone.",
+"A baby crying.",
+"A bell on a cow."
+],
+"c": 2
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fce2-t1/p2.mp3",
+"intro": "You will hear a person talking about a topic. For each question, complete the sentence with a word or short phrase (one to three words).",
+"gapTitle": "Complete the sentences",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The speaker has run the doll museum for ____ years.",
+"accept": [
+"five",
+"5"
+]
+},
+{
+"type": "gap",
+"label": "The oldest dolls known were found in ____ in ancient Egypt.",
+"accept": [
+"graves",
+"tombs",
+"graves in ancient egypt"
+]
+},
+{
+"type": "gap",
+"label": "The museum's oldest dolls come from Europe in the ____ century.",
+"accept": [
+"12th",
+"twelfth",
+"12"
+]
+},
+{
+"type": "gap",
+"label": "She likes the 17th-century dolls because they still have their original ____ .",
+"accept": [
+"clothes",
+"clothing"
+]
+},
+{
+"type": "gap",
+"label": "The best examples show the ____ of that period.",
+"accept": [
+"makeup",
+"make-up",
+"make up"
+]
+},
+{
+"type": "gap",
+"label": "A 17th-century doll in perfect condition can cost up to ____ pounds.",
+"accept": [
+"10,000",
+"10000",
+"ten thousand"
+]
+},
+{
+"type": "gap",
+"label": "In the 19th century, dolls began to have soft bodies and real ____ .",
+"accept": [
+"hair"
+]
+},
+{
+"type": "gap",
+"label": "Under a doll's hair you can sometimes find the ____ .",
+"accept": [
+"maker's name",
+"makers name",
+"name of the maker",
+"maker's",
+"maker"
+]
+},
+{
+"type": "gap",
+"label": "One of the earliest dolls in the museum, from about 1909, is a model of a ____ .",
+"accept": [
+"baby"
+]
+},
+{
+"type": "gap",
+"label": "From about 1930, ____ began to be used to make dolls.",
+"accept": [
+"plastic"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fce2-t1/p3.mp3",
+"intro": "You will hear five different people talking on the same subject. Choose the statement that each speaker agrees with. There are three statements you do not need to use.",
+"scripts": [],
+"bank": [
+"My family has always worked in medicine.",
+"I had always known what I wanted to do.",
+"I put enjoyment of the work before money.",
+"I chose it because the pay was better than in teaching.",
+"I wanted security and the chance to move up.",
+"My parents encouraged my choice.",
+"My teachers thought it suited me.",
+"I followed a friend's example."
+],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "My family has always worked in medicine."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "I put enjoyment of the work before money."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "I wanted security and the chance to move up."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "My teachers thought it suited me."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "I followed a friend's example."
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fce2-t1/p4.mp3",
+"intro": "You will hear an interview. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What does Alan say takes up much of his time?",
+"o": [
+"Operating the cameras.",
+"Paperwork.",
+"Choosing locations."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How long has Alan worked in the film industry?",
+"o": [
+"About five years.",
+"About fifteen years.",
+"About twenty-five years."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What problem did Alan have on his latest film?",
+"o": [
+"Bad weather stopped the filming.",
+"The lights failed on the first day.",
+"Moving the equipment to the location took a long time."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why does Alan say his job carries a lot of responsibility?",
+"o": [
+"A great deal of money is involved.",
+"He supervises a large number of staff.",
+"The work can be dangerous."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What is the main drawback of the job for Alan's family?",
+"o": [
+"The low pay.",
+"Frequent moves to new homes.",
+"Long periods spent working abroad."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Alan recommend as the first step for someone wanting to do his job?",
+"o": [
+"Training as an electrician.",
+"Studying film at college.",
+"Working as a camera assistant."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How does Alan feel about promotion?",
+"o": [
+"He hopes to become a director.",
+"He would like to work in a studio.",
+"He is content where he is."
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE 2 Test 2 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1,2,3,4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fce2-t2/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You overhear two people talking in a restaurant. How long has the man been waiting for the woman?",
+"o": [
+"About ten minutes.",
+"About half an hour.",
+"About an hour."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a man talking about a mobile phone he has bought. What does he say about its price?",
+"o": [
+"It was cheaper than similar models.",
+"It cost more than he would have liked.",
+"It was reduced in a sale."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a man talking on the phone about buying a house. What is he looking for?",
+"o": [
+"A house with one large room for cooking and eating.",
+"A small flat in the town centre.",
+"A house with a big garden."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a teenage girl talking about her hobby. What does she think stops girls playing in bands?",
+"o": [
+"Lack of encouragement from their families.",
+"Unwillingness to practise enough.",
+"A shortage of places to play."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a news story about a cat. Who first noticed the cat at the station?",
+"o": [
+"A member of the station staff.",
+"The owner of the cat.",
+"A passenger."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a woman talking about how she gets ideas for her work. What inspired her pictures for the children's story?",
+"o": [
+"A film she had seen.",
+"The words her husband had written.",
+"The sight of a city lit up at night."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You overhear two people talking about some keys. What does the man suggest?",
+"o": [
+"Always putting them in the same place.",
+"Leaving a spare set with a neighbour.",
+"Buying a bigger key ring."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You turn on the radio and hear a man speaking. What is he doing?",
+"o": [
+"Promoting a series of exhibitions.",
+"Telling a science fiction story.",
+"Reviewing a history book."
+],
+"c": 0
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fce2-t2/p2.mp3",
+"intro": "You will hear a person talking about a topic. For each question, complete the sentence with a word or short phrase (one to three words).",
+"gapTitle": "Complete the sentences",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "A bag of 35 litres with three outside ____ is big enough for a day trip.",
+"accept": [
+"pockets"
+]
+},
+{
+"type": "gap",
+"label": "For a walking tour, a man needs a bag of about ____ litres.",
+"accept": [
+"70",
+"seventy"
+]
+},
+{
+"type": "gap",
+"label": "An upright bag, which closes at the ____ , is better for climbing hills.",
+"accept": [
+"top"
+]
+},
+{
+"type": "gap",
+"label": "To avoid crushed clothes, choose a bag with a solid ____ .",
+"accept": [
+"bottom",
+"base"
+]
+},
+{
+"type": "gap",
+"label": "The most expensive bags have a ____ base that resists wear.",
+"accept": [
+"leather"
+]
+},
+{
+"type": "gap",
+"label": "Two inside compartments help keep creams that could ____ in hot weather apart.",
+"accept": [
+"leak"
+]
+},
+{
+"type": "gap",
+"label": "Outside pockets are useful for sharp or dirty climbing ____ .",
+"accept": [
+"tools"
+]
+},
+{
+"type": "gap",
+"label": "A wide cushioned ____ eases the strain on your back and hips.",
+"accept": [
+"belt"
+]
+},
+{
+"type": "gap",
+"label": "A horizontal ____ across your shoulders stops the straps from falling off.",
+"accept": [
+"bar"
+]
+},
+{
+"type": "gap",
+"label": "Air holes in the padded part let ____ escape.",
+"accept": [
+"sweat"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fce2-t2/p3.mp3",
+"intro": "You will hear five different people talking on the same subject. Choose the statement that each speaker agrees with. There are three statements you do not need to use.",
+"scripts": [],
+"bank": [
+"The rules have started to irritate me.",
+"I would recommend the place to others.",
+"Staying with relatives has worked out well.",
+"I was very nervous about leaving home.",
+"I had something stolen soon after I arrived.",
+"Sharing with a friend has led to some disagreements.",
+"I rarely meet other students.",
+"The rent is too high."
+],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "The rules have started to irritate me."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "Staying with relatives has worked out well."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "I had something stolen soon after I arrived."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "Sharing with a friend has led to some disagreements."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "I rarely meet other students."
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fce2-t2/p4.mp3",
+"intro": "You will hear an interview. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What did Tina do differently in her column for the local paper?",
+"o": [
+"She wrote about the lifestyles of the famous.",
+"She interviewed members of her family.",
+"She wrote about unknown people with something original to say."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What was the greatest influence on Tina's choice of career?",
+"o": [
+"Her father's wishes.",
+"The material she could use at school.",
+"Her friends at college."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why did Tina leave the first magazine she edited?",
+"o": [
+"She disagreed with the owners.",
+"Its sales had fallen.",
+"It was losing more money than before."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Tina think makes a reader want to read a serious article?",
+"o": [
+"A striking picture on the cover.",
+"A lively, even shocking, opening line.",
+"A well-known writer's name."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why did Tina have to read everything herself six times at first?",
+"o": [
+"She did not trust her employees.",
+"She wanted to finish it quickly.",
+"She did not yet have a good team."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What would Tina find hardest to accept?",
+"o": [
+"Losing the respect of her colleagues.",
+"Having a lower income.",
+"Being criticised in the press."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Tina still hope to do one day?",
+"o": [
+"Edit a series of books.",
+"Act in a film.",
+"Write a bestselling novel."
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE 2 Test 3 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1,2,3,4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fce2-t3/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You overhear a man talking about something he lost at an airport. Where did he realise he had left it?",
+"o": [
+"At a security desk.",
+"In the toilets.",
+"On the plane."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear an advertisement on the radio for a guitar. What do the lights on the guitar show?",
+"o": [
+"How loud the sound is.",
+"Where to put your fingers.",
+"Which strings are out of tune."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear part of a radio programme. What does the presenter say about prepared food left at room temperature?",
+"o": [
+"It spoils quickly.",
+"It stays fresh if the ingredients are fresh.",
+"It is safe if it is covered."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear two people discussing a type of pollution. What does the second speaker find amusing?",
+"o": [
+"Workers using sharp tools.",
+"The black marks on the paths.",
+"A machine that lifted the paving stones."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a conversation between a shop assistant and a customer about a CD. What caused the delay?",
+"o": [
+"The disc was out of stock.",
+"The order was never taken.",
+"Two digits in a number were written the wrong way round."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You overhear a conversation at a football match. How is the match going for the speaker's team?",
+"o": [
+"As badly as he feared.",
+"Better than he expected.",
+"It is still goalless."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You overhear a schoolgirl talking about her new maths teacher. What does she like most about him?",
+"o": [
+"His sense of humour.",
+"How strict he is.",
+"How he links lessons to real life."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "In a hotel you overhear a conversation about an island trip. What is included in the price?",
+"o": [
+"Entry to the museum.",
+"A transfer from the airport.",
+"An evening meal."
+],
+"c": 0
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fce2-t3/p2.mp3",
+"intro": "You will hear a person talking about a topic. For each question, complete the sentence with a word or short phrase (one to three words).",
+"gapTitle": "Complete the sentences",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Paul has worked at the Palace Hotel since ____ .",
+"accept": [
+"1970",
+"nineteen seventy"
+]
+},
+{
+"type": "gap",
+"label": "One thing he enjoys about the job is meeting ____ people.",
+"accept": [
+"famous"
+]
+},
+{
+"type": "gap",
+"label": "He finds teaching adults harder than teaching children, but more ____ .",
+"accept": [
+"fun"
+]
+},
+{
+"type": "gap",
+"label": "He estimates that about ____ % of adults cannot swim.",
+"accept": [
+"50",
+"fifty"
+]
+},
+{
+"type": "gap",
+"label": "Some students who can swim a little hate going ____ .",
+"accept": [
+"underwater",
+"under water"
+]
+},
+{
+"type": "gap",
+"label": "The first thing he teaches is how to control their ____ .",
+"accept": [
+"breathing"
+]
+},
+{
+"type": "gap",
+"label": "He gives each student a ____ full of water.",
+"accept": [
+"salad bowl",
+"bowl"
+]
+},
+{
+"type": "gap",
+"label": "Students compete to see who can keep their ____ down the longest.",
+"accept": [
+"face",
+"faces"
+]
+},
+{
+"type": "gap",
+"label": "Learners usually need about ____ lessons.",
+"accept": [
+"three",
+"3"
+]
+},
+{
+"type": "gap",
+"label": "About ____ % of his students end up swimming.",
+"accept": [
+"90",
+"ninety"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fce2-t3/p3.mp3",
+"intro": "You will hear five different people talking on the same subject. Choose the statement that each speaker agrees with. There are three statements you do not need to use.",
+"scripts": [],
+"bank": [
+"It was a prize I never really wanted.",
+"It no longer works properly.",
+"I ordered the wrong one.",
+"I need the money urgently.",
+"I need the space for other things.",
+"I am moving to a new home.",
+"Health problems mean I cannot use it.",
+"I have found an easier alternative."
+],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "It was a prize I never really wanted."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "I ordered the wrong one."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "I need the space for other things."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "Health problems mean I cannot use it."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "I have found an easier alternative."
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fce2-t3/p4.mp3",
+"intro": "You will hear an interview. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What was Matt's first job at the television channel?",
+"o": [
+"Temporary work in the photograph library.",
+"Building models for news items.",
+"Presenting a children's programme."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why did Matt start building models?",
+"o": [
+"A comic book editor asked him to.",
+"He wanted something more three-dimensional than flat photographs.",
+"A colleague bet him he could not."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why were Matt's models shown on the news?",
+"o": [
+"The spacecraft's camera had stopped working.",
+"The studio had run out of photographs.",
+"He had won a competition."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Matt say about getting a television job today?",
+"o": [
+"It is easier than it used to be.",
+"It depends mostly on personal contacts.",
+"It would need many more qualifications."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What did Matt make for the series Bright Star?",
+"o": [
+"Costumes for the actors.",
+"Scenery for the studio.",
+"Creatures for the hero to face."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What did Matt do on the afternoon children's programmes?",
+"o": [
+"He designed the sets.",
+"He showed viewers how to make things.",
+"He wrote the scripts."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why was Matt surprised to win television prizes?",
+"o": [
+"He had made very few documentaries.",
+"There was no award for his kind of work.",
+"The prizes were meant for actors."
+],
+"c": 1
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE 2 Test 4 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fce2-t4/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear people talking at a party in a hotel. Why is Mark not there?",
+"o": [
+"Something urgent has come up at work.",
+"He prefers to spend the evening at home.",
+"He has not been invited."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You overhear a conversation in a restaurant. How has the customer been spending her time recently?",
+"o": [
+"Recovering from an illness.",
+"Travelling in the United States.",
+"Sorting out the structure of her workplace."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You overhear someone talking about a concert. What does she criticise?",
+"o": [
+"The quality of the music.",
+"The way the show was staged.",
+"The number of people in the audience."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a writer of children's stories talking about books and compact discs. What is his opinion about the format?",
+"o": [
+"Books are more attractive to children.",
+"It makes little difference as long as the content is good.",
+"Discs are better for young readers."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a husband and wife talking about their summer holidays. How does the man describe their relationship outside holidays?",
+"o": [
+"They rarely spend time together.",
+"They seldom disagree.",
+"They enjoy the same kind of trips."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a researcher being asked about her work. What did most of the people she asked say about glasses?",
+"o": [
+"They can look attractive, but people still dislike wearing them.",
+"They are uncomfortable to wear.",
+"They suit most people's faces."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You overhear a woman talking to a friend on a train. What does she say was good about the course?",
+"o": [
+"It taught her a lot about her job.",
+"It gave her chances to meet other professionals.",
+"It improved her confidence greatly."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a woman speaking on the radio. Why does she go back over a point she has already made?",
+"o": [
+"She believes listeners must understand it.",
+"She has forgotten to finish it.",
+"The presenter has asked her a question."
+],
+"c": 0
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fce2-t4/p2.mp3",
+"intro": "You will hear a person talking about a topic. For each question, complete the sentence with a word or short phrase (one to three words).",
+"gapTitle": "Complete the sentences",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The diver who was saved from a shark was ____ years old.",
+"accept": [
+"28",
+"twenty-eight",
+"twenty eight"
+]
+},
+{
+"type": "gap",
+"label": "He was swimming with dolphins in the ____ Sea.",
+"accept": [
+"red"
+]
+},
+{
+"type": "gap",
+"label": "The dolphins formed a ____ around him to frighten the shark away.",
+"accept": [
+"circle"
+]
+},
+{
+"type": "gap",
+"label": "Dolphins are the only animals whose brains match ours in ____ .",
+"accept": [
+"size"
+]
+},
+{
+"type": "gap",
+"label": "A swim with dolphins is a recognised treatment for problems such as ____ .",
+"accept": [
+"stress"
+]
+},
+{
+"type": "gap",
+"label": "Dolphins are being used to help slow learners learn to ____ .",
+"accept": [
+"read",
+"reading"
+]
+},
+{
+"type": "gap",
+"label": "The dolphins carry small ____ on their noses.",
+"accept": [
+"boards",
+"board"
+]
+},
+{
+"type": "gap",
+"label": "In each jaw, a dolphin has up to ____ teeth.",
+"accept": [
+"52",
+"fifty-two",
+"fifty two"
+]
+},
+{
+"type": "gap",
+"label": "The spotted dolphin can swim at ____ miles an hour.",
+"accept": [
+"20",
+"twenty"
+]
+},
+{
+"type": "gap",
+"label": "One of the dolphins' greatest problems is ____ .",
+"accept": [
+"pollution"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fce2-t4/p3.mp3",
+"intro": "You will hear five different people talking on the same subject. Choose the statement that each speaker agrees with. There are three statements you do not need to use.",
+"scripts": [],
+"bank": [
+"She encouraged us to care about the environment.",
+"She was too strict about discipline.",
+"She expected the same effort from everybody whatever their ability.",
+"She taught us foreign languages.",
+"She rewarded originality.",
+"She spent too much time on paperwork.",
+"She was held back by the people around her.",
+"She helped us prepare for working life."
+],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "She encouraged us to care about the environment."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "She expected the same effort from everybody whatever their ability."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "She rewarded originality."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "She was held back by the people around her."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "She helped us prepare for working life."
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fce2-t4/p4.mp3",
+"intro": "You will hear an interview. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What does Don say about the people who go on the tour?",
+"o": [
+"Most of them are students.",
+"Most of them have professional jobs.",
+"Most of them have camped before."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Don do on the evening before the tour sets off?",
+"o": [
+"Teaches them to put up tents.",
+"Looks through what they have brought.",
+"Cooks a meal for the group."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why does Don think the first day is so important?",
+"o": [
+"Some people decide to go home.",
+"The truck often breaks down.",
+"It sets the mood for the whole trip."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What went wrong one night during cooking?",
+"o": [
+"Strawberry jam was used instead of tomato paste.",
+"The pasta was burnt.",
+"The food ran out."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What irritates Don most about some of the tourists?",
+"o": [
+"They refuse to do any chores.",
+"They complain about the food.",
+"They leave equipment lying about."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How does Don deal with conflicts between tourists?",
+"o": [
+"He leaves them alone unless it gets out of hand.",
+"He separates the people involved straight away.",
+"He asks the whole group to vote."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How does Don decide what time to wake the group?",
+"o": [
+"He follows the park's opening hours exactly.",
+"He wakes everyone at the same time each day.",
+"He allows for how fast the group usually gets ready."
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE 3 Test 1 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3, 4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fce3-t1/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a young man talking about his first job. How did he approach the work?",
+"o": [
+"He felt the work was beneath him.",
+"He was determined to show what he could do.",
+"He was nervous about dealing with customers."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a radio announcement about a dance company. What will the company do this week?",
+"o": [
+"Explain how the company operates.",
+"Perform a new modern programme.",
+"Celebrate its twentieth anniversary on stage."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You overhear a woman describing an incident on the road. What happened to the other driver afterwards?",
+"o": [
+"He got out to apologise.",
+"He drove off without stopping.",
+"He crashed into a car behind."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a woman talking about making wildlife films. What does she say about her work?",
+"o": [
+"The camera operators choose the locations.",
+"One team does most of the filming.",
+"Careful planning in advance is vital."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear part of a travel programme on the radio. How does the speaker feel about the place he describes?",
+"o": [
+"It is lovelier than anywhere else he has been.",
+"It is too crowded to be enjoyable.",
+"It is much like other places he has visited."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You overhear a woman complaining in a sports shop. What does she want the shop to do?",
+"o": [
+"Exchange the table for a different model.",
+"Refund the price she paid.",
+"Send someone to assemble the table for her."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear an interview with a businesswoman. What does her company do for customers?",
+"o": [
+"Builds fishing boats to order.",
+"Lets them use boats for holidays on the river.",
+"Provides caravans beside the marina."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a man talking about a play on the radio. What does he say about the part he is playing?",
+"o": [
+"It gives him plenty of scope.",
+"It has never been played before.",
+"It is similar to ones he has played before."
+],
+"c": 0
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fce3-t1/p2.mp3",
+"intro": "You will hear a person giving a talk. For each question, complete the sentence with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The longest underground spaces can reach ____ kilometres in length.",
+"accept": [
+"80",
+"eighty"
+]
+},
+{
+"type": "gap",
+"label": "Cavers set up camp where there is enough room and ____.",
+"accept": [
+"fresh air",
+"air"
+]
+},
+{
+"type": "gap",
+"label": "Mike's favourite place for caving in the UK is ____.",
+"accept": [
+"wales"
+]
+},
+{
+"type": "gap",
+"label": "In some caves people must crawl through very small ____ in the rock.",
+"accept": [
+"gaps",
+"gap"
+]
+},
+{
+"type": "gap",
+"label": "A hard hat should not feel too ____.",
+"accept": [
+"tight"
+]
+},
+{
+"type": "gap",
+"label": "A suitable lamp can cost as much as £____.",
+"accept": [
+"50",
+"fifty",
+"£50",
+"50 pounds",
+"fifty pounds"
+]
+},
+{
+"type": "gap",
+"label": "Cheap boots are unsafe because you could ____ on wet surfaces.",
+"accept": [
+"slip",
+"slipping"
+]
+},
+{
+"type": "gap",
+"label": "Mike says the main attraction of caving is the ____ it brings.",
+"accept": [
+"excitement"
+]
+},
+{
+"type": "gap",
+"label": "In Britain, forty-eight caves are classed as places of special ____.",
+"accept": [
+"interest"
+]
+},
+{
+"type": "gap",
+"label": "Caving events stress ____ rather than competition.",
+"accept": [
+"cooperation",
+"co-operation"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fce3-t1/p3.mp3",
+"intro": "You will hear five people talking about the same subject. For each speaker, choose which statement (A–H) matches what they say. There are three extra statements you do not need to use.",
+"scripts": [],
+"bank": [
+"Often has to work through the night.",
+"Is happy to stay with one employer for many years.",
+"Likes having a fixed daily routine.",
+"Is officially available at all times but works fewer hours.",
+"Finds the job glamorous.",
+"Spends much of the working day talking to guests.",
+"Can choose where the ship sails.",
+"Prefers a job that does not tie them to one place."
+],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "Spends much of the working day talking to guests."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "Prefers a job that does not tie them to one place."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "Is officially available at all times but works fewer hours."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "Often has to work through the night."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "Is happy to stay with one employer for many years."
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fce3-t1/p4.mp3",
+"intro": "You will hear an interview. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What does Stan say about walking in Britain?",
+"o": [
+"It is strictly speaking an adventure sport.",
+"It offers routes from very easy to demanding.",
+"It is best done in a group."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Stan advise about the harder scrambles?",
+"o": [
+"Practise on easier ones first.",
+"Avoid them altogether.",
+"Go with an experienced person."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Stan say about starting to climb?",
+"o": [
+"Beginners can learn on small rocks first.",
+"It requires access to very high mountains.",
+"It is frightening and does little for fitness."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What problem can mountain bikers have in Britain?",
+"o": [
+"There are no paths of any kind.",
+"They often share paths with walkers.",
+"The bikes are far too expensive."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Stan say about learning to scuba dive?",
+"o": [
+"It takes years to become competent.",
+"Most people find the idea appealing.",
+"Good instruction means it can be learned quickly."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Stan say about skydiving?",
+"o": [
+"Brief training is enough before a first jump.",
+"Only a few very brave people try it.",
+"It is mostly seen in films."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How can canoeists choose how difficult the water will be on the Welsh stretch?",
+"o": [
+"By checking the weather forecast.",
+"By phoning to find out how much water will be released.",
+"By choosing a particular season."
+],
+"c": 1
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE 3 Test 2 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fce3-t2/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a film director talking about his favourite movie. What does he enjoy most about it?",
+"o": [
+"The relationship between the two leading characters.",
+"Its realistic picture of difficult times.",
+"Its clever special effects."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a man talking about a sofa he bought. What is his situation at the moment?",
+"o": [
+"He has received a refund.",
+"He is using a damaged sofa.",
+"He is waiting for a new sofa."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear an actor talking about accents. What does he say about going back to his original accent?",
+"o": [
+"He can do it instantly.",
+"It takes a short time to get back into it.",
+"He is no longer able to do it."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a man talking about winning his first horse race. What did he do the day after the race?",
+"o": [
+"Rested at home.",
+"Gave interviews to the press.",
+"Went back to his job early."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a writer of musicals talking on the radio. What first made him interested in musical theatre?",
+"o": [
+"Visits to shows with a relative.",
+"Acting in school productions.",
+"Listening to American recordings."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear the beginning of a lecture about ancient history. What does the speaker say is the main source of knowledge about this trade?",
+"o": [
+"Written records.",
+"Archaeological finds.",
+"Paintings and sculpture."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a man talking about travelling from London to France for his job. How does he use the train journey?",
+"o": [
+"He relaxes away from his colleagues.",
+"He makes phone calls to clients.",
+"He holds business meetings with colleagues."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a woman in a shop talking about some lost photographs. How does she react to the offer of a new film?",
+"o": [
+"She is grateful.",
+"She feels insulted.",
+"She is puzzled."
+],
+"c": 1
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fce3-t2/p2.mp3",
+"intro": "You will hear a person giving a talk. For each question, complete the sentence with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Anna used to teach ____ at a school.",
+"accept": [
+"sports",
+"sport",
+"pe"
+]
+},
+{
+"type": "gap",
+"label": "She first went sailing when she worked for a ____ agency.",
+"accept": [
+"travel"
+]
+},
+{
+"type": "gap",
+"label": "She went on sailing holidays with friends in the ____.",
+"accept": [
+"mediterranean",
+"mediterranean sea"
+]
+},
+{
+"type": "gap",
+"label": "The book that inspired her voyage was called '____'.",
+"accept": [
+"high adventure"
+]
+},
+{
+"type": "gap",
+"label": "Her test voyage ended after ____ days because of bad weather.",
+"accept": [
+"six",
+"6"
+]
+},
+{
+"type": "gap",
+"label": "Anna depended on money from local ____ for her trip.",
+"accept": [
+"companies",
+"businesses",
+"firms"
+]
+},
+{
+"type": "gap",
+"label": "The slow progress of her boat made Anna feel ____.",
+"accept": [
+"bored"
+]
+},
+{
+"type": "gap",
+"label": "Storms in the ____ Ocean kept her busy.",
+"accept": [
+"southern"
+]
+},
+{
+"type": "gap",
+"label": "She proved she had made the trip by showing her ____.",
+"accept": [
+"diaries",
+"diary"
+]
+},
+{
+"type": "gap",
+"label": "Anna is now writing a ____ about the voyage.",
+"accept": [
+"book"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fce3-t2/p3.mp3",
+"intro": "You will hear five people talking about the same subject. For each speaker, choose which statement (A–H) matches what they say. There are three extra statements you do not need to use.",
+"scripts": [],
+"bank": [
+"Teachers should be easy to approach outside lessons.",
+"Teachers should be close in age to their students.",
+"Teachers should insist that students work hard.",
+"Teachers should make every lesson entertaining.",
+"Praise from a long-serving teacher counts for more.",
+"Teachers should know their subject thoroughly.",
+"Teachers should notice effort and progress.",
+"Teachers should not set homework."
+],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "Teachers should be easy to approach outside lessons."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "Teachers should insist that students work hard."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "Praise from a long-serving teacher counts for more."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "Teachers should know their subject thoroughly."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "Teachers should notice effort and progress."
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fce3-t2/p4.mp3",
+"intro": "You will hear an interview. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Why did Douglas book the climbing weekend?",
+"o": [
+"He had spent years training for a challenge.",
+"He acted on impulse after seeing advertisements.",
+"Friends had persuaded him to go."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What worried Douglas about the other people on the trip?",
+"o": [
+"They would be complete beginners.",
+"They would be much older than him.",
+"They might be too athletic for him to get on with."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What did Douglas most want from the weekend?",
+"o": [
+"To discover his own mental strength.",
+"To meet new friends.",
+"To improve his fitness."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What did Douglas find out about the other participants?",
+"o": [
+"Most were experienced climbers.",
+"Most had ordinary jobs and wanted a change.",
+"Most were retired people."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Douglas say about the group?",
+"o": [
+"Several people complained about slow walkers.",
+"They stayed wary of each other all weekend.",
+"They soon felt like a close team."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What unexpected benefit did the weekend bring?",
+"o": [
+"He became more aware of small plants.",
+"He lost a lot of weight.",
+"He made useful business contacts."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How does Douglas feel about climbing again?",
+"o": [
+"He intends to try another mountain next year.",
+"He doesn't expect to do it again.",
+"He is planning to sell his boots."
+],
+"c": 1
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE 3 Test 3 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fce3-t3/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a man talking to a group going into the rainforest. What does he say can increase the risk of being bitten?",
+"o": [
+"Camping beside a river.",
+"Washing with scented products.",
+"Drying off after a swim."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You overhear two people talking about a school football competition. What disappointed the woman?",
+"o": [
+"The small number of teams.",
+"The lack of helpers.",
+"The amount of money raised."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a woman talking about her studies at the Beijing Opera School. What helped persuade the school to accept her?",
+"o": [
+"Her fluency in Chinese.",
+"Her age and experience.",
+"Her obvious determination."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a famous comedian talking about his early career. What does he say about his first television appearance?",
+"o": [
+"He is glad there is no recording of it.",
+"He was extremely nervous.",
+"He was paid very well for it."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a woman on the phone. What does she finally ask the other person to do?",
+"o": [
+"Leave some tickets on her desk.",
+"Post some tickets to her mother's house.",
+"Change the date of her meeting."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a novelist talking about how she writes. Where did the idea for her latest book begin?",
+"o": [
+"In her home city.",
+"During a long period of writing.",
+"On a trip abroad."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a woman talking to a friend on the phone. What happened on her last birthday?",
+"o": [
+"Nobody was invited.",
+"Her friends took her out instead of coming to dinner.",
+"She cooked a special meal at home."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a radio announcement about a programme. What is the programme based on?",
+"o": [
+"The author's childhood holidays.",
+"A well-known story from another country.",
+"A true story about a shipwreck."
+],
+"c": 0
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fce3-t3/p2.mp3",
+"intro": "You will hear a person giving a talk. For each question, complete the sentence with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Brian used to be a pilot with ____.",
+"accept": [
+"british airways",
+"ba"
+]
+},
+{
+"type": "gap",
+"label": "He now helps people learn to fly at a local ____.",
+"accept": [
+"flying club"
+]
+},
+{
+"type": "gap",
+"label": "Flying a microlight gives the feeling of being a ____.",
+"accept": [
+"bird"
+]
+},
+{
+"type": "gap",
+"label": "A microlight is steered by moving the pilot's own ____.",
+"accept": [
+"weight",
+"body weight"
+]
+},
+{
+"type": "gap",
+"label": "His record flight crossed ____ continents.",
+"accept": [
+"four",
+"4"
+]
+},
+{
+"type": "gap",
+"label": "The only change made to his aircraft was a special ____.",
+"accept": [
+"fuel tank",
+"tank",
+"fuel tank fitted"
+]
+},
+{
+"type": "gap",
+"label": "In still air he could cover about ____ miles a day.",
+"accept": [
+"500",
+"five hundred"
+]
+},
+{
+"type": "gap",
+"label": "It took ____ months to plan the flight.",
+"accept": [
+"nine",
+"9"
+]
+},
+{
+"type": "gap",
+"label": "His radio could only reach about ____ miles.",
+"accept": [
+"70",
+"seventy"
+]
+},
+{
+"type": "gap",
+"label": "The lowest temperature, minus 28 degrees, was over the ____.",
+"accept": [
+"alps",
+"the alps"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fce3-t3/p3.mp3",
+"intro": "You will hear five people talking about the same subject. For each speaker, choose which statement (A–H) matches what they say. There are three extra statements you do not need to use.",
+"scripts": [],
+"bank": [
+"Did badly but still wants to repeat the experience.",
+"Was surprised how comfortable the accommodation was.",
+"Reached the goal even though it wasn't enjoyable.",
+"Doubted that the advice about further courses was sincere.",
+"Felt the tutor was weak at teaching.",
+"Found the other participants difficult to get on with.",
+"Was disappointed by the standard of the equipment.",
+"Regretted not having prepared beforehand."
+],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "Did badly but still wants to repeat the experience."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "Was surprised how comfortable the accommodation was."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "Reached the goal even though it wasn't enjoyable."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "Doubted that the advice about further courses was sincere."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "Felt the tutor was weak at teaching."
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fce3-t3/p4.mp3",
+"intro": "You will hear an interview. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What was typical of wildlife programmes when Martin began in television?",
+"o": [
+"They were shot in distant countries.",
+"They were filmed close to home, often at zoos.",
+"They were made by a cameraman working alone."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How did Martin's boss react when he suggested filming in Africa?",
+"o": [
+"He did not take the idea seriously.",
+"He agreed at once.",
+"He suggested a trip to Borneo instead."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Martin say about his first trip to Borneo?",
+"o": [
+"They followed a detailed schedule.",
+"They filmed whatever seemed interesting.",
+"They travelled with a large team."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How does Martin's way of working differ today?",
+"o": [
+"Local people decide what to film.",
+"The team decides each morning what to film.",
+"Scenes are planned in detail before filming starts."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How did Martin react to being left on the iceberg?",
+"o": [
+"He found the experience exciting.",
+"He was sure he would be rescued quickly.",
+"He wished he were somewhere else."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Martin say about his own holidays?",
+"o": [
+"He likes to have a purpose when he travels.",
+"He prefers to relax by a hotel pool.",
+"He often goes back to the same places."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What is Martin's view of tourism in remote places?",
+"o": [
+"It should be banned altogether.",
+"It is acceptable when carefully controlled.",
+"It always ruins the places visited."
+],
+"c": 1
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE 3 Test 4 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3, 4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fce3-t4/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a woman phoning her office from a train. What does she ask her colleague to do?",
+"o": [
+"Find something she has left behind and ring her back.",
+"Move an appointment to a later time.",
+"Tell the marketing team she will be late."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You switch on the radio in the middle of a programme. How do some parents protect their eggs?",
+"o": [
+"By guarding them day and night.",
+"By laying them in well-hidden places.",
+"By burying them in sand."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear two people talking about a faulty watch. What does one of them say about getting it repaired?",
+"o": [
+"It is much cheaper than buying a new watch.",
+"It is quick and the repair lasts for years.",
+"It is hard to find someone able to do it."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a woman talking about her new neighbours. What is she puzzled about?",
+"o": [
+"Why they have been so unfriendly.",
+"How they can afford their way of life.",
+"How they will fit into such a large house."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a man talking about deep sea diving. What does he value most about it?",
+"o": [
+"It lets him meet other divers.",
+"It satisfies his love of danger.",
+"It gives him peace away from everyday life."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a scientist being interviewed about violins. What does he say a violin basically does?",
+"o": [
+"It makes a musician play better.",
+"It turns the energy of a string into sound.",
+"It improves with the age of the wood."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a woman talking about CD-ROMs on travel. What does she say about many publishers?",
+"o": [
+"They simply convert printed material to digital form.",
+"They have greatly improved their products recently.",
+"They make better guidebooks than ever on paper."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a woman advising business people. What does she say to do with a customer who keeps ringing about a problem?",
+"o": [
+"Offer them their money back at once.",
+"Refuse to take any more calls from them.",
+"Agree on a plan early and keep the call moving."
+],
+"c": 2
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fce3-t4/p2.mp3",
+"intro": "You will hear a person giving a talk. For each question, complete the sentence with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Sylvia studied German and ____ at university.",
+"accept": [
+"spanish"
+]
+},
+{
+"type": "gap",
+"label": "After university she worked as a tour guide in ____ for six months.",
+"accept": [
+"italy"
+]
+},
+{
+"type": "gap",
+"label": "At first her work at World Travel mainly involved the ____.",
+"accept": [
+"post",
+"mail"
+]
+},
+{
+"type": "gap",
+"label": "She then applied for the job of the manager's ____.",
+"accept": [
+"assistant",
+"manager's assistant"
+]
+},
+{
+"type": "gap",
+"label": "She was promoted ____ months after joining the company.",
+"accept": [
+"four",
+"4"
+]
+},
+{
+"type": "gap",
+"label": "Sylvia is in charge of ____ in the press for new guidebooks.",
+"accept": [
+"advertising"
+]
+},
+{
+"type": "gap",
+"label": "A journalist once asked her about female ____ teams in China.",
+"accept": [
+"football",
+"soccer"
+]
+},
+{
+"type": "gap",
+"label": "Her boss presents a radio programme about adventure holidays on ____ nights.",
+"accept": [
+"friday",
+"fridays"
+]
+},
+{
+"type": "gap",
+"label": "In the future Sylvia would like to become a ____.",
+"accept": [
+"tv presenter",
+"television presenter",
+"presenter"
+]
+},
+{
+"type": "gap",
+"label": "Last year she travelled to the company's head office in ____.",
+"accept": [
+"australia"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fce3-t4/p3.mp3",
+"intro": "You will hear five people talking about the same subject. For each speaker, choose which statement (A–H) matches what they say. There are three extra statements you do not need to use.",
+"scripts": [],
+"bank": [
+"Training that must be done before riding on the road.",
+"A job that involved riding.",
+"Buying a first bike secondhand.",
+"Riding as relief from everyday pressures.",
+"The sense of independence it gives.",
+"Sharing the sport with a relative.",
+"The high cost of looking after a bike.",
+"Why motorbikes are dangerous."
+],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "A job that involved riding."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "Training that must be done before riding on the road."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "Riding as relief from everyday pressures."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "The sense of independence it gives."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "Sharing the sport with a relative."
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fce3-t4/p4.mp3",
+"intro": "You will hear an interview. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What does Steve say makes him different from other TV chefs?",
+"o": [
+"He shows the whole preparation, including mistakes.",
+"He uses unusual ingredients.",
+"He serves dishes that are half prepared."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How did Steve get his television job?",
+"o": [
+"He answered a newspaper advertisement.",
+"Producers noticed him while filming elsewhere.",
+"He sent a recording of himself cooking."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why did Steve start working in the kitchen as a boy?",
+"o": [
+"His mother needed help with the children.",
+"His father could not manage the cooking.",
+"It was more interesting than other ways of earning money."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How does Steve feel about his time at college?",
+"o": [
+"He wishes he had studied harder.",
+"He has no regrets about going.",
+"He found the practical work difficult."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Steve say about working with his team?",
+"o": [
+"He sometimes speaks sharply but also gives praise.",
+"He never criticises anyone.",
+"He prefers cooks without formal training."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Steve admire about Ron Bell?",
+"o": [
+"His modern approach to recipes.",
+"His success as a newspaper writer.",
+"His use of ingredients from the local area."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Steve say about his book?",
+"o": [
+"It is full of colour photographs.",
+"It is meant to be useful rather than glossy.",
+"It contains only recipes from his programme."
+],
+"c": 1
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE 4 Test 1 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 3, 4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fce4-t1/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a woman talking about a trip to a rock festival. Why did she go with only one of her sons?",
+"o": [
+"She wanted to see the bands herself.",
+"Her three sons argued too much when they all travelled together.",
+"Her other sons were not allowed to go."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a woman talking about her first week in a new job. What surprised her about it?",
+"o": [
+"It was more interesting than she had expected.",
+"It was less tiring than she had expected.",
+"It was more frightening than she had expected."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a review of a travel book on the radio. What criticism does the reviewer make?",
+"o": [
+"The humour does not suit the subject.",
+"The historical detail is rather thin.",
+"There are too few pictures to go with the text."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a journalist talking about an athlete, Helen Wright. What does she say about Helen's early running?",
+"o": [
+"Helen was the fastest in her school.",
+"Helen joined a club mainly to keep a friend company.",
+"Helen trained hard from a very young age."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You overhear two people talking about a cruise. What would the woman have liked to be different?",
+"o": [
+"More time to look around at each stop.",
+"Larger cabins on the ship.",
+"Different people on board."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a man talking about modern life. What point does he make about having several choices?",
+"o": [
+"They make people happier with their decision.",
+"They help people to improve their surroundings.",
+"They can leave people unsure what to do."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a writer talking on the radio. What encouraged her to write as a child?",
+"o": [
+"Her teacher entered her poems in competitions.",
+"Her teacher read her stories to the class.",
+"She won prizes for her songs."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear two teachers planning an event. What must they be careful about when choosing a date?",
+"o": [
+"It must not clash with the trip to Scotland.",
+"It must be a day when parents are free.",
+"It must not fall in the school's music week."
+],
+"c": 2
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fce4-t1/p3.mp3",
+"intro": "You will hear five people talking about the same subject. For each speaker, choose which statement (A–H) matches what they say. There are three extra statements you do not need to use.",
+"scripts": [],
+"bank": [
+"Gets pleasure from watching others develop their skills.",
+"Is still involved personally in every product despite having staff.",
+"Fears losing work to newcomers if standards drop.",
+"Learned the trade by working without pay.",
+"Believes comfort is as important as appearance.",
+"Prefers machines to working by hand.",
+"Refuses to take on commissions.",
+"Found it hard to sell work abroad."
+],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "Is still involved personally in every product despite having staff."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "Fears losing work to newcomers if standards drop."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "Learned the trade by working without pay."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "Believes comfort is as important as appearance."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "Gets pleasure from watching others develop their skills."
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fce4-t1/p4.mp3",
+"intro": "You will hear an interview. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Why was the weekly newspaper column welcome to Ivana's father?",
+"o": [
+"He wanted to leave his museum job.",
+"He needed extra money for his family.",
+"It was his first chance to be published."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How did Ivana's father feel about his work at the museum?",
+"o": [
+"It was too narrow to cover all his interests.",
+"It bored him and he wanted a change.",
+"It left him no energy to write."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why did the family take long bus rides at weekends?",
+"o": [
+"To avoid the busy streets of London.",
+"To visit relatives in the countryside.",
+"To find wildlife that was not near their home."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What did Ivana's father teach his children?",
+"o": [
+"To look only for rare animals and birds.",
+"To enjoy ordinary creatures by watching them closely.",
+"To photograph everything they saw."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Ivana say about choosing her career?",
+"o": [
+"Her brothers persuaded her to join them.",
+"She decided against it until she was an adult.",
+"She never felt under pressure to follow her father."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What did her father do when he could no longer go out?",
+"o": [
+"He wrote about questions sent in by readers.",
+"He stopped writing for the newspaper.",
+"He asked his children to write for him."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Ivana say about her father's attitude to his success?",
+"o": [
+"He was proud of how well known he was.",
+"He wrote for the pleasure of it, not for fame.",
+"He wished more people had read his articles."
+],
+"c": 1
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE 4 Test 2 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fce4-t2/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a student talking about a school magazine he publishes. How does he feel about sales of the next issue?",
+"o": [
+"Worried that they will fall.",
+"Relaxed about them.",
+"Sure that they will rise."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a British woman talking about naming children. What does she predict about names in the future?",
+"o": [
+"More names will be invented.",
+"Names from sport will be popular.",
+"There will be a return to traditional names."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a man being interviewed on the radio. What is his current book based on?",
+"o": [
+"His own time as a journalist.",
+"His wife's career in television.",
+"His work as a university lecturer."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear an athlete talking about some Olympic trials. Why does he think he failed to qualify?",
+"o": [
+"He was not fit enough.",
+"He was distracted by other matters.",
+"His rivals were too strong."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You overhear two friends talking about music. What made the man buy the new CD?",
+"o": [
+"A friend's recommendation.",
+"A review in a magazine.",
+"Hearing a track on the radio."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You overhear a man talking about competitions he and his wife enter. What went wrong with last year's entry?",
+"o": [
+"Someone else was given the prize.",
+"They answered a question wrongly.",
+"The prize was cancelled."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a woman talking about her job inspecting mountain paths. What does she find frustrating about some visitors?",
+"o": [
+"They ignore her reports.",
+"They get lost easily.",
+"They are not prepared for the conditions."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a mother talking on the radio about her daughter. How did her daughter react when she felt insecure?",
+"o": [
+"She encouraged her to stay positive.",
+"She asked her to stay at home.",
+"She felt guilty about leaving."
+],
+"c": 0
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fce4-t2/p2.mp3",
+"intro": "You will hear a person giving a talk. For each question, complete the sentence with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The polar bear project lasted about ____ months.",
+"accept": [
+"eight",
+"8"
+]
+},
+{
+"type": "gap",
+"label": "The temperature fell to minus ____ degrees centigrade for over a week.",
+"accept": [
+"50",
+"fifty"
+]
+},
+{
+"type": "gap",
+"label": "The team moved to ____ because it was warmer there.",
+"accept": [
+"norway"
+]
+},
+{
+"type": "gap",
+"label": "For standing around in the cold, the best material was ____.",
+"accept": [
+"wool"
+]
+},
+{
+"type": "gap",
+"label": "The team painted their camera equipment ____.",
+"accept": [
+"white"
+]
+},
+{
+"type": "gap",
+"label": "Polar bears can smell people from over a ____ away.",
+"accept": [
+"kilometre",
+"kilometer"
+]
+},
+{
+"type": "gap",
+"label": "A male polar bear can weigh more than ____ kilos.",
+"accept": [
+"600",
+"six hundred"
+]
+},
+{
+"type": "gap",
+"label": "In summer the bears were seen eating ____.",
+"accept": [
+"plants"
+]
+},
+{
+"type": "gap",
+"label": "Baby bears do not leave the den until ____.",
+"accept": [
+"april"
+]
+},
+{
+"type": "gap",
+"label": "The electric fence failed because its ____ was flat.",
+"accept": [
+"battery"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fce4-t2/p3.mp3",
+"intro": "You will hear five people talking about the same subject. For each speaker, choose which statement (A–H) matches what they say. There are three extra statements you do not need to use.",
+"scripts": [],
+"bank": [
+"Has agreed with nearby shops to sell different goods.",
+"Offers a service to customers who find it hard to come in.",
+"Doubts the shop will still be open in a few years.",
+"Believes customers value being known personally.",
+"Is encouraged by growing interest in where food comes from.",
+"Has recently shortened the opening hours.",
+"Is planning to sell the business.",
+"Blames internet shopping for lost trade."
+],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "Has agreed with nearby shops to sell different goods."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "Offers a service to customers who find it hard to come in."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "Doubts the shop will still be open in a few years."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "Believes customers value being known personally."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "Is encouraged by growing interest in where food comes from."
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fce4-t2/p4.mp3",
+"intro": "You will hear an interview. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Why did Donna choose dancing lessons as a child?",
+"o": [
+"Her mother thought she had a talent for it.",
+"Her friends were all going to the class.",
+"Her parents could not afford the activity she wanted first."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How did Donna feel about being put at the back of the class?",
+"o": [
+"She did not mind it at the time.",
+"She was upset and wanted to leave.",
+"She was determined to move forward quickly."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What did Donna do at her audition for the stage school?",
+"o": [
+"She sang a song from a musical.",
+"She performed a dance she had learnt.",
+"She acted a scene from a play."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why was the free place at the stage school useful?",
+"o": [
+"It allowed her to start a year early.",
+"It meant she could skip the audition.",
+"It gave her parents time to save money."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What problem did the school jacket cause Donna?",
+"o": [
+"Other children laughed at her on her way to school.",
+"It was too expensive for her parents.",
+"It was uncomfortable to wear in lessons."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What happened in the school singing competition?",
+"o": [
+"She chose a classical piece like the others.",
+"She won with an unexpected choice of song.",
+"She forgot the words because of nerves."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why could Donna not join the band's world tour?",
+"o": [
+"She was recording her next television series.",
+"She had already promised to appear in a play.",
+"She felt she was not experienced enough."
+],
+"c": 1
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE 4 Test 3 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fce4-t3/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a man talking about a teacher. How did Miss Gray help him?",
+"o": [
+"She gave him the confidence to try something new.",
+"She lent him plays to read.",
+"She taught him how to act."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You overhear a woman talking on the phone about her computer. What does she want the manager to do?",
+"o": [
+"Repair the computer more quickly.",
+"Lend her a temporary computer.",
+"Give her a refund."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear two friends talking about a new sports centre. What worry about joining is mentioned?",
+"o": [
+"The cost.",
+"The distance.",
+"The crowds."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You overhear a woman and a man at a railway station. Why does the woman reject the idea of changing trains?",
+"o": [
+"It would be more expensive.",
+"The journey would be too long.",
+"She was delayed at that station before."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear part of a lecture on the radio. What does the lecturer suggest about early stone tools?",
+"o": [
+"They were used mainly for hunting.",
+"They may have been musical instruments.",
+"They were made by singing communities."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You overhear a woman describing an event at her local college. What did some people complain about?",
+"o": [
+"The seating.",
+"The length of the event.",
+"Not being able to hear him between pieces."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You overhear a man and a woman who went to the same school. What does the man think she did on purpose?",
+"o": [
+"Argued with other pupils.",
+"Pretended to forget things.",
+"Left her work to the last minute."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a tennis player talking about how he hurt himself. What does he regret?",
+"o": [
+"Not cycling round to the main entrance.",
+"Not warming up properly.",
+"Arriving late for the game."
+],
+"c": 0
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fce4-t3/p2.mp3",
+"intro": "You will hear a person giving a talk. For each question, complete the sentence with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Jeremy stayed ____ kilometres north of the Arctic Circle.",
+"accept": [
+"250",
+"two hundred and fifty"
+]
+},
+{
+"type": "gap",
+"label": "The temperature there was minus ____ degrees Celsius.",
+"accept": [
+"30",
+"thirty"
+]
+},
+{
+"type": "gap",
+"label": "The command he shouted most often to the dogs was '____'.",
+"accept": [
+"stop"
+]
+},
+{
+"type": "gap",
+"label": "The huskies obey commands in Finnish and also in ____.",
+"accept": [
+"german"
+]
+},
+{
+"type": "gap",
+"label": "He kept his attention by watching the lead dog's white ____.",
+"accept": [
+"ears"
+]
+},
+{
+"type": "gap",
+"label": "A full load of ____ kilos needs eight or ten dogs.",
+"accept": [
+"200",
+"two hundred"
+]
+},
+{
+"type": "gap",
+"label": "In the forest he had to watch out for ____.",
+"accept": [
+"branches"
+]
+},
+{
+"type": "gap",
+"label": "The meal at the cabin was made with ____ meat.",
+"accept": [
+"reindeer"
+]
+},
+{
+"type": "gap",
+"label": "Jeremy's main complaint about the skidoo is that it is very ____.",
+"accept": [
+"noisy"
+]
+},
+{
+"type": "gap",
+"label": "On a skidoo the rider's hands stay warm thanks to heated ____.",
+"accept": [
+"handlebars"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fce4-t3/p3.mp3",
+"intro": "You will hear five people talking about the same subject. For each speaker, choose which statement (A–H) matches what they say. There are three extra statements you do not need to use.",
+"scripts": [],
+"bank": [
+"Plans purchases ahead for the changing seasons.",
+"Buys costly items confidently without trying them on.",
+"Has bought things that were never worn.",
+"Depends on another person's opinion when choosing.",
+"Gets rid of clothes quickly and earns money from them.",
+"Prefers to order clothes online.",
+"Only buys clothes made of natural fabrics.",
+"Feels guilty about money spent on clothes."
+],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "Buys costly items confidently without trying them on."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "Plans purchases ahead for the changing seasons."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "Has bought things that were never worn."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "Depends on another person's opinion when choosing."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "Gets rid of clothes quickly and earns money from them."
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fce4-t3/p4.mp3",
+"intro": "You will hear an interview. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What did Charles do while he was working on the TV series?",
+"o": [
+"He put some money aside for quieter times.",
+"He looked for parts in films.",
+"He turned down offers of more work."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why was Charles's first film made in Spain?",
+"o": [
+"The story was set there.",
+"The director's contacts made it easier.",
+"It was cheaper than filming in Mexico."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How did Charles influence the screenplay of the film?",
+"o": [
+"He rewrote his character's name.",
+"He added scenes with other actors.",
+"He had a lot of the dialogue removed."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Charles say about playing an angry character?",
+"o": [
+"He drew on his own personality.",
+"Expressing anger is part of his professional skill.",
+"He found it difficult to be convincing."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why did Charles ask John Dawson to act in his film?",
+"o": [
+"Because John asked him for a part.",
+"Because he felt nervous about directing.",
+"To help John become a better director."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Charles enjoy about directing?",
+"o": [
+"Seeing how good actors develop their roles.",
+"Giving detailed instructions to the cast.",
+"Working with actors he has known for years."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How does Charles keep his films on time and within budget?",
+"o": [
+"He shoots the scenes in a different order.",
+"Everyone prepares so that few takes are needed.",
+"He pays the actors less than other directors."
+],
+"c": 1
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE 4 Test 4 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3, 4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fce4-t4/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a young model talking about her first magazine feature. How did she and her sister come to be chosen?",
+"o": [
+"Their mother sent in a photo of the two of them.",
+"A hairstylist spotted them in the street.",
+"They answered an advertisement for twins."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a woman talking about her time at ballet school. What does she say about being asked to leave?",
+"o": [
+"Her parents had been against her going there.",
+"It eventually led her towards her present career.",
+"She was glad to escape the strict discipline."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a student talking about his part-time job. What does he say about it?",
+"o": [
+"It pays better than similar jobs.",
+"It involves a great deal of hard work.",
+"It offered him more than just money."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You overhear two people talking about a theme park ride. What does the man complain about?",
+"o": [
+"It did not last long enough.",
+"The ticket was too expensive.",
+"He felt unwell afterwards."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear an announcement at a station. What are passengers for the Hamilton train told?",
+"o": [
+"Their train has been cancelled.",
+"They must move to a different platform.",
+"Their train will leave from platform eight."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You overhear two people in a shop talking about some trousers. What is said about them?",
+"o": [
+"They are too thick for summer.",
+"They crease very easily.",
+"They are made of a cool material."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a teacher talking to her students. What change does she tell them about?",
+"o": [
+"Exam practice classes will be in a new building.",
+"Tutor group meetings will start earlier.",
+"Extra lessons have been cancelled."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a radio interview with a rock musician. What do the two speakers agree the town needs?",
+"o": [
+"Cheaper tickets for young people.",
+"A proper venue for rock concerts.",
+"More classical concerts."
+],
+"c": 1
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fce4-t4/p2.mp3",
+"intro": "You will hear a person giving a talk. For each question, complete the sentence with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Lucas began his career at the zoo working with ____.",
+"accept": [
+"snakes"
+]
+},
+{
+"type": "gap",
+"label": "His ambition was to work with ____ such as lions and tigers.",
+"accept": [
+"big cats",
+"big cat"
+]
+},
+{
+"type": "gap",
+"label": "He starts work at ____.",
+"accept": [
+"7.45",
+"7:45",
+"745",
+"quarter to eight",
+"a quarter to eight",
+"seven forty-five",
+"seven forty five"
+]
+},
+{
+"type": "gap",
+"label": "Most monkeys give birth during the ____.",
+"accept": [
+"night"
+]
+},
+{
+"type": "gap",
+"label": "The monkeys' favourite food is ____.",
+"accept": [
+"grapes"
+]
+},
+{
+"type": "gap",
+"label": "When the gorilla pushed him over, he broke his ____.",
+"accept": [
+"arm"
+]
+},
+{
+"type": "gap",
+"label": "The gorilla ran back to her cage when her ____ cried.",
+"accept": [
+"baby"
+]
+},
+{
+"type": "gap",
+"label": "Lucas particularly enjoys talking to the ____ who visit during the week.",
+"accept": [
+"students"
+]
+},
+{
+"type": "gap",
+"label": "He took the baby monkeys home on a ____.",
+"accept": [
+"bus"
+]
+},
+{
+"type": "gap",
+"label": "The most useful course for Lucas turned out to be in ____.",
+"accept": [
+"biology"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fce4-t4/p3.mp3",
+"intro": "You will hear five people talking about the same subject. For each speaker, choose which statement (A–H) matches what they say. There are three extra statements you do not need to use.",
+"scripts": [],
+"bank": [
+"Likes photographing family life more than work assignments.",
+"Sometimes regrets not having a camera on holiday.",
+"Has had amateur pictures published.",
+"Is rarely without a camera.",
+"Enjoys capturing strong emotion on people's faces.",
+"Has won a prize for a photograph.",
+"Trained as a painter before taking up photography.",
+"Dislikes travelling for work."
+],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "Likes photographing family life more than work assignments."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "Sometimes regrets not having a camera on holiday."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "Has had amateur pictures published."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "Is rarely without a camera."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "Enjoys capturing strong emotion on people's faces."
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fce4-t4/p4.mp3",
+"intro": "You will hear an interview. For each question, choose the correct answer, A, B or C.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What does Annabelle say about her course?",
+"o": [
+"Students specialise in sculpture.",
+"Students work with a wide range of media.",
+"It is easier than she expected."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why does Roberto value the talks given by visiting speakers?",
+"o": [
+"They explain the business side of being an artist.",
+"They give him ideas for his own work.",
+"They help him find a job straight away."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why did Annabelle want to study at the school?",
+"o": [
+"The teaching costs nothing.",
+"It is the most famous art school in London.",
+"She could experiment freely there."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What is Roberto's current project about?",
+"o": [
+"How sculptors make use of new materials.",
+"Everyday designed objects can look like art.",
+"How art galleries sell their work."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How does Roberto begin his research?",
+"o": [
+"He photographs household objects.",
+"He draws shop windows by hand.",
+"He visits sculpture exhibitions."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Annabelle say about the school's equipment?",
+"o": [
+"It is only used by the tutors.",
+"Students must pay to repair any damage.",
+"Students are encouraged to use it in new ways."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What is said about making a living as an artist?",
+"o": [
+"Teaching jobs are easy to get.",
+"Selling art to galleries is even harder than finding design work.",
+"Design jobs are plentiful."
+],
+"c": 1
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE t12 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1,2,3,4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fcey-t12/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a young woman talking about her apprenticeship as a cook. How does she feel about the experience?",
+"o": [
+"It is stopping her from finishing her studies.",
+"It is helping her get closer to a long-term goal.",
+"It is too tiring to be worth continuing."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear two students talking about bus journeys. Why does one of them avoid listening to music on the bus?",
+"o": [
+"It would stop her from doing any work.",
+"She is afraid someone might steal her bag.",
+"She might not notice where she is."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a cycle coach talking to a group. What does he tell them to do?",
+"o": [
+"Keep some energy back for the climb.",
+"Leave the main road at the first exit.",
+"Overtake the leader once they cross the bridge."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a writer talking about autobiographies. What is his attitude to writing one himself?",
+"o": [
+"He has already used up his own life story in his novels.",
+"He is put off by the weaknesses he finds in other people's.",
+"He fears he would be accused of exaggerating."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a journalist talking about how she started in her career. How did she get into journalism?",
+"o": [
+"She replied to a job advertisement on a university website.",
+"She was a banker before she studied biology.",
+"She was invited to write about her own work for a student publication."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear two people discussing a new clothes shop. What is one speaker's view of shop assistants who offer help as soon as a customer approaches?",
+"o": [
+"It annoys her.",
+"It is a useful service.",
+"It encourages people to buy more."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a woman telling a friend about a business plan. What will her own role be?",
+"o": [
+"Instructing children how to climb safely.",
+"Taking photographs that she can sell.",
+"Finding places where the equipment can be used."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear part of a radio broadcast about a fossil discovery. What is the presenter saying about the bird?",
+"o": [
+"It was far larger than any penguin alive today.",
+"It lived in Antarctica longer ago than other penguins.",
+"It hunted for fish in deeper water than any bird."
+],
+"c": 0
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fcey-t12/p2.mp3",
+"intro": "You will hear a woman called Paula Canning talking about her work as a film advisor. For each question, complete the sentence with a word or short phrase.",
+"gapTitle": "Paula Canning's work",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "When she began, her job title was ____.",
+"accept": [
+"location researcher"
+]
+},
+{
+"type": "gap",
+"label": "She was attracted to the job by the ____ it offered.",
+"accept": [
+"flexible working hours",
+"flexible hours",
+"flexible working"
+]
+},
+{
+"type": "gap",
+"label": "A castle in the region has often been used in ____.",
+"accept": [
+"horror films",
+"horror movies"
+]
+},
+{
+"type": "gap",
+"label": "She worked a lot with a company that makes ____.",
+"accept": [
+"advertisements",
+"adverts",
+"ads",
+"advertising"
+]
+},
+{
+"type": "gap",
+"label": "She found a beach that appeared in an ad for ____.",
+"accept": [
+"ice cream",
+"ice-cream"
+]
+},
+{
+"type": "gap",
+"label": "She had to persuade ____ to let filmmakers use their land.",
+"accept": [
+"farmers"
+]
+},
+{
+"type": "gap",
+"label": "Her database of places included photos and a ____ for each one.",
+"accept": [
+"video clip",
+"video clips",
+"video"
+]
+},
+{
+"type": "gap",
+"label": "She finds the ____ used to produce the leaflets cause problems.",
+"accept": [
+"printers"
+]
+},
+{
+"type": "gap",
+"label": "The guidelines for tour companies stress that residents' ____ must be respected.",
+"accept": [
+"privacy"
+]
+},
+{
+"type": "gap",
+"label": "The Work Placement programme is a form of ____ work for local teenagers.",
+"accept": [
+"voluntary",
+"voluntary work"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fcey-t12/p3.mp3",
+"intro": "You will hear five short extracts in which people talk about why they did not go straight to university. For each question, choose which statement (A to H) matches what each speaker says. Use each letter only once. There are three extra letters which you do not need to use.",
+"bank": [
+"Took time to work out which career to follow",
+"Wanted a different type of work after some years",
+"Needed a course in a very specialised field",
+"Moved abroad with their family",
+"Had to look after a sick relative",
+"Could not afford the university fees",
+"Was refused a place on the course applied for",
+"Was waiting for exam results to be reviewed"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "Took time to work out which career to follow"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "Wanted a different type of work after some years"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "Needed a course in a very specialised field"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "Moved abroad with their family"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "Had to look after a sick relative"
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fcey-t12/p4.mp3",
+"intro": "You will hear an interview with Susan Fletcher, who works at a research station in Antarctica. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What does Susan say about leaving her family before a trip?",
+"o": [
+"It makes her feel guilty about going.",
+"It gets easier each time she goes.",
+"It helps her value them more."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What worries Susan when she prepares for a trip?",
+"o": [
+"The shortage of time to get ready.",
+"The risk of forgetting something essential.",
+"Not knowing where she will be working."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Susan admire about her colleagues?",
+"o": [
+"They put the work before their own comfort.",
+"They are skilled at organising entertainment.",
+"They are experienced at living in difficult places."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why does Susan think special events are important?",
+"o": [
+"They let people show off their talents.",
+"They stop the days from running into each other.",
+"They remind people of home."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Susan find hardest about life on the station?",
+"o": [
+"Spending so much time with other people.",
+"Sleeping through the long summer days.",
+"Putting up with the limited range of food."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why does Susan keep returning to Antarctica?",
+"o": [
+"She loves watching the wildlife there.",
+"She has become used to being far from anywhere.",
+"She feels fortunate to work in such an unusual place."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Susan advise people who want to work there to do first?",
+"o": [
+"Study engineering or biology.",
+"Look at the website for the qualifications needed.",
+"Apply for a job as a pilot or doctor."
+],
+"c": 1
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE t19 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1,2,3,4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fcey-t19/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear two TV critics talking about presenters of science programmes. What do they agree about?",
+"o": [
+"Presenters explain difficult ideas well to ordinary viewers.",
+"Celebrity presenters make programmes less scientific.",
+"Programmes are too abstract for most viewers."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a psychologist talking about friendship. What does she say about her closest friends?",
+"o": [
+"They share the same hobbies as she does.",
+"They are mostly people she works with.",
+"She has known them since her early years."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear two friends talking about holidays. What does Samantha like about small islands?",
+"o": [
+"They are very close to a big city.",
+"Each one has its own way of life.",
+"They are quieter than most places."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a man talking to his wife about an online review of a phone. What does he think of the review?",
+"o": [
+"It is probably not a serious comment.",
+"It shows the new phone is worse than the old one.",
+"It was written by an unhappy customer."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a woman leaving a voicemail message. Why might she be late for her appointment?",
+"o": [
+"The road is full of traffic.",
+"She left work later than planned.",
+"She stopped to talk to somebody she knew."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear two students discussing a project on public parks. What does the woman decide to do?",
+"o": [
+"Concentrate only on her favourite park.",
+"Compare her local park with at least one other.",
+"Study how parks are used by the community."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a woman talking about growing up with a large extended family. How does she feel about it now?",
+"o": [
+"She wishes her cousins lived closer to her.",
+"She remembers many serious arguments.",
+"She is glad family photographs are rare."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a university student talking about his course. What is he looking forward to next year?",
+"o": [
+"Switching to a different subject.",
+"Moving to a new university.",
+"A work placement that could help his career."
+],
+"c": 2
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fcey-t19/p2.mp3",
+"intro": "You will hear a man called Bradley talking about a food festival in his home town. For each question, complete the sentence with a word or short phrase.",
+"gapTitle": "The Great Cheese Festival",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The festival celebrates ____ Month.",
+"accept": [
+"dairy"
+]
+},
+{
+"type": "gap",
+"label": "The first festival took place in ____.",
+"accept": [
+"1988"
+]
+},
+{
+"type": "gap",
+"label": "The festival was inspired by a cheese museum in ____.",
+"accept": [
+"new york"
+]
+},
+{
+"type": "gap",
+"label": "The three days begin with a ____ written specially for the festival.",
+"accept": [
+"song"
+]
+},
+{
+"type": "gap",
+"label": "The speaker never misses the exhibition of ____.",
+"accept": [
+"sculptures",
+"sculpture",
+"cheese sculptures"
+]
+},
+{
+"type": "gap",
+"label": "Only ____ may enter the painting competition.",
+"accept": [
+"teenagers",
+"teens",
+"teenage",
+"teenagers only"
+]
+},
+{
+"type": "gap",
+"label": "The fancy dress competition is only open to ____.",
+"accept": [
+"locals",
+"local people",
+"local residents"
+]
+},
+{
+"type": "gap",
+"label": "The authorities have had to limit the number of ____.",
+"accept": [
+"visitors",
+"people",
+"tourists"
+]
+},
+{
+"type": "gap",
+"label": "The farm tours finish at ____.",
+"accept": [
+"midday",
+"noon",
+"12",
+"12 o'clock",
+"12pm",
+"12 noon"
+]
+},
+{
+"type": "gap",
+"label": "The festival profits will help pay for a new ____.",
+"accept": [
+"skateboard park",
+"skatepark",
+"skate park"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fcey-t19/p3.mp3",
+"intro": "You will hear five short extracts in which people talk about buying clothes. For each question, choose which statement (A to H) matches what each speaker says. Use each letter only once. There are three extra letters which you do not need to use.",
+"bank": [
+"Clothes should suit different occasions",
+"Clothes should feel comfortable",
+"Clothes should last a long time",
+"Clothes should be good for the environment",
+"Waiting until prices come down",
+"Following the latest fashions",
+"Showing others what type of person you are",
+"Taking friends' advice"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "Clothes should suit different occasions"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "Clothes should feel comfortable"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "Clothes should last a long time"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "Clothes should be good for the environment"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "Waiting until prices come down"
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fcey-t19/p4.mp3",
+"intro": "You will hear an interview with Martin Hart, a professor, and Anna Peterson, a house builder, who talk about houses built from straw. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What was the aim of Martin's research project?",
+"o": [
+"To find new uses for straw as animal bedding.",
+"To prove that eco-friendly houses can be built.",
+"To see whether straw could be used for large-scale housing."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why did the straw houses have outer walls of brick?",
+"o": [
+"To help them keep the heat in.",
+"To match the other houses nearby.",
+"To make the walls strong enough."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why did some people object to the straw houses?",
+"o": [
+"They believed the walls were dangerous.",
+"They doubted the floors could take the weight.",
+"They thought the houses might catch fire."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What made Anna start building with straw?",
+"o": [
+"Customers had complained about wood and stone.",
+"She wanted to make houses cheaper to build.",
+"She felt buyers would find the idea attractive."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Anna say about her role on site now?",
+"o": [
+"She likes to do some of the practical work herself.",
+"She prefers to leave the roofs to specialists.",
+"She spends most of her time meeting supervisors."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What is Anna's main concern when building houses now?",
+"o": [
+"Using materials that can be renewed.",
+"Having designs that are simple to build.",
+"Creating houses with unusual features."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Anna plan to do next?",
+"o": [
+"Pass on her skills to other builders.",
+"Win more prizes for her work.",
+"Find a way to cut costs further."
+],
+"c": 0
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE t20 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1,2,3,4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fcey-t20/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a shop assistant talking about buying bicycles. What advice does he give customers?",
+"o": [
+"Choose the most expensive model available.",
+"Decide what you will use the bike for first.",
+"Buy a racing bike with plenty of gears."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear two friends talking about skiing holidays. How did the speaker save money on her last trip?",
+"o": [
+"By booking a last-minute deal.",
+"By travelling outside the school holidays.",
+"By arranging the hotel without an agent."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a woman leaving a message about a job interview. How does she feel about it?",
+"o": [
+"She regrets not preparing more thoroughly.",
+"She is sure she will be offered the job.",
+"She thinks it went well despite her nerves."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear two people on holiday talking about a camel ride. What did one of them find unexpectedly impressive?",
+"o": [
+"The scenery.",
+"The friendliness of the animals.",
+"The skill of the guide."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear an IT expert talking about passwords. What problem does he mention with changing passwords regularly?",
+"o": [
+"Users often forget the new one they choose.",
+"People tend to write them down on their phones.",
+"People make such small changes that they are easy to guess."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a guide on a tourist bus talking about a tall building. Where does she recommend going for a view of the whole city?",
+"o": [
+"The clock tower.",
+"The city hall.",
+"The river bank."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a radio announcer giving a traffic report. What is causing the delays on the motorway?",
+"o": [
+"Clearing up after a lorry accident.",
+"Icy road conditions.",
+"Roadworks between two junctions."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a diving instructor talking to a student. What does he advise her to do?",
+"o": [
+"Dive more slowly so as not to scare the fish.",
+"Look regularly at the gauge showing her air supply.",
+"Practise entering the water backwards."
+],
+"c": 1
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fcey-t20/p2.mp3",
+"intro": "You will hear an art student called Ella giving a talk about the history of mirrors. For each question, complete the sentence with a word or short phrase.",
+"gapTitle": "The history of mirrors",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The earliest man-made mirrors were made from ____.",
+"accept": [
+"stone"
+]
+},
+{
+"type": "gap",
+"label": "Some ancient mirrors were made from black ____ glass.",
+"accept": [
+"volcanic"
+]
+},
+{
+"type": "gap",
+"label": "Ella wore ____ to handle the ancient Egyptian mirrors.",
+"accept": [
+"gloves"
+]
+},
+{
+"type": "gap",
+"label": "The Egyptian mirrors were made of polished ____.",
+"accept": [
+"copper"
+]
+},
+{
+"type": "gap",
+"label": "The symbols on the mirrors from other countries represented ____.",
+"accept": [
+"beauty"
+]
+},
+{
+"type": "gap",
+"label": "Roman mirrors were small mainly because of their ____.",
+"accept": [
+"weight"
+]
+},
+{
+"type": "gap",
+"label": "A mirror in a lighthouse was used to signal to ships approaching the ____.",
+"accept": [
+"harbour",
+"harbor",
+"port"
+]
+},
+{
+"type": "gap",
+"label": "Medieval glass mirrors were not flat but ____.",
+"accept": [
+"curved"
+]
+},
+{
+"type": "gap",
+"label": "The new Florentine mirrors led artists to create ____.",
+"accept": [
+"self-portraits",
+"self-portrait",
+"self portraits",
+"self portrait"
+]
+},
+{
+"type": "gap",
+"label": "In 1835 a German chemist coated glass with a thin layer of ____.",
+"accept": [
+"silver"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fcey-t20/p3.mp3",
+"intro": "You will hear five short extracts in which people talk about restaurants they recommend. For each question, choose which statement (A to H) matches what each speaker says. Use each letter only once. There are three extra letters which you do not need to use.",
+"bank": [
+"A lively atmosphere that suited a celebration",
+"Low prices and very large portions",
+"A pleasant place to sit outdoors",
+"Beautifully presented food",
+"Very attentive waiting staff",
+"Unusual decoration",
+"Fast service",
+"Easy to get a table"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "A lively atmosphere that suited a celebration"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "Low prices and very large portions"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "A pleasant place to sit outdoors"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "Beautifully presented food"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "Very attentive waiting staff"
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fcey-t20/p4.mp3",
+"intro": "You will hear an interview with a writer called Eddy Colton, who talks about growing oranges in Spain. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Why did Eddy buy the farm?",
+"o": [
+"He needed somewhere to research a novel.",
+"He was attracted to it as soon as he saw it.",
+"It was a very cheap property."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What problem did Eddy find when he first looked around the farm?",
+"o": [
+"Many of the trees were sick.",
+"The heating was not working.",
+"There was not enough food in the house."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How did the local farmers treat Eddy?",
+"o": [
+"They made a fuss of him because he was famous.",
+"They laughed at the way he worked.",
+"They gave him useful advice."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How does the farm affect Eddy's writing?",
+"o": [
+"It leaves him with no time to write.",
+"It helps him think of ideas.",
+"It gives him the setting for his novels."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Eddy say about his orange business?",
+"o": [
+"He is unable to find enough workers.",
+"Demand for his fruit may decline.",
+"He has difficulty selling all the oranges."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What is Eddy's feeling about tourism in the valley?",
+"o": [
+"He would prefer it not to be developed.",
+"He thinks hotels would help local people.",
+"He wants more visitors to see the Roman remains."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What is Eddy's plan for the future?",
+"o": [
+"To sell part of the land to a neighbour.",
+"To give up writing to run the farm.",
+"To share the running of the farm with his family."
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE t21 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1,2,3,4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fcey-t21/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear two friends talking about a motor racing event. What does one of them say about the day?",
+"o": [
+"The crowd's mood made up for a disappointing race.",
+"The new track made the race very exciting.",
+"It was easy to find the way out afterwards."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a football coach talking about a match his team lost. What does he think caused the defeat?",
+"o": [
+"The players were not fit enough.",
+"The players had not trained enough.",
+"The players were distracted by the pressure to win."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear two people talking about a new computer game. What does the speaker like about it?",
+"o": [
+"It is cheap for such a good game.",
+"It is a challenge to learn how to play.",
+"It is easy to master quickly."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a woman talking about judging a poetry competition. What impressed the judges most?",
+"o": [
+"Many finalists wrote regularly and kept improving.",
+"The poems about nature and rivers.",
+"The humorous way the poets wrote."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a young man talking about travelling alone. How did his parents react when he told them his plan?",
+"o": [
+"They forbade him to go.",
+"They helped him get ready.",
+"They were worried about him."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a nurse talking about her job. Which quality does she say is essential?",
+"o": [
+"Being willing to work at weekends.",
+"Being able to work with young children.",
+"Staying friendly while remaining calm."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a man talking about a long journey he made. What does he enjoy about travelling by motorbike?",
+"o": [
+"Feeling part of the surroundings.",
+"Arriving more quickly than by plane.",
+"Chatting with passengers on the way."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a young person talking about a radio programme. What surprised him about it?",
+"o": [
+"The presenter knew a lot about the subject.",
+"His mother listened to it every morning.",
+"He found a subject interesting that he would not normally care about."
+],
+"c": 2
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fcey-t21/p2.mp3",
+"intro": "You will hear a singer called Tim Tanner talking about his life and career with his twin brother Sam. For each question, complete the sentence with a word or short phrase.",
+"gapTitle": "Tim and Sam Tanner",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The twins were voted Best Act on a talent show called ____.",
+"accept": [
+"fun time"
+]
+},
+{
+"type": "gap",
+"label": "After the show they had ____ hit singles in a row.",
+"accept": [
+"four",
+"4"
+]
+},
+{
+"type": "gap",
+"label": "The twins were born in ____, earlier than expected.",
+"accept": [
+"october"
+]
+},
+{
+"type": "gap",
+"label": "Their older brother Ken has his birthday in ____.",
+"accept": [
+"december"
+]
+},
+{
+"type": "gap",
+"label": "Sam's voice is slightly ____ than Tim's.",
+"accept": [
+"deeper",
+"lower"
+]
+},
+{
+"type": "gap",
+"label": "Tim is not as ____ as Sam.",
+"accept": [
+"confident"
+]
+},
+{
+"type": "gap",
+"label": "At school Sam preferred ____ to basketball.",
+"accept": [
+"volleyball"
+]
+},
+{
+"type": "gap",
+"label": "The twins' arguments are usually about ____.",
+"accept": [
+"shoes"
+]
+},
+{
+"type": "gap",
+"label": "A major part of their stage image is their choice of ____.",
+"accept": [
+"glasses",
+"spectacles",
+"styles of glasses"
+]
+},
+{
+"type": "gap",
+"label": "Their new album is called ____.",
+"accept": [
+"time dance"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fcey-t21/p3.mp3",
+"intro": "You will hear five short extracts in which people talk about how they came to play classical music. For each question, choose which statement (A to H) matches what each speaker says. Use each letter only once. There are three extra letters which you do not need to use.",
+"bank": [
+"Realised that starting young is essential",
+"Was curious about a piece praised by a rock star",
+"Was introduced to great composers by an uncle",
+"Noticed classical music in films and advertisements",
+"Was won over by a teacher's persistence",
+"Parents insisted on it",
+"Was taught an instrument by a parent",
+"Friends were learning too"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "Realised that starting young is essential"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "Was curious about a piece praised by a rock star"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "Was introduced to great composers by an uncle"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "Noticed classical music in films and advertisements"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "Was won over by a teacher's persistence"
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fcey-t21/p4.mp3",
+"intro": "You will hear an interview with a long-distance runner called Anne Brown. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How does Anne feel about her result at the world championships?",
+"o": [
+"Pleased, considering how little she had prepared.",
+"Upset that she did not come first.",
+"Surprised by the size of the crowd."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why does Anne like to train in the countryside?",
+"o": [
+"It is safer than running on roads.",
+"The hills make her stronger.",
+"It stops the training being boring."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Anne say about rest days?",
+"o": [
+"She would train more if her body allowed it.",
+"Every athlete needs one a week.",
+"She does not feel she needs them at present."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why does Anne avoid making friends with other athletes?",
+"o": [
+"She is too shy.",
+"It might affect her running.",
+"She prefers her housemates."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Anne do in her free time now?",
+"o": [
+"She goes skiing when she can.",
+"She flies a kite on the hills.",
+"She reads for hours."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How does Anne feel about being asked for autographs?",
+"o": [
+"It is a thrill to be recognised.",
+"It is flattering at first and then annoying.",
+"It is something she never experiences."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What is Anne's attitude to the next Olympics?",
+"o": [
+"She is confident she will win a gold medal.",
+"She is worried about getting injured.",
+"She is aiming to be at her best a few years later."
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE t22 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1,2,3,4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fcey-t22/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear two friends talking about a science book. Why is the speaker reading it?",
+"o": [
+"He is very interested in science.",
+"His brother is going to ask him about it.",
+"He thinks the cartoons are funny."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a man talking about family holidays when he was a teenager. How does he feel about his behaviour then?",
+"o": [
+"Embarrassed that he refused to join in with the others.",
+"Pleased that he had time for his favourite music.",
+"Sorry that he missed the car journeys."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear two friends talking about a hotel. What did they like about it?",
+"o": [
+"The helpfulness of the staff.",
+"The comfort of the beds.",
+"The ease of reaching the centre."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a woman talking about a new film. What did she dislike about it?",
+"o": [
+"The ending was too sad.",
+"The story did not seem believable.",
+"The action was too noisy to follow."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a woman talking about her job in a supermarket. Which task does she prefer?",
+"o": [
+"Working on the stand selling fish or cakes.",
+"Serving customers at the till.",
+"Filling the shelves."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a man talking about a concert. What disappointed him?",
+"o": [
+"The strange clothes the band wore.",
+"The quality of their best-known song.",
+"The shortness of the performance."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a sports instructor giving advice on swimming. What advice does she give about floating?",
+"o": [
+"Try to lift your head as you fill your lungs.",
+"Avoid lifting your head and press your chest down.",
+"Keep your legs low in the water."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a woman talking about her time at university. What does she say about it?",
+"o": [
+"It went by more quickly than she had expected.",
+"She missed a lot of lectures.",
+"She had plenty of money to go out."
+],
+"c": 0
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fcey-t22/p2.mp3",
+"intro": "You will hear a woman called Grace Connolly talking about her travel experiences in New Zealand. For each question, complete the sentence with a word or short phrase.",
+"gapTitle": "Grace's trip to New Zealand",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Grace spent her trip on the ____ of New Zealand.",
+"accept": [
+"south island",
+"south"
+]
+},
+{
+"type": "gap",
+"label": "Her bus trip began in ____.",
+"accept": [
+"nelson"
+]
+},
+{
+"type": "gap",
+"label": "At Kaikoura she most wanted to see ____.",
+"accept": [
+"dolphins",
+"dolphin"
+]
+},
+{
+"type": "gap",
+"label": "She still keeps in touch with a girl from ____.",
+"accept": [
+"japan"
+]
+},
+{
+"type": "gap",
+"label": "She took her own ____ with her to New Zealand.",
+"accept": [
+"bike",
+"bicycle"
+]
+},
+{
+"type": "gap",
+"label": "The highlight of her trip was ____.",
+"accept": [
+"jet boating",
+"jet-boating",
+"jet boat",
+"jetboating"
+]
+},
+{
+"type": "gap",
+"label": "She recommends a company called ____.",
+"accept": [
+"adventure tours"
+]
+},
+{
+"type": "gap",
+"label": "Grace hurt her ____ while horse riding.",
+"accept": [
+"shoulder"
+]
+},
+{
+"type": "gap",
+"label": "At the market in Nelson she bought a ____ mask.",
+"accept": [
+"wooden"
+]
+},
+{
+"type": "gap",
+"label": "She plans to return to go ____ with friends.",
+"accept": [
+"walking",
+"hiking"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fcey-t22/p3.mp3",
+"intro": "You will hear five short extracts in which people talk about a radio station they listen to. For each question, choose which statement (A to H) matches what each speaker says. Use each letter only once. There are three extra letters which you do not need to use.",
+"bank": [
+"It has too many advertisements",
+"It should include more news from other countries",
+"It has a detailed programme about the arts",
+"One presenter is entertaining even when you disagree with him",
+"It trains young people for work in radio",
+"It broadcasts the news every hour",
+"It is mostly listened to by young people",
+"Its presenters are famous sports stars"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "It has too many advertisements"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "It should include more news from other countries"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "It has a detailed programme about the arts"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "One presenter is entertaining even when you disagree with him"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "It trains young people for work in radio"
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fcey-t22/p4.mp3",
+"intro": "You will hear an interview with a photographer called Penny Greer. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What does Penny say was the most valuable thing she learnt at college?",
+"o": [
+"How to sell photographs to customers.",
+"How to treat photography as an art.",
+"How to make use of light."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why did Penny decide to specialise in weddings?",
+"o": [
+"She was offered work by traditional photographers.",
+"She saw a link between the emotion of the day and her way of working.",
+"She wanted to earn money from commercial work."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What has been the most effective way of finding customers?",
+"o": [
+"Sending postcards to newly engaged couples.",
+"Advertising in wedding magazines.",
+"Her website."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How does Penny spend most of her working time?",
+"o": [
+"Meeting clients.",
+"Photographing weddings.",
+"Working on pictures at her computer."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What helps Penny to get the pictures she wants?",
+"o": [
+"Guests who feel relaxed.",
+"Couples who ask for something different.",
+"Guests who wear unusual clothes."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Penny like best about her work?",
+"o": [
+"Doing every stage of the work herself.",
+"Taking decisions for herself.",
+"Working with an assistant."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What advice does Penny give younger photographers?",
+"o": [
+"Try something different at every job.",
+"Keep every photograph you take.",
+"Take as many pictures as possible to build confidence."
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE t23 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1,2,3,4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fcey-t23/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You overhear a woman recommending a campsite. Why does she recommend the Morvitch site?",
+"o": [
+"It has the best shower facilities.",
+"It is a good base for walks with fine views.",
+"It is close to the castle and museum."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You overhear two friends talking about global warming. What is the second speaker's attitude?",
+"o": [
+"He sees no reason for serious concern.",
+"He is alarmed by the changes in the weather.",
+"He thinks action is needed straight away."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You overhear a young couple talking about moving to the country. What does the man say?",
+"o": [
+"Her work could carry on as before.",
+"She would find it hard to get to the gym.",
+"Friends would visit them all the time."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear part of a radio programme about food. What will the chef do in the programme?",
+"o": [
+"Describe his latest cookery books.",
+"Present a series of TV cookery lessons.",
+"Answer listeners' questions about cooking."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear the beginning of a programme about college canteens. What does the survey show?",
+"o": [
+"Students are happy with the new food.",
+"The choice has improved but there are still problems.",
+"Teachers no longer complain about the snacks."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a young woman talking about her first job. Why did she choose the bookshop job?",
+"o": [
+"Her friends worked there too.",
+"It paid more than the family shop.",
+"It would let her work on her weak points."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a radio discussion about a fashion designer. What does the speaker think of his dresses?",
+"o": [
+"They are made from rare materials.",
+"They are impractical but that is what makes them special.",
+"They have been fairly judged by the press."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You overhear a discussion about snow-kiting. What is the advantage over downhill skiing?",
+"o": [
+"You do not need lessons or special slopes to start.",
+"It is safer for beginners.",
+"It needs less equipment."
+],
+"c": 0
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fcey-t23/p2.mp3",
+"intro": "You will hear a radio programme about a boy called Michael who sailed across the Atlantic. For each question, complete the sentence with a word or short phrase.",
+"gapTitle": "Michael's Atlantic crossing",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Michael was only ____ years old when he made the crossing.",
+"accept": [
+"14",
+"fourteen"
+]
+},
+{
+"type": "gap",
+"label": "Michael began his voyage in ____.",
+"accept": [
+"gibraltar"
+]
+},
+{
+"type": "gap",
+"label": "The voyage lasted ____ days.",
+"accept": [
+"47",
+"forty-seven",
+"forty seven"
+]
+},
+{
+"type": "gap",
+"label": "Michael gave the name ____ to the yacht.",
+"accept": [
+"chiki monkey"
+]
+},
+{
+"type": "gap",
+"label": "At night they took turns to watch for large ____.",
+"accept": [
+"ships",
+"ship",
+"boats"
+]
+},
+{
+"type": "gap",
+"label": "All the food on board was in ____.",
+"accept": [
+"tins",
+"cans"
+]
+},
+{
+"type": "gap",
+"label": "What Michael longed for most was hot ____.",
+"accept": [
+"toast"
+]
+},
+{
+"type": "gap",
+"label": "Michael spoke to his father by ____.",
+"accept": [
+"radio"
+]
+},
+{
+"type": "gap",
+"label": "He could not play his guitar because the boat kept ____.",
+"accept": [
+"rolling",
+"rolling about",
+"rolling around"
+]
+},
+{
+"type": "gap",
+"label": "The event that frightened him most was when a ____ landed in the boat.",
+"accept": [
+"flying fish"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fcey-t23/p3.mp3",
+"intro": "You will hear five short extracts in which people talk about cookery courses they took. For each question, choose which statement (A to H) matches what each speaker says. Use each letter only once. There are three extra letters which you do not need to use.",
+"bank": [
+"Beginners were given extra help",
+"Participants went out to buy ingredients",
+"It made her want to entertain at home again",
+"She hopes to try more difficult dishes next time",
+"She preferred cooking to watching demonstrations",
+"Participants had to bring their own ingredients",
+"It took place in a cookery school abroad",
+"The teacher was a famous television chef"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "Beginners were given extra help"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "Participants went out to buy ingredients"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "It made her want to entertain at home again"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "She hopes to try more difficult dishes next time"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "She preferred cooking to watching demonstrations"
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fcey-t23/p4.mp3",
+"intro": "You will hear an interview with a young fashion designer called Pamela Green. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How did Pamela find out whether fashion was the right career for her?",
+"o": [
+"She read about the industry in magazines.",
+"She asked a shop owner about her working day.",
+"She visited several fashion colleges."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Pamela say about a degree in fashion?",
+"o": [
+"It helps you to get your first job.",
+"It guarantees higher pay than other designers.",
+"It is the only route into the industry."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What advice does Pamela give about starting your own fashion line?",
+"o": [
+"Aim to do it as soon as you finish college.",
+"Rely mainly on your talent for drawing.",
+"Learn first how the business side works."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Where does Pamela get ideas for her designs?",
+"o": [
+"From famous designers' collections.",
+"From the people around her.",
+"From trips to other countries."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Pamela still find difficult in her work?",
+"o": [
+"Dealing with criticism.",
+"Going to fashion shows.",
+"The amount of work to finish a collection early."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why does Pamela say designers should follow fashion media?",
+"o": [
+"To be able to spot old styles coming back.",
+"To guess what will be fashionable in two years.",
+"To copy trends in their own designs."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Pamela say about careers in fashion?",
+"o": [
+"Only the top few designers are happy.",
+"Designing outfits is the best way to start.",
+"There are other kinds of work in the industry to consider."
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE t24 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1,2,3,4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fcey-t24/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a man talking about a ceramics course he attended. What disappointed him?",
+"o": [
+"The price of the course.",
+"The lack of advice from the teacher.",
+"The skill of the other students."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear some information on the radio about a future guest. What will the guest talk about?",
+"o": [
+"Choosing the right equipment for mountain climbing.",
+"Setting a record for climbing the highest mountain.",
+"Showing how to use climbing gear safely."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear part of a talk about getting fit. What advice does the speaker give?",
+"o": [
+"Weigh yourself regularly to follow your progress.",
+"Cut sugar and bread from your diet.",
+"Judge your progress by how you look."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You overhear two college students talking about weekend jobs. What does one of them say about the job she would like?",
+"o": [
+"It should be well paid.",
+"It should be connected with her studies.",
+"It should be in a kitchen."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You overhear two people talking about transport. Why is Jane cycling?",
+"o": [
+"She is worried about pollution.",
+"She wants to get fitter.",
+"She cannot afford to run a car."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a woman talking about scrambling. What does she say about it?",
+"o": [
+"People disagree about what counts as a scramble.",
+"It is much safer than rock climbing.",
+"It is only for people with a head for heights."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a weather forecast on the radio. What does it say about tomorrow?",
+"o": [
+"It will snow in the evening.",
+"The wind will drop completely.",
+"It will be a little warmer but still windy."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a radio presenter talking about a theatre. Why has the council stopped supporting the Orion?",
+"o": [
+"Few people from the community use it.",
+"It would cost too much to keep it going.",
+"A documentary will be made about it."
+],
+"c": 1
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fcey-t24/p2.mp3",
+"intro": "You will hear a radio talk about the Loch Ness Monster. For each question, complete the sentence with a word or short phrase.",
+"gapTitle": "The Loch Ness Monster",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "In 1933 a picture of the monster appeared in a London ____.",
+"accept": [
+"newspaper",
+"paper"
+]
+},
+{
+"type": "gap",
+"label": "Tim Dinsdale made his film of the monster in ____.",
+"accept": [
+"1960"
+]
+},
+{
+"type": "gap",
+"label": "Dinsdale shot his film from the mouth of a ____.",
+"accept": [
+"river"
+]
+},
+{
+"type": "gap",
+"label": "Critics believed the object in Dinsdale's film was a ____.",
+"accept": [
+"boat"
+]
+},
+{
+"type": "gap",
+"label": "Dinsdale found that sightings usually happen on ____ days.",
+"accept": [
+"fine"
+]
+},
+{
+"type": "gap",
+"label": "In 1962 the Loch Ness ____ Bureau was set up.",
+"accept": [
+"investigation"
+]
+},
+{
+"type": "gap",
+"label": "Sonar is the underwater equivalent of ____.",
+"accept": [
+"radar"
+]
+},
+{
+"type": "gap",
+"label": "The water in the Loch is dark because it contains ____.",
+"accept": [
+"peat"
+]
+},
+{
+"type": "gap",
+"label": "Researchers briefly thought of bringing in ____ to help them.",
+"accept": [
+"dolphins",
+"dolphin"
+]
+},
+{
+"type": "gap",
+"label": "In 1972 a photograph appeared to show the ____ of a huge animal.",
+"accept": [
+"flipper"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fcey-t24/p3.mp3",
+"intro": "You will hear five short extracts in which people talk about concerts they went to. For each question, choose which statement (A to H) matches what each speaker says. Use each letter only once. There are three extra letters which you do not need to use.",
+"bank": [
+"The cause the money supported made it worthwhile",
+"The band ignored the audience's requests",
+"The price was too high for the standard",
+"The programme was made up of songs she knew well",
+"The live show was far better than the recordings",
+"The audience was too small",
+"The band started late",
+"Tickets were hard to get"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "The cause the money supported made it worthwhile"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "The band ignored the audience's requests"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "The price was too high for the standard"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "The programme was made up of songs she knew well"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "The live show was far better than the recordings"
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fcey-t24/p4.mp3",
+"intro": "You will hear an interview with Patrick Shaw, a hot air balloon pilot. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What does Patrick say about the safety of ballooning?",
+"o": [
+"The pilot can decide exactly where the balloon will land.",
+"Birds can easily damage the balloon.",
+"The pilot controls how the balloon lands."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Patrick say about working on the ground crew?",
+"o": [
+"It is a good way to learn but is unpaid.",
+"It pays better than flying.",
+"It keeps you away from the action."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What makes the ground crew's job difficult?",
+"o": [
+"Setting up the balloon in time.",
+"Not knowing exactly where the balloon will come down.",
+"Talking to nervous passengers."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Patrick say is the main skill ground crew need?",
+"o": [
+"Technical knowledge of balloons.",
+"Great physical strength.",
+"The ability to deal with people politely."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What makes Patrick angry with ground crew?",
+"o": [
+"Asking the same question many times.",
+"Failing to follow instructions they do not understand.",
+"Being slow to get the balloon packed."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What is the aim in a balloon competition?",
+"o": [
+"To land as near as possible to a target.",
+"To finish before the other balloons.",
+"To fly the longest distance."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What gives a pilot total confidence?",
+"o": [
+"Passing the written test.",
+"The 35 hours of instruction.",
+"The flying hours after getting a licence."
+],
+"c": 2
+}
+]
+}
+]
+},
+{
+"label": "B2 — Practice · FCE t25 audio · TG",
+"cefr": "Cambridge B2 First · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1,2,3,4.",
+"audios": [
+{
+"id": "B2-P1",
+"title": "Part 1 · Questions 1–8",
+"kind": "file",
+"file": "TG/fcey-t25/p1.mp3",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a woman talking about the final episode of a TV series. What is her opinion of it?",
+"o": [
+"The ending was too sad for such a series.",
+"It was not worth watching because little was left to happen.",
+"The hero did not win back his girlfriend."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a DJ talking about his job. What annoys him?",
+"o": [
+"Being asked to play old songs.",
+"Having to play songs he does not like.",
+"Being asked for a track he has just played."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a man talking about an art exhibition. What change does he suggest?",
+"o": [
+"Arranging the paintings by period.",
+"Showing fewer paintings.",
+"Making the rooms bigger."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a radio announcement about a job vacancy. Which skill must applicants already have?",
+"o": [
+"Writing clear reports.",
+"Dealing with customers.",
+"Working with figures."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear part of an interview with a restaurant owner. What does his wife believe?",
+"o": [
+"A magazine article is the best publicity.",
+"Happy customers will spread the word.",
+"A good website is worth the cost."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a young man talking about a trip abroad. What does he say about his friends?",
+"o": [
+"They did all the talking in Spanish.",
+"They fell out over the arrangements.",
+"They gradually picked up some of the language."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear a sports journalist talking about an article she wrote. What was the aim of the article?",
+"o": [
+"To explain how sport improves health.",
+"To argue for more money to be spent on sports facilities.",
+"To persuade children to watch less television."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a young man giving a talk about camping. What advice does he give about food?",
+"o": [
+"Take enough to last the whole trip.",
+"Pack plenty of tinned food.",
+"Buy it near the campsite rather than carry it."
+],
+"c": 2
+}
+]
+},
+{
+"id": "B2-P2",
+"title": "Part 2 · Questions 9–18",
+"kind": "file",
+"file": "TG/fcey-t25/p2.mp3",
+"intro": "You will hear a radio programme about the history of roller skating. For each question, complete the sentence with a word or short phrase.",
+"gapTitle": "The history of roller skating",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Roller skating developed from the older activity of ____.",
+"accept": [
+"ice skating",
+"ice-skating"
+]
+},
+{
+"type": "gap",
+"label": "Roller skates are thought to have started in ____.",
+"accept": [
+"holland",
+"the netherlands",
+"netherlands"
+]
+},
+{
+"type": "gap",
+"label": "John Merlin, who brought skates to Britain, was a ____.",
+"accept": [
+"clockmaker",
+"clock maker",
+"clock-maker"
+]
+},
+{
+"type": "gap",
+"label": "At the ball Merlin played the ____ as he skated past.",
+"accept": [
+"violin"
+]
+},
+{
+"type": "gap",
+"label": "Merlin's accident happened when he crashed into a large ____.",
+"accept": [
+"mirror"
+]
+},
+{
+"type": "gap",
+"label": "In Germany skates were used in a ____ called Winter Pleasures.",
+"accept": [
+"ballet"
+]
+},
+{
+"type": "gap",
+"label": "In 1863 James Plimpton fitted skates with rubber ____.",
+"accept": [
+"springs",
+"spring"
+]
+},
+{
+"type": "gap",
+"label": "The first roller skating championships took place in ____.",
+"accept": [
+"detroit"
+]
+},
+{
+"type": "gap",
+"label": "The musical Starlight Express ran for ____ years.",
+"accept": [
+"17",
+"seventeen"
+]
+},
+{
+"type": "gap",
+"label": "Inline skates were introduced in ____.",
+"accept": [
+"1983"
+]
+}
+]
+},
+{
+"id": "B2-P3",
+"title": "Part 3 · Questions 19–23",
+"kind": "file",
+"file": "TG/fcey-t25/p3.mp3",
+"intro": "You will hear five short extracts in which people talk about their first year at university. For each question, choose which statement (A to H) matches what each speaker says. Use each letter only once. There are three extra letters which you do not need to use.",
+"bank": [
+"Compared what different universities offered",
+"Changed subject after missing a place",
+"Studies part-time because of other commitments",
+"Chose a subject despite family doubts",
+"Picked the university because of its surroundings",
+"Found the course easier than expected",
+"Got the place through a late offer",
+"Receives financial help from home"
+],
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "Compared what different universities offered"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "Changed subject after missing a place"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "Studies part-time because of other commitments"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "Chose a subject despite family doubts"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "Picked the university because of its surroundings"
+}
+]
+},
+{
+"id": "B2-P4",
+"title": "Part 4 · Questions 24–30",
+"kind": "file",
+"file": "TG/fcey-t25/p4.mp3",
+"intro": "You will hear an interview with the film actor Mikey Standish. For each question, choose the best answer (A, B or C).",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How does Mikey feel about being compared to another actor?",
+"o": [
+"Flattered, because he admires him.",
+"Upset, because he wants variety in his roles.",
+"Pleased, because it helps his career."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What did Mikey find about playing Simon in The Waterfall?",
+"o": [
+"It was harder than expected because the character was so like him.",
+"It was easy because the character was so like him.",
+"It made no difference to his acting."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What kind of role does Mikey refuse to play?",
+"o": [
+"A romantic lead.",
+"A man who wastes his time.",
+"A dull character who turns out to be always right."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What did Mikey do after his first film?",
+"o": [
+"He went straight to drama school.",
+"He worked in a bakery for a while.",
+"He made another film in France."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Mikey say about competition in the acting world?",
+"o": [
+"It can keep people in a job that is not right for them.",
+"It helps the best actors to succeed.",
+"It is necessary to make people work hard."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why can Mikey cope with being famous?",
+"o": [
+"He avoids the press.",
+"He is rarely recognised in the street.",
+"His fame grew gradually over several years."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What is Mikey going to do next?",
+"o": [
+"Start work on a sci-fi film.",
+"Take a rest from filming.",
+"Write a script for another film."
+],
+"c": 1
 }
 ]
 }
@@ -23022,10 +41709,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why is Jack calling the research organisation?",
 "o": [
-"To insist on a delivery deadline"
-,
+"To insist on a delivery deadline",
 "To report damaged packing",
-"To question an invoice"],
+"To question an invoice"
+],
 "c": 0,
 "audio": "M4/B2/B2-P1-q2.mp3"
 },
@@ -23034,9 +41721,9 @@ const LISTEN_MORE = {
 "q": "What does the instructor warn new arrivals about?",
 "o": [
 "The risk of frostbite",
-"The risk of getting lost"
-,
-"The risk of dehydration"],
+"The risk of getting lost",
+"The risk of dehydration"
+],
 "c": 2,
 "audio": "M4/B2/B2-P1-q3.mp3"
 },
@@ -23077,10 +41764,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why is the penguin study delayed?",
 "o": [
-"The funding has run out"
-,
+"The funding has run out",
 "The weather has been severe",
-"The colony has moved"],
+"The colony has moved"
+],
 "c": 2,
 "audio": "M4/B2/B2-P1-q7.mp3"
 },
@@ -23269,10 +41956,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "How does Helena deal with conflict at the station?",
 "o": [
-"She separates the people involved"
-,
+"She separates the people involved",
 "She waits for problems to pass",
-"She discusses small problems early"],
+"She discusses small problems early"
+],
 "c": 2
 },
 {
@@ -23310,9 +41997,9 @@ const LISTEN_MORE = {
 "q": "What is Helena's next project?",
 "o": [
 "Building a larger station",
-"Improving the satellite connection"
-,
-"Powering stations with wind"],
+"Improving the satellite connection",
+"Powering stations with wind"
+],
 "c": 2
 }
 ]
@@ -23389,9 +42076,9 @@ const LISTEN_MORE = {
 "q": "Why has the woman started buying records again?",
 "o": [
 "She found her old collection",
-"She wants to sell them for profit"
-,
-"Her daughter got her interested again"],
+"She wants to sell them for profit",
+"Her daughter got her interested again"
+],
 "c": 2,
 "audio": "M5/B2/B2-P1-q4.mp3"
 },
@@ -23604,10 +42291,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What has surprised the industry about vinyl buyers?",
 "o": [
-"Most already own several turntables"
-,
+"Most already own several turntables",
 "Most are middle-aged collectors",
-"Many are young people buying new artists"],
+"Many are young people buying new artists"
+],
 "c": 2
 },
 {
@@ -23624,10 +42311,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What problem does Nora describe for small bands?",
 "o": [
-"Vinyl earns them less than streaming"
-,
+"Vinyl earns them less than streaming",
 "Fans no longer buy their records",
-"Their records are pushed back in the pressing queue"],
+"Their records are pushed back in the pressing queue"
+],
 "c": 2
 },
 {
@@ -23722,10 +42409,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What checking habit does the teacher recommend?",
 "o": [
-"Seeing if other sites repeat the story"
-,
+"Seeing if other sites repeat the story",
 "Counting an account's followers",
-"Looking at an account's earlier posts"],
+"Looking at an account's earlier posts"
+],
 "c": 2,
 "audio": "M6/B2/B2-P1-q3.mp3"
 },
@@ -23744,10 +42431,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What do they decide to do about the tip?",
 "o": [
-"Confirm it before publishing"
-,
+"Confirm it before publishing",
 "Ignore it as a rumour",
-"Publish it immediately"],
+"Publish it immediately"
+],
 "c": 0,
 "audio": "M6/B2/B2-P1-q5.mp3"
 },
@@ -23766,10 +42453,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does the man say explains his site's success?",
 "o": [
-"His football coverage"
-,
+"His football coverage",
 "His crime reporting",
-"His reports on council meetings"],
+"His reports on council meetings"
+],
 "c": 2,
 "audio": "M6/B2/B2-P1-q7.mp3"
 },
@@ -23777,10 +42464,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does the boy need for work experience at the paper?",
 "o": [
-"Three published pieces of writing"
-,
+"Three published pieces of writing",
 "His own camera equipment",
-"Journalism qualifications"],
+"Journalism qualifications"
+],
 "c": 0,
 "audio": "M6/B2/B2-P1-q8.mp3"
 }
@@ -23937,10 +42624,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why does Jack dislike the term citizen journalism?",
 "o": [
-"It sounds old-fashioned"
-,
+"It sounds old-fashioned",
 "It insults professional reporters",
-"It confuses witnessing with journalism"],
+"It confuses witnessing with journalism"
+],
 "c": 2
 },
 {
@@ -23967,10 +42654,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "How do verification teams check a video?",
 "o": [
-"By using special software only"
-,
+"By using special software only",
 "By asking the person who filmed it",
-"By comparing details like shadows and weather"],
+"By comparing details like shadows and weather"
+],
 "c": 2
 },
 {
@@ -24054,10 +42741,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What is delaying the planning decision?",
 "o": [
-"The design's appearance"
-,
+"The design's appearance",
 "The building materials",
-"The height of the extension"],
+"The height of the extension"
+],
 "c": 2,
 "audio": "M7/B2/B2-P1-q2.mp3"
 },
@@ -24088,9 +42775,9 @@ const LISTEN_MORE = {
 "q": "Why do they choose the smaller flat?",
 "o": [
 "It is cheaper",
-"It is bright and has a balcony"
-,
-"It is nearer their work"],
+"It is bright and has a balcony",
+"It is nearer their work"
+],
 "c": 1,
 "audio": "M7/B2/B2-P1-q5.mp3"
 },
@@ -24110,9 +42797,9 @@ const LISTEN_MORE = {
 "q": "Which part of the new school has become most popular?",
 "o": [
 "The design studio",
-"The library"
-,
-"The main staircase"],
+"The library",
+"The main staircase"
+],
 "c": 2,
 "audio": "M7/B2/B2-P1-q7.mp3"
 },
@@ -24121,9 +42808,9 @@ const LISTEN_MORE = {
 "q": "What matters most to the man looking for a flat?",
 "o": [
 "The size of the rooms",
-"Living somewhere quiet"
-,
-"Being near the metro"],
+"Living somewhere quiet",
+"Being near the metro"
+],
 "c": 1,
 "audio": "M7/B2/B2-P1-q8.mp3"
 }
@@ -24281,9 +42968,9 @@ const LISTEN_MORE = {
 "q": "According to Rosa, which factor has the strongest evidence behind it?",
 "o": [
 "Fresh air",
-"The colours of rooms"
-,
-"Natural light"],
+"The colours of rooms",
+"Natural light"
+],
 "c": 2
 },
 {
@@ -24310,10 +42997,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why does Rosa now focus on housing policy?",
 "o": [
-"Modern flats are too expensive"
-,
+"Modern flats are too expensive",
 "Architects refuse to listen to research",
-"Regulations affect health more than design advice"],
+"Regulations affect health more than design advice"
+],
 "c": 2
 },
 {
@@ -24330,10 +43017,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why does Rosa say streets matter more than gyms?",
 "o": [
-"They encourage people to join sports clubs"
-,
+"They encourage people to join sports clubs",
 "They are cheaper for councils to build",
-"They make everyone exercise without deciding to"],
+"They make everyone exercise without deciding to"
+],
 "c": 2
 },
 {
@@ -24397,10 +43084,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why does the woman keep paying for several subscriptions?",
 "o": [
-"Moving her playlists would be too much trouble"
-,
+"Moving her playlists would be too much trouble",
 "She uses all of them regularly",
-"She cannot afford to lose the content"],
+"She cannot afford to lose the content"
+],
 "c": 0,
 "audio": "P4/C1/C1-P1-q2.mp3"
 },
@@ -24409,9 +43096,9 @@ const LISTEN_MORE = {
 "q": "What disappointed the man about the concert?",
 "o": [
 "The poor sound quality",
-"The size of the crowd"
-,
-"The focus on unfamiliar songs"],
+"The size of the crowd",
+"The focus on unfamiliar songs"
+],
 "c": 2,
 "audio": "P4/C1/C1-P1-q3.mp3"
 },
@@ -24431,9 +43118,9 @@ const LISTEN_MORE = {
 "q": "What is the man's complaint about the recommendation app?",
 "o": [
 "It no longer understands his taste at all",
-"It suggests music he finds unpleasant"
-,
-"It keeps offering more of the same"],
+"It suggests music he finds unpleasant",
+"It keeps offering more of the same"
+],
 "c": 2,
 "audio": "P4/C1/C1-P1-q5.mp3"
 },
@@ -24442,9 +43129,9 @@ const LISTEN_MORE = {
 "q": "Why did the woman cancel the film service?",
 "o": [
 "The catalogue had shrunk",
-"The abundance of choice left her watching nothing"
-,
-"It had become too expensive"],
+"The abundance of choice left her watching nothing",
+"It had become too expensive"
+],
 "c": 1,
 "audio": "P4/C1/C1-P1-q6.mp3"
 }
@@ -24540,10 +43227,10 @@ const LISTEN_MORE = {
 "q": "How does Daniel describe his decision to start the label?",
 "o": [
 "A romantic gamble he later regretted",
-"An impulsive break from corporate life"
-,
+"An impulsive break from corporate life",
 "A reluctant move forced on him",
-"A calculated bet based on changing tools"],
+"A calculated bet based on changing tools"
+],
 "c": 3
 },
 {
@@ -24595,10 +43282,10 @@ const LISTEN_MORE = {
 "q": "What single change would Daniel prioritise?",
 "o": [
 "Higher per-stream payments",
-"Stricter contracts"
-,
+"Stricter contracts",
 "Fewer playlists",
-"Full transparency about where money goes"],
+"Full transparency about where money goes"
+],
 "c": 3
 }
 ]
@@ -24832,9 +43519,9 @@ const LISTEN_MORE = {
 "q": "What does the woman find most significant about the beavers?",
 "o": [
 "The dams they build",
-"How quickly they settled"
-,
-"The upstream pools reviving lost insects"],
+"How quickly they settled",
+"The upstream pools reviving lost insects"
+],
 "c": 2,
 "audio": "P5/C1/C1-P1-q3.mp3"
 },
@@ -24995,11 +43682,11 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What misconception about rewilding does Leo correct?",
 "o": [
-"That it happens quickly"
-,
+"That it happens quickly",
 "That it is expensive",
 "That it harms farmland",
-"That it involves no management at all"],
+"That it involves no management at all"
+],
 "c": 3
 },
 {
@@ -25233,9 +43920,9 @@ const LISTEN_MORE = {
 "q": "What did the man find most impressive about the clock?",
 "o": [
 "The moving figures",
-"The sound of it striking"
-,
-"The visible mechanism of turning wheels"],
+"The sound of it striking",
+"The visible mechanism of turning wheels"
+],
 "c": 2,
 "audio": "P6/C1/C1-P1-q1.mp3"
 },
@@ -25244,9 +43931,9 @@ const LISTEN_MORE = {
 "q": "Why does the woman prefer her mechanical watch?",
 "o": [
 "It keeps better time than a phone",
-"It was inexpensive"
-,
-"The daily ritual makes her feel connected to it"],
+"It was inexpensive",
+"The daily ritual makes her feel connected to it"
+],
 "c": 2,
 "audio": "P6/C1/C1-P1-q2.mp3"
 },
@@ -25277,9 +43964,9 @@ const LISTEN_MORE = {
 "q": "According to the man, what forced towns onto a single standard time?",
 "o": [
 "The invention of the wristwatch",
-"A government decree about farming"
-,
-"The needs of the railway timetable"],
+"A government decree about farming",
+"The needs of the railway timetable"
+],
 "c": 2,
 "audio": "P6/C1/C1-P1-q5.mp3"
 },
@@ -25396,10 +44083,10 @@ const LISTEN_MORE = {
 "q": "Why is Marcus reluctant to replace broken parts?",
 "o": [
 "New parts are too expensive",
-"Owners rarely notice the difference"
-,
+"Owners rarely notice the difference",
 "He lacks the necessary skill",
-"Removing originals erases the clock's history"],
+"Removing originals erases the clock's history"
+],
 "c": 3
 },
 {
@@ -25439,11 +44126,11 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What most worries Marcus about the future?",
 "o": [
-"Competition from machines"
-,
+"Competition from machines",
 "A shortage of antique clocks",
 "Falling prices at auction",
-"The loss of hand-craft skills"],
+"The loss of hand-craft skills"
+],
 "c": 3
 }
 ]
@@ -25677,9 +44364,9 @@ const LISTEN_MORE = {
 "q": "What did the evacuation drill demonstrate?",
 "o": [
 "That loud instructions work best",
-"That evacuations always fail"
-,
-"That clear signage matters more than shouting"],
+"That evacuations always fail",
+"That clear signage matters more than shouting"
+],
 "c": 2,
 "audio": "P7/C1/C1-P1-q3.mp3"
 },
@@ -25863,11 +44550,11 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What most worries Sam?",
 "o": [
-"New kinds of events"
-,
+"New kinds of events",
 "Rising ticket prices",
 "A shortage of stewards",
-"Complacency after a long safe period"],
+"Complacency after a long safe period"
+],
 "c": 3
 }
 ]
@@ -26079,9 +44766,9 @@ const LISTEN_MORE = {
 "q": "What convinced the man the cheese was worth its price?",
 "o": [
 "It was cheaper than he expected",
-"The stallholder gave him a discount"
-,
-"Tasting how maturing changed the same cheese"],
+"The stallholder gave him a discount",
+"Tasting how maturing changed the same cheese"
+],
 "c": 2,
 "audio": "P8/C1/C1-P1-q1.mp3"
 },
@@ -26090,9 +44777,9 @@ const LISTEN_MORE = {
 "q": "Why do people queue at the bakery, according to the woman?",
 "o": [
 "The bread is very cheap",
-"It opens earlier than others"
-,
-"The deliberately limited number of loaves"],
+"It opens earlier than others",
+"The deliberately limited number of loaves"
+],
 "c": 2,
 "audio": "P8/C1/C1-P1-q2.mp3"
 },
@@ -26123,9 +44810,9 @@ const LISTEN_MORE = {
 "q": "Why does the man keep returning to the small brewery?",
 "o": [
 "The beer is the cheapest available",
-"It is closest to his home"
-,
-"The recipe changes with the seasons"],
+"It is closest to his home",
+"The recipe changes with the seasons"
+],
 "c": 2,
 "audio": "P8/C1/C1-P1-q5.mp3"
 },
@@ -26244,10 +44931,10 @@ const LISTEN_MORE = {
 "q": "How does Hugo defend his prices?",
 "o": [
 "By comparing them to supermarket loaves",
-"By pointing to his reputation"
-,
+"By pointing to his reputation",
 "By claiming the bread is healthier",
-"By saying they barely cover the labour involved"],
+"By saying they barely cover the labour involved"
+],
 "c": 3
 },
 {
@@ -26514,9 +45201,9 @@ const LISTEN_MORE = {
 "q": "What do astronomers object to about the satellites?",
 "o": [
 "That they do not work",
-"That they are too expensive"
-,
-"The sheer number spoiling long-exposure images"],
+"That they are too expensive",
+"The sheer number spoiling long-exposure images"
+],
 "c": 2,
 "audio": "P9/C1/C1-P1-q2.mp3"
 },
@@ -26547,9 +45234,9 @@ const LISTEN_MORE = {
 "q": "What did the man find frightening about the near miss?",
 "o": [
 "The speed of the satellites",
-"That it was kept secret"
-,
-"That there is no controlling authority in orbit"],
+"That it was kept secret",
+"That there is no controlling authority in orbit"
+],
 "c": 2,
 "audio": "P9/C1/C1-P1-q5.mp3"
 },
@@ -26558,9 +45245,9 @@ const LISTEN_MORE = {
 "q": "Why does the woman want to research space debris?",
 "o": [
 "It is the easiest topic available",
-"Her work on it could make a real near-term difference"
-,
-"She finds it more glamorous than galaxies"],
+"Her work on it could make a real near-term difference",
+"She finds it more glamorous than galaxies"
+],
 "c": 1,
 "audio": "P9/C1/C1-P1-q6.mp3"
 }
@@ -26666,10 +45353,10 @@ const LISTEN_MORE = {
 "q": "How does Max characterise responsibility for the problem?",
 "o": [
 "It clearly belongs to one agency",
-"It is nobody's concern"
-,
+"It is nobody's concern",
 "It belongs to private companies alone",
-"It is a tragedy of the commons, shared by all and owned by none"],
+"It is a tragedy of the commons, shared by all and owned by none"
+],
 "c": 3
 },
 {
@@ -26710,10 +45397,10 @@ const LISTEN_MORE = {
 "q": "What single measure would help most, in Max's view?",
 "o": [
 "Banning all launches",
-"Moving satellites higher"
-,
+"Moving satellites higher",
 "Building bigger nets",
-"Making operators financially liable for debris"],
+"Making operators financially liable for debris"
+],
 "c": 3
 }
 ]
@@ -26946,10 +45633,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What did the man dislike about the documentary?",
 "o": [
-"It was too critical of the artist"
-,
+"It was too critical of the artist",
 "The images were dull",
-"It smoothed the subject into a saint"],
+"It smoothed the subject into a saint"
+],
 "c": 2,
 "audio": "P10/C1/C1-P1-q3.mp3"
 },
@@ -26969,9 +45656,9 @@ const LISTEN_MORE = {
 "q": "How did the writer respond to the estate's conditions?",
 "o": [
 "He accepted the omissions to gain access",
-"He abandoned the book"
-,
-"He refused and published without the letters"],
+"He abandoned the book",
+"He refused and published without the letters"
+],
 "c": 2,
 "audio": "P10/C1/C1-P1-q5.mp3"
 },
@@ -27091,10 +45778,10 @@ const LISTEN_MORE = {
 "q": "How did Oliver feel about quoting the private diary?",
 "o": [
 "Purely delighted at the material",
-"Sceptical of its truth"
-,
+"Sceptical of its truth",
 "Bored by its contents",
-"A sense of guilt at intruding on private thoughts"],
+"A sense of guilt at intruding on private thoughts"
+],
 "c": 3
 },
 {
@@ -27136,9 +45823,9 @@ const LISTEN_MORE = {
 "o": [
 "Admiration for the subject",
 "Contempt for the subject",
-"Indifference"
-,
-"Recognition of shared humanity"],
+"Indifference",
+"Recognition of shared humanity"
+],
 "c": 3
 }
 ]
@@ -27361,9 +46048,9 @@ const LISTEN_MORE = {
 "q": "What did the sound walk do for the man?",
 "o": [
 "Confirmed it was pretentious",
-"Gave him a headache"
-,
-"Made him notice sounds he had long ignored"],
+"Gave him a headache",
+"Made him notice sounds he had long ignored"
+],
 "c": 2,
 "audio": "P11/C1/C1-P1-q2.mp3"
 },
@@ -27531,10 +46218,10 @@ const LISTEN_MORE = {
 "q": "Which lost sounds does Ethan most regret?",
 "o": [
 "Industrial machinery",
-"Loud music"
-,
+"Loud music",
 "Traffic noise",
-"Human-scale sounds like footsteps and voices"],
+"Human-scale sounds like footsteps and voices"
+],
 "c": 3
 },
 {
@@ -27768,9 +46455,9 @@ const LISTEN_MORE = {
 "q": "What surprised the man about his first marathon?",
 "o": [
 "His legs gave out early",
-"It was easier than expected"
-,
-"The main struggle was mental, not physical"],
+"It was easier than expected",
+"The main struggle was mental, not physical"
+],
 "c": 2,
 "audio": "P12/C1/C1-P1-q1.mp3"
 },
@@ -27779,9 +46466,9 @@ const LISTEN_MORE = {
 "q": "Why did the woman abandon the training plan?",
 "o": [
 "It was physically too hard",
-"It was too easy to be useful"
-,
-"It allowed no time for recovery"],
+"It was too easy to be useful",
+"It allowed no time for recovery"
+],
 "c": 2,
 "audio": "P12/C1/C1-P1-q2.mp3"
 },
@@ -27931,10 +46618,10 @@ const LISTEN_MORE = {
 "q": "What does Marcus try to retrain in athletes' minds?",
 "o": [
 "Their level of motivation",
-"Their fear of losing"
-,
+"Their fear of losing",
 "Their competitive aggression",
-"How they interpret discomfort"],
+"How they interpret discomfort"
+],
 "c": 3
 },
 {
@@ -28190,9 +46877,9 @@ const LISTEN_MORE = {
 "q": "What most drew the man into the bookshop?",
 "o": [
 "A bargain he found",
-"The size of the stock"
-,
-"The dealer's knowledge about bindings"],
+"The size of the stock",
+"The dealer's knowledge about bindings"
+],
 "c": 2,
 "audio": "P13/C1/C1-P1-q1.mp3"
 },
@@ -28201,9 +46888,9 @@ const LISTEN_MORE = {
 "q": "What did the auction teach the woman about collectors?",
 "o": [
 "They prize the cleanest copies",
-"They only care about first editions"
-,
-"They value handwritten marginalia over pristine condition"],
+"They only care about first editions",
+"They value handwritten marginalia over pristine condition"
+],
 "c": 2,
 "audio": "P13/C1/C1-P1-q2.mp3"
 },
@@ -28245,9 +46932,9 @@ const LISTEN_MORE = {
 "q": "Why did the woman finally buy the little volume?",
 "o": [
 "It was extremely rare",
-"It was in perfect condition"
-,
-"A traceable former owner inscribed inside"],
+"It was in perfect condition",
+"A traceable former owner inscribed inside"
+],
 "c": 2,
 "audio": "P13/C1/C1-P1-q6.mp3"
 }
@@ -28343,10 +47030,10 @@ const LISTEN_MORE = {
 "q": "What does Leo say about making money in the trade?",
 "o": [
 "It is a reliable path to riches",
-"It requires no passion at all"
-,
+"It requires no passion at all",
 "It is the easiest way he knows to earn",
-"It is a labour of love with only occasional windfalls"],
+"It is a labour of love with only occasional windfalls"
+],
 "c": 3
 },
 {
@@ -28398,10 +47085,10 @@ const LISTEN_MORE = {
 "q": "Why is Leo optimistic about the trade's future?",
 "o": [
 "Prices are certain to rise",
-"Young people are abandoning screens"
-,
+"Young people are abandoning screens",
 "Forgeries are disappearing",
-"Digital life makes people crave physical objects with history"],
+"Digital life makes people crave physical objects with history"
+],
 "c": 3
 }
 ]
@@ -28623,10 +47310,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "How did the woman react to the lecture?",
 "o": [
-"She was struck by an idea she had not anticipated"
-,
+"She was struck by an idea she had not anticipated",
 "She was unconvinced by its central claim",
-"She found it lighter than expected"],
+"She found it lighter than expected"
+],
 "c": 0,
 "audio": "P14/C1/C1-P1-q2.mp3"
 },
@@ -28634,10 +47321,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What point does the man make about the redesigned playground?",
 "o": [
-"It still needs proper equipment"
-,
+"It still needs proper equipment",
 "Parents have come to admire its appearance",
-"The children's behaviour has improved"],
+"The children's behaviour has improved"
+],
 "c": 2,
 "audio": "P14/C1/C1-P1-q3.mp3"
 },
@@ -28668,9 +47355,9 @@ const LISTEN_MORE = {
 "q": "Why has the man joined the improvisation class?",
 "o": [
 "He hopes to perform eventually",
-"He wants to set himself a new target"
-,
-"He wants an activity with no purpose beyond itself"],
+"He wants to set himself a new target",
+"He wants an activity with no purpose beyond itself"
+],
 "c": 2,
 "audio": "P14/C1/C1-P1-q6.mp3"
 }
@@ -28785,9 +47472,9 @@ const LISTEN_MORE = {
 "o": [
 "He rejects the evidence behind it",
 "He accepts it settles the question",
-"He finds it impossible to test"
-,
-"He objects to the assumption hidden within it"],
+"He finds it impossible to test",
+"He objects to the assumption hidden within it"
+],
 "c": 3
 },
 {
@@ -28806,10 +47493,10 @@ const LISTEN_MORE = {
 "q": "Why does Daniel avoid giving policy advice on play?",
 "o": [
 "Ministers have repeatedly ignored him",
-"He once gave advice that proved harmful"
-,
+"He once gave advice that proved harmful",
 "He believes governments should fund play instead",
-"Official endorsement would change play's nature"],
+"Official endorsement would change play's nature"
+],
 "c": 3
 },
 {
@@ -29053,10 +47740,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "How does the man feel about the lost beach?",
 "o": [
-"Resigned rather than resentful"
-,
+"Resigned rather than resentful",
 "Determined to see it restored",
-"Angrier than people realise"],
+"Angrier than people realise"
+],
 "c": 0,
 "audio": "P15/C1/C1-P1-q3.mp3"
 },
@@ -29065,9 +47752,9 @@ const LISTEN_MORE = {
 "q": "What is the woman's criticism of the documentary?",
 "o": [
 "Its photography is overrated",
-"It contains too many technical details"
-,
-"It romanticises the residents' losses"],
+"It contains too many technical details",
+"It romanticises the residents' losses"
+],
 "c": 2,
 "audio": "P15/C1/C1-P1-q4.mp3"
 },
@@ -29076,9 +47763,9 @@ const LISTEN_MORE = {
 "q": "What did the survey reveal about stress in coastal communities?",
 "o": [
 "It was greatest where erosion was fastest",
-"It affected only households nearest the edge"
-,
-"It was linked above all to unresolved decisions"],
+"It affected only households nearest the edge",
+"It was linked above all to unresolved decisions"
+],
 "c": 2,
 "audio": "P15/C1/C1-P1-q5.mp3"
 },
@@ -29213,11 +47900,11 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What has Hugo concluded about residents' anger?",
 "o": [
-"It is caused by fear of the sea itself"
-,
+"It is caused by fear of the sea itself",
 "It is aimed chiefly at engineers like him",
 "It fades once compensation is agreed",
-"It is directed mainly at how decisions are communicated"],
+"It is directed mainly at how decisions are communicated"
+],
 "c": 3
 },
 {
@@ -29462,9 +48149,9 @@ const LISTEN_MORE = {
 "q": "Why is the man leaving the orchestra?",
 "o": [
 "Freelance work pays better",
-"He has fallen out with colleagues"
-,
-"He wants artistic control over his work"],
+"He has fallen out with colleagues",
+"He wants artistic control over his work"
+],
 "c": 2,
 "audio": "P16/C1/C1-P1-q2.mp3"
 },
@@ -29472,10 +48159,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why has the man placed the new piece in the middle of the programme?",
 "o": [
-"It prevents the audience from avoiding it"
-,
+"It prevents the audience from avoiding it",
 "The famous symphonies are too long to separate",
-"It suits the orchestra's rehearsal schedule"],
+"It suits the orchestra's rehearsal schedule"
+],
 "c": 0,
 "audio": "P16/C1/C1-P1-q3.mp3"
 },
@@ -29495,9 +48182,9 @@ const LISTEN_MORE = {
 "q": "What did the research identify as the main barrier to attending concerts?",
 "o": [
 "The cost of tickets",
-"Lack of interest in the music"
-,
-"Anxiety about unwritten rules"],
+"Lack of interest in the music",
+"Anxiety about unwritten rules"
+],
 "c": 2,
 "audio": "P16/C1/C1-P1-q5.mp3"
 },
@@ -29638,10 +48325,10 @@ const LISTEN_MORE = {
 "q": "How does Emma respond to the argument that orchestras are too expensive?",
 "o": [
 "She accepts cuts are inevitable",
-"She believes stadiums should be funded instead"
-,
+"She believes stadiums should be funded instead",
 "She compares orchestras favourably with libraries' costs",
-"She says the calculation depends on the timescale used"],
+"She says the calculation depends on the timescale used"
+],
 "c": 3
 },
 {
@@ -29897,9 +48584,9 @@ const LISTEN_MORE = {
 "q": "Why does the curator value the butterfly bequest?",
 "o": [
 "The specimens are exceptionally fine",
-"It is larger than any rival collection"
-,
-"The accompanying records are scientifically precious"],
+"It is larger than any rival collection",
+"The accompanying records are scientifically precious"
+],
 "c": 2,
 "audio": "P17/C1/C1-P1-q3.mp3"
 },
@@ -29907,10 +48594,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What is the man's attitude to the rise in model car prices?",
 "o": [
-"He dislikes what speculation is doing to the hobby"
-,
+"He dislikes what speculation is doing to the hobby",
 "He regrets not buying more in the nineties",
-"He is planning to sell at the peak"],
+"He is planning to sell at the peak"
+],
 "c": 0,
 "audio": "P17/C1/C1-P1-q4.mp3"
 },
@@ -29930,9 +48617,9 @@ const LISTEN_MORE = {
 "q": "How will the man pay for the 1961 poster?",
 "o": [
 "By using his savings",
-"By selling duplicates from his collection"
-,
-"By negotiating a lower price"],
+"By selling duplicates from his collection",
+"By negotiating a lower price"
+],
 "c": 1,
 "audio": "P17/C1/C1-P1-q6.mp3"
 }
@@ -30036,10 +48723,10 @@ const LISTEN_MORE = {
 "q": "How does Oliver respond to the accusation of exploiting collectors?",
 "o": [
 "He denies that auctioneers have such power",
-"He argues shame keeps customers returning"
-,
+"He argues shame keeps customers returning",
 "He blames rivalries among the bidders",
-"He admits past fault and describes how he changed"],
+"He admits past fault and describes how he changed"
+],
 "c": 3
 },
 {
@@ -30068,11 +48755,11 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does Oliver believe online platforms have destroyed?",
 "o": [
-"The profits of auction houses"
-,
+"The profits of auction houses",
 "The excitement of bidding",
 "The accuracy of search tools",
-"The chance of unplanned discovery"],
+"The chance of unplanned discovery"
+],
 "c": 3
 },
 {
@@ -30295,9 +48982,9 @@ const LISTEN_MORE = {
 "q": "What is the woman not prepared to compromise on?",
 "o": [
 "The cost of the flights",
-"The choice of destination"
-,
-"A gradual ascent with overnight stops"],
+"The choice of destination",
+"A gradual ascent with overnight stops"
+],
 "c": 2,
 "audio": "P18/C1/C1-P1-q1.mp3"
 },
@@ -30305,10 +48992,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why did the statistic impress the man at the lecture?",
 "o": [
-"It proved runners acclimatise faster"
-,
+"It proved runners acclimatise faster",
 "It showed training reduces altitude sickness",
-"It contradicted the audience's assumptions"],
+"It contradicted the audience's assumptions"
+],
 "c": 2,
 "audio": "P18/C1/C1-P1-q2.mp3"
 },
@@ -30316,10 +49003,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What puzzled the researchers about the Tibetan results?",
 "o": [
-"Their advantage could not be explained by blood oxygen"
-,
+"Their advantage could not be explained by blood oxygen",
 "Their blood carried unusually high oxygen levels",
-"They matched the Andean pattern exactly"],
+"They matched the Andean pattern exactly"
+],
 "c": 0,
 "audio": "P18/C1/C1-P1-q3.mp3"
 },
@@ -30338,10 +49025,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "How does the woman respond to the customer's complaint?",
 "o": [
-"She will refund him but not change the itinerary"
-,
+"She will refund him but not change the itinerary",
 "She agrees to shorten future itineraries",
-"She refuses to give a refund"],
+"She refuses to give a refund"
+],
 "c": 0,
 "audio": "P18/C1/C1-P1-q5.mp3"
 },
@@ -30350,9 +49037,9 @@ const LISTEN_MORE = {
 "q": "Why did the woman choose the eight-day package?",
 "o": [
 "It was better value per day",
-"The five-day option was fully booked"
-,
-"The shorter trip rarely achieves its aim"],
+"The five-day option was fully booked",
+"The shorter trip rarely achieves its aim"
+],
 "c": 2,
 "audio": "P18/C1/C1-P1-q6.mp3"
 }
@@ -30466,11 +49153,11 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "Why does Sara keep the man's photograph?",
 "o": [
-"To show climbers the risks they run"
-,
+"To show climbers the risks they run",
 "Out of lasting guilt about his death",
 "Because he later thanked her",
-"As a reminder that shapes her judgement"],
+"As a reminder that shapes her judgement"
+],
 "c": 3
 },
 {
@@ -30500,10 +49187,10 @@ const LISTEN_MORE = {
 "q": "What keeps drawing Sara back to the mountains?",
 "o": [
 "The chance of heroism",
-"The escape from paperwork"
-,
+"The escape from paperwork",
 "The company of talented climbers",
-"The simplicity of what matters there"],
+"The simplicity of what matters there"
+],
 "c": 3
 }
 ]
@@ -30681,6 +49368,7517 @@ const LISTEN_MORE = {
 ]
 }
 ]
+},
+{
+"label": "C1 — Practice · CAE 1 Test 1 audio · TG",
+"cefr": "Cambridge C1 Advanced · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
+"audios": [
+{
+"id": "C1-P1",
+"title": "Part 1 · Questions 1–6",
+"kind": "file",
+"file": "TG/cae1-t1/p1.mp3",
+"intro": "You will hear three different extracts. For each question, choose the answer (A, B or C) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Extract 1 · A woman in retail management is interviewed. What does she say about her first job?",
+"o": [
+"She regrets how she dealt with some colleagues.",
+"She learned very little there.",
+"She disliked the pressure of sales figures."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Extract 1 · What is she advised to do before aiming for promotion?",
+"o": [
+"Ask her line manager for training.",
+"Look for a senior post elsewhere.",
+"Show what she can offer beyond what is required."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Extract 2 · A woman tells a friend about swans. Why did the swan approach the boat?",
+"o": [
+"It was looking for food.",
+"It wanted to protect its nest.",
+"It was curious about the boat."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Extract 2 · What was the woman's attitude to the swan's threat?",
+"o": [
+"She took it seriously.",
+"She found it amusing.",
+"She thought it harmless."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Extract 3 · A businessman talks about his early life. Why did he give up painting?",
+"o": [
+"He lost interest in the subject.",
+"He was convinced it had become pointless because of photography.",
+"He realised he lacked talent."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Extract 3 · How did his father respond when he turned down the factory job?",
+"o": [
+"He found him a place at another college.",
+"He lent him money for the business.",
+"He stopped supporting him financially."
+],
+"c": 2
+}
+]
+},
+{
+"id": "C1-P2",
+"title": "Part 2 · Questions 7–14",
+"kind": "file",
+"file": "TG/cae1-t1/p2.mp3",
+"intro": "You will hear a man talking about a journey through a rainforest. For questions 7 to 14, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The speaker found the river hard to travel on because it was fast-flowing and very ____.",
+"accept": [
+"rocky"
+]
+},
+{
+"type": "gap",
+"label": "The two men had to give up using the boat when they reached a ____.",
+"accept": [
+"waterfall",
+"a waterfall"
+]
+},
+{
+"type": "gap",
+"label": "On their map, the distance to the road looked like about ____ kilometres.",
+"accept": [
+"100",
+"a hundred",
+"one hundred",
+"100 km"
+]
+},
+{
+"type": "gap",
+"label": "Each man was carrying a load weighing ____ kilos.",
+"accept": [
+"25",
+"twenty-five",
+"twenty five",
+"25 kilos"
+]
+},
+{
+"type": "gap",
+"label": "The men found a man-made path on the ____ day.",
+"accept": [
+"seventh",
+"7th",
+"7",
+"day seven"
+]
+},
+{
+"type": "gap",
+"label": "The equipment at the empty camp suggested that someone had been searching for ____.",
+"accept": [
+"gold"
+]
+},
+{
+"type": "gap",
+"label": "After a week of eating only flour and rice, the men's main problem was a lack of ____.",
+"accept": [
+"energy"
+]
+},
+{
+"type": "gap",
+"label": "In return for the food they ate, the men left ____ dollars in the pot.",
+"accept": [
+"30",
+"thirty",
+"$30",
+"30 dollars",
+"thirty dollars"
+]
+}
+]
+},
+{
+"id": "C1-P3",
+"title": "Part 3 · Questions 15–20",
+"kind": "file",
+"file": "TG/cae1-t1/p3.mp3",
+"intro": "You will hear part of an interview with an astronaut who walked on the moon. For questions 15 to 20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What does Charles say about his attitude to space as a boy?",
+"o": [
+"He thought it was too unrealistic to take seriously.",
+"It interested him mildly but never became an obsession.",
+"He was devoted to science fiction at the cinema.",
+"He was discouraged because there were no astronauts to admire."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How did Charles come to be considered for the astronaut programme?",
+"o": [
+"He moved over from the Air Force after a career setback.",
+"He was recruited through a university rocket project.",
+"He answered an advertisement for trainee pilots.",
+"His passion for flying led him into a military career."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "What did Charles find most demanding about his training?",
+"o": [
+"The discomfort of wearing the inflated suit.",
+"The length of time he had to stay in the suit.",
+"The pressure of mastering the landing simulator.",
+"The long hours he had to put in each day."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why did Charles give up his dangerous sports?",
+"o": [
+"He did not want an injury to cost him his place.",
+"He was afraid the programme might be cancelled.",
+"He felt too excited to concentrate on them.",
+"He had been advised to by the programme doctors."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How did the crew react as they approached the landing site?",
+"o": [
+"They felt reassured as they recognised familiar features.",
+"They grew anxious about the state of the ground.",
+"They disagreed about who should take control.",
+"They were delighted by the clouds of dust."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What impressed Charles most about the lunar landscape?",
+"o": [
+"The complete lack of stars in the sky.",
+"The way the sky seemed so close he could touch it.",
+"How bleak and empty the place was.",
+"The brightness of the unending sunlight."
+],
+"c": 2
+}
+]
+},
+{
+"id": "C1-P4",
+"title": "Part 4 · Questions 21–30",
+"kind": "file",
+"file": "TG/cae1-t1/p4.mp3",
+"intro": "You will hear five short extracts in which people describe meeting a famous person. While you listen, you must complete both tasks. For Task 1, choose from the list (A–H) what each speaker's job was. For Task 2, choose from the list (A–H) what each speaker says about the celebrity.",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"taskLabel": "Task 1 — What was each speaker's job when the incident happened?",
+"bank": [
+"hotel receptionist",
+"chauffeur",
+"shop assistant",
+"nightclub manager",
+"waiter",
+"security guard",
+"photographer",
+"journalist"
+],
+"c": "hotel receptionist"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"taskLabel": "Task 1 — What was each speaker's job when the incident happened?",
+"bank": [
+"hotel receptionist",
+"chauffeur",
+"shop assistant",
+"nightclub manager",
+"waiter",
+"security guard",
+"photographer",
+"journalist"
+],
+"c": "chauffeur"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"taskLabel": "Task 1 — What was each speaker's job when the incident happened?",
+"bank": [
+"hotel receptionist",
+"chauffeur",
+"shop assistant",
+"nightclub manager",
+"waiter",
+"security guard",
+"photographer",
+"journalist"
+],
+"c": "shop assistant"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"taskLabel": "Task 1 — What was each speaker's job when the incident happened?",
+"bank": [
+"hotel receptionist",
+"chauffeur",
+"shop assistant",
+"nightclub manager",
+"waiter",
+"security guard",
+"photographer",
+"journalist"
+],
+"c": "nightclub manager"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"taskLabel": "Task 1 — What was each speaker's job when the incident happened?",
+"bank": [
+"hotel receptionist",
+"chauffeur",
+"shop assistant",
+"nightclub manager",
+"waiter",
+"security guard",
+"photographer",
+"journalist"
+],
+"c": "waiter"
+},
+{
+"type": "match",
+"person": "Speaker 1",
+"taskLabel": "Task 2 — What does each speaker say about the celebrity involved?",
+"bank": [
+"A mistake by the speaker caused the celebrity a problem.",
+"The celebrity reacted far more strongly than was necessary.",
+"The celebrity was made to follow an ordinary rule.",
+"The celebrity expected to be treated differently from others.",
+"The celebrity was more modest than the speaker expected.",
+"The celebrity was rude throughout the encounter.",
+"The celebrity left without paying.",
+"The celebrity tried to avoid being recognised."
+],
+"c": "A mistake by the speaker caused the celebrity a problem."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"taskLabel": "Task 2 — What does each speaker say about the celebrity involved?",
+"bank": [
+"A mistake by the speaker caused the celebrity a problem.",
+"The celebrity reacted far more strongly than was necessary.",
+"The celebrity was made to follow an ordinary rule.",
+"The celebrity expected to be treated differently from others.",
+"The celebrity was more modest than the speaker expected.",
+"The celebrity was rude throughout the encounter.",
+"The celebrity left without paying.",
+"The celebrity tried to avoid being recognised."
+],
+"c": "The celebrity reacted far more strongly than was necessary."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"taskLabel": "Task 2 — What does each speaker say about the celebrity involved?",
+"bank": [
+"A mistake by the speaker caused the celebrity a problem.",
+"The celebrity reacted far more strongly than was necessary.",
+"The celebrity was made to follow an ordinary rule.",
+"The celebrity expected to be treated differently from others.",
+"The celebrity was more modest than the speaker expected.",
+"The celebrity was rude throughout the encounter.",
+"The celebrity left without paying.",
+"The celebrity tried to avoid being recognised."
+],
+"c": "The celebrity was made to follow an ordinary rule."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"taskLabel": "Task 2 — What does each speaker say about the celebrity involved?",
+"bank": [
+"A mistake by the speaker caused the celebrity a problem.",
+"The celebrity reacted far more strongly than was necessary.",
+"The celebrity was made to follow an ordinary rule.",
+"The celebrity expected to be treated differently from others.",
+"The celebrity was more modest than the speaker expected.",
+"The celebrity was rude throughout the encounter.",
+"The celebrity left without paying.",
+"The celebrity tried to avoid being recognised."
+],
+"c": "The celebrity expected to be treated differently from others."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"taskLabel": "Task 2 — What does each speaker say about the celebrity involved?",
+"bank": [
+"A mistake by the speaker caused the celebrity a problem.",
+"The celebrity reacted far more strongly than was necessary.",
+"The celebrity was made to follow an ordinary rule.",
+"The celebrity expected to be treated differently from others.",
+"The celebrity was more modest than the speaker expected.",
+"The celebrity was rude throughout the encounter.",
+"The celebrity left without paying.",
+"The celebrity tried to avoid being recognised."
+],
+"c": "The celebrity was more modest than the speaker expected."
+}
+]
+}
+]
+},
+{
+"label": "C1 — Practice · CAE 1 Test 2 audio · TG",
+"cefr": "Cambridge C1 Advanced · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
+"audios": [
+{
+"id": "C1-P1",
+"title": "Part 1 · Questions 1–6",
+"kind": "file",
+"file": "TG/cae1-t2/p1.mp3",
+"intro": "You will hear three different extracts. For questions 1 to 6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear two friends discussing a holiday. What is Diane's main reservation about going?",
+"o": [
+"She is unsure she can afford it after the promotion.",
+"She worries about how her absence might be seen at work.",
+"She doubts that her manager would give her permission."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Diane suggest about one of her colleagues?",
+"o": [
+"He would take advantage of her time away.",
+"He resents her recent promotion.",
+"He has little understanding of her duties."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear two friends talking about a new film. According to the man, which feature kept the film from getting a lower age rating?",
+"o": [
+"The violence at the start.",
+"The bad language.",
+"The sudden bursts of tense music."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What do the friends say about the author's use of dialect in the book?",
+"o": [
+"It is distinctive but takes a little getting used to.",
+"It spoils the realism of the historical setting.",
+"It makes the story unsuitable for young readers."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear an architect talking about an office building. What does she consider most important about its design?",
+"o": [
+"The glass walls her clients asked for.",
+"The shared central area where staff can mix.",
+"The light and spacious feel of the offices."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What advice does she give to executives who cannot build from scratch?",
+"o": [
+"Employ an architect to design a replacement.",
+"Spend more on formal meetings to raise output.",
+"Make modest changes and find out how staff respond."
+],
+"c": 2
+}
+]
+},
+{
+"id": "C1-P2",
+"title": "Part 2 · Questions 7–14",
+"kind": "file",
+"file": "TG/cae1-t2/p2.mp3",
+"intro": "You will hear a guide welcoming visitors to a museum. For questions 7 to 14, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The museum is one of seven that belong to the ____.",
+"accept": [
+"city council",
+"the city council",
+"council"
+]
+},
+{
+"type": "gap",
+"label": "Some cases in the cellar storerooms contain birds, and many others hold ____.",
+"accept": [
+"butterflies",
+"butterfly"
+]
+},
+{
+"type": "gap",
+"label": "The part of the museum where children can learn at their own pace is called '____'.",
+"accept": [
+"let's interact",
+"lets interact"
+]
+},
+{
+"type": "gap",
+"label": "The pictures in the art collection are grouped according to ____ rather than by date.",
+"accept": [
+"theme",
+"themes",
+"thematically"
+]
+},
+{
+"type": "gap",
+"label": "The visitors may feel cold because the ____ needs an expensive refit.",
+"accept": [
+"central heating",
+"heating"
+]
+},
+{
+"type": "gap",
+"label": "The Rutland Dinosaur is ____ metres long.",
+"accept": [
+"40",
+"forty"
+]
+},
+{
+"type": "gap",
+"label": "The dinosaur was discovered in the year ____.",
+"accept": [
+"1968",
+"nineteen sixty-eight",
+"nineteen sixty eight"
+]
+},
+{
+"type": "gap",
+"label": "The part of the dinosaur's tail that was not found has been made of ____.",
+"accept": [
+"polystyrene"
+]
+}
+]
+},
+{
+"id": "C1-P3",
+"title": "Part 3 · Questions 15–20",
+"kind": "file",
+"file": "TG/cae1-t2/p3.mp3",
+"intro": "You will hear part of a radio interview with two members of an evening drama class. For questions 15 to 20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How does Jennifer feel after her drama sessions?",
+"o": [
+"Tired but pleased with what she has achieved.",
+"More energetic than on other days of the week.",
+"Relieved to have survived a demanding session.",
+"Keen to carry on rehearsing at home."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Jennifer say about working with strangers in the group?",
+"o": [
+"It was difficult at first because of her shyness.",
+"She needed several weeks to feel comfortable.",
+"She preferred working in pairs to larger groups.",
+"She felt at ease from the beginning despite her nature."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "What does Harry like about improvisation?",
+"o": [
+"There is no way of doing it wrongly.",
+"It lets him show off his acting skills.",
+"It gives him a chance to copy people he knows.",
+"It prepares him for learning lines."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Harry expect to be a challenge when the group starts working from scripts?",
+"o": [
+"Learning lines quickly enough.",
+"Choosing which famous role to attempt.",
+"Keeping his own way of playing a part.",
+"Getting over his self-consciousness."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What had upset them about the newcomer to the group?",
+"o": [
+"He lacked experience of improvised drama.",
+"He was too shy to join in with the others.",
+"He failed to adapt to how the group works.",
+"He kept criticising other people's performances."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Jennifer say she has learned this term?",
+"o": [
+"To be more forceful when creating a character.",
+"To give others time instead of rushing in.",
+"To feel comfortable outside her usual routine.",
+"To keep personal topics for the break."
+],
+"c": 1
+}
+]
+},
+{
+"id": "C1-P4",
+"title": "Part 4 · Questions 21–30",
+"kind": "file",
+"file": "TG/cae1-t2/p4.mp3",
+"intro": "You will hear five short extracts in which British people talk about living abroad. While you listen, you must complete both tasks. For Task 1, choose from the list (A–H) what each speaker does. For Task 2, choose from the list (A–H) what each speaker likes best.",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"taskLabel": "Task 1 — What does each speaker do or what is each speaker's situation?",
+"bank": [
+"retired person",
+"embassy employee",
+"doctor",
+"engineer",
+"small-business owner",
+"teacher",
+"journalist",
+"hotel manager"
+],
+"c": "retired person"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"taskLabel": "Task 1 — What does each speaker do or what is each speaker's situation?",
+"bank": [
+"retired person",
+"embassy employee",
+"doctor",
+"engineer",
+"small-business owner",
+"teacher",
+"journalist",
+"hotel manager"
+],
+"c": "embassy employee"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"taskLabel": "Task 1 — What does each speaker do or what is each speaker's situation?",
+"bank": [
+"retired person",
+"embassy employee",
+"doctor",
+"engineer",
+"small-business owner",
+"teacher",
+"journalist",
+"hotel manager"
+],
+"c": "doctor"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"taskLabel": "Task 1 — What does each speaker do or what is each speaker's situation?",
+"bank": [
+"retired person",
+"embassy employee",
+"doctor",
+"engineer",
+"small-business owner",
+"teacher",
+"journalist",
+"hotel manager"
+],
+"c": "engineer"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"taskLabel": "Task 1 — What does each speaker do or what is each speaker's situation?",
+"bank": [
+"retired person",
+"embassy employee",
+"doctor",
+"engineer",
+"small-business owner",
+"teacher",
+"journalist",
+"hotel manager"
+],
+"c": "small-business owner"
+},
+{
+"type": "match",
+"person": "Speaker 1",
+"taskLabel": "Task 2 — What does each speaker like best about living abroad?",
+"bank": [
+"the mild winter weather",
+"the range of leisure activities",
+"the money earned for the hours worked",
+"the variety in the work",
+"the friendliness of the local people",
+"the cultural life",
+"the quality of the food",
+"the peaceful pace of life"
+],
+"c": "the mild winter weather"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"taskLabel": "Task 2 — What does each speaker like best about living abroad?",
+"bank": [
+"the mild winter weather",
+"the range of leisure activities",
+"the money earned for the hours worked",
+"the variety in the work",
+"the friendliness of the local people",
+"the cultural life",
+"the quality of the food",
+"the peaceful pace of life"
+],
+"c": "the range of leisure activities"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"taskLabel": "Task 2 — What does each speaker like best about living abroad?",
+"bank": [
+"the mild winter weather",
+"the range of leisure activities",
+"the money earned for the hours worked",
+"the variety in the work",
+"the friendliness of the local people",
+"the cultural life",
+"the quality of the food",
+"the peaceful pace of life"
+],
+"c": "the money earned for the hours worked"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"taskLabel": "Task 2 — What does each speaker like best about living abroad?",
+"bank": [
+"the mild winter weather",
+"the range of leisure activities",
+"the money earned for the hours worked",
+"the variety in the work",
+"the friendliness of the local people",
+"the cultural life",
+"the quality of the food",
+"the peaceful pace of life"
+],
+"c": "the variety in the work"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"taskLabel": "Task 2 — What does each speaker like best about living abroad?",
+"bank": [
+"the mild winter weather",
+"the range of leisure activities",
+"the money earned for the hours worked",
+"the variety in the work",
+"the friendliness of the local people",
+"the cultural life",
+"the quality of the food",
+"the peaceful pace of life"
+],
+"c": "the friendliness of the local people"
+}
+]
+}
+]
+},
+{
+"label": "C1 — Practice · CAE 1 Test 3 audio · TG",
+"cefr": "Cambridge C1 Advanced · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
+"audios": [
+{
+"id": "C1-P1",
+"title": "Part 1 · Questions 1–6",
+"kind": "file",
+"file": "TG/cae1-t3/p1.mp3",
+"intro": "You will hear three different extracts. For each question, choose the answer (A, B or C) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Extract 1 · Two colleagues discuss a new manager. What does Colin concede about her?",
+"o": [
+"She is less organised than her predecessor.",
+"She has introduced some changes that were overdue.",
+"She is open to the staff's views."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Extract 1 · What does Eva suggest Colin should do?",
+"o": [
+"Raise the matter with the manager if things do not improve.",
+"Ask to move to another department.",
+"Discuss it with the previous manager."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Extract 2 · An expert who repairs antique vases is interviewed. Why does she clean the fragments so carefully?",
+"o": [
+"To reveal the colours underneath.",
+"To prove the vase is old.",
+"To make sure the pieces join and the cracks look neat."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Extract 2 · What is her view of visible cracks in a restored vase?",
+"o": [
+"They lower its value.",
+"They honestly show part of its history.",
+"They should be disguised wherever possible."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Extract 3 · A visitor talks to a man who lives on a remote island. What is the man's main reason for wanting a ferry service?",
+"o": [
+"To lower the cost of goods on the island.",
+"To attract new people to live there.",
+"To create jobs for islanders."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Extract 3 · How does he respond to the suggestion that an airport would be needed?",
+"o": [
+"He thinks a small airport would do little harm.",
+"He rejects the idea outright.",
+"He agrees it would spoil the island."
+],
+"c": 0
+}
+]
+},
+{
+"id": "C1-P2",
+"title": "Part 2 · Questions 7–14",
+"kind": "file",
+"file": "TG/cae1-t3/p2.mp3",
+"intro": "You will hear a talk about ancient writing tablets. For questions 7 to 14, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The Roman writing tablets were thin pieces of ____ about the size of an envelope.",
+"accept": [
+"wood"
+]
+},
+{
+"type": "gap",
+"label": "Almost 200 of the tablets were found in a single Roman ____.",
+"accept": [
+"fort"
+]
+},
+{
+"type": "gap",
+"label": "To the naked eye, the writing on most tablets is now ____.",
+"accept": [
+"illegible"
+]
+},
+{
+"type": "gap",
+"label": "Many of the tablets were letters or legal documents written by ____.",
+"accept": [
+"soldiers",
+"roman soldiers"
+]
+},
+{
+"type": "gap",
+"label": "On the tablet in the British Museum, the only word that can be made out is '____'.",
+"accept": [
+"transportation"
+]
+},
+{
+"type": "gap",
+"label": "Professor Brady is a leading figure in the field of computer ____.",
+"accept": [
+"vision"
+]
+},
+{
+"type": "gap",
+"label": "The messages were originally scratched into a layer of ____ using a fine metal point.",
+"accept": [
+"wax"
+]
+},
+{
+"type": "gap",
+"label": "Earlier attempts to read the scratches with ____ photography did not succeed.",
+"accept": [
+"laser"
+]
+}
+]
+},
+{
+"id": "C1-P3",
+"title": "Part 3 · Questions 15–20",
+"kind": "file",
+"file": "TG/cae1-t3/p3.mp3",
+"intro": "You will hear an interview with an architect who designs small buildings. For questions 15 to 20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What does Lucy say about designing the tree house?",
+"o": [
+"She hesitated because of her fear of heights.",
+"The challenge appealed to her despite her dislike of heights.",
+"She had wished to build one for her own children.",
+"Her neighbours supplied most of the design ideas."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What attracted Lucy to old public telephone boxes?",
+"o": [
+"The way they were all built to one standard.",
+"The comfortable furniture some of them contained.",
+"The wide variety of styles that were tried out.",
+"The fact that people met in them to play games."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What was Lucy's aim in her final-year project?",
+"o": [
+"To give temporary site buildings a better look and quicker assembly.",
+"To make such buildings cheaper to produce.",
+"To bring site huts into line with new safety rules.",
+"To find a lighter material for building huts."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How did Lucy react to the market stalls she saw abroad?",
+"o": [
+"She bought one for her parents.",
+"She recommended improvements to the local traders.",
+"She sold her own version straight away.",
+"She made her own copy of the design."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "What pleased Lucy most about her newspaper kiosks?",
+"o": [
+"Their strong steel structure.",
+"How quickly they could be put up.",
+"The ornate decoration on them.",
+"The three windows used for display."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why did the hotel chain make phone boxes a lobby feature?",
+"o": [
+"Mobile phone reception was poor in the lobbies.",
+"Guests in some countries objected to losing the phones.",
+"Guests wanted a private place to make calls.",
+"The company wanted old-fashioned decor throughout."
+],
+"c": 1
+}
+]
+},
+{
+"id": "C1-P4",
+"title": "Part 4 · Questions 21–30",
+"kind": "file",
+"file": "TG/cae1-t3/p4.mp3",
+"intro": "You will hear five short extracts in which people talk about problems at work. While you listen, you must complete both tasks. For Task 1, choose from the list (A–H) the problem each speaker faces. For Task 2, choose from the list (A–H) how each speaker feels now.",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"taskLabel": "Task 1 — What problem does each speaker face at work?",
+"bank": [
+"not being given enough recognition",
+"a workload that is too heavy",
+"unreasonable orders from the management",
+"unreliable information needed for the job",
+"a colleague's attitude over a promotion",
+"a dispute with a customer",
+"a long journey to work",
+"a very low salary"
+],
+"c": "not being given enough recognition"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"taskLabel": "Task 1 — What problem does each speaker face at work?",
+"bank": [
+"not being given enough recognition",
+"a workload that is too heavy",
+"unreasonable orders from the management",
+"unreliable information needed for the job",
+"a colleague's attitude over a promotion",
+"a dispute with a customer",
+"a long journey to work",
+"a very low salary"
+],
+"c": "a workload that is too heavy"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"taskLabel": "Task 1 — What problem does each speaker face at work?",
+"bank": [
+"not being given enough recognition",
+"a workload that is too heavy",
+"unreasonable orders from the management",
+"unreliable information needed for the job",
+"a colleague's attitude over a promotion",
+"a dispute with a customer",
+"a long journey to work",
+"a very low salary"
+],
+"c": "unreasonable orders from the management"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"taskLabel": "Task 1 — What problem does each speaker face at work?",
+"bank": [
+"not being given enough recognition",
+"a workload that is too heavy",
+"unreasonable orders from the management",
+"unreliable information needed for the job",
+"a colleague's attitude over a promotion",
+"a dispute with a customer",
+"a long journey to work",
+"a very low salary"
+],
+"c": "unreliable information needed for the job"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"taskLabel": "Task 1 — What problem does each speaker face at work?",
+"bank": [
+"not being given enough recognition",
+"a workload that is too heavy",
+"unreasonable orders from the management",
+"unreliable information needed for the job",
+"a colleague's attitude over a promotion",
+"a dispute with a customer",
+"a long journey to work",
+"a very low salary"
+],
+"c": "a colleague's attitude over a promotion"
+},
+{
+"type": "match",
+"person": "Speaker 1",
+"taskLabel": "Task 2 — How does each speaker feel at the moment?",
+"bank": [
+"discouraged and thinking of moving on",
+"hopeful but nervous about a possible solution",
+"still angry but determined to act",
+"close to losing patience",
+"unsure how to deal with the situation",
+"relieved that the problem is over",
+"amused by what has happened",
+"proud of the way they have coped"
+],
+"c": "discouraged and thinking of moving on"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"taskLabel": "Task 2 — How does each speaker feel at the moment?",
+"bank": [
+"discouraged and thinking of moving on",
+"hopeful but nervous about a possible solution",
+"still angry but determined to act",
+"close to losing patience",
+"unsure how to deal with the situation",
+"relieved that the problem is over",
+"amused by what has happened",
+"proud of the way they have coped"
+],
+"c": "hopeful but nervous about a possible solution"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"taskLabel": "Task 2 — How does each speaker feel at the moment?",
+"bank": [
+"discouraged and thinking of moving on",
+"hopeful but nervous about a possible solution",
+"still angry but determined to act",
+"close to losing patience",
+"unsure how to deal with the situation",
+"relieved that the problem is over",
+"amused by what has happened",
+"proud of the way they have coped"
+],
+"c": "still angry but determined to act"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"taskLabel": "Task 2 — How does each speaker feel at the moment?",
+"bank": [
+"discouraged and thinking of moving on",
+"hopeful but nervous about a possible solution",
+"still angry but determined to act",
+"close to losing patience",
+"unsure how to deal with the situation",
+"relieved that the problem is over",
+"amused by what has happened",
+"proud of the way they have coped"
+],
+"c": "close to losing patience"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"taskLabel": "Task 2 — How does each speaker feel at the moment?",
+"bank": [
+"discouraged and thinking of moving on",
+"hopeful but nervous about a possible solution",
+"still angry but determined to act",
+"close to losing patience",
+"unsure how to deal with the situation",
+"relieved that the problem is over",
+"amused by what has happened",
+"proud of the way they have coped"
+],
+"c": "unsure how to deal with the situation"
+}
+]
+}
+]
+},
+{
+"label": "C1 — Practice · CAE 1 Test 4 audio · TG",
+"cefr": "Cambridge C1 Advanced · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
+"audios": [
+{
+"id": "C1-P1",
+"title": "Part 1 · Questions 1–6",
+"kind": "file",
+"file": "TG/cae1-t4/p1.mp3",
+"intro": "You will hear three different extracts. For questions 1 to 6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear part of a radio discussion about a football team. What does the man say about John Elliott?",
+"o": [
+"He tends to lose his composure near the goal.",
+"He creates chances for the team's main scorers.",
+"He prefers shooting himself to passing."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What do the speakers say about the club's signing of Danny Martinez?",
+"o": [
+"He is likely to prove a poor investment.",
+"The club has learned from past mistakes.",
+"The club paid too much but could sell him on."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "You hear part of an interview with an environmental campaigner. What does she say is happening to the anchovy population?",
+"o": [
+"It is being reduced by warmer seas and large-scale fishing.",
+"It is falling mainly because of the local fishermen's catches.",
+"It is recovering now that protection measures are in place."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How have local fishermen's feelings towards her changed?",
+"o": [
+"They have come to share her affection for seals.",
+"They now see her as someone who supports their interests.",
+"They continue to resent her work."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a woman talking about a book that mattered to her. How did she come to own it?",
+"o": [
+"She asked for it as a present.",
+"Someone she knew lent it to her.",
+"She came across it by chance."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does she say first made the book so absorbing?",
+"o": [
+"The fast pace of the plot.",
+"Its familiar ideas.",
+"Its unusual quality."
+],
+"c": 2
+}
+]
+},
+{
+"id": "C1-P2",
+"title": "Part 2 · Questions 7–14",
+"kind": "file",
+"file": "TG/cae1-t4/p2.mp3",
+"intro": "You will hear a radio report about cherry growing. For questions 7 to 14, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Many growers are replacing traditional crops such as ____ with cherries.",
+"accept": [
+"apples",
+"apple"
+]
+},
+{
+"type": "gap",
+"label": "A problem for producers is that growth can vary from one ____ to the next.",
+"accept": [
+"season",
+"year"
+]
+},
+{
+"type": "gap",
+"label": "In some years the fruit stops growing when it is only the size of a ____.",
+"accept": [
+"pea"
+]
+},
+{
+"type": "gap",
+"label": "To protect smaller trees from rain and wind, growers cover them with a plastic ____.",
+"accept": [
+"tunnel"
+]
+},
+{
+"type": "gap",
+"label": "In the best conditions the yield could reach ____ tons per hectare.",
+"accept": [
+"5",
+"five"
+]
+},
+{
+"type": "gap",
+"label": "Cherries crack easily in wet weather because their skin has very little ____.",
+"accept": [
+"wax"
+]
+},
+{
+"type": "gap",
+"label": "The best cherries to buy are those with a ____ stem.",
+"accept": [
+"green"
+]
+},
+{
+"type": "gap",
+"label": "Of the three new varieties, ____ is being planted in the largest numbers.",
+"accept": [
+"sweetheart"
+]
+}
+]
+},
+{
+"id": "C1-P3",
+"title": "Part 3 · Questions 15–20",
+"kind": "file",
+"file": "TG/cae1-t4/p3.mp3",
+"intro": "You will hear a radio interview with an artist. For questions 15 to 20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What does Sophie say about colour in her life?",
+"o": [
+"She has trained herself to notice it.",
+"It comes naturally without her thinking about it.",
+"Her family taught her to use it with care.",
+"She cannot sleep without it."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What is Sophie's attitude to her children playing on the stairs?",
+"o": [
+"She lets them take risks so that they gain confidence.",
+"She is anxious but tries not to show it.",
+"She has made the stairs safe for them.",
+"She thinks the baby is too young to climb."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Sophie say about family celebrations?",
+"o": [
+"They are expensive because of the large parties.",
+"The relatives compete with each other.",
+"There is pressure to come up with something unusual.",
+"She resents having to dress up."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What happened after Sophie made puppets for her daughter's party?",
+"o": [
+"She decided she disliked performing.",
+"Her daughter lost interest in painting.",
+"Other parents criticised her show.",
+"Other parents asked her for similar shows."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "Why did Sophie leave art school?",
+"o": [
+"She failed her final exams.",
+"She felt out of step with the style of work then in favour.",
+"She was offered a permanent job in a hotel.",
+"She could no longer afford the fees."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Sophie say about her early professional success?",
+"o": [
+"It came from winning a competition.",
+"It depended on her health education work.",
+"It began with a poster she gave in place of a payment.",
+"It began when she wrote a book of her own."
+],
+"c": 2
+}
+]
+},
+{
+"id": "C1-P4",
+"title": "Part 4 · Questions 21–30",
+"kind": "file",
+"file": "TG/cae1-t4/p4.mp3",
+"intro": "You will hear five short extracts in which people talk about tourism. While you listen, you must complete both tasks. For Task 1, choose from the list (A–H) what each speaker does. For Task 2, choose from the list (A–H) each speaker's aim for the future.",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"taskLabel": "Task 1 — What is each speaker's occupation?",
+"bank": [
+"local councillor",
+"guidebook editor",
+"tourism marketing officer",
+"countryside conservationist",
+"manager of a historic house",
+"hotel owner",
+"travel agent",
+"tour guide"
+],
+"c": "local councillor"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"taskLabel": "Task 1 — What is each speaker's occupation?",
+"bank": [
+"local councillor",
+"guidebook editor",
+"tourism marketing officer",
+"countryside conservationist",
+"manager of a historic house",
+"hotel owner",
+"travel agent",
+"tour guide"
+],
+"c": "guidebook editor"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"taskLabel": "Task 1 — What is each speaker's occupation?",
+"bank": [
+"local councillor",
+"guidebook editor",
+"tourism marketing officer",
+"countryside conservationist",
+"manager of a historic house",
+"hotel owner",
+"travel agent",
+"tour guide"
+],
+"c": "tourism marketing officer"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"taskLabel": "Task 1 — What is each speaker's occupation?",
+"bank": [
+"local councillor",
+"guidebook editor",
+"tourism marketing officer",
+"countryside conservationist",
+"manager of a historic house",
+"hotel owner",
+"travel agent",
+"tour guide"
+],
+"c": "countryside conservationist"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"taskLabel": "Task 1 — What is each speaker's occupation?",
+"bank": [
+"local councillor",
+"guidebook editor",
+"tourism marketing officer",
+"countryside conservationist",
+"manager of a historic house",
+"hotel owner",
+"travel agent",
+"tour guide"
+],
+"c": "manager of a historic house"
+},
+{
+"type": "match",
+"person": "Speaker 1",
+"taskLabel": "Task 2 — What is each speaker's aim for the future?",
+"bank": [
+"to improve public transport to the town",
+"to raise standards of places to stay",
+"to bring in visitors outside the summer months",
+"to support country areas through traditional crafts",
+"to attract families to new outdoor attractions",
+"to cut prices for visitors",
+"to limit the number of tourists",
+"to open a second site"
+],
+"c": "to improve public transport to the town"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"taskLabel": "Task 2 — What is each speaker's aim for the future?",
+"bank": [
+"to improve public transport to the town",
+"to raise standards of places to stay",
+"to bring in visitors outside the summer months",
+"to support country areas through traditional crafts",
+"to attract families to new outdoor attractions",
+"to cut prices for visitors",
+"to limit the number of tourists",
+"to open a second site"
+],
+"c": "to raise standards of places to stay"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"taskLabel": "Task 2 — What is each speaker's aim for the future?",
+"bank": [
+"to improve public transport to the town",
+"to raise standards of places to stay",
+"to bring in visitors outside the summer months",
+"to support country areas through traditional crafts",
+"to attract families to new outdoor attractions",
+"to cut prices for visitors",
+"to limit the number of tourists",
+"to open a second site"
+],
+"c": "to bring in visitors outside the summer months"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"taskLabel": "Task 2 — What is each speaker's aim for the future?",
+"bank": [
+"to improve public transport to the town",
+"to raise standards of places to stay",
+"to bring in visitors outside the summer months",
+"to support country areas through traditional crafts",
+"to attract families to new outdoor attractions",
+"to cut prices for visitors",
+"to limit the number of tourists",
+"to open a second site"
+],
+"c": "to support country areas through traditional crafts"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"taskLabel": "Task 2 — What is each speaker's aim for the future?",
+"bank": [
+"to improve public transport to the town",
+"to raise standards of places to stay",
+"to bring in visitors outside the summer months",
+"to support country areas through traditional crafts",
+"to attract families to new outdoor attractions",
+"to cut prices for visitors",
+"to limit the number of tourists",
+"to open a second site"
+],
+"c": "to attract families to new outdoor attractions"
+}
+]
+}
+]
+},
+{
+"label": "C1 — Practice · CAE 2 Test 1 audio · TG",
+"cefr": "Cambridge C1 Advanced · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
+"audios": [
+{
+"id": "C1-P1",
+"title": "Part 1 · Questions 1–6",
+"kind": "file",
+"file": "TG/cae2-t1/p1.mp3",
+"intro": "You will hear three different extracts. For each question, choose the answer (A, B or C) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Extract 1 · Two friends discuss a film. What is one criticism of it?",
+"o": [
+"The story lacks a continuous thread.",
+"The acting is poor.",
+"The ending is too sad."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Extract 1 · What is said about the original novel and the film version?",
+"o": [
+"The film improves on the book in every way.",
+"Both are equally delicate.",
+"The novel is subtler, but the film moves people more."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Extract 2 · An architect is interviewed on the radio. What does he say would happen if the public voted on public buildings?",
+"o": [
+"It would be unfair to architects.",
+"Great buildings would not get built.",
+"Buildings would become cheaper."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Extract 2 · What does he say about the Netherlands?",
+"o": [
+"Ordinary people there know a lot about architecture.",
+"Its town planning is poor.",
+"Its architects mostly work abroad."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Extract 3 · An ecologist talks about climate change. What prompted her campaign?",
+"o": [
+"Pressure from factory owners.",
+"A disaster film she had seen.",
+"Some governments' failure to commit to pollution agreements."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Extract 3 · What does she say about the character Mrs Green?",
+"o": [
+"She spends a lot of money on green products.",
+"Her small habits make a big difference and save money.",
+"She is a figure of fun."
+],
+"c": 1
+}
+]
+},
+{
+"id": "C1-P2",
+"title": "Part 2 · Questions 7–14",
+"kind": "file",
+"file": "TG/cae2-t1/p2.mp3",
+"intro": "You will hear a mountaineer talking about climbing Mount Everest. For questions 7 to 14, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Stella first became interested in climbing while she was working as a ____.",
+"accept": [
+"journalist",
+"a journalist"
+]
+},
+{
+"type": "gap",
+"label": "Before Everest, she had already tried adventure sports such as hand gliding and ____.",
+"accept": [
+"scuba diving",
+"scuba"
+]
+},
+{
+"type": "gap",
+"label": "She did her physical preparation at a local ____.",
+"accept": [
+"gym",
+"the gym"
+]
+},
+{
+"type": "gap",
+"label": "One of the things that frightened her most about the mountain was the ____.",
+"accept": [
+"ice fall",
+"icefall",
+"the ice fall",
+"the icefall"
+]
+},
+{
+"type": "gap",
+"label": "On her first trip she carried her ____ all the way, although she did not need it.",
+"accept": [
+"perfume"
+]
+},
+{
+"type": "gap",
+"label": "The only source of water on the mountain is melted ____.",
+"accept": [
+"snow"
+]
+},
+{
+"type": "gap",
+"label": "The feeling that Stella and her companions had most strongly at the summit was ____.",
+"accept": [
+"satisfaction",
+"a great sense of satisfaction",
+"a sense of satisfaction"
+]
+},
+{
+"type": "gap",
+"label": "Later this year Stella intends to climb Mount ____.",
+"accept": [
+"fuji"
+]
+}
+]
+},
+{
+"id": "C1-P3",
+"title": "Part 3 · Questions 15–20",
+"kind": "file",
+"file": "TG/cae2-t1/p3.mp3",
+"intro": "You will hear part of an interview with the founder of a listings magazine. For questions 15 to 20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What gave Tony the idea for the magazine?",
+"o": [
+"The existing weekly guide had stopped appearing.",
+"The evening paper had cut back its coverage of events.",
+"No single publication listed everything that was on.",
+"The music papers were aimed at too young a readership."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why were early copies sold in the street?",
+"o": [
+"To raise some money and see how people reacted.",
+"To avoid the cost of paying distributors.",
+"Because newsagents refused to stock it.",
+"To advertise the magazine's launch party."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What did Tony do with the university magazine when he took it over?",
+"o": [
+"He made its content more serious.",
+"He turned it into a magazine about contemporary arts.",
+"He cut down how often it appeared.",
+"He devoted each issue to a single theme."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why did Tony not go back to university?",
+"o": [
+"He failed one of his courses.",
+"He was refused permission to teach in France.",
+"The university dismissed him for neglecting his studies.",
+"He realised that he was enjoying the magazine work."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "What made Time Out start to appear weekly?",
+"o": [
+"Pressure from advertisers.",
+"The prospect of a rival publication.",
+"Improvements in printing technology.",
+"An increase in the size of his staff."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Tony say about publishers and advertisers in the early days?",
+"o": [
+"They copied his idea within a few months.",
+"They supported the magazine because of its student readers.",
+"They underestimated how valuable its readers were.",
+"They refused to accept that it would last."
+],
+"c": 2
+}
+]
+},
+{
+"id": "C1-P4",
+"title": "Part 4 · Questions 21–30",
+"kind": "file",
+"file": "TG/cae2-t1/p4.mp3",
+"intro": "You will hear five short extracts in which people talk about situations at work. While you listen, you must complete both tasks. For Task 1, choose from the list (A–H) what has happened to each speaker. For Task 2, choose from the list (A–H) how each speaker feels.",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"taskLabel": "Task 1 — What has happened to each speaker?",
+"bank": [
+"was wrongly blamed for an error",
+"turned down a request to take on extra work",
+"had a private opinion passed on by someone",
+"was offered a post that he or she does not want",
+"declined an invitation to travel",
+"was refused a promotion",
+"lost an important document",
+"was dismissed unfairly"
+],
+"c": "was wrongly blamed for an error"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"taskLabel": "Task 1 — What has happened to each speaker?",
+"bank": [
+"was wrongly blamed for an error",
+"turned down a request to take on extra work",
+"had a private opinion passed on by someone",
+"was offered a post that he or she does not want",
+"declined an invitation to travel",
+"was refused a promotion",
+"lost an important document",
+"was dismissed unfairly"
+],
+"c": "turned down a request to take on extra work"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"taskLabel": "Task 1 — What has happened to each speaker?",
+"bank": [
+"was wrongly blamed for an error",
+"turned down a request to take on extra work",
+"had a private opinion passed on by someone",
+"was offered a post that he or she does not want",
+"declined an invitation to travel",
+"was refused a promotion",
+"lost an important document",
+"was dismissed unfairly"
+],
+"c": "had a private opinion passed on by someone"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"taskLabel": "Task 1 — What has happened to each speaker?",
+"bank": [
+"was wrongly blamed for an error",
+"turned down a request to take on extra work",
+"had a private opinion passed on by someone",
+"was offered a post that he or she does not want",
+"declined an invitation to travel",
+"was refused a promotion",
+"lost an important document",
+"was dismissed unfairly"
+],
+"c": "was offered a post that he or she does not want"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"taskLabel": "Task 1 — What has happened to each speaker?",
+"bank": [
+"was wrongly blamed for an error",
+"turned down a request to take on extra work",
+"had a private opinion passed on by someone",
+"was offered a post that he or she does not want",
+"declined an invitation to travel",
+"was refused a promotion",
+"lost an important document",
+"was dismissed unfairly"
+],
+"c": "declined an invitation to travel"
+},
+{
+"type": "match",
+"person": "Speaker 1",
+"taskLabel": "Task 2 — How does each speaker feel?",
+"bank": [
+"amused by what is about to happen",
+"discouraged by the work given to him or her",
+"angry with someone",
+"guilty about letting someone down",
+"resigned to a situation",
+"anxious about the future",
+"relieved that a problem is over",
+"embarrassed by a mistake"
+],
+"c": "amused by what is about to happen"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"taskLabel": "Task 2 — How does each speaker feel?",
+"bank": [
+"amused by what is about to happen",
+"discouraged by the work given to him or her",
+"angry with someone",
+"guilty about letting someone down",
+"resigned to a situation",
+"anxious about the future",
+"relieved that a problem is over",
+"embarrassed by a mistake"
+],
+"c": "discouraged by the work given to him or her"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"taskLabel": "Task 2 — How does each speaker feel?",
+"bank": [
+"amused by what is about to happen",
+"discouraged by the work given to him or her",
+"angry with someone",
+"guilty about letting someone down",
+"resigned to a situation",
+"anxious about the future",
+"relieved that a problem is over",
+"embarrassed by a mistake"
+],
+"c": "angry with someone"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"taskLabel": "Task 2 — How does each speaker feel?",
+"bank": [
+"amused by what is about to happen",
+"discouraged by the work given to him or her",
+"angry with someone",
+"guilty about letting someone down",
+"resigned to a situation",
+"anxious about the future",
+"relieved that a problem is over",
+"embarrassed by a mistake"
+],
+"c": "guilty about letting someone down"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"taskLabel": "Task 2 — How does each speaker feel?",
+"bank": [
+"amused by what is about to happen",
+"discouraged by the work given to him or her",
+"angry with someone",
+"guilty about letting someone down",
+"resigned to a situation",
+"anxious about the future",
+"relieved that a problem is over",
+"embarrassed by a mistake"
+],
+"c": "resigned to a situation"
+}
+]
+}
+]
+},
+{
+"label": "C1 — Practice · CAE 2 Test 2 audio · TG",
+"cefr": "Cambridge C1 Advanced · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
+"audios": [
+{
+"id": "C1-P1",
+"title": "Part 1 · Questions 1–6",
+"kind": "file",
+"file": "TG/cae2-t2/p1.mp3",
+"intro": "You will hear three different extracts. For questions 1 to 6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You overhear a conversation at a golf club. What does the visitor say about satellite navigation systems?",
+"o": [
+"They are too expensive for him.",
+"He is not fond of electronic devices.",
+"He tried one and found it unreliable."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does the secretary emphasise about satellite navigation?",
+"o": [
+"How precisely it can locate a position.",
+"How much cheaper it has become.",
+"How easy it is for beginners to use."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a comedian and an anthropologist talking about their lives. How did the comedian use humour at school?",
+"o": [
+"To make friends with new classmates.",
+"To impress the teachers.",
+"To avoid being picked on."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does the woman say about her own work?",
+"o": [
+"It involves inventing an imaginary world.",
+"It concentrates on things that others overlook.",
+"It relies on being spontaneous."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a man and a woman discussing books for holidays. What does the woman say about a 19th-century romance?",
+"o": [
+"It can ease the longing for home.",
+"It is too depressing to read on holiday.",
+"It is too bulky to pack."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why does the man enjoy the crime writer's books?",
+"o": [
+"He knows the city where they are set.",
+"He admires the author's plots.",
+"He finds the slang in the dialogue appealing."
+],
+"c": 2
+}
+]
+},
+{
+"id": "C1-P2",
+"title": "Part 2 · Questions 7–14",
+"kind": "file",
+"file": "TG/cae2-t2/p2.mp3",
+"intro": "You will hear a reporter describing a visit to the Arctic. For questions 7 to 14, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "From the plane, the seals on the ice looked like ____.",
+"accept": [
+"ants"
+]
+},
+{
+"type": "gap",
+"label": "The reporter's first sight of a wolf was about ____ metres away.",
+"accept": [
+"700",
+"seven hundred"
+]
+},
+{
+"type": "gap",
+"label": "A small area with access to water where plants can grow is known as an ____.",
+"accept": [
+"oasis",
+"an oasis"
+]
+},
+{
+"type": "gap",
+"label": "Most of the yellow Arctic poppy is underground, as a network of ____.",
+"accept": [
+"roots"
+]
+},
+{
+"type": "gap",
+"label": "The snowy owl feeds mainly on small mammals called ____.",
+"accept": [
+"lemmings"
+]
+},
+{
+"type": "gap",
+"label": "The team's nylon tents resembled the ____ built by the Inuit.",
+"accept": [
+"igloos"
+]
+},
+{
+"type": "gap",
+"label": "The team's only connection with the outside world was a ____ link.",
+"accept": [
+"radio"
+]
+},
+{
+"type": "gap",
+"label": "When recording, Ruth had to keep the ____ warm inside her coat.",
+"accept": [
+"batteries"
+]
+}
+]
+},
+{
+"id": "C1-P3",
+"title": "Part 3 · Questions 15–20",
+"kind": "file",
+"file": "TG/cae2-t2/p3.mp3",
+"intro": "You will hear a radio interview with a married couple who design gardens. For questions 15 to 20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How does Helena feel about the business having carried only Jedd's name?",
+"o": [
+"She regrets not being given more credit.",
+"She is relieved to avoid attention.",
+"She is indifferent to the matter.",
+"She resents their friend's advice."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Jedd say about being a public figure?",
+"o": [
+"He dislikes it more than he used to.",
+"He enjoys it despite some drawbacks.",
+"It has stopped him doing things he likes.",
+"It makes him doubt his own talent."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why did Helena accept the television job?",
+"o": [
+"She loves travelling abroad.",
+"She wanted to become well known.",
+"They needed an income while the house was unfinished.",
+"Jedd persuaded her to take it."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How did the idea of the jewel garden come about?",
+"o": [
+"It had been planned for years.",
+"Journalists asked them to create it.",
+"It was suggested by a friend.",
+"It was invented on the spot during a lecture."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "What does Helena say about the jewel theme?",
+"o": [
+"It reflects a long-held ambition.",
+"It helped them narrow their choices.",
+"It was chosen to please the press.",
+"It copies a famous garden."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does the garden mean to Jedd?",
+"o": [
+"Evidence that a bad experience can be turned into something positive.",
+"Proof that they have recovered financially.",
+"An opportunity to forget the past completely.",
+"Thanks to their former customers."
+],
+"c": 0
+}
+]
+},
+{
+"id": "C1-P4",
+"title": "Part 4 · Questions 21–30",
+"kind": "file",
+"file": "TG/cae2-t2/p4.mp3",
+"intro": "You will hear five short extracts in which people talk about how they spent a weekend. While you listen, you must complete both tasks. For Task 1, choose from the list (A–H) the activity each speaker describes. For Task 2, choose from the list (A–H) how each speaker felt about it.",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"taskLabel": "Task 1 — What activity is each speaker describing?",
+"bank": [
+"going to a street market",
+"climbing a mountain",
+"watching a live sports match",
+"eating in a restaurant",
+"swimming outdoors",
+"visiting a museum",
+"going to a concert",
+"fishing"
+],
+"c": "going to a street market"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"taskLabel": "Task 1 — What activity is each speaker describing?",
+"bank": [
+"going to a street market",
+"climbing a mountain",
+"watching a live sports match",
+"eating in a restaurant",
+"swimming outdoors",
+"visiting a museum",
+"going to a concert",
+"fishing"
+],
+"c": "climbing a mountain"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"taskLabel": "Task 1 — What activity is each speaker describing?",
+"bank": [
+"going to a street market",
+"climbing a mountain",
+"watching a live sports match",
+"eating in a restaurant",
+"swimming outdoors",
+"visiting a museum",
+"going to a concert",
+"fishing"
+],
+"c": "watching a live sports match"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"taskLabel": "Task 1 — What activity is each speaker describing?",
+"bank": [
+"going to a street market",
+"climbing a mountain",
+"watching a live sports match",
+"eating in a restaurant",
+"swimming outdoors",
+"visiting a museum",
+"going to a concert",
+"fishing"
+],
+"c": "eating in a restaurant"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"taskLabel": "Task 1 — What activity is each speaker describing?",
+"bank": [
+"going to a street market",
+"climbing a mountain",
+"watching a live sports match",
+"eating in a restaurant",
+"swimming outdoors",
+"visiting a museum",
+"going to a concert",
+"fishing"
+],
+"c": "swimming outdoors"
+},
+{
+"type": "match",
+"person": "Speaker 1",
+"taskLabel": "Task 2 — How does each speaker feel about the activity?",
+"bank": [
+"mildly satisfied despite the difficulties",
+"frustrated that plans had to be given up",
+"content just to be present",
+"flattered by special treatment",
+"worn out after overdoing it",
+"bored by the whole thing",
+"annoyed with a companion",
+"anxious about the cost"
+],
+"c": "mildly satisfied despite the difficulties"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"taskLabel": "Task 2 — How does each speaker feel about the activity?",
+"bank": [
+"mildly satisfied despite the difficulties",
+"frustrated that plans had to be given up",
+"content just to be present",
+"flattered by special treatment",
+"worn out after overdoing it",
+"bored by the whole thing",
+"annoyed with a companion",
+"anxious about the cost"
+],
+"c": "frustrated that plans had to be given up"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"taskLabel": "Task 2 — How does each speaker feel about the activity?",
+"bank": [
+"mildly satisfied despite the difficulties",
+"frustrated that plans had to be given up",
+"content just to be present",
+"flattered by special treatment",
+"worn out after overdoing it",
+"bored by the whole thing",
+"annoyed with a companion",
+"anxious about the cost"
+],
+"c": "content just to be present"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"taskLabel": "Task 2 — How does each speaker feel about the activity?",
+"bank": [
+"mildly satisfied despite the difficulties",
+"frustrated that plans had to be given up",
+"content just to be present",
+"flattered by special treatment",
+"worn out after overdoing it",
+"bored by the whole thing",
+"annoyed with a companion",
+"anxious about the cost"
+],
+"c": "flattered by special treatment"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"taskLabel": "Task 2 — How does each speaker feel about the activity?",
+"bank": [
+"mildly satisfied despite the difficulties",
+"frustrated that plans had to be given up",
+"content just to be present",
+"flattered by special treatment",
+"worn out after overdoing it",
+"bored by the whole thing",
+"annoyed with a companion",
+"anxious about the cost"
+],
+"c": "worn out after overdoing it"
+}
+]
+}
+]
+},
+{
+"label": "C1 — Practice · CAE 2 Test 3 audio · TG",
+"cefr": "Cambridge C1 Advanced · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
+"audios": [
+{
+"id": "C1-P1",
+"title": "Part 1 · Questions 1–6",
+"kind": "file",
+"file": "TG/cae2-t3/p1.mp3",
+"intro": "You will hear three different extracts. For questions 1 to 6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You overhear a man telling a friend about a trip to the theatre. What does he say about the venue?",
+"o": [
+"It was easy to find.",
+"It turned out to be surprisingly small.",
+"It had only just opened."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What was his opinion of the performance?",
+"o": [
+"The actors partly hid their shortcomings through commitment.",
+"The small audience affected the cast's performance.",
+"The costumes and make-up were impressive."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear a tour operator being interviewed at a conference. How does he say his company differs from others?",
+"o": [
+"It offers unusual themes for its trips.",
+"It runs its tours in a distinctive way.",
+"It specialises in groups with special needs."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does he believe will make people willing to pay more for such tours?",
+"o": [
+"Awareness of the worldwide effects of their choices.",
+"Government rules on how tours are run.",
+"Higher incomes among holidaymakers."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "You hear two radio presenters talking about a rugby match. What is Steve's view of the way tickets were shared out?",
+"o": [
+"It is unfair to supporters of Wales.",
+"It is understandable.",
+"It ought to be reviewed."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What advice does Steve give to listeners who have tickets?",
+"o": [
+"Join the Welsh supporters' fan club.",
+"Take advantage of cheap flight offers.",
+"Arrange somewhere to stay without delay."
+],
+"c": 2
+}
+]
+},
+{
+"id": "C1-P2",
+"title": "Part 2 · Questions 7–14",
+"kind": "file",
+"file": "TG/cae2-t3/p2.mp3",
+"intro": "You will hear a woman talking about skydiving. For questions 7 to 14, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Kate made her first jump as a ____, because she could get a discount.",
+"accept": [
+"university student",
+"student",
+"a university student"
+]
+},
+{
+"type": "gap",
+"label": "She could only afford to skydive regularly after she began working as a ____.",
+"accept": [
+"lawyer",
+"a lawyer"
+]
+},
+{
+"type": "gap",
+"label": "Some business executives with stressful jobs skydive to help them ____.",
+"accept": [
+"relax"
+]
+},
+{
+"type": "gap",
+"label": "Jumping from a plane can help people overcome a fear of ____.",
+"accept": [
+"heights"
+]
+},
+{
+"type": "gap",
+"label": "Nowadays most people buy their skydiving equipment from ____.",
+"accept": [
+"websites",
+"the internet",
+"internet websites",
+"web sites"
+]
+},
+{
+"type": "gap",
+"label": "Kate considers a good ____ to be the most important item of equipment.",
+"accept": [
+"helmet",
+"a helmet"
+]
+},
+{
+"type": "gap",
+"label": "A first-time jumper is strapped to an instructor who has made at least ____ jumps.",
+"accept": [
+"2000",
+"2,000",
+"two thousand"
+]
+},
+{
+"type": "gap",
+"label": "Kate recommends learning to skydive over several ____.",
+"accept": [
+"months"
+]
+}
+]
+},
+{
+"id": "C1-P3",
+"title": "Part 3 · Questions 15–20",
+"kind": "file",
+"file": "TG/cae2-t3/p3.mp3",
+"intro": "You will hear an interview with an engineer who works in the film industry. For questions 15 to 20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Why did Roger set up his own business?",
+"o": [
+"He had lost his job and wanted to take control of his working life.",
+"He had always dreamed of working in films.",
+"He wanted to use money that he had inherited.",
+"His wife persuaded him to start a partnership."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How does Roger describe the early days of the business?",
+"o": [
+"Progress was steady and trouble-free.",
+"It was an unpredictable struggle on several fronts.",
+"It was easy thanks to his earlier contacts.",
+"It was dull compared with his previous job."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Roger say about the size of his company?",
+"o": [
+"He wants it to grow as fast as possible.",
+"He plans to merge it with a larger firm.",
+"He thinks it is wise to keep it small.",
+"He fears it is too small to survive."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does he value most about being self-employed?",
+"o": [
+"Having no need to commute.",
+"Being able to choose when to take holidays.",
+"Earning a regular income.",
+"Having nothing to do with office politics."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "Why does he think running his own company is the safer choice?",
+"o": [
+"Nobody's job is secure these days anyway.",
+"It pays far better than employment.",
+"He is protected by his previous experience.",
+"His family will always support him."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What is Roger's view of engineers?",
+"o": [
+"They should concentrate on practical tasks.",
+"They are better treated in other countries.",
+"They need to be inventive and to feel valued.",
+"They ought to earn more than film directors."
+],
+"c": 2
+}
+]
+},
+{
+"id": "C1-P4",
+"title": "Part 4 · Questions 21–30",
+"kind": "file",
+"file": "TG/cae2-t3/p4.mp3",
+"intro": "You will hear five short extracts in which people talk about the importance of eating breakfast. While you listen, you must complete both tasks. For Task 1, choose from the list (A–H) each speaker's occupation. For Task 2, choose from the list (A–H) what each speaker says.",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"taskLabel": "Task 1 — What is each speaker's occupation?",
+"bank": [
+"athlete",
+"newspaper columnist",
+"train driver",
+"flight attendant",
+"teacher",
+"doctor",
+"chef",
+"taxi driver"
+],
+"c": "athlete"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"taskLabel": "Task 1 — What is each speaker's occupation?",
+"bank": [
+"athlete",
+"newspaper columnist",
+"train driver",
+"flight attendant",
+"teacher",
+"doctor",
+"chef",
+"taxi driver"
+],
+"c": "newspaper columnist"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"taskLabel": "Task 1 — What is each speaker's occupation?",
+"bank": [
+"athlete",
+"newspaper columnist",
+"train driver",
+"flight attendant",
+"teacher",
+"doctor",
+"chef",
+"taxi driver"
+],
+"c": "train driver"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"taskLabel": "Task 1 — What is each speaker's occupation?",
+"bank": [
+"athlete",
+"newspaper columnist",
+"train driver",
+"flight attendant",
+"teacher",
+"doctor",
+"chef",
+"taxi driver"
+],
+"c": "flight attendant"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"taskLabel": "Task 1 — What is each speaker's occupation?",
+"bank": [
+"athlete",
+"newspaper columnist",
+"train driver",
+"flight attendant",
+"teacher",
+"doctor",
+"chef",
+"taxi driver"
+],
+"c": "teacher"
+},
+{
+"type": "match",
+"person": "Speaker 1",
+"taskLabel": "Task 2 — What does each speaker say about breakfast?",
+"bank": [
+"Eating before exercise is essential for good results.",
+"Research changed the speaker's mind about breakfast.",
+"Missing breakfast leads to unhealthy snacking.",
+"Meals have to be planned around an irregular timetable.",
+"Advice about breakfast must suit family routines.",
+"Breakfast helps people lose weight.",
+"Children should be given breakfast at school.",
+"Breakfast cereals are the best choice."
+],
+"c": "Eating before exercise is essential for good results."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"taskLabel": "Task 2 — What does each speaker say about breakfast?",
+"bank": [
+"Eating before exercise is essential for good results.",
+"Research changed the speaker's mind about breakfast.",
+"Missing breakfast leads to unhealthy snacking.",
+"Meals have to be planned around an irregular timetable.",
+"Advice about breakfast must suit family routines.",
+"Breakfast helps people lose weight.",
+"Children should be given breakfast at school.",
+"Breakfast cereals are the best choice."
+],
+"c": "Research changed the speaker's mind about breakfast."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"taskLabel": "Task 2 — What does each speaker say about breakfast?",
+"bank": [
+"Eating before exercise is essential for good results.",
+"Research changed the speaker's mind about breakfast.",
+"Missing breakfast leads to unhealthy snacking.",
+"Meals have to be planned around an irregular timetable.",
+"Advice about breakfast must suit family routines.",
+"Breakfast helps people lose weight.",
+"Children should be given breakfast at school.",
+"Breakfast cereals are the best choice."
+],
+"c": "Missing breakfast leads to unhealthy snacking."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"taskLabel": "Task 2 — What does each speaker say about breakfast?",
+"bank": [
+"Eating before exercise is essential for good results.",
+"Research changed the speaker's mind about breakfast.",
+"Missing breakfast leads to unhealthy snacking.",
+"Meals have to be planned around an irregular timetable.",
+"Advice about breakfast must suit family routines.",
+"Breakfast helps people lose weight.",
+"Children should be given breakfast at school.",
+"Breakfast cereals are the best choice."
+],
+"c": "Meals have to be planned around an irregular timetable."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"taskLabel": "Task 2 — What does each speaker say about breakfast?",
+"bank": [
+"Eating before exercise is essential for good results.",
+"Research changed the speaker's mind about breakfast.",
+"Missing breakfast leads to unhealthy snacking.",
+"Meals have to be planned around an irregular timetable.",
+"Advice about breakfast must suit family routines.",
+"Breakfast helps people lose weight.",
+"Children should be given breakfast at school.",
+"Breakfast cereals are the best choice."
+],
+"c": "Advice about breakfast must suit family routines."
+}
+]
+}
+]
+},
+{
+"label": "C1 — Practice · CAE 2 Test 4 audio · TG",
+"cefr": "Cambridge C1 Advanced · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
+"audios": [
+{
+"id": "C1-P1",
+"title": "Part 1 · Questions 1–6",
+"kind": "file",
+"file": "TG/cae2-t4/p1.mp3",
+"intro": "You will hear three different extracts. For questions 1 to 6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "You hear a broadcaster talking about landscape painting. Why did he include a painting by a famous politician?",
+"o": [
+"To show that painting can be a private pastime for ordinary people.",
+"To teach viewers about technique.",
+"To prove that politicians can paint as well as professionals."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does he say about drawing?",
+"o": [
+"It helps him unwind after work.",
+"It makes him look at a scene more carefully.",
+"It has improved his photography."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear an amateur pilot talking about aerobatics. What does she say about feeling afraid?",
+"o": [
+"Every manoeuvre makes her anxious.",
+"She is troubled by seasickness while flying.",
+"Only unfamiliar manoeuvres worry her."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does she find most difficult about competitions?",
+"o": [
+"Memorising the sequences of movements.",
+"Performing to a standard that avoids faults.",
+"Keeping her nerves under control."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "You hear a chef talking to a friend. What does he say about riding a motorbike?",
+"o": [
+"It helps him feel calm.",
+"It is much cheaper than driving.",
+"It is the only way to get to work."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does he name as his favourite thing at home?",
+"o": [
+"The family kitchen table.",
+"His kitchen cooker.",
+"His shower."
+],
+"c": 2
+}
+]
+},
+{
+"id": "C1-P2",
+"title": "Part 2 · Questions 7–14",
+"kind": "file",
+"file": "TG/cae2-t4/p2.mp3",
+"intro": "You will hear an art teacher giving a talk about making mosaics. For questions 7 to 14, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Rosa became interested in mosaics while on holiday in ____.",
+"accept": [
+"greece"
+]
+},
+{
+"type": "gap",
+"label": "The Greeks probably learned the art of mosaic from the ____.",
+"accept": [
+"sumerians",
+"the sumerians"
+]
+},
+{
+"type": "gap",
+"label": "The main change in technique is the use of nylon ____ to hold the tiles together.",
+"accept": [
+"backing"
+]
+},
+{
+"type": "gap",
+"label": "Modern mosaics used to be found mostly in public libraries and ____.",
+"accept": [
+"swimming pools",
+"swimming pool",
+"swimming baths"
+]
+},
+{
+"type": "gap",
+"label": "Rosa finds mosaic therapeutic because it involves breaking things up and then ____.",
+"accept": [
+"reconstructing",
+"reconstructing them"
+]
+},
+{
+"type": "gap",
+"label": "Beginners are given mosaic ____ that contain all the essentials.",
+"accept": [
+"packs",
+"pack"
+]
+},
+{
+"type": "gap",
+"label": "Every course includes a weekend ____.",
+"accept": [
+"workshop"
+]
+},
+{
+"type": "gap",
+"label": "Mosaics can now be seen decorating the walls of ____ stations.",
+"accept": [
+"underground",
+"tube",
+"subway"
+]
+}
+]
+},
+{
+"id": "C1-P3",
+"title": "Part 3 · Questions 15–20",
+"kind": "file",
+"file": "TG/cae2-t4/p3.mp3",
+"intro": "You will hear two people discussing the popularity of audio books. For questions 15 to 20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "When does Sally think audio books are used most?",
+"o": [
+"During the daily journey to work.",
+"While doing boring jobs at home.",
+"When people are trying to fall asleep.",
+"On long family holidays."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What advantage of audio books for children is mentioned?",
+"o": [
+"They encourage children to read more.",
+"They give access to books that are too hard to read alone.",
+"They save parents a lot of money.",
+"They improve children's listening skills."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why does Martin tell the story of a customer?",
+"o": [
+"To show how audio books can make family car journeys pleasant.",
+"To explain why French radio is difficult to follow.",
+"To warn parents about children's behaviour on holiday.",
+"To show how expensive audio books can be."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why does Martin think audio books are so popular in the United States?",
+"o": [
+"They were invented there.",
+"Radio there has more drama than in the UK.",
+"Listeners there prefer abridged versions.",
+"People there spend long hours travelling by road."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "Why are authors sometimes chosen to read their own books?",
+"o": [
+"They may have a particular interpretation to put across.",
+"Professional actors are hard to find.",
+"They read more clearly than actors.",
+"Publishers can save money."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Which books does Sally say are hardest to abridge?",
+"o": [
+"Those with long descriptive passages.",
+"Those written in a spare style.",
+"Those with a large number of characters.",
+"Those that were written long ago."
+],
+"c": 1
+}
+]
+},
+{
+"id": "C1-P4",
+"title": "Part 4 · Questions 21–30",
+"kind": "file",
+"file": "TG/cae2-t4/p4.mp3",
+"intro": "You will hear five short extracts in which people talk about starting a business. While you listen, you must complete both tasks. For Task 1, choose from the list (A–H) the reason each speaker gives for starting a business. For Task 2, choose from the list (A–H) the comment each speaker makes about the business.",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"taskLabel": "Task 1 — What reason does each speaker give for starting a business?",
+"bank": [
+"an offer of money to leave a job",
+"a quarrel with an employer",
+"a family move to the countryside",
+"friends' praise for the speaker's home improvements",
+"an article about a similar firm abroad",
+"a long period of unemployment",
+"an inheritance from a relative",
+"a wish to work with a relative"
+],
+"c": "an offer of money to leave a job"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"taskLabel": "Task 1 — What reason does each speaker give for starting a business?",
+"bank": [
+"an offer of money to leave a job",
+"a quarrel with an employer",
+"a family move to the countryside",
+"friends' praise for the speaker's home improvements",
+"an article about a similar firm abroad",
+"a long period of unemployment",
+"an inheritance from a relative",
+"a wish to work with a relative"
+],
+"c": "a quarrel with an employer"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"taskLabel": "Task 1 — What reason does each speaker give for starting a business?",
+"bank": [
+"an offer of money to leave a job",
+"a quarrel with an employer",
+"a family move to the countryside",
+"friends' praise for the speaker's home improvements",
+"an article about a similar firm abroad",
+"a long period of unemployment",
+"an inheritance from a relative",
+"a wish to work with a relative"
+],
+"c": "a family move to the countryside"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"taskLabel": "Task 1 — What reason does each speaker give for starting a business?",
+"bank": [
+"an offer of money to leave a job",
+"a quarrel with an employer",
+"a family move to the countryside",
+"friends' praise for the speaker's home improvements",
+"an article about a similar firm abroad",
+"a long period of unemployment",
+"an inheritance from a relative",
+"a wish to work with a relative"
+],
+"c": "friends' praise for the speaker's home improvements"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"taskLabel": "Task 1 — What reason does each speaker give for starting a business?",
+"bank": [
+"an offer of money to leave a job",
+"a quarrel with an employer",
+"a family move to the countryside",
+"friends' praise for the speaker's home improvements",
+"an article about a similar firm abroad",
+"a long period of unemployment",
+"an inheritance from a relative",
+"a wish to work with a relative"
+],
+"c": "an article about a similar firm abroad"
+},
+{
+"type": "match",
+"person": "Speaker 1",
+"taskLabel": "Task 2 — What comment does each speaker make about the business?",
+"bank": [
+"Early money worries have not caused regret.",
+"The firm has brought financial security and independence.",
+"The firm relies on modern technology.",
+"The work presents new challenges all the time.",
+"Profits are expected soon because demand is high.",
+"The work is less interesting than the old job.",
+"The family disapproves of the venture.",
+"The firm may soon have to close."
+],
+"c": "Early money worries have not caused regret."
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"taskLabel": "Task 2 — What comment does each speaker make about the business?",
+"bank": [
+"Early money worries have not caused regret.",
+"The firm has brought financial security and independence.",
+"The firm relies on modern technology.",
+"The work presents new challenges all the time.",
+"Profits are expected soon because demand is high.",
+"The work is less interesting than the old job.",
+"The family disapproves of the venture.",
+"The firm may soon have to close."
+],
+"c": "The firm has brought financial security and independence."
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"taskLabel": "Task 2 — What comment does each speaker make about the business?",
+"bank": [
+"Early money worries have not caused regret.",
+"The firm has brought financial security and independence.",
+"The firm relies on modern technology.",
+"The work presents new challenges all the time.",
+"Profits are expected soon because demand is high.",
+"The work is less interesting than the old job.",
+"The family disapproves of the venture.",
+"The firm may soon have to close."
+],
+"c": "The firm relies on modern technology."
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"taskLabel": "Task 2 — What comment does each speaker make about the business?",
+"bank": [
+"Early money worries have not caused regret.",
+"The firm has brought financial security and independence.",
+"The firm relies on modern technology.",
+"The work presents new challenges all the time.",
+"Profits are expected soon because demand is high.",
+"The work is less interesting than the old job.",
+"The family disapproves of the venture.",
+"The firm may soon have to close."
+],
+"c": "The work presents new challenges all the time."
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"taskLabel": "Task 2 — What comment does each speaker make about the business?",
+"bank": [
+"Early money worries have not caused regret.",
+"The firm has brought financial security and independence.",
+"The firm relies on modern technology.",
+"The work presents new challenges all the time.",
+"Profits are expected soon because demand is high.",
+"The work is less interesting than the old job.",
+"The family disapproves of the venture.",
+"The firm may soon have to close."
+],
+"c": "Profits are expected soon because demand is high."
+}
+]
+}
+]
+},
+{
+"label": "C1 — Practice · CAE 5 Test 1 audio · TG",
+"cefr": "Cambridge C1 Advanced · digital format",
+"blurb": "Part 1 original; Parts 2, 3, 4 authentic exam recordings with new questions.",
+"audios": [
+{
+"id": "C1-P1",
+"title": "Part 1 · Questions 1–6",
+"kind": "file",
+"file": "TG/cae5-t1/p0.mp3",
+"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Extract One. You hear two friends discussing a documentary. What does the man think about the director's confrontations with executives?",
+"o": [
+"They were an unfair way to treat the people involved.",
+"They gave the film a staged quality that weakened its argument.",
+"They succeeded in forcing the companies to give answers."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What is the woman's criticism of the documentary's ending?",
+"o": [
+"It offered solutions that were unrealistic.",
+"It was too harsh about the director's own choices.",
+"It left viewers feeling responsible without suggesting what to do."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Extract Two. You hear two friends talking about a plan to move to the countryside. Why has the woman decided to work remotely for a trial period?",
+"o": [
+"She wants to avoid a hasty decision she might regret.",
+"She was advised to by her employer.",
+"She is unsure she can afford to leave her job."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What is the woman's main concern about the move?",
+"o": [
+"She may find the evenings dull.",
+"She may lose influence at work.",
+"She may be criticised by her family."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Extract Three. You hear two people talking about a choir's new conductor. What is the man's opinion of the conductor's programme?",
+"o": [
+"It is too ambitious for most of the singers.",
+"It will probably attract bigger audiences than before.",
+"It has revived his own enthusiasm for the choir."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How did the conductor react to the woman's suggestion about the concert?",
+"o": [
+"He politely refused to change his plans.",
+"He agreed to add a familiar item.",
+"He asked the members to vote on it."
+],
+"c": 0
+}
+]
+},
+{
+"id": "C1-P2",
+"title": "Part 2 · Questions 7–14",
+"kind": "file",
+"file": "TG/cae5-t1/p1.mp3",
+"intro": "You will hear a woman who climbs mountains giving a talk about her career. For questions 7–14, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "She first became involved in mountaineering while visiting Everest in her role as a ____.",
+"accept": [
+"journalist"
+]
+},
+{
+"type": "gap",
+"label": "Her first expedition to Everest took place in ____.",
+"accept": [
+"1989"
+]
+},
+{
+"type": "gap",
+"label": "Besides climbing, she had already tried hang gliding and ____.",
+"accept": [
+"scuba diving",
+"scuba-diving"
+]
+},
+{
+"type": "gap",
+"label": "She got herself physically ready for the British expedition by training at a ____.",
+"accept": [
+"gym",
+"local gym"
+]
+},
+{
+"type": "gap",
+"label": "The part of the mountain she found most frightening was the ____.",
+"accept": [
+"icefall",
+"ice fall"
+]
+},
+{
+"type": "gap",
+"label": "At great height she did without most comforts and did not take even her ____ above 7,000 metres.",
+"accept": [
+"toothbrush",
+"tooth brush"
+]
+},
+{
+"type": "gap",
+"label": "The only water on the mountain comes from ____, which needs fuel to melt.",
+"accept": [
+"snow",
+"melted snow"
+]
+},
+{
+"type": "gap",
+"label": "Her book about reaching the top of Everest has been a ____.",
+"accept": [
+"bestseller",
+"best seller",
+"best-seller"
+]
+}
+]
+},
+{
+"id": "C1-P3",
+"title": "Part 3 · Questions 15–20",
+"kind": "file",
+"file": "TG/cae5-t1/p3.mp3",
+"intro": "You will hear part of a radio interview with the man who founded a city listings magazine. For questions 15–20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What led Tony to start the magazine?",
+"o": [
+"He felt the existing weekly listings were out of date and badly printed.",
+"He noticed that no publication brought all the entertainment information together.",
+"He had been asked by a group of friends to launch it.",
+"He wanted to compete with the evening papers."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "According to Tony, what was the benefit of selling copies in the street?",
+"o": [
+"It persuaded newsagents to stock the magazine.",
+"It meant he no longer had to visit newsagents.",
+"It attracted the attention of established publishers.",
+"It brought in some money and let him see how people reacted to the idea."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "What did Tony do when he took charge of the university magazine?",
+"o": [
+"He kept its serious approach of one theme per issue.",
+"He added more reports on provincial theatre.",
+"He changed its focus to the contemporary arts.",
+"He stopped it from printing interviews."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why did Tony not go back to university?",
+"o": [
+"He realised he was already doing the work he wanted.",
+"The university would not allow him to return.",
+"The teaching post abroad had been cancelled.",
+"He had lost interest in studying languages."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What made the magazine start coming out every week?",
+"o": [
+"Another group was planning a similar publication.",
+"Readers had been demanding it for some time.",
+"Advertisers insisted on a faster schedule.",
+"The printers could finally manage it."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Tony say about the readers of the magazine today?",
+"o": [
+"They are mostly students and young graduates.",
+"There are more of them, but they are much the same kind of person as before.",
+"They have grown older along with the magazine.",
+"They are now mainly parents of teenage children."
+],
+"c": 1
+}
+]
+},
+{
+"id": "C1-P4",
+"title": "Part 4 · Questions 21–30",
+"kind": "file",
+"file": "TG/cae5-t1/p4.mp3",
+"intro": "You will hear five different people talking about things that have happened at work. Complete both tasks as you listen. For Task 1, choose what happened to each speaker (A–H). For Task 2, choose how each speaker feels (A–H).",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "being unfairly blamed for a mistake",
+"bank": [
+"being unfairly blamed for a mistake",
+"refusing extra work from a manager",
+"having a private opinion passed on to others",
+"declining a move offered by a friendly colleague",
+"causing offence by not accepting an invitation to an event",
+"being asked to cover for an absent colleague",
+"losing a job unexpectedly",
+"receiving praise that was not deserved"
+],
+"taskLabel": "Task 1 — What recently happened at work"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "refusing extra work from a manager",
+"bank": [
+"being unfairly blamed for a mistake",
+"refusing extra work from a manager",
+"having a private opinion passed on to others",
+"declining a move offered by a friendly colleague",
+"causing offence by not accepting an invitation to an event",
+"being asked to cover for an absent colleague",
+"losing a job unexpectedly",
+"receiving praise that was not deserved"
+],
+"taskLabel": "Task 1 — What recently happened at work"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "having a private opinion passed on to others",
+"bank": [
+"being unfairly blamed for a mistake",
+"refusing extra work from a manager",
+"having a private opinion passed on to others",
+"declining a move offered by a friendly colleague",
+"causing offence by not accepting an invitation to an event",
+"being asked to cover for an absent colleague",
+"losing a job unexpectedly",
+"receiving praise that was not deserved"
+],
+"taskLabel": "Task 1 — What recently happened at work"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "declining a move offered by a friendly colleague",
+"bank": [
+"being unfairly blamed for a mistake",
+"refusing extra work from a manager",
+"having a private opinion passed on to others",
+"declining a move offered by a friendly colleague",
+"causing offence by not accepting an invitation to an event",
+"being asked to cover for an absent colleague",
+"losing a job unexpectedly",
+"receiving praise that was not deserved"
+],
+"taskLabel": "Task 1 — What recently happened at work"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "causing offence by not accepting an invitation to an event",
+"bank": [
+"being unfairly blamed for a mistake",
+"refusing extra work from a manager",
+"having a private opinion passed on to others",
+"declining a move offered by a friendly colleague",
+"causing offence by not accepting an invitation to an event",
+"being asked to cover for an absent colleague",
+"losing a job unexpectedly",
+"receiving praise that was not deserved"
+],
+"taskLabel": "Task 1 — What recently happened at work"
+},
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "looking forward to a colleague's embarrassment",
+"bank": [
+"looking forward to a colleague's embarrassment",
+"discouraged by the kind of tasks given to them",
+"furious about a colleague's behaviour",
+"guilty about disappointing someone kind",
+"calmly accepting that nothing can be done",
+"relieved at an unexpected escape",
+"proud of how a difficult situation was handled",
+"anxious about losing a job"
+],
+"taskLabel": "Task 2 — How each speaker feels"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "discouraged by the kind of tasks given to them",
+"bank": [
+"looking forward to a colleague's embarrassment",
+"discouraged by the kind of tasks given to them",
+"furious about a colleague's behaviour",
+"guilty about disappointing someone kind",
+"calmly accepting that nothing can be done",
+"relieved at an unexpected escape",
+"proud of how a difficult situation was handled",
+"anxious about losing a job"
+],
+"taskLabel": "Task 2 — How each speaker feels"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "furious about a colleague's behaviour",
+"bank": [
+"looking forward to a colleague's embarrassment",
+"discouraged by the kind of tasks given to them",
+"furious about a colleague's behaviour",
+"guilty about disappointing someone kind",
+"calmly accepting that nothing can be done",
+"relieved at an unexpected escape",
+"proud of how a difficult situation was handled",
+"anxious about losing a job"
+],
+"taskLabel": "Task 2 — How each speaker feels"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "guilty about disappointing someone kind",
+"bank": [
+"looking forward to a colleague's embarrassment",
+"discouraged by the kind of tasks given to them",
+"furious about a colleague's behaviour",
+"guilty about disappointing someone kind",
+"calmly accepting that nothing can be done",
+"relieved at an unexpected escape",
+"proud of how a difficult situation was handled",
+"anxious about losing a job"
+],
+"taskLabel": "Task 2 — How each speaker feels"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "calmly accepting that nothing can be done",
+"bank": [
+"looking forward to a colleague's embarrassment",
+"discouraged by the kind of tasks given to them",
+"furious about a colleague's behaviour",
+"guilty about disappointing someone kind",
+"calmly accepting that nothing can be done",
+"relieved at an unexpected escape",
+"proud of how a difficult situation was handled",
+"anxious about losing a job"
+],
+"taskLabel": "Task 2 — How each speaker feels"
+}
+]
+}
+]
+},
+{
+"label": "C1 — Practice · CAE 5 Test 2 audio · TG",
+"cefr": "Cambridge C1 Advanced · digital format",
+"blurb": "Part 1 original; Parts 2, 3, 4 authentic exam recordings with new questions.",
+"audios": [
+{
+"id": "C1-P1",
+"title": "Part 1 · Questions 1–6",
+"kind": "file",
+"file": "TG/cae5-t2/p0.mp3",
+"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Extract One. You hear two friends discussing a television adaptation of a novel. What does the woman think about the changes to the story?",
+"o": [
+"They are acceptable given the different medium.",
+"They are disappointing but understandable.",
+"They show the author lacked confidence in her work."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What is the man's reservation about the first episode?",
+"o": [
+"The cast does not match his expectations.",
+"The villain is not frightening enough.",
+"The story moves along too quickly."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Extract Two. You hear a student talking to his tutor about his dissertation. Why is the student unhappy with his topic?",
+"o": [
+"He believes he has little new to say about it.",
+"He feels it is too difficult to research.",
+"He has lost the notes he made."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does the tutor suggest?",
+"o": [
+"Changing to a subject the student enjoys more.",
+"Concentrating on a different aspect of the same subject.",
+"Asking the parents to read his draft."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Extract Three. You hear two neighbours talking about beehives on their building's roof. What is the woman mainly annoyed about?",
+"o": [
+"The danger the bees might present.",
+"The fact that the management company approved it.",
+"The lack of any prior discussion."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does the man suggest the woman should do?",
+"o": [
+"Ask the management company to remove the hives.",
+"Speak to the Hendersons about her feelings.",
+"Learn more about how bees behave."
+],
+"c": 1
+}
+]
+},
+{
+"id": "C1-P2",
+"title": "Part 2 · Questions 7–14",
+"kind": "file",
+"file": "TG/cae5-t2/p1.mp3",
+"intro": "You will hear a guide talking to a group of tourists about some Roman remains. For questions 7–14, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "This morning's visit begins in the garrison town of ____.",
+"accept": [
+"corbridge"
+]
+},
+{
+"type": "gap",
+"label": "The Romans first reached the Corbridge area in the year ____.",
+"accept": [
+"79",
+"ad 79",
+"seventy-nine",
+"seventy nine"
+]
+},
+{
+"type": "gap",
+"label": "The earliest dig on the site was carried out in the hope of finding ____.",
+"accept": [
+"treasure"
+]
+},
+{
+"type": "gap",
+"label": "Besides the baths, the nineteenth-century archaeologists found part of a ____.",
+"accept": [
+"bridge",
+"roman bridge"
+]
+},
+{
+"type": "gap",
+"label": "Excavations have been carried out every year since ____.",
+"accept": [
+"1934"
+]
+},
+{
+"type": "gap",
+"label": "Some finds had to be moved for security reasons to a museum ____ miles away.",
+"accept": [
+"15",
+"fifteen"
+]
+},
+{
+"type": "gap",
+"label": "Visitors are asked to take care near loose ____ lying around the site.",
+"accept": [
+"stones"
+]
+},
+{
+"type": "gap",
+"label": "Before the tour starts, people should collect hats and ____ from the coach.",
+"accept": [
+"sunglasses",
+"sun glasses"
+]
+}
+]
+},
+{
+"id": "C1-P3",
+"title": "Part 3 · Questions 15–20",
+"kind": "file",
+"file": "TG/cae5-t2/p3.mp3",
+"intro": "You will hear a radio discussion about a new way of organising office space. For questions 15–20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What does Peter find most useful about his working arrangements?",
+"o": [
+"He has a permanent place for his personal belongings.",
+"He is able to avoid colleagues who are noisy.",
+"He can choose each day where to do his work.",
+"He can arrive later than the rest of his team."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "According to Lois, who tends to get the most popular desks?",
+"o": [
+"Those who are able to arrive early.",
+"Those with the most senior positions.",
+"Those who have worked there longest.",
+"Those who need the most equipment."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What do Lois's surveys suggest about employees?",
+"o": [
+"They would like more say in the design of offices.",
+"Their immediate surroundings matter a great deal to them.",
+"They are happy to share space with anyone.",
+"They value pay above working conditions."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What point does Peter make about being in the office?",
+"o": [
+"It encourages people to work longer hours.",
+"It is still essential for the success of a team.",
+"It helps new staff to learn their jobs quickly.",
+"It can become almost unnecessary for people with the right equipment."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "What concern does Lois express about the effect on young people?",
+"o": [
+"They may lose the place where they learn how to deal with others.",
+"They may be given too little training.",
+"They may spend too long at home.",
+"They may expect to be paid more."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How does Peter respond to the suggestion that people become isolated?",
+"o": [
+"He agrees that it is a serious worry in his firm.",
+"He says the system has helped people to meet more colleagues.",
+"He argues that people prefer to work alone.",
+"He admits his own team has little contact."
+],
+"c": 1
+}
+]
+},
+{
+"id": "C1-P4",
+"title": "Part 4 · Questions 21–30",
+"kind": "file",
+"file": "TG/cae5-t2/p4.mp3",
+"intro": "You will hear five different people talking about what they did at the weekend. Complete both tasks as you listen. For Task 1, choose the activity (A–H). For Task 2, choose each speaker's opinion (A–H).",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "visiting a busy market",
+"bank": [
+"visiting a busy market",
+"attempting to climb a mountain",
+"watching a sporting event",
+"marking a success with a meal",
+"swimming outdoors",
+"going to a concert",
+"taking a boat trip",
+"looking round a museum"
+],
+"taskLabel": "Task 1 — The weekend activity"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "attempting to climb a mountain",
+"bank": [
+"visiting a busy market",
+"attempting to climb a mountain",
+"watching a sporting event",
+"marking a success with a meal",
+"swimming outdoors",
+"going to a concert",
+"taking a boat trip",
+"looking round a museum"
+],
+"taskLabel": "Task 1 — The weekend activity"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "watching a sporting event",
+"bank": [
+"visiting a busy market",
+"attempting to climb a mountain",
+"watching a sporting event",
+"marking a success with a meal",
+"swimming outdoors",
+"going to a concert",
+"taking a boat trip",
+"looking round a museum"
+],
+"taskLabel": "Task 1 — The weekend activity"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "marking a success with a meal",
+"bank": [
+"visiting a busy market",
+"attempting to climb a mountain",
+"watching a sporting event",
+"marking a success with a meal",
+"swimming outdoors",
+"going to a concert",
+"taking a boat trip",
+"looking round a museum"
+],
+"taskLabel": "Task 1 — The weekend activity"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "swimming outdoors",
+"bank": [
+"visiting a busy market",
+"attempting to climb a mountain",
+"watching a sporting event",
+"marking a success with a meal",
+"swimming outdoors",
+"going to a concert",
+"taking a boat trip",
+"looking round a museum"
+],
+"taskLabel": "Task 1 — The weekend activity"
+},
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "enjoying it in spite of the crowds",
+"bank": [
+"enjoying it in spite of the crowds",
+"let down by bad weather",
+"content although little happened",
+"grateful for helpful treatment",
+"exhausted after misjudging their own strength",
+"unsure whether it was worth the money",
+"worried about safety",
+"bored by the lack of excitement"
+],
+"taskLabel": "Task 2 — Each speaker's opinion"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "let down by bad weather",
+"bank": [
+"enjoying it in spite of the crowds",
+"let down by bad weather",
+"content although little happened",
+"grateful for helpful treatment",
+"exhausted after misjudging their own strength",
+"unsure whether it was worth the money",
+"worried about safety",
+"bored by the lack of excitement"
+],
+"taskLabel": "Task 2 — Each speaker's opinion"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "content although little happened",
+"bank": [
+"enjoying it in spite of the crowds",
+"let down by bad weather",
+"content although little happened",
+"grateful for helpful treatment",
+"exhausted after misjudging their own strength",
+"unsure whether it was worth the money",
+"worried about safety",
+"bored by the lack of excitement"
+],
+"taskLabel": "Task 2 — Each speaker's opinion"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "grateful for helpful treatment",
+"bank": [
+"enjoying it in spite of the crowds",
+"let down by bad weather",
+"content although little happened",
+"grateful for helpful treatment",
+"exhausted after misjudging their own strength",
+"unsure whether it was worth the money",
+"worried about safety",
+"bored by the lack of excitement"
+],
+"taskLabel": "Task 2 — Each speaker's opinion"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "exhausted after misjudging their own strength",
+"bank": [
+"enjoying it in spite of the crowds",
+"let down by bad weather",
+"content although little happened",
+"grateful for helpful treatment",
+"exhausted after misjudging their own strength",
+"unsure whether it was worth the money",
+"worried about safety",
+"bored by the lack of excitement"
+],
+"taskLabel": "Task 2 — Each speaker's opinion"
+}
+]
+}
+]
+},
+{
+"label": "C1 — Practice · CAE 5 Test 3 audio · TG",
+"cefr": "Cambridge C1 Advanced · digital format",
+"blurb": "Part 1 original; Parts 2, 3, 4 authentic exam recordings with new questions.",
+"audios": [
+{
+"id": "C1-P1",
+"title": "Part 1 · Questions 1–6",
+"kind": "file",
+"file": "TG/cae5-t3/p0.mp3",
+"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Extract One. You hear two colleagues discussing new design software. What is the man's main concern about it?",
+"o": [
+"It may cost some of the junior staff their jobs.",
+"It may prevent young architects from developing key skills.",
+"It may produce designs that are poorly proportioned."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How did a colleague react to the man's idea?",
+"o": [
+"He thought it was a sensible proposal.",
+"He said it needed to be discussed at a meeting.",
+"He dismissed it as sentimental."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Extract Two. You hear a brother and sister discussing the sale of their mother's house. What is the woman's attitude to selling?",
+"o": [
+"She would prefer that the process was not hurried.",
+"She is opposed to selling it at all.",
+"She is worried about the estate agent's valuation."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What do they agree to do?",
+"o": [
+"Look for the photograph albums before the sale.",
+"Spend a weekend sorting through the contents.",
+"Ask the estate agent to delay the sale."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Extract Three. You hear two friends talking about a marathon. How does the man feel about withdrawing from the race?",
+"o": [
+"Embarrassed about having told so many people.",
+"Annoyed about the money he has wasted.",
+"Surprisingly glad that he no longer has to train."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does the man intend to do in future?",
+"o": [
+"Continue running but in a more relaxed way.",
+"Give up running in favour of swimming.",
+"Train for the marathon the following year."
+],
+"c": 0
+}
+]
+},
+{
+"id": "C1-P2",
+"title": "Part 2 · Questions 7–14",
+"kind": "file",
+"file": "TG/cae5-t3/p1.mp3",
+"intro": "You will hear a radio talk about how postage stamps are produced. For questions 7–14, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "People expect a stamp to separate cleanly from the sheet along the ____.",
+"accept": [
+"perforations",
+"perforation"
+]
+},
+{
+"type": "gap",
+"label": "Machines can move letters at speeds of up to ____ metres per second.",
+"accept": [
+"four",
+"4"
+]
+},
+{
+"type": "gap",
+"label": "The paper chosen is smooth to the touch and has a ____ appearance.",
+"accept": [
+"glossy",
+"shiny"
+]
+},
+{
+"type": "gap",
+"label": "Because stamps are sold in sheets, the paper must stay ____.",
+"accept": [
+"flat"
+]
+},
+{
+"type": "gap",
+"label": "To make forgery harder, ____ are added to the paper.",
+"accept": [
+"whiteners",
+"whitener"
+]
+},
+{
+"type": "gap",
+"label": "The additives are checked under ____ light.",
+"accept": [
+"ultraviolet",
+"uv",
+"ultra-violet",
+"ultra violet"
+]
+},
+{
+"type": "gap",
+"label": "The paper is made so that stamps will last for at least ____ years.",
+"accept": [
+"25",
+"twenty-five",
+"twenty five"
+]
+},
+{
+"type": "gap",
+"label": "To avoid variations in colour and printing, the post office has a policy of strict ____ control.",
+"accept": [
+"quality"
+]
+}
+]
+},
+{
+"id": "C1-P3",
+"title": "Part 3 · Questions 15–20",
+"kind": "file",
+"file": "TG/cae5-t3/p3.mp3",
+"intro": "You will hear part of a radio interview with a man who runs a company making special effects. For questions 15–20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Why did Roger set up his own business?",
+"o": [
+"Hollywood had offered him a contract.",
+"His family had urged him to leave industry.",
+"Losing his job made him decide to take charge of his own working life.",
+"He wanted to use his savings to move abroad."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How does Roger feel about the size of his company?",
+"o": [
+"He thinks it is wise to stay fairly small.",
+"He is impatient for it to grow faster.",
+"He worries that it is too small to survive.",
+"He plans to merge it with a larger firm."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Roger say is the greatest advantage of his new life?",
+"o": [
+"He no longer has to commute every day.",
+"He no longer has to deal with office politics.",
+"He can take holidays whenever he chooses.",
+"He earns a steadier income than before."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Who does Roger say helped him most?",
+"o": [
+"His daughters, who work in the firm.",
+"His former boss at the air conditioning firm.",
+"The film directors he worked with.",
+"His wife, who is also his business partner."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "What does Roger think about job security?",
+"o": [
+"Working for yourself is no riskier than being employed.",
+"Self-employment is much more stressful.",
+"He wishes he had stayed in his old post.",
+"Only large companies can offer real safety."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What is Roger's attitude to engineers?",
+"o": [
+"He feels they are too often seen as dull.",
+"He thinks they have too much power already.",
+"He believes they should be given more recognition.",
+"He regrets that fewer people train as engineers."
+],
+"c": 2
+}
+]
+},
+{
+"id": "C1-P4",
+"title": "Part 4 · Questions 21–30",
+"kind": "file",
+"file": "TG/cae5-t3/p4.mp3",
+"intro": "You will hear five different people talking about books they take on holiday. Complete both tasks as you listen. For Task 1, choose what each speaker does or did (A–H). For Task 2, choose how each speaker feels (A–H).",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "choosing a book in order to impress other people",
+"bank": [
+"choosing a book in order to impress other people",
+"packing nothing that is new before a journey",
+"reading to ease the feeling of being far from home",
+"picking reading matter that helps with their work",
+"treating one writer's books as a substitute for travel",
+"taking several books for different moods",
+"buying a book at the airport",
+"swapping books with fellow travellers"
+],
+"taskLabel": "Task 1 — What each speaker does or did"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "packing nothing that is new before a journey",
+"bank": [
+"choosing a book in order to impress other people",
+"packing nothing that is new before a journey",
+"reading to ease the feeling of being far from home",
+"picking reading matter that helps with their work",
+"treating one writer's books as a substitute for travel",
+"taking several books for different moods",
+"buying a book at the airport",
+"swapping books with fellow travellers"
+],
+"taskLabel": "Task 1 — What each speaker does or did"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "reading to ease the feeling of being far from home",
+"bank": [
+"choosing a book in order to impress other people",
+"packing nothing that is new before a journey",
+"reading to ease the feeling of being far from home",
+"picking reading matter that helps with their work",
+"treating one writer's books as a substitute for travel",
+"taking several books for different moods",
+"buying a book at the airport",
+"swapping books with fellow travellers"
+],
+"taskLabel": "Task 1 — What each speaker does or did"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "picking reading matter that helps with their work",
+"bank": [
+"choosing a book in order to impress other people",
+"packing nothing that is new before a journey",
+"reading to ease the feeling of being far from home",
+"picking reading matter that helps with their work",
+"treating one writer's books as a substitute for travel",
+"taking several books for different moods",
+"buying a book at the airport",
+"swapping books with fellow travellers"
+],
+"taskLabel": "Task 1 — What each speaker does or did"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "treating one writer's books as a substitute for travel",
+"bank": [
+"choosing a book in order to impress other people",
+"packing nothing that is new before a journey",
+"reading to ease the feeling of being far from home",
+"picking reading matter that helps with their work",
+"treating one writer's books as a substitute for travel",
+"taking several books for different moods",
+"buying a book at the airport",
+"swapping books with fellow travellers"
+],
+"taskLabel": "Task 1 — What each speaker does or did"
+},
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "regretting a foolish choice",
+"bank": [
+"regretting a foolish choice",
+"finding it hard to concentrate while travelling",
+"being deeply moved by a story",
+"finding unfamiliar material appealing",
+"delighted at discovering a writer",
+"bored by famous classics",
+"reluctant to finish a book",
+"irritated by interruptions"
+],
+"taskLabel": "Task 2 — How each speaker feels about reading"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "finding it hard to concentrate while travelling",
+"bank": [
+"regretting a foolish choice",
+"finding it hard to concentrate while travelling",
+"being deeply moved by a story",
+"finding unfamiliar material appealing",
+"delighted at discovering a writer",
+"bored by famous classics",
+"reluctant to finish a book",
+"irritated by interruptions"
+],
+"taskLabel": "Task 2 — How each speaker feels about reading"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "being deeply moved by a story",
+"bank": [
+"regretting a foolish choice",
+"finding it hard to concentrate while travelling",
+"being deeply moved by a story",
+"finding unfamiliar material appealing",
+"delighted at discovering a writer",
+"bored by famous classics",
+"reluctant to finish a book",
+"irritated by interruptions"
+],
+"taskLabel": "Task 2 — How each speaker feels about reading"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "finding unfamiliar material appealing",
+"bank": [
+"regretting a foolish choice",
+"finding it hard to concentrate while travelling",
+"being deeply moved by a story",
+"finding unfamiliar material appealing",
+"delighted at discovering a writer",
+"bored by famous classics",
+"reluctant to finish a book",
+"irritated by interruptions"
+],
+"taskLabel": "Task 2 — How each speaker feels about reading"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "delighted at discovering a writer",
+"bank": [
+"regretting a foolish choice",
+"finding it hard to concentrate while travelling",
+"being deeply moved by a story",
+"finding unfamiliar material appealing",
+"delighted at discovering a writer",
+"bored by famous classics",
+"reluctant to finish a book",
+"irritated by interruptions"
+],
+"taskLabel": "Task 2 — How each speaker feels about reading"
+}
+]
+}
+]
+},
+{
+"label": "C1 — Practice · CAE 5 Test 4 audio · TG",
+"cefr": "Cambridge C1 Advanced · digital format",
+"blurb": "Part 1 original; Parts 2, 3, 4 authentic exam recordings with new questions.",
+"audios": [
+{
+"id": "C1-P1",
+"title": "Part 1 · Questions 1–6",
+"kind": "file",
+"file": "TG/cae5-t4/p0.mp3",
+"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Extract One. You hear two friends discussing a play. What is the woman's opinion of the minimalist staging?",
+"o": [
+"It would only work with excellent performers.",
+"It was a clever way of saving money.",
+"It distracted her from the story."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does the woman say stayed with her after the play?",
+"o": [
+"The performance of the actress playing the mother.",
+"The way the young actor portrayed his character.",
+"The reaction of the audience at the end."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Extract Two. You hear two colleagues talking about a four-day working week. What is the man's view of the trial?",
+"o": [
+"It has reduced the amount of work completed.",
+"It has made the working days more pressured.",
+"It has improved relations between colleagues."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does the man say he will do?",
+"o": [
+"Ask for fewer meetings in the working week.",
+"Suggest that the trial be extended.",
+"Send detailed comments on the trial to management."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Extract Three. You hear a teacher talking to a parent about her son. Why did the teacher ask to meet the parent?",
+"o": [
+"He wants to recommend an activity for the boy.",
+"He is concerned about the boy's behaviour in class.",
+"He wants the boy to spend more time on computing."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does the mother think about the after-school project?",
+"o": [
+"She doubts her son will want to take part.",
+"She is surprised that it is a social activity.",
+"She fears it will take up too much time."
+],
+"c": 1
+}
+]
+},
+{
+"id": "C1-P2",
+"title": "Part 2 · Questions 7–14",
+"kind": "file",
+"file": "TG/cae5-t4/p1.mp3",
+"intro": "You will hear an art teacher talking on the radio about making mosaics. For questions 7–14, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The speaker became interested in mosaics while on holiday in ____.",
+"accept": [
+"greece"
+]
+},
+{
+"type": "gap",
+"label": "One modern improvement to the technique is a ____ backing that holds the tiles together.",
+"accept": [
+"nylon"
+]
+},
+{
+"type": "gap",
+"label": "The basic techniques have hardly changed in about ____ years.",
+"accept": [
+"5000",
+"5,000",
+"five thousand",
+"5 000"
+]
+},
+{
+"type": "gap",
+"label": "In recent times, modern mosaics were mostly found in public libraries and ____.",
+"accept": [
+"swimming pools",
+"swimming pool",
+"swimming-pools",
+"pools"
+]
+},
+{
+"type": "gap",
+"label": "Working with tiny pieces for hours can sometimes cause a bad ____.",
+"accept": [
+"headache"
+]
+},
+{
+"type": "gap",
+"label": "Students use pieces of coloured glass, broken plates and odd bits of ____.",
+"accept": [
+"china"
+]
+},
+{
+"type": "gap",
+"label": "Every course includes a weekend ____ that most students attend.",
+"accept": [
+"workshop"
+]
+},
+{
+"type": "gap",
+"label": "Mosaics can now be seen decorating the walls of ____ stations.",
+"accept": [
+"underground",
+"tube",
+"subway"
+]
+}
+]
+},
+{
+"id": "C1-P3",
+"title": "Part 3 · Questions 15–20",
+"kind": "file",
+"file": "TG/cae5-t4/p3.mp3",
+"intro": "You will hear part of a radio discussion about books recorded on tape. For questions 15–20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "When does Sally think audio books are used most?",
+"o": [
+"During a long journey to work.",
+"While doing housework.",
+"When children are being looked after.",
+"When listeners are trying to fall asleep."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "What does Sally see as a benefit of audio books for children?",
+"o": [
+"They can enjoy stories that would be too hard for them to read.",
+"They become more interested in reading.",
+"They learn to listen more carefully.",
+"They no longer need to be read to by parents."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why does Martin think audio books are popular in the United States?",
+"o": [
+"Americans prefer listening to reading.",
+"People spend so much time driving long distances.",
+"Radio drama is more common there.",
+"Audio books first appeared there."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why might a publisher ask an author to read their own book?",
+"o": [
+"It costs less than hiring an actor.",
+"Authors are usually trained speakers.",
+"The author may have a particular view of how the book should sound.",
+"Readers prefer to hear the writer's own voice."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Sally say about shortening books?",
+"o": [
+"Writers with a very spare style can be harder to cut than those who describe a lot.",
+"Long Victorian novels are always the most difficult.",
+"Most readers complain about cuts.",
+"Authors usually do the cutting themselves."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why is writing specially for audio unlikely at present?",
+"o": [
+"Authors do not want to write for tape.",
+"The BBC already does it all.",
+"Listeners prefer newer titles.",
+"The market is too small to pay for it."
+],
+"c": 3
+}
+]
+},
+{
+"id": "C1-P4",
+"title": "Part 4 · Questions 21–30",
+"kind": "file",
+"file": "TG/cae5-t4/p4.mp3",
+"intro": "You will hear five different people talking about the importance of eating breakfast. Complete both tasks as you listen. For Task 1, choose each speaker's job (A–H). For Task 2, choose the comment each speaker makes (A–H).",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "a competitive athlete",
+"bank": [
+"a competitive athlete",
+"a newspaper writer",
+"a driver on a public transport route",
+"a member of an airline's crew",
+"a schoolteacher",
+"a doctor",
+"a chef",
+"a farmer"
+],
+"taskLabel": "Task 1 — The speaker's job"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "a newspaper writer",
+"bank": [
+"a competitive athlete",
+"a newspaper writer",
+"a driver on a public transport route",
+"a member of an airline's crew",
+"a schoolteacher",
+"a doctor",
+"a chef",
+"a farmer"
+],
+"taskLabel": "Task 1 — The speaker's job"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "a driver on a public transport route",
+"bank": [
+"a competitive athlete",
+"a newspaper writer",
+"a driver on a public transport route",
+"a member of an airline's crew",
+"a schoolteacher",
+"a doctor",
+"a chef",
+"a farmer"
+],
+"taskLabel": "Task 1 — The speaker's job"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "a member of an airline's crew",
+"bank": [
+"a competitive athlete",
+"a newspaper writer",
+"a driver on a public transport route",
+"a member of an airline's crew",
+"a schoolteacher",
+"a doctor",
+"a chef",
+"a farmer"
+],
+"taskLabel": "Task 1 — The speaker's job"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "a schoolteacher",
+"bank": [
+"a competitive athlete",
+"a newspaper writer",
+"a driver on a public transport route",
+"a member of an airline's crew",
+"a schoolteacher",
+"a doctor",
+"a chef",
+"a farmer"
+],
+"taskLabel": "Task 1 — The speaker's job"
+},
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "a meal early in the day is vital for top performance",
+"bank": [
+"changed their own habits after hearing the evidence",
+"skipping a meal leads to poor food choices later",
+"a meal early in the day is vital for top performance",
+"eating habits must be adapted to unusual working hours",
+"children who miss breakfast suffer in health and energy",
+"cooked breakfasts are healthier than cereal",
+"eating a meal makes no difference to weight",
+"breakfast should never be rushed"
+],
+"taskLabel": "Task 2 — What each speaker says about breakfast"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "changed their own habits after hearing the evidence",
+"bank": [
+"changed their own habits after hearing the evidence",
+"skipping a meal leads to poor food choices later",
+"a meal early in the day is vital for top performance",
+"eating habits must be adapted to unusual working hours",
+"children who miss breakfast suffer in health and energy",
+"cooked breakfasts are healthier than cereal",
+"eating a meal makes no difference to weight",
+"breakfast should never be rushed"
+],
+"taskLabel": "Task 2 — What each speaker says about breakfast"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "skipping a meal leads to poor food choices later",
+"bank": [
+"changed their own habits after hearing the evidence",
+"skipping a meal leads to poor food choices later",
+"a meal early in the day is vital for top performance",
+"eating habits must be adapted to unusual working hours",
+"children who miss breakfast suffer in health and energy",
+"cooked breakfasts are healthier than cereal",
+"eating a meal makes no difference to weight",
+"breakfast should never be rushed"
+],
+"taskLabel": "Task 2 — What each speaker says about breakfast"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "eating habits must be adapted to unusual working hours",
+"bank": [
+"changed their own habits after hearing the evidence",
+"skipping a meal leads to poor food choices later",
+"a meal early in the day is vital for top performance",
+"eating habits must be adapted to unusual working hours",
+"children who miss breakfast suffer in health and energy",
+"cooked breakfasts are healthier than cereal",
+"eating a meal makes no difference to weight",
+"breakfast should never be rushed"
+],
+"taskLabel": "Task 2 — What each speaker says about breakfast"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "children who miss breakfast suffer in health and energy",
+"bank": [
+"changed their own habits after hearing the evidence",
+"skipping a meal leads to poor food choices later",
+"a meal early in the day is vital for top performance",
+"eating habits must be adapted to unusual working hours",
+"children who miss breakfast suffer in health and energy",
+"cooked breakfasts are healthier than cereal",
+"eating a meal makes no difference to weight",
+"breakfast should never be rushed"
+],
+"taskLabel": "Task 2 — What each speaker says about breakfast"
+}
+]
+}
+]
+},
+{
+"label": "C1 — Practice · CAE 6 Test 1 audio · TG",
+"cefr": "Cambridge C1 Advanced · digital format",
+"blurb": "Original Part 1 (three extracts) plus authentic exam recordings with new questions – Parts 2, 3, 4.",
+"audios": [
+{
+"id": "C1-P1",
+"title": "Part 1 · Questions 1–6",
+"kind": "file",
+"file": "TG/cae6-t1/p0.mp3",
+"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Extract One. You hear two friends discussing a documentary about urban beekeeping. What is the man's main criticism of the film?",
+"o": [
+"It ignored the problems the hobby can cause.",
+"It was less visually impressive than he had hoped.",
+"It focused too much on beekeepers who had failed."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does the woman say about the director's intentions?",
+"o": [
+"She wanted to expose the dangers facing bees.",
+"She aimed to raise public concern for pollinators.",
+"She hoped to attract viewers to professional beekeeping."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Extract Two. You hear two colleagues talking about a new open-plan office. What problem does the woman have?",
+"o": [
+"Her colleagues interrupt her to ask for help.",
+"She has no suitable space for concentrated work.",
+"She is reluctant to use the quiet pods."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does the man suggest should be done?",
+"o": [
+"Introduce strict rules about noise.",
+"Provide more quiet pods for staff.",
+"Set aside part of the day for quiet."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Extract Three. You hear two people discussing the possible sale of a local cinema. What is the man's attitude to the council's plan?",
+"o": [
+"He understands why the council might be considering it.",
+"He thinks the council has deliberately neglected the cinema.",
+"He is convinced the council has misjudged public opinion."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What do the speakers agree about the proposed petition?",
+"o": [
+"It will succeed only if it is organised before the election.",
+"It should include a practical alternative to the sale.",
+"It must avoid mentioning the cinema's history."
+],
+"c": 1
+}
+]
+},
+{
+"id": "C1-P2",
+"title": "Part 2 · Questions 7–14",
+"kind": "file",
+"file": "TG/cae6-t1/p1.mp3",
+"intro": "You will hear a lecture about golf courses and the environment. For questions 7–14, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Interest in golf grew after the success of local players in international ____.",
+"accept": [
+"competitions",
+"competition"
+]
+},
+{
+"type": "gap",
+"label": "A national report concluded that around ____ new courses would be needed.",
+"accept": [
+"700",
+"seven hundred",
+"seven-hundred"
+]
+},
+{
+"type": "gap",
+"label": "Developers mostly built ____ courses, which many beginners could not afford.",
+"accept": [
+"championship"
+]
+},
+{
+"type": "gap",
+"label": "Golf courses are mainly used by people who drive out from the ____.",
+"accept": [
+"cities",
+"city",
+"towns"
+]
+},
+{
+"type": "gap",
+"label": "The neat, close-cut grass makes a golf course look like an urban ____.",
+"accept": [
+"park",
+"parks"
+]
+},
+{
+"type": "gap",
+"label": "Developers often import alien species of ____ from abroad.",
+"accept": [
+"plants",
+"plant"
+]
+},
+{
+"type": "gap",
+"label": "The speaker believes many courses could be turned into nature ____.",
+"accept": [
+"reserves",
+"reserve"
+]
+},
+{
+"type": "gap",
+"label": "School children could visit courses to study the natural ____.",
+"accept": [
+"habitats",
+"habitat"
+]
+}
+]
+},
+{
+"id": "C1-P3",
+"title": "Part 3 · Questions 15–20",
+"kind": "file",
+"file": "TG/cae6-t1/p3.mp3",
+"intro": "You will hear an interview with two chefs who work on trains. For questions 15–20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How did the chefs feel about the conditions in the competition?",
+"o": [
+"They found the lack of space frightening.",
+"They were already used to working with such limits.",
+"They were worried about the cost of the ingredients.",
+"They thought the time allowed was far too short."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does one of the chefs say makes life on board a train hard?",
+"o": [
+"The movement of the train makes mistakes likely.",
+"The customers are very demanding.",
+"The kitchen is too hot to work in.",
+"There is no way of getting hold of anything that has run out."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "What do the chefs say is one of the best parts of the job?",
+"o": [
+"Customers can give them praise directly.",
+"They have a free choice of what to cook.",
+"They get to travel to different countries.",
+"They are paid more than restaurant chefs."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "How does one of the chefs feel about the menus?",
+"o": [
+"She likes the fact that they never change.",
+"She thinks the two famous chefs are out of touch.",
+"She sometimes wishes she could be more adventurous.",
+"She prefers to follow the instructions exactly."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why did one of the chefs take the job?",
+"o": [
+"She was looking for a job with a view.",
+"She wanted to work on a liner again.",
+"She had been asked by a friend.",
+"She wanted a more settled way of life."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "According to one of the chefs, what has helped her to stay in the job?",
+"o": [
+"Her wish to win more prizes.",
+"Her ability to see the funny side of things.",
+"Her fear of changing career.",
+"Her love of long hours."
+],
+"c": 1
+}
+]
+},
+{
+"id": "C1-P4",
+"title": "Part 4 · Questions 21–30",
+"kind": "file",
+"file": "TG/cae6-t1/p4.mp3",
+"intro": "You will hear five different people talking about works of art they would buy if they had a large sum of money. Complete both tasks as you listen. For Task 1, choose what each speaker would buy (A–H). For Task 2, choose each speaker's comment about the art world (A–H).",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "watercolours from the past",
+"bank": [
+"watercolours from the past",
+"a set of drawings by a contemporary artist",
+"a landscape painted abroad",
+"early works by artists who are not yet established",
+"a large sculpture for public display",
+"an oil painting by an old master",
+"a portrait of a famous person",
+"a photograph by a modern master"
+],
+"taskLabel": "Task 1 — The work of art they would buy"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "a set of drawings by a contemporary artist",
+"bank": [
+"watercolours from the past",
+"a set of drawings by a contemporary artist",
+"a landscape painted abroad",
+"early works by artists who are not yet established",
+"a large sculpture for public display",
+"an oil painting by an old master",
+"a portrait of a famous person",
+"a photograph by a modern master"
+],
+"taskLabel": "Task 1 — The work of art they would buy"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "a landscape painted abroad",
+"bank": [
+"watercolours from the past",
+"a set of drawings by a contemporary artist",
+"a landscape painted abroad",
+"early works by artists who are not yet established",
+"a large sculpture for public display",
+"an oil painting by an old master",
+"a portrait of a famous person",
+"a photograph by a modern master"
+],
+"taskLabel": "Task 1 — The work of art they would buy"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "early works by artists who are not yet established",
+"bank": [
+"watercolours from the past",
+"a set of drawings by a contemporary artist",
+"a landscape painted abroad",
+"early works by artists who are not yet established",
+"a large sculpture for public display",
+"an oil painting by an old master",
+"a portrait of a famous person",
+"a photograph by a modern master"
+],
+"taskLabel": "Task 1 — The work of art they would buy"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "a large sculpture for public display",
+"bank": [
+"watercolours from the past",
+"a set of drawings by a contemporary artist",
+"a landscape painted abroad",
+"early works by artists who are not yet established",
+"a large sculpture for public display",
+"an oil painting by an old master",
+"a portrait of a famous person",
+"a photograph by a modern master"
+],
+"taskLabel": "Task 1 — The work of art they would buy"
+},
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "buyers must be wary of fakes",
+"bank": [
+"buyers must be wary of fakes",
+"art ought to be available for everyone to see",
+"real collectors follow their instincts whatever the cost",
+"profit depends on good judgement and some luck",
+"the greatest artists are often recognised too late",
+"prices for old works are unreasonably high",
+"critics have too much influence",
+"dealers cannot be trusted"
+],
+"taskLabel": "Task 2 — A comment about the world of art"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "art ought to be available for everyone to see",
+"bank": [
+"buyers must be wary of fakes",
+"art ought to be available for everyone to see",
+"real collectors follow their instincts whatever the cost",
+"profit depends on good judgement and some luck",
+"the greatest artists are often recognised too late",
+"prices for old works are unreasonably high",
+"critics have too much influence",
+"dealers cannot be trusted"
+],
+"taskLabel": "Task 2 — A comment about the world of art"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "real collectors follow their instincts whatever the cost",
+"bank": [
+"buyers must be wary of fakes",
+"art ought to be available for everyone to see",
+"real collectors follow their instincts whatever the cost",
+"profit depends on good judgement and some luck",
+"the greatest artists are often recognised too late",
+"prices for old works are unreasonably high",
+"critics have too much influence",
+"dealers cannot be trusted"
+],
+"taskLabel": "Task 2 — A comment about the world of art"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "profit depends on good judgement and some luck",
+"bank": [
+"buyers must be wary of fakes",
+"art ought to be available for everyone to see",
+"real collectors follow their instincts whatever the cost",
+"profit depends on good judgement and some luck",
+"the greatest artists are often recognised too late",
+"prices for old works are unreasonably high",
+"critics have too much influence",
+"dealers cannot be trusted"
+],
+"taskLabel": "Task 2 — A comment about the world of art"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "the greatest artists are often recognised too late",
+"bank": [
+"buyers must be wary of fakes",
+"art ought to be available for everyone to see",
+"real collectors follow their instincts whatever the cost",
+"profit depends on good judgement and some luck",
+"the greatest artists are often recognised too late",
+"prices for old works are unreasonably high",
+"critics have too much influence",
+"dealers cannot be trusted"
+],
+"taskLabel": "Task 2 — A comment about the world of art"
+}
+]
+}
+]
+},
+{
+"label": "C1 — Practice · CAE 6 Test 2 audio · TG",
+"cefr": "Cambridge C1 Advanced · digital format",
+"blurb": "Original Part 1 (three extracts) plus authentic exam recordings with new questions – Parts 2, 3, 4.",
+"audios": [
+{
+"id": "C1-P1",
+"title": "Part 1 · Questions 1–6",
+"kind": "file",
+"file": "TG/cae6-t2/p0.mp3",
+"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Extract One. You hear two people discussing a museum's new chatbot guide. What is the woman's opinion of it?",
+"o": [
+"It gave her a greater understanding of a work she disliked.",
+"It was more accurate than the previous audio guides.",
+"It made her feel less alone in the museum."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What concern does the man express?",
+"o": [
+"Curators may soon lose their jobs.",
+"The information given may often be wrong.",
+"Visitors may stop looking at the exhibits themselves."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Extract Two. You hear two friends talking about a half marathon. Why is the woman so anxious?",
+"o": [
+"She has not trained as much as she should have.",
+"She is afraid of letting herself and others down.",
+"She has been told the course is very hilly."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What advice does the man give her?",
+"o": [
+"Avoid telling people what time she hopes to achieve.",
+"Walk part of the route to save energy.",
+"Ignore the crowd and concentrate on the race."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Extract Three. You hear a couple talking about their neighbours. How does the woman feel after her conversation with them?",
+"o": [
+"Pleased that the work will be finished sooner than expected.",
+"Embarrassed that she has made a complaint.",
+"Uneasy about the effect her request has had."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does the man imply about the neighbours' reaction to the scaffolding?",
+"o": [
+"They did not mind it as much as the woman fears.",
+"They were probably more upset than they said.",
+"They had been given too little warning."
+],
+"c": 1
+}
+]
+},
+{
+"id": "C1-P2",
+"title": "Part 2 · Questions 7–14",
+"kind": "file",
+"file": "TG/cae6-t2/p1.mp3",
+"intro": "You will hear an expert on theatre history talking about a famous actress. For questions 7–14, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The actress was born in the year ____.",
+"accept": [
+"1847"
+]
+},
+{
+"type": "gap",
+"label": "She waited until she was ____ before going on stage, to avoid upsetting her parents.",
+"accept": [
+"22",
+"twenty-two",
+"twenty two"
+]
+},
+{
+"type": "gap",
+"label": "Even in her first small part she found it hard to learn her ____.",
+"accept": [
+"lines"
+]
+},
+{
+"type": "gap",
+"label": "Audiences said her voice had an almost ____ quality.",
+"accept": [
+"hypnotic"
+]
+},
+{
+"type": "gap",
+"label": "In her fifties she had to undergo a risky throat ____.",
+"accept": [
+"operation",
+"surgery"
+]
+},
+{
+"type": "gap",
+"label": "Her talent as a ____ actress gave her wide popular appeal.",
+"accept": [
+"comedy",
+"comic"
+]
+},
+{
+"type": "gap",
+"label": "She was one of the first stars to have a ____ named after her.",
+"accept": [
+"perfume"
+]
+},
+{
+"type": "gap",
+"label": "Letters she exchanged with a writer show her great style and ____.",
+"accept": [
+"wit"
+]
+}
+]
+},
+{
+"id": "C1-P3",
+"title": "Part 3 · Questions 15–20",
+"kind": "file",
+"file": "TG/cae6-t2/p3.mp3",
+"intro": "You will hear an interview with a novelist. For questions 15–20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How does Tom feel about writing now?",
+"o": [
+"He still struggles for hours over single sentences.",
+"He enjoys it less than he used to.",
+"He finds it absorbing when it is going well.",
+"He thinks the excitement has gone."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Why did Tom use to keep quiet about work in progress?",
+"o": [
+"He feared he would lose control of it.",
+"He was embarrassed by early drafts.",
+"His publishers had forbidden him to talk.",
+"He had no clear idea what he was writing."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why does Tom show his finished drafts to old friends?",
+"o": [
+"They have more experience than his publishers.",
+"They can correct his mistakes in grammar.",
+"They help him decide which idea to follow.",
+"They will give him an honest opinion that others may hold back."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "What did Tom learn from his friend's reaction to his early novel?",
+"o": [
+"His writing needed a completely new style.",
+"People who read your work must be free to criticise it.",
+"He should never ask friends for advice.",
+"He had chosen the wrong publisher."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What did Tom enjoy about his first film work?",
+"o": [
+"Having plenty of money to spend.",
+"Being in sole charge of the project.",
+"Working fast alongside highly skilled people.",
+"Staying at home while others worked."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Tom say about screenplays?",
+"o": [
+"They are more like instructions than a form of literature.",
+"They are harder to write than novels.",
+"They give the writer full control.",
+"They are mainly about dialogue."
+],
+"c": 0
+}
+]
+},
+{
+"id": "C1-P4",
+"title": "Part 4 · Questions 21–30",
+"kind": "file",
+"file": "TG/cae6-t2/p4.mp3",
+"intro": "You will hear five different people talking about important changes in their careers. Complete both tasks as you listen. For Task 1, choose what has happened to each speaker (A–H). For Task 2, choose how each speaker feels (A–H).",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "a first success after years of struggle",
+"bank": [
+"a first success after years of struggle",
+"a false story in the press",
+"no longer being recognised in public",
+"leaving a group to work alone",
+"turning down a poor offer",
+"being chosen for an award",
+"recovering from a serious illness",
+"having a public argument"
+],
+"taskLabel": "Task 1 — What has happened"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "a false story in the press",
+"bank": [
+"a first success after years of struggle",
+"a false story in the press",
+"no longer being recognised in public",
+"leaving a group to work alone",
+"turning down a poor offer",
+"being chosen for an award",
+"recovering from a serious illness",
+"having a public argument"
+],
+"taskLabel": "Task 1 — What has happened"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "no longer being recognised in public",
+"bank": [
+"a first success after years of struggle",
+"a false story in the press",
+"no longer being recognised in public",
+"leaving a group to work alone",
+"turning down a poor offer",
+"being chosen for an award",
+"recovering from a serious illness",
+"having a public argument"
+],
+"taskLabel": "Task 1 — What has happened"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "leaving a group to work alone",
+"bank": [
+"a first success after years of struggle",
+"a false story in the press",
+"no longer being recognised in public",
+"leaving a group to work alone",
+"turning down a poor offer",
+"being chosen for an award",
+"recovering from a serious illness",
+"having a public argument"
+],
+"taskLabel": "Task 1 — What has happened"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "turning down a poor offer",
+"bank": [
+"a first success after years of struggle",
+"a false story in the press",
+"no longer being recognised in public",
+"leaving a group to work alone",
+"turning down a poor offer",
+"being chosen for an award",
+"recovering from a serious illness",
+"having a public argument"
+],
+"taskLabel": "Task 1 — What has happened"
+},
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "worried about living up to a success",
+"bank": [
+"worried about living up to a success",
+"philosophical about unfair treatment",
+"pleased to escape unwanted attention",
+"confident that others will understand",
+"indignant at being undervalued",
+"nostalgic for earlier days",
+"ashamed of the past",
+"grateful for the support of friends"
+],
+"taskLabel": "Task 2 — How each speaker feels"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "philosophical about unfair treatment",
+"bank": [
+"worried about living up to a success",
+"philosophical about unfair treatment",
+"pleased to escape unwanted attention",
+"confident that others will understand",
+"indignant at being undervalued",
+"nostalgic for earlier days",
+"ashamed of the past",
+"grateful for the support of friends"
+],
+"taskLabel": "Task 2 — How each speaker feels"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "pleased to escape unwanted attention",
+"bank": [
+"worried about living up to a success",
+"philosophical about unfair treatment",
+"pleased to escape unwanted attention",
+"confident that others will understand",
+"indignant at being undervalued",
+"nostalgic for earlier days",
+"ashamed of the past",
+"grateful for the support of friends"
+],
+"taskLabel": "Task 2 — How each speaker feels"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "confident that others will understand",
+"bank": [
+"worried about living up to a success",
+"philosophical about unfair treatment",
+"pleased to escape unwanted attention",
+"confident that others will understand",
+"indignant at being undervalued",
+"nostalgic for earlier days",
+"ashamed of the past",
+"grateful for the support of friends"
+],
+"taskLabel": "Task 2 — How each speaker feels"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "indignant at being undervalued",
+"bank": [
+"worried about living up to a success",
+"philosophical about unfair treatment",
+"pleased to escape unwanted attention",
+"confident that others will understand",
+"indignant at being undervalued",
+"nostalgic for earlier days",
+"ashamed of the past",
+"grateful for the support of friends"
+],
+"taskLabel": "Task 2 — How each speaker feels"
+}
+]
+}
+]
+},
+{
+"label": "C1 — Practice · CAE 6 Test 3 audio · TG",
+"cefr": "Cambridge C1 Advanced · digital format",
+"blurb": "Original Part 1 (three extracts) plus authentic exam recordings with new questions – Parts 2, 3, 4.",
+"audios": [
+{
+"id": "C1-P1",
+"title": "Part 1 · Questions 1–6",
+"kind": "file",
+"file": "TG/cae6-t3/p0.mp3",
+"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Extract One. You hear two friends talking about a new translation of a novel. What does the man say about the translator's style?",
+"o": [
+"It suits the period in which the story is set.",
+"It reflects the translator's own preferences.",
+"It captures the humour of the original perfectly."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does the woman think about the translation?",
+"o": [
+"Taking risks is better than playing safe.",
+"Older translations were more faithful to the novel.",
+"The language is too informal for most readers."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Extract Two. You hear two people discussing a school's phone ban. What does the man's sister think about the ban?",
+"o": [
+"It will be impossible to enforce.",
+"It is likely to cause difficulties for older students.",
+"It is unnecessary because concentration is already good."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What do the speakers criticise about the head teacher?",
+"o": [
+"She refused to accept the evidence about phones.",
+"She introduced the ban too suddenly.",
+"She failed to ask the staff for their views."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Extract Three. You hear two people talking about a four-day working week. What was the man's attitude when it was first suggested?",
+"o": [
+"He feared it would make him overworked.",
+"He thought clients would object.",
+"He doubted that managers were serious."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does the man imply about the managers?",
+"o": [
+"They are unsure whether the scheme should continue.",
+"They are keen to expand it to other companies.",
+"They are carefully checking its results."
+],
+"c": 2
+}
+]
+},
+{
+"id": "C1-P2",
+"title": "Part 2 · Questions 7–14",
+"kind": "file",
+"file": "TG/cae6-t3/p1.mp3",
+"intro": "You will hear a guide talking to visitors outside a country house about the history of parks. For questions 7–14, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "The idea of a park only came into being in the ____ century.",
+"accept": [
+"17th",
+"seventeenth",
+"17"
+]
+},
+{
+"type": "gap",
+"label": "In earlier times, wild places in nature were regarded as ____.",
+"accept": [
+"dangerous",
+"a danger",
+"dangerous places"
+]
+},
+{
+"type": "gap",
+"label": "Parkland soon became a ____ for the very wealthy.",
+"accept": [
+"status symbol"
+]
+},
+{
+"type": "gap",
+"label": "Planting trees meant a long-term ____, which showed confidence in the future.",
+"accept": [
+"investment"
+]
+},
+{
+"type": "gap",
+"label": "In the 18th century the fruit and vegetable gardens were often hidden away to one ____.",
+"accept": [
+"side"
+]
+},
+{
+"type": "gap",
+"label": "The land close to the house was grassland rather than fields of ____.",
+"accept": [
+"crops"
+]
+},
+{
+"type": "gap",
+"label": "Rich owners were often involved in breeding ____ as a respectable form of farming.",
+"accept": [
+"animals"
+]
+},
+{
+"type": "gap",
+"label": "Urban parks were later used for the ____ of growing city populations.",
+"accept": [
+"recreation"
+]
+}
+]
+},
+{
+"id": "C1-P3",
+"title": "Part 3 · Questions 15–20",
+"kind": "file",
+"file": "TG/cae6-t3/p3.mp3",
+"intro": "You will hear an interview with a sculptor. For questions 15–20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How did Alan's father see his interest in sculpture at first?",
+"o": [
+"As a talent that should be encouraged at once.",
+"As a danger to his chances of a degree.",
+"As a way to prepare for a career in engineering.",
+"As a pastime rather than a career."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "Why is Alan glad that his father resisted his plan?",
+"o": [
+"It gave him time to finish his maths degree.",
+"It forced him to take sculpture seriously.",
+"It showed him that he was good enough.",
+"It made him decide to join the family firm."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What did Alan value about the early part of his art course?",
+"o": [
+"He learned something different from each teacher.",
+"He met other young sculptors.",
+"He was free to choose his own materials.",
+"He was taught how to draw properly."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why did Alan become restless at art college?",
+"o": [
+"The course was shorter than he expected.",
+"The students were not serious enough.",
+"The approach taken there was very traditional.",
+"The teachers changed too often."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What did Alan gain from his time with Harold Morton?",
+"o": [
+"He learned to draw in the way a sculptor does.",
+"He found a way of selling his work.",
+"He was taught to paint in a new style.",
+"He was persuaded to give up college."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Alan say about the titles of his sculptures?",
+"o": [
+"They explain what the work is meant to show.",
+"They are chosen after the work is finished.",
+"They describe the people and animals he models.",
+"They are suggested by his customers."
+],
+"c": 1
+}
+]
+},
+{
+"id": "C1-P4",
+"title": "Part 4 · Questions 21–30",
+"kind": "file",
+"file": "TG/cae6-t3/p4.mp3",
+"intro": "You will hear five different people talking about living in the countryside. Complete both tasks as you listen. For Task 1, choose each speaker's main concern (A–H). For Task 2, choose what each speaker suggests (A–H).",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "lack of transport at times that suit young people",
+"bank": [
+"lack of transport at times that suit young people",
+"the disappearance of local work",
+"the high cost of running a car",
+"nowhere to spend free time",
+"the loss of village shops and services",
+"noise and pollution",
+"poor internet access",
+"rising crime"
+],
+"taskLabel": "Task 1 — The main concern"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "the disappearance of local work",
+"bank": [
+"lack of transport at times that suit young people",
+"the disappearance of local work",
+"the high cost of running a car",
+"nowhere to spend free time",
+"the loss of village shops and services",
+"noise and pollution",
+"poor internet access",
+"rising crime"
+],
+"taskLabel": "Task 1 — The main concern"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "the high cost of running a car",
+"bank": [
+"lack of transport at times that suit young people",
+"the disappearance of local work",
+"the high cost of running a car",
+"nowhere to spend free time",
+"the loss of village shops and services",
+"noise and pollution",
+"poor internet access",
+"rising crime"
+],
+"taskLabel": "Task 1 — The main concern"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "nowhere to spend free time",
+"bank": [
+"lack of transport at times that suit young people",
+"the disappearance of local work",
+"the high cost of running a car",
+"nowhere to spend free time",
+"the loss of village shops and services",
+"noise and pollution",
+"poor internet access",
+"rising crime"
+],
+"taskLabel": "Task 1 — The main concern"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "the loss of village shops and services",
+"bank": [
+"lack of transport at times that suit young people",
+"the disappearance of local work",
+"the high cost of running a car",
+"nowhere to spend free time",
+"the loss of village shops and services",
+"noise and pollution",
+"poor internet access",
+"rising crime"
+],
+"taskLabel": "Task 1 — The main concern"
+},
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "a smaller vehicle for local journeys",
+"bank": [
+"a smaller vehicle for local journeys",
+"raising money for new local businesses",
+"special lower fares for country dwellers",
+"council support for a sports facility",
+"setting up a village shop",
+"bringing in more tourists",
+"building new houses",
+"closing the village school"
+],
+"taskLabel": "Task 2 — What each speaker suggests"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "raising money for new local businesses",
+"bank": [
+"a smaller vehicle for local journeys",
+"raising money for new local businesses",
+"special lower fares for country dwellers",
+"council support for a sports facility",
+"setting up a village shop",
+"bringing in more tourists",
+"building new houses",
+"closing the village school"
+],
+"taskLabel": "Task 2 — What each speaker suggests"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "special lower fares for country dwellers",
+"bank": [
+"a smaller vehicle for local journeys",
+"raising money for new local businesses",
+"special lower fares for country dwellers",
+"council support for a sports facility",
+"setting up a village shop",
+"bringing in more tourists",
+"building new houses",
+"closing the village school"
+],
+"taskLabel": "Task 2 — What each speaker suggests"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "council support for a sports facility",
+"bank": [
+"a smaller vehicle for local journeys",
+"raising money for new local businesses",
+"special lower fares for country dwellers",
+"council support for a sports facility",
+"setting up a village shop",
+"bringing in more tourists",
+"building new houses",
+"closing the village school"
+],
+"taskLabel": "Task 2 — What each speaker suggests"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "setting up a village shop",
+"bank": [
+"a smaller vehicle for local journeys",
+"raising money for new local businesses",
+"special lower fares for country dwellers",
+"council support for a sports facility",
+"setting up a village shop",
+"bringing in more tourists",
+"building new houses",
+"closing the village school"
+],
+"taskLabel": "Task 2 — What each speaker suggests"
+}
+]
+}
+]
+},
+{
+"label": "C1 — Practice · CAE 6 Test 4 audio · TG",
+"cefr": "Cambridge C1 Advanced · digital format",
+"blurb": "Original Part 1 (three extracts) plus authentic exam recordings with new questions – Parts 2, 3, 4.",
+"audios": [
+{
+"id": "C1-P1",
+"title": "Part 1 · Questions 1–6",
+"kind": "file",
+"file": "TG/cae6-t4/p0.mp3",
+"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Extract One. You hear two friends discussing a podcast about an archaeological dig. What does the woman like about the podcast?",
+"o": [
+"The guests' candour about the nature of their work.",
+"The presenter's knowledge of Roman history.",
+"The emphasis on spectacular discoveries."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why was the child's shoe significant for the younger archaeologist?",
+"o": [
+"It confirmed a theory about the fort's occupants.",
+"It gave her new enthusiasm for the project.",
+"It was the most valuable find of the season."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Extract Two. You hear two people talking about a local bike-share scheme. What does the man think the council should do?",
+"o": [
+"Replace the company running the scheme.",
+"Reduce the number of bikes available.",
+"Make sure the existing agreement is observed."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "How do the speakers feel about the scheme?",
+"o": [
+"They share the same hopes for its future.",
+"They disagree about its popularity.",
+"They both think it is too expensive."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Extract Three. You hear two friends discussing a restaurant review. What is the man's reaction to the review?",
+"o": [
+"He feels it gives an unfair picture of the chef.",
+"He finds it hard to decide how favourable it is.",
+"He thinks the prices are justified."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does the woman suggest about zero-waste cooking?",
+"o": [
+"It is likely to become standard in most restaurants.",
+"It uses ingredients that are hard to obtain.",
+"It involves more work than conventional cooking."
+],
+"c": 2
+}
+]
+},
+{
+"id": "C1-P2",
+"title": "Part 2 · Questions 7–14",
+"kind": "file",
+"file": "TG/cae6-t4/p1.mp3",
+"intro": "You will hear a journalist talking about a sailing trip he made to the Arctic. For questions 7–14, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "He made the voyage with a small ____ on board.",
+"accept": [
+"crew"
+]
+},
+{
+"type": "gap",
+"label": "During a gale on the first night, a large cabin ____ broke.",
+"accept": [
+"window",
+"windows"
+]
+},
+{
+"type": "gap",
+"label": "The tools on board allowed them to carry out a solid ____.",
+"accept": [
+"repair"
+]
+},
+{
+"type": "gap",
+"label": "In winter the temperature in those seas can fall to minus ____ degrees.",
+"accept": [
+"50",
+"fifty"
+]
+},
+{
+"type": "gap",
+"label": "In summer the air temperature rarely rises much above ____ degrees.",
+"accept": [
+"10",
+"ten"
+]
+},
+{
+"type": "gap",
+"label": "The sailors were puzzled to see enormous tree ____ floating on the sea.",
+"accept": [
+"trunks"
+]
+},
+{
+"type": "gap",
+"label": "They did not see any polar bears, but they did see ____.",
+"accept": [
+"whales"
+]
+},
+{
+"type": "gap",
+"label": "Most tourism in the area takes the form of ____ tours.",
+"accept": [
+"package"
+]
+}
+]
+},
+{
+"id": "C1-P3",
+"title": "Part 3 · Questions 15–20",
+"kind": "file",
+"file": "TG/cae6-t4/p3.mp3",
+"intro": "You will hear an interview with a novelist and biographer. For questions 15–20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "How does Norman feel about his first novel now?",
+"o": [
+"He regrets that it was so easily written.",
+"He believes it was better than all his later books.",
+"He admires some of its qualities but would not want to repeat them.",
+"He thinks it was too sophisticated for its time."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What was Norman's reaction to the review of his second novel?",
+"o": [
+"He was surprised at how fierce the attack was.",
+"He agreed with most of the criticism.",
+"He was pleased that it had been noticed.",
+"He was amused by the reviewer's wit."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Norman say about bad reviews in general?",
+"o": [
+"They are written by critics who dislike youth culture.",
+"They usually make writers give up completely.",
+"They are less useful than good ones.",
+"They can discourage everyone except the most determined writers."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "Why does Norman change the real people he puts into his novels?",
+"o": [
+"His family would be upset if he did not.",
+"Characters copied exactly from life tend to be dull.",
+"It is easier to invent characters from nothing.",
+"Readers would not believe in them otherwise."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Norman think about violent novels?",
+"o": [
+"They are always worse than a television programme.",
+"They should not be published today.",
+"They are acceptable if they reveal something about human nature.",
+"They are usually written by authors without imagination."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What advantage does Norman find in writing biographies?",
+"o": [
+"He already knows how events turned out.",
+"He can invent whatever he likes.",
+"He is more famous than the people he writes about.",
+"Biographers are better paid than novelists."
+],
+"c": 0
+}
+]
+},
+{
+"id": "C1-P4",
+"title": "Part 4 · Questions 21–30",
+"kind": "file",
+"file": "TG/cae6-t4/p4.mp3",
+"intro": "You will hear five different people talking about how they escape from the demands of their working lives. Complete both tasks as you listen. For Task 1, choose what each speaker finds demanding about work (A–H). For Task 2, choose what attracts each speaker to their way of escaping (A–H).",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "being constantly recognised in public",
+"bank": [
+"being constantly recognised in public",
+"the physical and emotional intensity of the job",
+"the pressure of responsibility day after day",
+"very long, tiring days",
+"the relentless speed of communication",
+"constant travel",
+"dealing with difficult colleagues",
+"working alone"
+],
+"taskLabel": "Task 1 — What each speaker finds demanding at work"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "the physical and emotional intensity of the job",
+"bank": [
+"being constantly recognised in public",
+"the physical and emotional intensity of the job",
+"the pressure of responsibility day after day",
+"very long, tiring days",
+"the relentless speed of communication",
+"constant travel",
+"dealing with difficult colleagues",
+"working alone"
+],
+"taskLabel": "Task 1 — What each speaker finds demanding at work"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "the pressure of responsibility day after day",
+"bank": [
+"being constantly recognised in public",
+"the physical and emotional intensity of the job",
+"the pressure of responsibility day after day",
+"very long, tiring days",
+"the relentless speed of communication",
+"constant travel",
+"dealing with difficult colleagues",
+"working alone"
+],
+"taskLabel": "Task 1 — What each speaker finds demanding at work"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "very long, tiring days",
+"bank": [
+"being constantly recognised in public",
+"the physical and emotional intensity of the job",
+"the pressure of responsibility day after day",
+"very long, tiring days",
+"the relentless speed of communication",
+"constant travel",
+"dealing with difficult colleagues",
+"working alone"
+],
+"taskLabel": "Task 1 — What each speaker finds demanding at work"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "the relentless speed of communication",
+"bank": [
+"being constantly recognised in public",
+"the physical and emotional intensity of the job",
+"the pressure of responsibility day after day",
+"very long, tiring days",
+"the relentless speed of communication",
+"constant travel",
+"dealing with difficult colleagues",
+"working alone"
+],
+"taskLabel": "Task 1 — What each speaker finds demanding at work"
+},
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "the thrill of speed and risk",
+"bank": [
+"the thrill of speed and risk",
+"a hideaway they have built themselves",
+"lessons about teamwork",
+"lively family company",
+"simple, plain surroundings",
+"luxury and comfort",
+"the chance to compete and win",
+"the chance to make new friends"
+],
+"taskLabel": "Task 2 — What attracts them to their way of escaping"
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "a hideaway they have built themselves",
+"bank": [
+"the thrill of speed and risk",
+"a hideaway they have built themselves",
+"lessons about teamwork",
+"lively family company",
+"simple, plain surroundings",
+"luxury and comfort",
+"the chance to compete and win",
+"the chance to make new friends"
+],
+"taskLabel": "Task 2 — What attracts them to their way of escaping"
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "lessons about teamwork",
+"bank": [
+"the thrill of speed and risk",
+"a hideaway they have built themselves",
+"lessons about teamwork",
+"lively family company",
+"simple, plain surroundings",
+"luxury and comfort",
+"the chance to compete and win",
+"the chance to make new friends"
+],
+"taskLabel": "Task 2 — What attracts them to their way of escaping"
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "lively family company",
+"bank": [
+"the thrill of speed and risk",
+"a hideaway they have built themselves",
+"lessons about teamwork",
+"lively family company",
+"simple, plain surroundings",
+"luxury and comfort",
+"the chance to compete and win",
+"the chance to make new friends"
+],
+"taskLabel": "Task 2 — What attracts them to their way of escaping"
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "simple, plain surroundings",
+"bank": [
+"the thrill of speed and risk",
+"a hideaway they have built themselves",
+"lessons about teamwork",
+"lively family company",
+"simple, plain surroundings",
+"luxury and comfort",
+"the chance to compete and win",
+"the chance to make new friends"
+],
+"taskLabel": "Task 2 — What attracts them to their way of escaping"
+}
+]
+}
+]
+},
+{
+"label": "C1 — Practice · Exam Booster Advanced Test 1 audio · TG",
+"cefr": "Cambridge C1 Advanced · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
+"audios": [
+{
+"id": "C1-P1",
+"title": "Part 1 · Questions 1–6",
+"kind": "file",
+"file": "TG/eba-t1/p1.mp3",
+"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Extract 1 (two friends talking about reading). What does one of them like about reading on a phone?",
+"o": [
+"Nobody can tell what kind of book is being read.",
+"It costs less than buying paperbacks.",
+"The screen is easier on the eyes."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What habit has electronic reading helped one friend to break?",
+"o": [
+"Reading while walking around",
+"Buying more books than can be read",
+"Looking ahead to find out how a story ends"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Extract 2 (a woman talking about a book). What does she say about the novel?",
+"o": [
+"Its main character was hard to believe in.",
+"She felt close to its leading female character.",
+"It was too upsetting for her to finish."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What is her opinion of the paperback cover?",
+"o": [
+"It fails to hint at what the book is really about.",
+"It gives a clear picture of the story's main issue.",
+"It put her off reading the book at first."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Extract 3 (two writers on their working day). What does one of them say about reading the newspapers first thing?",
+"o": [
+"It is a way of relaxing before work.",
+"It provides a ready source of ideas.",
+"It is a habit she is trying to give up."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why does one of the writers go for a walk each afternoon?",
+"o": [
+"She enjoys being out in the fresh air.",
+"She feels guilty about sitting all day.",
+"She believes it is good for her brain."
+],
+"c": 2
+}
+]
+},
+{
+"id": "C1-P2",
+"title": "Part 2 · Questions 7–14",
+"kind": "file",
+"file": "TG/eba-t1/p2.mp3",
+"intro": "You will hear a woman called Camilla Doyle introducing a science fair. For questions 7–14, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "In her work on the selection committee, Camilla has examined a lot of ____.",
+"accept": [
+"robots",
+"robot"
+]
+},
+{
+"type": "gap",
+"label": "David Nelson built his fusion device in a ____ instead of a laboratory.",
+"accept": [
+"garage"
+]
+},
+{
+"type": "gap",
+"label": "The team's racing car can go from 0 to 100 in ____ seconds.",
+"accept": [
+"4",
+"four"
+]
+},
+{
+"type": "gap",
+"label": "Joe Hickson's machine detects ____ substances in places where they should not be.",
+"accept": [
+"toxic"
+]
+},
+{
+"type": "gap",
+"label": "Jenny Benson's software helps space vehicles to navigate ____ more efficiently.",
+"accept": [
+"obstacles",
+"obstacle"
+]
+},
+{
+"type": "gap",
+"label": "The weather balloon travelled more than ____ kilometres above the ground.",
+"accept": [
+"30",
+"thirty"
+]
+},
+{
+"type": "gap",
+"label": "The underwater rover can work in places where there is no ____.",
+"accept": [
+"light"
+]
+},
+{
+"type": "gap",
+"label": "What impressed Camilla above all about the young scientists was their ____.",
+"accept": [
+"attitude",
+"attitudes"
+]
+}
+]
+},
+{
+"id": "C1-P3",
+"title": "Part 3 · Questions 15–20",
+"kind": "file",
+"file": "TG/eba-t1/p3.mp3",
+"intro": "You will hear part of an interview with two graphic designers, Anita Dickinson and Joe Connolly, who talk about going freelance. For questions 15–20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What did Anita find most attractive about going freelance?",
+"o": [
+"Being paid more than in her old job",
+"Having more security than before",
+"Running her own working life",
+"Receiving praise from her company"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Joe say he had to be ready to do in order to get started?",
+"o": [
+"Spend a lot of money on advertising",
+"Work outside normal hours",
+"Learn a number of new skills",
+"Turn down other offers of work"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does the speaker who used to enjoy office life say about working alone?",
+"o": [
+"Whole days of isolation have proved hard to bear.",
+"The jokes of colleagues are badly missed.",
+"It has helped ideas to come more easily.",
+"Contact with people through meetings has kept loneliness away."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "What problem does Anita mention about the way she works?",
+"o": [
+"She often carries on until late at night.",
+"She wastes time on the internet.",
+"She depends too heavily on scheduling apps.",
+"She finds it hard to meet deadlines."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What do the two freelancers agree about keeping up with developments in the business?",
+"o": [
+"It is harder for freelancers than for employees.",
+"It takes up a large part of every day.",
+"Specialising in one area makes it easier.",
+"New software can do most of it for you."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does Joe say has helped him to earn more?",
+"o": [
+"Bargaining hard with every client",
+"Recommendations passed on by satisfied clients",
+"Putting up his prices every year",
+"Taking on as many jobs as possible"
+],
+"c": 1
+}
+]
+},
+{
+"id": "C1-P4",
+"title": "Part 4 · Questions 21–30",
+"kind": "file",
+"file": "TG/eba-t1/p4.mp3",
+"intro": "You will hear five short extracts in which people talk about the environment. For Task 1, choose from the list (A–H) what each speaker enjoys about what they do to look after the environment. For Task 2, choose from the list (A–H) how each speaker feels about global environmental issues. Use each letter only once in each task. There are three extra letters in each task.",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "having a regular weekly commitment",
+"taskLabel": "Task 1 — what each speaker enjoys about looking after the environment",
+"bank": [
+"having a regular weekly commitment",
+"receiving kindness from people they know",
+"feeling good about avoiding harmful habits",
+"getting to grips with a complicated subject",
+"persuading others to change their habits",
+"seeing quick and visible results",
+"being part of a large community",
+"spending time in the countryside"
+]
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "receiving kindness from people they know",
+"taskLabel": "Task 1 — what each speaker enjoys about looking after the environment",
+"bank": [
+"having a regular weekly commitment",
+"receiving kindness from people they know",
+"feeling good about avoiding harmful habits",
+"getting to grips with a complicated subject",
+"persuading others to change their habits",
+"seeing quick and visible results",
+"being part of a large community",
+"spending time in the countryside"
+]
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "feeling good about avoiding harmful habits",
+"taskLabel": "Task 1 — what each speaker enjoys about looking after the environment",
+"bank": [
+"having a regular weekly commitment",
+"receiving kindness from people they know",
+"feeling good about avoiding harmful habits",
+"getting to grips with a complicated subject",
+"persuading others to change their habits",
+"seeing quick and visible results",
+"being part of a large community",
+"spending time in the countryside"
+]
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "getting to grips with a complicated subject",
+"taskLabel": "Task 1 — what each speaker enjoys about looking after the environment",
+"bank": [
+"having a regular weekly commitment",
+"receiving kindness from people they know",
+"feeling good about avoiding harmful habits",
+"getting to grips with a complicated subject",
+"persuading others to change their habits",
+"seeing quick and visible results",
+"being part of a large community",
+"spending time in the countryside"
+]
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "persuading others to change their habits",
+"taskLabel": "Task 1 — what each speaker enjoys about looking after the environment",
+"bank": [
+"having a regular weekly commitment",
+"receiving kindness from people they know",
+"feeling good about avoiding harmful habits",
+"getting to grips with a complicated subject",
+"persuading others to change their habits",
+"seeing quick and visible results",
+"being part of a large community",
+"spending time in the countryside"
+]
+},
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "annoyed at being unable to make a wider difference",
+"taskLabel": "Task 2 — how each speaker feels about global environmental issues",
+"bank": [
+"annoyed at being unable to make a wider difference",
+"encouraged by signs that attitudes are changing",
+"hopeful provided governments act",
+"confident that experts will find a solution",
+"doubtful that popular measures achieve much",
+"certain that one energy source is the answer",
+"resigned to the damage being done",
+"angry with the way the media report it"
+]
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "encouraged by signs that attitudes are changing",
+"taskLabel": "Task 2 — how each speaker feels about global environmental issues",
+"bank": [
+"annoyed at being unable to make a wider difference",
+"encouraged by signs that attitudes are changing",
+"hopeful provided governments act",
+"confident that experts will find a solution",
+"doubtful that popular measures achieve much",
+"certain that one energy source is the answer",
+"resigned to the damage being done",
+"angry with the way the media report it"
+]
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "hopeful provided governments act",
+"taskLabel": "Task 2 — how each speaker feels about global environmental issues",
+"bank": [
+"annoyed at being unable to make a wider difference",
+"encouraged by signs that attitudes are changing",
+"hopeful provided governments act",
+"confident that experts will find a solution",
+"doubtful that popular measures achieve much",
+"certain that one energy source is the answer",
+"resigned to the damage being done",
+"angry with the way the media report it"
+]
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "confident that experts will find a solution",
+"taskLabel": "Task 2 — how each speaker feels about global environmental issues",
+"bank": [
+"annoyed at being unable to make a wider difference",
+"encouraged by signs that attitudes are changing",
+"hopeful provided governments act",
+"confident that experts will find a solution",
+"doubtful that popular measures achieve much",
+"certain that one energy source is the answer",
+"resigned to the damage being done",
+"angry with the way the media report it"
+]
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "doubtful that popular measures achieve much",
+"taskLabel": "Task 2 — how each speaker feels about global environmental issues",
+"bank": [
+"annoyed at being unable to make a wider difference",
+"encouraged by signs that attitudes are changing",
+"hopeful provided governments act",
+"confident that experts will find a solution",
+"doubtful that popular measures achieve much",
+"certain that one energy source is the answer",
+"resigned to the damage being done",
+"angry with the way the media report it"
+]
+}
+]
+}
+]
+},
+{
+"label": "C1 — Practice · Exam Booster Advanced Test 2 audio · TG",
+"cefr": "Cambridge C1 Advanced · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
+"audios": [
+{
+"id": "C1-P1",
+"title": "Part 1 · Questions 1–6",
+"kind": "file",
+"file": "TG/eba-t2/p1.mp3",
+"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Extract 1 (two friends talking about public transport). What do the friends say about rush-hour passengers?",
+"o": [
+"They are uncomfortable being so close to strangers.",
+"They are rude to people who need a seat.",
+"They enjoy chatting to fellow travellers."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does one friend say about seating?",
+"o": [
+"Sitting side by side encourages conversation.",
+"Passengers facing each other feel less exposed.",
+"Regular travellers are always relaxed with each other."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Extract 2 (two friends talking about social media). What are the friends critical of?",
+"o": [
+"People who ask others for their opinions",
+"People who share too many holiday photos",
+"People who write angry comments without checking facts"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What does one friend find frustrating about social media?",
+"o": [
+"Readers accept short, catchy items without questioning them.",
+"Comments on blogs are often deleted.",
+"Users are too slow to react to news."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Extract 3 (a radio discussion about surveys). What is the speaker's criticism of large surveys?",
+"o": [
+"They cost far too much to carry out.",
+"Answers can be affected by things unrelated to real attitudes.",
+"Too few people agree to take part in them."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What did the soft drinks company do differently?",
+"o": [
+"It questioned more people than ever before.",
+"It paid customers to recycle.",
+"It watched small groups of people closely in daily life."
+],
+"c": 2
+}
+]
+},
+{
+"id": "C1-P2",
+"title": "Part 2 · Questions 7–14",
+"kind": "file",
+"file": "TG/eba-t2/p2.mp3",
+"intro": "You will hear a man called Sam Parker talking about doing volunteer work in other countries. For questions 7–14, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "Most organisations prefer volunteers who have qualifications or a particular ____.",
+"accept": [
+"skill",
+"skills"
+]
+},
+{
+"type": "gap",
+"label": "Sam's first placement was at a ____ park in Thailand.",
+"accept": [
+"safari"
+]
+},
+{
+"type": "gap",
+"label": "There, he helped to look after injured ____.",
+"accept": [
+"birds"
+]
+},
+{
+"type": "gap",
+"label": "Sam says the project taught him an enormous amount about ____.",
+"accept": [
+"teamwork",
+"team work",
+"working in a team"
+]
+},
+{
+"type": "gap",
+"label": "In the lesson on building a hut, the structure was held together with ____.",
+"accept": [
+"string"
+]
+},
+{
+"type": "gap",
+"label": "Volunteering for less than a ____ is generally thought to be inappropriate.",
+"accept": [
+"month"
+]
+},
+{
+"type": "gap",
+"label": "A commitment of around ____ weeks is said to allow time to become part of the local community.",
+"accept": [
+"12",
+"twelve"
+]
+},
+{
+"type": "gap",
+"label": "The one thing Sam expected to bother him during his travels, but did not, was ____.",
+"accept": [
+"loneliness"
+]
+}
+]
+},
+{
+"id": "C1-P3",
+"title": "Part 3 · Questions 15–20",
+"kind": "file",
+"file": "TG/eba-t2/p3.mp3",
+"intro": "You will hear an interview in which two people, Claire McBride and Sean Cale, talk about training for a charity marathon. For questions 15–20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What does Claire say about her marathon training?",
+"o": [
+"She expected her enthusiasm to fade but it did not.",
+"She had always wanted to run a long distance.",
+"Her colleagues persuaded her to keep going.",
+"Her sporting background made it easy."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What does Sean admit about his preparation?",
+"o": [
+"He began with too little basic fitness.",
+"He tried to build up distance too slowly.",
+"He ignored the advice of a coach.",
+"He did not plan for the mental side of the challenge."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "What happened when one of the runners developed a painful thigh?",
+"o": [
+"A physiotherapist told the runner to stop training for a month.",
+"The advice to rest was ignored and illness followed.",
+"The runner swam instead and recovered quickly.",
+"The runner gave up the idea of the marathon."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "How did one runner cope with dark winter training runs?",
+"o": [
+"By imagining racing ahead of other runners",
+"By joining a local running group",
+"By paying attention to small details outdoors",
+"By running later in the day"
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What was the benefit of using prediction software for one runner?",
+"o": [
+"It encouraged him to set targets.",
+"It gave an accurate finishing time.",
+"It showed him when to rest.",
+"It replaced the need for a coach."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What upset one runner on race day?",
+"o": [
+"Few spectators had turned out in the bad weather.",
+"The finish line was moved without warning.",
+"Family and friends could not be found at the end.",
+"The time was slower than predicted."
+],
+"c": 2
+}
+]
+},
+{
+"id": "C1-P4",
+"title": "Part 4 · Questions 21–30",
+"kind": "file",
+"file": "TG/eba-t2/p4.mp3",
+"intro": "You will hear five short extracts in which people talk about working as actors. For Task 1, choose from the list (A–H) what has helped each speaker to succeed. For Task 2, choose from the list (A–H) what each speaker regrets about the past. Use each letter only once in each task. There are three extra letters in each task.",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "refusing to give up after setbacks",
+"taskLabel": "Task 1 — what has helped each speaker to succeed",
+"bank": [
+"refusing to give up after setbacks",
+"taking risks with unusual material",
+"not minding looking foolish",
+"a personality that caught a director's eye",
+"a constant commitment to improving",
+"a good head for business",
+"support from relatives",
+"being born into a theatrical family"
+]
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "taking risks with unusual material",
+"taskLabel": "Task 1 — what has helped each speaker to succeed",
+"bank": [
+"refusing to give up after setbacks",
+"taking risks with unusual material",
+"not minding looking foolish",
+"a personality that caught a director's eye",
+"a constant commitment to improving",
+"a good head for business",
+"support from relatives",
+"being born into a theatrical family"
+]
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "not minding looking foolish",
+"taskLabel": "Task 1 — what has helped each speaker to succeed",
+"bank": [
+"refusing to give up after setbacks",
+"taking risks with unusual material",
+"not minding looking foolish",
+"a personality that caught a director's eye",
+"a constant commitment to improving",
+"a good head for business",
+"support from relatives",
+"being born into a theatrical family"
+]
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "a personality that caught a director's eye",
+"taskLabel": "Task 1 — what has helped each speaker to succeed",
+"bank": [
+"refusing to give up after setbacks",
+"taking risks with unusual material",
+"not minding looking foolish",
+"a personality that caught a director's eye",
+"a constant commitment to improving",
+"a good head for business",
+"support from relatives",
+"being born into a theatrical family"
+]
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "a constant commitment to improving",
+"taskLabel": "Task 1 — what has helped each speaker to succeed",
+"bank": [
+"refusing to give up after setbacks",
+"taking risks with unusual material",
+"not minding looking foolish",
+"a personality that caught a director's eye",
+"a constant commitment to improving",
+"a good head for business",
+"support from relatives",
+"being born into a theatrical family"
+]
+},
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "being too keen to outdo others",
+"taskLabel": "Task 2 — what each speaker regrets about the past",
+"bank": [
+"being too keen to outdo others",
+"turning down a role that proved a hit",
+"not taking studies seriously enough",
+"spending time on an unsuitable course",
+"being too critical of fellow actors",
+"moving from theatre into film",
+"never learning to sing well",
+"refusing to work abroad"
+]
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "turning down a role that proved a hit",
+"taskLabel": "Task 2 — what each speaker regrets about the past",
+"bank": [
+"being too keen to outdo others",
+"turning down a role that proved a hit",
+"not taking studies seriously enough",
+"spending time on an unsuitable course",
+"being too critical of fellow actors",
+"moving from theatre into film",
+"never learning to sing well",
+"refusing to work abroad"
+]
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "not taking studies seriously enough",
+"taskLabel": "Task 2 — what each speaker regrets about the past",
+"bank": [
+"being too keen to outdo others",
+"turning down a role that proved a hit",
+"not taking studies seriously enough",
+"spending time on an unsuitable course",
+"being too critical of fellow actors",
+"moving from theatre into film",
+"never learning to sing well",
+"refusing to work abroad"
+]
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "spending time on an unsuitable course",
+"taskLabel": "Task 2 — what each speaker regrets about the past",
+"bank": [
+"being too keen to outdo others",
+"turning down a role that proved a hit",
+"not taking studies seriously enough",
+"spending time on an unsuitable course",
+"being too critical of fellow actors",
+"moving from theatre into film",
+"never learning to sing well",
+"refusing to work abroad"
+]
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "being too critical of fellow actors",
+"taskLabel": "Task 2 — what each speaker regrets about the past",
+"bank": [
+"being too keen to outdo others",
+"turning down a role that proved a hit",
+"not taking studies seriously enough",
+"spending time on an unsuitable course",
+"being too critical of fellow actors",
+"moving from theatre into film",
+"never learning to sing well",
+"refusing to work abroad"
+]
+}
+]
+}
+]
+},
+{
+"label": "C1 — Practice · Exam Booster Advanced Test 3 audio · TG",
+"cefr": "Cambridge C1 Advanced · digital format",
+"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
+"audios": [
+{
+"id": "C1-P1",
+"title": "Part 1 · Questions 1–6",
+"kind": "file",
+"file": "TG/eba-t3/p1.mp3",
+"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "Extract 1 (a student talking about a gap year abroad). According to the speaker, what is the main attraction of the country for young travellers?",
+"o": [
+"Not having to deal with a language barrier",
+"The beautiful beaches and wildlife",
+"Its low cost compared with other places"
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "Why did the speaker travel between cities by bus?",
+"o": [
+"Flights were too expensive for her.",
+"Long road journeys show you what the country is like.",
+"It was the best way to meet local people."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Extract 2 (two friends talking about travel). What does Ollie like to do when he arrives somewhere?",
+"o": [
+"Take a guided tour of the main sights",
+"Get a feel for how local people live",
+"Spend time with other travellers"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does the second speaker say about bad experiences while travelling?",
+"o": [
+"They make her reluctant to travel alone.",
+"They have made her a tougher person.",
+"They can later turn into amusing stories."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "Extract 3 (two colleagues talking about a conference). What do the colleagues agree to do for each other?",
+"o": [
+"Check one another's slides for mistakes",
+"Listen to one another practise their talks",
+"Share a taxi to the airport"
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "Why is one of the speakers pleased about the trip?",
+"o": [
+"There will be no need to prepare any further.",
+"She has always wanted to visit Edinburgh.",
+"It will be an escape from a crowded workplace."
+],
+"c": 2
+}
+]
+},
+{
+"id": "C1-P2",
+"title": "Part 2 · Questions 7–14",
+"kind": "file",
+"file": "TG/eba-t3/p2.mp3",
+"intro": "You will hear a talk by a woman called Ellie Matthews about her life as a writer and illustrator of children's books. For questions 7–14, complete the sentences with a word or short phrase.",
+"scripts": [],
+"questions": [
+{
+"type": "gap",
+"label": "As a child, Ellie was noted for her vivid ____.",
+"accept": [
+"imagination"
+]
+},
+{
+"type": "gap",
+"label": "After college, Ellie applied for a post at a major art ____.",
+"accept": [
+"gallery"
+]
+},
+{
+"type": "gap",
+"label": "She was also turned down by a large advertising ____.",
+"accept": [
+"agency"
+]
+},
+{
+"type": "gap",
+"label": "In her early years, the only well-paid work she did was illustrating travel ____.",
+"accept": [
+"brochures",
+"brochure"
+]
+},
+{
+"type": "gap",
+"label": "The character Carly wore very thick ____.",
+"accept": [
+"glasses",
+"spectacles"
+]
+},
+{
+"type": "gap",
+"label": "Ellie found ideas by reading letters written to her grandmother by her ____.",
+"accept": [
+"mum",
+"mother",
+"mom",
+"her mum",
+"her mother"
+]
+},
+{
+"type": "gap",
+"label": "Ellie moved to the USA because she loved its open ____.",
+"accept": [
+"spaces",
+"space"
+]
+},
+{
+"type": "gap",
+"label": "When it comes to materials, Ellie is particularly fussy about ____.",
+"accept": [
+"paper"
+]
+}
+]
+},
+{
+"id": "C1-P3",
+"title": "Part 3 · Questions 15–20",
+"kind": "file",
+"file": "TG/eba-t3/p3.mp3",
+"intro": "You will hear two students, Jolie and Alan, talking about a TV series called The Sensing Brain. For questions 15–20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+"scripts": [],
+"questions": [
+{
+"type": "mc",
+"q": "What did the programme show about the sense of smell?",
+"o": [
+"People with a poor sense of smell cannot improve it.",
+"It gets better quite quickly when people practise.",
+"Only trained experts can tell scents apart.",
+"It is closely linked to musical ability."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does Jolie's experience in a perfume shop show?",
+"o": [
+"Shop assistants rarely know much about perfume.",
+"Experts use too many technical words.",
+"Dark scents are usually the most popular.",
+"The same word can describe a scent differently for different people."
+],
+"c": 3
+},
+{
+"type": "mc",
+"q": "What did the tests on natural and synthetic smells show?",
+"o": [
+"People are often wrong about which is which.",
+"Chemists are worse at telling them apart.",
+"Synthetic smells are nearly always stronger.",
+"Natural smells are easier to describe."
+],
+"c": 0
+},
+{
+"type": "mc",
+"q": "What is Alan's point about brain size and genes in different animals?",
+"o": [
+"Dogs have a better sense of smell than any other animal.",
+"Humans have lost most of their smell genes.",
+"Such measurements do not necessarily show which animal is better at smelling.",
+"New cells in the brain are far fewer in humans."
+],
+"c": 2
+},
+{
+"type": "mc",
+"q": "What do both speakers say about listening to music while working?",
+"o": [
+"It helps people who have studied music.",
+"It stops you giving full attention to either activity.",
+"It works well for most people.",
+"It is only a problem with unfamiliar music."
+],
+"c": 1
+},
+{
+"type": "mc",
+"q": "What does the programme say about the brain and the internet?",
+"o": [
+"Constant information is a real danger to the brain.",
+"The brain works less hard while playing video games.",
+"Real life is simpler for the brain than online life.",
+"The brain already filters out much of what it receives."
+],
+"c": 3
+}
+]
+},
+{
+"id": "C1-P4",
+"title": "Part 4 · Questions 21–30",
+"kind": "file",
+"file": "TG/eba-t3/p4.mp3",
+"intro": "You will hear five short extracts in which people talk about taking part in a public event. For Task 1, choose from the list (A–H) what each speaker feels about what they are doing. For Task 2, choose from the list (A–H) each speaker's main reason for taking part. Use each letter only once in each task. There are three extra letters in each task.",
+"scripts": [],
+"questions": [
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "obliged to act because others are not doing enough",
+"taskLabel": "Task 1 — what each speaker feels about what they are doing",
+"bank": [
+"obliged to act because others are not doing enough",
+"relieved that it has cost little personal sacrifice",
+"nervous about making a mistake",
+"sure that everything will go well",
+"eager for the pressure to be over",
+"excited about being the centre of attention",
+"unsure that the event is worthwhile",
+"proud of having beaten rivals"
+]
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "relieved that it has cost little personal sacrifice",
+"taskLabel": "Task 1 — what each speaker feels about what they are doing",
+"bank": [
+"obliged to act because others are not doing enough",
+"relieved that it has cost little personal sacrifice",
+"nervous about making a mistake",
+"sure that everything will go well",
+"eager for the pressure to be over",
+"excited about being the centre of attention",
+"unsure that the event is worthwhile",
+"proud of having beaten rivals"
+]
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "nervous about making a mistake",
+"taskLabel": "Task 1 — what each speaker feels about what they are doing",
+"bank": [
+"obliged to act because others are not doing enough",
+"relieved that it has cost little personal sacrifice",
+"nervous about making a mistake",
+"sure that everything will go well",
+"eager for the pressure to be over",
+"excited about being the centre of attention",
+"unsure that the event is worthwhile",
+"proud of having beaten rivals"
+]
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "sure that everything will go well",
+"taskLabel": "Task 1 — what each speaker feels about what they are doing",
+"bank": [
+"obliged to act because others are not doing enough",
+"relieved that it has cost little personal sacrifice",
+"nervous about making a mistake",
+"sure that everything will go well",
+"eager for the pressure to be over",
+"excited about being the centre of attention",
+"unsure that the event is worthwhile",
+"proud of having beaten rivals"
+]
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "eager for the pressure to be over",
+"taskLabel": "Task 1 — what each speaker feels about what they are doing",
+"bank": [
+"obliged to act because others are not doing enough",
+"relieved that it has cost little personal sacrifice",
+"nervous about making a mistake",
+"sure that everything will go well",
+"eager for the pressure to be over",
+"excited about being the centre of attention",
+"unsure that the event is worthwhile",
+"proud of having beaten rivals"
+]
+},
+{
+"type": "match",
+"person": "Speaker 1",
+"c": "to find the most effective way of bringing about change",
+"taskLabel": "Task 2 — each speaker's main reason for taking part",
+"bank": [
+"to find the most effective way of bringing about change",
+"to make useful professional contacts",
+"to make use of years of effort in developing a skill",
+"to persuade people that action is possible",
+"to gain expertise that employers will value",
+"to earn a good fee",
+"to please members of the family",
+"to get publicity for a business"
+]
+},
+{
+"type": "match",
+"person": "Speaker 2",
+"c": "to make useful professional contacts",
+"taskLabel": "Task 2 — each speaker's main reason for taking part",
+"bank": [
+"to find the most effective way of bringing about change",
+"to make useful professional contacts",
+"to make use of years of effort in developing a skill",
+"to persuade people that action is possible",
+"to gain expertise that employers will value",
+"to earn a good fee",
+"to please members of the family",
+"to get publicity for a business"
+]
+},
+{
+"type": "match",
+"person": "Speaker 3",
+"c": "to make use of years of effort in developing a skill",
+"taskLabel": "Task 2 — each speaker's main reason for taking part",
+"bank": [
+"to find the most effective way of bringing about change",
+"to make useful professional contacts",
+"to make use of years of effort in developing a skill",
+"to persuade people that action is possible",
+"to gain expertise that employers will value",
+"to earn a good fee",
+"to please members of the family",
+"to get publicity for a business"
+]
+},
+{
+"type": "match",
+"person": "Speaker 4",
+"c": "to persuade people that action is possible",
+"taskLabel": "Task 2 — each speaker's main reason for taking part",
+"bank": [
+"to find the most effective way of bringing about change",
+"to make useful professional contacts",
+"to make use of years of effort in developing a skill",
+"to persuade people that action is possible",
+"to gain expertise that employers will value",
+"to earn a good fee",
+"to please members of the family",
+"to get publicity for a business"
+]
+},
+{
+"type": "match",
+"person": "Speaker 5",
+"c": "to gain expertise that employers will value",
+"taskLabel": "Task 2 — each speaker's main reason for taking part",
+"bank": [
+"to find the most effective way of bringing about change",
+"to make useful professional contacts",
+"to make use of years of effort in developing a skill",
+"to persuade people that action is possible",
+"to gain expertise that employers will value",
+"to earn a good fee",
+"to please members of the family",
+"to get publicity for a business"
+]
+}
+]
+}
+]
 }
 ],
 "mocks": [
@@ -30739,9 +56937,9 @@ const LISTEN_MORE = {
 "q": "What did the woman realise after her complaint was resolved?",
 "o": [
 "The quiet floor was noisier than promised",
-"The liveliness was part of what drew her there"
-,
-"The librarian had dismissed her concerns"],
+"The liveliness was part of what drew her there",
+"The librarian had dismissed her concerns"
+],
 "c": 1,
 "audio": "M4/C1/C1-P1-q3.mp3"
 },
@@ -30749,10 +56947,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What is the novelist's position on digital lending?",
 "o": [
-"She wants libraries to lend only printed copies"
-,
+"She wants libraries to lend only printed copies",
 "She believes it gives authors valuable exposure",
-"She objects to the terms rather than the principle"],
+"She objects to the terms rather than the principle"
+],
 "c": 2,
 "audio": "M4/C1/C1-P1-q4.mp3"
 },
@@ -30908,10 +57106,10 @@ const LISTEN_MORE = {
 "q": "What does Ethan fear most for libraries?",
 "o": [
 "Sudden high-profile closures",
-"Competition from commercial spaces"
-,
+"Competition from commercial spaces",
 "Protests that damage their reputation",
-"Gradual decline that attracts no resistance"],
+"Gradual decline that attracts no resistance"
+],
 "c": 3
 },
 {
@@ -31134,9 +57332,9 @@ const LISTEN_MORE = {
 "q": "Why does the man doubt the confession?",
 "o": [
 "The officer has changed his account",
-"His client denies ever confessing"
-,
-"Its style is inconsistent with his client's speech"],
+"His client denies ever confessing",
+"Its style is inconsistent with his client's speech"
+],
 "c": 2,
 "audio": "M5/C1/C1-P1-q1.mp3"
 },
@@ -31144,10 +57342,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What did the linguist's discovery show about the student?",
 "o": [
-"Her source was itself derived from a copied text"
-,
+"Her source was itself derived from a copied text",
 "The software had matched the wrong thesis",
-"Her essay had been copied by another author"],
+"Her essay had been copied by another author"
+],
 "c": 0,
 "audio": "M5/C1/C1-P1-q2.mp3"
 },
@@ -31155,10 +57353,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What does the man conclude about the letters' style?",
 "o": [
-"It shows the writer knew the vicar well"
-,
+"It shows the writer knew the vicar well",
 "It proves the headmaster wrote them",
-"It was an attempt to seem educated"],
+"It was an attempt to seem educated"
+],
 "c": 2,
 "audio": "M5/C1/C1-P1-q3.mp3"
 },
@@ -31178,9 +57376,9 @@ const LISTEN_MORE = {
 "q": "What alarmed the researchers about text messages in court?",
 "o": [
 "How often the messages were forged",
-"How rarely messages were admitted as evidence"
-,
-"How confidently juries misread authentic messages"],
+"How rarely messages were admitted as evidence",
+"How confidently juries misread authentic messages"
+],
 "c": 2,
 "audio": "M5/C1/C1-P1-q5.mp3"
 },
@@ -31292,10 +57490,10 @@ const LISTEN_MORE = {
 "q": "Why does the exoneration matter most to Marcus?",
 "o": [
 "It attracted the most publicity",
-"It proved the other evidence was fabricated"
-,
+"It proved the other evidence was fabricated",
 "It was his only unaided success",
-"It tested his faith in his discipline"],
+"It tested his faith in his discipline"
+],
 "c": 3
 },
 {
@@ -31573,9 +57771,9 @@ const LISTEN_MORE = {
 "q": "Why is the chef reducing the number of courses?",
 "o": [
 "Guests complained about the portions",
-"The kitchen cannot sustain fourteen courses"
-,
-"He has realised elaboration is not the same as slowness"],
+"The kitchen cannot sustain fourteen courses",
+"He has realised elaboration is not the same as slowness"
+],
 "c": 2,
 "audio": "M6/C1/C1-P1-q3.mp3"
 },
@@ -31583,10 +57781,10 @@ const LISTEN_MORE = {
 "type": "mc",
 "q": "What is the woman's verdict on her town's slow city experiment?",
 "o": [
-"Its social gains are real but some claims were naive"
-,
+"Its social gains are real but some claims were naive",
 "It has delivered everything promised",
-"She regrets having campaigned for it"],
+"She regrets having campaigned for it"
+],
 "c": 0,
 "audio": "M6/C1/C1-P1-q4.mp3"
 },
@@ -31701,10 +57899,10 @@ const LISTEN_MORE = {
 "q": "How does Rosa justify her work to sceptical companies?",
 "o": [
 "By promising a calmer atmosphere",
-"By invoking the slow movement's philosophy"
-,
+"By invoking the slow movement's philosophy",
 "By reducing the cost of meetings",
-"By linking her methods to measurable mistakes"],
+"By linking her methods to measurable mistakes"
+],
 "c": 3
 },
 {
@@ -31756,10 +57954,10 @@ const LISTEN_MORE = {
 "q": "What does Rosa's final anecdote suggest about her?",
 "o": [
 "She has fully overcome her own hurry",
-"She avoids audiobooks about patience"
-,
+"She avoids audiobooks about patience",
 "She no longer believes in her methods",
-"She sees her own struggle as a credential"],
+"She sees her own struggle as a credential"
+],
 "c": 3
 }
 ]
@@ -31971,9 +58169,9 @@ const LISTEN_MORE = {
 "q": "Why has the woman cancelled the summit work?",
 "o": [
 "The weather forecast has worsened",
-"The team is not yet ready"
-,
-"The gas measurements concern her"],
+"The team is not yet ready",
+"The gas measurements concern her"
+],
 "c": 2,
 "audio": "M7/C1/C1-P1-q1.mp3"
 },
@@ -32026,9 +58224,9 @@ const LISTEN_MORE = {
 "q": "Why is the man refusing the live interview?",
 "o": [
 "He distrusts the news anchor personally",
-"He wants a larger audience than the programme offers"
-,
-"The format demands a certainty he cannot honestly give"],
+"He wants a larger audience than the programme offers",
+"The format demands a certainty he cannot honestly give"
+],
 "c": 2,
 "audio": "M7/C1/C1-P1-q6.mp3"
 }
@@ -32154,20 +58352,20 @@ const LISTEN_MORE = {
 "o": [
 "Observatories waste money on helicopters",
 "Crisis response receives too little support",
-"Hazard maps are commissioned too early"
-,
-"Routine monitoring is sacrificed to the spectacular"],
+"Hazard maps are commissioned too early",
+"Routine monitoring is sacrificed to the spectacular"
+],
 "c": 3
 },
 {
 "type": "mc",
 "q": "What does Max mean by calling confidence an instrument that drifts?",
 "o": [
-"Confidence is the most accurate guide in a crisis"
-,
+"Confidence is the most accurate guide in a crisis",
 "Scientists become less confident with age",
 "Instruments eventually flatter their operators",
-"Self-assurance needs the same checking as any sensor"],
+"Self-assurance needs the same checking as any sensor"
+],
 "c": 3
 },
 {
@@ -32378,7 +58576,7 @@ function currentQuiz(){
    entra, no oye nada y gasta el intento. Desde el 27-ago-2026 están TODAS grabadas
    (836 mp3, Edge TTS), así que la lista las incluye a todas. Al añadir un test nuevo,
    pon aquí su prefijo cuando mp3/<prefijo>/<nivel>/ esté completo — y no antes. */
-const AUDIO_READY = ['A2','B1','B2','C1','P','P2','P3','P4','P5','P6','P7',
+const AUDIO_READY = ['TG','A2','B1','B2','C1','P','P2','P3','P4','P5','P6','P7',
                      'P8','P9','P10','P11','P12','P13','P14','P15','P16','P17','P18',
                      'M2','M3','M4','M5','M6','M7'];
 
@@ -32517,6 +58715,10 @@ function _acShowWarn(kind){
    Clocks (clock8/clock830/clock9) stay as SVG — they show exact times. */
 const LPHOTO = new Set(["bag","ball","bike","book","bus","cafe","cake","camera","car","guitar","hat","keys","library","park","phone","pizza","rainy","sandwich","snowy","sunny","umbrella"]);
 function picMarkup(k){
+  /* Imagen del libro (practice tests de Telegram): "img:TG/<libro>/t1-q1-a.jpg" → images/TG/... */
+  if(typeof k==='string' && k.indexOf('img:')===0){
+    return `<img class="pic-img" src="images/${k.slice(4)}" alt="" loading="lazy">`;
+  }
   if(LPHOTO.has(k)){
     return `<img class="pic-img" src="images/${k}.jpg" alt="" loading="lazy" onerror="this.style.display='none';var s=this.nextElementSibling;if(s)s.style.display='block'"><span class="pic-fallback" style="display:none">${LPICS[k]||''}</span>`;
   }
@@ -33418,6 +59620,23 @@ function saveLocal(prefilled){
 }
 
 /* ---------- VIEW: Result ---------- */
+/* Cambridge English Scale del Listening: misma fórmula que app/70-cefr.js (skillScale):
+   el 60 % cae en el límite del nivel; +0,75 por punto encima, −1 por punto debajo.
+   Rango reportado por examen = límite −20 … +30 (KET 100-150, PET 120-170, FCE 140-190, CAE 160-210). */
+function lScaleCard(level, pct){
+  const B = {A2:120, B1:140, B2:160, C1:180}[level];
+  if(!B) return '';
+  const raw = pct>=60 ? B + (pct-60)*0.75 : B - (60-pct)*1.0;
+  const s = Math.round(Math.max(B-20, Math.min(B+30, raw)));
+  const up = {A2:'B1', B1:'B2', B2:'C1', C1:'C2'}[level], down = {A2:'A1', B1:'A2', B2:'B1', C1:'B2'}[level];
+  const res = s>=B+20 ? `Grade A · CEFR ${up}` : s>=B+13 ? `Grade B · CEFR ${level}` : s>=B ? `Grade C · CEFR ${level}`
+            : s>=B-20 && pct>0 ? `CEFR ${down}` : 'Below the reported range';
+  const col = s>=B ? '#16a34a' : '#f59e0b';
+  return `<div class="motivation-card" style="border-left:6px solid ${col}">
+      <h2 style="margin-bottom:4px">Cambridge English Scale: <span style="color:${col}">${s}</span></h2>
+      <p style="margin:0">${res} &nbsp;·&nbsp; Listening, ${pct}% correct. Reported range for this exam: ${B-20}–${B+30}.</p>
+    </div>`;
+}
 function viewResult(payload){
   document.body.classList.remove('exam-mode'); document.body.classList.remove('signin-mode');
   document.body.classList.add('result-mode');
@@ -33452,6 +59671,7 @@ function viewResult(payload){
         <h2>${pass?'🎉 Congratulations':'Keep going'}, ${first}!</h2>
         <p>${verdict}</p>
       </div>
+      ${lScaleCard(payload.level, pct)}
       <div class="pdf-actions">
         <button onclick="downloadResultPDF('NIS-Listening-${payload.level}-${(payload.name||'').replace(/\\s+/g,'_')}.pdf')">⬇ Download PDF</button>
         <button class="email" id="lSendEmail">📧 Send to my email</button>
