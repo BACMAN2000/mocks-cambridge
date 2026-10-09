@@ -33451,7 +33451,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/ebf-t1/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For questions 1–8, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -33462,7 +33462,8 @@ const LISTEN_MORE = {
 "He made past events feel real to her.",
 "He acted out scenes from history."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/ebf-t1/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -33472,7 +33473,8 @@ const LISTEN_MORE = {
 "It is easy for her to do well.",
 "It is useful in everyday situations."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/ebf-t1/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -33482,7 +33484,8 @@ const LISTEN_MORE = {
 "He thinks science was a better choice for him.",
 "He wishes he had learnt painting skills earlier."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/ebf-t1/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -33492,7 +33495,8 @@ const LISTEN_MORE = {
 "It will help them to become professional athletes.",
 "It was less well prepared than other classes."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/ebf-t1/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -33502,7 +33506,8 @@ const LISTEN_MORE = {
 "He doubts that he is clever enough.",
 "He is uneasy about meeting new people."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/ebf-t1/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -33512,7 +33517,8 @@ const LISTEN_MORE = {
 "To request more time for the task.",
 "To complain that the research is too hard."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/ebf-t1/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -33522,7 +33528,8 @@ const LISTEN_MORE = {
 "Go over theory and sort out problems.",
 "Have their classes outdoors."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/ebf-t1/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -33532,8 +33539,20 @@ const LISTEN_MORE = {
 "Gestures are a good way to communicate.",
 "Studying a language teaches you about other cultures."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/ebf-t1/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A favourite teacher",
+"Liking maths",
+"A missed subject",
+"A sports class",
+"Starting university",
+"Talking to a teacher",
+"Lessons for now",
+"Foreign languages"
 ]
 },
 {
@@ -33763,7 +33782,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/ebf-t2/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For questions 1–8, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -33774,7 +33793,8 @@ const LISTEN_MORE = {
 "Learn to play some of the band's music",
 "See the band perform for the first time"
 ],
-"c": 1
+"c": 1,
+"audio": "TG/ebf-t2/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -33784,7 +33804,8 @@ const LISTEN_MORE = {
 "It has made her want to do more exercise.",
 "It has made her less worried about gaming."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/ebf-t2/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -33794,7 +33815,8 @@ const LISTEN_MORE = {
 "It is best to try as many hobbies as possible.",
 "Sport gives you more energy than relaxing."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/ebf-t2/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -33804,7 +33826,8 @@ const LISTEN_MORE = {
 "Climbing up to the highest board",
 "The satisfaction of getting a dive just right"
 ],
-"c": 2
+"c": 2,
+"audio": "TG/ebf-t2/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -33814,7 +33837,8 @@ const LISTEN_MORE = {
 "To try to overcome a fear",
 "To get fit for the summer"
 ],
-"c": 1
+"c": 1,
+"audio": "TG/ebf-t2/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -33824,7 +33848,8 @@ const LISTEN_MORE = {
 "It gives him extra storage at home.",
 "It brings in some extra money."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/ebf-t2/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -33834,7 +33859,8 @@ const LISTEN_MORE = {
 "A different leading actor",
 "Shots of natural scenery"
 ],
-"c": 2
+"c": 2,
+"audio": "TG/ebf-t2/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -33844,8 +33870,20 @@ const LISTEN_MORE = {
 "A photo that is well composed and lit",
 "Pictures posted every day"
 ],
-"c": 1
+"c": 1,
+"audio": "TG/ebf-t2/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A local band",
+"Hobbies article",
+"Free time",
+"Diving",
+"A walking group",
+"Making furniture",
+"A film review",
+"Posting photos"
 ]
 },
 {
@@ -34072,7 +34110,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/ebf-t3/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For questions 1–8, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -34083,7 +34121,8 @@ const LISTEN_MORE = {
 "Staying active can be part of normal daily routine.",
 "The student with the most steps will get a prize."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/ebf-t3/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -34093,7 +34132,8 @@ const LISTEN_MORE = {
 "Feeling tired by the end of a lesson",
 "Turning in the right way"
 ],
-"c": 2
+"c": 2,
+"audio": "TG/ebf-t3/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -34103,7 +34143,8 @@ const LISTEN_MORE = {
 "It is too old to be worth challenging.",
 "She set it herself some years ago."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/ebf-t3/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -34113,7 +34154,8 @@ const LISTEN_MORE = {
 "Carry on as she does now",
 "Cut down on foods that give energy"
 ],
-"c": 1
+"c": 1,
+"audio": "TG/ebf-t3/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -34123,7 +34165,8 @@ const LISTEN_MORE = {
 "Find a friend to train with",
 "Use more machines at the gym"
 ],
-"c": 0
+"c": 0,
+"audio": "TG/ebf-t3/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -34133,7 +34176,8 @@ const LISTEN_MORE = {
 "It was too long to hold her interest.",
 "It was a useful reminder of things to do."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/ebf-t3/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -34143,7 +34187,8 @@ const LISTEN_MORE = {
 "What a good diet really involves",
 "Why free time with family matters"
 ],
-"c": 1
+"c": 1,
+"audio": "TG/ebf-t3/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -34153,8 +34198,20 @@ const LISTEN_MORE = {
 "Skip the warm-up before gym sessions.",
 "Only warm up if you have plenty of time."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/ebf-t3/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A walking programme",
+"Ski classes",
+"The long jump",
+"Healthy living lessons",
+"Getting fit",
+"A programme about sleep",
+"Being healthy",
+"Warming up"
 ]
 },
 {
@@ -34387,7 +34444,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fce1-t1/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -34398,7 +34455,8 @@ const LISTEN_MORE = {
 "He cleans the pots and pans before dinner.",
 "He inspects the new supplies and plans what will be served."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce1-t1/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -34408,7 +34466,8 @@ const LISTEN_MORE = {
 "Completing a course assignment for school.",
 "Reading for pleasure in spare moments."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce1-t1/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -34418,7 +34477,8 @@ const LISTEN_MORE = {
 "He will leave home after a family argument.",
 "He will reveal a secret to his family."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce1-t1/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -34428,7 +34488,8 @@ const LISTEN_MORE = {
 "Elderly people who are travelling alone.",
 "Air travellers carrying heavy bags."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce1-t1/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -34438,7 +34499,8 @@ const LISTEN_MORE = {
 "It is less physically demanding.",
 "It is a less interesting way to exercise."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce1-t1/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -34448,7 +34510,8 @@ const LISTEN_MORE = {
 "They have stopped her coming earlier.",
 "They are too high for the quality offered."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce1-t1/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -34458,7 +34521,8 @@ const LISTEN_MORE = {
 "He rarely changes more than small details of his first idea.",
 "He prefers to work in a busy, noisy place."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce1-t1/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -34468,8 +34532,20 @@ const LISTEN_MORE = {
 "A friend asked her to.",
 "There are not enough places available."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce1-t1/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A restaurant manager",
+"A reference book",
+"A soap opera",
+"Radio work",
+"Keeping fit",
+"Restaurant prices",
+"Working methods",
+"Sharing a room"
 ]
 },
 {
@@ -34690,242 +34766,6 @@ const LISTEN_MORE = {
 ]
 },
 {
-"label": "B2 — Practice · FCE 1 Test 2 audio · TG",
-"cefr": "Cambridge B2 First · digital format",
-"blurb": "Authentic exam recordings with new questions · Parts 1,2,3.",
-"audios": [
-{
-"id": "B2-P1",
-"title": "Part 1 · Questions 1–8",
-"kind": "file",
-"file": "TG/fce1-t2/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
-"scripts": [],
-"questions": [
-{
-"type": "mc",
-"q": "You overhear a woman talking to her husband on the phone about their son's school project. What will Jimmy have to do first?",
-"o": [
-"Write the project out by hand.",
-"Borrow a laptop from a friend.",
-"Ask his school for more time."
-],
-"c": 0
-},
-{
-"type": "mc",
-"q": "You hear a man phoning a radio programme about a traffic scheme. What does he think a woman who complained should have done?",
-"o": [
-"Chosen a different route.",
-"Travelled by public transport.",
-"Gone shopping at another time."
-],
-"c": 1
-},
-{
-"type": "mc",
-"q": "You hear a woman talking about her house. What has made life there easier for her?",
-"o": [
-"Moving to a smaller place.",
-"Cutting down the size of the garden.",
-"Getting weekly help with the garden."
-],
-"c": 2
-},
-{
-"type": "mc",
-"q": "You overhear two people discussing a friend called Mark. Where was Mark born?",
-"o": [
-"Italy.",
-"The United States.",
-"France."
-],
-"c": 1
-},
-{
-"type": "mc",
-"q": "You hear a man talking about a childhood holiday. How did he feel about the rowing boat?",
-"o": [
-"He agreed with his father that it was slow.",
-"He wished it had been fitted with a motor.",
-"He enjoyed using it in spite of its age."
-],
-"c": 2
-},
-{
-"type": "mc",
-"q": "You hear the start of a radio programme about a group called Thump. What is the group about to do?",
-"o": [
-"Make a tour of the USA for the first time.",
-"Set up a fifth separate group.",
-"Move from the street to the theatre stage."
-],
-"c": 0
-},
-{
-"type": "mc",
-"q": "You hear a man being interviewed about a new flat agency. Where did part of his idea come from?",
-"o": [
-"A friend's advice.",
-"A similar service in Australia.",
-"A television report."
-],
-"c": 1
-},
-{
-"type": "mc",
-"q": "You switch on the radio in the middle of a programme. What is Mr Harmon being asked to name?",
-"o": [
-"A play.",
-"An actor.",
-"A theatre."
-],
-"c": 0
-}
-]
-},
-{
-"id": "B2-P2",
-"title": "Part 2 · Questions 9–18",
-"kind": "file",
-"file": "TG/fce1-t2/p2.mp3",
-"intro": "You will hear a person talking about a topic. For each question, complete the sentence with a word or short phrase (one to three words).",
-"gapTitle": "Complete the sentences",
-"scripts": [],
-"questions": [
-{
-"type": "gap",
-"label": "The National Museum holds about ____ events a year.",
-"accept": [
-"five",
-"5"
-]
-},
-{
-"type": "gap",
-"label": "This year's exhibition shows work by art students from a local ____ .",
-"accept": [
-"college"
-]
-},
-{
-"type": "gap",
-"label": "The exhibits range from curtains to ____ .",
-"accept": [
-"glasswork",
-"glass work",
-"glass"
-]
-},
-{
-"type": "gap",
-"label": "There are nearly ____ works on display.",
-"accept": [
-"2,000",
-"2000",
-"two thousand",
-"2 000"
-]
-},
-{
-"type": "gap",
-"label": "The most expensive items cost ____ .",
-"accept": [
-"£2,000",
-"2,000",
-"2000",
-"£2000",
-"2,000 pounds",
-"two thousand pounds"
-]
-},
-{
-"type": "gap",
-"label": "In the play, two young people hear a noise like a ____ being fired.",
-"accept": [
-"gun"
-]
-},
-{
-"type": "gap",
-"label": "The first person they ask about the noise is a ____ .",
-"accept": [
-"waiter"
-]
-},
-{
-"type": "gap",
-"label": "The playwright's last work before he moved on to writing for ____ .",
-"accept": [
-"films",
-"film"
-]
-},
-{
-"type": "gap",
-"label": "Peter Field used to be a manager in a ____ company.",
-"accept": [
-"computer"
-]
-},
-{
-"type": "gap",
-"label": "Peter's real passion is collecting old ____ .",
-"accept": [
-"maps",
-"map"
-]
-}
-]
-},
-{
-"id": "B2-P3",
-"title": "Part 3 · Questions 19–23",
-"kind": "file",
-"file": "TG/fce1-t2/p3.mp3",
-"intro": "You will hear five different people talking on the same subject. Choose the statement that each speaker agrees with. There are three statements you do not need to use.",
-"scripts": [],
-"bank": [
-"I get my work done early in the morning.",
-"I find studying outdoors helps me concentrate.",
-"I use music to shut out other sounds.",
-"I do my best work in a library.",
-"I like to work lying down.",
-"I like having music on while I work.",
-"I found that sharing my room with a friend helped.",
-"I wait until the house is quiet before I start."
-],
-"questions": [
-{
-"type": "match",
-"person": "Speaker 1",
-"c": "I get my work done early in the morning."
-},
-{
-"type": "match",
-"person": "Speaker 2",
-"c": "I use music to shut out other sounds."
-},
-{
-"type": "match",
-"person": "Speaker 3",
-"c": "I like to work lying down."
-},
-{
-"type": "match",
-"person": "Speaker 4",
-"c": "I found that sharing my room with a friend helped."
-},
-{
-"type": "match",
-"person": "Speaker 5",
-"c": "I wait until the house is quiet before I start."
-}
-]
-}
-]
-},
-{
 "label": "B2 — Practice · FCE 1 Test 3 audio · TG",
 "cefr": "Cambridge B2 First · digital format",
 "blurb": "Authentic exam recordings with new questions · Parts 1,2,3,4.",
@@ -34935,7 +34775,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fce1-t3/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -34946,7 +34786,8 @@ const LISTEN_MORE = {
 "That most people stay in the capital in summer.",
 "That the capital has so few swimming pools."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce1-t3/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -34956,7 +34797,8 @@ const LISTEN_MORE = {
 "Artificial substitutes are widely used.",
 "Most of it is produced in Central America."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce1-t3/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -34966,7 +34808,8 @@ const LISTEN_MORE = {
 "He spent a long time feeling sorry for himself.",
 "He retrained to work in banking."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce1-t3/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -34976,7 +34819,8 @@ const LISTEN_MORE = {
 "Measure the space where it will hang.",
 "Learn what kind of art they like by looking at a lot of it."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce1-t3/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -34986,7 +34830,8 @@ const LISTEN_MORE = {
 "He became a professional painter.",
 "He taught science at a school."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce1-t3/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -34996,7 +34841,8 @@ const LISTEN_MORE = {
 "Spend time with a trainee.",
 "Deal with paperwork."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce1-t3/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -35006,7 +34852,8 @@ const LISTEN_MORE = {
 "Their sex.",
 "Their attitude."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce1-t3/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -35016,8 +34863,20 @@ const LISTEN_MORE = {
 "Taking too long to solve a case.",
 "Working without a partner."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce1-t3/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A travel programme",
+"Chewing gum",
+"Losing a job",
+"Buying a painting",
+"After university",
+"A working day",
+"Learning to surf",
+"A crime novelist"
 ]
 },
 {
@@ -35248,7 +35107,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fce1-t4/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -35259,7 +35118,8 @@ const LISTEN_MORE = {
 "The chance to play in international tournaments.",
 "The fact that their friends already play."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce1-t4/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -35269,7 +35129,8 @@ const LISTEN_MORE = {
 "An inside pocket for a flask and keys.",
 "Larger pockets on the sides."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce1-t4/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -35279,7 +35140,8 @@ const LISTEN_MORE = {
 "They are too loud for the cinema.",
 "They do not match the animals' size."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce1-t4/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -35289,7 +35151,8 @@ const LISTEN_MORE = {
 "They end up fitter than they wanted to be.",
 "They are injured within a few weeks."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce1-t4/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -35299,7 +35162,8 @@ const LISTEN_MORE = {
 "Get some money from the bank.",
 "Ring her again from a shop."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce1-t4/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -35309,7 +35173,8 @@ const LISTEN_MORE = {
 "More time to hand in his assignments.",
 "A new part-time job."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce1-t4/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -35319,7 +35184,8 @@ const LISTEN_MORE = {
 "How much he disliked being watched.",
 "How much passers-by admired his work."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce1-t4/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -35329,8 +35195,20 @@ const LISTEN_MORE = {
 "They are admitting a weakness.",
 "They tend to be the most successful."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce1-t4/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"Women's football",
+"A walking bag",
+"A dinosaur film",
+"Joining a gym",
+"A phone call",
+"A tutor meeting",
+"Painting landscapes",
+"Asking for help"
 ]
 },
 {
@@ -35563,7 +35441,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fce2-t1/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -35574,7 +35452,8 @@ const LISTEN_MORE = {
 "Not getting her pension.",
 "Losing her bag."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce2-t1/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -35584,7 +35463,8 @@ const LISTEN_MORE = {
 "Patients often describe their symptoms inaccurately.",
 "The cause of a pain can be far from where it hurts."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce2-t1/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -35594,7 +35474,8 @@ const LISTEN_MORE = {
 "A new sports centre.",
 "The main staircase."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce2-t1/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -35604,7 +35485,8 @@ const LISTEN_MORE = {
 "It was full of expensive recipes.",
 "It had photographs of every finished dish."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce2-t1/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -35614,7 +35496,8 @@ const LISTEN_MORE = {
 "He started to argue about a match.",
 "He could not think of anything to say."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce2-t1/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -35624,7 +35507,8 @@ const LISTEN_MORE = {
 "She had made a mistake in her diary.",
 "The conference has been moved."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce2-t1/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -35634,7 +35518,8 @@ const LISTEN_MORE = {
 "Her school sent her.",
 "A friend suggested it."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce2-t1/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -35644,8 +35529,20 @@ const LISTEN_MORE = {
 "A baby crying.",
 "A bell on a cow."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce2-t1/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A radio play",
+"A lecture story",
+"College news",
+"A childhood cookbook",
+"A famous footballer",
+"Conference help",
+"A visit to the surgery",
+"A mountain story"
 ]
 },
 {
@@ -35880,7 +35777,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fce2-t2/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -35891,7 +35788,8 @@ const LISTEN_MORE = {
 "About half an hour.",
 "About an hour."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce2-t2/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -35901,7 +35799,8 @@ const LISTEN_MORE = {
 "It cost more than he would have liked.",
 "It was reduced in a sale."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce2-t2/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -35911,7 +35810,8 @@ const LISTEN_MORE = {
 "A small flat in the town centre.",
 "A house with a big garden."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce2-t2/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -35921,7 +35821,8 @@ const LISTEN_MORE = {
 "Unwillingness to practise enough.",
 "A shortage of places to play."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce2-t2/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -35931,7 +35832,8 @@ const LISTEN_MORE = {
 "The owner of the cat.",
 "A passenger."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce2-t2/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -35941,7 +35843,8 @@ const LISTEN_MORE = {
 "The words her husband had written.",
 "The sight of a city lit up at night."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce2-t2/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -35951,7 +35854,8 @@ const LISTEN_MORE = {
 "Leaving a spare set with a neighbour.",
 "Buying a bigger key ring."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce2-t2/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -35961,8 +35865,20 @@ const LISTEN_MORE = {
 "Telling a science fiction story.",
 "Reviewing a history book."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce2-t2/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"Waiting in a restaurant",
+"A new mobile phone",
+"Buying a house",
+"Girls in bands",
+"A cat at the station",
+"Finding ideas",
+"Some keys",
+"A radio speaker"
 ]
 },
 {
@@ -36185,7 +36101,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fce2-t3/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -36196,7 +36112,8 @@ const LISTEN_MORE = {
 "In the toilets.",
 "On the plane."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce2-t3/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -36206,7 +36123,8 @@ const LISTEN_MORE = {
 "Where to put your fingers.",
 "Which strings are out of tune."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce2-t3/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -36216,7 +36134,8 @@ const LISTEN_MORE = {
 "It stays fresh if the ingredients are fresh.",
 "It is safe if it is covered."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce2-t3/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -36226,7 +36145,8 @@ const LISTEN_MORE = {
 "The black marks on the paths.",
 "A machine that lifted the paving stones."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce2-t3/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -36236,7 +36156,8 @@ const LISTEN_MORE = {
 "The order was never taken.",
 "Two digits in a number were written the wrong way round."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce2-t3/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -36246,7 +36167,8 @@ const LISTEN_MORE = {
 "Better than he expected.",
 "It is still goalless."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce2-t3/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -36256,7 +36178,8 @@ const LISTEN_MORE = {
 "How strict he is.",
 "How he links lessons to real life."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce2-t3/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -36266,8 +36189,20 @@ const LISTEN_MORE = {
 "A transfer from the airport.",
 "An evening meal."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce2-t3/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"Lost at the airport",
+"A guitar advert",
+"Prepared food",
+"A type of pollution",
+"A delayed CD",
+"A football match",
+"A new maths teacher",
+"An island trip"
 ]
 },
 {
@@ -36486,627 +36421,6 @@ const LISTEN_MORE = {
 ]
 },
 {
-"label": "B2 — Practice · FCE 2 Test 4 audio · TG",
-"cefr": "Cambridge B2 First · digital format",
-"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
-"audios": [
-{
-"id": "B2-P1",
-"title": "Part 1 · Questions 1–8",
-"kind": "file",
-"file": "TG/fce2-t4/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
-"scripts": [],
-"questions": [
-{
-"type": "mc",
-"q": "You hear people talking at a party in a hotel. Why is Mark not there?",
-"o": [
-"Something urgent has come up at work.",
-"He prefers to spend the evening at home.",
-"He has not been invited."
-],
-"c": 0
-},
-{
-"type": "mc",
-"q": "You overhear a conversation in a restaurant. How has the customer been spending her time recently?",
-"o": [
-"Recovering from an illness.",
-"Travelling in the United States.",
-"Sorting out the structure of her workplace."
-],
-"c": 2
-},
-{
-"type": "mc",
-"q": "You overhear someone talking about a concert. What does she criticise?",
-"o": [
-"The quality of the music.",
-"The way the show was staged.",
-"The number of people in the audience."
-],
-"c": 2
-},
-{
-"type": "mc",
-"q": "You hear a writer of children's stories talking about books and compact discs. What is his opinion about the format?",
-"o": [
-"Books are more attractive to children.",
-"It makes little difference as long as the content is good.",
-"Discs are better for young readers."
-],
-"c": 1
-},
-{
-"type": "mc",
-"q": "You hear a husband and wife talking about their summer holidays. How does the man describe their relationship outside holidays?",
-"o": [
-"They rarely spend time together.",
-"They seldom disagree.",
-"They enjoy the same kind of trips."
-],
-"c": 1
-},
-{
-"type": "mc",
-"q": "You hear a researcher being asked about her work. What did most of the people she asked say about glasses?",
-"o": [
-"They can look attractive, but people still dislike wearing them.",
-"They are uncomfortable to wear.",
-"They suit most people's faces."
-],
-"c": 0
-},
-{
-"type": "mc",
-"q": "You overhear a woman talking to a friend on a train. What does she say was good about the course?",
-"o": [
-"It taught her a lot about her job.",
-"It gave her chances to meet other professionals.",
-"It improved her confidence greatly."
-],
-"c": 1
-},
-{
-"type": "mc",
-"q": "You hear a woman speaking on the radio. Why does she go back over a point she has already made?",
-"o": [
-"She believes listeners must understand it.",
-"She has forgotten to finish it.",
-"The presenter has asked her a question."
-],
-"c": 0
-}
-]
-},
-{
-"id": "B2-P2",
-"title": "Part 2 · Questions 9–18",
-"kind": "file",
-"file": "TG/fce2-t4/p2.mp3",
-"intro": "You will hear a person talking about a topic. For each question, complete the sentence with a word or short phrase (one to three words).",
-"gapTitle": "Complete the sentences",
-"scripts": [],
-"questions": [
-{
-"type": "gap",
-"label": "The diver who was saved from a shark was ____ years old.",
-"accept": [
-"28",
-"twenty-eight",
-"twenty eight"
-]
-},
-{
-"type": "gap",
-"label": "He was swimming with dolphins in the ____ Sea.",
-"accept": [
-"red"
-]
-},
-{
-"type": "gap",
-"label": "The dolphins formed a ____ around him to frighten the shark away.",
-"accept": [
-"circle"
-]
-},
-{
-"type": "gap",
-"label": "Dolphins are the only animals whose brains match ours in ____ .",
-"accept": [
-"size"
-]
-},
-{
-"type": "gap",
-"label": "A swim with dolphins is a recognised treatment for problems such as ____ .",
-"accept": [
-"stress"
-]
-},
-{
-"type": "gap",
-"label": "Dolphins are being used to help slow learners learn to ____ .",
-"accept": [
-"read",
-"reading"
-]
-},
-{
-"type": "gap",
-"label": "The dolphins carry small ____ on their noses.",
-"accept": [
-"boards",
-"board"
-]
-},
-{
-"type": "gap",
-"label": "In each jaw, a dolphin has up to ____ teeth.",
-"accept": [
-"52",
-"fifty-two",
-"fifty two"
-]
-},
-{
-"type": "gap",
-"label": "The spotted dolphin can swim at ____ miles an hour.",
-"accept": [
-"20",
-"twenty"
-]
-},
-{
-"type": "gap",
-"label": "One of the dolphins' greatest problems is ____ .",
-"accept": [
-"pollution"
-]
-}
-]
-},
-{
-"id": "B2-P3",
-"title": "Part 3 · Questions 19–23",
-"kind": "file",
-"file": "TG/fce2-t4/p3.mp3",
-"intro": "You will hear five different people talking on the same subject. Choose the statement that each speaker agrees with. There are three statements you do not need to use.",
-"scripts": [],
-"bank": [
-"She encouraged us to care about the environment.",
-"She was too strict about discipline.",
-"She expected the same effort from everybody whatever their ability.",
-"She taught us foreign languages.",
-"She rewarded originality.",
-"She spent too much time on paperwork.",
-"She was held back by the people around her.",
-"She helped us prepare for working life."
-],
-"questions": [
-{
-"type": "match",
-"person": "Speaker 1",
-"c": "She encouraged us to care about the environment."
-},
-{
-"type": "match",
-"person": "Speaker 2",
-"c": "She expected the same effort from everybody whatever their ability."
-},
-{
-"type": "match",
-"person": "Speaker 3",
-"c": "She rewarded originality."
-},
-{
-"type": "match",
-"person": "Speaker 4",
-"c": "She was held back by the people around her."
-},
-{
-"type": "match",
-"person": "Speaker 5",
-"c": "She helped us prepare for working life."
-}
-]
-},
-{
-"id": "B2-P4",
-"title": "Part 4 · Questions 24–30",
-"kind": "file",
-"file": "TG/fce2-t4/p4.mp3",
-"intro": "You will hear an interview. For each question, choose the best answer (A, B or C).",
-"scripts": [],
-"questions": [
-{
-"type": "mc",
-"q": "What does Don say about the people who go on the tour?",
-"o": [
-"Most of them are students.",
-"Most of them have professional jobs.",
-"Most of them have camped before."
-],
-"c": 1
-},
-{
-"type": "mc",
-"q": "What does Don do on the evening before the tour sets off?",
-"o": [
-"Teaches them to put up tents.",
-"Looks through what they have brought.",
-"Cooks a meal for the group."
-],
-"c": 1
-},
-{
-"type": "mc",
-"q": "Why does Don think the first day is so important?",
-"o": [
-"Some people decide to go home.",
-"The truck often breaks down.",
-"It sets the mood for the whole trip."
-],
-"c": 2
-},
-{
-"type": "mc",
-"q": "What went wrong one night during cooking?",
-"o": [
-"Strawberry jam was used instead of tomato paste.",
-"The pasta was burnt.",
-"The food ran out."
-],
-"c": 0
-},
-{
-"type": "mc",
-"q": "What irritates Don most about some of the tourists?",
-"o": [
-"They refuse to do any chores.",
-"They complain about the food.",
-"They leave equipment lying about."
-],
-"c": 2
-},
-{
-"type": "mc",
-"q": "How does Don deal with conflicts between tourists?",
-"o": [
-"He leaves them alone unless it gets out of hand.",
-"He separates the people involved straight away.",
-"He asks the whole group to vote."
-],
-"c": 0
-},
-{
-"type": "mc",
-"q": "How does Don decide what time to wake the group?",
-"o": [
-"He follows the park's opening hours exactly.",
-"He wakes everyone at the same time each day.",
-"He allows for how fast the group usually gets ready."
-],
-"c": 2
-}
-]
-}
-]
-},
-{
-"label": "B2 — Practice · FCE 3 Test 1 audio · TG",
-"cefr": "Cambridge B2 First · digital format",
-"blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3, 4.",
-"audios": [
-{
-"id": "B2-P1",
-"title": "Part 1 · Questions 1–8",
-"kind": "file",
-"file": "TG/fce3-t1/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the correct answer, A, B or C.",
-"scripts": [],
-"questions": [
-{
-"type": "mc",
-"q": "You hear a young man talking about his first job. How did he approach the work?",
-"o": [
-"He felt the work was beneath him.",
-"He was determined to show what he could do.",
-"He was nervous about dealing with customers."
-],
-"c": 1
-},
-{
-"type": "mc",
-"q": "You hear a radio announcement about a dance company. What will the company do this week?",
-"o": [
-"Explain how the company operates.",
-"Perform a new modern programme.",
-"Celebrate its twentieth anniversary on stage."
-],
-"c": 0
-},
-{
-"type": "mc",
-"q": "You overhear a woman describing an incident on the road. What happened to the other driver afterwards?",
-"o": [
-"He got out to apologise.",
-"He drove off without stopping.",
-"He crashed into a car behind."
-],
-"c": 1
-},
-{
-"type": "mc",
-"q": "You hear a woman talking about making wildlife films. What does she say about her work?",
-"o": [
-"The camera operators choose the locations.",
-"One team does most of the filming.",
-"Careful planning in advance is vital."
-],
-"c": 2
-},
-{
-"type": "mc",
-"q": "You hear part of a travel programme on the radio. How does the speaker feel about the place he describes?",
-"o": [
-"It is lovelier than anywhere else he has been.",
-"It is too crowded to be enjoyable.",
-"It is much like other places he has visited."
-],
-"c": 0
-},
-{
-"type": "mc",
-"q": "You overhear a woman complaining in a sports shop. What does she want the shop to do?",
-"o": [
-"Exchange the table for a different model.",
-"Refund the price she paid.",
-"Send someone to assemble the table for her."
-],
-"c": 2
-},
-{
-"type": "mc",
-"q": "You hear an interview with a businesswoman. What does her company do for customers?",
-"o": [
-"Builds fishing boats to order.",
-"Lets them use boats for holidays on the river.",
-"Provides caravans beside the marina."
-],
-"c": 1
-},
-{
-"type": "mc",
-"q": "You hear a man talking about a play on the radio. What does he say about the part he is playing?",
-"o": [
-"It gives him plenty of scope.",
-"It has never been played before.",
-"It is similar to ones he has played before."
-],
-"c": 0
-}
-]
-},
-{
-"id": "B2-P2",
-"title": "Part 2 · Questions 9–18",
-"kind": "file",
-"file": "TG/fce3-t1/p2.mp3",
-"intro": "You will hear a person giving a talk. For each question, complete the sentence with a word or short phrase.",
-"scripts": [],
-"questions": [
-{
-"type": "gap",
-"label": "The longest underground spaces can reach ____ kilometres in length.",
-"accept": [
-"80",
-"eighty"
-]
-},
-{
-"type": "gap",
-"label": "Cavers set up camp where there is enough room and ____.",
-"accept": [
-"fresh air",
-"air"
-]
-},
-{
-"type": "gap",
-"label": "Mike's favourite place for caving in the UK is ____.",
-"accept": [
-"wales"
-]
-},
-{
-"type": "gap",
-"label": "In some caves people must crawl through very small ____ in the rock.",
-"accept": [
-"gaps",
-"gap"
-]
-},
-{
-"type": "gap",
-"label": "A hard hat should not feel too ____.",
-"accept": [
-"tight"
-]
-},
-{
-"type": "gap",
-"label": "A suitable lamp can cost as much as £____.",
-"accept": [
-"50",
-"fifty",
-"£50",
-"50 pounds",
-"fifty pounds"
-]
-},
-{
-"type": "gap",
-"label": "Cheap boots are unsafe because you could ____ on wet surfaces.",
-"accept": [
-"slip",
-"slipping"
-]
-},
-{
-"type": "gap",
-"label": "Mike says the main attraction of caving is the ____ it brings.",
-"accept": [
-"excitement"
-]
-},
-{
-"type": "gap",
-"label": "In Britain, forty-eight caves are classed as places of special ____.",
-"accept": [
-"interest"
-]
-},
-{
-"type": "gap",
-"label": "Caving events stress ____ rather than competition.",
-"accept": [
-"cooperation",
-"co-operation"
-]
-}
-]
-},
-{
-"id": "B2-P3",
-"title": "Part 3 · Questions 19–23",
-"kind": "file",
-"file": "TG/fce3-t1/p3.mp3",
-"intro": "You will hear five people talking about the same subject. For each speaker, choose which statement (A–H) matches what they say. There are three extra statements you do not need to use.",
-"scripts": [],
-"bank": [
-"Often has to work through the night.",
-"Is happy to stay with one employer for many years.",
-"Likes having a fixed daily routine.",
-"Is officially available at all times but works fewer hours.",
-"Finds the job glamorous.",
-"Spends much of the working day talking to guests.",
-"Can choose where the ship sails.",
-"Prefers a job that does not tie them to one place."
-],
-"questions": [
-{
-"type": "match",
-"person": "Speaker 1",
-"c": "Spends much of the working day talking to guests."
-},
-{
-"type": "match",
-"person": "Speaker 2",
-"c": "Prefers a job that does not tie them to one place."
-},
-{
-"type": "match",
-"person": "Speaker 3",
-"c": "Is officially available at all times but works fewer hours."
-},
-{
-"type": "match",
-"person": "Speaker 4",
-"c": "Often has to work through the night."
-},
-{
-"type": "match",
-"person": "Speaker 5",
-"c": "Is happy to stay with one employer for many years."
-}
-]
-},
-{
-"id": "B2-P4",
-"title": "Part 4 · Questions 24–30",
-"kind": "file",
-"file": "TG/fce3-t1/p4.mp3",
-"intro": "You will hear an interview. For each question, choose the correct answer, A, B or C.",
-"scripts": [],
-"questions": [
-{
-"type": "mc",
-"q": "What does Stan say about walking in Britain?",
-"o": [
-"It is strictly speaking an adventure sport.",
-"It offers routes from very easy to demanding.",
-"It is best done in a group."
-],
-"c": 1
-},
-{
-"type": "mc",
-"q": "What does Stan advise about the harder scrambles?",
-"o": [
-"Practise on easier ones first.",
-"Avoid them altogether.",
-"Go with an experienced person."
-],
-"c": 2
-},
-{
-"type": "mc",
-"q": "What does Stan say about starting to climb?",
-"o": [
-"Beginners can learn on small rocks first.",
-"It requires access to very high mountains.",
-"It is frightening and does little for fitness."
-],
-"c": 0
-},
-{
-"type": "mc",
-"q": "What problem can mountain bikers have in Britain?",
-"o": [
-"There are no paths of any kind.",
-"They often share paths with walkers.",
-"The bikes are far too expensive."
-],
-"c": 1
-},
-{
-"type": "mc",
-"q": "What does Stan say about learning to scuba dive?",
-"o": [
-"It takes years to become competent.",
-"Most people find the idea appealing.",
-"Good instruction means it can be learned quickly."
-],
-"c": 2
-},
-{
-"type": "mc",
-"q": "What does Stan say about skydiving?",
-"o": [
-"Brief training is enough before a first jump.",
-"Only a few very brave people try it.",
-"It is mostly seen in films."
-],
-"c": 0
-},
-{
-"type": "mc",
-"q": "How can canoeists choose how difficult the water will be on the Welsh stretch?",
-"o": [
-"By checking the weather forecast.",
-"By phoning to find out how much water will be released.",
-"By choosing a particular season."
-],
-"c": 1
-}
-]
-}
-]
-},
-{
 "label": "B2 — Practice · FCE 3 Test 2 audio · TG",
 "cefr": "Cambridge B2 First · digital format",
 "blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
@@ -37116,7 +36430,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fce3-t2/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -37127,7 +36441,8 @@ const LISTEN_MORE = {
 "Its realistic picture of difficult times.",
 "Its clever special effects."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce3-t2/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -37137,7 +36452,8 @@ const LISTEN_MORE = {
 "He is using a damaged sofa.",
 "He is waiting for a new sofa."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce3-t2/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -37147,7 +36463,8 @@ const LISTEN_MORE = {
 "It takes a short time to get back into it.",
 "He is no longer able to do it."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce3-t2/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -37157,7 +36474,8 @@ const LISTEN_MORE = {
 "Gave interviews to the press.",
 "Went back to his job early."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce3-t2/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -37167,7 +36485,8 @@ const LISTEN_MORE = {
 "Acting in school productions.",
 "Listening to American recordings."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce3-t2/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -37177,7 +36496,8 @@ const LISTEN_MORE = {
 "Archaeological finds.",
 "Paintings and sculpture."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce3-t2/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -37187,7 +36507,8 @@ const LISTEN_MORE = {
 "He makes phone calls to clients.",
 "He holds business meetings with colleagues."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce3-t2/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -37197,8 +36518,20 @@ const LISTEN_MORE = {
 "She feels insulted.",
 "She is puzzled."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce3-t2/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A favourite movie",
+"A new sofa",
+"Using accents",
+"A first horse race",
+"Musical theatre",
+"Ancient history",
+"Train journeys",
+"Lost photographs"
 ]
 },
 {
@@ -37425,7 +36758,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fce3-t3/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -37436,7 +36769,8 @@ const LISTEN_MORE = {
 "Washing with scented products.",
 "Drying off after a swim."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce3-t3/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -37446,7 +36780,8 @@ const LISTEN_MORE = {
 "The lack of helpers.",
 "The amount of money raised."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce3-t3/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -37456,7 +36791,8 @@ const LISTEN_MORE = {
 "Her age and experience.",
 "Her obvious determination."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce3-t3/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -37466,7 +36802,8 @@ const LISTEN_MORE = {
 "He was extremely nervous.",
 "He was paid very well for it."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce3-t3/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -37476,7 +36813,8 @@ const LISTEN_MORE = {
 "Post some tickets to her mother's house.",
 "Change the date of her meeting."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce3-t3/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -37486,7 +36824,8 @@ const LISTEN_MORE = {
 "During a long period of writing.",
 "On a trip abroad."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce3-t3/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -37496,7 +36835,8 @@ const LISTEN_MORE = {
 "Her friends took her out instead of coming to dinner.",
 "She cooked a special meal at home."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce3-t3/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -37506,8 +36846,20 @@ const LISTEN_MORE = {
 "A well-known story from another country.",
 "A true story about a shipwreck."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce3-t3/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"Into the rainforest",
+"School football",
+"Beijing Opera School",
+"A comedian's career",
+"A phone request",
+"A novelist's ideas",
+"A birthday",
+"A radio programme"
 ]
 },
 {
@@ -37736,7 +37088,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fce3-t4/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the correct answer, A, B or C.",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -37747,7 +37099,8 @@ const LISTEN_MORE = {
 "Move an appointment to a later time.",
 "Tell the marketing team she will be late."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce3-t4/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -37757,7 +37110,8 @@ const LISTEN_MORE = {
 "By laying them in well-hidden places.",
 "By burying them in sand."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce3-t4/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -37767,7 +37121,8 @@ const LISTEN_MORE = {
 "It is quick and the repair lasts for years.",
 "It is hard to find someone able to do it."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce3-t4/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -37777,7 +37132,8 @@ const LISTEN_MORE = {
 "How they can afford their way of life.",
 "How they will fit into such a large house."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce3-t4/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -37787,7 +37143,8 @@ const LISTEN_MORE = {
 "It satisfies his love of danger.",
 "It gives him peace away from everyday life."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce3-t4/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -37797,7 +37154,8 @@ const LISTEN_MORE = {
 "It turns the energy of a string into sound.",
 "It improves with the age of the wood."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce3-t4/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -37807,7 +37165,8 @@ const LISTEN_MORE = {
 "They have greatly improved their products recently.",
 "They make better guidebooks than ever on paper."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce3-t4/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -37817,8 +37176,20 @@ const LISTEN_MORE = {
 "Refuse to take any more calls from them.",
 "Agree on a plan early and keep the call moving."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce3-t4/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A call from a train",
+"Protecting eggs",
+"A faulty watch",
+"New neighbours",
+"Deep sea diving",
+"Violins",
+"Travel CD-ROMs",
+"Advice for business"
 ]
 },
 {
@@ -38036,228 +37407,6 @@ const LISTEN_MORE = {
 ]
 },
 {
-"label": "B2 — Practice · FCE 4 Test 1 audio · TG",
-"cefr": "Cambridge B2 First · digital format",
-"blurb": "Authentic exam recordings with new questions · Parts 1, 3, 4.",
-"audios": [
-{
-"id": "B2-P1",
-"title": "Part 1 · Questions 1–8",
-"kind": "file",
-"file": "TG/fce4-t1/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the correct answer, A, B or C.",
-"scripts": [],
-"questions": [
-{
-"type": "mc",
-"q": "You hear a woman talking about a trip to a rock festival. Why did she go with only one of her sons?",
-"o": [
-"She wanted to see the bands herself.",
-"Her three sons argued too much when they all travelled together.",
-"Her other sons were not allowed to go."
-],
-"c": 1
-},
-{
-"type": "mc",
-"q": "You hear a woman talking about her first week in a new job. What surprised her about it?",
-"o": [
-"It was more interesting than she had expected.",
-"It was less tiring than she had expected.",
-"It was more frightening than she had expected."
-],
-"c": 0
-},
-{
-"type": "mc",
-"q": "You hear a review of a travel book on the radio. What criticism does the reviewer make?",
-"o": [
-"The humour does not suit the subject.",
-"The historical detail is rather thin.",
-"There are too few pictures to go with the text."
-],
-"c": 2
-},
-{
-"type": "mc",
-"q": "You hear a journalist talking about an athlete, Helen Wright. What does she say about Helen's early running?",
-"o": [
-"Helen was the fastest in her school.",
-"Helen joined a club mainly to keep a friend company.",
-"Helen trained hard from a very young age."
-],
-"c": 1
-},
-{
-"type": "mc",
-"q": "You overhear two people talking about a cruise. What would the woman have liked to be different?",
-"o": [
-"More time to look around at each stop.",
-"Larger cabins on the ship.",
-"Different people on board."
-],
-"c": 0
-},
-{
-"type": "mc",
-"q": "You hear a man talking about modern life. What point does he make about having several choices?",
-"o": [
-"They make people happier with their decision.",
-"They help people to improve their surroundings.",
-"They can leave people unsure what to do."
-],
-"c": 2
-},
-{
-"type": "mc",
-"q": "You hear a writer talking on the radio. What encouraged her to write as a child?",
-"o": [
-"Her teacher entered her poems in competitions.",
-"Her teacher read her stories to the class.",
-"She won prizes for her songs."
-],
-"c": 1
-},
-{
-"type": "mc",
-"q": "You hear two teachers planning an event. What must they be careful about when choosing a date?",
-"o": [
-"It must not clash with the trip to Scotland.",
-"It must be a day when parents are free.",
-"It must not fall in the school's music week."
-],
-"c": 2
-}
-]
-},
-{
-"id": "B2-P3",
-"title": "Part 3 · Questions 19–23",
-"kind": "file",
-"file": "TG/fce4-t1/p3.mp3",
-"intro": "You will hear five people talking about the same subject. For each speaker, choose which statement (A–H) matches what they say. There are three extra statements you do not need to use.",
-"scripts": [],
-"bank": [
-"Gets pleasure from watching others develop their skills.",
-"Is still involved personally in every product despite having staff.",
-"Fears losing work to newcomers if standards drop.",
-"Learned the trade by working without pay.",
-"Believes comfort is as important as appearance.",
-"Prefers machines to working by hand.",
-"Refuses to take on commissions.",
-"Found it hard to sell work abroad."
-],
-"questions": [
-{
-"type": "match",
-"person": "Speaker 1",
-"c": "Is still involved personally in every product despite having staff."
-},
-{
-"type": "match",
-"person": "Speaker 2",
-"c": "Fears losing work to newcomers if standards drop."
-},
-{
-"type": "match",
-"person": "Speaker 3",
-"c": "Learned the trade by working without pay."
-},
-{
-"type": "match",
-"person": "Speaker 4",
-"c": "Believes comfort is as important as appearance."
-},
-{
-"type": "match",
-"person": "Speaker 5",
-"c": "Gets pleasure from watching others develop their skills."
-}
-]
-},
-{
-"id": "B2-P4",
-"title": "Part 4 · Questions 24–30",
-"kind": "file",
-"file": "TG/fce4-t1/p4.mp3",
-"intro": "You will hear an interview. For each question, choose the correct answer, A, B or C.",
-"scripts": [],
-"questions": [
-{
-"type": "mc",
-"q": "Why was the weekly newspaper column welcome to Ivana's father?",
-"o": [
-"He wanted to leave his museum job.",
-"He needed extra money for his family.",
-"It was his first chance to be published."
-],
-"c": 1
-},
-{
-"type": "mc",
-"q": "How did Ivana's father feel about his work at the museum?",
-"o": [
-"It was too narrow to cover all his interests.",
-"It bored him and he wanted a change.",
-"It left him no energy to write."
-],
-"c": 0
-},
-{
-"type": "mc",
-"q": "Why did the family take long bus rides at weekends?",
-"o": [
-"To avoid the busy streets of London.",
-"To visit relatives in the countryside.",
-"To find wildlife that was not near their home."
-],
-"c": 2
-},
-{
-"type": "mc",
-"q": "What did Ivana's father teach his children?",
-"o": [
-"To look only for rare animals and birds.",
-"To enjoy ordinary creatures by watching them closely.",
-"To photograph everything they saw."
-],
-"c": 1
-},
-{
-"type": "mc",
-"q": "What does Ivana say about choosing her career?",
-"o": [
-"Her brothers persuaded her to join them.",
-"She decided against it until she was an adult.",
-"She never felt under pressure to follow her father."
-],
-"c": 2
-},
-{
-"type": "mc",
-"q": "What did her father do when he could no longer go out?",
-"o": [
-"He wrote about questions sent in by readers.",
-"He stopped writing for the newspaper.",
-"He asked his children to write for him."
-],
-"c": 0
-},
-{
-"type": "mc",
-"q": "What does Ivana say about her father's attitude to his success?",
-"o": [
-"He was proud of how well known he was.",
-"He wrote for the pleasure of it, not for fame.",
-"He wished more people had read his articles."
-],
-"c": 1
-}
-]
-}
-]
-},
-{
 "label": "B2 — Practice · FCE 4 Test 2 audio · TG",
 "cefr": "Cambridge B2 First · digital format",
 "blurb": "Authentic exam recordings with new questions · Parts 1, 2, 3 and 4.",
@@ -38267,7 +37416,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fce4-t2/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -38278,7 +37427,8 @@ const LISTEN_MORE = {
 "Relaxed about them.",
 "Sure that they will rise."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce4-t2/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -38288,7 +37438,8 @@ const LISTEN_MORE = {
 "Names from sport will be popular.",
 "There will be a return to traditional names."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce4-t2/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -38298,7 +37449,8 @@ const LISTEN_MORE = {
 "His wife's career in television.",
 "His work as a university lecturer."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce4-t2/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -38308,7 +37460,8 @@ const LISTEN_MORE = {
 "He was distracted by other matters.",
 "His rivals were too strong."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce4-t2/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -38318,7 +37471,8 @@ const LISTEN_MORE = {
 "A review in a magazine.",
 "Hearing a track on the radio."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce4-t2/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -38328,7 +37482,8 @@ const LISTEN_MORE = {
 "They answered a question wrongly.",
 "The prize was cancelled."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce4-t2/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -38338,7 +37493,8 @@ const LISTEN_MORE = {
 "They get lost easily.",
 "They are not prepared for the conditions."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce4-t2/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -38348,8 +37504,20 @@ const LISTEN_MORE = {
 "She asked her to stay at home.",
 "She felt guilty about leaving."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce4-t2/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A school magazine",
+"Naming children",
+"A radio interview",
+"Olympic trials",
+"A new CD",
+"Entering competitions",
+"Mountain paths",
+"A daughter's confidence"
 ]
 },
 {
@@ -38573,7 +37741,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fce4-t3/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -38584,7 +37752,8 @@ const LISTEN_MORE = {
 "She lent him plays to read.",
 "She taught him how to act."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce4-t3/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -38594,7 +37763,8 @@ const LISTEN_MORE = {
 "Lend her a temporary computer.",
 "Give her a refund."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce4-t3/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -38604,7 +37774,8 @@ const LISTEN_MORE = {
 "The distance.",
 "The crowds."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce4-t3/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -38614,7 +37785,8 @@ const LISTEN_MORE = {
 "The journey would be too long.",
 "She was delayed at that station before."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce4-t3/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -38624,7 +37796,8 @@ const LISTEN_MORE = {
 "They may have been musical instruments.",
 "They were made by singing communities."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce4-t3/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -38634,7 +37807,8 @@ const LISTEN_MORE = {
 "The length of the event.",
 "Not being able to hear him between pieces."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce4-t3/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -38644,7 +37818,8 @@ const LISTEN_MORE = {
 "Pretended to forget things.",
 "Left her work to the last minute."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce4-t3/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -38654,8 +37829,20 @@ const LISTEN_MORE = {
 "Not warming up properly.",
 "Arriving late for the game."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce4-t3/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A helpful teacher",
+"A computer problem",
+"A sports centre",
+"A railway journey",
+"Early stone tools",
+"A college event",
+"Old school friends",
+"A tennis injury"
 ]
 },
 {
@@ -38878,7 +38065,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fce4-t4/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the correct answer, A, B or C.",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -38889,7 +38076,8 @@ const LISTEN_MORE = {
 "A hairstylist spotted them in the street.",
 "They answered an advertisement for twins."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce4-t4/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -38899,7 +38087,8 @@ const LISTEN_MORE = {
 "It eventually led her towards her present career.",
 "She was glad to escape the strict discipline."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce4-t4/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -38909,7 +38098,8 @@ const LISTEN_MORE = {
 "It involves a great deal of hard work.",
 "It offered him more than just money."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce4-t4/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -38919,7 +38109,8 @@ const LISTEN_MORE = {
 "The ticket was too expensive.",
 "He felt unwell afterwards."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce4-t4/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -38929,7 +38120,8 @@ const LISTEN_MORE = {
 "They must move to a different platform.",
 "Their train will leave from platform eight."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce4-t4/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -38939,7 +38131,8 @@ const LISTEN_MORE = {
 "They crease very easily.",
 "They are made of a cool material."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fce4-t4/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -38949,7 +38142,8 @@ const LISTEN_MORE = {
 "Tutor group meetings will start earlier.",
 "Extra lessons have been cancelled."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fce4-t4/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -38959,8 +38153,20 @@ const LISTEN_MORE = {
 "A proper venue for rock concerts.",
 "More classical concerts."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fce4-t4/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A magazine feature",
+"Ballet school",
+"A part-time job",
+"A theme park ride",
+"A station announcement",
+"Shopping for trousers",
+"A change of plan",
+"A rock musician"
 ]
 },
 {
@@ -39187,7 +38393,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fcey-t12/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -39198,7 +38404,8 @@ const LISTEN_MORE = {
 "It is helping her get closer to a long-term goal.",
 "It is too tiring to be worth continuing."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t12/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -39208,7 +38415,8 @@ const LISTEN_MORE = {
 "She is afraid someone might steal her bag.",
 "She might not notice where she is."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t12/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -39218,7 +38426,8 @@ const LISTEN_MORE = {
 "Leave the main road at the first exit.",
 "Overtake the leader once they cross the bridge."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t12/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -39228,7 +38437,8 @@ const LISTEN_MORE = {
 "He is put off by the weaknesses he finds in other people's.",
 "He fears he would be accused of exaggerating."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t12/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -39238,7 +38448,8 @@ const LISTEN_MORE = {
 "She was a banker before she studied biology.",
 "She was invited to write about her own work for a student publication."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t12/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -39248,7 +38459,8 @@ const LISTEN_MORE = {
 "It is a useful service.",
 "It encourages people to buy more."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t12/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -39258,7 +38470,8 @@ const LISTEN_MORE = {
 "Taking photographs that she can sell.",
 "Finding places where the equipment can be used."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t12/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -39268,8 +38481,20 @@ const LISTEN_MORE = {
 "It lived in Antarctica longer ago than other penguins.",
 "It hunted for fish in deeper water than any bird."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t12/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"An apprenticeship",
+"Bus journeys",
+"A cycle coach",
+"Autobiographies",
+"Starting in journalism",
+"A new clothes shop",
+"A business plan",
+"A fossil discovery"
 ]
 },
 {
@@ -39500,7 +38725,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fcey-t19/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -39511,7 +38736,8 @@ const LISTEN_MORE = {
 "Celebrity presenters make programmes less scientific.",
 "Programmes are too abstract for most viewers."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t19/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -39521,7 +38747,8 @@ const LISTEN_MORE = {
 "They are mostly people she works with.",
 "She has known them since her early years."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t19/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -39531,7 +38758,8 @@ const LISTEN_MORE = {
 "Each one has its own way of life.",
 "They are quieter than most places."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t19/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -39541,7 +38769,8 @@ const LISTEN_MORE = {
 "It shows the new phone is worse than the old one.",
 "It was written by an unhappy customer."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t19/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -39551,7 +38780,8 @@ const LISTEN_MORE = {
 "She left work later than planned.",
 "She stopped to talk to somebody she knew."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t19/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -39561,7 +38791,8 @@ const LISTEN_MORE = {
 "Compare her local park with at least one other.",
 "Study how parks are used by the community."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t19/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -39571,7 +38802,8 @@ const LISTEN_MORE = {
 "She remembers many serious arguments.",
 "She is glad family photographs are rare."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t19/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -39581,8 +38813,20 @@ const LISTEN_MORE = {
 "Moving to a new university.",
 "A work placement that could help his career."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t19/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"Science presenters",
+"Close friendships",
+"Island holidays",
+"A phone review",
+"A voicemail message",
+"A project on parks",
+"A large family",
+"University course"
 ]
 },
 {
@@ -39819,7 +39063,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fcey-t20/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -39830,7 +39074,8 @@ const LISTEN_MORE = {
 "Decide what you will use the bike for first.",
 "Buy a racing bike with plenty of gears."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t20/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -39840,7 +39085,8 @@ const LISTEN_MORE = {
 "By travelling outside the school holidays.",
 "By arranging the hotel without an agent."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t20/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -39850,7 +39096,8 @@ const LISTEN_MORE = {
 "She is sure she will be offered the job.",
 "She thinks it went well despite her nerves."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t20/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -39860,7 +39107,8 @@ const LISTEN_MORE = {
 "The friendliness of the animals.",
 "The skill of the guide."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t20/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -39870,7 +39118,8 @@ const LISTEN_MORE = {
 "People tend to write them down on their phones.",
 "People make such small changes that they are easy to guess."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t20/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -39880,7 +39129,8 @@ const LISTEN_MORE = {
 "The city hall.",
 "The river bank."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t20/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -39890,7 +39140,8 @@ const LISTEN_MORE = {
 "Icy road conditions.",
 "Roadworks between two junctions."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t20/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -39900,8 +39151,20 @@ const LISTEN_MORE = {
 "Look regularly at the gauge showing her air supply.",
 "Practise entering the water backwards."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t20/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"Buying a bicycle",
+"Skiing holidays",
+"A job interview",
+"A camel ride",
+"Changing passwords",
+"A tall building",
+"A traffic report",
+"A diving lesson"
 ]
 },
 {
@@ -40127,7 +39390,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fcey-t21/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -40138,7 +39401,8 @@ const LISTEN_MORE = {
 "The new track made the race very exciting.",
 "It was easy to find the way out afterwards."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t21/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -40148,7 +39412,8 @@ const LISTEN_MORE = {
 "The players had not trained enough.",
 "The players were distracted by the pressure to win."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t21/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -40158,7 +39423,8 @@ const LISTEN_MORE = {
 "It is a challenge to learn how to play.",
 "It is easy to master quickly."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t21/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -40168,7 +39434,8 @@ const LISTEN_MORE = {
 "The poems about nature and rivers.",
 "The humorous way the poets wrote."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t21/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -40178,7 +39445,8 @@ const LISTEN_MORE = {
 "They helped him get ready.",
 "They were worried about him."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t21/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -40188,7 +39456,8 @@ const LISTEN_MORE = {
 "Being able to work with young children.",
 "Staying friendly while remaining calm."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t21/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -40198,7 +39467,8 @@ const LISTEN_MORE = {
 "Arriving more quickly than by plane.",
 "Chatting with passengers on the way."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t21/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -40208,8 +39478,20 @@ const LISTEN_MORE = {
 "His mother listened to it every morning.",
 "He found a subject interesting that he would not normally care about."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t21/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"Motor racing day",
+"A lost match",
+"A computer game",
+"A poetry competition",
+"Travelling alone",
+"Working as a nurse",
+"A motorbike journey",
+"A radio programme"
 ]
 },
 {
@@ -40434,7 +39716,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fcey-t22/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -40445,7 +39727,8 @@ const LISTEN_MORE = {
 "His brother is going to ask him about it.",
 "He thinks the cartoons are funny."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t22/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -40455,7 +39738,8 @@ const LISTEN_MORE = {
 "Pleased that he had time for his favourite music.",
 "Sorry that he missed the car journeys."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t22/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -40465,7 +39749,8 @@ const LISTEN_MORE = {
 "The comfort of the beds.",
 "The ease of reaching the centre."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t22/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -40475,7 +39760,8 @@ const LISTEN_MORE = {
 "The story did not seem believable.",
 "The action was too noisy to follow."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t22/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -40485,7 +39771,8 @@ const LISTEN_MORE = {
 "Serving customers at the till.",
 "Filling the shelves."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t22/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -40495,7 +39782,8 @@ const LISTEN_MORE = {
 "The quality of their best-known song.",
 "The shortness of the performance."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t22/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -40505,7 +39793,8 @@ const LISTEN_MORE = {
 "Avoid lifting your head and press your chest down.",
 "Keep your legs low in the water."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t22/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -40515,8 +39804,20 @@ const LISTEN_MORE = {
 "She missed a lot of lectures.",
 "She had plenty of money to go out."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t22/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A science book",
+"Family holidays",
+"A hotel stay",
+"A new film",
+"A supermarket job",
+"A concert",
+"Swimming advice",
+"University days"
 ]
 },
 {
@@ -40744,7 +40045,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fcey-t23/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -40755,7 +40056,8 @@ const LISTEN_MORE = {
 "It is a good base for walks with fine views.",
 "It is close to the castle and museum."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t23/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -40765,7 +40067,8 @@ const LISTEN_MORE = {
 "He is alarmed by the changes in the weather.",
 "He thinks action is needed straight away."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t23/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -40775,7 +40078,8 @@ const LISTEN_MORE = {
 "She would find it hard to get to the gym.",
 "Friends would visit them all the time."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t23/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -40785,7 +40089,8 @@ const LISTEN_MORE = {
 "Present a series of TV cookery lessons.",
 "Answer listeners' questions about cooking."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t23/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -40795,7 +40100,8 @@ const LISTEN_MORE = {
 "The choice has improved but there are still problems.",
 "Teachers no longer complain about the snacks."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t23/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -40805,7 +40111,8 @@ const LISTEN_MORE = {
 "It paid more than the family shop.",
 "It would let her work on her weak points."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t23/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -40815,7 +40122,8 @@ const LISTEN_MORE = {
 "They are impractical but that is what makes them special.",
 "They have been fairly judged by the press."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t23/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -40825,8 +40133,20 @@ const LISTEN_MORE = {
 "It is safer for beginners.",
 "It needs less equipment."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t23/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A campsite",
+"Global warming",
+"Moving to the country",
+"A food programme",
+"College canteens",
+"A first job",
+"A fashion designer",
+"Snow-kiting"
 ]
 },
 {
@@ -41055,7 +40375,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fcey-t24/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -41066,7 +40386,8 @@ const LISTEN_MORE = {
 "The lack of advice from the teacher.",
 "The skill of the other students."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t24/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -41076,7 +40397,8 @@ const LISTEN_MORE = {
 "Setting a record for climbing the highest mountain.",
 "Showing how to use climbing gear safely."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t24/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -41086,7 +40408,8 @@ const LISTEN_MORE = {
 "Cut sugar and bread from your diet.",
 "Judge your progress by how you look."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t24/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -41096,7 +40419,8 @@ const LISTEN_MORE = {
 "It should be connected with her studies.",
 "It should be in a kitchen."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t24/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -41106,7 +40430,8 @@ const LISTEN_MORE = {
 "She wants to get fitter.",
 "She cannot afford to run a car."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t24/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -41116,7 +40441,8 @@ const LISTEN_MORE = {
 "It is much safer than rock climbing.",
 "It is only for people with a head for heights."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t24/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -41126,7 +40452,8 @@ const LISTEN_MORE = {
 "The wind will drop completely.",
 "It will be a little warmer but still windy."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t24/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -41136,8 +40463,20 @@ const LISTEN_MORE = {
 "It would cost too much to keep it going.",
 "A documentary will be made about it."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t24/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A ceramics course",
+"A future guest",
+"Getting fit",
+"Weekend jobs",
+"Cycling to work",
+"Scrambling",
+"A weather forecast",
+"A local theatre"
 ]
 },
 {
@@ -41360,7 +40699,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–8",
 "kind": "file",
 "file": "TG/fcey-t25/p1.mp3",
-"intro": "You will hear people talking in eight different situations. For each question, choose the best answer (A, B or C).",
+"intro": "You will hear people talking in eight different situations. For each question, choose the best answer.",
 "scripts": [],
 "questions": [
 {
@@ -41371,7 +40710,8 @@ const LISTEN_MORE = {
 "It was not worth watching because little was left to happen.",
 "The hero did not win back his girlfriend."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t25/p1-q1.mp3"
 },
 {
 "type": "mc",
@@ -41381,7 +40721,8 @@ const LISTEN_MORE = {
 "Having to play songs he does not like.",
 "Being asked for a track he has just played."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t25/p1-q2.mp3"
 },
 {
 "type": "mc",
@@ -41391,7 +40732,8 @@ const LISTEN_MORE = {
 "Showing fewer paintings.",
 "Making the rooms bigger."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t25/p1-q3.mp3"
 },
 {
 "type": "mc",
@@ -41401,7 +40743,8 @@ const LISTEN_MORE = {
 "Dealing with customers.",
 "Working with figures."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/fcey-t25/p1-q4.mp3"
 },
 {
 "type": "mc",
@@ -41411,7 +40754,8 @@ const LISTEN_MORE = {
 "Happy customers will spread the word.",
 "A good website is worth the cost."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t25/p1-q5.mp3"
 },
 {
 "type": "mc",
@@ -41421,7 +40765,8 @@ const LISTEN_MORE = {
 "They fell out over the arrangements.",
 "They gradually picked up some of the language."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t25/p1-q6.mp3"
 },
 {
 "type": "mc",
@@ -41431,7 +40776,8 @@ const LISTEN_MORE = {
 "To argue for more money to be spent on sports facilities.",
 "To persuade children to watch less television."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/fcey-t25/p1-q7.mp3"
 },
 {
 "type": "mc",
@@ -41441,8 +40787,20 @@ const LISTEN_MORE = {
 "Pack plenty of tinned food.",
 "Buy it near the campsite rather than carry it."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/fcey-t25/p1-q8.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A TV finale",
+"A DJ's job",
+"An art exhibition",
+"A job vacancy",
+"A restaurant owner",
+"A trip abroad",
+"A sports article",
+"Camping food"
 ]
 },
 {
@@ -49379,7 +48737,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–6",
 "kind": "file",
 "file": "TG/cae1-t1/p1.mp3",
-"intro": "You will hear three different extracts. For each question, choose the answer (A, B or C) which fits best according to what you hear.",
+"intro": "You will hear three different extracts. For each question, choose the answer which fits best. There are two questions for each extract.",
 "scripts": [],
 "questions": [
 {
@@ -49390,7 +48748,8 @@ const LISTEN_MORE = {
 "She learned very little there.",
 "She disliked the pressure of sales figures."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae1-t1/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -49400,7 +48759,8 @@ const LISTEN_MORE = {
 "Look for a senior post elsewhere.",
 "Show what she can offer beyond what is required."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae1-t1/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -49410,7 +48770,8 @@ const LISTEN_MORE = {
 "It wanted to protect its nest.",
 "It was curious about the boat."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae1-t1/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -49420,7 +48781,8 @@ const LISTEN_MORE = {
 "She found it amusing.",
 "She thought it harmless."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae1-t1/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -49430,7 +48792,8 @@ const LISTEN_MORE = {
 "He was convinced it had become pointless because of photography.",
 "He realised he lacked talent."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae1-t1/p1-x3.mp3"
 },
 {
 "type": "mc",
@@ -49440,8 +48803,15 @@ const LISTEN_MORE = {
 "He lent him money for the business.",
 "He stopped supporting him financially."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae1-t1/p1-x3.mp3"
 }
+],
+"paged": true,
+"segments": [
+"Fashion retail career",
+"A swan encounter",
+"A businessman's youth"
 ]
 },
 {
@@ -49782,7 +49152,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–6",
 "kind": "file",
 "file": "TG/cae1-t2/p1.mp3",
-"intro": "You will hear three different extracts. For questions 1 to 6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"intro": "You will hear three different extracts. For each question, choose the answer which fits best. There are two questions for each extract.",
 "scripts": [],
 "questions": [
 {
@@ -49793,7 +49163,8 @@ const LISTEN_MORE = {
 "She worries about how her absence might be seen at work.",
 "She doubts that her manager would give her permission."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae1-t2/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -49803,7 +49174,8 @@ const LISTEN_MORE = {
 "He resents her recent promotion.",
 "He has little understanding of her duties."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae1-t2/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -49813,7 +49185,8 @@ const LISTEN_MORE = {
 "The bad language.",
 "The sudden bursts of tense music."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae1-t2/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -49823,7 +49196,8 @@ const LISTEN_MORE = {
 "It spoils the realism of the historical setting.",
 "It makes the story unsuitable for young readers."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae1-t2/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -49833,7 +49207,8 @@ const LISTEN_MORE = {
 "The shared central area where staff can mix.",
 "The light and spacious feel of the offices."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae1-t2/p1-x3.mp3"
 },
 {
 "type": "mc",
@@ -49843,8 +49218,15 @@ const LISTEN_MORE = {
 "Spend more on formal meetings to raise output.",
 "Make modest changes and find out how staff respond."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae1-t2/p1-x3.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A holiday dilemma",
+"A new film",
+"An office building"
 ]
 },
 {
@@ -50181,7 +49563,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–6",
 "kind": "file",
 "file": "TG/cae1-t3/p1.mp3",
-"intro": "You will hear three different extracts. For each question, choose the answer (A, B or C) which fits best according to what you hear.",
+"intro": "You will hear three different extracts. For each question, choose the answer which fits best. There are two questions for each extract.",
 "scripts": [],
 "questions": [
 {
@@ -50192,7 +49574,8 @@ const LISTEN_MORE = {
 "She has introduced some changes that were overdue.",
 "She is open to the staff's views."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae1-t3/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -50202,7 +49585,8 @@ const LISTEN_MORE = {
 "Ask to move to another department.",
 "Discuss it with the previous manager."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae1-t3/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -50212,7 +49596,8 @@ const LISTEN_MORE = {
 "To prove the vase is old.",
 "To make sure the pieces join and the cracks look neat."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae1-t3/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -50222,7 +49607,8 @@ const LISTEN_MORE = {
 "They honestly show part of its history.",
 "They should be disguised wherever possible."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae1-t3/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -50232,7 +49618,8 @@ const LISTEN_MORE = {
 "To attract new people to live there.",
 "To create jobs for islanders."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae1-t3/p1-x3.mp3"
 },
 {
 "type": "mc",
@@ -50242,8 +49629,15 @@ const LISTEN_MORE = {
 "He rejects the idea outright.",
 "He agrees it would spoil the island."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae1-t3/p1-x3.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A new manager",
+"Repairing antique vases",
+"Life on an island"
 ]
 },
 {
@@ -50571,7 +49965,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–6",
 "kind": "file",
 "file": "TG/cae1-t4/p1.mp3",
-"intro": "You will hear three different extracts. For questions 1 to 6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"intro": "You will hear three different extracts. For each question, choose the answer which fits best. There are two questions for each extract.",
 "scripts": [],
 "questions": [
 {
@@ -50582,7 +49976,8 @@ const LISTEN_MORE = {
 "He creates chances for the team's main scorers.",
 "He prefers shooting himself to passing."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae1-t4/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -50592,7 +49987,8 @@ const LISTEN_MORE = {
 "The club has learned from past mistakes.",
 "The club paid too much but could sell him on."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae1-t4/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -50602,7 +49998,8 @@ const LISTEN_MORE = {
 "It is falling mainly because of the local fishermen's catches.",
 "It is recovering now that protection measures are in place."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae1-t4/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -50612,7 +50009,8 @@ const LISTEN_MORE = {
 "They now see her as someone who supports their interests.",
 "They continue to resent her work."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae1-t4/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -50622,7 +50020,8 @@ const LISTEN_MORE = {
 "Someone she knew lent it to her.",
 "She came across it by chance."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae1-t4/p1-x3.mp3"
 },
 {
 "type": "mc",
@@ -50632,8 +50031,15 @@ const LISTEN_MORE = {
 "Its familiar ideas.",
 "Its unusual quality."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae1-t4/p1-x3.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A football team",
+"The anchovy population",
+"A treasured book"
 ]
 },
 {
@@ -50963,7 +50369,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–6",
 "kind": "file",
 "file": "TG/cae2-t1/p1.mp3",
-"intro": "You will hear three different extracts. For each question, choose the answer (A, B or C) which fits best according to what you hear.",
+"intro": "You will hear three different extracts. For each question, choose the answer which fits best. There are two questions for each extract.",
 "scripts": [],
 "questions": [
 {
@@ -50974,7 +50380,8 @@ const LISTEN_MORE = {
 "The acting is poor.",
 "The ending is too sad."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae2-t1/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -50984,7 +50391,8 @@ const LISTEN_MORE = {
 "Both are equally delicate.",
 "The novel is subtler, but the film moves people more."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae2-t1/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -50994,7 +50402,8 @@ const LISTEN_MORE = {
 "Great buildings would not get built.",
 "Buildings would become cheaper."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae2-t1/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -51004,7 +50413,8 @@ const LISTEN_MORE = {
 "Its town planning is poor.",
 "Its architects mostly work abroad."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae2-t1/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -51014,7 +50424,8 @@ const LISTEN_MORE = {
 "A disaster film she had seen.",
 "Some governments' failure to commit to pollution agreements."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae2-t1/p1-x3.mp3"
 },
 {
 "type": "mc",
@@ -51024,8 +50435,15 @@ const LISTEN_MORE = {
 "Her small habits make a big difference and save money.",
 "She is a figure of fun."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae2-t1/p1-x3.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A film discussion",
+"Public buildings",
+"A climate campaign"
 ]
 },
 {
@@ -51360,7 +50778,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–6",
 "kind": "file",
 "file": "TG/cae2-t2/p1.mp3",
-"intro": "You will hear three different extracts. For questions 1 to 6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"intro": "You will hear three different extracts. For each question, choose the answer which fits best. There are two questions for each extract.",
 "scripts": [],
 "questions": [
 {
@@ -51371,7 +50789,8 @@ const LISTEN_MORE = {
 "He is not fond of electronic devices.",
 "He tried one and found it unreliable."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae2-t2/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -51381,7 +50800,8 @@ const LISTEN_MORE = {
 "How much cheaper it has become.",
 "How easy it is for beginners to use."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae2-t2/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -51391,7 +50811,8 @@ const LISTEN_MORE = {
 "To impress the teachers.",
 "To avoid being picked on."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae2-t2/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -51401,7 +50822,8 @@ const LISTEN_MORE = {
 "It concentrates on things that others overlook.",
 "It relies on being spontaneous."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae2-t2/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -51411,7 +50833,8 @@ const LISTEN_MORE = {
 "It is too depressing to read on holiday.",
 "It is too bulky to pack."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae2-t2/p1-x3.mp3"
 },
 {
 "type": "mc",
@@ -51421,8 +50844,15 @@ const LISTEN_MORE = {
 "He admires the author's plots.",
 "He finds the slang in the dialogue appealing."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae2-t2/p1-x3.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A golf club visit",
+"Humour and school",
+"Holiday reading"
 ]
 },
 {
@@ -51751,7 +51181,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–6",
 "kind": "file",
 "file": "TG/cae2-t3/p1.mp3",
-"intro": "You will hear three different extracts. For questions 1 to 6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"intro": "You will hear three different extracts. For each question, choose the answer which fits best. There are two questions for each extract.",
 "scripts": [],
 "questions": [
 {
@@ -51762,7 +51192,8 @@ const LISTEN_MORE = {
 "It turned out to be surprisingly small.",
 "It had only just opened."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae2-t3/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -51772,7 +51203,8 @@ const LISTEN_MORE = {
 "The small audience affected the cast's performance.",
 "The costumes and make-up were impressive."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae2-t3/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -51782,7 +51214,8 @@ const LISTEN_MORE = {
 "It runs its tours in a distinctive way.",
 "It specialises in groups with special needs."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae2-t3/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -51792,7 +51225,8 @@ const LISTEN_MORE = {
 "Government rules on how tours are run.",
 "Higher incomes among holidaymakers."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae2-t3/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -51802,7 +51236,8 @@ const LISTEN_MORE = {
 "It is understandable.",
 "It ought to be reviewed."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae2-t3/p1-x3.mp3"
 },
 {
 "type": "mc",
@@ -51812,8 +51247,15 @@ const LISTEN_MORE = {
 "Take advantage of cheap flight offers.",
 "Arrange somewhere to stay without delay."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae2-t3/p1-x3.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A theatre trip",
+"A tour operator",
+"A rugby match"
 ]
 },
 {
@@ -52149,7 +51591,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–6",
 "kind": "file",
 "file": "TG/cae2-t4/p1.mp3",
-"intro": "You will hear three different extracts. For questions 1 to 6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"intro": "You will hear three different extracts. For each question, choose the answer which fits best. There are two questions for each extract.",
 "scripts": [],
 "questions": [
 {
@@ -52160,7 +51602,8 @@ const LISTEN_MORE = {
 "To teach viewers about technique.",
 "To prove that politicians can paint as well as professionals."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae2-t4/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -52170,7 +51613,8 @@ const LISTEN_MORE = {
 "It makes him look at a scene more carefully.",
 "It has improved his photography."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae2-t4/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -52180,7 +51624,8 @@ const LISTEN_MORE = {
 "She is troubled by seasickness while flying.",
 "Only unfamiliar manoeuvres worry her."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae2-t4/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -52190,7 +51635,8 @@ const LISTEN_MORE = {
 "Performing to a standard that avoids faults.",
 "Keeping her nerves under control."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae2-t4/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -52200,7 +51646,8 @@ const LISTEN_MORE = {
 "It is much cheaper than driving.",
 "It is the only way to get to work."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae2-t4/p1-x3.mp3"
 },
 {
 "type": "mc",
@@ -52210,8 +51657,15 @@ const LISTEN_MORE = {
 "His kitchen cooker.",
 "His shower."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae2-t4/p1-x3.mp3"
 }
+],
+"paged": true,
+"segments": [
+"Landscape painting",
+"Aerobatic flying",
+"A chef's routine"
 ]
 },
 {
@@ -52545,7 +51999,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–6",
 "kind": "file",
 "file": "TG/cae5-t1/p0.mp3",
-"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"intro": "You will hear three different extracts. For each question, choose the answer which fits best. There are two questions for each extract.",
 "scripts": [],
 "questions": [
 {
@@ -52556,7 +52010,8 @@ const LISTEN_MORE = {
 "They gave the film a staged quality that weakened its argument.",
 "They succeeded in forcing the companies to give answers."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae5-t1/p0-q1.mp3"
 },
 {
 "type": "mc",
@@ -52566,7 +52021,8 @@ const LISTEN_MORE = {
 "It was too harsh about the director's own choices.",
 "It left viewers feeling responsible without suggesting what to do."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae5-t1/p0-q1.mp3"
 },
 {
 "type": "mc",
@@ -52576,7 +52032,8 @@ const LISTEN_MORE = {
 "She was advised to by her employer.",
 "She is unsure she can afford to leave her job."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae5-t1/p0-q2.mp3"
 },
 {
 "type": "mc",
@@ -52586,7 +52043,8 @@ const LISTEN_MORE = {
 "She may lose influence at work.",
 "She may be criticised by her family."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae5-t1/p0-q2.mp3"
 },
 {
 "type": "mc",
@@ -52596,7 +52054,8 @@ const LISTEN_MORE = {
 "It will probably attract bigger audiences than before.",
 "It has revived his own enthusiasm for the choir."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae5-t1/p0-q3.mp3"
 },
 {
 "type": "mc",
@@ -52606,8 +52065,15 @@ const LISTEN_MORE = {
 "He agreed to add a familiar item.",
 "He asked the members to vote on it."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae5-t1/p0-q3.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A documentary film",
+"Moving to the country",
+"The choir's conductor"
 ]
 },
 {
@@ -52941,7 +52407,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–6",
 "kind": "file",
 "file": "TG/cae5-t2/p0.mp3",
-"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"intro": "You will hear three different extracts. For each question, choose the answer which fits best. There are two questions for each extract.",
 "scripts": [],
 "questions": [
 {
@@ -52952,7 +52418,8 @@ const LISTEN_MORE = {
 "They are disappointing but understandable.",
 "They show the author lacked confidence in her work."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae5-t2/p0-q1.mp3"
 },
 {
 "type": "mc",
@@ -52962,7 +52429,8 @@ const LISTEN_MORE = {
 "The villain is not frightening enough.",
 "The story moves along too quickly."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae5-t2/p0-q1.mp3"
 },
 {
 "type": "mc",
@@ -52972,7 +52440,8 @@ const LISTEN_MORE = {
 "He feels it is too difficult to research.",
 "He has lost the notes he made."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae5-t2/p0-q2.mp3"
 },
 {
 "type": "mc",
@@ -52982,7 +52451,8 @@ const LISTEN_MORE = {
 "Concentrating on a different aspect of the same subject.",
 "Asking the parents to read his draft."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae5-t2/p0-q2.mp3"
 },
 {
 "type": "mc",
@@ -52992,7 +52462,8 @@ const LISTEN_MORE = {
 "The fact that the management company approved it.",
 "The lack of any prior discussion."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae5-t2/p0-q3.mp3"
 },
 {
 "type": "mc",
@@ -53002,8 +52473,15 @@ const LISTEN_MORE = {
 "Speak to the Hendersons about her feelings.",
 "Learn more about how bees behave."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae5-t2/p0-q3.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A TV adaptation",
+"A dissertation",
+"Rooftop beehives"
 ]
 },
 {
@@ -53336,7 +52814,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–6",
 "kind": "file",
 "file": "TG/cae5-t3/p0.mp3",
-"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"intro": "You will hear three different extracts. For each question, choose the answer which fits best. There are two questions for each extract.",
 "scripts": [],
 "questions": [
 {
@@ -53347,7 +52825,8 @@ const LISTEN_MORE = {
 "It may prevent young architects from developing key skills.",
 "It may produce designs that are poorly proportioned."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae5-t3/p0-q1.mp3"
 },
 {
 "type": "mc",
@@ -53357,7 +52836,8 @@ const LISTEN_MORE = {
 "He said it needed to be discussed at a meeting.",
 "He dismissed it as sentimental."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae5-t3/p0-q1.mp3"
 },
 {
 "type": "mc",
@@ -53367,7 +52847,8 @@ const LISTEN_MORE = {
 "She is opposed to selling it at all.",
 "She is worried about the estate agent's valuation."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae5-t3/p0-q2.mp3"
 },
 {
 "type": "mc",
@@ -53377,7 +52858,8 @@ const LISTEN_MORE = {
 "Spend a weekend sorting through the contents.",
 "Ask the estate agent to delay the sale."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae5-t3/p0-q2.mp3"
 },
 {
 "type": "mc",
@@ -53387,7 +52869,8 @@ const LISTEN_MORE = {
 "Annoyed about the money he has wasted.",
 "Surprisingly glad that he no longer has to train."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae5-t3/p0-q3.mp3"
 },
 {
 "type": "mc",
@@ -53397,8 +52880,15 @@ const LISTEN_MORE = {
 "Give up running in favour of swimming.",
 "Train for the marathon the following year."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae5-t3/p0-q3.mp3"
 }
+],
+"paged": true,
+"segments": [
+"Design software",
+"Selling a family home",
+"A marathon"
 ]
 },
 {
@@ -53734,7 +53224,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–6",
 "kind": "file",
 "file": "TG/cae5-t4/p0.mp3",
-"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"intro": "You will hear three different extracts. For each question, choose the answer which fits best. There are two questions for each extract.",
 "scripts": [],
 "questions": [
 {
@@ -53745,7 +53235,8 @@ const LISTEN_MORE = {
 "It was a clever way of saving money.",
 "It distracted her from the story."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae5-t4/p0-q1.mp3"
 },
 {
 "type": "mc",
@@ -53755,7 +53246,8 @@ const LISTEN_MORE = {
 "The way the young actor portrayed his character.",
 "The reaction of the audience at the end."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae5-t4/p0-q1.mp3"
 },
 {
 "type": "mc",
@@ -53765,7 +53257,8 @@ const LISTEN_MORE = {
 "It has made the working days more pressured.",
 "It has improved relations between colleagues."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae5-t4/p0-q2.mp3"
 },
 {
 "type": "mc",
@@ -53775,7 +53268,8 @@ const LISTEN_MORE = {
 "Suggest that the trial be extended.",
 "Send detailed comments on the trial to management."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae5-t4/p0-q2.mp3"
 },
 {
 "type": "mc",
@@ -53785,7 +53279,8 @@ const LISTEN_MORE = {
 "He is concerned about the boy's behaviour in class.",
 "He wants the boy to spend more time on computing."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae5-t4/p0-q3.mp3"
 },
 {
 "type": "mc",
@@ -53795,8 +53290,15 @@ const LISTEN_MORE = {
 "She is surprised that it is a social activity.",
 "She fears it will take up too much time."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae5-t4/p0-q3.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A theatre play",
+"A four-day week",
+"A parents' meeting"
 ]
 },
 {
@@ -54131,7 +53633,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–6",
 "kind": "file",
 "file": "TG/cae6-t1/p0.mp3",
-"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"intro": "You will hear three different extracts. For each question, choose the answer which fits best. There are two questions for each extract.",
 "scripts": [],
 "questions": [
 {
@@ -54142,7 +53644,8 @@ const LISTEN_MORE = {
 "It was less visually impressive than he had hoped.",
 "It focused too much on beekeepers who had failed."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae6-t1/p0-q1.mp3"
 },
 {
 "type": "mc",
@@ -54152,7 +53655,8 @@ const LISTEN_MORE = {
 "She aimed to raise public concern for pollinators.",
 "She hoped to attract viewers to professional beekeeping."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae6-t1/p0-q1.mp3"
 },
 {
 "type": "mc",
@@ -54162,7 +53666,8 @@ const LISTEN_MORE = {
 "She has no suitable space for concentrated work.",
 "She is reluctant to use the quiet pods."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae6-t1/p0-q2.mp3"
 },
 {
 "type": "mc",
@@ -54172,7 +53677,8 @@ const LISTEN_MORE = {
 "Provide more quiet pods for staff.",
 "Set aside part of the day for quiet."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae6-t1/p0-q2.mp3"
 },
 {
 "type": "mc",
@@ -54182,7 +53688,8 @@ const LISTEN_MORE = {
 "He thinks the council has deliberately neglected the cinema.",
 "He is convinced the council has misjudged public opinion."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae6-t1/p0-q3.mp3"
 },
 {
 "type": "mc",
@@ -54192,8 +53699,15 @@ const LISTEN_MORE = {
 "It should include a practical alternative to the sale.",
 "It must avoid mentioning the cinema's history."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae6-t1/p0-q3.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A documentary on bees",
+"An open-plan office",
+"A local sale"
 ]
 },
 {
@@ -54529,7 +54043,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–6",
 "kind": "file",
 "file": "TG/cae6-t2/p0.mp3",
-"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"intro": "You will hear three different extracts. For each question, choose the answer which fits best. There are two questions for each extract.",
 "scripts": [],
 "questions": [
 {
@@ -54540,7 +54054,8 @@ const LISTEN_MORE = {
 "It was more accurate than the previous audio guides.",
 "It made her feel less alone in the museum."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae6-t2/p0-q1.mp3"
 },
 {
 "type": "mc",
@@ -54550,7 +54065,8 @@ const LISTEN_MORE = {
 "The information given may often be wrong.",
 "Visitors may stop looking at the exhibits themselves."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae6-t2/p0-q1.mp3"
 },
 {
 "type": "mc",
@@ -54560,7 +54076,8 @@ const LISTEN_MORE = {
 "She is afraid of letting herself and others down.",
 "She has been told the course is very hilly."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae6-t2/p0-q2.mp3"
 },
 {
 "type": "mc",
@@ -54570,7 +54087,8 @@ const LISTEN_MORE = {
 "Walk part of the route to save energy.",
 "Ignore the crowd and concentrate on the race."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae6-t2/p0-q2.mp3"
 },
 {
 "type": "mc",
@@ -54580,7 +54098,8 @@ const LISTEN_MORE = {
 "Embarrassed that she has made a complaint.",
 "Uneasy about the effect her request has had."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae6-t2/p0-q3.mp3"
 },
 {
 "type": "mc",
@@ -54590,8 +54109,15 @@ const LISTEN_MORE = {
 "They were probably more upset than they said.",
 "They had been given too little warning."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae6-t2/p0-q3.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A museum chatbot",
+"A half marathon",
+"The neighbours"
 ]
 },
 {
@@ -54922,7 +54448,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–6",
 "kind": "file",
 "file": "TG/cae6-t3/p0.mp3",
-"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"intro": "You will hear three different extracts. For each question, choose the answer which fits best. There are two questions for each extract.",
 "scripts": [],
 "questions": [
 {
@@ -54933,7 +54459,8 @@ const LISTEN_MORE = {
 "It reflects the translator's own preferences.",
 "It captures the humour of the original perfectly."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae6-t3/p0-q1.mp3"
 },
 {
 "type": "mc",
@@ -54943,7 +54470,8 @@ const LISTEN_MORE = {
 "Older translations were more faithful to the novel.",
 "The language is too informal for most readers."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae6-t3/p0-q1.mp3"
 },
 {
 "type": "mc",
@@ -54953,7 +54481,8 @@ const LISTEN_MORE = {
 "It is likely to cause difficulties for older students.",
 "It is unnecessary because concentration is already good."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae6-t3/p0-q2.mp3"
 },
 {
 "type": "mc",
@@ -54963,7 +54492,8 @@ const LISTEN_MORE = {
 "She introduced the ban too suddenly.",
 "She failed to ask the staff for their views."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae6-t3/p0-q2.mp3"
 },
 {
 "type": "mc",
@@ -54973,7 +54503,8 @@ const LISTEN_MORE = {
 "He thought clients would object.",
 "He doubted that managers were serious."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae6-t3/p0-q3.mp3"
 },
 {
 "type": "mc",
@@ -54983,8 +54514,15 @@ const LISTEN_MORE = {
 "They are keen to expand it to other companies.",
 "They are carefully checking its results."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae6-t3/p0-q3.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A new translation",
+"A school phone ban",
+"A four-day week"
 ]
 },
 {
@@ -55315,7 +54853,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–6",
 "kind": "file",
 "file": "TG/cae6-t4/p0.mp3",
-"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"intro": "You will hear three different extracts. For each question, choose the answer which fits best. There are two questions for each extract.",
 "scripts": [],
 "questions": [
 {
@@ -55326,7 +54864,8 @@ const LISTEN_MORE = {
 "The presenter's knowledge of Roman history.",
 "The emphasis on spectacular discoveries."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae6-t4/p0-q1.mp3"
 },
 {
 "type": "mc",
@@ -55336,7 +54875,8 @@ const LISTEN_MORE = {
 "It gave her new enthusiasm for the project.",
 "It was the most valuable find of the season."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae6-t4/p0-q1.mp3"
 },
 {
 "type": "mc",
@@ -55346,7 +54886,8 @@ const LISTEN_MORE = {
 "Reduce the number of bikes available.",
 "Make sure the existing agreement is observed."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae6-t4/p0-q2.mp3"
 },
 {
 "type": "mc",
@@ -55356,7 +54897,8 @@ const LISTEN_MORE = {
 "They disagree about its popularity.",
 "They both think it is too expensive."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/cae6-t4/p0-q2.mp3"
 },
 {
 "type": "mc",
@@ -55366,7 +54908,8 @@ const LISTEN_MORE = {
 "He finds it hard to decide how favourable it is.",
 "He thinks the prices are justified."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/cae6-t4/p0-q3.mp3"
 },
 {
 "type": "mc",
@@ -55376,8 +54919,15 @@ const LISTEN_MORE = {
 "It uses ingredients that are hard to obtain.",
 "It involves more work than conventional cooking."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/cae6-t4/p0-q3.mp3"
 }
+],
+"paged": true,
+"segments": [
+"An archaeology podcast",
+"A bike-share scheme",
+"A restaurant review"
 ]
 },
 {
@@ -55707,7 +55257,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–6",
 "kind": "file",
 "file": "TG/eba-t1/p1.mp3",
-"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"intro": "You will hear three different extracts. For each question, choose the answer which fits best. There are two questions for each extract.",
 "scripts": [],
 "questions": [
 {
@@ -55718,7 +55268,8 @@ const LISTEN_MORE = {
 "It costs less than buying paperbacks.",
 "The screen is easier on the eyes."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/eba-t1/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -55728,7 +55279,8 @@ const LISTEN_MORE = {
 "Buying more books than can be read",
 "Looking ahead to find out how a story ends"
 ],
-"c": 2
+"c": 2,
+"audio": "TG/eba-t1/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -55738,7 +55290,8 @@ const LISTEN_MORE = {
 "She felt close to its leading female character.",
 "It was too upsetting for her to finish."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/eba-t1/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -55748,7 +55301,8 @@ const LISTEN_MORE = {
 "It gives a clear picture of the story's main issue.",
 "It put her off reading the book at first."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/eba-t1/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -55758,7 +55312,8 @@ const LISTEN_MORE = {
 "It provides a ready source of ideas.",
 "It is a habit she is trying to give up."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/eba-t1/p1-x3.mp3"
 },
 {
 "type": "mc",
@@ -55768,8 +55323,15 @@ const LISTEN_MORE = {
 "She feels guilty about sitting all day.",
 "She believes it is good for her brain."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/eba-t1/p1-x3.mp3"
 }
+],
+"paged": true,
+"segments": [
+"Reading on screens",
+"A gift book",
+"A writer's day"
 ]
 },
 {
@@ -56101,7 +55663,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–6",
 "kind": "file",
 "file": "TG/eba-t2/p1.mp3",
-"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"intro": "You will hear three different extracts. For each question, choose the answer which fits best. There are two questions for each extract.",
 "scripts": [],
 "questions": [
 {
@@ -56112,7 +55674,8 @@ const LISTEN_MORE = {
 "They are rude to people who need a seat.",
 "They enjoy chatting to fellow travellers."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/eba-t2/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -56122,7 +55685,8 @@ const LISTEN_MORE = {
 "Passengers facing each other feel less exposed.",
 "Regular travellers are always relaxed with each other."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/eba-t2/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -56132,7 +55696,8 @@ const LISTEN_MORE = {
 "People who share too many holiday photos",
 "People who write angry comments without checking facts"
 ],
-"c": 2
+"c": 2,
+"audio": "TG/eba-t2/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -56142,7 +55707,8 @@ const LISTEN_MORE = {
 "Comments on blogs are often deleted.",
 "Users are too slow to react to news."
 ],
-"c": 0
+"c": 0,
+"audio": "TG/eba-t2/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -56152,7 +55718,8 @@ const LISTEN_MORE = {
 "Answers can be affected by things unrelated to real attitudes.",
 "Too few people agree to take part in them."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/eba-t2/p1-x3.mp3"
 },
 {
 "type": "mc",
@@ -56162,8 +55729,15 @@ const LISTEN_MORE = {
 "It paid customers to recycle.",
 "It watched small groups of people closely in daily life."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/eba-t2/p1-x3.mp3"
 }
+],
+"paged": true,
+"segments": [
+"Public transport",
+"Social media",
+"Large surveys"
 ]
 },
 {
@@ -56494,7 +56068,7 @@ const LISTEN_MORE = {
 "title": "Part 1 · Questions 1–6",
 "kind": "file",
 "file": "TG/eba-t3/p1.mp3",
-"intro": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+"intro": "You will hear three different extracts. For each question, choose the answer which fits best. There are two questions for each extract.",
 "scripts": [],
 "questions": [
 {
@@ -56505,7 +56079,8 @@ const LISTEN_MORE = {
 "The beautiful beaches and wildlife",
 "Its low cost compared with other places"
 ],
-"c": 0
+"c": 0,
+"audio": "TG/eba-t3/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -56515,7 +56090,8 @@ const LISTEN_MORE = {
 "Long road journeys show you what the country is like.",
 "It was the best way to meet local people."
 ],
-"c": 1
+"c": 1,
+"audio": "TG/eba-t3/p1-x1.mp3"
 },
 {
 "type": "mc",
@@ -56525,7 +56101,8 @@ const LISTEN_MORE = {
 "Get a feel for how local people live",
 "Spend time with other travellers"
 ],
-"c": 1
+"c": 1,
+"audio": "TG/eba-t3/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -56535,7 +56112,8 @@ const LISTEN_MORE = {
 "They have made her a tougher person.",
 "They can later turn into amusing stories."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/eba-t3/p1-x2.mp3"
 },
 {
 "type": "mc",
@@ -56545,7 +56123,8 @@ const LISTEN_MORE = {
 "Listen to one another practise their talks",
 "Share a taxi to the airport"
 ],
-"c": 1
+"c": 1,
+"audio": "TG/eba-t3/p1-x3.mp3"
 },
 {
 "type": "mc",
@@ -56555,8 +56134,15 @@ const LISTEN_MORE = {
 "She has always wanted to visit Edinburgh.",
 "It will be an escape from a crowded workplace."
 ],
-"c": 2
+"c": 2,
+"audio": "TG/eba-t3/p1-x3.mp3"
 }
+],
+"paged": true,
+"segments": [
+"A gap year",
+"Travelling abroad",
+"A conference trip"
 ]
 },
 {
