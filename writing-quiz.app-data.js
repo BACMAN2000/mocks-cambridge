@@ -5595,8 +5595,9 @@ const render={
         <div class="card" style="text-align:center;border-left:4px solid var(--good)">
           <div style="font-size:2.2rem">✓</div>
           <h2 style="margin:4px 0">Writing submitted</h2>
-          <p style="color:var(--muted);margin:0">Writing is <strong>not auto-scored</strong> — your teacher will read it and give you a mark by hand. Status: <strong>Awaiting your teacher's marking</strong>. Below is a copy of what you wrote.</p>
+          <p style="color:var(--muted);margin:0">${aiOn()?'An <strong>AI examiner</strong> gives you marks and tips right now, using the Cambridge assessment scales. Your teacher will still read it and give you the official mark.':'Writing is <strong>not auto-scored</strong> — your teacher will read it and give you a mark by hand.'} Status: <strong>Awaiting your teacher's marking</strong>. Below is a copy of what you wrote.</p>
         </div>
+        ${aiOn()?`<div id="aiBox"><h2 style="margin:14px 0 6px">AI examiner feedback</h2>${r.tasks.map(aiCardHtml).join('')}</div>`:''}
         <div class="card">
           <h2>Your answers</h2>
           ${r.tasks.map(t=>`<div style="border:1px solid #e2e8f0;border-radius:10px;padding:14px;margin-bottom:14px">
@@ -5615,7 +5616,15 @@ const render={
     const sb=document.getElementById('sendEmail'); if(sb) sb.onclick=()=>postResult(r,false);
     /* Ya no es fire-and-forget: postResult espera el guardado y avisa si
        falla. El comentario decia justo lo que habia que arreglar. */
-    postResult(r,true);
+    if(aiOn()){
+      /* Practice: primero la corrección de IA (en paralelo para las dos partes), luego se guarda el intento
+         con ella dentro (r.tasks[i].ai), para que el profesor la vea al poner su nota. Si falla, se guarda igual. */
+      Promise.allSettled(r.tasks.map(t=>aiFeedback(t).then(f=>{ t.ai=f; }))).then(()=>{
+        const box=document.getElementById('aiBox');
+        if(box) box.innerHTML=`<h2 style="margin:14px 0 6px">AI examiner feedback</h2>${aiScaleHtml(r.tasks)}${r.tasks.map(aiCardHtml).join('')}`;
+        postResult(r,true);
+      });
+    } else postResult(r,true);
   }
 };
 
@@ -5628,19 +5637,75 @@ async function finalize(){
   const tasks=[];
   // Writing is NOT auto-graded — the teacher marks it. We only capture the text.
   const t1=ex.parts[0].tasks[0]; const text1=(document.querySelector('[name="p1"]')||{}).value||'';
-  tasks.push({label:'Part 1 — '+capit(t1.type),taskType:t1.type,text:text1,wordCount:wc(text1)});
+  tasks.push({label:'Part 1 — '+capit(t1.type),taskType:t1.type,text:text1,wordCount:wc(text1),part:'p1',prompt:promptOf(t1)});
   // Part 2 (chosen)
   let opt=state.part2Choice;
   if(opt==null){ // fall back to the option with most words
     let best=-1,bestW=-1; ex.parts[1].tasks.forEach((t,i)=>{const ta=document.querySelector(`[name="p2_${i}"]`);const w=ta&&ta.value.trim()?ta.value.trim().split(/\s+/).length:0; if(w>bestW){bestW=w;best=i;}}); opt=best>=0?best:0;
   }
   const t2=ex.parts[1].tasks[opt]; const text2=(document.querySelector(`[name="p2_${opt}"]`)||{}).value||'';
-  tasks.push({label:'Part 2 (Q'+t2.q+') — '+capit(t2.type),taskType:t2.type,text:text2,wordCount:wc(text2)});
+  tasks.push({label:'Part 2 (Q'+t2.q+') — '+capit(t2.type),taskType:t2.type,text:text2,wordCount:wc(text2),part:'p2',prompt:promptOf(t2)});
   state.answers={tasks,part2Chosen:t2.q};
   borraBorrador();
   go('result');
 }
 function capit(s){return s?s.charAt(0).toUpperCase()+s.slice(1):s;}
+
+/* ====== Examinador de IA (solo Practice Tests; los MOCKS los corrige el profesor) ======
+   POST /cambridge/writing/feedback del backend de Cohasset: 0-5 por criterio con las escalas de
+   Cambridge. Vale el token de Supabase (nis.cohasset.pe, Cohasset Schools) o el de la plataforma
+   (cohasset.pe), igual que yle-media.js. Es orientación inmediata: la nota la pone el profesor. */
+function promptOf(t){
+  if(!t) return '';
+  const st=t.stimulus||{};
+  return [t.lead, [st.head,st.title,st.body].filter(Boolean).join('\n'), (t.bullets||[]).map(b=>'- '+b).join('\n'),
+          t.question, t.prompt, t.text, t.instructions].filter(Boolean).join('\n\n').slice(0,3900) || capit(t.type||'writing task');
+}
+function aiToken(){
+  try{
+    const t=localStorage.getItem('bm_token')||localStorage.getItem('cohasset_token'); if(t) return t;
+    for(let i=0;i<localStorage.length;i++){ const k=localStorage.key(i);
+      if(k && k.indexOf('sb-')===0 && k.indexOf('-auth-token')>0){ const v=JSON.parse(localStorage.getItem(k)||'null'); if(v&&v.access_token) return v.access_token; } }
+  }catch(e){}
+  return null;
+}
+function aiBase(){ return (location.hostname==='cohasset.pe'||location.hostname==='www.cohasset.pe') ? '/api' : 'https://cohasset.pe/api'; }
+function aiOn(){ return /^practice/.test(state.examType||'') && !!aiToken(); }
+async function aiFeedback(task){
+  if(!task.text || task.wordCount<15) return {error:'Too short to mark.'};
+  try{
+    const r=await fetch(aiBase()+'/cambridge/writing/feedback',{method:'POST',headers:{'Content-Type':'application/json','Authorization':'Bearer '+aiToken()},
+      body:JSON.stringify({level:state.level,part:task.part||'p1',task_type:task.taskType||'writing',prompt:task.prompt||capit(task.taskType||'task'),text:task.text})});
+    const j=await r.json().catch(()=>({}));
+    return r.ok ? j : {error:(j&&j.detail)||('The examiner is not available ('+r.status+').')};
+  }catch(e){ return {error:'Could not reach the examiner. Your teacher will still mark your work.'}; }
+}
+const AI_CRIT={Content:'Content',CommunicativeAchievement:'Communicative Achievement',Organisation:'Organisation',Language:'Language'};
+function aiCardHtml(task){
+  const f=task.ai;
+  if(!f) return `<div class="card"><b>${esc(task.label)}</b><p style="color:var(--muted);margin:6px 0 0">⏳ The AI examiner is reading your text…</p></div>`;
+  if(f.error) return `<div class="card"><b>${esc(task.label)}</b><p style="color:var(--muted);margin:6px 0 0">${esc(f.error)}</p></div>`;
+  const marks=f.marks||{};
+  return `<div class="card" style="border-left:4px solid var(--accent)">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap"><b>${esc(task.label)}</b><span style="font-size:1.4rem;font-weight:800">${f.total} / ${f.max}</span></div>
+    <p style="margin:6px 0 10px">${esc(f.summary||'')}</p>
+    ${Object.keys(marks).map(k=>`<div style="margin:6px 0"><div style="display:flex;justify-content:space-between"><b>${AI_CRIT[k]||k}</b><span>${marks[k]} / 5</span></div>
+      <div style="height:6px;background:#e2e8f0;border-radius:3px;overflow:hidden"><i style="display:block;height:100%;width:${marks[k]*20}%;background:${marks[k]>=3?'#16a34a':'#f59e0b'}"></i></div>
+      <div style="color:var(--muted);font-size:.9rem;margin-top:3px">${esc((f.comments||{})[k]||'')}</div></div>`).join('')}
+    ${(f.fixes||[]).length?`<div style="margin-top:10px"><b>Three things to fix</b>${f.fixes.map(x=>`<div style="margin:6px 0;font-size:.92rem"><s style="color:#b91c1c">${esc(x.quote)}</s> → <b style="color:#15803d">${esc(x.better)}</b><br><span style="color:var(--muted)">${esc(x.why)}</span></div>`).join('')}</div>`:''}
+  </div>`;
+}
+function aiScaleHtml(tasks){
+  const ok=tasks.filter(t=>t.ai&&!t.ai.error); if(!ok.length) return '';
+  const pct=Math.round(100*ok.reduce((s,t)=>s+t.ai.total,0)/ok.reduce((s,t)=>s+t.ai.max,0));
+  const B={A2:120,B1:140,B2:160,C1:180}[state.level]; if(!B) return '';
+  const s=Math.round(Math.max(B-20,Math.min(B+30, pct>=60? B+(pct-60)*0.75 : B-(60-pct))));
+  const up={A2:'B1',B1:'B2',B2:'C1',C1:'C2'}[state.level], down={A2:'A1',B1:'A2',B2:'B1',C1:'B2'}[state.level];
+  const res = s>=B+20?`Grade A · CEFR ${up}`:s>=B+13?`Grade B · CEFR ${state.level}`:s>=B?`Grade C · CEFR ${state.level}`:`CEFR ${down}`;
+  return `<div class="card" style="text-align:center"><div style="color:var(--muted);font-size:.85rem">Estimated Cambridge English Scale (Writing)</div>
+    <div style="font-size:2rem;font-weight:800">${s}</div><div>${res} · ${pct}% of the marks</div>
+    <div style="color:var(--muted);font-size:.82rem;margin-top:4px">AI estimate to guide you. Your teacher's mark is the one that counts.</div></div>`;
+}
 
 function postResult(r,silent){
   const st=document.getElementById('sendStatus');
