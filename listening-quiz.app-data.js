@@ -58566,6 +58566,50 @@ function startListenTimer(minutes){
 }
 function stopListenTimer(){ if(lTimerId){ clearInterval(lTimerId); lTimerId = null; } }
 
+/* Guardado automático (15-oct-2026), como en Reading: cada respuesta deja en
+   este navegador un borrador del examen en curso (state.answers, banderas,
+   hora de inicio, cambios de pestaña). Al volver a abrir el mismo examen se
+   repone: los controles se marcan desde state.answers y el reloj sigue desde
+   la hora de inicio guardada. Las preguntas de ordenar (seq) se barajan en
+   cada pintado: la respuesta se traduce del orden guardado al nuevo. Uno por
+   alumno; se borra al entregar o al salir con Exit. */
+const LDRAFT = {
+  TTL: 24*3600*1000,
+  key(){ return 'mocks-draft:listening:' + String(state.email || state.name || 'anon').toLowerCase(); },
+  read(){ try{ const d = JSON.parse(localStorage.getItem(this.key()) || 'null'); return (d && d.v === 1 && Date.now() - d.saved < this.TTL) ? d : null; }catch(e){ return null; } },
+  clear(){ try{ localStorage.removeItem(this.key()); }catch(e){} },
+  save(){
+    if(!document.querySelector('.ins-shell') || !state.startTime || !state.level) return;
+    if(!Object.keys(state.answers || {}).length && !Object.keys(state.flags || {}).length) return;
+    try{ localStorage.setItem(this.key(), JSON.stringify({ v:1, level:state.level, examType:state.examType, start:state.startTime,
+      answers:state.answers, seqOrder:state.seqOrder, flags:state.flags || {}, tabs:state._tabSwitches || 0, saved:Date.now() })); }catch(e){}
+  },
+  restore(){
+    const d = this.read();
+    if(!d || d.level !== state.level || d.examType !== state.examType) return null;
+    const ans = Object.assign({}, d.answers || {});
+    Object.keys(ans).forEach(key=>{
+      const v = ans[key];
+      const box = document.querySelector(`[data-key="${key}"]:not(.q-flag)`); if(!box) return;
+      if(box.classList.contains('seqlist')){
+        const oldOrd = (d.seqOrder || {})[key] || [], newOrd = state.seqOrder[key] || [], nv = {};
+        Object.keys(v || {}).forEach(pos=>{ const np = newOrd.indexOf(oldOrd[+pos]); if(np >= 0) nv[np] = v[pos]; });
+        ans[key] = nv;
+        box.querySelectorAll('select').forEach(sel=>{ const x = nv[+sel.dataset.pos]; sel.value = (x == null ? '' : String(x)); });
+      } else if(box.classList.contains('gapwrap')){
+        const inp = box.querySelector('input'); if(inp) inp.value = v;
+      } else if(box.tagName === 'SELECT'){
+        box.value = v;
+      } else {
+        const r = box.querySelector(`input[type="radio"][value="${String(v)}"]`); if(r) r.checked = true;
+      }
+    });
+    state.answers = ans; state.flags = d.flags || {}; state.startTime = d.start || state.startTime;
+    return d;
+  }
+};
+['pagehide','visibilitychange'].forEach(ev=>window.addEventListener(ev, ()=>LDRAFT.save()));
+
 /* ============================================================
    EXAMEN DIGITAL (25-sep-2026), igual que en el Reading: consigna con el
    texto del examen digital de Cambridge, bandera por pregunta y pagina de
@@ -58745,7 +58789,7 @@ function viewQuiz(){
   $('#lnext').onclick=()=>window._lNav(1);
   window._lGoView(0, false);
 
-  $('#insExit').onclick=async ()=>{ if(await NISUI.pregunta('If you leave now you will lose all your answers and the exam will not be submitted.', {titulo:'Leave without submitting?', si:'Leave and lose them', no:'Back to the exam', tono:'mal', peligro:true})){ try{TTS.stop();}catch(e){} acStop(); stopListenTimer(); document.body.classList.remove('exam-mode'); viewWelcome(); } };
+  $('#insExit').onclick=async ()=>{ if(await NISUI.pregunta('If you leave now you will lose all your answers and the exam will not be submitted.', {titulo:'Leave without submitting?', si:'Leave and lose them', no:'Back to the exam', tono:'mal', peligro:true})){ LDRAFT.clear(); try{TTS.stop();}catch(e){} acStop(); stopListenTimer(); document.body.classList.remove('exam-mode'); viewWelcome(); } };
   // ---- Banderas ----
   const keyNum = (key)=>{ for(let pi=0;pi<lev.audios.length;pi++){ const a=lev.audios[pi]; if(key.startsWith(a.id+'__')){ const qi=+key.slice(a.id.length+2); return {pi, qi, num:pInfo[pi].start+qi}; } } return null; };
   window._lPaintFlagBtn = function(){
@@ -58769,7 +58813,7 @@ function viewQuiz(){
   window._lToggleFlag = function(key){
     key = key || state.curKey; if(!key) return;
     if(state.flags[key]) delete state.flags[key]; else state.flags[key] = true;
-    window._lPaintFlags();
+    window._lPaintFlags(); LDRAFT.save();
   };
   // Al tocar una pregunta, esa pasa a ser la actual (para el boton de la cabecera)
   document.querySelector('.ins-shell').addEventListener('focusin', (e)=>{
@@ -58816,11 +58860,19 @@ function viewQuiz(){
     if(page) page.hidden = true; if(inner) inner.classList.remove('sp-hidden'); state.submitOpen = false;
   };
   $('#insSubmit').onclick=window._lOpenSubmit;
+  const draft = LDRAFT.restore();
   window._lPaintFlags();
 
   updateProgress();
   lTimerCss(); startListenTimer(LISTEN_DURATIONS[state.level] || 40);
   acStart();   // ← activate anti-cheat (translate block, tab-switch detection, etc.)
+  if(draft){
+    _AC_n = draft.tabs || 0; state._tabSwitches = _AC_n;
+    const okb = document.createElement('div');
+    okb.style.cssText = 'position:fixed;top:80px;left:50%;transform:translateX(-50%);background:#16a34a;color:#fff;padding:14px 28px;border-radius:10px;font-weight:700;z-index:5000;box-shadow:0 8px 32px rgba(0,0,0,.3)';
+    okb.textContent = '✓ Your answers have been restored. Carry on where you left off.';
+    document.body.appendChild(okb); setTimeout(()=>okb.remove(), 5000);
+  }
 }
 
 function renderTTSPlayer(audio){
@@ -59016,6 +59068,7 @@ function renderQuestions(audio, container){
 }
 
 function updateProgress(){
+  LDRAFT.save();
   const lev = currentQuiz()[state.level];
   let pointsAnswered = 0;
   let pointsTotal = 0;
@@ -59149,6 +59202,7 @@ async function onSubmit(){
   };
 
   state.lastPayload = payload;
+  LDRAFT.clear();
   /* Se espera al guardado y se le dice al alumno como fue: antes se lanzaba
      sin await dentro de un try/catch vacio, asi que un fallo pasaba callado. */
   viewResult(payload);
@@ -59358,7 +59412,18 @@ function sendByEmail(payload){
   try{
     if(window.NIS){
       const s = await window.NIS.currentStudent();
-      if(s){ state.name = s.full_name || s.first_name || ''; state.klass = s.grade || ''; state.email = s.email || ''; viewLevelSelect(); return; }
+      if(s){
+        state.name = s.full_name || s.first_name || ''; state.klass = s.grade || ''; state.email = s.email || '';
+        // Examen a medias: volver directo a él (con ?official=1 manda el puente).
+        const d = LDRAFT.read();
+        if(d && !/[?&]official=1/.test(location.search)){
+          const prevType = state.examType; state.examType = d.examType;
+          let ok = false; try{ ok = !!currentQuiz()[d.level]; }catch(e){}
+          if(ok){ state.level = d.level; state.answers = {}; state.seqOrder = {}; state.startTime = d.start; viewQuiz(); return; }
+          state.examType = prevType;
+        }
+        viewLevelSelect(); return;
+      }
     }
   }catch(e){}
   viewWelcome();

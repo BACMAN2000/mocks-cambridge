@@ -41,10 +41,10 @@ const DURATIONS = {
    overtime (+MM:SS in red) until the student presses Submit. The exam
    is never auto-submitted; the timer is informational. */
 let timerInterval = null;
-function startTimer(minutes, onExpire){
+function startTimer(minutes, onExpire, elapsedSec){
   stopTimer();
-  let remaining = minutes * 60;
-  let expiredFired = false;
+  let remaining = minutes * 60 - Math.max(0, Math.floor(elapsedSec || 0));
+  let expiredFired = remaining <= 0;   // al reanudar un examen ya pasado de hora no se repite el aviso
   const el = document.getElementById('timer');
   function paint(){
     if(!el) return;
@@ -68,6 +68,100 @@ function startTimer(minutes, onExpire){
   }, 1000);
 }
 function stopTimer(){ if(timerInterval){ clearInterval(timerInterval); timerInterval = null; } }
+
+/* Guardado automático (15-oct-2026). Cada respuesta deja en este navegador un
+   borrador del examen en curso: si el alumno recarga, se le cuelga el
+   navegador o cierra la pestaña, al volver a abrir el mismo examen recupera
+   sus respuestas, banderas, la pregunta en la que iba, el reloj y el contador
+   de cambios de pestaña. Las respuestas viven en los controles con nombre
+   pXqY de la carcasa, así que el borrador los lee y los repone tal cual (el
+   hueco del cloze es un input oculto: se repinta también su píldora). Uno por
+   alumno; se borra al entregar o al salir con Exit. */
+const MDRAFT = {
+  TTL: 24*3600*1000,
+  key(){ return 'mocks-draft:reading:' + String(state.email || state.name || 'anon').toLowerCase(); },
+  read(){ try{ const d = JSON.parse(localStorage.getItem(this.key()) || 'null'); return (d && d.v === 1 && Date.now() - d.saved < this.TTL) ? d : null; }catch(e){ return null; } },
+  clear(){ try{ localStorage.removeItem(this.key()); }catch(e){} },
+  save(){
+    if(MDRAFT._off) return;
+    const shell = document.querySelector('.inspera-shell'); if(!shell || !state.startTime) return;
+    const vals = {};
+    shell.querySelectorAll('[name]').forEach(el=>{
+      const n = el.getAttribute('name'); if(!/^p\d+q\d+$/.test(n)) return;
+      if(el.type === 'radio'){ if(el.checked) vals[n] = el.value; }
+      else if(el.value !== '' && el.value != null) vals[n] = el.value;
+    });
+    if(!Object.keys(vals).length && !Object.keys(state.flags || {}).length) return;
+    try{ localStorage.setItem(this.key(), JSON.stringify({ v:1, skill:state.skill, level:state.level, examType:state.examType,
+      start:state.startTime, cur:state.currentQ || 0, flags:state.flags || {}, tabs:state._tabSwitches || 0, vals, saved:Date.now() })); }catch(e){}
+  },
+  // Repone el borrador si es de este mismo examen. Devuelve el borrador o null.
+  restore(){
+    const d = this.read();
+    if(!d || d.skill !== state.skill || d.level !== state.level || d.examType !== state.examType) return null;
+    const shell = document.querySelector('.inspera-shell'); if(!shell) return null;
+    Object.keys(d.vals || {}).forEach(n=>{
+      const v = d.vals[n];
+      const els = shell.querySelectorAll(`[name="${n}"]`);
+      els.forEach(el=>{
+        if(el.type === 'radio') el.checked = (el.value === v);
+        else el.value = v;
+      });
+      const pill = shell.querySelector(`.gap-pill[onclick*="'${n}'"]`);
+      if(pill){ try{ const opts = JSON.parse(pill.dataset.options || '[]'); if(opts[+v] != null){ pill.textContent = opts[+v]; pill.classList.add('answered'); } }catch(e){} }
+      // las áreas de writing llevan contador de palabras: que se repinte
+      els.forEach(el=>{ if(el.tagName === 'TEXTAREA') el.dispatchEvent(new Event('input', {bubbles:true})); });
+    });
+    state.flags = d.flags || {};
+    return d;
+  }
+};
+['pagehide','visibilitychange'].forEach(ev=>window.addEventListener(ev, ()=>MDRAFT.save()));
+
+/* Examinador de IA para el Writing que va dentro del Reading (las partes de
+   Writing del A2 Key). El mismo de writing-quiz: POST /cambridge/writing/feedback
+   del backend de Cohasset, con la misma regla: solo en Practice (los MOCKS los
+   corrige el profesor) y con sesión. El texto se sigue guardando en el intento
+   para el profesor; esto es orientación inmediata. */
+function rAiToken(){
+  try{
+    const t = localStorage.getItem('bm_token') || localStorage.getItem('cohasset_token'); if(t) return t;
+    for(let i=0;i<localStorage.length;i++){ const k = localStorage.key(i);
+      if(k && k.indexOf('sb-')===0 && k.indexOf('-auth-token')>0){ const v = JSON.parse(localStorage.getItem(k)||'null'); if(v && v.access_token) return v.access_token; } }
+  }catch(e){}
+  return null;
+}
+async function rAiFeedback(w, box){
+  if(!box || !w || !(w.text||'').trim()) return;
+  if(!/^practice/.test(state.examType||'') || !['A2','B1','B2','C1'].includes(state.level)) return;
+  const tok = rAiToken(); if(!tok) return;
+  const E = s => String(s==null?'':s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  if(w.wordCount < 15){ box.innerHTML = '<p style="color:var(--muted);margin:10px 0 0">Too short for the AI examiner. Your teacher will mark it.</p>'; return; }
+  box.innerHTML = '<p style="color:var(--muted);margin:10px 0 0">⏳ The AI examiner is reading your text…</p>';
+  const task = String(w.task || w.prompt || '');
+  const type = /e-?mail|note|message/i.test(task) ? 'email' : (/story/i.test(task) ? 'story' : 'writing');
+  const part = /7|story/i.test(w.part + ' ' + type) ? 'p2' : 'p1';
+  const base = (location.hostname==='cohasset.pe'||location.hostname==='www.cohasset.pe') ? '/api' : 'https://cohasset.pe/api';
+  let f;
+  try{
+    const r = await fetch(base + '/cambridge/writing/feedback', {method:'POST', headers:{'Content-Type':'application/json','Authorization':'Bearer '+tok},
+      body: JSON.stringify({level:state.level, part, task_type:type, prompt:(task || 'Writing task').slice(0,3900).padEnd(10,'.'), text:w.text.slice(0,6000)})});
+    f = await r.json().catch(()=>({}));
+    if(!r.ok) f = {error:(f && f.detail) || ('The examiner is not available ('+r.status+').')};
+  }catch(e){ f = {error:'Could not reach the examiner. Your teacher will still mark your work.'}; }
+  if(f.error){ box.innerHTML = `<p style="color:var(--muted);margin:10px 0 0">${E(f.error)}</p>`; return; }
+  const CR = {Content:'Content',CommunicativeAchievement:'Communicative Achievement',Organisation:'Organisation',Language:'Language'};
+  const marks = f.marks || {};
+  box.innerHTML = `<div style="margin-top:12px;padding:12px 14px;border-left:4px solid var(--accent);background:#f8fafc;border-radius:8px">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap"><b>🤖 AI examiner</b><span style="font-size:1.3rem;font-weight:800">${f.total} / ${f.max}</span></div>
+    <p style="margin:6px 0 10px">${E(f.summary)}</p>
+    ${Object.keys(marks).map(k=>`<div style="margin:6px 0"><div style="display:flex;justify-content:space-between"><b>${E(CR[k]||k)}</b><span>${marks[k]} / 5</span></div>
+      <div style="height:6px;background:#e2e8f0;border-radius:3px;overflow:hidden"><i style="display:block;height:100%;width:${marks[k]*20}%;background:${marks[k]>=3?'#16a34a':'#f59e0b'}"></i></div>
+      <div style="color:var(--muted);font-size:.9rem;margin-top:3px">${E((f.comments||{})[k])}</div></div>`).join('')}
+    ${(f.fixes||[]).length?`<div style="margin-top:10px"><b>Three things to fix</b>${f.fixes.map(x=>`<div style="margin:6px 0;font-size:.92rem"><s style="color:#b91c1c">${E(x.quote)}</s> → <b style="color:#15803d">${E(x.better)}</b><br><span style="color:var(--muted)">${E(x.why)}</span></div>`).join('')}</div>`:''}
+    <p style="color:var(--muted);font-size:.82rem;margin:10px 0 0">Instant guidance only: your teacher gives the final mark.</p>
+  </div>`;
+}
 
 /* CEFR interpretation given the level taken and percent correct */
 const LEVEL_NAMES = {
@@ -43746,7 +43840,7 @@ const render = {
     window._toggleFlag = function(name){
       if(!name){ const cur = decode(state.currentQ); name = qid(cur.part, cur.local); }
       if(state.flags[name]) delete state.flags[name]; else state.flags[name] = true;
-      window._paintFlags();
+      window._paintFlags(); MDRAFT.save();
     };
     // ---- Pagina de entrega: que falta y que esta marcado, por parte, antes de enviar ----
     window._openSubmitPage = function(){
@@ -43862,6 +43956,7 @@ const render = {
         titulo:'Submit your exam?', si:'Yes, submit', no:'Keep answering', icono:'📩', tono:'info'
       })) return;
       stopTimer(); stopTTS(); acStop();
+      MDRAFT.clear();
       const result = scoreExam(ex);
       state.answers = result;
       go('result');
@@ -43871,6 +43966,7 @@ const render = {
       if(!await NISUI.pregunta('If you leave now you will lose all your answers and the exam will not be submitted.', {
         titulo:'Leave without submitting?', si:'Leave and lose them', no:'Back to the exam', tono:'mal', peligro:true
       })) return;
+      MDRAFT.clear();
       stopTimer(); stopTTS(); acStop(); go('category');
     };
 
@@ -43878,6 +43974,8 @@ const render = {
     const shell = document.querySelector('.inspera-shell');
     shell.addEventListener('input', window._updateProgress);
     shell.addEventListener('change', window._updateProgress);
+    shell.addEventListener('input', ()=>MDRAFT.save());
+    shell.addEventListener('change', ()=>MDRAFT.save());
     // Clicking/focusing directly in the text makes that question the "current" one,
     // so the green arrows continue from where the student is working.
     shell.addEventListener('focusin', (e)=>{
@@ -43894,8 +43992,21 @@ const render = {
     window._updateProgress();
     window._paintFlags();
 
-    state.startTime = Date.now();
+    // ¿Hay borrador de este mismo examen? Se reponen respuestas, banderas,
+    // pregunta, reloj y cambios de pestaña; si no, se empieza de cero.
+    const draft = MDRAFT.restore();
+    state.startTime = draft ? (draft.start || Date.now()) : Date.now();
     acStart();   // ← activate anti-cheat (translate block, tab detection, etc.)
+    if(draft){
+      _AC_n = draft.tabs || 0; state._tabSwitches = _AC_n;
+      const c = decode(Math.min(draft.cur || 0, counter - 2));
+      window._goToQuestion(c.part, c.local);
+      window._updateProgress(); window._paintFlags();
+      const okb = document.createElement('div');
+      okb.style.cssText = 'position:fixed;top:80px;left:50%;transform:translateX(-50%);background:#16a34a;color:#fff;padding:14px 28px;border-radius:10px;font-weight:700;z-index:5000;box-shadow:0 8px 32px rgba(0,0,0,.3);font-family:"Montserrat",sans-serif';
+      okb.textContent = '✓ Your answers have been restored. Carry on where you left off.';
+      document.body.appendChild(okb); setTimeout(()=>okb.remove(), 5000);
+    }
     startTimer(dur, ()=>{
       // Time expired: notify the student, but DO NOT auto-submit.
       // Students can keep working; the timer now counts overtime in red.
@@ -43906,7 +44017,7 @@ const render = {
       setTimeout(()=>banner.style.transition='opacity .5s', 50);
       setTimeout(()=>{ banner.style.opacity = '0'; }, 6000);
       setTimeout(()=>banner.remove(), 6700);
-    });
+    }, (Date.now() - state.startTime) / 1000);
   },
 
   result(){
@@ -44057,13 +44168,14 @@ const render = {
         <div class="card">
           <h2>Writing tasks — sent for teacher review</h2>
           <p class="sub" style="margin-bottom:10px">Your writing is <strong>not graded automatically</strong>. It has been sent to your teacher, who will read it and give you a mark by hand. Below is a copy of what you wrote.</p>
-          ${r.writing.map(w=>`
+          ${r.writing.map((w,wi)=>`
             <div style="border:1px solid #e2e8f0;border-radius:10px;padding:14px;margin-bottom:14px">
               <div style="display:flex;justify-content:space-between;align-items:center">
                 <strong>${w.part}</strong>
                 <span style="color:var(--muted);font-size:.85rem">${w.wordCount} words</span>
               </div>
               <div class="passage" style="margin-top:8px;white-space:pre-wrap">${(w.text||'<em>No response written.</em>').replace(/</g,'&lt;')}</div>
+              <div id="rAi-${wi}"></div>
             </div>
           `).join('')}
         </div>`:''}
@@ -44111,6 +44223,7 @@ const render = {
        esperar y dentro de un try/catch vacio: si fallaba —sin sesion, red,
        permisos— el alumno veia su resultado y se iba convencido de haber
        entregado, y al profesor no le llegaba nada. Ahora se espera y se dice. */
+    (r.writing||[]).forEach((w,wi)=>rAiFeedback(w, document.getElementById('rAi-'+wi)));
     guardaIntento({skill:payload.skill, level:payload.level, examType:payload.examType, score:payload.score, total:payload.total, percent:payload.percent, duration_min:payload.durationMinutes, breakdown:{parts:payload.parts, detail:payload.detail}, answers:payload.writingAnswers||null},
                   payload.score + '/' + payload.total + ' · ' + payload.percent + '%');
     sendResultToWebhook(payload).then(res=>{
@@ -44153,7 +44266,17 @@ const render = {
   try{
     if(window.NIS){
       const s = await window.NIS.currentStudent();
-      if(s){ state.name = s.full_name || ''; state.grade = s.grade || ''; state.email = s.email || ''; state.skill = 'Reading'; go('level'); return; }
+      if(s){
+        state.name = s.full_name || ''; state.grade = s.grade || ''; state.email = s.email || ''; state.skill = 'Reading';
+        // Examen a medias (recargó o se cerró la pestaña): volver directo a él.
+        // Con ?official=1 manda el puente del mock oficial, que abre el mismo
+        // examen y exam() repone el borrador igual.
+        const d = MDRAFT.read();
+        if(d && d.skill === 'Reading' && !/[?&]official=1/.test(location.search)){
+          state.level = d.level; state.examType = d.examType; state.answers = {}; go('exam'); return;
+        }
+        go('level'); return;
+      }
     }
   }catch(e){}
   go('welcome');
