@@ -5617,7 +5617,7 @@ const render={
     /* Ya no es fire-and-forget: postResult espera el guardado y avisa si
        falla. El comentario decia justo lo que habia que arreglar. */
     if(aiOn()){
-      /* Practice: primero la corrección de IA (en paralelo para las dos partes), luego se guarda el intento
+      /* Primero la corrección de IA (en paralelo para las dos partes), luego se guarda el intento
          con ella dentro (r.tasks[i].ai), para que el profesor la vea al poner su nota. Si falla, se guarda igual. */
       Promise.allSettled(r.tasks.map(t=>aiFeedback(t).then(f=>{ t.ai=f; }))).then(()=>{
         const box=document.getElementById('aiBox');
@@ -5651,7 +5651,7 @@ async function finalize(){
 }
 function capit(s){return s?s.charAt(0).toUpperCase()+s.slice(1):s;}
 
-/* ====== Examinador de IA (solo Practice Tests; los MOCKS los corrige el profesor) ======
+/* ====== Examinador de IA (Practice y MOCKS desde el 15-oct-2026; la nota oficial la pone el profesor) ======
    POST /cambridge/writing/feedback del backend de Cohasset: 0-5 por criterio con las escalas de
    Cambridge. Vale el token de Supabase (nis.cohasset.pe, Cohasset Schools) o el de la plataforma
    (cohasset.pe), igual que yle-media.js. Es orientación inmediata: la nota la pone el profesor. */
@@ -5670,7 +5670,7 @@ function aiToken(){
   return null;
 }
 function aiBase(){ return (location.hostname==='cohasset.pe'||location.hostname==='www.cohasset.pe') ? '/api' : 'https://cohasset.pe/api'; }
-function aiOn(){ return /^practice/.test(state.examType||'') && !!aiToken(); }
+function aiOn(){ return !!aiToken(); }
 async function aiFeedback(task){
   if(!task.text || task.wordCount<15) return {error:'Too short to mark.'};
   try{

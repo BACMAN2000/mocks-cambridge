@@ -120,8 +120,8 @@ const MDRAFT = {
 
 /* Examinador de IA para el Writing que va dentro del Reading (las partes de
    Writing del A2 Key). El mismo de writing-quiz: POST /cambridge/writing/feedback
-   del backend de Cohasset, con la misma regla: solo en Practice (los MOCKS los
-   corrige el profesor) y con sesión. El texto se sigue guardando en el intento
+   del backend de Cohasset, con la misma regla: Practice y MOCKS (desde el
+   15-oct-2026), con sesión. El texto se sigue guardando en el intento
    para el profesor; esto es orientación inmediata. */
 function rAiToken(){
   try{
@@ -133,7 +133,7 @@ function rAiToken(){
 }
 async function rAiFeedback(w, box){
   if(!box || !w || !(w.text||'').trim()) return;
-  if(!/^practice/.test(state.examType||'') || !['A2','B1','B2','C1'].includes(state.level)) return;
+  if(!['A2','B1','B2','C1'].includes(state.level)) return;
   const tok = rAiToken(); if(!tok) return;
   const E = s => String(s==null?'':s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   if(w.wordCount < 15){ box.innerHTML = '<p style="color:var(--muted);margin:10px 0 0">Too short for the AI examiner. Your teacher will mark it.</p>'; return; }
