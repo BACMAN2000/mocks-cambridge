@@ -15,6 +15,25 @@ window.MOCKS_SITE = {
   accent2: '#2d5a8d'
 };
 
+/* Colegio de muestra (sample.cohasset.pe, 16-oct-2026): marca Cohasset
+   Schools y nada de Nordic. Sus resultados no salen del navegador: ni base de
+   datos ni archivo de textos (nis-bridge.js hace el resto con la sesion, para
+   quien entre con una cuenta sample por otro dominio). */
+window.COH_SAMPLE_HOST = /^sample\./.test(location.hostname);
+if (window.COH_SAMPLE_HOST) {
+  window.MOCKS_SITE = {
+    teacherEmail: '',
+    schoolName: 'Cohasset Schools',
+    classLabel: 'Cohasset Schools · Sample',
+    portalName: 'the Cohasset Schools portal',
+    logo: '../assets/cohasset-school.svg',
+    logoAlt: 'Cohasset Schools',
+    emailExample: 'student@school.edu',
+    accent: '#2563EB',
+    accent2: '#1d4ed8'
+  };
+}
+
 /* ---- una sola puerta de entrada -------------------------------------------
    El sitio se publica tambien en bacman2000.github.io/nis-portal/, y por ahi
    entraban alumnos: 10 personas distintas solo el 7-sep-2026. Al ser otro
@@ -44,6 +63,10 @@ window.NIS_CONFIG = {
   // archivar. No es un secreto, pero se centraliza aquí en vez de hardcodearlo.
   WRITING_WEBHOOK: "https://script.google.com/macros/s/AKfycbzwn09Be0ZfKxGpwgkjLdp7nIs7awq8h7SVKkMlWN4EjekkOFqpLmnChzGHN_bB6kN-/exec"
 };
+if (window.COH_SAMPLE_HOST) {
+  window.NIS_CONFIG.SCHOOL_NAME = 'Cohasset Schools';
+  window.NIS_CONFIG.WRITING_WEBHOOK = '';
+}
 
 /* ---- un solo cliente de Supabase por pestana -----------------------------
    El portal carga en la MISMA pagina app.js y anticheat.js, y cada uno llamaba

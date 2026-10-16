@@ -47,6 +47,7 @@
       };
       if(!['Reading','Listening','Writing'].includes(row.skill)) return {skipped:true};
       if(!['A2','B1','B2','C1'].includes(row.level)) return {skipped:true};
+      if(sampleLocal()) return sampleStore(row);   // colegio de muestra: el intento no va a la base
       var res = await c.from('exam_attempts').insert(row);
       return res;
     }catch(e){ return {error:e}; }
@@ -91,6 +92,22 @@
     var c = client(); if(!c) return;
     try{ await c.auth.signOut(); }catch(e){}
     try{ localStorage.clear(); }catch(e){}
+  }
+  /* Colegio de muestra (16-oct-2026): ningun resultado llega a la base. El
+     intento se guarda en este navegador y My Progress lo lee de ahi
+     (cohSampleResults:<uid>, mismo origen que el portal). La base ademas lo
+     descarta por su cuenta (trigger de la migracion 2026-10-16_01). */
+  function sampleLocal(){ return !!(window.COH_SAMPLE_HOST || _sample); }
+  function sampleStore(row){
+    try{
+      var k = 'cohSampleResults:' + row.student_id;
+      var d = JSON.parse(localStorage.getItem(k) || '{}') || {};
+      d.exam = d.exam || [];
+      d.exam.unshift(Object.assign({ id:'local-' + Date.now(), submitted_at:new Date().toISOString() }, row));
+      d.exam = d.exam.slice(0, 200);
+      localStorage.setItem(k, JSON.stringify(d));
+    }catch(e){}
+    return { data:null, error:null, local:true };
   }
   window.NIS = { client: client, currentStudent: currentStudent, save: save, mocksUnlocked: mocksUnlocked, practiceUnlocked: practiceUnlocked, signOut: signOut };
 })();
@@ -510,9 +527,19 @@
         sm[fam] = (r.scope && Array.isArray(r.scope.tests)) ? r.scope.tests : '*';
       });
       _sample = sm;
+      sampleMute();
       sampleHide();
       try{ new MutationObserver(sampleHide).observe(document.body, {childList:true, subtree:true}); }catch(_){ }
     }catch(e){}
+  }
+  /* Sin envios: ni archivo de textos (webhook) ni correo al profesor. */
+  function sampleMute(){
+    try{ if(window.NIS_CONFIG) window.NIS_CONFIG.WRITING_WEBHOOK = ''; }catch(e){}
+    try{ if(typeof CONFIG !== 'undefined' && CONFIG){ CONFIG.webhookUrl = ''; CONFIG.teacherEmail = ''; } }catch(e){}
+    if(document.getElementById('nisSampleMute')) return;
+    var css = document.createElement('style'); css.id = 'nisSampleMute';
+    css.textContent = '#sendStatus,#lSendStatus,#sendEmailBtn,#lSendEmail,#sendEmail{display:none!important}';
+    document.head.appendChild(css);
   }
   function sampleOK(examType){
     if(!_sample || !examType) return true;
@@ -544,7 +571,7 @@
   }
   function lockMsg(){
     if(!_off && _sample){
-      var ms = '🔒 This sample includes Practice 1 and MOCK 1 of each level.';
+      var ms = '🔒 This sample includes Practice 1 and 2 and MOCK 1 and 2 of each level.';
       if(window.NISUI && NISUI.avisa) NISUI.avisa(ms, {titulo:'Sample'}); else alert(ms);
       return;
     }
@@ -619,7 +646,7 @@
     var ban = document.getElementById('officialBanner');
     if(ban && _off){ ban.hidden = false; ban.setAttribute('data-i18n', 'off'); ban.textContent = '🎓 Today you sit your ' + (_off.mode === 'individual' ? 'individual' : 'official') + ' mock: ' + (_off.level ? LEVEL_NAMES[_off.level] + ' · ' : '') + mockLabel(_off) + '. It is the only thing open.'; }
   }
-  function boot(){ wrapGates(); official(); resolveSample(); }
+  function boot(){ wrapGates(); official(); if(window.COH_SAMPLE_HOST) sampleMute(); resolveSample(); }
   if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
   setTimeout(wrapGates, 400); setTimeout(wrapGates, 1500);
 })();
