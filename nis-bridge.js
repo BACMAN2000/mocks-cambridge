@@ -47,8 +47,8 @@
       };
       if(!['Reading','Listening','Writing'].includes(row.skill)) return {skipped:true};
       if(!['A2','B1','B2','C1'].includes(row.level)) return {skipped:true};
-      if(sampleLocal()) return sampleStore(row);   // colegio de muestra: el intento no va a la base
       var res = await c.from('exam_attempts').insert(row);
+      if(sampleLocal() && res && !res.error) sampleNotify(row);   // colegio de muestra: aviso al admin
       return res;
     }catch(e){ return {error:e}; }
   }
@@ -93,21 +93,24 @@
     try{ await c.auth.signOut(); }catch(e){}
     try{ localStorage.clear(); }catch(e){}
   }
-  /* Colegio de muestra (16-oct-2026): ningun resultado llega a la base. El
-     intento se guarda en este navegador y My Progress lo lee de ahi
-     (cohSampleResults:<uid>, mismo origen que el portal). La base ademas lo
-     descarta por su cuenta (trigger de la migracion 2026-10-16_01). */
+  /* Colegio de muestra (16-oct-2026): el intento se guarda como siempre y la
+     base lo desvia a sample_attempts (trigger trg_local_results), aparte de los
+     resultados de los colegios. Ademas se avisa al admin de Cohasset Schools
+     (backend de cohasset.pe, bandeja de notificaciones). */
   function sampleLocal(){ return !!(window.COH_SAMPLE_HOST || _sample); }
-  function sampleStore(row){
+  var SAMPLE_TEST = { practice:'Practice 1', practice2:'Practice 2', mock1:'MOCK 1', mock2:'MOCK 2' };
+  function sampleNotify(row){
     try{
-      var k = 'cohSampleResults:' + row.student_id;
-      var d = JSON.parse(localStorage.getItem(k) || '{}') || {};
-      d.exam = d.exam || [];
-      d.exam.unshift(Object.assign({ id:'local-' + Date.now(), submitted_at:new Date().toISOString() }, row));
-      d.exam = d.exam.slice(0, 200);
-      localStorage.setItem(k, JSON.stringify(d));
+      var c = client(); if(!c) return;
+      c.auth.getSession().then(function(s){
+        var t = s && s.data && s.data.session && s.data.session.access_token; if(!t) return;
+        var det = row.skill + ' · ' + row.level + ' · ' + (SAMPLE_TEST[row.mock] || row.mock)
+                + (row.percent != null ? ' · ' + row.percent + '%' : '');
+        fetch('https://cohasset.pe/api/sso/school/activity', { method:'POST', keepalive:true,
+          headers:{'Content-Type':'application/json'},
+          body:JSON.stringify({ token:t, event:'attempt', detail:det }) }).catch(function(){});
+      });
     }catch(e){}
-    return { data:null, error:null, local:true };
   }
   window.NIS = { client: client, currentStudent: currentStudent, save: save, mocksUnlocked: mocksUnlocked, practiceUnlocked: practiceUnlocked, signOut: signOut };
 })();
@@ -528,6 +531,7 @@
       });
       _sample = sm;
       sampleMute();
+      sampleExits();
       sampleHide();
       try{ new MutationObserver(sampleHide).observe(document.body, {childList:true, subtree:true}); }catch(_){ }
     }catch(e){}
@@ -646,7 +650,32 @@
     var ban = document.getElementById('officialBanner');
     if(ban && _off){ ban.hidden = false; ban.setAttribute('data-i18n', 'off'); ban.textContent = '🎓 Today you sit your ' + (_off.mode === 'individual' ? 'individual' : 'official') + ' mock: ' + (_off.level ? LEVEL_NAMES[_off.level] + ' · ' : '') + mockLabel(_off) + '. It is the only thing open.'; }
   }
-  function boot(){ wrapGates(); official(); if(window.COH_SAMPLE_HOST) sampleMute(); resolveSample(); }
+  /* Colegio de muestra (16-oct-2026): las salidas del motor no llevan a
+     pantallas de NIS. Inicio de sesion / bienvenida / indice de quizzes →
+     portal; «Back» desde la lista de tests → selector de nivel (la categoria
+     mezcla Practice y Mocks), y desde el selector de nivel → portal. El logo
+     no navega. Solo con ?branch= (llegada desde el portal). */
+  function sampleExits(){
+    if(window.__sampleExits || !new URLSearchParams(location.search).get('branch')) return;
+    window.__sampleExits = true;
+    var css = document.createElement('style');
+    css.textContent = 'a.brand,a.logo,.topbar a[href="quizzes.html"]{pointer-events:none}'
+      + 'a[href="quizzes.html"],a.link[href="listening-quiz.html"],a[href="../quizzes.html"]{display:none!important}';
+    document.head.appendChild(css);
+    if(typeof window.go === 'function' && !window.go.__sampleExit){
+      var _g = window.go;
+      var w = function(s){
+        if(s === 'login' || s === 'welcome'){ backToPortal(); return; }
+        if(s === 'category' && window._branchUsed) s = 'level';
+        return _g.call(this, s);
+      };
+      w.__sampleExit = true; w.__nisGate = _g.__nisGate; w.__nisExit = _g.__nisExit; window.go = w;
+    }
+    ['viewWelcome'].forEach(function(fn){
+      if(typeof window[fn] === 'function' && !window[fn].__sampleExit){ var f = function(){ backToPortal(); }; f.__sampleExit = true; window[fn] = f; }
+    });
+  }
+  function boot(){ wrapGates(); official(); if(window.COH_SAMPLE_HOST){ sampleMute(); sampleExits(); } resolveSample(); }
   if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
   setTimeout(wrapGates, 400); setTimeout(wrapGates, 1500);
 })();
