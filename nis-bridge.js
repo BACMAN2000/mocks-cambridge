@@ -486,13 +486,68 @@
     setTimeout(restoreDraft, 700);
   }
 
+  /* ---- colegio de muestra (15-oct-2026) ----
+     school_content.scope recorta qué tests se ven en este motor:
+     {tests:['practice']} en practice.<destreza>, {tests:['mock01']} en
+     mock.<destreza>. Se lee con la sesión (RLS: filas del colegio del propio
+     usuario), no por el hostname, así que vale aunque entre por otro dominio.
+     Sin filas con scope no hay recorte (NIS, demo y los demás colegios). */
+  var _sample = null;   // null = sin recorte; si no, {practice:[…]|'*'|null, mock:…}
+  async function resolveSample(){
+    var c = window.NIS && NIS.client(); if(!c) return;
+    var sk = { Reading:'reading', Listening:'listening', Writing:'writing' }[page()]; if(!sk) return;
+    try{
+      var u = await c.auth.getUser(); if(!u || !u.data || !u.data.user) return;
+      var prof = (await c.from('profiles').select('school_id').eq('id',u.data.user.id).maybeSingle()).data;
+      if(!prof || !prof.school_id) return;
+      var rows = (await c.from('school_content').select('item_key,enabled,scope').eq('school_id',prof.school_id)
+                    .in('item_key',['practice.'+sk,'mock.'+sk])).data || [];
+      if(!rows.some(function(r){ return r.scope; })) return;
+      var sm = { practice:null, mock:null };
+      rows.forEach(function(r){
+        if(!r.enabled) return;
+        var fam = r.item_key.split('.')[0];
+        sm[fam] = (r.scope && Array.isArray(r.scope.tests)) ? r.scope.tests : '*';
+      });
+      _sample = sm;
+      sampleHide();
+      try{ new MutationObserver(sampleHide).observe(document.body, {childList:true, subtree:true}); }catch(_){ }
+    }catch(e){}
+  }
+  function sampleOK(examType){
+    if(!_sample || !examType) return true;
+    var fam = /^mock/.test(examType) ? 'mock' : (/^practice/.test(examType) ? 'practice' : null);
+    if(!fam) return true;
+    var t = _sample[fam];
+    return t === '*' || (Array.isArray(t) && t.indexOf(examType) >= 0);
+  }
+  /* Las tarjetas «📘 Práctica N» / «📝 MOCK N» que no entran en la muestra no se pintan. */
+  function sampleHide(){
+    if(!_sample) return;
+    var hs = document.querySelectorAll('h2');
+    for(var i=0;i<hs.length;i++){
+      var m = /(Práctica|Practice|MOCK)\s+(\d+)\s*$/.exec(hs[i].textContent || '');
+      if(!m) continue;
+      var n = +m[2];
+      var t = m[1] === 'MOCK' ? ('mock' + (n < 10 ? '0' : '') + n) : (n === 1 ? 'practice' : 'practice' + n);
+      var card = hs[i].parentElement;
+      if(card && !sampleOK(t) && card.style.display !== 'none') card.style.display = 'none';
+    }
+  }
+
   /* ---- el candado por test (solo en mock mode): ese mock, en ese nivel ---- */
   function allowedSync(examType){
+    if(!sampleOK(examType)) return false;
     if(!_off) return true;
     var st = S();
     return examType === _off.examType && (!st || !st.level || st.level === _off.level);
   }
   function lockMsg(){
+    if(!_off && _sample){
+      var ms = '🔒 This sample includes Practice 1 and MOCK 1 of each level.';
+      if(window.NISUI && NISUI.avisa) NISUI.avisa(ms, {titulo:'Sample'}); else alert(ms);
+      return;
+    }
     var m = _off ? ('🔒 Today you only sit your ' + (_off.mode === 'individual' ? 'individual mock' : 'official mock') + ': ' + (_off.level ? LEVEL_NAMES[_off.level] + ' · ' : '') + mockLabel(_off) + '.') : '🔒 Locked.';
     if(window.NISUI && NISUI.avisa) NISUI.avisa(m, {titulo:'Mock mode'}); else alert(m);
   }
@@ -564,7 +619,7 @@
     var ban = document.getElementById('officialBanner');
     if(ban && _off){ ban.hidden = false; ban.setAttribute('data-i18n', 'off'); ban.textContent = '🎓 Today you sit your ' + (_off.mode === 'individual' ? 'individual' : 'official') + ' mock: ' + (_off.level ? LEVEL_NAMES[_off.level] + ' · ' : '') + mockLabel(_off) + '. It is the only thing open.'; }
   }
-  function boot(){ wrapGates(); official(); }
+  function boot(){ wrapGates(); official(); resolveSample(); }
   if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
   setTimeout(wrapGates, 400); setTimeout(wrapGates, 1500);
 })();
