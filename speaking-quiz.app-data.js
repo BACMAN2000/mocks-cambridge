@@ -544,6 +544,9 @@ function topbar(crumb, extra){
 function setView(v){ S.view = v; try{ window.scrollTo(0, 0); }catch(e){} }
 
 function viewHome(){
+  /* ?level=A2|B1|B2|C1 (tarjeta de nivel): salta la elección de nivel, solo la primera vez. */
+  var _ql = new URLSearchParams(location.search).get('level');
+  if(_ql && SP_LEVELS[_ql] && SP_TESTS[_ql] && !window._levelUsed){ window._levelUsed = true; S.level = _ql; return viewTests(); }
   setView('home'); app.className = 'app';
   app.innerHTML = '<div class="hero">' + (MSITE.logo ? '<img src="' + esc(MSITE.logo) + '" alt="' + esc(MSITE.logoAlt) + '">' : '') +
     '<h1>MOCKS CAMBRIDGE — Speaking</h1>' +

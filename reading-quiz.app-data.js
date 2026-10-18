@@ -43443,6 +43443,9 @@ const render = {
   },
 
   level(){
+    /* ?level=A2|B1|B2|C1 (tarjeta de nivel): salta la elección de nivel, solo la primera vez. */
+    const _ql = new URLSearchParams(location.search).get('level');
+    if(_ql && OFFICIAL[_ql] && !window._levelUsed){ window._levelUsed = true; state.level = _ql; return go('category'); }
     const levels=['A2','B1','B2','C1'];
     app.innerHTML = `
       ${topbar('Welcome &rsaquo; '+state.skill+' &rsaquo; Choose a level')}

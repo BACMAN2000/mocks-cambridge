@@ -58355,6 +58355,9 @@ function viewWelcome(){
 }
 
 function viewLevelSelect(){
+  /* ?level=A2|B1|B2|C1 (tarjeta de nivel): salta la elección de nivel, solo la primera vez. */
+  const _ql = new URLSearchParams(location.search).get('level');
+  if(_ql && QUIZ[_ql] && !window._levelUsed){ window._levelUsed = true; state.level = _ql; return viewCategory(); }
   TTS.stop();
   document.body.classList.remove('exam-mode','result-mode');
   document.body.classList.add('signin-mode');

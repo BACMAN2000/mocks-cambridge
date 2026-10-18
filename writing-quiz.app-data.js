@@ -5365,6 +5365,9 @@ const render={
     };
   },
   level(){
+    /* ?level=A2|B1|B2|C1 (tarjeta de nivel): salta la elección de nivel, solo la primera vez. */
+    const _ql = new URLSearchParams(location.search).get('level');
+    if(_ql && ['A2','B1','B2','C1'].includes(_ql) && !window._levelUsed){ window._levelUsed = true; state.level = _ql; return go('category'); }
     stopTimer();
     app.className='app';
     app.innerHTML=`<div class="hero">
