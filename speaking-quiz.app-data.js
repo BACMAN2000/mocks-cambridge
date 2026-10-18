@@ -549,18 +549,18 @@ function viewHome(){
   if(_ql && SP_LEVELS[_ql] && SP_TESTS[_ql] && !window._levelUsed){ window._levelUsed = true; S.level = _ql; return viewTests(); }
   setView('home'); app.className = 'app';
   app.innerHTML = '<div class="hero">' + (MSITE.logo ? '<img src="' + esc(MSITE.logo) + '" alt="' + esc(MSITE.logoAlt) + '">' : '') +
-    '<h1>MOCKS CAMBRIDGE — Speaking</h1>' +
+    '<h1>Cambridge — Speaking</h1>' +
     '<p class="sub">Practise the Cambridge Speaking test on your own. A virtual examiner asks the questions, you answer out loud, and the AI gives you orientative feedback.</p>' +
     '<div class="levels sp-levels">' + ['A2', 'B1', 'B2', 'C1'].map(function(l){
       return '<div class="level-card" data-act="level" data-l="' + l + '"><div class="lv">' + l + '</div><div class="nm">' + esc(SP_LEVELS[l].exam) + '</div></div>';
     }).join('') + '</div>' +
     '<p style="margin-top:16px"><button class="btn ghost" data-act="history">My sessions</button></p>' +
-    '<p style="margin-top:10px"><a class="link" href="quizzes.html">&larr; Back to all quizzes</a></p></div>';
+    '<p style="margin-top:10px"><a class="link" href="quizzes.html">&larr; Back to Practice tests</a></p></div>';
 }
 function viewTests(){
   setView('tests'); app.className = 'app';
   var lv = SP_LEVELS[S.level];
-  app.innerHTML = '<div class="sp-wrap">' + topbar('MOCKS CAMBRIDGE &rsaquo; Speaking &rsaquo; ' + esc(S.level)) +
+  app.innerHTML = '<div class="sp-wrap">' + topbar('Cambridge tests &rsaquo; Speaking &rsaquo; ' + esc(S.level)) +
     '<h1 style="margin:0 0 4px;font-size:1.6rem">' + esc(lv.exam) + ' — Speaking practice</h1>' +
     '<p class="sp-sub" style="margin:0 0 6px">' + esc(lv.parts) + ' · ' + esc(lv.mins) + '</p>' +
     '<div class="sp-tests">' + SP_TESTS[S.level].map(function(t, i){
@@ -576,7 +576,7 @@ function viewPrepare(){
   if(!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia) || typeof MediaRecorder === 'undefined') warns.push('This browser cannot record audio. You can still do the test, and type what you said on the review screen.');
   if(!SRClass) warns.push('This browser cannot turn your speech into text automatically. You will type or paste your answers on the review screen (Chrome and recent Safari can transcribe).');
   if(!window.speechSynthesis) warns.push('This browser has no examiner voice: read the questions on the screen.');
-  app.innerHTML = '<div class="sp-wrap">' + topbar('MOCKS CAMBRIDGE &rsaquo; Speaking &rsaquo; ' + esc(S.level) + ' &rsaquo; ' + esc(t.title)) +
+  app.innerHTML = '<div class="sp-wrap">' + topbar('Cambridge tests &rsaquo; Speaking &rsaquo; ' + esc(S.level) + ' &rsaquo; ' + esc(t.title)) +
     '<div class="card"><h2>' + esc(lv.exam) + ' — ' + esc(t.title) + '</h2>' +
     '<ul style="margin:6px 0 10px 18px;padding:0;line-height:1.7">' +
     '<li>Find a quiet place and use headphones if you can.</li>' +
@@ -620,7 +620,7 @@ function showHtml(sh){
 function renderStep(){
   var st = S.steps[S.idx];
   setView('run'); app.className = 'app';
-  app.innerHTML = '<div class="sp-wrap">' + topbar('MOCKS CAMBRIDGE &rsaquo; Speaking &rsaquo; ' + esc(S.level) + ' &rsaquo; ' + esc(SP_TESTS[S.level][S.ti].title),
+  app.innerHTML = '<div class="sp-wrap">' + topbar('Cambridge tests &rsaquo; Speaking &rsaquo; ' + esc(S.level) + ' &rsaquo; ' + esc(SP_TESTS[S.level][S.ti].title),
       '<button class="sp-btn2" data-act="finish">Finish &amp; review</button>') +
     '<div class="card"><div class="sp-prog">' + S.steps.map(function(x, i){ return '<i class="' + (i < S.idx ? 'on' : (i === S.idx ? 'cur' : '')) + '"></i>'; }).join('') + '</div>' +
     '<div class="sp-part">' + esc(st.pname) + ' <span class="sp-sub" style="font-weight:400">· ' + (S.idx + 1) + ' / ' + S.steps.length + '</span></div>' +
@@ -809,7 +809,7 @@ function freeUrls(){ urls.forEach(function(u){ try{ URL.revokeObjectURL(u); }cat
 function viewReview(){
   setView('review'); app.className = 'app'; freeUrls();
   var ss = S.session, lv = SP_LEVELS[ss.level], tok = aiToken();
-  var h = '<div class="sp-wrap">' + topbar('MOCKS CAMBRIDGE &rsaquo; Speaking &rsaquo; ' + esc(ss.level) + ' &rsaquo; ' + esc(ss.title) + ' &rsaquo; Review') +
+  var h = '<div class="sp-wrap">' + topbar('Cambridge tests &rsaquo; Speaking &rsaquo; ' + esc(ss.level) + ' &rsaquo; ' + esc(ss.title) + ' &rsaquo; Review') +
     '<h1 style="margin:0 0 4px;font-size:1.5rem">Review — ' + esc(lv.exam) + ' · ' + esc(ss.title) + '</h1>' +
     '<p class="sp-sub" style="margin:0 0 10px">' + new Date(ss.created).toLocaleString() + ' · saved on this device</p>';
   h += '<div class="card"><h2>AI examiner</h2>';
@@ -849,7 +849,7 @@ function flushSaves(){
 /* ===================== historial ===================== */
 function viewHistory(){
   setView('history'); app.className = 'app';
-  app.innerHTML = '<div class="sp-wrap">' + topbar('MOCKS CAMBRIDGE &rsaquo; Speaking &rsaquo; My sessions') + '<div id="spHist"><p class="sp-sub">Loading…</p></div>' +
+  app.innerHTML = '<div class="sp-wrap">' + topbar('Cambridge tests &rsaquo; Speaking &rsaquo; My sessions') + '<div id="spHist"><p class="sp-sub">Loading…</p></div>' +
     '<p style="margin-top:14px"><a class="link" href="#" data-act="home">&larr; Back to levels</a></p></div>';
   allSessions().then(function(list){
     list.sort(function(a, b){ return b.created - a.created; }); S.history = list;

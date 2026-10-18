@@ -5349,13 +5349,13 @@ const render={
     app.className='app';
     app.innerHTML=`<div class="hero">
       <img src="${MSITE.logo}" alt="${MSITE.schoolName}">
-      <h1>MOCKS CAMBRIDGE — Writing</h1>
+      <h1>Cambridge — Writing</h1>
       <p class="sub">Two writing mocks (MOCK 1 &amp; MOCK 2), Cambridge format — B1 · B2 · C1</p>
       <div class="field"><label>Full name</label><input id="nm" placeholder="e.g. Ana López"></div>
       <div class="field"><label>Grade / Class</label><input id="gr" placeholder="e.g. G9"></div>
       <div class="field"><label>Email (optional — to receive your report)</label><input id="em" type="email" placeholder="you@example.com"></div>
       <button class="btn" id="go" style="margin-top:8px">Continue →</button>
-      <p style="margin-top:14px"><a class="link" href="quizzes.html">← Back to all quizzes</a></p>
+      <p style="margin-top:14px"><a class="link" href="quizzes.html">← Back to Practice tests</a></p>
     </div>`;
     document.getElementById('go').onclick=()=>{
       const n=document.getElementById('nm').value.trim();
@@ -5397,7 +5397,7 @@ const render={
       }
     }catch(e){}
     app.innerHTML=`
-      <div style="color:var(--muted);font-size:.9rem;margin-bottom:6px">MOCKS CAMBRIDGE &rsaquo; Writing &rsaquo; ${state.level} &rsaquo; Choose</div>
+      <div style="color:var(--muted);font-size:.9rem;margin-bottom:6px">Cambridge tests &rsaquo; Writing &rsaquo; ${state.level} &rsaquo; Choose</div>
       <h1 style="margin:0 0 6px;font-size:1.7rem">${state.level} Writing</h1>
       <p style="color:var(--muted);max-width:760px;margin:0 0 16px">${examName}. Choose what you want to take today.</p>
 
@@ -5425,7 +5425,7 @@ const render={
         <button class="btn" style="${cardBtn}" onclick="window._pickExam('${type}')">Empezar Práctica ${n} &rarr;</button>
       </div>`;
     app.innerHTML=`
-      <div style="color:var(--muted);font-size:.9rem;margin-bottom:6px">MOCKS CAMBRIDGE &rsaquo; Writing &rsaquo; ${state.level} &rsaquo; Practice</div>
+      <div style="color:var(--muted);font-size:.9rem;margin-bottom:6px">Cambridge tests &rsaquo; Writing &rsaquo; ${state.level} &rsaquo; Practice</div>
       <h1 style="margin:0 0 6px;font-size:1.7rem">${state.level} Writing — choose a practice</h1>
       <p style="color:var(--muted);max-width:760px;margin:0 0 16px">${examName}. Three warm-up writing tests — same authentic Cambridge format. Part 1 is compulsory; choose one task in Part 2. Your writing is sent to your teacher to mark.</p>
       ${card('📘',1,'Warm-up writing test in the authentic Cambridge format.','practice')}
@@ -5440,7 +5440,7 @@ const render={
     const examName={B1:'B1 Preliminary',B2:'B2 First',C1:'C1 Advanced'}[state.level]||state.level;
     const cardBtn="margin-top:8px";
     app.innerHTML=`
-      <div style="color:var(--muted);font-size:.9rem;margin-bottom:6px">MOCKS CAMBRIDGE &rsaquo; Writing &rsaquo; ${state.level} &rsaquo; Mocks</div>
+      <div style="color:var(--muted);font-size:.9rem;margin-bottom:6px">Cambridge tests &rsaquo; Writing &rsaquo; ${state.level} &rsaquo; Mocks</div>
       <h1 style="margin:0 0 6px;font-size:1.7rem">${state.level} Writing — choose a mock</h1>
       <p style="color:var(--muted);max-width:760px;margin:0 0 16px">${examName}. Two full writing mocks — same authentic Cambridge format. Part 1 is compulsory; choose one task in Part 2. Your writing is sent to your teacher to mark.</p>
 

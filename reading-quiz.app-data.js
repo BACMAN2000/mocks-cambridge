@@ -43371,23 +43371,23 @@ const render = {
     app.innerHTML = `
       <div class="hero">
         <img class="hero-logo" src="${MSITE.logo}" alt="${MSITE.schoolName}">
-        <h1>MOCKS CAMBRIDGE — Reading &amp; Use of English</h1>
-        <p class="sub">Two full mock exams (MOCK 1 &amp; MOCK 2), Cambridge format — A2 · B1 · B2 · C1</p>
+        <h1>Cambridge — Reading &amp; Use of English</h1>
+        <p class="sub">Practice tests in Cambridge format — A2 · B1 · B2 · C1</p>
         <div class="qr">
           <img src="${qrSrc(location.href)}" alt="QR code" onerror="this.closest('.qr').style.display='none'">
         </div>
-        <p class="qr-help">Scan this QR with your phone to open the Reading Mock on another device, then sign in with your name and grade.</p>
+        <p class="qr-help">Scan this QR to open this page on your phone, then sign in with your name and grade.</p>
         <div class="row" style="justify-content:center;margin-top:8px">
           <button id="welBtn">Sign in &amp; start &rarr;</button>
         </div>
-        <div style="margin-top:14px"><a class="link" href="quizzes.html">&larr; Back to all quizzes</a> &nbsp;·&nbsp; <a class="link" href="listening-quiz.html">🎧 Listening Quiz</a></div>
+        <div style="margin-top:14px"><a class="link" href="quizzes.html">&larr; Back to Practice tests</a> &nbsp;·&nbsp; <a class="link" href="listening-quiz.html">🎧 Listening Quiz</a></div>
       </div>
       <div class="card">
         <h2>How it works</h2>
         <ol style="padding-left:22px;line-height:1.7;color:var(--muted)">
           <li>Enter your full name and grade / class.</li>
           <li>Pick your level (A2 Key, B1 Preliminary, B2 First or C1 Advanced).</li>
-          <li>Choose MOCK 1 or MOCK 2 — two complete mock exams per level, auto-scored.</li>
+          <li>Choose a practice test — complete Cambridge-format papers, auto-scored.</li>
           <li>A timer matching the real Cambridge duration runs at the top of the exam.</li>
           <li>You get a CEFR-level interpretation of your score plus a per-part analysis at the end.</li>
         </ol>
@@ -43474,7 +43474,7 @@ const render = {
       }
     }catch(e){}
     app.innerHTML = `
-      ${topbar('MOCKS CAMBRIDGE &rsaquo; '+state.skill+' &rsaquo; '+state.level+' &rsaquo; Choose')}
+      ${topbar('Cambridge tests &rsaquo; '+state.skill+' &rsaquo; '+state.level+' &rsaquo; Choose')}
       <h1>${state.level} ${state.skill}</h1>
       <p class="sub">${off.name}. Choose what you want to take today.</p>
       <div class="grid2">
@@ -43514,7 +43514,7 @@ const render = {
         <div class="row" style="margin-top:14px"><button id="pracMoreBtn${num}">Start Práctica ${num} &rarr;</button></div>
       </div>`; }).join('');
     app.innerHTML = `
-      ${topbar('MOCKS CAMBRIDGE &rsaquo; '+state.skill+' &rsaquo; '+state.level+' &rsaquo; Practice')}
+      ${topbar('Cambridge tests &rsaquo; '+state.skill+' &rsaquo; '+state.level+' &rsaquo; Practice')}
       <h1>${state.level} ${state.skill} — choose a practice</h1>
       <p class="sub">${off.name}. Warm-up tests in the authentic Cambridge format — auto-scored with timer and CEFR feedback.</p>
 
@@ -43557,7 +43557,7 @@ const render = {
   examPick(){
     const off=OFFICIAL[state.level];
     app.innerHTML = `
-      ${topbar('MOCKS CAMBRIDGE &rsaquo; '+state.skill+' &rsaquo; '+state.level+' &rsaquo; Mocks')}
+      ${topbar('Cambridge tests &rsaquo; '+state.skill+' &rsaquo; '+state.level+' &rsaquo; Mocks')}
       <h1>${state.level} ${state.skill} — choose a mock</h1>
       <p class="sub">${off.name}. Two full mock exams in the authentic Cambridge (Inspera-style) format. Auto-scored with timer and CEFR analysis.</p>
 

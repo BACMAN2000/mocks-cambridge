@@ -58407,7 +58407,7 @@ async function viewCategory(){
   }catch(e){}
   app.innerHTML = `
     <div class="signin-wrap">
-      <div class="crumb">MOCKS CAMBRIDGE &rsaquo; Listening &rsaquo; ${state.level} &rsaquo; Choose</div>
+      <div class="crumb">Cambridge tests &rsaquo; Listening &rsaquo; ${state.level} &rsaquo; Choose</div>
       <h1>${state.level} Listening</h1>
       <p class="sub">${examName}. Choose what you want to take today.</p>
 
@@ -58439,7 +58439,7 @@ function viewExamPick(){
   const cardCss = "background:#fff;border-radius:16px;box-shadow:0 10px 30px rgba(15,23,42,.10);padding:28px 30px;margin-bottom:18px";
   app.innerHTML = `
     <div class="signin-wrap">
-      <div class="crumb">MOCKS CAMBRIDGE &rsaquo; Listening &rsaquo; ${state.level} &rsaquo; Mocks</div>
+      <div class="crumb">Cambridge tests &rsaquo; Listening &rsaquo; ${state.level} &rsaquo; Mocks</div>
       <h1>${state.level} Listening — choose a mock</h1>
       <p class="sub">${examName}. Two full listening mocks — same authentic Cambridge (Inspera-style) format with real audio. Auto-scored with timer and CEFR analysis.</p>
 
@@ -58491,7 +58491,7 @@ function viewPracticePick(){
   const has3 = !!(QUIZ5 && QUIZ5[state.level]);
   app.innerHTML = `
     <div class="signin-wrap">
-      <div class="crumb">MOCKS CAMBRIDGE &rsaquo; Listening &rsaquo; ${state.level} &rsaquo; Practice</div>
+      <div class="crumb">Cambridge tests &rsaquo; Listening &rsaquo; ${state.level} &rsaquo; Practice</div>
       <h1>${state.level} Listening — choose a practice</h1>
       <p class="sub">${examName}. Warm-up listening tests with real audio, in the authentic Cambridge format. Auto-scored with timer and CEFR feedback.</p>
 

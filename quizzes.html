@@ -11,7 +11,7 @@ if(/\.github\.io$/i.test(location.hostname)){
   location.replace('https://nis.cohasset.pe'+location.pathname+location.search+location.hash);
 }
 </script>
-<title>MOCKS CAMBRIDGE — Nordic International School</title>
+<title>Cambridge Practice Tests — Nordic International School</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <!-- Web app (19-sep-2026): desde «Añadir a pantalla de inicio» el portal abre sin las barras de Safari/Chrome,
      que es la unica pantalla completa fiable en iPad; las paginas del mismo origen (mocks incluidos) siguen dentro. -->
@@ -43,9 +43,9 @@ if(/\.github\.io$/i.test(location.hostname)){
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link href="../vendor/fonts/montserrat-68a53b.css" rel="stylesheet">
 <link rel="preload" href="../fonts/GothamBook.woff2?v=a8d93b82" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../nis-fonts.css?v=72345e4f">
+<link rel="stylesheet" href="../nis-fonts.css?v=ccf4437d">
 <script>try{var t=localStorage.getItem("nis-tema");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
-<link rel="stylesheet" href="../nis-tokens.css?v=b3bffd5c">
+<link rel="stylesheet" href="../nis-tokens.css?v=49a1c5b9">
 <style>
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
@@ -84,30 +84,14 @@ if(/\.github\.io$/i.test(location.hostname)){
 <body>
 <header>
   <a class="logo" href="quizzes.html"><img src="nordic-logo-h.svg" alt="Nordic International School of Lima"></a>
-  <div class="sub">MOCKS CAMBRIDGE · Mocks &amp; Practice Tests · A2 / B1 / B2 / C1</div>
+  <div class="sub">Cambridge Practice Tests · A2 / B1 / B2 / C1</div>
   <a class="me-btn" href="/?me=1">📊 My progress</a>
-  <a class="me-btn" style="background:#2d5a8d" href="/">🏫 NIS Portal</a>
+  <a class="me-btn" style="background:#2d5a8d" href="/">◀ Back</a>
   <button class="me-btn" style="background:#9b2c2c;border:none;cursor:pointer;font:inherit" onclick="window._signout()">🚪 Sign out</button>
 </header>
 <main>
-  <h1>MOCKS CAMBRIDGE</h1>
-  <p class="lead">Exams in official Cambridge format, by paper and level (A2 · B1 · B2 · C1). Choose a section — you go straight in with your NIS Portal session.</p>
-
-  <!-- nis-only:start (el sync de cohasset.pe recorta este bloque: su portal ya tiene sección YLE propia) -->
-  <h2 style="font-size:18px;margin:6px 0 2px">🧭 YLE — Young Learners (Primary)</h2>
-  <p style="color:var(--muted);font-size:13px;margin:0 0 12px"><b>Fun for Nordic</b>, our Cambridge Young Learners course: interactive units with audio, crosswords and exam tasks. Open to primary.</p>
-  <div class="grid">
-    <div class="card" style="border-top:5px solid #3b6fb5">
-      <h2>🧭 Fun for Nordic — YLE</h2>
-      <div class="desc">150 units across three levels with the characters from the series: The Lighthouse Explorers, The Fjord Club and The Aurora Expedition.</div>
-      <div style="display:flex;gap:8px;flex-wrap:wrap">
-        <a class="btn" style="background:#d97d0d" href="../nis-fun/engine/?level=starters">Pre A1 · Starters</a>
-        <a class="btn" style="background:#2f9268" href="../nis-fun/engine/?level=movers">A1 · Movers</a>
-        <a class="btn" style="background:#3b6fb5" href="../nis-fun/engine/?level=flyers">A2 · Flyers</a>
-      </div>
-    </div>
-  </div>
-  <!-- nis-only:end -->
+  <h1>Cambridge Practice Tests</h1>
+  <p class="lead">Reading &amp; Use of English, Listening, Writing and Speaking in the official Cambridge format, by level (A2 · B1 · B2 · C1). Choose a paper — you go straight in with your NIS Portal session.</p>
 
   <!-- Aviso del dia del mock (lo rellena nis-bridge.js cuando aplica). -->
   <div class="tip" id="officialBanner" hidden></div>
@@ -175,14 +159,46 @@ if(/\.github\.io$/i.test(location.hostname)){
   </div>
   </section>
 
+  <!-- nis-only:start (el sync de cohasset.pe recorta este bloque: su portal ya tiene sección YLE propia) -->
+  <section id="yleSection">
+  <h2 style="font-size:18px;margin:22px 0 2px">🧭 YLE — Young Learners (Primary)</h2>
+  <p style="color:var(--muted);font-size:13px;margin:0 0 12px"><b>Fun for Nordic</b>, our Cambridge Young Learners course: interactive units with audio, crosswords and exam tasks. Open to primary.</p>
+  <div class="grid">
+    <div class="card" style="border-top:5px solid #3b6fb5">
+      <h2>🧭 Fun for Nordic — YLE</h2>
+      <div class="desc">150 units across three levels with the characters from the series: The Lighthouse Explorers, The Fjord Club and The Aurora Expedition.</div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <a class="btn" style="background:#d97d0d" href="../nis-fun/engine/?level=starters">Pre A1 · Starters</a>
+        <a class="btn" style="background:#2f9268" href="../nis-fun/engine/?level=movers">A1 · Movers</a>
+        <a class="btn" style="background:#3b6fb5" href="../nis-fun/engine/?level=flyers">A2 · Flyers</a>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!-- nis-only:end -->
+
   <div class="tip">
     💡 Students sign in from the <b>NIS Portal</b> with their email and password. <b>Practice Tests</b> are for practice (your teacher can hold them back by grade); the <b>official Mock</b> appears on your Portal home page on the day the admin sets it, and that day it is the only thing open. Results are saved automatically.
   </div>
 
-  <div class="footer">MOCKS CAMBRIDGE · NIS English · 2026</div>
+  <div class="footer">Cambridge Practice Tests · NIS English · 2026</div>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4"></script>
-<script src="nis-bridge.js?v=9de91fff"></script>
+<script src="nis-bridge.js?v=4b6b9dc9"></script>
+<script>
+  /* YLE es de primaria: el alumno de secundaria (grado 6 en adelante) no lo
+     ve, para que la página empiece y termine en sus Practice tests. */
+  (async function(){
+    var y = document.getElementById('yleSection'); if(!y || !window.NIS || !NIS.client) return;
+    try{
+      var c = NIS.client(); if(!c) return;
+      var u = await c.auth.getUser(); if(!u || !u.data || !u.data.user) return;
+      var r = await c.from('profiles').select('role,grade_id').eq('id', u.data.user.id).maybeSingle();
+      var p = r && r.data;
+      if(p && p.role === 'student' && Number(p.grade_id) > 5) y.hidden = true;
+    }catch(_){}
+  })();
+</script>
 <script>
   window._signout = async function(){
     // Try a clean Supabase sign-out if the bridge is loaded…
@@ -201,8 +217,8 @@ if(/\.github\.io$/i.test(location.hostname)){
     window.location.href = '/?logout=1';
   };
 </script>
-<script src="../nis-presence.js?v=684f7b00" defer></script>
-<script src="../nis-i18n.js?v=90aa61ff" defer></script>
-<script src="../nis-tema.js?v=0ae7c164" defer></script>
+<script src="../nis-presence.js?v=e3d0b9ce" defer></script>
+<script src="../nis-i18n.js?v=5153fbcb" defer></script>
+<script src="../nis-tema.js?v=cbbd6ad5" defer></script>
 </body>
 </html>
